@@ -1,0 +1,3 @@
+[submodule "stac-browser"]
+	path = stac-browser
+	url = https://github.com/radiantearth/stac-browser.git
