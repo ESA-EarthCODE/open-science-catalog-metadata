@@ -1,0 +1,32 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Setup Node
+        uses: actions/setup-node@v2
+      - name: Build static Catalog
+        run: |
+          pip install open-science-catalog-builder/
+          osc build data/ -o dist/
+      - name: Building Catalog client
+        run: |
+          cd stac-browser/
+          npm install
+          npm run build -- --catalogUrl="https://${GITHUB_REPOSITORY_OWNER}.github.io/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')/catalog.json" --pathPrefix="/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')/"
+          cp -r dist/* ../dist
+          cd ..
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: dist
