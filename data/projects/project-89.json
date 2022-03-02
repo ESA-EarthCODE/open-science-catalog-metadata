@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-89",
+  "properties": {
+    "title": "S5p Innovation - SO2-LH",
+    "description": "Generation of an SO2 layer height product for Sentinel-5p taking into account data production timeliness requirements.",
+    "osc:name": "SENTINEL-5P+ INNOVATION - SO2 Layer Height Project",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "e-mail": "technical.officer@osc.org"
+    },
+    "osc:consortium": [
+      "DLR - GERMAN AEROSPACE CENTER (DE)",
+      "ARISTOTLE UNIV. OF THESSALONIKI (GR)",
+      "UNIVERSITY OF OXFORD (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-06-07",
+    "end_datetime": "2021-06-30",
+    "datetime": "2019-06-07T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://atmos.eoc.dlr.de/so2-lh/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-so2-layer-height-project/"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

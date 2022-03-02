@@ -1,0 +1,83 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-145",
+  "properties": {
+    "start_datetime": "2010-01-01",
+    "end_datetime": "2017-01-01",
+    "title": "Rainfall product_PrISM v4.0_Africa_SMOS",
+    "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25\u00b0 (about 25\u00d725 km\u00b2) and every 3 hours from 2010 to 2017. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm_. _More details can be found in the netCDF file.",
+    "osc:missions": [
+      "SMOS"
+    ],
+    "osc:project": "SMOS+ Rainfall Land",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:variable": "Precipitation",
+    "osc:status": "COMPLETED",
+    "osc:region": "Africa",
+    "osc:type": "Product",
+    "version": "4.0",
+    "sci:doi": "https://doi.org/10.5281/zenodo.3565610",
+    "datetime": "2010-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -17.6437950701,
+      -34.7956685989,
+      51.3470799095,
+      37.4409039439
+    ],
+    "coordinates": [
+      [
+        [
+          -17.6437950701,
+          -34.7956685989
+        ],
+        [
+          51.3470799095,
+          -34.7956685989
+        ],
+        [
+          51.3470799095,
+          37.4409039439
+        ],
+        [
+          -17.6437950701,
+          37.4409039439
+        ],
+        [
+          -17.6437950701,
+          -34.7956685989
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.esasmosrainfall.org"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.esasmosrainfall.org/#datasets"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/https%3A//doi.org/10.5281/zenodo.3565610"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -17.6437950701,
+    -34.7956685989,
+    51.3470799095,
+    37.4409039439
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ]
+}

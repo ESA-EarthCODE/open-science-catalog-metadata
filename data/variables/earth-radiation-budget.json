@@ -1,0 +1,6 @@
+{
+  "name": "Earth radiation budget\u00a0",
+  "description": "The Earth Radiation Budget (at the top of the atmosphere) describes the overall balance between the incoming energy from the sun and the outgoing thermal (longwave) and reflected (shortwave) energy from the earth. It can only be measured from space. The radiation balance at the top of the atmosphere is the basic radiative forcing of the climate system. Measuring its variability in space and time over the globe provides insight into the overall response of the system to this forcing. https://gcos.wmo.int/en/essential-climate-variables/earth-radiation",
+  "link": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/",
+  "theme": "atmosphere"
+}

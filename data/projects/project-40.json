@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-40",
+  "properties": {
+    "title": "Anthropogenic CO2 Emissions Sources",
+    "description": "Developing a new methodology for detecting anthropogenic carbon dioxide emission sources using colocated CO2 data from OCO-2 and NO2, SO2 and CO data from Sentinel-5P",
+    "osc:name": "DACES - Detection of Anthropogenic CO2 Emissions Sources",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "e-mail": "technical.officer@osc.org"
+    },
+    "osc:consortium": [
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-10-05",
+    "end_datetime": "2022-03-01",
+    "datetime": "2018-10-05T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/daces-detection-of-anthropogenic-co2-emissions-sources/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/daces-detection-of-anthropogenic-co2-emissions-sources/"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

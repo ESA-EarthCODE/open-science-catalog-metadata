@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-103",
+  "properties": {
+    "title": "SUNLIT",
+    "description": "Development of new global tropospheric ozone datasets using combination of total ozone column from OMI and TROPOMI with stratospheric ozone column dataset from several available limb-viewing instruments (MLS, OSIRIS, MIPAS, SCIAMACHY, OMPS-LP, GOMOS). The novelty of the SUNLIT approach is using measurements from several satellite instruments in limb-viewing geometry for deriving the stratospheric ozone column dataset.",
+    "osc:name": "SUNLIT - Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "e-mail": "technical.officer@osc.org"
+    },
+    "osc:consortium": [
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-07-31",
+    "end_datetime": "2021-12-31",
+    "datetime": "2018-07-31T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://nsdc.fmi.fi/data/data_sunlit.php"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

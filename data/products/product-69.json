@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-69",
+  "properties": {
+    "start_datetime": "2010-01-01",
+    "end_datetime": "2015-01-01",
+    "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2",
+    "description": "Available by request to: technical.officer@osc.org",
+    "osc:missions": [
+      "CryoSat-2"
+    ],
+    "osc:project": "CryoSat+ Mountain Glaciers",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Glaciers",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "datetime": "2010-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.cryosat-mtg.org/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

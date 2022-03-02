@@ -1,0 +1,6 @@
+{
+  "name": "Albedo",
+  "description": "The land surface albedo is the ratio of the radiant flux reflected from Earth\u2019s surface to the incident flux. It is a key forcing parameter controlling the partitioning of radiative energy between the atmospheric and surface. In the case of vegetation, a reference surface is typically defined at or near the top of the canopy and must be specified explicitly. Surface albedo depends on natural variations, highly variable in space and time as a result of terrestrial properties changes, and with illumination conditions and human activities and is a sensitive indicator of environmental vulnerability. https://gcos.wmo.int/en/essential-climate-variables/albedo",
+  "link": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/",
+  "theme": "land"
+}

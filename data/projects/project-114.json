@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-114",
+  "properties": {
+    "title": "WIFOS",
+    "description": "Development of a novel instrument to measure profiles of water vapour isotopologues from ground to the upper troposphere on a small (<20kg payload) balloon-borne platform ",
+    "osc:name": "Water vapour Isotopologue Flask sampling for the Validation Of Satellite data (WIFVOS)",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "e-mail": "technical.officer@osc.org"
+    },
+    "osc:consortium": [
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)",
+      "Universiteit Utrecht (NL)",
+      "UNIVERSITY OF BERGEN (NO)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2021-02-23",
+    "end_datetime": "2022-03-03",
+    "datetime": "2021-02-23T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/wifvos/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/wifvos/"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

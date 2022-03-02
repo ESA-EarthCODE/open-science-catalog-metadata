@@ -1,0 +1,6 @@
+{
+  "name": "Surface reflectance",
+  "description": "Surface reflectance is the amount of light reflected by the surface of the Earth. It is a ratio of surface radiance to surface irradiance, and as such is unitless, with values between 0 and 1.",
+  "link": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/",
+  "theme": "land"
+}

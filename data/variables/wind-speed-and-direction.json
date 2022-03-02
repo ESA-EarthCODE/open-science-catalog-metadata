@@ -1,0 +1,6 @@
+{
+  "name": "Wind speed and direction\u00a0",
+  "description": "Wind is one of the fundamental state variables for understanding and predicting the behaviour of the atmosphere. It is basic to the working of the climate system through transport of heat, moisture and trace constituents. Measurements of wind are vital for initializing and verifying climate projections and for detecting, understanding and attributing variability and change in the climate system. https://gcos.wmo.int/en/essential-climate-variables/upper-wind",
+  "link": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/",
+  "theme": "atmosphere"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-64",
+  "properties": {
+    "title": "Phase-based Sentinel-1 ice velocity",
+    "description": "Develop the technical basis for an advanced Sentinel-1 Ice Velocity (IV) product for ice sheets and ice caps with improved spatial resolution and accuracy, based on Sentinel-1 interferometric phase measurements",
+    "osc:name": "PHAB-IV: PHAse-Based sentinel-1 Ice Velocity",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "e-mail": "technical.officer@osc.org"
+    },
+    "osc:consortium": [
+      "Technical University of Denmark (DK)",
+      "ENVEO \u201a ENVIRONMENTAL EARTH OBSERVATION INFORMATION TECHNOLOGY GMBH (AT)",
+      "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-12-20",
+    "end_datetime": "2021-02-15",
+    "datetime": "2019-12-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/phab-iv/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/phab-iv/"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Subsurface temperature",
+  "description": "Subsurface temperature is a fundamental variable that is required to monitor variability and change in the physical environment of the ocean, energy flows, climate patterns and sea level. Many other physical variables are derived from subsurface temperature along with subsurface salinity, including subsurface density, geostrophic circulation, heat transport and steric sea level. Heat uptake by the global ocean accounts for more than 90% of the excess heat trapped in the Earth system in the past few decades. This ocean heat uptake helps to mitigate surface warming but, in turn, increases the global ocean volume through thermal expansion, and thus results in global-mean sea-level rise, accounting for about one third of the increase observed over the past few decades. https://gcos.wmo.int/en/essential-climate-variables/subsurface-temperature",
+  "link": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/",
+  "theme": "oceans"
+}

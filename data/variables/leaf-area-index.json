@@ -1,0 +1,6 @@
+{
+  "name": "Leaf area index",
+  "description": "The Leaf Area Index (LAI) of a plant canopy or ecosystem, defined as one half of the total green leaf area per unit horizontal ground surface area, measures the area of leaf material present in the specified environment. On sloping surfaces, the leaf area should be projected to the underlying ground along the normal to the slope. This dimensionless variable varies between 0 and values of about 10 or so, depending on local conditions. It partly controls important mass and energy exchange processes, such as radiation and rain interception, as well as photosynthesis and respiration, which couple vegetation to the climate system. Hence, LAI appears as a key variable in many models describing vegetation\u2013atmosphere interactions, particularly with respect to the carbon and water cycles. https://gcos.wmo.int/en/essential-climate-variables/lai",
+  "link": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/",
+  "theme": "land"
+}
