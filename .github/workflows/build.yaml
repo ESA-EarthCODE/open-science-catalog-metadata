@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install open-science-catalog-builder/
           osc build data/ -o dist/
+          osc build_iso data/ -o dist/
       - name: Building Catalog client
         run: |
           cd stac-browser/
