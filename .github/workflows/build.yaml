@@ -20,8 +20,7 @@ jobs:
       - name: Build static Catalog
         run: |
           pip install open-science-catalog-builder/
-          osc build data/ -o dist/
-          osc build-iso data/ -o dist/
+          osc build data/ -o dist/ --root-href "http://eoepca.github.io/open-science-catalog-metadata/"
       - name: Building Catalog client
         run: |
           cd stac-browser/
