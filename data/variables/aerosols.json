@@ -1,6 +1,1 @@
-{
-  "name": "Aerosols\u00a0",
-  "description": "Atmospheric aerosols are minor constituents of the atmosphere by mass, but a critical component in terms of impacts on the climate and especially climate changes. Aerosols influence the global radiation balance by directly scattering solar radiation and indirectly through influencing cloud reflectivity, cloud cover and cloud lifetime. https://gcos.wmo.int/en/essential-climate-variables/aerosols",
-  "link": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/",
-  "theme": "atmosphere"
-}
+{"name":"Aerosols","description":"Atmospheric aerosols are minor constituents of the atmosphere by mass, but a critical component in terms of impacts on the climate and especially climate changes. Aerosols influence the global radiation balance by directly scattering solar radiation and indirectly through influencing cloud reflectivity, cloud cover and cloud lifetime. https://gcos.wmo.int/en/essential-climate-variables/aerosols\n\nTest","theme":"Atmosphere","parentVariables":"","parentProject":"","startDate":"","endDate":"","satelliteMissions":"","eo4societyURL":"","link":"https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/"}
