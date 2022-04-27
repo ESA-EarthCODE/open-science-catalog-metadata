@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Simon Pinnock",
+      "e-mail": "simon.pinnock@esa.int"
     },
     "osc:consortium": [
       "Environmental Earth Observation IT GmbH (ENVEO IT GmbH)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://s14scisnow.enveo.at/"
+      "href": "http://s14scisnow.enveo.at/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/development-of-pan-european-multi-sensor-snow-mapping-methods-exploiting-sentinel-1/"
+      "href": "https://eo4society.esa.int/projects/development-of-pan-european-multi-sensor-snow-mapping-methods-exploiting-sentinel-1/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

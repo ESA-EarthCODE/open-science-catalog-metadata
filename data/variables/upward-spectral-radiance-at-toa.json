@@ -1,0 +1,6 @@
+{
+  "name": "Upward spectral radiance at TOA",
+  "description": "Upward radiant power measured at the top of the atmosphere per area unit, per solid angle, and per wavelength interval. Spectral range 0.2-200 \u00b5m. Resolving power ?/??= 1000. Accuracy quoted as SNR (Signal-to-Noise-Ratio), actually SNR^-1 so that smaller figure means better performance, as usual.",
+  "link": "",
+  "theme": "Atmosphere"
+}

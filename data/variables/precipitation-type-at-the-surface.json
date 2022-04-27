@@ -1,0 +1,6 @@
+{
+  "name": "Precipitation type at the surface",
+  "description": "The type of precipitation reaching the surface, including snow, rain, hail, dew, rime, hoar frost and fog precipitation.",
+  "link": "",
+  "theme": "Atmosphere"
+}

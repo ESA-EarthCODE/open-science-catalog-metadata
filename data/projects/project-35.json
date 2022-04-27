@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
     },
     "osc:consortium": [
       "MULLARD SPACE SCIENCE LABORATORY \u201a UNIVERSITY COLLEGE LONDON (GB)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://cryosat.mssl.ucl.ac.uk/csao"
+      "href": "http://cryosat.mssl.ucl.ac.uk/csao",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cryosat-2-for-enhanced-sea-ice-thickness-and-ocean-observations-in-antarctica-cryosat-antarctic-ocean/"
+      "href": "https://eo4society.esa.int/projects/cryosat-2-for-enhanced-sea-ice-thickness-and-ocean-observations-in-antarctica-cryosat-antarctic-ocean/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

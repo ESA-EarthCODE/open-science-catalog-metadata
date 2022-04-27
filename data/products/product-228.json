@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-228",
+  "properties": {
+    "start_datetime": "1998-01-01",
+    "end_datetime": "2020-12-31",
+    "title": "Monthly global Phytoplankton Carbon dataset",
+    "description": "A spectrally-resolved photoacclimation model was unified with a primary production model that simulated photosynthesis as a function of irradiance using a two-parameter photosynthesis versus irradiance (P-I) function to estimate the carbon content of marine phytoplankton based on ocean-colour remote sensing products (Sathyendranath et al. 2020 and references therein for details). The photoacclimation model contains a maximum chlorophyll-to-carbon ratio for three different phytoplankton size classes (pico-, nano- and microphytoplankton) that was inferred from field data, as in Sathyendranath et al. (2020). Chlorophyll-a products were obtained from the European Space Agency (ESA) Ocean Colour Climate Change Initiative (OC-CCI v5.0 dataset). Photosynthetic Active Radiation (PAR) products were obtained from the National Aeronautics and Space Administration (NASA) and were corrected for inter-sensor bias in products. Mixed Layer Depth (MLD) was obtained from the French Research Institute for Exploration of the Sea (Ifremer). In situ datasets P-I parameters were incorporated as described in Kulk et al. (2020). Data are provided as netCDF files containing carbon products for pico-, nano- and microphytoplankton (C_picophyto, C_nanophyto and C_microphyto, respectively, in mg C m-3) and the total phytoplankton community (C_phyto in mg C m-3) for the period of 1998 to 2020 at 9 km spatial resolution. Additional variables that were used for the calculation of the phytoplankton carbon products are also provided, including chlorophyll-a (chl_a in mg m-3), photosynthetically activate radiation (par, in \u00b5mol photons m-2 d-1), mixed layer depth (mld in m) and the mean spectral nondimensional irradiance (mean_spectral_i_star)",
+    "osc:missions": [
+      "Sentinel-3"
+    ],
+    "osc:project": "Biological Pump and Carbon Exchange Processes",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "http://dx.doi.org/10.5285/6a6ccbb8ef2645308a60dc47e9b8b5fb",
+    "datetime": "1998-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://bicep-project.org/"
+    },
+    {
+      "rel": "via",
+      "href": "http://dx.doi.org/10.5285/6a6ccbb8ef2645308a60dc47e9b8b5fb",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "Citable as:\u00a0\u00a0Sathyendranath, S.; Platt, T.; Kova\u010d, \u017d.; Dingle, J.; Jackson, T.; Brewin, R.J.W.; Franks, P.; Kulk, G.; Bouman, H.A. (2021): BICEP / NCEO: Monthly global Phytoplankton Carbon, between 1998-2020 at 9 km resolution (derived from the Ocean Colour Climate Change Initiative v5.0 dataset). NERC EDS Centre for Environmental Data Analysis,\u00a022 December 2021.",
+      "title": "Documentation"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/http%3A//dx.doi.org/10.5285/6a6ccbb8ef2645308a60dc47e9b8b5fb"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ]
+}

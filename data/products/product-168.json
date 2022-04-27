@@ -6,7 +6,7 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "Ground Virtual Observatory Data CRYOSAT-2",
-    "description": "The files provided for each satellite include 1 month and 4 month values for observed field, core field (with estimates of magnetospheric and ionospheric fields removed) and SV (from annual difference of the core field data). Further specific details for this update are given in the associated README files. Contact: technical.officer@osc.org",
+    "description": "The files provided for each satellite include 1 month and 4 month values for observed field, core field (with estimates of magnetospheric and ionospheric fields removed) and SV (from annual difference of the core field data). Further specific details for this update are given in the associated README files. Contact: cfinlay@space.dtu.dk",
     "osc:missions": [
       "CryoSat-2"
     ],
@@ -15,8 +15,8 @@
       "Solid Earth",
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Geomagnetic Field",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
     "osc:region": null,
     "osc:type": "Product",
     "datetime": null
@@ -29,7 +29,8 @@
     },
     {
       "rel": "via",
-      "href": "http://www.spacecenter.dk/files/magnetic-models/GVO/GVO_data_CRYOSAT2.zip"
+      "href": "http://www.spacecenter.dk/files/magnetic-models/GVO/GVO_data_CRYOSAT2.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

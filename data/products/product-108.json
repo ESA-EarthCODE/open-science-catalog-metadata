@@ -4,7 +4,7 @@
   "id": "product-108",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2021-01-01",
+    "end_datetime": "2021-12-31",
     "title": "NRT SICE rasters for Greenland_Arctic_S3",
     "description": "1 km Greenland, daily, with cloud mask, geotiff at https://github.com/AdrienWehrle/SICE/tree/master/masks",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Albedo",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Snow cover",
+    "osc:status": "ONGOING",
     "osc:region": "Arctic",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.22008/FK2/SD56CB",
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://dataverse01.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/SD56CB"
+      "href": "https://dataverse01.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/SD56CB",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

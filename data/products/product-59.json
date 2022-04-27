@@ -4,7 +4,7 @@
   "id": "product-59",
   "properties": {
     "start_datetime": "2013-01-01",
-    "end_datetime": "2013-01-01",
+    "end_datetime": "2013-12-31",
     "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat",
     "description": "Low Resolution Mode satellite altimeter product generated from Cryosat data by TU Delft",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Oceans",
       "Cryosphere"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Pacific and North Atlantic",
     "osc:type": "Product",
     "datetime": "2013-01-01T00:00:00Z"
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.satoc.eu/projects/CP4O/data_p1.html\u00a0http://rads.tudelft.nl/rads/rads.shtml"
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
     }
   ],
   "assets": {},

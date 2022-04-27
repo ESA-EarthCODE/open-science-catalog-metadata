@@ -4,9 +4,9 @@
   "id": "product-145",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2017-01-01",
-    "title": "Rainfall product_PrISM v4.0_Africa_SMOS",
-    "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25\u00b0 (about 25\u00d725 km\u00b2) and every 3 hours from 2010 to 2017. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm_. _More details can be found in the netCDF file.",
+    "end_datetime": "2017-12-31",
+    "title": "PrISM SMOS Rainfall product_v4.0_3h_0.25_Africa",
+    "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25\u00b0 (about 25x25 km\u00b2) and every 3 hours. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm (Pellarin et al., 2009, 2013, 2020, Louvet et al., 2015, Rom\u00e1n-Casc\u00f3n et al. 2017).",
     "osc:missions": [
       "SMOS"
     ],
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Precipitation",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Precipitation type at the surface",
+    "osc:status": "ONGOING",
     "osc:region": "Africa",
     "osc:type": "Product",
     "version": "4.0",
@@ -62,7 +62,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.esasmosrainfall.org/#datasets"
+      "href": "https://doi.org/10.5281/zenodo.3565610",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

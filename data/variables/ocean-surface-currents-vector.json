@@ -1,0 +1,6 @@
+{
+  "name": "Ocean surface currents (vector)",
+  "description": "Water flow on ocean surface - Physical unit: [ cm/s ] - Accuracy unit: [ cm/s ] intended as vector error, i.e. the module of the vector difference between the observed vector and the true vector.",
+  "link": "",
+  "theme": "Oceans"
+}

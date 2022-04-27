@@ -4,7 +4,7 @@
   "id": "product-103",
   "properties": {
     "start_datetime": "1997-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Secchi Disk depth_Global Oceans_Multimission",
     "description": "Data consist of global monthly-averaged maps of Hue angle, Forel-Ule index and Secchi disk depth at ~ 4 km spatial resolution at the equator. Data extend from 1997 and 2018 and were generated from the ESA-OC-CCI v4.0 multi-sensor merged remote-sensing reflectances. Two downsized subproducts are also provided: - The global dataset, reduced at 1 degree spatial resolution - A North Atlantic dataset, reduced at 0.25 degree spatial resolution",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Ocean Colour",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ocean chlorophyll concentration",
+    "osc:status": "ONGOING",
     "osc:region": "Global Oceans",
     "osc:type": "Product",
     "datetime": "1997-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://doi.org/10.1594/PANGAEA.904266"
+      "href": "https://doi.org/10.1594/PANGAEA.904266",
+      "title": "Access"
     }
   ],
   "assets": {},

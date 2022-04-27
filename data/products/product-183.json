@@ -4,7 +4,7 @@
   "id": "product-183",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Daily 3D ocean currents_North Atlantic",
     "description": "North Atlantic data-driven 3D Currents and Tracers (NATL3D), data-driven reconstruction of the 3D Currents and Tracers in the North Atlantic obtained by applying artificial intelligence and dynamical diagnostic models to a combination of in situ and satellite data",
     "osc:missions": [],
@@ -12,7 +12,7 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea surface currents",
+    "osc:variable": "Ocean surface currents (vector)",
     "osc:status": "PLANNED",
     "osc:region": "North Atlantic",
     "osc:type": "Product",
@@ -58,7 +58,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products"
+      "href": "https://www.worldoceancirculation.org/Products",
+      "title": "Access"
     }
   ],
   "assets": {},

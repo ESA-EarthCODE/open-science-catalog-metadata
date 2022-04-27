@@ -1,0 +1,6 @@
+{
+  "name": "Solar EUV flux",
+  "description": "Integrated EUV flux over the solar disk",
+  "link": "",
+  "theme": "Magnetosphere_Ionosphere"
+}

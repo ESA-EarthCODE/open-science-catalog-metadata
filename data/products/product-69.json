@@ -4,9 +4,9 @@
   "id": "product-69",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2015-01-01",
+    "end_datetime": "2015-12-31",
     "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2",
-    "description": "Available by request to: technical.officer@osc.org",
+    "description": "Available by request to: noel.gourmelen@ed.ac.uk",
     "osc:missions": [
       "CryoSat-2"
     ],
@@ -14,7 +14,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Glaciers",
+    "osc:variable": "Glacier topography",
     "osc:status": "COMPLETED",
     "osc:region": "Global",
     "osc:type": "Product",
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "Access"
     }
   ],
   "assets": {},

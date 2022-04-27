@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "ARGANS LIMITED (GB)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://arcticsalinity.argans.co.uk"
+      "href": "http://arcticsalinity.argans.co.uk",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/arctic-salinity/"
+      "href": "https://eo4society.esa.int/projects/arctic-salinity/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

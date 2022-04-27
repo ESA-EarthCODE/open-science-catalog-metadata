@@ -6,7 +6,7 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "IUP-OMPS L2 and L3 limb ozone data sets_Global_S2/3",
-    "description": "IUP-OMPS L2 and L3 limb ozone data sets ",
+    "description": "IUP-OMPS L2 and L3 limb ozone data sets",
     "osc:missions": [
       "Sentinel-2",
       "Sentinel-3"
@@ -15,8 +15,8 @@
     "osc:themes": [
       "Atmosphere"
     ],
-    "osc:variable": "Ozone",
-    "osc:status": "COMPLETED",
+    "osc:variable": "O3 Stratospheric Column",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": null
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.iup.uni-bremen.de/DataRequest/"
+      "href": "https://www.iup.uni-bremen.de/DataRequest/",
+      "title": "Access"
     }
   ],
   "assets": {},

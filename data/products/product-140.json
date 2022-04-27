@@ -4,7 +4,7 @@
   "id": "product-140",
   "properties": {
     "start_datetime": "2017-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Snow grain diameter_Greenland_S3",
     "description": "1 km Greenland daily, geotiff at https://github.com/AdrienWehrle/SICE/tree/master/masks",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Cryosphere",
       "Land"
     ],
-    "osc:variable": "Snow",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Snow cover",
+    "osc:status": "ONGOING",
     "osc:region": "Greenland",
     "osc:type": "Product",
     "datetime": "2017-01-01T00:00:00Z"
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "http://snow.geus.dk/"
+      "href": "https://dataverse01.geus.dk/dataverse/sice",
+      "title": "Access"
     }
   ],
   "assets": {},

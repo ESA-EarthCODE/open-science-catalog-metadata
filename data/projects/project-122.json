@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-122",
+  "properties": {
+    "title": "BiCOME",
+    "description": "Increasing pressure on nature due to anthropogenic drivers is leading to a reduction of global biodiversity and its associated benefits at the planetary scale. In coastal environments, the most important direct drivers of biodiversity loss are fishing, land and sea use, climate change and pollution. These drivers have accelerated in the last 50 years, and they are predicted to continue, despite international efforts in the last decades. To guide further action, it is therefore urgent and important to develop \u201cfit-for-purpose\u201d observation tools. These observations should be capable of assessing and monitoring how the community structure and function of coastal ecosystems will respond to the anthropogenic and natural drivers in a changing climate. BiCOME aims to develop and provide the necessary evidence and promote a set of global Earth Observation products for biodiversity science and policy for the coastal zone.",
+    "osc:name": "Biodiversity+Precursors - Coastal",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
+    },
+    "osc:consortium": [
+      "PML (UK)",
+      "University of Nantes (FR)",
+      "German Aerospace Center (DE)",
+      "HYGEOS (FR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2021-10-14",
+    "end_datetime": "2023-10-14",
+    "datetime": "2021-10-14T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/bicome/",
+      "title": "EO4Society Link"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

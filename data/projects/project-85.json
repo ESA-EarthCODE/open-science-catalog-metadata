@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Craig James Donlon",
+      "e-mail": "craig.donlon@esa.int"
     },
     "osc:consortium": [
       "ACRI-ST S.A.S. (FR)",
@@ -32,11 +32,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://s3tandem.eu/"
+      "href": "https://s3tandem.eu/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-3-tandem-for-climate-s3tc-expro/"
+      "href": "https://eo4society.esa.int/projects/sentinel-3-tandem-for-climate-s3tc-expro/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

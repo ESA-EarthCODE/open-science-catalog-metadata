@@ -4,7 +4,7 @@
   "id": "project-7",
   "properties": {
     "title": "AEOLUS+INNOVATION - SWAILS+",
-    "description": "Aeolus lidar surface returns are used in combination with collocated wind speed observations to retrieve the aerosol optical depth. The retrieval algorithm under development, LARISSA (Lidar Aerosol Retrieval based on Information from Surface Signal of Aeolus), will complement the standard Aeolus (L2) aerosol profile products. ",
+    "description": "Aeolus lidar surface returns are used in combination with collocated wind speed observations to retrieve the aerosol optical depth. The retrieval algorithm under development, LARISSA (Lidar Aerosol Retrieval based on Information from Surface Signal of Aeolus), will complement the standard Aeolus (L2) aerosol profile products.",
     "osc:name": "AEOLUS+ INNOVATION - STUDIES ON WIND AND AEROSOL INFORMATION FROM LIDAR SURFACE RETURNS (SWAILS+)",
     "osc:themes": [
       "Atmosphere",
@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "KNMI (NL)"
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.knmiprojects.nl/projects/swails"
+      "href": "https://www.knmiprojects.nl/projects/swails",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails/"
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

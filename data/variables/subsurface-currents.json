@@ -1,6 +1,0 @@
-{
-  "name": "Subsurface currents\u00a0",
-  "description": "Observations of subsurface ocean velocity contribute to estimates of ocean transports of mass, heat, freshwater, and other properties on local, to regional and basin to global scales. They are essential in resolving the wind and buoyancy driven ocean circulation, and the complex vertical velocity structure, for example, in the major ocean boundary currents, tides, equatorial currents, wave propagations, ocean eddies. Vertical velocity profile information can be used to estimate the order of ocean mixing using fine-scale parameterizations of turbulent dissipation by internal wave breaking. Velocity estimates can be combined in data assimilation models to provide gridded global estimates of ocean circulation at varying temporal and spatial scales. https://gcos.wmo.int/en/essential-climate-variables/subsurface-currents",
-  "link": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/",
-  "theme": "oceans"
-}

@@ -9,10 +9,10 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "ALFRED WEGENER INSTITUTE (DE)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.awi.de/index.php?id=4087&no_cache=1&L=1"
+      "href": "https://www.awi.de/index.php?id=4087&no_cache=1&L=1",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-expro-theme-7-ocean-colour-s5p-i-oc/"
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-expro-theme-7-ocean-colour-s5p-i-oc/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

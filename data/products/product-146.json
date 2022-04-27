@@ -14,8 +14,8 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Soil Moisture",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Soil moisture at surface",
+    "osc:status": "ONGOING",
     "osc:region": "Africa",
     "osc:type": "Product",
     "datetime": null
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "ftp://ext-catds-cpdc:catds2010@ftp.ifremer.fr/Land_products/GRIDDED/"
+      "href": "ftp://ext-catds-cpdc:catds2010@ftp.ifremer.fr/Land_products/GRIDDED/",
+      "title": "Access"
     }
   ],
   "assets": {},

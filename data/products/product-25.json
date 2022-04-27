@@ -4,7 +4,7 @@
   "id": "product-25",
   "properties": {
     "start_datetime": "2014-01-01",
-    "end_datetime": "2017-01-01",
+    "end_datetime": "2017-12-31",
     "title": "Ocean freshwater fluxes_Arctic_Multimission",
     "description": "Estimates of these four freshwater fluxes: discharge from rivers; inflow through ice and melt run off; outflow of freshwater in sea ice; and in/outflow of freshwater through ocean currents.",
     "osc:missions": [
@@ -26,11 +26,11 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Fresh water fluxes",
-    "osc:status": "COMPLETED",
+    "osc:variable": "River discharge",
+    "osc:status": "ONGOING",
     "osc:region": "Arctic",
     "osc:type": "Product",
-    "sci:doi": "DOI: 10.1007/1345_2019_75",
+    "sci:doi": "https://doi.org/10.1007/1345_2019_75",
     "datetime": "2014-01-01T00:00:00Z"
   },
   "geometry": {
@@ -73,11 +73,17 @@
     },
     {
       "rel": "via",
-      "href": "https://link.springer.com/chapter/10.1007%2F1345_2019_75"
+      "href": "",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://link.springer.com/chapter/10.1007%2F1345_2019_75",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/DOI%3A%2010.1007/1345_2019_75"
+      "href": "https://doi.org/https%3A//doi.org/10.1007/1345_2019_75"
     }
   ],
   "assets": {},

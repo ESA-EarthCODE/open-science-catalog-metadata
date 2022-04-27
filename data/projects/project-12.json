@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "NOVELTIS SAS (FR)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://albatross.noveltis.fr/"
+      "href": "https://albatross.noveltis.fr/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/albatross/"
+      "href": "https://eo4society.esa.int/projects/albatross/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

@@ -1,0 +1,6 @@
+{
+  "name": "Long-wave Earth surface emissivity",
+  "description": "Emissivity of the Earth surface in the thermal IR, function of the wavelength",
+  "link": "",
+  "theme": "Atmosphere"
+}

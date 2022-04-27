@@ -1,0 +1,6 @@
+{
+  "name": "N2O mole fraction",
+  "description": "3D field of amount\u00a0 of N2O (Nitrous oxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "link": "",
+  "theme": "Atmosphere"
+}

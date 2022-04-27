@@ -4,7 +4,7 @@
   "id": "product-39",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "COR-GC:\u00a0Geodynamic Corrections_Baltics_Multimission",
     "description": "The geodynamic effects are computed from PTA-OBS and IERS-2010, following the definitions of the ITRF as outlined in the IERS conventions (version 2010, chapter 7, displacements of reference points). The cumulative impact on range and azimuth are stored in the correction file. The range corrections are available in units of meters 1-way. In order to apply them to the range observations, they need to be scaled by 2/c, with c denoting speed of light in vacuum. The azimuth corrections are in units of seconds and can be used as is. The following geodynamic corrections are comprised in values list in the file: Solid Earth tidal deformations caused by Sun & Moon, Ocean loading stemming from water mass redistribution by tides weighing on the coastlines using the FES2004 tidal model, Atmospheric pressure loading induced by diurnal heating of the atmosphere (S1 and S2 components), Rotational deformation due to polar motion, Ocean pole tide loading, Secular trends as inferred from nearby IGS reference site located on same tectonic plate. Multiple targets may be summarized in one file. Data blocks for different targets are placed side by side organized by dates. If a target is unavailable or detected an outlier (low SCR), the entries are set to 9. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-GC.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-GC.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

@@ -4,7 +4,7 @@
   "id": "product-74",
   "properties": {
     "start_datetime": "2009-01-01",
-    "end_datetime": "2013-01-01",
+    "end_datetime": "2013-12-31",
     "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE",
     "description": "Model of crust and upper mantle",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Solid Earth",
       "Cryosphere"
     ],
-    "osc:variable": "Sub-ice heat-flux",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Gravity field",
+    "osc:status": "ONGOING",
     "osc:region": "Antarctica",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.1029/2019JB017997",
@@ -62,7 +62,8 @@
     },
     {
       "rel": "via",
-      "href": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JB017997"
+      "href": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JB017997",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

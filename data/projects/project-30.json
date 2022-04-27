@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS) (FR)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cassis/"
+      "href": "https://eo4society.esa.int/projects/cassis/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cassis/"
+      "href": "https://eo4society.esa.int/projects/cassis/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

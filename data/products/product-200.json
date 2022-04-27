@@ -4,9 +4,9 @@
   "id": "product-200",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2021-01-01",
+    "end_datetime": "2021-12-31",
     "title": "Land Ice Elevation Thematic Gridded Product_Antarctica_Cryosat",
-    "description": "Gridded product containing a spatial interpolation of the point product onto a uniform grid of elevation and uncertainty. The gridded product is published on a monthly basis with one product per region on a 2km grid in polar stereographic coordinates. The monthly product contains 3 months of data on a rolling basis each month and uses the Thematic point product as its input. For example, the January 2020 gridded product will contain point data for a window starting on 1st December 2019 and ending on 29th February 2020. ",
+    "description": "Gridded product containing a spatial interpolation of the point product onto a uniform grid of elevation and uncertainty. The gridded product is published on a monthly basis with one product per region on a 2km grid in polar stereographic coordinates. The monthly product contains 3 months of data on a rolling basis each month and uses the Thematic point product as its input. For example, the January 2020 gridded product will contain point data for a window starting on 1st December 2019 and ending on 29th February 2020.",
     "osc:missions": [
       "CryoSat"
     ],
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ice sheet topography",
+    "osc:status": "ONGOING",
     "osc:region": "Svalbard",
     "osc:type": "Product",
     "datetime": "2010-01-01T00:00:00Z"
@@ -60,11 +60,13 @@
     },
     {
       "rel": "via",
-      "href": "ftp://science-pds.cryosat.esa.int/TEMPO_SWATH_GRID/"
+      "href": "ftp://science-pds.cryosat.esa.int/TEMPO_SWATH_GRID/",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://cryotempo-eolis.org/wp-content/uploads/2021/12/CryoTempo-ThematicProduct-ProductHandbook_Issue2.1.pdf"
+      "href": "https://cryotempo-eolis.org/wp-content/uploads/2021/12/CryoTempo-ThematicProduct-ProductHandbook_Issue2.1.pdf",
+      "title": "Documentation"
     }
   ],
   "assets": {},

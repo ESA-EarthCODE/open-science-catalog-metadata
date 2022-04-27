@@ -4,15 +4,15 @@
   "id": "project-84",
   "properties": {
     "title": "TerrA-P",
-    "description": "Define, implement and validate a model to derive information on the vegetation productivity based on data from MERIS and Sentinel-3. ",
+    "description": "Define, implement and validate a model to derive information on the vegetation productivity based on data from MERIS and Sentinel-3.",
     "osc:name": "Sentinel-3 Primary Production over Land (TerrA-P)",
     "osc:themes": [
       "Land"
     ],
-    "osc:status": "ONGOING",
+    "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Philippe Goryl",
+      "e-mail": "philippe.goryl@esa.int"
     },
     "osc:consortium": [
       "VITO (BE)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/s3-primary-production-over-land/"
+      "href": "https://eo4society.esa.int/projects/s3-primary-production-over-land/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/s3-primary-production-over-land/"
+      "href": "https://eo4society.esa.int/projects/s3-primary-production-over-land/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

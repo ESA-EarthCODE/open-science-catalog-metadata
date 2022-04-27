@@ -15,8 +15,8 @@
       "Solid Earth",
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Geomagnetic Field",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "version": "0.10.2",
@@ -62,11 +62,13 @@
     },
     {
       "rel": "via",
-      "href": "https://gricad-gitlab.univ-grenoble-alpes.fr/Geodynamo/webgeodyn"
+      "href": "https://gricad-gitlab.univ-grenoble-alpes.fr/Geodynamo/webgeodyn",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://geodynamo.gricad-pages.univ-grenoble-alpes.fr/webgeodyn/index.html"
+      "href": "https://geodynamo.gricad-pages.univ-grenoble-alpes.fr/webgeodyn/index.html",
+      "title": "Documentation"
     }
   ],
   "assets": {},

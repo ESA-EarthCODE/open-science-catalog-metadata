@@ -4,7 +4,7 @@
   "id": "product-33",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "PTA-OBS:\u00a0SAR Raw Measurements_Baltics_Multimission",
     "description": "The observation file is generated from the point target analysis file (PTA-RES). Processor specific corrections are applied to range and azimuth during file generation, representing the raw SAR measurements. Multiple targets may be summarized in one file. Data blocks for different targets are placed side by side organized by dates. If a target is unavailable or detected an outlier (low SCR), the entries are set to 9. Note on SWST: differential corrections are applied if the SWST became updated in the S-1 SAR processor, i.e. range measurements based on previous configurations are corrected in order to match the latest value applied in processing. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/PTA-OBS.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/PTA-OBS.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

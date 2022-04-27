@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
     },
     "osc:consortium": [
       "BUREAU DE RECHERCHES GEOLOGIQUES ET MINIERES (BRGM) (FR",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.bathysent.org"
+      "href": "https://www.bathysent.org",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/an-innovative-method-to-retrieve-global-coastal-bathymetry-from-sentinel-2/"
+      "href": "https://eo4society.esa.int/projects/an-innovative-method-to-retrieve-global-coastal-bathymetry-from-sentinel-2/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

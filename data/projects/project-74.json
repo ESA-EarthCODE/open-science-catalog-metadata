@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Ferran Gascon",
+      "e-mail": "Ferran.Gascon@esa.int"
     },
     "osc:consortium": [
       "ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE (CH)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://meteolakes.ch/#!/about"
+      "href": "http://meteolakes.ch/#!/about",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-coastal-and-inland-waters-theme/"
+      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-coastal-and-inland-waters-theme/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

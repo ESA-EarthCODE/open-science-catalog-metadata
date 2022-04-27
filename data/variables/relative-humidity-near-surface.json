@@ -1,0 +1,6 @@
+{
+  "name": "Relative Humidity (near surface)",
+  "description": "Relative\u00a0 humidity\u00a0 at a known height\u00a0 above surface, with the height specified in the metadata.Relative humidity is the ratio of the amount of atmospheric moisture present relative to the amount that would be present if the air were saturated with respect to water or ice to be specified in the metadata",
+  "link": "",
+  "theme": "Atmosphere"
+}

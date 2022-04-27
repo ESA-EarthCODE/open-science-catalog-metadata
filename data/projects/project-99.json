@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITAET BREMEN (DE)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve/"
+      "href": "https://eo4society.esa.int/projects/stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve/"
+      "href": "https://eo4society.esa.int/projects/stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

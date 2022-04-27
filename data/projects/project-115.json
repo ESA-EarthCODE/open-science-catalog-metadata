@@ -4,15 +4,15 @@
   "id": "project-115",
   "properties": {
     "title": "(LPF) WIFT",
-    "description": "The subject of this project is to exploit these measurements to retrieve the water vapour isotopologues H216O, HDO and, if possible, H218O. ",
+    "description": "The subject of this project is to exploit these measurements to retrieve the water vapour isotopologues H216O, HDO and, if possible, H218O.",
     "osc:name": "WIFT: Water vapour Isotopologues From TROPOMI",
     "osc:themes": [
       "Atmosphere"
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "Netherlands Institute for Space Research (NWO-I) (NL)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/"
+      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/"
+      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

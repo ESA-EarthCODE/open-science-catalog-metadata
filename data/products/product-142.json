@@ -4,9 +4,9 @@
   "id": "product-142",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2014-01-01",
+    "end_datetime": "2014-12-31",
     "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 3",
-    "description": "Level-1b Ice Sheet measurements",
+    "description": "Level-1b Ice Sheet measurements. To access data mailto:spice.info@esa.int",
     "osc:missions": [
       "CryoSat-2"
     ],
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ice sheet topography",
+    "osc:status": "ONGOING",
     "osc:region": "Antarctica",
     "osc:type": "Product",
     "datetime": "2011-01-01T00:00:00Z"
@@ -60,7 +60,13 @@
     },
     {
       "rel": "via",
-      "href": "mailto:spice.info@esa.int"
+      "href": "",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.seom-spice.org/project-description/input-output-data/",
+      "title": "Documentation"
     }
   ],
   "assets": {},

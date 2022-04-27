@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "ALONG-TRACK (FR)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://projects.along-track.com/shape/"
+      "href": "http://projects.along-track.com/shape/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-3-hydrologic-altimetry-processor-prototype-shape/"
+      "href": "https://eo4society.esa.int/projects/sentinel-3-hydrologic-altimetry-processor-prototype-shape/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

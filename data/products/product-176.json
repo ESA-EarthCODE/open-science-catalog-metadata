@@ -4,7 +4,7 @@
   "id": "product-176",
   "properties": {
     "start_datetime": "2003-01-01",
-    "end_datetime": "2021-01-01",
+    "end_datetime": "2021-12-31",
     "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon",
     "description": "Data-driven gross and net carbon flux estimates from machine-learning based on eddy-covariance measurements and space-born measurements, where EO data streams from different sensors and spectral regions are integrated with the specific objective of a more accurate representation of drought effects on carbon fluxes.",
     "osc:missions": [
@@ -17,7 +17,7 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Carbon Flux",
+    "osc:variable": "CO2 flux",
     "osc:status": "PLANNED",
     "osc:region": "Global",
     "osc:type": "Product",
@@ -63,7 +63,13 @@
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/vad3mecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/"
+      "href": "http://www.fluxcom.org/CF-Download/",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.fluxcom.org/CF-Download/",
+      "title": "Documentation"
     }
   ],
   "assets": {},

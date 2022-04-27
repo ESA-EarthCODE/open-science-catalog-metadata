@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Dirk Schuettemeyer",
+      "e-mail": "dirk.schuettemeyer@esa.int"
     },
     "osc:consortium": [
       "FORSCHUNGSZENTRUM JUELICH GMBH (DE)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.fz-juelich.de/ibg/ibg-2/EN/Research/Projects/Photoproxy/Photoproxy%20_projekt_node.html"
+      "href": "https://www.fz-juelich.de/ibg/ibg-2/EN/Research/Projects/Photoproxy/Photoproxy%20_projekt_node.html",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/photoproxy-technical-assistance-for-the-photosynthetic-proxy-experiment/"
+      "href": "https://eo4society.esa.int/projects/photoproxy-technical-assistance-for-the-photosynthetic-proxy-experiment/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

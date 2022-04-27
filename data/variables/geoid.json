@@ -1,0 +1,6 @@
+{
+  "name": "Geoid",
+  "description": "Equipotential surface which would coincide exactly with the mean ocean surface of the Earth, if the oceans were in equilibrium, at rest, and extended through the continents (such as with very narrow channels) - Physical unit: [ cm ] - Accuracy unit: [ cm ].",
+  "link": "",
+  "theme": "Magnetosphere_Ionosphere"
+}

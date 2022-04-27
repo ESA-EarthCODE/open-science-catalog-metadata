@@ -4,7 +4,7 @@
   "id": "product-137",
   "properties": {
     "start_datetime": "2015-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1",
     "description": "The dataset consists of a time series of the Sentinel-1 (S-1) surface soil moisture (SSM) product at 1 km spatial resolution validated in Balenzano et al. (2021 a) over the Southern Italy. The specifications of the S-1 SSM product are provided in Balenzano et al. (2021 b). The SSM time series was obtained in correspondence of the ascending (RON A146) S-1 Interferometric Wide swath (IW) acquisition dates from January 2015 to December 2018 with a temporal gap between consecutive of 6 days (when both S-1A and S-1B data are available) or 12 days. On each date (183 in total), two co-registered layers are provided: mean SSM [m3/m3] and its standard deviation [m3/m3], which provides the SSM uncertainty. The retrieval algorithm is a time series short term change detection (STCD) that is implemented in the \u201cSoil MOisture retrieval from multi-temporal SAR data (SMOSAR) code (Balenzano et al. 2013). Product details: https://www.sciencedirect.com/science/article/pii/S2352340921006296?via%3Dihub",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Soil Moisture",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Soil moisture at surface",
+    "osc:status": "ONGOING",
     "osc:region": "South Italy",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5281/zenodo.5006307",
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.sciencedirect.com/science/article/pii/S2352340921006296?via%3Dihub"
+      "href": "https://www.sciencedirect.com/science/article/pii/S2352340921006296?via%3Dihub",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

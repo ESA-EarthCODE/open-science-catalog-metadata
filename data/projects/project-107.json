@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "H2O GEOMATICS INC. (CA)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.h2ogeomatics.com/lake-ice-from-altimetry-missions-li"
+      "href": "https://www.h2ogeomatics.com/lake-ice-from-altimetry-missions-li",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/liam/"
+      "href": "https://eo4society.esa.int/projects/liam/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Mark Drinkwater",
+      "e-mail": "mark.drinkwater@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF EDINBURGH (GB)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://cryotop-evolution.org/"
+      "href": "https://cryotop-evolution.org/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/stse-cryosat-cryotop-evolution-expro/"
+      "href": "https://eo4society.esa.int/projects/stse-cryosat-cryotop-evolution-expro/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

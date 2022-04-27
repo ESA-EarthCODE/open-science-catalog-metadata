@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Klaus Scipal",
+      "e-mail": "klaus.scipal@esa.int"
     },
     "osc:consortium": [
       "UCL CONSULTANTS LTD (GB)",
@@ -32,11 +32,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/forestscan/"
+      "href": "https://eo4society.esa.int/projects/forestscan/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/forestscan/"
+      "href": "https://eo4society.esa.int/projects/forestscan/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

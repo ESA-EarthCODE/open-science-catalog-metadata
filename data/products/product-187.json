@@ -4,7 +4,7 @@
   "id": "product-187",
   "properties": {
     "start_datetime": "2018-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Total surface current_Tropical Atlantic",
     "description": "Tropical Altantic Total Surface Current,  contains the total surface current including CMEMS geostrophy and Ekman+Near-Inertial currents estimated from ERA5-10m winds with an empirically-adjusted 1D - depth model (Ubelmann et al., in prep)",
     "osc:missions": [],
@@ -12,7 +12,7 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea surface currents",
+    "osc:variable": "Ocean surface currents (vector)",
     "osc:status": "PLANNED",
     "osc:region": "Tropical Atlantic",
     "osc:type": "Product",
@@ -58,7 +58,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products"
+      "href": "https://www.worldoceancirculation.org/Products",
+      "title": "Access"
     }
   ],
   "assets": {},

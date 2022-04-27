@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "SATELLITE OCEANOGRAPHIC CONSULTANTS LTD. (GB)",
@@ -34,11 +34,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.satoc.eu/projects/CP4O/"
+      "href": "http://www.satoc.eu/projects/CP4O/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cryosat-ocean/"
+      "href": "https://eo4society.esa.int/projects/cryosat-ocean/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

@@ -4,7 +4,7 @@
   "id": "product-14",
   "properties": {
     "start_datetime": "2016-01-01",
-    "end_datetime": "2016-01-01",
+    "end_datetime": "2016-12-31",
     "title": "Glacier surface flow velocity_SwissAlps_S1/2",
     "description": "Glacier surface flow velocity. Most of the database has been submitted to Pangaea, where the submission is being processed. Some parts of the database fall under the copyright of the Swiss national institute for topography and were therefore only provided as point shapefiles instead of polygons. All the necessary information to reconstruct the study are provided.",
     "osc:missions": [
@@ -15,7 +15,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Glaciers",
+    "osc:variable": "Glacier motion",
     "osc:status": "PLANNED",
     "osc:region": "Switzerland",
     "osc:type": "Product",
@@ -61,11 +61,13 @@
     },
     {
       "rel": "via",
-      "href": "https://alpglacier.geo.uzh.ch/index.html"
+      "href": "",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://onlinelibrary.wiley.com/doi/10.1002/esp.5194"
+      "href": "https://onlinelibrary.wiley.com/doi/10.1002/esp.5194",
+      "title": "Documentation"
     }
   ],
   "assets": {},

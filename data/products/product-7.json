@@ -14,7 +14,7 @@
     "osc:themes": [
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Space Weather",
+    "osc:variable": "Ionospheric plasma density",
     "osc:status": "PLANNED",
     "osc:region": null,
     "osc:type": "Product",
@@ -28,7 +28,8 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "Access"
     }
   ],
   "assets": {},

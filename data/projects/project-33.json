@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Roger Haagmans",
+      "e-mail": "roger.haagmans@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF WARMIA AND MAZURY IN (PL)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://costo.uwm.edu.pl"
+      "href": "http://costo.uwm.edu.pl",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/costo/"
+      "href": "https://eo4society.esa.int/projects/costo/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

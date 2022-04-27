@@ -4,7 +4,7 @@
   "id": "product-40",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "COR-EC2:\u00a0ECR Electronic Delay Correction_Baltics_Multimission",
     "description": "The ECR electronics causes a signal delay which has to be corrected in the SAR measurements. The effect was calibrated with a set of reference ECR, yielding a model that describes the delay as a function of orbit geometry and incidence angle. The model is evaluated for each acquisition and the results are stored the in dedicated correction files. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-EC2.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-EC2.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

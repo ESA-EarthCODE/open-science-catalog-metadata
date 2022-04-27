@@ -4,7 +4,7 @@
   "id": "product-60",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2021-01-01",
+    "end_datetime": "2021-12-31",
     "title": "RDSAR Satellite SAR altimeter product_Open Ocean_Cryosat",
     "description": "\"RDSAR\" satellite altimeter product generated from Cryosat data by  TU Delft",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Oceans",
       "Cryosphere"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Pacific and North Atlantic",
     "osc:type": "Product",
     "datetime": "2011-01-01T00:00:00Z"
@@ -61,7 +61,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.satoc.eu/projects/CP4O/data_p7.html; http://rads.tudelft.nl/rads/rads.shtml"
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/docs/readme_TUDELFT_CP4O_RDSAR_v2.txt",
+      "title": "Documentation"
     }
   ],
   "assets": {},

@@ -6,7 +6,7 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "Ice Sheet Surface Melt_Greenland_S-1/2",
-    "description": "The duration and areal extent of the Greenland Ice Sheet affected by surface melt processes are important parameters for climate and cryosphere research, and key indicators of a changing Arctic climate. Melt processes have a significant impact on the surface energy budget in snow-covered areas, as wet snow has a relatively low albedo in the visible and near-infrared spectrum. Moreover, enhanced surface meltwater production has an impact on glacier motion by increasing the internal water pressure. Passive and active microwave data acquired by satellite sensors are the main data sources for products on monitoring melt extent over the ice sheets. Passive microwave data has  been widely used to map and monitor melt zones over the Greenland Ice Sheet. 4DGreenland aims at producing a consistent climate data record on the presence of liquid water and snow properties over Greenland for studying surface melt processes, along with developing methods for homogenizing melt extent products from different sensors. ",
+    "description": "The duration and areal extent of the Greenland Ice Sheet affected by surface melt processes are important parameters for climate and cryosphere research, and key indicators of a changing Arctic climate. Melt processes have a significant impact on the surface energy budget in snow-covered areas, as wet snow has a relatively low albedo in the visible and near-infrared spectrum. Moreover, enhanced surface meltwater production has an impact on glacier motion by increasing the internal water pressure. Passive and active microwave data acquired by satellite sensors are the main data sources for products on monitoring melt extent over the ice sheets. Passive microwave data has  been widely used to map and monitor melt zones over the Greenland Ice Sheet. 4DGreenland aims at producing a consistent climate data record on the presence of liquid water and snow properties over Greenland for studying surface melt processes, along with developing methods for homogenizing melt extent products from different sensors.",
     "osc:missions": [
       "Sentinel-1",
       "Sentinel-2"
@@ -15,7 +15,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
+    "osc:variable": "Ice sheet topography",
     "osc:status": "PLANNED",
     "osc:region": "Greenland",
     "osc:type": "Product",
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://4dgreenland.eo4cryo.dk/?page_id=48"
+      "href": "https://4dgreenland.eo4cryo.dk/?page_id=48",
+      "title": "Access"
     }
   ],
   "assets": {},

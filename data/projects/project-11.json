@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
     },
     "osc:consortium": [
       "CORES SCIENCE AND ENGINEERING LIMIT (GB)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://akross.space"
+      "href": "https://akross.space",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/akross/"
+      "href": "https://eo4society.esa.int/projects/akross/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

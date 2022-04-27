@@ -4,7 +4,7 @@
   "id": "project-93",
   "properties": {
     "title": "S5p Innovation - SIF",
-    "description": "Development of satellite Solar induced chlorophyll fluorescence (SIF) products ",
+    "description": "Development of satellite Solar induced chlorophyll fluorescence (SIF) products",
     "osc:name": "SENTINEL-5P+ INNOVATION SOLAR INDUCED CHLOROPHYLL FLUORESCENCE (SIF)",
     "osc:themes": [
       "Atmosphere",
@@ -12,26 +12,28 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "NOVELTIS SAS (FR)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2019-05-23",
-    "end_datetime": "2021-06-30",
-    "datetime": "2019-05-23T00:00:00Z"
+    "start_datetime": "2019-07-03",
+    "end_datetime": "2021-11-09",
+    "datetime": "2019-07-03T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://s5p-troposif.noveltis.fr/"
+      "href": "https://s5p-troposif.noveltis.fr/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/"
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

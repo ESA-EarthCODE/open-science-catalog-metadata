@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u201a IRPI",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://hydrology.irpi.cnr.it/projects/ridesat/"
+      "href": "http://hydrology.irpi.cnr.it/projects/ridesat/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/ridesat/"
+      "href": "https://eo4society.esa.int/projects/ridesat/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

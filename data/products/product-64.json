@@ -4,7 +4,7 @@
   "id": "product-64",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2014-01-01",
+    "end_datetime": "2014-12-31",
     "title": "Satellite LRM, SAR, SARIN polar altimeter product_Polar Ocean_Cryosat",
     "description": "Satellite LRM, SAR, SARIN polar altimeter product generated from Cryosat data by DTU Space",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Oceans",
       "Cryosphere"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Arctic",
     "osc:type": "Product",
     "datetime": "2010-01-01T00:00:00Z"
@@ -61,7 +61,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.satoc.eu/projects/CP4O/docs/CP4O_CCN01_FinalReport_V1_rev.pdf"
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Documentation"
     }
   ],
   "assets": {},

@@ -1,0 +1,6 @@
+{
+  "name": "Cloud top height",
+  "description": "Height of the top of the cloud (highest cloud in case of multi-layer clouds)",
+  "link": "",
+  "theme": "Atmosphere"
+}

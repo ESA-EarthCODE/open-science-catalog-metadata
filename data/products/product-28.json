@@ -4,7 +4,7 @@
   "id": "product-28",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "SAR-OBS:\u00a0SAR Observation Solution_Baltics_Multimission",
     "description": "Time series of range and azimuth standard deviations \u03c3r and \u03c3a, provided by the variance component estimation and observation residuals. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-OBS.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-OBS.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

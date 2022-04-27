@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "project-118",
   "properties": {
-    "title": "World Ocean circulation",
+    "title": "WOC",
     "description": "The objectives of this activity are to (i) develop and validate innovative methodologies allowing to optimize the synergetic capacity offered by satellite data, in situ measurements and numerical models for improving the retrieval of upper-layer ocean circulation products over 4 high-priority pilot areas chosen as to represent at best the diversity of the world ocean circulation regimes, i.e. one polar sea area, one western boundary current, one upwelling region, one coastal area, and ii) in line with the objectives of the United Nations Decade of Ocean Science for Sustainable Development, demonstrate the unique capacity of the innovative products to support effective actions aiming at procuring a clean, safe, sustainably harvested and productive ocean by targeting FOUR high priority pilot applications, i.e. Pollution Monitoring, Safe Navigation, Sustainable Fisheries and Renewable Marine Energies.",
     "osc:name": "World Ocean circulation",
     "osc:themes": [
@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "OCEANDATALAB (FR)",
@@ -32,11 +32,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/"
+      "href": "https://www.worldoceancirculation.org/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/world-ocean-circulation/"
+      "href": "https://eo4society.esa.int/projects/world-ocean-circulation/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

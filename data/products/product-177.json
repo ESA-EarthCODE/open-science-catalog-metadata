@@ -4,9 +4,9 @@
   "id": "product-177",
   "properties": {
     "start_datetime": "2009-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "GOSAT PBL XH2O and Stable Water Water Vapour Isotopologues_Global",
-    "description": "L2 product of column water vapour (XH2O) and satble isotope XHDO, partial column water vapour from the planetary boundary layer XH2O_PBL",
+    "description": "L2 product of column water vapour (XH2O) and stable isotope XHDO, partial column water vapour from the planetary boundary layer XH2O_PBL",
     "osc:missions": [
       "GOSAT"
     ],
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Atmosphere"
     ],
-    "osc:variable": "Water vapour",
-    "osc:status": "COMPLETED",
+    "osc:variable": "HDO",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": "2009-01-01T00:00:00Z"
@@ -56,11 +56,12 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/communities/scientists/living-planet-fellowship/"
+      "href": "https://eo4society.esa.int/projects/weather/"
     },
     {
       "rel": "via",
-      "href": "https://archive.ceda.ac.uk/"
+      "href": "https://archive.ceda.ac.uk/",
+      "title": "Access"
     }
   ],
   "assets": {},

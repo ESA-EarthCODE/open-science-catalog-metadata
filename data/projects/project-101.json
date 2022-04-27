@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Matthias Drusch",
+      "e-mail": "matthias.drusch@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF HAMBURG (DE)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://icdc.cen.uni-hamburg.de/en/l3c-smos-sit.html"
+      "href": "https://icdc.cen.uni-hamburg.de/en/l3c-smos-sit.html",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "http://due.esrin.esa.int/stse/page_stse_project204.php"
+      "href": "http://due.esrin.esa.int/stse/page_stse_project204.php",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

@@ -10,10 +10,10 @@
       "Atmosphere",
       "Oceans"
     ],
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "NOVELTIS SAS (FR)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/"
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/"
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

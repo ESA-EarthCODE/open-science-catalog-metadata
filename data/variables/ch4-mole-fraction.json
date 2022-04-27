@@ -1,0 +1,6 @@
+{
+  "name": "CH4 mole fraction",
+  "description": "3D field of amount of CH4 (Methane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "link": "",
+  "theme": "Atmosphere"
+}

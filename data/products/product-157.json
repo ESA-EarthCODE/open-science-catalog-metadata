@@ -4,9 +4,9 @@
   "id": "product-157",
   "properties": {
     "start_datetime": "2004-01-01",
-    "end_datetime": "2020-01-01",
-    "title": "Tropospheric ozone column (TrOC)_Global_OMI and limb satellites ",
-    "description": "Tropospheric ozone column (TrOC) from OMI and limb satellites ",
+    "end_datetime": "2020-12-31",
+    "title": "Tropospheric ozone column (TrOC)_Global_OMI and limb satellites",
+    "description": "Tropospheric ozone column (TrOC) from OMI and limb satellites",
     "osc:missions": [
       "OMI"
     ],
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Atmosphere"
     ],
-    "osc:variable": "Ozone",
-    "osc:status": "COMPLETED",
+    "osc:variable": "O3 Tropospheric Column",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": "2004-01-01T00:00:00Z"
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "https://nsdc.fmi.fi/data/data_sunlit.php"
+      "href": "https://nsdc.fmi.fi/data/data_sunlit.php",
+      "title": "Access"
     }
   ],
   "assets": {},

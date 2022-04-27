@@ -4,7 +4,7 @@
   "id": "product-100",
   "properties": {
     "start_datetime": "2013-01-01",
-    "end_datetime": "2017-01-01",
+    "end_datetime": "2017-12-31",
     "title": "Geodetic glacier mass balances Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X",
     "description": "Geodetic glacier mass balance derived from Digital Elevation Model differentiating using data from TanDEM-X acquisitions from austral winters 2013 and 2017",
     "osc:missions": [
@@ -14,7 +14,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice Mass Change",
+    "osc:variable": "Glacier topography",
     "osc:status": "PLANNED",
     "osc:region": "Antarctica",
     "osc:type": "Product",
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "Access"
     }
   ],
   "assets": {},

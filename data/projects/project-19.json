@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Ola Grabak",
+      "e-mail": "ola.grabak@esa.int"
     },
     "osc:consortium": [
       "ISARDSAT SP. Z O.O. (PL)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.isardsat.space/project/arctic-snow"
+      "href": "https://www.isardsat.space/project/arctic-snow",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/arctic-snow-on-sea-ice/"
+      "href": "https://eo4society.esa.int/projects/arctic-snow-on-sea-ice/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

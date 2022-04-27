@@ -4,7 +4,7 @@
   "id": "product-82",
   "properties": {
     "start_datetime": "2008-01-01",
-    "end_datetime": "2011-01-01",
+    "end_datetime": "2011-12-31",
     "title": "Climatology of stratospheric aerosol and cloud optical property profiles_Global_CALIPSO_EARTHCARE",
     "description": "4-year averaged profiles of stratospheric aerosol and cloud optical properties (extinction and backscatter coefficients, particle depolarization ratio) at 355, 532, 1064, 1570 and 2050 nm. The products are also provided per season. (Amiridis et al., ACP, 2015, https://doi.org/10.5194/acp-15-7127-2015). Horizontal resolution: 1x1 degree, Vertical resolution: Calipso L2 vertical resolution {60m between 0-20km, 120m between 20-30km}",
     "osc:missions": [
@@ -15,8 +15,8 @@
     "osc:themes": [
       "Atmosphere"
     ],
-    "osc:variable": "Aerosols",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Aerosol Optical Depth",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5194/acp-15-7127-2015",
@@ -62,11 +62,13 @@
     },
     {
       "rel": "via",
-      "href": "ftps://livas:livas-public@react.space.noa.gr"
+      "href": "ftps://livas:livas-public@react.space.noa.gr",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "http://195.251.203.238/beyond/images/docs/publications/atmospheric/Amiridis_LIVAS.pdf"
+      "href": "http://195.251.203.238/beyond/images/docs/publications/atmospheric/Amiridis_LIVAS.pdf",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

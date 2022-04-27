@@ -1,0 +1,46 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-125",
+  "properties": {
+    "title": "Ocean-Health-OA",
+    "description": "This activity makes part of the ESA Ocean Science Cluster and contributes to the joint EC-ESA Earth System Science Initiative launched in February 2020 by the European Space Agency and the European Commission (EC) Directorate-General for Research and Innovation (DG RTD) to jointly advance Earth System Science and its response to the global challenges that society is facing in the onset of this century. In particular, this activity is a contribution to the EC-ESA Flagship Action on Ocean Health aimed at developing advanced ocean observations and products and enhancing the scientific understanding of the ocean's role in the Earth and climate system and its responses to management actions to contribute to reverse the cycle of decline in ocean health and improve conditions for sustainable development of the Ocean.",
+    "osc:name": "Ocean-Health-Ocean Acidification",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
+    },
+    "osc:consortium": [
+      "University of Exeter (UK)",
+      "PML (UK)",
+      "ETHZ (SW)",
+      "Ifremer (FR)",
+      "OceanDataLab (FR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2022-02-01",
+    "end_datetime": "2024-02-01",
+    "datetime": "2022-02-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "EO4Society Link"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

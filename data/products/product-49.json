@@ -4,7 +4,7 @@
   "id": "product-49",
   "properties": {
     "start_datetime": "2002-01-01",
-    "end_datetime": "2016-01-01",
+    "end_datetime": "2016-12-31",
     "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO",
     "description": "https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/MOHeaCAN-DT-006-MAG_PUM.pdf",
     "osc:missions": [
@@ -15,8 +15,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": "2002-01-01T00:00:00Z"
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/ocean-heat-content-and-earth-energy-imbalance.html"
+      "href": "https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/ocean-heat-content-and-earth-energy-imbalance.html",
+      "title": "Access"
     }
   ],
   "assets": {},

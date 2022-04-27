@@ -1,0 +1,6 @@
+{
+  "name": "Biomass",
+  "description": "Total amount of vegetation in a reference area - Physical unit: [ t/ha (tons/hectare) ] - Accuracy unit: [ t/ha ]",
+  "link": "",
+  "theme": "Land"
+}

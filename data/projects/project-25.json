@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "FINNISH ENVIRONMENT INSTITUTE (SYKE) (FI)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.syke.fi/projects/BalticSeaLaBio"
+      "href": "https://www.syke.fi/projects/BalticSeaLaBio",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/baltic-sea-land-biogeochemical-linkages-sealabio/"
+      "href": "https://eo4society.esa.int/projects/baltic-sea-land-biogeochemical-linkages-sealabio/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

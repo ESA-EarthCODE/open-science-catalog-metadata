@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Anca Anghelea",
+      "e-mail": "anca.anghelea@esa.int"
     },
     "osc:consortium": [
       "GISAT S.R.O. (CZ)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://project.gisat.cz/s14scienceAmazonas/"
+      "href": "http://project.gisat.cz/s14scienceAmazonas/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/s14science-amazonas/"
+      "href": "https://eo4society.esa.int/projects/s14science-amazonas/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

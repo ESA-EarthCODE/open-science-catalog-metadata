@@ -4,9 +4,9 @@
   "id": "product-56",
   "properties": {
     "start_datetime": "2019-01-01",
-    "end_datetime": "2019-01-01",
+    "end_datetime": "2019-12-31",
     "title": "Albedo_Regional_S3A/SLSTR",
-    "description": "Surface (albedo) products derived from S3A/SLSTR observations retrieved using the same radiative transfer physics and assumptions. The retrieval is based on the CISAR (Combined Inversion of Surface and Atmosphere pRoperties) algorithm. ",
+    "description": "Surface (albedo) products derived from S3A/SLSTR observations retrieved using the same radiative transfer physics and assumptions. The retrieval is based on the CISAR (Combined Inversion of Surface and Atmosphere pRoperties) algorithm. The spatial resolution of the CIRCAS user products is 5km. The CIRCAS products are delivered in NetCDF-4 format. The NetCDF files specification follows the CF conventions [NetCDF, 2010].",
     "osc:missions": [
       "Sentinel-3"
     ],
@@ -14,7 +14,7 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Albedo",
+    "osc:variable": "Earth surface albedo",
     "osc:status": "ONGOING",
     "osc:region": "Regional",
     "osc:type": "Product",
@@ -28,11 +28,13 @@
     },
     {
       "rel": "via",
-      "href": "http://www.circas.eu/index.php#results"
+      "href": "ftp.brockmann-consult.de",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "http://www.circas.eu/index.php#results"
+      "href": "http://www.circas.eu/index.php#results",
+      "title": "Documentation"
     }
   ],
   "assets": {},

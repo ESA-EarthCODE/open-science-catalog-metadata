@@ -11,27 +11,29 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)",
       "UNIVERSITAET BREMEN (DE)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2019-06-06",
-    "end_datetime": "2021-06-30",
-    "datetime": "2019-06-06T00:00:00Z"
+    "start_datetime": "2019-06-26",
+    "end_datetime": "2021-12-30",
+    "datetime": "2019-06-26T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://glyretro.aeronomie.be/"
+      "href": "https://glyretro.aeronomie.be/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-glyretro-glyoxal-retrievals-from-tropomi/"
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-glyretro-glyoxal-retrievals-from-tropomi/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

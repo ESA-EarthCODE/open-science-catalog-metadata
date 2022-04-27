@@ -1,0 +1,6 @@
+{
+  "name": "Interplanetary magnetic field",
+  "description": "Vector magnetic field (3D) in the solar wind.\u00a0The reference frame is Cartesian or Cylindrical with many different axis orientations. Important in Space Weather to monitor magnetic disturbances of the near earth environment.",
+  "link": "",
+  "theme": "Magnetosphere_Ionosphere"
+}

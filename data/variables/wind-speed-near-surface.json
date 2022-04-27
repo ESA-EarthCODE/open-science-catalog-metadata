@@ -1,0 +1,6 @@
+{
+  "name": "Wind speed (near surface)",
+  "description": "Speed of air at a known height above the surface which is to be specified in the metadata",
+  "link": "",
+  "theme": "Atmosphere"
+}

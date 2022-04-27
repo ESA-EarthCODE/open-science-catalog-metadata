@@ -4,15 +4,15 @@
   "id": "project-3",
   "properties": {
     "title": "4D-Greenland",
-    "description": "Advancing the current state of knowledge on the hydrology of the Greenland Ice Sheet, by capitalising on the latest advances in Earth Observation data. In 4DGreenland, an integrated assessment of the Greenland hydrology will be performed, with a focus on maximizing the use of Earth Observation data in determining each of the three major components and their interconnections: surface melt processes, supraglacial storage and drainage, and subglacial melt, drainage and lakes. ",
+    "description": "Advancing the current state of knowledge on the hydrology of the Greenland Ice Sheet, by capitalising on the latest advances in Earth Observation data. In 4DGreenland, an integrated assessment of the Greenland hydrology will be performed, with a focus on maximizing the use of Earth Observation data in determining each of the three major components and their interconnections: surface melt processes, supraglacial storage and drainage, and subglacial melt, drainage and lakes.",
     "osc:name": "4DGreenland",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "Technical University of Denmark (DTU)",
@@ -34,11 +34,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://4dgreenland.eo4cryo.dk/"
+      "href": "https://4dgreenland.eo4cryo.dk/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/4dgreenland/"
+      "href": "https://eo4society.esa.int/projects/4dgreenland/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

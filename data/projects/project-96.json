@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "CNRS",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.esasmosrainfall.org/"
+      "href": "https://www.esasmosrainfall.org/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/smos-rainfall-land/"
+      "href": "https://eo4society.esa.int/projects/smos-rainfall-land/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

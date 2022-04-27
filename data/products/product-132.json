@@ -4,7 +4,7 @@
   "id": "product-132",
   "properties": {
     "start_datetime": "2017-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Multitemporal crop map - phenological parameters and phenological parameters_Italy_2017/2018_S2",
     "description": "Multitemporal crop map - phenological parameters and phenological parameters maps of Italy 2017/2018",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Landcover",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Land cover",
+    "osc:status": "ONGOING",
     "osc:region": "Italy",
     "osc:type": "Product",
     "datetime": "2017-01-01T00:00:00Z"
@@ -60,11 +60,13 @@
     },
     {
       "rel": "via",
-      "href": "https://rslab.disi.unitn.it/projects/mta/"
+      "href": "https://rslab.disi.unitn.it/projects/mta/",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://rslab.disi.unitn.it/projects/mta/#TSA"
+      "href": "https://rslab.disi.unitn.it/projects/mta/#TSA",
+      "title": "Documentation"
     }
   ],
   "assets": {},

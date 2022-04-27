@@ -13,8 +13,8 @@
       "Solid Earth",
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Geomagnetic Field",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
     "osc:region": null,
     "osc:type": "Product",
     "datetime": null
@@ -27,7 +27,8 @@
     },
     {
       "rel": "via",
-      "href": "http://www.spacecenter.dk/files/magnetic-models/GO/GO_data.zip"
+      "href": "http://www.spacecenter.dk/files/magnetic-models/GO/GO_data.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

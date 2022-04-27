@@ -14,8 +14,8 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Above-ground biomass",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Biomass",
+    "osc:status": "ONGOING",
     "osc:region": "Africa",
     "osc:type": "Product",
     "datetime": null
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "ftp://ext-catds-cecsm:catds2010@ftp.ifremer.fr/Land_products/L3_SMOS_IC_Vegetation_Optical_Depth/"
+      "href": "ftp://ext-catds-cecsm:catds2010@ftp.ifremer.fr/Land_products/L3_SMOS_IC_Vegetation_Optical_Depth/",
+      "title": "Access"
     }
   ],
   "assets": {},

@@ -15,7 +15,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
+    "osc:variable": "Ice sheet topography",
     "osc:status": "PLANNED",
     "osc:region": "Greenland",
     "osc:type": "Product",
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://4dgreenland.eo4cryo.dk/?page_id=50"
+      "href": "https://4dgreenland.eo4cryo.dk/?page_id=48",
+      "title": "Access"
     }
   ],
   "assets": {},

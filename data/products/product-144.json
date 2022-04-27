@@ -4,8 +4,8 @@
   "id": "product-144",
   "properties": {
     "start_datetime": "2007-01-01",
-    "end_datetime": "2018-01-01",
-    "title": "Rainfall_GPM+SM2RAIN v1.0_Global_Multimission",
+    "end_datetime": "2018-12-31",
+    "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global",
     "description": "Rainfall dataset based on the integration of IMERG Early Run of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT, SMOS and SMAP L3 soil moisture products. The dataset is currently available globally +-60\u00b0 (2007-2018). More details can be found in the netCDF file. The quality flag provided with the dataset has been used to mask out low quality data, as well as the areas characterised by complex topographic, frozen soil, and presence of tropical forests.",
     "osc:missions": [
       "ASCAT",
@@ -16,8 +16,8 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Precipitation",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Precipitation type at the surface",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "version": "1.0",
@@ -64,7 +64,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.esasmosrainfall.org/#datasets"
+      "href": "https://doi.org/10.5281/zenodo.3854817",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.hydrol-earth-syst-sci.net/24/2687/2020/",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
     },
     "osc:consortium": [
       "MULLARD SPACE SCIENCE LABORATORY \u201a UNIVERSITY COLLEGE LONDON (GB)",
@@ -32,11 +32,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/polar-snow-on-sea-ice/"
+      "href": "https://eo4society.esa.int/projects/polar-snow-on-sea-ice/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/polar-snow-on-sea-ice/"
+      "href": "https://eo4society.esa.int/projects/polar-snow-on-sea-ice/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

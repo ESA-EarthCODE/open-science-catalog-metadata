@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marcus Engdahl",
+      "e-mail": "marcus.engdahl@esa.int"
     },
     "osc:consortium": [
       "Technical University of Denmark (DK)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/phab-iv/"
+      "href": "https://eo4society.esa.int/projects/phab-iv/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/phab-iv/"
+      "href": "https://eo4society.esa.int/projects/phab-iv/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

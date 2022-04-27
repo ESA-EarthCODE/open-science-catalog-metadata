@@ -1,6 +1,0 @@
-{
-  "name": "Fraction of absorbed photosynthetically active radiation (FAPAR)",
-  "description": "Solar radiation in the spectral range 400\u2013700 nm, known as photosynthetically active radiation (PAR), provides the energy required by terrestrial vegetation to produce organic materials from mineral components. The part of this PAR that is effectively absorbed by plants is called FAPAR. FAPAR is related to, but different from, Leaf Area Index, which describes the amount of leaf material in the canopy. FAPAR plays a critical role in assessing the primary productivity of canopies, the associated fixation of atmospheric CO2 and the energy balance of the surface. Monitoring FAPAR provides information on the amount and health cycle of vegetation. https://gcos.wmo.int/en/essential-climate-variables/fapar",
-  "link": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/",
-  "theme": "land"
-}

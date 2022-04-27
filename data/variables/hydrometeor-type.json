@@ -1,0 +1,6 @@
+{
+  "name": "Hydrometeor type",
+  "description": "3D field of the predominant form of condensed water in a volume of free atmosphere, including liquid cloud, rain, ice crystals, snow, graupel and hail. (This variable replaces \"precipitation type\").",
+  "link": "",
+  "theme": "Atmosphere"
+}

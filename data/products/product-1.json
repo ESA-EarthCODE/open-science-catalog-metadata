@@ -15,8 +15,8 @@
     "osc:themes": [
       "Solid Earth"
     ],
-    "osc:variable": "Sub-ice heat-flux",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Gravity field",
+    "osc:status": "ONGOING",
     "osc:region": "Arctic",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.22008/FK2/F9P03L",
@@ -62,7 +62,8 @@
     },
     {
       "rel": "via",
-      "href": "https://dataverse01.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/F9P03L"
+      "href": "https://dataverse01.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/F9P03L",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

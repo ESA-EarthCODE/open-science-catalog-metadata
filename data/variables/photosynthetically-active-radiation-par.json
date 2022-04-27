@@ -1,0 +1,6 @@
+{
+  "name": "Photosynthetically Active Radiation (PAR)",
+  "description": "Flux of downwelling photons of wavelength 0.4-0.7",
+  "link": "",
+  "theme": "Atmosphere"
+}

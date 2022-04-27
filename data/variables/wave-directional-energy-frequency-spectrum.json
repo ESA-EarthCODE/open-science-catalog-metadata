@@ -1,0 +1,6 @@
+{
+  "name": "Wave directional energy frequency spectrum",
+  "description": "2D variable colloquially referred to as wave spectrum. Describes the wave energy travelling in each direction and frequency band (e.g., 24 distinct azimuth sectors each 15\u00b0 wide, and 25 frequency bands)",
+  "link": "",
+  "theme": "Oceans"
+}

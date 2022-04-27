@@ -1,6 +1,6 @@
 {
   "name": "Sea surface salinity",
-  "description": "Sea surface salinity observations contribute to monitoring the global water cycle (evaporation, precipitation and glacier and river runoff). On large scales, surface salinity can be used to infer long-term changes of the global hydrological cycle. Surface salinity, together with surface temperature, is indicative of the surface expression of ocean frontal features and eddies. https://gcos.wmo.int/en/essential-climate-variables/surface-salinity",
-  "link": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/",
-  "theme": "oceans"
+  "description": "Salinity of sea water in the surface layer (upper ~ 1 m if observed in MW).  In the open ocean the correct term should be  \u201chalinity\u201d with reference of the diversity of salts involved.",
+  "link": "",
+  "theme": "Oceans"
 }

@@ -4,7 +4,7 @@
   "id": "product-46",
   "properties": {
     "start_datetime": "1995-01-01",
-    "end_datetime": "2019-01-01",
+    "end_datetime": "2019-12-31",
     "title": "Baltic Sea Level_Multimission",
     "description": "Suit of products containing: 1) Reprocessed Along-Track Sea Level Estimations at 20-Hz; 2) Reprocessed monthly sea level grids; 3) Gridded mean sea surface height; 4) Maps of estimated sea level trends, annual cycle and uncertainties",
     "osc:missions": [
@@ -22,8 +22,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Coastal sea level (tide)",
+    "osc:status": "ONGOING",
     "osc:region": "Europe",
     "osc:type": "Product",
     "datetime": "1995-01-01T00:00:00Z"
@@ -68,7 +68,8 @@
     },
     {
       "rel": "via",
-      "href": "http://balticseal.eu/data-access/"
+      "href": "http://balticseal.eu/data-access/",
+      "title": "Access"
     }
   ],
   "assets": {},

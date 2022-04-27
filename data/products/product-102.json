@@ -4,7 +4,7 @@
   "id": "product-102",
   "properties": {
     "start_datetime": "1993-01-01",
-    "end_datetime": "2015-01-01",
+    "end_datetime": "2015-12-31",
     "title": "Atmospherically-forced and chaotic interannual variability of the sea level and its components over 1993-2015 from the OCCIPUT ensemble simulations",
     "description": "This data set contains the interannual variability fields for the sea level and its steric and manometric components over 1993-2015 from the OCCIPUT ensemble simulations.",
     "osc:missions": [],
@@ -12,8 +12,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ocean dynamic topography",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5281/zenodo.5564399",
@@ -59,11 +59,13 @@
     },
     {
       "rel": "via",
-      "href": "https://zenodo.org/record/5564399#.YWVwM1yYEXc"
+      "href": "https://zenodo.org/record/5564399#.YWVwM1yYEXc",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://doi.org/10.1029/2020JC017123"
+      "href": "https://doi.org/10.1029/2020JC017123",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

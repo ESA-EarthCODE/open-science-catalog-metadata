@@ -1,0 +1,6 @@
+{
+  "name": "Earth surface albedo",
+  "description": "Hemispherically integrated reflectance of the Earth surface in the range 0.4-0.7",
+  "link": "",
+  "theme": "Atmosphere"
+}

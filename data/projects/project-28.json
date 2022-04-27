@@ -5,14 +5,14 @@
   "properties": {
     "title": "BICEP",
     "description": "Better characterisation of the different components of the ocean biological carbon pump, its pools and fluxes, its variability in space and time and the understanding of its processes and interactions with the earth system, based on a synergetic use of space data, in-situ measurements and model outputs",
-    "osc:name": "BICEP (Biological Pump and Carbon Exchange Processes)",
+    "osc:name": "Biological Pump and Carbon Exchange Processes",
     "osc:themes": [
       "Oceans"
     ],
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "PLYMOUTH MARINE LABORATORY (GB)",
@@ -32,11 +32,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://bicep-project.org/Home"
+      "href": "https://bicep-project.org/Home",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/bicep/"
+      "href": "https://eo4society.esa.int/projects/bicep/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

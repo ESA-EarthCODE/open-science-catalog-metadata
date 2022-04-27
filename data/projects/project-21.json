@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Craig James Donlon",
+      "e-mail": "craig.donlon@esa.int"
     },
     "osc:consortium": [
       "Nansen Environmental and Remote Sensing Center Norway",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://arktalas.nersc.no/"
+      "href": "http://arktalas.nersc.no/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/arktalas-hoavva-project/"
+      "href": "https://eo4society.esa.int/projects/arktalas-hoavva-project/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

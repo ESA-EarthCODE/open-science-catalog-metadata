@@ -4,7 +4,7 @@
   "id": "product-29",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "SAR-POS:\u00a0SAR Positioning Solution_Baltics_Multimission",
     "description": "Time series of coordinates of the SAR target as X, Y, Z coordinates in the ITRF2014 and uncertainties \u03c3X,\u03c3Y,\u03c3Z,\u03c3XY,\u03c3XZ,\u03c3YZ, derived from the variance-covariance matrix. Confidence ellipsoid from eigenvalue and eigenvector decomposition of the variance-covariance-matrix scaled to a 95% confidence level. In case external reference coordinates for the same target are also available (e.g. from a terrestrial survey), the \u0394Xx,y,z coordinate differences are computed. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-POS.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-POS.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

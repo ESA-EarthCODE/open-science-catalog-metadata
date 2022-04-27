@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "ITALIAN NATIONAL AGENCY FOR NEW TECHNOLOGIES",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/physioglob/"
+      "href": "https://eo4society.esa.int/projects/physioglob/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/physioglob/"
+      "href": "https://eo4society.esa.int/projects/physioglob/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

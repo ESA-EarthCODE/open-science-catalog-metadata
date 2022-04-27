@@ -4,9 +4,9 @@
   "id": "product-75",
   "properties": {
     "start_datetime": "2015-01-01",
-    "end_datetime": "2016-01-01",
+    "end_datetime": "2016-12-31",
     "title": "Sea Surface Salinity Bias_Global_SMOS",
-    "description": "Data assimilation of Soil Moisture and Ocean Salinity (SMOS) observations into the Mercator Ocean operational system: focus on the El Ni\u00f1o 2015 event",
+    "description": "Data assimilation of Soil Moisture and Ocean Salinity (SMOS) observations into the Mercator Ocean operational system: focus on the El Ni\u00f1o 2015 event. To access the data: mailto:btranchant@groupcls.com",
     "osc:missions": [
       "SMOS"
     ],
@@ -15,7 +15,7 @@
       "Oceans"
     ],
     "osc:variable": "Sea surface salinity",
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5194/os-15-543-2019",
@@ -61,11 +61,13 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "https://os.copernicus.org/articles/15/543/2019/#section4",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://os.copernicus.org/articles/15/543/2019/#section5"
+      "href": "https://os.copernicus.org/articles/15/543/2019/#section5",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

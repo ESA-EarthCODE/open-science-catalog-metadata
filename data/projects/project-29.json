@@ -9,10 +9,10 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:status": "ONGOING",
+    "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marcus Engdahl",
+      "e-mail": "marcus.engdahl@esa.int"
     },
     "osc:consortium": [
       "GAMMA REMOTE SENSING AG (CH)",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/biomascat/"
+      "href": "https://eo4society.esa.int/projects/biomascat/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/biomascat/"
+      "href": "https://eo4society.esa.int/projects/biomascat/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

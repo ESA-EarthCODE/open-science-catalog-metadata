@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "University of Edinburgh (UoE)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.cryosat-mtg.org/"
+      "href": "http://www.cryosat-mtg.org/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cryosat-mountain-glaciers/"
+      "href": "https://eo4society.esa.int/projects/cryosat-mountain-glaciers/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

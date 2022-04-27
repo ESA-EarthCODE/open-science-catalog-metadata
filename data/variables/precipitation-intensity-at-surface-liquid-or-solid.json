@@ -1,0 +1,6 @@
+{
+  "name": "Precipitation intensity at surface (liquid or solid)",
+  "description": "Intensity of precipitation reaching the ground - Physical unit: [ mm/h ] (if solid, mm/h of liquid water after melting) - Accuracy unit: [ mm/h ]. Since accuracy changes with intensity, it is necessary to specify a reference intensity. Assumed rate: 5 mm/h.",
+  "link": "",
+  "theme": "Atmosphere"
+}

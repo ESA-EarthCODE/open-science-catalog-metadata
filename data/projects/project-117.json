@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
     },
     "osc:consortium": [
       "UNIVERSIT\u00c0 DEGLI STUDI DI TRENTO (IT)",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://rsde.fbk.eu/projects/esa-seom-s2-4sci-land-and-water"
+      "href": "http://rsde.fbk.eu/projects/esa-seom-s2-4sci-land-and-water",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-change-detection-multi-temporal/"
+      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-change-detection-multi-temporal/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

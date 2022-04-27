@@ -4,7 +4,7 @@
   "id": "product-159",
   "properties": {
     "start_datetime": "2004-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "Stratospheric ozone column from limb satellites_Global",
     "description": "Stratospheric ozone column from limb satellites",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Atmosphere"
     ],
-    "osc:variable": "Ozone",
-    "osc:status": "COMPLETED",
+    "osc:variable": "O3 Stratospheric Column",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": "2004-01-01T00:00:00Z"
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "https://nsdc.fmi.fi/data/data_sunlit.php"
+      "href": "https://nsdc.fmi.fi/data/data_sunlit.php",
+      "title": "Access"
     }
   ],
   "assets": {},

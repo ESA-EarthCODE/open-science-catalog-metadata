@@ -1,0 +1,6 @@
+{
+  "name": "PSC occurrence",
+  "description": "3D field of Polar Stratospheric Clouds occurrence. - Accuracy expressed as Hit Rate [ HR ] and False Alarm Rate [ FAR ].\u00a0 Simplified: [ FAR/HR]",
+  "link": "",
+  "theme": "Atmosphere"
+}

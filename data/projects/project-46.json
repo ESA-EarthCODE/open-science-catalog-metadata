@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Michael Kern",
+      "e-mail": "michael.kern@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF KIEL (DE)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.bas.ac.uk/project/goceantarctica/"
+      "href": "https://www.bas.ac.uk/project/goceantarctica/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/goce-antarctica/"
+      "href": "https://eo4society.esa.int/projects/goce-antarctica/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

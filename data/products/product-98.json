@@ -4,7 +4,7 @@
   "id": "product-98",
   "properties": {
     "start_datetime": "2017-01-01",
-    "end_datetime": "2017-01-01",
+    "end_datetime": "2017-12-31",
     "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2017_Antarctica_TanDEM-X",
     "description": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2017",
     "osc:missions": [
@@ -14,7 +14,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Surface Elevation Change",
+    "osc:variable": "Ice sheet topography",
     "osc:status": "PLANNED",
     "osc:region": "Antarctica",
     "osc:type": "Product",
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "Access"
     }
   ],
   "assets": {},

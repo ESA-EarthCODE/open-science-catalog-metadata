@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF EDINBURGH (GB)",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://cryosurf.org/datasets/"
+      "href": "https://cryosurf.org/datasets/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cryosurf/"
+      "href": "https://eo4society.esa.int/projects/cryosurf/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

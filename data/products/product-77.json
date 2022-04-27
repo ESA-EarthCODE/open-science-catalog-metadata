@@ -14,7 +14,7 @@
     "osc:themes": [
       "Land"
     ],
-    "osc:variable": "Surface reflectance",
+    "osc:variable": "Earth surface short-wave bidirectional reflectance",
     "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "Access"
     }
   ],
   "assets": {},

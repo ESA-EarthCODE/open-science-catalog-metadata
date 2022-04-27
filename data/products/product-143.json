@@ -4,7 +4,7 @@
   "id": "product-143",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2016-01-01",
+    "end_datetime": "2016-12-31",
     "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS",
     "description": "Analysed Sea Surface Salinity using a combination of debiased non-Bayesian retrieval, DINEOF (Data Interpolating Empirical Orthogonal Functions) and multifractal fusion",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Surface Salinity",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface salinity",
+    "osc:status": "ONGOING",
     "osc:region": "Europe",
     "osc:type": "Product",
     "datetime": "2011-01-01T00:00:00Z"
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "http://bec.icm.csic.es/"
+      "href": "http://bec.icm.csic.es/",
+      "title": "Access"
     }
   ],
   "assets": {},

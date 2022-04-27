@@ -4,7 +4,7 @@
   "id": "product-47",
   "properties": {
     "start_datetime": "2017-01-01",
-    "end_datetime": "2017-01-01",
+    "end_datetime": "2017-12-31",
     "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission",
     "description": "http://balticseal.eu/wp-content/uploads/2020/04/Baltic_SEAL_D2.1_DatasetDescription_v1.1-signed.pdf",
     "osc:missions": [
@@ -22,8 +22,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Coastal sea level (tide)",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2017-01-01T00:00:00Z"
@@ -68,7 +68,8 @@
     },
     {
       "rel": "via",
-      "href": "http://balticseal.eu/data-access/"
+      "href": "http://balticseal.eu/data-access/",
+      "title": "Access"
     }
   ],
   "assets": {},

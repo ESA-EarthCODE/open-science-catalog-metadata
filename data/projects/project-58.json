@@ -5,33 +5,35 @@
   "properties": {
     "title": "MethEO",
     "description": "Methane emissions in the Northern Hemisphere by applying both data from Earth Observing (EO) satellites and global atmospheric methane inversion model estimates",
-    "osc:name": "MethEO - Methane emissions in the Northern Hemisphere by applying both data from Earth Observing (EO) satellites and global atmospheric methane inversion model estimates",
+    "osc:name": "Methane emissions in the Northern Hemisphere by applying both data from Earth Observing (EO) satellites and global atmospheric methane inversion model estimates",
     "osc:themes": [
       "Atmosphere",
       "Cryosphere"
     ],
-    "osc:status": "ONGOING",
+    "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "FINNISH METEOROLOGICAL INSTITUTE (FI)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2018-08-08",
-    "end_datetime": "2022-09-01",
-    "datetime": "2018-08-08T00:00:00Z"
+    "start_datetime": "2018-09-05",
+    "end_datetime": "2022-04-01",
+    "datetime": "2018-09-05T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/metheo/"
+      "href": "https://eo4society.esa.int/projects/metheo/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/metheo/"
+      "href": "https://eo4society.esa.int/projects/metheo/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

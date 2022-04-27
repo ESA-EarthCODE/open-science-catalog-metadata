@@ -3,16 +3,16 @@
   "stac_version": "1.0.0",
   "id": "project-42",
   "properties": {
-    "title": "EO for Black Sea Science",
+    "title": "EO4SIBS",
     "description": "Novel EO-based products and enhanced data sets dedicated to the Black Sea as concerns: Ocean colour data, Coastal altimetry, High resolution salinity, River plume extent, Eddy tracking, Water mass classification, Stratification Index",
-    "osc:name": "Earth Observation data For Science and Innovation in the Black Sea (EO4SIBS)",
+    "osc:name": "Earth Observation data For Science and Innovation in the Black Sea",
     "osc:themes": [
       "Oceans"
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF LIEGE (BE)",
@@ -33,11 +33,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.eo4sibs.uliege.be/"
+      "href": "http://www.eo4sibs.uliege.be/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/eo4sibs/"
+      "href": "https://eo4society.esa.int/projects/eo4sibs/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

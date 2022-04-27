@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "IFREMER (FR)",
@@ -35,11 +35,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/oceanextreme/"
+      "href": "https://eo4society.esa.int/projects/oceanextreme/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/oceanextreme/"
+      "href": "https://eo4society.esa.int/projects/oceanextreme/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

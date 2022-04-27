@@ -4,7 +4,7 @@
   "id": "product-101",
   "properties": {
     "start_datetime": "1993-01-01",
-    "end_datetime": "2015-01-01",
+    "end_datetime": "2015-12-31",
     "title": "Sea level trends over 1993-2015 and 2005-2015 from the OCCIPUT ensemble simulation",
     "description": "This data set contains 50 sea level trend fields computed globally over 1993-2015 and 2005-2015 from the OCCIPUT ensemble hindcast.",
     "osc:missions": [],
@@ -12,8 +12,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ocean dynamic topography",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5281/zenodo.1487983",
@@ -59,11 +59,13 @@
     },
     {
       "rel": "via",
-      "href": "https://zenodo.org/record/1487983#.YWWntlyYEXd"
+      "href": "https://zenodo.org/record/1487983#.YWWntlyYEXd",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://doi.org/10.1029/2018GL080838"
+      "href": "https://doi.org/10.1029/2018GL080838",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

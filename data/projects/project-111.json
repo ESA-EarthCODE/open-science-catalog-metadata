@@ -12,8 +12,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF LEEDS",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/vmdl/"
+      "href": "https://eo4society.esa.int/projects/vmdl/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/vmdl/"
+      "href": "https://eo4society.esa.int/projects/vmdl/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

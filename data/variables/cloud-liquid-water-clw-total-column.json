@@ -1,0 +1,6 @@
+{
+  "name": "Cloud liquid water (CLW) total column",
+  "description": "2D Field of atmospheric water in the liquid phase (precipitating or not), integrated over the total column.",
+  "link": "",
+  "theme": "Atmosphere"
+}

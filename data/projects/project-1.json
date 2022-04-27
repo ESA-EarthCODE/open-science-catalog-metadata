@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Roger Haagmans",
+      "e-mail": "roger.haagmans@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF KIEL (DE)",
@@ -32,11 +32,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.3dearth.uni-kiel.de/en"
+      "href": "http://www.3dearth.uni-kiel.de/en",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/stse-3d-earth/"
+      "href": "https://eo4society.esa.int/projects/stse-3d-earth/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

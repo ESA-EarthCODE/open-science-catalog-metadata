@@ -1,6 +1,0 @@
-{
-  "name": "Ocean colour",
-  "description": "Ocean colour is the radiance emanating from the ocean normalized by the irradiance illuminating the ocean. Products derived from ocean colour remote sensing (OCRS) contain information on the ocean albedo and information on the constituents of the seawater, in particular, phytoplankton pigments such as chlorophyll-a. OCRS products are used to assess ocean ecosystem health and productivity, and the role of the oceans in the global carbon cycle, to manage living marine resources, and to quantify the impacts of climate variability and change. https://gcos.wmo.int/en/essential-climate-variables/ocean-colour",
-  "link": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/",
-  "theme": "oceans"
-}

@@ -1,0 +1,6 @@
+{
+  "name": "Glyoxal Tropospheric column",
+  "description": "2D field of tropospheric column averaged of amount of Glyoxal (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "link": "",
+  "theme": "Atmosphere"
+}

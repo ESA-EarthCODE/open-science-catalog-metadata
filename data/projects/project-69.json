@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "",
+      "e-mail": ""
     },
     "osc:consortium": [
       "University of Bristo (UK)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://gtr.ukri.org/projects?ref=NE%2FT000546%2F1#/tabOverview"
+      "href": "https://gtr.ukri.org/projects?ref=NE%2FT000546%2F1#/tabOverview",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

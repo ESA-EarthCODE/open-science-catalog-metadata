@@ -4,7 +4,7 @@
   "id": "product-66",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2021-01-01",
+    "end_datetime": "2021-12-31",
     "title": "Wet Troposphere Correction_for Cryosat",
     "description": "Wet Troposphere Correction product generated for application to Cryosat data by U Porto",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Oceans",
       "Cryosphere"
     ],
-    "osc:variable": "Geophysical Correction - wet troposphere",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Global Oceans",
     "osc:type": "Product",
     "datetime": "2011-01-01T00:00:00Z"
@@ -61,7 +61,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.satoc.eu/projects/CP4O/data_p23.html"
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Documentation"
     }
   ],
   "assets": {},

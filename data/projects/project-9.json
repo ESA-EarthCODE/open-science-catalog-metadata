@@ -11,27 +11,29 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "DLR - GERMAN AEROSPACE CENTER (DE)",
       "INSTITUTE OF ATMOSPHERIC PHYSICS (CZ)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2020-12-15",
+    "start_datetime": "2020-11-30",
     "end_datetime": "2021-07-02",
-    "datetime": "2020-12-15T00:00:00Z"
+    "datetime": "2020-11-30T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://www.wdc.dlr.de/lisa/"
+      "href": "https://www.wdc.dlr.de/lisa/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/"
+      "href": "https://eo4society.esa.int/projects/lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

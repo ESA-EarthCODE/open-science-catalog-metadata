@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Matthias Drusch",
+      "e-mail": "matthias.drusch@esa.int"
     },
     "osc:consortium": [
       "Lund University (SE)",
@@ -38,11 +38,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://lcc.inversion-lab.com"
+      "href": "https://lcc.inversion-lab.com",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

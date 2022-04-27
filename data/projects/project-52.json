@@ -12,8 +12,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Roger Haagmans",
+      "e-mail": "roger.haagmans@esa.int"
     },
     "osc:consortium": [
       "INST PHYSIQUE GLOBE (FR)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://ilgew.ipgp.fr"
+      "href": "https://ilgew.ipgp.fr",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/ilgew/"
+      "href": "https://eo4society.esa.int/projects/ilgew/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

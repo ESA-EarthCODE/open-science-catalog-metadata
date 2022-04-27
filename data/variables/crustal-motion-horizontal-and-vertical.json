@@ -1,0 +1,6 @@
+{
+  "name": "Crustal motion (horizontal and vertical)",
+  "description": "Changes in time of the position and height of the Earth plates.  Indicative of the lithosphere dynamics, thus useful for earthquake prediction  - Physical unit: [ mm/y ] - Accuracy unit: [ mm/y ].",
+  "link": "",
+  "theme": "Magnetosphere_Ionosphere"
+}

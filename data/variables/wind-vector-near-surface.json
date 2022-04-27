@@ -1,0 +1,6 @@
+{
+  "name": "Wind vector (near surface)",
+  "description": "Horizontal wind vector, at a known height above the surface which is to be sprcified in the metadata",
+  "link": "",
+  "theme": "Atmosphere"
+}

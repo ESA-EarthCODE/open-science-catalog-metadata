@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "NOVELTIS SAS (FR)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://sen4gpp.noveltis.fr/"
+      "href": "https://sen4gpp.noveltis.fr/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sen4gpp/"
+      "href": "https://eo4society.esa.int/projects/sen4gpp/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

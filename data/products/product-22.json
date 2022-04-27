@@ -6,7 +6,7 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "Snow liquid water content (wet snow) for European Alps_Multimission",
-    "description": "Snow liquid water content (wet snow) for European Alps",
+    "description": "Snow liquid water content (wet snow) for European Alps. Upcoming Product",
     "osc:missions": [
       "MODIS",
       "Sentinel-2",
@@ -16,7 +16,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Snow",
+    "osc:variable": "Snow water equivalent",
     "osc:status": "PLANNED",
     "osc:region": "Europe",
     "osc:type": "Product",
@@ -62,11 +62,13 @@
     },
     {
       "rel": "via",
-      "href": "https://alpsnow.enveo.at/publications.html"
+      "href": "https://alpsnow.enveo.at/publications.html",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://ieeexplore.ieee.org/document/9511113"
+      "href": "https://ieeexplore.ieee.org/document/9511113",
+      "title": "Documentation"
     }
   ],
   "assets": {},

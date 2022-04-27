@@ -4,15 +4,15 @@
   "id": "project-76",
   "properties": {
     "title": "STREAM",
-    "description": "A quality assessment of STREAM runoff estimates has been pursued at multiple pilot basins across the world (5 large basins + multiple sub-basins) characterised by different physiographic/climatic features. In these areas, the model was able to accurately simulate river discharge and total runoff time series. ",
+    "description": "A quality assessment of STREAM runoff estimates has been pursued at multiple pilot basins across the world (5 large basins + multiple sub-basins) characterised by different physiographic/climatic features. In these areas, the model was able to accurately simulate river discharge and total runoff time series.",
     "osc:name": "SaTellite-based Run-off Evaluation And Mapping (STREAM)",
     "osc:themes": [
       "Land"
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "CNR \u201a INSTITUTE FOR ELECTROMAGNETIC SENSING OF THE ENVIRONMENT (IREA) (IT)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://hydrology.irpi.cnr.it/projects/stream"
+      "href": "http://hydrology.irpi.cnr.it/projects/stream",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/stream/"
+      "href": "https://eo4society.esa.int/projects/stream/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

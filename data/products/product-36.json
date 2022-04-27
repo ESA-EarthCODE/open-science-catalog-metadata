@@ -4,7 +4,7 @@
   "id": "product-36",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "COR-TD:\u00a0Tropospheric Delays_Baltics_Multimission",
     "description": "The tropospheric correction files are generated from PTA-OBS and VMF3. Tropospheric delays are stored as 1-way path delay in units of meters. In order to apply them to the range observations, they need to be scaled by 2/c, with c denoting speed of light in vacuum. Multiple targets may be summarized in one file. Data blocks for different targets are placed side by side organized by dates. If a target is unavailable or detected an outlier (low SCR), the entries are set to 9. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-TD.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-TD.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

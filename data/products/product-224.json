@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-224",
+  "properties": {
+    "start_datetime": "2011-01-01",
+    "end_datetime": "2020-12-31",
+    "title": "Level 3 SSS, 0.25\u00b0*0.25\u00b0, 9-day averaged produced daily",
+    "description": "Salinity retrievals from L2A and L2D over 9 days are used to produce daily values in a 0.25\u00b0*0.25\u00b0 by using the weighted average described in(Olmedo et al., 2021a). The resulting 9-day maps are generated daily.",
+    "osc:missions": [
+      "SMOS",
+      "Sentinel-2",
+      "Sentinel-3",
+      "CryoSat-2"
+    ],
+    "osc:project": "Earth Observation data For Science and Innovation in the Black Sea",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Sea surface salinity",
+    "osc:status": "COMPLETED",
+    "osc:region": "Black Sea",
+    "osc:type": "Product",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      27.5070842233,
+      40.8729622599,
+      41.8106211165,
+      47.2684228286
+    ],
+    "coordinates": [
+      [
+        [
+          27.5070842233,
+          40.8729622599
+        ],
+        [
+          41.8106211165,
+          40.8729622599
+        ],
+        [
+          41.8106211165,
+          47.2684228286
+        ],
+        [
+          27.5070842233,
+          47.2684228286
+        ],
+        [
+          27.5070842233,
+          40.8729622599
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/#products",
+      "title": "Access"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    27.5070842233,
+    40.8729622599,
+    41.8106211165,
+    47.2684228286
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

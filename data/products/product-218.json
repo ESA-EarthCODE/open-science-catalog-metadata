@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-218",
+  "properties": {
+    "start_datetime": "2011-01-01",
+    "end_datetime": "2019-12-31",
+    "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily",
+    "description": "Multimission altimeter gridded product merging SLA field from ESA_BlackSea_EO4SIBS_L4_SLA_2011-2019 and regional Mean Dynamic Topography field from CMEMS (SEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067; Jousset et al, 2022)",
+    "osc:missions": [
+      "SMOS",
+      "Sentinel-2",
+      "Sentinel-3",
+      "CryoSat-2"
+    ],
+    "osc:project": "Earth Observation data For Science and Innovation in the Black Sea",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Ocean dynamic topography",
+    "osc:status": "COMPLETED",
+    "osc:region": "Black Sea",
+    "osc:type": "Product",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      27.5070842233,
+      40.8729622599,
+      41.8106211165,
+      47.2684228286
+    ],
+    "coordinates": [
+      [
+        [
+          27.5070842233,
+          40.8729622599
+        ],
+        [
+          41.8106211165,
+          40.8729622599
+        ],
+        [
+          41.8106211165,
+          47.2684228286
+        ],
+        [
+          27.5070842233,
+          47.2684228286
+        ],
+        [
+          27.5070842233,
+          40.8729622599
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/#products",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/doc/EO4SIBS_D4.4_AltimetryL4_DUM_v1.1.pdf",
+      "title": "Documentation"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    27.5070842233,
+    40.8729622599,
+    41.8106211165,
+    47.2684228286
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

@@ -6,7 +6,7 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "Snow albedo for European Alps_Multimission",
-    "description": "Snow albedo for European Alps",
+    "description": "Snow albedo for European Alps. Upcoming Product",
     "osc:missions": [
       "MODIS",
       "Sentinel-2",
@@ -16,7 +16,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Snow",
+    "osc:variable": "Earth surface albedo",
     "osc:status": "PLANNED",
     "osc:region": "Europe",
     "osc:type": "Product",
@@ -62,11 +62,13 @@
     },
     {
       "rel": "via",
-      "href": "https://alpsnow.enveo.at/publications.html"
+      "href": "https://alpsnow.enveo.at/publications.html",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://ieeexplore.ieee.org/document/9511109"
+      "href": "https://ieeexplore.ieee.org/document/9511109",
+      "title": "Documentation"
     }
   ],
   "assets": {},

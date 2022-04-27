@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Roger Haagmans",
+      "e-mail": "roger.haagmans@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF BERGEN (NO)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://swarmoutflow.w.uib.no/"
+      "href": "https://swarmoutflow.w.uib.no/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/swarm-coupling-high-low-atmosphere-interactions-ion-outflow/"
+      "href": "https://eo4society.esa.int/projects/swarm-coupling-high-low-atmosphere-interactions-ion-outflow/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

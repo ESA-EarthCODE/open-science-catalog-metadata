@@ -4,9 +4,9 @@
   "id": "product-53",
   "properties": {
     "start_datetime": "2003-01-01",
-    "end_datetime": "2011-01-01",
+    "end_datetime": "2011-12-31",
     "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR climatology snow depth_Antarctic_Envisat",
-    "description": "Envisat sea ice freeboard and thickness from heuristic retracker TFMRA50 and AMSR climatology snow depth in the Antarctic. envisatv3_SIT_fb_snow-AMSR-clim_sh_2003_2011_ease2_w25000.nc",
+    "description": "Envisat sea ice freeboard and thickness from heuristic retracker TFMRA50 and AMSR climatology snow depth in the Antarctic. To access the data please mailto:florent.garnier@legos.obs-mip.fr. File name: envisatv3_SIT_fb_snow-AMSR-clim_sh_2003_2011_ease2_w25000.nc",
     "osc:missions": [
       "ENVISAT",
       "MODIS",
@@ -16,8 +16,8 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Sea ice thickness",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea-ice thickness",
+    "osc:status": "ONGOING",
     "osc:region": "Antarctica",
     "osc:type": "Product",
     "datetime": "2003-01-01T00:00:00Z"
@@ -62,7 +62,13 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "https://www.aviso.altimetry.fr/en/data/products/altimetry-ice-products/altimetry-sea-ice-products-from-ctoh.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.aviso.altimetry.fr/en/data/products/altimetry-ice-products/altimetry-sea-ice-products-from-ctoh.html",
+      "title": "Documentation"
     }
   ],
   "assets": {},

@@ -1,0 +1,6 @@
+{
+  "name": "CO2 Tropospheric Column",
+  "description": "2D field of total amount of CO2 molecules per unit area in an atmospheric column extending from the Earth\u2019s surface to the tropopause.",
+  "link": "",
+  "theme": "Atmosphere"
+}

@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u2013 IRPI (IT)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://hydrology.irpi.cnr.it/download-area/sm2rain-data-sets/"
+      "href": "http://hydrology.irpi.cnr.it/download-area/sm2rain-data-sets/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/water-cycle-multi-mission-observation-strategy-for-the-irrigation-project/"
+      "href": "https://eo4society.esa.int/projects/water-cycle-multi-mission-observation-strategy-for-the-irrigation-project/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

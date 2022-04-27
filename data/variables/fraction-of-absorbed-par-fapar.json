@@ -1,0 +1,6 @@
+{
+  "name": "Fraction of Absorbed PAR (FAPAR)",
+  "description": "Fraction of PAR absorbed by vegetation (land or marine) for photosynthesis processes (generally around the 'red' )",
+  "link": "",
+  "theme": "Land"
+}

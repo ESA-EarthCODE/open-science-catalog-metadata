@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
     },
     "osc:consortium": [
       "UCL CONSULTANTS LTD (GB)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/hr-albedomap/"
+      "href": "https://eo4society.esa.int/projects/hr-albedomap/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/hr-albedomap/"
+      "href": "https://eo4society.esa.int/projects/hr-albedomap/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

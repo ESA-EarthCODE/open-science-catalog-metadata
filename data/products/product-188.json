@@ -4,7 +4,7 @@
   "id": "product-188",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Stokes drift estimation_Atlantic Ocean",
     "description": "Stokes drift estimation for the Atlantic",
     "osc:missions": [],
@@ -12,7 +12,7 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea surface currents",
+    "osc:variable": "Ocean surface currents (vector)",
     "osc:status": "PLANNED",
     "osc:region": "Atlantic Ocean",
     "osc:type": "Product",
@@ -58,11 +58,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products"
+      "href": "https://www.worldoceancirculation.org/Products",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1BKXPowKI8Tpnv2zUmbd3Iy4BEG8GDG0Q/view?usp=sharing"
+      "href": "https://drive.google.com/file/d/1BKXPowKI8Tpnv2zUmbd3Iy4BEG8GDG0Q/view?usp=sharing",
+      "title": "Documentation"
     }
   ],
   "assets": {},

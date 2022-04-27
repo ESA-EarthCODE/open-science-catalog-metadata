@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF OSLO (NO)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/iceflow-short-term-movements-in-the-cryosphere/"
+      "href": "https://eo4society.esa.int/projects/iceflow-short-term-movements-in-the-cryosphere/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/iceflow-short-term-movements-in-the-cryosphere/"
+      "href": "https://eo4society.esa.int/projects/iceflow-short-term-movements-in-the-cryosphere/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

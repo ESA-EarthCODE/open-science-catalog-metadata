@@ -4,7 +4,7 @@
   "id": "product-72",
   "properties": {
     "start_datetime": "2013-01-01",
-    "end_datetime": "2014-01-01",
+    "end_datetime": "2014-12-31",
     "title": "Occurrence of Surface Melting_Antarctica_SMOS",
     "description": "The product \u201cOccurrence of Surface Melting\u201d includes the melted/not melted status of every pixel each day, as well as the mask which excludes the ocean as well as areas never experiencing melting. Surface melting is retrieved from passive microwave radiometer SMOS using the algorithm described in D5-2. Product details are available at: http://www.ifac.cnr.it/cryosmos/products/CryoSMOS_D8_EDUM_V2.0.pdf.",
     "osc:missions": [
@@ -14,11 +14,11 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ice sheet topography",
+    "osc:status": "ONGOING",
     "osc:region": "Antarctica",
     "osc:type": "Product",
-    "sci:doi": "https://doi.org/10.5194/tc-14-539-2020 ",
+    "sci:doi": "https://doi.org/10.5194/tc-14-539-2020",
     "datetime": "2013-01-01T00:00:00Z"
   },
   "geometry": {
@@ -61,11 +61,12 @@
     },
     {
       "rel": "via",
-      "href": "http://www.ifac.cnr.it/cryosmos/products/SM_TEST_OSMDP4_20100401T000000_20190331T000000_100_001_0.nc"
+      "href": "http://www.ifac.cnr.it/cryosmos/products/SM_TEST_OSMDP4_20100401T000000_20190331T000000_100_001_0.nc",
+      "title": "Access"
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/https%3A//doi.org/10.5194/tc-14-539-2020%20"
+      "href": "https://doi.org/https%3A//doi.org/10.5194/tc-14-539-2020"
     }
   ],
   "assets": {},

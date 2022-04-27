@@ -1,0 +1,6 @@
+{
+  "name": "Background Luminance (surface)",
+  "description": "Luminous flux received from the background, per unit solid angle and per unit area where the Luminous flux is a quantity derived from radiant flux by evaluating the radiation according to its action upon the International Commission on Illumination standard photometric observer. (symbol: L; unit: lm. m<sup>\u20132<sub>.</sub></sup>\u00a0sr<sup>\u20131</sup> = cd . m<sup>\u20132</sup> )",
+  "link": "",
+  "theme": "Atmosphere"
+}

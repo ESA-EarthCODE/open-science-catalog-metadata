@@ -4,7 +4,7 @@
   "id": "product-184",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "Daily 2D ocean surface currents_North Atlantic",
     "description": "North Atlantic Merged SSH-SST Surface Currents (NATL2D), surface current product combining altimeter-derived geostrophic currents and satellite L4 SST",
     "osc:missions": [],
@@ -12,8 +12,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea surface currents",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ocean surface currents (vector)",
+    "osc:status": "ONGOING",
     "osc:region": "North Atlantic",
     "osc:type": "Product",
     "datetime": "2010-01-01T00:00:00Z"
@@ -58,11 +58,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products"
+      "href": "https://www.worldoceancirculation.org/Products",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1miczcOz8cvUXKyGj7Rfg8ESZhxea98KE/view?usp=sharing"
+      "href": "https://drive.google.com/file/d/1miczcOz8cvUXKyGj7Rfg8ESZhxea98KE/view?usp=sharing",
+      "title": "Documentation"
     }
   ],
   "assets": {},

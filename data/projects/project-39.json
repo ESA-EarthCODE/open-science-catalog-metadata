@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF EDINBURGH (GB)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.cryotempo-eolis.org"
+      "href": "https://www.cryotempo-eolis.org",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://cryotop-evolution.org"
+      "href": "https://cryotop-evolution.org",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

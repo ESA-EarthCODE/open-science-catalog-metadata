@@ -1,0 +1,6 @@
+{
+  "name": "Snow depth",
+  "description": "Vertical distance from the snow surface to the underlying surface (ground, glacier ice or sea ice).",
+  "link": "",
+  "theme": "Land"
+}

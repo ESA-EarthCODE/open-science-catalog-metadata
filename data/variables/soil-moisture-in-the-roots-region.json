@@ -1,0 +1,6 @@
+{
+  "name": "Soil moisture  (in the roots region)",
+  "description": "Sub-soil 3D field of the fractional content of water in a volume of wet soil. Requested from surface down to ~ 3 m",
+  "link": "",
+  "theme": "Land"
+}

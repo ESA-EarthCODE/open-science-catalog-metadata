@@ -4,7 +4,7 @@
   "id": "product-178",
   "properties": {
     "start_datetime": "2017-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "HDO/H2O non-scattering product_S5p-TROPOMI",
     "description": "total columns of H2O and HDO for clear-sky scenes",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Atmosphere"
     ],
-    "osc:variable": "Water vapour",
-    "osc:status": "COMPLETED",
+    "osc:variable": "HDO",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": "2017-01-01T00:00:00Z"
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "ftp://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/hdo/9_1/"
+      "href": "ftp://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/hdo/9_1/",
+      "title": "Access"
     }
   ],
   "assets": {},

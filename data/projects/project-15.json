@@ -4,15 +4,15 @@
   "id": "project-15",
   "properties": {
     "title": "AlpSnow",
-    "description": "Develop improved products for a number of snow parameters (area extent, albedo, grain size, depth, snow water equivalent, snow melt area and wetness). ",
+    "description": "Develop improved products for a number of snow parameters (area extent, albedo, grain size, depth, snow water equivalent, snow melt area and wetness).",
     "osc:name": "AlpSnow",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
     },
     "osc:consortium": [
       "ENVEO \u201a ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
@@ -34,11 +34,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://alpsnow.enveo.at"
+      "href": "https://alpsnow.enveo.at",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/alpsnow/"
+      "href": "https://eo4society.esa.int/projects/alpsnow/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

@@ -1,0 +1,6 @@
+{
+  "name": "CO2 column average dry air mixing ratio",
+  "description": "2D Column integrated number of molecules of the target gas (CO2, Carbon dioxide) divided by that of dry air expressed in mole fraction",
+  "link": "",
+  "theme": "Atmosphere"
+}

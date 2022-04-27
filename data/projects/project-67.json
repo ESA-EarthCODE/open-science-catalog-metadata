@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marcus Engdahl",
+      "e-mail": "marcus.engdahl@esa.int"
     },
     "osc:consortium": [
       "University of Leeds (GB)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://polar-iceshelf.org"
+      "href": "https://polar-iceshelf.org",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/polar-ice-shelf/"
+      "href": "https://eo4society.esa.int/projects/polar-ice-shelf/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

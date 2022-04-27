@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Ola Grabak",
+      "e-mail": "ola.grabak@esa.int"
     },
     "osc:consortium": [
       "THE INVERSION LAB THOMAS KAMINSKI CONSULTING (DE)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://arctic-plus.inversion-lab.com/index.html"
+      "href": "https://arctic-plus.inversion-lab.com/index.html",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp/"
+      "href": "https://eo4society.esa.int/projects/stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

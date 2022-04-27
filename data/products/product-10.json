@@ -14,7 +14,7 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Ocean colour",
+    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
     "osc:status": "PLANNED",
     "osc:region": "Global",
     "osc:type": "Product",
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": ""
+      "href": "ftp://aeolus@51.68.87.22",
+      "title": "Access"
     }
   ],
   "assets": {},

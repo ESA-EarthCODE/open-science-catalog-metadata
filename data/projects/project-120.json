@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-120",
+  "properties": {
+    "title": "BOOMS",
+    "description": "",
+    "osc:name": "Ocean Health - Open Ocean Biodiversity",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "PLANNED",
+    "osc:technical_officer": {
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
+    },
+    "osc:consortium": [
+      "PML (UK)",
+      "NKUA (GR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2022-02-01",
+    "end_datetime": "2024-02-01",
+    "datetime": "2022-02-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "EO4Society Link"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

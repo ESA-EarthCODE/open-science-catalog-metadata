@@ -1,0 +1,6 @@
+{
+  "name": "Aerosol single-scattering albedo",
+  "description": "The spectrally dependent ratio of the aerosol scattering to the aerosol extinction",
+  "link": "",
+  "theme": "Atmosphere"
+}

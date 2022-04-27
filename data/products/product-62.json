@@ -4,7 +4,7 @@
   "id": "product-62",
   "properties": {
     "start_datetime": "2012-01-01",
-    "end_datetime": "2013-01-01",
+    "end_datetime": "2013-12-31",
     "title": "Satellite SAR altimeter product_Coastal Ocean_Cryosat",
     "description": "Satellite SAR coastal altimeter product generated from Cryosat data with the ESA GPOD processor, and by CLS with the CPP",
     "osc:missions": [
@@ -15,8 +15,8 @@
       "Oceans",
       "Cryosphere"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Western Europe",
     "osc:type": "Product",
     "datetime": "2012-01-01T00:00:00Z"
@@ -61,7 +61,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.satoc.eu/projects/CP4O/docs/CP4O_CCN01_FinalReport_V1_rev.pdf"
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/docs/readme_cpp_cnes.txt",
+      "title": "Documentation"
     }
   ],
   "assets": {},

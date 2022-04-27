@@ -12,8 +12,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u201a IRPI (IT)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-cdom-proxy-retrieval-from-aeolus-observations-color/"
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-cdom-proxy-retrieval-from-aeolus-observations-color/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-cdom-proxy-retrieval-from-aeolus-observations-color/"
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-cdom-proxy-retrieval-from-aeolus-observations-color/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

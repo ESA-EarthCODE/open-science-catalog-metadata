@@ -14,8 +14,8 @@
     "osc:themes": [
       "Solid Earth"
     ],
-    "osc:variable": "Sub-ice heat-flux",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Gravity field",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "datetime": null
@@ -60,7 +60,8 @@
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/drive/folders/1bmwEpPm4Jj83legXuhmPB-EJ7oz5hKag?usp=sharing"
+      "href": "https://drive.google.com/drive/folders/1bmwEpPm4Jj83legXuhmPB-EJ7oz5hKag?usp=sharing",
+      "title": "Access"
     }
   ],
   "assets": {},

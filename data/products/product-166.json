@@ -6,7 +6,7 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "Ground Virtual Observatory Data SWARM",
-    "description": "The files provided for each satellite include 1 month and 4 month values for observed field, core field (with estimates of magnetospheric and ionospheric fields removed) and SV (from annual difference of the core field data). Further specific details for this update are given in the associated README files. Contact: technical.officer@osc.org",
+    "description": "The files provided for each satellite include 1 month and 4 month values for observed field, core field (with estimates of magnetospheric and ionospheric fields removed) and SV (from annual difference of the core field data). Further specific details for this update are given in the associated README files. Contact: cfinlay@space.dtu.dk",
     "osc:missions": [
       "SWARM"
     ],
@@ -15,8 +15,8 @@
       "Solid Earth",
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Geomagnetic Field",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
     "osc:region": null,
     "osc:type": "Product",
     "datetime": null
@@ -29,11 +29,13 @@
     },
     {
       "rel": "via",
-      "href": "http://www.spacecenter.dk/files/magnetic-models/GVO/GVO_data_SWARM.zip"
+      "href": "http://www.spacecenter.dk/files/magnetic-models/GVO/GVO_data_SWARM.zip",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://doi.org/10.1186/s40623-021-01365-9"
+      "href": "https://doi.org/10.1186/s40623-021-01365-9",
+      "title": "Documentation"
     }
   ],
   "assets": {},

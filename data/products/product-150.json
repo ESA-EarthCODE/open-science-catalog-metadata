@@ -4,7 +4,7 @@
   "id": "product-150",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2016-01-01",
+    "end_datetime": "2016-12-31",
     "title": "Ice Sheet_gridded topography_rates of surface elevation change_Greenland_Cryosat-2",
     "description": "These files are gridded topography, rates of surface elevation change, and errors as 500m and 1km posting determined from surface elevation measured by swath processing of data acquired by the interferometric radar altimeter CryoSat-2. The gridded products cover the Greenland Ice Sheet between 2011 and 2016.",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ice sheet topography",
+    "osc:status": "ONGOING",
     "osc:region": "Greenland",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5285/0c3a6698-1078-4465-a2c0-ca17ca0a0c39",
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://ramadda.data.bas.ac.uk/repository/entry/show?entryid=0c3a6698-1078-4465-a2c0-ca17ca0a0c39"
+      "href": "https://ramadda.data.bas.ac.uk/repository/entry/show?entryid=0c3a6698-1078-4465-a2c0-ca17ca0a0c39",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

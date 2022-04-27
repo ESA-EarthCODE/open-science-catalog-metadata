@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF EXETER (GB)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://esa-oceansoda.org/"
+      "href": "https://esa-oceansoda.org/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/satellite-oceanographic-datasets-for-acidification-oceansoda/"
+      "href": "https://eo4society.esa.int/projects/satellite-oceanographic-datasets-for-acidification-oceansoda/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

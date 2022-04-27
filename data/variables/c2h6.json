@@ -1,0 +1,6 @@
+{
+  "name": "C2H6",
+  "description": "3D field of amount of C2H6 (Ethane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "link": "",
+  "theme": "Atmosphere"
+}

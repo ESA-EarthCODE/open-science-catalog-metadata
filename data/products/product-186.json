@@ -4,7 +4,7 @@
   "id": "product-186",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2011-01-01",
+    "end_datetime": "2011-12-31",
     "title": "Total surface current_North-Atlantic",
     "description": "North Altantic Total Surface Current, contains the total surface current including CMEMS geostrophy and Ekman+Near-Inertial currents estimated from ERA5-10m winds with an empirically-adjusted 1D - depth model (Ubelmann et al., in prep)",
     "osc:missions": [],
@@ -12,8 +12,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea surface currents",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ocean surface currents (vector)",
+    "osc:status": "ONGOING",
     "osc:region": "North Atlantic",
     "osc:type": "Product",
     "datetime": "2011-01-01T00:00:00Z"
@@ -58,11 +58,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products"
+      "href": "https://www.worldoceancirculation.org/Products",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1mZKXo2sbp5J80sk4dcRe8nLSYtmxzkAg/view?usp=sharing"
+      "href": "https://drive.google.com/file/d/1mZKXo2sbp5J80sk4dcRe8nLSYtmxzkAg/view?usp=sharing",
+      "title": "Documentation"
     }
   ],
   "assets": {},

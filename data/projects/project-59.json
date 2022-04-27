@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
     },
     "osc:consortium": [
       "MAGELLIUM (FR)",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/moheacan/"
+      "href": "https://eo4society.esa.int/projects/moheacan/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/moheacan/"
+      "href": "https://eo4society.esa.int/projects/moheacan/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

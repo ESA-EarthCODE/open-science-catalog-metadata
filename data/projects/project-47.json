@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Craig James Donlon",
+      "e-mail": "craig.donlon@esa.int"
     },
     "osc:consortium": [
       "CLS COLLECTE LOCALISATION SATELLITES (FR)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.godae-oceanview.org/science/task-teams/observing-system-evaluation-tt-oseval-tt/"
+      "href": "http://www.godae-oceanview.org/science/task-teams/observing-system-evaluation-tt-oseval-tt/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15/"
+      "href": "https://eo4society.esa.int/projects/godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

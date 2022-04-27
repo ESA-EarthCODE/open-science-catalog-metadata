@@ -4,7 +4,7 @@
   "id": "product-81",
   "properties": {
     "start_datetime": "2008-01-01",
-    "end_datetime": "2011-01-01",
+    "end_datetime": "2011-12-31",
     "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE",
     "description": "4-year averaged cloud optical depth at 532 nm. The products are also provided per season and per cloud type. (Amiridis et al., ACP, 2015, https://doi.org/10.5194/acp-15-7127-2015). Horizontal resolution: 1x1 degree, Vertical resolution: Calipso L2 vertical resolution {60m between 0-20km, 120m between 20-30km}. Horizontal resolution: 1x1 degree, Vertical resolution: Calipso L2 vertical resolution {60m between 0-20km, 120m between 20-30km}",
     "osc:missions": [
@@ -16,7 +16,7 @@
       "Atmosphere"
     ],
     "osc:variable": "Clouds",
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.5194/acp-15-7127-2015",
@@ -62,11 +62,13 @@
     },
     {
       "rel": "via",
-      "href": "ftps://livas:livas-public@react.space.noa.gr"
+      "href": "ftps://livas:livas-public@react.space.noa.gr",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "http://195.251.203.238/beyond/images/docs/publications/atmospheric/Amiridis_LIVAS.pdf"
+      "href": "http://195.251.203.238/beyond/images/docs/publications/atmospheric/Amiridis_LIVAS.pdf",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

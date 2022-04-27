@@ -1,0 +1,6 @@
+{
+  "name": "O3",
+  "description": "3D field of amount of O3 (Ozone, expressed in moles) divided by the total amount of all constituents in air (also expressed in moles).",
+  "link": "",
+  "theme": "Atmosphere"
+}

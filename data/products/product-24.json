@@ -4,9 +4,9 @@
   "id": "product-24",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2019-01-01",
+    "end_datetime": "2019-12-31",
     "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS",
-    "description": "Arctic sea surface salinity retrieved from SMOS, spatial resolution 0.25 deg (EASE grid 2.0), temporal resolution 9-day maps generated daily. The product contains the following data: i) sea surface salinity (p.s.u), ii) sea surface salinity uncertainty (p.s.u), and iii) sea surface salinity anomaly (p.s.u) : difference between sea surface salinity provided by SSS field and the annual sea surface salinity provided by WOA 2018 A5B7. Product version 3.1.  The product will be freely distributed at the BEC webpage http://bec.icm.csic.es and at the project webpage https://arcticsalinity.argans.co.uk. ",
+    "description": "Arctic sea surface salinity retrieved from SMOS, spatial resolution 0.25 deg (EASE grid 2.0), temporal resolution 9-day maps generated daily. The product contains the following data: i) sea surface salinity (p.s.u), ii) sea surface salinity uncertainty (p.s.u), and iii) sea surface salinity anomaly (p.s.u) : difference between sea surface salinity provided by SSS field and the annual sea surface salinity provided by WOA 2018 A5B7. Product version 3.1.  The product will be freely distributed at the BEC webpage http://bec.icm.csic.es and at the project webpage https://arcticsalinity.argans.co.uk.",
     "osc:missions": [
       "SMOS"
     ],
@@ -16,7 +16,7 @@
       "Cryosphere"
     ],
     "osc:variable": "Sea surface salinity",
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:region": "Arctic",
     "osc:type": "Product",
     "version": "3.1",
@@ -63,11 +63,13 @@
     },
     {
       "rel": "via",
-      "href": "https://digital.csic.es/handle/10261/219679"
+      "href": "https://digital.csic.es/handle/10261/219679",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://arcticsalinity.argans.co.uk/documentation/"
+      "href": "https://arcticsalinity.argans.co.uk/documentation/",
+      "title": "Documentation"
     },
     {
       "rel": "cite-as",

@@ -4,7 +4,7 @@
   "id": "product-3",
   "properties": {
     "start_datetime": "2010-01-01",
-    "end_datetime": "2019-01-01",
+    "end_datetime": "2019-12-31",
     "title": "Subglacial Lake Drainage and Filling_Antarctica_Multimission",
     "description": "Repeat Subglacial Lake Drainage and Filling Beneath Thwaites Glacier",
     "osc:missions": [
@@ -23,8 +23,8 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Ice sheets and ice shelves",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ice sheet topography",
+    "osc:status": "ONGOING",
     "osc:region": "Antarctica",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.1029/2020GL089658",
@@ -70,7 +70,8 @@
     },
     {
       "rel": "via",
-      "href": "https://4d-antarctica.org/wp-content/uploads/2021/01/Malczyk_etal_2020_data_v2.tar"
+      "href": "https://4d-antarctica.org/wp-content/uploads/2021/01/Malczyk_etal_2020_data_v2.tar",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

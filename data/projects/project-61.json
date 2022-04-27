@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
       "CNR-INSTITUTE OF MARINE SCIENCES-ISMAR (IT)",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://circol.artov.ismar.cnr.it/index.html"
+      "href": "http://circol.artov.ismar.cnr.it/index.html",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/circol/"
+      "href": "https://eo4society.esa.int/projects/circol/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

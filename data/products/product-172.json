@@ -19,8 +19,8 @@
       "Solid Earth",
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Geomagnetic Field",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
     "version": "7.8",
@@ -67,7 +67,8 @@
     },
     {
       "rel": "via",
-      "href": "http://www.spacecenter.dk/files/magnetic-models/CHAOS-7/CHAOS-7.8_core.shc"
+      "href": "http://www.spacecenter.dk/files/magnetic-models/CHAOS-7/CHAOS-7.8_core.shc",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

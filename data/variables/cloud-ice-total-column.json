@@ -1,0 +1,6 @@
+{
+  "name": "Cloud ice Total Column",
+  "description": "2D Field of atmospheric water in the solid phase (precipitating or not), integrated over the total column.",
+  "link": "",
+  "theme": "Atmosphere"
+}

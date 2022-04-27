@@ -4,7 +4,7 @@
   "id": "product-12",
   "properties": {
     "start_datetime": "2017-01-01",
-    "end_datetime": "2017-01-01",
+    "end_datetime": "2017-12-31",
     "title": "Prototype biomass product using Sentinel-3 altimetry_Africa_S3",
     "description": "Prototype biomass estimation over specific areas, especially over tropical forests and boreal forests. Product details are provided in: Davide Comite, Nazzareno Pierdicca, Maria-Paola Clarizia, Giuseppina De Felice-Proia, Leila Guerriero, Marco Restano, and Jerome Benveniste \"Biomass Estimation by Means of Sentinel-3 Data: A Sensitivity Analysis\", Proc. SPIE 11861, Microwave Remote Sensing: Data Processing and Applications, 1186104 (12 September 2021); https://doi.org/10.1117/12.2600230 https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11861/2600230/Biomass-Estimation-by-Means-of-Sentinel-3-Data--A/10.1117/12.2600230.full",
     "osc:missions": [
@@ -60,7 +60,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11861/2600230/Biomass-Estimation-by-Means-of-Sentinel-3-Data--A/10.1117/12.2600230.full"
+      "href": "",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11861/2600230/Biomass-Estimation-by-Means-of-Sentinel-3-Data--A/10.1117/12.2600230.full",
+      "title": "Documentation"
     }
   ],
   "assets": {},

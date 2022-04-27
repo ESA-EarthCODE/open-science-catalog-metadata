@@ -4,7 +4,7 @@
   "id": "product-65",
   "properties": {
     "start_datetime": "2012-01-01",
-    "end_datetime": "2013-01-01",
+    "end_datetime": "2013-12-31",
     "title": "Satellite SAR altimeter product_Sea Floor Mapping_Oceania_Cryosat",
     "description": "Satellite SAR altimeter product generated from Cryosat data by DTU Space",
     "osc:missions": [
@@ -16,7 +16,7 @@
       "Cryosphere"
     ],
     "osc:variable": "Bathymetry",
-    "osc:status": "COMPLETED",
+    "osc:status": "ONGOING",
     "osc:region": "Oceania",
     "osc:type": "Product",
     "datetime": "2012-01-01T00:00:00Z"
@@ -61,7 +61,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.satoc.eu/projects/CP4O/data_p20.html"
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Documentation"
     }
   ],
   "assets": {},

@@ -4,7 +4,7 @@
   "id": "product-37",
   "properties": {
     "start_datetime": "2020-01-01",
-    "end_datetime": "2020-01-01",
+    "end_datetime": "2020-12-31",
     "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission",
     "description": "Sensor specific calibration constants (S1A, S1B) are stored in dedicated calibration files. The numbers need to be applied to the raw range and azimuth observations to ensure unbiased observations. The numbers primarily account for SAR payload internal signal delays and have been inferred from S1A and S1B measurements of the long term stable corner reflector installed at Mets\u00e4hovi geodetic observatory. Product details available at: https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/SAR-HSU-TN-0019_Dataset_User_Manual.pdf",
     "osc:missions": [
@@ -17,8 +17,8 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Sea Level",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2020-01-01T00:00:00Z"
@@ -63,7 +63,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-SC.zip"
+      "href": "https://www.asg.ed.tum.de/fileadmin/w00cip/iapg/Baltic/COR-SC.zip",
+      "title": "Access"
     }
   ],
   "assets": {},

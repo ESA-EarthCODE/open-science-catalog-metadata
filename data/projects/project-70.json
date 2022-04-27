@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Michael Kern",
+      "e-mail": "michael.kern@esa.int"
     },
     "osc:consortium": [
       "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK)",
@@ -27,11 +27,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://snow.geus.dk/"
+      "href": "http://snow.geus.dk/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/pre-operational-sentinel-3-snow-and-ice-products-sice/"
+      "href": "https://eo4society.esa.int/projects/pre-operational-sentinel-3-snow-and-ice-products-sice/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

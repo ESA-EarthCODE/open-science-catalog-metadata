@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF LEICESTER (GB)",
@@ -20,19 +20,21 @@
       "UNIVERSITY OF BERGEN (NO)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2019-06-03",
-    "end_datetime": "2021-06-30",
-    "datetime": "2019-06-03T00:00:00Z"
+    "start_datetime": "2019-07-02",
+    "end_datetime": "2021-12-30",
+    "datetime": "2019-07-02T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-water-vapour-isotopologues-project-h2o-iso/"
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-water-vapour-isotopologues-project-h2o-iso/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-water-vapour-isotopologues-project-h2o-iso/"
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-water-vapour-isotopologues-project-h2o-iso/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

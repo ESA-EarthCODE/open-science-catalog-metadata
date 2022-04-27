@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Marcus Engdahl",
+      "e-mail": "marcus.engdahl@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF LANCASTER ENVIROMENT CENTRE (GB)",
@@ -30,11 +30,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://smb.eo4cryo.dk/"
+      "href": "https://smb.eo4cryo.dk/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/eo4smb/"
+      "href": "https://eo4society.esa.int/projects/eo4smb/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

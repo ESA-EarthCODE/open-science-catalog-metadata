@@ -3,10 +3,10 @@
   "stac_version": "1.0.0",
   "id": "product-135",
   "properties": {
-    "start_datetime": "2010-01-01",
-    "end_datetime": "2016-01-01",
-    "title": "Total Alkalinity_Dissolved inorganic carbon_Global Oceans_SMOS_S3",
-    "description": "EO-based oceanic total alkalinity (TA) and dissolved inorganic carbon (DIC). Published empirical algorithms for oceanic total alkalinity (TA) and dissolved inorganic carbon (DIC) are used with monthly sea surface salinity (SSS) and temperature (SST) derived from satellite (SMOS, Aquarius, SST CCI) and interpolated in situ (CORA) measurements and climatological (WOA) ancillary data to produce monthly maps of TA and DIC at one degree spatial resolution. Earth system model TA and DIC (HADGEM2-ES) are also included. Results are compared with in situ (GLODAPv2) TA and DIC and results analysed in five regions (global, Greater Caribbean, Amazon plume, Amazon plume with in situ SSS < 35 and Bay of Bengal). Results are presented in three versions, denoted by 'X' in the lists below: using all available data (X = ''); excluding data with bathymetry < 500m (X = 'Depth500'); excluding data with both bathymetry < 500m and distance from nearest coast < 300 km (X = 'Depth500Dist300').",
+    "start_datetime": "1985-01-01",
+    "end_datetime": "2020-12-31",
+    "title": "Surface-ocean_TA_Global_v2021",
+    "description": "A global gridded data set of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021). This are the outputs from a full marine carbonate system analysis, calculated from machine learning estimates of total alkalinity (TA) and the partial pressure of carbon dioxide (pCO2). The surface-ocean pCO2 presented here is the ensemble mean of 16 two-step clustering-regression machine learning estimates. The ensemble is a combination of eight clustering instances and two regression methods. For the clustering, we use K-means clustering (21 clusters) repeated with different initiations, resulting in slightly different clusters. Two machine learning regression methods are applied to each of these clustering instances. These machine learning methods are feed-forward neural-network (FFNN), and gradient boosted machine using decision trees (GBDT). The average of the ensemble members is used as the final estimate. Further, the standard deviation of the ensemble members is an analog of the uncertainty. \nTotal alkalinity and pCO2 are then used to solve for the remaining parameters of the marine carbonate system using the PyCO2SYS software (to derive pH and total dissolved inorganic carbon, or DIC). The temperature and salinity products used in this calculation are provided in the file. Phosphate and silicate from the interpolated World Ocean Atlas (2018) product were used. The total scale for pH was used. The product extends from the start of 1985 to the end of 2020.\n",
     "osc:missions": [
       "SMOS",
       "Sentinel-3"
@@ -15,12 +15,12 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Inorganic Carbon",
-    "osc:status": "COMPLETED",
-    "osc:region": "Global Oceans",
+    "osc:variable": "total alkalinity",
+    "osc:status": "ONGOING",
+    "osc:region": "Global",
     "osc:type": "Product",
-    "sci:doi": "https://doi.pangaea.de/10.1594/PANGAEA.898115",
-    "datetime": "2010-01-01T00:00:00Z"
+    "sci:doi": "https://doi.org/10.25921/m5wx-ja34",
+    "datetime": "1985-01-01T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -62,11 +62,12 @@
     },
     {
       "rel": "via",
-      "href": "https://doi.pangaea.de/10.1594/PANGAEA.898115"
+      "href": "https://www.ncei.noaa.gov/data/oceans/ncei/ocads/data/0220059/",
+      "title": "Access"
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/https%3A//doi.pangaea.de/10.1594/PANGAEA.898115"
+      "href": "https://doi.org/https%3A//doi.org/10.25921/m5wx-ja34"
     }
   ],
   "assets": {},

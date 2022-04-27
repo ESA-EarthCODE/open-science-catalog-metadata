@@ -1,0 +1,6 @@
+{
+  "name": "Aerosol species mole fraction",
+  "description": "3D field of the mole fraction of condensed-phase chemical species (e.g., sulfate, nitrate, ammonium, elemental carbon, organic carbon),  in the atmosphere",
+  "link": "",
+  "theme": "Atmosphere"
+}

@@ -4,7 +4,7 @@
   "id": "product-58",
   "properties": {
     "start_datetime": "2011-01-01",
-    "end_datetime": "2011-01-01",
+    "end_datetime": "2011-12-31",
     "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
     "description": "Detection and characterization of Traveling Ionospheric Disturbances (TIDs) from Global Navigation Satellite System (GNSS) measurements using the Atomic Decomposition Detector of Traveling Ionospheric Disturbances (ADDTID) algorithm",
     "osc:missions": [
@@ -12,11 +12,10 @@
     ],
     "osc:project": "Contribution of Swarm data to the prompt detection of Tsunamis and other natural hazards  (COSTO)",
     "osc:themes": [
-      "Magnetosphere_Ionosphere",
-      "Solid Earth"
+      "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Solar activity",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Ionospheric plasma density",
+    "osc:status": "ONGOING",
     "osc:region": "Japan",
     "osc:type": "Product",
     "sci:doi": "https://doi.org/10.3390/rs11161894",
@@ -62,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894"
+      "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894",
+      "title": "Access"
     },
     {
       "rel": "cite-as",

@@ -1,0 +1,6 @@
+{
+  "name": "Soil moisture at surface",
+  "description": "Fractional content of water in a volume of wet soil. Surface layer (upper few centimetres)",
+  "link": "",
+  "theme": "Land"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EUV flux",
+  "description": "Radiative flux integrated over the EUV band.",
+  "link": "",
+  "theme": "Magnetosphere_Ionosphere"
+}

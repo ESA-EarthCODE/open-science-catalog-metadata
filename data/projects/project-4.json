@@ -3,16 +3,16 @@
   "stac_version": "1.0.0",
   "id": "project-4",
   "properties": {
-    "title": " Swarm Space Weather \u2013 Variability of Ionospheric Plasma (Swarm VIP)",
+    "title": "Swarm Space Weather \u2013 Variability of Ionospheric Plasma (Swarm VIP)",
     "description": "In the project Swarm satellite data and other datasets are used to determine determine the dominant scales in the ionosphere at different geomagnetic conditions and create a semi-empiric dynamic model of the ionosphere.",
     "osc:name": "4DIONOSPHERE (SWARM VIP)",
     "osc:themes": [
       "Magnetosphere_Ionosphere"
     ],
-    "osc:status": "ONGOING",
+    "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF OSLO (NO)",
@@ -29,11 +29,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.mn.uio.no/fysikk/english/research/projects/swarm-vip/"
+      "href": "https://www.mn.uio.no/fysikk/english/research/projects/swarm-vip/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/4dionosphere/"
+      "href": "https://eo4society.esa.int/projects/4dionosphere/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

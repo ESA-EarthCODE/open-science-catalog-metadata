@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
     },
     "osc:consortium": [
       "Technical University of Denmark (DK)",
@@ -28,11 +28,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/arctic-theme-3-fresh-water-fluxes-arcflux/"
+      "href": "https://eo4society.esa.int/projects/arctic-theme-3-fresh-water-fluxes-arcflux/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/arctic-theme-3-fresh-water-fluxes-arcflux/"
+      "href": "https://eo4society.esa.int/projects/arctic-theme-3-fresh-water-fluxes-arcflux/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

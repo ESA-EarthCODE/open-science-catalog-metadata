@@ -11,8 +11,8 @@
     ],
     "osc:status": "ONGOING",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Ola Grabak",
+      "e-mail": "ola.grabak@esa.int"
     },
     "osc:consortium": [
       "Norwegian Research Centre (NORCE)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://cvl.eo.esa.int/metsis/search"
+      "href": "https://cvl.eo.esa.int/metsis/search",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cryosphere-virtual-laboratory-expro/"
+      "href": "https://eo4society.esa.int/projects/cryosphere-virtual-laboratory-expro/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

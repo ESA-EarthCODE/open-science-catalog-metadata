@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Stephen Plummer",
+      "e-mail": "stephen.plummer@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITY OF LEICESTER (GB)"
@@ -26,11 +26,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/eocytes-evaluation-of-the-effect-of-ozone-on-crop-yields-and-the-terrestrial-carbon-pool-using-satellite-data/"
+      "href": "https://eo4society.esa.int/projects/eocytes-evaluation-of-the-effect-of-ozone-on-crop-yields-and-the-terrestrial-carbon-pool-using-satellite-data/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/eocytes-evaluation-of-the-effect-of-ozone-on-crop-yields-and-the-terrestrial-carbon-pool-using-satellite-data/"
+      "href": "https://eo4society.esa.int/projects/eocytes-evaluation-of-the-effect-of-ozone-on-crop-yields-and-the-terrestrial-carbon-pool-using-satellite-data/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

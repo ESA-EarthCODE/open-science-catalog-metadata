@@ -4,15 +4,15 @@
   "id": "project-91",
   "properties": {
     "title": "S5p Innovation - OCLO",
-    "description": "Continuation of the retrievals of OClO performed for UV/vis heritage instruments (GOME, SCIAMACHY, GOME2, OMI) ",
+    "description": "Continuation of the retrievals of OClO performed for UV/vis heritage instruments (GOME, SCIAMACHY, GOME2, OMI)",
     "osc:name": "SENTINEL-5P+ INNOVATION CHLORINE DIOXIDE (OCLO)",
     "osc:themes": [
       "Atmosphere"
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "UNIVERSITAET BREMEN (DE)",
@@ -20,18 +20,20 @@
     ],
     "osc:type": "Project",
     "start_datetime": "2019-06-25",
-    "end_datetime": "2021-06-30",
+    "end_datetime": "2021-12-30",
     "datetime": "2019-06-25T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "http://www.iup.uni-bremen.de/doas/s5poclo.htm"
+      "href": "http://www.iup.uni-bremen.de/doas/s5poclo.htm",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-chlorine-dioxide-oclo/"
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-chlorine-dioxide-oclo/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

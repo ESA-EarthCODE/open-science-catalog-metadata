@@ -4,7 +4,7 @@
   "id": "product-163",
   "properties": {
     "start_datetime": "2014-01-01",
-    "end_datetime": "2017-01-01",
+    "end_datetime": "2017-12-31",
     "title": "Cluster/Swarm B conjunctions",
     "description": "CSV file with a list of all conjunctions between Swarm-Bravo and Cluster-4. Conjunctions were identified by NASA\u2019s \u00abSatellite Situation Center Web\u00bb Query tool in Nov 2018.",
     "osc:missions": [
@@ -14,8 +14,8 @@
     "osc:themes": [
       "Magnetosphere_Ionosphere"
     ],
-    "osc:variable": "Geomagnetic Field",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
     "osc:region": null,
     "osc:type": "Product",
     "datetime": "2014-01-01T00:00:00Z"
@@ -28,7 +28,8 @@
     },
     {
       "rel": "via",
-      "href": "http://swarmoutflow.w.uib.no/files/2020/05/Cluster4-swarmAConjs-2014-2017_NaNless_noDubs.txt"
+      "href": "http://swarmoutflow.w.uib.no/files/2020/05/Cluster4-swarmAConjs-2014-2017_NaNless_noDubs.txt",
+      "title": "Access"
     }
   ],
   "assets": {},

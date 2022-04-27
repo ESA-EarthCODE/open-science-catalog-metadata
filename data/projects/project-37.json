@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Ola Grabak",
+      "e-mail": "ola.grabak@esa.int"
     },
     "osc:consortium": [
       "FAC-CNR ISTITUTO DI FISICA APPLICATA \u201d NELLO CARRARA\u201d (IT)",
@@ -31,11 +31,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://www.catds.fr/Products/Available-products-from-CEC-SM/CryoSMOS-project"
+      "href": "https://www.catds.fr/Products/Available-products-from-CEC-SM/CryoSMOS-project",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/cryosmos/"
+      "href": "https://eo4society.esa.int/projects/cryosmos/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

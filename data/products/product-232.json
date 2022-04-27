@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-232",
+  "properties": {
+    "start_datetime": "2017-01-01",
+    "end_datetime": "2018-12-31",
+    "title": "Binary wet snow extent products",
+    "description": "Binary wet snow extent products were generated from Sentinel-1 data with 100 m grid spacing for snow areas with more than 70% fractional snow cover classified in the cloud gap filled fractional snow cover map of the same acquisition date from MODIS data. Forested areas and water bodies are masked in the wet snow products. These products were generated per track. Further, the binary wet snow maps from single tracks per day were merged to cover larger regions: Alps, Scandinavia, Pan-European domain. Product Access: Multi-sensor snowmelt extent products are stored as a zip file (\u201ctracks_all.zip\u201d) at ftp.enveo.at. User: ftp30, password will be provided by the PI on request. PI: Thomas Nagler, ENVEO IT GmbH, email: thomas.nagler@enveo.at",
+    "osc:missions": [
+      "Sentinel-1",
+      "Sentinel-2",
+      "Sentinel-3"
+    ],
+    "osc:project": "Development of pan-European Multi-Sensor Snow Mapping Methods Exploiting Sentinel-1",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Snow status (wet/dry)",
+    "osc:status": "COMPLETED",
+    "osc:region": "Europe",
+    "osc:type": "Product",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://s14scisnow.enveo.at/"
+    },
+    {
+      "rel": "via",
+      "href": "ftp.enveo.at",
+      "title": "Access"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

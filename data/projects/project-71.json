@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "GRASP-SAS (FR)",
@@ -24,18 +24,20 @@
     ],
     "osc:type": "Project",
     "start_datetime": "2020-07-24",
-    "end_datetime": "2021-06-30",
+    "end_datetime": "2021-06-16",
     "datetime": "2020-07-24T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/prisma/"
+      "href": "https://eo4society.esa.int/projects/prisma/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/prisma/"
+      "href": "https://eo4society.esa.int/projects/prisma/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

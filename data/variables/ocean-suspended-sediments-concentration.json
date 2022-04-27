@@ -1,0 +1,6 @@
+{
+  "name": "Ocean suspended sediments concentration",
+  "description": "Variable extracted from ocean colour observation. Indicative of river outflow, re-suspension or pollution of other-than-biological origin. Uncertainty expressed in g/m3\u00a0at a specific concentration (e.g., 2 g/m3\u00a0).",
+  "link": "",
+  "theme": "Oceans"
+}

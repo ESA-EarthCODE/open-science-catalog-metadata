@@ -4,9 +4,9 @@
   "id": "product-44",
   "properties": {
     "start_datetime": "2015-01-01",
-    "end_datetime": "2018-01-01",
+    "end_datetime": "2018-12-31",
     "title": "In-situ measurements_Baltics",
-    "description": "Water quality data of coastal (local and regional) monitoring; ICES water quality; Water quality from campaigns; Water quality data from Ship- of-opportunity (bottle samples); Water quality data from Ship-of- opportunity, instrument data; Reflectance. Details available at: http://eo.ymparisto.fi/data/water/Baltic_SeaLaBio/SeaLaBio_Dataset_Description_V1.2.pdf ",
+    "description": "Water quality data of coastal (local and regional) monitoring; ICES water quality; Water quality from campaigns; Water quality data from Ship- of-opportunity (bottle samples); Water quality data from Ship-of- opportunity, instrument data; Reflectance. Details available at: http://eo.ymparisto.fi/data/water/Baltic_SeaLaBio/SeaLaBio_Dataset_Description_V1.2.pdf",
     "osc:missions": [
       "In-situ"
     ],
@@ -15,8 +15,8 @@
       "Oceans",
       "Land"
     ],
-    "osc:variable": "Ocean colour",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
+    "osc:status": "ONGOING",
     "osc:region": "Baltics",
     "osc:type": "Product",
     "datetime": "2015-01-01T00:00:00Z"
@@ -61,7 +61,8 @@
     },
     {
       "rel": "via",
-      "href": "http://eo.ymparisto.fi/data/water/Baltic_SeaLaBio/"
+      "href": "http://eo.ymparisto.fi/data/water/Baltic_SeaLaBio/",
+      "title": "Access"
     }
   ],
   "assets": {},

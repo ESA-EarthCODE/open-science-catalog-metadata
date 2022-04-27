@@ -16,7 +16,7 @@
     "osc:themes": [
       "Cryosphere"
     ],
-    "osc:variable": "Snow",
+    "osc:variable": "Snow cover",
     "osc:status": "PLANNED",
     "osc:region": "Europe",
     "osc:type": "Product",
@@ -62,11 +62,13 @@
     },
     {
       "rel": "via",
-      "href": "https://alpsnow.enveo.at/publications.html"
+      "href": "https://alpsnow.enveo.at/publications.html",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://ieeexplore.ieee.org/document/9511108"
+      "href": "https://ieeexplore.ieee.org/document/9511108",
+      "title": "Documentation"
     }
   ],
   "assets": {},

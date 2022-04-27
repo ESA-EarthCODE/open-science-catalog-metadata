@@ -11,8 +11,8 @@
     ],
     "osc:status": "COMPLETED",
     "osc:technical_officer": {
-      "name": "Technical Officer",
-      "e-mail": "technical.officer@osc.org"
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
     },
     "osc:consortium": [
       "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)",
@@ -21,19 +21,21 @@
       "UNIVERSITAET BREMEN (DE)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2020-04-01",
+    "start_datetime": "2020-04-29",
     "end_datetime": "2021-06-30",
-    "datetime": "2020-04-01T00:00:00Z"
+    "datetime": "2020-04-29T00:00:00Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "https://icovac.aeronomie.be/"
+      "href": "https://icovac.aeronomie.be/",
+      "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/icovac/"
+      "href": "https://eo4society.esa.int/projects/icovac/",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},

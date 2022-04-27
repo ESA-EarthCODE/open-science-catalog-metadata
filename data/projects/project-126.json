@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-126",
+  "properties": {
+    "title": "Space4SafeSea",
+    "description": "The objective of the Space4SafeSea project is to develop and validate for maritime safety applications an ocean state product based on synergetic use of a new merged ocean current and surface wave data in the Great Agulhas region, an area synonymous of hazardous sea state and rogue waves due to the interaction between the wave and the current. The new merged ocean current will be derived from Altimeter data and AIS-based current using the Multiscale Inversion for Ocean Surface Topography (MIOST) variational tool. The directional spectrum of sea surface waves from SWIM will be used in conjunction with a wave-model output and swell ray propagation model.",
+    "osc:name": "Space4SafeSea",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
+    },
+    "osc:consortium": [
+      "E-Odyn (FR)",
+      "CLS (FR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2021-07-02",
+    "end_datetime": "2022-07-02",
+    "datetime": "2021-07-02T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "Space4SafeSea - eo science for society (esa.int)",
+      "title": "EO4Society Link"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}
