@@ -22,13 +22,16 @@ jobs:
           pip install open-science-catalog-builder/
           # osc build data/ -o dist/ --root-href "https://metadata.osc.develop.eoepca.org/open-science-catalog-metadata/"
           osc build data/ -o dist/ --root-href "https://eoepca.github.io/open-science-catalog-metadata/"
-      - name: Building Catalog client
+      - name: Copying Catalog client
         run: |
-          cd stac-browser/
-          npm install
-          npm run build -- --catalogUrl="https://${GITHUB_REPOSITORY_OWNER}.github.io/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')/catalog.json" --pathPrefix="/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')/"
-          cp -r dist/* ../dist
-          cd ..
+          cp -r client/* dist/
+      # - name: Building Catalog client
+      #   run: |
+      #     cd stac-browser/
+      #     npm install
+      #     npm run build -- --catalogUrl="https://${GITHUB_REPOSITORY_OWNER}.github.io/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')/catalog.json" --pathPrefix="/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')/"
+      #     cp -r dist/* ../dist
+      #     cd ..
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
