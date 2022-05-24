@@ -1,0 +1,14 @@
+{
+  "name": "Test theme",
+  "description": "markdown here",
+  "theme": [],
+  "parentVariables": [],
+  "parentProject": [],
+  "startDate": "",
+  "endDate": "",
+  "satelliteMissions": [],
+  "eo4societyURL": "https://eox.at",
+  "link": "",
+  "bbox": null,
+  "geometry": null
+}
