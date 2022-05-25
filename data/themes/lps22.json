@@ -1,0 +1,14 @@
+{
+  "name": "LPS22",
+  "description": "# Heading\n\n**more markdown**\n",
+  "theme": [],
+  "parentVariables": [],
+  "parentProject": [],
+  "startDate": "",
+  "endDate": "",
+  "satelliteMissions": [],
+  "eo4societyURL": "https://lps22.esa.int",
+  "link": "",
+  "bbox": null,
+  "geometry": null
+}
