@@ -1,0 +1,14 @@
+{
+  "name": "Foo",
+  "description": "# Hello",
+  "theme": [],
+  "parentVariables": [],
+  "parentProject": [],
+  "startDate": "",
+  "endDate": "",
+  "satelliteMissions": [],
+  "eo4societyURL": "https://eox.at",
+  "link": "",
+  "bbox": null,
+  "geometry": null
+}
