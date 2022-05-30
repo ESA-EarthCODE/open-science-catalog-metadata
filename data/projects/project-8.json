@@ -4,7 +4,7 @@
   "id": "project-8",
   "properties": {
     "title": "AEOLUS+INNOVATION - COLOR",
-    "description": "Assessing the feasibility of deriving an in-water AEOLUS product from the analysis of the ocean sub-surface backscattered component of the 355 nm signal acquired by the ALADIN (Atmospheric LAser Doppler INstrument).",
+    "description": "# Title\nAssessing the feasibility of deriving an in-water AEOLUS product from the analysis of the ocean sub-surface backscattered component of the 355 nm signal acquired by the ALADIN (Atmospheric LAser Doppler INstrument).",
     "osc:name": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
     "osc:themes": [
       "Atmosphere",
@@ -22,9 +22,9 @@
       "UNIV BASILICATA (IT)"
     ],
     "osc:type": "Project",
-    "start_datetime": "2021-02-01",
-    "end_datetime": "2022-08-15",
-    "datetime": "2021-02-01T00:00:00Z"
+    "start_datetime": "2021-02-01T00:00",
+    "end_datetime": "2022-08-15T00:00",
+    "datetime": "2021-02-01T00:00"
   },
   "geometry": null,
   "links": [
@@ -32,11 +32,6 @@
       "rel": "via",
       "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-cdom-proxy-retrieval-from-aeolus-observations-color/",
       "title": "Website"
-    },
-    {
-      "rel": "via",
-      "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-cdom-proxy-retrieval-from-aeolus-observations-color/",
-      "title": "EO4Society Link"
     }
   ],
   "assets": {},
