@@ -3,27 +3,21 @@
   "stac_version": "1.0.0",
   "id": "product-18",
   "properties": {
-    "start_datetime": null,
-    "end_datetime": null,
+    "start_datetime": "1970-01-01T00:00",
+    "end_datetime": "1970-01-01T00:00",
     "title": "Snow albedo for European Alps_Multimission",
     "description": "Snow albedo for European Alps. Upcoming Product",
-    "osc:missions": [
-      "MODIS",
-      "Sentinel-2",
-      "Landsat-8"
-    ],
     "osc:project": "AlpSnow",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:variable": "Earth surface albedo",
-    "osc:status": "PLANNED",
+    "osc:status": "COMPLETED",
     "osc:region": "Europe",
     "osc:type": "Product",
-    "datetime": null
+    "datetime": "1970-01-01T00:00"
   },
   "geometry": {
-    "type": "Polygon",
     "bbox": [
       5.95591129,
       45.81799493,
@@ -53,22 +47,14 @@
           45.81799493
         ]
       ]
-    ]
+    ],
+    "type": "Polygon"
   },
   "links": [
     {
       "rel": "via",
-      "href": "https://alpsnow.enveo.at"
-    },
-    {
-      "rel": "via",
-      "href": "https://alpsnow.enveo.at/publications.html",
-      "title": "Access"
-    },
-    {
-      "rel": "via",
-      "href": "https://ieeexplore.ieee.org/document/9511109",
-      "title": "Documentation"
+      "href": "https://alpsnow.enveo.at",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},
