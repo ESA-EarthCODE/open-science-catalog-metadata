@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Project-test",
+  "properties": {
+    "title": "Project-test",
+    "description": "# Project title",
+    "osc:name": "Project-test",
+    "osc:themes": [
+      "Atmosphere",
+      "Cryosphere"
+    ],
+    "osc:status": "Ongoing",
+    "osc:technical_officer": {
+      "name": "John Doe",
+      "e-mail": "johndoe@email.com"
+    },
+    "osc:consortium": "",
+    "osc:type": "Project",
+    "start_datetime": "2022-05-11T17:57",
+    "end_datetime": "2022-05-20T17:57",
+    "datetime": "2022-05-11T17:57"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.test.com",
+      "title": "Website"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}
