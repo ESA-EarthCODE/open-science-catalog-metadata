@@ -1,0 +1,78 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-test",
+  "properties": {
+    "start_datetime": "2022-05-10T17:54",
+    "end_datetime": "2022-06-02T17:54",
+    "title": "product-test",
+    "description": "# Description title",
+    "osc:project": "test-project",
+    "osc:themes": [
+      "Atmosphere",
+      "Cryosphere"
+    ],
+    "osc:variable": [
+      "Atmospheric density",
+      "CO2 Mole fraction (BG)"
+    ],
+    "osc:status": "Completed",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "datetime": "2022-05-03T17:54"
+  },
+  "geometry": {
+    "bbox": [
+      -8.26171875,
+      17.2265625,
+      30.41015625,
+      45.703125
+    ],
+    "coordinates": [
+      [
+        [
+          -8.26171875,
+          17.2265625
+        ],
+        [
+          30.41015625,
+          17.2265625
+        ],
+        [
+          30.41015625,
+          45.703125
+        ],
+        [
+          -8.26171875,
+          45.703125
+        ],
+        [
+          -8.26171875,
+          17.2265625
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.test.com",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "title": "EO4Society Link"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -8.26171875,
+    17.2265625,
+    30.41015625,
+    45.703125
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}
