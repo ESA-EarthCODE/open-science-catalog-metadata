@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": null,
+  "properties": {
+    "start_datetime": "2022-05-12T10:36",
+    "end_datetime": "2022-05-06T10:36",
+    "title": "Test product",
+    "description": "# Title",
+    "osc:missions": "Aerolus",
+    "osc:project": "Aerosols",
+    "osc:themes": [
+      "Atmosphere",
+      "Cryosphere"
+    ],
+    "osc:variable": [
+      "Atmospheric density"
+    ],
+    "osc:status": "ONGOING",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "datetime": "2022-05-07T10:36"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -3.8671875,
+      37.96875,
+      52.3828125,
+      56.953125
+    ],
+    "coordinates": [
+      [
+        [
+          -3.8671875,
+          37.96875
+        ],
+        [
+          52.3828125,
+          37.96875
+        ],
+        [
+          52.3828125,
+          56.953125
+        ],
+        [
+          -3.8671875,
+          56.953125
+        ],
+        [
+          -3.8671875,
+          37.96875
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://test.com",
+      "title": "EO4Society Link"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -3.8671875,
+    37.96875,
+    52.3828125,
+    56.953125
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}
