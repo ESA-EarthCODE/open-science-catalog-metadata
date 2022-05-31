@@ -3,10 +3,10 @@
   "stac_version": "1.0.0",
   "id": "product-91",
   "properties": {
-    "start_datetime": "2006-01-01",
-    "end_datetime": "2021-12-31",
+    "start_datetime": "2006-01-01T00:00",
+    "end_datetime": "2021-12-31T00:00",
     "title": "Cloud optical property profiles, averaged per overpass along 1x1 degree grid_Global_CALIPSO",
-    "description": "Cloud optical property profiles (extinction and backscatter coefficients, particle depolarization ratio) at 532 nm. The products are provided for all CALIPSO overpasses, using the CALIPSO L2 aerosol product horizontal resolution of 5km.",
+    "description": "Cloud optical property profiles (extinction and backscatter coefficients, particle depolarization ratio) at 532 nm. The products are provided for all CALIPSO overpasses, using the CALIPSO L2 aerosol product horizontal resolution of 5km. TEST",
     "osc:missions": [
       "CALIPSO"
     ],
@@ -18,37 +18,37 @@
     "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
-    "datetime": "2006-01-01T00:00:00Z"
+    "datetime": "2006-01-01T00:00"
   },
   "geometry": {
     "type": "Polygon",
     "bbox": [
-      -180.0,
-      -90.0,
-      180.0,
-      90.0
+      -180,
+      -90,
+      180,
+      90
     ],
     "coordinates": [
       [
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ],
         [
-          180.0,
-          -90.0
+          180,
+          -90
         ],
         [
-          180.0,
-          90.0
+          180,
+          90
         ],
         [
-          -180.0,
-          90.0
+          -180,
+          90
         ],
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ]
       ]
     ]
@@ -56,25 +56,16 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://lrsu.physics.ntua.gr/en/content/esa-livas"
-    },
-    {
-      "rel": "via",
-      "href": "ftps://livas:livas-public@react.space.noa.gr",
-      "title": "Access"
-    },
-    {
-      "rel": "via",
-      "href": "http://195.251.203.238/beyond/images/docs/publications/atmospheric/Amiridis_LIVAS.pdf",
-      "title": "Documentation"
+      "href": "http://lrsu.physics.ntua.gr/en/content/esa-livas",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    90.0
+    -180,
+    -90,
+    180,
+    90
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
