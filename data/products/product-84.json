@@ -3,8 +3,8 @@
   "stac_version": "1.0.0",
   "id": "product-84",
   "properties": {
-    "start_datetime": "2007-01-01",
-    "end_datetime": "2015-12-31",
+    "start_datetime": "2007-01-01T00:00",
+    "end_datetime": "2016-03-31T00:00",
     "title": "Dust optical depth (DOD) of dust layers_Global_CALIPSO",
     "description": "DOD of dust layers at 532 and layer boundaries, for all CALIPSO overpasses. The product is based on CALIPSO L2 products and Earlinet dust separation method (described in Marinou et al. ACP, 2017). The products are provided for all CALIPSO overpasses, with horizontal resolution: 1x1 degree",
     "osc:missions": [
@@ -18,37 +18,37 @@
     "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
-    "datetime": "2007-01-01T00:00:00Z"
+    "datetime": "2007-01-01T00:00"
   },
   "geometry": {
     "type": "Polygon",
     "bbox": [
-      -180.0,
-      -90.0,
-      180.0,
-      90.0
+      -180,
+      -90,
+      180,
+      90
     ],
     "coordinates": [
       [
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ],
         [
-          180.0,
-          -90.0
+          180,
+          -90
         ],
         [
-          180.0,
-          90.0
+          180,
+          90
         ],
         [
-          -180.0,
-          90.0
+          -180,
+          90
         ],
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ]
       ]
     ]
@@ -56,25 +56,16 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://lrsu.physics.ntua.gr/en/content/esa-livas"
-    },
-    {
-      "rel": "via",
-      "href": "ftps://livas:livas-public@react.space.noa.gr",
-      "title": "Access"
-    },
-    {
-      "rel": "via",
-      "href": "http://195.251.203.238/beyond/images/docs/publications/atmospheric/Amiridis_LIVAS.pdf",
-      "title": "Documentation"
+      "href": "http://lrsu.physics.ntua.gr/en/content/esa-livas",
+      "title": "EO4Society Link"
     }
   ],
   "assets": {},
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    90.0
+    -180,
+    -90,
+    180,
+    90
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
