@@ -1,6 +1,6 @@
 {
   "name": "Electron differential directional flux",
   "description": "Flux density energy spectrum of low-, medium-, and high-energy electrons from the magnetosphere, the radiation belts or the interplanetary medium, per unit solid angle",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/electron_differential_directional_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Wind (vertical)",
   "description": "3D field of the vertical component of the 3D wind vector",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/wind_vertical",
   "theme": "Atmosphere"
 }

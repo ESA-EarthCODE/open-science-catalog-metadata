@@ -1,6 +1,6 @@
 {
   "name": "Solar EUV image",
   "description": "Images of the Sun in the Extreme Ultra-Violet (EUV) wavelengths in order to identify features such as filaments, active regions and coronal holes.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_euv_image",
   "theme": "Magnetosphere_Ionosphere"
 }

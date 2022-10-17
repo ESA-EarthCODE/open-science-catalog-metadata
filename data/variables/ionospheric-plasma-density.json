@@ -1,6 +1,6 @@
 {
   "name": "Ionospheric plasma density",
   "description": "Total number of ionized particles in a volume unit of ionospheric plasma",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ionospheric_plasma_density",
   "theme": "Magnetosphere_Ionosphere"
 }

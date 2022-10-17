@@ -1,0 +1,6 @@
+{
+  "name": "Solar-induced chlorophyll fluorescence (SIF)",
+  "description": "Solar induced chlorophyll fluorescence (SIF) is an electromagnetic signal emitted by the chlorophyll a of assimilating plants: part of the energy absorbed by chlorophyll a is not used for photosynthesis, but emitted at longer wavelengths as a two-peak spectrum roughly covering the 650\u2013850 nm spectral range. The SIF signal responds instantaneously to perturbations in environmental conditions such as light and water stress, which makes it a direct proxy for photosynthetic activity. However, SIF emission constitutes only a small fraction (typically 0.5%-2%) of the radiance at the top of the canopy, which is mostly composed of reflected sunlight, and its estimation from space-borne spectrometers requires both high spectral resolution and advanced retrieval schemes.",
+  "link": "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/",
+  "theme": "Atmosphere"
+}

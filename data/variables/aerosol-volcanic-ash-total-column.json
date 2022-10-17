@@ -1,6 +1,6 @@
 {
   "name": "Aerosol volcanic ash  Total Column",
   "description": "2D Field of mass of volcanic ash, integrated over the total column.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/aerosol_volcanic_ash_total_column",
   "theme": "Atmosphere"
 }

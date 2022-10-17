@@ -1,6 +1,6 @@
 {
   "name": "HNO3",
   "description": "3D field of amount of HNO3\u00a0(Nitric acid, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/hno3",
   "theme": "Atmosphere"
 }

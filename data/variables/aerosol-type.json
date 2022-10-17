@@ -1,6 +1,6 @@
 {
   "name": "Aerosol type",
   "description": "Selection, out of a pre-defined set of aerosol classes, that best fits an input data set (observed or modeled). The pre-defined set of aerosol classes includes specification of the particle composition, mixing state, complex refractive index, and shape as a function of particle size. The definition of aerosol type includes specification of all the classes as well as the algorithm used to choose the best fit to the input data.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/aerosol_type",
   "theme": "Atmosphere"
 }

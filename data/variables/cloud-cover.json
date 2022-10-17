@@ -1,6 +1,6 @@
 {
   "name": "Cloud cover",
   "description": "3D field of fraction of sky filled by clouds.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/cloud_cover",
   "theme": "Atmosphere"
 }

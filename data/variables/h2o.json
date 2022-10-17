@@ -1,6 +1,6 @@
 {
   "name": "H2O",
   "description": "3D field of amount of H2O (Water vapour intended as a chemical species relevant for atmospheric chemistry. expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/h2o",
   "theme": "Atmosphere"
 }

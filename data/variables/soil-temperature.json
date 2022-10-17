@@ -1,6 +1,6 @@
 {
   "name": "Soil temperature",
-  "description": "The standard depths for soil temperature measurements\nare 5, 10, 20, 50 and 100 cm below the\nsurface; additional depths may be included. The\nsite for such measurements should be a level plot of\nbare ground (about 75 cm^2 ) and typical of the\nsurrounding soil for which information is required.",
-  "link": "",
+  "description": "The standard depths for soil temperature measurements are 5, 10, 20, 50 and 100 cm below the surface; additional depths may be included. The site for such measurements should be a level plot of bare ground (about 75 cm^2 ) and typical of the surrounding soil for which information is required.",
+  "link": "https://space.oscar.wmo.int/variables/view/soil_temperature",
   "theme": "Land"
 }

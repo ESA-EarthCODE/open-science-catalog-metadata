@@ -1,6 +1,6 @@
 {
   "name": "Air pressure (near surface)",
   "description": "Air pressure at a known height above the surface with the height specified in the metadata",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/air_pressure_near_surface",
   "theme": "Atmosphere"
 }

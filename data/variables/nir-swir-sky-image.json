@@ -1,6 +1,6 @@
 {
   "name": "NIR/SWIR sky image",
   "description": "NIR/SWIR image of the sky",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/nir_swir_sky_image",
   "theme": "Magnetosphere_Ionosphere"
 }

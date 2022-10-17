@@ -1,6 +1,6 @@
 {
   "name": "Snow depth",
   "description": "Vertical distance from the snow surface to the underlying surface (ground, glacier ice or sea ice).",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/snow_depth",
   "theme": "Land"
 }

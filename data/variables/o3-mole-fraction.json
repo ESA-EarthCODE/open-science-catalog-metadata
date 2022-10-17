@@ -1,6 +1,6 @@
 {
   "name": "O3 mole fraction",
   "description": "3D field of amount of O3 (Ozone, expressed in moles) in the troposphere divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/o3_mole_fraction",
   "theme": "Atmosphere"
 }

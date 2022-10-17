@@ -1,6 +1,6 @@
 {
   "name": "Cloud base height",
   "description": "Height of the bottom surface of the cloud",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/cloud_base_height",
   "theme": "Atmosphere"
 }

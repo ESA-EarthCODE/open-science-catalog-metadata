@@ -1,6 +1,6 @@
 {
   "name": "Aerosol mass mixing ratio",
   "description": "3D field of the mass mixing ratio of condensed particles in the atmosphere",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/aerosol_mass_mixing_ratio",
   "theme": "Atmosphere"
 }

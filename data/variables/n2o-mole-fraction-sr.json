@@ -1,6 +1,6 @@
 {
   "name": "N2O mole fraction (SR)",
   "description": "3D field of amount of\u00a0 source region (SR) N2O (Nitrous Oxide,\u00a0\u00a0expressed in moles)\u00a0divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/n2o_mole_fraction_sr",
   "theme": "Atmosphere"
 }

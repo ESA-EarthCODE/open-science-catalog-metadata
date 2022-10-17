@@ -1,6 +1,6 @@
 {
   "name": "Upward long-wave irradiance at TOA",
   "description": "Flux density of terrestrial radiation emitted by the Earth surface and the gases, aerosols and clouds ot the atmosphere at the top of the atmosphere",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/upward_long_wave_irradiance_at_toa",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Solar coronagraphic image",
   "description": "Image of the solar corona surrounding the Sun.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_coronagraphic_image",
   "theme": "Magnetosphere_Ionosphere"
 }

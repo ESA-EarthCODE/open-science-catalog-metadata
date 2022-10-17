@@ -1,6 +1,6 @@
 {
   "name": "HCFC-22",
   "description": "3D field of amount of\u00a0HCFC-22 (hydrochlorofluorocarbon-22, or R-22expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/hcfc_22",
   "theme": "Atmosphere"
 }

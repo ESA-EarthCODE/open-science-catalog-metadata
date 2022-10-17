@@ -1,6 +1,6 @@
 {
   "name": "Sea-ice cover",
   "description": "Fraction of an ocean area where ice is present",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/sea_ice_cover",
   "theme": "Cryosphere"
 }

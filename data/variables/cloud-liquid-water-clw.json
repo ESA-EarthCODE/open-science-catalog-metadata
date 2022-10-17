@@ -1,6 +1,6 @@
 {
   "name": "Cloud liquid water (CLW)",
   "description": "3D field of atmospheric water in the liquid phase (precipitating or not).",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/cloud_liquid_water_clw",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Crustal plates positioning",
   "description": "Basis for monitoring the evolution of the lithosphere dynamics - Physical unit: [ cm ] - Accuracy unit: [ cm ].",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/crustal_plates_positioning",
   "theme": "Magnetosphere_Ionosphere"
 }

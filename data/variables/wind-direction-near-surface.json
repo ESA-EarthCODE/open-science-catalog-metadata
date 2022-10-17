@@ -1,6 +1,6 @@
 {
   "name": "Wind direction (near surface)",
   "description": "Direction from which wind is blowing at a known height above the surface which is to be specified in the metadata",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/wind_direction_near_surface",
   "theme": "Atmosphere"
 }

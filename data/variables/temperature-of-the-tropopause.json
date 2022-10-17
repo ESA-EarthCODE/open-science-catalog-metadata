@@ -1,6 +1,6 @@
 {
   "name": "Temperature of the tropopause",
   "description": "Atmospheric temperature at the height of the surface separating the troposphere from the stratosphere",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/temperature_of_the_tropopause",
   "theme": "Atmosphere"
 }

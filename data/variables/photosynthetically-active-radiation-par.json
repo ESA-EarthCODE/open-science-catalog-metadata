@@ -1,6 +1,6 @@
 {
   "name": "Photosynthetically Active Radiation (PAR)",
   "description": "Flux of downwelling photons of wavelength 0.4-0.7",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/photosynthetically_active_radiation_par",
   "theme": "Atmosphere"
 }

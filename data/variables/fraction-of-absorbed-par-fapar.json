@@ -1,6 +1,6 @@
 {
   "name": "Fraction of Absorbed PAR (FAPAR)",
   "description": "Fraction of PAR absorbed by vegetation (land or marine) for photosynthesis processes (generally around the 'red' )",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/fraction_of_absorbed_par_fapar",
   "theme": "Land"
 }

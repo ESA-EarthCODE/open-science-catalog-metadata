@@ -1,6 +1,6 @@
 {
   "name": "Coastlines",
   "description": "Location of coastlines  (Lat/Long)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/coastlines",
   "theme": "Land"
 }

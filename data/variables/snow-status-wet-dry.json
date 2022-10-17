@@ -1,6 +1,6 @@
 {
   "name": "Snow status (wet/dry)",
   "description": "Binary product (dry or melting/thawing) expressing the presence of liquid water in a snow layer- Accuracy expressed as Hit Rate [ HR ] and False Alarm Rate [ FAR ].",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/snow_status_wet_dry",
   "theme": "Land"
 }

@@ -1,6 +1,6 @@
 {
   "name": "H2 Mole Fraction",
   "description": "\u00a0 3D field of amount of\u00a0H2 ( expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/h2_mole_fraction",
   "theme": "Atmosphere"
 }

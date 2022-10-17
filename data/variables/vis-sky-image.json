@@ -1,6 +1,6 @@
 {
   "name": "VIS sky image",
   "description": "VIS image of the sky",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/vis_sky_image",
   "theme": "Magnetosphere_Ionosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Solar wind density",
   "description": "Density of solar wind plasma",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_wind_density",
   "theme": "Magnetosphere_Ionosphere"
 }

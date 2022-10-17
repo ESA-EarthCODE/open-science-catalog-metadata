@@ -1,6 +1,6 @@
 {
   "name": "N2O mole fraction (BG)",
   "description": "3D field of amount of\u00a0 background (BG) N2O (Nitrous Oxide, expressed in moles)\u00a0divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/n2o_mole_fraction_bg",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Solar VIS flux",
   "description": "Integrated VIS flux over the solar disk",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_vis_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

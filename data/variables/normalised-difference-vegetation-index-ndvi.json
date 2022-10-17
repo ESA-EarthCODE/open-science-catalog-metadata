@@ -1,6 +1,6 @@
 {
   "name": "Normalised Difference Vegetation Index (NDVI)",
   "description": "Difference between maximum (in NIR) and minimum (around the Red) vegetation reflectance, normalised to the summation.  Representative of total biomass, supportive for computing LAI if not directly measured",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/normalised_difference_vegetation_index_ndvi",
   "theme": "Land"
 }

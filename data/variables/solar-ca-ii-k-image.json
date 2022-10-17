@@ -1,6 +1,6 @@
 {
   "name": "Solar Ca II-K image",
   "description": "Image of the Sun in the K-line of Ca-II \u00a0(393.4 nm)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_ca_ii_k_image",
   "theme": "Magnetosphere_Ionosphere"
 }

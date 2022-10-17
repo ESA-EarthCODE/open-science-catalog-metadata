@@ -1,6 +1,6 @@
 {
   "name": "Ocean subsurface tracers",
   "description": "Concentration of trace molecules such as tritium and CFCs",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ocean_subsurface_tracers",
   "theme": "Oceans"
 }

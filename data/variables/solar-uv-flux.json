@@ -1,6 +1,6 @@
 {
   "name": "Solar UV flux",
   "description": "Integrated UV flux over the solar disk.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_uv_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

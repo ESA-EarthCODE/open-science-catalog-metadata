@@ -1,6 +1,6 @@
 {
   "name": "Ionospheric plasma velocity",
   "description": "Velocity of bulk plasma or electrons (depending on measurement technique) as a function of altitude in the ionosphere.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ionospheric_plasma_velocity",
   "theme": "Magnetosphere_Ionosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Sea-ice surface characteristics",
   "description": "Sea-ice surface characteristics (albedo, meltpond, dust, snow properties, temperature)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/sea_ice_surface_characteristics",
   "theme": "Cryosphere"
 }

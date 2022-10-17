@@ -1,6 +1,6 @@
 {
   "name": "Atmospheric temperature",
   "description": "3D field of the atmospheric temperature",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/atmospheric_temperature",
   "theme": "Atmosphere"
 }

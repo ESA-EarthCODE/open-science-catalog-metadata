@@ -1,6 +1,6 @@
 {
   "name": "X-ray flux",
   "description": "Integrated X-ray flux.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/x_ray_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

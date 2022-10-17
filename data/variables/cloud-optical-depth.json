@@ -1,6 +1,6 @@
 {
   "name": "Cloud optical depth",
   "description": "Effective depth of a cloud from the viewpoint of radiation extinction. OD = exp(-K.\u0394z) where K is the extinction coefficient [km-1 ], \u0394z the vertical path [km] between the base and the top of the cloud and the reference wavelength to be specified in the metadata.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/cloud_optical_depth",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Wetland extent",
   "description": "Fraction of an area flood by water",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/wetland_extent",
   "theme": "Land"
 }

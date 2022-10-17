@@ -1,6 +1,6 @@
 {
   "name": "Lake area",
   "description": "Aera extent of the surface of a lake",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/lake_area",
   "theme": "Land"
 }

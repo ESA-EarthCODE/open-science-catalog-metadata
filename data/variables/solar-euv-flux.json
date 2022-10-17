@@ -1,6 +1,6 @@
 {
   "name": "Solar EUV flux",
   "description": "Integrated EUV flux over the solar disk",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_euv_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

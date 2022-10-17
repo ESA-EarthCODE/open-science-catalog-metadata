@@ -1,6 +1,6 @@
 {
   "name": "Ionospheric Vertical Total Electron Content (VTEC)",
   "description": "Number of electrons between two points.\u00a0",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ionospheric_vertical_total_electron_content_vtec",
   "theme": "Magnetosphere_Ionosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "NH3 Total Column",
   "description": "2D field of total amount of NH3 molecules (Ammonia) per unit area in an atmospheric column extending from the Earth\u2019s surface to the upper edge of the atmosphere.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/nh3_total_column",
   "theme": "Atmosphere"
 }

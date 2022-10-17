@@ -1,6 +1,6 @@
 {
   "name": "Gamma-ray flux spectrum",
   "description": "Energy spectrum of the radiative flux measured in the gamma-ray domain.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/gamma_ray_flux_spectrum",
   "theme": "Magnetosphere_Ionosphere"
 }

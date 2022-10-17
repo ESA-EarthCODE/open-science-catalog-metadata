@@ -1,6 +1,6 @@
 {
   "name": "(14)CO Number Concentration",
   "description": "3D field of amount of CO (Carbon monoxide) with C-14 isotope (mol) per air volume (m3)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/14_co_number_concentration",
   "theme": "Atmosphere"
 }

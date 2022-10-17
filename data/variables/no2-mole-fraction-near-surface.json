@@ -1,6 +1,6 @@
 {
   "name": "NO2 mole fraction (near surface)",
   "description": "2D field of amount of NO2 (Nitrogen Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) at a known height above surface, with the height specified in the metadata",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/no2_mole_fraction_near_surface",
   "theme": "Atmosphere"
 }

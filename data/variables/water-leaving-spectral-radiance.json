@@ -1,6 +1,6 @@
 {
   "name": "Water-leaving spectral radiance",
   "description": "Upward spectral radiance from the ocean surface, i.e. amount of light leaving the ocean per unit area, per wavelength and per solid angle.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/water_leaving_spectral_radiance",
   "theme": "Oceans"
 }

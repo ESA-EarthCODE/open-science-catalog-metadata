@@ -1,6 +1,6 @@
 {
   "name": "CH4 column average dry air mixing ratio",
   "description": "2D Column integrated number of molecules of the target gas (CH4, methane) divided by that of dry air expressed in mole fraction",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ch4_column_average_dry_air_mixing_ratio",
   "theme": "Atmosphere"
 }

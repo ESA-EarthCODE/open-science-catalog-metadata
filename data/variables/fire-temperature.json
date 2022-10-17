@@ -1,6 +1,6 @@
 {
   "name": "Fire temperature",
   "description": "Temperature of the fire occurring within an area",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/fire_temperature",
   "theme": "Land"
 }

@@ -1,6 +1,6 @@
 {
   "name": "NO2  Total Column",
   "description": "2D field of total amount of NO2 molecules per unit area in an atmospheric column extending from the Earth\u2019s surface to the upper edge of the atmosphere.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/no2_total_column",
   "theme": "Atmosphere"
 }

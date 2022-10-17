@@ -1,6 +1,6 @@
 {
   "name": "NO2 Stratospheric Column",
   "description": "2D field of total amount of NO2 molecules (Nitrogen Dioxide) per unit area in an atmospheric column extending from the tropopause to the stratopause",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/no2_stratospheric_column",
   "theme": "Atmosphere"
 }

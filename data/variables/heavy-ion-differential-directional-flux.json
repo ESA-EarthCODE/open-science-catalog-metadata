@@ -1,6 +1,6 @@
 {
   "name": "Heavy ion differential directional flux",
   "description": "Flux density of heavy ions (eavier than Helium) per unit solid angle",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/heavy_ion_differential_directional_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

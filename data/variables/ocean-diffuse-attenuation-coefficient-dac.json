@@ -1,6 +1,6 @@
 {
   "name": "Ocean Diffuse Attenuation Coefficient (DAC)",
   "description": "Indicator of water turbidity and vertical processes in the ocean, extracted from ocean colour observation.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ocean_diffuse_attenuation_coefficient_dac",
   "theme": "Oceans"
 }

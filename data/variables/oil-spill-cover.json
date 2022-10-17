@@ -1,6 +1,6 @@
 {
   "name": "Oil spill cover",
   "description": "Fraction of an ocean area polluted by hydrocarbons released from ships or off-shore platforms, accidentally or deliberately.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/oil_spill_cover",
   "theme": "Oceans"
 }

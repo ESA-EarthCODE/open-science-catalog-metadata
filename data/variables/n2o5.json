@@ -1,6 +1,6 @@
 {
   "name": "N2O5",
   "description": "3D field of amount of N2O5 (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/n2o5",
   "theme": "Atmosphere"
 }

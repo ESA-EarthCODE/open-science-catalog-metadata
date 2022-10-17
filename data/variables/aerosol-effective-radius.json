@@ -1,6 +1,6 @@
 {
   "name": "Aerosol effective radius",
   "description": "3D field of mean aerosol particle size, defined as the ratio of the third and second moments of the number size distribution of aerosol particles.  Requested in the troposphere (assumed height: 12 km) and as columnar average.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/aerosol_effective_radius",
   "theme": "Atmosphere"
 }

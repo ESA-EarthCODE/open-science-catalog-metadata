@@ -1,6 +1,6 @@
 {
   "name": "Cosmic ray neutron flux spectrum",
   "description": "Flux density energy spectrum of neutrons from the Sun or as component of the cosmic radiation.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/cosmic_ray_neutron_flux_spectrum",
   "theme": "Magnetosphere_Ionosphere"
 }

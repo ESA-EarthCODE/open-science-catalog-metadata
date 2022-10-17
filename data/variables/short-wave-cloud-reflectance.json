@@ -1,6 +1,6 @@
 {
   "name": "Short-wave cloud reflectance",
   "description": "Reflectance of the solar radiation from clouds",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/short_wave_cloud_reflectance",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Land surface temperature",
   "description": "Temperature of the apparent surface of land (bare soil or vegetation) - Physical unit: [ K ] - Accuracy unit: [ K ].",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/land_surface_temperature",
   "theme": "Land"
 }

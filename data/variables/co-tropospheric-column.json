@@ -1,6 +1,6 @@
 {
   "name": "CO Tropospheric column",
   "description": "2D field of total amount of CO molecules per unit area in an atmospheric column extending from the Earth\u2019s surface to the tropopause.\u00a0",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/co_tropospheric_column",
   "theme": "Atmosphere"
 }

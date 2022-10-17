@@ -1,6 +1,6 @@
 {
   "name": "h'F",
   "description": "Virtual height of the bottom of the ionospheric F-layer.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/h_f",
   "theme": "Magnetosphere_Ionosphere"
 }

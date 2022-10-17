@@ -1,6 +1,6 @@
 {
   "name": "Electron Density",
   "description": "3-D field of the electron density in the ionosphere",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/electron_density",
   "theme": "Magnetosphere_Ionosphere"
 }

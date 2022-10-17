@@ -1,6 +1,6 @@
 {
   "name": "Wind speed (near surface)",
   "description": "Speed of air at a known height above the surface which is to be specified in the metadata",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/wind_speed_near_surface",
   "theme": "Atmosphere"
 }

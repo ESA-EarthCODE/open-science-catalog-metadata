@@ -1,6 +1,6 @@
 {
   "name": "Cosmic ray neutron flux",
   "description": "Flux of neutrons near the surface of Earth due to collisions in the atmosphere of cosmic rays impacting Earth atmosphere from the Sun and outer space.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/cosmic_ray_neutron_flux",
   "theme": "Magnetosphere_Ionosphere"
 }

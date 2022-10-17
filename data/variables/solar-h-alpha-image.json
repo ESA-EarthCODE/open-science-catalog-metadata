@@ -1,6 +1,6 @@
 {
   "name": "Solar H-alpha image",
   "description": "Image of the Sun in the Hydrogen-alpha transition wavelength (656.3 nm).",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_h_alpha_image",
   "theme": "Magnetosphere_Ionosphere"
 }

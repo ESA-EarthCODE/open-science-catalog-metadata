@@ -1,6 +1,6 @@
 {
   "name": "Solar radio flux spectrum",
   "description": "Solar radio flux energy spectrum integrated over the solar disk.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_radio_flux_spectrum",
   "theme": "Magnetosphere_Ionosphere"
 }

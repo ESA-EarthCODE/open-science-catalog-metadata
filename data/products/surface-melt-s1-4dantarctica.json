@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "surface-melt-s1-4dantarctica",
+  "properties": {
+    "start_datetime": "2015-01-01T00:00:00Z",
+    "end_datetime": "2020-12-31T23:59:59Z",
+    "title": "Surface Melt Classification_Antarctic-Peninsula_Sentinel-1_v1",
+    "description": "Surface Melt Classification Maps from Sentinel-1 (200 m)",
+    "osc:missions": [
+      "Sentinel-1"
+    ],
+    "osc:project": "4DANTARCTICA",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Glacier cover",
+    "osc:status": "ONGOING",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "version": "1",
+    "updated": "2022-10-17T10:40:53Z",
+    "datetime": "2015-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -78.8,
+      -74.8,
+      -53.4,
+      -62.0
+    ],
+    "coordinates": [
+      [
+        [
+          -78.8,
+          -72.0
+        ],
+        [
+          -60.4,
+          -74.8
+        ],
+        [
+          -53.4,
+          -63.5
+        ],
+        [
+          -63.3,
+          -62.0
+        ],
+        [
+          -78.8,
+          -72.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.4d-antarctica.org/"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Access"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -78.8,
+    -74.8,
+    -53.4,
+    -62.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}

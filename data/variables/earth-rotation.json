@@ -1,6 +1,6 @@
 {
   "name": "Earth Rotation",
   "description": "Rotation velocity of the Earth, determining the length of the day - Physical unit: [Rad/s] - Accuracy unit: [Arcsec/century].",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/earth_rotation",
   "theme": "Magnetosphere_Ionosphere"
 }

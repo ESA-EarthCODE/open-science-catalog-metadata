@@ -1,6 +1,6 @@
 {
   "name": "Solar magnetic field",
   "description": "Vector magnetic field (1D or 3D) at the solar surface (photosphere/chromosphere)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_magnetic_field",
   "theme": "Magnetosphere_Ionosphere"
 }

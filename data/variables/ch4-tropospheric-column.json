@@ -1,6 +1,6 @@
 {
   "name": "CH4 Tropospheric column",
   "description": "2D field of total amount of CH4 molecules per unit area in an atmospheric column extending from the Earth\u2019s surface to the\u00a0tropopause.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ch4_tropospheric_column",
   "theme": "Atmosphere"
 }

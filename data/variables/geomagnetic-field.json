@@ -1,6 +1,6 @@
 {
   "name": "Geomagnetic field",
   "description": "Magnitude and direction of the 3D magnetic field on the surface of Earth and within the magnetosphere (i.e., in low-Earth orbit and in geosynchronous orbit).",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/geomagnetic_field",
   "theme": "Magnetosphere_Ionosphere"
 }

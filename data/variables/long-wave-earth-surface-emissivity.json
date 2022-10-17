@@ -1,6 +1,6 @@
 {
   "name": "Long-wave Earth surface emissivity",
   "description": "Emissivity of the Earth surface in the thermal IR, function of the wavelength",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/long_wave_earth_surface_emissivity",
   "theme": "Atmosphere"
 }

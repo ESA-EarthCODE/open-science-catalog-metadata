@@ -1,6 +1,6 @@
 {
   "name": "Soil moisture at surface",
   "description": "Fractional content of water in a volume of wet soil. Surface layer (upper few centimetres)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/soil_moisture_at_surface",
   "theme": "Land"
 }

@@ -1,6 +1,6 @@
 {
   "name": "O3 Tropospheric Column",
   "description": "2D field of total amount of O3 (ozone) molecules per unit area in an atmospheric column extending from the Earth\u2019s surface to the to the tropopause",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/o3_tropospheric_column",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Colour Dissolved Organic Matter (CDOM)",
   "description": "Optically measurable component of the dissolved organic matter in water.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/colour_dissolved_organic_matter_cdom",
   "theme": "Oceans"
 }

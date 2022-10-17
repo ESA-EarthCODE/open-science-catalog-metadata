@@ -1,6 +1,6 @@
 {
   "name": "C10H16 (betapinene) Mole Fraction",
   "description": "3D field of amount of\u00a0C10H16 (betapinene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/c10h16_betapinene_mole_fraction",
   "theme": "Atmosphere"
 }

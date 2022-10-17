@@ -1,6 +1,6 @@
 {
   "name": "Freezing level height in clouds",
   "description": "Height of the atmospheric layer in cloud where liquid-solid states transform into each other",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/freezing_level_height_in_clouds",
   "theme": "Atmosphere"
 }

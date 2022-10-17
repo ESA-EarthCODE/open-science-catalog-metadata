@@ -1,6 +1,6 @@
 {
   "name": "Vegetation type",
   "description": "Result of the classification of different types of vegetation within a vegetated area - Accuracy expressed as inverse of the number of classes, so that smaller figures correspond to better performance.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/vegetation_type",
   "theme": "Land"
 }

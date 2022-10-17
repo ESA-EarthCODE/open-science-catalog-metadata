@@ -1,6 +1,6 @@
 {
   "name": "Ocean salinity",
   "description": "3D field of salinity of the ocean  Requested in upper and deep ocean - Physical unit: [ psu ], Practical Salinity Unit, close to 1",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ocean_salinity",
   "theme": "Oceans"
 }

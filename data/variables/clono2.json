@@ -1,6 +1,6 @@
 {
   "name": "ClONO2",
   "description": "3D field of amount of ClONO2\u00a0(Chlorine nitrate, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) \u00a0",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/clono2",
   "theme": "Atmosphere"
 }

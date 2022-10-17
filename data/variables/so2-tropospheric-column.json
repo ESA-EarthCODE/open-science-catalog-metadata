@@ -1,6 +1,6 @@
 {
   "name": "SO2 Tropospheric Column",
   "description": "2D field of total amount of SO2 molecules per unit area in an atmospheric column extending from the Earth\u2019s surface to the tropopause.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/so2_tropospheric_column",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Solar gamma-ray flux spectrum",
   "description": "Energy spectrum of the gamma-ray flux integrated over the solar disk",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_gamma_ray_flux_spectrum",
   "theme": "Magnetosphere_Ionosphere"
 }

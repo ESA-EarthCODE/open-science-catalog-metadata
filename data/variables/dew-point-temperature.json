@@ -1,6 +1,6 @@
 {
   "name": "Dew Point Temperature",
   "description": "Temperature to which air must be cooled to become saturated with water vapor\u00a0 at a known height\u00a0 above surface, with the height specified in the metadata (K)",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/dew_point_temperature",
   "theme": "Atmosphere"
 }

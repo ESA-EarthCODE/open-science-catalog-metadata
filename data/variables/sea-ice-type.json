@@ -1,6 +1,6 @@
 {
   "name": "Sea-ice type",
   "description": "Variable convolving several factors (age, roughness, density, etc.) - Accuracy expressed as number of classes. Actually [ classes^-1 ] is used, so that smaller figure corresponds to better performance, as usual.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/sea_ice_type",
   "theme": "Cryosphere"
 }

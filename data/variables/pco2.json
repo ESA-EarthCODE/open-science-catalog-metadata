@@ -1,6 +1,6 @@
 {
   "name": "pCO2",
   "description": "Partial pressure of carbon dioxide at the surface of the sea",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/pco2",
   "theme": "Oceans"
 }

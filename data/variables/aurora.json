@@ -1,6 +1,6 @@
 {
   "name": "Aurora",
   "description": "Occurence of fluorescence of the upper atmosphere through ionization by energetic charged particles accelerated by the Earth's magnetic field.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/aurora",
   "theme": "Magnetosphere_Ionosphere"
 }

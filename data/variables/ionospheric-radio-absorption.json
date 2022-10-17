@@ -1,6 +1,6 @@
 {
   "name": "Ionospheric Radio Absorption",
   "description": "Attenuation of a radio wave passing through the lower ionosphere.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ionospheric_radio_absorption",
   "theme": "Magnetosphere_Ionosphere"
 }

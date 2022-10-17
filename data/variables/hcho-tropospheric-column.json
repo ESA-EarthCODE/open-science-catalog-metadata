@@ -1,6 +1,6 @@
 {
   "name": "HCHO Tropospheric column",
   "description": "2D field of total amount of HCHO molecules\u00a0(Formaldehyde)\u00a0 per unit area in an atmospheric column extending from the Earth\u2019s surface to the tropopause.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/hcho_tropospheric_column",
   "theme": "Atmosphere"
 }

@@ -1,6 +1,6 @@
 {
   "name": "pH",
   "description": "The hydrogen ion concentration in seawater, which is a measure of acidity and alkalinity",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/ph",
   "theme": "Oceans"
 }

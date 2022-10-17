@@ -1,6 +1,6 @@
 {
   "name": "Solar VIS image",
   "description": "Images of the Sun in the VIS wavelengths.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/solar_vis_image",
   "theme": "Magnetosphere_Ionosphere"
 }

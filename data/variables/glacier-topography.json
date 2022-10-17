@@ -1,6 +1,6 @@
 {
   "name": "Glacier topography",
   "description": "Map of the height of the glacier surface.",
-  "link": "",
+  "link": "https://space.oscar.wmo.int/variables/view/glacier_topography",
   "theme": "Land"
 }
