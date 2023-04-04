@@ -4,54 +4,56 @@
   "id": "global-marine-phytoplankton-primary-production-bicep",
   "properties": {
     "start_datetime": "1998-01-01T00:00:00Z",
-    "end_datetime": "2020-12-31T23:59:59Z",
-    "title": "Monthly global Marine Phytoplankton Primary Production dataset",
-    "description": "Primary production by marine phytoplankton was modelled using ocean-colour remote sensing products and a spectrally-resolved primary production model that incorporates the vertical structure of phytoplankton and simulates changes in photosynthesis as a function of irradiance using a two-parameter photosynthesis versus irradiance (P-I) function (see Kulk et al. 2020, Sathyendranath et al. 2020a, and references therein for details). Chlorophyll-a products were obtained from the European Space Agency (ESA) Ocean Colour Climate Change Initiative (OC-CCI v4.2 dataset). Photosynthetic Active Radiation (PAR) products were obtained from the National Aeronautics and Space Administration (NASA) and were corrected for inter-sensor bias in products. In situ datasets of chlorophyll-a profile parameters and P-I parameters were incorporated as described in Kulk et al. (2020). Data are provided as netCDF files containing global, monthly marine phytoplankton primary production products (in mg C m-2 d-1) for the period of 1998 to 2020 at 9 km spatial resolution.",
+    "end_datetime": "2020-12-31T00:00:00Z",
+    "title": "Monthly Global Phytoplankton Primary Production dataset (9 km, OC-CCI v4.2)",
+    "description": "This dataset contains global, monthly marine phytoplankton primary production products (in mg C m-2 d-1) for the period of 1998 to 2018 at 9 km spatial resolution. Data are provided in NetCDF format.  Primary production by marine phytoplankton was modelled using ocean-colour remote sensing products and a spectrally-resolved primary production model that incorporates the vertical structure of phytoplankton and simulates changes in photosynthesis as a function of irradiance using a two-parameter photosynthesis versus irradiance (P-I) function (see Kulk et al. 2020, Sathyendranath et al. 2020a, and references therein for details). Chlorophyll-a products were obtained from the European Space Agency (ESA) Ocean Colour Climate Change Initiative (OC-CCI v4.2 dataet). Photosynthetic Active Radiation (PAR) products were obtained from the National Aeronautics and Space Administration (NASA) and were corrected for inter-sensor bias in products. In situ datasets of chlorophyll-a profile parameters and P-I parameters were incorporated as described in Kulk et al. (2020).  The primary production products were generated as part of the ESA Living Planet Fellowship programme \u2018Primary production, Index of Climate Change in the Ocean: Long-term Observations\u2019 (PICCOLO). Support from the Simons Foundation grant \u2018Computational Biogeochemical Modeling of Marine Ecosystems\u2019 (CBIOMES, number 549947), from the ESA Biological Pump and Carbon Exchange Processes (BICEP) project and from the National Centre of Earth Observation (NCEO) is acknowledged.  Data are provided as netCDF files containing global, monthly marine phytoplankton primary production products (in mg C m-2 d-1) for the period of 1998 to 2020 at 9 km spatial resolution.",
     "osc:missions": [
-      "Sentinel-3"
+      "ENVISAT",
+      "MERIS",
+      "MODIS",
+      "SeaWiFS",
+      "Sentinel-3",
+      "VIIRS"
     ],
     "osc:project": "Biological Pump and Carbon Exchange Processes",
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
+    "osc:variable": "Phytoplankton Primary Production",
     "osc:status": "COMPLETED",
     "osc:region": "Global",
     "osc:type": "Product",
-    "created": "2021-10-01T00:00:00Z",
-    "sci:doi": "10.5285/69b2c9c6c4714517ba10dab3515e4ee6",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "1998-01-01T00:00:00Z"
+    "datetime": "2021-12-21T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
     "bbox": [
-      -180.0,
-      -90.0,
-      180.0,
-      90.0
+      -180,
+      -90,
+      180,
+      90
     ],
     "coordinates": [
       [
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ],
         [
-          180.0,
-          -90.0
+          180,
+          -90
         ],
         [
-          180.0,
-          90.0
+          180,
+          90
         ],
         [
-          -180.0,
-          90.0
+          -180,
+          90
         ],
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ]
       ]
     ]
@@ -59,32 +61,23 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://bicep-project.org/"
-    },
-    {
-      "rel": "via",
-      "href": "http://dx.doi.org/10.5285/69b2c9c6c4714517ba10dab3515e4ee6",
+      "href": "https://data.ceda.ac.uk/neodc/bicep/data/marine_primary_production/v4.2/monthly/",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "Citable as:\u00a0\u00a0Kulk, G.; Platt, T.; Dingle, J.; Jackson, T.; J\u00f6nsson, B.F.; Bouman, H.A.; Babin, M.; Brewin, R.J.W.; Doblin, M.; Estrada, M.; Figueiras, F.G.; Furuya, K.; Gonz\u00e1lez-Ben\u00edtez, N.; Gudfinnsson, H.G.; Gudmundsson, K.; Huang, B.; Isada, T.; Kova\u010d, \u017d.; Lutz, V.A.; Mara\u00f1\u00f3n, E.; Raman, M.; Richardson, K.; Rozema, P.D.; van de Poll, W.H.; Segura, V.; Tilstone, G.H.; Uitz, J.; van Dongen-Vogels, V.; Yoshikawa, T.; Sathyendranath, S. (2021): BICEP / NCEO: Monthly global Marine Phytoplankton Primary Production, between 1998-2020 at 9 km resolution (derived from the Ocean Colour Climate Change Initiative v4.2 dataset). NERC EDS Centre for Environmental Data Analysis,\u00a022 December 2021.",
+      "href": "https://dx.doi.org/10.5285/69b2c9c6c4714517ba10dab3515e4ee6",
       "title": "Documentation"
-    },
-    {
-      "rel": "cite-as",
-      "href": "https://doi.org/10.5285/69b2c9c6c4714517ba10dab3515e4ee6"
     }
   ],
   "assets": {},
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    90.0
+    -180,
+    -90,
+    180,
+    90
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
   ]
 }
