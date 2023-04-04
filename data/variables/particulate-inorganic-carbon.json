@@ -2,7 +2,5 @@
   "name": "Particulate Inorganic Carbon",
   "description": "Mass concentration of particulate inorganic carbon expressed as carbon in sea water [mg C m-3]",
   "link": "https://rsg.pml.ac.uk/shared_files/gku/ESA_animation/PIC_1-month_9km/",
-  "theme": [
-    "Oceans"
-  ]
+  "theme": "Oceans"
 }
