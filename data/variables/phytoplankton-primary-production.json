@@ -1,0 +1,8 @@
+{
+  "name": "Phytoplankton Primary Production",
+  "description": "Gross primary production of carbon in sea water [mg C m-2 d-1]",
+  "link": "https://catalogue.ceda.ac.uk/uuid/69b2c9c6c4714517ba10dab3515e4ee6",
+  "theme": [
+    "Oceans"
+  ]
+}
