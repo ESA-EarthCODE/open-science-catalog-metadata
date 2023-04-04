@@ -4,53 +4,56 @@
   "id": "export-production-bicep",
   "properties": {
     "start_datetime": "1998-01-01T00:00:00Z",
-    "end_datetime": "2019-12-31T23:59:59Z",
-    "title": "Export Production",
-    "description": "Export production can be defined as steady-state Net Community Production (NCP) with all temporal lags accounted for and with a well-defined depth horizon over which the community production is integrated over (Laws 1991). This is the net amount of carbon assimilated in the euphotic zone that will be exported to deeper waters. Export Production can by definition only vary on timescales significantly longer that any processes directly controlling production and respiration as to not violate the steady state assumption. We include Export production calculated using three different algorithms: Dunne et al, 2005, Henson et al, 2011 and Li et al, 2016.",
+    "end_datetime": "2019-12-31T00:00:00Z",
+    "title": "Monthly Global Export Production based on Dunne et al 2005 dataset (9 km, OC-CCI v4.2)",
+    "description": "This dataset contains monthly global data for Oceanic Export Production as part of the BICEP project. Data is provided between 1998-2019 at 9 km resolution. It has been derived from the Ocean Colour Climate Change Initiative v4.2 dataset.\nExport production can be defined as steady-state Net Community Production (NCP) with all temporal lags accounted for and with a well defined depth horizon over which the community production is integrated over. (Laws 1991). This is the net amount of carbon assimilated in the euphotic zone that will be exported to deeper waters. Export Production can by definition only vary on timescales significantly longer that any processes directly controlling production and respiration as to not violate the steady state assumption.",
     "osc:missions": [
-      "Sentinel-3"
+      "ENVISAT",
+      "MERIS",
+      "MODIS",
+      "SeaWiFS",
+      "Sentinel-3",
+      "VIIRS"
     ],
     "osc:project": "Biological Pump and Carbon Exchange Processes",
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
+    "osc:variable": "Export Production",
     "osc:status": "COMPLETED",
     "osc:region": "Global",
     "osc:type": "Product",
-    "created": "2021-10-01T00:00:00Z",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "1998-01-01T00:00:00Z"
+    "datetime": "2021-12-21T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
     "bbox": [
-      -180.0,
-      -90.0,
-      180.0,
-      90.0
+      -180,
+      -90,
+      180,
+      90
     ],
     "coordinates": [
       [
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ],
         [
-          180.0,
-          -90.0
+          180,
+          -90
         ],
         [
-          180.0,
-          90.0
+          180,
+          90
         ],
         [
-          -180.0,
-          90.0
+          -180,
+          90
         ],
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ]
       ]
     ]
@@ -58,25 +61,21 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://bicep-project.org/"
-    },
-    {
-      "rel": "via",
-      "href": "",
+      "href": "https://data.ceda.ac.uk/neodc/bicep/data/oceanic_export_production/v1.0/monthly/",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://bicep-project.org/",
+      "href": "https://dx.doi.org/10.5285/a6fc730d88fd4935b59d64903715d891",
       "title": "Documentation"
     }
   ],
   "assets": {},
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    90.0
+    -180,
+    -90,
+    180,
+    90
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
