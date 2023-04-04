@@ -8,26 +8,7 @@
     "title": "Database of labelled Sentinel-1 interferograms - v.2.0",
     "description": "A database of labelled Sentinel-1 data featuring examples of volcanic unrest. Part of this work was carried out in the frame of the project \u201cVolcano Monitoring using Deep Learning (https://eo4society.esa.int/projects/vmdl/ )\u201c, under the Living Planet Fellowship programme of, and funded by, the European Space Agency. Disclaimer: the view expressed here can in no way be taken to reflect the official opinion of the European Space Agency. ",
     "osc:missions": [
-      {
-        "name": "Sentinel-1",
-        "summary": {
-          "years": [
-            2010,
-            2011,
-            2012,
-            2013,
-            2014,
-            2015,
-            2016,
-            2017,
-            2018,
-            2019,
-            2020
-          ],
-          "numberOfProducts": 27,
-          "numberOfVariables": 8
-        }
-      }
+      "Sentinel-1"
     ],
     "osc:project": "Volcano Monitoring using Deep Learning",
     "osc:themes": [
