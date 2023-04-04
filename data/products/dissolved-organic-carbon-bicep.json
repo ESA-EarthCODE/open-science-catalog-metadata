@@ -4,87 +4,317 @@
   "id": "dissolved-organic-carbon-bicep",
   "properties": {
     "start_datetime": "2010-01-01T00:00:00Z",
-    "end_datetime": "2018-12-31T23:59:59Z",
+    "end_datetime": "2018-12-31T00:00:00Z",
     "title": "Dissolved Organic Carbon",
-    "description": "By using in situ data set from Hansell et al. 2021 (https://doi.org/10.25921/s4f4-ye35) a random forest regression model for near surface ocean Dissolved Organic Carbon (DOC) is trained. The model used ocean colour Earth observation reflectances, phytoplankton primary production (PP), sea surface temperature (SST), salinity and geographical information as predictors. The model has been used to produce monthly global marine DOC for years 2010-2019 using global monthly version of the predictors, namely Ocean Colour, PP, Salinity and SST.",
+    "description": "A random forest regression model for near surface ocean Dissolved Organic Carbon was trained using in situ data from Hansell et al. 2021 (doi: 10.25921/s4f4-ye35). The DOC model uses Remote sensing reflectances from the Ocean Colour Climate Change Initiative (OC-CCI), primary production (Kulk et al. 2021; doi: 10.5285/69b2c9c6c4714517ba10dab3515e4ee6), sea surface temperature from the Group for High Resolution Sea Surface Temperature (GHRSST), salinity from the Sea Surface Salinity Climate Change Initiative and geographical information as predictors. The random forest model for global DOC produces estimates that are in good agreement with the available in situ data in open water (>300 km from shore), where the relative uncertainty is on average smaller than 10%. The model has been used to produce monthly global marine DOC at 9 km resolution for the years 2010-2019. \nData were produced in an ESA funded project led by the Plymouth Marine Laboratory and supplied for archiving at the Centre for Environmental Data Analysis (CEDA). The research underpinning the work was supported by the European Space Agency (ESA) Biological Pump and Carbon Export Processes (BICEP) project.",
     "osc:missions": [
-      "Sentinel-3"
+      "Sentinel-3",
+      {
+        "name": "ENVISAT",
+        "summary": {
+          "years": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "numberOfProducts": 6,
+          "numberOfVariables": 4
+        }
+      },
+      {
+        "name": "MODIS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021
+          ],
+          "numberOfProducts": 32,
+          "numberOfVariables": 8
+        }
+      },
+      {
+        "name": "MERIS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "numberOfProducts": 1,
+          "numberOfVariables": 1
+        }
+      },
+      {
+        "name": "SeaWiFS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "numberOfProducts": 1,
+          "numberOfVariables": 1
+        }
+      },
+      {
+        "name": "VIIRS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "numberOfProducts": 1,
+          "numberOfVariables": 1
+        }
+      }
     ],
-    "osc:project": "Biological Pump and Carbon Exchange Processes",
+    "osc:project": {
+      "id": "bicep",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "externalId": "bicep",
+        "datetime": "2023-04-04T11:57:49.653136",
+        "start_datetime": "2019-12-09 00:00:00+00:00",
+        "end_datetime": "2021-07-13 23:59:59+00:00",
+        "recordUpdated": "2023-04-04T13:14:37Z",
+        "type": "datasetcollection",
+        "updated": "2023-04-04T11:57:49.653136",
+        "title": "BICEP",
+        "description": "Better characterisation of the different components of the ocean biological carbon pump, its pools and fluxes, its variability in space and time and the understanding of its processes and interactions with the earth system, based on a synergetic use of space data, in-situ measurements and model outputs",
+        "keywords": [
+          "theme:Oceans",
+          "Biological Pump and Carbon Exchange Processes"
+        ],
+        "associations": [
+          {
+            "href": "https://bicep-project.org/Home",
+            "name": "website",
+            "description": "website",
+            "type": "WWW:LINK",
+            "rel": "WWW:LINK"
+          },
+          {
+            "href": "https://eoepca.github.io/open-science-catalog-metadata/projects/bicep.json",
+            "name": "self",
+            "description": "self",
+            "type": "WWW:LINK",
+            "rel": "WWW:LINK"
+          }
+        ],
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ],
+            "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+          }
+        }
+      },
+      "links": [],
+      "assets": {}
+    },
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
-    "osc:status": "COMPLETED",
+    "osc:variable": [
+      "Dissolved Organic Carbon"
+    ],
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
-    "created": "2021-10-01T00:00:00Z",
-    "sci:doi": "10.25921/s4f4-ye35",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "2010-01-01T00:00:00Z"
+    "datetime": "2023-03-21T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
     "bbox": [
-      -180.0,
-      -90.0,
-      180.0,
-      90.0
+      -180,
+      -90,
+      180,
+      90
     ],
     "coordinates": [
       [
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ],
         [
-          180.0,
-          -90.0
+          180,
+          -90
         ],
         [
-          180.0,
-          90.0
+          180,
+          90
         ],
         [
-          -180.0,
-          90.0
+          -180,
+          90
         ],
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ]
       ]
     ]
   },
   "links": [
     {
-      "rel": "via",
-      "href": "https://bicep-project.org/"
+      "rel": "via"
     },
     {
       "rel": "via",
-      "href": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0227166",
+      "href": "https://rsg.pml.ac.uk/shared_files/gku/ESA_animation/DOC_1-month_9km/",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0227166",
+      "href": "",
       "title": "Documentation"
-    },
-    {
-      "rel": "cite-as",
-      "href": "https://doi.org/10.25921/s4f4-ye35"
     }
   ],
   "assets": {},
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    90.0
+    -180,
+    -90,
+    180,
+    90
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
   ]
 }
