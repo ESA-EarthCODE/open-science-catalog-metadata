@@ -148,9 +148,6 @@
   },
   "links": [
     {
-      "rel": "via"
-    },
-    {
       "rel": "via",
       "href": "https://github.com/matthew-gaddes/VolcNet",
       "title": "Access"
