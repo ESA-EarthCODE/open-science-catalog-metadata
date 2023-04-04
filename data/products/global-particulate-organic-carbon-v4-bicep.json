@@ -3,56 +3,57 @@
   "stac_version": "1.0.0",
   "id": "global-particulate-organic-carbon-v4-bicep",
   "properties": {
-    "start_datetime": "1997-01-01T00:00:00Z",
-    "end_datetime": "2020-12-31T23:59:59Z",
-    "title": "Monthly Global Particulate Organic Carbon dataset (4 km, OC-CCI v4.2)",
-    "description": "The monthly global Particulate Organic Carbon (POC) datasets contain POC concentrations gridded on both sinusoidal (SIN) and geographic (GEO) grid projections at 4 and 9 km spatial resolution for 1997-2020. The POC datasets have been produced using the Ocean Colour Climate Change Initiative Remote Sensing Reflectance (Rrs) products, Version 4.2 and 5. The datasets include the Rrs at 443 nm and 555 nm with pixel-by-pixel uncertainty estimates for each wavelength. For more details on the algorithm and its validation, please see papers by Stramski et al. (2008) and Evers-King et al. (2017). Please note that the validation of the POC algorithm is a continuing process. To increase the accuracy of POC algorithms, further in situ POC data needs to be collected with high spatial and temporal resolution.",
+    "start_datetime": "1997-09-01T00:00:00Z",
+    "end_datetime": "2020-12-31T00:00:00Z",
+    "title": "Monthly Global Particulate Organic Carbon dataset (9 km, OC-CCI v4.2)",
+    "description": "The BICEP/NCEO: Monthly global Particulate Organic Carbon (POC) v4.2 datasets contain POC concentrations (mg m^-3) with per pixel uncertainties estimates gridded on both geographic and sinusoidal projections at 9 km spatial resolution for the period of 1997 to 2020. The POC products were generated as part of the European Space Agency (ESA) Biological Pump and Carbon Exchange Processes (BICEP) project with support from the National Centre of Earth Observation (NCEO).\nThe POC concentrations were estimated using an empirical Remote Sensing Reflectance (Rrs) band ratio algorithm by Stramski et al. (2008): 203.2*Rrs(443)/Rrs(555)^-1.034. This algorithm has shown a relatively good performance in the recent global inter-comparison study conducted by Evers-King et al. (2017). Additional variables that were used for the calculation of the POC products are also provided in the datasets, including the Rrs at 443 nm and 555 nm obtained from the ESA Ocean Colour Climate Change Initiative version 4.2 dataset (OC-CCI v4.2)(Sathyendranath et al., 2020). In addition to the papers by Stramski et al. (2008) and Evers-king et al. (2017), for more details on the algorithm and its validation, please see the BICEP Algorithm Theoretical Basis Document (ATBD) and validation report (https://bicep-project.org/Home).\nThis version of the dataset is an updated version of the previous 'NCEO: Monthly global Particulate Organic Carbon (POC) (produced from the Ocean Colour Climate Change Initiative, Version 4.2 dataset)'.",
     "osc:missions": [
-      "Sentinel-3"
+      "ENVISAT",
+      "MERIS",
+      "MODIS",
+      "SeaWiFS",
+      "Sentinel-3",
+      "VIIRS"
     ],
     "osc:project": "Biological Pump and Carbon Exchange Processes",
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
-    "osc:status": "COMPLETED",
+    "osc:variable": "Particulate Organic Carbon",
+    "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
-    "created": "2021-10-01T00:00:00Z",
-    "version": "4.2",
-    "sci:doi": "10.5285/299b1bb28eaa440f9a36e9786adfe398",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "1997-01-01T00:00:00Z"
+    "datetime": "2023-02-21T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
     "bbox": [
-      -180.0,
-      -90.0,
-      180.0,
-      90.0
+      -180,
+      -90,
+      180,
+      90
     ],
     "coordinates": [
       [
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ],
         [
-          180.0,
-          -90.0
+          180,
+          -90
         ],
         [
-          180.0,
-          90.0
+          180,
+          90
         ],
         [
-          -180.0,
-          90.0
+          -180,
+          90
         ],
         [
-          -180.0,
-          -90.0
+          -180,
+          -90
         ]
       ]
     ]
@@ -60,32 +61,23 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://bicep-project.org/"
-    },
-    {
-      "rel": "via",
-      "href": "https://catalogue.ceda.ac.uk/uuid/299b1bb28eaa440f9a36e9786adfe398",
+      "href": "https://rsg.pml.ac.uk/shared_files/gku/ESA_animation/POC_1-month_9km/",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "http://dx.doi.org/10.5285/d62f7f801cb54c749d20e736d4a1039f",
+      "href": "",
       "title": "Documentation"
-    },
-    {
-      "rel": "cite-as",
-      "href": "https://doi.org/10.5285/299b1bb28eaa440f9a36e9786adfe398"
     }
   ],
   "assets": {},
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    90.0
+    -180,
+    -90,
+    180,
+    90
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
   ]
 }
