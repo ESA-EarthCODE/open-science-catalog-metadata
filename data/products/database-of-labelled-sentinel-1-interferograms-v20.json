@@ -1,0 +1,169 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "database-of-labelled-sentinel-1-interferograms-v20",
+  "properties": {
+    "start_datetime": "2020-06-23T00:00:00Z",
+    "end_datetime": "2022-07-01T00:00:00Z",
+    "title": "Database of labelled Sentinel-1 interferograms - v.2.0",
+    "description": "A database of labelled Sentinel-1 data featuring examples of volcanic unrest. Part of this work was carried out in the frame of the project \u201cVolcano Monitoring using Deep Learning (https://eo4society.esa.int/projects/vmdl/ )\u201c, under the Living Planet Fellowship programme of, and funded by, the European Space Agency. Disclaimer: the view expressed here can in no way be taken to reflect the official opinion of the European Space Agency. ",
+    "osc:missions": [
+      {
+        "name": "Sentinel-1",
+        "summary": {
+          "years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "numberOfProducts": 27,
+          "numberOfVariables": 8
+        }
+      }
+    ],
+    "osc:project": {
+      "id": "lpf-vmdl",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "externalId": "lpf-vmdl",
+        "datetime": "2022-11-18T14:54:25.713551",
+        "start_datetime": "2020-06-23 00:00:00+00:00",
+        "end_datetime": "2022-07-01 23:59:59+00:00",
+        "recordUpdated": "2023-04-04T08:23:52Z",
+        "type": "datasetcollection",
+        "updated": "2022-11-18T14:54:25.713551",
+        "title": "(LPF) VMDL",
+        "description": "This project will seek to develop a deep learning based model that is able to monitor the majority of the world\u201asubaerial volcanoes using satellite based measurements.  This algorithm will incorporate a model that is trained solely on time series of SAR data, and so does not require pre-training on databases of natural images (e.g. ImageNet).  Additionally, the model will feature complementary and diverse inputs, such as phase, coherence, and amplitude.",
+        "keywords": [
+          "theme:Land",
+          "theme:Solid Earth",
+          "Volcano Monitoring using Deep Learning"
+        ],
+        "associations": [
+          {
+            "href": "https://eo4society.esa.int/projects/vmdl/",
+            "name": "website",
+            "description": "website",
+            "type": "WWW:LINK",
+            "rel": "WWW:LINK"
+          },
+          {
+            "href": "https://eoepca.github.io/open-science-catalog-metadata/projects/lpf-vmdl.json",
+            "name": "self",
+            "description": "self",
+            "type": "WWW:LINK",
+            "rel": "WWW:LINK"
+          }
+        ],
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ],
+            "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+          }
+        }
+      },
+      "links": [],
+      "assets": {}
+    },
+    "osc:themes": [
+      "Solid Earth"
+    ],
+    "osc:variable": [
+      "Gravity gradients"
+    ],
+    "osc:status": "ONGOING",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "datetime": "2021-12-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": "-180,-90,180,90",
+    "coordinates": [
+      [
+        [
+          "-",
+          "1"
+        ],
+        [
+          "8",
+          "1"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "-",
+          "0"
+        ],
+        [
+          "-",
+          "1"
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/matthew-gaddes/VolcNet",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.31223/X5CW2J",
+      "title": "Documentation"
+    }
+  ],
+  "assets": {},
+  "bbox": "-180,-90,180,90",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}
