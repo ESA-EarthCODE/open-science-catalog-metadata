@@ -110,9 +110,7 @@
     "osc:themes": [
       "Solid Earth"
     ],
-    "osc:variable": [
-      "Gravity gradients"
-    ],
+    "osc:variable": "Gravity gradients",
     "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
