@@ -1,0 +1,362 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v42",
+  "properties": {
+    "start_datetime": "1997-09-01T00:00:00Z",
+    "end_datetime": "2020-11-30T00:00:00Z",
+    "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v4.2)",
+    "description": "This dataset contains monthly global carbon products for pico-, nano- and microphytoplankton (C_picophyto, C_nanophyto and C_microphyto, respectively, in mg C m-3) and the total phytoplankton community (C_phyto in mg C m-3) for the period of 1997 to 2020 at 9 km spatial resolution.\nA spectrally-resolved photoacclimation model was unified with a primary production model that simulated photosynthesis as a function of irradiance using a two-parameter photosynthesis versus irradiance (P-I) function to estimate the carbon content of marine phytoplankton based on ocean-colour remote sensing products (Sathyendranath et al. 2020 and references therein for details). The photoacclimation model contains a maximum chlorophyll-to-carbon ratio for three different phytoplankton size classes (pico-, nano- and microphytoplankton) that was inferred from field data, as in Sathyendranath et al. (2020). Chlorophyll-a products were obtained from the European Space Agency (ESA) Ocean Colour Climate Change Initiative (OC-CCI v4.2 dataset). Photosynthetic Active Radiation (PAR) products were obtained from the National Aeronautics and Space Administration (NASA) and were corrected for inter-sensor bias in products. Mixed Layer Depth (MLD) was obtained from the French Research Institute for Exploration of the Sea (Ifremer). In situ datasets P-I parameters were incorporated as described in Kulk et al. (2020).\nThe phytoplankton carbon products were generated as part of the ESA Biological Pump and Carbon Exchange Processes (BICEP) project. Support from the Simons Foundation grant \u2018Computational Biogeochemical Modeling of Marine Ecosystems\u2019 (CBIOMES, number 549947) and from the National Centre of Earth Observation (NCEO) is acknowledged.\nData are provided as netCDF files containing carbon products for pico-, nano- and microphytoplankton (C_picophyto, C_nanophyto and C_microphyto, respectively, in mg C m-3) and the total phytoplankton community (C_phyto in mg C m-3) for the period of 1998 to 2020 at 9 km spatial resolution. Additional variables that were used for the calculation of the phytoplankton carbon products are also provided, including chlorophyll-a (chl_a in mg m-3), photosynthetically activate radiation (par, in \u00b5mol photons m-2 d-1), mixed layer depth (mld in m) and the mean spectral nondimensional irradiance (mean_spectral_i_star).",
+    "osc:missions": [
+      {
+        "name": "ENVISAT",
+        "summary": {
+          "years": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "numberOfProducts": 19,
+          "numberOfVariables": 15
+        }
+      },
+      {
+        "name": "MERIS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "numberOfProducts": 14,
+          "numberOfVariables": 12
+        }
+      },
+      {
+        "name": "MODIS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021
+          ],
+          "numberOfProducts": 45,
+          "numberOfVariables": 19
+        }
+      },
+      {
+        "name": "Sentinel-3",
+        "summary": {
+          "years": [
+            1985,
+            1986,
+            1987,
+            1988,
+            1989,
+            1990,
+            1991,
+            1992,
+            1993,
+            1994,
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021
+          ],
+          "numberOfProducts": 71,
+          "numberOfVariables": 33
+        }
+      },
+      {
+        "name": "SeaWiFS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "numberOfProducts": 14,
+          "numberOfVariables": 12
+        }
+      },
+      {
+        "name": "VIIRS",
+        "summary": {
+          "years": [
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "numberOfProducts": 14,
+          "numberOfVariables": 12
+        }
+      }
+    ],
+    "osc:project": {
+      "id": "bicep",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "externalId": "bicep",
+        "datetime": "2023-04-04T15:30:13.132779",
+        "start_datetime": "2019-12-09 00:00:00+00:00",
+        "end_datetime": "2023-08-31 00:00:00+00:00",
+        "recordUpdated": "2023-04-05T09:31:29Z",
+        "type": "datasetcollection",
+        "updated": "2023-04-04T15:30:13.132779",
+        "title": "BICEP",
+        "description": "The ocean carbon cycle is a vital part of the global carbon cycle. It has been estimated that around a quarter of anthropogenically-produced emissions of CO2, caused from the burning of fossil fuels and land use change, have been absorbed by the ocean. On the other hand, significant advances have been made recently to expand and enhance the quality of a wide range of Remote Sensing based products capturing different aspects of the ocean carbon cycle.\nBuilding on recommendations made in a series of recent meetings and reports, on ESA lead initiatives and projects and on other relevant international programmes, the objective of the BICEP project is to bring these developments together into an holistic exercise to further advance our capacity to better characterise from a synergetic use of space data, in-situ measurements and model outputs, the different components of the ocean biological carbon pump, its pools and fluxes, its variability in space and time and the understanding of its processes and interactions with the earth system.\nTo achieve this goal, the BICEP project will first synthesise the current state of knowledge in the field and produce a consolidated set of scientific requirements that define the products to be generated, as well as how these products will be evaluated and used to produce an enhanced BICEP dataset. Major emphasis will be placed on developing unified products to ensure that the carbon budgets made are in balance. Uncertainties in the derived products will also be quantified. A large in situ dataset of ocean carbon pools and fluxes will be created, to be used to evaluate and select the algorithms, with a focus on five key test sites, representative of the range of conditions in the global ocean. Using these selected algorithms, a 20-year time series of data will be generated, built through application of the selected algorithms to the ESA OC-CCI time series, a merged, bias-corrected ocean-colour data record explicitly designed for long-term analysis. The dataset will be used as input to a novel, satellite-based characterisation of the ocean biological carbon pump, quantifying the pools and fluxes, how they vary in time and space, and how they compare with ocean model estimates. The satellite-based Ocean Biological Cabon Pump analysis will then be placed in the context of carbon cycling in other domains of the Earth System, through engagement with Earth System modellers and climate scientists. Finally, a workshop will be organized, to be used as a vehicle to engage the international community in a discussion on how the BICEP work could be pushed forward, and integrated with results from other components of the ocean carbon cycle (e.g. CO2 air-flux and ocean acidification) not covered in the project, and how the representation of satellite-based ocean carbon work could be further improved in the context of large international Earth System analysis, such as the Global Carbon Project and assessments made within the International Panel of Climate Change (IPCC).\nThe proposed work will be delivered by a consortium of twelve international Institutes, led by the Plymouth Marine Laboratory (PML, Plymouth, UK) and composed of top-level scientists, with collective expertise on Remote Sensing, statistical modelling, ocean carbon cycling, theoretical ecology and Earth System science.",
+        "keywords": [
+          "theme:Oceans",
+          "Biological Pump and Carbon Exchange Processes"
+        ],
+        "associations": [
+          {
+            "href": "https://bicep-project.org/Home",
+            "name": "website",
+            "description": "website",
+            "type": "WWW:LINK",
+            "rel": "WWW:LINK"
+          },
+          {
+            "href": "https://eoepca.github.io/open-science-catalog-metadata/projects/bicep.json",
+            "name": "self",
+            "description": "self",
+            "type": "WWW:LINK",
+            "rel": "WWW:LINK"
+          }
+        ],
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ],
+            "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+          }
+        }
+      },
+      "links": [],
+      "assets": {}
+    },
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": [
+      "Mixed Layer Depth"
+    ],
+    "osc:status": "ONGOING",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "datetime": "2023-03-29T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": "-180, -90,180, 90",
+    "coordinates": [
+      [
+        [
+          "-",
+          "1"
+        ],
+        [
+          "8",
+          "1"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "-",
+          "0"
+        ],
+        [
+          "-",
+          "1"
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via"
+    },
+    {
+      "rel": "via",
+      "href": "https://rsg.pml.ac.uk/shared_files/gku/ESA_animation/PC_1-month_9km/",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Documentation"
+    }
+  ],
+  "assets": {},
+  "bbox": "-180, -90,180, 90",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ]
+}
