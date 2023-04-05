@@ -2,5 +2,7 @@
   "name": "Snow cover",
   "description": "Fraction of a given area which is covered by snow",
   "link": "https://space.oscar.wmo.int/variables/view/snow_cover",
-  "theme": "Land"
+  "theme": [
+    "Cryosphere"
+  ]
 }
