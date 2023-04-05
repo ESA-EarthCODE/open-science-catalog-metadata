@@ -2,5 +2,7 @@
   "name": "Glacier cover",
   "description": "Fraction of a land area covered by permanent ice",
   "link": "https://space.oscar.wmo.int/variables/view/glacier_cover",
-  "theme": "Land"
+  "theme": [
+    "Cryosphere"
+  ]
 }
