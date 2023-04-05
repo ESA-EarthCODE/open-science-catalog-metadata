@@ -2,5 +2,5 @@
   "name": "Snow water equivalent",
   "description": "Vertical depth of the water that would be obtained by melting a snow layer.  Linked to snow depth through the density of the snow layer.",
   "link": "https://space.oscar.wmo.int/variables/view/snow_water_equivalent",
-  "theme": "Land"
+  "theme": "Cryosphere"
 }

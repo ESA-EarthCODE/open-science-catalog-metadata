@@ -2,5 +2,5 @@
   "name": "Ice sheet topography",
   "description": "Map of ice sheet height over land .",
   "link": "https://space.oscar.wmo.int/variables/view/ice_sheet_topography",
-  "theme": "Land"
+  "theme": "Cryosphere"
 }

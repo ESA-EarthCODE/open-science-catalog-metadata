@@ -19,7 +19,7 @@
     "osc:themes": [
       "Oceans"
     ],
-    "osc:variable": "Chlorophyll-a",
+    "osc:variable": "Ocean chlorophyll concentration",
     "osc:status": "ONGOING",
     "osc:region": "Global",
     "osc:type": "Product",
