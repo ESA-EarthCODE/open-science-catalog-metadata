@@ -2,5 +2,5 @@
   "name": "Glacier motion",
   "description": "Velocity of the ice measured at the surface of a glacier",
   "link": "https://space.oscar.wmo.int/variables/view/glacier_motion",
-  "theme": "Land"
+  "theme": "Cryosphere"
 }
