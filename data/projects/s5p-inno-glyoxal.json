@@ -4,7 +4,7 @@
   "id": "s5p-inno-glyoxal",
   "properties": {
     "title": "S5p Inno - Glyoxal",
-    "description": "Develop a scientific glyoxal (CHOCHO) tropospheric column product; Collect independent data sets in order to validate the satellite observations; Pave the way towards an operationalization of the developed S5p glyoxal product; Demonstrate the added-value of the S5p glyoxal product for the user community.",
+    "description": "The GLYRETRO (GLYoxal Retrievals from TROPOMI) activity is one of the seven themes from the ESA S5p innovation (S5p+I) project, which aims at further exploiting the capability of the S5p/TROPOMI instrument with the development of a number of new scientific products. The GLYRETRO project, proposed by both the Royal Belgian Institute for Space Aeronomy and the Institute of Environmental Physics at the University of Bremen, has been successfully kicked-off on July, 1st 2019 and will last two years. The objectives are manifold and can be listed as: To develop a scientific glyoxal (CHOCHO) tropospheric column product; To collect independent data sets in order to validate the satellite observations; To pave the way towards an operationalization of the developed S5p glyoxal product; To demonstrate the added-value of the S5p glyoxal product for the user community.",
     "osc:name": "SENTINEL-5P+ INNOVATION - GLYRETRO (GLYoxal Retrievals from TROPOMI)",
     "osc:themes": [
       "Atmosphere"

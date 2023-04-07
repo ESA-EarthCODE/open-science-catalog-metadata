@@ -4,7 +4,7 @@
   "id": "s5p-inno-so2-lh",
   "properties": {
     "title": "S5p Inno - SO2-LH",
-    "description": "Generation of an SO2 layer height product for Sentinel-5p taking into account data production timeliness requirements.",
+    "description": "The ESA Sentinel-5p+ Innovation project (S5p+I) has been initiated to develop novel scientific and operational applications, products and retrieval methods that exploit the potential of the Sentinel-5p mission’s capabilities beyond its primary objective.The SO2 Layer Height (SO2LH) theme is dedicated to the generation of an SO2 layer height product for Sentinel-5p taking into account data production timeliness requirements. The S5p+I: SO2LH project is funded by the European Space Agency ESA. The coordination of the project is under the responsibility of the German Aerospace Center DLR. The objectives of the SO2 LH project are: • Development of an SO2 layer height product for Sentinel-5p; • Assessment of the performance of the new algorithm specifically with respect to timeliness requirements in operational processing frameworks; • Assessment of the applicability of various algorithms based on e.g. EISF or a LUT approach; • Assessment of the errors in the presence of absorbing and non-absorbing aerosols; • Assessment of retrieval results based on observation conditions, e.g. inhomogeneous scene; • Demonstration of the new retrieval on a number of cases of volcanic eruptions, including intercomparisons to SO2 height levels for volcanic eruptions with available OMI and GOME2 SO2 height level retrievals; • Discussion on how the effect of layer altitude change can be distinguished from a change of vertical column; • Assessment of the contribution of the new LH algorithm to the independent operational SO2 column retrieval • Discussion of mechanisms of adding the LH product to the SO2 operational column product (e.g. inclusion into the existing SO2 total column product), or justification for a standalone product.",
     "osc:name": "SENTINEL-5P+ INNOVATION - SO2 Layer Height Project",
     "osc:themes": [
       "Atmosphere"
@@ -22,7 +22,7 @@
     "osc:type": "Project",
     "start_datetime": "2019-07-03T00:00:00Z",
     "end_datetime": "2021-12-30T23:59:59Z",
-    "updated": "2022-10-17T17:18:12Z",
+    "updated": "2022-03-20T17:18:12Z",
     "datetime": "2019-07-03T00:00:00Z"
   },
   "geometry": null,
