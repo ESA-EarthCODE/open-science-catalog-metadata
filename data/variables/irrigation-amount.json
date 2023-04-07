@@ -1,0 +1,6 @@
+{
+    "name": "Irrigation amount",
+    "description": "Irrigation estimates retrieved through the SM-based inversion approach, expressed in mm/week.",
+    "link": "https://essd.copernicus.org/preprints/essd-2022-403/essd-2022-403.pdf",
+    "theme": "Land"
+  }
