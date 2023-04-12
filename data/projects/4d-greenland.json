@@ -4,8 +4,8 @@
   "id": "4d-greenland",
   "properties": {
     "title": "4D-Greenland",
-    "description": "Advancing the current state of knowledge on the hydrology of the Greenland Ice Sheet, by capitalising on the latest advances in Earth Observation data. In 4DGreenland, an integrated assessment of the Greenland hydrology will be performed, with a focus on maximizing the use of Earth Observation data in determining each of the three major components and their interconnections: surface melt processes, supraglacial storage and drainage, and subglacial melt, drainage and lakes.",
-    "osc:name": "4DGreenland",
+    "description": "In 4DGreenland the overall aim is to advance the current state of knowledge on the hydrology of the Greenland Ice Sheet, by capitalising on the latest advances in Earth Observation data. The high latitudes of the Northern Hemisphere have experienced the largest warming over the last decades. The Greenland ice sheet is currently undergoing rapid changes in response to the increased temperatures. Understanding the Greenland ice sheet hydrologyis essential to understand these changes – and how the Greenland ice sheet will contribute to global sea level rise in a future warming climate. In 4DGreenland we will map and quantify both meltwater- , subglacial- and supra-glacial processes, as well as performing an integrated assessment of Greenland’s hydrology based on the results. We will focus our integrated assessment analysis on the time span 2010-present, and generate a Product Portfolio of novel datasets over the whole Greenland ice sheet to characterise the different components of the hydrological system. Thorough validation ofall derived products and scientific results will be carried out. Another outcome of the project will be a scientific roadmap providing recommendations to ESA to further advance the use of EO technology to address the main knowledge gaps and scientific challenges associated with the Greenland hydrology.",
+    "osc:name": "4D-Greenland",
     "osc:themes": [
       "Cryosphere"
     ],
