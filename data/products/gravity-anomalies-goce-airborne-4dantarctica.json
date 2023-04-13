@@ -6,12 +6,12 @@
     "start_datetime": null,
     "end_datetime": null,
     "title": "Gravity anomalies from GOCE and airborne data",
-    "description": "Gravity anomalies from GOCE and airborne data",
+    "description": "Gravity surveying is challenging in Antarctica because of its hostile environment and inaccessibility. Nevertheless, many ground-based, airborne, and shipborne gravity campaigns have been completed by the geophysical and geodetic communities since the 1980s. We present the first modern Antarctic-wide gravity data compilation derived from 13 million data points covering an area of 10 million km**2, which corresponds to 73% coverage of the continent. The remove-compute-restore technique was applied for gridding, which facilitated leveling of the different gravity data sets with respect to an Earth gravity model derived from satellite data alone. The resulting free-air and Bouguer gravity anomaly grids of 10 km resolution are publicly available. These grids will enable new high-resolution combined Earth gravity models to be derived and represent a major step forward toward solving the geodetic polar data gap problem. They provide a new tool to investigate continental-scale lithospheric structure and geological evolution of Antarctica. Products available also in different formats: Antarctic free-air and complete Bouguer gravity anomaly grid in formated ASCII format (9 MB, zipped): https://hs.pangaea.de/Maps/antgg2015/antgg2015.zip and in text file format: https://doi.pangaea.de/10.1594/PANGAEA.848168?format=textfile",
     "osc:missions": [
       "GOCE",
       "GRACE"
     ],
-    "osc:project": "4DANTARCTICA",
+    "osc:project": "4D-ANTARCTICA",
     "osc:themes": [
       "Cryosphere",
       "Solid Earth"
@@ -20,10 +20,7 @@
     "osc:status": "COMPLETED",
     "osc:region": "Antarctica",
     "osc:type": "Product",
-    "created": "2020-06-01T00:00:00Z",
-    "version": "0.1",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": null
+    "datetime": "2016-01-08T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -61,12 +58,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.4d-antarctica.org/"
+      "href": "https://hs.pangaea.de/Maps/antgg2015/antgg2015.nc",
+      "title": "Access"
     },
     {
       "rel": "via",
-      "href": "",
-      "title": "Access"
+      "href": "https://doi.org/10.1002/2015GL067439",
+      "title": "Documentation"
     }
   ],
   "assets": {},

@@ -5,23 +5,19 @@
   "properties": {
     "start_datetime": "2012-01-01T00:00:00Z",
     "end_datetime": "2012-12-31T23:59:59Z",
-    "title": "Geothermal Heat flux estimate from aeromagnetic data",
-    "description": "Geothermal heat flux estimate for Thwaites and Pine island glacier",
+    "title": "Geothermal heat flux estimate from aeromagnetic data",
+    "description": "We investigated geothermal heat flow derived from new and existing magnetic anomaly data in the Amundsen Sea sector of West Antarctica. The magnetic anomaly data set (ASE_MagneticCompilation_Dziadeketal.tif) results from a compilation of surveys from RV Polarstern expedition PS104 (2017) and existing, partly unpublished data from various campaigns (TORUS, BBAS, AGASEA and ADMAP2.0). Further details of the processing are given in the manuscript. During PS104 the on board BO-105 helicopter was equipped with a caesium-vapour magnetometer, which was towed with a 30 m long cable and data values are given in Nanotesla. Curie depth estimates were calculated and served as a boundary condition for geothermal modeling. We split the magnetic anomaly grid into windows, with 200x200km and a 300x300km dimensions and apply spectral methods to obtain the curie depth. Depths are calculated using GMT fft tool end errors are standard deviation from fft. The results for the respective window sizes are given in 200km_Dziadek_etal_CurieDepth_Results.csv/.nc and 300km_Dziadek_etal_CurieDepth_Results.csv/.nc. .csv corresponds to xyz data and .nc corresponds to the gridded data in NetCDF format, respectively. The geothermal heat flow models (200km_GHF_windowCenters.csv/.nc and 300km_GHF_windowCenters.csv/.nc) are based on Curie depth estimates in a steady-state model of a homogeneous material with a constant geothermal gradient and thermal conductivity. The km-prefix indicates which magnetic window size was used and values for geothermal heat flow are given at the center of each window in Milliwatts per Squaremeter. Uncertainties of geothermal heat flow (200km_GHF_uncertainty.csv/.nc and 300km_GHF_uncertainty.csv/.nc) are based on Curie depth standard deviation. This dataset accompanies the manuscript High geothermal heat flow beneath Thwaites Glacier in West Antarctica inferred from aeromagnetic data, R. Dziadek, F. Ferraccioli & K. Gohl, Communications Earth & Environment, 2021.",
     "osc:missions": [],
-    "osc:project": "4DANTARCTICA",
+    "osc:project": "4D-ANTARCTICA",
     "osc:themes": [
       "Cryosphere",
       "Solid Earth"
     ],
     "osc:variable": "Geothermal energy",
-    "osc:status": "ONGOING",
+    "osc:status": "COMPLETED",
     "osc:region": "Antarctica",
     "osc:type": "Product",
-    "created": "2021-08-18T00:00:00Z",
-    "version": "1",
-    "sci:doi": "10.1038/s43247-021-00242-3",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "2012-01-01T00:00:00Z"
+    "datetime": "2021-08-18T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -59,21 +55,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.4d-antarctica.org/"
-    },
-    {
-      "rel": "via",
-      "href": "https://doi.pangaea.de/10.1594/PANGAEA.932452",
+      "href": "https://download.pangaea.de/dataset/932452/allfiles.zip",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://doi.pangaea.de/10.1594/PANGAEA.932452",
+      "href": "https://www.nature.com/articles/s43247-021-00242-3",
       "title": "Documentation"
-    },
-    {
-      "rel": "cite-as",
-      "href": "https://doi.org/10.1038/s43247-021-00242-3"
     }
   ],
   "assets": {},
