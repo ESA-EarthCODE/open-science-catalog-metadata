@@ -3,23 +3,22 @@
   "stac_version": "1.0.0",
   "id": "l2b-sif-surface-reflectance-tropomi-troposif",
   "properties": {
-    "start_datetime": "2018-01-01T00:00:00Z",
+    "start_datetime": "2018-05-01T00:00:00Z",
     "end_datetime": "2021-12-31T23:59:59Z",
     "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI",
-    "description": "This dataset provides daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI observations covering the period May 2018-March 2021. SIF data are estimated from two fitting windows: from the 743-758 nm window (baseline product) and from the extended 735-758 nm window (secondary product). The L2B TROPOSIF products are provided in netCDF-4 files.",
+    "description": "This dataset provides daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI observations covering the period May 2018-March 2021. The TROPOSIF products consists in: SIF estimates at 740 nm derived from a data driven approach based on a linear forward model fitting TOA radiances in the far-red spectral region; SIF data set derived from the 743–758 nm window (baseline  SIF product); SIF data set from the extended 735–758 nm window (secondary SIF product); The SIF data from the 735–758 nm window have an enhanced signal-to-noise ratio but a higher sensitivity to atmospheric conditions than the SIF estimates from the 743–758 nm window; Spectral surface reflectance in 7 bands covering the 665–785 nm range.",
     "osc:missions": [
       "Sentinel-5p"
     ],
     "osc:project": "SENTINEL-5P+ INNOVATION SOLAR INDUCED CHLOROPHYLL FLUORESCENCE (SIF)",
     "osc:themes": [
-      "Land"
+      "Atmosphere"
     ],
     "osc:variable": "Solar-induced chlorophyll fluorescence (SIF)",
     "osc:status": "COMPLETED",
     "osc:region": "Global",
     "osc:type": "Product",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "2018-01-01T00:00:00Z"
+    "datetime": "2021-12-31T00:00:00Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -55,10 +54,6 @@
     ]
   },
   "links": [
-    {
-      "rel": "via",
-      "href": "https://s5p-troposif.noveltis.fr/"
-    },
     {
       "rel": "via",
       "href": "http://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/sif/v2.1/l2b/",
