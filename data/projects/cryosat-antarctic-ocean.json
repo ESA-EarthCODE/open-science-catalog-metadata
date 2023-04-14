@@ -4,8 +4,8 @@
   "id": "cryosat-antarctic-ocean",
   "properties": {
     "title": "Cryosat+ Antarctic Ocean",
-    "description": "CryoSat-2 for enhanced sea-ice thickness and ocean observations in Antarctica: \u201a\u00c4\u00faCryoSat+ Antarctic Ocean\u201a\u00c4\u00f9",
-    "osc:name": "Cryosat+ Antarctic Ocean",
+    "description": "This project is part of ESA's Scientific Data Exploitation Element activities, a component of the Earth Observation Envelope program (EOEP-5). This programme element responds to needs of the Earth Observation and Earth System science communities in terms of innovative methods, new products, open science tools and new Earth science results. The focus of the CryoSat+ Antarctic Ocean project is to develop, inter-compare and validate multiple approaches to sea surface height and sea ice thickness retrieval on Antarctic sea ice. The approaches to be considered in this proposal are: a. Novel LRM/SAR/SARIN methods for leads, polynyas, open ocean and sea ice classification b. Along-track processors over leads, polynyas and open ocean for sea surface estimation c. Along-track processors over sea ice floes for sea ice thickness estimation d. Pan-Antarctic gridded products of dynamic ocean topography and geostrophic currents (along with secondary products: EKE, upwelling, etc) e. Pan-Antarctic gridded products of sea ice thickness f. Preliminary inter-comparison of along-track and gridded products developed in steps b-e g. Validation over selected tracks and key regions against in-situ and airborne data.",
+    "osc:name": "CryoSat-2 for enhanced sea-ice thickness and ocean observations in Antarctica: “CryoSat+ Antarctic Ocean”",
     "osc:themes": [
       "Cryosphere"
     ],
