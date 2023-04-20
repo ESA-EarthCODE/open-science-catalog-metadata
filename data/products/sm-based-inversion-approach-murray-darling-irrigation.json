@@ -14,42 +14,41 @@
       "osc:themes": [
         "Land"
       ],
-      "osc:variable": "Irrigation amount",
+      "osc:variable": "Irrigation water use",
       "osc:status": "COMPLETED",
       "osc:region": "Murray–Darling basin (South-eastern Australia)",
       "osc:type": "Product",
-      "updated": "2023-04-11T12:00:00Z",
       "datetime": "2022-11-21T00:00:00Z"
     },
     "geometry": {
       "type": "Polygon",
       "bbox": [
-        140,
-        -35,
-        152,
-        -25
+        140.0,
+        -35.0,
+        152.0,
+        -25.0
       ],
       "coordinates": [
         [
           [
-            140,
-            -35
+            140.0,
+            -35.0
           ],
           [
-            152,
-            -35
+            152.0,
+            -35.0
           ],
           [
-            152,
-            -25
+            152.0,
+            -25.0
           ],
           [
-            140,
-           -25
+            140.0,
+           -25.0
           ],
           [
-            140,
-            -35
+            140.0,
+            -35.0
           ]
         ]
       ]
@@ -68,12 +67,13 @@
     ],
     "assets": {},
     "bbox": [
-        140,
-        -35,
-        152,
-        -25
+        140.0,
+        -35.0,
+        152.0,
+        -25.0
     ],
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
     ]
   }
+  

@@ -14,42 +14,41 @@
       "osc:themes": [
         "Land"
       ],
-      "osc:variable": "Irrigation amount",
+      "osc:variable": "Irrigation water use",
       "osc:status": "COMPLETED",
       "osc:region": "Po valley (Northern Italy)",
       "osc:type": "Product",
-      "updated": "2023-04-11T12:00:00Z",
       "datetime": "2022-11-21T00:00:00Z"
     },
     "geometry": {
       "type": "Polygon",
       "bbox": [
-        7,
-        44,
-        13,
-        46
+        7.0,
+        44.0,
+        13.0,
+        46.0
       ],
       "coordinates": [
         [
           [
-            7,
-            44
+            7.0,
+            44.0
           ],
           [
-            13,
-            44
+            13.0,
+            44.0
           ],
           [
-            13,
-            46
+            13.0,
+            46.0
           ],
           [
-            7,
-            46
+            7.0,
+            46.0
           ],
           [
-            7,
-            44
+            7.0,
+            44.0
           ]
         ]
       ]
@@ -68,10 +67,10 @@
     ],
     "assets": {},
     "bbox": [
-        7,
-        44,
-        13,
-        46
+        7.0,
+        44.0,
+        13.0,
+        46.0
     ],
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
