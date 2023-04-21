@@ -11,15 +11,14 @@
       "Sentinel-1",
       "Sentinel-2"
     ],
-    "osc:project": "4DGreenland",
+    "osc:project": "4D-Greenland",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:variable": "Glacier motion",
-    "osc:status": "COMPLETED",
+    "osc:status": "PLANNED",
     "osc:region": "Greenland",
     "osc:type": "Product",
-    "updated": "2022-10-17T17:18:12Z",
     "datetime": null
   },
   "geometry": {
@@ -58,12 +57,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://4dgreenland.eo4cryo.dk/"
+      "href": "",
+      "title": "Access"
     },
     {
       "rel": "via",
       "href": "https://4dgreenland.eo4cryo.dk/?page_id=48",
-      "title": "Access"
+      "title": "Documentation"
     }
   ],
   "assets": {},

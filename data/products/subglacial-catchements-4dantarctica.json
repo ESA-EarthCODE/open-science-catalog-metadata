@@ -8,17 +8,15 @@
     "title": "Modelled subglacial catchement boundaries",
     "description": "Probabilistic maps of major Antarctic catchments (gridded product)",
     "osc:missions": [],
-    "osc:project": "4DANTARCTICA",
+    "osc:project": "4D-ANTARCTICA",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:variable": "Lake area",
-    "osc:status": "ONGOING",
+    "osc:status": "PLANNED",
     "osc:region": "Antarctica",
     "osc:type": "Product",
-    "version": "1",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "2012-01-01T00:00:00Z"
+    "datetime": null
   },
   "geometry": {
     "type": "Polygon",
@@ -56,12 +54,13 @@
   "links": [
     {
       "rel": "via",
-      "href": "http://www.4d-antarctica.org/"
+      "href": "",
+      "title": "Access"
     },
     {
       "rel": "via",
       "href": "",
-      "title": "Access"
+      "title": "Documentation"
     }
   ],
   "assets": {},
