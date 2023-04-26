@@ -1,0 +1,44 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "biomondo",
+    "properties": {
+      "title": "BIOMONDO",
+      "description": "The European Space Agency (ESA) activity called Biodiversity+ Precursors is acontribution to the joint EC-ESA Earth System Science Initiative launched in February 2020 to jointly advance Earth System Science and its response to the global challenges that society is facing in the onset of this century. The ESABiodiversity+ Precursors include three projects on different themes; land (EO4Diversity), coast (BiCOME) and freshwaters (BIOMONDO). BIOMONDO is the freshwater project, and has a focus on biodiversity in lakes, wetlands, river and streams. Based on an in-depth-analysis of the relevant sources for scientific and policy priorities, the main knowledge gaps and challenges in biodiversity monitoring, including capabilities of current and future Earth Observation (EO) systems, are identified. Requirements related to EBVs, to drivers for change and to ecosystem functions are compared to (todays and future) possibilities and available data from EO. These findings are then the basis for development of innovative integrated earth science solutions that integrate EO based products, state-of-the-art biodiversity modelling and in situ data using advanced data science andinformation and communications technology. The BIOMONDO team has selected three solutions, or pilots, which focus on eutrophication, water temperature and heat waves, and river connectivity, and their impact on biodiversity.",
+      "osc:name": "BIODIVERSITY+ PRECURSORS EXPRO+ THEME 2 - FRESHWATER  (BIOMONDO)",
+      "osc:themes": [
+        "Land"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Marc Paganini",
+        "e-mail": "marc.paganini@esa.int"
+      },
+      "osc:consortium": [
+        "BROCKMANN GEOMATICS SWEDEN AB (HEAD (SE)",
+        "BROCKMANN CONSULT GMBH (DE),Deltares (NL)",
+        "EAWAG (CH)",
+        "PBL Netherlands Environmental Asses (NL)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-07-21T00:00:00Z",
+      "end_datetime": "2023-09-01T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "http://biomondo.info/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/biomondo/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

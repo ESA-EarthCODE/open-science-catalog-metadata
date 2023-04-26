@@ -1,0 +1,44 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "3dctrl",
+    "properties": {
+      "title": "3DCTRL",
+      "description": "3DCTRL project aims to evaluate cloud correction methodologies in Copernicus Sentinel-4, Sentinel-5 and Sentinel-5p trace gas retrieval schemes and to explore ways to improve handling of realistic clouds in the retrievals of atmospheric species. Cloud shadow fraction, cloud top height, cloud optical depth, solar zenith and viewing angles, were identified as the metrics being the most important in identifying 3D cloud impacts on NO2 TVCD retrievals. For a solar zenith angle less than about 40° the synthetic data show that the NO2 TVCD bias is typically below 10%. For larger solar zenith angles both synthetic and observational data often show NO2 TVCD bias on the order of tens of %. In 3DCTRL, fast retrieval algorithms for 3D cloudy scenes will be designed. Very promising is a retrieval algorithm based on a linearized one-dimensional radiative transfer model, in which the direct beam and its derivative with respect to the total column are computed in a three-dimensional atmosphere. The performance of new methods for cloud correction will be evaluated against the present operational products and independent measurements. 3DCTRL project has the following main objectives: (a) Generate synthetic reference datasets in which true cloud properties including their 3D structure and vertical distribution are known by means of 3D radiative transfer simulations, realistic synthetic data of cloud properties will be obtained from large-eddy simulation (LES) model (b) Explore ways to improve the handling of realistic clouds in trace gas retrievals, specifically for NO2 (c) Testing and evaluation of improved approaches for cloud correction by application on synthetic and real TROPOMI-S5P data.",
+      "osc:name": "Handling of 3D Clouds in Trace Gas Retrievals - 3DCTRL",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "ARISTOTLE UNIV. OF THESSALONIKI (GR)BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)",
+        "DLR - GERMAN AEROSPACE CENTER (DE)",
+        "LUDWIG-MAXIMILIAN UNIVERSITAT MUNCHEN (DE)",
+        "NILU - NORWEGIAN INSTITUTE FOR AIR RESEARCH (NO)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-04-29T00:00:00Z",
+      "end_datetime": "2024-05-30T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://websites.auth.gr/3dctrl/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/3dctrl/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "dinar",
+    "properties": {
+      "title": "DINAR",
+      "description": "The importance of nitrous acid (HONO) in atmospheric chemistry stems from its role as precursor of the OH radical.The latter is among the most important oxidizing molecules and controls the degradation of pollutants and greenhouse gases, and contributes to ozone formation and photochemical smog. Accurate representation of HONO sources is highly relevant to the modeling of climate and air quality. However, many uncertainties remain on the formation mechanisms, in part due to the lack of large-scale HONO measurements,consequently, the impact of HONO emissions on tropospheric chemistry remains particularly uncertain although it is believed to be important. Recent global space measurements of HONO in freshly emitted biomass burning plumes using the Sentinel-5Precursor/TROPOMI instrument have provided unprecedented information on the distribution and emissions of this compound, and have opened new research possibilities. The DINAR project addresses the need for highly sensitive, mature and easily accessible HONO space-based data. DINAR aims at developing HONO products from multiple and complementary satellite payloads including polar-orbiting and geostationary platforms, operating in the ultraviolet-visible (TROPOMI, OMI, GEMS) and thermal infrared (IASI, GIIRS) spectral ranges. Using improved retrieval techniques, the observation of atmospheric HONO sampled at different overpass time (including night time) has a large and exciting potential for innovative science and for improving our understanding of HONO formation and its impact on atmospheric chemistry.",
+      "osc:name": "Development and interpretation of improved Nitrous Acid Retrievals project - DINAR",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2021-09-10T00:00:00Z",
+      "end_datetime": "2023-10-01T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://hono.aeronomie.be/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/dinar/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

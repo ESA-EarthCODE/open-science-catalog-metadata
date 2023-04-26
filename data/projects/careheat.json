@@ -4,8 +4,8 @@
   "id": "careheat",
   "properties": {
     "title": "CareHEAT",
-    "description": "CAREHeat aims to improve current Marine Heat Waves (MHW) detection and characterization methodology and to advance the understanding of the physical processes involved in MHW development. It will also assess MHW impact on marine Ecosystems and Biogeochemistry, and Ecosystem Services.",
-    "osc:name": "Ocean Health - Marine Heatwaves",
+    "description": "Oceans are responsible for absorbing circa 90% of the Earth’s heat budget and 30% of the human-induced carbon emissions. While anthropogenic forcing (i.e., the rising of atmospheric CO2 concentration) is leading to the global warming of the climate system, the full disclosure of its role in all the physical processes involved in these changes still requires research advances to the current scientific knowledge, from an Earth Systems perspective. Indeed, the ocean’s importance is not only one of climate system stabilization (i.e., reaching the equilibrium state, in response to external radiative forcing), but it is also related to its role as a significant services provider, in what is concerned with both marine ecosystems and blue economy activities. Hence, climate-induced effects in these two ocean-based domains are affected not only by long term changes but also by short-lived extreme events. It is under this scope that Marine Heat Waves (MHW) have been the topic of recent scientific advances and discussions, i.e., the realization that climate change is potentially linked with increasing frequencies of abnormal warm seawater temperature events, affecting living organisms and the overall ecosystems, ocean, and planetary health. CAREHeat aims to improve current MHW detection and characterization methodology and to advance the understanding of the physical processes involved in MHW development. It will also assess MHW impact on marine Ecosystems and Biogeochemistry, and Ecosystem Services.",
+    "osc:name": "deteCtion and threAts of maRinE Heat waves (CAREHeat)",
     "osc:themes": [
       "Oceans"
     ],
@@ -15,24 +15,21 @@
       "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
-      "CNR (IT)",
-      "+ATLANTIC (PT)",
-      "CLS (FR)",
-      "Ifremer (FR)",
-      "Mercator-Ocean (FR)",
-      "ENEA (IT)"
+      "CNR-INSTITUTE OF MARINE SCIENCES-ISMAR (IT)",
+      "+ATLANTIC - Association for an Atla (PT)",
+      "CLS COLLECTE LOCALISATION SATELLITES (FR)",
+      "IFREMER (FR),ITALIAN NATIONAL AGENCY FOR NEW TECHNOLOGIES, ENERGY AND SUSTAINABLE ECONOMIC DEVELOPMENT (ENEA) (IT)",
+      "Mercator Ocean International (FR)"
     ],
     "osc:type": "Project",
     "start_datetime": "2022-02-01T00:00:00Z",
-    "end_datetime": "2024-02-01T23:59:59Z",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "2022-02-01T00:00:00Z"
+    "end_datetime": "2024-02-01T23:59:59Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "",
+      "href": "https://careheat.org/",
       "title": "Website"
     },
     {

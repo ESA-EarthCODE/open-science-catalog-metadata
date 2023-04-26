@@ -4,8 +4,8 @@
   "id": "booms",
   "properties": {
     "title": "BOOMS",
-    "description": "The BOOMS project aims to provide the best possible characterisation of oceanic seascapes (habitats defined by physical, chemical or biological characteristics), and its relationship to Essential Biodiversity Variables (EBV) globally. It will produce a >10-year time series of seascapes based on 4-km resolution remote sensing data over the global ocean, combining independent datasets from advanced algorithms of ocean colour and sea surface temperature. BOOMS will focus on three Science Case Studies, for different trophic levels: phytoplankton, zooplankton and fish.",
-    "osc:name": "Ocean Health - Open Ocean Biodiversity",
+    "description": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) aims to provide the best possible characterisation of oceanic seascapes and its relationship to Essential Biodiversity Variables (EBVs, Pereira et al, 2013) globally. The project will produce a >10-year time series of seascapes based on 4-km resolution remote sensing data over the global ocean, combining independent datasets from advanced algorithms of ocean colour and sea surface temperature. A novel research plan will be designed and implemented that aims to describe plans to consolidate and advance the current understanding of open ocean EBV, specifically targeting species of three different trophic levels, their relation to spatio-temporal variations of seascapes, their impact on Earth system processes, and effects on socio-economically important and marine policy activities. This plan will include a wide-ranging consultation with relevant stakeholders and early-adopters. The project will create or add to databases of relevant Earth Observation and in situ data, notably as input for the computation of ecoregions. BOOMS will use the 4-km version of the long-term climate-quality ESA Ocean Colour CCI dataset in combination with frontal structures derived from ESA Sea Surface Temperature CCI, and in specific areas use the new 1-km product from Ocean Colour-CCI. In-situ data will be mined from the scientific literature, existing databases, and be provided by our collaborators, notably in the North Atlantic Ocean, Tropical, South Atlantic and Southern Ocean. BOOMS will investigate prototype products and perform a thorough validation of the products by comparison with state-of-the-art dynamic ecoregions products and in situ observations.",
+    "osc:name": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS)",
     "osc:themes": [
       "Oceans"
     ],
@@ -15,20 +15,19 @@
       "e-mail": "marie-helene.rio@esa.int"
     },
     "osc:consortium": [
-      "PML (UK)",
-      "NKUA (GR)"
+      "Plymouth Marine Laboratory (GB)",
+      "Fundacion AZTI - Fundazioa (ES)",
+      "NATIONAL AND KAPODISTRIAN UNIVERSIT (GR)"
     ],
     "osc:type": "Project",
     "start_datetime": "2022-02-01T00:00:00Z",
-    "end_datetime": "2024-02-01T23:59:59Z",
-    "updated": "2022-10-17T17:18:12Z",
-    "datetime": "2022-02-01T00:00:00Z"
+    "end_datetime": "2024-02-01T23:59:59Z"
   },
   "geometry": null,
   "links": [
     {
       "rel": "via",
-      "href": "",
+      "href": "https://www.booms-project.org/",
       "title": "Website"
     },
     {

@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "eo4diversity",
+    "properties": {
+      "title": "EO4Diversity",
+      "description": "The main EO4Diversity objective and key innovation is to predict and monitor biodiversity in terrestrial ecosystems through the integration of state-of-the-art multi-sensor Earth Observation (EO) imagery and products with next-generation ecological models. The project addresses important biodiversity science gaps, including (i) filling data gaps in the geographic, temporal, habitat and taxonomic composition coverage from in situ biodiversity observations; (ii) filling knowledge gaps, thereby assessing global species diversity; (iii) forecasting ecological degradation in order to define effective actions to reduce terrestrial biodiversity loss; as well as (iv) filling gaps in the data-policy link which may lead to a disconnection of biodiversity data that EO can generate and policy strategies including the EU Biodiversity Strategy for 2030, the UN SDGs and the Convention on Biodiversity (CBD) post-2020 targets. The scientific and policy analyses, pilot demonstrations and agenda-setting that will be done during EO4Diversity will serve as a basis for the implementation of the EC-ESA Biodiversity Flagship Action in 2023.",
+      "osc:name": "BIODIVERSITY+ PRECURSORS EXPRO+ THEME 1 - TERRESTRIAL: Earth Observation for Biodiversity Modelling (EO4Diversity)",
+      "osc:themes": [
+        "Land"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Marc Paganini",
+        "e-mail": "marc.paganini@esa.int"
+      },
+      "osc:consortium": [
+        "UNIVERSITY OF TWENTE (NL)",
+        "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS) (FR)",
+        "FINNISH ENVIRONMENT INSTITUTE (SYKE) (FI)",
+        "LUND UNIVERSITY (SE)",
+        "STICHTING WAGENINGEN RESEARCH (NL)",
+        "UN WORLD CONSERVATION MONITORING CENTRE (UN-WCMC) (GB)",
+        "UNIVERSITY OF ZURICH (CH)",
+        "VLAAMSE INSTELLING VOOR TECHNOLOGISCH ONDERZOEK VITO (BE)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-08-01T00:00:00Z",
+      "end_datetime": "2023-07-12T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://www.eo4diversity.info/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/eo4diversity/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }
