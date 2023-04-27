@@ -1,0 +1,43 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "mit3d",
+    "properties": {
+      "title": "MIT3D",
+      "description": "Operational retrievals of trace gas column amounts assume (near) cloud free conditions.  However, the large pixel size of the satellite instruments (for example the TROPOspheric Monitoring Instrument on Sentinel 5P, TROPOMI-S5P, is 5.5 km by 3.5 km at nadir) imply  that pixels may be contaminated by sub-pixel sized cloud(s). Furthermore, clouds in neighbour pixels may lead to in-scattering of radiation or cloud shadow effects, both which are three-dimensional (3D) radiative transfer effects that may both decrease (cloud shadow) and increase (in-scattering) the retrieved trace gas amount. The goal of the ESA MIT3D project is to understand and mitigate impacts of 3D clouds on UV-VIS NO 2 trace gas retrievals by AI (artifical intelligence) exploration of synthetic and real data. The main objectives of the activity are to: Use AI to find parameters that affect NO2 retrievals using a unique synthetic TROPOMI-S5P data set based on 3D Monte Carlo simulations which includes realistic clouds from large eddy scale simulations. Identify associations between TROPOMI-S5P NO2 and Suomi NPP Visible Infrared Imaging Radiometer Suite (VIIRS) products using maximal information-based nonparametrix exploration statistics. Improve standard 1D NO2 cloud correction. The MIT3D activity thus aims to reduce errors due to the impact of 3D clouds. The  achievement of the main objectives will be demonstrated by analysis of cloud affected synthetic and real TROPOMI-S5P data and the quantitative comparison of the MIT3D improved NO2 cloud correction  and the standard NO2 cloud correction.",
+      "osc:name": "Understand and mitigate impacts of 3D clouds on UV-VIS NO2 trace gas retrievals by AI exploration of synthetic and real data (MIT3D)",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "NILU - NORWEGIAN INSTITUTE FOR AIR RESEARCH (NO)",
+        "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)",
+        "LUDWIG-MAXIMILIAN UNIVERSITAT MUNCHEN (DE)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-03-16T00:00:00Z",
+      "end_datetime": "2025-04-01T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/mit3d/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

@@ -1,0 +1,42 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "syremis",
+    "properties": {
+      "title": "SYREMIS",
+      "description": "In the SYREMIS project we develop the prototyped synergetic retrieval with GRASP algorithm of combined measurements from diverse satellite instruments to bring the accuracy and scope of space-borne aerosol characterization to a new level required for climate studies and air-quality monitoring. In particular, these developments are expected to enhance the accuracy of traditional spectral AOD retrieval and allow the characterization of such aerosol properties as particle size, absorption, and chemical composition. Moreover, the proposed synergetic retrieval is expected to increase essentially the spatial and temporal coverage of the available aerosol product, which is absolutely required to identify aerosol sources and monitor aerosol transport. In this regard, the enhanced synergetic aerosol product is projected to have a significant impact on regional and global climate models (for example, CAMS and MERRA-2 global models). It is also expected to achieve the monitoring of natural or anthropogenic aerosol emissions which is crucial for air quality monitoring. The synergetic retrieval in SYREMIS project is planned to be tested on the currently operating polar-orbiting (TROPOMI/Sentinel-5p, OLCI/Sentinel-3, SLSTR/Sentinel-3) and geostationary (Himawari) satellites. Moreover, the constellation of these multi-mission satellites is expected to be extended in future by the new generation of satellites like Sentinel-5, 3MI/EPS-SG, Sentinel-4, etc.",
+      "osc:name": "Synergetic retrieval from multi-mission space-borne measurements for enhancement of aerosol characterization (SYREMIS)",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "GRASP-SAS (FR)",
+        "Cloudflight Austria GmbH (AT)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-11-11T00:00:00Z",
+      "end_datetime": "2025-02-01T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/syremis/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

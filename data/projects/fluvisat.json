@@ -1,0 +1,42 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "fluvisat",
+    "properties": {
+      "title": "FluViSat",
+      "description": "FluViSat is a proof-of-concept study leveraging recent scientific advances in hydrology to explore the potential use of satellite-collected video imagery to provide accurate and timely quantification of water movements and river flows for the benefit of water management globally. The project is funded through the European Space Agency's (ESA) - Future EO-1 EO Science for Society - Grand Science Challenges, and runs from January to December 2022. It is led by UK Centre for Ecology & Hydrology, in partnership with the Luxembourg-based company, RSS-Hydro, and the Queensland Government, Australia.",
+      "osc:name": "Fluvial Video from Satellite - FluViSat",
+      "osc:themes": [
+        "Land"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Bertrand Le Saux",
+        "e-mail": "bertrand.le.saux@esa.int"
+      },
+      "osc:consortium": [
+        "UK Centre for Ecology & Hydrology (GB)",
+        "RSS-Hydro (LU)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2021-11-21T00:00:00Z",
+      "end_datetime": "2024-01-15T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://www.ceh.ac.uk/our-science/projects/Fluvisat",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/fluvisat/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

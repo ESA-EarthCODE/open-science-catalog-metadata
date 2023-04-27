@@ -1,0 +1,42 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "opa",
+    "properties": {
+      "title": "OPA",
+      "description": "LuftBlick Earth Observation Technologies (LuftBlick) and the Royal Belgian Institute for Space Aeronomy (BIRA) propose to develop a novel algorithm to derive ozone profiles from measurements of ground-based passive remote sensing instruments. These are the highlights of our proposed activity: The novel algorithm distinguishes itself in several ways from existing approaches:It uses MAX-DOAS sky observations combined with direct sun measurements;It relies on absolute slant columns instead of relative ones; It combines results from UV and VIS spectral regions (Huggins and Chappuis ozone bands respectively) to make use of their different path lengths; It adds the retrieved effective ozone temperature to the input; It analyses entire days as a whole instead of single measurement sequences; It includes temperature profiles from re-analysis to be used in combination with the retrieve effective ozone temperatures. Once validated and made operational, the novel algorithm can be applied to new and existing datasets such as from the Pandonia Global Network (PGN). By this it would be an extremely valuable contribution to our knowledge of tropospheric ozone with direct impact to air quality, tropospheric chemistry and satellite validation. Having a working operational technique to derive TropO3 information from ground-based passive remote sensing measurements would increase our knowledge about TropO3 substantially at hardly any additional cost. Pandoras (or other MAX-DOAS instruments) are distributed in existing networks, e.g. the Pandona Global Network (PGN) with >100 locations around the world and are most often already performing the types of measurements which we plan to use for the algorithm we propose to develop. Hence a working ozone profile algorithm can be applied to these observations as well as on additional worldwide data sets which extend several years into the past.",
+      "osc:name": "High information content ozone profile algorithm for ground-based passive remote sensing instruments (OPA)",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "LUFTBLICK OG (AT)",
+        "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-01-14T00:00:00Z",
+      "end_datetime": "2024-03-15T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/opa/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

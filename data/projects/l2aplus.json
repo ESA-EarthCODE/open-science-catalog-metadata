@@ -1,0 +1,43 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "l2aplus",
+    "properties": {
+      "title": "L2A+",
+      "description": "ESA wind mission Aeolus hosts the first space-based Doppler Wind Lidar (DWL) world-wide. Its scientific objectives are to improve Numerical Weather Predictions (NWP) and to advance the understanding of atmospheric dynamics and its interaction with the atmospheric energy and water cycle. The primary data product is profiles of horizontally projected line-of-sight winds from the surface up to about 30 km, and spin-off products are profiles of cloud and aerosol optical properties. While the L2A product has a reasonable quality, its full potential for aerosol and cloud studies and for further improving NWP, has not been exploited. This is mainly because L2A is not provided separately for aerosol and cloud targets. The proposed L2A+ study aims at developing a refined Aeolus L2A aerosol product (L2A+), test its application for enhancing aerosol research and aims at assessing the impact of the new product on aerosol assimilation towards improved dust transport modelling and for further enhancing NWP. This overarching goal of L2A+ will be realised by fulfilling the following individual objectives: Develop a refined Aeolus aerosol optical product (L2A+). Examine the impact of L2A and L2A+ on aerosol assimilation and dust transport models. Assess the impact of Aeolus on NWP. Highlight the benefit of the Aeolus joint aerosol and wind assimilation for simulating dust deposition fields. Compare the monthly averaged L2A+ product with the CALIPSO L3 product, to assess the climatological value of L2A+ for aerosol databases.",
+      "osc:name": "L2A+",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "NATIONAL OBSERVATORY OF ATHENS (GR)",
+        "ECMWF (GB)",
+        "Leibniz-Institute for Tropospheric (DE)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-04-06T00:00:00Z",
+      "end_datetime": "2024-04-30T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/l2a/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

@@ -1,0 +1,45 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "ffsar-coastal",
+    "properties": {
+      "title": "FFSAR - Coastal",
+      "description": "FFSAR-Coastal is a project funded by ESA to apply the Fully Focused SAR altimetry processor on Sentinel-3 data and evaluate its potential to make a significant new contribution to coastal and estuarine monitoring systems. Innovative in situ water level gauges will be used for validation. Two different environments will be considered: The Severn Estuary and river: A highly dynamic mixed tidal estuary environment, the confluence between a river and its estuary experiencing large tidal range and strong tidal currents. The lower Rhone Delta and Camargue: A low lying, flat river delta and wetland environment, susceptible to inundation and rising water levels. By studying these two very different environments, the potential applicability and benefits offered by FF SAR altimeter data in other coastal, estuarine and delta locations will be demonstrated.Applications will focus on the benefits offered by the very high along-track resolution in water level and backscatter that can be provided through FF SAR processing. User agencies and groups from the two regions will be consulted to identify gaps and priorities for monitoring requirements. Time series will be provided by autonomous in situ microstation gauges, drone-mounted instruments will be used to provide water level profiles between the fixed locations and satellite tracks.",
+      "osc:name": "FFSAR - Coastal Fully Focused SAR Altimetry and Innovative River Level Gauges for Coastal Monitoring",
+      "osc:themes": [
+        "Oceans"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Jerome Benveniste",
+        "e-mail": "jerome.benveniste@esa.int"
+      },
+      "osc:consortium": [
+        "SATELLITE OCEANOGRAPHIC CONSULTANTS LTD. (GB)",
+        "National Oceanography Centre (NOC) (GB)",
+        "New Forest District Council - Channel Coastal Observatory (GB)",
+        "Technical University of Denmark (DK)",
+        "VORTEX.IO (FR)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2021-11-11T00:00:00Z",
+      "end_datetime": "2024-01-06T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://www.satoc.eu/projects/ffsar/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/ffsar-coastal/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

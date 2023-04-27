@@ -1,0 +1,42 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "pass-swio",
+    "properties": {
+      "title": "PASS-SWIO",
+      "description": "PASS-SWIO, a project funded by ESA (via the Permanent Open Call),  aims to establish a sea level monitoring system for Madagascar based on the installation and deployment of a low-cost relocatable tide gauge (Portagauge). Portagauge uses GNSS interferometric reflectometry (GNSS-IR) technology alongside a conventional radar. By combining these measurements with the analysis of satellite altimeter sea level data we will provide validation and wider scale knowledge of sea-level variability. Madagascar has very limited tidal prediction, primarily based on model data. It has no national sea level monitoring capability. There is currently only one functioning tide gauge station.  A previous tide gauge, in the cyclone-prone north of the island, was destroyed several years ago. The project partners will work with the national Madagascar Meteorological Agency (DGM – Direction Générale de la Météorologie). DGM will take responsibility for the local maintenance and operation of the Portagauge. They will also receive training to carry out the data processing and analysis of tide gauge and satellite altimeter data. Discussions will be held with key stakeholders to review the project and agree a long-term Road Map for the sustainable implementation of a national sea-level monitoring system for Madagascar. This will serve as model for other island states and coastal countries in the South West Indian Ocean (SWIO) region and beyond. If you would like to access any of the data sets produced, please contact the Project Manager via the Project website. The Kick Off meeting was held on 5 May 2022. The activity has a duration of one year.",
+      "osc:name": "PASS-SWIO",
+      "osc:themes": [
+        "Oceans"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Jerome Benveniste",
+        "e-mail": "jerome.benveniste@esa.int"
+      },
+      "osc:consortium": [
+        "National Oceanography Centre (NOC) (GB)",
+        "SATELLITE OCEANOGRAPHIC CONSULTANTS LTD. (GB)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-11-21T00:00:00Z",
+      "end_datetime": "2024-12-15T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://www.satoc.eu/projects/pass-swio/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/pass-swio/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

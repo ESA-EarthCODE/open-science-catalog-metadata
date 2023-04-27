@@ -1,0 +1,42 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "imitate",
+    "properties": {
+      "title": "IMITATE",
+      "description": "The proposed IMITATE project aims to address the following questions:How well can machine learning methods emulate physical process-based land surface models, focused over Europe? Can explainable AI techniques provide new insights into process understanding when combining land surface models and Earth Observation data Are the learnt relationships between the modeled inputs and outputs consistent with those from Earth Observation data? To do this the project will: produce land surface model simulations from the JULES ESM (Earth System Model) over Europe focusing on the carbon cycle develop, train and evaluate machine learning models (emulators) against the simulated land surface parameters use these emulators to investigate the complex emergent relationships and feedback to gain an increased understanding of the underlying Earth System processes and to test whether data from satellite-based essential climate variables (e.g. ESA-CCI) are consistent with the relationships learnt from the land surface models. produce an Emulated-GPP (gross primary productivity) data product based on EO data, using the relationships learnt from the land surface model.",
+      "osc:name": "Introducing Machine-learning Into Targeted Analysis for Terrestrial Ecosystems - IMITATE",
+      "osc:themes": [
+        "Land"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Stephen Plummer",
+        "e-mail": "stephen.plummer@esa.int"
+      },
+      "osc:consortium": [
+        "UNIVERSITY OF LEICESTER (GB)",
+        "UNIVERSITY OF READING (GB)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-03-11T00:00:00Z",
+      "end_datetime": "2024-04-01T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "https://rjp23.github.io/IMITATE/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/imitate/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }

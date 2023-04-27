@@ -1,0 +1,41 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "licrec",
+    "properties": {
+      "title": "LICREC",
+      "description": "Clouds play an important role in the energy budget of our planet: optically thick clouds reflect the incoming solar radiation, leading to cooling the Earth, while thinner clouds act as “greenhouse films”, preventing escape of the Earth’s long-wave radiation to space. Cloud response to ongoing greenhouse gases climate warming is the largest source of uncertainty for model-based estimates of climate sensitivity and therefore for predicting the evolution of future climate. Understanding the Earth’s energy budget requires knowing the cloud coverage, its vertical distributions and optical properties. Predicting how the Earth climate will evolve requires understanding how these cloud variables respond to climate warming. Documenting how the cloud’s detailed vertical structure evolves on a global scale over the long-term is therefore a necessary step towards understanding and predicting the cloud’s response to climate warming. Satellite observations have been providing a continuous survey of clouds over the whole globe. Passive infrared sounders have been observing our planet since 1979. Active sounders, which measure the altitude-resolved profiles of backscattered radiation with an accuracy on the order of 1−100 meters. These instruments have been providing invaluable information on cloud’s vertical profile with the accuracy matching modern requirements for climate-related processes and feedback analysis since 2006. All active instruments share the same measuring principle – they send a short pulse of laser or radar electromagnetic radiation to the atmosphere, collect the time-resolved backscatter signal by the telescope, and then register it in one or several receiver channels. However, the wavelength, pulse energy, pulse repetition frequency, telescope diameter, orbit, detector, or optical filtering are not the same for any pair of instruments. These differences define the active instruments’ capability of detecting atmospheric aerosols and/or clouds for a given atmospheric situation and observation conditions (day, night, averaging distance). At the same time, there is an obvious need to ensure the continuity of global space-borne lidar measurements. One has to stress that a simple merging of different satellite data is not enough – our overarching goal is to build a multi-lidar record accurate enough to constrain predictions of how the clouds evolve as climate warms. The project will merge the measurements performed by the relatively young space-borne lidar ALADIN/Aeolus, which has been orbiting the Earth since August 2018 and operating at 355nm wavelength with the measurements performed since 2006 by CALIPSO lidar, which is operating at 532nm and is near the end of its lifetime. Even though the primary goal of ALADIN is wind detection, its products include profiles of atmospheric optical properties (aerosols/clouds). This makes it an excellent test bed for developing an approach for building a continuous multi-lidar cloud record.",
+      "osc:name": "LIdar Cloud REcord for Climate - LICREC",
+      "osc:themes": [
+        "Atmosphere"
+      ],
+      "osc:status": "ONGOING",
+      "osc:technical_officer": {
+        "name": "Christian Retscher",
+        "e-mail": "christian.retscher@esa.int"
+      },
+      "osc:consortium": [
+        "Sorbonne Université SU (FR)"
+      ],
+      "osc:type": "Project",
+      "start_datetime": "2022-04-06T00:00:00Z",
+      "end_datetime": "2024-04-30T23:59:59Z"
+    },
+    "geometry": null,
+    "links": [
+      {
+        "rel": "via",
+        "href": "",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/licrec/",
+        "title": "EO4Society Link"
+      }
+    ],
+    "assets": {},
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+    ]
+  }
