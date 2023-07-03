@@ -1,6 +1,0 @@
-{
-  "name": "CO Total Column",
-  "description": "2D field of total number of CO modelcues (Carbon Monixide) per unit area in an atmospheric column extending from the Earth's\u00a0\u00a0surface to the upper edge of the atmosphere.",
-  "link": "https://space.oscar.wmo.int/variables/view/co_total_column",
-  "theme": "Atmosphere"
-}

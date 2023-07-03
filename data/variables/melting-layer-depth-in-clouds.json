@@ -1,6 +1,0 @@
-{
-  "name": "Melting layer depth in clouds",
-  "description": "Depth of the atmospheric layer in cloud where liquid-solid states transform into each other",
-  "link": "https://space.oscar.wmo.int/variables/view/melting_layer_depth_in_clouds",
-  "theme": "Atmosphere"
-}

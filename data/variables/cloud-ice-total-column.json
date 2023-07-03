@@ -1,6 +1,0 @@
-{
-  "name": "Cloud ice Total Column",
-  "description": "2D Field of atmospheric water in the solid phase (precipitating or not), integrated over the total column.",
-  "link": "https://space.oscar.wmo.int/variables/view/cloud_ice_total_column",
-  "theme": "Atmosphere"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Solar velocity fields",
-  "description": "Map of 3D velocity of particles of the Solar atmosphere, significant of the Sun interior.",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_velocity_fields",
-  "theme": "Magnetosphere_Ionosphere"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "O3 Total Column",
-  "description": "2D field of total amount\u00a0of O3 molecules per unit area \u00a0in an atmospheric column extending from the Earth\u2019s surface to the upper edge of the atmosphere (Dobson units).",
-  "link": "https://space.oscar.wmo.int/variables/view/o3_total_column",
-  "theme": "Atmosphere"
-}

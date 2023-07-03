@@ -1,6 +1,0 @@
-{
-  "name": "Precipitation  (liquid or solid)",
-  "description": "3D field of the vertical flux of precipitating water mass (precipitation intensity)",
-  "link": "https://space.oscar.wmo.int/variables/view/precipitation_liquid_or_solid",
-  "theme": "Atmosphere"
-}

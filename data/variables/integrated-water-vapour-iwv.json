@@ -1,6 +1,0 @@
-{
-  "name": "Integrated Water Vapour (IWV)",
-  "description": "Total amount of water vapour present in a vertical atmospheric column.",
-  "link": "https://space.oscar.wmo.int/variables/view/integrated_water_vapour_iwv",
-  "theme": "Atmosphere"
-}

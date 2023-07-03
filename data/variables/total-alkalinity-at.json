@@ -1,6 +1,0 @@
-{
-  "name": "Total alkalinity (AT)",
-  "description": "The amount of acid necessary to titrate all weak bases in seawater.",
-  "link": "https://space.oscar.wmo.int/variables/view/total_alkalinity_at",
-  "theme": "Oceans"
-}

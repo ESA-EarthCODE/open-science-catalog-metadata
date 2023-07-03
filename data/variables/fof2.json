@@ -1,6 +1,0 @@
-{
-  "name": "foF2",
-  "description": "Critical frequency of the F2 layer of the ionosphere. This critical frequency (f, in MHz) is associated with the electron density (Ne, in cm-3): f=9*10-3*sqrt(Ne).",
-  "link": "https://space.oscar.wmo.int/variables/view/fof2",
-  "theme": "Magnetosphere_Ionosphere"
-}

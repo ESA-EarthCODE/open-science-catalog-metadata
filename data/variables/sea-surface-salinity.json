@@ -1,6 +1,0 @@
-{
-  "name": "Sea surface salinity",
-  "description": "Salinity of sea water in the surface layer (upper ~ 1 m if observed in MW).  In the open ocean the correct term should be  \u201chalinity\u201d with reference of the diversity of salts involved.",
-  "link": "https://space.oscar.wmo.int/variables/view/sea_surface_salinity",
-  "theme": "Oceans"
-}

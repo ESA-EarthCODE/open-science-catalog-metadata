@@ -1,6 +1,0 @@
-{
-  "name": "Aerosol column burden",
-  "description": "2D field of the column burden of condensed particles in the atmosphere",
-  "link": "https://space.oscar.wmo.int/variables/view/aerosol_column_burden",
-  "theme": "Atmosphere"
-}

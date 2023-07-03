@@ -1,6 +1,0 @@
-{
-  "name": "Solar spectral irradiance",
-  "description": "Total Solar Irradiance (TSI); when measured as a function of wavelength it is the spectral irradiance",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_spectral_irradiance",
-  "theme": "Atmosphere"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Upward short-wave irradiance at TOA",
-  "description": "Flux density of solar radiation, reflected by the Earth surface and atmosphere, emitted to space at the top of the atmosphere",
-  "link": "https://space.oscar.wmo.int/variables/view/upward_short_wave_irradiance_at_toa",
-  "theme": "Atmosphere"
-}

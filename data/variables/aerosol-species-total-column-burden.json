@@ -1,6 +1,0 @@
-{
-  "name": "Aerosol species total column burden",
-  "description": "2D field integrated over the total column burden of concentration of condensed-phase chemical species (e.g., sulfate, nitrate, ammonium, elemental carbon, organic carbon), in the atmosphere",
-  "link": "https://space.oscar.wmo.int/variables/view/aerosol_species_total_column_burden",
-  "theme": "Atmosphere"
-}

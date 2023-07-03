@@ -1,6 +1,0 @@
-{
-  "name": "Lake Surface Temperature",
-  "description": "Temperature of the lake surface - Physical unit: [ K ] - Accuracy unit: [ K ].",
-  "link": "https://space.oscar.wmo.int/variables/view/lake_surface_temperature",
-  "theme": "Land"
-}

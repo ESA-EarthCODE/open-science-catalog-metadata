@@ -1,6 +1,0 @@
-{
-  "name": "Solar X-ray flux",
-  "description": "Integrated X-ray flux over the solar disk",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_x_ray_flux",
-  "theme": "Magnetosphere_Ionosphere"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Solar Lyman-alpha flux",
-  "description": "Solar flux in the Hydrogen Lyman-alpha transition wavelength (121.6 nm)",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_lyman_alpha_flux",
-  "theme": "Magnetosphere_Ionosphere"
-}

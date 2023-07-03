@@ -1,6 +1,0 @@
-{
-  "name": "Soil moisture  (in the roots region)",
-  "description": "Sub-soil 3D field of the fractional content of water in a volume of wet soil. Requested from surface down to ~ 3 m",
-  "link": "https://space.oscar.wmo.int/variables/view/soil_moisture_in_the_roots_region",
-  "theme": "Land"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Accumulated precipitation (over 24 h)",
-  "description": "Integration of precipitation rate reaching the ground over several time intervals. The reference requirement refers to integration over 24 h",
-  "link": "https://space.oscar.wmo.int/variables/view/accumulated_precipitation_over_24_h",
-  "theme": "Atmosphere"
-}

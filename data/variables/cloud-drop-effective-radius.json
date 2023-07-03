@@ -1,6 +1,0 @@
-{
-  "name": "Cloud drop effective radius",
-  "description": "Size distribution of liquid water drops, assimilated to spheres of the same volume. Considered as both a 3D field throughout the troposphere and a 2D field at the top of cloud surface.",
-  "link": "https://space.oscar.wmo.int/variables/view/cloud_drop_effective_radius",
-  "theme": "Atmosphere"
-}

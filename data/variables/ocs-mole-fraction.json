@@ -1,6 +1,0 @@
-{
-  "name": "OCS Mole fraction",
-  "description": "3D field of amount of OCS (Carbonyl sulfide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "https://space.oscar.wmo.int/variables/view/ocs_mole_fraction",
-  "theme": "Atmosphere"
-}

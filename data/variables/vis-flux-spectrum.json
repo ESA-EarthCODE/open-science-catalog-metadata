@@ -1,6 +1,0 @@
-{
-  "name": "VIS flux spectrum",
-  "description": "Energy spectrum of diffuse VIS flux measured in space",
-  "link": "https://space.oscar.wmo.int/variables/view/vis_flux_spectrum",
-  "theme": "Magnetosphere_Ionosphere"
-}

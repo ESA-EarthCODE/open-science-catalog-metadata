@@ -1,6 +1,0 @@
-{
-  "name": "UV flux spectrum",
-  "description": "Energy spectrum of diffuse UV flux measured in space.",
-  "link": "https://space.oscar.wmo.int/variables/view/uv_flux_spectrum",
-  "theme": "Magnetosphere_Ionosphere"
-}

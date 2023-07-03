@@ -1,6 +1,0 @@
-{
-  "name": "Ground water",
-  "description": "Amount of water present beneath the ground surface per unit area",
-  "link": "https://space.oscar.wmo.int/variables/view/ground_water",
-  "theme": "Land"
-}

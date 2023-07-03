@@ -1,6 +1,0 @@
-{
-  "name": "EUV flux",
-  "description": "Radiative flux integrated over the EUV band.",
-  "link": "https://space.oscar.wmo.int/variables/view/euv_flux",
-  "theme": "Magnetosphere_Ionosphere"
-}

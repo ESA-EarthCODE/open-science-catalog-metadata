@@ -1,6 +1,0 @@
-{
-  "name": "Wind vector (near surface)",
-  "description": "Horizontal wind vector, at a known height above the surface which is to be sprcified in the metadata",
-  "link": "https://space.oscar.wmo.int/variables/view/wind_vector_near_surface",
-  "theme": "Atmosphere"
-}

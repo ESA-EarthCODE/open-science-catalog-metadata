@@ -1,6 +1,0 @@
-{
-  "name": "Solar electric field",
-  "description": "Map of magnitude and direction of the electric field at the solar surface (photosphere).",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_electric_field",
-  "theme": "Magnetosphere_Ionosphere"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "(13)CH4 delta",
-  "description": "3D field of\u00a0Delta C-13 in CH4 (Methane) (isotopic signature).\u00a0Isotopic ratio, expressed as deviations from an agreed-upon international reference measurement standard (which defines the corresponding isotope scales) using the delta notation: \u03b4 = (Rsample/Rreference \u2013 1), with R = [rare isotope]/[abundant isotope].",
-  "link": "https://space.oscar.wmo.int/variables/view/13_ch4_delta",
-  "theme": "Atmosphere"
-}

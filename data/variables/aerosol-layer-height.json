@@ -1,6 +1,0 @@
-{
-  "name": "Aerosol Layer Height",
-  "description": "Height of vertically localized aerosol layer in the free troposphere above sea level",
-  "link": "https://space.oscar.wmo.int/variables/view/aerosol_layer_height",
-  "theme": "Atmosphere"
-}

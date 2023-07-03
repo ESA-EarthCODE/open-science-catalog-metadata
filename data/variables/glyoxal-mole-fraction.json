@@ -1,6 +1,0 @@
-{
-  "name": "Glyoxal Mole Fraction",
-  "description": "3D field of amount of OCHCHO (Glyoxal, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "https://space.oscar.wmo.int/variables/view/glyoxal_mole_fraction",
-  "theme": "Atmosphere"
-}

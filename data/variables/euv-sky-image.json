@@ -1,6 +1,0 @@
-{
-  "name": "EUV sky image",
-  "description": "EUV image of the sky",
-  "link": "https://space.oscar.wmo.int/variables/view/euv_sky_image",
-  "theme": "Magnetosphere_Ionosphere"
-}

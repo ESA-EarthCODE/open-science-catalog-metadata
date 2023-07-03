@@ -1,6 +1,0 @@
-{
-  "name": "Ocean chlorophyll concentration",
-  "description": "Indicator of living phytoplankton biomass, extracted from ocean colour observation. Uncertainty is expressed in mg/m3 for a given concentration of 1 mg/m3 .",
-  "link": "https://space.oscar.wmo.int/variables/view/ocean_chlorophyll_concentration",
-  "theme": "Oceans"
-}

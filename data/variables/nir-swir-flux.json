@@ -1,6 +1,0 @@
-{
-  "name": "NIR/SWIR flux",
-  "description": "Integrated NIR/SWIR flux",
-  "link": "https://space.oscar.wmo.int/variables/view/nir_swir_flux",
-  "theme": "Magnetosphere_Ionosphere"
-}

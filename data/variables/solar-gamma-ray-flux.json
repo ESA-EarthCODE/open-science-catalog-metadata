@@ -1,6 +1,0 @@
-{
-  "name": "Solar gamma-ray flux",
-  "description": "Integrated gamma-ray flux over the solar disk",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_gamma_ray_flux",
-  "theme": "Magnetosphere_Ionosphere"
-}

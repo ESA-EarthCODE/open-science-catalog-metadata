@@ -1,6 +1,0 @@
-{
-  "name": "hmF2",
-  "description": "Altitude of the peak density in the ionospheric F2 layer.",
-  "link": "https://space.oscar.wmo.int/variables/view/hmf2",
-  "theme": "Magnetosphere_Ionosphere"
-}

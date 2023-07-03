@@ -1,6 +1,0 @@
-{
-  "name": "HCHO Total Column",
-  "description": "2D field of total amount of HCHO molecules\u00a0(Formaldehyde)\u00a0\u00a0per unit area in an atmospheric column extending from the Earth\u2019s surface to the upper edge of the atmosphere.",
-  "link": "https://space.oscar.wmo.int/variables/view/hcho_total_column",
-  "theme": "Atmosphere"
-}

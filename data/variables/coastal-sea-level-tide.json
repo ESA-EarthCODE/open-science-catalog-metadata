@@ -1,6 +1,0 @@
-{
-  "name": "Coastal sea level (tide)",
-  "description": "Deviation of sea level from local references in coastal zones, caused by local currents and tides (astronomical and wind-induced).",
-  "link": "https://space.oscar.wmo.int/variables/view/coastal_sea_level_tide",
-  "theme": "Oceans"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Soil type",
-  "description": "Result of the classification of different types of soil within an area - Accuracy expressed as inverse of the number of classes, so that smaller figures correspond to better performance.",
-  "link": "https://space.oscar.wmo.int/variables/view/soil_type",
-  "theme": "Land"
-}

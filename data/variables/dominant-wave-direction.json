@@ -1,6 +1,0 @@
-{
-  "name": "Dominant wave direction",
-  "description": "One feature of the ocean wave spectrum. It is the direction of the most energetic wave in the spectrum - Physical unit: [ degrees ] - Accuracy unit: [ degrees ].",
-  "link": "https://space.oscar.wmo.int/variables/view/dominant_wave_direction",
-  "theme": "Oceans"
-}

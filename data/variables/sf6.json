@@ -1,6 +1,0 @@
-{
-  "name": "SF6",
-  "description": "3D field of amount\u00a0 of SF6 (Sulfur hexafluoride, \u00a0 expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).",
-  "link": "https://space.oscar.wmo.int/variables/view/sf6",
-  "theme": "Atmosphere"
-}

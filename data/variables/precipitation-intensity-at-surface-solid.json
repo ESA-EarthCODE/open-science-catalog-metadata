@@ -1,6 +1,0 @@
-{
-  "name": "Precipitation intensity at surface (solid)",
-  "description": "Intensity of solid precipitation reaching the ground - Physical unit: [ mm/h ] (mm of liquid water after melting)",
-  "link": "https://space.oscar.wmo.int/variables/view/precipitation_intensity_at_surface_solid",
-  "theme": "Atmosphere"
-}

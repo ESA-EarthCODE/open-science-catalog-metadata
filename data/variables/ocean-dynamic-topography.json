@@ -1,6 +1,0 @@
-{
-  "name": "Ocean dynamic topography",
-  "description": "Deviation of sea level from the geoid caused by ocean currents (after corrections for tides and atmospheric pressure effects) - Physical unit: [ cm ] - Accuracy unit: [ cm ].",
-  "link": "https://space.oscar.wmo.int/variables/view/ocean_dynamic_topography",
-  "theme": "Oceans"
-}

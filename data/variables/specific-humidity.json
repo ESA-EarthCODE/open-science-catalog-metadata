@@ -1,6 +1,0 @@
-{
-  "name": "Specific humidity",
-  "description": "3D field of the specific humidity in the atmosphere. The specific humidity is\u00a0the ratio between the mass of water vapour and the mass of moist air.",
-  "link": "https://space.oscar.wmo.int/variables/view/specific_humidity",
-  "theme": "Atmosphere"
-}

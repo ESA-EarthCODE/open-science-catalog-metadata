@@ -1,6 +1,0 @@
-{
-  "name": "Wind gust",
-  "description": "Maximum value, over the observing cycle, of the 3-second running average wind speed",
-  "link": "https://space.oscar.wmo.int/variables/view/wind_gust",
-  "theme": "Land"
-}

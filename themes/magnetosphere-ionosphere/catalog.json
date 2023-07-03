@@ -1,0 +1,38 @@
+{
+  "type": "Catalog",
+  "id": "magnetosphere-ionosphere",
+  "stac_version": "1.0.0",
+  "description": "All magnetic objects produce invisible lines of force that extend between the poles of the object. Earth is\u00a0similar to a giant bar magnet with magnetic field lines radiating from the south\u00c2\u00a0to the north magnetic pole. Charged particles become trapped on these field lines, forming the Earth's magnetosphere. However, Earth's magnetic field lines are not symmetric with respect to its magnetic axis, unlike those of a bar magnet. The impact of a continuous stream of solar particles (the solar wind) causes the lines facing the Sun to be compressed. The field lines facing away from the Sun get stretched and elongated, forming the Earth's magnetotail. The bullet shaped magnetic bubble formed by the terrestrial magnetic field lines is called the Earth's magnetosphere. The magnetosphere extends into the vacuum of space, on average, from approximately 60 000 kilometres sunward, and trails out more than 300 000 kilometres away from the Sun in the magnetotail.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Magnetosphere_Ionosphere.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/search/magnetosphere",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "title": "Magnetosphere_Ionosphere"
+}

@@ -1,6 +1,0 @@
-{
-  "name": "Air specific humidity (near surface)",
-  "description": "Air specific humidity\u00a0 at a known height\u00a0 above surface, with the height specified in the metadata. Specific\u00a0 humidity is the ratio of the mass of water vapour and the mass of moist air.",
-  "link": "https://space.oscar.wmo.int/variables/view/air_specific_humidity_near_surface",
-  "theme": "Atmosphere"
-}

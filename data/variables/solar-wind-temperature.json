@@ -1,6 +1,0 @@
-{
-  "name": "Solar wind temperature",
-  "description": "Temperature of solar wind protons",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_wind_temperature",
-  "theme": "Magnetosphere_Ionosphere"
-}

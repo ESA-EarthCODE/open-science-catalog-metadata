@@ -1,6 +1,0 @@
-{
-  "name": "NIR/SWIR flux spectrum",
-  "description": "Energy spectrum of diffuse NIR/SWIR flux measured in space",
-  "link": "https://space.oscar.wmo.int/variables/view/nir_swir_flux_spectrum",
-  "theme": "Magnetosphere_Ionosphere"
-}

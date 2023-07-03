@@ -1,6 +1,0 @@
-{
-  "name": "Cloud to Ground lightning density",
-  "description": "Number of detected cloud-to-ground flashes in the corresponding time interval and the space unit. The space unit (grid box) should be equal to the horizontal resolution and the accumulation time to the observing cycle",
-  "link": "https://space.oscar.wmo.int/variables/view/cloud_to_ground_lightning_density",
-  "theme": "Atmosphere"
-}

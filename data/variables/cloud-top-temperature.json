@@ -1,6 +1,0 @@
-{
-  "name": "Cloud top temperature",
-  "description": "Temperature of the top of the cloud (highest cloud in case of multi-layer clouds)",
-  "link": "https://space.oscar.wmo.int/variables/view/cloud_top_temperature",
-  "theme": "Atmosphere"
-}

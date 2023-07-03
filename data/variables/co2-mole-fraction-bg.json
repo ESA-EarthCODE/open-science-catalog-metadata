@@ -1,6 +1,0 @@
-{
-  "name": "CO2 Mole fraction (BG)",
-  "description": "3D field of amount of\u00a0 background (BG) CO2 (Carbon Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "https://space.oscar.wmo.int/variables/view/co2_mole_fraction_bg",
-  "theme": "Atmosphere"
-}

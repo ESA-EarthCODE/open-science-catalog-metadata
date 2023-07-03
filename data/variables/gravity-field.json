@@ -1,6 +1,0 @@
-{
-  "name": "Gravity field",
-  "description": "Indicative of the statics and dynamics of the lithosphere and the mantle - Physical unit: [ mGal ] where : 1 Gal = 0.01 m.s-2",
-  "link": "https://space.oscar.wmo.int/variables/view/gravity_field",
-  "theme": "Solid Earth"
-}

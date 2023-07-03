@@ -1,6 +1,0 @@
-{
-  "name": "Ionospheric Scintillation",
-  "description": "Random fluctuations of radio waves resulting of small scale variations of the ionospheric electron density in space and time.",
-  "link": "https://space.oscar.wmo.int/variables/view/ionospheric_scintillation",
-  "theme": "Magnetosphere_Ionosphere"
-}

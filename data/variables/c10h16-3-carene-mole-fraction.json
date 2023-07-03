@@ -1,6 +1,0 @@
-{
-  "name": "C10H16 (3-Carene) Mole Fraction",
-  "description": "3D field of amount\u00a0 of\u00a0C10H16 (3-Carene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
-  "link": "https://space.oscar.wmo.int/variables/view/c10h16_3_carene_mole_fraction",
-  "theme": "Atmosphere"
-}

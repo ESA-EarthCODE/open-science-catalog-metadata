@@ -1,6 +1,0 @@
-{
-  "name": "EUV flux spectrum",
-  "description": "Energy spectrum of the radiative flux measured in the EUV band.",
-  "link": "https://space.oscar.wmo.int/variables/view/euv_flux_spectrum",
-  "theme": "Magnetosphere_Ionosphere"
-}

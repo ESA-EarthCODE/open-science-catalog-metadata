@@ -1,6 +1,0 @@
-{
-  "name": "Solar VIS flux spectrum",
-  "description": "Energy spectrum of the integrated VIS flux over the solar disk.",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_vis_flux_spectrum",
-  "theme": "Magnetosphere_Ionosphere"
-}

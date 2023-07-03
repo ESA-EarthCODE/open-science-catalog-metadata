@@ -1,6 +1,0 @@
-{
-  "name": "Sea-ice thickness",
-  "description": "Thickness of the ice sheet. It is related to sea-ice elevation and ice density",
-  "link": "https://space.oscar.wmo.int/variables/view/sea_ice_thickness",
-  "theme": "Cryosphere"
-}

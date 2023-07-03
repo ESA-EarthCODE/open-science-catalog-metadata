@@ -1,6 +1,0 @@
-{
-  "name": "Gamma-ray flux",
-  "description": "Radiative flux integrated over the gamma-ray domain.",
-  "link": "https://space.oscar.wmo.int/variables/view/gamma_ray_flux",
-  "theme": "Magnetosphere_Ionosphere"
-}

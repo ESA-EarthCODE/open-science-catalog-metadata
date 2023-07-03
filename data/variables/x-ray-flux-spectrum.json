@@ -1,6 +1,0 @@
-{
-  "name": "X-ray flux spectrum",
-  "description": "Energy spectrum of the integrated X-ray flux.",
-  "link": "https://space.oscar.wmo.int/variables/view/x_ray_flux_spectrum",
-  "theme": "Magnetosphere_Ionosphere"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "NO2 Tropospheric column",
-  "description": "2D field of total amount of NO2 molecules ( Nitrogen Dioxide) per unit area in an atmospheric column extending from the Earth\u2019s surface to the tropopause.",
-  "link": "https://space.oscar.wmo.int/variables/view/no2_tropospheric_column",
-  "theme": "Atmosphere"
-}

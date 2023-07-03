@@ -1,6 +1,0 @@
-{
-  "name": "Cloud type",
-  "description": "Result of cloud type classification - Accuracy expressed as inverse of number of classes, so that smaller figures correspond to better performance.",
-  "link": "https://space.oscar.wmo.int/variables/view/cloud_type",
-  "theme": "Atmosphere"
-}

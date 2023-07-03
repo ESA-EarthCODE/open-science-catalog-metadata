@@ -1,6 +1,0 @@
-{
-  "name": "Solar wind velocity",
-  "description": "Vector velocity of solar wind plasma",
-  "link": "https://space.oscar.wmo.int/variables/view/solar_wind_velocity",
-  "theme": "Magnetosphere_Ionosphere"
-}
