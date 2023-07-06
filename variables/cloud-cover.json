@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "id": "Cloud cover",
+  "stac_version": "1.0.0",
+  "description": "3D field of fraction of sky filled by clouds.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/cloud_cover",
+      "title": "Link"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/cloud-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:theme": "Atmosphere",
+  "osc:type": "Variable",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

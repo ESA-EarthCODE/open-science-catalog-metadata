@@ -1,0 +1,2488 @@
+<gmx:CT_CodelistCatalogue xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gmx:name>
+    <gco:CharacterString>OSC_Codelists</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Codelists for Open Science Catalog</gco:CharacterString>
+  </gmx:scope>
+  <gmx:fieldOfApplication>
+    <gco:CharacterString>Open Science Catalog</gco:CharacterString>
+  </gmx:fieldOfApplication>
+  <gmx:versionNumber>
+    <gco:CharacterString>1.0.0</gco:CharacterString>
+  </gmx:versionNumber>
+  <gmx:versionDate>
+    <gco:Date>2022-02-05</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gmd:LanguageCode codeList="#LanguageCode" codeListValue="eng">English</gmd:LanguageCode>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmx:characterSet>
+  <gmx:codeListItem>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Cryosphere">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Cryosphere</gml:identifier>
+        <gml:description>Polar regions are undergoing major and drastic changes with significant impact at global scale. Addressing this unique set of global challenges will require more than ever that scientists advance their understanding of the different drivers governing changes in Polar regions, its associated processes and its potential impacts and translate that knowledge into solutions for society, policy advice and effective mitigation and adaptation strategies. This will require a significant collaborative effort and an integrated approach to science where the synergistic use of EO satellite data, in-situ and citizen observations, advanced modelling capabilities, interdisciplinary research and new technologies will be essential elements.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/2019/10/11/a-collaboration-on-polar-science-just-kicked-off/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Land">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Land</gml:identifier>
+        <gml:description>The carbon cycle is central to the Earth system, being inextricably coupled with climate, the water cycle, nutrient cycles and the production of biomass by photosynthesis on land and in the oceans. In the natural system the balance among carbon in the atmosphere, land and ocean is regulated through fluxes between these three main reservoirs. In addition to these natural components, there are the contributions to the atmosphere from human activities, namely, fossil fuel burning, cement production, and a range of land management practices. Over the past 250 years, the atmospheric carbon dioxide (CO2) concentration has increased by roughly 45% from its pre-industrial value of roughly 280 parts per million by volume (ppm). In the same timeframe, atmospheric methane (CH4), a greenhouse gas 28 times more powerful than CO2 has more than doubled due to human activities, responsible for approx. 60% of total emissions, and, after a hiatus, is rising faster than at any time in the last two decades. Understanding the patterns of exchanges of carbon between the atmosphere, ocean and land and the processes associated to them such as CO2 fertilization, ocean acidification, changes in surface runoff of sediments, changes to wetlands and peatlands, warming of permafrost, and changes to natural disturbance regimes, are critical to improving knowledge of the carbon cycle, its direct and indirect impacts on society and identifying approaches to mitigate and adapt for its consequences.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Magnetosphere_Ionosphere">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Magnetosphere_Ionosphere</gml:identifier>
+        <gml:description>All magnetic objects produce invisible lines of force that extend between the poles of the object. Earth is&#160;similar to a giant bar magnet with magnetic field lines radiating from the south&#160;to the north magnetic pole. Charged particles become trapped on these field lines, forming the Earth's magnetosphere. However, Earth's magnetic field lines are not symmetric with respect to its magnetic axis, unlike those of a bar magnet. The impact of a continuous stream of solar particles (the solar wind) causes the lines facing the Sun to be compressed. The field lines facing away from the Sun get stretched and elongated, forming the Earth's magnetotail. The bullet shaped magnetic bubble formed by the terrestrial magnetic field lines is called the Earth's magnetosphere. The magnetosphere extends into the vacuum of space, on average, from approximately 60 000 kilometres sunward, and trails out more than 300 000 kilometres away from the Sun in the magnetotail.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/search/magnetosphere"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Solid Earth">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Solid Earth</gml:identifier>
+        <gml:description>Solid Earth refers to the crust, mantle and core. Because these parts of our world are completely hidden from view, understanding what is going on deep below our feet can only be done by using indirect measurements. A thorough understanding of the &#8216;solid Earth&#8217; system is essential for deciphering the links between processes occurring deep inside Earth and those occurring nearer the surface that lead to seismic activity such as earthquakes and volcanic eruptions, the rise of mountains and the location of underground natural resources.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/tag/solid-earth/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Atmosphere">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Atmosphere</gml:identifier>
+        <gml:description>Trace gases are produced and destructed by physical, biological and chemical processes. This natural cycle has been perturbed over the past decades by the global population increase and by the related boost of anthropogenic activities. The composition of the atmosphere is undergoing major and rapid changes with significant impacts on a global scale, affecting the environment and human health. Funding agencies and the scientific community have been putting enormous efforts into studying the impact of these changes. Nonetheless, there is still a need to fill knowledge gaps and enhance the understanding of precursors and the formation mechanisms of the different atmospheric compounds and the relative contribution of biogenic and anthropogenic sources and sinks to their global budget. Such knowledge improvements shall serve as input for policy makers in order to adopt mitigation and adaptation strategies.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Oceans">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Oceans</gml:identifier>
+        <gml:description>Society is facing today a number of global environmental challenges requiring the better understanding and monitoring of the interconnected Earth System processes. Ocean is one key gearing of this complex engine. However, knowledge gaps remain in order to better understand, characterize and monitor its role in all major Earth System global cycles (e.g. water, energy, gas, and in particular carbon, momentum cycles&#8230;). To fill these gaps, dedicated research activities are needed, embracing a large number of disciplines as physical oceanography, biogeochemistry, ecology, and further exploring the interaction of the ocean with the other components of the Earth System, in particular the atmosphere, the land, and the cryosphere. To make the best of it, this research shall be based on the optimal and synergistic exploitation of all available observing systems (EO satellite data, in-situ and citizen observations), advanced modelling capabilities, interdisciplinary research and new technologies.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+  </gmx:codeListItem>
+  <gmx:codeListItem>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_hmF2">
+        <gml:identifier codeSpace="OSC">OSC_Variable_hmF2</gml:identifier>
+        <gml:description>Altitude of the peak density in the ionospheric F2 layer.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hmf2"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Soil moisture at surface">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Soil moisture at surface</gml:identifier>
+        <gml:description>Fractional content of water in a volume of wet soil. Surface layer (upper few centimetres)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/soil_moisture_at_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CFC-11">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CFC-11</gml:identifier>
+        <gml:description>3D field of amount of CFC-11 (Trichlorofluoromethane = Freon-11,expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cfc_11"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C2H6S Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C2H6S Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of C2H6S (Dimethyl sulphide, DMS, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) .</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c2h6s_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_SO2 mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_SO2 mole fraction</gml:identifier>
+        <gml:description>3D field of amount of SO2 (Sulfur dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/so2_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HNO3">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HNO3</gml:identifier>
+        <gml:description>3D field of amount of HNO3&#160;(Nitric acid, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hno3"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_VIS flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_VIS flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of diffuse VIS flux measured in space</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/vis_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol single-scattering albedo">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol single-scattering albedo</gml:identifier>
+        <gml:description>The spectrally dependent ratio of the aerosol scattering to the aerosol extinction</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_single_scattering_albedo"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar X-ray image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar X-ray image</gml:identifier>
+        <gml:description>Image of the Sun in X-ray wavelengths</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_x_ray_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Air specific humidity (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Air specific humidity (near surface)</gml:identifier>
+        <gml:description>Air specific humidity&#160; at a known height&#160; above surface, with the height specified in the metadata. Specific&#160; humidity is the ratio of the mass of water vapour and the mass of moist air.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/air_specific_humidity_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Radio-waves">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Radio-waves</gml:identifier>
+        <gml:description>Travelling radio-waves of solar, galactic and extragalactic origin, entering the Earth&#8217;s environment.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/radio_waves"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_DMS Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_DMS Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of DMS (Dimethyl sulfide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/dms_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol Layer Height">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol Layer Height</gml:identifier>
+        <gml:description>Height of vertically localized aerosol layer in the free troposphere above sea level</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_layer_height"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar spectral irradiance">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar spectral irradiance</gml:identifier>
+        <gml:description>Total Solar Irradiance (TSI); when measured as a function of wavelength it is the spectral irradiance</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_spectral_irradiance"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NIR/SWIR sky image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NIR/SWIR sky image</gml:identifier>
+        <gml:description>NIR/SWIR image of the sky</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/nir_swir_sky_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C5H12 (2-Methylbutane)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C5H12 (2-Methylbutane)</gml:identifier>
+        <gml:description>3D field of dry air mole fraction of&#160;C5H12 (2-Methylbutane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c5h12_2_methylbutane"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_SO2 Tropospheric Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_SO2 Tropospheric Column</gml:identifier>
+        <gml:description>2D field of total amount of SO2 molecules per unit area in an atmospheric column extending from the Earth&#8217;s surface to the tropopause.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/so2_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_ClONO2">
+        <gml:identifier codeSpace="OSC">OSC_Variable_ClONO2</gml:identifier>
+        <gml:description>3D field of amount of ClONO2&#160;(Chlorine nitrate, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) &#160;</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/clono2"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Phytoplankton Primary Production">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Phytoplankton Primary Production</gml:identifier>
+        <gml:description>Gross primary production of carbon in sea water [mg C m-2 d-1]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N(15)NO Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N(15)NO Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta N-15 in N2O (Nitrous oxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n_15_no_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Geoid">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Geoid</gml:identifier>
+        <gml:description>Equipotential surface which would coincide exactly with the mean ocean surface of the Earth, if the oceans were in equilibrium, at rest, and extended through the continents (such as with very narrow channels) - Physical unit: [ cm ] - Accuracy unit: [ cm ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/geoid"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NIR/SWIR flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NIR/SWIR flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of diffuse NIR/SWIR flux measured in space</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/nir_swir_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HCFC-22">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HCFC-22</gml:identifier>
+        <gml:description>3D field of amount of&#160;HCFC-22 (hydrochlorofluorocarbon-22, or R-22expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hcfc_22"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Alpha particles integral directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Alpha particles integral directional flux</gml:identifier>
+        <gml:description>An alpha particle has positive charge and consists of two protons and two neutrons (the nucleus of a helium atom). Flux is the rate of flow through a reference surface, measured in particles per unit area.The directional flux is the flux limited to a certain solid angle as a function of the direction (pitch angle).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/alpha_particles_integral_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Land cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Land cover</gml:identifier>
+        <gml:description>Processed from land surface imagery by assigning identified cluster(s) within a given area to specific classes of objects - Accuracy expressed as number of classes. Actually [ classes-1 ] is used, so that smaller figure corresponds to better performance, as usual.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/land_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO2 column average dry air mixing ratio">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO2 column average dry air mixing ratio</gml:identifier>
+        <gml:description>2D Column integrated number of molecules of the target gas (CO2, Carbon dioxide) divided by that of dry air expressed in mole fraction</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co2_column_average_dry_air_mixing_ratio"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Lake Surface Temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Lake Surface Temperature</gml:identifier>
+        <gml:description>Temperature of the lake surface - Physical unit: [ K ] - Accuracy unit: [ K ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/lake_surface_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Snow depth">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Snow depth</gml:identifier>
+        <gml:description>Vertical distance from the snow surface to the underlying surface (ground, glacier ice or sea ice).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/snow_depth"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud liquid water (CLW) total column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud liquid water (CLW) total column</gml:identifier>
+        <gml:description>2D Field of atmospheric water in the liquid phase (precipitating or not), integrated over the total column.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_liquid_water_clw_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol Absorption Optical Depth">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol Absorption Optical Depth</gml:identifier>
+        <gml:description>Vertical column integral of spectral aerosol absorption coefficient: AAOD = exp(-K. &#916;z) where K is the absorption coefficient [km-1] and &#916;z the vertical path [km]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_absorption_optical_depth"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean salinity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean salinity</gml:identifier>
+        <gml:description>3D field of salinity of the ocean  Requested in upper and deep ocean - Physical unit: [ psu ], Practical Salinity Unit, close to 1</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_salinity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind speed (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind speed (near surface)</gml:identifier>
+        <gml:description>Speed of air at a known height above the surface which is to be specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_speed_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud top pressure">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud top pressure</gml:identifier>
+        <gml:description>Pressure at the top of the cloud</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_top_pressure"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO2 mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO2 mole fraction</gml:identifier>
+        <gml:description>3D field of amount of CO2 (Carbon dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co2_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N2(18)O Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N2(18)O Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta O-18 in N2O (Nitrous oxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n2_18_o_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Coastal sea level (tide)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Coastal sea level (tide)</gml:identifier>
+        <gml:description>Deviation of sea level from local references in coastal zones, caused by local currents and tides (astronomical and wind-induced).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/coastal_sea_level_tide"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH3CN Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH3CN Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of CH3CN (Acetonitrile, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch3cn_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_River discharge">
+        <gml:identifier codeSpace="OSC">OSC_Variable_River discharge</gml:identifier>
+        <gml:description>Volume of water flowing through a river per unit of time</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/river_discharge"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ionospheric Scintillation">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ionospheric Scintillation</gml:identifier>
+        <gml:description>Random fluctuations of radio waves resulting of small scale variations of the ionospheric electron density in space and time.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ionospheric_scintillation"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Earth surface short-wave bidirectional reflectance">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Earth surface short-wave bidirectional reflectance</gml:identifier>
+        <gml:description>Reflectance of the Earth surface as a function of the viewing angle and the illumination angle in the range 0.4-0.7 . The distribution of this variable is represented by the Bidirectional Reflectance Distribution Function (BRDF)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/earth_surface_short_wave_bidirectional_reflectance"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Oil spill cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Oil spill cover</gml:identifier>
+        <gml:description>Fraction of an ocean area polluted by hydrocarbons released from ships or off-shore platforms, accidentally or deliberately.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/oil_spill_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C(18)OO Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C(18)OO Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta O-18 in CO2 (Carbon dioxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c_18_oo_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Fraction of vegetated land">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Fraction of vegetated land</gml:identifier>
+        <gml:description>Fraction of a land area where vegetation is present</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/fraction_of_vegetated_land"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Volcanic unrest">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Volcanic unrest</gml:identifier>
+        <gml:description>Volcanic unrest is defined as the deviation from the background or baseline behaviour of a volcano towards a behaviour which is a cause for concern in the short-term because it might prelude an eruption.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://doi.org/10.1016/j.jvolgeores.2013.08.004 "/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Permafrost">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Permafrost</gml:identifier>
+        <gml:description></gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/permafrost"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_O3 Stratospheric Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_O3 Stratospheric Column</gml:identifier>
+        <gml:description>2D field of total amount of O3 (ozone) molecules per unit area in an atmospheric column extending from tropopause to stratopause</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/o3_stratospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice thickness">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice thickness</gml:identifier>
+        <gml:description>Thickness of the ice sheet. It is related to sea-ice elevation and ice density</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_thickness"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ionospheric Vertical Total Electron Content (VTEC)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ionospheric Vertical Total Electron Content (VTEC)</gml:identifier>
+        <gml:description>Number of electrons between two points.&#160;</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ionospheric_vertical_total_electron_content_vtec"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cosmic ray neutron flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cosmic ray neutron flux</gml:identifier>
+        <gml:description>Flux of neutrons near the surface of Earth due to collisions in the atmosphere of cosmic rays impacting Earth atmosphere from the Sun and outer space.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cosmic_ray_neutron_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH4 Mole fraction (BG)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH4 Mole fraction (BG)</gml:identifier>
+        <gml:description>3D field of amount of&#160; background (BG) CH4 (Carbon Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch4_mole_fraction_bg"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Heliospheric image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Heliospheric image</gml:identifier>
+        <gml:description>Image of the interplanetary space between the Sun and Earth</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/heliospheric_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Snow water equivalent">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Snow water equivalent</gml:identifier>
+        <gml:description>Vertical depth of the water that would be obtained by melting a snow layer.  Linked to snow depth through the density of the snow layer.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/snow_water_equivalent"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH3D Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH3D Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta Deuterium (H-2) in CH4 (Methane) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch3d_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Precipitation type at the surface">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Precipitation type at the surface</gml:identifier>
+        <gml:description>The type of precipitation reaching the surface, including snow, rain, hail, dew, rime, hoar frost and fog precipitation.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/precipitation_type_at_the_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea Surface Mass Flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea Surface Mass Flux</gml:identifier>
+        <gml:description>Sea Surface Mass Flux</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_surface_mass_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Atmospheric density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Atmospheric density</gml:identifier>
+        <gml:description>3D field of density of the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/atmospheric_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Atmospheric temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Atmospheric temperature</gml:identifier>
+        <gml:description>3D field of the atmospheric temperature</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/atmospheric_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wave 1D energy frequency spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wave 1D energy frequency spectrum</gml:identifier>
+        <gml:description>1D variable colloquially referred to as &#8220;wave spectrum&#8221;. Describes the wave energy in each frequency band (e.g. 25 frequency bands) regardless of the direction of propagation</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wave_1d_energy_frequency_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Precipitation  (liquid or solid)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Precipitation  (liquid or solid)</gml:identifier>
+        <gml:description>3D field of the vertical flux of precipitating water mass (precipitation intensity)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/precipitation_liquid_or_solid"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C10H16 (3-Carene) Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C10H16 (3-Carene) Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount&#160; of&#160;C10H16 (3-Carene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c10h16_3_carene_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Specific humidity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Specific humidity</gml:identifier>
+        <gml:description>3D field of the specific humidity in the atmosphere. The specific humidity is&#160;the ratio between the mass of water vapour and the mass of moist air.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/specific_humidity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_(13)CO2 Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_(13)CO2 Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta C-13 in CO2 (Carbon dioxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/13_co2_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar velocity fields">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar velocity fields</gml:identifier>
+        <gml:description>Map of 3D velocity of particles of the Solar atmosphere, significant of the Sun interior.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_velocity_fields"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice type">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice type</gml:identifier>
+        <gml:description>Variable convolving several factors (age, roughness, density, etc.) - Accuracy expressed as number of classes. Actually [ classes^-1 ] is used, so that smaller figure corresponds to better performance, as usual.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_type"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Gamma-ray flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Gamma-ray flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the radiative flux measured in the gamma-ray domain.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/gamma_ray_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar radio flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar radio flux</gml:identifier>
+        <gml:description>Integrated radio flux over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_radio_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean suspended sediments concentration">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean suspended sediments concentration</gml:identifier>
+        <gml:description>Variable extracted from ocean colour observation. Indicative of river outflow, re-suspension or pollution of other-than-biological origin. Uncertainty expressed in g/m3&#160;at a specific concentration (e.g., 2 g/m3&#160;).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_suspended_sediments_concentration"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Irrigation water use">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Irrigation water use</gml:identifier>
+        <gml:description>Data on water extractions by sector and available renewable freshwater provide key information on the availability of freshwater and the amount of water stress in a country. Climate Change is projected to reduce renewable surface-water and groundwater resources significantly in most dry subtropical regions. In contrast, water resources are projected to increase at high latitudes. Climate change is also projected to reduce raw water quality, posing risks to drinking water quality, even with conventional treatment. The availability of freshwater plays a crucial role in food production and food security.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://gcos.wmo.int/en/essential-climate-variables/water-use/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar wind density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar wind density</gml:identifier>
+        <gml:description>Density of solar wind plasma</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_wind_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Meteorological Optical Range (MOR) (surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Meteorological Optical Range (MOR) (surface)</gml:identifier>
+        <gml:description>Length of path in the atmosphere required to reduce the luminous flux in a collimated beam from an incandescent lamp, at a colour temperature of 2 700 K, to 5 per cent of its original value, the luminous flux being evaluated by means of the photometric luminosity function of the International Commission on Illumination.  For aeronautical purposes, the surface MOR is measured at a height of 2.5 m above the surface. 
+(Unit: m )
+</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/meteorological_optical_range_mor_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Glacier cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Glacier cover</gml:identifier>
+        <gml:description>Fraction of a land area covered by permanent ice</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/glacier_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol column burden">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol column burden</gml:identifier>
+        <gml:description>2D field of the column burden of condensed particles in the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_column_burden"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Nanophytoplankton Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Nanophytoplankton Carbon</gml:identifier>
+        <gml:description>Mass concentration of nanophytoplankton expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_SO2 Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_SO2 Total Column</gml:identifier>
+        <gml:description>2D field of total amount of SO2 molecules (Sulfur dioxide)&#160;per unit area in an atmospheric column extending from the Earth&#8217;s surface to the upper edge of the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/so2_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wetland extent">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wetland extent</gml:identifier>
+        <gml:description>Fraction of an area flood by water</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wetland_extent"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Vegetation type">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Vegetation type</gml:identifier>
+        <gml:description>Result of the classification of different types of vegetation within a vegetated area - Accuracy expressed as inverse of the number of classes, so that smaller figures correspond to better performance.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/vegetation_type"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Export Production">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Export Production</gml:identifier>
+        <gml:description>Oceanic Export Production</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO</gml:identifier>
+        <gml:description>3D field of amount of NO expressed in moles divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NIR/SWIR flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NIR/SWIR flux</gml:identifier>
+        <gml:description>Integrated NIR/SWIR flux</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/nir_swir_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_(13)CO Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_(13)CO Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta C-13 in CO (Carbon monoxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/13_co_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C2H6">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C2H6</gml:identifier>
+        <gml:description>3D field of amount of C2H6 (Ethane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c2h6"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol effective radius">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol effective radius</gml:identifier>
+        <gml:description>3D field of mean aerosol particle size, defined as the ratio of the third and second moments of the number size distribution of aerosol particles.  Requested in the troposphere (assumed height: 12 km) and as columnar average.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_effective_radius"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Relative Humidity (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Relative Humidity (near surface)</gml:identifier>
+        <gml:description>Relative&#160; humidity&#160; at a known height&#160; above surface, with the height specified in the metadata.Relative humidity is the ratio of the amount of atmospheric moisture present relative to the amount that would be present if the air were saturated with respect to water or ice to be specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/relative_humidity_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N2O mole fraction (BG)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N2O mole fraction (BG)</gml:identifier>
+        <gml:description>3D field of amount of&#160; background (BG) N2O (Nitrous Oxide, expressed in moles)&#160;divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n2o_mole_fraction_bg"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Snow status (wet/dry)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Snow status (wet/dry)</gml:identifier>
+        <gml:description>Binary product (dry or melting/thawing) expressing the presence of liquid water in a snow layer- Accuracy expressed as Hit Rate [ HR ] and False Alarm Rate [ FAR ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/snow_status_wet_dry"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C6H6">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C6H6</gml:identifier>
+        <gml:description>3D field of amount of C6H6 (Benzene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c6h6"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Upward spectral radiance at TOA">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Upward spectral radiance at TOA</gml:identifier>
+        <gml:description>Upward radiant power measured at the top of the atmosphere per area unit, per solid angle, and per wavelength interval. Spectral range 0.2-200 &#181;m. Resolving power ?/??= 1000. Accuracy quoted as SNR (Signal-to-Noise-Ratio), actually SNR^-1 so that smaller figure means better performance, as usual.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/upward_spectral_radiance_at_toa"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2 Tropospheric column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2 Tropospheric column</gml:identifier>
+        <gml:description>2D field of total amount of NO2 molecules ( Nitrogen Dioxide) per unit area in an atmospheric column extending from the Earth&#8217;s surface to the tropopause.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar EUV flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar EUV flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the EUV flux integrated&#160;over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_euv_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Glyoxal Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Glyoxal Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of OCHCHO (Glyoxal, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/glyoxal_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C3H6O Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C3H6O Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount&#160; of C3H6O (Acetone, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c3h6o_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Accumulated precipitation (over 24 h)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Accumulated precipitation (over 24 h)</gml:identifier>
+        <gml:description>Integration of precipitation rate reaching the ground over several time intervals. The reference requirement refers to integration over 24 h</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/accumulated_precipitation_over_24_h"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Photosynthetically Active Radiation (PAR)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Photosynthetically Active Radiation (PAR)</gml:identifier>
+        <gml:description>Flux of downwelling photons of wavelength 0.4-0.7</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/photosynthetically_active_radiation_par"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wave directional energy frequency spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wave directional energy frequency spectrum</gml:identifier>
+        <gml:description>2D variable colloquially referred to as wave spectrum. Describes the wave energy travelling in each direction and frequency band (e.g., 24 distinct azimuth sectors each 15&#176; wide, and 25 frequency bands)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wave_directional_energy_frequency_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Crustal plates positioning">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Crustal plates positioning</gml:identifier>
+        <gml:description>Basis for monitoring the evolution of the lithosphere dynamics - Physical unit: [ cm ] - Accuracy unit: [ cm ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/crustal_plates_positioning"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar EUV image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar EUV image</gml:identifier>
+        <gml:description>Images of the Sun in the Extreme Ultra-Violet (EUV) wavelengths in order to identify features such as filaments, active regions and coronal holes.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_euv_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aurora">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aurora</gml:identifier>
+        <gml:description>Occurence of fluorescence of the upper atmosphere through ionization by energetic charged particles accelerated by the Earth's magnetic field.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aurora"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Downward long-wave irradiance at Earth surface">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Downward long-wave irradiance at Earth surface</gml:identifier>
+        <gml:description>Flux density of radiation emitted by the gases, aerosols and clouds of the atmosphere to the Earth's surface</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/downward_long_wave_irradiance_at_earth_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N(15)NO-Beta Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N(15)NO-Beta Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta N-15 in Beta-N2O (Nitrous oxide where the middle Nitrogen atom is N-15) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n_15_no_beta_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind gust">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind gust</gml:identifier>
+        <gml:description>Maximum value, over the observing cycle, of the 3-second running average wind speed</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_gust"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH4 Mole fraction (SR)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH4 Mole fraction (SR)</gml:identifier>
+        <gml:description>3D field of amount of&#160; source region (SR) CH4 (Carbon Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch4_mole_fraction_sr"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Bathymetry">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Bathymetry</gml:identifier>
+        <gml:description></gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/bathymetry"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_EUV flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_EUV flux</gml:identifier>
+        <gml:description>Radiative flux integrated over the EUV band.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/euv_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NH3 Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NH3 Total Column</gml:identifier>
+        <gml:description>2D field of total amount of NH3 molecules (Ammonia) per unit area in an atmospheric column extending from the Earth&#8217;s surface to the upper edge of the atmosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/nh3_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_X-ray flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_X-ray flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the integrated X-ray flux.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/x_ray_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice surface characteristics">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice surface characteristics</gml:identifier>
+        <gml:description>Sea-ice surface characteristics (albedo, meltpond, dust, snow properties, temperature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_surface_characteristics"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Freezing level height in clouds">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Freezing level height in clouds</gml:identifier>
+        <gml:description>Height of the atmospheric layer in cloud where liquid-solid states transform into each other</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/freezing_level_height_in_clouds"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Dominant wave period">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Dominant wave period</gml:identifier>
+        <gml:description>The period of the most energetic wave in the ocean wave spectrum.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/dominant_wave_period"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind direction (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind direction (near surface)</gml:identifier>
+        <gml:description>Direction from which wind is blowing at a known height above the surface which is to be specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_direction_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Particulate Organic Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Particulate Organic Carbon</gml:identifier>
+        <gml:description>Mass concentration of particulate organic carbon expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N(15)NO-Alpha Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N(15)NO-Alpha Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta N-15 in Alpha-N2O (Nitrous oxide where the outer Nitrogen atom is N-15)&#160; (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n_15_no_alpha_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C10H16 (alfapinene) Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C10H16 (alfapinene) Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount&#160; of&#160;C10H16 (alfapinene,expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles). &#160;</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c10h16_alfapinene_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_SO2 mole fraction (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_SO2 mole fraction (near surface)</gml:identifier>
+        <gml:description>2D field of amount of SO2&#160;(Sulfur dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)&#160;at a known height above surface, with the height specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/so2_mole_fraction_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_VIS flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_VIS flux</gml:identifier>
+        <gml:description>Integrated VIS flux</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/vis_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Upward long-wave irradiance at TOA">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Upward long-wave irradiance at TOA</gml:identifier>
+        <gml:description>Flux density of terrestrial radiation emitted by the Earth surface and the gases, aerosols and clouds ot the atmosphere at the top of the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/upward_long_wave_irradiance_at_toa"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C3H8">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C3H8</gml:identifier>
+        <gml:description>3D field of amount&#160; of C3H8 (Propane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c3h8"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Dissolved inorganic carbon  (DIC)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Dissolved inorganic carbon  (DIC)</gml:identifier>
+        <gml:description>The cumulated concentration of inorganic carbon species (dissolved carbon dioxide, carbonic acid, bicarbonate and carbonate) in solution.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/dissolved_inorganic_carbon_dic"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean dynamic topography">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean dynamic topography</gml:identifier>
+        <gml:description>Deviation of sea level from the geoid caused by ocean currents (after corrections for tides and atmospheric pressure effects) - Physical unit: [ cm ] - Accuracy unit: [ cm ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_dynamic_topography"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_(13)CH4 delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_(13)CH4 delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta C-13 in CH4 (Methane) (isotopic signature).&#160;Isotopic ratio, expressed as deviations from an agreed-upon international reference measurement standard (which defines the corresponding isotope scales) using the delta notation: &#948; = (Rsample/Rreference &#8211; 1), with R = [rare isotope]/[abundant isotope].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/13_ch4_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C5H12 (n-Pentane)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C5H12 (n-Pentane)</gml:identifier>
+        <gml:description>3D field of&#160;amount of&#160;C5H12 (n-Pentane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c5h12_n_pentane"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2 Mole fraction (BG)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2 Mole fraction (BG)</gml:identifier>
+        <gml:description>3D field of amount of&#160; background (BG) NO2 (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_mole_fraction_bg"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Downward short-wave irradiance at Earth surface">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Downward short-wave irradiance at Earth surface</gml:identifier>
+        <gml:description>Flux density of the solar radiation at the Earth surface</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/downward_short_wave_irradiance_at_earth_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Lake area">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Lake area</gml:identifier>
+        <gml:description>Aera extent of the surface of a lake</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/lake_area"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_pCO2">
+        <gml:identifier codeSpace="OSC">OSC_Variable_pCO2</gml:identifier>
+        <gml:description>Partial pressure of carbon dioxide at the surface of the sea</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/pco2"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar Lyman-alpha image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar Lyman-alpha image</gml:identifier>
+        <gml:description>Image of the Sun in the Hydrogen Lyman-alpha transition wavelength (121.6 nm)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_lyman_alpha_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH3Br">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH3Br</gml:identifier>
+        <gml:description>3D field of amount of CH3Br&#160;(methil bromide, or bromomethane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch3br"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2 Mole  fraction (SR)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2 Mole  fraction (SR)</gml:identifier>
+        <gml:description>3D field of amount of Source Region (SR) NO2 (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_mole_fraction_sr"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind (horizontal)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind (horizontal)</gml:identifier>
+        <gml:description>3D field of the horizontal vector component (2D) of the 3D wind vector. The acuracy is meant as vector error, i.e. the module of the vector difference between the observed vector and the true vector.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_horizontal"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Heavy ion differential directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Heavy ion differential directional flux</gml:identifier>
+        <gml:description>Flux density of heavy ions (eavier than Helium) per unit solid angle</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/heavy_ion_differential_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C5H8">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C5H8</gml:identifier>
+        <gml:description>3D field of amountof&#160;C5H8 (Isoprene,expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c5h8"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Background Luminance (surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Background Luminance (surface)</gml:identifier>
+        <gml:description>Luminous flux received from the background, per unit solid angle and per unit area where the Luminous flux is a quantity derived from radiant flux by evaluating the radiation according to its action upon the International Commission on Illumination standard photometric observer. (symbol: L; unit: lm. m&lt;sup&gt;&#8211;2&lt;sub&gt;.&lt;/sub&gt;&lt;/sup&gt;&#160;sr&lt;sup&gt;&#8211;1&lt;/sup&gt; = cd . m&lt;sup&gt;&#8211;2&lt;/sup&gt; )</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/background_luminance_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Earth Rotation">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Earth Rotation</gml:identifier>
+        <gml:description>Rotation velocity of the Earth, determining the length of the day - Physical unit: [Rad/s] - Accuracy unit: [Arcsec/century].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/earth_rotation"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Water-leaving spectral radiance">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Water-leaving spectral radiance</gml:identifier>
+        <gml:description>Upward spectral radiance from the ocean surface, i.e. amount of light leaving the ocean per unit area, per wavelength and per solid angle.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/water_leaving_spectral_radiance"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_UV flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_UV flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of diffuse UV flux measured in space.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/uv_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ionospheric plasma velocity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ionospheric plasma velocity</gml:identifier>
+        <gml:description>Velocity of bulk plasma or electrons (depending on measurement technique) as a function of altitude in the ionosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ionospheric_plasma_velocity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Air pressure (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Air pressure (near surface)</gml:identifier>
+        <gml:description>Air pressure at a known height above the surface with the height specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/air_pressure_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO3 Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO3 Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of NO3 (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no3_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_foEs">
+        <gml:identifier codeSpace="OSC">OSC_Variable_foEs</gml:identifier>
+        <gml:description>The highest ordinary-wave frequency reflected back from a sporadic E layer and observed by an ionosonde.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/foes"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Crustal motion (horizontal and vertical)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Crustal motion (horizontal and vertical)</gml:identifier>
+        <gml:description>Changes in time of the position and height of the Earth plates.  Indicative of the lithosphere dynamics, thus useful for earthquake prediction  - Physical unit: [ mm/y ] - Accuracy unit: [ mm/y ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/crustal_motion_horizontal_and_vertical"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Land surface topography">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Land surface topography</gml:identifier>
+        <gml:description>Map of land surface heights - Physical unit: [ m ] - Accuracy unit: [ m ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/land_surface_topography"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar coronagraphic image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar coronagraphic image</gml:identifier>
+        <gml:description>Image of the solar corona surrounding the Sun.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_coronagraphic_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean temperature</gml:identifier>
+        <gml:description>3D field of temperature of the ocean  Requested in upper and deep ocean.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Significant wave height">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Significant wave height</gml:identifier>
+        <gml:description>Average amplitude of the highest 30 of 100 waves.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/significant_wave_height"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar radio image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar radio image</gml:identifier>
+        <gml:description>2D image of the solar radio flux</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_radio_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Fire radiative power">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Fire radiative power</gml:identifier>
+        <gml:description>Power radiated by the fire occurring within an area</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/fire_radiative_power"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO Tropospheric column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO Tropospheric column</gml:identifier>
+        <gml:description>2D field of total amount of CO molecules per unit area in an atmospheric column extending from the Earth&#8217;s surface to the tropopause.&#160;</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Radiation profile">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Radiation profile</gml:identifier>
+        <gml:description>Vertical profile of upward and downward LW and SW radiation components</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/radiation_profile"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NH3 Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NH3 Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of &#160;NH3 (Ammonia, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/nh3_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electron flux density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electron flux density</gml:identifier>
+        <gml:description>Flux density of low-, medium-, and high-energy electrons from the magnetosphere, the radiation belts or the interplanetary medium.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electron_flux_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_X-ray sky image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_X-ray sky image</gml:identifier>
+        <gml:description>X-ray image of the sky</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/x_ray_sky_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_PSC occurrence">
+        <gml:identifier codeSpace="OSC">OSC_Variable_PSC occurrence</gml:identifier>
+        <gml:description>3D field of Polar Stratospheric Clouds occurrence. - Accuracy expressed as Hit Rate [ HR ] and False Alarm Rate [ FAR ].&#160; Simplified: [ FAR/HR]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/psc_occurrence"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH4 Tropospheric column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH4 Tropospheric column</gml:identifier>
+        <gml:description>2D field of total amount of CH4 molecules per unit area in an atmospheric column extending from the Earth&#8217;s surface to the&#160;tropopause.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch4_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Chlorophyll-a">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Chlorophyll-a</gml:identifier>
+        <gml:description>Mass concentration of chlorophyll a in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol Optical Depth">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol Optical Depth</gml:identifier>
+        <gml:description>The AOD is the effective depth of the aerosol column from the viewpoint of radiation propagation: Vertical column integral of spectral aerosol extinction coefficient AOD = exp(-K. &#916;z) where K is the extinction coefficient [km-1 ] and &#916;z the vertical path [km]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_optical_depth"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C(18)O Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C(18)O Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta O-18 in CO (Carbon monoxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c_18_o_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol volcanic ash">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol volcanic ash</gml:identifier>
+        <gml:description>3D field of mass mixing ratio of volcanic ash</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_volcanic_ash"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Polar Lows">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Polar Lows</gml:identifier>
+        <gml:description>Polar Lows are small, but fairly intense maritime cyclones that form poleward of the polar front (Rasmussen and Turner, 2003). The horizontal scale of the polar low is approximately 150 to 600 kilometers, and sustained wind at 10 meter height is near or above gale force (&gt;13,8 m/s). On average, maximum observed wind is at 22 m/s. Polar lows are a wintertime phenomenon that occurs mainly from October until April.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://resources.eumetrain.org/satmanu/CMs/PL/print.htm"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Total lightning density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Total lightning density</gml:identifier>
+        <gml:description>Total number of detected flashes in the corresponding time interval and the space unit. The space unit (grid box) should be equal to the horizontal resolution and the accumulation time to the observing cycle</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/total_lightning_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar radio flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar radio flux spectrum</gml:identifier>
+        <gml:description>Solar radio flux energy spectrum integrated over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_radio_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar Ca II-K image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar Ca II-K image</gml:identifier>
+        <gml:description>Image of the Sun in the K-line of Ca-II &#160;(393.4 nm)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_ca_ii_k_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Picophytoplankton Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Picophytoplankton Carbon</gml:identifier>
+        <gml:description>Mass concentration of picophytoplankton expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea surface heat flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea surface heat flux</gml:identifier>
+        <gml:description>Sea Surface Heat Flux</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_surface_heat_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud type">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud type</gml:identifier>
+        <gml:description>Result of cloud type classification - Accuracy expressed as inverse of number of classes, so that smaller figures correspond to better performance.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_type"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Melting layer depth in clouds">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Melting layer depth in clouds</gml:identifier>
+        <gml:description>Depth of the atmospheric layer in cloud where liquid-solid states transform into each other</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/melting_layer_depth_in_clouds"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice elevation">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice elevation</gml:identifier>
+        <gml:description>Elevation of the surface of the sea-ice sheet above sea level</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_elevation"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar gamma-ray flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar gamma-ray flux</gml:identifier>
+        <gml:description>Integrated gamma-ray flux over the solar disk</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_gamma_ray_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_h'F">
+        <gml:identifier codeSpace="OSC">OSC_Variable_h'F</gml:identifier>
+        <gml:description>Virtual height of the bottom of the ionospheric F-layer.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/h_f"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud optical depth">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud optical depth</gml:identifier>
+        <gml:description>Effective depth of a cloud from the viewpoint of radiation extinction. OD = exp(-K.&#916;z) where K is the extinction coefficient [km-1 ], &#916;z the vertical path [km] between the base and the top of the cloud and the reference wavelength to be specified in the metadata.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_optical_depth"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH4 column average dry air mixing ratio">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH4 column average dry air mixing ratio</gml:identifier>
+        <gml:description>2D Column integrated number of molecules of the target gas (CH4, methane) divided by that of dry air expressed in mole fraction</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch4_column_average_dry_air_mixing_ratio"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_UV flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_UV flux</gml:identifier>
+        <gml:description>Integrated UV flux.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/uv_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_H2 Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_H2 Mole Fraction</gml:identifier>
+        <gml:description>&#160; 3D field of amount of&#160;H2 ( expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/h2_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO2 Mole fraction (BG)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO2 Mole fraction (BG)</gml:identifier>
+        <gml:description>3D field of amount of&#160; background (BG) CO2 (Carbon Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co2_mole_fraction_bg"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_foF2">
+        <gml:identifier codeSpace="OSC">OSC_Variable_foF2</gml:identifier>
+        <gml:description>Critical frequency of the F2 layer of the ionosphere. This critical frequency (f, in MHz) is associated with the electron density (Ne, in cm-3): f=9*10-3*sqrt(Ne).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/fof2"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud to Ground lightning density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud to Ground lightning density</gml:identifier>
+        <gml:description>Number of detected cloud-to-ground flashes in the corresponding time interval and the space unit. The space unit (grid box) should be equal to the horizontal resolution and the accumulation time to the observing cycle</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_to_ground_lightning_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_UV sky image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_UV sky image</gml:identifier>
+        <gml:description>UV image of the sky</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/uv_sky_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean chlorophyll concentration">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean chlorophyll concentration</gml:identifier>
+        <gml:description>Indicator of living phytoplankton biomass, extracted from ocean colour observation. Uncertainty is expressed in mg/m3 for a given concentration of 1 mg/m3 .</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_chlorophyll_concentration"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Omega_ar: Aragonite saturation state">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Omega_ar: Aragonite saturation state</gml:identifier>
+        <gml:description>A measure of the thermodynamic tendency for the mineral calcium carbonate to form or to dissolve. The symbol &#937; (omega) is often used as shorthand for calcium carbonate saturation state. By convention, &#937; is usually expressed with respect to aragonite, one of the two most abundant forms of calcium carbonate in the ocean. An aragonite saturation state (&#937;ar) greater than 1.0 indicates supersaturation, while values less than 1.0 indicate undersaturation with instability favoring dissolution. Recent research shows that calcifying organisms require &#937;ar well in excess of 1.0 to optimally produce shells or skeletons. Levels below 1.0 are considered corrosive, and skeletons and shells may be subject to dissolution.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="http://www.necan.org/lexicon/5"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Radiation Dose Rate">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Radiation Dose Rate</gml:identifier>
+        <gml:description>3D field of the dose rate of energetic particles</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/radiation_dose_rate"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_O3">
+        <gml:identifier codeSpace="OSC">OSC_Variable_O3</gml:identifier>
+        <gml:description>3D field of amount of O3 (Ozone, expressed in moles) divided by the total amount of all constituents in air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/o3"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Glacier topography">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Glacier topography</gml:identifier>
+        <gml:description>Map of the height of the glacier surface.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/glacier_topography"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea surface salinity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea surface salinity</gml:identifier>
+        <gml:description>Salinity of sea water in the surface layer (upper ~ 1 m if observed in MW).  In the open ocean the correct term should be  &#8220;halinity&#8221; with reference of the diversity of salts involved.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_surface_salinity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud ice effective radius">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud ice effective radius</gml:identifier>
+        <gml:description>Size distribution of ice particles, assimilated to spheres of the same volume.  Considered as both a 3D field throughout the troposphere and a 2D field at the top of cloud surface</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_ice_effective_radius"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Turbulence">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Turbulence</gml:identifier>
+        <gml:description>3D field of kinetic energy density of turbulent motion of the air</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/turbulence"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO Total Column</gml:identifier>
+        <gml:description>2D field of total number of CO modelcues (Carbon Monixide) per unit area in an atmospheric column extending from the Earth's&#160;&#160;surface to the upper edge of the atmosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_OCS Mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_OCS Mole fraction</gml:identifier>
+        <gml:description>3D field of amount of OCS (Carbonyl sulfide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocs_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Lake level">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Lake level</gml:identifier>
+        <gml:description>Map of the height of the lake surface.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/lake_level"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_VIS sky image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_VIS sky image</gml:identifier>
+        <gml:description>VIS image of the sky</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/vis_sky_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Hydrometeor type">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Hydrometeor type</gml:identifier>
+        <gml:description>3D field of the predominant form of condensed water in a volume of free atmosphere, including liquid cloud, rain, ice crystals, snow, graupel and hail. (This variable replaces "precipitation type").</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hydrometeor_type"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2 mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2 mole fraction</gml:identifier>
+        <gml:description>3D field of amount of NO2&#160;(Nitrogen dioxide, &#160;expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electrostatic charge">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electrostatic charge</gml:identifier>
+        <gml:description>Measurement of the electrostatic charge of a satellite accumulated because of the environmental situation.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electrostatic_charge"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C(17)OO Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C(17)OO Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta O-17 in CO2 (Carbon dioxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c_17_oo_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HCl">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HCl</gml:identifier>
+        <gml:description>3D field of amount of HCl (Hydrogen chloride, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hcl"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Short-wave cloud reflectance">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Short-wave cloud reflectance</gml:identifier>
+        <gml:description>Reflectance of the solar radiation from clouds</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/short_wave_cloud_reflectance"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Glacier motion">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Glacier motion</gml:identifier>
+        <gml:description>Velocity of the ice measured at the surface of a glacier</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/glacier_motion"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Energetic Neutral Atom (ENA)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Energetic Neutral Atom (ENA)</gml:identifier>
+        <gml:description>Neutral atoms resulting from the capture of free electrons by positively ionized nuclei of the solar wind.&#160; Once neutralised, the particles are no longer deviated by the interplanetary magnetic field, and still move very fast, travelling in an exact straight line.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/energetic_neutral_atom_ena"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Mixed Layer Depth">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Mixed Layer Depth</gml:identifier>
+        <gml:description>Mixed layer depth [m]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar electric field">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar electric field</gml:identifier>
+        <gml:description>Map of magnitude and direction of the electric field at the solar surface (photosphere).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_electric_field"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Precipitation intensity at surface (solid)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Precipitation intensity at surface (solid)</gml:identifier>
+        <gml:description>Intensity of solid precipitation reaching the ground - Physical unit: [ mm/h ] (mm of liquid water after melting)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/precipitation_intensity_at_surface_solid"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean velocity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean velocity</gml:identifier>
+        <gml:description>Ocean motion measured at various depth levels.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_velocity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C2H5OH Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C2H5OH Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of C2H5OH (Ethanol, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c2h5oh_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_SF6">
+        <gml:identifier codeSpace="OSC">OSC_Variable_SF6</gml:identifier>
+        <gml:description>3D field of amount&#160; of SF6 (Sulfur hexafluoride, &#160; expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sf6"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Microphytoplankton Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Microphytoplankton Carbon</gml:identifier>
+        <gml:description>Mass concentration of microphytoplankton expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_(14)CH4 Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_(14)CH4 Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta C-14 in CH4 (Methane) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/14_ch4_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud liquid water (CLW)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud liquid water (CLW)</gml:identifier>
+        <gml:description>3D field of atmospheric water in the liquid phase (precipitating or not).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_liquid_water_clw"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_EUV sky image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_EUV sky image</gml:identifier>
+        <gml:description>EUV image of the sky</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/euv_sky_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Air temperature (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Air temperature (near surface)</gml:identifier>
+        <gml:description>Air temperature at a known height above the surface with the height specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/air_temperature_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean subsurface dissolved oxygen concentration">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean subsurface dissolved oxygen concentration</gml:identifier>
+        <gml:description>Concentration of dissolved oxygen</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_subsurface_dissolved_oxygen_concentration"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Omega_ca: Calcite saturation state">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Omega_ca: Calcite saturation state</gml:identifier>
+        <gml:description>A measure of the thermodynamic tendency for the mineral calcium carbonate to form or to dissolve.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="http://www.necan.org/lexicon/5"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_EUV flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_EUV flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the radiative flux measured in the EUV band.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/euv_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C10H16 (betapinene) Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C10H16 (betapinene) Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of&#160;C10H16 (betapinene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c10h16_betapinene_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N2O mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N2O mole fraction</gml:identifier>
+        <gml:description>3D field of amount&#160; of N2O (Nitrous oxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n2o_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C7H8 Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C7H8 Mole Fraction</gml:identifier>
+        <gml:description>3D field of dry air mole fraction of C7H8 (Toluene,expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c7h8_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C4H10">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C4H10</gml:identifier>
+        <gml:description>3D field of dry air mole fraction of C4H10 (Methylpropane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c4h10"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar gamma-ray flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar gamma-ray flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the gamma-ray flux integrated over the solar disk</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_gamma_ray_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud top temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud top temperature</gml:identifier>
+        <gml:description>Temperature of the top of the cloud (highest cloud in case of multi-layer clouds)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_top_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO2 Mole fraction (SR)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO2 Mole fraction (SR)</gml:identifier>
+        <gml:description>3D field of amount of&#160; source region (SR) CO2 (Carbon Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co2_mole_fraction_sr"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud top height">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud top height</gml:identifier>
+        <gml:description>Height of the top of the cloud (highest cloud in case of multi-layer clouds)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_top_height"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Integrated Water Vapour (IWV)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Integrated Water Vapour (IWV)</gml:identifier>
+        <gml:description>Total amount of water vapour present in a vertical atmospheric column.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/integrated_water_vapour_iwv"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_O3 Tropospheric Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_O3 Tropospheric Column</gml:identifier>
+        <gml:description>2D field of total amount of O3 (ozone) molecules per unit area in an atmospheric column extending from the Earth&#8217;s surface to the to the tropopause</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/o3_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar Lyman-alpha flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar Lyman-alpha flux</gml:identifier>
+        <gml:description>Solar flux in the Hydrogen Lyman-alpha transition wavelength (121.6 nm)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_lyman_alpha_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Gravity field">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Gravity field</gml:identifier>
+        <gml:description>Indicative of the statics and dynamics of the lithosphere and the mantle - Physical unit: [ mGal ] where : 1 Gal = 0.01 m.s-2</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/gravity_field"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea surface temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea surface temperature</gml:identifier>
+        <gml:description>Temperature of the sea water at surface.   The &#8220;bulk&#8221; temperature refers to the depth of typically 2 m, the &#8220;skin&#8221; temperature refers to within the upper 1 mm.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_surface_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2 Stratospheric Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2 Stratospheric Column</gml:identifier>
+        <gml:description>2D field of total amount of NO2 molecules (Nitrogen Dioxide) per unit area in an atmospheric column extending from the tropopause to the stratopause</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_stratospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Heavy ion angular flux energy and mass spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Heavy ion angular flux energy and mass spectrum</gml:identifier>
+        <gml:description>Flux density energy and mass spectrum of heavy ions ranging from Helium to Iron, per unit solid angle</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/heavy_ion_angular_flux_energy_and_mass_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Geomagnetic field">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Geomagnetic field</gml:identifier>
+        <gml:description>Magnitude and direction of the 3D magnetic field on the surface of Earth and within the magnetosphere (i.e., in low-Earth orbit and in geosynchronous orbit).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/geomagnetic_field"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HCHO Tropospheric column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HCHO Tropospheric column</gml:identifier>
+        <gml:description>2D field of total amount of HCHO molecules&#160;(Formaldehyde)&#160; per unit area in an atmospheric column extending from the Earth&#8217;s surface to the tropopause.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hcho_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Interplanetary magnetic field">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Interplanetary magnetic field</gml:identifier>
+        <gml:description>Vector magnetic field (3D) in the solar wind.&#160;The reference frame is Cartesian or Cylindrical with many different axis orientations. Important in Space Weather to monitor magnetic disturbances of the near earth environment.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/interplanetary_magnetic_field"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind stress">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind stress</gml:identifier>
+        <gml:description>The shear force per unit area exerted by wind blowing over the sea surface -</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_stress"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar H-alpha image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar H-alpha image</gml:identifier>
+        <gml:description>Image of the Sun in the Hydrogen-alpha transition wavelength (656.3 nm).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_h_alpha_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Snow cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Snow cover</gml:identifier>
+        <gml:description>Fraction of a given area which is covered by snow</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/snow_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar wind velocity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar wind velocity</gml:identifier>
+        <gml:description>Vector velocity of solar wind plasma</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_wind_velocity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ice sheet topography">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ice sheet topography</gml:identifier>
+        <gml:description>Map of ice sheet height over land .</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ice_sheet_topography"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Leaf Area Index (LAI)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Leaf Area Index (LAI)</gml:identifier>
+        <gml:description>LAI is the total one-sided area of photosynthetic tissue per unit ground surface area</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/leaf_area_index_lai"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Evapotranspiration">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Evapotranspiration</gml:identifier>
+        <gml:description>Quantity of water evaporated from
+the soil and plants when the ground is at its natural moisture content.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/evapotranspiration"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol dust concentration">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol dust concentration</gml:identifier>
+        <gml:description>3-D field of concentration of dust or sand in the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_dust_concentration"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_X-ray flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_X-ray flux</gml:identifier>
+        <gml:description>Integrated X-ray flux.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/x_ray_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Long-wave Earth surface emissivity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Long-wave Earth surface emissivity</gml:identifier>
+        <gml:description>Emissivity of the Earth surface in the thermal IR, function of the wavelength</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/long_wave_earth_surface_emissivity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol species mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol species mole fraction</gml:identifier>
+        <gml:description>3D field of the mole fraction of condensed-phase chemical species (e.g., sulfate, nitrate, ammonium, elemental carbon, organic carbon),  in the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_species_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Precipitation intensity at surface (liquid or solid)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Precipitation intensity at surface (liquid or solid)</gml:identifier>
+        <gml:description>Intensity of precipitation reaching the ground - Physical unit: [ mm/h ] (if solid, mm/h of liquid water after melting) - Accuracy unit: [ mm/h ]. Since accuracy changes with intensity, it is necessary to specify a reference intensity. Assumed rate: 5 mm/h.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/precipitation_intensity_at_surface_liquid_or_solid"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Fire temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Fire temperature</gml:identifier>
+        <gml:description>Temperature of the fire occurring within an area</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/fire_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N2O mole fraction (SR)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N2O mole fraction (SR)</gml:identifier>
+        <gml:description>3D field of amount of&#160; source region (SR) N2O (Nitrous Oxide,&#160;&#160;expressed in moles)&#160;divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n2o_mole_fraction_sr"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH4 mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH4 mole fraction</gml:identifier>
+        <gml:description>3D field of amount of CH4 (Methane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch4_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HCHO Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HCHO Total Column</gml:identifier>
+        <gml:description>2D field of total amount of HCHO molecules&#160;(Formaldehyde)&#160;&#160;per unit area in an atmospheric column extending from the Earth&#8217;s surface to the upper edge of the atmosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hcho_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud ice">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud ice</gml:identifier>
+        <gml:description>3D field of atmospheric water in the solid phase (precipitating or not).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_ice"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Soil type">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Soil type</gml:identifier>
+        <gml:description>Result of the classification of different types of soil within an area - Accuracy expressed as inverse of the number of classes, so that smaller figures correspond to better performance.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/soil_type"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean surface currents (vector)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean surface currents (vector)</gml:identifier>
+        <gml:description>Water flow on ocean surface - Physical unit: [ cm/s ] - Accuracy unit: [ cm/s ] intended as vector error, i.e. the module of the vector difference between the observed vector and the true vector.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_surface_currents_vector"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_pH">
+        <gml:identifier codeSpace="OSC">OSC_Variable_pH</gml:identifier>
+        <gml:description>The hydrogen ion concentration in seawater, which is a measure of acidity and alkalinity</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ph"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar VIS flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar VIS flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the integrated VIS flux over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_vis_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice motion">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice motion</gml:identifier>
+        <gml:description>Sea-ice motion</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_motion"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO mole fraction</gml:identifier>
+        <gml:description>3D field of amount of CO (Carbon monoxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol type">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol type</gml:identifier>
+        <gml:description>Selection, out of a pre-defined set of aerosol classes, that best fits an input data set (observed or modeled). The pre-defined set of aerosol classes includes specification of the particle composition, mixing state, complex refractive index, and shape as a function of particle size. The definition of aerosol type includes specification of all the classes as well as the algorithm used to choose the best fit to the input data.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_type"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Dominant wave direction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Dominant wave direction</gml:identifier>
+        <gml:description>One feature of the ocean wave spectrum. It is the direction of the most energetic wave in the spectrum - Physical unit: [ degrees ] - Accuracy unit: [ degrees ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/dominant_wave_direction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud ice Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud ice Total Column</gml:identifier>
+        <gml:description>2D Field of atmospheric water in the solid phase (precipitating or not), integrated over the total column.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_ice_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ionospheric Radio Absorption">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ionospheric Radio Absorption</gml:identifier>
+        <gml:description>Attenuation of a radio wave passing through the lower ionosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ionospheric_radio_absorption"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_PAN">
+        <gml:identifier codeSpace="OSC">OSC_Variable_PAN</gml:identifier>
+        <gml:description>3D field of amount of&#160;PAN (Peroxy Acetyl Nitrate, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/pan"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar VIS image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar VIS image</gml:identifier>
+        <gml:description>Images of the Sun in the VIS wavelengths.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_vis_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud drop effective radius">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud drop effective radius</gml:identifier>
+        <gml:description>Size distribution of liquid water drops, assimilated to spheres of the same volume. Considered as both a 3D field throughout the troposphere and a 2D field at the top of cloud surface.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_drop_effective_radius"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Upward short-wave irradiance at TOA">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Upward short-wave irradiance at TOA</gml:identifier>
+        <gml:description>Flux density of solar radiation, reflected by the Earth surface and atmosphere, emitted to space at the top of the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/upward_short_wave_irradiance_at_toa"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_(14)CO2 Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_(14)CO2 Delta</gml:identifier>
+        <gml:description>3D field of Delta C-14 in CO2 (Carbon dioxide) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/14_co2_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Fraction of Absorbed PAR (FAPAR)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Fraction of Absorbed PAR (FAPAR)</gml:identifier>
+        <gml:description>Fraction of PAR absorbed by vegetation (land or marine) for photosynthesis processes (generally around the 'red' )</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/fraction_of_absorbed_par_fapar"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ionospheric plasma density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ionospheric plasma density</gml:identifier>
+        <gml:description>Total number of ionized particles in a volume unit of ionospheric plasma</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ionospheric_plasma_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean subsurface tracers">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean subsurface tracers</gml:identifier>
+        <gml:description>Concentration of trace molecules such as tritium and CFCs</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_subsurface_tracers"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electron flux energy spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electron flux energy spectrum</gml:identifier>
+        <gml:description>Flux density energy spectrum of low-, medium-, and high-energy electrons from the magnetosphere, the radiation belts or the interplanetary medium.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electron_flux_energy_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Relative humidity">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Relative humidity</gml:identifier>
+        <gml:description>3D field of relative humidity in the atmosphere. Relative humidity is the ratio of the amount of atmospheric moisture present relative to the amount that would be present if the air were saturated with respct to water or ice to be specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/relative_humidity"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar-induced chlorophyll fluorescence (SIF)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar-induced chlorophyll fluorescence (SIF)</gml:identifier>
+        <gml:description>Solar induced chlorophyll fluorescence (SIF) is an electromagnetic signal emitted by the chlorophyll a of assimilating plants: part of the energy absorbed by chlorophyll a is not used for photosynthesis, but emitted at longer wavelengths as a two-peak spectrum roughly covering the 650&#8211;850 nm spectral range. The SIF signal responds instantaneously to perturbations in environmental conditions such as light and water stress, which makes it a direct proxy for photosynthetic activity. However, SIF emission constitutes only a small fraction (typically 0.5%-2%) of the radiance at the top of the canopy, which is mostly composed of reflected sunlight, and its estimation from space-borne spectrometers requires both high spectral resolution and advanced retrieval schemes.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Heavy ion flux energy and mass spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Heavy ion flux energy and mass spectrum</gml:identifier>
+        <gml:description>Flux density energy and mass spectrum of heavy ions ranging from Helium to Iron.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/heavy_ion_flux_energy_and_mass_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Earth surface albedo">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Earth surface albedo</gml:identifier>
+        <gml:description>Hemispherically integrated reflectance of the Earth surface in the range 0.4-0.7</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/earth_surface_albedo"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_ClO">
+        <gml:identifier codeSpace="OSC">OSC_Variable_ClO</gml:identifier>
+        <gml:description>3D field of amount&#160; of ClO (Chlorine monoxide = Hypochlorite, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/clo"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind (vertical)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind (vertical)</gml:identifier>
+        <gml:description>3D field of the vertical component of the 3D wind vector</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_vertical"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice surface temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice surface temperature</gml:identifier>
+        <gml:description>Temperature of the surface of sea-ice.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_surface_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C4H10 (n-butane)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C4H10 (n-butane)</gml:identifier>
+        <gml:description>3D field of amount dry of C4H10 (n-butane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c4h10_n_butane"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Wind vector (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Wind vector (near surface)</gml:identifier>
+        <gml:description>Horizontal wind vector, at a known height above the surface which is to be sprcified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/wind_vector_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_H2O">
+        <gml:identifier codeSpace="OSC">OSC_Variable_H2O</gml:identifier>
+        <gml:description>3D field of amount of H2O (Water vapour intended as a chemical species relevant for atmospheric chemistry. expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/h2o"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Soil moisture  (in the roots region)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Soil moisture  (in the roots region)</gml:identifier>
+        <gml:description>Sub-soil 3D field of the fractional content of water in a volume of wet soil. Requested from surface down to ~ 3 m</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/soil_moisture_in_the_roots_region"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CH3OH Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CH3OH Mole Fraction</gml:identifier>
+        <gml:description>3D field of amount of CH3OH (Methanol, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ch3oh_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Coastlines">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Coastlines</gml:identifier>
+        <gml:description>Location of coastlines  (Lat/Long)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/coastlines"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea surface height anomaly">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea surface height anomaly</gml:identifier>
+        <gml:description>Sea surface height anomaly</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_surface_height_anomaly"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Gamma-ray flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Gamma-ray flux</gml:identifier>
+        <gml:description>Radiative flux integrated over the gamma-ray domain.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/gamma_ray_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HD Delta">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HD Delta</gml:identifier>
+        <gml:description>3D field of&#160;Delta Deuterium (H-2) in HD (molecular Hydrogen) (isotopic signature)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hd_delta"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Height of the top of PBL">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Height of the top of PBL</gml:identifier>
+        <gml:description>Height of the surface separating the PBL from the free atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/height_of_the_top_of_pbl"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Biomass">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Biomass</gml:identifier>
+        <gml:description>Total amount of vegetation in a reference area - Physical unit: [ t/ha (tons/hectare) ] - Accuracy unit: [ t/ha ]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/biomass"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol volcanic ash  Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol volcanic ash  Total Column</gml:identifier>
+        <gml:description>2D Field of mass of volcanic ash, integrated over the total column.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_volcanic_ash_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Dissolved Organic Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Dissolved Organic Carbon</gml:identifier>
+        <gml:description>Mass concentration of dissolved organic carbon expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://www.britannica.com/science/seawater/Dissolved-organic-substances "/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Upward long-wave irradiance at Earth surface">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Upward long-wave irradiance at Earth surface</gml:identifier>
+        <gml:description>Flux density of terrestrial radiation emitted by the Earth surface</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/upward_long_wave_irradiance_at_earth_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar UV flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar UV flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the UV flux integrated&#160;over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_uv_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C2H2">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C2H2</gml:identifier>
+        <gml:description>3D field of amount of C2H2 (Acetylene. expressed in moles) divided by the total amount of all constituents in air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c2h2"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Phytoplankton Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Phytoplankton Carbon</gml:identifier>
+        <gml:description>Mass concentration of phytoplankton expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_O3 Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_O3 Total Column</gml:identifier>
+        <gml:description>2D field of total amount&#160;of O3 molecules per unit area &#160;in an atmospheric column extending from the Earth&#8217;s surface to the upper edge of the atmosphere (Dobson units).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/o3_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Fire fractional cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Fire fractional cover</gml:identifier>
+        <gml:description>Fraction of a land area where fire is occurring</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/fire_fractional_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO2 Tropospheric Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO2 Tropospheric Column</gml:identifier>
+        <gml:description>2D field of total amount of CO2 molecules per unit area in an atmospheric column extending from the Earth&#8217;s surface to the tropopause.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co2_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_O3 mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_O3 mole fraction</gml:identifier>
+        <gml:description>3D field of amount of O3 (Ozone, expressed in moles) in the troposphere divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/o3_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol mass mixing ratio">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol mass mixing ratio</gml:identifier>
+        <gml:description>3D field of the mass mixing ratio of condensed particles in the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_mass_mixing_ratio"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HDO">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HDO</gml:identifier>
+        <gml:description>3D field of amount&#160; of HDO (Water vapour (with one hydrogen nucleus replaced by its deuterium isotope) , expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hdo"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electron integral directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electron integral directional flux</gml:identifier>
+        <gml:description>Flux density of low-, medium-, and high-energy electrons from the magnetosphere, the radiation belts or the interplanetary medium, per unit solid angle.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electron_differential_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Particulate Inorganic Carbon">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Particulate Inorganic Carbon</gml:identifier>
+        <gml:description>Mass concentration of particulate inorganic carbon expressed as carbon in sea water [mg C m-3]</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href=""/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar white light image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar white light image</gml:identifier>
+        <gml:description>Image of the Sun in white light</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_white_light_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar UV flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar UV flux</gml:identifier>
+        <gml:description>Integrated UV flux over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_uv_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO mole fraction (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO mole fraction (near surface)</gml:identifier>
+        <gml:description>2D field of amount of CO (Carbon monoxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)&#160;at a known height above surface, with the height specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co_mole_fraction_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Colour Dissolved Organic Matter (CDOM)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Colour Dissolved Organic Matter (CDOM)</gml:identifier>
+        <gml:description>Optically measurable component of the dissolved organic matter in water.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/colour_dissolved_organic_matter_cdom"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Sea-ice cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Sea-ice cover</gml:identifier>
+        <gml:description>Fraction of an ocean area where ice is present</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/sea_ice_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Alpha particles differential directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Alpha particles differential directional flux</gml:identifier>
+        <gml:description></gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/alpha_particles_differential_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2 mole fraction (near surface)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2 mole fraction (near surface)</gml:identifier>
+        <gml:description>2D field of amount of NO2 (Nitrogen Dioxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) at a known height above surface, with the height specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_mole_fraction_near_surface"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud cover">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud cover</gml:identifier>
+        <gml:description>3D field of fraction of sky filled by clouds.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_cover"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_BrO">
+        <gml:identifier codeSpace="OSC">OSC_Variable_BrO</gml:identifier>
+        <gml:description>3D field of amount of BrO (Bromine monoxide, expressed in moles) &#160; divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/bro"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Soil temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Soil temperature</gml:identifier>
+        <gml:description>The standard depths for soil temperature measurements are 5, 10, 20, 50 and 100 cm below the surface; additional depths may be included. The site for such measurements should be a level plot of bare ground (about 75 cm^2 ) and typical of the surrounding soil for which information is required.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/soil_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Land surface temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Land surface temperature</gml:identifier>
+        <gml:description>Temperature of the apparent surface of land (bare soil or vegetation) - Physical unit: [ K ] - Accuracy unit: [ K ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/land_surface_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_N2O5">
+        <gml:identifier codeSpace="OSC">OSC_Variable_N2O5</gml:identifier>
+        <gml:description>3D field of amount of N2O5 (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/n2o5"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Icing potential">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Icing potential</gml:identifier>
+        <gml:description>3D field of super-cooled liquid water, enabling the formation of ice coating on an object.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/icing_potential"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Temperature of the tropopause">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Temperature of the tropopause</gml:identifier>
+        <gml:description>Atmospheric temperature at the height of the surface separating the troposphere from the stratosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/temperature_of_the_tropopause"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar X-ray flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar X-ray flux spectrum</gml:identifier>
+        <gml:description>Energy spectrum of the X-ray flux integrated&#160;over the solar disk.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_x_ray_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Geothermal energy">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Geothermal energy</gml:identifier>
+        <gml:description>Geothermal energy is heat derived from Earth's interior. Resources include hot springs and wells, hot dry rock, and even molten rock. These may be converted into heat and electricity.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://ngdc.noaa.gov/hazard/geotherm.shtml"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electron Density">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electron Density</gml:identifier>
+        <gml:description>3-D field of the electron density in the ionosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electron_density"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electron differential directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electron differential directional flux</gml:identifier>
+        <gml:description>Flux density energy spectrum of low-, medium-, and high-energy electrons from the magnetosphere, the radiation belts or the interplanetary medium, per unit solid angle</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electron_differential_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_C10H16 (Limonene) Mole Fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_C10H16 (Limonene) Mole Fraction</gml:identifier>
+        <gml:description>3D field of dry air mole fraction of&#160;C10H16 (Limonene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/c10h16_limonene_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Spread F">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Spread F</gml:identifier>
+        <gml:description>Vertical thickness of highly structured ion density in the F-region of the ionosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/spread_f"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Height of the tropopause">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Height of the tropopause</gml:identifier>
+        <gml:description>Height of the surface separating the troposphere from the stratosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/height_of_the_tropopause"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Glyoxal Tropospheric column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Glyoxal Tropospheric column</gml:identifier>
+        <gml:description>2D field of tropospheric column averaged of amount of Glyoxal (expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/glyoxal_tropospheric_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_OH">
+        <gml:identifier codeSpace="OSC">OSC_Variable_OH</gml:identifier>
+        <gml:description>3D field of amount of OH (Hydroxil radical, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/oh"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar X-ray flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar X-ray flux</gml:identifier>
+        <gml:description>Integrated X-ray flux over the solar disk</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_x_ray_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol Extinction Coefficient">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol Extinction Coefficient</gml:identifier>
+        <gml:description>3D field of spectral volumetric extinction cross-section of aerosol particles.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_extinction_coefficient"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ocean Diffuse Attenuation Coefficient (DAC)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ocean Diffuse Attenuation Coefficient (DAC)</gml:identifier>
+        <gml:description>Indicator of water turbidity and vertical processes in the ocean, extracted from ocean colour observation.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ocean_diffuse_attenuation_coefficient_dac"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cosmic ray neutron flux spectrum">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cosmic ray neutron flux spectrum</gml:identifier>
+        <gml:description>Flux density energy spectrum of neutrons from the Sun or as component of the cosmic radiation.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cosmic_ray_neutron_flux_spectrum"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Downward short-wave irradiance at TOA">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Downward short-wave irradiance at TOA</gml:identifier>
+        <gml:description>Flux density of the solar radiation at the top of the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/downward_short_wave_irradiance_at_toa"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar EUV flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar EUV flux</gml:identifier>
+        <gml:description>Integrated EUV flux over the solar disk</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_euv_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Cloud base height">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Cloud base height</gml:identifier>
+        <gml:description>Height of the bottom surface of the cloud</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cloud_base_height"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CO2 flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CO2 flux</gml:identifier>
+        <gml:description>Flux of carbon dioxide from the surface to the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/co2_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Ground water">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Ground water</gml:identifier>
+        <gml:description>Amount of water present beneath the ground surface per unit area</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/ground_water"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_(14)CO Number Concentration">
+        <gml:identifier codeSpace="OSC">OSC_Variable_(14)CO Number Concentration</gml:identifier>
+        <gml:description>3D field of amount of CO (Carbon monoxide) with C-14 isotope (mol) per air volume (m3)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/14_co_number_concentration"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_HCHO mole fraction">
+        <gml:identifier codeSpace="OSC">OSC_Variable_HCHO mole fraction</gml:identifier>
+        <gml:description>2D field of amount of HCHO (Formaldehyde, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)&#160;at a known height above surface, with the height specified in the metadata</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/hcho_mole_fraction"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Electric Field">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Electric Field</gml:identifier>
+        <gml:description>Magnitude and direction of the Earth&#8217;s electric field</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/electric_field"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar UV image">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar UV image</gml:identifier>
+        <gml:description>Images of the Sun in the UV wavelengths.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_uv_image"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Dew Point Temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Dew Point Temperature</gml:identifier>
+        <gml:description>Temperature to which air must be cooled to become saturated with water vapor&#160; at a known height&#160; above surface, with the height specified in the metadata (K)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/dew_point_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Aerosol species total column burden">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Aerosol species total column burden</gml:identifier>
+        <gml:description>2D field integrated over the total column burden of concentration of condensed-phase chemical species (e.g., sulfate, nitrate, ammonium, elemental carbon, organic carbon), in the atmosphere</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/aerosol_species_total_column_burden"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_CFC-12">
+        <gml:identifier codeSpace="OSC">OSC_Variable_CFC-12</gml:identifier>
+        <gml:description>3D field of amount of CFC-12 (Dichlorodifluoromethane = Freon-12, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) .</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cfc_12"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Proton integral directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Proton integral directional flux</gml:identifier>
+        <gml:description>Flux density of low-, medium-, and high-energy protons from the magnetosphere, the radiation belts or the interplanetary medium.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/proton_integral_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Heavy ion integral directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Heavy ion integral directional flux</gml:identifier>
+        <gml:description>Flux density of heavy ions ranging from Helium to Iron.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/heavy_ion_integral_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_NO2  Total Column">
+        <gml:identifier codeSpace="OSC">OSC_Variable_NO2  Total Column</gml:identifier>
+        <gml:description>2D field of total amount of NO2 molecules per unit area in an atmospheric column extending from the Earth&#8217;s surface to the upper edge of the atmosphere.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/no2_total_column"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Proton differential directional flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Proton differential directional flux</gml:identifier>
+        <gml:description>Flux density energy spectrum of low-, medium-, and high-energy protons from the magnetosphere, the radiation belts or the interplanetary medium, per unit solid angle.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/proton_differential_directional_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Normalised Difference Vegetation Index (NDVI)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Normalised Difference Vegetation Index (NDVI)</gml:identifier>
+        <gml:description>Difference between maximum (in NIR) and minimum (around the Red) vegetation reflectance, normalised to the summation.  Representative of total biomass, supportive for computing LAI if not directly measured</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/normalised_difference_vegetation_index_ndvi"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar VIS flux">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar VIS flux</gml:identifier>
+        <gml:description>Integrated VIS flux over the solar disk</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_vis_flux"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Gravity gradients">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Gravity gradients</gml:identifier>
+        <gml:description>Gradient of the Earth&#8217;s gravity field measured at the satellite orbital height - Physical unit: [ E ] , E&#246;tv&#246;s (1 E = 1 mGal / 10 km) - Accuracy unit: [ E ].</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/gravity_gradients"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_COS">
+        <gml:identifier codeSpace="OSC">OSC_Variable_COS</gml:identifier>
+        <gml:description>3-D field of amount&#160; of COS (Carbonyl sulfide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/cos"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar magnetic field">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar magnetic field</gml:identifier>
+        <gml:description>Vector magnetic field (1D or 3D) at the solar surface (photosphere/chromosphere)</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_magnetic_field"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Solar wind temperature">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Solar wind temperature</gml:identifier>
+        <gml:description>Temperature of solar wind protons</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/solar_wind_temperature"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Variable_Total alkalinity (AT)">
+        <gml:identifier codeSpace="OSC">OSC_Variable_Total alkalinity (AT)</gml:identifier>
+        <gml:description>The amount of acid necessary to titrate all weak bases in seawater.</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="https://space.oscar.wmo.int/variables/view/total_alkalinity_at"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
+  </gmx:codeListItem>
+  <gmx:codeListItem/>
+</gmx:CT_CodelistCatalogue>

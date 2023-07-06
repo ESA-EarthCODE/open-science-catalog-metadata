@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "oceansoda",
+  "properties": {
+    "title": "OceanSODA",
+    "description": "Earth Observation for marine carbonate chemistry: development of algorithms linking satellite variables with marine carbonate system parameters, characterising and analysing how upwelling (of low pH waters) and compound events impact the carbonate system, and characterising the flow and impact on marine ecosystems of low pH waters from large river systems.",
+    "osc:name": "Satellite Oceanographic Datasets for Acidification (OceanSODA)",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF EXETER (GB)",
+      "EIDGEN\u221a\u00f1SSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH)",
+      "IFREMER (FR)",
+      "NERC",
+      "PLYMOUTH MARINE LABORATORY (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-11-22T00:00:00Z",
+    "end_datetime": "2020-12-15T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-11-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://esa-oceansoda.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/satellite-oceanographic-datasets-for-acidification-oceansoda/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/surface-ocean-total-alcalinity-oceansoda.json",
+      "type": "application/json",
+      "title": "Surface-ocean_Total Alcalinity_Global_v2021"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/surface-ocean-dic-oceansoda.json",
+      "type": "application/json",
+      "title": "Surface-ocean_Dissolved Inorganic Carbon_Global_v2021"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/surface-ocean-omega-aragonite-saturation-oceansoda.json",
+      "type": "application/json",
+      "title": "Surface-ocean_Omega_Aragonite Saturation State_Global_v2021"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/suface-ocean-ph-oceansoda.json",
+      "type": "application/json",
+      "title": "Surface-ocean_pH_Global_v2021"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/surface-ocean-pco2-oceansoda.json",
+      "type": "application/json",
+      "title": "Surface-ocean_pCO2_Global_v2021"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/oceansoda.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/oceansoda.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

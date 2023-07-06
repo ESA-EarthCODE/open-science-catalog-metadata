@@ -1,0 +1,73 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ground-observatory-data-4d-earth-swarm",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Ground Observatory data",
+    "description": "Consists of 1 month and 4 month mean files, with core field/revised means (Olsen et al., 2014), and SV estimates from annual differences for 1997-2021. These files are provided in the same cdf format as used for the GVO data, further details are given in the associated README file.",
+    "osc:missions": [],
+    "osc:project": "The 4D-Earth Swarm project",
+    "osc:themes": [
+      "Solid Earth",
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:variable": "Geomagnetic field",
+    "osc:status": "ONGOING",
+    "osc:region": null,
+    "osc:type": "Product",
+    "created": "2021-09-10T00:00:00Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": null
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://4d-earth-swarm.univ-grenoble-alpes.fr/"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.spacecenter.dk/files/magnetic-models/GO/GO_data.zip",
+      "title": "Access"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geomagnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-observatory-data-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geomagnetic-field.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/ground-observatory-data-4d-earth-swarm.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Geomagnetic field"
+}

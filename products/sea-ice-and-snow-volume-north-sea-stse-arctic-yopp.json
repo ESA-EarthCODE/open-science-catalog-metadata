@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "sea-ice-and-snow-volume-north-sea-stse-arctic-yopp",
+  "properties": {
+    "start_datetime": "2015-01-01T00:00:00Z",
+    "end_datetime": "2015-12-31T23:59:59Z",
+    "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2",
+    "description": "Prior and posterior uncertainties of sea ice volume (SIV, columns 4-6) and snow volume (SNV, columns 7-9) respectively for three regions in km3. Column 1 indicates observation, column 2 indicates uncertainty range (\"product\" refers to uncertainty specification provided with product), column 3 indicates uncertainty range of additional hypothetical snow product (\"\u2013\" means no snow product is used). In each of columns 4-9 the lowest uncertainty range is highlighted in bold face font. The two bottom rows give estimates for the uncertainty due to model error, i.e. the residual uncertainty with optimal control vector.",
+    "osc:missions": [
+      "CryoSat-2"
+    ],
+    "osc:project": "STSE-ARCTIC+ THEME 5 \u2013 CONTRIBUTIONS TO THE YEAR OF POLAR PREDICTIONS (YOPP)",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Sea-ice thickness",
+    "osc:status": "ONGOING",
+    "osc:region": "North Sea",
+    "osc:type": "Product",
+    "created": "2018-07-10T00:00:00Z",
+    "sci:doi": "10.5281/zenodo.1308857",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2015-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -4.0,
+      51.0,
+      11.0,
+      61.0
+    ],
+    "coordinates": [
+      [
+        [
+          -4.0,
+          51.0
+        ],
+        [
+          11.0,
+          51.0
+        ],
+        [
+          11.0,
+          61.0
+        ],
+        [
+          -4.0,
+          61.0
+        ],
+        [
+          -4.0,
+          51.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://arctic-plus.inversion-lab.com/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/record/1308857#.YaSSUS8w3fY",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.1308857"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-ice-thickness.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/stse-arctic.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-ice-thickness.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -4.0,
+    51.0,
+    11.0,
+    61.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea-ice thickness"
+}

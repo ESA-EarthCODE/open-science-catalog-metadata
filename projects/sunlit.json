@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "sunlit",
+  "properties": {
+    "title": "SUNLIT",
+    "description": "Development of new global tropospheric ozone datasets using combination of total ozone column from OMI and TROPOMI with stratospheric ozone column dataset from several available limb-viewing instruments (MLS, OSIRIS, MIPAS, SCIAMACHY, OMPS-LP, GOMOS). The novelty of the SUNLIT approach is using measurements from several satellite instruments in limb-viewing geometry for deriving the stratospheric ozone column dataset.",
+    "osc:name": "SUNLIT - Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
+    },
+    "osc:consortium": [
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-09-05T00:00:00Z",
+    "end_datetime": "2020-11-24T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-09-05T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://nsdc.fmi.fi/data/data_sunlit.php",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/tropospheric-ozone-column-omi-sunlit.json",
+      "type": "application/json",
+      "title": "Tropospheric ozone column (TrOC)_Global_OMI and limb satellites"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/tropospheric-ozone-column-tropomi-sunlit.json",
+      "type": "application/json",
+      "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/stratospheric-ozone-column-limb-sunlit.json",
+      "type": "application/json",
+      "title": "Stratospheric ozone column from limb satellites_Global"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/sunlit.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/sunlit.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Atmosphere"
+}

@@ -1,0 +1,143 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "4d-earth-swarm",
+  "properties": {
+    "title": "4D-Earth SWARM",
+    "description": "The goal of the 4D-Earth-Swarm project, supported by ESA, is to improve our understanding of the rapid (interannual) changes in the geomagnetic field, as recorded by the three satellites of the Swarm mission of ESA - as well as earlier satellite missions such as CHAMP and Oersted, and ground-based observatories. The project is planned for 2.5 years, starting in Sept. 2019. It gathers partners from 5 institutes (ISTerre Grenoble; ETH Zurich; Leeds University; IPG Paris, DTU Copenhagen). It involves in particular: formatting of geomagnetic records, and their cleaning from external (magnetospheric and ionospheric) sources; numerical simulations of the geodynamo at extreme parameters; modeling of rapid field changes by means of reduced quasi-geostrophic equations; re-analysis of magnetic changes with a stochastic data assimilation algorithm; a specific analysis of the topographic coupling between the core and the mantle; a focus on high latitude jets and the physics on the cylinder tangent to the inner core and aligned with the Earth's rotation axis.",
+    "osc:name": "The 4D-Earth Swarm project",
+    "osc:themes": [
+      "Solid Earth",
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Roger Haagmans",
+      "e-mail": "roger.haagmans@esa.int"
+    },
+    "osc:consortium": [
+      "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS) (FR)",
+      "EIDGENOSSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH)",
+      "INST PHYSIQUE GLOBE (FR)",
+      "Technical University of Denmark (DK)",
+      "UNIVERSITY OF LEEDS",
+      "SCHOOL OF EARTH AND ENVIRONMENT (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-04-16T00:00:00Z",
+    "end_datetime": "2022-04-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2019-04-16T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://4d-earth-swarm.univ-grenoble-alpes.fr/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/the-4d-earth-swarm-project/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-cryosat2-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CRYOSAT-2"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/chaos-field-model-spline-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "CHAOS field model_SplineCoefficients"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-champ-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CHAMP"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-observatory-data-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Ground Observatory data"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/chaos-field-model-core-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "CHAOS field model_Core"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/geodynamo-simulation-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Geodynamo simulation data_Earth core"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/satellite-data-chaos-field-model-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Vector and scalar satellite data files as used in the CHAOS field model"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/chaos-field-model-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "CHAOS field model"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/webgeodyn-py-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Webgeodyn Python package"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-oersted-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data OERSTED"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-swarm-4d-earth-swarm.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data SWARM"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/solid-earth.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/4d-earth-swarm.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Magnetosphere_Ionosphere"
+}

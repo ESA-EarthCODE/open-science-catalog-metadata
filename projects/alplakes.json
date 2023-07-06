@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "alplakes",
+  "properties": {
+    "title": "AlpLakes",
+    "description": "The AlpLakes project aims at providing operational products based on a combination of remote sensing and hydrodynamic models. ALPLAKES is a continuation of the CORESIM (ESA SEOM S2-4Sci Land and Water) project based on the recommendations provided during the CORESIM roadmap. While many studies have focused on ecosystem variability over a latitudinal gradient (Woolway and Merchant, 2019), the response of the freshwater systems to climate changes over an altitudinal gradient is comparatively less understood. For this purpose, the project upscaled the web-based platform (see Meteolakes, http://meteolakes.ch/ as baseline) by integrating 11 lakes from ~60 m.a.s.l to 1800 m.a.s.l around the Alps with a 3D modelling approach. Sentinel-2 products are used to improve the quality of the hydrodynamic model by providing, in near real-time, information about light penetration. This parameter is essential for the distribution of the incoming solar radiation as it controls, together with the atmospheric forcing, the evolution of the lake\u2019s thermal structure. Then, there will be an evaluation of the short time evolution of identified patterns from Sentinel-2 products by applying a particle-tracking technique. The final application will be openly available for in-depth analyses of specific events in a new web-based platform.",
+    "osc:name": "AlpLakes",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
+    },
+    "osc:consortium": [
+      "EAWAG (CH)CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u2013 IRPI (IT)",
+      "UNIVERSIT\u00c0 DEGLI STUDI DI TRENTO (IT)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2022-01-20T00:00:00Z",
+    "end_datetime": "2023-03-15T23:59:59Z",
+    "updated": "2023-07-06T09:54:22Z",
+    "datetime": "2022-01-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.datalakes-eawag.ch/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/alplakes/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/alplakes.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/alplakes.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Land"
+}

@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "id": "HCHO Total Column",
+  "stac_version": "1.0.0",
+  "description": "2D field of total amount of HCHO molecules\u00a0(Formaldehyde)\u00a0\u00a0per unit area in an atmospheric column extending from the Earth\u2019s surface to the upper edge of the atmosphere.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/hcho_total_column",
+      "title": "Link"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/hcho-total-column.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:theme": "Atmosphere",
+  "osc:type": "Variable",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

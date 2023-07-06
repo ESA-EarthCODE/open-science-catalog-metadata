@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "stse-arctic",
+  "properties": {
+    "title": "STSE-ARCTIC+",
+    "description": "Prototype system for Arctic Mission Benefit Analysis (ArcMBA) that makes a mathematically rigorous evaluation of the effect that observational constraints imposed by individual and groups of EO (and in situ) data products would have in an advanced data assimilation system. The assessment is performed in terms of the uncertainty reduction in simulated/predicted sea ice, snow, and oceanic target quantities of scientific and societal interest.",
+    "osc:name": "STSE-ARCTIC+ THEME 5 \u2013 CONTRIBUTIONS TO THE YEAR OF POLAR PREDICTIONS (YOPP)",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Ola Grabak",
+      "e-mail": "ola.grabak@esa.int"
+    },
+    "osc:consortium": [
+      "THE INVERSION LAB THOMAS KAMINSKI CONSULTING (DE)",
+      "DANISH METEOROLOGICAL INSTITUTE (DK)",
+      "O.A.SYS \u201a OCEAN ATMOSPHERE SYSTEMS (DE)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2016-06-06T00:00:00Z",
+    "end_datetime": "2018-02-28T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2016-06-06T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://arctic-plus.inversion-lab.com/index.html",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp.json",
+      "type": "application/json",
+      "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/stse-arctic.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/stse-arctic.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Cryosphere"
+}

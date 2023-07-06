@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "id": "Crustal plates positioning",
+  "stac_version": "1.0.0",
+  "description": "Basis for monitoring the evolution of the lithosphere dynamics - Physical unit: [ cm ] - Accuracy unit: [ cm ].",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/crustal_plates_positioning",
+      "title": "Link"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/crustal-plates-positioning.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:theme": "Magnetosphere_Ionosphere",
+  "osc:type": "Variable",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

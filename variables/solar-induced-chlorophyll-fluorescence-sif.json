@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "id": "Solar-induced chlorophyll fluorescence (SIF)",
+  "stac_version": "1.0.0",
+  "description": "Solar induced chlorophyll fluorescence (SIF) is an electromagnetic signal emitted by the chlorophyll a of assimilating plants: part of the energy absorbed by chlorophyll a is not used for photosynthesis, but emitted at longer wavelengths as a two-peak spectrum roughly covering the 650\u2013850 nm spectral range. The SIF signal responds instantaneously to perturbations in environmental conditions such as light and water stress, which makes it a direct proxy for photosynthetic activity. However, SIF emission constitutes only a small fraction (typically 0.5%-2%) of the radiance at the top of the canopy, which is mostly composed of reflected sunlight, and its estimation from space-borne spectrometers requires both high spectral resolution and advanced retrieval schemes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/",
+      "title": "Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/l2b-sif-surface-reflectance-tropomi-troposif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-induced-chlorophyll-fluorescence-sif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:theme": "Atmosphere",
+  "osc:type": "Variable",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "daces",
+  "properties": {
+    "title": "DACES",
+    "description": "Developing a new methodology for detecting anthropogenic carbon dioxide emission sources using colocated CO2 data from OCO-2 and NO2, SO2 and CO data from Sentinel-5P",
+    "osc:name": "Detection of Anthropogenic CO2 Emissions Sources",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
+    },
+    "osc:consortium": [
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-10-30T00:00:00Z",
+    "end_datetime": "2020-05-27T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-10-30T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/daces-detection-of-anthropogenic-co2-emissions-sources/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/daces-detection-of-anthropogenic-co2-emissions-sources/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/daces.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/daces.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Atmosphere"
+}

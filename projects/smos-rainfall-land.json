@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "smos-rainfall-land",
+  "properties": {
+    "title": "SMOS+ Rainfall Land",
+    "description": "The objective of the \u2018SMOS+RAINFALL\u2019 project is to ingest satellite soil moisture information derived from ASCAT, SMOS and SMAP into the latest state-of-the-art satellite precipitation products like those derived from the Global Precipitation Measurement mission (GPM) to enhance rainfall observation accuracy over land.",
+    "osc:name": "SMOS+ Rainfall Land",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
+    },
+    "osc:consortium": [
+      "CNRS",
+      "DELEGATION REGIONALE ALPES (FR)",
+      "CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u2013 IRPI (IT)",
+      "UNIVERSITE TOULOUSE III \u2013 PAUL SABATIER (FR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2015-07-16T00:00:00Z",
+    "end_datetime": "2019-03-31T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2015-07-16T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.esasmosrainfall.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/smos-rainfall-land/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/rainfall-prism-0-25-v4-africa-smos-rainfall.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v4.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/rainfall-prism-0-1-v2-africa-smos-rainfall.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product v2.0_3h_0.1_Africa"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall.json",
+      "type": "application/json",
+      "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/rainfall-prism-0-25-v2-africa-smos-rainfall.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v2.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/smos-rainfall-land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/smos-rainfall-land.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Land"
+}

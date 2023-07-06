@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "eo-based-cdom-baltic-sealabio",
+  "properties": {
+    "start_datetime": "2017-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T23:59:59Z",
+    "title": "EO based Color Disolved Organic Matter_Baltics_S3",
+    "description": "The OLCI based EO results are visible in TARKKA (https://wwwi4.ymparisto.fi/i4/eng/tarkka/index.html?type=BP_CDOM&date=2019-09-01&lang=en&zoom=5.31&lat=64.23000&lon=26.00000) and the WAF (http://eo.ymparisto.fi/data/water/Baltic_SeaLaBio/). These have been derived by first performing the atmospheric correction with the Baltic+ AC processor and the using a band ratio algorithm for the estimation of CDOM. More details about the processing will be made available in the Validation Report and Dataset User Manual while comparisons of model and EO results with in situ data will be available in the Impact Assessment Report (see the Results section on the project website https://www.syke.fi/en-US/Research__Development/Research_and_development_projects/Projects/SeaLand_biogeochemical_linkages_SeaLaBio/Results).",
+    "osc:missions": [
+      "Sentinel-3"
+    ],
+    "osc:project": "BALTIC+ Sea-Land biogeochemical linkages (SeaLaBio)",
+    "osc:themes": [
+      "Oceans",
+      "Land"
+    ],
+    "osc:variable": "Colour Dissolved Organic Matter (CDOM)",
+    "osc:status": "ONGOING",
+    "osc:region": "Baltics",
+    "osc:type": "Product",
+    "created": "2020-09-17T00:00:00Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      9.3738792631,
+      53.90254289,
+      32.9925362748,
+      66.2654700409
+    ],
+    "coordinates": [
+      [
+        [
+          9.3738792631,
+          53.90254289
+        ],
+        [
+          32.9925362748,
+          53.90254289
+        ],
+        [
+          32.9925362748,
+          66.2654700409
+        ],
+        [
+          9.3738792631,
+          66.2654700409
+        ],
+        [
+          9.3738792631,
+          53.90254289
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.syke.fi/projects/BalticSeaLaBio"
+    },
+    {
+      "rel": "via",
+      "href": "http://eo.ymparisto.fi/data/water/Baltic_SeaLaBio/EO_results/",
+      "title": "Access"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/colour-dissolved-organic-matter-cdom.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/baltic-sea-land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/eo-based-cdom-baltic-sealabio.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/colour-dissolved-organic-matter-cdom.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/eo-based-cdom-baltic-sealabio.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    9.3738792631,
+    53.90254289,
+    32.9925362748,
+    66.2654700409
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Colour Dissolved Organic Matter (CDOM)"
+}

@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "gravity-anomalies-goce-airborne-4dantarctica",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Gravity anomalies from GOCE and airborne data",
+    "description": "Gravity anomalies from GOCE and airborne data",
+    "osc:missions": [
+      "GOCE",
+      "GRACE"
+    ],
+    "osc:project": "4DANTARCTICA",
+    "osc:themes": [
+      "Cryosphere",
+      "Solid Earth"
+    ],
+    "osc:variable": "Gravity field",
+    "osc:status": "COMPLETED",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "created": "2020-06-01T00:00:00Z",
+    "version": "0.1",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      -60.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -60.0
+        ],
+        [
+          -180.0,
+          -60.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.4d-antarctica.org/"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Access"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/gravity-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/gravity-anomalies-goce-airborne-4dantarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/gravity-field.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/gravity-anomalies-goce-airborne-4dantarctica.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -60.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Gravity field"
+}

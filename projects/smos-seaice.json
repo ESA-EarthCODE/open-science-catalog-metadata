@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "smos-seaice",
+  "properties": {
+    "title": "SMOS+ SeaIce",
+    "description": "Develop a data fusion product based on CryoSat and SMOS data, now termed the CS2SMOS product",
+    "osc:name": "STSE SMOS+ SEA ICE",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Matthias Drusch",
+      "e-mail": "matthias.drusch@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF HAMBURG (DE)",
+      "ALFRED WEGENER INSTITUTE (DE)",
+      "DANISH METEOROLOGICAL INSTITUTE (DK)",
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)",
+      "NANSEN ENVIRONMENTAL AND REMOTE SENSING CENTER (NO)",
+      "UNIVERSITAET BREMEN (DE)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2014-08-20T00:00:00Z",
+    "end_datetime": "2017-10-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2014-08-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://icdc.cen.uni-hamburg.de/en/l3c-smos-sit.html",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "http://due.esrin.esa.int/stse/page_stse_project204.php",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/smos-seaice.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/smos-seaice.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Cryosphere"
+}

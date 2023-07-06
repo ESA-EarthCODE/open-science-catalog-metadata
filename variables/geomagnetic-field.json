@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "id": "Geomagnetic field",
+  "stac_version": "1.0.0",
+  "description": "Magnitude and direction of the 3D magnetic field on the surface of Earth and within the magnetosphere (i.e., in low-Earth orbit and in geosynchronous orbit).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/geomagnetic_field",
+      "title": "Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-cryosat2-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/cluster-swarm-b-conjunctions-ion-outflow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/chaos-field-model-spline-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-champ-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-observatory-data-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/chaos-field-model-core-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/geodynamo-simulation-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/satellite-data-chaos-field-model-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/chaos-field-model-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/webgeodyn-py-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/swarm-eiscat-conjunction-list-ion-outflow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/cluster-swarm-ac-conjunctions-ion-outflow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-oersted-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-swarm-4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sudden-stratospheric-warming-vera.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geomagnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:theme": "Magnetosphere_Ionosphere",
+  "osc:type": "Variable",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

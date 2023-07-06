@@ -1,0 +1,71 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "promcom",
+  "properties": {
+    "title": "PROMCOM",
+    "description": "Production of lower tropospheric methane and carbon monoxide distributions through combined use of ESA Sentinel-5 Precursor shortwave infrared and IASI/CrIS thermal infrared satellite data",
+    "osc:name": "PROMCOM: Production of lower tropospheric methane and carbon monoxide distributions through combined use of ESA Sentinel-5 Precursor shortwave infrared and IASI/CrIS thermal infrared satellite data",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Diego Fernandez",
+      "e-mail": "diego.fernandez@esa.int"
+    },
+    "osc:consortium": [
+      "UKRI Rutherford Appleton Laboratory (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-10-23T00:00:00Z",
+    "end_datetime": "2020-10-31T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-10-23T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/promcom.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/promcom.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Atmosphere"
+}

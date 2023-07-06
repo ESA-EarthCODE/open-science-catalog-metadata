@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "esdl",
+  "properties": {
+    "title": "ESDL",
+    "description": "The main objective of the Earth System Data Lab (ESDL) project was to establish and operate a service to the scientific community that greatly facilitates access and exploitation of the multivariate data set in the ESDL and by this means advances the understanding of the interactions between the ocean-land-atmosphere system and society. To this end, the main tasks of the project fall into four main categories: infrastructure and operations, data sets and tools, use cases and scientific exploitation, and communication and outreach. The core part of the ESDL is the data in analysis-ready form, together with tools and methods to generate, access, and exploit the ESDL. The software to generate the ESDL and the data access APIs have been developed in the preceding project CAB-LAB. The modular open source approach adopted in CAB-LAB has proven to be convenient, flexible, and powerful and effectively meets user requirements. Access the ESDL in github: https://github.com/esa-esdl",
+    "osc:name": "Earth System Data Lab (ESDL)",
+    "osc:themes": [
+      "Land",
+      "Oceans",
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Anca Anghelea",
+      "e-mail": "anca.anghelea@esa.int"
+    },
+    "osc:consortium": [
+      "BROCKMANN CONSULT GMBH (DE)",
+      "CENTRE FOR RESEARCH ON THE EPIDEMILOGY OF DISASTERS",
+      "SCHOOL OF PUBLIC HEALTH",
+      "UNIVERSITE CATHOLIQUE DE LOUVAIN (BE)",
+      "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+      "NERC",
+      "PLYMOUTH MARINE LABORATORY (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-05-01T00:00:00Z",
+    "end_datetime": "2020-12-31T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-05-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.earthsystemdatalab.net",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/earth-system-data-lab-esdl/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/regional-esdl-south-america-esdl.json",
+      "type": "application/json",
+      "title": "Code for Regional Earth System Data Lab: Tropical South America"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/esdl.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/esdl.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Atmosphere"
+}

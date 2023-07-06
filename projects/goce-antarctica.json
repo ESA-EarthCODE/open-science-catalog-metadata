@@ -1,0 +1,81 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "goce-antarctica",
+  "properties": {
+    "title": "GOCE+ ANTARCTICA",
+    "description": "Exploring the potential of GOCE to improve lithospheric modelling over Antarctica, to reduce uncertainties in bedrock topography and to study the implication on GIA modelling",
+    "osc:name": "GOCE+ ANTARCTICA",
+    "osc:themes": [
+      "Solid Earth",
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Michael Kern",
+      "e-mail": "michael.kern@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF KIEL (DE)",
+      "BRITISH ANTARCTIC SURVEY (GB)",
+      "TU DELFT (NL)",
+      "Technical University of Denmark (DK)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2015-08-20T00:00:00Z",
+    "end_datetime": "2019-06-25T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2015-08-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.bas.ac.uk/project/goceantarctica/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/goce-antarctica/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/lithosphere-density-temperature-viscosity-goce-antarctica.json",
+      "type": "application/json",
+      "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/goce-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/solid-earth.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/goce-antarctica.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Cryosphere"
+}

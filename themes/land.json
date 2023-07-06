@@ -1,0 +1,448 @@
+{
+  "type": "Collection",
+  "id": "Land",
+  "stac_version": "1.0.0",
+  "description": "The carbon cycle is central to the Earth system, being inextricably coupled with climate, the water cycle, nutrient cycles and the production of biomass by photosynthesis on land and in the oceans. In the natural system the balance among carbon in the atmosphere, land and ocean is regulated through fluxes between these three main reservoirs. In addition to these natural components, there are the contributions to the atmosphere from human activities, namely, fossil fuel burning, cement production, and a range of land management practices. Over the past 250 years, the atmospheric carbon dioxide (CO2) concentration has increased by roughly 45% from its pre-industrial value of roughly 280 parts per million by volume (ppm). In the same timeframe, atmospheric methane (CH4), a greenhouse gas 28 times more powerful than CO2 has more than doubled due to human activities, responsible for approx. 60% of total emissions, and, after a hiatus, is rising faster than at any time in the last two decades. Understanding the patterns of exchanges of carbon between the atmosphere, ocean and land and the processes associated to them such as CO2 fertilization, ocean acidification, changes in surface runoff of sediments, changes to wetlands and peatlands, warming of permafrost, and changes to natural disturbance regimes, are critical to improving knowledge of the carbon cycle, its direct and indirect impacts on society and identifying approaches to mitigate and adapt for its consequences.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/",
+      "title": "Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/baltic-sea-land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-l2a-rut.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s2-for-land-and-water-change-detection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/albiom.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/opensr.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/hr-albedomap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/advancing-the-study-of-extreme-weather-events-with-data-deep-learning-methods-and-climate-analysis.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/deep-extremes.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/esdl.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/biomondo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-multi-flex.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/stream.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/eo4diversity.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s34science-snow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-shred.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-vad3emecum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-vmdl.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/smos-rainfall-land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s14science-amazonas.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/forestscan.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/ai4dte-sw-stack.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/ridesat.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s1-for-surface-soil-moisture.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/da4dte.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/biomascat.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/ai4dte.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/sense4gpp.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/biomap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-eocytes.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/meteolakes.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/carbon-constellation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/terra-p.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4dmed-hydrology.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/alplakes.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/vista.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/photoproxy.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s5p-inno-sif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/ai4drought.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/extraim.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/smos-vegetation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/wacmos-irrigation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/irrigation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/fluvisat.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/soil-moisture-at-surface.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/land-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/lake-surface-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/snow-depth.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/river-discharge.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/fraction-of-vegetated-land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/permafrost.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/snow-water-equivalent.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/irrigation-water-use.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/wetland-extent.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/vegetation-type.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/snow-status-wet-dry.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/wind-gust.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/lake-area.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/land-surface-topography.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/fire-radiative-power.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-topography.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/lake-level.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-motion.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/snow-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ice-sheet-topography.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/leaf-area-index-lai.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/evapotranspiration.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/fire-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/soil-type.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/fraction-of-absorbed-par-fapar.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/soil-moisture-in-the-roots-region.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/coastlines.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/biomass.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/fire-fractional-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/soil-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/land-surface-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/co2-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ground-water.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/normalised-difference-vegetation-index-ndvi.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:type": "Theme",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

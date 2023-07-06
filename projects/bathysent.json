@@ -1,0 +1,73 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "bathysent",
+  "properties": {
+    "title": "BathySent",
+    "description": "Development of an automated method for mapping coastal bathymetry (water depths) on the basis of Copernicus Sentinel-2 mission",
+    "osc:name": "BathySent - An Innovative Method to Retrieve Global Coastal Bathymetry from Sentinel-2",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
+    },
+    "osc:consortium": [
+      "BUREAU DE RECHERCHES GEOLOGIQUES ET MINIERES (BRGM) (FR",
+      "CLOUDFERRO SP Z O. (PL)",
+      "HELLENIC CENTRE FOR MARINE RESEARCH (HCMR) (GR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-05-07T00:00:00Z",
+    "end_datetime": "2019-06-15T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-05-07T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.bathysent.org",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/an-innovative-method-to-retrieve-global-coastal-bathymetry-from-sentinel-2/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/bathysent.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/bathysent.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

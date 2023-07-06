@@ -1,0 +1,78 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "smos-mediterranean",
+  "properties": {
+    "title": "SMOS+ Mediterranean",
+    "description": "This project aimed at calculating a sea surface salinity (SSS) field over the north Atlantic Ocean and the Mediterranean Sea for the previous 6 years, using a combination of techniques developed by the partners of the project, GEHR (Belgium) and BEC (Spain). This approach combined a debiased non-Bayesian retrieval of the SSS, the use of DINEOF (Data Interpolating Empirical Orthogonal Functions) to correct for systematic errors, and multifractal fusion to obtain a L4 dataset.The resulting dataset has been compared to in situ data, demonstrating that the new methodology reduces by half the error with respect to previous estimates of SSS in the Mediterranean Sea.",
+    "osc:name": "SMOS+ Med: Sea Surface Salinity in the Mediterranean",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Diego Fernandez",
+      "e-mail": "Diego.fernandez@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF LIEGE (BE)",
+      "INSTITUTO DE CIENCIAS DEL MAR - CSIC (ES)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2014-03-19T00:00:00Z",
+    "end_datetime": "2018-02-28T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2014-03-19T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/pathfinders-sea-surface-salinity-in-the-mediterranean/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/pathfinders-sea-surface-salinity-in-the-mediterranean/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sea-surface-salinity-europe-smos-med.json",
+      "type": "application/json",
+      "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/smos-mediterranean.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/smos-mediterranean.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

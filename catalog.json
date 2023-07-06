@@ -1,51 +1,59 @@
 {
   "type": "Catalog",
-  "id": "osc",
+  "id": "OSC-Catalog",
   "stac_version": "1.0.0",
-  "description": "A catalog of publicly available geoscience products, datasets and resources developed in the frame of scientific research Projects funded by ESA EO (Earth Observation)",
+  "description": "OSC-Catalog",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./projects/catalog.json",
-      "type": "application/json",
-      "title": "Projects"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./themes/catalog.json",
-      "type": "application/json",
-      "title": "Themes"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./variables/catalog.json",
-      "type": "application/json",
-      "title": "Variables"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./processes/catalog.json",
-      "type": "application/json",
-      "title": "Processes"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/solid-earth.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/catalog.json",
-      "type": "application/json",
-      "title": "EO Missions"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./products/catalog.json",
-      "type": "application/json",
-      "title": "Products"
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/metrics.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/codelists.xml",
+      "type": "application/xml"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
     }
   ],
-  "title": "Open Science Catalog"
+  "stac_extensions": []
 }

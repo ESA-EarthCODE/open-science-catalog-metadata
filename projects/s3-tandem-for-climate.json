@@ -1,0 +1,77 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "s3-tandem-for-climate",
+  "properties": {
+    "title": "S3 Tandem for Climate",
+    "description": "Detailed study of the inter-satellite discrepancies, differences and uncertainties using data acquired during the Sentinel-3 Tandem phase.",
+    "osc:name": "SENTINEL-3 TANDEM FOR CLIMATE (S3TC) EXPRO+",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Craig James Donlon",
+      "e-mail": "craig.donlon@esa.int"
+    },
+    "osc:consortium": [
+      "ACRI-ST S.A.S. (FR)",
+      "CLS COLLECTE LOCALISATION SATELLITES (FR)",
+      "NATIONAL PHYSICAL LABORATORY (NPL) (GB)",
+      "NATURAL ENVIRONMENT RESEARCH COUNCIL (GB)",
+      "STFC RUTHERFORD APPLETON LABORATORY (GB)",
+      "UNIVERSITY OF LEEDS",
+      "SCHOOL OF EARTH AND ENVIRONMENT (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2018-05-28T00:00:00Z",
+    "end_datetime": "2020-03-16T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2018-05-28T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://s3tandem.eu/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-3-tandem-for-climate-s3tc-expro/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s3-tandem-for-climate.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/s3-tandem-for-climate.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

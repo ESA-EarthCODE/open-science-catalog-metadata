@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "melt-indicator-4dantarctica",
+  "properties": {
+    "start_datetime": "2012-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T23:59:59Z",
+    "title": "MultiFrequenciesMeltIndicator_Antarctica_Multimission_2012-2022",
+    "description": "Multifrequencies melt indicator",
+    "osc:missions": [
+      "AMSR2",
+      "SMOS"
+    ],
+    "osc:project": "4DANTARCTICA",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Glacier cover",
+    "osc:status": "ONGOING",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "created": "2022-05-01T00:00:00Z",
+    "version": "1",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2012-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -80.0,
+      180.0,
+      -61.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -80.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.4d-antarctica.org/"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Access"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/melt-indicator-4dantarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-cover.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/melt-indicator-4dantarctica.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -80.0,
+    180.0,
+    -61.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Glacier cover"
+}

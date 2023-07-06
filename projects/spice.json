@@ -1,0 +1,86 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "spice",
+  "properties": {
+    "title": "SPICE",
+    "description": "Development and evaluation of novel SAR altimetry processing methodologies over ice sheets, primarily using dedicated CryoSat-2 SAR acquisitions made at several sites in Antarctica and in Greenland",
+    "osc:name": "Sentinel-3 Performance Improvement for ICE Sheets (SPICE)",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF LEEDS",
+      "SCHOOL OF EARTH AND ENVIRONMENT (GB)",
+      "CLS COLLECTE LOCALISATION SATELLITES (FR)",
+      "isardSAT UK (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2015-09-21T00:00:00Z",
+    "end_datetime": "2019-09-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2015-09-21T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.seom-spice.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-3-performance-improvement-for-ice-sheets-spice/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l3-spice.json",
+      "type": "application/json",
+      "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 3"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l1b-spice.json",
+      "type": "application/json",
+      "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 1B"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/spice.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/spice.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Cryosphere"
+}

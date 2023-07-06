@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "stokes-drift-atlantic-world-ocean-circulation",
+  "properties": {
+    "start_datetime": "2011-01-01T00:00:00Z",
+    "end_datetime": "2018-12-31T23:59:59Z",
+    "title": "Stokes drift estimation_Atlantic Ocean",
+    "description": "Stokes drift estimation for the Atlantic",
+    "osc:missions": [],
+    "osc:project": "World Ocean circulation",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Ocean surface currents (vector)",
+    "osc:status": "COMPLETED",
+    "osc:region": "Atlantic Ocean",
+    "osc:type": "Product",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -89.4913889096,
+      -57.9204174532,
+      12.2761059784,
+      49.8937187295
+    ],
+    "coordinates": [
+      [
+        [
+          -89.4913889096,
+          -57.9204174532
+        ],
+        [
+          12.2761059784,
+          -57.9204174532
+        ],
+        [
+          12.2761059784,
+          49.8937187295
+        ],
+        [
+          -89.4913889096,
+          49.8937187295
+        ],
+        [
+          -89.4913889096,
+          -57.9204174532
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/Products",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://drive.google.com/file/d/1BKXPowKI8Tpnv2zUmbd3Iy4BEG8GDG0Q/view?usp=sharing",
+      "title": "Documentation"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ocean-surface-currents-vector.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/woc.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/stokes-drift-atlantic-world-ocean-circulation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ocean-surface-currents-vector.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/stokes-drift-atlantic-world-ocean-circulation.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -89.4913889096,
+    -57.9204174532,
+    12.2761059784,
+    49.8937187295
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Ocean surface currents (vector)"
+}

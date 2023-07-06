@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "baltic-seal-sea-level",
+  "properties": {
+    "title": "BALTIC+ SEAL - Sea Level",
+    "description": "Providing a consistent description of the sea level variability in the Baltic Sea area in terms of seasonal and inter-annual variation and put the results in relationship with the forcing associated with this variability, using a developed dedicated coastal altimetry product",
+    "osc:name": "BALTIC+ SEAL - Sea Level",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Jerome Benveniste",
+      "e-mail": "jerome.benveniste@esa.int"
+    },
+    "osc:consortium": [
+      "TECHNICAL UNIVERSITY OF MUNICH (DE)",
+      "DANISH METEOROLOGICAL INSTITUTE (DK)",
+      "FINNISH METEOROLOGICAL INSTITUTE (FI)",
+      "TECHNICAL UNIVERSITY OF DENMARK (DK)",
+      "UNIVERSITY COLLEGE CORK (IE)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-02-06T00:00:00Z",
+    "end_datetime": "2020-09-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2019-02-06T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://balticseal.eu/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/baltic-seal-sea-level/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/hydrodynamic-model-baltic-seal.json",
+      "type": "application/json",
+      "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/baltic-sea-level-baltic-seal.json",
+      "type": "application/json",
+      "title": "Baltic Sea Level_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/earth-energy-imballance-baltic-seal.json",
+      "type": "application/json",
+      "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ocean-heat-content-baltic-seal.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content (GOHC)_GRACE/GRACE-FO"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/baltic-seal-sea-level.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/baltic-seal-sea-level.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

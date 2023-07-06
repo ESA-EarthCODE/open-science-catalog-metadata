@@ -1,0 +1,84 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "s2-for-land-and-water-change-detection",
+  "properties": {
+    "title": "S2 for Land and Water-Change Detection",
+    "description": "The project aims at defining the scientific methods and the related prototype algorithms for addressing three main challenges with the multispectral and multiresolution Sentinel 2 images: 1) change detection; 2) analysis of image time series; and 3) updating of land-cover maps.",
+    "osc:name": "S2 for Land and Water, Change Detection/Multi-temporal",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Espen Volden",
+      "e-mail": "espen.volden@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSIT\u00c0 DEGLI STUDI DI TRENTO (IT)",
+      "FONDAZIONE BRUNO KESSLER FBK (IT)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2015-12-01T00:00:00Z",
+    "end_datetime": "2018-04-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2015-12-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://rsde.fbk.eu/projects/esa-seom-s2-4sci-land-and-water",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-change-detection-multi-temporal/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-cover-map-italy-s24land.json",
+      "type": "application/json",
+      "title": "Land cover map_Italy_2018_S2"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/crop-map-multitemporal-s24land.json",
+      "type": "application/json",
+      "title": "Multitemporal crop map - phenological parameters and phenological parameters_Italy_2017/2018_S2"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s2-for-land-and-water-change-detection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/s2-for-land-and-water-change-detection.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Land"
+}

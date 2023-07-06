@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "swarm-vip",
+  "properties": {
+    "title": "SWARM VIP",
+    "description": "In the project Swarm satellite data and other datasets are used to determine determine the dominant scales in the ionosphere at different geomagnetic conditions and create a semi-empiric dynamic model of the ionosphere.",
+    "osc:name": "4DIONOSPHERE (SWARM VIP)",
+    "osc:themes": [
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Jerome Bouffard",
+      "e-mail": "jerome.bouffard@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF OSLO (NO)",
+      "GMV INNOVATING SOLUTIONS SP. Z O.O. (PL)",
+      "ISTITUTO NAZIONALE DI GEOFISICA E VULCANOLOGIA (IT)",
+      "NOTTINGHAM TRENT UNIVERSITY (GB)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2020-04-07T00:00:00Z",
+    "end_datetime": "2022-04-16T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2020-04-07T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.mn.uio.no/fysikk/english/research/projects/swarm-vip/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/4dionosphere/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/model-ionosphere-4dionosphere.json",
+      "type": "application/json",
+      "title": "Semi-empiric model of ionosphere processes_SWARM"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/swarm-vip.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/swarm-vip.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Magnetosphere_Ionosphere"
+}

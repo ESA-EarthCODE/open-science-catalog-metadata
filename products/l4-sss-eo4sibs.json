@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "l4-sss-eo4sibs",
+  "properties": {
+    "start_datetime": "2011-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T23:59:59Z",
+    "title": "Level 4 product SSS, 0.05\u00b0*0.0505\u00b0",
+    "description": "Multifractal fusion applied to L3 SSS.",
+    "osc:missions": [
+      "SMOS",
+      "Sentinel-2",
+      "Sentinel-3",
+      "CryoSat-2"
+    ],
+    "osc:project": "Earth Observation data For Science and Innovation in the Black Sea",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Sea surface salinity",
+    "osc:status": "COMPLETED",
+    "osc:region": "Black Sea",
+    "osc:type": "Product",
+    "created": "2021-12-31T00:00:00Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      27.5070842233,
+      40.8729622599,
+      41.8106211165,
+      47.2684228286
+    ],
+    "coordinates": [
+      [
+        [
+          27.5070842233,
+          40.8729622599
+        ],
+        [
+          41.8106211165,
+          40.8729622599
+        ],
+        [
+          41.8106211165,
+          47.2684228286
+        ],
+        [
+          27.5070842233,
+          47.2684228286
+        ],
+        [
+          27.5070842233,
+          40.8729622599
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/map/map.php?product=Sea%20Surface%20Salinity&is_netcdf=1",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/doc/EO4SIBS_DUM_ATBD_Salinity.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-surface-salinity.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/eo4sibs.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/l4-sss-eo4sibs.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-surface-salinity.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/l4-sss-eo4sibs.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    27.5070842233,
+    40.8729622599,
+    41.8106211165,
+    47.2684228286
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface salinity"
+}

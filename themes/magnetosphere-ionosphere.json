@@ -1,0 +1,503 @@
+{
+  "type": "Collection",
+  "id": "Magnetosphere_Ionosphere",
+  "stac_version": "1.0.0",
+  "description": "All magnetic objects produce invisible lines of force that extend between the poles of the object. Earth is\u00a0similar to a giant bar magnet with magnetic field lines radiating from the south\u00a0to the north magnetic pole. Charged particles become trapped on these field lines, forming the Earth's magnetosphere. However, Earth's magnetic field lines are not symmetric with respect to its magnetic axis, unlike those of a bar magnet. The impact of a continuous stream of solar particles (the solar wind) causes the lines facing the Sun to be compressed. The field lines facing away from the Sun get stretched and elongated, forming the Earth's magnetotail. The bullet shaped magnetic bubble formed by the terrestrial magnetic field lines is called the Earth's magnetosphere. The magnetosphere extends into the vacuum of space, on average, from approximately 60 000 kilometres sunward, and trails out more than 300 000 kilometres away from the Sun in the magnetotail.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/search/magnetosphere",
+      "title": "Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-earth-swarm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/costo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/vera.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/ilgew.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/swarm-outflow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/swarm-vip.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/hmf2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/vis-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-x-ray-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/radio-waves.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/nir-swir-sky-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geoid.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/nir-swir-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/alpha-particles-integral-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ionospheric-scintillation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ionospheric-vertical-total-electron-content-vtec.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/cosmic-ray-neutron-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/heliospheric-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-velocity-fields.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/gamma-ray-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-radio-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-wind-density.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/nir-swir-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-euv-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/crustal-plates-positioning.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-euv-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/aurora.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/euv-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/x-ray-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/vis-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-lyman-alpha-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/heavy-ion-differential-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/earth-rotation.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/uv-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ionospheric-plasma-velocity.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/foes.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/crustal-motion-horizontal-and-vertical.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-coronagraphic-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-radio-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electron-flux-density.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/x-ray-sky-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-radio-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-ca-ii-k-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-gamma-ray-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/h-f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/uv-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/fof2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/uv-sky-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/radiation-dose-rate.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/vis-sky-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electrostatic-charge.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/energetic-neutral-atom-ena.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-electric-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/euv-sky-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/euv-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-gamma-ray-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-lyman-alpha-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/heavy-ion-angular-flux-energy-and-mass-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geomagnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/interplanetary-magnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-h-alpha-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-wind-velocity.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/x-ray-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-vis-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ionospheric-radio-absorption.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-vis-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ionospheric-plasma-density.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electron-flux-energy-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/heavy-ion-flux-energy-and-mass-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/gamma-ray-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-uv-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electron-integral-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-white-light-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-uv-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/alpha-particles-differential-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-x-ray-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electron-density.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electron-differential-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/spread-f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-x-ray-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/cosmic-ray-neutron-flux-spectrum.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-euv-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/electric-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-uv-image.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/proton-integral-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/heavy-ion-integral-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/proton-differential-directional-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-vis-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-magnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/solar-wind-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:type": "Theme",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

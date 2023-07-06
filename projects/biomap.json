@@ -1,0 +1,71 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "biomap",
+  "properties": {
+    "title": "BiomAP",
+    "description": "The BiomAP project aims to Integrate active and passive microwave data towards a novel global record of aboveground biomass maps. This comprises an end-to-end assessment of active and passive microwave observations at coarse spatial resolution at the longest wavelengths available in space to generate global AGB estimates. This work will eventually provide a 5-years baseline, from 2015 to 2020, relevant to carbon-related studies. Global and repeated microwave observations will come from ESA (SMOS), Eumetsat (ASCAT), JAXA (AMSR2) and NASA (SMAP) missions and will be used in combination with NASA LiDAR observations (ICESat GLAS, GEDI and ICESat-2). The overarching objective of this study is to enhance the accuracy of global AGB estimates compared to existing data products and reported statistics by integrating the satellite observations currently most sensitive to the biomass stored in aboveground vegetation",
+    "osc:name": "BiomAP",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Frank Martin Seifert",
+      "e-mail": "frank.martin.seifert@esa.int"
+    },
+    "osc:consortium": [
+      "GAMMA REMOTE SENSING AG (CH)ESTELLUS SAS (FR)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2021-09-22T00:00:00Z",
+    "end_datetime": "2023-01-09T23:59:59Z",
+    "updated": "2023-07-06T09:54:22Z",
+    "datetime": "2021-09-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/biomap/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/biomap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/biomap.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Land"
+}

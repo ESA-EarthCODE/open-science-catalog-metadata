@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "total-column-h2o-hdo-clear-sky-lpf-wift",
+  "properties": {
+    "start_datetime": "2017-01-01T00:00:00Z",
+    "end_datetime": "2020-12-31T23:59:59Z",
+    "title": "HDO/H2O non-scattering product_S5p-TROPOMI",
+    "description": "total columns of H2O and HDO for clear-sky scenes",
+    "osc:missions": [
+      "Sentinel-5p"
+    ],
+    "osc:project": "WIFT: Water vapour Isotopologues From TROPOMI",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:variable": "HDO",
+    "osc:status": "ONGOING",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "created": "2019-06-11T00:00:00Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/"
+    },
+    {
+      "rel": "via",
+      "href": "ftp://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/hdo/9_1/",
+      "title": "Access"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/hdo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/lpf-wift.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/total-column-h2o-hdo-clear-sky-lpf-wift.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/hdo.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/total-column-h2o-hdo-clear-sky-lpf-wift.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "HDO"
+}

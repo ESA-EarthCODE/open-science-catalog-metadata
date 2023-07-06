@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "s5p-inno-s5p-i-oc",
+  "properties": {
+    "title": "S5p Inno - S5p-I-OC",
+    "description": "Explore the capacity of the Sentinel-5p TROPOMI data to provide novel Ocean Colour (OC) products",
+    "osc:name": "SENTINEL-5P+ INNOVATION OCEAN COLOUR (S5P+-I-OC)",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "ONGOING",
+    "osc:technical_officer": {
+      "name": "Marie-Helene Rio",
+      "e-mail": "marie-helene.rio@esa.int"
+    },
+    "osc:consortium": [
+      "ALFRED WEGENER INSTITUTE (DE)",
+      "U. LISBON (PT)",
+      "UNIVERSITAET BREMEN (DE)",
+      "UNIVERSITY OF VICTORIA (CA)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-05-29T00:00:00Z",
+    "end_datetime": "2021-06-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2019-05-29T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.awi.de/index.php?id=4087&no_cache=1&L=1",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-expro-theme-7-ocean-colour-s5p-i-oc/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/s5p-inno-s5p-i-oc.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/s5p-inno-s5p-i-oc.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

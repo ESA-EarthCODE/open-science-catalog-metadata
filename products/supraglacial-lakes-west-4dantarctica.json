@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "supraglacial-lakes-west-4dantarctica",
+  "properties": {
+    "start_datetime": "2017-01-01T00:00:00Z",
+    "end_datetime": "2017-12-31T23:59:59Z",
+    "title": "SupraglacialLake_WestAntarcticIceSheet2017_S2L8_V1.1",
+    "description": "A snapshot map of supra-glacial lakes across the West Antarctic Ice Sheet in January 2017.",
+    "osc:missions": [
+      "Seninel-2",
+      "Landsat-8"
+    ],
+    "osc:project": "4DANTARCTICA",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Glacier cover",
+    "osc:status": "COMPLETED",
+    "osc:region": "West Antarctic Ice Sheet",
+    "osc:type": "Product",
+    "created": "2021-11-03T00:00:00Z",
+    "version": "1.1",
+    "sci:doi": "10.5281/zenodo.5642755",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -144.0,
+      -78.0,
+      146.0,
+      -61.0
+    ],
+    "coordinates": [
+      [
+        [
+          -61.0,
+          -61.0
+        ],
+        [
+          -15.0,
+          -68.0
+        ],
+        [
+          146.0,
+          -78.0
+        ],
+        [
+          -144.0,
+          -69.0
+        ],
+        [
+          -61.0,
+          -61.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.4d-antarctica.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/record/5642755#.YkRp2OfMJPY",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://essd.copernicus.org/articles/14/209/2022/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.5642755"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/supraglacial-lakes-west-4dantarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/glacier-cover.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/supraglacial-lakes-west-4dantarctica.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -144.0,
+    -78.0,
+    146.0,
+    -61.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Glacier cover"
+}

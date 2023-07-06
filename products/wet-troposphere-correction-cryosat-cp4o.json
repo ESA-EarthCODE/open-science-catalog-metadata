@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "wet-troposphere-correction-cryosat-cp4o",
+  "properties": {
+    "start_datetime": "2011-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T23:59:59Z",
+    "title": "Wet Troposphere Correction_for Cryosat",
+    "description": "Wet Troposphere Correction product generated for application to Cryosat data by U Porto",
+    "osc:missions": [
+      "Cryosat"
+    ],
+    "osc:project": "CryoSat Plus For Oceans (CP4O)",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
+    "osc:region": "Global Oceans",
+    "osc:type": "Product",
+    "created": "2019-01-01T00:00:00Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Documentation"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-surface-height-anomaly.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/cryosat-oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/wet-troposphere-correction-cryosat-cp4o.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-surface-height-anomaly.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/wet-troposphere-correction-cryosat-cp4o.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface height anomaly"
+}

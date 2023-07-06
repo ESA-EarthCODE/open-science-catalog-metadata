@@ -1,0 +1,209 @@
+{
+  "type": "Collection",
+  "id": "Ice sheet topography",
+  "stac_version": "1.0.0",
+  "description": "Map of ice sheet height over land .",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/ice_sheet_topography",
+      "title": "Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-antarctica-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-shelf-antarctica-cryosmos.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-greenland-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-southern-andes-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-iceland-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-topography-elevation-change-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-russian-arctic-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/swath-elelvation-greenland-ice-sheet-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-arctic-canada-north-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/elevation-and-elevation-change-antarctic-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/surface-elevation-change-lpf-mitap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-arctic-canada-north-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-iceland-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/swath-elelvation-antarctic-ice-sheet-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-svalbard-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-svalbard-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-temperature-antarctica-cryosmos.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l3-spice.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-southern-andes-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/bedrock-topography-antarctica-cryosmos.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-greenland-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/dem-antarctica-2017-lpf-mitap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-russian-arctic-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-arctic-canada-south-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/surface-melting-antarctica-cryosmos.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-surface-melt-4dgreenland.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/hydrological-surface-features-4dgreenland.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-antarctica-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l1b-spice.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/dem-antarctica-2013-lpf-mitap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-arctic-canada-south-cryotop-evolution.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/ice-sheet-topography.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "osc:theme": "Land",
+  "osc:type": "Variable",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

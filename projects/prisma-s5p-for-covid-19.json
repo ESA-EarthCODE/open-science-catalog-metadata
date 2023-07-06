@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "prisma-s5p-for-covid-19",
+  "properties": {
+    "title": "PRISMA+S5p for COVID-19",
+    "description": "Investigate the possibility to exploit PRISMA (PRecursore IperSpettrale della Missione Applicativa, an Italian Space Agency (ASI) hyperspectral mission) fine resolution measurements together with daily S5P/TROPOMI and AERONET measurements for motoring environmental dynamics associated with COVID-19 epidemic appearance and evolution in regional scale.",
+    "osc:name": "PRISMA + S5P demonstration for COVID-19 studies",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Christian Retscher",
+      "e-mail": "christian.retscher@esa.int"
+    },
+    "osc:consortium": [
+      "GRASP-SAS (FR)",
+      "CATALYSTS GMBH (AT)",
+      "CloudFLight (DE)",
+      "CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u201a IRPI (IT)",
+      "Institute of BioEconomy (IBE)-CNR (IT)",
+      "KNMI (NL)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2020-07-24T00:00:00Z",
+    "end_datetime": "2021-06-16T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2020-07-24T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/prisma/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/prisma/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/prisma-s5p-for-covid-19.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/prisma-s5p-for-covid-19.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Atmosphere"
+}

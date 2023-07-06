@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "satellite-sar-altimeter-coastal-cp4o",
+  "properties": {
+    "start_datetime": "2012-01-01T00:00:00Z",
+    "end_datetime": "2013-12-31T23:59:59Z",
+    "title": "Satellite SAR altimeter product_Coastal Ocean_Cryosat",
+    "description": "Satellite SAR coastal altimeter product generated from Cryosat data with the ESA GPOD processor, and by CLS with the CPP",
+    "osc:missions": [
+      "Cryosat"
+    ],
+    "osc:project": "CryoSat Plus For Oceans (CP4O)",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:variable": "Sea surface height anomaly",
+    "osc:status": "ONGOING",
+    "osc:region": "Western Europe",
+    "osc:type": "Product",
+    "created": "2021-12-15T00:00:00Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2012-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -10.8098181572,
+      42.9418280224,
+      15.0300255928,
+      62.5493288536
+    ],
+    "coordinates": [
+      [
+        [
+          -10.8098181572,
+          42.9418280224
+        ],
+        [
+          15.0300255928,
+          42.9418280224
+        ],
+        [
+          15.0300255928,
+          62.5493288536
+        ],
+        [
+          -10.8098181572,
+          62.5493288536
+        ],
+        [
+          -10.8098181572,
+          42.9418280224
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data.html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/docs/readme_cpp_cnes.txt",
+      "title": "Documentation"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-surface-height-anomaly.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/cryosat-oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/satellite-sar-altimeter-coastal-cp4o.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/sea-surface-height-anomaly.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/satellite-sar-altimeter-coastal-cp4o.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -10.8098181572,
+    42.9418280224,
+    15.0300255928,
+    62.5493288536
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface height anomaly"
+}

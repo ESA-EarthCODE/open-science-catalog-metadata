@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "lithosphere-density-temperature-viscosity-goce-antarctica",
+  "properties": {
+    "start_datetime": "2009-01-01T00:00:00Z",
+    "end_datetime": "2013-12-31T23:59:59Z",
+    "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE",
+    "description": "Model of crust and upper mantle",
+    "osc:missions": [
+      "GOCE"
+    ],
+    "osc:project": "GOCE+ ANTARCTICA",
+    "osc:themes": [
+      "Solid Earth",
+      "Cryosphere"
+    ],
+    "osc:variable": "Gravity field",
+    "osc:status": "ONGOING",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "created": "2019-10-25T00:00:00Z",
+    "sci:doi": "10.1029/2019JB017997",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2009-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -80.0,
+      180.0,
+      -61.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -80.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.bas.ac.uk/project/goceantarctica/"
+    },
+    {
+      "rel": "via",
+      "href": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JB017997",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.1029/2019JB017997"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/gravity-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/goce-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/lithosphere-density-temperature-viscosity-goce-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/gravity-field.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/lithosphere-density-temperature-viscosity-goce-antarctica.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -80.0,
+    180.0,
+    -61.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Gravity field"
+}

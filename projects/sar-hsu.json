@@ -1,0 +1,161 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "sar-hsu",
+  "properties": {
+    "title": "SAR-HSU",
+    "description": "Geodetic SAR for connecting tide gauges to the GNSS network; GOCE based high resolution geoid at tide gauge stations; Compatibility of geometric and physical reference frames",
+    "osc:name": "BALTIC+ Geodetic SAR for Baltic Height System Unification (SAR-HSU)",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Nuno Miranda",
+      "e-mail": "nuno.miranda@esa.int"
+    },
+    "osc:consortium": [
+      "TECHNICAL UNIVERSITY OF MUNICH (DE)",
+      "LANTMATERIET (SE)",
+      "NLS FINNISH GEOSPATIAL RESEARCH INS (FI)",
+      "Space Research Centre",
+      "Polish Academy of Sciences (CBK-PAN) (PL)",
+      "TALLINNA TEHNIKA\u221a\u00faLIKOOL (EE)",
+      "Technical University of Denmark (DK)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-03-05T00:00:00Z",
+    "end_datetime": "2020-10-31T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2019-03-05T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.bgu.tum.de/iapg/baltic/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sar-hsu/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sar-observation-solution-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "SAR-OBS:\u00a0SAR Observation Solution_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/s1-corrections-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/tropospheric-delays-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "COR-TD:\u00a0Tropospheric Delays_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/geodynamic-corrections-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "COR-GC:\u00a0Geodynamic Corrections_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sar-positioning-solution-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "SAR-POS:\u00a0SAR Positioning Solution_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sea-surface-heights-corrected-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "TG-SSH:\u00a0Corrected Sea Surface Height at Tide Gauge Stations_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/absolute-sea-level-heights-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "SL-ABS:\u00a0Absolute Sea Level Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/electronic-delay-correction-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "COR-EC2:\u00a0ECR Electronic Delay Correction_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/gnss-positioning-solution-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "GNSS-POS:\u00a0GNSS positioning solution_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/tide-gauge-heights-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "TG-HGT: Tide Gauge Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/target-locations-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "PTA-RES:\u00a0Extracted Target Locations_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/ionospheric-delays-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/sar-raw-measurements-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "PTA-OBS:\u00a0SAR Raw Measurements_Baltics_Multimission"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/geoid-heights-baltics-sar-hsu.json",
+      "type": "application/json",
+      "title": "GEO-HGT:\u00a0Geoid Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/sar-hsu.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/sar-hsu.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Oceans"
+}

@@ -1,0 +1,110 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "subglacial-melt-4dantarctica",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Subglacial Melt",
+    "description": "Subglacial Melt Calculation for differing geothermal heat flux products",
+    "osc:missions": [],
+    "osc:project": "4DANTARCTICA",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Geothermal energy",
+    "osc:status": "ONGOING",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "version": "1",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -80.0,
+      180.0,
+      -61.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -80.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.4d-antarctica.org/"
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "title": "Access"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geothermal-energy.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/4d-antarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/subglacial-melt-4dantarctica.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/variables/geothermal-energy.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/iso/subglacial-melt-4dantarctica.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -80.0,
+    180.0,
+    -61.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Geothermal energy"
+}

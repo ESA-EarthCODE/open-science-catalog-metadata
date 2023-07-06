@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "swarm-outflow",
+  "properties": {
+    "title": "Swarm+ Outflow",
+    "description": "The Swarm+ Coupling High-Low Atmosphere Interactions: Ion Outflow (\u201cSwarm+ Outflow\u201d) project, which began in May 2019, centers on using Swarm spacecraft to tackle unanswered questions around non-thermal processes that lead to ion outflow.",
+    "osc:name": "Swarm+ Coupling High-Low Atmosphere Interactions: Ion Outflow",
+    "osc:themes": [
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:technical_officer": {
+      "name": "Roger Haagmans",
+      "e-mail": "roger.haagmans@esa.int"
+    },
+    "osc:consortium": [
+      "UNIVERSITY OF BERGEN (NO)"
+    ],
+    "osc:type": "Project",
+    "start_datetime": "2019-02-22T00:00:00Z",
+    "end_datetime": "2020-09-30T23:59:59Z",
+    "updated": "2023-07-06T10:09:23Z",
+    "datetime": "2019-02-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://swarmoutflow.w.uib.no/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/swarm-coupling-high-low-atmosphere-interactions-ion-outflow/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/cluster-swarm-b-conjunctions-ion-outflow.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm B conjunctions"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/solar-activity-polar-cap-plasma-density-ion-outflow.json",
+      "type": "application/json",
+      "title": "CHAMP and Swarm solar activity- and height-scaled polar cap plasma density measurements"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/swarm-eiscat-conjunction-list-ion-outflow.json",
+      "type": "application/json",
+      "title": "Swarm-EISCAT conjunction list (2013-2019)"
+    },
+    {
+      "rel": "item",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/products/cluster-swarm-ac-conjunctions-ion-outflow.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm A and C conjunctions"
+    },
+    {
+      "rel": "root",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/swarm-outflow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://olbys.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "iso-metadata": {
+      "href": "https://olbys.github.io/open-science-catalog-metadata/projects/iso/swarm-outflow.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "collection": "Magnetosphere_Ionosphere"
+}
