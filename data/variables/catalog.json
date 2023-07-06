@@ -1,0 +1,201 @@
+{
+  "type": "Catalog",
+  "id": "variables",
+  "stac_version": "1.0.0",
+  "description": "Geoscience, climate and environmental variables",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./aerosol-optical-depth/catalog.json",
+      "type": "application/json",
+      "title": "Aerosol Optical Depth"
+    },
+    {
+      "rel": "child",
+      "href": "./cloud-optical-depth/catalog.json",
+      "type": "application/json",
+      "title": "Cloud optical depth"
+    },
+    {
+      "rel": "child",
+      "href": "./co2-flux/catalog.json",
+      "type": "application/json",
+      "title": "CO2 flux"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal-sea-level-tide/catalog.json",
+      "type": "application/json",
+      "title": "Coastal sea level (tide)"
+    },
+    {
+      "rel": "child",
+      "href": "./colour-dissolved-organic-matter-cdom/catalog.json",
+      "type": "application/json",
+      "title": "Colour Dissolved Organic Matter (CDOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./earth-surface-short-wave-bidirectional-reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Earth surface short-wave bidirectional reflectance"
+    },
+    {
+      "rel": "child",
+      "href": "./geomagnetic-field/catalog.json",
+      "type": "application/json",
+      "title": "Geomagnetic field"
+    },
+    {
+      "rel": "child",
+      "href": "./geomagnetic-field/catalog.json",
+      "type": "application/json",
+      "title": "Geomagnetic field"
+    },
+    {
+      "rel": "child",
+      "href": "./geomagnetic-field/catalog.json",
+      "type": "application/json",
+      "title": "Geomagnetic field"
+    },
+    {
+      "rel": "child",
+      "href": "./geomagnetic-field/catalog.json",
+      "type": "application/json",
+      "title": "Geomagnetic field"
+    },
+    {
+      "rel": "child",
+      "href": "./geothermal-energy/catalog.json",
+      "type": "application/json",
+      "title": "Geothermal energy"
+    },
+    {
+      "rel": "child",
+      "href": "./gravity-field/catalog.json",
+      "type": "application/json",
+      "title": "Gravity field"
+    },
+    {
+      "rel": "child",
+      "href": "./gravity-field/catalog.json",
+      "type": "application/json",
+      "title": "Gravity field"
+    },
+    {
+      "rel": "child",
+      "href": "./hdo/catalog.json",
+      "type": "application/json",
+      "title": "HDO"
+    },
+    {
+      "rel": "child",
+      "href": "./ionospheric-plasma-density/catalog.json",
+      "type": "application/json",
+      "title": "Ionospheric plasma density"
+    },
+    {
+      "rel": "child",
+      "href": "./ionospheric-plasma-density/catalog.json",
+      "type": "application/json",
+      "title": "Ionospheric plasma density"
+    },
+    {
+      "rel": "child",
+      "href": "./ionospheric-plasma-density/catalog.json",
+      "type": "application/json",
+      "title": "Ionospheric plasma density"
+    },
+    {
+      "rel": "child",
+      "href": "./ionospheric-plasma-velocity/catalog.json",
+      "type": "application/json",
+      "title": "Ionospheric plasma velocity"
+    },
+    {
+      "rel": "child",
+      "href": "./o3-stratospheric-column/catalog.json",
+      "type": "application/json",
+      "title": "O3 Stratospheric Column"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-chlorophyll-concentration/catalog.json",
+      "type": "application/json",
+      "title": "Ocean chlorophyll concentration"
+    },
+    {
+      "rel": "child",
+      "href": "./pco2/catalog.json",
+      "type": "application/json",
+      "title": "pCO2"
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation-type-at-the-surface/catalog.json",
+      "type": "application/json",
+      "title": "Precipitation type at the surface"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-ice-cover/catalog.json",
+      "type": "application/json",
+      "title": "Sea-ice cover"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-ice-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Sea-ice elevation"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-ice-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Sea-ice elevation"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-ice-surface-characteristics/catalog.json",
+      "type": "application/json",
+      "title": "Sea-ice surface characteristics"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-ice-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Sea-ice thickness"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-surface-height-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Sea surface height anomaly"
+    },
+    {
+      "rel": "child",
+      "href": "./snow-status-wet-dry/catalog.json",
+      "type": "application/json",
+      "title": "Snow status (wet/dry)"
+    },
+    {
+      "rel": "child",
+      "href": "./solar-induced-chlorophyll-fluorescence-sif/catalog.json",
+      "type": "application/json",
+      "title": "Solar-induced chlorophyll fluorescence (SIF)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "title": "Variables"
+}

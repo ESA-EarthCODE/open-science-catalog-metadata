@@ -1,0 +1,82 @@
+{
+  "type": "Collection",
+  "id": "global-particulate-organic-carbon-v4-bicep",
+  "stac_version": "1.0.0",
+  "description": "The monthly global Particulate Organic Carbon (POC) datasets contain POC concentrations gridded on both sinusoidal (SIN) and geographic (GEO) grid projections at 4 and 9 km spatial resolution for 1997-2020. The POC datasets have been produced using the Ocean Colour Climate Change Initiative Remote Sensing Reflectance (Rrs) products, Version 4.2 and 5. The datasets include the Rrs at 443 nm and 555 nm with pixel-by-pixel uncertainty estimates for each wavelength. For more details on the algorithm and its validation, please see papers by Stramski et al. (2008) and Evers-King et al. (2017). Please note that the validation of the POC algorithm is a continuing process. To increase the accuracy of POC algorithms, further in situ POC data needs to be collected with high spatial and temporal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://bicep-project.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://catalogue.ceda.ac.uk/uuid/299b1bb28eaa440f9a36e9786adfe398",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://dx.doi.org/10.5285/d62f7f801cb54c749d20e736d4a1039f",
+      "title": "Documentation"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5285/299b1bb28eaa440f9a36e9786adfe398"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "title": "Monthly Global Particulate Organic Carbon dataset (4 km, OC-CCI v4.2)",
+  "osc:themes": [
+    "Oceans"
+  ],
+  "osc:missions": [
+    "Sentinel-3"
+  ],
+  "osc:project": "Biological Pump and Carbon Exchange Processes",
+  "osc:variables": [
+    "Colour Dissolved Organic Matter (CDOM)"
+  ],
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:standard_name": null,
+  "created": "2021-10-01T00:00:00Z",
+  "start_datetime": "1997-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T23:59:59Z",
+  "version": "4.2",
+  "sci:doi": "10.5285/299b1bb28eaa440f9a36e9786adfe398",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1997-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

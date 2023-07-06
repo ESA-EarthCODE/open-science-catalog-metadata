@@ -1,0 +1,38 @@
+{
+  "type": "Catalog",
+  "id": "cryosphere",
+  "stac_version": "1.0.0",
+  "description": "Polar regions are undergoing major and drastic changes with significant impact at global scale. Addressing this unique set of global challenges will require more than ever that scientists advance their understanding of the different drivers governing changes in Polar regions, its associated processes and its potential impacts and translate that knowledge into solutions for society, policy advice and effective mitigation and adaptation strategies. This will require a significant collaborative effort and an integrated approach to science where the synergistic use of EO satellite data, in-situ and citizen observations, advanced modelling capabilities, interdisciplinary research and new technologies will be essential elements.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Cryosphere.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/10/11/a-collaboration-on-polar-science-just-kicked-off/",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "title": "Cryosphere"
+}

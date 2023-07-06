@@ -1,0 +1,183 @@
+{
+  "type": "Catalog",
+  "id": "projects",
+  "stac_version": "1.0.0",
+  "description": "Activities funded by ESA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./3d-earth/collection.json",
+      "type": "application/json",
+      "title": "3D-EARTH"
+    },
+    {
+      "rel": "child",
+      "href": "./4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "4D-ANTARCTICA"
+    },
+    {
+      "rel": "child",
+      "href": "./4dgreenland/collection.json",
+      "type": "application/json",
+      "title": "4D-Greenland"
+    },
+    {
+      "rel": "child",
+      "href": "./4dionosphere-swarm-vip/collection.json",
+      "type": "application/json",
+      "title": "SWARM VIP"
+    },
+    {
+      "rel": "child",
+      "href": "./aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails/collection.json",
+      "type": "application/json",
+      "title": "AEOLUS+inno - SWAILS+"
+    },
+    {
+      "rel": "child",
+      "href": "./alpsnow/collection.json",
+      "type": "application/json",
+      "title": "AlpSnow"
+    },
+    {
+      "rel": "child",
+      "href": "./baltic-seal-sea-level/collection.json",
+      "type": "application/json",
+      "title": "BALTIC+ SEAL - Sea Level"
+    },
+    {
+      "rel": "child",
+      "href": "./biological-pump-and-carbon-exchange-processes/collection.json",
+      "type": "application/json",
+      "title": "BICEP"
+    },
+    {
+      "rel": "child",
+      "href": "./consistent-retrieval-of-cloud-aerosol-surface/collection.json",
+      "type": "application/json",
+      "title": "CIRCAS"
+    },
+    {
+      "rel": "child",
+      "href": "./consistent-retrieval-of-cloud-aerosol-surface/collection.json",
+      "type": "application/json",
+      "title": "CIRCAS"
+    },
+    {
+      "rel": "child",
+      "href": "./contribution-of-swarm-data-to-the-prompt-detection-of-tsunamis-and-other-natural-hazards-costo/collection.json",
+      "type": "application/json",
+      "title": "COSTO"
+    },
+    {
+      "rel": "child",
+      "href": "./cryosat-plus-for-oceans-cp4o/collection.json",
+      "type": "application/json",
+      "title": "CryoSat+ Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "./development-of-pan-european-multi-sensor-snow-mapping-methods-exploiting-sentinel-1/collection.json",
+      "type": "application/json",
+      "title": "S14Science: Snow"
+    },
+    {
+      "rel": "child",
+      "href": "./earth-observation-data-for-science-and-innovation-in-the-black-sea/collection.json",
+      "type": "application/json",
+      "title": "EO4SIBS"
+    },
+    {
+      "rel": "child",
+      "href": "./goce-antarctica/collection.json",
+      "type": "application/json",
+      "title": "GOCE+ ANTARCTICA"
+    },
+    {
+      "rel": "child",
+      "href": "./l2a-rut/collection.json",
+      "type": "application/json",
+      "title": "(LPF) L2A-RUT"
+    },
+    {
+      "rel": "child",
+      "href": "./lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas/collection.json",
+      "type": "application/json",
+      "title": "LIVAS"
+    },
+    {
+      "rel": "child",
+      "href": "./satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-3-performance-improvement-for-ice-sheets-spice/collection.json",
+      "type": "application/json",
+      "title": "SPICE"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/collection.json",
+      "type": "application/json",
+      "title": "S5p Inno - SIF"
+    },
+    {
+      "rel": "child",
+      "href": "./smos-rainfall-land/collection.json",
+      "type": "application/json",
+      "title": "SMOS+ Rainfall Land"
+    },
+    {
+      "rel": "child",
+      "href": "./stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve/collection.json",
+      "type": "application/json",
+      "title": "(LPF) SOLVE"
+    },
+    {
+      "rel": "child",
+      "href": "./swarm-coupling-high-low-atmosphere-interactions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Swarm+ Outflow"
+    },
+    {
+      "rel": "child",
+      "href": "./swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera/collection.json",
+      "type": "application/json",
+      "title": "VERA"
+    },
+    {
+      "rel": "child",
+      "href": "./the-4d-earth-swarm-project/collection.json",
+      "type": "application/json",
+      "title": "4D-Earth SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./vad3emecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/collection.json",
+      "type": "application/json",
+      "title": "(LPF) VAD3EMECUM"
+    },
+    {
+      "rel": "child",
+      "href": "./water-cycle-changes-characterised-from-atmospheric-moisture-recycling-weather/collection.json",
+      "type": "application/json",
+      "title": "(LPF) WEATHER"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "title": "Projects"
+}

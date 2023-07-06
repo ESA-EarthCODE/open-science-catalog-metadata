@@ -39,11 +39,11 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install git+https://github.com/EOEPCA/open-science-catalog-builder@9d5fadcb95a9693c4f47c732b8d2a70addf2bcd5
+          pip install git+https://github.com/olbys/open-science-catalog-builder@stac-structure --no-cache-dir
       - name: Build static catalog
         run: |
-          osc build . -o dist/ \
-            --root-href "https://eoepca.github.io/open-science-catalog-metadata/"
+          osc build data/ -o dist/ \
+            --root-href "https://olbys.github.io/open-science-catalog-metadata/"
       - name: Copying Catalog client
         run: |
           cp -r client/* dist/

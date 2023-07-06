@@ -1,0 +1,315 @@
+{
+  "type": "Catalog",
+  "id": "eo-missions",
+  "stac_version": "1.0.0",
+  "description": "Earth Obeservation Satellite Missions by ESA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./aeolus/catalog.json",
+      "type": "application/json",
+      "title": "AEOLUS"
+    },
+    {
+      "rel": "child",
+      "href": "./amsr-e/catalog.json",
+      "type": "application/json",
+      "title": "AMSR-E"
+    },
+    {
+      "rel": "child",
+      "href": "./amsr2/catalog.json",
+      "type": "application/json",
+      "title": "AMSR2"
+    },
+    {
+      "rel": "child",
+      "href": "./ascat/catalog.json",
+      "type": "application/json",
+      "title": "ASCAT"
+    },
+    {
+      "rel": "child",
+      "href": "./calipso/catalog.json",
+      "type": "application/json",
+      "title": "CALIPSO"
+    },
+    {
+      "rel": "child",
+      "href": "./champ/catalog.json",
+      "type": "application/json",
+      "title": "CHAMP"
+    },
+    {
+      "rel": "child",
+      "href": "./cryosat/catalog.json",
+      "type": "application/json",
+      "title": "CryoSat"
+    },
+    {
+      "rel": "child",
+      "href": "./cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "./earthcare/catalog.json",
+      "type": "application/json",
+      "title": "EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "./envisat/catalog.json",
+      "type": "application/json",
+      "title": "ENVISAT"
+    },
+    {
+      "rel": "child",
+      "href": "./ers-1/catalog.json",
+      "type": "application/json",
+      "title": "ERS-1"
+    },
+    {
+      "rel": "child",
+      "href": "./ers-2/catalog.json",
+      "type": "application/json",
+      "title": "ERS-2"
+    },
+    {
+      "rel": "child",
+      "href": "./gcom-w1/catalog.json",
+      "type": "application/json",
+      "title": "GCOM-W1"
+    },
+    {
+      "rel": "child",
+      "href": "./gcom-w2/catalog.json",
+      "type": "application/json",
+      "title": "GCOM-W2"
+    },
+    {
+      "rel": "child",
+      "href": "./glonas/catalog.json",
+      "type": "application/json",
+      "title": "GLONAS"
+    },
+    {
+      "rel": "child",
+      "href": "./goce/catalog.json",
+      "type": "application/json",
+      "title": "GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "./gosat/catalog.json",
+      "type": "application/json",
+      "title": "GOSAT"
+    },
+    {
+      "rel": "child",
+      "href": "./gps/catalog.json",
+      "type": "application/json",
+      "title": "GPS"
+    },
+    {
+      "rel": "child",
+      "href": "./grace/catalog.json",
+      "type": "application/json",
+      "title": "GRACE"
+    },
+    {
+      "rel": "child",
+      "href": "./grace-fo/catalog.json",
+      "type": "application/json",
+      "title": "GRACE-FO"
+    },
+    {
+      "rel": "child",
+      "href": "./icesat/catalog.json",
+      "type": "application/json",
+      "title": "ICESat"
+    },
+    {
+      "rel": "child",
+      "href": "./in-situ/catalog.json",
+      "type": "application/json",
+      "title": "In-situ"
+    },
+    {
+      "rel": "child",
+      "href": "./jason-1/catalog.json",
+      "type": "application/json",
+      "title": "Jason-1"
+    },
+    {
+      "rel": "child",
+      "href": "./jason-2/catalog.json",
+      "type": "application/json",
+      "title": "Jason-2"
+    },
+    {
+      "rel": "child",
+      "href": "./landsat/catalog.json",
+      "type": "application/json",
+      "title": "Landsat"
+    },
+    {
+      "rel": "child",
+      "href": "./landsat-8/catalog.json",
+      "type": "application/json",
+      "title": "Landsat-8"
+    },
+    {
+      "rel": "child",
+      "href": "./meris/catalog.json",
+      "type": "application/json",
+      "title": "MERIS"
+    },
+    {
+      "rel": "child",
+      "href": "./meteosat/catalog.json",
+      "type": "application/json",
+      "title": "MeteoSat"
+    },
+    {
+      "rel": "child",
+      "href": "./model/catalog.json",
+      "type": "application/json",
+      "title": "Model"
+    },
+    {
+      "rel": "child",
+      "href": "./modis/catalog.json",
+      "type": "application/json",
+      "title": "MODIS"
+    },
+    {
+      "rel": "child",
+      "href": "./msg-seviri/catalog.json",
+      "type": "application/json",
+      "title": "MSG-SEVIRI"
+    },
+    {
+      "rel": "child",
+      "href": "./msg-seviri/catalog.json",
+      "type": "application/json",
+      "title": "MSG-SEVIRI"
+    },
+    {
+      "rel": "child",
+      "href": "./oersted/catalog.json",
+      "type": "application/json",
+      "title": "OERSTED"
+    },
+    {
+      "rel": "child",
+      "href": "./omi/catalog.json",
+      "type": "application/json",
+      "title": "OMI"
+    },
+    {
+      "rel": "child",
+      "href": "./sac-c/catalog.json",
+      "type": "application/json",
+      "title": "SAC-C"
+    },
+    {
+      "rel": "child",
+      "href": "./saral-altika/catalog.json",
+      "type": "application/json",
+      "title": "SARAL/ALtiKa"
+    },
+    {
+      "rel": "child",
+      "href": "./seawifs/catalog.json",
+      "type": "application/json",
+      "title": "SeaWiFS"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "Sentinel-1"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "Sentinel-2"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "Sentinel-3"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "Sentinel-5p"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "Sentinel-6"
+    },
+    {
+      "rel": "child",
+      "href": "./smap/catalog.json",
+      "type": "application/json",
+      "title": "SMAP"
+    },
+    {
+      "rel": "child",
+      "href": "./smos/catalog.json",
+      "type": "application/json",
+      "title": "SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "./swarm/catalog.json",
+      "type": "application/json",
+      "title": "SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./tandem-x/catalog.json",
+      "type": "application/json",
+      "title": "TanDEM-X"
+    },
+    {
+      "rel": "child",
+      "href": "./terrasar-x/catalog.json",
+      "type": "application/json",
+      "title": "TerraSAR-X"
+    },
+    {
+      "rel": "child",
+      "href": "./topex-poseidon/catalog.json",
+      "type": "application/json",
+      "title": "TOPEX/Poseidon"
+    },
+    {
+      "rel": "child",
+      "href": "./viirs/catalog.json",
+      "type": "application/json",
+      "title": "VIIRS"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "title": "EO Missions"
+}

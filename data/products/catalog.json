@@ -1,0 +1,201 @@
+{
+  "type": "Catalog",
+  "id": "products",
+  "stac_version": "1.0.0",
+  "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./addit-earthquake-tsunami-tool-costo/collection.json",
+      "type": "application/json",
+      "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./baltic-sea-level-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Level_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./binary-wet-snow-s14science-snow/collection.json",
+      "type": "application/json",
+      "title": "Binary wet snow extent products"
+    },
+    {
+      "rel": "child",
+      "href": "./clima-aerosol-op-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of aerosol optical property profiles_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "./cloud-aerosol-circas/collection.json",
+      "type": "application/json",
+      "title": "Cloud and aerosol products_Regional_S3A/SLSTR"
+    },
+    {
+      "rel": "child",
+      "href": "./cluster-swarm-ac-conjunctions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm A and C conjunctions"
+    },
+    {
+      "rel": "child",
+      "href": "./geothermal-heat-flow-greenland-3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Geothermal Heat Flow Database and Map_Greenland_GOCE_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./global-particulate-organic-carbon-v4-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Particulate Organic Carbon dataset (4 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "./gross-net-carbon-flux-lpf-vad3emecum/collection.json",
+      "type": "application/json",
+      "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"
+    },
+    {
+      "rel": "child",
+      "href": "./ground-virtual-observatory-swarm-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./ice-sheet-antarctica-l1b-spice/collection.json",
+      "type": "application/json",
+      "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 1B"
+    },
+    {
+      "rel": "child",
+      "href": "./ice-sheet-surface-melt-4dgreenland/collection.json",
+      "type": "application/json",
+      "title": "Ice Sheet Surface Melt_Greenland_S-1/2"
+    },
+    {
+      "rel": "child",
+      "href": "./l2b-sif-surface-reflectance-tropomi-troposif/collection.json",
+      "type": "application/json",
+      "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "./l3-chla-daily-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 Chl-a, 300m daily and monthly"
+    },
+    {
+      "rel": "child",
+      "href": "./lidar-aerosol-aeolus-swails/collection.json",
+      "type": "application/json",
+      "title": "Lidar Aerosol Retrieval based on Information from Surface Signal of Aeolus_Global Oceans_AEOLUS"
+    },
+    {
+      "rel": "child",
+      "href": "./limb-ozone-lpf-solve/collection.json",
+      "type": "application/json",
+      "title": "IUP-OMPS L2 and L3 limb ozone data sets_Global_S2/3"
+    },
+    {
+      "rel": "child",
+      "href": "./lithosphere-density-temperature-viscosity-goce-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "./lr-satellite-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "./model-ionosphere-4dionosphere/collection.json",
+      "type": "application/json",
+      "title": "Semi-empiric model of ionosphere processes_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./radiation-budget-circas/collection.json",
+      "type": "application/json",
+      "title": "Radiation budget_Regional_S3"
+    },
+    {
+      "rel": "child",
+      "href": "./rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
+    },
+    {
+      "rel": "child",
+      "href": "./s2l2a-uncertainty-sr-lpf-l2arut/collection.json",
+      "type": "application/json",
+      "title": "S2 L2A uncertainty_Surface reflectance estimates_S2"
+    },
+    {
+      "rel": "child",
+      "href": "./snow-area-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow area extent for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./solar-activity-polar-cap-plasma-density-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "CHAMP and Swarm solar activity- and height-scaled polar cap plasma density measurements"
+    },
+    {
+      "rel": "child",
+      "href": "./subglacial-lake-drainage-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Lake Drainage and Filling_Antarctica_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./sudden-stratospheric-warming-vera/collection.json",
+      "type": "application/json",
+      "title": "Sudden Stratospheric Warming (SSW)"
+    },
+    {
+      "rel": "child",
+      "href": "./surface-ocean-pco2-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "Surface-ocean_pCO2_Global_v2021"
+    },
+    {
+      "rel": "child",
+      "href": "./swarm-eiscat-conjunction-list-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Swarm-EISCAT conjunction list (2013-2019)"
+    },
+    {
+      "rel": "child",
+      "href": "./water-vapour-isotopologues-lpf-weather/collection.json",
+      "type": "application/json",
+      "title": "GOSAT PBL XH2O and Stable Water Vapour Isotopologues_Global"
+    },
+    {
+      "rel": "child",
+      "href": "./webgeodyn-py-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Webgeodyn Python package"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "title": "Products"
+}

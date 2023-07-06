@@ -1,0 +1,38 @@
+{
+  "type": "Catalog",
+  "id": "atmosphere",
+  "stac_version": "1.0.0",
+  "description": "Trace gases are produced and destructed by physical, biological and chemical processes. This natural cycle has been perturbed over the past decades by the global population increase and by the related boost of anthropogenic activities. The composition of the atmosphere is undergoing major and rapid changes with significant impacts on a global scale, affecting the environment and human health. Funding agencies and the scientific community have been putting enormous efforts into studying the impact of these changes. Nonetheless, there is still a need to fill knowledge gaps and enhance the understanding of precursors and the formation mechanisms of the different atmospheric compounds and the relative contribution of biogenic and anthropogenic sources and sinks to their global budget. Such knowledge improvements shall serve as input for policy makers in order to adopt mitigation and adaptation strategies.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Atmosphere.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "title": "Atmosphere"
+}

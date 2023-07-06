@@ -1,0 +1,65 @@
+{
+  "type": "Collection",
+  "id": "lidar-aerosol-aeolus-swails",
+  "stac_version": "1.0.0",
+  "description": "LARISSA will provide independent AOD estimates (from the standard L2 Aeolus product) over oceans. The resulting aerosol product from LARISSA will be beneficial for various scientific applications including: a better understanding of the wind speed dependence in off-nadir ocean surface scattering in the ultraviolet; evaluation of aerosol models, where the LARISSA-based (integrated) aerosol optical depth can be used as input for data assimilation; studies of global aerosol optical properties as LARISSA will retrieve the average column lidar ratios; support of future lidar missions with nadir and non-nadir viewing angles in the UV, i.e., the EarthCARE mission lidar ATLID.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.knmiprojects.nl/projects/swails",
+      "title": "Website"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "Lidar Aerosol Retrieval based on Information from Surface Signal of Aeolus_Global Oceans_AEOLUS",
+  "osc:themes": [
+    "Atmosphere",
+    "Oceans"
+  ],
+  "osc:missions": [
+    "AEOLUS"
+  ],
+  "osc:project": "AEOLUS+ INNOVATION - STUDIES ON WIND AND AEROSOL INFORMATION FROM LIDAR SURFACE RETURNS (SWAILS+)",
+  "osc:variables": [
+    "Aerosol Optical Depth"
+  ],
+  "osc:status": "completed",
+  "osc:region": "Global Oceans",
+  "osc:type": "product",
+  "osc:standard_name": null,
+  "start_datetime": "2018-01-01T00:00:00Z",
+  "end_datetime": "2021-12-31T23:59:59Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
