@@ -46,11 +46,13 @@ jobs:
             --root-href "https://olbys.github.io/open-science-catalog-metadata/"
       - name: Copying Catalog client
         run: |
-          ls -al
-          pwd
-          ls client
-          ls dist
           cp -r client/* dist/
+          chmod 755 -R dist
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX "_site/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
