@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "oceans",
   "stac_version": "1.0.0",
-  "description": "Society is facing today a number of global environmental challenges requiring the better understanding and monitoring of the interconnected Earth System processes. Ocean is one key gearing of this complex engine. However, knowledge gaps remain in order to better understand, characterize and monitor its role in all major Earth System global cycles (e.g. water, energy, gas, and in particular carbon, momentum cycles\u00e2\u0080\u00a6). To fill these gaps, dedicated research activities are needed, embracing a large number of disciplines as physical oceanography, biogeochemistry, ecology, and further exploring the interaction of the ocean with the other components of the Earth System, in particular the atmosphere, the land, and the cryosphere. To make the best of it, this research shall be based on the optimal and synergistic exploitation of all available observing systems (EO satellite data, in-situ and citizen observations), advanced modelling capabilities, interdisciplinary research and new technologies.",
+  "description": "Ocean is defined as the mass of water occupying all of the Earth's surface not occupied by land, but excluding all lakes and inland seas. Covering some 70% of the Earthss surface, the ocean is a major driver of the world's weather and climate. It also plays a central role in climate change. The ocean is also a major driver of the global economy, carrying more than 90% of world trade and sustaining the 40% of humanity that lives within 100 km of the coast. Today, the growing impacts of climate change are making ocean observations, research and services more critical than ever before (source: https://www.eionet.europa.eu/gemet/en/concept/5789; https://public.wmo.int/en/our-mandate/focus-areas/oceans). ",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/",
+      "href": "https://www.eionet.europa.eu/gemet/en/concept/5789",
       "type": "text/html",
       "title": "Description"
     },
