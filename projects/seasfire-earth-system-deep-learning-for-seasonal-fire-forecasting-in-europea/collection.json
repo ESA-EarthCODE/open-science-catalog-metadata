@@ -32,7 +32,7 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "SeasFire",
-  "osc:name": "SeasFire: Earth System Deep learning for Seasonal Fire Forecasting in Europe\u00c2\u00a0",
+  "osc:name": "SeasFire: Earth System Deep learning for Seasonal Fire Forecasting in Europe",
   "osc:status": "ongoing",
   "osc:themes": [
     "Oceans"
