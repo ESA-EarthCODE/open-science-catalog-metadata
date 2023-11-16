@@ -1,0 +1,40 @@
+{
+    "type": "Catalog",
+    "id": "bed-elevation",
+    "stac_version": "1.0.0",
+    "description": "Elevation of the bed with respect to mean sea level.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/05e52e24-b9ac-42cf-bdf9-1dcad56900e8?gtm_keyword=BED%20ELEVATION&gtm_scheme=Earth%20Science",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "Land"
+          }
+        ]
+      }
+    ],
+    "title": "Bed Elevation"
+  }

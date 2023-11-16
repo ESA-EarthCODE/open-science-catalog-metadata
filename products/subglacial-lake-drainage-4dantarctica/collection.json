@@ -11,6 +11,12 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "child", 
+      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/subglacial-lake-drainage/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    },
+    {
       "rel": "via",
       "href": "https://4d-antarctica.org/wp-content/uploads/2021/01/Malczyk_etal_2020_data_v2.tar",
       "title": "Access"

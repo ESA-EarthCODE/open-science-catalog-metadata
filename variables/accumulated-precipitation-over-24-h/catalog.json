@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "accumulated-precipitation-over-24-h",
+  "stac_version": "1.0.0",
+  "description": "Integration of precipitation rate reaching the ground over several time intervals. The reference requirement refers to integration over 24 h",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/accumulated_precipitation_over_24_h",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Accumulated precipitation (over 24 h)"
+}

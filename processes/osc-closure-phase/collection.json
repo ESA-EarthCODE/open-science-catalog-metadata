@@ -1,0 +1,54 @@
+{
+    "type": "Collection",
+    "id": "insar-clos-wf-1",
+    "stac_version": "1.0.0",
+    "description": "Computes the inSAR closure phase from 3 Sentinel-1 SLCs acquisitions.",
+    "license": "Unknown",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://owncloud.spaceapplications.com/owncloud/index.php/s/iCk60Kmry77o2l6/download",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Processes"
+      }
+    ],
+    "stac_extensions": [],
+    "title": "inSAR Closure Phase",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            null,
+            null
+          ]
+        ]
+      }
+    },
+    "assets": {
+      "cwl": {
+          "href": "./osc-closure-phase-0.2.0.cwl",
+          "title": "CWL File",
+          "type": "application/x-yaml"
+      }
+    }
+  }

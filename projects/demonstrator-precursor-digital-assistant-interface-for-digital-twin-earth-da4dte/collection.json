@@ -12,6 +12,11 @@
     },
     {
       "rel": "via",
+      "href": "https://www.bifold.berlin/news-events/news/view/news-detail/da4dte-pioneering-satellite-data-archives-with-a-revolutionary-digital-assistant-133",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
       "href": "https://eo4society.esa.int/projects/da4dte/",
       "title": "EO4Society Link"
     },
@@ -40,7 +45,7 @@
       "role": "technical_officer",
       "emails": [
         {
-          "value": "nicolas.longepe@esa.int."
+          "value": "nicolas.longepe@esa.int"
         }
       ]
     },

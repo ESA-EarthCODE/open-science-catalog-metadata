@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "nimbus-7",
+    "stac_version": "1.0.0",
+    "description": "Launched in October 1978, Nimbus-7 was the seventh and final mission in the Nimbus series of research and development satellites designed and developed collaboratively by the National Aerospace and Space Administration (NASA) and the National Oceanic and Atmospheric Administration (NOAA). Nimbus-7 served as a stabilised platform for the testing of advanced systems for sensing and collecting data in atmospheric, oceanographic and meteorological disciplines until October 1994.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=351",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "Nimbus-7"
+  }

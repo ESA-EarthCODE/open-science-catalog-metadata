@@ -1,0 +1,21 @@
+{
+  "type": "Catalog",
+  "id": "saral-altika",
+  "stac_version": "1.0.0",
+  "description": "SARAL/ALtiKa",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "title": "SARAL/ALtiKa"
+}

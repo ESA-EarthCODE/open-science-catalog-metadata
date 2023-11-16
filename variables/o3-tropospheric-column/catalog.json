@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "o3-tropospheric-column",
+  "stac_version": "1.0.0",
+  "description": "2D field of total amount of O3 (ozone) molecules per unit area in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the to the tropopause",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/o3_tropospheric_column",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "O3 Tropospheric Column"
+}

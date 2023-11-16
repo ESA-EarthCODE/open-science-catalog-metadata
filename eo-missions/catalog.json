@@ -303,6 +303,60 @@
       "href": "./topex-poseidon/catalog.json",
       "type": "application/json",
       "title": "TOPEX/Poseidon"
+    },
+    {
+      "rel": "child",
+      "href": "./alos/catalog.json",
+      "type": "application/json",
+      "title": "ALOS"
+    },
+    {
+      "rel": "child",
+      "href": "./alos-2/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-2"
+    },
+    {
+      "rel": "child",
+      "href": "./alos-4/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-4"
+    },
+    {
+      "rel": "child",
+      "href": "./cosmo-skymed/catalog.json",
+      "type": "application/json",
+      "title": "COSMO-SkyMed"
+    },
+    {
+      "rel": "child",
+      "href": "./cosmo-skymed-2/catalog.json",
+      "type": "application/json",
+      "title": "COSMO-SkyMed 2"
+    },
+    {
+      "rel": "child",
+      "href": "./radarsat-1/catalog.json",
+      "type": "application/json",
+      "title": "RADARSAT-1"
+    },
+    {
+      "rel": "child",
+      "href": "./radarsat-2/catalog.json",
+      "type": "application/json",
+      "title": "RADARSAT-2"
+    },
+    {
+      "rel": "child",
+      "href": "./nimbus-7/catalog.json",
+      "type": "application/json",
+      "title": "Nimbus-7"
+    },
+    {
+      "rel": "child",
+      "href": "./dmsp/catalog.json",
+      "type": "application/json",
+      "title": "DMSP-Defense Meteorological Satellite Program Block 5D"
     }
   ],
   "title": "EO Missions"

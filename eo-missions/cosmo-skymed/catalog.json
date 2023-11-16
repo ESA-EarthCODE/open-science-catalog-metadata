@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "cosmo-skymed",
+    "stac_version": "1.0.0",
+    "description": "COSMO-SkyMed (Constellation of Small Satellites for Mediterranean basin Observation) is a 4 spacecraft constellation, with the first two launched in 2007, and the remaining two launched in 2008 and 2010 respectively. The mission is jointly funded by the Italian Ministry of Research and the Italian Ministry of Defence , and  developed by Agenzia Spaziale Italiana (ASI), for the purpose of both military and civil (research and commercial) data use. Starting in 2018, COSMO-SkyMed Second Generation (CSG) has provided continuity for COSMO-SkyMed.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=395",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "COSMO-SkyMed"
+  }

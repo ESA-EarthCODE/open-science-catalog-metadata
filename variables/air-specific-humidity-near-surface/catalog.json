@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "air-specific-humidity-near-surface",
+  "stac_version": "1.0.0",
+  "description": "Air specific humidity\u00c2\u00a0 at a known height\u00c2\u00a0 above surface, with the height specified in the metadata. Specific\u00c2\u00a0 humidity is the ratio of the mass of water vapour and the mass of moist air.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/air_specific_humidity_near_surface",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Air specific humidity (near surface)"
+}

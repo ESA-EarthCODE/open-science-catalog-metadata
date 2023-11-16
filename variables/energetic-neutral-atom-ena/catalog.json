@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "energetic-neutral-atom-ena",
+  "stac_version": "1.0.0",
+  "description": "Neutral atoms resulting from the capture of free electrons by positively ionized nuclei of the solar wind.\u00c2\u00a0 Once neutralised, the particles are no longer deviated by the interplanetary magnetic field, and still move very fast, travelling in an exact straight line.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/energetic_neutral_atom_ena",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Magnetosphere_Ionosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Energetic Neutral Atom (ENA)"
+}

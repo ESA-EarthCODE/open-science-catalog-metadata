@@ -15,6 +15,24 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./sleeper/collection.json",
+      "type": "application/json",
+      "title": "Sleeper application"
+    },
+    {
+      "rel": "child",
+      "href": "./insar-closure-phase/collection.json",
+      "type": "application/json",
+      "title": "Insar closure phase application"
+    },
+    {
+      "rel": "child",
+      "href": "./osc-closure-phase/collection.json",
+      "type": "application/json",
+      "title": "inSAR Closure Phase application"
     }
   ],
   "title": "Processes"

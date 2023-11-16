@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "alos-4",
+    "stac_version": "1.0.0",
+    "description": "The Advanced Land Observing Satellite-4 (ALOS-4) is a Japanese Aerospace Exploration Agency (JAXA) mission aimed at observing and monitoring disaster-hit areas, forests, sea-ice, and monitoring infrastructure displacement. Planned for launch by March 2023, ALOS-4 will replace the current ALOS-2 mission and will have an improved sensor.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=861",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "ALOS-4"
+  }

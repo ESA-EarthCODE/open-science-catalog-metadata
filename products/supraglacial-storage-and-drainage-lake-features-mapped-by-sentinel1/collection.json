@@ -25,6 +25,12 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "child",
+      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DGreenland/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/catalog.json",
+      "type": "application/json",
+      "title": "Items"
     }
   ],
   "stac_extensions": [

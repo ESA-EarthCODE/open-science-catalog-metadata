@@ -1,0 +1,54 @@
+{
+    "type": "Collection",
+    "id": "insar-closure-phase-1",
+    "stac_version": "1.0.0",
+    "description": "Insar closure phase.",
+    "license": "Unknown",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://gitlab.com/app-packages/terradue/insar-closure-phase/insar-closure-phase-app/-/raw/main/insar-closure-phase.cwl",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Processes"
+      }
+    ],
+    "stac_extensions": [],
+    "title": "insar-closure-phase",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            null,
+            null
+          ]
+        ]
+      }
+    },
+    "assets": {
+      "cwl": {
+          "href": "./insar-closure-phase.cwl",
+          "title": "CWL File",
+          "type": "application/x-yaml"
+      }
+    }
+  }

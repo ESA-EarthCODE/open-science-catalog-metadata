@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "fraction-of-absorbed-par-fapar",
+  "stac_version": "1.0.0",
+  "description": "Fraction of PAR absorbed by vegetation (land or marine) for photosynthesis processes (generally around the 'red' )",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/fraction_of_absorbed_par_fapar",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ]
+    }
+  ],
+  "title": "Fraction of Absorbed PAR (FAPAR)"
+}

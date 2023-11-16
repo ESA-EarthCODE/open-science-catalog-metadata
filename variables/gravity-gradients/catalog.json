@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "gravity-gradients",
+  "stac_version": "1.0.0",
+  "description": "Gradient of the Earth\u00e2\u20ac\u2122s gravity field measured at the satellite orbital height - Physical unit: [ E ] , E\u00c3\u00b6tv\u00c3\u00b6s (1 E = 1 mGal / 10 km) - Accuracy unit: [ E ].",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/gravity_gradients",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Solid Earth"
+        }
+      ]
+    }
+  ],
+  "title": "Gravity gradients"
+}

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polar-ice-shelf",
   "stac_version": "1.0.0",
-  "description": "Exploiting the 25-year record of ESA satellite observations, including SMOS, S-1, S-2, and swath mode processed CryoSat-2 data, to produce a comprehensive record of ice shelf change that extends the temporal coverage and improves the spatial resolution with which we can study Antarctic Ice Shelves",
+  "description": "The European Space Agency (ESA) Polar+ Ice Shelves project exploits the 25-year record of ESA satellite observations to generate new measurements of ice shelf thickness change, ice speed, crack propagation, area change, and surface and basal melt across Antarctic Ice Shelves. These new datasets will reveal small scale ice shelf features such as the propagation of cracks along the ice shelf surface, deep sub-shelf meltwater channels that can erode ice locally by up to 200 meters, and changes in the calving front and grounding line location. These datasets will improve our understanding of the way in which ice shelves around Antarctica are changing today, which we will use to discover new insights about the physical mechanisms driving change and affecting the future stability of ice shelves in this remote and inaccessible continent.",
   "links": [
     {
       "rel": "root",
@@ -31,8 +31,8 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "Polar+ Ice Shelf",
-  "osc:name": "Polar+ Ice Shelf",
+  "title": "Polar+ Ice Shelves",
+  "osc:name": "Polar+ Ice Shelves",
   "osc:status": "ongoing",
   "osc:themes": [
     "Cryosphere"

@@ -30,6 +30,12 @@
     },
     {
       "rel": "child",
+      "href": "./4datlantic-ebus-primus/collection.json",
+      "type": "application/json",
+      "title": "4DATLANTIC EBUS PRIMUS"
+    },
+    {
+      "rel": "child",
       "href": "./4d-greenland/collection.json",
       "type": "application/json",
       "title": "4D-Greenland"
@@ -686,7 +692,7 @@
       "rel": "child",
       "href": "./polar-ice-shelf/collection.json",
       "type": "application/json",
-      "title": "Polar+ Ice Shelf"
+      "title": "Polar+ Ice Shelves"
     },
     {
       "rel": "child",
@@ -762,7 +768,7 @@
     },
     {
       "rel": "child",
-      "href": "./seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europea/collection.json",
+      "href": "./seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe/collection.json",
       "type": "application/json",
       "title": "SeasFire"
     },
@@ -801,6 +807,12 @@
       "href": "./sentinel-3-hydrologic-altimetry-processor-prototype-shape/collection.json",
       "type": "application/json",
       "title": "SHAPE"
+    },
+    {
+      "rel": "child",
+      "href": "./so-fresh/collection.json",
+      "type": "application/json",
+      "title": "SO-FRESH"
     },
     {
       "rel": "child",

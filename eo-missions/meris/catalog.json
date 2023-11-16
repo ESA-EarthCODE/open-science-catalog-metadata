@@ -1,0 +1,21 @@
+{
+  "type": "Catalog",
+  "id": "meris",
+  "stac_version": "1.0.0",
+  "description": "MERIS",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "title": "MERIS"
+}

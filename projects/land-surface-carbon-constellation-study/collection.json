@@ -16,6 +16,11 @@
       "title": "Website"
     },
     {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/land-surface-carbon-constellation-study/",
+      "title": "EO4Society Link"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

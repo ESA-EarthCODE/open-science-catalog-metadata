@@ -11,6 +11,12 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "child",
+      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/LPF-ArcticSummit-IT/sea-ice-phys-ocean-lpf-arcticsummit/2010/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    },
+    {
       "rel": "via",
       "href": "https://data.bas.ac.uk/full-record.php?id=GB/NERC/BAS/PDC/01257",
       "title": "Access"

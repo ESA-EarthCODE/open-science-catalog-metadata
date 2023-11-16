@@ -1,0 +1,82 @@
+{
+    "type": "Collection",
+    "id": "ice-temperature-profiles-antarctica",
+    "stac_version": "1.0.0",
+    "description": "The product “internal ice-sheet temperature” is composed by maps of internal temperature for the regions in which the Robin model is valid D5-2 [RD.9] along with the relative uncertainty estimation and a map of the quality of the estimation. It is obtained by using the IFAC-processor whose algorithm is described in D5-2 [RD.9]. It should be noted here that the product is experimental and is intended for scientific reasons. It is worth to recall here that the uncertainty related to the ice-sheet internal temperature estimate is due to both surface temperature and ice thickness uncertainty. Since the error associated to the surface temperature data cannot be provided all over the continent due to the scarcity of ground measurements (see D2 [RD.4]), the uncertainty is the one related to the ice thickness measurements. The coverage is limited to Antarctica. The data contained in the product are georeferenced over the EASEGrid2 Southern Hemisphere Azimuthal. Overall the dimension of the map are 200x224 pixels. The spatial resolution is 25 km x 25 km.The product is on the EASEGrid2 grid in the Southern Hemisphere Azimuthal projection. Latitude and longitude coordinates are provided inside of the file. As pointed out in the ATBD (D5-2), the internal ice-sheet temperature product is static and is expected to change over centennial time scale. The product is build from the L3 SMOS brightness temperature in average over 2013-2014. Description of the L3 SMOS product is in Al Bitar et al. (2017).",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "child",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/ice-temperature-profiles-antarctica/catalog.json",
+        "type": "application/json",
+        "title": "Items"
+      },
+      {
+        "rel": "via",
+        "href": "https://data.catds.fr/cecsm/Cryo_products/IceSheet_InternalTemperature/SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.nc",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://data.catds.fr/cecsm/Cryo_products/CryoSMOS_D8_EDUM_V2.0.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "Ice temperature profiles",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:missions": [
+        "SMOS"
+    ],
+    "osc:project": "4D-ANTARCTICA",
+    "osc:variables": [
+      "Ice Temperature"
+    ],
+    "osc:status": "completed",
+    "osc:region": "Antarctica",
+    "osc:type": "product",
+    "osc:standard_name": "ice-temperature-profiles-antarctica",
+    "created": "2019-10-15T00:00:00Z",
+    "version": "2.0",
+    "sci:doi": "10.1016/j.rse.2019.111405",
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2014-12-31T23:59:59Z",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -83.0,
+            180.0,
+            -63.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2013-01-01T00:00:00Z",
+            "2014-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Sea Ice",
+      "Ice Temperature"
+    ]
+  }

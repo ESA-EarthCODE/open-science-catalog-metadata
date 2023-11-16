@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "radarsat-2",
+    "stac_version": "1.0.0",
+    "description": "RADARSAT-2, the successor to RADARSAT-1, is a commercial radar imaging satellite providing continuity in data collection for environmental monitoring, natural resource management, and coastal surveillance.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=352",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "RADARSAT-2"
+  }

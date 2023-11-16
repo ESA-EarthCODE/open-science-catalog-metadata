@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "radarsat-1",
+    "stac_version": "1.0.0",
+    "description": "Launched in November 1995 from Vandenberg Air Force Base in California, RADARSAT-1 was the first commercial Earth observation mission of the Canadian Space Agency (CSA), and was developed in cooperation with Canadian provincial governments and the private sector. It used a microwave radar sensor to monitor environmental changes and Earth’s natural resources, with applications in agriculture, land cover monitoring, forestry, disaster management, interferometry, cartography, hydrology, oceanography, ice studies and coastal monitoring. RADARSAT-1 was operational for 17 years and was decommissioned in March 2013.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.eoportal.org/satellite-missions/radarsat-1",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "RADARSAT-1"
+  }

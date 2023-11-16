@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "c5h12-2-methylbutane",
+  "stac_version": "1.0.0",
+  "description": "3D field of dry air mole fraction of\u00c2\u00a0C5H12 (2-Methylbutane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/c5h12_2_methylbutane",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "C5H12 (2-Methylbutane)"
+}

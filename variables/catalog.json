@@ -384,6 +384,12 @@
     },
     {
       "rel": "child",
+      "href": "./basal-melt-rate/catalog.json",
+      "type": "application/json",
+      "title": "Basal Melt Rate"
+    },
+    {
+      "rel": "child",
       "href": "./bathymetry/catalog.json",
       "type": "application/json",
       "title": "Bathymetry"
@@ -513,6 +519,12 @@
       "href": "./buoy-position/catalog.json",
       "type": "application/json",
       "title": "Buoy Position"
+    },
+    {
+      "rel": "child",
+      "href": "./burned-area/catalog.json",
+      "type": "application/json",
+      "title": "Burned Area"
     },
     {
       "rel": "child",
@@ -3540,6 +3552,12 @@
     },
     {
       "rel": "child",
+      "href": "./runoff/catalog.json",
+      "type": "application/json",
+      "title": "Runoff"
+    },
+    {
+      "rel": "child",
       "href": "./sahel-standardized-rainfall/catalog.json",
       "type": "application/json",
       "title": "Sahel Standardized Rainfall"
@@ -4242,6 +4260,12 @@
     },
     {
       "rel": "child",
+      "href": "./subglacial-lake/catalog.json",
+      "type": "application/json",
+      "title": "Subglacial Lake"
+    },
+    {
+      "rel": "child",
       "href": "./sublimation/catalog.json",
       "type": "application/json",
       "title": "Sublimation"
@@ -4569,6 +4593,12 @@
       "href": "./total-precipitable-water/catalog.json",
       "type": "application/json",
       "title": "Total Precipitable Water"
+    },
+    {
+      "rel": "child",
+      "href": "./total-runoff/catalog.json",
+      "type": "application/json",
+      "title": "Total Runoff"
     },
     {
       "rel": "child",
@@ -5061,6 +5091,24 @@
       "href": "./zooplankton/catalog.json",
       "type": "application/json",
       "title": "Zooplankton"
+    },
+    {
+      "rel": "child",
+      "href": "./bed-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Bed Elevation"
+    },
+    {
+      "rel": "child",
+      "href": "./grounding-line/catalog.json",
+      "type": "application/json",
+      "title": "Grounding Line"
+    },
+    {
+      "rel": "child",
+      "href": "./glacier-melt/catalog.json",
+      "type": "application/json",
+      "title": "Glacier Melt"
     }
   ],
   "title": "Variables"

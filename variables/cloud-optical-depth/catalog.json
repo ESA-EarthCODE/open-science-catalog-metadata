@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "cloud-optical-depth",
+  "stac_version": "1.0.0",
+  "description": "Effective depth of a cloud from the viewpoint of radiation extinction. OD = exp(-K.\u00ce\u201dz) where K is the extinction coefficient [km-1 ], \u00ce\u201dz the vertical path [km] between the base and the top of the cloud and the reference wavelength to be specified in the metadata.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/cloud_optical_depth",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Cloud optical depth"
+}

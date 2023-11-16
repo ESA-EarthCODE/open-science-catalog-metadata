@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "wave-1d-energy-frequency-spectrum",
+  "stac_version": "1.0.0",
+  "description": "1D variable colloquially referred to as \u00e2\u20ac\u0153wave spectrum\u00e2\u20ac\u009d. Describes the wave energy in each frequency band (e.g. 25 frequency bands) regardless of the direction of propagation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/wave_1d_energy_frequency_spectrum",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "title": "Wave 1D energy frequency spectrum"
+}

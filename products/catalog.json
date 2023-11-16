@@ -24,6 +24,12 @@
     },
     {
       "rel": "child",
+      "href": "./basal-melt-monthly/collection.json",
+      "type": "application/json",
+      "title": "Basal Melt (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
+      "rel": "child",
       "href": "./addit-earthquake-tsunami-tool-costo/collection.json",
       "type": "application/json",
       "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
@@ -75,6 +81,12 @@
       "href": "./baltic-sea-surface-salinity-l4-baltic-salinity-dynamics/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Surface Salinity L4 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./basin-runoff-sur-water/collection.json",
+      "type": "application/json",
+      "title": "Basin Run Off and Surface Water (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "child",
@@ -333,6 +345,12 @@
       "href": "./export-production-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Export Production based on Dunne et al 2005 dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "./firn-retention/collection.json",
+      "type": "application/json",
+      "title": "Firn Retention (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "child",
@@ -1104,6 +1122,12 @@
     },
     {
       "rel": "child",
+      "href": "./seasfire-cube/collection.json",
+      "type": "application/json",
+      "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System"
+    },
+    {
+      "rel": "child",
       "href": "./sea-surface-salinity-arctic-salinity/collection.json",
       "type": "application/json",
       "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS"
@@ -1314,6 +1338,12 @@
     },
     {
       "rel": "child",
+      "href": "./subglacial-lake-volumes/collection.json",
+      "type": "application/json",
+      "title": "Sublacial Lake Volumes (ESA POLAR+ 4D Greenland Experimantal Dataset"
+    },
+    {
+      "rel": "child",
       "href": "./subglacial-melt-maps/collection.json",
       "type": "application/json",
       "title": "Subglacial Melt Maps"
@@ -1419,6 +1449,12 @@
       "href": "./total-ozone-anreo/collection.json",
       "type": "application/json",
       "title": "Total ozone product from OLCI / S-3_Antarctica _S3"
+    },
+    {
+      "rel": "child",
+      "href": "./total-basin-runoff/collection.json",
+      "type": "application/json",
+      "title": "Total Basin Run Off (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "child",
@@ -1545,7 +1581,68 @@
       "href": "./wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Wind stress vector (& anomalies)_Hourly_ERA5"
+    },
+    {
+      "rel": "child",
+      "href": "./antarctic-ice-shelf-calving-fronts/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    },
+    {
+      "rel": "child",
+      "href": "./antarctic-ice-shelf-melt-rates/collection.json",
+      "type": "application/json",
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+    },
+    {
+      "rel": "child",
+      "href": "./bedrock-topography-antarctica-bedmachine/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+    },
+    {
+      "rel": "child",
+      "href": "./ice-temperature-profiles-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    },
+    {
+      "rel": "child",
+      "href": "./ice-sheet-velocity-antarctic-2021/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+    },
+    {
+      "rel": "child",
+      "href": "./grounding-line-position-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2"
+    },
+    {
+      "rel": "child",
+      "href": "./melt-extent-stage-maps-daily-antarctic/collection.json",
+      "type": "application/json",
+      "title": "Antarctic daily melt extent/stage maps from 2007-2021 from the ASCAT"
+    },
+    {
+      "rel": "child",
+      "href": "./sec-antarctic-ice-sheet/collection.json",
+      "type": "application/json",
+      "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
+    },
+    {
+      "rel": "child",
+      "href": "./surface-melt-antarctic-ice-sheet-1979-2021/collection.json",
+      "type": "application/json",
+      "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)"
+    },
+    {
+      "rel": "child",
+      "href": "./southern-ocean-sit-from-cryosat-2/collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean sea ice thickness from CryoSat-2"
     }
+
   ],
   "title": "Products"
 }

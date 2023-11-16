@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "cloud-ice-effective-radius",
+  "stac_version": "1.0.0",
+  "description": "Size distribution of ice particles, assimilated to spheres of the same volume.  Considered as both a 3D field throughout the troposphere and a 2D field at the top of cloud surface",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/cloud_ice_effective_radius",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Cloud ice effective radius"
+}

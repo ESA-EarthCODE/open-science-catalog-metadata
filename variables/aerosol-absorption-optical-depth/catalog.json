@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "aerosol-absorption-optical-depth",
+  "stac_version": "1.0.0",
+  "description": "Vertical column integral of spectral aerosol absorption coefficient: AAOD = exp(-K. \u00ce\u201dz) where K is the absorption coefficient [km-1] and \u00ce\u201dz the vertical path [km]",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/aerosol_absorption_optical_depth",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Aerosol Absorption Optical Depth"
+}

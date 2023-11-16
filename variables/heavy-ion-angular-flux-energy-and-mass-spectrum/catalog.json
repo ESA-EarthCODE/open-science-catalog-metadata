@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "heavy-ion-angular-flux-energy-and-mass-spectrum",
+  "stac_version": "1.0.0",
+  "description": "Flux density energy and mass spectrum of heavy ions ranging from Helium to Iron, per unit solid angle",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/heavy_ion_angular_flux_energy_and_mass_spectrum",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Magnetosphere_Ionosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Heavy ion angular flux energy and mass spectrum"
+}

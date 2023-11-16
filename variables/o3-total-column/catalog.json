@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "o3-total-column",
+  "stac_version": "1.0.0",
+  "description": "2D field of total amount\u00c2\u00a0of O3 molecules per unit area \u00c2\u00a0in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the upper edge of the atmosphere (Dobson units).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/o3_total_column",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "O3 Total Column"
+}

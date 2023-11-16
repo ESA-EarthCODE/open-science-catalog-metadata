@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "precipitation-intensity-at-surface-solid",
+  "stac_version": "1.0.0",
+  "description": "Intensity of solid precipitation reaching the ground - Physical unit: [ mm/h ] (mm of liquid water after melting)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/precipitation_intensity_at_surface_solid",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Precipitation intensity at surface (solid)"
+}

@@ -1,0 +1,40 @@
+{
+    "type": "Catalog",
+    "id": "grounding-line",
+    "stac_version": "1.0.0",
+    "description": "Marks the locations where said glaciers become anchored on bedrock (i.e., the estimated coastline underneath the ice).",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/929f60ff-f938-48b0-86fd-c5c8c071c4bd?gtm_keyword=GROUNDING%20LINE&gtm_scheme=Earth%20Science",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "Cryosphere"
+          }
+        ]
+      }
+    ],
+    "title": "Grounding Line"
+  }

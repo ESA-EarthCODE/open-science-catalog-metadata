@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "relative-humidity",
+  "stac_version": "1.0.0",
+  "description": "3D field of relative humidity in the atmosphere. Relative humidity is the ratio of the amount of atmospheric moisture present relative to the amount that would be present if the air were saturated with respct to water or ice to be specified in the metadata",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/relative_humidity",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Relative humidity"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "soil-moisture-in-the-roots-region",
+  "stac_version": "1.0.0",
+  "description": "Sub-soil 3D field of the fractional content of water in a volume of wet soil. Requested from surface down to ~ 3 m",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/soil_moisture_in_the_roots_region",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ]
+    }
+  ],
+  "title": "Soil moisture  (in the roots region)"
+}

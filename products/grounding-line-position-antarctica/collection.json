@@ -1,0 +1,83 @@
+{
+    "type": "Collection",
+    "id": "grounding-line-position-antarctica",
+    "stac_version": "1.0.0",
+    "description": "This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, provides 22 years of comprehensive high-resolution mapping of grounding lines in Antarctica from 1992 to 2014. The data were derived using differential satellite synthetic aperture radar interferometry (DInSAR) measurements from the following platforms: Earth Remote Sensing Satellites 1 and 2 (ERS-1 and ERS-2), RADARSAT-1, RADARSAT-2, the Advanced Land Observing System Phased Array type L-band Synthetic Aperture Radar (ALOS PALSAR), Cosmo Skymed, and Copernicus Sentinel-1.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://n5eil01u.ecs.nsidc.org/MEASURES/NSIDC-0498.002/",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://nsidc.org/sites/default/files/nsidc-0498-v002-userguide_1.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:missions": [
+        "ALOS",
+        "COSMO-SkyMed",
+        "ERS-1",
+        "ERS-2", 
+        "RADARSAT-1",
+        "RADARSAT-2",
+        "Sentinel-1"
+    ],
+    "osc:project": "4D-ANTARCTICA",
+    "osc:variables": [
+      "Grounding Line"
+    ],
+    "osc:status": "ongoing",
+    "osc:region": "Antarctica",
+    "osc:type": "product",
+    "osc:standard_name": "grounding-line-position",
+    "created": "2019-02-25T00:00:00Z",
+    "version": "2.0",
+    "sci:doi": "10.5067/IKBWW4RYHF1Q",
+    "start_datetime": "1992-02-07T00:00:00Z",
+    "end_datetime": "2014-12-17T23:59:59Z",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -90.0,
+            180.0,
+            -60.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "1992-02-07T00:00:00Z",
+            "2014-12-17T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Glaciers/Ice Sheets",
+      "Glaciers",
+      "Grounding Line"
+    ]
+  }

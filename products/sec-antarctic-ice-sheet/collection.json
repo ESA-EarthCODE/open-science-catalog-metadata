@@ -1,0 +1,81 @@
+{
+    "type": "Collection",
+    "id": "sec-antarctic-ice-sheet",
+    "stac_version": "1.0.0",
+    "description": "The change in surface elevation of the Antarctic grounded ice sheet is measured from all available ESA Radar Altimetry missions (ERS-1, ERS-2, ENVISAT, CryoSat-2, Sentinel-3A, and Sentinel-3B) from 1991 to 2021. We provide netCDF products of gridded surface elevation change at 5km resolution for every 5-year period between 1991 and 2021 (stepped by 1-year), and also for the full period of each altimetry mission.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "http://www.cpom.ucl.ac.uk/csopr/icesheets3/index.php?sec_type=download",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "http://www.cpom.ucl.ac.uk/csopr/icesheets2/",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:missions": [
+        "ERS-1",
+        "ERS-2", 
+        "ENVISAT", 
+        "CryoSat-2", 
+        "Sentinel-3"
+    ],
+    "osc:project": "4D-ANTARCTICA",
+    "osc:variables": [
+        "Glacier Elevation/Ice Sheet Elevation"
+    ],
+    "osc:status": "ongoing",
+    "osc:region": "Antarctica",
+    "osc:type": "product",
+    "osc:standard_name": "sec-antarctic-ice-sheet",
+    "created": "2021-05-21T00:00:00Z",
+    "start_datetime": "1991-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T23:59:59Z",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -90.0,
+            180.0,
+            -60.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "1991-01-01T00:00:00Z",
+            "2021-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+        "Glaciers/Ice Sheets",
+        "Glacier Elevation/Ice Sheet Elevation",
+        "Cryospheric Indicators",
+        "Glacial Measurements",
+        "Sea Ice"
+    ]
+  }

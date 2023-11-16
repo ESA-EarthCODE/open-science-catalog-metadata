@@ -1,0 +1,40 @@
+{
+    "type": "Catalog",
+    "id": "glacier-melt",
+    "stac_version": "1.0.0",
+    "description": "Mass lost by a glacier due to melting.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/6bd14a79-ac70-4f99-9107-a4c036d33bd7?gtm_keyword=GLACIER%20MELT&gtm_scheme=Earth%20Science",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "Cryosphere"
+          }
+        ]
+      }
+    ],
+    "title": "Glacier Melt"
+  }

@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "earth-surface-short-wave-bidirectional-reflectance",
+  "stac_version": "1.0.0",
+  "description": "Reflectance of the Earth surface as a function of the viewing angle and the illumination angle in the range 0.4-0.7 . The distribution of this variable is represented by the Bidirectional Reflectance Distribution Function (BRDF)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://space.oscar.wmo.int/variables/view/earth_surface_short_wave_bidirectional_reflectance",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Earth surface short-wave bidirectional reflectance"
+}

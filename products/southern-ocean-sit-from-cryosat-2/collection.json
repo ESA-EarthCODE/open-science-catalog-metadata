@@ -1,0 +1,87 @@
+{
+    "type": "Collection",
+    "id": "southern-ocean-sit-from-cryosat-2",
+    "stac_version": "1.0.0",
+    "description": "Sea ice thickness derived from CryoSat-2 estimates of radar freeboard combined with the Altimetric Snow Depth (ASD) snow solution. ASD utilises data from SARAL AltiKa and CryoSat-2 to estimate the depth of snow on sea ice floes.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "child", 
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/cryosat-antarctic-ocean/southern-ocean-SIT-CryoSat-2/catalog.json",
+        "type": "application/json",
+        "title": "Items"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.aviso.altimetry.fr/en/data/products/ice-products/altimetry-sea-ice-products-from-ctoh.html",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.mdpi.com/2072-4292/14/19/4741",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "Southern Ocean sea ice thickness from CryoSat-2",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:missions": [
+        "CryoSat-2"
+    ],
+    "osc:project": "Cryosat+ Antarctic Ocean",
+    "osc:variables": [
+      "Snow Depth",
+      "Freeboard",
+      "Ice Depth/Thickness"
+    ],
+    "osc:status": "completed",
+    "osc:region": "Antarctica",
+    "osc:type": "product",
+    "osc:standard_name": "ice-sheet-velocity-antarctic-2021",
+    "created": "2022-08-22T00:00:00Z",
+    "version": "1.0",
+    "start_datetime": "2002-10-15T00:00:00Z",
+    "end_datetime": "2018-10-16T23:59:59Z",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -90.0,
+            180.0,
+            -63.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2002-10-15T00:00:00Z",
+            "2018-10-16T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+        "Snow/Ice",
+        "Snow Depth",
+        "Cryospheric Indicators",
+        "Sea Ice",
+        "Freeboard",
+        "Ice Depth/Thickness"
+    ]
+  }

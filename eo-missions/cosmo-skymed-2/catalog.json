@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "cosmo-skymed-2",
+    "stac_version": "1.0.0",
+    "description": "The COSMO-SkyMed Second Generation (CSG) is due to be a constellation of 4 satellites, aimed at enhancing the quality and capability of imaging of the original 4-spacecraft COSMO-SkyMed constellation (CSK). The satellites, each with a design life of 7 years, were developed by the Agenzia Spaziale Italiana (ASI) with funding from the Italian Ministry of Defense and the Italian Ministry of Research for both military and civil use. The first two satellites were launched in 2019 and 2022, with the remaining two due to be launched in 2024 and 2025.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=526",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "COSMO-SkyMed 2"
+  }

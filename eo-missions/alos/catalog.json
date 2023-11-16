@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "alos",
+    "stac_version": "1.0.0",
+    "description": "Launched in January 2006 and decommissioned in April 2011, ALOS (Advanced Land Observing Satellite), also known as Daichi, was a Japanese Earth observation mission. Developed by JAXA (Japan Aerospace Exploration Agency), the mission's objectives called for high-resolution microwave imagery, for applications in cartographic mapping, regional observation, disaster monitoring and resource surveying. ALOS carried three instruments, PRISM (Panchromatic Remote-sensing Instrument for Stereo Mapping), AVNIR-2 (Advanced Visible and Near Infrared Radiometer 2) and PALSAR (Phased Array L-band Synthetic Aperture Radar). PRISM was a panchromatic radiometer that aimed to collect high-resolution stereo data for cartographic applications, while AVNIR-2 was a multispectral optical imager that aimed to monitor regional environmental land coverage and land use. PALSAR was a Synthetic Aperture Radar (SAR) instrument capable of dual-polarisation, with applications in resource exploration and environmental protection.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.eoportal.org/satellite-missions/alos",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "ALOS"
+  }

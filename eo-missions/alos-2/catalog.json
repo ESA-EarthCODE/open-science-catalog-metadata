@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "alos-2",
+    "stac_version": "1.0.0",
+    "description": "ALOS-2 features an imaging microwave radar, PALSAR-2 (Phased Array type L-band Synthetic Aperture Radar-2); and a multi-purpose imaging vis/IR (visual/infrared) radiometer, CIRC (Compact InfraRed Camera). PALSAR-2 monitors Japanese natural disasters, land and agriculture, and also explores natural resources in the ground and seabeds of Japan. The instrument also monitors forests to contribute to global warming issues on an international scale. CIRC measures land surface temperature, and therefore also acts as a detector of active fires.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=629",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "ALOS-2"
+  }
