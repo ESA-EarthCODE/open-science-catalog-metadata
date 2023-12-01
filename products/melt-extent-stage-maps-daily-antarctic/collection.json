@@ -11,6 +11,12 @@
         "title": "Open Science Catalog"
       },
       {
+        "rel": "child",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/melt-extent-stage-maps-daily-antarctica/2007/catalog.json",
+        "type": "application/json",
+        "title": "Daily melt extent/stage maps: 2007-01"
+      },
+      {
         "rel": "via",
         "href": "https://cryoportal.enveo.at/data_files/4DAntarctica_AIS-ASCAT-melt_maps.1.0_20230130.zip",
         "title": "Access"
