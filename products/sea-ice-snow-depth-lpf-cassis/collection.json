@@ -28,7 +28,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea ice freeboard and thickness_TFMRA50 and ASD snow depth_Antarctic_CryoSat-2/SARAL",
   "osc:themes": [
@@ -38,25 +39,31 @@
     "CryoSat-2",
     "SARAL"
   ],
-  "osc:project": "CASSIS (Climate Altimetric Studies with Sea Ice and Snow)",
+  "osc:project": "lpf-cassis",
   "osc:variables": [
     "Ice Depth/Thickness",
     "Freeboard"
   ],
   "osc:status": "ongoing",
-  "osc:region": "Antarctica",
   "osc:type": "product",
-  "osc:standard_name": "sea_ice_freeboard_and_thickness_snow_depth",
+  "cf:parameter": [
+    {
+      "name": "sea_ice_freeboard_and_thickness_snow_depth"
+    }
+  ],
+  "osc:region": "Antarctica",
   "created": "2020-01-01T00:00:00Z",
   "start_datetime": "2013-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -80.0,
-        180.0,
-        -61.0
+        [
+          -180.0,
+          -80.0,
+          180.0,
+          -61.0
+        ]
       ]
     },
     "temporal": {

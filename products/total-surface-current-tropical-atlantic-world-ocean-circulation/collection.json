@@ -23,30 +23,37 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Total surface current_Tropical Atlantic",
   "osc:themes": [
     "Oceans"
   ],
   "osc:missions": [],
-  "osc:project": "World Ocean circulation",
+  "osc:project": "woc",
   "osc:variables": [
     "Surface Currents"
   ],
   "osc:status": "planned",
-  "osc:region": "Tropical Atlantic",
   "osc:type": "product",
-  "osc:standard_name": "total_surface_current",
+  "cf:parameter": [
+    {
+      "name": "total_surface_current"
+    }
+  ],
+  "osc:region": "Tropical Atlantic",
   "start_datetime": "2018-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -89.4913889096,
-        -0.4101314918,
-        12.2761059784,
-        20.4479407425
+        [
+          -89.4913889096,
+          -0.4101314918,
+          12.2761059784,
+          20.4479407425
+        ]
       ]
     },
     "temporal": {

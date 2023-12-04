@@ -11,7 +11,7 @@
         "title": "Open Science Catalog"
       },
       {
-        "rel": "child", 
+        "rel": "child",
         "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/cryosat-antarctic-ocean/southern-ocean-SIT-CryoSat-2/catalog.json",
         "type": "application/json",
         "title": "Items"
@@ -34,14 +34,15 @@
       }
     ],
     "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "title": "Southern Ocean sea ice thickness from CryoSat-2",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:missions": [
-        "CryoSat-2"
+      "CryoSat-2"
     ],
     "osc:project": "Cryosat+ Antarctic Ocean",
     "osc:variables": [
@@ -52,7 +53,11 @@
     "osc:status": "completed",
     "osc:region": "Antarctica",
     "osc:type": "product",
-    "osc:standard_name": "ice-sheet-velocity-antarctic-2021",
+    "cf:parameter": [
+      {
+        "name": "ice-sheet-velocity-antarctic-2021"
+      }
+    ],
     "created": "2022-08-22T00:00:00Z",
     "version": "1.0",
     "start_datetime": "2002-10-15T00:00:00Z",
@@ -60,10 +65,12 @@
     "extent": {
       "spatial": {
         "bbox": [
+          [
             -180.0,
             -90.0,
             180.0,
             -63.0
+          ]
         ]
       },
       "temporal": {

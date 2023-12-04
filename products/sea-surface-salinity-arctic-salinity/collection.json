@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea-surface-salinity-arctic-salinity",
   "stac_version": "1.0.0",
-  "description": "Arctic sea surface salinity retrieved from SMOS, spatial resolution 0.25 deg (EASE grid 2.0), temporal resolution 9-day maps generated daily. The product contains the following data: i) sea surface salinity (p.s.u), ii) sea surface salinity uncertainty (p.s.u), and iii) sea surface salinity anomaly (p.s.u): difference between sea surface salinity provided by SSS field and the annual sea surface salinity provided by WOA 2018 A5B7. Product version 3.1.  The product will be freely distributed at the BEC webpage http://bec.icm.csic.es and at the project webpage https://arcticsalinity.argans.co.uk.",
+  "description": "Arctic sea surface salinity retrieved from SMOS, spatial resolution 0.25 deg (EASE grid 2.0), temporal resolution 9-day maps generated daily. The product contains the following data: i) sea surface salinity (p.s.u), ii) sea surface salinity uncertainty (p.s.u), and iii) sea surface salinity anomaly (p.s.u) : difference between sea surface salinity provided by SSS field and the annual sea surface salinity provided by WOA 2018 A5B7. Product version 3.1.  The product will be freely distributed at the BEC webpage http://bec.icm.csic.es and at the project webpage https://arcticsalinity.argans.co.uk.",
   "links": [
     {
       "rel": "root",
@@ -32,7 +32,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS",
@@ -43,14 +44,18 @@
   "osc:missions": [
     "SMOS"
   ],
-  "osc:project": "Arctic + Salinity",
+  "osc:project": "arctic-salinity",
   "osc:variables": [
     "Sea Surface Salinity"
   ],
   "osc:status": "ongoing",
-  "osc:region": "Arctic",
   "osc:type": "product",
-  "osc:standard_name": "sea_surface_salinity",
+  "cf:parameter": [
+    {
+      "name": "sea_surface_salinity"
+    }
+  ],
+  "osc:region": "Arctic",
   "created": "2021-01-21T00:00:00Z",
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
@@ -59,10 +64,12 @@
   "extent": {
     "spatial": {
       "bbox": [
-        -178.4105321808,
-        60.6134006095,
-        178.3660428163,
-        84.2454100786
+        [
+          -178.4105321808,
+          60.6134006095,
+          178.3660428163,
+          84.2454100786
+        ]
       ]
     },
     "temporal": {

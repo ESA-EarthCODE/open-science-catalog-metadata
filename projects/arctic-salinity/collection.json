@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "arctic-salinity",
   "stac_version": "1.0.0",
-  "description": "Sea Surface Salinity (SSS) is a key indicator of the freshwater fluxes and an important variable to understand the changes the Arctic is facing. However, salinity in-situ measurements are very sparse in the Arctic region. For this reason, remote sensing salinity measurements (currently provided by L-band radiometry satellites, SMOS and SMAP) are of special relevance for this region. The retrieval of SSS in the Arctic represents a challenge, because brightness temperatures measured by L-band satellites are less sensitive to salinity in cold waters. An additional drawback consists in the presence of sea ice, that contaminates the brightness temperature and must be adequately processed. The ESA Arctic+ Salinity project (Dec 2018 – June 2020) will contribute to reduce the knowledge gap in the characterization of the freshwater flux changes in the Arctic region.",
+  "description": "Sea Surface Salinity (SSS) is a key indicator of the freshwater fluxes and an important variable to understand the changes the Arctic is facing. However, salinity in-situ measurements are very sparse in the Arctic region. For this reason, remote sensing salinity measurements (currently provided by L-band radiometry satellites, SMOS and SMAP) are of special relevance for this region. The retrieval of SSS in the Arctic represents a challenge, because brightness temperatures measured by L-band satellites are less sensitive to salinity in cold waters. An additional drawback consists in the presence of sea ice, that contaminates the brightness temperature and must be adequately processed. The ESA Arctic+ Salinity project (Dec 2018  June 2020) will contribute to reduce the knowledge gap in the characterization of the freshwater flux changes in the Arctic region.",
   "links": [
     {
       "rel": "root",
@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "Arctic + Salinity",

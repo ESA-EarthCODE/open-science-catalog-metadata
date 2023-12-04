@@ -28,18 +28,19 @@
       }
     ],
     "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet",
     "osc:themes": [
       "Cryosphere"
     ],
     "osc:missions": [
-        "ERS-1",
-        "ERS-2", 
-        "ENVISAT", 
-        "CryoSat-2", 
-        "Sentinel-3"
+      "ERS-1",
+      "ERS-2",
+      "ENVISAT",
+      "CryoSat-2",
+      "Sentinel-3"
     ],
     "osc:project": "4D-ANTARCTICA",
     "osc:variables": [
@@ -48,17 +49,23 @@
     "osc:status": "ongoing",
     "osc:region": "Antarctica",
     "osc:type": "product",
-    "osc:standard_name": "sec-antarctic-ice-sheet",
+    "cf:parameter": [
+      {
+        "name": "sec-antarctic-ice-sheet"
+      }
+    ],
     "created": "2021-05-21T00:00:00Z",
     "start_datetime": "1991-01-01T00:00:00Z",
     "end_datetime": "2021-12-31T23:59:59Z",
     "extent": {
       "spatial": {
         "bbox": [
+          [
             -180.0,
             -90.0,
             180.0,
             -60.0
+          ]
         ]
       },
       "temporal": {

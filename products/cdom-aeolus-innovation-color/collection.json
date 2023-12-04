@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Chromophoric Dissolved Organic Matter (CDOM) absorption_Global_AEOLUS",
   "osc:themes": [
@@ -32,21 +33,27 @@
   "osc:missions": [
     "AEOLUS"
   ],
-  "osc:project": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
+  "osc:project": "aeolus-inno-color",
   "osc:variables": [
     "Colored Dissolved Organic Matter"
   ],
   "osc:status": "planned",
-  "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "chromophoric_dissolved_organic_matter",
+  "cf:parameter": [
+    {
+      "name": "chromophoric_dissolved_organic_matter"
+    }
+  ],
+  "osc:region": "Global",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {

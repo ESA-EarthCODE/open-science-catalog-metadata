@@ -34,7 +34,8 @@
       }
     ],
     "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3",
     "osc:themes": [
@@ -51,7 +52,11 @@
     "osc:status": "ongoing",
     "osc:region": "Antarctica",
     "osc:type": "product",
-    "osc:standard_name": "bedrock-topography-antarctica-bedmachine",
+    "cf:parameter": [
+      {
+        "name": "bedrock-topography-antarctica-bedmachine"
+      }
+    ],
     "created": "2022-10-11T00:00:00Z",
     "version": "3.0",
     "sci:doi": "10.5067/FPSU0V1MWUB6",
@@ -60,10 +65,12 @@
     "extent": {
       "spatial": {
         "bbox": [
+          [
             180.0,
             -53.0,
             -180.0,
             -90.0
+          ]
         ]
       },
       "temporal": {
