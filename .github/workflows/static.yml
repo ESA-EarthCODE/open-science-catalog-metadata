@@ -31,11 +31,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       # Fix timestamps
       - name: restore timestamps
         uses: chetan/git-restore-mtime-action@v1
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
       - name: Install dependencies
         run: |
           pip install -U pip
@@ -43,7 +43,7 @@ jobs:
       - name: Build static catalog
         run: |
           osc build . -o dist/ \
-            --root-href "https://eoepca.github.io/open-science-catalog-metadata/"
+            --root-href "https://eoepca.github.io/open-science-catalog-metadata-staging/"
       - name: Copying Catalog client
         run: |
           cp -r client/* dist/
@@ -55,5 +55,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-
-
