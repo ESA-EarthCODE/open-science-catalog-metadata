@@ -2,7 +2,7 @@
 
 ## About Open Science Catalog
 
-The Open Science Data Catalog([https://opensciencedata.esa.int](https://opensciencedata.esa.int/)) is an ESA Open Science activity aiming to provide enhance the discoverability and use of the various scientific and value-added results (i.e. data, code, documentation) achieved in Earth System Science research activities funded by ESA Earth Observation. The Open Science Data Catalog provides open access for the scientific community to geoscience products (based on EO data from ESA and non-ESA missions and other geospatial information and models) across the whole spectrum of Earth Science domains. 
+The Open Science Data Catalog ([https://opensciencedata.esa.int](https://opensciencedata.esa.int/)) is an ESA Open Science activity aiming to provide enhance the discoverability and use of the various scientific and value-added results (i.e. data, code, documentation) achieved in Earth System Science research activities funded by ESA Earth Observation. The Open Science Data Catalog provides open access for the scientific community to geoscience products (based on EO data from ESA and non-ESA missions and other geospatial information and models) across the whole spectrum of Earth Science domains. 
 The Open Science Data Catalog adheres to FAIR principles and promotes reproducibility of scientific studies. The Open Science Data Catalog makes use of various Open-Source geospatial technologies such as pycsw, PySTAC, and OpenLayers and tries to contribute back to these projects in terms of software and standardisation.
 
 Discover Open Science Data Catalog and access products and project's description at[: Open Science Data Catalog](https://opensciencedata.esa.int/).
@@ -11,7 +11,7 @@ Open Science Data Catalog documentation contains:
 
 - The User Guide - Starting point for New Users and Contributors
 - Release Notes
-- [Operators Guide(https://github.com/EOEPCA/open-science-catalog-metadata/wiki/Operators-guide-%E2%80%90-v1.0.0)]
+- [Operators Guide](https://github.com/EOEPCA/open-science-catalog-metadata/wiki/Operators-guide-%E2%80%90-v1.0.0)
 
 ### Functionalities
 
