@@ -11,7 +11,7 @@ Open Science Data Catalog documentation contains:
 
 - The User Guide - Starting point for New Users and Contributors
 - Release Notes
-- Operator's Guide
+- [Operators Guide(https://github.com/EOEPCA/open-science-catalog-metadata/wiki/Operators-guide-%E2%80%90-v1.0.0)]
 
 ### Functionalities
 
