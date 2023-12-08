@@ -9,7 +9,7 @@ Discover Open Science Data Catalog and access products and project's description
 
 Open Science Data Catalog documentation contains:
 
-- The User Guide - Starting point for New Users and Contributors
+- The [User Guide](https://github.com/EOEPCA/open-science-catalog-metadata/wiki/User-Guide%E2%80%90v.1.0.0) - Starting point for New Users and Contributors
 - [Release Notes](https://github.com/EOEPCA/open-science-catalog-metadata/wiki/Release-notes-%E2%80%90-v.1.0.0)
 - [Operators Guide](https://github.com/EOEPCA/open-science-catalog-metadata/wiki/Operators-guide-%E2%80%90-v1.0.0)
 
