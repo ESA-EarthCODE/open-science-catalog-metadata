@@ -932,7 +932,7 @@
       "rel": "child",
       "href": "./so-fresh/collection.json",
       "type": "application/json",
-      "title": "SO-FRESH"
+      "title": "Southern Ocean Freshwater (SO-FRESH)"
     },
     {
       "rel": "child",
@@ -1023,6 +1023,48 @@
       "href": "./xorn/collection.json",
       "type": "application/json",
       "title": "XORN"
+    },
+    {
+      "rel": "child",
+      "href": "./aeolus-innovation-aeurs-expro-lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/collection.json",
+      "type": "application/json",
+      "title": "AEOLUS+inno - LISA"
+    },
+    {
+      "rel": "child",
+      "href": "./aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect/collection.json",
+      "type": "application/json",
+      "title": "AEOLUS+inno - SEA-FLECT"
+    },
+    {
+      "rel": "child",
+      "href": "./southern-ocean-freshwater-so-fresh/collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean Freshwater (SO-FRESH)"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-5p-innovation-aeurs-water-vapour-isotopologues-h2o-iso/collection.json",
+      "type": "application/json",
+      "title": "S5p Inno - H2O-ISO"
+    },
+    {
+      "rel": "child",
+      "href": "./explainable-ai-application-to-trustworthy-super-resolution-opensr/collection.json",
+      "type": "application/json",
+      "title": "OpenSR"
+    },
+    {
+      "rel": "child",
+      "href": "./stse-arctic-theme-5-aeur-contributions-to-the-year-of-polar-predictions-yopp/collection.json",
+      "type": "application/json",
+      "title": "STSE-ARCTIC+"
+    },
+    {
+      "rel": "child",
+      "href": "./arctic-theme-3-aeur-fresh-water-fluxes/collection.json",
+      "type": "application/json",
+      "title": "ArcFlux"
     },
     {
       "rel": "parent",
