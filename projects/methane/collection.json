@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "Methane+",
@@ -53,7 +53,7 @@
       "role": "consortium_member"
     },
     {
-      "name": "Laboratoire de M\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0082\u00c2\u00a9t\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0082\u00c2\u00a9orologie Dynamique:FX:Conseil (FR)",
+      "name": "Laboratoire de MÃ¢ËÅ¡ÃÂ©tÃ¢ËÅ¡ÃÂ©orologie Dynamique:FX:Conseil (FR)",
       "role": "consortium_member"
     },
     {

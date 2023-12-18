@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "EO based Color Disolved Organic Matter_Baltics_S3",
   "osc:themes": [
@@ -33,24 +34,30 @@
   "osc:missions": [
     "Sentinel-3"
   ],
-  "osc:project": "BALTIC+ Sea-Land biogeochemical linkages (SeaLaBio)",
+  "osc:project": "baltic-sea-land",
   "osc:variables": [
     "Colored Dissolved Organic Matter"
   ],
   "osc:status": "ongoing",
-  "osc:region": "Baltics",
   "osc:type": "product",
-  "osc:standard_name": "mass_fraction_of_dissolved_organic_matter",
+  "cf:parameter": [
+    {
+      "name": "mass_fraction_of_dissolved_organic_matter"
+    }
+  ],
+  "osc:region": "Baltics",
   "created": "2020-09-17T00:00:00Z",
   "start_datetime": "2017-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        9.3738792631,
-        53.90254289,
-        32.9925362748,
-        66.2654700409
+        [
+          9.3738792631,
+          53.90254289,
+          32.9925362748,
+          66.2654700409
+        ]
       ]
     },
     "temporal": {

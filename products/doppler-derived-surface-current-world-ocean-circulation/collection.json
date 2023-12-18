@@ -28,31 +28,38 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Doppler derived surface current_Agulhas_S1",
   "osc:themes": [
     "Oceans"
   ],
   "osc:missions": [],
-  "osc:project": "World Ocean circulation",
+  "osc:project": "woc",
   "osc:variables": [
     "Surface Currents"
   ],
   "osc:status": "ongoing",
-  "osc:region": "Agulhas",
   "osc:type": "product",
-  "osc:standard_name": "doppler_derived_surface_current",
+  "cf:parameter": [
+    {
+      "name": "doppler_derived_surface_current"
+    }
+  ],
+  "osc:region": "Agulhas",
   "created": "2021-11-30T00:00:00Z",
   "start_datetime": "2019-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        19.9931766896,
-        -34.845355958,
-        20.0417410996,
-        -34.8205312217
+        [
+          19.9931766896,
+          -34.845355958,
+          20.0417410996,
+          -34.8205312217
+        ]
       ]
     },
     "temporal": {

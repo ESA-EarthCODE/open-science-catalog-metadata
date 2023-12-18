@@ -28,7 +28,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Level 4 Ocean Colour products Chl-a, 300m, daily",
   "osc:themes": [
@@ -40,24 +41,30 @@
     "Sentinel-3",
     "CryoSat-2"
   ],
-  "osc:project": "Earth Observation data For Science and Innovation in the Black Sea",
+  "osc:project": "eo4sibs",
   "osc:variables": [
     "Chlorophyll Concentration"
   ],
   "osc:status": "completed",
-  "osc:region": "Black Sea",
   "osc:type": "product",
-  "osc:standard_name": "mass_concentration_of_chlorophyll_in_sea_water",
+  "cf:parameter": [
+    {
+      "name": "mass_concentration_of_chlorophyll_in_sea_water"
+    }
+  ],
+  "osc:region": "Black Sea",
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2016-04-01T00:00:00Z",
   "end_datetime": "2017-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        27.5070842233,
-        40.8729622599,
-        41.8106211165,
-        47.2684228286
+        [
+          27.5070842233,
+          40.8729622599,
+          41.8106211165,
+          47.2684228286
+        ]
       ]
     },
     "temporal": {

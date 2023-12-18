@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "IUP-OMPS L2 and L3 limb ozone data sets_Global_S2/3",
   "osc:themes": [
@@ -33,22 +34,28 @@
     "Sentinel-2",
     "Sentinel-3"
   ],
-  "osc:project": "Stratospheric ozone from limb observations: validation of the profiles, evaluation of trends and their dynamical and chemical drivers (SOLVE)",
+  "osc:project": "lpf-solve",
   "osc:variables": [
     "Total Ozone"
   ],
   "osc:status": "ongoing",
-  "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "limb_ozone",
+  "cf:parameter": [
+    {
+      "name": "limb_ozone"
+    }
+  ],
+  "osc:region": "Global",
   "created": "2013-12-30T00:00:00Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {

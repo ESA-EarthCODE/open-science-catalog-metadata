@@ -11,22 +11,10 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
-    },
-    {
-      "rel": "child",
-      "href": "./basal-melt-monthly/collection.json",
-      "type": "application/json",
-      "title": "Basal Melt (ESA POLAR+ 4D Greenland Experimental Dataset)"
+      "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -39,12 +27,6 @@
       "href": "./aerosol-dust-mass-op-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol and Dust aerosol optical property profiles_Dust mass concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
-    },
-    {
-      "rel": "child",
-      "href": "./aerosol-dust-od-livas/collection.json",
-      "type": "application/json",
-      "title": "Aerosol (and dust aerosol) optical depth, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
     },
     {
       "rel": "child",
@@ -272,13 +254,13 @@
       "rel": "child",
       "href": "./dem-antarctica-2013-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2013_Antarctica_TanDEM-X"
+      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
       "href": "./dem-antarctica-2017-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2017_Antarctica_TanDEM-X"
+      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
@@ -326,7 +308,7 @@
       "rel": "child",
       "href": "./electronic-delay-correction-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-EC2: ECR Electronic Delay Correction_Baltics_Multimission"
+      "title": "COR-EC2: ECR Electronic Delay Correction_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -356,7 +338,7 @@
       "rel": "child",
       "href": "./geodynamic-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
+      "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -368,7 +350,7 @@
       "rel": "child",
       "href": "./geoid-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "GEO-HGT: Geoid Heights_Baltics_Multimission"
+      "title": "GEO-HGT: Geoid Heights_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -392,7 +374,7 @@
       "rel": "child",
       "href": "./glacier-mass-balance-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Geodetic glacier mass balances Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
@@ -428,7 +410,7 @@
       "rel": "child",
       "href": "./gnss-positioning-solution-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
+      "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -560,19 +542,19 @@
       "rel": "child",
       "href": "./ionospheric-delays-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission"
+      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
     },
     {
       "rel": "child",
       "href": "./l2-smos-sss-daily-ascending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Ascending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily"
+      "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily"
     },
     {
       "rel": "child",
       "href": "./l2-smos-sss-daily-descending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Descending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily"
+      "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily"
     },
     {
       "rel": "child",
@@ -608,7 +590,7 @@
       "rel": "child",
       "href": "./l3-sss-9day-average-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 3 SSS, 0.25\u00b0*0.25\u00b0, 9-day averaged produced daily"
+      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
     },
     {
       "rel": "child",
@@ -626,25 +608,25 @@
       "rel": "child",
       "href": "./l4-dynamic-topography-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
+      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "child",
       "href": "./l4-geostrophic-currents-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
+      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "child",
       "href": "./l4-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
+      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "child",
       "href": "./l4-sss-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4 product SSS, 0.05\u00b0*0.0505\u00b0"
+      "title": "Level 4 product SSS, 0.05°*0.0505°"
     },
     {
       "rel": "child",
@@ -992,7 +974,7 @@
       "rel": "child",
       "href": "./s1-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission"
+      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -1004,19 +986,19 @@
       "rel": "child",
       "href": "./sar-observation-solution-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "SAR-OBS: Observation Solution_Baltics_Multimission"
+      "title": "SAR-OBS: SAR Observation Solution_Baltics_Multimission"
     },
     {
       "rel": "child",
       "href": "./sar-positioning-solution-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "SAR-POS: SAR Positioning Solution_Baltics_Multimission"
+      "title": "SAR-POS: SAR Positioning Solution_Baltics_Multimission"
     },
     {
       "rel": "child",
       "href": "./sar-raw-measurements-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "PTA-OBS: SAR Raw Measurements_Baltics_Multimission"
+      "title": "PTA-OBS: SAR Raw Measurements_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -1118,13 +1100,7 @@
       "rel": "child",
       "href": "./sea-surface-heights-corrected-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "TG-SSH: Corrected Sea Surface Height at Tide Gauge Stations_Baltics_Multimission"
-    },
-    {
-      "rel": "child",
-      "href": "./seasfire-cube/collection.json",
-      "type": "application/json",
-      "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System"
+      "title": "TG-SSH: Corrected Sea Surface Height at Tide Gauge Stations_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -1143,6 +1119,12 @@
       "href": "./sea-surface-salinity-godae-oceanview/collection.json",
       "type": "application/json",
       "title": "Sea Surface Salinity Bias_Global_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "./seasfire-cube/collection.json",
+      "type": "application/json",
+      "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System"
     },
     {
       "rel": "child",
@@ -1370,7 +1352,7 @@
       "rel": "child",
       "href": "./surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
@@ -1412,7 +1394,7 @@
       "rel": "child",
       "href": "./target-locations-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "PTA-RES: Extracted Target Locations_Baltics_Multimission"
+      "title": "PTA-RES: Extracted Target Locations_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -1434,6 +1416,12 @@
     },
     {
       "rel": "child",
+      "href": "./total-basin-runoff/collection.json",
+      "type": "application/json",
+      "title": "Total Basin Run Off (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
+      "rel": "child",
       "href": "./total-column-h2o-hdo-clear-sky-lpf-wift/collection.json",
       "type": "application/json",
       "title": "HDO/H2O non-scattering product_S5p-TROPOMI"
@@ -1452,12 +1440,6 @@
     },
     {
       "rel": "child",
-      "href": "./total-basin-runoff/collection.json",
-      "type": "application/json",
-      "title": "Total Basin Run Off (ESA POLAR+ 4D Greenland Experimental Dataset)"
-    },
-    {
-      "rel": "child",
       "href": "./total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Total surface current_North-Atlantic"
@@ -1472,7 +1454,7 @@
       "rel": "child",
       "href": "./tropospheric-delays-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-TD: Tropospheric Delays_Baltics_Multimission"
+      "title": "COR-TD: Tropospheric Delays_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -1641,8 +1623,19 @@
       "href": "./southern-ocean-sit-from-cryosat-2/collection.json",
       "type": "application/json",
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "./basal-melt-monthly/collection.json",
+      "type": "application/json",
+      "title": "Basal Melt (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     }
-
   ],
   "title": "Products"
 }

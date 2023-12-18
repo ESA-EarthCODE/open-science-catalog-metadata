@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea-surface-salinity-godae-oceanview",
   "stac_version": "1.0.0",
-  "description": "Data assimilation of Soil Moisture and Ocean Salinity (SMOS) observations into the Mercator Ocean operational system: focus on the El Nino 2015 event. To access the data: mailto:btranchant@groupcls.com",
+  "description": "Data assimilation of Soil Moisture and Ocean Salinity (SMOS) observations into the Mercator Ocean operational system: focus on the El NiÃÂ±o 2015 event. To access the data: mailto:btranchant@groupcls.com",
   "links": [
     {
       "rel": "root",
@@ -32,7 +32,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "title": "Sea Surface Salinity Bias_Global_SMOS",
@@ -42,14 +43,18 @@
   "osc:missions": [
     "SMOS"
   ],
-  "osc:project": "GODAE OCEAN OBSERVING SYSTEM EVALUATION OF SATELLITE SEA SURFACE SALINITY AND EL NINO 2015 (SMOS-NINO15)",
+  "osc:project": "smos-nino-2015",
   "osc:variables": [
     "Sea Surface Salinity"
   ],
   "osc:status": "ongoing",
-  "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "sea_surface_salinity",
+  "cf:parameter": [
+    {
+      "name": "sea_surface_salinity"
+    }
+  ],
+  "osc:region": "Global",
   "created": "2019-05-22T00:00:00Z",
   "start_datetime": "2015-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
@@ -57,10 +62,12 @@
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
