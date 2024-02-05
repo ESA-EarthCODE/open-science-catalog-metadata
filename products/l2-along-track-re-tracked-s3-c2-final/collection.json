@@ -1,0 +1,73 @@
+{
+    "type": "Collection",
+    "id": "l2-along-track-re-tracked-s3-c2-final",
+    "stac_version": "1.0.0",
+    "description": "The HYDROCOASTAL final product is produced using innovative retracking algorithms for the  coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform  Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the  project. The product is provided at 3 levels (L2, L3, L4) L2 - Level 2 Extended Product is along track L2 product – for all regions in Table 1, except 15 (Alps). See https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf. Final Product L2E (Level 2 Extended Format). Folder structure: All final L2E product data are under the top-level folders “s3_full” (Sentinel 3A and 3B data),  and “cs2_full” (Cryosat-2 SAR mode data). Under these top-level folders are zip files  containing all the data for each region. L2 data are provided in HYDROCOASTAL L2E format. See the HYDROCOASTAL Product. Specification Document at: https://www.satoc.eu/projects/hydrocoastal/docs.html. Data format and content: For regions which include coastal / estuary parts, both DTU and U Bonn re-trackers have been  implemented. Where they have provided a valid solution, L2 output from both re-trackers are included in the merged final product, together with the operational ESA L2 solution (resp. L2  LAND for S3 mission and L2 ICE Baseline D for CryoSat-2 mission; L2 WAT for South Australia),  interpolated on to the HYDROCOASTAL along-track locations. For regions only over inland water, only the DTU re-tracker has been applied. For these  regions the L2E merged product includes the DTU and operational ESA L2 output.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L2E/",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "L2 along-track re-tracked product (Final Product)",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:missions": [
+      "Sentinel-3",
+      "CryoSat-2" 
+
+    ],
+    "osc:project": "HydroCoastal",
+    "osc:variables": [
+      "Coastal Processes"
+    ],
+    "osc:status": "completed",
+    "osc:region": "Global",
+    "osc:type": "product",
+    "osc:standard_name": "coastal-processes",
+    "created": "2023-05-18T00:00:00Z",
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T23:59:59Z",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -90.0,
+            180.0,
+            90.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2010-01-01T00:00:00Z",
+            "2021-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": []
+  }
