@@ -1642,6 +1642,12 @@
       "type": "application/json",
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
     }
+    {
+      "rel": "child",
+      "href": "./l2-along-track-re-tracked-s3-c2-final/collection.json",
+      "type": "application/json",
+      "title": "L2 along-track re-tracked product (Final Product)"
+    }
 
   ],
   "title": "Products"
