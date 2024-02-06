@@ -35,7 +35,8 @@
   "osc:name": "HydroCoastal: coastal ocean and inland water altimetry",
   "osc:status": "completed",
   "osc:themes": [
-    "Oceans"
+    "Oceans",
+    "Land"
   ],
   "osc:type": "project",
   "contacts": [
