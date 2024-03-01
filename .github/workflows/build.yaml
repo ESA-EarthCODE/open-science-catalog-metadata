@@ -43,7 +43,7 @@ jobs:
       - name: Build static catalog
         run: |
           osc build . -o dist/ \
-            --root-href "https://eoepca.github.io/open-science-catalog-metadata/"
+            --root-href "https://ESA-EarthCODE.github.io/open-science-catalog-metadata/"
       - name: Copying Catalog client
         run: |
           cp -r client/* dist/
