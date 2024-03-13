@@ -5109,6 +5109,24 @@
       "href": "./glacier-melt/catalog.json",
       "type": "application/json",
       "title": "Glacier Melt"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-surface-backscatter/catalog.json",
+      "type": "application/json",
+      "title": "Ocean surface backscatter"
+    },
+    {
+      "rel": "child",
+      "href": "./wet-tropospheric_correction/catalog.json",
+      "type": "application/json",
+      "title": "Wet Tropospheric Correction"
+    },
+    {
+      "rel": "child",
+      "href": "./dry-tropospheric_correction/catalog.json",
+      "type": "application/json",
+      "title": "Dry Tropospheric Correction"
     }
   ],
   "title": "Variables"
