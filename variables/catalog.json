@@ -5118,13 +5118,13 @@
     },
     {
       "rel": "child",
-      "href": "./wet-tropospheric_correction/catalog.json",
+      "href": "./wet-tropospheric-correction/catalog.json",
       "type": "application/json",
       "title": "Wet Tropospheric Correction"
     },
     {
       "rel": "child",
-      "href": "./dry-tropospheric_correction/catalog.json",
+      "href": "./dry-tropospheric-correction/catalog.json",
       "type": "application/json",
       "title": "Dry Tropospheric Correction"
     }
