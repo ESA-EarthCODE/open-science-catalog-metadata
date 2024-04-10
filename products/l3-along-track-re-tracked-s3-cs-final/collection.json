@@ -1,0 +1,92 @@
+{
+    "type": "Collection",
+    "id": "l3-along-track-re-tracked-s3-cs-final",
+    "stac_version": "1.0.0",
+    "description": "HYDROCOASTAL SAR Altimeter L2E: Level 3  Product.", 
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L3/",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L3%20Product%20readme_190923.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "HYDROCOASTAL SAR Altimeter L3: Level 3 Product",
+    "osc:themes": [
+      "Oceans",
+      "Land"
+    ],
+    "osc:missions": [
+      "CryoSat-2",
+      "Sentinel-3"
+    ],
+    "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
+    "osc:variables": [
+      "Significant Wave Height",
+      "Sea Level",
+      "Mean Sea Level",
+      "Ocean surface backscatter",
+      "Dry Tropospheric Correction",
+      "Wet Tropospheric Correction",
+      "Tidal Height"
+    ],
+    "osc:status": "completed",
+    "osc:region": "Global",
+    "osc:type": "product",
+    "osc:standard_name": "l2_along_track_re_tracked_s3_c2_final",
+    "created": "2023-09-23T00:00:00Z",
+    "start_datetime": "2010-09-06T00:00:00Z",
+    "end_datetime": "2022-09-30T23:59:59Z",
+    "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L2E_2010_2022_v_1.0_2023_12",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -90.0,
+            180.0,
+            90.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2010-09-06T00:00:00Z",
+            "2022-09-30T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Sea Surface Topography",
+      "Sea Level",
+      "Mean Sea Level",
+      "Tides",
+      "Tidal Height",
+      "Coastal Processes",
+      "Ocean Waves",
+      "Significant Wave Height",
+      "Dry Tropospheric Correction",
+      "Wet Tropospheric Correction",
+      "Ocean surface backscatter"
+    ]
+  }
