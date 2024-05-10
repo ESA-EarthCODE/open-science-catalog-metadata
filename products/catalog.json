@@ -1647,6 +1647,12 @@
       "href": "./l2-along-track-re-tracked-s3-c2-final/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL SAR Altimeter L2E: Level 2 Extended Product (Final Product)"
+    },
+    {
+      "rel": "child",
+      "href": "./sofresh-sea-surface-salinity/collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
     }
   ],
   "title": "Products"
