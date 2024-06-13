@@ -1644,12 +1644,6 @@
     },
     {
       "rel": "child",
-      "href": "./l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
-      "type": "application/json",
-      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
-    },
-    {
-      "rel": "child",
       "href": "./sofresh-sea-surface-salinity/collection.json",
       "type": "application/json",
       "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
@@ -1677,6 +1671,12 @@
       "href": "./l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
+    },
+    {
+      "rel": "child",
+      "href": "./l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
     }
   ],
   "title": "Products"
