@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "l2-along-track-re-tracked-s3-c2-final",
+    "id": "l2-along-track-re-tracked-s3-c2-final-hydrocoastal",
     "stac_version": "1.0.0",
     "description": "HYDROCOASTAL SAR Altimeter L2E: Level 2 Extended Product (Final Product). L2 data sets for coastal zone and inland water for 25 regions. The final product is produced using innovative retracking algorithms for the coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the project. Full description is provided in readme file: https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L2%20Product%20readme_190923.pdf Final Product L2E (Level 2 Extended Format). All final L2E product data are under the top-level folders “s3_full” (Sentinel 3A and 3B data),  and “cs2_full” (Cryosat-2 SAR mode data). Under these top-level folders are zip files  containing all the data for each region. The product formats are described in the HYDROCOASTAL Product Specification Document, available at: https://www.satoc.eu/projects/hydrocoastal/docs.html. The Final product covers 25 regions (See Table  in the  https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L2%20Product%20readme_190923.pdf). The source data are Sentinel 3A and Sentinel 3B SRAL L1a data, for all the operational mission to 30/09/2022 (S3A from 01/04/2016 to 30/09/2022, S3B from 11/05/2018 to 30/09/2022; South Australia starting from 01/01/2017) and Cryosat-2 SAR mode FBR data, for all the operational mission available in Baseline D (from 06/09/2010 to 21/08/2021). Only Cryosat-2 SAR mode data have been processed. For some regions Cryosat-2 has not been in SAR mode and so no Cryosat-2 data are available  Cryosat-2 SARIN data have NOT been processed as part of the final data set but were processed for the Test Data Set. There are no L3 products for CryoSat-2, but subsets of L2 products falling into the water mask (named L2WM). L2WM(AHL) products also contain GSW/Occurrence values, Pfafstetter basin identifier (extracted from HydroBASINS database) and SWORD nodes & reaches metadata (from SWORD v15). U Porto have provided new GPD+ wet and dry troposphere corrections, and these have been merged with the final products. All algorithms are described in the HYDROCOASTAL Algorithm Theoretical Basis Document (ATBD), available online at: https://www.satoc.eu/projects/hydrocoastal/docs.html",
     "links": [
@@ -36,7 +36,7 @@
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
     ],
-    "title": "HYDROCOASTAL SAR Altimeter L2E: Level 2 Extended Product (Final Product)",
+    "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product",
     "osc:themes": [
       "Oceans",
       "Land"
