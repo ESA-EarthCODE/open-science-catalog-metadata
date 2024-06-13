@@ -1,0 +1,76 @@
+{
+    "type": "Collection",
+    "id": "l4_river-discharge-time-series-s3-final-hydrocoastal",
+    "stac_version": "1.0.0",
+    "description": "The HYDROCOASTAL final product is produced using innovative retracking algorithms for the  coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform  Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the  project. This page provides L4 - Inland Waters, River Discharge Time series Product for selected inland water regions. Final L4 River Discharge products are under folders: “L4_NUIM_Global_Product”, “L4_NUIM_TestSites_ResearchProduct”, “L4_CNR_Global_Product”, and “L4_CNR_TestSites_ResearchProduct”. The products are provided as netcdf files.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L4/",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "HYDROCOASTAL Final Product: L4 river discharge time series",
+    "osc:themes": [
+      "Oceans",
+      "Land"
+    ],
+    "osc:missions": [
+      "CryoSat-2",
+      "Sentinel-3"
+    ],
+    "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
+    "osc:variables": [
+      "Fresh Water River Discharge"
+    ],
+    "osc:status": "completed",
+    "osc:region": "Global",
+    "osc:type": "product",
+    "osc:standard_name": "fresh_water_river_discharge",
+    "created": "2023-09-23T00:00:00Z",
+    "start_datetime": "2016-04-01T00:00:00Z",
+    "end_datetime": "2022-09-30T23:59:59Z",
+    "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L4_2010_2022_v_1.0_2023_12",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            -180.0,
+            -90.0,
+            180.0,
+            90.0
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-04-01T00:00:00Z",
+            "2022-09-30T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Fresh Water River Discharge"
+    ]
+  }

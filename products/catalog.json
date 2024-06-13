@@ -1644,15 +1644,39 @@
     },
     {
       "rel": "child",
-      "href": "./l2-along-track-re-tracked-s3-c2-final/collection.json",
+      "href": "./l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
       "type": "application/json",
-      "title": "HYDROCOASTAL SAR Altimeter L2E: Level 2 Extended Product (Final Product)"
+      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
     },
     {
       "rel": "child",
       "href": "./sofresh-sea-surface-salinity/collection.json",
       "type": "application/json",
       "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
+    },
+    {
+      "rel": "child",
+      "href": "./l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L3 inland water level time series"
+    },
+    {
+      "rel": "child",
+      "href": "./l4_river-discharge-time-series-s3-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L4 river discharge time series"
+    },
+    {
+      "rel": "child",
+      "href": "./l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "child",
+      "href": "./l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
     }
   ],
   "title": "Products"
