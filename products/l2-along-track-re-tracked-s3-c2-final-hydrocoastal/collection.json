@@ -17,6 +17,12 @@
         "title": "L2 Extended Product (Final Product)– for all regions (CS2_FULL)"
       },
       {
+        "rel": "child",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/Hydrocoastal/L2E/s3_full/catalog.json",
+        "type": "application/json",
+        "title": "L2 Extended Product (Final Product) for all regions (S3_FULL)"
+      },
+      {
         "rel": "via",
         "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L2E/",
         "title": "Access"
