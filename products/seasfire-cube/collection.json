@@ -17,7 +17,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5281/zenodo.8055879"
+      "href": "https://doi.org/10.5281/zenodo.8055879",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -40,8 +41,7 @@
   "osc:themes": [
     "Land"
   ],
-  "osc:missions": [
-  ],
+  "osc:missions": [],
   "osc:project": "SeasFire: Earth System Deep learning for Seasonal Fire Forecasting in Europe",
   "osc:variables": [
     "Burned Area"
