@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ice-sheet-temperature-antarctica-cryosmos",
   "stac_version": "1.0.0",
-  "description": "The product provides an estimate of the Ice Thickness in an area of East Antarctica where the BEDMAP2 data has an uncertainty of 1000 m. The product consists of a NETCDF file containing data in SMOS L3 format. The spatial coverage is provided as an index map in SMOS L3 coordinates. Both ice thickness estimate as well as ice thickness estimate merged onto the surrounding BEDMAP2 ice thickness data, are proved as maps. For user convenience the latitude and longitude coordinate values are also provided. The filename is Ã¢â¬ÅSMOS_IceThickness_YYYY_vvv.ncÃ¢â¬Â, where YYYY is the year and vvv is the version number. File size is approximately 7 Mbyte. Only year 2015 version 300 is currently provided. Product details are available at: http://www.ifac.cnr.it/cryosmos/products/CryoSMOS_D8_EDUM_V2.0.pdf. The data are freely disseminated, however the use of this data set must be cited as: Macelloni G., M. Brogioni, G. Picard and M. Leduc-Leballeur. 2019. SMOS Internal ice-sheet temperature, Version 2. [Indicate subset used]. Ã¢â¬ÅCryosmos. STSE SMOS+CryosphereÃ¢â¬Â. ESA contract No.4000112262/14/I-NB.",
+  "description": "The product provides an estimate of the Ice Thickness in an area of East Antarctica where the BEDMAP2 data has an uncertainty of 1000 m. The product consists of a NETCDF file containing data in SMOS L3 format. The spatial coverage is provided as an index map in SMOS L3 coordinates. Both ice thickness estimate as well as ice thickness estimate merged onto the surrounding BEDMAP2 ice thickness data, are proved as maps. For user convenience the latitude and longitude coordinate values are also provided. The filename is \u00c3\u00a2\u00e2\u0082\u00ac\u00c5\u0093SMOS_IceThickness_YYYY_vvv.nc\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u009d, where YYYY is the year and vvv is the version number. File size is approximately 7 Mbyte. Only year 2015 version 300 is currently provided. Product details are available at: http://www.ifac.cnr.it/cryosmos/products/CryoSMOS_D8_EDUM_V2.0.pdf. The data are freely disseminated, however the use of this data set must be cited as: Macelloni G., M. Brogioni, G. Picard and M. Leduc-Leballeur. 2019. SMOS Internal ice-sheet temperature, Version 2. [Indicate subset used]. \u00c3\u00a2\u00e2\u0082\u00ac\u00c5\u0093Cryosmos. STSE SMOS+Cryosphere\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u009d. ESA contract No.4000112262/14/I-NB.",
   "links": [
     {
       "rel": "root",
@@ -17,7 +17,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.1016/j.rse.2019.111405"
+      "href": "https://doi.org/10.1016/j.rse.2019.111405",
+      "title": "DOI"
     },
     {
       "rel": "parent",

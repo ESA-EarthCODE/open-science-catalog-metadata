@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "rainfall-prism-0-1-v2-africa-smos-rainfall",
   "stac_version": "1.0.0",
-  "description": "PrISM satellite rainfall product (2010-2021) based on SMOS soil moisture measurements in Africa (3h, 0.1°)",
+  "description": "PrISM satellite rainfall product (2010-2021) based on SMOS soil moisture measurements in Africa (3h, 0.1\u00b0)",
   "links": [
     {
       "rel": "root",
@@ -22,7 +22,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5281/zenodo.5998113"
+      "href": "https://doi.org/10.5281/zenodo.5998113",
+      "title": "DOI"
     },
     {
       "rel": "parent",

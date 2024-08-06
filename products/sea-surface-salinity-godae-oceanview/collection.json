@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea-surface-salinity-godae-oceanview",
   "stac_version": "1.0.0",
-  "description": "Data assimilation of Soil Moisture and Ocean Salinity (SMOS) observations into the Mercator Ocean operational system: focus on the El NiÃÂ±o 2015 event. To access the data: mailto:btranchant@groupcls.com",
+  "description": "Data assimilation of Soil Moisture and Ocean Salinity (SMOS) observations into the Mercator Ocean operational system: focus on the El Ni\u00c3\u0083\u00c2\u00b1o 2015 event. To access the data: mailto:btranchant@groupcls.com",
   "links": [
     {
       "rel": "root",
@@ -22,7 +22,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5194/os-15-543-2019"
+      "href": "https://doi.org/10.5194/os-15-543-2019",
+      "title": "DOI"
     },
     {
       "rel": "parent",

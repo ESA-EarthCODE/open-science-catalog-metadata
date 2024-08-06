@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "hr-tidal-atlas-arctic-ocean-cp4o",
   "stac_version": "1.0.0",
-  "description": "Arctide2017 is a high-resolution tidal atlas of the Arctic Ocean. Developed by NOVELTIS, DTU Space and LEGOS, it combines altimeter data from ESAÃ¢â¬Å¡ÃâÃÂ´s Envisat and CryoSat satellites into the most complete dataset used in the Arctic region to estimate tidal information",
+  "description": "Arctide2017 is a high-resolution tidal atlas of the Arctic Ocean. Developed by NOVELTIS, DTU Space and LEGOS, it combines altimeter data from ESA\u00c3\u00a2\u00e2\u0082\u00ac\u00c5\u00a1\u00c3\u0083\u00e2\u0080\u009e\u00c3\u0083\u00c2\u00b4s Envisat and CryoSat satellites into the most complete dataset used in the Arctic region to estimate tidal information",
   "links": [
     {
       "rel": "root",
@@ -22,7 +22,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.1016/j.asr.2018.01.007"
+      "href": "https://doi.org/10.1016/j.asr.2018.01.007",
+      "title": "DOI"
     },
     {
       "rel": "parent",
