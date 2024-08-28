@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/02290e22-24ae-40f6-96f1-0c6c76a145af?gtm_keyword=GEOMAGNETIC%20FORECASTS&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/882d9a10-713c-4b58-8c7b-d9af086115a3?gtm_keyword=GEOMAGNETIC%20FORECASTS&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/02290e22-24ae-40f6-96f1-0c6c76a145af?gtm_keyword=GEOMAGNETIC%20FORECASTS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/02290e22-24ae-40f6-96f1-0c6c76a145af?gtm_keyword=GEOMAGNETIC%20FORECASTS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

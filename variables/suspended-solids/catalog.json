@@ -11,16 +11,34 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/718fb499-8c55-4fa6-9a07-ac9155d4bc9d?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9d8cb1dd-4b38-4b4e-8532-ab4eb72cd4ae?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/bcf6975f-2a21-4a6c-9286-fb8f85d00901?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/69ff701a-674e-4b63-bb93-6ebe6cd95281?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9d8cb1dd-4b38-4b4e-8532-ab4eb72cd4ae?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9d8cb1dd-4b38-4b4e-8532-ab4eb72cd4ae?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9d8cb1dd-4b38-4b4e-8532-ab4eb72cd4ae?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9d8cb1dd-4b38-4b4e-8532-ab4eb72cd4ae?gtm_keyword=SUSPENDED%20SOLIDS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

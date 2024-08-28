@@ -11,16 +11,34 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/0cb7f2c6-5e99-4781-8d4f-19ecbad2e2e0?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/5f6358aa-872c-4c1c-9388-4714138f034a?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/30fd009d-df91-47ba-8800-2f2771f15e80?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science;https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/ce546f0d-d2e1-43ed-b8e0-a9079c690c56?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/30fd009d-df91-47ba-8800-2f2771f15e80?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/30fd009d-df91-47ba-8800-2f2771f15e80?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/30fd009d-df91-47ba-8800-2f2771f15e80?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/30fd009d-df91-47ba-8800-2f2771f15e80?gtm_keyword=ADVECTION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

@@ -11,16 +11,34 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/791b7271-3a30-46ee-98e0-bc8239389950?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/bd55adac-4182-4441-91e2-163aa77e1320?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c5c34f0a-552e-45a6-91c1-9edb3a8deef9?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/e4ad5a76-7540-4433-ad82-9fe89259538b?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c5c34f0a-552e-45a6-91c1-9edb3a8deef9?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c5c34f0a-552e-45a6-91c1-9edb3a8deef9?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c5c34f0a-552e-45a6-91c1-9edb3a8deef9?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c5c34f0a-552e-45a6-91c1-9edb3a8deef9?gtm_keyword=SEDIMENT%20TRANSPORT&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

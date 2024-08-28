@@ -11,16 +11,28 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/79f18259-bd76-4c7b-bd18-cbd2edafd24f?gtm_keyword=MAGNESIUM&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/7b86bc20-ba2b-4cd0-8aa0-ed47663d9222?gtm_keyword=MAGNESIUM&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/38f99d8b-80af-439a-9d3f-1e72aef5d7c3?gtm_keyword=MAGNESIUM&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/38f99d8b-80af-439a-9d3f-1e72aef5d7c3?gtm_keyword=MAGNESIUM&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/38f99d8b-80af-439a-9d3f-1e72aef5d7c3?gtm_keyword=MAGNESIUM&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/38f99d8b-80af-439a-9d3f-1e72aef5d7c3?gtm_keyword=MAGNESIUM&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

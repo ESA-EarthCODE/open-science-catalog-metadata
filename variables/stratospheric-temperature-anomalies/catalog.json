@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/0eb1af15-7bd4-40c6-b8a4-666cbb61ff8c?gtm_keyword=STRATOSPHERIC%20TEMPERATURE%20ANOMALIES&gtm_scheme=Earth%20Science; https://www.pmel.noaa.gov/arctic-zone/detect/climate-strat.shtml",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.pmel.noaa.gov/arctic-zone/detect/climate-strat.shtml",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.pmel.noaa.gov/arctic-zone/detect/climate-strat.shtml",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [
