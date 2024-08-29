@@ -12,7 +12,7 @@
       },
       {
         "rel": "via",
-        "href": "ftps://livas:livas-public@react.space.noa.gr",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_allsat.nc",
         "title": "Access"
       },
       {
