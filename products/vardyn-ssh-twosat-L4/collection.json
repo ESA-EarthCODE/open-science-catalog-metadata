@@ -2,7 +2,7 @@
     "type": "Collection",
     "id": "vardyn-ssh-twosat-L4",
     "stac_version": "1.0.0",
-    "description": "Sea Surface Height and Temperature reconstructed by the VarDyn mapping technique",
+    "description": "Sea Surface Height and Temperature reconstructed by the VarDyn mapping technique. The algorithm described in a paper (in submission): Le Guillou, F., Chapron, B., Rio, M.-H., VarDyn: Dynamical joint-reconstructions of Sea Surface Height and Temperature from multi-sensor satellite observations, submitted to Journal of Advances in Modeling Earth Systems. The documentation link will be updated upon the publication of the paper.",
     "links": [
       {
         "rel": "root",
@@ -17,7 +17,7 @@
       },
       {
         "rel": "via",
-        "href": "https://doi.org/10.1016/j.rse.2006.05.010",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_twosat.nc",
         "title": "Documentation"
       },
       {
@@ -30,14 +30,15 @@
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
     ],
-    "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products - Two Sats",
+    "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products (Sentinel-3, Sentinel-6, GCOM-W1, GPM)",
     "osc:themes": [
       "Oceans"
     ],
     "osc:missions": [
       "Sentinel-3",
       "Sentinel-6",
-      "GCOM-W1"
+      "GCOM-W1",
+      "GPM (Global Precipitation Measurement)"
     ],
     "osc:project": "ESA Science Hub - Florian Le Guillou",
     "osc:variables": [
