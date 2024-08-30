@@ -2,7 +2,7 @@
     "type": "Collection",
     "id": "esa-science-hub-le-guillou",
     "stac_version": "1.0.0",
-    "description": "The study focuses on deriving products on Sea Surface Height and Temperature reconstructed by the VarDyn mapping technique from selected satellite constellations. More about Florian's research ca be found here: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMvt2xwJyIAxW5g_0HHZ5cDO8QFnoECBIQAQ&url=https%3A%2F%2Fsciencehub.esa.int%2Fsciencehub_team%2Fflorian-le-guillou%2F&usg=AOvVaw3w3HKrjJMRY48lSy5bwiUm&opi=89978449",
+    "description": "The study focuses on deriving products on Sea Surface Height and Temperature reconstructed by the VarDyn mapping technique from selected satellite constellations",
     "links": [
       {
         "rel": "root",
