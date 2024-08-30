@@ -33,18 +33,18 @@
     ],
     "title": "ESA Science Hub - Florian Le Guillou",
     "osc:name": "ESA Science Hub - Florian Le Guillou",
-    "osc:status": "completed",
+    "osc:status": "ongoing",
     "osc:themes": [
       "Oceans"
     ],
     "osc:type": "project",
     "contacts": [
       {
-        "name": "Diego Fernandez",
+        "name": "Marie-Helene Rio",
         "role": "technical_officer",
         "emails": [
           {
-            "value": "diego.fernandez@esa.int"
+            "value": "Marie-Helene.RIO@esa.int"
           }
         ]
       },
