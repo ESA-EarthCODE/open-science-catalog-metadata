@@ -357,18 +357,6 @@
       "href": "./dmsp/catalog.json",
       "type": "application/json",
       "title": "DMSP-Defense Meteorological Satellite Program Block 5D"
-    }, 
-    {
-      "rel": "child",
-      "href": "./gpm-core/catalog.json",
-      "type": "application/json",
-      "title": "GPM (Global Precipitation Measurement)"
-    },
-    {
-      "rel": "child",
-      "href": "./hy-2b/catalog.json",
-      "type": "application/json",
-      "title": "HY-2B (Haiyang-2B)"
     }
   ],
   "title": "EO Missions"
