@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "gpm-global-precipitation-measurement",
+    "stac_version": "1.0.0",
+    "description": "The GPM (Global Precipitation Measurement) Mission is an international US/Japanese multi-satellite constellation with the prime agencies being NASA (National Aeronautics and Space Administration) and JAXA (Japanese Aerospace Exploration Agency). The constellation’s primary spacecraft, GPM Core Observatory (built by NASA), was launched in February 2014, joining a collaboration of 12 GPM satellites, aiming to study global precipitation, evaporation and the water cycle.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=448",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      }
+    ],
+    "title": "GPM (Global Precipitation Measurement)"
+  }
