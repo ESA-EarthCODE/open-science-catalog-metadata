@@ -1677,6 +1677,18 @@
       "href": "./l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "child",
+      "href": "./vardyn-ssh-twosat-L4/collection.json",
+      "type": "application/json",
+      "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products (Sentinel-3, Sentinel-6, GCOM-W1, GPM)"
+    },
+    {
+      "rel": "child",
+      "href": "./vardyn-ssh-allsat-L4/collection.json",
+      "type": "application/json",
+      "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     }
   ],
   "title": "Products"

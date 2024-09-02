@@ -1,0 +1,91 @@
+{
+    "type": "Collection",
+    "id": "vardyn-ssh-allsat-L4",
+    "stac_version": "1.0.0",
+    "description": "Sea Surface Height and Temperature reconstructed by the VarDyn mapping technique. The algorithm described in a paper (in submission): Le Guillou, F., Chapron, B., Rio, M.-H., VarDyn: Dynamical joint-reconstructions of Sea Surface Height and Temperature from multi-sensor satellite observations, submitted to Journal of Advances in Modeling Earth Systems. The documentation link will be updated upon the publication of the paper.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_allsat.nc",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_allsat.nc",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    ],
+    "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:missions": [
+      "SARAL",
+      "CryoSat-2",
+      "HY-2B (Haiyang-2B)",
+      "Jason-3",
+      "Sentinel-3",
+      "GCOM-W1",
+      "GPM (Global Precipitation Measurement)",
+      "Sentinel-6"
+    ],
+    "osc:project": "ESA Science Hub-Florian Le Guillou",
+    "osc:variables": [
+        "Sea Surface Height",
+        "Sea Surface Temperature" 
+    ],
+    "osc:status": "completed",
+    "osc:region": "North Atlantic",
+    "osc:type": "product",
+    "osc:standard_name": "sea-surface-height",
+    "created": "2024-08-22T00:00:00Z",
+    "start_datetime": "2023-07-20T00:00:00Z",
+    "end_datetime": "2024-05-01T00:00:00Z",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            280.0,
+            25.0,
+            349.9,
+            49.9
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2023-07-20T00:00:00Z",
+            "2024-05-01T00:00:00Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+        "Sea Surface Height",
+        "Sea Surface Temperature",
+        "Altika",
+        "Cryosat-2 New Orbit", 
+        "Haiyang-2B", 
+        "Jason-3 Interleaved",
+        "Sentinel-3A", 
+        "Sentinel-3B", 
+        "Sentinel-6A", 
+        "AMSR2", 
+        "GMI"
+    ]
+  }
