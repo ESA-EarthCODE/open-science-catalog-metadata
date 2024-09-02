@@ -1032,7 +1032,7 @@
     },
     {
       "rel": "child",
-      "href": "./esa-science-hub-le-guillou/collection.json",
+      "href": "./esa-science-hub-florian-le-guillou/collection.json",
       "type": "application/json",
       "title": "ESA Science Hub - Florian Le Guillou"
     }
