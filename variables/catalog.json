@@ -5127,12 +5127,6 @@
       "href": "./dry-tropospheric-correction/catalog.json",
       "type": "application/json",
       "title": "Dry Tropospheric Correction"
-    },
-    {
-      "rel": "child",
-      "href": "./sea-surface-height/catalog.json",
-      "type": "application/json",
-      "title": "Sea Surface Height"
     }
   ],
   "title": "Variables"
