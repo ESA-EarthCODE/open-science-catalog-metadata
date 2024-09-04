@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/858a80ff-5aa4-4590-b2e2-e88a802a6ee4?gtm_keyword=VORTICITY&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/253ccaf2-dd4c-4fc1-923d-1aea542a51b0?gtm_keyword=VORTICITY&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/858a80ff-5aa4-4590-b2e2-e88a802a6ee4?gtm_keyword=VORTICITY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/253ccaf2-dd4c-4fc1-923d-1aea542a51b0?gtm_keyword=VORTICITY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

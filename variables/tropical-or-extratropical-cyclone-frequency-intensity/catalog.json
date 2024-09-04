@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/a85b812e-e4d2-4dce-bf67-d89a3e1a9122?gtm_keyword=TROPICAL%20OR%20EXTRATROPICAL%20CYCLONE%20FREQUENCY/INTENSITY&gtm_scheme=Earth%20Science; https://doi.org/10.1029/2021EF002275",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/a85b812e-e4d2-4dce-bf67-d89a3e1a9122?gtm_keyword=TROPICAL%20OR%20EXTRATROPICAL%20CYCLONE%20FREQUENCY/INTENSITY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.1029/2021EF002275",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

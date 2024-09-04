@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/3985ce6b-e0c3-42a8-b40f-9dd948350c6e?gtm_keyword=SOIL%20COLOR&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/013b44e9-df5c-4ef8-a99f-7351d16bfd14?gtm_keyword=SOIL%20COLOR&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/013b44e9-df5c-4ef8-a99f-7351d16bfd14?gtm_keyword=SOIL%20COLOR&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/3985ce6b-e0c3-42a8-b40f-9dd948350c6e?gtm_keyword=SOIL%20COLOR&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

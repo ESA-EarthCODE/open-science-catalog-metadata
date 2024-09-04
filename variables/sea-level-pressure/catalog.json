@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/e5bca08d-ecb3-4b85-8acd-fed782875aa2?gtm_keyword=SEA%20LEVEL%20PRESSURE&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/07ce145c-9936-4675-b4a7-8710e39aa391?gtm_keyword=SEA%20LEVEL%20PRESSURE&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/07ce145c-9936-4675-b4a7-8710e39aa391?gtm_keyword=SEA%20LEVEL%20PRESSURE&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/e5bca08d-ecb3-4b85-8acd-fed782875aa2?gtm_keyword=SEA%20LEVEL%20PRESSURE&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [
