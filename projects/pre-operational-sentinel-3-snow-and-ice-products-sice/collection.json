@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "S3 snow and ice products",
@@ -41,20 +41,26 @@
   "contacts": [
     {
       "name": "Michael Kern",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "michael.kern@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "VITROCISET BELGIUM SPRL (BE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2018-07-08T00:00:00Z",

@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "DA4DTE",
@@ -42,20 +42,26 @@
   "contacts": [
     {
       "name": "Nicolas Longepe",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "nicolas.longepe@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "E:GEOS (IT)NATIONAL AND KAPODISTRIAN UNIVERSIT (GR)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "TECHN UNIV BERLIN (DE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2022-07-26T00:00:00Z",

@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "AMPAC-Net",
@@ -42,44 +42,62 @@
   "contacts": [
     {
       "name": "Dirk Schuettemeyer",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "dirk.schuettemeyer@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "b.geos GmbH (AT)ALFRED WEGENER INSTITUTE (DE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "DLR : GERMAN AEROSPACE CENTER (DE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "FINNISH METEOROLOGICAL INSTITUTE (FI)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "HELMHOLTZ:ZENTRUM POTSDAM : DEUTSCHES GEOFORSCHUNGZENTRUM (GFZ) (DE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "STOCKHOLMS UNIVERSITET (SE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "VRIJE UNIVERSITEIT AMSTERDAM",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "DEPARTMENT OF EARTH SCIENCES (NL)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2021-12-13T00:00:00Z",

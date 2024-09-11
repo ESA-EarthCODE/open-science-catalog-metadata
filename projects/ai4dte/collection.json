@@ -23,7 +23,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "AI4DTE",
@@ -38,16 +38,20 @@
   "contacts": [
     {
       "name": "Pierre-Philippe Mathieu",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "pierre.philippe.mathieu@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "DFKI GMBH (DE)VISION IMPULSE UG (HAFTUNGSBESCHRAN (DE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2021-12-13T00:00:00Z",

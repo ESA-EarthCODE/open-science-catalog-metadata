@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "RepreSent",
@@ -43,24 +43,32 @@
   "contacts": [
     {
       "name": "Bertrand Le Saux",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "bertrand.le.saux@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "DLR : GERMAN AEROSPACE CENTER (DE)E:GEOS (IT)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE (CH)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "VTT TECHNICAL RESEARCH CENTRE OF FINLAND LTD (FI)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2022-11-25T00:00:00Z",
