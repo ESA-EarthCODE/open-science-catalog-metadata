@@ -32,24 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product",
-  "osc:themes": [
-    "Oceans",
-    "Land"
-  ],
-  "osc:missions": [
-    "CryoSat-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
-  "osc:variables": [
-    "Significant Wave Height",
-    "Sea Level",
-    "Mean Sea Level",
-    "Ocean surface backscatter",
-    "Dry Tropospheric Correction",
-    "Wet Tropospheric Correction",
-    "Tidal Height"
-  ],
+  "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -89,5 +72,22 @@
     {
       "name": "significant_wave_height"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "significant-wave-height",
+    "sea-level",
+    "mean-sea-level",
+    "ocean-surface-backscatter",
+    "dry-tropospheric-correction",
+    "wet-tropospheric-correction",
+    "tidal-height"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "sentinel-3"
   ]
 }

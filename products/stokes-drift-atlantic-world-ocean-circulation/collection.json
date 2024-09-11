@@ -32,14 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Stokes drift estimation_Atlantic Ocean",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "World Ocean circulation",
-  "osc:variables": [
-    "Ocean Currents"
-  ],
+  "osc:project": "world-ocean-circulation",
   "osc:status": "planned",
   "osc:region": "Atlantic Ocean",
   "osc:type": "product",
@@ -72,5 +65,11 @@
     {
       "name": "stokes_drift_estimation"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "ocean-currents"
   ]
 }

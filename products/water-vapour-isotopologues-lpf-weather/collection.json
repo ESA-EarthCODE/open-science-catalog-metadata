@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "GOSAT PBL XH2O and Stable Water Vapour Isotopologues_Global",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "GOSAT"
-  ],
-  "osc:project": "WATER CYCLE CHANGES CHARACTERISED FROM ATMOSPHERIC MOISTURE RECYCLING (WEATHER)",
-  "osc:variables": [
-    "Water Vapor Profiles"
-  ],
+  "osc:project": "water-cycle-changes-characterised-from-atmospheric-moisture-recycling-weather",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -69,5 +60,14 @@
     {
       "name": "water_vapour"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "water-vapor-profiles"
+  ],
+  "osc:missions": [
+    "gosat"
   ]
 }

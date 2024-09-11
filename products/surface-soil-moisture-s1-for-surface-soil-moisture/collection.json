@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "Sentinel-1 for Surface Soil Moisture",
-  "osc:variables": [
-    "Soil Moisture"
-  ],
+  "osc:project": "sentinel-1-for-surface-soil-moisture",
   "osc:status": "ongoing",
   "osc:region": "South Italy",
   "osc:type": "product",
@@ -80,5 +71,14 @@
     {
       "name": "surface_soil_moisture"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

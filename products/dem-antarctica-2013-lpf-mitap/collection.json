@@ -22,17 +22,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2013_Antarctica_TanDEM-X",
-  "osc:themes": [
-    "Cryosphere",
-    "Land"
-  ],
-  "osc:missions": [
-    "TanDEM-X"
-  ],
-  "osc:project": "Mass balance and ice dynamics of Antarctic Peninsula glaciers (MIT-AP)",
-  "osc:variables": [
-    "Digital Elevation/Terrain Model (DEM)"
-  ],
+  "osc:project": "mass-balance-and-ice-dynamics-of-antarctic-peninsula-glaciers-mit-ap",
   "osc:status": "planned",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -66,5 +56,15 @@
     {
       "name": "digital_elevation_model"
     }
+  ],
+  "osc:themes": [
+    "cryosphere",
+    "land"
+  ],
+  "osc:variables": [
+    "digital-elevation-terrain-model-dem"
+  ],
+  "osc:missions": [
+    "tandem-x"
   ]
 }

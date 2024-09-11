@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Regional irrigation water use at high-resolution - EBRO basin",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "Irrigation+",
-  "osc:variables": [
-    "Anthropogenic Water Use"
-  ],
+  "osc:project": "irrigation",
   "osc:status": "completed",
   "osc:region": "Ebro basin (North-eastern Spain)",
   "osc:type": "product",
@@ -75,5 +66,14 @@
     {
       "name": "soil_moisture_based_inversion_approach_ebro_irrigation"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "anthropogenic-water-use"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

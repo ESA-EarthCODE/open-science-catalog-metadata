@@ -32,18 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "HYDROCOASTAL Final Product: L4 river discharge time series",
-  "osc:themes": [
-    "Oceans",
-    "Land"
-  ],
-  "osc:missions": [
-    "CryoSat-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
-  "osc:variables": [
-    "Fresh Water River Discharge"
-  ],
+  "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -77,5 +66,16 @@
     {
       "name": "fresh_water_river_discharge"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "fresh-water-river-discharge"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "sentinel-3"
   ]
 }

@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Gridded_Africa_SMOS level 3 products CATDS",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "SMOS+ VEGETATION",
-  "osc:variables": [
-    "Soil Moisture"
-  ],
+  "osc:project": "smos-vegetation",
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
@@ -72,5 +63,14 @@
     {
       "name": "vegetation_optical_depth"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

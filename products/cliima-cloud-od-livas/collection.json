@@ -37,17 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "CALIPSO",
-    "EarthCARE"
-  ],
-  "osc:project": "Lidar Climatology of Vertical Aerosol Structure for Space-Based Lidar Simulation Studies-LIVAS",
-  "osc:variables": [
-    "Cloud Optical Depth/Thickness"
-  ],
+  "osc:project": "lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -84,5 +74,15 @@
     {
       "name": "cloud_optical_properties_profiles"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "cloud-optical-depth-thickness"
+  ],
+  "osc:missions": [
+    "calipso",
+    "earthcare"
   ]
 }

@@ -32,14 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Total Basin Run Off (ESA POLAR+ 4D Greenland Experimental Dataset)",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [],
-  "osc:project": "4D-Greenland",
-  "osc:variables": [
-    "Total Runoff"
-  ],
+  "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -75,5 +68,11 @@
     {
       "name": "total_basin_runoff"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "total-runoff"
   ]
 }

@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Swarm-EISCAT conjunction list (2013-2019)",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "Swarm+ Coupling High-Low Atmosphere Interactions: Ion Outflow",
-  "osc:variables": [
-    "Magnetic Fields/Magnetic Currents",
-    "Geomagnetic Indices"
-  ],
+  "osc:project": "swarm-coupling-high-low-atmosphere-interactions-ion-outflow",
   "osc:status": "ongoing",
   "osc:region": null,
   "osc:type": "product",
@@ -75,5 +65,15 @@
     {
       "name": "swarm_eiscat_conjunction_list"
     }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "magnetic-fields-magnetic-currents",
+    "geomagnetic-indices"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

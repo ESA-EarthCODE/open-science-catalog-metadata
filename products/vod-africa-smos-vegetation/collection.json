@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "VOD_Africa_SMOS IC products CATDS",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "SMOS+ VEGETATION",
-  "osc:variables": [
-    "Biomass"
-  ],
+  "osc:project": "smos-vegetation",
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
@@ -69,5 +60,14 @@
     {
       "name": "biomass"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "biomass"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

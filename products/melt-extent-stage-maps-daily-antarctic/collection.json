@@ -38,16 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Antarctic daily melt extent/stage maps from 2007-2021 from the ASCAT",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "MetOp"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Glacier Melt"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -82,5 +73,14 @@
     {
       "name": "melt-extent-stage-maps-daily-antarctic"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-melt"
+  ],
+  "osc:missions": [
+    "metop"
   ]
 }

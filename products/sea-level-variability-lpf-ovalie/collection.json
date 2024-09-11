@@ -37,14 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Atmospherically-forced and chaotic interannual variability of the sea level and its components over 1993-2015 from the OCCIPUT ensemble simulations",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "OVALIE: Oceanic intrinsic Variability versus Atmospheric forced variabiLIty of sea level changE",
-  "osc:variables": [
-    "Sea Level Changes"
-  ],
+  "osc:project": "ovalie-oceanic-intrinsic-variability-versus-atmospheric-forced-variability-of-sea-level-change",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -81,5 +74,11 @@
     {
       "name": "sea_level_variability"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-level-changes"
   ]
 }

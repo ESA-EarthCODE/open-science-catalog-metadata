@@ -32,18 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE",
-  "osc:themes": [
-    "Solid Earth",
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "GOCE"
-  ],
-  "osc:project": "GOCE+ ANTARCTICA",
-  "osc:variables": [
-    "Gravitational Field",
-    "Crustal Motion"
-  ],
+  "osc:project": "goce-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -79,5 +68,16 @@
     {
       "name": "density_temperature_viscosity"
     }
+  ],
+  "osc:themes": [
+    "solid-earth",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "gravitational-field",
+    "crustal-motion"
+  ],
+  "osc:missions": [
+    "goce"
   ]
 }

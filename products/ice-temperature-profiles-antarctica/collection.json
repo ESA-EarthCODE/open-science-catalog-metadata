@@ -38,16 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Ice temperature profiles",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Ice Temperature"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -83,5 +74,14 @@
     {
       "name": "ice-temperature-profiles-antarctica"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-temperature"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

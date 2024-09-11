@@ -32,20 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Snow albedo for European Alps_Multimission",
-  "osc:themes": [
-    "Cryosphere",
-    "Atmosphere",
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-2",
-    "Landsat-8",
-    "Terra"
-  ],
-  "osc:project": "AlpSnow",
-  "osc:variables": [
-    "Albedo"
-  ],
+  "osc:project": "alpsnow",
   "osc:status": "planned",
   "osc:region": "Europe",
   "osc:type": "product",
@@ -80,5 +67,18 @@
     {
       "name": "snow_albedo"
     }
+  ],
+  "osc:themes": [
+    "cryosphere",
+    "atmosphere",
+    "land"
+  ],
+  "osc:variables": [
+    "albedo"
+  ],
+  "osc:missions": [
+    "sentinel-2",
+    "landsat-8",
+    "terra"
   ]
 }

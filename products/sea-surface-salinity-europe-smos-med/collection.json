@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "SMOS+ Med-Sea Surface Salinity in the Mediterranean",
-  "osc:variables": [
-    "Sea Surface Salinity"
-  ],
+  "osc:project": "smos-med-sea-surface-salinity-in-the-mediterranean",
   "osc:status": "ongoing",
   "osc:region": "Europe",
   "osc:type": "product",
@@ -71,5 +62,14 @@
     {
       "name": "sea_surface_salinity"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

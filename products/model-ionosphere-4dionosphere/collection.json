@@ -22,16 +22,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Semi-empiric model of ionosphere processes_SWARM",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "4DIONOSPHERE (SWARM VIP)",
-  "osc:variables": [
-    "Ionosphere/Magnetosphere Dynamics"
-  ],
+  "osc:project": "4dionosphere-swarm-vip",
   "osc:status": "planned",
   "osc:region": null,
   "osc:type": "product",
@@ -64,5 +55,14 @@
     {
       "name": "model_ionosphere"
     }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "ionosphere-magnetosphere-dynamics"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

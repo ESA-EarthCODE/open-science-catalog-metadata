@@ -32,18 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "HYDROCOASTAL Final Product: L3 inland water level time series",
-  "osc:themes": [
-    "Oceans",
-    "Land"
-  ],
-  "osc:missions": [
-    "CryoSat-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
-  "osc:variables": [
-    "Stage Height"
-  ],
+  "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -77,5 +66,16 @@
     {
       "name": "stage_height"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "stage-height"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "sentinel-3"
   ]
 }

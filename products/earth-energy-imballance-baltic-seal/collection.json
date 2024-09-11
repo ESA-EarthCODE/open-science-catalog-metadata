@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "GRACE",
-    "GRACE-FO"
-  ],
-  "osc:project": "BALTIC+ SEAL - Sea Level",
-  "osc:variables": [
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
+  "osc:project": "baltic-seal-sea-level",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -72,5 +62,15 @@
     {
       "name": "earth_energy_imballance"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "grace",
+    "grace-fo"
   ]
 }

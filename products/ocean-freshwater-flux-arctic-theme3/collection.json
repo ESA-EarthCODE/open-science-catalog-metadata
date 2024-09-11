@@ -32,29 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Ocean freshwater fluxes_Arctic_Multimission",
-  "osc:themes": [
-    "Oceans",
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-1",
-    "Sentinel-2",
-    "Sentinel-3",
-    "CryoSat-2",
-    "ICESat",
-    "GRACE",
-    "SMOS",
-    "ENVISAT",
-    "ERS-1",
-    "ERS-2",
-    "SARAL",
-    "Jason-1",
-    "Jason-2"
-  ],
-  "osc:project": "ARCTIC+ THEME 3-FRESH WATER FLUXES",
-  "osc:variables": [
-    "Fresh Water River Discharge"
-  ],
+  "osc:project": "arctic-theme-3-fresh-water-fluxes",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -89,5 +67,27 @@
     {
       "name": "ocean_freshwater_flux"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "fresh-water-river-discharge"
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2",
+    "sentinel-3",
+    "cryosat-2",
+    "icesat",
+    "grace",
+    "smos",
+    "envisat",
+    "ers-1",
+    "ers-2",
+    "saral",
+    "jason-1",
+    "jason-2"
   ]
 }

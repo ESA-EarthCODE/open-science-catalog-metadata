@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sublacial Lake Volumes (ESA POLAR+ 4D Greenland Experimantal Dataset",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "4D-Greenland",
-  "osc:variables": [
-    "Subglacial Lake"
-  ],
+  "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -76,5 +67,14 @@
     {
       "name": "subglacial_lake_volumes"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "subglacial-lake"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

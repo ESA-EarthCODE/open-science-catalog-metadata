@@ -38,14 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Antarctic Ice Shelf Calving Fronts 1997-2021",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [],
   "osc:project": "Polar+ Ice Shelf",
-  "osc:variables": [
-    "Ice Extent"
-  ],
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -82,5 +75,11 @@
     {
       "name": "antarctic_ice_shelf_calving_fronts"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-extent"
   ]
 }

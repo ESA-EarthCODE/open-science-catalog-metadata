@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-2",
-    "Landsat-8"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Glacial Lake Extent"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:region": "West Antarctica and the Antarctic Peninsula",
   "osc:type": "product",
@@ -77,5 +67,15 @@
     {
       "name": "suprgaglacial_lakes"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacial-lake-extent"
+  ],
+  "osc:missions": [
+    "sentinel-2",
+    "landsat-8"
   ]
 }

@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Ice shelf product_Antarctica_SMOS",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "CryoSMOS",
-  "osc:variables": [
-    "Ice Sheets and Ice Shelves"
-  ],
+  "osc:project": "cryosmos",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -71,5 +62,14 @@
     {
       "name": "ice_shelves"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-sheets-and-ice-shelves"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

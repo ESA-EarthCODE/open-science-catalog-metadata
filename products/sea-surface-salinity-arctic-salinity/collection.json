@@ -37,17 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS",
-  "osc:themes": [
-    "Oceans",
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "Arctic + Salinity",
-  "osc:variables": [
-    "Sea Surface Salinity"
-  ],
+  "osc:project": "arctic-salinity",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -84,5 +74,15 @@
     {
       "name": "sea_surface_salinity"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

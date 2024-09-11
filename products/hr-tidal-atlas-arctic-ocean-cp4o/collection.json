@@ -37,17 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Arctide2017_High-resolution tidal atlas_Arctic Ocean_Cryosat",
-  "osc:themes": [
-    "Oceans",
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat"
-  ],
-  "osc:project": "CryoSat Plus For Oceans (CP4O)",
-  "osc:variables": [
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
+  "osc:project": "cryosat-plus-for-oceans-cp4o",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -83,5 +73,15 @@
     {
       "name": "high_resolution_tidal_atlas"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "cryosat"
   ]
 }

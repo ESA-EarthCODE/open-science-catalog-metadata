@@ -32,20 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "ERS-1",
-    "ERS-2",
-    "ENVISAT",
-    "CryoSat-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Glacier Elevation/Ice Sheet Elevation"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -82,5 +69,18 @@
     {
       "name": "sec-antarctic-ice-sheet"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-elevation-ice-sheet-elevation"
+  ],
+  "osc:missions": [
+    "ers-1",
+    "ers-2",
+    "envisat",
+    "cryosat-2",
+    "sentinel-3"
   ]
 }

@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 1B",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "Sentinel-3 Performance Improvement for ICE Sheets (SPICE)",
-  "osc:variables": [
-    "Glacier Topography/Ice Sheet Topography"
-  ],
+  "osc:project": "sentinel-3-performance-improvement-for-ice-sheets-spice",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -76,5 +67,14 @@
     {
       "name": "ice_sheet"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-topography-ice-sheet-topography"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

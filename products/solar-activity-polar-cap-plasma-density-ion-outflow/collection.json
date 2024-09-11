@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "CHAMP and Swarm solar activity- and height-scaled polar cap plasma density measurements",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "Swarm+ Coupling High-Low Atmosphere Interactions: Ion Outflow",
-  "osc:variables": [
-    "Solar Activity"
-  ],
+  "osc:project": "swarm-coupling-high-low-atmosphere-interactions-ion-outflow",
   "osc:status": "ongoing",
   "osc:region": null,
   "osc:type": "product",
@@ -78,5 +69,14 @@
     {
       "name": "solar_activity"
     }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "solar-activity"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

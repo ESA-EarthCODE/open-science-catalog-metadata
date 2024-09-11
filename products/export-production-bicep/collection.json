@@ -32,21 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Monthly Global Export Production based on Dunne et al 2005 dataset (9 km, OC-CCI v4.2)",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "ENVISAT",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Suomi NPP",
-    "OrbView-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "Biological Pump and Carbon Exchange Processes",
-  "osc:variables": [
-    "Export Production"
-  ],
+  "osc:project": "biological-pump-and-carbon-exchange-processes",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -79,5 +65,19 @@
     {
       "name": "export_production_dunne"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "export-production"
+  ],
+  "osc:missions": [
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp",
+    "orbview-2",
+    "sentinel-3"
   ]
 }

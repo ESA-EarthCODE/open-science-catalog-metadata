@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "NRT SICE rasters for Greenland_Arctic_S3",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-3"
-  ],
-  "osc:project": "Pre-Operational Sentinel-3 snow and ice products (SICE)",
-  "osc:variables": [
-    "Snow Cover"
-  ],
+  "osc:project": "pre-operational-sentinel-3-snow-and-ice-products-sice",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -77,5 +68,14 @@
     {
       "name": "nrt_sice_rasters"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "sentinel-3"
   ]
 }

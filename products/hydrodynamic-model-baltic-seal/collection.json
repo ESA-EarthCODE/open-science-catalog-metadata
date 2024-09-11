@@ -27,24 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "TOPEX/Poseidon",
-    "ERS-2",
-    "Jason-1",
-    "Jason-2",
-    "Jason-3",
-    "ENVISAT",
-    "CryoSat-2",
-    "SARAL",
-    "Sentinel-3"
-  ],
-  "osc:project": "BALTIC+ SEAL - Sea Level",
-  "osc:variables": [
-    "Sea Level"
-  ],
+  "osc:project": "baltic-seal-sea-level",
   "osc:status": "ongoing",
   "osc:region": "Baltics",
   "osc:type": "product",
@@ -78,5 +61,22 @@
     {
       "name": "hydrodynamic_model_sea_level_mean"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-level"
+  ],
+  "osc:missions": [
+    "topex-poseidon",
+    "ers-2",
+    "jason-1",
+    "jason-2",
+    "jason-3",
+    "envisat",
+    "cryosat-2",
+    "saral",
+    "sentinel-3"
   ]
 }

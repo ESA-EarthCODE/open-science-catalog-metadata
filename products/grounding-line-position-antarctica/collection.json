@@ -32,22 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "ALOS",
-    "COSMO-SkyMed",
-    "ERS-1",
-    "ERS-2",
-    "RADARSAT-1",
-    "RADARSAT-2",
-    "Sentinel-1"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Grounding Line"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -84,5 +69,20 @@
     {
       "name": "grounding-line-position"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "grounding-line"
+  ],
+  "osc:missions": [
+    "alos",
+    "cosmo-skymed",
+    "ers-1",
+    "ers-2",
+    "radarsat-1",
+    "radarsat-2",
+    "sentinel-1"
   ]
 }

@@ -32,20 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Baja_Multimission",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-3",
-    "SARAL",
-    "CryoSat-2",
-    "Terra",
-    "AQUA (EOS/PM-1)"
-  ],
-  "osc:project": "RIDESAT - RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data",
-  "osc:variables": [
-    "Surface Water Processes/Measurements"
-  ],
+  "osc:project": "ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data",
   "osc:status": "ongoing",
   "osc:region": "Europe",
   "osc:type": "product",
@@ -80,5 +67,18 @@
     {
       "name": "water_level"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "surface-water-processes-measurements"
+  ],
+  "osc:missions": [
+    "sentinel-3",
+    "saral",
+    "cryosat-2",
+    "terra",
+    "aqua-eos-pm-1"
   ]
 }

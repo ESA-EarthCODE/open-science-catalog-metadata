@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "HDO/H2O non-scattering product_S5p-TROPOMI",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "WIFT: Water vapour Isotopologues From TROPOMI",
-  "osc:variables": [
-    "Water Vapor Profiles"
-  ],
+  "osc:project": "wift-water-vapour-isotopologues-from-tropomi",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -69,5 +60,14 @@
     {
       "name": "total_column_water_vapour"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "water-vapor-profiles"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

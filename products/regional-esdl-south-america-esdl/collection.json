@@ -37,14 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Code for Regional Earth System Data Lab: Tropical South America",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [],
-  "osc:project": "Earth System Data Lab (ESDL)",
-  "osc:variables": [
-    "Land Use/Land Cover Classification"
-  ],
+  "osc:project": "earth-system-data-lab-esdl",
   "osc:status": "completed",
   "osc:region": "South America",
   "osc:type": "product",
@@ -78,5 +71,11 @@
     {
       "name": "regional_esdl"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "land-use-land-cover-classification"
   ]
 }

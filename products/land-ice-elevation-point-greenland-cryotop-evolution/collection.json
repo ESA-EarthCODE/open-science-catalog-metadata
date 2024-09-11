@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Greenland_Cryosat",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat"
-  ],
-  "osc:project": "CryoTop Evolution",
-  "osc:variables": [
-    "Glacier Elevation/Ice Sheet Elevation"
-  ],
+  "osc:project": "cryotop-evolution",
   "osc:status": "ongoing",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -78,5 +69,14 @@
     {
       "name": "land_ice_elevation"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-elevation-ice-sheet-elevation"
+  ],
+  "osc:missions": [
+    "cryosat"
   ]
 }

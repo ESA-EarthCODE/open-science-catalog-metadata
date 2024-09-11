@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "In-situ measurements_Baltics",
-  "osc:themes": [
-    "Oceans",
-    "Land"
-  ],
-  "osc:missions": [
-    "In-situ observations"
-  ],
-  "osc:project": "BALTIC+ Sea-Land biogeochemical linkages (SeaLaBio)",
-  "osc:variables": [
-    "Colored Dissolved Organic Matter"
-  ],
+  "osc:project": "baltic-sea-land-biogeochemical-linkages-sealabio",
   "osc:status": "ongoing",
   "osc:region": "Baltics",
   "osc:type": "product",
@@ -71,5 +61,15 @@
     {
       "name": "mass_fraction_of_dissolved_organic_matter"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "colored-dissolved-organic-matter"
+  ],
+  "osc:missions": [
+    "in-situ-observations"
   ]
 }

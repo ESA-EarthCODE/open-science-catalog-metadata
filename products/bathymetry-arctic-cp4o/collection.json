@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Bathymetry_Arctic_Cryosat",
-  "osc:themes": [
-    "Oceans",
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat"
-  ],
-  "osc:project": "CryoSat Plus For Oceans (CP4O)",
-  "osc:variables": [
-    "Bathymetry"
-  ],
+  "osc:project": "cryosat-plus-for-oceans-cp4o",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -76,5 +66,15 @@
     {
       "name": "bathymetry"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "bathymetry"
+  ],
+  "osc:missions": [
+    "cryosat"
   ]
 }

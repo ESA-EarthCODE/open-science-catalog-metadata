@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Extended scientific HDO/H2O total column_TROPOMI",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "WIFT: Water vapour Isotopologues From TROPOMI",
-  "osc:variables": [
-    "Water Vapor"
-  ],
+  "osc:project": "wift-water-vapour-isotopologues-from-tropomi",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -76,5 +67,14 @@
     {
       "name": "hdo_total_column"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "water-vapor"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

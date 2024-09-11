@@ -32,18 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data.",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS",
-    "Sentinel-3"
-  ],
-  "osc:project": "Satellite Oceanographic Datasets for Acidification (OceanSODA)",
-  "osc:variables": [
-    "Dissolved Organic Carbon",
-    "Alkalinity"
-  ],
+  "osc:project": "satellite-oceanographic-datasets-for-acidification-oceansoda",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -79,5 +68,16 @@
     {
       "name": "oceanic_total_alkalinity_and_dissolved_inorganic_carbon"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "dissolved-organic-carbon",
+    "alkalinity"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-3"
   ]
 }

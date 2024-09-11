@@ -42,16 +42,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Antarctic ice shelf basal melt rates 1997-2021",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
   "osc:project": "Polar+ Ice Shelf",
-  "osc:variables": [
-    "Ice Growth/Melt"
-  ],
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -90,5 +81,14 @@
     {
       "name": "antarctic_ice_shelf_melt_rates"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

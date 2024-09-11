@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Database of labelled Sentinel-1 interferograms - v.2.0",
-  "osc:themes": [
-    "Solid Earth"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "Volcano Monitoring using Deep Learning",
-  "osc:variables": [
-    "Volcano Occurrences",
-    "Volcano Predictions"
-  ],
+  "osc:project": "volcano-monitoring-using-deep-learning",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -78,5 +68,15 @@
     {
       "name": "sentinel_1_interferograms"
     }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "volcano-occurrences",
+    "volcano-predictions"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

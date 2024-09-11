@@ -38,16 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "4D-Greenland",
-  "osc:variables": [
-    "Glacial Lake Extent"
-  ],
+  "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland - Watson basin",
   "osc:type": "product",
@@ -82,5 +73,14 @@
     {
       "name": "supraglacial_storage_and_drainage_lake"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacial-lake-extent"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Baltic Sea Surface Salinity L4 maps (V.2.0)_Baltics_Multimission",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS",
-    "SMAP"
-  ],
-  "osc:project": "BALTIC+ Salinity Dynamics",
-  "osc:variables": [
-    "Sea Surface Salinity"
-  ],
+  "osc:project": "baltic-salinity-dynamics",
   "osc:status": "ongoing",
   "osc:region": "Baltics",
   "osc:type": "product",
@@ -79,5 +69,15 @@
     {
       "name": "sea_surface_salinity"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos",
+    "smap"
   ]
 }

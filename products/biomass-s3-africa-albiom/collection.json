@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Prototype biomass product using Sentinel-3 altimetry_Africa_S3",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-3"
-  ],
-  "osc:project": "ALBIOM (ALtimetry for BIOMass)",
-  "osc:variables": [
-    "Biomass"
-  ],
+  "osc:project": "albiom-altimetry-for-biomass",
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
@@ -71,5 +62,14 @@
     {
       "name": "biomass"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "biomass"
+  ],
+  "osc:missions": [
+    "sentinel-3"
   ]
 }

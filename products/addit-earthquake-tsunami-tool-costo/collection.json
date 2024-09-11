@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "Contribution of Swarm data to the prompt detection of Tsunamis and other natural hazards  (COSTO)",
-  "osc:variables": [
-    "Ionosphere/Magnetosphere Dynamics"
-  ],
+  "osc:project": "contribution-of-swarm-data-to-the-prompt-detection-of-tsunamis-and-other-natural-hazards-costo",
   "osc:status": "ongoing",
   "osc:region": "Japan",
   "osc:type": "product",
@@ -76,5 +67,14 @@
     {
       "name": "earthquake_tsunami_tool"
     }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "ionosphere-magnetosphere-dynamics"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

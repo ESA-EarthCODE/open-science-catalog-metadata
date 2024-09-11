@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Particulate backscatter: bbp_Global_AEOLUS",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "AEOLUS"
-  ],
-  "osc:project": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
-  "osc:variables": [
-    "Particulate Backscattering Coefficient"
-  ],
+  "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color",
   "osc:status": "planned",
   "osc:region": "Global",
   "osc:type": "product",
@@ -67,5 +58,14 @@
     {
       "name": "particulate_backscatter_bbp"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "particulate-backscattering-coefficient"
+  ],
+  "osc:missions": [
+    "aeolus"
   ]
 }

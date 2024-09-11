@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)",
-  "osc:themes": [
-    "Oceans",
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SENTINEL-5P+ INNOVATION OCEAN COLOUR (S5P+-I-OC)",
-  "osc:variables": [
-    "Phytoplankton"
-  ],
+  "osc:project": "sentinel-5p-innovation-ocean-colour-s5p-i-oc",
   "osc:status": "completed",
   "osc:region": "South Atlantic Ocean",
   "osc:type": "product",
@@ -78,5 +68,15 @@
     {
       "name": "phytoplankton_pigment_concentration_and_phytoplankton_groups"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "phytoplankton"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

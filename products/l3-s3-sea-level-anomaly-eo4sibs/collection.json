@@ -32,19 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Level-3 Sentinel-3A [mid 2016, 2018] along-track 5Hz product, sea level anomaly, ~1km resolution",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS",
-    "Sentinel-2",
-    "Sentinel-3",
-    "CryoSat-2"
-  ],
-  "osc:project": "Earth Observation data For Science and Innovation in the Black Sea",
-  "osc:variables": [
-    "Sea Level Anomaly"
-  ],
+  "osc:project": "earth-observation-data-for-science-and-innovation-in-the-black-sea",
   "osc:status": "completed",
   "osc:region": "Black Sea",
   "osc:type": "product",
@@ -79,5 +67,17 @@
     {
       "name": "sea_level_anomaly"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-level-anomaly"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-2",
+    "sentinel-3",
+    "cryosat-2"
   ]
 }

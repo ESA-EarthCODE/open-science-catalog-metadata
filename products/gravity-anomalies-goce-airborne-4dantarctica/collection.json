@@ -38,18 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Gravity anomalies from GOCE and airborne data",
-  "osc:themes": [
-    "Cryosphere",
-    "Solid Earth"
-  ],
-  "osc:missions": [
-    "GOCE",
-    "GRACE"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Gravity Anomalies"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -81,5 +70,16 @@
     {
       "name": "gravity_anomalies"
     }
+  ],
+  "osc:themes": [
+    "cryosphere",
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "gravity-anomalies"
+  ],
+  "osc:missions": [
+    "goce",
+    "grace"
   ]
 }

@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Global Model of Crust and Upper Mantle_WINTERC-G_GOCE",
-  "osc:themes": [
-    "Solid Earth"
-  ],
-  "osc:missions": [
-    "GOCE"
-  ],
-  "osc:project": "3D-Earth",
-  "osc:variables": [
-    "Gravitational Field"
-  ],
+  "osc:project": "3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -68,5 +59,14 @@
     {
       "name": "crust_and_upper_mantle_model"
     }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "gravitational-field"
+  ],
+  "osc:missions": [
+    "goce"
   ]
 }

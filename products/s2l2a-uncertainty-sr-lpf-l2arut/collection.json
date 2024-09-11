@@ -22,16 +22,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "S2 L2A uncertainty_Surface reflectance estimates_S2",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-2"
-  ],
-  "osc:project": "L2A-RUT",
-  "osc:variables": [
-    "Reflectance"
-  ],
+  "osc:project": "l2a-rut",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -63,5 +54,14 @@
     {
       "name": "s2l2a_uncertainty_surface_reflectance_estimates"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "reflectance"
+  ],
+  "osc:missions": [
+    "sentinel-2"
   ]
 }

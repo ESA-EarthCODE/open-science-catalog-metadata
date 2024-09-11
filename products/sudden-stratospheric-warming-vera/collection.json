@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sudden Stratospheric Warming (SSW)",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "SWARM+ COUPLING: HIGH-LOW ATMOSPHERE INTERACTIONS: VERtical coupling in Earth's Atmosphere at mid and high latitudes (VERA)",
-  "osc:variables": [
-    "Sudden Stratospheric Warming (SSW)"
-  ],
+  "osc:project": "swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera",
   "osc:status": "ongoing",
   "osc:region": null,
   "osc:type": "product",
@@ -75,5 +66,14 @@
     {
       "name": "sudden_stratospheric_warming"
     }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "sudden-stratospheric-warming-ssw"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

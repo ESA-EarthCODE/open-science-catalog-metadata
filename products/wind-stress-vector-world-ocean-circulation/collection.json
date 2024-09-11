@@ -32,14 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Wind stress vector (& anomalies)_Hourly_ERA5",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "World Ocean circulation",
-  "osc:variables": [
-    "Wind Stress"
-  ],
+  "osc:project": "world-ocean-circulation",
   "osc:status": "ongoing",
   "osc:region": "Agulhas",
   "osc:type": "product",
@@ -73,5 +66,11 @@
     {
       "name": "wind_stress_vector"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "wind-stress"
   ]
 }

@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "STSE-ARCTIC+ THEME 5-CONTRIBUTIONS TO THE YEAR OF POLAR PREDICTIONS (YOPP)",
-  "osc:variables": [
-    "Sea Ice Volume",
-    "Snow Cover"
-  ],
+  "osc:project": "stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp",
   "osc:status": "ongoing",
   "osc:region": "North Sea",
   "osc:type": "product",
@@ -81,5 +71,15 @@
     {
       "name": "sea_ice_and_snow_volume"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-ice-volume",
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

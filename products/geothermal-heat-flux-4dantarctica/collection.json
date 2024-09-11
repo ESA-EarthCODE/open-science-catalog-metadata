@@ -32,14 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Geothermal heat flux estimate from aeromagnetic data",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Geothermal Heat Flux"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -74,5 +67,11 @@
     {
       "name": "geothermal_heat_flux"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "geothermal-heat-flux"
   ]
 }

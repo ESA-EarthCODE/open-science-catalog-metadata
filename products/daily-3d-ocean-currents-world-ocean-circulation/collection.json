@@ -27,14 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Daily 3D ocean currents_North Atlantic",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "World Ocean circulation",
-  "osc:variables": [
-    "Ocean Currents"
-  ],
+  "osc:project": "world-ocean-circulation",
   "osc:status": "planned",
   "osc:region": "North Atlantic",
   "osc:type": "product",
@@ -67,5 +60,11 @@
     {
       "name": "ocean_currents"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "ocean-currents"
   ]
 }

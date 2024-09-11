@@ -32,19 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS",
-    "Sentinel-3"
-  ],
-  "osc:project": "Satellite Oceanographic Datasets for Acidification (OceanSODA)",
-  "osc:variables": [
-    "Alkalinity",
-    "Carbon Dioxide",
-    "Carbonate"
-  ],
+  "osc:project": "satellite-oceanographic-datasets-for-acidification-oceansoda",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -82,5 +70,17 @@
     {
       "name": "total_alkalinity_in_sea_water"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "alkalinity",
+    "carbon-dioxide",
+    "carbonate"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-3"
   ]
 }

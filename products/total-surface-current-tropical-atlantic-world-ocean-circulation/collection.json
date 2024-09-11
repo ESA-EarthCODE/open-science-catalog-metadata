@@ -27,14 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Total surface current_Tropical Atlantic",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "World Ocean circulation",
-  "osc:variables": [
-    "Surface Currents"
-  ],
+  "osc:project": "world-ocean-circulation",
   "osc:status": "planned",
   "osc:region": "Tropical Atlantic",
   "osc:type": "product",
@@ -68,5 +61,11 @@
     {
       "name": "total_surface_current"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "surface-currents"
   ]
 }

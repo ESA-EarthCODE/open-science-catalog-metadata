@@ -37,18 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "MetOp",
-    "SMOS",
-    "SMAP"
-  ],
-  "osc:project": "SMOS+ Rainfall Land",
-  "osc:variables": [
-    "Precipitation Amount"
-  ],
+  "osc:project": "smos-rainfall-land",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -84,5 +73,16 @@
     {
       "name": "rainfall_gpm"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "precipitation-amount"
+  ],
+  "osc:missions": [
+    "metop",
+    "smos",
+    "smap"
   ]
 }

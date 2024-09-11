@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Snow grain diameter_Greenland_S3",
-  "osc:themes": [
-    "Cryosphere",
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-3"
-  ],
-  "osc:project": "Sentinel-3 for Science, Land Study 1: Snow",
-  "osc:variables": [
-    "Snow Grain Size"
-  ],
+  "osc:project": "sentinel-3-for-science-land-study-1-snow",
   "osc:status": "ongoing",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -72,5 +62,15 @@
     {
       "name": "snow_grain_diameter"
     }
+  ],
+  "osc:themes": [
+    "cryosphere",
+    "land"
+  ],
+  "osc:variables": [
+    "snow-grain-size"
+  ],
+  "osc:missions": [
+    "sentinel-3"
   ]
 }

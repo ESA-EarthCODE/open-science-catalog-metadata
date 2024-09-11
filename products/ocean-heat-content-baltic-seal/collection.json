@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Global Ocean Heat Content (GOHC)_GRACE/GRACE-FO",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "GRACE",
-    "GRACE-FO"
-  ],
-  "osc:project": "BALTIC+ SEAL - Sea Level",
-  "osc:variables": [
-    "Ocean Heat Budget"
-  ],
+  "osc:project": "baltic-seal-sea-level",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -71,5 +61,15 @@
     {
       "name": "ocean_heat_content"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "ocean-heat-budget"
+  ],
+  "osc:missions": [
+    "grace",
+    "grace-fo"
   ]
 }

@@ -32,19 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Snow area extent for European Alps_Multimission",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-2",
-    "Landsat-8",
-    "Terra",
-    "AQUA (EOS/PM-1)"
-  ],
-  "osc:project": "AlpSnow",
-  "osc:variables": [
-    "Snow Cover"
-  ],
+  "osc:project": "alpsnow",
   "osc:status": "planned",
   "osc:region": "Europe",
   "osc:type": "product",
@@ -76,5 +64,17 @@
     {
       "name": "snow_area"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "sentinel-2",
+    "landsat-8",
+    "terra",
+    "aqua-eos-pm-1"
   ]
 }

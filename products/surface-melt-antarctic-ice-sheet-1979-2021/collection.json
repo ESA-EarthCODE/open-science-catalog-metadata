@@ -38,16 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Nimbus-7"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Ice Growth/Melt"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -85,5 +76,14 @@
     {
       "name": "surface-melt-antarctic-ice-sheet"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "nimbus-7"
   ]
 }

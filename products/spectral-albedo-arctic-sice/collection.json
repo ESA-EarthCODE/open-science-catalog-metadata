@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Spectral albedo_Arctic_S3",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-3"
-  ],
-  "osc:project": "Pre-Operational Sentinel-3 snow and ice products (SICE)",
-  "osc:variables": [
-    "Albedo"
-  ],
+  "osc:project": "pre-operational-sentinel-3-snow-and-ice-products-sice",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -74,5 +65,14 @@
     {
       "name": "spectral_albedo"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "albedo"
+  ],
+  "osc:missions": [
+    "sentinel-3"
   ]
 }

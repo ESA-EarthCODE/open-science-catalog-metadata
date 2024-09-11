@@ -22,16 +22,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "CryoSat+ Mountain Glaciers",
-  "osc:variables": [
-    "Glacier Elevation/Ice Sheet Elevation"
-  ],
+  "osc:project": "cryosat-mountain-glaciers",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -67,5 +58,14 @@
     {
       "name": "glacier_elevation"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-elevation-ice-sheet-elevation"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

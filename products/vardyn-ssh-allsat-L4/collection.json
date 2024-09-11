@@ -32,24 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SARAL",
-    "CryoSat-2",
-    "HY-2B (Haiyang-2B)",
-    "Jason-3",
-    "Sentinel-3",
-    "GCOM-W1",
-    "GPM (Global Precipitation Measurement)",
-    "Sentinel-6"
-  ],
-  "osc:project": "ESA Science Hub-Florian Le Guillou",
-  "osc:variables": [
-    "Sea Surface Height",
-    "Sea Surface Temperature"
-  ],
+  "osc:project": "esa-science-hub-florian-le-guillou",
   "osc:status": "completed",
   "osc:region": "North Atlantic",
   "osc:type": "product",
@@ -92,5 +75,22 @@
     {
       "name": "sea-surface-height"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-height",
+    "sea-surface-temperature"
+  ],
+  "osc:missions": [
+    "saral",
+    "cryosat-2",
+    "hy-2b-haiyang-2b",
+    "jason-3",
+    "sentinel-3",
+    "gcom-w1",
+    "gpm-global-precipitation-measurement",
+    "sentinel-6"
   ]
 }

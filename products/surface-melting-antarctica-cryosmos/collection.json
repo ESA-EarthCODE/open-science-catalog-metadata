@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Occurrence of Surface Melting_Antarctica_SMOS",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "CryoSMOS",
-  "osc:variables": [
-    "Ice Growth/Melt"
-  ],
+  "osc:project": "cryosmos",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -78,5 +69,14 @@
     {
       "name": "surface_melting"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

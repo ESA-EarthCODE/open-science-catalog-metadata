@@ -37,14 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea level trends over 1993-2015 and 2005-2015 from the OCCIPUT ensemble simulation",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "OVALIE: Oceanic intrinsic Variability versus Atmospheric forced variabiLIty of sea level changE",
-  "osc:variables": [
-    "Sea Level"
-  ],
+  "osc:project": "ovalie-oceanic-intrinsic-variability-versus-atmospheric-forced-variability-of-sea-level-change",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -79,5 +72,11 @@
     {
       "name": "sea_level_trends"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-level"
   ]
 }

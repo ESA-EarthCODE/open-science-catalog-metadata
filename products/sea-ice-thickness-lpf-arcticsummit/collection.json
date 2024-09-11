@@ -43,17 +43,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea ice thickness_monthly_Oct 2010-July 2020Arctic_CryoSat-2 Baseline-D observations",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "ArcticSummIT: Arctic Summer Ice Thickness",
-  "osc:variables": [
-    "Ice Depth/Thickness",
-    "Freeboard"
-  ],
+  "osc:project": "arcticsummit-arctic-summer-ice-thickness",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -89,5 +79,15 @@
     {
       "name": "sea_ice_thickness"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-depth-thickness",
+    "freeboard"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

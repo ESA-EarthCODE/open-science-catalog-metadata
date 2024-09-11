@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Subglacial Melt Maps",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "4D-Greenland",
-  "osc:variables": [
-    "Ice Growth/Melt"
-  ],
+  "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland - Watson basin",
   "osc:type": "product",
@@ -77,5 +68,14 @@
     {
       "name": "subglacial_melt"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

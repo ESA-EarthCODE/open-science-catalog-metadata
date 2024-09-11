@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "RDSAR Satellite SAR altimeter product_Open Ocean_Cryosat",
-  "osc:themes": [
-    "Oceans",
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat"
-  ],
-  "osc:project": "CryoSat Plus For Oceans (CP4O)",
-  "osc:variables": [
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
+  "osc:project": "cryosat-plus-for-oceans-cp4o",
   "osc:status": "ongoing",
   "osc:region": "Pacific and North Atlantic",
   "osc:type": "product",
@@ -77,5 +67,15 @@
     {
       "name": "rdsar_satellite_sar_altimeter open_ocean"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "cryosat"
   ]
 }

@@ -37,16 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Total ozone product from OLCI / S-3_Antarctica _S3",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-3"
-  ],
-  "osc:project": "AnREO: Retrieval of Total Ozone using OLCI-S-3 over Antarctica",
-  "osc:variables": [
-    "Total Ozone"
-  ],
+  "osc:project": "anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -82,5 +73,14 @@
     {
       "name": "total_ozone"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "total-ozone"
+  ],
+  "osc:missions": [
+    "sentinel-3"
   ]
 }

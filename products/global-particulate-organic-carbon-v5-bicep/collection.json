@@ -32,21 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Monthly Global Chlorophyll-a dataset (9 km, OC-CCI v5)",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "ENVISAT",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Suomi NPP",
-    "OrbView-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "Biological Pump and Carbon Exchange Processes",
-  "osc:variables": [
-    "Chlorophyll Concentration"
-  ],
+  "osc:project": "biological-pump-and-carbon-exchange-processes",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -83,5 +69,19 @@
     {
       "name": "mass_concentration_of_chlorophyll_a_in_sea_water"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "chlorophyll-concentration"
+  ],
+  "osc:missions": [
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp",
+    "orbview-2",
+    "sentinel-3"
   ]
 }

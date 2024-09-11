@@ -32,14 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Oceanic/current fronts_Gibraltar",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "World Ocean circulation",
-  "osc:variables": [
-    "Fronts"
-  ],
+  "osc:project": "world-ocean-circulation",
   "osc:status": "ongoing",
   "osc:region": "Gibraltar",
   "osc:type": "product",
@@ -74,5 +67,11 @@
     {
       "name": "oceanic_current_fronts"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "fronts"
   ]
 }

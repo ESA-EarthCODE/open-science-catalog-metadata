@@ -38,18 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Southern Ocean sea ice thickness from CryoSat-2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "Cryosat+ Antarctic Ocean",
-  "osc:variables": [
-    "Snow Depth",
-    "Freeboard",
-    "Ice Depth/Thickness"
-  ],
+  "osc:project": "cryosat-antarctic-ocean",
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -88,5 +77,16 @@
     {
       "name": "ice-sheet-velocity-antarctic-2021"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-depth",
+    "freeboard",
+    "ice-depth-thickness"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

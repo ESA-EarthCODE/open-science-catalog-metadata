@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Swath elevation_Greenland Ice Sheet_2011-2016_CryoSat-2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "STSE CryoSat+ CryoTop Evolution",
-  "osc:variables": [
-    "Digital Elevation/Terrain Model (DEM)"
-  ],
+  "osc:project": "stse-cryosat-cryotop-evolution",
   "osc:status": "ongoing",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -77,5 +68,14 @@
     {
       "name": "swath_elevation_ice_sheet_"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "digital-elevation-terrain-model-dem"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Ice Sheet_gridded topography_rates of surface elevation change_Greenland_Cryosat-2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "STSE CryoSat+ CryoTop Evolution",
-  "osc:variables": [
-    "Glacier Topography/Ice Sheet Topography"
-  ],
+  "osc:project": "stse-cryosat-cryotop-evolution",
   "osc:status": "ongoing",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -77,5 +68,14 @@
     {
       "name": "ice_sheet_topography_elevation_change"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-topography-ice-sheet-topography"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

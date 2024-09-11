@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Multitemporal crop map - phenological parameters and phenological parameters_Italy_2017/2018_S2",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-2"
-  ],
-  "osc:project": "S2 for Land and Water, Change Detection/Multi-temporal",
-  "osc:variables": [
-    "Land Use/Land Cover Classification"
-  ],
+  "osc:project": "s2-for-land-and-water-change-detection-multi-temporal",
   "osc:status": "ongoing",
   "osc:region": "Italy",
   "osc:type": "product",
@@ -75,5 +66,14 @@
     {
       "name": "crop_map"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "land-use-land-cover-classification"
+  ],
+  "osc:missions": [
+    "sentinel-2"
   ]
 }

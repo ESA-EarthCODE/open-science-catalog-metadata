@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "CryoSMOS",
-  "osc:variables": [
-    "Glacier Thickness/Ice Sheet Thickness"
-  ],
+  "osc:project": "cryosmos",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -71,5 +62,14 @@
     {
       "name": "bedrock_topography"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-thickness-ice-sheet-thickness"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

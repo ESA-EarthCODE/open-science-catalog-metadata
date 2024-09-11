@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Snow cover on glaciers_SwissAlps_S1/2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-1",
-    "Sentinel-2"
-  ],
-  "osc:project": "AlpGlacier",
-  "osc:variables": [
-    "Snow Cover"
-  ],
+  "osc:project": "alpglacier",
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
@@ -71,5 +61,15 @@
     {
       "name": "snow_cover"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
   ]
 }

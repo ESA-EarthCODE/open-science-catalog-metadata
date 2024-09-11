@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SENTINEL-5P+ INNOVATION SOLAR INDUCED CHLOROPHYLL FLUORESCENCE (SIF)",
-  "osc:variables": [
-    "Reflectance"
-  ],
+  "osc:project": "sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -75,5 +66,14 @@
     {
       "name": "surface_reflectance_tropomi"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "reflectance"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

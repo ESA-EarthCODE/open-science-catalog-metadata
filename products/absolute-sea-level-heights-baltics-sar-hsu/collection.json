@@ -27,18 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "GOCE",
-    "Sentinel-1",
-    "GLONASS"
-  ],
-  "osc:project": "BALTIC+ Geodetic SAR for Baltic Height System Unification (SAR-HSU)",
-  "osc:variables": [
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
+  "osc:project": "baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu",
   "osc:status": "ongoing",
   "osc:region": "Baltics",
   "osc:type": "product",
@@ -73,5 +62,16 @@
     {
       "name": "absolute_sea_level_heights"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "goce",
+    "sentinel-1",
+    "glonass"
   ]
 }

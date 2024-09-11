@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Geothermal Heat Flow Database and Map_Greenland_GOCE_SWARM",
-  "osc:themes": [
-    "Solid Earth"
-  ],
-  "osc:missions": [
-    "GOCE",
-    "SWARM"
-  ],
-  "osc:project": "3D-Earth",
-  "osc:variables": [
-    "Geothermal Energy"
-  ],
+  "osc:project": "3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
@@ -75,5 +65,15 @@
     {
       "name": "geothermal_heat_flow"
     }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "geothermal-energy"
+  ],
+  "osc:missions": [
+    "goce",
+    "swarm"
   ]
 }

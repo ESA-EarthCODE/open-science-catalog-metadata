@@ -32,17 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Phytoplankton pigment concentrations during POLARSTERN cruise PS121 from North Sea to Fram in August to September 2019",
-  "osc:themes": [
-    "Oceans",
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SENTINEL-5P+ INNOVATION OCEAN COLOUR (S5P+-I-OC)",
-  "osc:variables": [
-    "Phytoplankton"
-  ],
+  "osc:project": "sentinel-5p-innovation-ocean-colour-s5p-i-oc",
   "osc:status": "completed",
   "osc:region": "North Greenland Sea",
   "osc:type": "product",
@@ -78,5 +68,15 @@
     {
       "name": "phytoplankton_pigment_concentrations"
     }
+  ],
+  "osc:themes": [
+    "oceans",
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "phytoplankton"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

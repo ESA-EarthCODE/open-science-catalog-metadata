@@ -32,20 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Simulated River discharge products_Po Cremona_Multimission",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-3",
-    "SARAL",
-    "CryoSat-2",
-    "Terra",
-    "AQUA (EOS/PM-1)"
-  ],
-  "osc:project": "RIDESAT - RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data",
-  "osc:variables": [
-    "Fresh Water River Discharge"
-  ],
+  "osc:project": "ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data",
   "osc:status": "ongoing",
   "osc:region": "Europe",
   "osc:type": "product",
@@ -79,5 +66,18 @@
     {
       "name": "simulated_river_discharge"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "fresh-water-river-discharge"
+  ],
+  "osc:missions": [
+    "sentinel-3",
+    "saral",
+    "cryosat-2",
+    "terra",
+    "aqua-eos-pm-1"
   ]
 }

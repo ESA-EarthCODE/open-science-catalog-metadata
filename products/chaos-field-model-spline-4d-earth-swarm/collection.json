@@ -32,22 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "CHAOS field model_SplineCoefficients",
-  "osc:themes": [
-    "Solid Earth",
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM",
-    "CryoSat-2",
-    "CHAMP",
-    "SAC-C",
-    "OERSTED"
-  ],
-  "osc:project": "The 4D-Earth Swarm project",
-  "osc:variables": [
-    "Magnetic Fields/Magnetic Currents",
-    "Geomagnetic Indices"
-  ],
+  "osc:project": "the-4d-earth-swarm-project",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -83,5 +68,20 @@
     {
       "name": "chaos_field_model_spline"
     }
+  ],
+  "osc:themes": [
+    "solid-earth",
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "magnetic-fields-magnetic-currents",
+    "geomagnetic-indices"
+  ],
+  "osc:missions": [
+    "swarm",
+    "cryosat-2",
+    "champ",
+    "sac-c",
+    "oersted"
   ]
 }

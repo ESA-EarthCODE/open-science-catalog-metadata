@@ -32,14 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Gridded Surface Current_Oceans_Agulhas",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [],
-  "osc:project": "World Ocean circulation",
-  "osc:variables": [
-    "Surface Currents"
-  ],
+  "osc:project": "world-ocean-circulation",
   "osc:status": "ongoing",
   "osc:region": "Agulhas",
   "osc:type": "product",
@@ -74,5 +67,11 @@
     {
       "name": "surface_current"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "surface-currents"
   ]
 }

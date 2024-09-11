@@ -37,16 +37,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "PrISM SMOS Rainfall product v2.0_3h_0.1_Africa",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "SMOS+ Rainfall Land",
-  "osc:variables": [
-    "Precipitation Amount"
-  ],
+  "osc:project": "smos-rainfall-land",
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
@@ -82,5 +73,14 @@
     {
       "name": "rainfall_prism"
     }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "precipitation-amount"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "AOD (Aerosol Optical Depth) estimates from LARISSA",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "AEOLUS"
-  ],
-  "osc:project": "AEOLUS+ INNOVATION - STUDIES ON WIND AND AEROSOL INFORMATION FROM LIDAR SURFACE RETURNS (SWAILS+)",
-  "osc:variables": [
-    "Aerosol Optical Depth/Thickness"
-  ],
+  "osc:project": "aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails",
   "osc:status": "ongoing",
   "osc:region": "Global Oceans",
   "osc:type": "product",
@@ -70,5 +61,14 @@
     {
       "name": "aeolus_larissa_2a"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "aerosol-optical-depth-thickness"
+  ],
+  "osc:missions": [
+    "aeolus"
   ]
 }

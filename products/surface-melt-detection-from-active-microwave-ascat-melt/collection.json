@@ -32,16 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Surface Melt Detection from Active Microwave - ASCAT Melt Product",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "MetOp"
-  ],
-  "osc:project": "4D-Greenland",
-  "osc:variables": [
-    "Ice Growth/Melt"
-  ],
+  "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland",
   "osc:type": "product",
@@ -77,5 +68,14 @@
     {
       "name": "surface_melting"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "metop"
   ]
 }

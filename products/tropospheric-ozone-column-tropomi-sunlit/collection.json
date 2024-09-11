@@ -27,16 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SUNLIT - Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring",
-  "osc:variables": [
-    "Tropospheric Ozone"
-  ],
+  "osc:project": "sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -70,5 +61,14 @@
     {
       "name": "tropospheric_ozone_column"
     }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "tropospheric-ozone"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

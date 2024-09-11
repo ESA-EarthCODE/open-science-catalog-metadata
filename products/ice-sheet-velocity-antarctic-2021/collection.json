@@ -38,16 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Antarctic Ice Sheet monthly ice velocity - 2021",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Ice Velocity"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -83,5 +74,14 @@
     {
       "name": "ice-sheet-velocity-antarctic-2021"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-velocity"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

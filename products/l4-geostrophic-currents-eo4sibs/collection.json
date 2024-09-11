@@ -32,19 +32,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS",
-    "Sentinel-2",
-    "Sentinel-3",
-    "CryoSat-2"
-  ],
-  "osc:project": "Earth Observation data For Science and Innovation in the Black Sea",
-  "osc:variables": [
-    "Surface Currents"
-  ],
+  "osc:project": "earth-observation-data-for-science-and-innovation-in-the-black-sea",
   "osc:status": "completed",
   "osc:region": "Black Sea",
   "osc:type": "product",
@@ -79,5 +67,17 @@
     {
       "name": "geostrophic_currents"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "surface-currents"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-2",
+    "sentinel-3",
+    "cryosat-2"
   ]
 }

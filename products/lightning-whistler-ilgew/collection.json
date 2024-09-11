@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Lightning-generated whistler events_Global_SWARM",
-  "osc:themes": [
-    "Atmosphere",
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "INVESTIGATING LIGHTNING GENERATED ELF WHISTLERS TO IMPROVE IONOSPHERIC MODELS (ILGEW)",
-  "osc:variables": [
-    "Lightning"
-  ],
+  "osc:project": "investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew",
   "osc:status": "ongoing",
   "osc:region": null,
   "osc:type": "product",
@@ -76,5 +66,15 @@
     {
       "name": "lightning_whistler_events"
     }
+  ],
+  "osc:themes": [
+    "atmosphere",
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "lightning"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

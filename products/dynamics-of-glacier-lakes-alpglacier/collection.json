@@ -27,17 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Dynamics of glacier lakes_SwissAlps_S1/2",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-1",
-    "Sentinel-2"
-  ],
-  "osc:project": "AlpGlacier",
-  "osc:variables": [
-    "Glacier Motion/Ice Sheet Motion"
-  ],
+  "osc:project": "alpglacier",
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
@@ -73,5 +63,15 @@
     {
       "name": "glacial_lakes_dynamics"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-motion-ice-sheet-motion"
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
   ]
 }

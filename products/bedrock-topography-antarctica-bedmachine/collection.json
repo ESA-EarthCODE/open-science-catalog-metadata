@@ -38,17 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Numerical models"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Ice Depth/Thickness",
-    "Glacier Thickness/Ice Sheet Thickness"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -88,5 +78,15 @@
     {
       "name": "bedrock-topography-antarctica-bedmachine"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-depth-thickness",
+    "glacier-thickness-ice-sheet-thickness"
+  ],
+  "osc:missions": [
+    "numerical-models"
   ]
 }

@@ -38,26 +38,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Subglacial Lake Drainage and Filling Antarctica Multimission",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2",
-    "SMOS",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Sentinel-1",
-    "Sentinel-2",
-    "ERS-1",
-    "ERS-2",
-    "ENVISAT",
-    "TanDEM-X",
-    "Landsat-8"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Glacial Lake Extent"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
@@ -94,5 +75,24 @@
     {
       "name": "subglacial_lake_drainage"
     }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacial-lake-extent"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "smos",
+    "terra",
+    "aqua-eos-pm-1",
+    "sentinel-1",
+    "sentinel-2",
+    "ers-1",
+    "ers-2",
+    "envisat",
+    "tandem-x",
+    "landsat-8"
   ]
 }

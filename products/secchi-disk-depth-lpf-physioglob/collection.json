@@ -27,20 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Secchi Disk depth_Global Oceans_Multimission",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "OrbView-2",
-    "ENVISAT",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Suomi NPP"
-  ],
-  "osc:project": "PHYSIOGLOB: Assessing the inter-annual physiological response of phytoplankton to global warming using long-term satellite observations",
-  "osc:variables": [
-    "Chlorophyll Concentration"
-  ],
+  "osc:project": "physioglob-assessing-the-inter-annual-physiological-response-of-phytoplankton-to-global-warming-using-long-term-satellite-observations",
   "osc:status": "ongoing",
   "osc:region": "Global Oceans",
   "osc:type": "product",
@@ -77,5 +64,18 @@
     {
       "name": "secchi_disk_depth"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "chlorophyll-concentration"
+  ],
+  "osc:missions": [
+    "orbview-2",
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp"
   ]
 }

@@ -27,21 +27,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v4.2)",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "ENVISAT",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Suomi NPP",
-    "OrbView-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "Biological Pump and Carbon Exchange Processes",
-  "osc:variables": [
-    "Ocean Mixed Layer"
-  ],
+  "osc:project": "biological-pump-and-carbon-exchange-processes",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -76,5 +62,19 @@
     {
       "name": "mixed_layer_depth"
     }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "ocean-mixed-layer"
+  ],
+  "osc:missions": [
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp",
+    "orbview-2",
+    "sentinel-3"
   ]
 }
