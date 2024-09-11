@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Stratospheric ozone column from limb satellites_Global",
   "osc:themes": [
@@ -39,7 +40,6 @@
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "stratospheric_ozone_column",
   "created": "2020-12-31T00:00:00Z",
   "start_datetime": "2004-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
@@ -66,5 +66,10 @@
     "Atmospheric Chemistry",
     "Oxygen Compounds",
     "Atmospheric Ozone"
+  ],
+  "cf:parameter": [
+    {
+      "name": "stratospheric_ozone_column"
+    }
   ]
 }

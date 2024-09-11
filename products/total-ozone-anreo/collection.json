@@ -32,8 +32,9 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Total ozone product from OLCI / S-3_Antarctica _S3",
   "osc:themes": [
@@ -49,7 +50,6 @@
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
-  "osc:standard_name": "total_ozone",
   "created": "2021-12-01T00:00:00Z",
   "start_datetime": "2019-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
@@ -77,5 +77,10 @@
     "Atmospheric Chemistry",
     "Oxygen Compounds",
     "Atmospheric Ozone"
+  ],
+  "cf:parameter": [
+    {
+      "name": "total_ozone"
+    }
   ]
 }

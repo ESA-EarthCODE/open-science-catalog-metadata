@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Broadband albedo_Greenland_S3",
   "osc:themes": [
@@ -40,7 +41,6 @@
   "osc:status": "ongoing",
   "osc:region": "Greenland",
   "osc:type": "product",
-  "osc:standard_name": "broadband_albedo",
   "created": "2019-01-01T00:00:00Z",
   "start_datetime": "2017-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
@@ -70,5 +70,10 @@
     "Land Surface",
     "Surface Radiative Properties",
     "Terrestrial Hydrosphere"
+  ],
+  "cf:parameter": [
+    {
+      "name": "broadband_albedo"
+    }
   ]
 }

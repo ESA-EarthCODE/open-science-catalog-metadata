@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Gridded_Africa_SMOS level 3 products CATDS",
   "osc:themes": [
@@ -39,7 +40,6 @@
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
-  "osc:standard_name": "vegetation_optical_depth",
   "created": "2018-07-30T00:00:00Z",
   "extent": {
     "spatial": {
@@ -67,5 +67,10 @@
     "Soils",
     "Soil Moisture/Water Content",
     "Agriculture"
+  ],
+  "cf:parameter": [
+    {
+      "name": "vegetation_optical_depth"
+    }
   ]
 }

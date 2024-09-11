@@ -27,8 +27,9 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE",
   "osc:themes": [
@@ -46,7 +47,6 @@
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
-  "osc:standard_name": "density_temperature_viscosity",
   "created": "2019-10-25T00:00:00Z",
   "start_datetime": "2009-01-01T00:00:00Z",
   "end_datetime": "2013-12-31T23:59:59Z",
@@ -74,5 +74,10 @@
     "Gravity/Gravitational Field",
     "Gravitational Field",
     "Crustal Motion"
+  ],
+  "cf:parameter": [
+    {
+      "name": "density_temperature_viscosity"
+    }
   ]
 }

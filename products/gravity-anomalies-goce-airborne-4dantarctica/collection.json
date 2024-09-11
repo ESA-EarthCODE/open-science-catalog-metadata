@@ -11,7 +11,7 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child", 
+      "rel": "child",
       "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/gravity-anomalies-goce-airborne-4dantarctica/catalog.json",
       "type": "application/json",
       "title": "Items"
@@ -34,7 +34,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Gravity anomalies from GOCE and airborne data",
   "osc:themes": [
@@ -52,7 +53,6 @@
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
-  "osc:standard_name": "gravity_anomalies",
   "created": "2016-01-08T00:00:00Z",
   "extent": {
     "spatial": {
@@ -76,5 +76,10 @@
   "keywords": [
     "Gravity/Gravitational Field",
     "Gravity Anomalies"
+  ],
+  "cf:parameter": [
+    {
+      "name": "gravity_anomalies"
+    }
   ]
 }

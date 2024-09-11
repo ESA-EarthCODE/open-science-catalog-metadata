@@ -28,7 +28,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Regional irrigation water use at high-resolution - MURRAY-DARLING basin",
   "osc:themes": [
@@ -44,7 +45,6 @@
   "osc:status": "completed",
   "osc:region": "Murray-Darling basin (South-eastern Australia)",
   "osc:type": "product",
-  "osc:standard_name": "soil_moisture_based_inversion_approach_murray_darling_irrigation",
   "created": "2022-11-21T00:00:00Z",
   "start_datetime": "2017-04-01T00:00:00Z",
   "end_datetime": "2020-07-31T23:59:59Z",
@@ -70,5 +70,10 @@
   "keywords": [
     "Anthroposphere",
     "Anthropogenic Water Use"
+  ],
+  "cf:parameter": [
+    {
+      "name": "soil_moisture_based_inversion_approach_murray_darling_irrigation"
+    }
   ]
 }

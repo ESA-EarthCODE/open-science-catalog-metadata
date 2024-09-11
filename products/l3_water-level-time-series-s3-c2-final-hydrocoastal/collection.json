@@ -1,76 +1,81 @@
 {
-    "type": "Collection",
-    "id": "l3_water-level-time-series-s3-c2-final-hydrocoastal",
-    "stac_version": "1.0.0",
-    "description": "The HYDROCOASTAL final product is produced using innovative retracking algorithms for the  coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform  Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the project. This page collects data from L3-Inland Water Level Time Series: for all inland water regions. Folder Structure: All final L3 products are under top level folders “L3_DTU” and “L3_AHL”. Under the L3_DTU are separate zip files for River level time series from Sentinel-3 data (S3_Rivers.zip), River level time series from Cryosat-2 data (C2_Rivers.zip), and lake water level time series from both Sentinel-3 and Cryosat-2 data (S3_C2_Lakes.zip). Under the L3_AHL are separate zip files for River level time series from Sentinel-3 data (S3_Rivers.zip) and River level time series from Cryosat-2 data (C2_Rivers.zip). Data format and content: L3 products are processed using two different L3 processors: one from AltiHydroLab.fr (AHL) and another one from DTU Space. We provide outline format content descriptions below, for full details read the Product Specification Document at: https://www.satoc.eu/projects/hydrocoastal/docs.html",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L3/",
-        "title": "Access"
-      },
-      {
-        "rel": "via",
-        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
-        "title": "Documentation"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Products"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
-    ],
-    "title": "HYDROCOASTAL Final Product: L3 inland water level time series",
-    "osc:themes": [
-      "Oceans",
-      "Land"
-    ],
-    "osc:missions": [
-      "CryoSat-2",
-      "Sentinel-3"
-    ],
-    "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
-    "osc:variables": [
-      "Stage Height"
-    ],
-    "osc:status": "completed",
-    "osc:region": "Global",
-    "osc:type": "product",
-    "osc:standard_name": "stage_height",
-    "created": "2023-09-23T00:00:00Z",
-    "start_datetime": "2010-09-06T00:00:00Z",
-    "end_datetime": "2022-09-30T23:59:59Z",
-    "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L3_2010_2022_v_1.0_2023_12",
-    "extent": {
-      "spatial": {
-        "bbox": [
-            -180.0,
-            -90.0,
-            180.0,
-            90.0
-        ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2010-09-06T00:00:00Z",
-            "2022-09-30T23:59:59Z"
-          ]
-        ]
-      }
+  "type": "Collection",
+  "id": "l3_water-level-time-series-s3-c2-final-hydrocoastal",
+  "stac_version": "1.0.0",
+  "description": "The HYDROCOASTAL final product is produced using innovative retracking algorithms for the  coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform  Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the project. This page collects data from L3-Inland Water Level Time Series: for all inland water regions. Folder Structure: All final L3 products are under top level folders \u201cL3_DTU\u201d and \u201cL3_AHL\u201d. Under the L3_DTU are separate zip files for River level time series from Sentinel-3 data (S3_Rivers.zip), River level time series from Cryosat-2 data (C2_Rivers.zip), and lake water level time series from both Sentinel-3 and Cryosat-2 data (S3_C2_Lakes.zip). Under the L3_AHL are separate zip files for River level time series from Sentinel-3 data (S3_Rivers.zip) and River level time series from Cryosat-2 data (C2_Rivers.zip). Data format and content: L3 products are processed using two different L3 processors: one from AltiHydroLab.fr (AHL) and another one from DTU Space. We provide outline format content descriptions below, for full details read the Product Specification Document at: https://www.satoc.eu/projects/hydrocoastal/docs.html",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
-    "license": "proprietary",
-    "keywords": [
-      "Stage Height"
-    ]
-  }
+    {
+      "rel": "via",
+      "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L3/",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "title": "HYDROCOASTAL Final Product: L3 inland water level time series",
+  "osc:themes": [
+    "Oceans",
+    "Land"
+  ],
+  "osc:missions": [
+    "CryoSat-2",
+    "Sentinel-3"
+  ],
+  "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
+  "osc:variables": [
+    "Stage Height"
+  ],
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2023-09-23T00:00:00Z",
+  "start_datetime": "2010-09-06T00:00:00Z",
+  "end_datetime": "2022-09-30T23:59:59Z",
+  "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L3_2010_2022_v_1.0_2023_12",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-09-06T00:00:00Z",
+          "2022-09-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Stage Height"
+  ],
+  "cf:parameter": [
+    {
+      "name": "stage_height"
+    }
+  ]
+}

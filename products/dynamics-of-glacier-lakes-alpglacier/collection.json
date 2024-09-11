@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Dynamics of glacier lakes_SwissAlps_S1/2",
   "osc:themes": [
@@ -40,7 +41,6 @@
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
-  "osc:standard_name": "glacial_lakes_dynamics",
   "start_datetime": "2016-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
   "extent": {
@@ -68,5 +68,10 @@
     "Cryospheric Indicators",
     "Glacial Measurements",
     "Sea Ice"
+  ],
+  "cf:parameter": [
+    {
+      "name": "glacial_lakes_dynamics"
+    }
   ]
 }

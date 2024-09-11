@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Monthly Global Dissolved Organic Carbon dataset (9 km, OC-CCI v4.2)",
   "osc:themes": [
@@ -44,7 +45,6 @@
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "dissolved_organic_carbon",
   "created": "2021-03-21T00:00:00Z",
   "start_datetime": "2010-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
@@ -71,5 +71,10 @@
     "Ocean Chemistry",
     "Organic Carbon",
     "Dissolved Organic Carbon"
+  ],
+  "cf:parameter": [
+    {
+      "name": "dissolved_organic_carbon"
+    }
   ]
 }

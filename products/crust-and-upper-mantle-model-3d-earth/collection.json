@@ -23,7 +23,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Global Model of Crust and Upper Mantle_WINTERC-G_GOCE",
   "osc:themes": [
@@ -39,7 +40,6 @@
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "crust_and_upper_mantle_model",
   "created": "2021-03-10T00:00:00Z",
   "extent": {
     "spatial": {
@@ -63,5 +63,10 @@
   "keywords": [
     "Gravity/Gravitational Field",
     "Gravitational Field"
+  ],
+  "cf:parameter": [
+    {
+      "name": "crust_and_upper_mantle_model"
+    }
   ]
 }
