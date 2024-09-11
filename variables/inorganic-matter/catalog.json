@@ -18,12 +18,6 @@
     },
     {
       "rel": "via",
-      "href": "",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
-      "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/e848dbd1-b70a-4820-a630-98bd642ae357?gtm_keyword=INORGANIC%20MATTER&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
