@@ -33,7 +33,7 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)",
-  "osc:project": "SO-FRESH",
+  "osc:project": "so-fresh",
   "osc:status": "ongoing",
   "osc:type": "product",
   "cf:parameter": [
