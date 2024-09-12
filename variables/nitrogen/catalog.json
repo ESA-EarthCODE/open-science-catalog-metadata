@@ -2,19 +2,13 @@
   "type": "Catalog",
   "id": "nitrogen",
   "stac_version": "1.0.0",
-  "description": "Measure of any form of Nitrogen, a macronutrient, in the soil, such as biomass nitrogen, ammonium, nitrate, etc\u0085",
+  "description": "Measure of any form of Nitrogen, a macronutrient, in the soil, such as biomass nitrogen, ammonium, nitrate, etc",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
     },
     {
       "rel": "via",
@@ -39,6 +33,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/e1179e7f-59e5-465a-9879-6bda6985744e?gtm_keyword=NITROGEN&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -57,5 +57,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.838131Z",
+  "keywords": [],
   "title": "Nitrogen"
 }

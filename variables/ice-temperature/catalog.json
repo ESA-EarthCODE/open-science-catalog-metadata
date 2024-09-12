@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/ice-sheet-temperature-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Internal ice-sheet temperature_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-temperature-profiles-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.225832Z",
+  "keywords": [],
   "title": "Ice Temperature"
 }

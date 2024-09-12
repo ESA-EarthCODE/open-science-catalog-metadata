@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/consistent-retrieval-of-cloud-aerosol-surface/collection.json",
+      "type": "application/json",
+      "title": "Project: CIRCAS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/cloud-condensation-nuclei/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Cloud Condensation Nuclei"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Cloud and aerosol products_Regional_S3A/SLSTR",
   "osc:project": "consistent-retrieval-of-cloud-aerosol-surface",
   "osc:status": "ongoing",
   "osc:region": "Regional",
@@ -34,6 +57,22 @@
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2019-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "cloud_aerosol"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "cloud-condensation-nuclei"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.212108Z",
+  "title": "Cloud and aerosol products_Regional_S3A/SLSTR",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,20 +98,11 @@
     "Clouds",
     "Cloud Microphysics",
     "Cloud Condensation Nuclei",
-    "Aerosols"
-  ],
-  "cf:parameter": [
-    {
-      "name": "cloud_aerosol"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "cloud-condensation-nuclei"
-  ],
-  "osc:missions": [
-    "sentinel-3"
+    "Aerosols",
+    "theme:atmosphere",
+    "variable:cloud-condensation-nuclei",
+    "mission:sentinel-3",
+    "region:Regional",
+    "project:consistent-retrieval-of-cloud-aerosol-surface"
   ]
 }

@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/13bf19c5-087f-4fe0-87ea-ef6f7ecd5444?gtm_keyword=GLACIER%20ELEVATION/ICE%20SHEET%20ELEVATION&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,120 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/83bd640d-cd05-49a8-9ec7-aab60820b126?gtm_keyword=GLACIER%20ELEVATION/ICE%20SHEET%20ELEVATION&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glacier-elevation-cryosat-mountain-glaciers/collection.json",
+      "type": "application/json",
+      "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-antarctica-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Antarctica_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-arctic-canada-north-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada North_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-arctic-canada-south-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada South_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-greenland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Greenland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-iceland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Iceland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-russian-arctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Russian Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-southern-andes-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Southern Andes_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-svalbard-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Svalbard_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-antarctica-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Antarctica_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-arctic-canada-north-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada North_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-arctic-canada-south-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada South_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-greenland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Greenland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-iceland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Iceland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-russian-arctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Russian Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-southern-andes-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Southern Andes_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-svalbard-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Svalbard_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sec-antarctic-ice-sheet/collection.json",
+      "type": "application/json",
+      "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +150,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.836131Z",
+  "keywords": [],
   "title": "Glacier Elevation/Ice Sheet Elevation"
 }

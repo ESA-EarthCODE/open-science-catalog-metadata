@@ -2,19 +2,13 @@
   "type": "Catalog",
   "id": "stratospheric-temperature-anomalies",
   "stac_version": "1.0.0",
-  "description": "The stratosphere is the upper middle part of the atmosphere, and is the level of the Jet Stream winds. Colder temperatures in the stratosphere over the Arctic are associated with the positive phase of the\u00a0Arctic Oscillation, and are indicative of stronger polar winds.",
+  "description": "The stratosphere is the upper middle part of the atmosphere, and is the level of the Jet Stream winds. Colder temperatures in the stratosphere over the Arctic are associated with the positive phase of the Arctic Oscillation, and are indicative of stronger polar winds.",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
     },
     {
       "rel": "via",
@@ -27,6 +21,12 @@
       "href": "https://www.pmel.noaa.gov/arctic-zone/detect/climate-strat.shtml",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.842131Z",
+  "keywords": [],
   "title": "Stratospheric Temperature Anomalies"
 }

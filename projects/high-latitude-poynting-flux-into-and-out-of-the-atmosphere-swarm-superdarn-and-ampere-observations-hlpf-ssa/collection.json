@@ -26,7 +26,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "HLPF-SSA",
   "osc:name": "HIGH-LATITUDE POYNTING FLUX INTO AND OUT OF THE ATMOSPHERE: SWARM, SUPERDARN AND AMPERE OBSERVATIONS (HLPF-SSA)",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -54,6 +53,9 @@
   ],
   "start_datetime": "2022-09-15T00:00:00Z",
   "end_datetime": "2024-01-04T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.012110Z",
+  "title": "HLPF-SSA",
   "extent": {
     "spatial": {
       "bbox": [
@@ -74,5 +76,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere"
+  ]
 }

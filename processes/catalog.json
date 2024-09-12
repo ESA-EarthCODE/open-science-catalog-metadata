@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./sleeper/collection.json",
       "type": "application/json",
@@ -33,7 +27,14 @@
       "href": "./osc-closure-phase/collection.json",
       "type": "application/json",
       "title": "inSAR Closure Phase application"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     }
   ],
+  "updated": "2024-09-12T20:23:29.797131Z",
   "title": "Processes"
 }

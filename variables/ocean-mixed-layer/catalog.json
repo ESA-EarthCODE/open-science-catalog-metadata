@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/64074461-95d0-4538-869a-0114e39216aa?gtm_keyword=OCEAN%20MIXED%20LAYER&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,24 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/48ec6449-373c-41f6-8a61-8f1e9ed95737?gtm_keyword=OCEAN%20MIXED%20LAYER&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v5/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.838131Z",
+  "keywords": [],
   "title": "Ocean Mixed Layer"
 }

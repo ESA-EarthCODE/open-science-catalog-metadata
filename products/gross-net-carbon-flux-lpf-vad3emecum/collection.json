@@ -25,19 +25,86 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/vad3emecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/collection.json",
+      "type": "application/json",
+      "title": "Project: (LPF) VAD3EMECUM"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/carbon-flux/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Carbon Flux"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/meteosat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Meteosat"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon",
   "osc:project": "vad3emecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress",
   "osc:status": "planned",
   "osc:region": "Global",
   "osc:type": "product",
   "start_datetime": "2003-01-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "gross_net_carbon_flux"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "carbon-flux"
+  ],
+  "osc:missions": [
+    "sentinel-5p",
+    "smos",
+    "meteosat",
+    "terra",
+    "aqua-eos-pm-1"
+  ],
+  "updated": "2024-09-12T20:32:06.217108Z",
+  "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon",
   "extent": {
     "spatial": {
       "bbox": [
@@ -61,24 +128,15 @@
   "license": "proprietary",
   "keywords": [
     "Climate Indicators",
-    "Carbon Flux"
-  ],
-  "cf:parameter": [
-    {
-      "name": "gross_net_carbon_flux"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "carbon-flux"
-  ],
-  "osc:missions": [
-    "sentinel-5p",
-    "smos",
-    "meteosat",
-    "terra",
-    "aqua-eos-pm-1"
+    "Carbon Flux",
+    "theme:land",
+    "variable:carbon-flux",
+    "mission:sentinel-5p",
+    "mission:smos",
+    "mission:meteosat",
+    "mission:terra",
+    "mission:aqua-eos-pm-1",
+    "region:Global",
+    "project:vad3emecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress"
   ]
 }

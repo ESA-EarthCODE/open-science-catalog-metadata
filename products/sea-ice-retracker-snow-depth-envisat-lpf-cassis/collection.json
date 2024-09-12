@@ -25,13 +25,60 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cassis-climate-altimetric-studies-with-sea-ice-and-snow/collection.json",
+      "type": "application/json",
+      "title": "Project: (LPF) CASSIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/freeboard/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Freeboard"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/gcom-w2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GCOM-W2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR-2 snow depth_Antarctic_Envisat",
   "osc:project": "cassis-climate-altimetric-studies-with-sea-ice-and-snow",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
@@ -39,6 +86,26 @@
   "created": "2020-01-01T00:00:00Z",
   "start_datetime": "2003-01-01T00:00:00Z",
   "end_datetime": "2011-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "sea_ice_freeboard_heurestic_retracker_snow_depth"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-depth-thickness",
+    "freeboard"
+  ],
+  "osc:missions": [
+    "envisat",
+    "gcom-w2",
+    "terra",
+    "aqua-eos-pm-1"
+  ],
+  "updated": "2024-09-12T20:32:06.228108Z",
+  "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR-2 snow depth_Antarctic_Envisat",
   "extent": {
     "spatial": {
       "bbox": [
@@ -63,24 +130,15 @@
   "keywords": [
     "Sea Ice",
     "Ice Depth/Thickness",
-    "Freeboard"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sea_ice_freeboard_heurestic_retracker_snow_depth"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "ice-depth-thickness",
-    "freeboard"
-  ],
-  "osc:missions": [
-    "envisat",
-    "gcom-w2",
-    "terra",
-    "aqua-eos-pm-1"
+    "Freeboard",
+    "theme:cryosphere",
+    "variable:ice-depth-thickness",
+    "variable:freeboard",
+    "mission:envisat",
+    "mission:gcom-w2",
+    "mission:terra",
+    "mission:aqua-eos-pm-1",
+    "region:Antarctica",
+    "project:cassis-climate-altimetric-studies-with-sea-ice-and-snow"
   ]
 }

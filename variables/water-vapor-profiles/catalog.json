@@ -17,6 +17,24 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/total-column-h2o-hdo-clear-sky-lpf-wift/collection.json",
+      "type": "application/json",
+      "title": "HDO/H2O non-scattering product_S5p-TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/total-column-h2o-hdo-cloudy-lpf-wift/collection.json",
+      "type": "application/json",
+      "title": "HDO/H2O scattering product_S5p-TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-vapour-isotopologues-lpf-weather/collection.json",
+      "type": "application/json",
+      "title": "GOSAT PBL XH2O and Stable Water Vapour Isotopologues_Global"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.253832Z",
+  "keywords": [],
   "title": "Water Vapor Profiles"
 }

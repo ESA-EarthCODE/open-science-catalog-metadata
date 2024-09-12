@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/snow-depth-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow depth for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/southern-ocean-sit-from-cryosat-2/collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.243832Z",
+  "keywords": [],
   "title": "Snow Depth"
 }

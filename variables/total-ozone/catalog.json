@@ -17,6 +17,24 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/limb-ozone-lpf-solve/collection.json",
+      "type": "application/json",
+      "title": "IUP-OMPS L2 and L3 limb ozone data sets_Global_S2/3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/stratospheric-ozone-column-limb-sunlit/collection.json",
+      "type": "application/json",
+      "title": "Stratospheric ozone column from limb satellites_Global"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/total-ozone-anreo/collection.json",
+      "type": "application/json",
+      "title": "Total ozone product from OLCI / S-3_Antarctica _S3"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.249831Z",
+  "keywords": [],
   "title": "Total Ozone"
 }

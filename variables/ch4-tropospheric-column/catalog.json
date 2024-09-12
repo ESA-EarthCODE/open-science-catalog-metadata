@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "ch4-tropospheric-column",
   "stac_version": "1.0.0",
-  "description": "2D field of total amount of CH4 molecules per unit area in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the\u00c2\u00a0tropopause.",
+  "description": "2D field of total amount of CH4 molecules per unit area in an atmospheric column extending from the Earthâ€™s surface to theÂ tropopause.",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.210831Z",
+  "keywords": [],
   "title": "CH4 Tropospheric column"
 }

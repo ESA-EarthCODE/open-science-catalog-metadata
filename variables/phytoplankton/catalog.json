@@ -17,6 +17,30 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/global-marine-phytoplankton-carbon-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-total-phytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/phytoplankton-pigment-concentration-and-phytoplankton-groups-polarstern-cruise-ps113/collection.json",
+      "type": "application/json",
+      "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/phytoplankton-pigment-concentrations-polarstern-cruise-ps121/collection.json",
+      "type": "application/json",
+      "title": "Phytoplankton pigment concentrations during POLARSTERN cruise PS121 from North Sea to Fram in August to September 2019"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -39,5 +63,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.237832Z",
+  "keywords": [],
   "title": "Phytoplankton"
 }

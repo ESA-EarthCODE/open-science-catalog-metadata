@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "Methane+",
   "osc:name": "Methane+",
   "osc:status": "completed",
   "osc:themes": [
@@ -57,7 +56,7 @@
       ]
     },
     {
-      "name": "Laboratoire de M\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0082\u00c2\u00a9t\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0082\u00c2\u00a9orologie Dynamique:FX:Conseil (FR)",
+      "name": "Laboratoire de MÃ¢ËÅ¡ÃÂ©tÃ¢ËÅ¡ÃÂ©orologie Dynamique:FX:Conseil (FR)",
       "roles": [
         "consortium_member"
       ]
@@ -95,6 +94,9 @@
   ],
   "start_datetime": "2020-01-20T00:00:00Z",
   "end_datetime": "2022-02-20T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.023110Z",
+  "title": "Methane+",
   "extent": {
     "spatial": {
       "bbox": [
@@ -115,5 +117,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere"
+  ]
 }

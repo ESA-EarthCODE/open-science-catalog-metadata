@@ -17,6 +17,90 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-core-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model_Core"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-spline-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model_SplineCoefficients"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cluster-swarm-ac-conjunctions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm A and C conjunctions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cluster-swarm-b-conjunctions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm B conjunctions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodynamo-simulation-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Geodynamo simulation data_Earth core"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-observatory-data-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Observatory data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-champ-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CHAMP"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-cryosat2-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CRYOSAT-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-oersted-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data OERSTED"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-swarm-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-data-chaos-field-model-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Vector and scalar satellite data files as used in the CHAOS field model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/swarm-eiscat-conjunction-list-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Swarm-EISCAT conjunction list (2013-2019)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/webgeodyn-py-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Webgeodyn Python package"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +120,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.229831Z",
+  "keywords": [],
   "title": "Magnetic Fields/Magnetic Currents"
 }

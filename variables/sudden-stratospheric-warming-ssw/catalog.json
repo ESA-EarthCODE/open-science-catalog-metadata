@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/sudden-stratospheric-warming-vera/collection.json",
+      "type": "application/json",
+      "title": "Sudden Stratospheric Warming (SSW)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.247832Z",
+  "keywords": [],
   "title": "Sudden Stratospheric Warming (SSW)"
 }

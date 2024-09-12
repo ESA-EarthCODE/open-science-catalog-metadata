@@ -25,13 +25,60 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/earth-observation-data-for-science-and-innovation-in-the-black-sea/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4SIBS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/particulate-organic-matter/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Particulate Organic Matter"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sediment-composition/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sediment Composition"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Level 3 Suspended Particulate Matter, 300m, daily and monthly",
   "osc:project": "earth-observation-data-for-science-and-innovation-in-the-black-sea",
   "osc:status": "completed",
   "osc:region": "Black Sea",
@@ -39,6 +86,26 @@
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2016-04-01T00:00:00Z",
   "end_datetime": "2017-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "suspended_particulate_matter"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "particulate-organic-matter",
+    "sediment-composition"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-2",
+    "sentinel-3",
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.220108Z",
+  "title": "Level 3 Suspended Particulate Matter, 300m, daily and monthly",
   "extent": {
     "spatial": {
       "bbox": [
@@ -66,24 +133,15 @@
     "Particulate Organic Matter",
     "Erosion/Sedimentation",
     "Sediment Composition",
-    "Marine Sediments"
-  ],
-  "cf:parameter": [
-    {
-      "name": "suspended_particulate_matter"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "particulate-organic-matter",
-    "sediment-composition"
-  ],
-  "osc:missions": [
-    "smos",
-    "sentinel-2",
-    "sentinel-3",
-    "cryosat-2"
+    "Marine Sediments",
+    "theme:oceans",
+    "variable:particulate-organic-matter",
+    "variable:sediment-composition",
+    "mission:smos",
+    "mission:sentinel-2",
+    "mission:sentinel-3",
+    "mission:cryosat-2",
+    "region:Black Sea",
+    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
   ]
 }

@@ -30,6 +30,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas/collection.json",
+      "type": "application/json",
+      "title": "Project: LIVAS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/cloud-optical-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Cloud Optical Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/calipso/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CALIPSO"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/earthcare/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: EarthCARE"
     }
   ],
   "stac_extensions": [
@@ -37,7 +67,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE",
   "osc:project": "lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -46,6 +75,23 @@
   "start_datetime": "2008-01-01T00:00:00Z",
   "end_datetime": "2011-12-31T23:59:59Z",
   "sci:doi": "10.5194/acp-15-7127-2015",
+  "cf:parameter": [
+    {
+      "name": "cloud_optical_properties_profiles"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "cloud-optical-depth-thickness"
+  ],
+  "osc:missions": [
+    "calipso",
+    "earthcare"
+  ],
+  "updated": "2024-09-12T20:32:06.211108Z",
+  "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,21 +117,12 @@
     "Clouds",
     "Cloud Microphysics",
     "Cloud Optical Depth/Thickness",
-    "Cloud Properties"
-  ],
-  "cf:parameter": [
-    {
-      "name": "cloud_optical_properties_profiles"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "cloud-optical-depth-thickness"
-  ],
-  "osc:missions": [
-    "calipso",
-    "earthcare"
+    "Cloud Properties",
+    "theme:atmosphere",
+    "variable:cloud-optical-depth-thickness",
+    "mission:calipso",
+    "mission:earthcare",
+    "region:Global",
+    "project:lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas"
   ]
 }

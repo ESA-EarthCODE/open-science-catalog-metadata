@@ -21,6 +21,24 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/cdom-aeolus-innovation-color/collection.json",
+      "type": "application/json",
+      "title": "Chromophoric Dissolved Organic Matter (CDOM) absorption_Global_AEOLUS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/diffuse-attenuation-aeolus-innovation-color/collection.json",
+      "type": "application/json",
+      "title": "Diffuse attenuation: Kd_Global_AEOLUS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/particulate-backscatter-aeolus-innovation-color/collection.json",
+      "type": "application/json",
+      "title": "Particulate backscatter: bbp_Global_AEOLUS"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +49,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "AEOLUS+inno - COLOR",
   "osc:name": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -78,6 +95,9 @@
   ],
   "start_datetime": "2021-01-02T00:00:00Z",
   "end_datetime": "2022-08-15T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.035110Z",
+  "title": "AEOLUS+inno - COLOR",
   "extent": {
     "spatial": {
       "bbox": [
@@ -98,5 +118,9 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere",
+    "theme:Oceans"
+  ]
 }

@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/l2b-sif-surface-reflectance-tropomi-troposif/collection.json",
+      "type": "application/json",
+      "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/s2l2a-uncertainty-sr-lpf-l2arut/collection.json",
+      "type": "application/json",
+      "title": "S2 L2A uncertainty_Surface reflectance estimates_S2"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -45,5 +57,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.239831Z",
+  "keywords": [],
   "title": "Reflectance"
 }

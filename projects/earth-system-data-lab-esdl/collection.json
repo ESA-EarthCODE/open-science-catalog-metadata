@@ -21,6 +21,12 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/regional-esdl-south-america-esdl/collection.json",
+      "type": "application/json",
+      "title": "Code for Regional Earth System Data Lab: Tropical South America"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +37,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "ESDL",
   "osc:name": "Earth System Data Lab (ESDL)",
   "osc:status": "completed",
   "osc:themes": [
@@ -97,6 +102,9 @@
   ],
   "start_datetime": "2018-01-05T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.996110Z",
+  "title": "ESDL",
   "extent": {
     "spatial": {
       "bbox": [
@@ -117,5 +125,10 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Land",
+    "theme:Oceans",
+    "theme:Atmosphere"
+  ]
 }

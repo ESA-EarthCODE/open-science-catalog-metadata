@@ -20,13 +20,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/swarm-coupling-high-low-atmosphere-interactions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Project: Swarm+ Outflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere_Ionosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/magnetic-fields-magnetic-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Magnetic Fields/Magnetic Currents"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/geomagnetic-indices/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Geomagnetic Indices"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swarm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWARM"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Swarm-EISCAT conjunction list (2013-2019)",
   "osc:project": "swarm-coupling-high-low-atmosphere-interactions-ion-outflow",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +63,23 @@
   "created": "2020-05-07T00:00:00Z",
   "start_datetime": "2013-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "swarm_eiscat_conjunction_list"
+    }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "magnetic-fields-magnetic-currents",
+    "geomagnetic-indices"
+  ],
+  "osc:missions": [
+    "swarm"
+  ],
+  "updated": "2024-09-12T20:32:06.233108Z",
+  "title": "Swarm-EISCAT conjunction list (2013-2019)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,21 +105,12 @@
     "Ionosphere/Magnetosphere Dynamics",
     "Magnetic Fields/Magnetic Currents",
     "Sun-Earth Interactions",
-    "Geomagnetic Indices"
-  ],
-  "cf:parameter": [
-    {
-      "name": "swarm_eiscat_conjunction_list"
-    }
-  ],
-  "osc:themes": [
-    "magnetosphere-ionosphere"
-  ],
-  "osc:variables": [
-    "magnetic-fields-magnetic-currents",
-    "geomagnetic-indices"
-  ],
-  "osc:missions": [
-    "swarm"
+    "Geomagnetic Indices",
+    "theme:magnetosphere-ionosphere",
+    "variable:magnetic-fields-magnetic-currents",
+    "variable:geomagnetic-indices",
+    "mission:swarm",
+    "region:Global",
+    "project:swarm-coupling-high-low-atmosphere-interactions-ion-outflow"
   ]
 }

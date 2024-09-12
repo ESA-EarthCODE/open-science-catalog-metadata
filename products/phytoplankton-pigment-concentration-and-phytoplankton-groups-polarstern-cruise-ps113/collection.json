@@ -25,13 +25,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sentinel-5p-innovation-ocean-colour-s5p-i-oc/collection.json",
+      "type": "application/json",
+      "title": "Project: S5p Inno - S5p-I-OC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/phytoplankton/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Phytoplankton"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-5p"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)",
   "osc:project": "sentinel-5p-innovation-ocean-colour-s5p-i-oc",
   "osc:status": "completed",
   "osc:region": "South Atlantic Ocean",
@@ -39,6 +68,23 @@
   "created": "2020-04-21T00:00:00Z",
   "start_datetime": "2018-05-10T00:00:00Z",
   "end_datetime": "2018-06-09T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "phytoplankton_pigment_concentration_and_phytoplankton_groups"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "phytoplankton"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
+  ],
+  "updated": "2024-09-12T20:32:06.226108Z",
+  "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -64,21 +110,12 @@
     "Ecosystems",
     "Aquatic Ecosystems",
     "Plankton",
-    "Phytoplankton"
-  ],
-  "cf:parameter": [
-    {
-      "name": "phytoplankton_pigment_concentration_and_phytoplankton_groups"
-    }
-  ],
-  "osc:themes": [
-    "oceans",
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "phytoplankton"
-  ],
-  "osc:missions": [
-    "sentinel-5p"
+    "Phytoplankton",
+    "theme:oceans",
+    "theme:atmosphere",
+    "variable:phytoplankton",
+    "mission:sentinel-5p",
+    "region:South Atlantic Ocean",
+    "project:sentinel-5p-innovation-ocean-colour-s5p-i-oc"
   ]
 }

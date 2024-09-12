@@ -17,11 +17,325 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/dissolved-organic-carbon-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Dissolved Organic Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/export-production-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Export Production based on Dunne et al 2005 dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-marine-phytoplankton-carbon-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-marine-phytoplankton-primary-production-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Phytoplankton Primary Production dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-particulate-organic-carbon-v4-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Particulate Organic Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-particulate-organic-carbon-v5-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Chlorophyll-a dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
+      "type": "application/json",
+      "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-chlorophyll-a-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Chlorophyll-a dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-export-production-based-on-henson-et-al-2011-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Export Production based on Henson et al 2011 dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-export-production-based-on-li-et-al-2016-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Export Production based on Li et al 2016 dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-microphytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Microphytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-microphytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Microphytoplankton Carbon dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v5/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Nanophytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Nanophytoplankton Carbon dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-picophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Picophytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-picophytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Picophytoplankton Carbon dataset (9 km, OC-CCI v5)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/monthly-global-total-phytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/particulate-inorganic-carbon-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Particulate Inorganic Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-ice-retracker-clima-snow-depth-lpf-cassis/collection.json",
+      "type": "application/json",
+      "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR climatology snow depth_Antarctic_Envisat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-ice-retracker-snow-depth-envisat-lpf-cassis/collection.json",
+      "type": "application/json",
+      "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR-2 snow depth_Antarctic_Envisat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/secchi-disk-depth-lpf-physioglob/collection.json",
+      "type": "application/json",
+      "title": "Secchi Disk depth_Global Oceans_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Sermide_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-albedo-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow albedo for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-area-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow area extent for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-depth-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow depth for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-grain-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow grain size for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-liquid-water-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow liquid water content (wet snow) for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-water-equivalent-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow water equivalent for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Sermide_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.174831Z",
+  "keywords": [],
   "title": "Terra"
 }

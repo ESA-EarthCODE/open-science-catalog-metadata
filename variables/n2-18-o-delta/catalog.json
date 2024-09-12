@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "n2-18-o-delta",
   "stac_version": "1.0.0",
-  "description": "3D field of\u00c2\u00a0Delta O-18 in N2O (Nitrous oxide) (isotopic signature)",
+  "description": "3D field ofÂ Delta O-18 in N2O (Nitrous oxide) (isotopic signature)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.231832Z",
+  "keywords": [],
   "title": "N2(18)O Delta"
 }

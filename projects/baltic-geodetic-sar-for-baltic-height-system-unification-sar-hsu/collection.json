@@ -21,6 +21,90 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/absolute-sea-level-heights-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/electronic-delay-correction-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-EC2: ECR Electronic Delay Correction_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodynamic-corrections-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geoid-heights-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "GEO-HGT: Geoid Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gnss-positioning-solution-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ionospheric-delays-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/s1-corrections-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-observation-solution-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "SAR-OBS: Observation Solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-positioning-solution-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "SAR-POS: SAR Positioning Solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-raw-measurements-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "PTA-OBS: SAR Raw Measurements_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-heights-corrected-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "TG-SSH: Corrected Sea Surface Height at Tide Gauge Stations_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/target-locations-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "PTA-RES: Extracted Target Locations_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tide-gauge-heights-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "TG-HGT: Tide Gauge Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tropospheric-delays-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-TD: Tropospheric Delays_Baltics_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +115,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "SAR-HSU",
   "osc:name": "BALTIC+ Geodetic SAR for Baltic Height System Unification (SAR-HSU)",
   "osc:status": "completed",
   "osc:themes": [
@@ -81,7 +164,7 @@
       ]
     },
     {
-      "name": "TALLINNA TEHNIKA\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0083\u00c2\u00baLIKOOL (EE)",
+      "name": "TALLINNA TEHNIKAÃ¢ËÅ¡ÃÂºLIKOOL (EE)",
       "roles": [
         "consortium_member"
       ]
@@ -95,6 +178,9 @@
   ],
   "start_datetime": "2019-05-03T00:00:00Z",
   "end_datetime": "2020-10-31T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.001110Z",
+  "title": "SAR-HSU",
   "extent": {
     "spatial": {
       "bbox": [
@@ -115,5 +201,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Oceans"
+  ]
 }

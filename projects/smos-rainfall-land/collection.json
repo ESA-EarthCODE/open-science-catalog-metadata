@@ -21,6 +21,30 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-1-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product v2.0_3h_0.1_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-25-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v2.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-25-v4-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v4.0_3h_0.25_Africa"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +55,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "SMOS+ Rainfall Land",
   "osc:name": "SMOS+ Rainfall Land",
   "osc:status": "completed",
   "osc:themes": [
@@ -77,6 +100,9 @@
   ],
   "start_datetime": "2015-07-16T00:00:00Z",
   "end_datetime": "2019-03-31T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.995110Z",
+  "title": "SMOS+ Rainfall Land",
   "extent": {
     "spatial": {
       "bbox": [
@@ -97,5 +123,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Land"
+  ]
 }

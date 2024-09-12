@@ -17,11 +17,37 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/earth-energy-imballance-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gravity-anomalies-goce-airborne-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Gravity anomalies from GOCE and airborne data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "type": "application/json",
+      "title": "Ocean freshwater fluxes_Arctic_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-heat-content-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content (GOHC)_GRACE/GRACE-FO"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.173831Z",
+  "keywords": [],
   "title": "GRACE"
 }

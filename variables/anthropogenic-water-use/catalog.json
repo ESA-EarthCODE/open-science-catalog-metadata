@@ -17,6 +17,24 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/sm-based-inversion-approach-ebro-irrigation/collection.json",
+      "type": "application/json",
+      "title": "Regional irrigation water use at high-resolution - EBRO basin"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sm-based-inversion-approach-murray-darling-irrigation/collection.json",
+      "type": "application/json",
+      "title": "Regional irrigation water use at high-resolution - MURRAY-DARLING basin"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sm-based-inversion-approach-po-irrigation/collection.json",
+      "type": "application/json",
+      "title": "Regional irrigation water use at high-resolution - PO valley"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.205831Z",
+  "keywords": [],
   "title": "Anthropogenic Water Use"
 }

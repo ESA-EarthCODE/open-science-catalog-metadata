@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/7cacbfdf-71a3-4fac-b690-9aa54e4060dd?gtm_keyword=EARTH%20RADIATION%20BUDGET&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,18 @@
       "href": "https://gcos.wmo.int/en/essential-climate-variables/earth-radiation",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/radiation-budget-circas/collection.json",
+      "type": "application/json",
+      "title": "Radiation budget_Regional_S3"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.835131Z",
+  "keywords": [],
   "title": "Earth Radiation Budget"
 }

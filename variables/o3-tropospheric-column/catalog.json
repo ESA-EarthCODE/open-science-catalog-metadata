@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "o3-tropospheric-column",
   "stac_version": "1.0.0",
-  "description": "2D field of total amount of O3 (ozone) molecules per unit area in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the to the tropopause",
+  "description": "2D field of total amount of O3 (ozone) molecules per unit area in an atmospheric column extending from the Earthâ€™s surface to the to the tropopause",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.233831Z",
+  "keywords": [],
   "title": "O3 Tropospheric Column"
 }

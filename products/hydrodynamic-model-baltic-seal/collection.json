@@ -20,13 +20,84 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/baltic-seal-sea-level/collection.json",
+      "type": "application/json",
+      "title": "Project: BALTIC+ SEAL - Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/topex-poseidon/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: TOPEX/Poseidon"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/saral/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SARAL"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission",
   "osc:project": "baltic-seal-sea-level",
   "osc:status": "ongoing",
   "osc:region": "Baltics",
@@ -34,6 +105,30 @@
   "created": "2021-05-28T00:00:00Z",
   "start_datetime": "2017-01-01T00:00:00Z",
   "end_datetime": "2017-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "hydrodynamic_model_sea_level_mean"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-level"
+  ],
+  "osc:missions": [
+    "topex-poseidon",
+    "ers-2",
+    "jason-1",
+    "jason-2",
+    "jason-3",
+    "envisat",
+    "cryosat-2",
+    "saral",
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.218108Z",
+  "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -57,28 +152,19 @@
   "license": "proprietary",
   "keywords": [
     "Sea Surface Topography",
-    "Sea Level"
-  ],
-  "cf:parameter": [
-    {
-      "name": "hydrodynamic_model_sea_level_mean"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "sea-level"
-  ],
-  "osc:missions": [
-    "topex-poseidon",
-    "ers-2",
-    "jason-1",
-    "jason-2",
-    "jason-3",
-    "envisat",
-    "cryosat-2",
-    "saral",
-    "sentinel-3"
+    "Sea Level",
+    "theme:oceans",
+    "variable:sea-level",
+    "mission:topex-poseidon",
+    "mission:ers-2",
+    "mission:jason-1",
+    "mission:jason-2",
+    "mission:jason-3",
+    "mission:envisat",
+    "mission:cryosat-2",
+    "mission:saral",
+    "mission:sentinel-3",
+    "region:Baltics",
+    "project:baltic-seal-sea-level"
   ]
 }

@@ -17,6 +17,24 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/l3-cryosat2-sea-level-anomaly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level-3 Cryosat-2 [2011, 2019] along-track 5Hz product, sea level anomaly, ~1km resolution."
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-s3-sea-level-anomaly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level-3 Sentinel-3A [mid 2016, 2018] along-track 5Hz product, sea level anomaly, ~1km resolution"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-sea-level-anomaly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.241832Z",
+  "keywords": [],
   "title": "Sea Level Anomaly"
 }

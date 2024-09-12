@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/356a245d-418a-4560-9eb1-d12f8f155f66?gtm_keyword=INLETS&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -33,6 +27,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/49db8758-1282-45a0-ad3f-0f1e9d8abc44?gtm_keyword=INLETS&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -48,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.837131Z",
+  "keywords": [],
   "title": "Inlets"
 }

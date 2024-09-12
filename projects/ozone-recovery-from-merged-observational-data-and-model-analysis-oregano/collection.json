@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "OREGANO",
   "osc:name": "Ozone Recovery from Merged Observational Data and Model Analysis (OREGANO)",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -71,6 +70,9 @@
   ],
   "start_datetime": "2022-11-29T00:00:00Z",
   "end_datetime": "2024-12-15T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.015110Z",
+  "title": "OREGANO",
   "extent": {
     "spatial": {
       "bbox": [
@@ -91,5 +93,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere"
+  ]
 }

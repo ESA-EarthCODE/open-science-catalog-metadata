@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/bf19f1d1-ae18-4ff2-95f6-dc0ed812c568?gtm_keyword=GLACIER%20TOPOGRAPHY/ICE%20SHEET%20TOPOGRAPHY&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,30 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c3e4d439-bbb0-48c9-89eb-57d3a330627a?gtm_keyword=GLACIER/ICE%20SHEET%20TOPOGRAPHY&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-antarctica-l1b-spice/collection.json",
+      "type": "application/json",
+      "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 1B"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-antarctica-l3-spice/collection.json",
+      "type": "application/json",
+      "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-topography-elevation-change-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Ice Sheet_gridded topography_rates of surface elevation change_Greenland_Cryosat-2"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +60,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.836131Z",
+  "keywords": [],
   "title": "Glacier Topography/Ice Sheet Topography"
 }

@@ -36,6 +36,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arcticsummit-arctic-summer-ice-thickness/collection.json",
+      "type": "application/json",
+      "title": "Project: (LPF) ArcticSummIT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/freeboard/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Freeboard"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
@@ -43,7 +73,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Sea ice thickness_monthly_Oct 2010-July 2020Arctic_CryoSat-2 Baseline-D observations",
   "osc:project": "arcticsummit-arctic-summer-ice-thickness",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
@@ -52,6 +81,23 @@
   "start_datetime": "2021-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
   "sci:doi": "10.5285/d8c66670-57ad-44fc-8fef-942a46734ecb",
+  "cf:parameter": [
+    {
+      "name": "sea_ice_thickness"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-depth-thickness",
+    "freeboard"
+  ],
+  "osc:missions": [
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.228108Z",
+  "title": "Sea ice thickness_monthly_Oct 2010-July 2020Arctic_CryoSat-2 Baseline-D observations",
   "extent": {
     "spatial": {
       "bbox": [
@@ -76,21 +122,12 @@
   "keywords": [
     "Sea Ice",
     "Ice Depth/Thickness",
-    "Freeboard"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sea_ice_thickness"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "ice-depth-thickness",
-    "freeboard"
-  ],
-  "osc:missions": [
-    "cryosat-2"
+    "Freeboard",
+    "theme:cryosphere",
+    "variable:ice-depth-thickness",
+    "variable:freeboard",
+    "mission:cryosat-2",
+    "region:Arctic",
+    "project:arcticsummit-arctic-summer-ice-thickness"
   ]
 }

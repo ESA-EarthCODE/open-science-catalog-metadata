@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/ef034881-8bf4-403f-a4ee-c68771769c93?gtm_keyword=WIND%20STRESS&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,18 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/91d73256-925d-4d04-9b55-aaf088080cac?gtm_keyword=WIND%20STRESS&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/wind-stress-vector-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Wind stress vector (& anomalies)_Hourly_ERA5"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -45,5 +51,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.844131Z",
+  "keywords": [],
   "title": "Wind Stress"
 }

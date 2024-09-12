@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "Polar+ Snow on Sea ice",
   "osc:name": "Polar+ Snow on Sea ice",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -95,6 +94,9 @@
   ],
   "start_datetime": "2020-07-10T00:00:00Z",
   "end_datetime": "2022-01-11T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.997110Z",
+  "title": "Polar+ Snow on Sea ice",
   "extent": {
     "spatial": {
       "bbox": [
@@ -115,5 +117,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

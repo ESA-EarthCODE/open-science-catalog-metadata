@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/albiom-altimetry-for-biomass/collection.json",
+      "type": "application/json",
+      "title": "Project: ALBIOM"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Prototype biomass product using Sentinel-3 altimetry_Africa_S3",
   "osc:project": "albiom-altimetry-for-biomass",
   "osc:status": "ongoing",
   "osc:region": "Africa",
@@ -34,6 +57,22 @@
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2017-01-01T00:00:00Z",
   "end_datetime": "2017-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "biomass"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "biomass"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.211108Z",
+  "title": "Prototype biomass product using Sentinel-3 altimetry_Africa_S3",
   "extent": {
     "spatial": {
       "bbox": [
@@ -58,20 +97,11 @@
   "keywords": [
     "Vegetation",
     "Biomass",
-    "Biosphere"
-  ],
-  "cf:parameter": [
-    {
-      "name": "biomass"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "biomass"
-  ],
-  "osc:missions": [
-    "sentinel-3"
+    "Biosphere",
+    "theme:land",
+    "variable:biomass",
+    "mission:sentinel-3",
+    "region:Africa",
+    "project:albiom-altimetry-for-biomass"
   ]
 }

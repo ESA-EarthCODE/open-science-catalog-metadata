@@ -25,13 +25,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/collection.json",
+      "type": "application/json",
+      "title": "Project: S5p Inno - SIF"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-5p"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI",
   "osc:project": "sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif",
   "osc:status": "completed",
   "osc:region": "Global",
@@ -39,6 +62,22 @@
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2018-05-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "surface_reflectance_tropomi"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "reflectance"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
+  ],
+  "updated": "2024-09-12T20:32:06.220108Z",
+  "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI",
   "extent": {
     "spatial": {
       "bbox": [
@@ -62,20 +101,11 @@
   "license": "proprietary",
   "keywords": [
     "Land Surface",
-    "Surface Radiative Properties"
-  ],
-  "cf:parameter": [
-    {
-      "name": "surface_reflectance_tropomi"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "reflectance"
-  ],
-  "osc:missions": [
-    "sentinel-5p"
+    "Surface Radiative Properties",
+    "theme:atmosphere",
+    "variable:reflectance",
+    "mission:sentinel-5p",
+    "region:Global",
+    "project:sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif"
   ]
 }

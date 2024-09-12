@@ -20,13 +20,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew/collection.json",
+      "type": "application/json",
+      "title": "Project: ILGEW"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere_Ionosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/lightning/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Lightning"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swarm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWARM"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Lightning-generated whistler events_Global_SWARM",
   "osc:project": "investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +63,23 @@
   "created": "2021-08-11T00:00:00Z",
   "start_datetime": "2014-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "lightning_whistler_events"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere",
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "lightning"
+  ],
+  "osc:missions": [
+    "swarm"
+  ],
+  "updated": "2024-09-12T20:32:06.223108Z",
+  "title": "Lightning-generated whistler events_Global_SWARM",
   "extent": {
     "spatial": {
       "bbox": [
@@ -60,21 +106,12 @@
     "Lightning",
     "Weather Events",
     "Upper Atmosphere",
-    "Physical Properties"
-  ],
-  "cf:parameter": [
-    {
-      "name": "lightning_whistler_events"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere",
-    "magnetosphere-ionosphere"
-  ],
-  "osc:variables": [
-    "lightning"
-  ],
-  "osc:missions": [
-    "swarm"
+    "Physical Properties",
+    "theme:atmosphere",
+    "theme:magnetosphere-ionosphere",
+    "variable:lightning",
+    "mission:swarm",
+    "region:Global",
+    "project:investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew"
   ]
 }

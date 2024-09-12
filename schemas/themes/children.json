@@ -1,0 +1,79 @@
+{
+  "title": "Theme",
+  "allOf": [
+    {
+      "$ref": "../catalog.json"
+    },
+    {
+      "properties": {
+        "links": {
+          "items": {
+            "oneOf": [
+              {
+                "title": "Other Link",
+                "properties": {
+                  "rel": {
+                    "not": {
+                      "enum": [
+                        "root",
+                        "parent",
+                        "child",
+                        "via",
+                        "preview"
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "$ref": "../catalog.json#/definitions/stac_link_root"
+              },
+              {
+                "$ref": "../catalog.json#/definitions/stac_link_parent"
+              },
+              {
+                "$ref": "../catalog.json#/definitions/via_links"
+              },
+              {
+                "title": "Preview Image Link",
+                "properties": {
+                  "href": {
+                    "readOnly": true
+                  },
+                  "type": {
+                    "readOnly": true
+                  },
+                  "rel": {
+                    "enum": ["preview"],
+                    "options": {
+                      "hidden": true
+                    }
+                  },
+                  "proj:epsg": {
+                    "title": "EPSG Code",
+                    "enum": [
+                      null
+                    ],
+                    "options": {
+                      "hidden": true
+                    }
+                  },
+                  "proj:shape": {
+                    "title": "EPSG Code",
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    },
+                    "options": {
+                      "hidden": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

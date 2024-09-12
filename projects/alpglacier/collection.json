@@ -21,6 +21,30 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/dynamics-of-glacier-lakes-alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Dynamics of glacier lakes_SwissAlps_S1/2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glacier-surface-flow-velocity-alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Glacier surface flow velocity_SwissAlps_S1/2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/slope-instabilities-glacier-forefields-alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Slope instabilities in glacier forefields_SwissAlps_S1/2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-cover-alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Snow cover on glaciers_SwissAlps_S1/2"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +55,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "AlpGlacier",
   "osc:name": "AlpGlacier",
   "osc:status": "completed",
   "osc:themes": [
@@ -95,6 +118,9 @@
   ],
   "start_datetime": "2020-07-12T00:00:00Z",
   "end_datetime": "2021-06-25T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.981110Z",
+  "title": "AlpGlacier",
   "extent": {
     "spatial": {
       "bbox": [
@@ -115,5 +141,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

@@ -25,19 +25,50 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Project: WOC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Currents"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Stokes drift estimation_Atlantic Ocean",
   "osc:project": "world-ocean-circulation",
   "osc:status": "planned",
   "osc:region": "Atlantic Ocean",
   "osc:type": "product",
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "stokes_drift_estimation"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "ocean-currents"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.971110Z",
+  "title": "Stokes drift estimation_Atlantic Ocean",
   "extent": {
     "spatial": {
       "bbox": [
@@ -61,17 +92,10 @@
   "license": "proprietary",
   "keywords": [
     "Ocean Circulation",
-    "Ocean Currents"
-  ],
-  "cf:parameter": [
-    {
-      "name": "stokes_drift_estimation"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "ocean-currents"
+    "Ocean Currents",
+    "theme:oceans",
+    "variable:ocean-currents",
+    "region:Atlantic Ocean",
+    "project:world-ocean-circulation"
   ]
 }

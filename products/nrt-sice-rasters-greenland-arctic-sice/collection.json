@@ -25,6 +25,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/pre-operational-sentinel-3-snow-and-ice-products-sice/collection.json",
+      "type": "application/json",
+      "title": "Project: S3 snow and ice products"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
@@ -32,7 +56,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "NRT SICE rasters for Greenland_Arctic_S3",
   "osc:project": "pre-operational-sentinel-3-snow-and-ice-products-sice",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
@@ -41,6 +64,22 @@
   "start_datetime": "2020-01-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
   "sci:doi": "10.22008/FK2/SD56CB",
+  "cf:parameter": [
+    {
+      "name": "nrt_sice_rasters"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.225108Z",
+  "title": "NRT SICE rasters for Greenland_Arctic_S3",
   "extent": {
     "spatial": {
       "bbox": [
@@ -65,20 +104,11 @@
   "keywords": [
     "Snow/Ice",
     "Snow Cover",
-    "Cryospheric Indicators"
-  ],
-  "cf:parameter": [
-    {
-      "name": "nrt_sice_rasters"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "snow-cover"
-  ],
-  "osc:missions": [
-    "sentinel-3"
+    "Cryospheric Indicators",
+    "theme:cryosphere",
+    "variable:snow-cover",
+    "mission:sentinel-3",
+    "region:Arctic",
+    "project:pre-operational-sentinel-3-snow-and-ice-products-sice"
   ]
 }

@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/particulate-backscatter-aeolus-innovation-color/collection.json",
+      "type": "application/json",
+      "title": "Particulate backscatter: bbp_Global_AEOLUS"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.236831Z",
+  "keywords": [],
   "title": "Particulate Backscattering Coefficient"
 }

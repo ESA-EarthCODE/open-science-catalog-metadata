@@ -17,6 +17,48 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/albedo-circas/collection.json",
+      "type": "application/json",
+      "title": "Albedo_Regional_S3A/SLSTR"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/broadband-albedo-arctic-sice/collection.json",
+      "type": "application/json",
+      "title": "Broadband albedo_Arctic_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/broadband-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Broadband albedo_Greenland_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-albedo-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow albedo for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-grain-diameter-arctic-sice/collection.json",
+      "type": "application/json",
+      "title": "Snow grain diameter_Arctic_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/spectral-albedo-arctic-sice/collection.json",
+      "type": "application/json",
+      "title": "Spectral albedo_Arctic_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/spectral-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Spectral albedo_Greenland_S3"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -42,5 +84,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.832131Z",
+  "keywords": [],
   "title": "Albedo"
 }

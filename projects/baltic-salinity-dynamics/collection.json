@@ -21,6 +21,18 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/baltic-sea-surface-salinity-l3-baltic-salinity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Surface Salinity L3 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/baltic-sea-surface-salinity-l4-baltic-salinity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Surface Salinity L4 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +43,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "BALTIC+ Salinity Dynamics",
   "osc:name": "BALTIC+ Salinity Dynamics",
   "osc:status": "completed",
   "osc:themes": [
@@ -71,6 +82,9 @@
   ],
   "start_datetime": "2018-04-12T00:00:00Z",
   "end_datetime": "2019-08-31T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.995110Z",
+  "title": "BALTIC+ Salinity Dynamics",
   "extent": {
     "spatial": {
       "bbox": [
@@ -91,5 +105,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Oceans"
+  ]
 }

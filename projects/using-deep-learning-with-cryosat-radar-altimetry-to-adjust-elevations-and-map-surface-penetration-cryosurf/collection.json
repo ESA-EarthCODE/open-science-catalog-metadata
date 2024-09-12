@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "CryoSURF",
   "osc:name": "Using deep learning with CryoSat radar altimetry to adjust elevations and map SURFace penetration (CryoSURF)",
   "osc:status": "completed",
   "osc:themes": [
@@ -65,6 +64,9 @@
   ],
   "start_datetime": "2019-10-22T00:00:00Z",
   "end_datetime": "2020-12-11T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.003110Z",
+  "title": "CryoSURF",
   "extent": {
     "spatial": {
       "bbox": [
@@ -85,5 +87,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

@@ -20,13 +20,48 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "Project: SAR-HSU"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-height-anomaly-ssha/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Height Anomaly (SSHA)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/goce/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GOCE"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/glonass/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GLONASS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission",
   "osc:project": "baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu",
   "osc:status": "ongoing",
   "osc:region": "Baltics",
@@ -34,6 +69,24 @@
   "created": "2021-07-07T00:00:00Z",
   "start_datetime": "2020-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "s1_corrections_files"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "goce",
+    "sentinel-1",
+    "glonass"
+  ],
+  "updated": "2024-09-12T20:32:06.227108Z",
+  "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -58,22 +111,13 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Surface Height",
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
-  "cf:parameter": [
-    {
-      "name": "s1_corrections_files"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "sea-surface-height-anomaly-ssha"
-  ],
-  "osc:missions": [
-    "goce",
-    "sentinel-1",
-    "glonass"
+    "Sea Surface Height Anomaly (SSHA)",
+    "theme:oceans",
+    "variable:sea-surface-height-anomaly-ssha",
+    "mission:goce",
+    "mission:sentinel-1",
+    "mission:glonass",
+    "region:Baltics",
+    "project:baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu"
   ]
 }

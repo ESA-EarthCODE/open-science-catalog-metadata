@@ -15,19 +15,58 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosat-mountain-glaciers/collection.json",
+      "type": "application/json",
+      "title": "Project: CryoSat+ Mountain Glaciers"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-elevation-ice-sheet-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Elevation/Ice Sheet Elevation"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2",
   "osc:project": "cryosat-mountain-glaciers",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
   "start_datetime": "2010-01-01T00:00:00Z",
   "end_datetime": "2015-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "glacier_elevation"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-elevation-ice-sheet-elevation"
+  ],
+  "osc:missions": [
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.216108Z",
+  "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -54,20 +93,11 @@
     "Glacier Elevation/Ice Sheet Elevation",
     "Cryospheric Indicators",
     "Glacial Measurements",
-    "Sea Ice"
-  ],
-  "cf:parameter": [
-    {
-      "name": "glacier_elevation"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "glacier-elevation-ice-sheet-elevation"
-  ],
-  "osc:missions": [
-    "cryosat-2"
+    "Sea Ice",
+    "theme:cryosphere",
+    "variable:glacier-elevation-ice-sheet-elevation",
+    "mission:cryosat-2",
+    "region:Global",
+    "project:cryosat-mountain-glaciers"
   ]
 }

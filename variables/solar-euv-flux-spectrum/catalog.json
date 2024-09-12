@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "solar-euv-flux-spectrum",
   "stac_version": "1.0.0",
-  "description": "Energy spectrum of the EUV flux integrated\u00c2\u00a0over the solar disk.",
+  "description": "Energy spectrum of the EUV flux integratedÂ over the solar disk.",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.245831Z",
+  "keywords": [],
   "title": "Solar EUV flux spectrum"
 }

@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/ocean-heat-content-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content (GOHC)_GRACE/GRACE-FO"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.234832Z",
+  "keywords": [],
   "title": "Ocean Heat Budget"
 }

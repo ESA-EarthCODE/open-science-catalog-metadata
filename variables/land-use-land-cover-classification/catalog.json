@@ -17,6 +17,24 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/crop-map-multitemporal-s24land/collection.json",
+      "type": "application/json",
+      "title": "Multitemporal crop map - phenological parameters and phenological parameters_Italy_2017/2018_S2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-cover-map-italy-s24land/collection.json",
+      "type": "application/json",
+      "title": "Land cover map_Italy_2018_S2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/regional-esdl-south-america-esdl/collection.json",
+      "type": "application/json",
+      "title": "Code for Regional Earth System Data Lab: Tropical South America"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.228832Z",
+  "keywords": [],
   "title": "Land Use/Land Cover Classification"
 }

@@ -21,6 +21,66 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/bathymetry-arctic-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Bathymetry_Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hr-tidal-atlas-arctic-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Arctide2017_High-resolution tidal atlas_Arctic Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/lr-satellite-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rdsar-satellite-sar-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "RDSAR Satellite SAR altimeter product_Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-altimeter-polar-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite LRM, SAR, SARIN polar altimeter product_Polar Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sar-altimeter-coastal-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SAR altimeter product_Coastal Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sar-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SAR altimeter product_Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sar-altimeter-sea-floor-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SAR altimeter product_Sea Floor Mapping_Oceania_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sarin-altimeter-coastal-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SARIN altimeter product_Coastal Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/wet-troposphere-correction-cryosat-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Wet Troposphere Correction_for Cryosat"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +91,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "CryoSat+ Oceans",
   "osc:name": "CryoSat Plus For Oceans (CP4O)",
   "osc:status": "completed",
   "osc:themes": [
@@ -102,6 +161,9 @@
   ],
   "start_datetime": "2012-05-06T00:00:00Z",
   "end_datetime": "2018-05-15T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.036110Z",
+  "title": "CryoSat+ Oceans",
   "extent": {
     "spatial": {
       "bbox": [
@@ -122,5 +184,9 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Oceans",
+    "theme:Cryosphere"
+  ]
 }

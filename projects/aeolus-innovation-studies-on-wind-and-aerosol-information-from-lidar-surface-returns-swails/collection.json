@@ -21,6 +21,12 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/lidar-aerosol-aeolus-swails/collection.json",
+      "type": "application/json",
+      "title": "AOD (Aerosol Optical Depth) estimates from LARISSA"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +37,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "AEOLUS+inno - SWAILS+",
   "osc:name": "AEOLUS+ INNOVATION - STUDIES ON WIND AND AEROSOL INFORMATION FROM LIDAR SURFACE RETURNS (SWAILS+)",
   "osc:status": "completed",
   "osc:themes": [
@@ -60,6 +65,9 @@
   ],
   "start_datetime": "2020-10-11T00:00:00Z",
   "end_datetime": "2021-06-21T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.987110Z",
+  "title": "AEOLUS+inno - SWAILS+",
   "extent": {
     "spatial": {
       "bbox": [
@@ -80,5 +88,9 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere",
+    "theme:Oceans"
+  ]
 }

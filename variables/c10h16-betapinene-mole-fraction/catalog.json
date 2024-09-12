@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "c10h16-betapinene-mole-fraction",
   "stac_version": "1.0.0",
-  "description": "3D field of amount of\u00c2\u00a0C10H16 (betapinene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amount ofÂ C10H16 (betapinene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.208831Z",
+  "keywords": [],
   "title": "C10H16 (betapinene) Mole Fraction"
 }

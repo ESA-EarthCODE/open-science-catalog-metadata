@@ -17,11 +17,19 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "type": "application/json",
+      "title": "Ocean freshwater fluxes_Arctic_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.173831Z",
+  "keywords": [],
   "title": "ICESat"
 }

@@ -1,0 +1,314 @@
+{
+  "type": "object",
+  "required": [
+    "stac_version",
+    "id",
+    "type",
+    "title",
+    "description",
+    "links"
+  ],
+  "properties": {
+    "stac_version": {
+      "$ref": "#/definitions/stac_version"
+    },
+    "stac_extensions": {
+      "options": {
+        "hidden": true
+      },
+      "allOf": [
+        {
+          "$ref": "#/definitions/stac_extensions"
+        }
+      ]
+    },
+    "id": {
+      "$ref": "#/definitions/id"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["Catalog"],
+      "options": {
+        "hidden": true
+      }
+    },
+    "title": {
+      "$ref": "#/definitions/title"
+    },
+    "description": {
+      "$ref": "#/definitions/description"
+    },
+    "links": {
+      "$ref": "#/definitions/links"
+    }
+  },
+  "definitions": {
+    "stac_version": {
+      "type": "string",
+      "enum": [
+        "1.0.0",
+        "1.1.0"
+      ],
+      "options": {
+        "hidden": true
+      }
+    },
+    "stac_extensions": {
+      "title": "Implemented STAC Extensions",
+      "type": "array",
+      "format": "stac-extensions",
+      "items": {
+        "type": "string",
+        "format": "url"
+      }
+    },
+    "id": {
+      "type": "string",
+      "options": {
+        "hidden": true
+      }
+    },
+    "title": {
+      "title": "Title",
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "title": "Description",
+      "type": "string",
+      "minLength": 1,
+      "format": "markdown"
+    },
+    "links": {
+      "title": "Links",
+      "type": "array",
+      "options": {
+        "disable_array_reorder": true,
+        "collapsed": true,
+        "disable_collapse": false
+      },
+      "items": {
+        "$ref": "#/definitions/link"
+      }
+    },
+    "link": {
+      "type": "object",
+      "required": [
+        "href",
+        "title",
+        "rel"
+      ],
+      "properties": {
+        "href": {
+          "title": "Address",
+          "description": "The URL of the linked resource.",
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "title": "Title",
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "title": "File Format",
+          "description": "The media type of the linked resource.",
+          "type": "string"
+        },
+        "rel": {
+          "title": "Relation",
+          "type": "string"
+        }
+      },
+      "if": {
+        "properties": {
+          "rel": {
+            "enum": [
+              "root",
+              "parent",
+              "child",
+              "preview"
+            ]
+          }
+        }
+      },
+      "then": {
+        "$comment": "Allow relative links for non STAC relation types",
+        "properties": {
+          "href": {
+            "type": "string",
+            "format": "uri-reference"
+          }
+        }
+      },
+      "else": {
+        "$comment": "Require absolute links for non STAC relation types",
+        "properties": {
+          "href": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "links_root_parent_via_other": {
+      "properties": {
+        "links": {
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/other_links"
+              },
+              {
+                "$ref": "#/definitions/stac_link_root"
+              },
+              {
+                "$ref": "#/definitions/stac_link_parent"
+              },
+              {
+                "$ref": "#/definitions/via_links"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "links_root_parent_child": {
+      "properties": {
+        "links": {
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/stac_link_root"
+              },
+              {
+                "$ref": "#/definitions/stac_link_parent_readonly"
+              },
+              {
+                "$ref": "#/definitions/stac_link_child"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "stac_link_root": {
+      "title": "STAC Root Link",
+      "properties": {
+        "href": {
+          "readOnly": true
+        },
+        "title": {
+          "readOnly": true
+        },
+        "type": {
+          "enum": ["application/json"],
+          "options": {
+            "hidden": true
+          }
+        },
+        "rel": {
+          "enum": ["root"],
+          "options": {
+            "hidden": true
+          }
+        }
+      }
+    },
+    "stac_link_parent": {
+      "title": "STAC Parent Link",
+      "properties": {
+        "href": {
+          "readOnly": true
+        },
+        "type": {
+          "enum": ["application/json"],
+          "options": {
+            "hidden": true
+          }
+        },
+        "rel": {
+          "enum": ["parent"],
+          "options": {
+            "hidden": true
+          }
+        }
+      }
+    },
+    "stac_link_parent_readonly": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/stac_link_parent"
+        },
+        {
+          "properties": {
+            "title": {
+              "readOnly": true
+            }
+          }
+        }
+      ]
+    },
+    "stac_link_child": {
+      "title": "STAC Child Link",
+      "properties": {
+        "type": {
+          "enum": ["application/json"],
+          "options": {
+            "hidden": true
+          }
+        },
+        "rel": {
+          "enum": ["child"],
+          "options": {
+            "hidden": true
+          }
+        }
+      }
+    },
+    "via_links": {
+      "title": "Via Link",
+      "properties": {
+        "type": {
+          "enum": [
+            "application/json",
+            "application/pdf",
+            "application/zip",
+            "text/html",
+            "text/plain"
+          ],
+          "options": {
+            "enum_titles": [
+              "JSON",
+              "PDF",
+              "ZIP",
+              "HTML",
+              "Text"
+            ]
+          }
+        },
+        "rel": {
+          "enum": ["via"],
+          "options": {
+            "hidden": true
+          }
+        }
+      }
+    },
+    "other_links": {
+      "title": "Other Link",
+      "properties": {
+        "rel": {
+          "not": {
+            "enum": [
+              "root",
+              "parent",
+              "child",
+              "via"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

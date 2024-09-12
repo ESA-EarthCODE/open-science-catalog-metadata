@@ -25,13 +25,54 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/earth-observation-data-for-science-and-innovation-in-the-black-sea/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4SIBS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chlorophyll-concentration/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chlorophyll Concentration"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Level 4 Ocean Colour products Chl-a, 300m, daily",
   "osc:project": "earth-observation-data-for-science-and-innovation-in-the-black-sea",
   "osc:status": "completed",
   "osc:region": "Black Sea",
@@ -39,6 +80,25 @@
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2016-04-01T00:00:00Z",
   "end_datetime": "2017-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "mass_concentration_of_chlorophyll_in_sea_water"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "chlorophyll-concentration"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-2",
+    "sentinel-3",
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.221108Z",
+  "title": "Level 4 Ocean Colour products Chl-a, 300m, daily",
   "extent": {
     "spatial": {
       "bbox": [
@@ -65,23 +125,14 @@
     "Chlorophyll",
     "Chlorophyll Concentration",
     "Ocean Chemistry",
-    "Pigments"
-  ],
-  "cf:parameter": [
-    {
-      "name": "mass_concentration_of_chlorophyll_in_sea_water"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "chlorophyll-concentration"
-  ],
-  "osc:missions": [
-    "smos",
-    "sentinel-2",
-    "sentinel-3",
-    "cryosat-2"
+    "Pigments",
+    "theme:oceans",
+    "variable:chlorophyll-concentration",
+    "mission:smos",
+    "mission:sentinel-2",
+    "mission:sentinel-3",
+    "mission:cryosat-2",
+    "region:Black Sea",
+    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
   ]
 }

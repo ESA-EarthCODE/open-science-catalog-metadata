@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sudden-stratospheric-warming-vera",
   "stac_version": "1.0.0",
-  "description": "SSW events from 2008 to 2018: Each figure shows, from the top to the bottom, daily values of the Northern Hemisphere polar temperature at 10 hPa (~32 km altitude); daily values of the meridional temperature gradient between 90\u00b0N and 60\u00b0N at 10 hPa; daily values of the zonal mean zonal wind at 60\u00b0N and 10 hPa; daily values of the solar flux index F10.7; and daily sum of the geomagnetic activity index Kp. The occurrence of a sudden stratospheric warming (SSW) can be identified as a rapid increase in the polar temperature (>25 K in a week or less), the reversal of the meridional temperature gradient (T at 90\u00b0N minus T at 60\u00b0N) from negative to positive values, and the reduction or reversal of the zonal mean zonal wind in the stratosphere at 60\u00b0N. An SSW event is called \"major\" when the direction of the zonal mean zonal wind at 60\u00b0N and 10 hPa changes from eastward to westward; otherwise the event is called \"minor\". The ionospheric variability results not only from SSWs but also from solar and magnetospheric sources. The F10.7 index is a proxy for the solar energetic radiation flux into the Earth's upper atmosphere. The Kp index quantifies geomagnetic activity, which is closely related to the activity level of the magnetosphere. Geomagnetic activity is considered to be high when the daily sum of the Kp index is 23 or more.",
+  "description": "SSW events from 2008 to 2018: Each figure shows, from the top to the bottom, daily values of the Northern Hemisphere polar temperature at 10 hPa (~32 km altitude); daily values of the meridional temperature gradient between 90°N and 60°N at 10 hPa; daily values of the zonal mean zonal wind at 60°N and 10 hPa; daily values of the solar flux index F10.7; and daily sum of the geomagnetic activity index Kp. The occurrence of a sudden stratospheric warming (SSW) can be identified as a rapid increase in the polar temperature (>25 K in a week or less), the reversal of the meridional temperature gradient (T at 90°N minus T at 60°N) from negative to positive values, and the reduction or reversal of the zonal mean zonal wind in the stratosphere at 60°N. An SSW event is called \"major\" when the direction of the zonal mean zonal wind at 60°N and 10 hPa changes from eastward to westward; otherwise the event is called \"minor\". The ionospheric variability results not only from SSWs but also from solar and magnetospheric sources. The F10.7 index is a proxy for the solar energetic radiation flux into the Earth's upper atmosphere. The Kp index quantifies geomagnetic activity, which is closely related to the activity level of the magnetosphere. Geomagnetic activity is considered to be high when the daily sum of the Kp index is 23 or more.",
   "links": [
     {
       "rel": "root",
@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera/collection.json",
+      "type": "application/json",
+      "title": "Project: VERA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere_Ionosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sudden-stratospheric-warming-ssw/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sudden Stratospheric Warming (SSW)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swarm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWARM"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Sudden Stratospheric Warming (SSW)",
   "osc:project": "swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +57,22 @@
   "created": "2021-04-01T00:00:00Z",
   "start_datetime": "2008-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "sudden_stratospheric_warming"
+    }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "sudden-stratospheric-warming-ssw"
+  ],
+  "osc:missions": [
+    "swarm"
+  ],
+  "updated": "2024-09-12T20:32:06.232108Z",
+  "title": "Sudden Stratospheric Warming (SSW)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -60,20 +99,11 @@
     "Atmospheric/Ocean Indicators",
     "Temperature Indicators",
     "Stratospheric Temperature Anomalies",
-    "Sudden Stratospheric Warming"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sudden_stratospheric_warming"
-    }
-  ],
-  "osc:themes": [
-    "magnetosphere-ionosphere"
-  ],
-  "osc:variables": [
-    "sudden-stratospheric-warming-ssw"
-  ],
-  "osc:missions": [
-    "swarm"
+    "Sudden Stratospheric Warming",
+    "theme:magnetosphere-ionosphere",
+    "variable:sudden-stratospheric-warming-ssw",
+    "mission:swarm",
+    "region:Global",
+    "project:swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera"
   ]
 }

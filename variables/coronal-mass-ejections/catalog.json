@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "coronal-mass-ejections",
   "stac_version": "1.0.0",
-  "description": "Coronal mass ejection (CME) is a huge cloud of hot plasma, occasionally expelled from the Sun. It may accelerate ions and electrons and may travel through interplanetary space as far as the Earth\u00bfs orbit and beyond it, often preceded by a shock front. When the shock reaches Earth, a magnetic storm may result.",
+  "description": "Coronal mass ejection (CME) is a huge cloud of hot plasma, occasionally expelled from the Sun. It may accelerate ions and electrons and may travel through interplanetary space as far as the Earth¿s orbit and beyond it, often preceded by a shock front. When the shock reaches Earth, a magnetic storm may result.",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.214831Z",
+  "keywords": [],
   "title": "Coronal Mass Ejections"
 }

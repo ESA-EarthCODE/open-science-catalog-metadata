@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "MethEO",
   "osc:name": "Methane emissions in the Northern Hemisphere by applying both data from Earth Observing (EO) satellites and global atmospheric methane inversion model estimates",
   "osc:status": "completed",
   "osc:themes": [
@@ -60,6 +59,9 @@
   ],
   "start_datetime": "2018-05-09T00:00:00Z",
   "end_datetime": "2022-01-04T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.017110Z",
+  "title": "MethEO",
   "extent": {
     "spatial": {
       "bbox": [
@@ -80,5 +82,9 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere",
+    "theme:Cryosphere"
+  ]
 }

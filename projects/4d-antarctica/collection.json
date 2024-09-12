@@ -21,6 +21,72 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/geothermal-heat-flux-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Geothermal heat flux estimate from aeromagnetic data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gravity-anomalies-goce-airborne-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Gravity anomalies from GOCE and airborne data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/supraglacial-lakes-west-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-temperature-profiles-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-velocity-antarctic-2021/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/grounding-line-position-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/melt-extent-stage-maps-daily-antarctic/collection.json",
+      "type": "application/json",
+      "title": "Antarctic daily melt extent/stage maps from 2007-2021 from the ASCAT"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sec-antarctic-ice-sheet/collection.json",
+      "type": "application/json",
+      "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melt-antarctic-ice-sheet-1979-2021/collection.json",
+      "type": "application/json",
+      "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +97,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "4D-ANTARCTICA",
   "osc:name": "4D-ANTARCTICA",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -131,6 +196,9 @@
   ],
   "start_datetime": "2019-09-24T00:00:00Z",
   "end_datetime": "2022-10-15T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.006110Z",
+  "title": "4D-ANTARCTICA",
   "extent": {
     "spatial": {
       "bbox": [
@@ -151,5 +219,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

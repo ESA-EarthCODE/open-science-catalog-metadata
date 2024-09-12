@@ -20,19 +20,65 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Project: AlpGlacier"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-motion-ice-sheet-motion/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Motion/Ice Sheet Motion"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Glacier surface flow velocity_SwissAlps_S1/2",
   "osc:project": "alpglacier",
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
   "start_datetime": "2016-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "glacier_surface_flow"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-motion-ice-sheet-motion"
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "updated": "2024-09-12T20:32:06.216108Z",
+  "title": "Glacier surface flow velocity_SwissAlps_S1/2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,21 +105,12 @@
     "Glacier Motion/Ice Sheet Motion",
     "Cryospheric Indicators",
     "Glacial Measurements",
-    "Sea Ice"
-  ],
-  "cf:parameter": [
-    {
-      "name": "glacier_surface_flow"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "glacier-motion-ice-sheet-motion"
-  ],
-  "osc:missions": [
-    "sentinel-1",
-    "sentinel-2"
+    "Sea Ice",
+    "theme:cryosphere",
+    "variable:glacier-motion-ice-sheet-motion",
+    "mission:sentinel-1",
+    "mission:sentinel-2",
+    "region:Switzerland",
+    "project:alpglacier"
   ]
 }

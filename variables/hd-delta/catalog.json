@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "hd-delta",
   "stac_version": "1.0.0",
-  "description": "3D field of\u00c2\u00a0Delta Deuterium (H-2) in HD (molecular Hydrogen) (isotopic signature)",
+  "description": "3D field ofÂ Delta Deuterium (H-2) in HD (molecular Hydrogen) (isotopic signature)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.223831Z",
+  "keywords": [],
   "title": "HD Delta"
 }

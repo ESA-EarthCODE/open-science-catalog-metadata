@@ -25,17 +25,77 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Project: AlpSnow"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-8/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-8"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Snow grain size for European Alps_Multimission",
   "osc:project": "alpsnow",
   "osc:status": "planned",
   "osc:region": "Europe",
   "osc:type": "product",
+  "cf:parameter": [
+    {
+      "name": "snow_grain"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "sentinel-2",
+    "landsat-8",
+    "terra",
+    "aqua-eos-pm-1"
+  ],
+  "updated": "2024-09-12T20:32:06.231108Z",
+  "title": "Snow grain size for European Alps_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -60,23 +120,14 @@
   "keywords": [
     "Snow/Ice",
     "Snow Cover",
-    "Cryospheric Indicators"
-  ],
-  "cf:parameter": [
-    {
-      "name": "snow_grain"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "snow-cover"
-  ],
-  "osc:missions": [
-    "sentinel-2",
-    "landsat-8",
-    "terra",
-    "aqua-eos-pm-1"
+    "Cryospheric Indicators",
+    "theme:cryosphere",
+    "variable:snow-cover",
+    "mission:sentinel-2",
+    "mission:landsat-8",
+    "mission:terra",
+    "mission:aqua-eos-pm-1",
+    "region:Europe",
+    "project:alpsnow"
   ]
 }

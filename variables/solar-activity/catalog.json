@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/solar-activity-polar-cap-plasma-density-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "CHAMP and Swarm solar activity- and height-scaled polar cap plasma density measurements"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.244832Z",
+  "keywords": [],
   "title": "Solar Activity"
 }

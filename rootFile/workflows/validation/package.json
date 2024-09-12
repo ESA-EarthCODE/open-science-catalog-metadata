@@ -1,0 +1,16 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "description": "Validates the metadata",
+  "main": "validate.js",
+  "author": "EOX",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "image-size": "^1.0.2",
+    "stac-node-validator": "2.0.0-beta.12"
+  },
+  "scripts": {
+    "test": "stac-node-validator --config config.json"
+  }
+}

@@ -17,11 +17,103 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
+      "type": "application/json",
+      "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hdo-total-column-tropomi-clear-sky-wift/collection.json",
+      "type": "application/json",
+      "title": "Clear-sky HDO/H2O total column_TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hdo-total-column-tropomi-extended-wift/collection.json",
+      "type": "application/json",
+      "title": "Extended scientific HDO/H2O total column_TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/high-res-phytoplankton-chl-a-data-at-discrete-light-stations-polarstern-cruise-ps113/collection.json",
+      "type": "application/json",
+      "title": "High resolution phytoplankton Chl-a data obtained at discrete light stations (POLARSTERN cruise PS113)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/high-res-phytoplankton-chl-a-data-by-undulating-platform-behind-the-ship-polarstern-cruise-ps113/collection.json",
+      "type": "application/json",
+      "title": "High resolution phytoplankton Chl-a data obtained by undulating platform towed behind the ship (POLARSTERN cruise PS113)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2b-sif-surface-reflectance-tropomi-troposif/collection.json",
+      "type": "application/json",
+      "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
+      "type": "application/json",
+      "title": "Mean spectral DAC avg for 320-338.5nm (UVAB) 356.5 - 390 nm (UVA) & 390 - 423 nm in the Atlantic Ocean from S5P (TROPOMI)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mean-spectral-dac-from-318-to952nm-of-underwater-light-profiles-rv-polarstern-cruise-ps113/collection.json",
+      "type": "application/json",
+      "title": "Mean spectral DAC from 318-952nm of light profiles measured at discrete stations (RV Polarstern cruise PS113) "
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mean-spectral-dac-from-320-to917nm-from-radiometric-underwater-light-transmission-profiles/collection.json",
+      "type": "application/json",
+      "title": "Mean spectral DAC from 320-917nm from light transmission profiles by an undulating platform towed behind the ship"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/phytoplankton-group-chl-ll-using-the-mean-dac-over-the-first-optical-depth-kdmean-of-the-measured-radiometric-profile/collection.json",
+      "type": "application/json",
+      "title": "Phytoplankton group Chl-a using mean DAC over kdmean of the radiometric profile (Polarstern cruise PS113)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/phytoplankton-pigment-concentration-and-phytoplankton-groups-polarstern-cruise-ps113/collection.json",
+      "type": "application/json",
+      "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/phytoplankton-pigment-concentrations-polarstern-cruise-ps121/collection.json",
+      "type": "application/json",
+      "title": "Phytoplankton pigment concentrations during POLARSTERN cruise PS121 from North Sea to Fram in August to September 2019"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/total-column-h2o-hdo-clear-sky-lpf-wift/collection.json",
+      "type": "application/json",
+      "title": "HDO/H2O non-scattering product_S5p-TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/total-column-h2o-hdo-cloudy-lpf-wift/collection.json",
+      "type": "application/json",
+      "title": "HDO/H2O scattering product_S5p-TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tropospheric-ozone-column-tropomi-sunlit/collection.json",
+      "type": "application/json",
+      "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.174831Z",
+  "keywords": [],
   "title": "Sentinel-5p"
 }

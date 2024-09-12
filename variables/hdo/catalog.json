@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "hdo",
   "stac_version": "1.0.0",
-  "description": "3D field of amount\u00c2\u00a0 of HDO (Water vapour (with one hydrogen nucleus replaced by its deuterium isotope) , expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amountÂ  of HDO (Water vapour (with one hydrogen nucleus replaced by its deuterium isotope) , expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.223831Z",
+  "keywords": [],
   "title": "HDO"
 }

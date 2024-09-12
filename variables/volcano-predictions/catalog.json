@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/database-of-labelled-sentinel-1-interferograms-v20/collection.json",
+      "type": "application/json",
+      "title": "Database of labelled Sentinel-1 interferograms - v.2.0"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.252831Z",
+  "keywords": [],
   "title": "Volcano Predictions"
 }

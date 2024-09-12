@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "Baltic+ Sea Level",
   "osc:name": "Baltic- reconstruction of the sea level",
   "osc:status": "completed",
   "osc:themes": [
@@ -83,6 +82,9 @@
   ],
   "start_datetime": "2019-01-01T00:00:00Z",
   "end_datetime": "2021-01-01T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.992110Z",
+  "title": "Baltic+ Sea Level",
   "extent": {
     "spatial": {
       "bbox": [
@@ -103,5 +105,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Oceans"
+  ]
 }

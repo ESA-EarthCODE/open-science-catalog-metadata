@@ -1,27 +1,29 @@
 {
-    "type": "Catalog",
-    "id": "dmsp",
-    "stac_version": "1.0.0",
-    "description": "The Defence Meteorological Satellite Program (DMSP) is a long-term meteorological program of the United States Department of Defence (DoD) and the National Oceanic and Atmospheric Administration (NOAA), managed by the United States Air Force (USAF). With 19 satellites in the program, of which 16 are retired, DMSP aims to provide strategic and tactical weather prediction to aid the US military in planning operations at sea, on land and in the air. The program began with the launch of DMSP F-1 in 1976, which is no longer operational, while the latest satellite launch was DMSP F-19 in 2014, which was retired in 2016 due to a power failure. There are three satellites currently operational in the series, DMSP F-16, DMSP, F-17, and DMSP F-18.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "http://database.eohandbook.com/database/missionsummary.aspx?missionID=500",
-        "type": "text/html",
-        "title": "Description"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "EO Missions"
-      }
-    ],
-    "title": "DMSP-Defense Meteorological Satellite Program Block 5D"
-  }
+  "type": "Catalog",
+  "id": "dmsp",
+  "stac_version": "1.0.0",
+  "description": "The Defence Meteorological Satellite Program (DMSP) is a long-term meteorological program of the United States Department of Defence (DoD) and the National Oceanic and Atmospheric Administration (NOAA), managed by the United States Air Force (USAF). With 19 satellites in the program, of which 16 are retired, DMSP aims to provide strategic and tactical weather prediction to aid the US military in planning operations at sea, on land and in the air. The program began with the launch of DMSP F-1 in 1976, which is no longer operational, while the latest satellite launch was DMSP F-19 in 2014, which was retired in 2016 due to a power failure. There are three satellites currently operational in the series, DMSP F-16, DMSP, F-17, and DMSP F-18.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "http://database.eohandbook.com/database/missionsummary.aspx?missionID=500",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2024-08-27T17:27:42.172831Z",
+  "keywords": [],
+  "title": "DMSP-Defense Meteorological Satellite Program Block 5D"
+}

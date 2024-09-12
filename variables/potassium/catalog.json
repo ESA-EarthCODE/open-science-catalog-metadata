@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/072721be-eb8b-4ac4-9354-251dbf74ade0?gtm_keyword=POTASSIUM&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -33,6 +27,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/8af17fd3-7c42-4698-9d60-e154ece5aebe?gtm_keyword=POTASSIUM&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -48,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.839131Z",
+  "keywords": [],
   "title": "Potassium"
 }

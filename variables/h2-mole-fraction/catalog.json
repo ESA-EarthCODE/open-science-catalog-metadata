@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "h2-mole-fraction",
   "stac_version": "1.0.0",
-  "description": "\u00c2\u00a0 3D field of amount of\u00c2\u00a0H2 ( expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "Â  3D field of amount ofÂ H2 ( expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.223831Z",
+  "keywords": [],
   "title": "H2 Mole Fraction"
 }

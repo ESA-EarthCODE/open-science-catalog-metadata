@@ -15,18 +15,57 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/l2a-rut/collection.json",
+      "type": "application/json",
+      "title": "Project: (LPF) L2A-RUT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "S2 L2A uncertainty_Surface reflectance estimates_S2",
   "osc:project": "l2a-rut",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2022-07-01T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "s2l2a_uncertainty_surface_reflectance_estimates"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "reflectance"
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "updated": "2024-09-12T20:32:06.227108Z",
+  "title": "S2 L2A uncertainty_Surface reflectance estimates_S2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -50,20 +89,11 @@
   "license": "proprietary",
   "keywords": [
     "Land Surface",
-    "Surface Radiative Properties"
-  ],
-  "cf:parameter": [
-    {
-      "name": "s2l2a_uncertainty_surface_reflectance_estimates"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "reflectance"
-  ],
-  "osc:missions": [
-    "sentinel-2"
+    "Surface Radiative Properties",
+    "theme:land",
+    "variable:reflectance",
+    "mission:sentinel-2",
+    "region:Global",
+    "project:l2a-rut"
   ]
 }

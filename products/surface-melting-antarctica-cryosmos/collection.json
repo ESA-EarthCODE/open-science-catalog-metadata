@@ -25,6 +25,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Project: CryoSMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-growth-melt/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Growth/Melt"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     }
   ],
   "stac_extensions": [
@@ -32,7 +56,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Occurrence of Surface Melting_Antarctica_SMOS",
   "osc:project": "cryosmos",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
@@ -41,6 +64,22 @@
   "start_datetime": "2013-01-01T00:00:00Z",
   "end_datetime": "2014-12-31T23:59:59Z",
   "sci:doi": "10.5194/tc-14-539-2020",
+  "cf:parameter": [
+    {
+      "name": "surface_melting"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "smos"
+  ],
+  "updated": "2024-09-12T20:32:06.233108Z",
+  "title": "Occurrence of Surface Melting_Antarctica_SMOS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -66,20 +105,11 @@
     "Snow/Ice",
     "Ice Growth/Melt",
     "Cryospheric Indicators",
-    "Sea Ice"
-  ],
-  "cf:parameter": [
-    {
-      "name": "surface_melting"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "ice-growth-melt"
-  ],
-  "osc:missions": [
-    "smos"
+    "Sea Ice",
+    "theme:cryosphere",
+    "variable:ice-growth-melt",
+    "mission:smos",
+    "region:Antarctica",
+    "project:cryosmos"
   ]
 }

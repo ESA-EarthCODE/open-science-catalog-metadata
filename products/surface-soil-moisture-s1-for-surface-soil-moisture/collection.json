@@ -25,6 +25,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sentinel-1-for-surface-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Project: S1 for Surface Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
     }
   ],
   "stac_extensions": [
@@ -32,7 +56,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1",
   "osc:project": "sentinel-1-for-surface-soil-moisture",
   "osc:status": "ongoing",
   "osc:region": "South Italy",
@@ -41,6 +64,22 @@
   "start_datetime": "2015-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
   "sci:doi": "10.5281/zenodo.5006307",
+  "cf:parameter": [
+    {
+      "name": "surface_soil_moisture"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "updated": "2024-09-12T20:32:06.233108Z",
+  "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1",
   "extent": {
     "spatial": {
       "bbox": [
@@ -68,20 +107,11 @@
     "Climate Indicators",
     "Soils",
     "Soil Moisture/Water Content",
-    "Agriculture"
-  ],
-  "cf:parameter": [
-    {
-      "name": "surface_soil_moisture"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "soil-moisture"
-  ],
-  "osc:missions": [
-    "sentinel-1"
+    "Agriculture",
+    "theme:land",
+    "variable:soil-moisture",
+    "mission:sentinel-1",
+    "region:South Italy",
+    "project:sentinel-1-for-surface-soil-moisture"
   ]
 }

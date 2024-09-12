@@ -1,0 +1,11 @@
+{
+  "title": "EO Mission",
+  "allOf": [
+    {
+      "$ref": "../catalog.json"
+    },
+    {
+      "$ref": "../catalog.json#/definitions/links_root_parent_via_other"
+    }
+  ]
+}

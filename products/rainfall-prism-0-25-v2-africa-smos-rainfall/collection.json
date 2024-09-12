@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "rainfall-prism-0-25-v2-africa-smos-rainfall",
   "stac_version": "1.0.0",
-  "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25\u00b0 (about 25x25 km\u00b2) and every 3 hours. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm (Pellarin et al., 2009, 2013, 2020, Louvet et al., 2015, Roman-Cascon et al. 2017).",
+  "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25° (about 25x25 km²) and every 3 hours. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm (Pellarin et al., 2009, 2013, 2020, Louvet et al., 2015, Roman-Cascon et al. 2017).",
   "links": [
     {
       "rel": "root",
@@ -30,6 +30,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/smos-rainfall-land/collection.json",
+      "type": "application/json",
+      "title": "Project: SMOS+ Rainfall Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation-amount/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation Amount"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     }
   ],
   "stac_extensions": [
@@ -37,7 +61,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "PrISM SMOS Rainfall product_v2.0_3h_0.25_Africa",
   "osc:project": "smos-rainfall-land",
   "osc:status": "ongoing",
   "osc:region": "Africa",
@@ -47,6 +70,22 @@
   "end_datetime": "2020-12-31T23:59:59Z",
   "version": "2",
   "sci:doi": "10.5281/zenodo.4769825",
+  "cf:parameter": [
+    {
+      "name": "rainfall_prism"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "precipitation-amount"
+  ],
+  "osc:missions": [
+    "smos"
+  ],
+  "updated": "2024-09-12T20:32:06.226108Z",
+  "title": "PrISM SMOS Rainfall product_v2.0_3h_0.25_Africa",
   "extent": {
     "spatial": {
       "bbox": [
@@ -70,20 +109,11 @@
   "license": "proprietary",
   "keywords": [
     "Precipitation",
-    "Precipitation Amount"
-  ],
-  "cf:parameter": [
-    {
-      "name": "rainfall_prism"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "precipitation-amount"
-  ],
-  "osc:missions": [
-    "smos"
+    "Precipitation Amount",
+    "theme:land",
+    "variable:precipitation-amount",
+    "mission:smos",
+    "region:Africa",
+    "project:smos-rainfall-land"
   ]
 }

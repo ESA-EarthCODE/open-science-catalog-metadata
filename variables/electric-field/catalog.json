@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "electric-field",
   "stac_version": "1.0.0",
-  "description": "Magnitude and direction of the Earth\u00e2\u20ac\u2122s electric field",
+  "description": "Magnitude and direction of the Earthâ€™s electric field",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.217831Z",
+  "keywords": [],
   "title": "Electric Field"
 }

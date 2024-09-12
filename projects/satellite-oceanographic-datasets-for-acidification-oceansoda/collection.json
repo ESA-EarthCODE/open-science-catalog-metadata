@@ -21,6 +21,18 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data."
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceansoda-ethz/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +43,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "OceanSODA",
   "osc:name": "Satellite Oceanographic Datasets for Acidification (OceanSODA)",
   "osc:status": "completed",
   "osc:themes": [
@@ -57,7 +68,7 @@
       ]
     },
     {
-      "name": "EIDGEN\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0083\u00c2\u00b1SSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH)",
+      "name": "EIDGENÃ¢ËÅ¡ÃÂ±SSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH)",
       "roles": [
         "consortium_member"
       ]
@@ -83,6 +94,9 @@
   ],
   "start_datetime": "2018-11-22T00:00:00Z",
   "end_datetime": "2020-12-15T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.001110Z",
+  "title": "OceanSODA",
   "extent": {
     "spatial": {
       "bbox": [
@@ -103,5 +117,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Oceans"
+  ]
 }

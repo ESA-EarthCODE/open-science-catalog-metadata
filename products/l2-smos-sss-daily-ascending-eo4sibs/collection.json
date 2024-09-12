@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "l2-smos-sss-daily-ascending-eo4sibs",
   "stac_version": "1.0.0",
-  "description": "Salinity retrievals from ascending satellite overpasses are averaged in daily maps at 0.25\u00b0*0.25\u00b0 grid. Binning scheme Olmedo et al., 2021a.",
+  "description": "Salinity retrievals from ascending satellite overpasses are averaged in daily maps at 0.25°*0.25° grid. Binning scheme Olmedo et al., 2021a.",
   "links": [
     {
       "rel": "root",
@@ -25,13 +25,54 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/earth-observation-data-for-science-and-innovation-in-the-black-sea/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4SIBS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Level 2 SMOS , Ascending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily",
   "osc:project": "earth-observation-data-for-science-and-innovation-in-the-black-sea",
   "osc:status": "completed",
   "osc:region": "Black Sea",
@@ -39,6 +80,25 @@
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "sea_surface_salinity_ascending"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-2",
+    "sentinel-3",
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.220108Z",
+  "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily",
   "extent": {
     "spatial": {
       "bbox": [
@@ -63,23 +123,14 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sea_surface_salinity_ascending"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "sea-surface-salinity"
-  ],
-  "osc:missions": [
-    "smos",
-    "sentinel-2",
-    "sentinel-3",
-    "cryosat-2"
+    "Sea Ice",
+    "theme:oceans",
+    "variable:sea-surface-salinity",
+    "mission:smos",
+    "mission:sentinel-2",
+    "mission:sentinel-3",
+    "mission:cryosat-2",
+    "region:Black Sea",
+    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
   ]
 }
