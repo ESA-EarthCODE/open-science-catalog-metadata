@@ -1,54 +1,56 @@
 {
-    "type": "Collection",
-    "id": "python-sleeper",
-    "stac_version": "1.0.0",
-    "description": "Run a Python sleeper for between min and max seconds randomly.",
-    "license": "Unknown",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://nexus.spaceapplications.com/repository/docker-asb-procs/cwl/python-sleeper-cwl:latest",
-        "type": "text/html",
-        "title": "Description"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Processes"
-      }
-    ],
-    "stac_extensions": [],
-    "title": "python-sleeper",
-    "extent": {
-      "spatial": {
-        "bbox": [
+  "type": "Collection",
+  "id": "python-sleeper",
+  "stac_version": "1.0.0",
+  "description": "Run a Python sleeper for between min and max seconds randomly.",
+  "license": "Unknown",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://nexus.spaceapplications.com/repository/docker-asb-procs/cwl/python-sleeper-cwl:latest",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Processes"
+    }
+  ],
+  "stac_extensions": [],
+  "title": "python-sleeper",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
           -180.0,
           -90.0,
           180.0,
           90.0
         ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            null,
-            null
-          ]
-        ]
-      }
+      ]
     },
-    "assets": {
-      "cwl": {
-          "href": "./sleeper.cwl",
-          "title": "CWL File",
-          "type": "application/x-yaml"
-      }
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "cwl": {
+      "href": "./sleeper.cwl",
+      "title": "CWL File",
+      "type": "application/x-yaml"
     }
   }
+}
