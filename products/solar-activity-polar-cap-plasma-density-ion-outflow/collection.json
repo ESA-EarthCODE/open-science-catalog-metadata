@@ -35,7 +35,7 @@
   "title": "CHAMP and Swarm solar activity- and height-scaled polar cap plasma density measurements",
   "osc:project": "swarm-coupling-high-low-atmosphere-interactions-ion-outflow",
   "osc:status": "ongoing",
-  "osc:region": null,
+  "osc:region": "Global",
   "osc:type": "product",
   "created": "2020-05-07T00:00:00Z",
   "start_datetime": "2002-01-01T00:00:00Z",

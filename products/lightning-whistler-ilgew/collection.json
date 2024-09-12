@@ -29,7 +29,7 @@
   "title": "Lightning-generated whistler events_Global_SWARM",
   "osc:project": "investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew",
   "osc:status": "ongoing",
-  "osc:region": null,
+  "osc:region": "Global",
   "osc:type": "product",
   "created": "2021-08-11T00:00:00Z",
   "start_datetime": "2014-01-01T00:00:00Z",

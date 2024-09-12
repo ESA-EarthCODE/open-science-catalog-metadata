@@ -29,7 +29,7 @@
   "title": "Sudden Stratospheric Warming (SSW)",
   "osc:project": "swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera",
   "osc:status": "ongoing",
-  "osc:region": null,
+  "osc:region": "Global",
   "osc:type": "product",
   "created": "2021-04-01T00:00:00Z",
   "start_datetime": "2008-01-01T00:00:00Z",

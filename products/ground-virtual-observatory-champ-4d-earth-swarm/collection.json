@@ -29,7 +29,7 @@
   "title": "Ground Virtual Observatory Data CHAMP",
   "osc:project": "the-4d-earth-swarm-project",
   "osc:status": "ongoing",
-  "osc:region": null,
+  "osc:region": "Global",
   "osc:type": "product",
   "created": "2021-09-10T00:00:00Z",
   "extent": {

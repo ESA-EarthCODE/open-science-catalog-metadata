@@ -24,7 +24,7 @@
   "title": "Semi-empiric model of ionosphere processes_SWARM",
   "osc:project": "4dionosphere-swarm-vip",
   "osc:status": "planned",
-  "osc:region": null,
+  "osc:region": "Global",
   "osc:type": "product",
   "extent": {
     "spatial": {
