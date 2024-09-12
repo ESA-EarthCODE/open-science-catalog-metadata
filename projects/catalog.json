@@ -60,6 +60,18 @@
     },
     {
       "rel": "child",
+      "href": "./aeolus-innovation-aeurs-expro-lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/collection.json",
+      "type": "application/json",
+      "title": "AEOLUS+inno - LISA"
+    },
+    {
+      "rel": "child",
+      "href": "./aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect/collection.json",
+      "type": "application/json",
+      "title": "AEOLUS+inno - SEA-FLECT"
+    },
+    {
+      "rel": "child",
       "href": "./aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
       "type": "application/json",
       "title": "AEOLUS+inno - COLOR"
@@ -177,6 +189,12 @@
       "href": "./arctic-snow-on-sea-ice/collection.json",
       "type": "application/json",
       "title": "Arctic+Snow on Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./arctic-theme-3-aeur-fresh-water-fluxes/collection.json",
+      "type": "application/json",
+      "title": "ArcFlux"
     },
     {
       "rel": "child",
@@ -429,6 +447,12 @@
       "href": "./experimental-joint-inversion/collection.json",
       "type": "application/json",
       "title": "XORN"
+    },
+    {
+      "rel": "child",
+      "href": "./explainable-ai-application-to-trustworthy-super-resolution-opensr/collection.json",
+      "type": "application/json",
+      "title": "OpenSR"
     },
     {
       "rel": "child",
@@ -812,7 +836,7 @@
       "rel": "child",
       "href": "./so-fresh/collection.json",
       "type": "application/json",
-      "title": "SO-FRESH"
+      "title": "Southern Ocean Freshwater (SO-FRESH)"
     },
     {
       "rel": "child",
@@ -831,6 +855,12 @@
       "href": "./sentinel-3-tandem-for-climate-s3tc-expro/collection.json",
       "type": "application/json",
       "title": "S3 Tandem for Climate"
+    },
+    {
+      "rel": "child",
+      "href": "sentinel-5p-innovation-aeurs-water-vapour-isotopologues-h2o-iso/collection.json",
+      "type": "application/json",
+      "title": "S5p Inno - H2O-ISO"
     },
     {
       "rel": "child",
@@ -915,6 +945,12 @@
       "href": "./stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve/collection.json",
       "type": "application/json",
       "title": "(LPF) SOLVE"
+    },
+    {
+      "rel": "child",
+      "href": "./stse-arctic-theme-5-aeur-contributions-to-the-year-of-polar-predictions-yopp/collection.json",
+      "type": "application/json",
+      "title": "STSE-ARCTIC+"
     },
     {
       "rel": "child",
