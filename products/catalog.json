@@ -44,12 +44,6 @@
       "rel": "child",
       "href": "./aerosol-dust-od-livas/collection.json",
       "type": "application/json",
-      "title": "Aerosol (and dust aerosol) optical depth, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
-    },
-    {
-      "rel": "child",
-      "href": "./aerosol-dust-od-livas/collection.json",
-      "type": "application/json",
       "title": "Aerosol (and dust aerosol) optical depth_Global_CALIPSO"
     },
     {

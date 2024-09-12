@@ -28,33 +28,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SENTINEL-5P+ INNOVATION SOLAR INDUCED CHLOROPHYLL FLUORESCENCE (SIF)",
-  "osc:variables": [
-    "Reflectance"
-  ],
+  "osc:project": "sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "surface_reflectance_tropomi",
   "created": "2021-12-31T00:00:00Z",
   "start_datetime": "2018-05-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -70,5 +63,19 @@
   "keywords": [
     "Land Surface",
     "Surface Radiative Properties"
+  ],
+  "cf:parameter": [
+    {
+      "name": "surface_reflectance_tropomi"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "reflectance"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

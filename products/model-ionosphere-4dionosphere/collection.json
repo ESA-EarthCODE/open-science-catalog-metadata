@@ -18,23 +18,14 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Semi-empiric model of ionosphere processes_SWARM",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM"
-  ],
-  "osc:project": "4DIONOSPHERE (SWARM VIP)",
-  "osc:variables": [
-    "Ionosphere/Magnetosphere Dynamics"
-  ],
+  "osc:project": "4dionosphere-swarm-vip",
   "osc:status": "planned",
-  "osc:region": null,
+  "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "model_ionosphere",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,5 +50,19 @@
   "keywords": [
     "Sun-Earth Interactions",
     "Ionosphere/Magnetosphere Dynamics"
+  ],
+  "cf:parameter": [
+    {
+      "name": "model_ionosphere"
+    }
+  ],
+  "osc:themes": [
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "ionosphere-magnetosphere-dynamics"
+  ],
+  "osc:missions": [
+    "swarm"
   ]
 }

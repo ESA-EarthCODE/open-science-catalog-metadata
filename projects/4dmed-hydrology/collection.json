@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "4DMED-Hydrology",
@@ -41,48 +41,68 @@
   "contacts": [
     {
       "name": "Espen Volden",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "espen.volden@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "CNR : INSTITUTE FOR ELECTROMAGNETIC SENSING OF THE ENVIRONMENT (IREA) (IT)CIMA RESEARCH FOUNDATION (IT)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "ESTELLUS SAS (FR)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "EURAC RESEARCH : ACCADEMIA EUROPEA (IT)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "GHENT UNIVERSITY (BE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "INSTITUT DE RECHERCHE POUR LE DEVELOPPEMENT (IRD) (FR)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "KU. KATH. KATHOLIEKE UNIVERSITEIT T (BE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "OBSERVATORI DE L EBRE (ES)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "TECHNISCHE UNIVERSITAT WIEN (TU WIEN) (AT)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "VANDERSAT B.V. (NL)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2022-01-01T00:00:00Z",

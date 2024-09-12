@@ -28,33 +28,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Climatology of aerosol optical depth, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental. Boundaries of dust layers_Global_CALIPSO",
-  "osc:themes": [
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "CALIPSO"
-  ],
-  "osc:project": "Lidar Climatology of Vertical Aerosol Structure for Space-Based Lidar Simulation Studies-LIVAS",
-  "osc:variables": [
-    "Aerosol Optical Depth/Thickness"
-  ],
+  "osc:project": "lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "atmosphere_optical_thickness_due_to_aerosol",
   "created": "2021-01-01T00:00:00Z",
   "start_datetime": "2006-01-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -70,5 +63,19 @@
   "keywords": [
     "Aerosols",
     "Aerosol Optical Depth/Thickness"
+  ],
+  "cf:parameter": [
+    {
+      "name": "atmosphere_optical_thickness_due_to_aerosol"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "aerosol-optical-depth-thickness"
+  ],
+  "osc:missions": [
+    "calipso"
   ]
 }

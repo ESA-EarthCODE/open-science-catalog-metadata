@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "TerrA-P",
@@ -41,28 +41,38 @@
   "contacts": [
     {
       "name": "Philippe Goryl",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "philippe.goryl@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "VITO (BE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "IMPERIAL COLLEGE LONDON (GB)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "UNIVERSITY OF ANTWERP ASTROPHYSICS (BE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "UNIV LEICESTER (GB)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2016-09-26T00:00:00Z",

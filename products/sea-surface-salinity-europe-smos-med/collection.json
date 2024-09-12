@@ -23,33 +23,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "SMOS+ Med-Sea Surface Salinity in the Mediterranean",
-  "osc:variables": [
-    "Sea Surface Salinity"
-  ],
+  "osc:project": "smos-med-sea-surface-salinity-in-the-mediterranean",
   "osc:status": "ongoing",
   "osc:region": "Europe",
   "osc:type": "product",
-  "osc:standard_name": "sea_surface_salinity",
   "created": "2018-04-06T00:00:00Z",
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -10.7991042669,
-        36.0756766645,
-        31.7399582331,
-        71.1842816206
+        [
+          -10.7991042669,
+          36.0756766645,
+          31.7399582331,
+          71.1842816206
+        ]
       ]
     },
     "temporal": {
@@ -66,5 +59,19 @@
     "Salinity/Density",
     "Sea Surface Salinity",
     "Sea Ice"
+  ],
+  "cf:parameter": [
+    {
+      "name": "sea_surface_salinity"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

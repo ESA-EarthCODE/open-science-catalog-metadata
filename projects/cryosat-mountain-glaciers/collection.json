@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "CryoSat+ Mountain Glaciers",
@@ -41,32 +41,44 @@
   "contacts": [
     {
       "name": "Stephen Plummer",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "stephen.plummer@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "University of Edinburgh (UoE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "isardSAT",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Environmental Earth Observation Information Technology GMBH",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "earthwave Earth Observation and Data Science Specialists",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "University College of London  Mullard Space Science Labor (UCL)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2015-05-13T00:00:00Z",

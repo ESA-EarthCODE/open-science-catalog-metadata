@@ -36,14 +36,6 @@ jobs:
         uses: chetan/git-restore-mtime-action@v1
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Install dependencies
-        run: |
-          pip install -U pip
-          pip install git+https://github.com/EOEPCA/open-science-catalog-builder@9d5fadcb95a9693c4f47c732b8d2a70addf2bcd5
-      - name: Build static catalog
-        run: |
-          osc build . -o dist/ \
-            --root-href "https://ESA-EarthCODE.github.io/open-science-catalog-metadata/"
       - name: Copying Catalog client
         run: |
           cp -r client/* dist/

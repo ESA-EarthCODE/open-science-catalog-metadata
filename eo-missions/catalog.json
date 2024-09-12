@@ -24,9 +24,45 @@
     },
     {
       "rel": "child",
+      "href": "./alos-2/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-2"
+    },
+    {
+      "rel": "child",
+      "href": "./alos-4/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-4"
+    },
+    {
+      "rel": "child",
+      "href": "./alos/catalog.json",
+      "type": "application/json",
+      "title": "ALOS"
+    },
+    {
+      "rel": "child",
+      "href": "./amsr-e/catalog.json",
+      "type": "application/json",
+      "title": "AMSR-E"
+    },
+    {
+      "rel": "child",
+      "href": "./amsr2/catalog.json",
+      "type": "application/json",
+      "title": "AMSR2"
+    },
+    {
+      "rel": "child",
       "href": "./aqua-eos-pm-1/catalog.json",
       "type": "application/json",
       "title": "AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "child",
+      "href": "./ascat/catalog.json",
+      "type": "application/json",
+      "title": "ASCAT"
     },
     {
       "rel": "child",
@@ -48,15 +84,33 @@
     },
     {
       "rel": "child",
-      "href": "./cryosat/catalog.json",
+      "href": "./cosmo-skymed-2/catalog.json",
       "type": "application/json",
-      "title": "CryoSat"
+      "title": "COSMO-SkyMed 2"
+    },
+    {
+      "rel": "child",
+      "href": "./cosmo-skymed/catalog.json",
+      "type": "application/json",
+      "title": "COSMO-SkyMed"
     },
     {
       "rel": "child",
       "href": "./cryosat-2/catalog.json",
       "type": "application/json",
       "title": "CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "./cryosat/catalog.json",
+      "type": "application/json",
+      "title": "CryoSat"
+    },
+    {
+      "rel": "child",
+      "href": "./dmsp/catalog.json",
+      "type": "application/json",
+      "title": "DMSP-Defense Meteorological Satellite Program Block 5D"
     },
     {
       "rel": "child",
@@ -96,6 +150,12 @@
     },
     {
       "rel": "child",
+      "href": "./glonas/catalog.json",
+      "type": "application/json",
+      "title": "GLONAS"
+    },
+    {
+      "rel": "child",
       "href": "./glonass/catalog.json",
       "type": "application/json",
       "title": "GLONASS"
@@ -114,9 +174,15 @@
     },
     {
       "rel": "child",
-      "href": "./grace/catalog.json",
+      "href": "./gpm-global-precipitation-measurement/catalog.json",
       "type": "application/json",
-      "title": "GRACE"
+      "title": "GPM (Global Precipitation Measurement)"
+    },
+    {
+      "rel": "child",
+      "href": "./gps/catalog.json",
+      "type": "application/json",
+      "title": "GPS"
     },
     {
       "rel": "child",
@@ -126,15 +192,27 @@
     },
     {
       "rel": "child",
-      "href": "./icesat/catalog.json",
+      "href": "./grace/catalog.json",
       "type": "application/json",
-      "title": "ICESat"
+      "title": "GRACE"
+    },
+    {
+      "rel": "child",
+      "href": "./hy-2b-haiyang-2b/catalog.json",
+      "type": "application/json",
+      "title": "HY-2B (Haiyang-2B)"
     },
     {
       "rel": "child",
       "href": "./icesat-2/catalog.json",
       "type": "application/json",
       "title": "ICESat-2"
+    },
+    {
+      "rel": "child",
+      "href": "./icesat/catalog.json",
+      "type": "application/json",
+      "title": "ICESat"
     },
     {
       "rel": "child",
@@ -180,9 +258,21 @@
     },
     {
       "rel": "child",
+      "href": "./landsat/catalog.json",
+      "type": "application/json",
+      "title": "Landsat"
+    },
+    {
+      "rel": "child",
       "href": "./limb-viewing-instruments/catalog.json",
       "type": "application/json",
       "title": "Limb-Viewing Instruments"
+    },
+    {
+      "rel": "child",
+      "href": "./meris/catalog.json",
+      "type": "application/json",
+      "title": "MERIS"
     },
     {
       "rel": "child",
@@ -198,6 +288,30 @@
     },
     {
       "rel": "child",
+      "href": "./model/catalog.json",
+      "type": "application/json",
+      "title": "Model"
+    },
+    {
+      "rel": "child",
+      "href": "./modis/catalog.json",
+      "type": "application/json",
+      "title": "MODIS"
+    },
+    {
+      "rel": "child",
+      "href": "./msg-seviri/catalog.json",
+      "type": "application/json",
+      "title": "MSG-SEVIRI"
+    },
+    {
+      "rel": "child",
+      "href": "./nimbus-7/catalog.json",
+      "type": "application/json",
+      "title": "Nimbus-7"
+    },
+    {
+      "rel": "child",
       "href": "./numerical-models/catalog.json",
       "type": "application/json",
       "title": "Numerical models"
@@ -210,9 +324,27 @@
     },
     {
       "rel": "child",
+      "href": "./omi/catalog.json",
+      "type": "application/json",
+      "title": "OMI"
+    },
+    {
+      "rel": "child",
       "href": "./orbview-2/catalog.json",
       "type": "application/json",
       "title": "OrbView-2"
+    },
+    {
+      "rel": "child",
+      "href": "./radarsat-1/catalog.json",
+      "type": "application/json",
+      "title": "RADARSAT-1"
+    },
+    {
+      "rel": "child",
+      "href": "./radarsat-2/catalog.json",
+      "type": "application/json",
+      "title": "RADARSAT-2"
     },
     {
       "rel": "child",
@@ -222,9 +354,21 @@
     },
     {
       "rel": "child",
+      "href": "./saral-altika/catalog.json",
+      "type": "application/json",
+      "title": "SARAL/ALtiKa"
+    },
+    {
+      "rel": "child",
       "href": "./saral/catalog.json",
       "type": "application/json",
       "title": "SARAL"
+    },
+    {
+      "rel": "child",
+      "href": "./seawifs/catalog.json",
+      "type": "application/json",
+      "title": "SeaWiFS"
     },
     {
       "rel": "child",
@@ -306,69 +450,9 @@
     },
     {
       "rel": "child",
-      "href": "./alos/catalog.json",
+      "href": "./viirs/catalog.json",
       "type": "application/json",
-      "title": "ALOS"
-    },
-    {
-      "rel": "child",
-      "href": "./alos-2/catalog.json",
-      "type": "application/json",
-      "title": "ALOS-2"
-    },
-    {
-      "rel": "child",
-      "href": "./alos-4/catalog.json",
-      "type": "application/json",
-      "title": "ALOS-4"
-    },
-    {
-      "rel": "child",
-      "href": "./cosmo-skymed/catalog.json",
-      "type": "application/json",
-      "title": "COSMO-SkyMed"
-    },
-    {
-      "rel": "child",
-      "href": "./cosmo-skymed-2/catalog.json",
-      "type": "application/json",
-      "title": "COSMO-SkyMed 2"
-    },
-    {
-      "rel": "child",
-      "href": "./radarsat-1/catalog.json",
-      "type": "application/json",
-      "title": "RADARSAT-1"
-    },
-    {
-      "rel": "child",
-      "href": "./radarsat-2/catalog.json",
-      "type": "application/json",
-      "title": "RADARSAT-2"
-    },
-    {
-      "rel": "child",
-      "href": "./nimbus-7/catalog.json",
-      "type": "application/json",
-      "title": "Nimbus-7"
-    },
-    {
-      "rel": "child",
-      "href": "./dmsp/catalog.json",
-      "type": "application/json",
-      "title": "DMSP-Defense Meteorological Satellite Program Block 5D"
-    },
-    {
-      "rel": "child",
-      "href": "./gpm-global-precipitation-measurement/catalog.json",
-      "type": "application/json",
-      "title": "GPM (Global Precipitation Measurement)"
-    },
-    {
-      "rel": "child",
-      "href": "./hy-2b-haiyang-2b/catalog.json",
-      "type": "application/json",
-      "title": "HY-2B (Haiyang-2B)"
+      "title": "VIIRS"
     }
   ],
   "title": "EO Missions"

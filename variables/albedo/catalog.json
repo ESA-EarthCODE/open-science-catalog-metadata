@@ -12,7 +12,7 @@
     },
     {
       "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/48c16952-b6e0-40cd-b6dd-7cdbf5a443a1?gtm_keyword=ALBEDO&gtm_scheme=Earth%20Sciencehttps://gcos.wmo.int/en/essential-climate-variables/albedo\"",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/48c16952-b6e0-40cd-b6dd-7cdbf5a443a1?gtm_keyword=ALBEDO&gtm_scheme=Earth%20Science;https://gcos.wmo.int/en/essential-climate-variables/albedo",
       "type": "text/html",
       "title": "Description"
     },

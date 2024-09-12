@@ -23,37 +23,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Secchi Disk depth_Global Oceans_Multimission",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "OrbView-2",
-    "ENVISAT",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Suomi NPP"
-  ],
-  "osc:project": "PHYSIOGLOB: Assessing the inter-annual physiological response of phytoplankton to global warming using long-term satellite observations",
-  "osc:variables": [
-    "Chlorophyll Concentration"
-  ],
+  "osc:project": "physioglob-assessing-the-inter-annual-physiological-response-of-phytoplankton-to-global-warming-using-long-term-satellite-observations",
   "osc:status": "ongoing",
   "osc:region": "Global Oceans",
   "osc:type": "product",
-  "osc:standard_name": "secchi_disk_depth",
   "created": "2019-01-01T00:00:00Z",
   "start_datetime": "1997-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -72,5 +61,23 @@
     "Chlorophyll Concentration",
     "Ocean Chemistry",
     "Pigments"
+  ],
+  "cf:parameter": [
+    {
+      "name": "secchi_disk_depth"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "chlorophyll-concentration"
+  ],
+  "osc:missions": [
+    "orbview-2",
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp"
   ]
 }

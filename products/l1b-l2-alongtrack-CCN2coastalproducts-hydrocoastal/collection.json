@@ -1,87 +1,94 @@
 {
-    "type": "Collection",
-    "id": "l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal",
-    "stac_version": "1.0.0",
-    "description": "The third data set is a coastal data set produced by isardSAT, generated from Sentinel-6 data. There are two components, an L2 data set produced by the isardSAT CORS Delay Doppler (DD) Coastal Processor for three regions: Aegean Sea, Baltic Sea, California Coast, from cycle 5 to cycle 42, and a Fully Focused SAR data set for a single Sentinel-6 track in the Aegean Sea, from cycle 37 to cycle 41. Fully Focused SAR data set includes L1b FF products, L2 data produced from L1b FF by the isardSAT's CORS retracker, and L2 data produced from L1b FF by the isardSAT's analytical retracker. Folder structure: The CCN2 isardSAT Coastal Data Sets are under the top-level folder 'HYDROCOASTAL_CCN2'. Under here are two folders 'FF coastal' and 'DD coastal'. Under these folders are zip files containing L1b and L2 products from the Fully Focused SAR, and L1b and L2 products from Delay Doppler respectively. L2 data produced by the isardSAT's CORS retracker are under the sub folder 'coastal_processing' for Delay Doppler and under the sub folder 'L2_isd_coastal' for Fully Focused SAR. L2 data produced by the isardSAT's analytical retracker are under the sub folder 'L2_isd' for Delay Doppler and under the sub folders 'SL04_ML300_fromL1B', 'SL04_10', and 'SL1_ML10' for the different configurations of Fully Focused SAR.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_CCN2/",
-        "title": "Access"
-      },
-      {
-        "rel": "via",
-        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
-        "title": "Documentation"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Products"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
-    ],
-    "title": "HYDROCOASTAL CCN2 isardSAT coastal product",
-    "osc:themes": [
-      "Oceans",
-      "Land"
-    ],
-    "osc:missions": [
-      "Sentinel-6"
-    ],
-    "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
-    "osc:variables": [
-      "Significant Wave Height",
-      "Sea Level",
-      "Mean Sea Level",
-      "Ocean surface backscatter",
-      "Dry Tropospheric Correction",
-      "Wet Tropospheric Correction",
-      "Tidal Height"
-    ],
-    "osc:status": "completed",
-    "osc:region": "Global",
-    "osc:type": "product",
-    "osc:standard_name": "significant_wave_height",
-    "created": "2023-09-23T00:00:00Z",
-    "start_datetime": "2021-01-01T00:00:00Z",
-    "end_datetime": "2021-12-04T23:59:59Z",
-    "sci:doi": "10.5270/esa-hydrocoastal_ccn2-sar_altimeter_L2_2020_2022_v_1.0_2023_12",
-    "extent": {
-      "spatial": {
-        "bbox": [
-            -180.0,
-            -90.0,
-            180.0,
-            90.0
-        ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2021-01-01T00:00:00Z",
-            "2021-12-04T23:59:59Z"
-          ]
-        ]
-      }
+  "type": "Collection",
+  "id": "l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal",
+  "stac_version": "1.0.0",
+  "description": "The third data set is a coastal data set produced by isardSAT, generated from Sentinel-6 data. There are two components, an L2 data set produced by the isardSAT CORS Delay Doppler (DD) Coastal Processor for three regions: Aegean Sea, Baltic Sea, California Coast, from cycle 5 to cycle 42, and a Fully Focused SAR data set for a single Sentinel-6 track in the Aegean Sea, from cycle 37 to cycle 41. Fully Focused SAR data set includes L1b FF products, L2 data produced from L1b FF by the isardSAT's CORS retracker, and L2 data produced from L1b FF by the isardSAT's analytical retracker. Folder structure: The CCN2 isardSAT Coastal Data Sets are under the top-level folder 'HYDROCOASTAL_CCN2'. Under here are two folders 'FF coastal' and 'DD coastal'. Under these folders are zip files containing L1b and L2 products from the Fully Focused SAR, and L1b and L2 products from Delay Doppler respectively. L2 data produced by the isardSAT's CORS retracker are under the sub folder 'coastal_processing' for Delay Doppler and under the sub folder 'L2_isd_coastal' for Fully Focused SAR. L2 data produced by the isardSAT's analytical retracker are under the sub folder 'L2_isd' for Delay Doppler and under the sub folders 'SL04_ML300_fromL1B', 'SL04_10', and 'SL1_ML10' for the different configurations of Fully Focused SAR.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
-    "license": "proprietary",
-    "keywords": [
-      "Significant Wave Height",
-      "Sea Level",
-      "Mean Sea Level",
-      "Ocean surface backscatter",
-      "Dry Tropospheric Correction",
-      "Wet Tropospheric Correction",
-      "Tidal Height"
-    ]
-  }
+    {
+      "rel": "via",
+      "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_CCN2/",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "title": "HYDROCOASTAL CCN2 isardSAT coastal product",
+  "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2023-09-23T00:00:00Z",
+  "start_datetime": "2021-01-01T00:00:00Z",
+  "end_datetime": "2021-12-04T23:59:59Z",
+  "sci:doi": "10.5270/esa-hydrocoastal_ccn2-sar_altimeter_L2_2020_2022_v_1.0_2023_12",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-04T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Significant Wave Height",
+    "Sea Level",
+    "Mean Sea Level",
+    "Ocean surface backscatter",
+    "Dry Tropospheric Correction",
+    "Wet Tropospheric Correction",
+    "Tidal Height"
+  ],
+  "cf:parameter": [
+    {
+      "name": "significant_wave_height"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "significant-wave-height",
+    "sea-level",
+    "mean-sea-level",
+    "ocean-surface-backscatter",
+    "dry-tropospheric-correction",
+    "wet-tropospheric-correction",
+    "tidal-height"
+  ],
+  "osc:missions": [
+    "sentinel-6"
+  ]
+}

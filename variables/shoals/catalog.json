@@ -11,16 +11,28 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/4c2d2255-680d-47d6-adb2-179093593f8a?gtm_keyword=SHOALS&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/94b575b8-eac4-433d-aa74-d781b650f452?gtm_keyword=SHOALS&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/cae5bafd-10a7-4bcf-af1a-3e187ee5e955?gtm_keyword=SHOALS&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/cae5bafd-10a7-4bcf-af1a-3e187ee5e955?gtm_keyword=SHOALS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/4c2d2255-680d-47d6-adb2-179093593f8a?gtm_keyword=SHOALS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/94b575b8-eac4-433d-aa74-d781b650f452?gtm_keyword=SHOALS&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

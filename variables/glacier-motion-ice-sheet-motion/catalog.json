@@ -11,16 +11,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/73f3c797-2eed-4f0d-accf-7e8a36a3fa93?gtm_keyword=GLACIER%20MOTION/ICE%20SHEET%20MOTION&gtm_scheme=Earth%20Science;https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/4c9afaf7-4aec-440d-8084-6a482de09e7a?gtm_keyword=GLACIER%20MOTION/ICE%20SHEET%20MOTION&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/73f3c797-2eed-4f0d-accf-7e8a36a3fa93?gtm_keyword=GLACIER%20MOTION/ICE%20SHEET%20MOTION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/4c9afaf7-4aec-440d-8084-6a482de09e7a?gtm_keyword=GLACIER%20MOTION/ICE%20SHEET%20MOTION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

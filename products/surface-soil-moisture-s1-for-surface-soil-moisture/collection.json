@@ -17,7 +17,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5281/zenodo.5006307"
+      "href": "https://doi.org/10.5281/zenodo.5006307",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -27,24 +28,15 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [
-    "Sentinel-1"
-  ],
-  "osc:project": "Sentinel-1 for Surface Soil Moisture",
-  "osc:variables": [
-    "Soil Moisture"
-  ],
+  "osc:project": "sentinel-1-for-surface-soil-moisture",
   "osc:status": "ongoing",
   "osc:region": "South Italy",
   "osc:type": "product",
-  "osc:standard_name": "surface_soil_moisture",
   "created": "2021-03-16T00:00:00Z",
   "start_datetime": "2015-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
@@ -52,10 +44,12 @@
   "extent": {
     "spatial": {
       "bbox": [
-        6.62726578,
-        35.28896156,
-        18.78447454,
-        47.09214614
+        [
+          6.62726578,
+          35.28896156,
+          18.78447454,
+          47.09214614
+        ]
       ]
     },
     "temporal": {
@@ -75,5 +69,19 @@
     "Soils",
     "Soil Moisture/Water Content",
     "Agriculture"
+  ],
+  "cf:parameter": [
+    {
+      "name": "surface_soil_moisture"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "sentinel-1"
   ]
 }

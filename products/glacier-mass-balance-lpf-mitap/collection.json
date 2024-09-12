@@ -18,32 +18,25 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Geodetic glacier mass balances Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "TanDEM-X"
-  ],
-  "osc:project": "Mass balance and ice dynamics of Antarctic Peninsula glaciers (MIT-AP)",
-  "osc:variables": [
-    "Glacier Mass Balance/Ice Sheet Mass Balance"
-  ],
+  "osc:project": "mass-balance-and-ice-dynamics-of-antarctic-peninsula-glaciers-mit-ap",
   "osc:status": "planned",
   "osc:region": "Antarctica",
   "osc:type": "product",
-  "osc:standard_name": "glacier_mass_balance",
   "start_datetime": "2013-01-01T00:00:00Z",
   "end_datetime": "2017-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -80.0,
-        180.0,
-        -61.0
+        [
+          -180.0,
+          -80.0,
+          180.0,
+          -61.0
+        ]
       ]
     },
     "temporal": {
@@ -62,5 +55,19 @@
     "Cryospheric Indicators",
     "Glacial Measurements",
     "Sea Ice"
+  ],
+  "cf:parameter": [
+    {
+      "name": "glacier_mass_balance"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-mass-balance-ice-sheet-mass-balance"
+  ],
+  "osc:missions": [
+    "tandem-x"
   ]
 }

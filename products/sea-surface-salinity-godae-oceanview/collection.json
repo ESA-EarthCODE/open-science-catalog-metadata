@@ -22,7 +22,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5194/os-15-543-2019"
+      "href": "https://doi.org/10.5194/os-15-543-2019",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -32,24 +33,15 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea Surface Salinity Bias_Global_SMOS",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "SMOS"
-  ],
-  "osc:project": "GODAE OCEAN OBSERVING SYSTEM EVALUATION OF SATELLITE SEA SURFACE SALINITY AND EL NINO 2015 (SMOS-NINO15)",
-  "osc:variables": [
-    "Sea Surface Salinity"
-  ],
+  "osc:project": "godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "sea_surface_salinity",
   "created": "2019-05-22T00:00:00Z",
   "start_datetime": "2015-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
@@ -57,10 +49,12 @@
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -77,5 +71,19 @@
     "Salinity/Density",
     "Sea Surface Salinity",
     "Sea Ice"
+  ],
+  "cf:parameter": [
+    {
+      "name": "sea_surface_salinity"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos"
   ]
 }

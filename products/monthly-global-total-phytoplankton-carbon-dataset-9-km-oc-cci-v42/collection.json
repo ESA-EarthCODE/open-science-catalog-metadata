@@ -23,38 +23,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v4.2)",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "ENVISAT",
-    "Terra",
-    "AQUA (EOS/PM-1)",
-    "Suomi NPP",
-    "OrbView-2",
-    "Sentinel-3"
-  ],
-  "osc:project": "Biological Pump and Carbon Exchange Processes",
-  "osc:variables": [
-    "Phytoplankton"
-  ],
+  "osc:project": "biological-pump-and-carbon-exchange-processes",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
   "created": "2023-03-29T00:00:00Z",
   "start_datetime": "1997-09-01T00:00:00Z",
   "end_datetime": "2020-11-30T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -72,5 +60,24 @@
     "Aquatic Ecosystems",
     "Plankton",
     "Phytoplankton"
+  ],
+  "cf:parameter": [
+    {
+      "name": "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "phytoplankton"
+  ],
+  "osc:missions": [
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp",
+    "orbview-2",
+    "sentinel-3"
   ]
 }

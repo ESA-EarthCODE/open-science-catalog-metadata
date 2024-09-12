@@ -28,34 +28,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "High resolution phytoplankton Chl-a data obtained by undulating platform towed behind the ship (POLARSTERN cruise PS113)",
-  "osc:themes": [
-    "Oceans",
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SENTINEL-5P+ INNOVATION OCEAN COLOUR (S5P+-I-OC)",
-  "osc:variables": [
-    "Chlorophyll Concentration"
-  ],
+  "osc:project": "sentinel-5p-innovation-ocean-colour-s5p-i-oc",
   "osc:status": "completed",
   "osc:region": "South Atlantic Ocean",
   "osc:type": "product",
-  "osc:standard_name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water",
   "created": "2020-04-21T00:00:00Z",
   "start_datetime": "2018-05-14T00:00:00Z",
   "end_datetime": "2018-06-05T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -44.627,
-        -35.644,
-        -13.138,
-        35.914
+        [
+          -44.627,
+          -35.644,
+          -13.138,
+          35.914
+        ]
       ]
     },
     "temporal": {
@@ -74,5 +66,20 @@
     "Chlorophyll Concentration",
     "Ocean Chemistry",
     "Pigments"
+  ],
+  "cf:parameter": [
+    {
+      "name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "chlorophyll-concentration"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "surface-melt-antarctic-ice-sheet-1979-2021",
   "stac_version": "1.0.0",
-  "description": "This dataset provides daily surface melt in Antarctica and in Greenland. Surface melting is retrieved from passive microwave radiometer data (SMMR and SSM/I) using the algorithm developed by Torinesi et al. 2003 and Picard and Fily 2006. The microwave data are from two NSIDC datasets: SMMR and SSM/I. The surface melting dataset is provided with a spatial resolution of 25 km but the SSM/I sensor has an effective resolution of about 60 km at the frequency used here. The temporal resolution is 1 day (2 days before 1988) and records are almost continuous since 1979, except a long data gap in the summer 1987/1988. This dataset includes for every pixel and day the status wet/dry snow. The data is provided on the stereographic polar grid for every day since 1st April 1979 for both hemispheres. The grid has a 25 x 25 km² resolution (see NSIDC information) In Antarctica, the grid is a cropped version of the Southern stereographic polar grid used by NSIDC. The cropped size is 231 x 201, with an upper left pixel at the coordinates (40,70) and a lower right pixel at the coordinates (271,271). In Greenland, the grid is a small area of the Northen stereographic polar grid used by NSIDC. The size is 60 x 109. The upper left pixel has coordinates (129,260) in the NSIDC Polar grid and the lower right pixel has coordinates (189 369). For ease of use, the latitude and longitude of each pixel center are included in the dataset. The mask excludes the ocean. In Antarctica the areas above 1700 m.a.s.l. are also excluded. The mask does not change over time which has some implications where the coast line has changed during the time-series. For instance, Larsen A and B Ice Shelves in Antarctica are included although they desintegrated from 1995 and 2002 respectively. Melting information after desintegration is irrelevant in this area, and any trend analysis should take into account this change of the coastlines.",
+  "description": "This dataset provides daily surface melt in Antarctica and in Greenland. Surface melting is retrieved from passive microwave radiometer data (SMMR and SSM/I) using the algorithm developed by Torinesi et al. 2003 and Picard and Fily 2006. The microwave data are from two NSIDC datasets: SMMR and SSM/I. The surface melting dataset is provided with a spatial resolution of 25 km but the SSM/I sensor has an effective resolution of about 60 km at the frequency used here. The temporal resolution is 1 day (2 days before 1988) and records are almost continuous since 1979, except a long data gap in the summer 1987/1988. This dataset includes for every pixel and day the status wet/dry snow. The data is provided on the stereographic polar grid for every day since 1st April 1979 for both hemispheres. The grid has a 25 x 25 km\u00b2 resolution (see NSIDC information) In Antarctica, the grid is a cropped version of the Southern stereographic polar grid used by NSIDC. The cropped size is 231 x 201, with an upper left pixel at the coordinates (40,70) and a lower right pixel at the coordinates (271,271). In Greenland, the grid is a small area of the Northen stereographic polar grid used by NSIDC. The size is 60 x 109. The upper left pixel has coordinates (129,260) in the NSIDC Polar grid and the lower right pixel has coordinates (189 369). For ease of use, the latitude and longitude of each pixel center are included in the dataset. The mask excludes the ocean. In Antarctica the areas above 1700 m.a.s.l. are also excluded. The mask does not change over time which has some implications where the coast line has changed during the time-series. For instance, Larsen A and B Ice Shelves in Antarctica are included although they desintegrated from 1995 and 2002 respectively. Melting information after desintegration is irrelevant in this area, and any trend analysis should take into account this change of the coastlines.",
   "links": [
     {
       "rel": "root",
@@ -11,7 +11,7 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child", 
+      "rel": "child",
       "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/Surface_Melting_Antarctica_1979_2021_v1/melting-1979-2021-v1/catalog.json",
       "type": "application/json",
       "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
@@ -34,23 +34,14 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "Nimbus-7"
-  ],
-  "osc:project": "4D-ANTARCTICA",
-  "osc:variables": [
-    "Ice Growth/Melt"
-  ],
+  "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
-  "osc:standard_name": "surface-melt-antarctic-ice-sheet",
   "created": "2022-04-01T00:00:00Z",
   "sci:doi": "10.1016/j.rse.2006.05.010",
   "start_datetime": "1979-01-01T00:00:00Z",
@@ -58,10 +49,12 @@
   "extent": {
     "spatial": {
       "bbox": [
+        [
           -180.0,
           -90.0,
           180.0,
           -60.0
+        ]
       ]
     },
     "temporal": {
@@ -75,10 +68,24 @@
   },
   "license": "proprietary",
   "keywords": [
-      "Sea Ice",
-      "Sea Ice Volume Budget",
-      "Ice Growth/Melt",
-      "Ocean Volume Budget",
-      "Snow/Ice"
+    "Sea Ice",
+    "Sea Ice Volume Budget",
+    "Ice Growth/Melt",
+    "Ocean Volume Budget",
+    "Snow/Ice"
+  ],
+  "cf:parameter": [
+    {
+      "name": "surface-melt-antarctic-ice-sheet"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "nimbus-7"
   ]
 }

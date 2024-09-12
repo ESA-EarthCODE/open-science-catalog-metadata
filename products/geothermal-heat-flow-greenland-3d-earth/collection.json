@@ -17,7 +17,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.22008/FK2/F9P03L"
+      "href": "https://doi.org/10.22008/FK2/F9P03L",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -27,34 +28,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Geothermal Heat Flow Database and Map_Greenland_GOCE_SWARM",
-  "osc:themes": [
-    "Solid Earth"
-  ],
-  "osc:missions": [
-    "GOCE",
-    "SWARM"
-  ],
-  "osc:project": "3D-Earth",
-  "osc:variables": [
-    "Geothermal Energy"
-  ],
+  "osc:project": "3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
-  "osc:standard_name": "geothermal_heat_flow",
   "created": "2021-08-26T00:00:00Z",
   "sci:doi": "10.22008/FK2/F9P03L",
   "extent": {
     "spatial": {
       "bbox": [
-        -178.4105321808,
-        60.6134006095,
-        178.3660428163,
-        84.2454100786
+        [
+          -178.4105321808,
+          60.6134006095,
+          178.3660428163,
+          84.2454100786
+        ]
       ]
     },
     "temporal": {
@@ -70,5 +63,20 @@
   "keywords": [
     "Geothermal Dynamics",
     "Geothermal Energy"
+  ],
+  "cf:parameter": [
+    {
+      "name": "geothermal_heat_flow"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "geothermal-energy"
+  ],
+  "osc:missions": [
+    "goce",
+    "swarm"
   ]
 }

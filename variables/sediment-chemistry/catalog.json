@@ -11,16 +11,28 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/134fd984-9b26-4ceb-9084-3bffc0c5a321?gtm_keyword=SEDIMENT%20CHEMISTRY&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/f8411549-a72d-44cd-9b7b-6953ec22f8da?gtm_keyword=SEDIMENT%20CHEMISTRY&gtm_scheme=Earth%20Science; https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/7d10ff6d-efde-4f97-866b-7d771dd32b25?gtm_keyword=SEDIMENT%20CHEMISTRY&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/7d10ff6d-efde-4f97-866b-7d771dd32b25?gtm_keyword=SEDIMENT%20CHEMISTRY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/f8411549-a72d-44cd-9b7b-6953ec22f8da?gtm_keyword=SEDIMENT%20CHEMISTRY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/134fd984-9b26-4ceb-9084-3bffc0c5a321?gtm_keyword=SEDIMENT%20CHEMISTRY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
     }
   ],
   "stac_extensions": [

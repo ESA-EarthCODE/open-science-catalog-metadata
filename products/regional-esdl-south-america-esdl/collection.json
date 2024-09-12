@@ -22,7 +22,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5281/zenodo.5068004"
+      "href": "https://doi.org/10.5281/zenodo.5068004",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -32,32 +33,27 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Code for Regional Earth System Data Lab: Tropical South America",
-  "osc:themes": [
-    "Land"
-  ],
-  "osc:missions": [],
-  "osc:project": "Earth System Data Lab (ESDL)",
-  "osc:variables": [
-    "Land Use/Land Cover Classification"
-  ],
+  "osc:project": "earth-system-data-lab-esdl",
   "osc:status": "completed",
   "osc:region": "South America",
   "osc:type": "product",
-  "osc:standard_name": "regional_esdl",
   "start_datetime": "2001-01-01T00:00:00Z",
   "end_datetime": "2014-01-01T23:59:59Z",
   "sci:doi": "10.5281/zenodo.5068004",
   "extent": {
     "spatial": {
       "bbox": [
-        -83.0,
-        -14.0,
-        -60.0,
-        14.0
+        [
+          -83.0,
+          -14.0,
+          -60.0,
+          14.0
+        ]
       ]
     },
     "temporal": {
@@ -73,5 +69,16 @@
   "keywords": [
     "Land Use/Land Cover",
     "Land Use/Land Cover Classification"
+  ],
+  "cf:parameter": [
+    {
+      "name": "regional_esdl"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "land-use-land-cover-classification"
   ]
 }

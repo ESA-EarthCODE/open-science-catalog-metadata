@@ -28,34 +28,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)",
-  "osc:themes": [
-    "Oceans",
-    "Atmosphere"
-  ],
-  "osc:missions": [
-    "Sentinel-5p"
-  ],
-  "osc:project": "SENTINEL-5P+ INNOVATION OCEAN COLOUR (S5P+-I-OC)",
-  "osc:variables": [
-    "Phytoplankton"
-  ],
+  "osc:project": "sentinel-5p-innovation-ocean-colour-s5p-i-oc",
   "osc:status": "completed",
   "osc:region": "South Atlantic Ocean",
   "osc:type": "product",
-  "osc:standard_name": "phytoplankton_pigment_concentration_and_phytoplankton_groups",
   "created": "2020-04-21T00:00:00Z",
   "start_datetime": "2018-05-10T00:00:00Z",
   "end_datetime": "2018-06-09T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -60.71218,
-        -47.64596,
-        -0.13706,
-        50.278
+        [
+          -60.71218,
+          -47.64596,
+          -0.13706,
+          50.278
+        ]
       ]
     },
     "temporal": {
@@ -73,5 +65,20 @@
     "Aquatic Ecosystems",
     "Plankton",
     "Phytoplankton"
+  ],
+  "cf:parameter": [
+    {
+      "name": "phytoplankton_pigment_concentration_and_phytoplankton_groups"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "phytoplankton"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
   ]
 }

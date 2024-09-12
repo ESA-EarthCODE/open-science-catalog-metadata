@@ -23,34 +23,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "GRACE",
-    "GRACE-FO"
-  ],
-  "osc:project": "BALTIC+ SEAL - Sea Level",
-  "osc:variables": [
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
+  "osc:project": "baltic-seal-sea-level",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "earth_energy_imballance",
   "created": "2021-10-04T00:00:00Z",
   "start_datetime": "2002-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -67,5 +59,20 @@
     "Sea Surface Topography",
     "Sea Surface Height",
     "Sea Surface Height Anomaly (SSHA)"
+  ],
+  "cf:parameter": [
+    {
+      "name": "earth_energy_imballance"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "grace",
+    "grace-fo"
   ]
 }

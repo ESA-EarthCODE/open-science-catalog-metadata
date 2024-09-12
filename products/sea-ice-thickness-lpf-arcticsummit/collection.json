@@ -28,7 +28,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5285/d8c66670-57ad-44fc-8fef-942a46734ecb"
+      "href": "https://doi.org/10.5285/d8c66670-57ad-44fc-8fef-942a46734ecb",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -38,25 +39,15 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Sea ice thickness_monthly_Oct 2010-July 2020Arctic_CryoSat-2 Baseline-D observations",
-  "osc:themes": [
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat-2"
-  ],
-  "osc:project": "ArcticSummIT: Arctic Summer Ice Thickness",
-  "osc:variables": [
-    "Ice Depth/Thickness",
-    "Freeboard"
-  ],
+  "osc:project": "arcticsummit-arctic-summer-ice-thickness",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
-  "osc:standard_name": "sea_ice_thickness",
   "created": "2022-01-01T00:00:00Z",
   "start_datetime": "2021-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
@@ -64,10 +55,12 @@
   "extent": {
     "spatial": {
       "bbox": [
-        -178.4105321808,
-        60.6134006095,
-        178.3660428163,
-        84.2454100786
+        [
+          -178.4105321808,
+          60.6134006095,
+          178.3660428163,
+          84.2454100786
+        ]
       ]
     },
     "temporal": {
@@ -84,5 +77,20 @@
     "Sea Ice",
     "Ice Depth/Thickness",
     "Freeboard"
+  ],
+  "cf:parameter": [
+    {
+      "name": "sea_ice_thickness"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "ice-depth-thickness",
+    "freeboard"
+  ],
+  "osc:missions": [
+    "cryosat-2"
   ]
 }

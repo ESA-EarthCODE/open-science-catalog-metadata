@@ -23,30 +23,23 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "Particulate backscatter: bbp_Global_AEOLUS",
-  "osc:themes": [
-    "Oceans"
-  ],
-  "osc:missions": [
-    "AEOLUS"
-  ],
-  "osc:project": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
-  "osc:variables": [
-    "Particulate Backscattering Coefficient"
-  ],
+  "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color",
   "osc:status": "planned",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "particulate_backscatter_bbp",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -62,5 +55,19 @@
   "keywords": [
     "Ocean Optics",
     "Particulate Backscattering Coefficient"
+  ],
+  "cf:parameter": [
+    {
+      "name": "particulate_backscatter_bbp"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "particulate-backscattering-coefficient"
+  ],
+  "osc:missions": [
+    "aeolus"
   ]
 }

@@ -28,34 +28,26 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "RDSAR Satellite SAR altimeter product_Open Ocean_Cryosat",
-  "osc:themes": [
-    "Oceans",
-    "Cryosphere"
-  ],
-  "osc:missions": [
-    "CryoSat"
-  ],
-  "osc:project": "CryoSat Plus For Oceans (CP4O)",
-  "osc:variables": [
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
+  "osc:project": "cryosat-plus-for-oceans-cp4o",
   "osc:status": "ongoing",
   "osc:region": "Pacific and North Atlantic",
   "osc:type": "product",
-  "osc:standard_name": "rdsar_satellite_sar_altimeter open_ocean",
   "created": "2021-02-15T00:00:00Z",
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
   "extent": {
     "spatial": {
       "bbox": [
-        -179.6208515315,
-        -0.310754625,
-        -2.3130615194,
-        60.0851973468
+        [
+          -179.6208515315,
+          -0.310754625,
+          -2.3130615194,
+          60.0851973468
+        ]
       ]
     },
     "temporal": {
@@ -72,5 +64,20 @@
     "Sea Surface Topography",
     "Sea Surface Height",
     "Sea Surface Height Anomaly (SSHA)"
+  ],
+  "cf:parameter": [
+    {
+      "name": "rdsar_satellite_sar_altimeter open_ocean"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "cryosat"
   ]
 }

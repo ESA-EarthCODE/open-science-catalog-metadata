@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "SMOS+ Mediterranean",
@@ -41,20 +41,26 @@
   "contacts": [
     {
       "name": "Diego Fernandez",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "Diego.fernandez@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "UNIVERSITY OF LIEGE (BE)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "INSTITUTO DE CIENCIAS DEL MAR : CSIC (ES)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2014-03-19T00:00:00Z",

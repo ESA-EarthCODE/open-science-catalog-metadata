@@ -17,7 +17,8 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.1186/s40623-020-01252-7"
+      "href": "https://doi.org/10.1186/s40623-020-01252-7",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -27,40 +28,27 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "title": "CHAOS field model_Core",
-  "osc:themes": [
-    "Solid Earth",
-    "Magnetosphere_Ionosphere"
-  ],
-  "osc:missions": [
-    "SWARM",
-    "CryoSat-2",
-    "CHAMP",
-    "SAC-C",
-    "OERSTED"
-  ],
-  "osc:project": "The 4D-Earth Swarm project",
-  "osc:variables": [
-    "Magnetic Fields/Magnetic Currents",
-    "Geomagnetic Indices"
-  ],
+  "osc:project": "the-4d-earth-swarm-project",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "osc:standard_name": "chaos_field_model_core",
   "created": "2020-10-20T00:00:00Z",
   "version": "7,8",
   "sci:doi": "10.1186/s40623-020-01252-7",
   "extent": {
     "spatial": {
       "bbox": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
       ]
     },
     "temporal": {
@@ -78,5 +66,25 @@
     "Magnetic Fields/Magnetic Currents",
     "Sun-Earth Interactions",
     "Geomagnetic Indices"
+  ],
+  "cf:parameter": [
+    {
+      "name": "chaos_field_model_core"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth",
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "magnetic-fields-magnetic-currents",
+    "geomagnetic-indices"
+  ],
+  "osc:missions": [
+    "swarm",
+    "cryosat-2",
+    "champ",
+    "sac-c",
+    "oersted"
   ]
 }

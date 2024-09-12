@@ -1,88 +1,95 @@
 {
-    "type": "Collection",
-    "id": "l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal",
-    "stac_version": "1.0.0",
-    "description": "The HYDROCOASTAL Test Data Set are L2 products generated to evaluate the performance of five innovative new re-trackers. The Product is provided as L2 - Level 2 Extended Product. L2 output from all re-trackers implemented for each region is included in this product (See Table 2, column 4. The product format is described in the HYDROCOASTAL Product Specification Document, available at: https://www.satoc.eu/projects/hydrocoastal/docs.html. The source data are Sentinel 3A and Sentinel 3B SRAL L1a data, and Cryosat-2 SAR mode FBR Baseline D data. The Test Data Set contain 3 years' data (June 2017 to May 2020) for the Rhine, Ob, and Po regions, 1 year's data for the Caspian (December 2018 to November 2019) and 2 years' data (June 2019 to May 2020) for all other regions",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L2E_Test_Data_Set/",
-        "title": "Access"
-      },
-      {
-        "rel": "via",
-        "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
-        "title": "Documentation"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Products"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
-    ],
-    "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product",
-    "osc:themes": [
-      "Oceans",
-      "Land"
-    ],
-    "osc:missions": [
-      "CryoSat-2",
-      "Sentinel-3"
-    ],
-    "osc:project": "HydroCoastal: coastal ocean and inland water altimetry",
-    "osc:variables": [
-      "Significant Wave Height",
-      "Sea Level",
-      "Mean Sea Level",
-      "Ocean surface backscatter",
-      "Dry Tropospheric Correction",
-      "Wet Tropospheric Correction",
-      "Tidal Height"
-    ],
-    "osc:status": "completed",
-    "osc:region": "Global",
-    "osc:type": "product",
-    "osc:standard_name": "significant_wave_height",
-    "created": "2023-09-23T00:00:00Z",
-    "start_datetime": "2017-06-01T00:00:00Z",
-    "end_datetime": "2021-05-31T23:59:59Z",
-    "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L2E_Test_Data_Set_2017_2020_v_1.0_2023_12",
-    "extent": {
-      "spatial": {
-        "bbox": [
-            -180.0,
-            -90.0,
-            180.0,
-            90.0
-        ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2017-06-01T00:00:00Z",
-            "2021-05-31T23:59:59Z"
-          ]
-        ]
-      }
+  "type": "Collection",
+  "id": "l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal",
+  "stac_version": "1.0.0",
+  "description": "The HYDROCOASTAL Test Data Set are L2 products generated to evaluate the performance of five innovative new re-trackers. The Product is provided as L2 - Level 2 Extended Product. L2 output from all re-trackers implemented for each region is included in this product (See Table 2, column 4. The product format is described in the HYDROCOASTAL Product Specification Document, available at: https://www.satoc.eu/projects/hydrocoastal/docs.html. The source data are Sentinel 3A and Sentinel 3B SRAL L1a data, and Cryosat-2 SAR mode FBR Baseline D data. The Test Data Set contain 3 years' data (June 2017 to May 2020) for the Rhine, Ob, and Po regions, 1 year's data for the Caspian (December 2018 to November 2019) and 2 years' data (June 2019 to May 2020) for all other regions",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
-    "license": "proprietary",
-    "keywords": [
-      "Significant Wave Height",
-      "Sea Level",
-      "Mean Sea Level",
-      "Ocean surface backscatter",
-      "Dry Tropospheric Correction",
-      "Wet Tropospheric Correction",
-      "Tidal Height"
-    ]
-  }
+    {
+      "rel": "via",
+      "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L2E_Test_Data_Set/",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL_Final_Product_Readme.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product",
+  "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2023-09-23T00:00:00Z",
+  "start_datetime": "2017-06-01T00:00:00Z",
+  "end_datetime": "2021-05-31T23:59:59Z",
+  "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L2E_Test_Data_Set_2017_2020_v_1.0_2023_12",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-06-01T00:00:00Z",
+          "2021-05-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Significant Wave Height",
+    "Sea Level",
+    "Mean Sea Level",
+    "Ocean surface backscatter",
+    "Dry Tropospheric Correction",
+    "Wet Tropospheric Correction",
+    "Tidal Height"
+  ],
+  "cf:parameter": [
+    {
+      "name": "significant_wave_height"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "significant-wave-height",
+    "sea-level",
+    "mean-sea-level",
+    "ocean-surface-backscatter",
+    "dry-tropospheric-correction",
+    "wet-tropospheric-correction",
+    "tidal-height"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "sentinel-3"
+  ]
+}

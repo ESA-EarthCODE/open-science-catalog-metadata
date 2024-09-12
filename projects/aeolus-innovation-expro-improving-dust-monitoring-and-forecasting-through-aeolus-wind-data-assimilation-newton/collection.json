@@ -28,7 +28,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "AEOLUS+inno - NEWTON",
@@ -41,20 +41,26 @@
   "contacts": [
     {
       "name": "Christian Retscher",
-      "role": "technical_officer",
       "emails": [
         {
           "value": "christian.retscher@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "NATIONAL OBSERVATORY OF ATHENS (GR)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "The Cyprus Institute (CY)",
-      "role": "consortium_member"
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "start_datetime": "2020-12-10T00:00:00Z",
