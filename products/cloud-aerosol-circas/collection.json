@@ -12,7 +12,7 @@
     },
     {
       "rel": "via",
-      "href": "ftp.brockmann-consult.de",
+      "href": "ftp://ftp.brockmann-consult.de",
       "title": "Access"
     },
     {
