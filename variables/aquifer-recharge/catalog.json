@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/dbeaaf9f-294c-4e45-ba9e-7be8cd449db1?gtm_keyword=AQUIFER%20RECHARGE&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/3609b843-d840-460c-b1a3-d4fcc69a32f6?gtm_keyword=AQUIFER%20RECHARGE&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.833131Z",
+  "keywords": [],
   "title": "Aquifer Recharge"
 }

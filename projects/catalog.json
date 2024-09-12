@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./3d-earth/collection.json",
       "type": "application/json",
@@ -858,7 +852,7 @@
     },
     {
       "rel": "child",
-      "href": "sentinel-5p-innovation-aeurs-water-vapour-isotopologues-h2o-iso/collection.json",
+      "href": "./sentinel-5p-innovation-aeurs-water-vapour-isotopologues-h2o-iso/collection.json",
       "type": "application/json",
       "title": "S5p Inno - H2O-ISO"
     },
@@ -1071,7 +1065,14 @@
       "href": "./esa-science-hub-florian-le-guillou/collection.json",
       "type": "application/json",
       "title": "ESA Science Hub-Florian Le Guillou"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     }
   ],
+  "updated": "2024-09-12T20:32:23.037110Z",
   "title": "Projects"
 }

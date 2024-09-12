@@ -25,13 +25,60 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data/collection.json",
+      "type": "application/json",
+      "title": "Project: RIDESAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-water-processes-measurements/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Water Processes/Measurements"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/saral/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SARAL"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission",
   "osc:project": "ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data",
   "osc:status": "ongoing",
   "osc:region": "North America",
@@ -39,6 +86,26 @@
   "created": "2020-03-02T00:00:00Z",
   "start_datetime": "2016-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "water_level"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "surface-water-processes-measurements"
+  ],
+  "osc:missions": [
+    "sentinel-3",
+    "saral",
+    "cryosat-2",
+    "terra",
+    "aqua-eos-pm-1"
+  ],
+  "updated": "2024-09-12T20:32:06.251108Z",
+  "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -63,24 +130,15 @@
   "keywords": [
     "Terrestrial Hydrosphere",
     "Surface Water",
-    "Surface Water Processes/Measurements"
-  ],
-  "cf:parameter": [
-    {
-      "name": "water_level"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "surface-water-processes-measurements"
-  ],
-  "osc:missions": [
-    "sentinel-3",
-    "saral",
-    "cryosat-2",
-    "terra",
-    "aqua-eos-pm-1"
+    "Surface Water Processes/Measurements",
+    "theme:land",
+    "variable:surface-water-processes-measurements",
+    "mission:sentinel-3",
+    "mission:saral",
+    "mission:cryosat-2",
+    "mission:terra",
+    "mission:aqua-eos-pm-1",
+    "region:North America",
+    "project:ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data"
   ]
 }

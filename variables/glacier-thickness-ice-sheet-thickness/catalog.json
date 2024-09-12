@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/5034ba1f-7208-40a1-beeb-43aefe1c0c33?gtm_keyword=GLACIER%20THICKNESS/ICE%20SHEET%20THICKNESS&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,24 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/6a8a6fdb-c431-4d32-8cea-5849e2ee1f33?gtm_keyword=GLACIER/ICE%20SHEET%20THICKNESS&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bedrock-topography-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.836131Z",
+  "keywords": [],
   "title": "Glacier Thickness/Ice Sheet Thickness"
 }

@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/6d808909-ce04-4401-a883-aff4d723d025?gtm_keyword=GROWING%20DEGREE%20DAYS&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/a43f9a02-769d-4343-8790-fa29a0507f44?gtm_keyword=GROWING%20DEGREE%20DAYS&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.836131Z",
+  "keywords": [],
   "title": "Growing Degree Days"
 }

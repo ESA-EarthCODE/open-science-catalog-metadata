@@ -21,6 +21,36 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L3 inland water level time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4_river-discharge-time-series-s3-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L4 river discharge time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +61,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "HydroCoastal",
   "osc:name": "HydroCoastal: coastal ocean and inland water altimetry",
   "osc:status": "completed",
   "osc:themes": [
@@ -120,6 +149,9 @@
   ],
   "start_datetime": "2020-01-28T00:00:00Z",
   "end_datetime": "2022-02-18T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.023110Z",
+  "title": "HydroCoastal",
   "extent": {
     "spatial": {
       "bbox": [
@@ -140,5 +172,9 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Oceans",
+    "theme:Land"
+  ]
 }

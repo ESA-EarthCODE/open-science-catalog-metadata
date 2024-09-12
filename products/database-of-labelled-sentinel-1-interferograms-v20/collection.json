@@ -25,13 +25,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/volcano-monitoring-using-deep-learning/collection.json",
+      "type": "application/json",
+      "title": "Project: (LPF) VMDL"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/volcano-occurrences/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Volcano Occurrences"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/volcano-predictions/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Volcano Predictions"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Database of labelled Sentinel-1 interferograms - v.2.0",
   "osc:project": "volcano-monitoring-using-deep-learning",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -39,6 +68,23 @@
   "created": "2021-12-01T00:00:00Z",
   "start_datetime": "2020-06-23T00:00:00Z",
   "end_datetime": "2022-07-01T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "sentinel_1_interferograms"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "volcano-occurrences",
+    "volcano-predictions"
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "updated": "2024-09-12T20:32:06.213108Z",
+  "title": "Database of labelled Sentinel-1 interferograms - v.2.0",
   "extent": {
     "spatial": {
       "bbox": [
@@ -64,21 +110,12 @@
     "Tectonics",
     "Volcanic Activity",
     "Volcano Predictions",
-    "Volcano Occurrences"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sentinel_1_interferograms"
-    }
-  ],
-  "osc:themes": [
-    "solid-earth"
-  ],
-  "osc:variables": [
-    "volcano-occurrences",
-    "volcano-predictions"
-  ],
-  "osc:missions": [
-    "sentinel-1"
+    "Volcano Occurrences",
+    "theme:solid-earth",
+    "variable:volcano-occurrences",
+    "variable:volcano-predictions",
+    "mission:sentinel-1",
+    "region:Global",
+    "project:volcano-monitoring-using-deep-learning"
   ]
 }

@@ -17,6 +17,72 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Sermide_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +102,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.248832Z",
+  "keywords": [],
   "title": "Surface Water Processes/Measurements"
 }

@@ -17,6 +17,66 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/baltic-sea-surface-salinity-l3-baltic-salinity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Surface Salinity L3 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/baltic-sea-surface-salinity-l4-baltic-salinity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Surface Salinity L4 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-smos-sss-daily-ascending-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-smos-sss-daily-descending-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-sss-9day-average-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-sss-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4 product SSS, 0.05°*0.0505°"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-salinity-arctic-salinity/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-salinity-europe-smos-med/collection.json",
+      "type": "application/json",
+      "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-salinity-godae-oceanview/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity Bias_Global_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sofresh-sea-surface-salinity/collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -39,5 +99,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.241832Z",
+  "keywords": [],
   "title": "Sea Surface Salinity"
 }

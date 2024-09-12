@@ -25,13 +25,78 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/hydrocoastal-coastal-ocean-and-inland-water-altimetry/collection.json",
+      "type": "application/json",
+      "title": "Project: HydroCoastal"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/significant-wave-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Significant Wave Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/mean-sea-level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Mean Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-surface-backscatter/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean surface backscatter"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dry-tropospheric-correction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dry Tropospheric Correction"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wet-tropospheric-correction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wet Tropospheric Correction"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/tidal-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Tidal Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "HYDROCOASTAL CCN2 isardSAT coastal product",
   "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
   "osc:status": "completed",
   "osc:region": "Global",
@@ -40,6 +105,29 @@
   "start_datetime": "2021-01-01T00:00:00Z",
   "end_datetime": "2021-12-04T23:59:59Z",
   "sci:doi": "10.5270/esa-hydrocoastal_ccn2-sar_altimeter_L2_2020_2022_v_1.0_2023_12",
+  "cf:parameter": [
+    {
+      "name": "significant_wave_height"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "significant-wave-height",
+    "sea-level",
+    "mean-sea-level",
+    "ocean-surface-backscatter",
+    "dry-tropospheric-correction",
+    "wet-tropospheric-correction",
+    "tidal-height"
+  ],
+  "osc:missions": [
+    "sentinel-6"
+  ],
+  "updated": "2024-09-12T20:32:06.219108Z",
+  "title": "HYDROCOASTAL CCN2 isardSAT coastal product",
   "extent": {
     "spatial": {
       "bbox": [
@@ -68,27 +156,18 @@
     "Ocean surface backscatter",
     "Dry Tropospheric Correction",
     "Wet Tropospheric Correction",
-    "Tidal Height"
-  ],
-  "cf:parameter": [
-    {
-      "name": "significant_wave_height"
-    }
-  ],
-  "osc:themes": [
-    "oceans",
-    "land"
-  ],
-  "osc:variables": [
-    "significant-wave-height",
-    "sea-level",
-    "mean-sea-level",
-    "ocean-surface-backscatter",
-    "dry-tropospheric-correction",
-    "wet-tropospheric-correction",
-    "tidal-height"
-  ],
-  "osc:missions": [
-    "sentinel-6"
+    "Tidal Height",
+    "theme:oceans",
+    "theme:land",
+    "variable:significant-wave-height",
+    "variable:sea-level",
+    "variable:mean-sea-level",
+    "variable:ocean-surface-backscatter",
+    "variable:dry-tropospheric-correction",
+    "variable:wet-tropospheric-correction",
+    "variable:tidal-height",
+    "mission:sentinel-6",
+    "region:Global",
+    "project:hydrocoastal-coastal-ocean-and-inland-water-altimetry"
   ]
 }

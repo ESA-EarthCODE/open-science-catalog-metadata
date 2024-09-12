@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/d9667e73-30db-45f9-861c-e0a5caaf2bf0?gtm_keyword=ICE%20GROWTH/MELT&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,42 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/ac5ba325-b613-4f2e-ae7d-f81e478f5091?gtm_keyword=ICE%20GROWTH/MELT&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-melt-maps/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Melt Maps"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melt-detection-from-active-microwave-ascat-melt/collection.json",
+      "type": "application/json",
+      "title": "Surface Melt Detection from Active Microwave - ASCAT Melt Product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melting-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Occurrence of Surface Melting_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/antarctic-ice-shelf-melt-rates/collection.json",
+      "type": "application/json",
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melt-antarctic-ice-sheet-1979-2021/collection.json",
+      "type": "application/json",
+      "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +72,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.837131Z",
+  "keywords": [],
   "title": "Ice Growth/Melt"
 }

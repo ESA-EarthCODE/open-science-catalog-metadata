@@ -25,13 +25,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Project: WOC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wind-stress/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wind Stress"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Wind stress vector (& anomalies)_Hourly_ERA5",
   "osc:project": "world-ocean-circulation",
   "osc:status": "ongoing",
   "osc:region": "Agulhas",
@@ -39,6 +56,20 @@
   "created": "2021-11-30T00:00:00Z",
   "start_datetime": "2019-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "wind_stress_vector"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "wind-stress"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.968110Z",
+  "title": "Wind stress vector (& anomalies)_Hourly_ERA5",
   "extent": {
     "spatial": {
       "bbox": [
@@ -62,17 +93,10 @@
   "license": "proprietary",
   "keywords": [
     "Atmpospheric Wind",
-    "Wind Dynamics"
-  ],
-  "cf:parameter": [
-    {
-      "name": "wind_stress_vector"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "wind-stress"
+    "Wind Dynamics",
+    "theme:oceans",
+    "variable:wind-stress",
+    "region:Agulhas",
+    "project:world-ocean-circulation"
   ]
 }

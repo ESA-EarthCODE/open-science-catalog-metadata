@@ -20,18 +20,57 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "Project: SMOS+ VEGETATION"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "VOD_Africa_SMOS IC products CATDS",
   "osc:project": "smos-vegetation",
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
   "created": "2018-07-30T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "biomass"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "biomass"
+  ],
+  "osc:missions": [
+    "smos"
+  ],
+  "updated": "2024-09-12T20:32:06.234108Z",
+  "title": "VOD_Africa_SMOS IC products CATDS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -56,20 +95,11 @@
   "keywords": [
     "Vegetation",
     "Biomass",
-    "Biosphere"
-  ],
-  "cf:parameter": [
-    {
-      "name": "biomass"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "biomass"
-  ],
-  "osc:missions": [
-    "smos"
+    "Biosphere",
+    "theme:land",
+    "variable:biomass",
+    "mission:smos",
+    "region:Africa",
+    "project:smos-vegetation"
   ]
 }

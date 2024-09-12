@@ -25,13 +25,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosat-plus-for-oceans-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Project: CryoSat+ Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/bathymetry/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Bathymetry"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Bathymetry_Arctic_Cryosat",
   "osc:project": "cryosat-plus-for-oceans-cp4o",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
@@ -39,6 +68,23 @@
   "created": "2015-02-23T00:00:00Z",
   "start_datetime": "2014-01-01T00:00:00Z",
   "end_datetime": "2014-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "bathymetry"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "bathymetry"
+  ],
+  "osc:missions": [
+    "cryosat"
+  ],
+  "updated": "2024-09-12T20:32:06.210108Z",
+  "title": "Bathymetry_Arctic_Cryosat",
   "extent": {
     "spatial": {
       "bbox": [
@@ -62,21 +108,12 @@
   "license": "proprietary",
   "keywords": [
     "Bathymetry/Seafloor Topography",
-    "Bathymetry"
-  ],
-  "cf:parameter": [
-    {
-      "name": "bathymetry"
-    }
-  ],
-  "osc:themes": [
-    "oceans",
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "bathymetry"
-  ],
-  "osc:missions": [
-    "cryosat"
+    "Bathymetry",
+    "theme:oceans",
+    "theme:cryosphere",
+    "variable:bathymetry",
+    "mission:cryosat",
+    "region:Arctic",
+    "project:cryosat-plus-for-oceans-cp4o"
   ]
 }

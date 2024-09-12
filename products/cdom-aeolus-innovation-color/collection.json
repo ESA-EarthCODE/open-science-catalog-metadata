@@ -20,17 +20,56 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
+      "type": "application/json",
+      "title": "Project: AEOLUS+inno - COLOR"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/colored-dissolved-organic-matter/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Colored Dissolved Organic Matter"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AEOLUS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Chromophoric Dissolved Organic Matter (CDOM) absorption_Global_AEOLUS",
   "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color",
   "osc:status": "planned",
   "osc:region": "Global",
   "osc:type": "product",
+  "cf:parameter": [
+    {
+      "name": "chromophoric_dissolved_organic_matter"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "colored-dissolved-organic-matter"
+  ],
+  "osc:missions": [
+    "aeolus"
+  ],
+  "updated": "2024-09-12T20:32:06.211108Z",
+  "title": "Chromophoric Dissolved Organic Matter (CDOM) absorption_Global_AEOLUS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -54,20 +93,11 @@
   "license": "proprietary",
   "keywords": [
     "Ocean Chemistry",
-    "Organic Matter"
-  ],
-  "cf:parameter": [
-    {
-      "name": "chromophoric_dissolved_organic_matter"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "colored-dissolved-organic-matter"
-  ],
-  "osc:missions": [
-    "aeolus"
+    "Organic Matter",
+    "theme:oceans",
+    "variable:colored-dissolved-organic-matter",
+    "mission:aeolus",
+    "region:Global",
+    "project:aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color"
   ]
 }

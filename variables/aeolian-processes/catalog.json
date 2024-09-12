@@ -11,16 +11,16 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/f15b2ad3-f658-420b-99b4-41588646d9b7?gtm_keyword=AEOLIAN%20PROCESSES&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -39,5 +39,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.832131Z",
+  "keywords": [],
   "title": "Aeolian Processes"
 }

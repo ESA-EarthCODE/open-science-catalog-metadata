@@ -20,18 +20,57 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "Project: SMOS+ VEGETATION"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Gridded_Africa_SMOS level 3 products CATDS",
   "osc:project": "smos-vegetation",
   "osc:status": "ongoing",
   "osc:region": "Africa",
   "osc:type": "product",
   "created": "2018-07-30T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "vegetation_optical_depth"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "smos"
+  ],
+  "updated": "2024-09-12T20:32:06.230108Z",
+  "title": "Gridded_Africa_SMOS level 3 products CATDS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,20 +98,11 @@
     "Climate Indicators",
     "Soils",
     "Soil Moisture/Water Content",
-    "Agriculture"
-  ],
-  "cf:parameter": [
-    {
-      "name": "vegetation_optical_depth"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "soil-moisture"
-  ],
-  "osc:missions": [
-    "smos"
+    "Agriculture",
+    "theme:land",
+    "variable:soil-moisture",
+    "mission:smos",
+    "region:Africa",
+    "project:smos-vegetation"
   ]
 }

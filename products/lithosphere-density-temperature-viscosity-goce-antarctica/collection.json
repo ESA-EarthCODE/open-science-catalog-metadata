@@ -25,6 +25,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/goce-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: GOCE+ ANTARCTICA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/gravitational-field/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Gravitational Field"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/crustal-motion/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Crustal Motion"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/goce/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GOCE"
     }
   ],
   "stac_extensions": [
@@ -32,7 +68,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE",
   "osc:project": "goce-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
@@ -41,6 +76,24 @@
   "start_datetime": "2009-01-01T00:00:00Z",
   "end_datetime": "2013-12-31T23:59:59Z",
   "sci:doi": "10.1029/2019JB017997",
+  "cf:parameter": [
+    {
+      "name": "density_temperature_viscosity"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "gravitational-field",
+    "crustal-motion"
+  ],
+  "osc:missions": [
+    "goce"
+  ],
+  "updated": "2024-09-12T20:32:06.223108Z",
+  "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE",
   "extent": {
     "spatial": {
       "bbox": [
@@ -65,22 +118,13 @@
   "keywords": [
     "Gravity/Gravitational Field",
     "Gravitational Field",
-    "Crustal Motion"
-  ],
-  "cf:parameter": [
-    {
-      "name": "density_temperature_viscosity"
-    }
-  ],
-  "osc:themes": [
-    "solid-earth",
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "gravitational-field",
-    "crustal-motion"
-  ],
-  "osc:missions": [
-    "goce"
+    "Crustal Motion",
+    "theme:solid-earth",
+    "theme:cryosphere",
+    "variable:gravitational-field",
+    "variable:crustal-motion",
+    "mission:goce",
+    "region:Antarctica",
+    "project:goce-antarctica"
   ]
 }

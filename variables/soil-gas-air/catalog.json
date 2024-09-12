@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/d302aeaa-3a86-4ddf-9755-60b7bb4404a5?gtm_keyword=SOIL%20GAS/AIR&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/76c23076-d9d5-4414-a69f-a830cecdd9ce?gtm_keyword=SOIL%20GAS/AIR&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.841131Z",
+  "keywords": [],
   "title": "Soil Gas/Air"
 }

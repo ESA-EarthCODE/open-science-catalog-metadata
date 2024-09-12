@@ -17,11 +17,121 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/absolute-sea-level-heights-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/crust-and-upper-mantle-model-3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Global Model of Crust and Upper Mantle_WINTERC-G_GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/electronic-delay-correction-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-EC2: ECR Electronic Delay Correction_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodynamic-corrections-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geoid-heights-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "GEO-HGT: Geoid Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geothermal-heat-flow-greenland-3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Geothermal Heat Flow Database and Map_Greenland_GOCE_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gnss-positioning-solution-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gravity-anomalies-goce-airborne-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Gravity anomalies from GOCE and airborne data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ionospheric-delays-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/lithosphere-density-temperature-viscosity-goce-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Density, Temperature, and Viscosity Structure of the Antarctic Lithosphere_Antarctica_GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/s1-corrections-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-observation-solution-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "SAR-OBS: Observation Solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-positioning-solution-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "SAR-POS: SAR Positioning Solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-raw-measurements-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "PTA-OBS: SAR Raw Measurements_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-heights-corrected-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "TG-SSH: Corrected Sea Surface Height at Tide Gauge Stations_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/target-locations-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "PTA-RES: Extracted Target Locations_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tide-gauge-heights-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "TG-HGT: Tide Gauge Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tropospheric-delays-baltics-sar-hsu/collection.json",
+      "type": "application/json",
+      "title": "COR-TD: Tropospheric Delays_Baltics_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.173831Z",
+  "keywords": [],
   "title": "GOCE"
 }

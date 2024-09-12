@@ -20,19 +20,50 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Project: WOC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Currents"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Daily 3D ocean currents_North Atlantic",
   "osc:project": "world-ocean-circulation",
   "osc:status": "planned",
   "osc:region": "North Atlantic",
   "osc:type": "product",
   "start_datetime": "2010-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "ocean_currents"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "ocean-currents"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.964110Z",
+  "title": "Daily 3D ocean currents_North Atlantic",
   "extent": {
     "spatial": {
       "bbox": [
@@ -56,17 +87,10 @@
   "license": "proprietary",
   "keywords": [
     "Ocean Circulation",
-    "Ocean Currents"
-  ],
-  "cf:parameter": [
-    {
-      "name": "ocean_currents"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "ocean-currents"
+    "Ocean Currents",
+    "theme:oceans",
+    "variable:ocean-currents",
+    "region:North Atlantic",
+    "project:world-ocean-circulation"
   ]
 }

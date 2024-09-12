@@ -21,6 +21,12 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/total-ozone-anreo/collection.json",
+      "type": "application/json",
+      "title": "Total ozone product from OLCI / S-3_Antarctica _S3"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +37,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "AnREO",
   "osc:name": "AnREO: Retrieval of Total Ozone using OLCI-S-3 over Antarctica",
   "osc:status": "completed",
   "osc:themes": [
@@ -59,6 +64,9 @@
   ],
   "start_datetime": "2020-03-25T00:00:00Z",
   "end_datetime": "2021-05-07T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.014110Z",
+  "title": "AnREO",
   "extent": {
     "spatial": {
       "bbox": [
@@ -79,5 +87,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere"
+  ]
 }

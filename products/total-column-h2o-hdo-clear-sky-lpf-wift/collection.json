@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/wift-water-vapour-isotopologues-from-tropomi/collection.json",
+      "type": "application/json",
+      "title": "Project: (LPF) WIFT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/water-vapor-profiles/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Water Vapor Profiles"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-5p"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "HDO/H2O non-scattering product_S5p-TROPOMI",
   "osc:project": "wift-water-vapour-isotopologues-from-tropomi",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +57,22 @@
   "created": "2019-06-11T00:00:00Z",
   "start_datetime": "2017-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "total_column_water_vapour"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "water-vapor-profiles"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
+  ],
+  "updated": "2024-09-12T20:32:06.234108Z",
+  "title": "HDO/H2O non-scattering product_S5p-TROPOMI",
   "extent": {
     "spatial": {
       "bbox": [
@@ -56,20 +95,11 @@
   },
   "license": "proprietary",
   "keywords": [
-    "Atmospheric Water Vapor"
-  ],
-  "cf:parameter": [
-    {
-      "name": "total_column_water_vapour"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "water-vapor-profiles"
-  ],
-  "osc:missions": [
-    "sentinel-5p"
+    "Atmospheric Water Vapor",
+    "theme:atmosphere",
+    "variable:water-vapor-profiles",
+    "mission:sentinel-5p",
+    "region:Global",
+    "project:wift-water-vapour-isotopologues-from-tropomi"
   ]
 }

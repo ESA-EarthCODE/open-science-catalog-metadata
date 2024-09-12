@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "4DATLANTIC EBUS PRIMUS",
   "osc:name": "4DATLANTIC EBUS PRIMUS",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -57,13 +56,13 @@
       ]
     },
     {
-      "name": "FCi\u00eancias.ID (U. Lisbon) \u2013 FC.ID (PT)",
+      "name": "FCiências.ID (U. Lisbon) – FC.ID (PT)",
       "roles": [
         "consortium_member"
       ]
     },
     {
-      "name": "Instituto de Investigaci\u00f3ns Mari\u00f1as \u2013 CSIC (ES)",
+      "name": "Instituto de Investigacións Mariñas – CSIC (ES)",
       "roles": [
         "consortium_member"
       ]
@@ -75,7 +74,7 @@
       ]
     },
     {
-      "name": "University of Las Palmas de Gran Canaria \u2013 ULPGC (ES)",
+      "name": "University of Las Palmas de Gran Canaria – ULPGC (ES)",
       "roles": [
         "consortium_member"
       ]
@@ -83,6 +82,9 @@
   ],
   "start_datetime": "2021-09-01T00:00:00Z",
   "end_datetime": "2023-09-30T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.005110Z",
+  "title": "4DATLANTIC EBUS PRIMUS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -103,5 +105,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

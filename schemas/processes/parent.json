@@ -1,0 +1,57 @@
+{
+  "title": "Catalog of Processes",
+  "allOf": [
+    {
+      "$ref": "../catalog.json"
+    },
+    {
+      "properties": {
+        "links": {
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "../catalog.json#/definitions/stac_link_root"
+              },
+              {
+                "$ref": "../catalog.json#/definitions/stac_link_parent_readonly"
+              },
+              {
+                "title": "Process Link",
+                "description": "A link to a CWL file that describes the process.",
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "enum": ["application/cwl"],
+                    "options": {
+                      "hidden": true
+                    }
+                  },
+                  "rel": {
+                    "enum": ["process"],
+                    "options": {
+                      "hidden": true
+                    }
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string",
+                    "format": "markdown"
+                  },
+                  "version": {
+                    "title": "Version",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "keywords": {
+                    "$ref": "../collection.json#/definitions/keywords"
+                  }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

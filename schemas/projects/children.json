@@ -1,0 +1,99 @@
+{
+  "title": "Project",
+  "allOf": [
+    {
+      "$ref": "../collection.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "osc:status",
+        "osc:type"
+      ],
+      "properties": {
+        "osc:type": {
+          "type": "string",
+          "enum": ["project"],
+          "options": {
+            "hidden": true
+          }
+        },
+        "osc:name": {
+          "$ref": "../collection.json#/definitions/osc_name"
+        },
+        "osc:status": {
+          "$ref": "../collection.json#/definitions/osc_status"
+        },
+        "osc:region": {
+          "$ref": "../collection.json#/definitions/osc_region"
+        },
+        "osc:missions": {
+          "$ref": "../collection.json#/definitions/osc_missions"
+        },
+        "osc:themes": {
+          "$ref": "../collection.json#/definitions/osc_themes"
+        },
+        "contacts": {
+          "options": {
+            "collapsed": true,
+            "disable_collapse": false
+          },
+          "allOf": [
+            {
+              "$ref": "../contacts.json"
+            },
+            {
+              "items": {
+                "anyOf": [
+                  {
+                    "title": "Technical Officer",
+                    "required": [
+                      "roles"
+                    ],
+                    "properties": {
+                      "roles": {
+                        "items": {
+                          "enum": [
+                            "technical_officer"
+                          ]
+                        },
+                        "options": {
+                          "hidden": true
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "title": "Project Consortium Member",
+                    "required": [
+                      "roles"
+                    ],
+                    "properties": {
+                      "roles": {
+                        "items": {
+                          "enum": [
+                            "consortium_member"
+                          ]
+                        },
+                        "options": {
+                          "hidden": true
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "title": "Other Contacts"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "links": {
+          "$ref": "../catalog.json#/definitions/links_root_parent_via_other"
+        }
+      },
+      "additionalProperties": true
+    }
+  ]
+}

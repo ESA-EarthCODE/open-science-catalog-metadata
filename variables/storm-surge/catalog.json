@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/0bf50cd4-8a97-468c-8e73-047e3e09a03d?gtm_keyword=STORM%20SURGE&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -33,6 +27,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9edd23d0-68a9-4bae-8887-705058f48ba7?gtm_keyword=STORM%20SURGE&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -48,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.842131Z",
+  "keywords": [],
   "title": "Storm Surge"
 }

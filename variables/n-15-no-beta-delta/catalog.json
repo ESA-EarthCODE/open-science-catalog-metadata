@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "n-15-no-beta-delta",
   "stac_version": "1.0.0",
-  "description": "3D field of\u00c2\u00a0Delta N-15 in Beta-N2O (Nitrous oxide where the middle Nitrogen atom is N-15) (isotopic signature)",
+  "description": "3D field ofÂ Delta N-15 in Beta-N2O (Nitrous oxide where the middle Nitrogen atom is N-15) (isotopic signature)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.231832Z",
+  "keywords": [],
   "title": "N(15)NO-Beta Delta"
 }

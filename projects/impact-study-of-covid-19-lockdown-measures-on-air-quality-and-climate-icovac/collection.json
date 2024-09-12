@@ -31,7 +31,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "ICOVAC",
   "osc:name": "Impact study of COVID-19 lockdown measures on air quality and climate ICOVAC",
   "osc:status": "completed",
   "osc:themes": [
@@ -77,6 +76,9 @@
   ],
   "start_datetime": "2020-04-29T00:00:00Z",
   "end_datetime": "2021-06-30T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.031110Z",
+  "title": "ICOVAC",
   "extent": {
     "spatial": {
       "bbox": [
@@ -97,5 +99,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Atmosphere"
+  ]
 }

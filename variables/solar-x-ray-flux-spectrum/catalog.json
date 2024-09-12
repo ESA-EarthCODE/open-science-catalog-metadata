@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "solar-x-ray-flux-spectrum",
   "stac_version": "1.0.0",
-  "description": "Energy spectrum of the X-ray flux integrated\u00c2\u00a0over the solar disk.",
+  "description": "Energy spectrum of the X-ray flux integratedÂ over the solar disk.",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.246832Z",
+  "keywords": [],
   "title": "Solar X-ray flux spectrum"
 }

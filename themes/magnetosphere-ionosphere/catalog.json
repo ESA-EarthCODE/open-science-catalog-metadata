@@ -28,11 +28,127 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
+      "type": "application/json",
+      "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-core-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model_Core"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-spline-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model_SplineCoefficients"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cluster-swarm-ac-conjunctions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm A and C conjunctions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cluster-swarm-b-conjunctions-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Cluster/Swarm B conjunctions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodynamo-simulation-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Geodynamo simulation data_Earth core"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-observatory-data-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Observatory data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-champ-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CHAMP"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-cryosat2-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CRYOSAT-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-oersted-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data OERSTED"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-swarm-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/lightning-whistler-ilgew/collection.json",
+      "type": "application/json",
+      "title": "Lightning-generated whistler events_Global_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/model-ionosphere-4dionosphere/collection.json",
+      "type": "application/json",
+      "title": "Semi-empiric model of ionosphere processes_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-data-chaos-field-model-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Vector and scalar satellite data files as used in the CHAOS field model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/solar-activity-polar-cap-plasma-density-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "CHAMP and Swarm solar activity- and height-scaled polar cap plasma density measurements"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sudden-stratospheric-warming-vera/collection.json",
+      "type": "application/json",
+      "title": "Sudden Stratospheric Warming (SSW)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/swarm-eiscat-conjunction-list-ion-outflow/collection.json",
+      "type": "application/json",
+      "title": "Swarm-EISCAT conjunction list (2013-2019)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/webgeodyn-py-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Webgeodyn Python package"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Themes"
     }
   ],
+  "updated": "2024-08-27T17:27:42.201831Z",
+  "keywords": [],
   "title": "Magnetosphere_Ionosphere"
 }

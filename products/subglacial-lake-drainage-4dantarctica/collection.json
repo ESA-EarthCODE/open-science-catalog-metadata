@@ -31,13 +31,96 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-ANTARCTICA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacial-lake-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacial Lake Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/tandem-x/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: TanDEM-X"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-8/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-8"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Subglacial Lake Drainage and Filling Antarctica Multimission",
   "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:region": "Antarctica",
@@ -45,6 +128,32 @@
   "created": "2020-09-01T00:00:00Z",
   "start_datetime": "2010-01-01T00:00:00Z",
   "end_datetime": "2019-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "subglacial_lake_drainage"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacial-lake-extent"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "smos",
+    "terra",
+    "aqua-eos-pm-1",
+    "sentinel-1",
+    "sentinel-2",
+    "ers-1",
+    "ers-2",
+    "envisat",
+    "tandem-x",
+    "landsat-8"
+  ],
+  "updated": "2024-09-12T20:32:06.232108Z",
+  "title": "Subglacial Lake Drainage and Filling Antarctica Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -69,30 +178,21 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Glacial Lake Extent"
-  ],
-  "cf:parameter": [
-    {
-      "name": "subglacial_lake_drainage"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "glacial-lake-extent"
-  ],
-  "osc:missions": [
-    "cryosat-2",
-    "smos",
-    "terra",
-    "aqua-eos-pm-1",
-    "sentinel-1",
-    "sentinel-2",
-    "ers-1",
-    "ers-2",
-    "envisat",
-    "tandem-x",
-    "landsat-8"
+    "Glacial Lake Extent",
+    "theme:cryosphere",
+    "variable:glacial-lake-extent",
+    "mission:cryosat-2",
+    "mission:smos",
+    "mission:terra",
+    "mission:aqua-eos-pm-1",
+    "mission:sentinel-1",
+    "mission:sentinel-2",
+    "mission:ers-1",
+    "mission:ers-2",
+    "mission:envisat",
+    "mission:tandem-x",
+    "mission:landsat-8",
+    "region:Antarctica",
+    "project:4d-antarctica"
   ]
 }

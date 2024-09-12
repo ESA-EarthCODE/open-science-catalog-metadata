@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "hcho-tropospheric-column",
   "stac_version": "1.0.0",
-  "description": "2D field of total amount of HCHO molecules\u00c2\u00a0(Formaldehyde)\u00c2\u00a0 per unit area in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the tropopause.",
+  "description": "2D field of total amount of HCHO moleculesÂ (Formaldehyde)Â  per unit area in an atmospheric column extending from the Earthâ€™s surface to the tropopause.",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.223831Z",
+  "keywords": [],
   "title": "HCHO Tropospheric column"
 }

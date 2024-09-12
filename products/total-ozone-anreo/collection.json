@@ -30,6 +30,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: AnREO"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/total-ozone/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Total Ozone"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
@@ -37,7 +61,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Total ozone product from OLCI / S-3_Antarctica _S3",
   "osc:project": "anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
@@ -46,6 +69,22 @@
   "start_datetime": "2019-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
   "sci:doi": "10.1016/j.jqsrt.2021.107903",
+  "cf:parameter": [
+    {
+      "name": "total_ozone"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "total-ozone"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.234108Z",
+  "title": "Total ozone product from OLCI / S-3_Antarctica _S3",
   "extent": {
     "spatial": {
       "bbox": [
@@ -70,20 +109,11 @@
   "keywords": [
     "Atmospheric Chemistry",
     "Oxygen Compounds",
-    "Atmospheric Ozone"
-  ],
-  "cf:parameter": [
-    {
-      "name": "total_ozone"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "total-ozone"
-  ],
-  "osc:missions": [
-    "sentinel-3"
+    "Atmospheric Ozone",
+    "theme:atmosphere",
+    "variable:total-ozone",
+    "mission:sentinel-3",
+    "region:Antarctica",
+    "project:anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica"
   ]
 }

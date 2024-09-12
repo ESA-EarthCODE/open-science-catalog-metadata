@@ -21,6 +21,54 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/basal-melt-monthly/collection.json",
+      "type": "application/json",
+      "title": "Basal Melt (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/basin-runoff-sur-water/collection.json",
+      "type": "application/json",
+      "title": "Basin Run Off and Surface Water (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/firn-retention/collection.json",
+      "type": "application/json",
+      "title": "Firn Retention (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-lake-volumes/collection.json",
+      "type": "application/json",
+      "title": "Sublacial Lake Volumes (ESA POLAR+ 4D Greenland Experimantal Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-melt-maps/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Melt Maps"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melt-detection-from-active-microwave-ascat-melt/collection.json",
+      "type": "application/json",
+      "title": "Surface Melt Detection from Active Microwave - ASCAT Melt Product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/total-basin-runoff/collection.json",
+      "type": "application/json",
+      "title": "Total Basin Run Off (ESA POLAR+ 4D Greenland Experimental Dataset)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +79,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "4D-Greenland",
   "osc:name": "4D-Greenland",
   "osc:status": "ongoing",
   "osc:themes": [
@@ -107,6 +154,9 @@
   ],
   "start_datetime": "2020-08-26T00:00:00Z",
   "end_datetime": "2022-01-09T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.007110Z",
+  "title": "4D-Greenland",
   "extent": {
     "spatial": {
       "bbox": [
@@ -127,5 +177,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

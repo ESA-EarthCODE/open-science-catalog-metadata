@@ -31,13 +31,48 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosat-antarctic-ocean/collection.json",
+      "type": "application/json",
+      "title": "Project: Cryosat+ Antarctic Ocean"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-depth/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Depth"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/freeboard/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Freeboard"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Southern Ocean sea ice thickness from CryoSat-2",
   "osc:project": "cryosat-antarctic-ocean",
   "osc:status": "completed",
   "osc:region": "Antarctica",
@@ -46,6 +81,24 @@
   "version": "1.0",
   "start_datetime": "2002-10-15T00:00:00Z",
   "end_datetime": "2018-10-16T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "ice-sheet-velocity-antarctic-2021"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-depth",
+    "freeboard",
+    "ice-depth-thickness"
+  ],
+  "osc:missions": [
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.231108Z",
+  "title": "Southern Ocean sea ice thickness from CryoSat-2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -73,22 +126,13 @@
     "Cryospheric Indicators",
     "Sea Ice",
     "Freeboard",
-    "Ice Depth/Thickness"
-  ],
-  "cf:parameter": [
-    {
-      "name": "ice-sheet-velocity-antarctic-2021"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "snow-depth",
-    "freeboard",
-    "ice-depth-thickness"
-  ],
-  "osc:missions": [
-    "cryosat-2"
+    "Ice Depth/Thickness",
+    "theme:cryosphere",
+    "variable:snow-depth",
+    "variable:freeboard",
+    "variable:ice-depth-thickness",
+    "mission:cryosat-2",
+    "region:Antarctica",
+    "project:cryosat-antarctic-ocean"
   ]
 }

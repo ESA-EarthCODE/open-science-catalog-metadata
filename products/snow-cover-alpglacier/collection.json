@@ -20,19 +20,65 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Project: AlpGlacier"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Snow cover on glaciers_SwissAlps_S1/2",
   "osc:project": "alpglacier",
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
   "start_datetime": "2016-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "snow_cover"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "updated": "2024-09-12T20:32:06.231108Z",
+  "title": "Snow cover on glaciers_SwissAlps_S1/2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -57,21 +103,12 @@
   "keywords": [
     "Snow/Ice",
     "Snow Cover",
-    "Cryospheric Indicators"
-  ],
-  "cf:parameter": [
-    {
-      "name": "snow_cover"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "snow-cover"
-  ],
-  "osc:missions": [
-    "sentinel-1",
-    "sentinel-2"
+    "Cryospheric Indicators",
+    "theme:cryosphere",
+    "variable:snow-cover",
+    "mission:sentinel-1",
+    "mission:sentinel-2",
+    "region:Switzerland",
+    "project:alpglacier"
   ]
 }

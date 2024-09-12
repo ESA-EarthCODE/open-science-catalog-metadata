@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "earthcare",
   "stac_version": "1.0.0",
-  "description": "EarthCARE (Earth Clouds, Aerosols and Radiation Explorer) is a satellite operated by JAXA and ESA. It will develop climate and weather forecasting models by understanding the role of cloud-aerosol-radiation interactions. To Improve the understanding of atmospheric cloud\u0096aerosol interactions and of the Earth's radiative balance towards enhancing climate and numerical weather prediction models. The 2 active and 2 passive instruments of EarthCARE make unique data product synergies possible.",
+  "description": "EarthCARE (Earth Clouds, Aerosols and Radiation Explorer) is a satellite operated by JAXA and ESA. It will develop climate and weather forecasting models by understanding the role of cloud-aerosol-radiation interactions. To Improve the understanding of atmospheric cloudaerosol interactions and of the Earth's radiative balance towards enhancing climate and numerical weather prediction models. The 2 active and 2 passive instruments of EarthCARE make unique data product synergies possible.",
   "links": [
     {
       "rel": "root",
@@ -17,11 +17,49 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/cliima-cloud-od-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-aerosol-od-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of aerosol optical depth (AOD)_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-aerosol-op-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of aerosol optical property profiles_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-cloud-profile-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of cloud optical property profiles_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-strat-aerosol-cloud-od-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of stratospheric aerosol and cloud optical depth_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-strat-aerosol-cloud-op-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of stratospheric aerosol and cloud optical property profiles_Global_CALIPSO_EARTHCARE"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.172831Z",
+  "keywords": [],
   "title": "EarthCARE"
 }

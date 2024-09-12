@@ -25,13 +25,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/s2-for-land-and-water-change-detection-multi-temporal/collection.json",
+      "type": "application/json",
+      "title": "Project: S2 for Land and Water-Change Detection"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-use-land-cover-classification/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land Use/Land Cover Classification"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Land cover map_Italy_2018_S2",
   "osc:project": "s2-for-land-and-water-change-detection-multi-temporal",
   "osc:status": "ongoing",
   "osc:region": "Italy",
@@ -39,6 +62,22 @@
   "created": "2019-04-01T00:00:00Z",
   "start_datetime": "2018-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "land_cover"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "land-use-land-cover-classification"
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "updated": "2024-09-12T20:32:06.221108Z",
+  "title": "Land cover map_Italy_2018_S2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -62,20 +101,11 @@
   "license": "proprietary",
   "keywords": [
     "Land Use/Land Cover",
-    "Land Use/Land Cover Classification"
-  ],
-  "cf:parameter": [
-    {
-      "name": "land_cover"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "land-use-land-cover-classification"
-  ],
-  "osc:missions": [
-    "sentinel-2"
+    "Land Use/Land Cover Classification",
+    "theme:land",
+    "variable:land-use-land-cover-classification",
+    "mission:sentinel-2",
+    "region:Italy",
+    "project:s2-for-land-and-water-change-detection-multi-temporal"
   ]
 }

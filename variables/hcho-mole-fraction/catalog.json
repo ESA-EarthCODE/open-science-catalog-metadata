@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "hcho-mole-fraction",
   "stac_version": "1.0.0",
-  "description": "2D field of amount of HCHO (Formaldehyde, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)\u00c2\u00a0at a known height above surface, with the height specified in the metadata",
+  "description": "2D field of amount of HCHO (Formaldehyde, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)Â at a known height above surface, with the height specified in the metadata",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.223831Z",
+  "keywords": [],
   "title": "HCHO mole fraction"
 }

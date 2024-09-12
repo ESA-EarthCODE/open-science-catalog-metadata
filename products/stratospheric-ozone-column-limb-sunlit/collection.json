@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "stratospheric-ozone-column-limb-sunlit",
   "stac_version": "1.0.0",
-  "description": "Stratospheric ozone column from limb satellites, daily temporal resolution, 1 x 1 degrees spatial resolution, 2004-2020. The datasets are created using combination of total ozone column from OMI and TROPOMI with stratospheric ozone profile datasets from several limb-viewing instruments (MLS, OSIRIS, MIPAS, SCIAMACHY, OMPS-LP, GOMOS). Ozone profiles from limb satellite instruments are homogenized, i.e., biases are removed and validation /a-posteriori estimation of random uncertainties is performed. The high spatial and vertical resolution dataset of ozone profiles is created via kriging-type interpolation of the limb profiles from each day to 1\u00b0x1\u00b0 horizontal grid. The daily 1\u00b0x1\u00b0 stratospheric ozone column dataset from limb instruments is evaluated in two ranges: from tropopause and from 3 km below the tropopause.",
+  "description": "Stratospheric ozone column from limb satellites, daily temporal resolution, 1 x 1 degrees spatial resolution, 2004-2020. The datasets are created using combination of total ozone column from OMI and TROPOMI with stratospheric ozone profile datasets from several limb-viewing instruments (MLS, OSIRIS, MIPAS, SCIAMACHY, OMPS-LP, GOMOS). Ozone profiles from limb satellite instruments are homogenized, i.e., biases are removed and validation /a-posteriori estimation of random uncertainties is performed. The high spatial and vertical resolution dataset of ozone profiles is created via kriging-type interpolation of the limb profiles from each day to 1°x1° horizontal grid. The daily 1°x1° stratospheric ozone column dataset from limb instruments is evaluated in two ranges: from tropopause and from 3 km below the tropopause.",
   "links": [
     {
       "rel": "root",
@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/collection.json",
+      "type": "application/json",
+      "title": "Project: SUNLIT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/total-ozone/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Total Ozone"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/limb-viewing-instruments/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Limb-Viewing Instruments"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Stratospheric ozone column from limb satellites_Global",
   "osc:project": "sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +57,22 @@
   "created": "2020-12-31T00:00:00Z",
   "start_datetime": "2004-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "stratospheric_ozone_column"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "total-ozone"
+  ],
+  "osc:missions": [
+    "limb-viewing-instruments"
+  ],
+  "updated": "2024-09-12T20:32:06.232108Z",
+  "title": "Stratospheric ozone column from limb satellites_Global",
   "extent": {
     "spatial": {
       "bbox": [
@@ -58,20 +97,11 @@
   "keywords": [
     "Atmospheric Chemistry",
     "Oxygen Compounds",
-    "Atmospheric Ozone"
-  ],
-  "cf:parameter": [
-    {
-      "name": "stratospheric_ozone_column"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "total-ozone"
-  ],
-  "osc:missions": [
-    "limb-viewing-instruments"
+    "Atmospheric Ozone",
+    "theme:atmosphere",
+    "variable:total-ozone",
+    "mission:limb-viewing-instruments",
+    "region:Global",
+    "project:sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring"
   ]
 }

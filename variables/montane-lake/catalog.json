@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/hydrodynamic-model-alpine-lakes-s24land/collection.json",
+      "type": "application/json",
+      "title": "Hydrodynamic models of Alpine lakes_Western Europe_S2/3"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.231832Z",
+  "keywords": [],
   "title": "Montane Lake"
 }

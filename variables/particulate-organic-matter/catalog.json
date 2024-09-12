@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/l3-spm-daily-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 Suspended Particulate Matter, 300m, daily and monthly"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.236831Z",
+  "keywords": [],
   "title": "Particulate Organic Matter"
 }

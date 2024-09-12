@@ -25,6 +25,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp/collection.json",
+      "type": "application/json",
+      "title": "Project: STSE-ARCTIC+"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-ice-volume/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Ice Volume"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
     }
   ],
   "stac_extensions": [
@@ -32,7 +62,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2",
   "osc:project": "stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp",
   "osc:status": "ongoing",
   "osc:region": "North Sea",
@@ -41,6 +70,23 @@
   "start_datetime": "2015-01-01T00:00:00Z",
   "end_datetime": "2015-12-31T23:59:59Z",
   "sci:doi": "10.5281/zenodo.1308857",
+  "cf:parameter": [
+    {
+      "name": "sea_ice_and_snow_volume"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-ice-volume",
+    "snow-cover"
+  ],
+  "osc:missions": [
+    "cryosat-2"
+  ],
+  "updated": "2024-09-12T20:32:06.228108Z",
+  "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -66,21 +112,12 @@
     "Sea Ice",
     "Sea Ice Volume",
     "Snow/Ice",
-    "Snow Cover"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sea_ice_and_snow_volume"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "sea-ice-volume",
-    "snow-cover"
-  ],
-  "osc:missions": [
-    "cryosat-2"
+    "Snow Cover",
+    "theme:cryosphere",
+    "variable:sea-ice-volume",
+    "variable:snow-cover",
+    "mission:cryosat-2",
+    "region:North Sea",
+    "project:stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp"
   ]
 }

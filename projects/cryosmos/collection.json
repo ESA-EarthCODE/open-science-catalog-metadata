@@ -21,6 +21,30 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/bedrock-topography-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-temperature-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Internal ice-sheet temperature_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-shelf-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Ice shelf product_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melting-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Occurrence of Surface Melting_Antarctica_SMOS"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +55,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "CryoSMOS",
   "osc:name": "CryoSMOS",
   "osc:status": "completed",
   "osc:themes": [
@@ -89,6 +112,9 @@
   ],
   "start_datetime": "2014-09-23T00:00:00Z",
   "end_datetime": "2017-10-31T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.998110Z",
+  "title": "CryoSMOS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -109,5 +135,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

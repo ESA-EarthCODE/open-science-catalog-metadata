@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "n2o-mole-fraction",
   "stac_version": "1.0.0",
-  "description": "3D field of amount\u00c2\u00a0 of N2O (Nitrous oxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amountÂ  of N2O (Nitrous oxide, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.231832Z",
+  "keywords": [],
   "title": "N2O mole fraction"
 }

@@ -17,6 +17,42 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/binary-wet-snow-s14science-snow/collection.json",
+      "type": "application/json",
+      "title": "Binary wet snow extent products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/nrt-sice-rasters-greenland-arctic-sice/collection.json",
+      "type": "application/json",
+      "title": "NRT SICE rasters for Greenland_Arctic_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp/collection.json",
+      "type": "application/json",
+      "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-area-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow area extent for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-cover-alpglacier/collection.json",
+      "type": "application/json",
+      "title": "Snow cover on glaciers_SwissAlps_S1/2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-grain-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow grain size for European Alps_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +72,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.242831Z",
+  "keywords": [],
   "title": "Snow Cover"
 }

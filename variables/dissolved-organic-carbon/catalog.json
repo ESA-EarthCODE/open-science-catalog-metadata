@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://www.britannica.com/science/seawater/Dissolved-organic-substances",
       "type": "text/html",
@@ -27,6 +21,24 @@
       "href": "https://serc.carleton.edu/microbelife/research_methods/biogeochemical/organic_carbon.html#:~:text=Dissolved%20organic%20carbon%20(DOC)%20is,filtered%20out%20of%20a%20sample.",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/dissolved-organic-carbon-bicep/collection.json",
+      "type": "application/json",
+      "title": "Monthly Global Dissolved Organic Carbon dataset (9 km, OC-CCI v4.2)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data."
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.835131Z",
+  "keywords": [],
   "title": "Dissolved Organic Carbon"
 }

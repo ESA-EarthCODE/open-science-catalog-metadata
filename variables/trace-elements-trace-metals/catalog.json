@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/f2d6aa01-5070-4147-bae1-4b2cad2c3987?gtm_keyword=TRACE%20METALS&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -33,6 +27,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/2d36c283-2fe3-4a08-aeb3-6a8146e79bb3?gtm_keyword=TRACE%20ELEMENTS/TRACE%20METALS&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -54,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.843131Z",
+  "keywords": [],
   "title": "Trace Elements/Trace Metals"
 }

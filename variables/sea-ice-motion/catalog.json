@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/a47ab696-7ed9-4374-8965-c8996e61463d?gtm_keyword=SEA%20ICE%20MOTION&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/1455c369-88e2-411b-83f7-c914b20609b1?gtm_keyword=SEA%20ICE%20MOTION&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -45,5 +45,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.839131Z",
+  "keywords": [],
   "title": "Sea Ice Motion"
 }

@@ -21,6 +21,138 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Sermide_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Sermide_Multimission"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +163,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "RIDESAT",
   "osc:name": "RIDESAT - RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data",
   "osc:status": "completed",
   "osc:themes": [
@@ -65,6 +196,9 @@
   ],
   "start_datetime": "2018-11-10T00:00:00Z",
   "end_datetime": "2019-11-15T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.992110Z",
+  "title": "RIDESAT",
   "extent": {
     "spatial": {
       "bbox": [
@@ -85,5 +219,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Land"
+  ]
 }

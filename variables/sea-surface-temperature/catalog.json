@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcos.wmo.int/en/essential-climate-variables/sst",
       "type": "text/html",
@@ -27,6 +21,24 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/bd24a9a9-7d52-4c29-b2a0-6cefd216ae78?gtm_keyword=SEA%20SURFACE%20TEMPERATURE&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/vardyn-ssh-twosat-L4/collection.json",
+      "type": "application/json",
+      "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products (Sentinel-3, Sentinel-6, GCOM-W1, GPM)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/vardyn-ssh-allsat-L4/collection.json",
+      "type": "application/json",
+      "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.839131Z",
+  "keywords": [],
   "title": "Sea Surface Temperature"
 }

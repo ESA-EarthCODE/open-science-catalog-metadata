@@ -3,7 +3,6 @@
   "id": "insar-closure-phase-1",
   "stac_version": "1.0.0",
   "description": "Insar closure phase.",
-  "license": "Unknown",
   "links": [
     {
       "rel": "root",
@@ -24,7 +23,7 @@
       "title": "Processes"
     }
   ],
-  "stac_extensions": [],
+  "updated": "2024-09-12T20:23:29.796131Z",
   "title": "insar-closure-phase",
   "extent": {
     "spatial": {
@@ -46,11 +45,12 @@
       ]
     }
   },
+  "license": "Unknown",
   "assets": {
     "cwl": {
       "href": "./insar-closure-phase.cwl",
-      "title": "CWL File",
-      "type": "application/x-yaml"
+      "type": "application/x-yaml",
+      "title": "CWL File"
     }
   }
 }

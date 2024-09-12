@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/68033b72-7f8d-48a4-8f63-638e4e96fd23?gtm_keyword=SOIL%20HEAT%20BUDGET&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/c6847d01-cbf9-491b-be59-c283d9072d95?gtm_keyword=SOIL%20HEAT%20BUDGET&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.841131Z",
+  "keywords": [],
   "title": "Soil Heat Budget"
 }

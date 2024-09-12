@@ -20,13 +20,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sentinel-3-for-science-land-study-1-snow/collection.json",
+      "type": "application/json",
+      "title": "Project: S34Science: Snow"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/albedo/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Albedo"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Broadband albedo_Greenland_S3",
   "osc:project": "sentinel-3-for-science-land-study-1-snow",
   "osc:status": "ongoing",
   "osc:region": "Greenland",
@@ -34,6 +63,23 @@
   "created": "2019-01-01T00:00:00Z",
   "start_datetime": "2017-01-01T00:00:00Z",
   "end_datetime": "2018-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "broadband_albedo"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere",
+    "land"
+  ],
+  "osc:variables": [
+    "albedo"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.211108Z",
+  "title": "Broadband albedo_Greenland_S3",
   "extent": {
     "spatial": {
       "bbox": [
@@ -61,21 +107,12 @@
     "Snow/Ice",
     "Land Surface",
     "Surface Radiative Properties",
-    "Terrestrial Hydrosphere"
-  ],
-  "cf:parameter": [
-    {
-      "name": "broadband_albedo"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere",
-    "land"
-  ],
-  "osc:variables": [
-    "albedo"
-  ],
-  "osc:missions": [
-    "sentinel-3"
+    "Terrestrial Hydrosphere",
+    "theme:cryosphere",
+    "theme:land",
+    "variable:albedo",
+    "mission:sentinel-3",
+    "region:Greenland",
+    "project:sentinel-3-for-science-land-study-1-snow"
   ]
 }

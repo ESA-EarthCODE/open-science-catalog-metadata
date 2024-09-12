@@ -17,6 +17,54 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/cliima-cloud-od-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-cloud-profile-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of cloud optical property profiles_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-strat-aerosol-cloud-od-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of stratospheric aerosol and cloud optical depth_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/clima-strat-aerosol-cloud-op-livas/collection.json",
+      "type": "application/json",
+      "title": "Climatology of stratospheric aerosol and cloud optical property profiles_Global_CALIPSO_EARTHCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cloud-od-averaged-livas/collection.json",
+      "type": "application/json",
+      "title": "Cloud optical depth, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cloud-od-livas/collection.json",
+      "type": "application/json",
+      "title": "Cloud optical depth_Global_CALIPSO"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cloud-op-averaged-livas/collection.json",
+      "type": "application/json",
+      "title": "Cloud optical property profiles, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cloud-op-livas/collection.json",
+      "type": "application/json",
+      "title": "Cloud optical property profiles_Global_CALIPSO"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +84,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.211831Z",
+  "keywords": [],
   "title": "Cloud Optical Depth/Thickness"
 }

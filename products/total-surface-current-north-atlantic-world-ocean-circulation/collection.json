@@ -25,13 +25,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Project: WOC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Currents"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Total surface current_North-Atlantic",
   "osc:project": "world-ocean-circulation",
   "osc:status": "ongoing",
   "osc:region": "North Atlantic",
@@ -39,6 +56,20 @@
   "created": "2021-11-30T00:00:00Z",
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2011-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "total_surface_current"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "surface-currents"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.962110Z",
+  "title": "Total surface current_North-Atlantic",
   "extent": {
     "spatial": {
       "bbox": [
@@ -63,17 +94,10 @@
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents",
-    "Surface Currents"
-  ],
-  "cf:parameter": [
-    {
-      "name": "total_surface_current"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "surface-currents"
+    "Surface Currents",
+    "theme:oceans",
+    "variable:surface-currents",
+    "region:North Atlantic",
+    "project:world-ocean-circulation"
   ]
 }

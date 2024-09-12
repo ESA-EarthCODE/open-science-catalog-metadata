@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall",
   "stac_version": "1.0.0",
-  "description": "Rainfall dataset based on the integration of IMERG Early Run of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT, SMOS and SMAP L3 soil moisture Rainfall dataset based on the integration of IMERG-LR of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT H113 H-SAF , SMOS L3 and SMAP L3 soil moisture products. The dataset is available +/-60\u00b0 (2007-2018). More details on the grid and data can be found in the netCDF file. The quality flag provided with the dataset has been used to mask out low quality data, as well as the areas characterised by complex topographic, frozen soil, and presence of tropical forests.",
+  "description": "Rainfall dataset based on the integration of IMERG Early Run of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT, SMOS and SMAP L3 soil moisture Rainfall dataset based on the integration of IMERG-LR of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT H113 H-SAF , SMOS L3 and SMAP L3 soil moisture products. The dataset is available +/-60° (2007-2018). More details on the grid and data can be found in the netCDF file. The quality flag provided with the dataset has been used to mask out low quality data, as well as the areas characterised by complex topographic, frozen soil, and presence of tropical forests.",
   "links": [
     {
       "rel": "root",
@@ -30,6 +30,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/smos-rainfall-land/collection.json",
+      "type": "application/json",
+      "title": "Project: SMOS+ Rainfall Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation-amount/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation Amount"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/metop/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MetOp"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
     }
   ],
   "stac_extensions": [
@@ -37,7 +73,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global",
   "osc:project": "smos-rainfall-land",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -47,6 +82,24 @@
   "end_datetime": "2018-12-31T23:59:59Z",
   "version": "1",
   "sci:doi": "10.5281/zenodo.3854817",
+  "cf:parameter": [
+    {
+      "name": "rainfall_gpm"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "precipitation-amount"
+  ],
+  "osc:missions": [
+    "metop",
+    "smos",
+    "smap"
+  ],
+  "updated": "2024-09-12T20:32:06.226108Z",
+  "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global",
   "extent": {
     "spatial": {
       "bbox": [
@@ -70,22 +123,13 @@
   "license": "proprietary",
   "keywords": [
     "Precipitation",
-    "Precipitation Amount"
-  ],
-  "cf:parameter": [
-    {
-      "name": "rainfall_gpm"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "precipitation-amount"
-  ],
-  "osc:missions": [
-    "metop",
-    "smos",
-    "smap"
+    "Precipitation Amount",
+    "theme:land",
+    "variable:precipitation-amount",
+    "mission:metop",
+    "mission:smos",
+    "mission:smap",
+    "region:Global",
+    "project:smos-rainfall-land"
   ]
 }

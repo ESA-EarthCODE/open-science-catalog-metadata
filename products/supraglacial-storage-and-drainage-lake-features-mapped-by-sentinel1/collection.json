@@ -21,23 +21,46 @@
       "title": "Documentation"
     },
     {
+      "rel": "child",
+      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DGreenland/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DGreenland/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/catalog.json",
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
       "type": "application/json",
-      "title": "Items"
+      "title": "Project: 4D-Greenland"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacial-lake-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacial Lake Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1",
   "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland - Watson basin",
@@ -45,6 +68,22 @@
   "created": "2023-01-25T00:00:00Z",
   "start_datetime": "2017-05-01T00:00:00Z",
   "end_datetime": "2019-09-30T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "supraglacial_storage_and_drainage_lake"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacial-lake-extent"
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "updated": "2024-09-12T20:32:06.232108Z",
+  "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1",
   "extent": {
     "spatial": {
       "bbox": [
@@ -69,20 +108,11 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Glacial Lake Extent"
-  ],
-  "cf:parameter": [
-    {
-      "name": "supraglacial_storage_and_drainage_lake"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "glacial-lake-extent"
-  ],
-  "osc:missions": [
-    "sentinel-1"
+    "Glacial Lake Extent",
+    "theme:cryosphere",
+    "variable:glacial-lake-extent",
+    "mission:sentinel-1",
+    "region:Greenland - Watson basin",
+    "project:4d-greenland"
   ]
 }

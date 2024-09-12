@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
+      "type": "application/json",
+      "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/model-ionosphere-4dionosphere/collection.json",
+      "type": "application/json",
+      "title": "Semi-empiric model of ionosphere processes_SWARM"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.226831Z",
+  "keywords": [],
   "title": "Ionosphere/Magnetosphere Dynamics"
 }

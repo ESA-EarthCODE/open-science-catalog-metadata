@@ -25,6 +25,66 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/the-4d-earth-swarm-project/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-Earth SWARM"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere_Ionosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/magnetic-fields-magnetic-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Magnetic Fields/Magnetic Currents"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/geomagnetic-indices/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Geomagnetic Indices"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swarm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWARM"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/champ/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CHAMP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sac-c/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SAC-C"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/oersted/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: OERSTED"
     }
   ],
   "stac_extensions": [
@@ -32,7 +92,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "CHAOS field model",
   "osc:project": "the-4d-earth-swarm-project",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -40,6 +99,28 @@
   "created": "2020-10-20T00:00:00Z",
   "version": "7,8",
   "sci:doi": "10.1186/s40623-020-01252-9",
+  "cf:parameter": [
+    {
+      "name": "chaos_field_model"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth",
+    "magnetosphere-ionosphere"
+  ],
+  "osc:variables": [
+    "magnetic-fields-magnetic-currents",
+    "geomagnetic-indices"
+  ],
+  "osc:missions": [
+    "swarm",
+    "cryosat-2",
+    "champ",
+    "sac-c",
+    "oersted"
+  ],
+  "updated": "2024-09-12T20:32:06.211108Z",
+  "title": "CHAOS field model",
   "extent": {
     "spatial": {
       "bbox": [
@@ -65,26 +146,17 @@
     "Ionosphere/Magnetosphere Dynamics",
     "Magnetic Fields/Magnetic Currents",
     "Sun-Earth Interactions",
-    "Geomagnetic Indices"
-  ],
-  "cf:parameter": [
-    {
-      "name": "chaos_field_model"
-    }
-  ],
-  "osc:themes": [
-    "solid-earth",
-    "magnetosphere-ionosphere"
-  ],
-  "osc:variables": [
-    "magnetic-fields-magnetic-currents",
-    "geomagnetic-indices"
-  ],
-  "osc:missions": [
-    "swarm",
-    "cryosat-2",
-    "champ",
-    "sac-c",
-    "oersted"
+    "Geomagnetic Indices",
+    "theme:solid-earth",
+    "theme:magnetosphere-ionosphere",
+    "variable:magnetic-fields-magnetic-currents",
+    "variable:geomagnetic-indices",
+    "mission:swarm",
+    "mission:cryosat-2",
+    "mission:champ",
+    "mission:sac-c",
+    "mission:oersted",
+    "region:Global",
+    "project:the-4d-earth-swarm-project"
   ]
 }

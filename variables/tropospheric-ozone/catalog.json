@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/tropospheric-ozone-column-omi-sunlit/collection.json",
+      "type": "application/json",
+      "title": "Tropospheric ozone column (TrOC)_Global_OMI and limb satellites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tropospheric-ozone-column-tropomi-sunlit/collection.json",
+      "type": "application/json",
+      "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.250832Z",
+  "keywords": [],
   "title": "Tropospheric Ozone"
 }

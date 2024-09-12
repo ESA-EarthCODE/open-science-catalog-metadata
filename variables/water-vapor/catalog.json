@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/hdo-total-column-tropomi-clear-sky-wift/collection.json",
+      "type": "application/json",
+      "title": "Clear-sky HDO/H2O total column_TROPOMI"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hdo-total-column-tropomi-extended-wift/collection.json",
+      "type": "application/json",
+      "title": "Extended scientific HDO/H2O total column_TROPOMI"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.253832Z",
+  "keywords": [],
   "title": "Water Vapor"
 }

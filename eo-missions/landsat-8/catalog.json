@@ -17,11 +17,61 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/snow-albedo-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow albedo for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-area-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow area extent for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-depth-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow depth for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-grain-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow grain size for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-liquid-water-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow liquid water content (wet snow) for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-water-equivalent-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow water equivalent for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/supraglacial-lakes-west-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.173831Z",
+  "keywords": [],
   "title": "Landsat-8"
 }

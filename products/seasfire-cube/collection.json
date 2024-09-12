@@ -21,16 +21,34 @@
       "title": "DOI"
     },
     {
+      "rel": "child",
+      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/seasfire/seasfire-cube/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/seasfire/seasfire-cube/catalog.json",
+      "rel": "related",
+      "href": "../../projects/seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe/collection.json",
       "type": "application/json",
-      "title": "Items"
+      "title": "Project: SeasFire"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/burned-area/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Burned Area"
     }
   ],
   "stac_extensions": [
@@ -38,7 +56,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System",
   "osc:project": "seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -46,6 +63,20 @@
   "created": "2023-06-19T00:00:00Z",
   "version": "0.3",
   "sci:doi": "10.5281/zenodo.8055879",
+  "cf:parameter": [
+    {
+      "name": "seasonal_fire"
+    }
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:variables": [
+    "burned-area"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.960110Z",
+  "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,17 +102,10 @@
     "Natural Hazards",
     "Wildfires",
     "Burned Area",
-    "Seasonal Fire"
-  ],
-  "cf:parameter": [
-    {
-      "name": "seasonal_fire"
-    }
-  ],
-  "osc:themes": [
-    "land"
-  ],
-  "osc:variables": [
-    "burned-area"
+    "Seasonal Fire",
+    "theme:land",
+    "variable:burned-area",
+    "region:Global",
+    "project:seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe"
   ]
 }

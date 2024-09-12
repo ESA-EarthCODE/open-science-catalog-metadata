@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/4e5cf935-cf17-4947-bd1f-6816a855953a?gtm_keyword=SHORELINES&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -33,6 +27,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/57e6b119-567b-44d0-9d93-278ed5c21c47?gtm_keyword=SHORELINES&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -54,5 +54,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.840131Z",
+  "keywords": [],
   "title": "Shorelines"
 }

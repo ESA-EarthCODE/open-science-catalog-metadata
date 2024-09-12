@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/oceansoda-ethz/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.209831Z",
+  "keywords": [],
   "title": "Carbonate"
 }

@@ -21,6 +21,12 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
+      "type": "application/json",
+      "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +37,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "COSTO",
   "osc:name": "Contribution of Swarm data to the prompt detection of Tsunamis and other natural hazards  (COSTO)",
   "osc:status": "completed",
   "osc:themes": [
@@ -78,6 +83,9 @@
   ],
   "start_datetime": "2019-02-22T00:00:00Z",
   "end_datetime": "2020-10-28T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.021110Z",
+  "title": "COSTO",
   "extent": {
     "spatial": {
       "bbox": [
@@ -98,5 +106,9 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Solid Earth",
+    "theme:Magnetosphere_Ionosphere"
+  ]
 }

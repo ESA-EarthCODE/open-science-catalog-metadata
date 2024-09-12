@@ -25,13 +25,72 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-ANTARCTICA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/grounding-line/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Grounding Line"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ALOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cosmo-skymed/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: COSMO-SkyMed"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/radarsat-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: RADARSAT-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/radarsat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: RADARSAT-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2",
   "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
@@ -41,6 +100,28 @@
   "sci:doi": "10.5067/IKBWW4RYHF1Q",
   "start_datetime": "1992-02-07T00:00:00Z",
   "end_datetime": "2014-12-17T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "grounding-line-position"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "grounding-line"
+  ],
+  "osc:missions": [
+    "alos",
+    "cosmo-skymed",
+    "ers-1",
+    "ers-2",
+    "radarsat-1",
+    "radarsat-2",
+    "sentinel-1"
+  ],
+  "updated": "2024-09-12T20:32:06.217108Z",
+  "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -65,26 +146,17 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Grounding Line"
-  ],
-  "cf:parameter": [
-    {
-      "name": "grounding-line-position"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "grounding-line"
-  ],
-  "osc:missions": [
-    "alos",
-    "cosmo-skymed",
-    "ers-1",
-    "ers-2",
-    "radarsat-1",
-    "radarsat-2",
-    "sentinel-1"
+    "Grounding Line",
+    "theme:cryosphere",
+    "variable:grounding-line",
+    "mission:alos",
+    "mission:cosmo-skymed",
+    "mission:ers-1",
+    "mission:ers-2",
+    "mission:radarsat-1",
+    "mission:radarsat-2",
+    "mission:sentinel-1",
+    "region:Antarctica",
+    "project:4d-antarctica"
   ]
 }

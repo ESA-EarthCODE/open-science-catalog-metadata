@@ -1,0 +1,171 @@
+{
+  "title": "Contacts",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "name"
+    ],
+    "properties": {
+      "identifier": {
+        "title": "Identifier",
+        "type": "string"
+      },
+      "name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "positionName": {
+        "title": "Position",
+        "type": "string"
+      },
+      "organization": {
+        "title": "Organization",
+        "type": "string"
+      },
+      "logo": {
+        "title": "Photo / Logo",
+        "allOf": [
+          {
+            "$ref": "catalog.json#/definitions/link"
+          },
+          {
+            "type": "object",
+            "required": [
+              "rel",
+              "type"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "image/gif",
+                  "image/jpeg",
+                  "image/png",
+                  "image/svg+xml",
+                  "image/webp"
+                ],
+                "options": {
+                  "enum_titles": [
+                    "GIF",
+                    "JPEG",
+                    "PNG",
+                    "SVG",
+                    "WebP"
+                  ]
+                }
+              },
+              "rel": {
+                "enum": [
+                  "icon"
+                ],
+                "options": {
+                  "hidden": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      "phones": {
+        "title": "Phone Numbers",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "value"
+          ],
+          "properties": {
+            "value": {
+              "title": "Phone Number",
+              "type": "string",
+              "pattern": "^\\+[1-9]{1}[0-9]{3,14}$"
+            },
+            "roles": {
+              "$ref": "#/definitions/roles"
+            }
+          }
+        }
+      },
+      "emails": {
+        "title": "Email Addresses",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "value"
+          ],
+          "properties": {
+            "value": {
+              "title": "Email Address",
+              "type": "string",
+              "format": "email"
+            },
+            "roles": {
+              "$ref": "#/definitions/roles"
+            }
+          }
+        }
+      },
+      "addresses": {
+        "title": "Postal Addresses",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "deliveryPoint": {
+              "title": "Address Lines",
+              "description": "Street and Number, P.O. Box, etc.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "city": {
+              "title": "City or Locality",
+              "type": "string"
+            },
+            "administrativeArea": {
+              "title": "State, Province, or Region",
+              "type": "string"
+            },
+            "postalCode": {
+              "title": "Postal Code",
+              "type": "string"
+            },
+            "country": {
+              "title": "Country",
+              "type": "string"
+            },
+            "roles": {
+              "$ref": "#/definitions/roles"
+            }
+          }
+        }
+      },
+      "links": {
+        "$ref": "catalog.json#/definitions/links"
+      },
+      "contactInstructions": {
+        "title": "Contact Instructions / Notes",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "roles": {
+        "$ref": "#/definitions/roles"
+      }
+    }
+  },
+  "definitions": {
+    "roles": {
+      "title": "Roles",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -26,7 +26,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "PRE-MELT",
   "osc:name": "PRE-MELT: Preconditioning the trigger for rapid Arctic ice melt",
   "osc:status": "completed",
   "osc:themes": [
@@ -54,6 +53,9 @@
   ],
   "start_datetime": "2019-01-12T00:00:00Z",
   "end_datetime": "2022-01-05T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.999110Z",
+  "title": "PRE-MELT",
   "extent": {
     "spatial": {
       "bbox": [
@@ -74,5 +76,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

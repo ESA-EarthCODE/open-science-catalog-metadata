@@ -32,8 +32,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "ArcFlux",
-  "osc:name": "ARCTIC+ THEME 3 \u00e2\u20ac\u201c FRESH WATER FLUXES",
+  "osc:name": "ARCTIC+ THEME 3 â€“ FRESH WATER FLUXES",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -55,13 +54,13 @@
       ]
     },
     {
-      "name": "CNRS \u00e2\u20ac\u201c DELEGATION REGIONALE MIDI-PYRENEE (FR)",
+      "name": "CNRS â€“ DELEGATION REGIONALE MIDI-PYRENEE (FR)",
       "roles": [
         "consortium_member"
       ]
     },
     {
-      "name": "ENVEO \u00e2\u20ac\u201c ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
+      "name": "ENVEO â€“ ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
       "roles": [
         "consortium_member"
       ]
@@ -79,6 +78,9 @@
   ],
   "start_datetime": "2016-06-25T00:00:00Z",
   "end_datetime": "2018-01-03T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.983110Z",
+  "title": "ArcFlux",
   "extent": {
     "spatial": {
       "bbox": [

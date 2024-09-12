@@ -32,8 +32,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "S5p Inno - H2O-ISO",
-  "osc:name": "SENTINEL-5P+ INNOVATION \u00e2\u20ac\u0161 WATER VAPOUR ISOTOPOLOGUES (H2O-ISO)",
+  "osc:name": "SENTINEL-5P+ INNOVATION â€š WATER VAPOUR ISOTOPOLOGUES (H2O-ISO)",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -79,6 +78,9 @@
   ],
   "start_datetime": "2019-02-07T00:00:00Z",
   "end_datetime": "2021-12-30T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.989110Z",
+  "title": "S5p Inno - H2O-ISO",
   "extent": {
     "spatial": {
       "bbox": [

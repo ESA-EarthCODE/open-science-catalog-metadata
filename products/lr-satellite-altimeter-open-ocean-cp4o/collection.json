@@ -20,13 +20,42 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosat-plus-for-oceans-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Project: CryoSat+ Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-height-anomaly-ssha/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Height Anomaly (SSHA)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat",
   "osc:project": "cryosat-plus-for-oceans-cp4o",
   "osc:status": "ongoing",
   "osc:region": "Pacific and North Atlantic",
@@ -34,6 +63,23 @@
   "created": "2021-02-15T00:00:00Z",
   "start_datetime": "2013-01-01T00:00:00Z",
   "end_datetime": "2013-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "low_resolution_satellite_altimeter_open_ocean"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "sea-surface-height-anomaly-ssha"
+  ],
+  "osc:missions": [
+    "cryosat"
+  ],
+  "updated": "2024-09-12T20:32:06.223108Z",
+  "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat",
   "extent": {
     "spatial": {
       "bbox": [
@@ -58,21 +104,12 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Surface Height",
-    "Sea Surface Height Anomaly (SSHA)"
-  ],
-  "cf:parameter": [
-    {
-      "name": "low_resolution_satellite_altimeter_open_ocean"
-    }
-  ],
-  "osc:themes": [
-    "oceans",
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "sea-surface-height-anomaly-ssha"
-  ],
-  "osc:missions": [
-    "cryosat"
+    "Sea Surface Height Anomaly (SSHA)",
+    "theme:oceans",
+    "theme:cryosphere",
+    "variable:sea-surface-height-anomaly-ssha",
+    "mission:cryosat",
+    "region:Pacific and North Atlantic",
+    "project:cryosat-plus-for-oceans-cp4o"
   ]
 }

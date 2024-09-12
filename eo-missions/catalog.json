@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./aeolus/catalog.json",
       "type": "application/json",
@@ -453,7 +447,14 @@
       "href": "./viirs/catalog.json",
       "type": "application/json",
       "title": "VIIRS"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     }
   ],
+  "updated": "2024-09-12T20:23:29.796131Z",
   "title": "EO Missions"
 }

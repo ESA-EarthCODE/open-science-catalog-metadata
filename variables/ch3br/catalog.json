@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "ch3br",
   "stac_version": "1.0.0",
-  "description": "3D field of amount of CH3Br\u00c2\u00a0(methil bromide, or bromomethane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).",
+  "description": "3D field of amount of CH3BrÂ (methil bromide, or bromomethane, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles).",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.209831Z",
+  "keywords": [],
   "title": "CH3Br"
 }

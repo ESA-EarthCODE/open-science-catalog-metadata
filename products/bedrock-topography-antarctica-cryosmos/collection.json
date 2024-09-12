@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Project: CryoSMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-thickness-ice-sheet-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Thickness/Ice Sheet Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE",
   "osc:project": "cryosmos",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
@@ -34,6 +57,22 @@
   "created": "2020-03-19T00:00:00Z",
   "start_datetime": "2013-01-01T00:00:00Z",
   "end_datetime": "2014-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "bedrock_topography"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "glacier-thickness-ice-sheet-thickness"
+  ],
+  "osc:missions": [
+    "smos"
+  ],
+  "updated": "2024-09-12T20:32:06.210108Z",
+  "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE",
   "extent": {
     "spatial": {
       "bbox": [
@@ -58,20 +97,11 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glacier Thickness/Ice Sheet Thickness",
-    "Sea Ice"
-  ],
-  "cf:parameter": [
-    {
-      "name": "bedrock_topography"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "glacier-thickness-ice-sheet-thickness"
-  ],
-  "osc:missions": [
-    "smos"
+    "Sea Ice",
+    "theme:cryosphere",
+    "variable:glacier-thickness-ice-sheet-thickness",
+    "mission:smos",
+    "region:Antarctica",
+    "project:cryosmos"
   ]
 }

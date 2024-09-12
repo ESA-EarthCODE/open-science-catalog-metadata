@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/9015e65f-bbae-4855-a4b6-1bfa601752bd?gtm_keyword=BIOGEOCHEMICAL%20CYCLES&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -27,6 +21,12 @@
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/f1e6caa5-2c97-407d-a0db-7bf01794d8e3?gtm_keyword=BIOGEOCHEMICAL%20CYCLES&gtm_scheme=Earth%20Science",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.833131Z",
+  "keywords": [],
   "title": "Biogeochemical Cycles"
 }

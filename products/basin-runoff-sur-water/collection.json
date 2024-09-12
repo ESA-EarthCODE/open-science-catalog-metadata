@@ -25,13 +25,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-Greenland"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/runoff/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Runoff"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Basin Run Off and Surface Water (ESA POLAR+ 4D Greenland Experimental Dataset)",
   "osc:project": "4d-greenland",
   "osc:status": "completed",
   "osc:region": "Greenland",
@@ -39,6 +56,20 @@
   "created": "2022-07-06T00:00:00Z",
   "start_datetime": "2014-01-01T00:00:00Z",
   "end_datetime": "2021-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "basin_runoff_sur_water"
+    }
+  ],
+  "osc:themes": [
+    "cryosphere"
+  ],
+  "osc:variables": [
+    "runoff"
+  ],
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:22.956110Z",
+  "title": "Basin Run Off and Surface Water (ESA POLAR+ 4D Greenland Experimental Dataset)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -63,17 +94,10 @@
   "keywords": [
     "Surface Water",
     "Surface Water Processes/Measurements",
-    "Runoff"
-  ],
-  "cf:parameter": [
-    {
-      "name": "basin_runoff_sur_water"
-    }
-  ],
-  "osc:themes": [
-    "cryosphere"
-  ],
-  "osc:variables": [
-    "runoff"
+    "Runoff",
+    "theme:cryosphere",
+    "variable:runoff",
+    "region:Greenland",
+    "project:4d-greenland"
   ]
 }

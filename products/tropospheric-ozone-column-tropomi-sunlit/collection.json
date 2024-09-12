@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "tropospheric-ozone-column-tropomi-sunlit",
   "stac_version": "1.0.0",
-  "description": "Tropospheric ozone column(TrOC) from TROPOMI and limb satellites, monthly temporal resolution, 1 x 1 degrees spatial resolution, 2018-2020. The global tropospheric ozone column datasets are created in the framework of ESA project SUNLIT: Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring. The datasets are created using combination of total ozone column from OMI and TROPOMI with stratospheric ozone profile datasets from several limb-viewing instruments (MLS, OSIRIS, MIPAS, SCIAMACHY, OMPS-LP, GOMOS). Ozone profiles from limb satellite instruments are homogenized, i.e., biases are removed and validation /a-posteriori estimation of random uncertainties is performed. The high spatial and vertical resolution dataset of ozone profiles is created via kriging-type interpolation of the limb profiles from each day to 1\u00b0x1\u00b0 horizontal grid. The daily 1\u00b0x1\u00b0 stratospheric ozone column dataset from limb instruments is evaluated in two ranges: from tropopause and from 3 km below the tropopause.",
+  "description": "Tropospheric ozone column(TrOC) from TROPOMI and limb satellites, monthly temporal resolution, 1 x 1 degrees spatial resolution, 2018-2020. The global tropospheric ozone column datasets are created in the framework of ESA project SUNLIT: Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring. The datasets are created using combination of total ozone column from OMI and TROPOMI with stratospheric ozone profile datasets from several limb-viewing instruments (MLS, OSIRIS, MIPAS, SCIAMACHY, OMPS-LP, GOMOS). Ozone profiles from limb satellite instruments are homogenized, i.e., biases are removed and validation /a-posteriori estimation of random uncertainties is performed. The high spatial and vertical resolution dataset of ozone profiles is created via kriging-type interpolation of the limb profiles from each day to 1°x1° horizontal grid. The daily 1°x1° stratospheric ozone column dataset from limb instruments is evaluated in two ranges: from tropopause and from 3 km below the tropopause.",
   "links": [
     {
       "rel": "root",
@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/collection.json",
+      "type": "application/json",
+      "title": "Project: SUNLIT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/tropospheric-ozone/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Tropospheric Ozone"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-5p"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb",
   "osc:project": "sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +57,22 @@
   "created": "2020-12-31T00:00:00Z",
   "start_datetime": "2018-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "tropospheric_ozone_column"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "tropospheric-ozone"
+  ],
+  "osc:missions": [
+    "sentinel-5p"
+  ],
+  "updated": "2024-09-12T20:32:06.234108Z",
+  "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb",
   "extent": {
     "spatial": {
       "bbox": [
@@ -57,20 +96,11 @@
   "license": "proprietary",
   "keywords": [
     "Air Quality",
-    "Tropospheric Ozone"
-  ],
-  "cf:parameter": [
-    {
-      "name": "tropospheric_ozone_column"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "tropospheric-ozone"
-  ],
-  "osc:missions": [
-    "sentinel-5p"
+    "Tropospheric Ozone",
+    "theme:atmosphere",
+    "variable:tropospheric-ozone",
+    "mission:sentinel-5p",
+    "region:Global",
+    "project:sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring"
   ]
 }

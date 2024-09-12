@@ -20,13 +20,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails/collection.json",
+      "type": "application/json",
+      "title": "Project: AEOLUS+inno - SWAILS+"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/aerosol-optical-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Aerosol Optical Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AEOLUS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "AOD (Aerosol Optical Depth) estimates from LARISSA",
   "osc:project": "aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails",
   "osc:status": "ongoing",
   "osc:region": "Global Oceans",
@@ -34,6 +57,22 @@
   "created": "2022-09-06T00:00:00Z",
   "start_datetime": "2018-08-22T00:00:00Z",
   "end_datetime": "2022-09-06T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "aeolus_larissa_2a"
+    }
+  ],
+  "osc:themes": [
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "aerosol-optical-depth-thickness"
+  ],
+  "osc:missions": [
+    "aeolus"
+  ],
+  "updated": "2024-09-12T20:32:06.223108Z",
+  "title": "AOD (Aerosol Optical Depth) estimates from LARISSA",
   "extent": {
     "spatial": {
       "bbox": [
@@ -57,20 +96,11 @@
   "license": "proprietary",
   "keywords": [
     "Aerosols",
-    "Aerosol Optical Depth/Thickness"
-  ],
-  "cf:parameter": [
-    {
-      "name": "aeolus_larissa_2a"
-    }
-  ],
-  "osc:themes": [
-    "atmosphere"
-  ],
-  "osc:variables": [
-    "aerosol-optical-depth-thickness"
-  ],
-  "osc:missions": [
-    "aeolus"
+    "Aerosol Optical Depth/Thickness",
+    "theme:atmosphere",
+    "variable:aerosol-optical-depth-thickness",
+    "mission:aeolus",
+    "region:Global Oceans",
+    "project:aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails"
   ]
 }

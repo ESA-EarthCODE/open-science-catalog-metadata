@@ -28,11 +28,355 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/albedo-circas/collection.json",
+      "type": "application/json",
+      "title": "Albedo_Regional_S3A/SLSTR"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-s3-africa-albiom/collection.json",
+      "type": "application/json",
+      "title": "Prototype biomass product using Sentinel-3 altimetry_Africa_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/broadband-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Broadband albedo_Greenland_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/crop-map-multitemporal-s24land/collection.json",
+      "type": "application/json",
+      "title": "Multitemporal crop map - phenological parameters and phenological parameters_Italy_2017/2018_S2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/dem-antarctica-2013-lpf-mitap/collection.json",
+      "type": "application/json",
+      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/dem-antarctica-2017-lpf-mitap/collection.json",
+      "type": "application/json",
+      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json",
+      "title": "EO based Color Disolved Organic Matter_Baltics_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
+      "type": "application/json",
+      "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hydrodynamic-model-alpine-lakes-s24land/collection.json",
+      "type": "application/json",
+      "title": "Hydrodynamic models of Alpine lakes_Western Europe_S2/3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/in-situ-sealabio/collection.json",
+      "type": "application/json",
+      "title": "In-situ measurements_Baltics"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-cover-map-italy-s24land/collection.json",
+      "type": "application/json",
+      "title": "Land cover map_Italy_2018_S2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/model-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json",
+      "title": "Model based Colored Dissolved Organic Matter (CDOM) _Baltics_Model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "type": "application/json",
+      "title": "Ocean freshwater fluxes_Arctic_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-1-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product v2.0_3h_0.1_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-25-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v2.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-25-v4-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v4.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/regional-esdl-south-america-esdl/collection.json",
+      "type": "application/json",
+      "title": "Code for Regional Earth System Data Lab: Tropical South America"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/s2l2a-uncertainty-sr-lpf-l2arut/collection.json",
+      "type": "application/json",
+      "title": "S2 L2A uncertainty_Surface reflectance estimates_S2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/seasfire-cube/collection.json",
+      "type": "application/json",
+      "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Sermide_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sm-based-inversion-approach-ebro-irrigation/collection.json",
+      "type": "application/json",
+      "title": "Regional irrigation water use at high-resolution - EBRO basin"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sm-based-inversion-approach-murray-darling-irrigation/collection.json",
+      "type": "application/json",
+      "title": "Regional irrigation water use at high-resolution - MURRAY-DARLING basin"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sm-based-inversion-approach-po-irrigation/collection.json",
+      "type": "application/json",
+      "title": "Regional irrigation water use at high-resolution - PO valley"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-l3-africa-smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "Gridded_Africa_SMOS level 3 products CATDS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-albedo-europe-alps-alpsnow/collection.json",
+      "type": "application/json",
+      "title": "Snow albedo for European Alps_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/snow-grain-diameter-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Snow grain diameter_Greenland_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/spectral-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json",
+      "title": "Spectral albedo_Greenland_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
+      "type": "application/json",
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-soil-moisture-s1-for-surface-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/vod-africa-smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "VOD_Africa_SMOS IC products CATDS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-level-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Sermide_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L3 inland water level time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4_river-discharge-time-series-s3-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L4 river discharge time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Themes"
     }
   ],
+  "updated": "2024-08-27T17:27:42.200831Z",
+  "keywords": [],
   "title": "Land"
 }

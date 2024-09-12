@@ -25,6 +25,36 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Project: 3D-EARTH"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/geothermal-energy/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Geothermal Energy"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/goce/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GOCE"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swarm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWARM"
     }
   ],
   "stac_extensions": [
@@ -32,13 +62,29 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Geothermal Heat Flow Database and Map_Greenland_GOCE_SWARM",
   "osc:project": "3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Arctic",
   "osc:type": "product",
   "created": "2021-08-26T00:00:00Z",
   "sci:doi": "10.22008/FK2/F9P03L",
+  "cf:parameter": [
+    {
+      "name": "geothermal_heat_flow"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "geothermal-energy"
+  ],
+  "osc:missions": [
+    "goce",
+    "swarm"
+  ],
+  "updated": "2024-09-12T20:32:06.215108Z",
+  "title": "Geothermal Heat Flow Database and Map_Greenland_GOCE_SWARM",
   "extent": {
     "spatial": {
       "bbox": [
@@ -62,21 +108,12 @@
   "license": "proprietary",
   "keywords": [
     "Geothermal Dynamics",
-    "Geothermal Energy"
-  ],
-  "cf:parameter": [
-    {
-      "name": "geothermal_heat_flow"
-    }
-  ],
-  "osc:themes": [
-    "solid-earth"
-  ],
-  "osc:variables": [
-    "geothermal-energy"
-  ],
-  "osc:missions": [
-    "goce",
-    "swarm"
+    "Geothermal Energy",
+    "theme:solid-earth",
+    "variable:geothermal-energy",
+    "mission:goce",
+    "mission:swarm",
+    "region:Arctic",
+    "project:3d-earth"
   ]
 }

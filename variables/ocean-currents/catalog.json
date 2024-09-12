@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Daily 3D ocean currents_North Atlantic"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/stokes-drift-atlantic-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Stokes drift estimation_Atlantic Ocean"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +48,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.233831Z",
+  "keywords": [],
   "title": "Ocean Currents"
 }

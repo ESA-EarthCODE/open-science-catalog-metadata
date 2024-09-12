@@ -17,6 +17,30 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/cdom-aeolus-innovation-color/collection.json",
+      "type": "application/json",
+      "title": "Chromophoric Dissolved Organic Matter (CDOM) absorption_Global_AEOLUS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json",
+      "title": "EO based Color Disolved Organic Matter_Baltics_S3"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/in-situ-sealabio/collection.json",
+      "type": "application/json",
+      "title": "In-situ measurements_Baltics"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/model-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json",
+      "title": "Model based Colored Dissolved Organic Matter (CDOM) _Baltics_Model"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +60,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.213831Z",
+  "keywords": [],
   "title": "Colored Dissolved Organic Matter"
 }

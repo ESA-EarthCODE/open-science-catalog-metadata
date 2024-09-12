@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L3 inland water level time series"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.246832Z",
+  "keywords": [],
   "title": "Stage Height"
 }

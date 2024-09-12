@@ -20,17 +20,56 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
+      "type": "application/json",
+      "title": "Project: AEOLUS+inno - COLOR"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/diffuse-attenuation-coefficient-dac/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Diffuse Attenuation Coefficient (DAC)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AEOLUS"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Diffuse attenuation: Kd_Global_AEOLUS",
   "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color",
   "osc:status": "planned",
   "osc:region": "Global",
   "osc:type": "product",
+  "cf:parameter": [
+    {
+      "name": "diffuse_attenuation"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "diffuse-attenuation-coefficient-dac"
+  ],
+  "osc:missions": [
+    "aeolus"
+  ],
+  "updated": "2024-09-12T20:32:06.214108Z",
+  "title": "Diffuse attenuation: Kd_Global_AEOLUS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -55,20 +94,11 @@
   "keywords": [
     "Ocean Optics",
     "Attenuation/Transmission",
-    "Diffuse Attenuation Coefficient (DAC)"
-  ],
-  "cf:parameter": [
-    {
-      "name": "diffuse_attenuation"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "diffuse-attenuation-coefficient-dac"
-  ],
-  "osc:missions": [
-    "aeolus"
+    "Diffuse Attenuation Coefficient (DAC)",
+    "theme:oceans",
+    "variable:diffuse-attenuation-coefficient-dac",
+    "mission:aeolus",
+    "region:Global",
+    "project:aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color"
   ]
 }

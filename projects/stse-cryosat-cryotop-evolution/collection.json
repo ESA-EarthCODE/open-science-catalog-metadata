@@ -21,6 +21,30 @@
       "title": "EO4Society Link"
     },
     {
+      "rel": "child",
+      "href": "../../products/elevation-and-elevation-change-antarctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Swath-derived elevation and elevation change_Antarctic ice Sheet_2011-2016_CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-topography-elevation-change-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Ice Sheet_gridded topography_rates of surface elevation change_Greenland_Cryosat-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/swath-elelvation-antarctic-ice-sheet-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Swath elevation_Antarctic ice Sheet_2011-2016_CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/swath-elelvation-greenland-ice-sheet-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Swath elevation_Greenland Ice Sheet_2011-2016_CryoSat-2"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -31,7 +55,6 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "title": "CryoSat+ CryoTop Evolution",
   "osc:name": "STSE CryoSat+ CryoTop Evolution",
   "osc:status": "completed",
   "osc:themes": [
@@ -83,6 +106,9 @@
   ],
   "start_datetime": "2016-03-03T00:00:00Z",
   "end_datetime": "2019-11-30T23:59:59Z",
+  "osc:missions": [],
+  "updated": "2024-09-12T20:32:23.020110Z",
+  "title": "CryoSat+ CryoTop Evolution",
   "extent": {
     "spatial": {
       "bbox": [
@@ -103,5 +129,8 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "proprietary",
+  "keywords": [
+    "theme:Cryosphere"
+  ]
 }

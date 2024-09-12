@@ -17,6 +17,84 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "type": "application/json",
+      "title": "Ocean freshwater fluxes_Arctic_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-itapeua-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Itapeua_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-amazon-manacapuru-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Amazon Manacapuru_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-congo-brazaville-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Congo Brazaville_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-baja-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Baja_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-danube-mohacs-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Danube Mohacs_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Chester_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-mississippi-memphis-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge_Mississippi Memphis_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-borgoforte-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Borgoforte_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-cremona-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Cremona_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-pontelagoscuro-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Pontelagoscuro_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/simulated-river-discharge-po-sermide-ridesat/collection.json",
+      "type": "application/json",
+      "title": "Simulated River discharge products_Po Sermide_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4_river-discharge-time-series-s3-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L4 river discharge time series"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +114,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.220831Z",
+  "keywords": [],
   "title": "Fresh Water River Discharge"
 }

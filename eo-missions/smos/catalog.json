@@ -17,11 +17,229 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/baltic-sea-surface-salinity-l3-baltic-salinity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Surface Salinity L3 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/baltic-sea-surface-salinity-l4-baltic-salinity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Surface Salinity L4 maps (V.2.0)_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bedrock-topography-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eddy-census-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Eddy census"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
+      "type": "application/json",
+      "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-temperature-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Internal ice-sheet temperature_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-shelf-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Ice shelf product_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-smos-sss-daily-ascending-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-smos-sss-daily-descending-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-chla-daily-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 Chl-a, 300m daily and monthly"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-cryosat2-sea-level-anomaly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level-3 Cryosat-2 [2011, 2019] along-track 5Hz product, sea level anomaly, ~1km resolution."
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-s3-sea-level-anomaly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level-3 Sentinel-3A [mid 2016, 2018] along-track 5Hz product, sea level anomaly, ~1km resolution"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-spm-daily-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 Suspended Particulate Matter, 300m, daily and monthly"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-sss-9day-average-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l3-turbidity-daily-monthly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 3 Turbidity, 300m, daily and monthly"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-chla-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4 Ocean Colour products Chl-a, 300m, daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-dynamic-topography-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-geostrophic-currents-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-sea-level-anomaly-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l4-sss-eo4sibs/collection.json",
+      "type": "application/json",
+      "title": "Level 4 product SSS, 0.05°*0.0505°"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "type": "application/json",
+      "title": "Ocean freshwater fluxes_Arctic_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data."
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceansoda-ethz/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-1-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product v2.0_3h_0.1_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-25-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v2.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rainfall-prism-0-25-v4-africa-smos-rainfall/collection.json",
+      "type": "application/json",
+      "title": "PrISM SMOS Rainfall product_v4.0_3h_0.25_Africa"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-salinity-arctic-salinity/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-salinity-europe-smos-med/collection.json",
+      "type": "application/json",
+      "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-surface-salinity-godae-oceanview/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity Bias_Global_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-l3-africa-smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "Gridded_Africa_SMOS level 3 products CATDS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/surface-melting-antarctica-cryosmos/collection.json",
+      "type": "application/json",
+      "title": "Occurrence of Surface Melting_Antarctica_SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/vod-africa-smos-vegetation/collection.json",
+      "type": "application/json",
+      "title": "VOD_Africa_SMOS IC products CATDS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-temperature-profiles-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sofresh-sea-surface-salinity/collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.174831Z",
+  "keywords": [],
   "title": "SMOS"
 }

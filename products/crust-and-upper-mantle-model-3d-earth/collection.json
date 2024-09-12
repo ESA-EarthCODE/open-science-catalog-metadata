@@ -20,18 +20,57 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Project: 3D-EARTH"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/gravitational-field/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Gravitational Field"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/goce/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GOCE"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Global Model of Crust and Upper Mantle_WINTERC-G_GOCE",
   "osc:project": "3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2021-03-10T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "crust_and_upper_mantle_model"
+    }
+  ],
+  "osc:themes": [
+    "solid-earth"
+  ],
+  "osc:variables": [
+    "gravitational-field"
+  ],
+  "osc:missions": [
+    "goce"
+  ],
+  "updated": "2024-09-12T20:32:06.213108Z",
+  "title": "Global Model of Crust and Upper Mantle_WINTERC-G_GOCE",
   "extent": {
     "spatial": {
       "bbox": [
@@ -55,20 +94,11 @@
   "license": "proprietary",
   "keywords": [
     "Gravity/Gravitational Field",
-    "Gravitational Field"
-  ],
-  "cf:parameter": [
-    {
-      "name": "crust_and_upper_mantle_model"
-    }
-  ],
-  "osc:themes": [
-    "solid-earth"
-  ],
-  "osc:variables": [
-    "gravitational-field"
-  ],
-  "osc:missions": [
-    "goce"
+    "Gravitational Field",
+    "theme:solid-earth",
+    "variable:gravitational-field",
+    "mission:goce",
+    "region:Global",
+    "project:3d-earth"
   ]
 }

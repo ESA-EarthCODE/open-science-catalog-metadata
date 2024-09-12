@@ -17,11 +17,49 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-core-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model_Core"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/chaos-field-model-spline-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "CHAOS field model_SplineCoefficients"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodynamo-simulation-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Geodynamo simulation data_Earth core"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ground-virtual-observatory-champ-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Ground Virtual Observatory Data CHAMP"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-data-chaos-field-model-4d-earth-swarm/collection.json",
+      "type": "application/json",
+      "title": "Vector and scalar satellite data files as used in the CHAOS field model"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.172831Z",
+  "keywords": [],
   "title": "CHAMP"
 }

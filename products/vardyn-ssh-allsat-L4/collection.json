@@ -25,13 +25,84 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/esa-science-hub-florian-le-guillou/collection.json",
+      "type": "application/json",
+      "title": "Project: ESA Science Hub-Florian Le Guillou"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/saral/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SARAL"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/hy-2b-haiyang-2b/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: HY-2B (Haiyang-2B)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/gcom-w1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GCOM-W1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GPM (Global Precipitation Measurement)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products",
   "osc:project": "esa-science-hub-florian-le-guillou",
   "osc:status": "completed",
   "osc:region": "North Atlantic",
@@ -39,6 +110,30 @@
   "created": "2024-08-22T00:00:00Z",
   "start_datetime": "2023-07-20T00:00:00Z",
   "end_datetime": "2024-05-01T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "sea-surface-height"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-height",
+    "sea-surface-temperature"
+  ],
+  "osc:missions": [
+    "saral",
+    "cryosat-2",
+    "hy-2b-haiyang-2b",
+    "jason-3",
+    "sentinel-3",
+    "gcom-w1",
+    "gpm-global-precipitation-measurement",
+    "sentinel-6"
+  ],
+  "updated": "2024-09-12T20:32:06.234108Z",
+  "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,28 +166,19 @@
     "Sentinel-3B",
     "Sentinel-6A",
     "AMSR2",
-    "GMI"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sea-surface-height"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "sea-surface-height",
-    "sea-surface-temperature"
-  ],
-  "osc:missions": [
-    "saral",
-    "cryosat-2",
-    "hy-2b-haiyang-2b",
-    "jason-3",
-    "sentinel-3",
-    "gcom-w1",
-    "gpm-global-precipitation-measurement",
-    "sentinel-6"
+    "GMI",
+    "theme:oceans",
+    "variable:sea-surface-height",
+    "variable:sea-surface-temperature",
+    "mission:saral",
+    "mission:cryosat-2",
+    "mission:hy-2b-haiyang-2b",
+    "mission:jason-3",
+    "mission:sentinel-3",
+    "mission:gcom-w1",
+    "mission:gpm-global-precipitation-measurement",
+    "mission:sentinel-6",
+    "region:North Atlantic",
+    "project:esa-science-hub-florian-le-guillou"
   ]
 }

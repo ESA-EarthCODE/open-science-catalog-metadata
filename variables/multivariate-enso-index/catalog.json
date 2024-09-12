@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "multivariate-enso-index",
   "stac_version": "1.0.0",
-  "description": "The MEI is a leading indicator for the El Ni\u00f1o/Southern Oscillation (ENSO) phenomenon and is calculated as the first unrotated Principal Component of six observed variables over the tropical Pacific Ocean. These six variables are: sea level pressure, zonal and meridional components of the surface wind, sea surface temperature, surface air temperature, and total cloudiness fraction of the sky. The MEI is computed for each of twelve sliding bimonthly seasons (Dec/Jan, Jan/Feb,..., Nov/Dec). Negative values of the MEI represent the cold ENSO phase (La Ni\u00f1a), while positive MEI values represent the warm ENSO phase (El Ni\u00f1o).",
+  "description": "The MEI is a leading indicator for the El Niño/Southern Oscillation (ENSO) phenomenon and is calculated as the first unrotated Principal Component of six observed variables over the tropical Pacific Ocean. These six variables are: sea level pressure, zonal and meridional components of the surface wind, sea surface temperature, surface air temperature, and total cloudiness fraction of the sky. The MEI is computed for each of twelve sliding bimonthly seasons (Dec/Jan, Jan/Feb,..., Nov/Dec). Negative values of the MEI represent the cold ENSO phase (La Niña), while positive MEI values represent the warm ENSO phase (El Niño).",
   "links": [
     {
       "rel": "root",
@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.231832Z",
+  "keywords": [],
   "title": "Multivariate Enso Index"
 }

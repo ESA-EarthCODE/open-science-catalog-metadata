@@ -30,6 +30,30 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15/collection.json",
+      "type": "application/json",
+      "title": "Project: SMOS-NINO 2015"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     }
   ],
   "stac_extensions": [
@@ -37,7 +61,6 @@
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Sea Surface Salinity Bias_Global_SMOS",
   "osc:project": "godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -46,6 +69,22 @@
   "start_datetime": "2015-01-01T00:00:00Z",
   "end_datetime": "2016-12-31T23:59:59Z",
   "sci:doi": "10.5194/os-15-543-2019",
+  "cf:parameter": [
+    {
+      "name": "sea_surface_salinity"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "sea-surface-salinity"
+  ],
+  "osc:missions": [
+    "smos"
+  ],
+  "updated": "2024-09-12T20:32:06.229108Z",
+  "title": "Sea Surface Salinity Bias_Global_SMOS",
   "extent": {
     "spatial": {
       "bbox": [
@@ -70,20 +109,11 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice"
-  ],
-  "cf:parameter": [
-    {
-      "name": "sea_surface_salinity"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "sea-surface-salinity"
-  ],
-  "osc:missions": [
-    "smos"
+    "Sea Ice",
+    "theme:oceans",
+    "variable:sea-surface-salinity",
+    "mission:smos",
+    "region:Global",
+    "project:godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15"
   ]
 }

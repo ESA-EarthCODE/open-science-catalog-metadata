@@ -17,11 +17,25 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/model-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json",
+      "title": "Model based Colored Dissolved Organic Matter (CDOM) _Baltics_Model"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.173831Z",
+  "keywords": [],
   "title": "Numerical models"
 }

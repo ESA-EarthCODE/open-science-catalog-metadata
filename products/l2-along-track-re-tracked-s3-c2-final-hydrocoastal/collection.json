@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "l2-along-track-re-tracked-s3-c2-final-hydrocoastal",
   "stac_version": "1.0.0",
-  "description": "HYDROCOASTAL SAR Altimeter L2E: Level 2 Extended Product (Final Product). L2 data sets for coastal zone and inland water for 25 regions. The final product is produced using innovative retracking algorithms for the coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the project. Full description is provided in readme file: https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L2%20Product%20readme_190923.pdf Final Product L2E (Level 2 Extended Format). All final L2E product data are under the top-level folders \u201cs3_full\u201d (Sentinel 3A and 3B data),  and \u201ccs2_full\u201d (Cryosat-2 SAR mode data). Under these top-level folders are zip files  containing all the data for each region. The product formats are described in the HYDROCOASTAL Product Specification Document, available at: https://www.satoc.eu/projects/hydrocoastal/docs.html. The Final product covers 25 regions (See Table  in the  https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L2%20Product%20readme_190923.pdf). The source data are Sentinel 3A and Sentinel 3B SRAL L1a data, for all the operational mission to 30/09/2022 (S3A from 01/04/2016 to 30/09/2022, S3B from 11/05/2018 to 30/09/2022; South Australia starting from 01/01/2017) and Cryosat-2 SAR mode FBR data, for all the operational mission available in Baseline D (from 06/09/2010 to 21/08/2021). Only Cryosat-2 SAR mode data have been processed. For some regions Cryosat-2 has not been in SAR mode and so no Cryosat-2 data are available  Cryosat-2 SARIN data have NOT been processed as part of the final data set but were processed for the Test Data Set. There are no L3 products for CryoSat-2, but subsets of L2 products falling into the water mask (named L2WM). L2WM(AHL) products also contain GSW/Occurrence values, Pfafstetter basin identifier (extracted from HydroBASINS database) and SWORD nodes & reaches metadata (from SWORD v15). U Porto have provided new GPD+ wet and dry troposphere corrections, and these have been merged with the final products. All algorithms are described in the HYDROCOASTAL Algorithm Theoretical Basis Document (ATBD), available online at: https://www.satoc.eu/projects/hydrocoastal/docs.html",
+  "description": "HYDROCOASTAL SAR Altimeter L2E: Level 2 Extended Product (Final Product). L2 data sets for coastal zone and inland water for 25 regions. The final product is produced using innovative retracking algorithms for the coastal zone (UBonn Statistical STARS type) and inland waters (DTU - Multiple Waveform Persistent Peak -MWaPP), selected as the best performing algorithms tested earlier in the project. Full description is provided in readme file: https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L2%20Product%20readme_190923.pdf Final Product L2E (Level 2 Extended Format). All final L2E product data are under the top-level folders “s3_full” (Sentinel 3A and 3B data),  and “cs2_full” (Cryosat-2 SAR mode data). Under these top-level folders are zip files  containing all the data for each region. The product formats are described in the HYDROCOASTAL Product Specification Document, available at: https://www.satoc.eu/projects/hydrocoastal/docs.html. The Final product covers 25 regions (See Table  in the  https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/HYDROCOASTAL%20Final%20L2%20Product%20readme_190923.pdf). The source data are Sentinel 3A and Sentinel 3B SRAL L1a data, for all the operational mission to 30/09/2022 (S3A from 01/04/2016 to 30/09/2022, S3B from 11/05/2018 to 30/09/2022; South Australia starting from 01/01/2017) and Cryosat-2 SAR mode FBR data, for all the operational mission available in Baseline D (from 06/09/2010 to 21/08/2021). Only Cryosat-2 SAR mode data have been processed. For some regions Cryosat-2 has not been in SAR mode and so no Cryosat-2 data are available  Cryosat-2 SARIN data have NOT been processed as part of the final data set but were processed for the Test Data Set. There are no L3 products for CryoSat-2, but subsets of L2 products falling into the water mask (named L2WM). L2WM(AHL) products also contain GSW/Occurrence values, Pfafstetter basin identifier (extracted from HydroBASINS database) and SWORD nodes & reaches metadata (from SWORD v15). U Porto have provided new GPD+ wet and dry troposphere corrections, and these have been merged with the final products. All algorithms are described in the HYDROCOASTAL Algorithm Theoretical Basis Document (ATBD), available online at: https://www.satoc.eu/projects/hydrocoastal/docs.html",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/Hydrocoastal/L2E/cs2_full/catalog.json",
       "type": "application/json",
-      "title": "L2 Extended Product (Final Product)\u2013 for all regions (CS2_FULL)"
+      "title": "L2 Extended Product (Final Product)– for all regions (CS2_FULL)"
     },
     {
       "rel": "child",
@@ -37,13 +37,84 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/hydrocoastal-coastal-ocean-and-inland-water-altimetry/collection.json",
+      "type": "application/json",
+      "title": "Project: HydroCoastal"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/significant-wave-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Significant Wave Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/mean-sea-level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Mean Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-surface-backscatter/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean surface backscatter"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dry-tropospheric-correction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dry Tropospheric Correction"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wet-tropospheric-correction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wet Tropospheric Correction"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/tidal-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Tidal Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product",
   "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
   "osc:status": "completed",
   "osc:region": "Global",
@@ -52,6 +123,30 @@
   "start_datetime": "2010-09-06T00:00:00Z",
   "end_datetime": "2022-09-30T23:59:59Z",
   "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L2E_2010_2022_v_1.0_2023_12",
+  "cf:parameter": [
+    {
+      "name": "l2_along_track_re_tracked_s3_c2_final"
+    }
+  ],
+  "osc:themes": [
+    "oceans",
+    "land"
+  ],
+  "osc:variables": [
+    "significant-wave-height",
+    "sea-level",
+    "mean-sea-level",
+    "ocean-surface-backscatter",
+    "dry-tropospheric-correction",
+    "wet-tropospheric-correction",
+    "tidal-height"
+  ],
+  "osc:missions": [
+    "cryosat-2",
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.219108Z",
+  "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product",
   "extent": {
     "spatial": {
       "bbox": [
@@ -84,28 +179,19 @@
     "Significant Wave Height",
     "Dry Tropospheric Correction",
     "Wet Tropospheric Correction",
-    "Ocean surface backscatter"
-  ],
-  "cf:parameter": [
-    {
-      "name": "l2_along_track_re_tracked_s3_c2_final"
-    }
-  ],
-  "osc:themes": [
-    "oceans",
-    "land"
-  ],
-  "osc:variables": [
-    "significant-wave-height",
-    "sea-level",
-    "mean-sea-level",
-    "ocean-surface-backscatter",
-    "dry-tropospheric-correction",
-    "wet-tropospheric-correction",
-    "tidal-height"
-  ],
-  "osc:missions": [
-    "cryosat-2",
-    "sentinel-3"
+    "Ocean surface backscatter",
+    "theme:oceans",
+    "theme:land",
+    "variable:significant-wave-height",
+    "variable:sea-level",
+    "variable:mean-sea-level",
+    "variable:ocean-surface-backscatter",
+    "variable:dry-tropospheric-correction",
+    "variable:wet-tropospheric-correction",
+    "variable:tidal-height",
+    "mission:cryosat-2",
+    "mission:sentinel-3",
+    "region:Global",
+    "project:hydrocoastal-coastal-ocean-and-inland-water-altimetry"
   ]
 }

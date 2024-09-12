@@ -17,6 +17,42 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Level_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hydrodynamic-model-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sea-level-lpf-ovalie/collection.json",
+      "type": "application/json",
+      "title": "Sea level trends over 1993-2015 and 2005-2015 from the OCCIPUT ensemble simulation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +72,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.241832Z",
+  "keywords": [],
   "title": "Sea Level"
 }

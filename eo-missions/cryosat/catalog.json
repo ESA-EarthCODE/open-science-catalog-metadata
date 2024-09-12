@@ -17,11 +17,169 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/bathymetry-arctic-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Bathymetry_Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hr-tidal-atlas-arctic-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Arctide2017_High-resolution tidal atlas_Arctic Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-antarctica-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Antarctica_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-arctic-canada-north-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada North_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-arctic-canada-south-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada South_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-greenland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Greenland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-iceland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Iceland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-russian-arctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Russian Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-southern-andes-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Southern Andes_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-grid-svalbard-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Gridded Product_Svalbard_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-antarctica-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Antarctica_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-arctic-canada-north-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada North_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-arctic-canada-south-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada South_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-greenland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Greenland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-iceland-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Iceland_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-russian-arctic-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Russian Arctic_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-southern-andes-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Southern Andes_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/land-ice-elevation-point-svalbard-cryotop-evolution/collection.json",
+      "type": "application/json",
+      "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Svalbard_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/lr-satellite-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/rdsar-satellite-sar-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "RDSAR Satellite SAR altimeter product_Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-altimeter-polar-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite LRM, SAR, SARIN polar altimeter product_Polar Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sar-altimeter-coastal-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SAR altimeter product_Coastal Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sar-altimeter-open-ocean-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SAR altimeter product_Open Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sar-altimeter-sea-floor-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SAR altimeter product_Sea Floor Mapping_Oceania_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/satellite-sarin-altimeter-coastal-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Satellite SARIN altimeter product_Coastal Ocean_Cryosat"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/wet-troposphere-correction-cryosat-cp4o/collection.json",
+      "type": "application/json",
+      "title": "Wet Troposphere Correction_for Cryosat"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     }
   ],
+  "updated": "2024-08-27T17:27:42.172831Z",
+  "keywords": [],
   "title": "CryoSat"
 }

@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Variables"
-    },
-    {
       "rel": "via",
       "href": "https://space.oscar.wmo.int/variables/view/ocean_diffuse_attenuation_coefficient_dac",
       "type": "text/html",
@@ -27,6 +21,36 @@
       "href": "https://disc.gsfc.nasa.gov/information/glossary?title=Giovanni%20Parameter%20Definitions:%20Diffuse%20Attenuation%20Coefficient,%20K490",
       "type": "text/html",
       "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/diffuse-attenuation-aeolus-innovation-color/collection.json",
+      "type": "application/json",
+      "title": "Diffuse attenuation: Kd_Global_AEOLUS"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
+      "type": "application/json",
+      "title": "Mean spectral DAC avg for 320-338.5nm (UVAB) 356.5 - 390 nm (UVA) & 390 - 423 nm in the Atlantic Ocean from S5P (TROPOMI)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mean-spectral-dac-from-318-to952nm-of-underwater-light-profiles-rv-polarstern-cruise-ps113/collection.json",
+      "type": "application/json",
+      "title": "Mean spectral DAC from 318-952nm of light profiles measured at discrete stations (RV Polarstern cruise PS113) "
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mean-spectral-dac-from-320-to917nm-from-radiometric-underwater-light-transmission-profiles/collection.json",
+      "type": "application/json",
+      "title": "Mean spectral DAC from 320-917nm from light transmission profiles by an undulating platform towed behind the ship"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
     }
   ],
   "stac_extensions": [
@@ -42,5 +66,7 @@
       ]
     }
   ],
+  "updated": "2024-09-12T20:23:29.834131Z",
+  "keywords": [],
   "title": "Diffuse Attenuation Coefficient (DAC)"
 }

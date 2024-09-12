@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/sea-level-variability-lpf-ovalie/collection.json",
+      "type": "application/json",
+      "title": "Atmospherically-forced and chaotic interannual variability of the sea level and its components over 1993-2015 from the OCCIPUT ensemble simulations"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,5 +42,7 @@
       ]
     }
   ],
+  "updated": "2024-08-27T17:27:42.241832Z",
+  "keywords": [],
   "title": "Sea Level Changes"
 }

@@ -1,0 +1,181 @@
+{
+  "type": "object",
+  "required": [
+    "stac_version",
+    "id",
+    "type",
+    "title",
+    "description",
+    "license",
+    "extent",
+    "links"
+  ],
+  "properties": {
+    "stac_version": {
+      "$ref": "catalog.json#/definitions/stac_version"
+    },
+    "stac_extensions": {
+      "$ref": "catalog.json#/definitions/stac_extensions"
+    },
+    "id": {
+      "$ref": "catalog.json#/definitions/id"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["Collection"],
+      "options": {
+        "hidden": true
+      }
+    },
+    "title": {
+      "$ref": "catalog.json#/definitions/title"
+    },
+    "description": {
+      "$ref": "catalog.json#/definitions/description"
+    },
+    "keywords": {
+      "$ref": "#/definitions/keywords"
+    },
+    "license": {
+      "$ref": "license.json"
+    },
+    "extent": {
+      "$ref": "#/definitions/extent"
+    },
+    "providers": {
+      "$comment": "Currently unusued by OSC catalog",
+      "type": "array",
+      "options": {
+        "hidden": true
+      }
+    },
+    "summaries": {
+      "$comment": "Currently unusued by OSC catalog",
+      "type": "array",
+      "options": {
+        "hidden": true
+      }
+    },
+    "assets": {
+      "$comment": "Currently unusued by OSC catalog",
+      "type": "object",
+      "options": {
+        "hidden": true
+      }
+    },
+    "links": {
+      "$ref": "catalog.json#/definitions/links"
+    }
+  },
+  "definitions": {
+    "keywords": {
+      "title": "Keywords",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "extent": {
+      "title": "Extents",
+      "type": "object",
+      "required": [
+        "spatial",
+        "temporal"
+      ],
+      "properties": {
+        "spatial": {
+          "title": "Spatial Extents",
+          "type": "object",
+          "format": "bounding-boxes",
+          "required": [
+            "bbox"
+          ],
+          "properties": {
+            "bbox": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "format": "bounding-box",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 4,
+                "maxItems": 4
+              },
+              "minItems": 1
+            }
+          }
+        },
+        "temporal": {
+          "title": "Temporal Extents",
+          "type": "object",
+          "format": "temporal-intervals",
+          "required": [
+            "interval"
+          ],
+          "properties": {
+            "interval": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "format": "temporal-interval",
+                "items": {
+                  "type": [
+                    "string", "null"
+                  ],
+                  "format": "date-time"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "minItems": 1
+            }
+          }
+        }
+      }
+    },
+    "osc_name": {
+      "title": "Name",
+      "type": "string",
+      "minLength": 1
+    },
+    "osc_status": {
+      "title": "Status",
+      "type": "string",
+      "enum": [
+        "planned",
+        "ongoing",
+        "completed"
+      ]
+    },
+    "osc_region": {
+      "title": "Region",
+      "type": "string",
+      "minLength": 1
+    },
+    "osc_missions": {
+      "title": "EO Missions",
+      "format": "osc-missions",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "format": "osc-mission",
+        "minLength": 1
+      }
+    },
+    "osc_themes": {
+      "title": "Themes",
+      "type": "array",
+      "format": "osc-themes",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "format": "osc-theme",
+        "minLength": 1
+      }
+    }
+  }
+}

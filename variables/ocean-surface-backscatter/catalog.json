@@ -1,40 +1,60 @@
 {
-    "type": "Catalog",
-    "id": "ocean-surface-backscatter",
-    "stac_version": "1.0.0",
-    "description": "Ocean surface backwards scattering coefficient of radar wave.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/625da982-3648-43fc-a640-1b230509944e?gtm_keyword=RADAR%20BACKSCATTER&gtm_scheme=Earth%20Science",
-        "type": "text/html",
-        "title": "Description"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Variables"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
-    ],
-    "themes": [
-      {
-        "scheme": "https://github.com/stac-extensions/osc#theme",
-        "concepts": [
-          {
-            "id": "Oceans"
-          }
-        ]
-      }
-    ],
-    "title": "Ocean surface backscatter"
-  }  
+  "type": "Catalog",
+  "id": "ocean-surface-backscatter",
+  "stac_version": "1.0.0",
+  "description": "Ocean surface backwards scattering coefficient of radar wave.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/625da982-3648-43fc-a640-1b230509944e?gtm_keyword=RADAR%20BACKSCATTER&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "type": "application/json",
+      "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-08-27T17:27:42.234832Z",
+  "keywords": [],
+  "title": "Ocean surface backscatter"
+}

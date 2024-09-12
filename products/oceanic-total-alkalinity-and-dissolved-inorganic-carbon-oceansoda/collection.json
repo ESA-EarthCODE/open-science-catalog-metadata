@@ -25,13 +25,48 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "Project: OceanSODA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-organic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved Organic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/alkalinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Alkalinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data.",
   "osc:project": "satellite-oceanographic-datasets-for-acidification-oceansoda",
   "osc:status": "completed",
   "osc:region": "Global",
@@ -39,6 +74,24 @@
   "created": "2021-09-15T00:00:00Z",
   "start_datetime": "1985-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "oceanic_total_alkalinity_and_dissolved_inorganic_carbon"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "dissolved-organic-carbon",
+    "alkalinity"
+  ],
+  "osc:missions": [
+    "smos",
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.226108Z",
+  "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data.",
   "extent": {
     "spatial": {
       "bbox": [
@@ -64,22 +117,13 @@
     "Ocean Chemistry",
     "Alkalinity",
     "Organic Carbon",
-    "Dissolved Organic Carbon"
-  ],
-  "cf:parameter": [
-    {
-      "name": "oceanic_total_alkalinity_and_dissolved_inorganic_carbon"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "dissolved-organic-carbon",
-    "alkalinity"
-  ],
-  "osc:missions": [
-    "smos",
-    "sentinel-3"
+    "Dissolved Organic Carbon",
+    "theme:oceans",
+    "variable:dissolved-organic-carbon",
+    "variable:alkalinity",
+    "mission:smos",
+    "mission:sentinel-3",
+    "region:Global",
+    "project:satellite-oceanographic-datasets-for-acidification-oceansoda"
   ]
 }

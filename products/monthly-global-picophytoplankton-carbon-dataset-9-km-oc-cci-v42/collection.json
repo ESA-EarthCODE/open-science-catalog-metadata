@@ -20,13 +20,66 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/biological-pump-and-carbon-exchange-processes/collection.json",
+      "type": "application/json",
+      "title": "Project: BICEP"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/picophytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Picophytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/suomi-npp/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Suomi NPP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/orbview-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: OrbView-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "title": "Monthly Global Picophytoplankton Carbon dataset (9 km, OC-CCI v4.2)",
   "osc:project": "biological-pump-and-carbon-exchange-processes",
   "osc:status": "ongoing",
   "osc:region": "Global",
@@ -34,6 +87,27 @@
   "created": "2023-03-29T00:00:00Z",
   "start_datetime": "1997-09-01T00:00:00Z",
   "end_datetime": "2020-11-30T23:59:59Z",
+  "cf:parameter": [
+    {
+      "name": "mass_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water"
+    }
+  ],
+  "osc:themes": [
+    "oceans"
+  ],
+  "osc:variables": [
+    "picophytoplankton-carbon"
+  ],
+  "osc:missions": [
+    "envisat",
+    "terra",
+    "aqua-eos-pm-1",
+    "suomi-npp",
+    "orbview-2",
+    "sentinel-3"
+  ],
+  "updated": "2024-09-12T20:32:06.225108Z",
+  "title": "Monthly Global Picophytoplankton Carbon dataset (9 km, OC-CCI v4.2)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,25 +133,16 @@
     "Ecosystems",
     "Aquatic Ecosystems",
     "Plankton",
-    "Picophytoplankton Carbon"
-  ],
-  "cf:parameter": [
-    {
-      "name": "mass_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water"
-    }
-  ],
-  "osc:themes": [
-    "oceans"
-  ],
-  "osc:variables": [
-    "picophytoplankton-carbon"
-  ],
-  "osc:missions": [
-    "envisat",
-    "terra",
-    "aqua-eos-pm-1",
-    "suomi-npp",
-    "orbview-2",
-    "sentinel-3"
+    "Picophytoplankton Carbon",
+    "theme:oceans",
+    "variable:picophytoplankton-carbon",
+    "mission:envisat",
+    "mission:terra",
+    "mission:aqua-eos-pm-1",
+    "mission:suomi-npp",
+    "mission:orbview-2",
+    "mission:sentinel-3",
+    "region:Global",
+    "project:biological-pump-and-carbon-exchange-processes"
   ]
 }
