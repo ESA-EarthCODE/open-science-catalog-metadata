@@ -103,12 +103,6 @@
   "keywords": [
     "Snow/Ice",
     "Snow Cover",
-    "Cryospheric Indicators",
-    "theme:cryosphere",
-    "variable:snow-cover",
-    "mission:sentinel-1",
-    "mission:sentinel-2",
-    "region:Switzerland",
-    "project:alpglacier"
+    "Cryospheric Indicators"
   ]
 }

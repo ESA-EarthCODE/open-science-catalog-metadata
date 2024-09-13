@@ -97,11 +97,6 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice",
-    "theme:oceans",
-    "variable:sea-surface-salinity",
-    "mission:smos",
-    "region:Europe",
-    "project:smos-med-sea-surface-salinity-in-the-mediterranean"
+    "Sea Ice"
   ]
 }

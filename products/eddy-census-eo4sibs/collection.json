@@ -123,14 +123,6 @@
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents",
-    "Surface Currents",
-    "theme:oceans",
-    "variable:surface-currents",
-    "mission:smos",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "mission:cryosat-2",
-    "region:Black Sea",
-    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
+    "Surface Currents"
   ]
 }

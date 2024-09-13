@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "l2-smos-sss-daily-descending-eo4sibs",
   "stac_version": "1.0.0",
-  "description": "Salinity retrievals from descending satellite overpasses are averaged in daily maps at 0.25°*0.25° grid. Binning scheme Olmedo et al., 2021a.",
+  "description": "Salinity retrievals from descending satellite overpasses are averaged in daily maps at 0.25\u00b0*0.25\u00b0 grid. Binning scheme Olmedo et al., 2021a.",
   "links": [
     {
       "rel": "root",
@@ -98,7 +98,7 @@
     "cryosat-2"
   ],
   "updated": "2024-09-12T20:32:06.220108Z",
-  "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily",
+  "title": "Level 2 SMOS , Descending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily",
   "extent": {
     "spatial": {
       "bbox": [
@@ -123,14 +123,6 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice",
-    "theme:oceans",
-    "variable:sea-surface-salinity",
-    "mission:smos",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "mission:cryosat-2",
-    "region:Black Sea",
-    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
+    "Sea Ice"
   ]
 }

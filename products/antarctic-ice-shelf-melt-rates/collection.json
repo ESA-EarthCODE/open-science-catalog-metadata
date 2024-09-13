@@ -117,11 +117,6 @@
     "Sea Ice",
     "Sea Ice Volume Budget",
     "Ocean Volume Budget",
-    "Snow/Ice",
-    "theme:cryosphere",
-    "variable:ice-growth-melt",
-    "mission:cryosat-2",
-    "region:Antarctica",
-    "project:Polar+ Ice Shelf"
+    "Snow/Ice"
   ]
 }

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "rainfall-prism-0-25-v4-africa-smos-rainfall",
   "stac_version": "1.0.0",
-  "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25° (about 25x25 km²) and every 3 hours. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm (Pellarin et al., 2009, 2013, 2020, Louvet et al., 2015, Roman-Cascon et al. 2017).",
+  "description": "The PrISM product is a satellite rainfall product initially designed for Africa over a regular grid at 0.25\u00b0 (about 25x25 km\u00b2) and every 3 hours. It is obtained from the synergy of SMOS satellite soil moisture measurements and CMORPH-raw precipitation product through the PrIMS algorithm (Pellarin et al., 2009, 2013, 2020, Louvet et al., 2015, Roman-Cascon et al. 2017).",
   "links": [
     {
       "rel": "root",
@@ -109,11 +109,6 @@
   "license": "proprietary",
   "keywords": [
     "Precipitation",
-    "Precipitation Amount",
-    "theme:land",
-    "variable:precipitation-amount",
-    "mission:smos",
-    "region:Africa",
-    "project:smos-rainfall-land"
+    "Precipitation Amount"
   ]
 }

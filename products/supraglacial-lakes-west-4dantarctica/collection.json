@@ -109,12 +109,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Glacial Lake Extent",
-    "theme:cryosphere",
-    "variable:glacial-lake-extent",
-    "mission:sentinel-2",
-    "mission:landsat-8",
-    "region:West Antarctica and the Antarctic Peninsula",
-    "project:4d-antarctica"
+    "Glacial Lake Extent"
   ]
 }

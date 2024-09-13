@@ -101,11 +101,6 @@
   "license": "proprietary",
   "keywords": [
     "Land Use/Land Cover",
-    "Land Use/Land Cover Classification",
-    "theme:land",
-    "variable:land-use-land-cover-classification",
-    "mission:sentinel-2",
-    "region:Italy",
-    "project:s2-for-land-and-water-change-detection-multi-temporal"
+    "Land Use/Land Cover Classification"
   ]
 }

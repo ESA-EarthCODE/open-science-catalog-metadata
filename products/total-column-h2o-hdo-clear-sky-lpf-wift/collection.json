@@ -95,11 +95,6 @@
   },
   "license": "proprietary",
   "keywords": [
-    "Atmospheric Water Vapor",
-    "theme:atmosphere",
-    "variable:water-vapor-profiles",
-    "mission:sentinel-5p",
-    "region:Global",
-    "project:wift-water-vapour-isotopologues-from-tropomi"
+    "Atmospheric Water Vapor"
   ]
 }

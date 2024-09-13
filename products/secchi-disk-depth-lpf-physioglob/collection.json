@@ -127,15 +127,6 @@
     "Chlorophyll",
     "Chlorophyll Concentration",
     "Ocean Chemistry",
-    "Pigments",
-    "theme:oceans",
-    "variable:chlorophyll-concentration",
-    "mission:orbview-2",
-    "mission:envisat",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "mission:suomi-npp",
-    "region:Global Oceans",
-    "project:physioglob-assessing-the-inter-annual-physiological-response-of-phytoplankton-to-global-warming-using-long-term-satellite-observations"
+    "Pigments"
   ]
 }

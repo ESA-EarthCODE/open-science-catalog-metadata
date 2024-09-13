@@ -101,11 +101,6 @@
   "license": "proprietary",
   "keywords": [
     "Anthroposphere",
-    "Anthropogenic Water Use",
-    "theme:land",
-    "variable:anthropogenic-water-use",
-    "mission:sentinel-1",
-    "region:Ebro basin (North-eastern Spain)",
-    "project:irrigation"
+    "Anthropogenic Water Use"
   ]
 }

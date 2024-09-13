@@ -108,11 +108,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Glacial Lake Extent",
-    "theme:cryosphere",
-    "variable:glacial-lake-extent",
-    "mission:sentinel-1",
-    "region:Greenland - Watson basin",
-    "project:4d-greenland"
+    "Glacial Lake Extent"
   ]
 }

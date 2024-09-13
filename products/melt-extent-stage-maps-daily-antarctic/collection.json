@@ -108,11 +108,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Glacier Melt",
-    "theme:cryosphere",
-    "variable:glacier-melt",
-    "mission:metop",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Glacier Melt"
   ]
 }

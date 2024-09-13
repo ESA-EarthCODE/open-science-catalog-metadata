@@ -125,14 +125,6 @@
     "Chlorophyll",
     "Chlorophyll Concentration",
     "Ocean Chemistry",
-    "Pigments",
-    "theme:oceans",
-    "variable:chlorophyll-concentration",
-    "mission:smos",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "mission:cryosat-2",
-    "region:Black Sea",
-    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
+    "Pigments"
   ]
 }

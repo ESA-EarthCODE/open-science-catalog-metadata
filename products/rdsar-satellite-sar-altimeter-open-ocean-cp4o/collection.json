@@ -109,12 +109,6 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Surface Height",
-    "Sea Surface Height Anomaly (SSHA)",
-    "theme:oceans",
-    "theme:cryosphere",
-    "variable:sea-surface-height-anomaly-ssha",
-    "mission:cryosat",
-    "region:Pacific and North Atlantic",
-    "project:cryosat-plus-for-oceans-cp4o"
+    "Sea Surface Height Anomaly (SSHA)"
   ]
 }

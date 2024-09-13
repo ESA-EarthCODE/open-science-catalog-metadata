@@ -104,11 +104,6 @@
   "keywords": [
     "Topography",
     "Terrain Elevation",
-    "Digital Elevation/Terrain Model (DEM)",
-    "theme:cryosphere",
-    "variable:digital-elevation-terrain-model-dem",
-    "mission:cryosat-2",
-    "region:Antarctica",
-    "project:stse-cryosat-cryotop-evolution"
+    "Digital Elevation/Terrain Model (DEM)"
   ]
 }

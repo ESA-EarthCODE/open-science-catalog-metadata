@@ -110,12 +110,6 @@
     "Tectonics",
     "Volcanic Activity",
     "Volcano Predictions",
-    "Volcano Occurrences",
-    "theme:solid-earth",
-    "variable:volcano-occurrences",
-    "variable:volcano-predictions",
-    "mission:sentinel-1",
-    "region:Global",
-    "project:volcano-monitoring-using-deep-learning"
+    "Volcano Occurrences"
   ]
 }

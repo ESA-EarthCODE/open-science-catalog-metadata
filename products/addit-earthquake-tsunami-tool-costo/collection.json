@@ -103,11 +103,6 @@
   "license": "proprietary",
   "keywords": [
     "Sun-Earth Interactions",
-    "Ionosphere/Magnetosphere Dynamics",
-    "theme:magnetosphere-ionosphere",
-    "variable:ionosphere-magnetosphere-dynamics",
-    "mission:swarm",
-    "region:Japan",
-    "project:contribution-of-swarm-data-to-the-prompt-detection-of-tsunamis-and-other-natural-hazards-costo"
+    "Ionosphere/Magnetosphere Dynamics"
   ]
 }

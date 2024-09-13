@@ -97,11 +97,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Ice Sheets and Ice Shelves",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:ice-sheets-and-ice-shelves",
-    "mission:smos",
-    "region:Antarctica",
-    "project:cryosmos"
+    "Sea Ice"
   ]
 }

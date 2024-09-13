@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "dem-antarctica-2017-lpf-mitap",
   "stac_version": "1.0.0",
-  "description": "Digital Elevation Model Antarctic Peninsula <70°S 2017",
+  "description": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2017",
   "links": [
     {
       "rel": "root",
@@ -73,7 +73,7 @@
     "tandem-x"
   ],
   "updated": "2024-09-12T20:32:06.213108Z",
-  "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X",
+  "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2017_Antarctica_TanDEM-X",
   "extent": {
     "spatial": {
       "bbox": [
@@ -98,12 +98,6 @@
   "keywords": [
     "Topography",
     "Terrain Elevation",
-    "Digital Elevation/Terrain Model (DEM)",
-    "theme:cryosphere",
-    "theme:land",
-    "variable:digital-elevation-terrain-model-dem",
-    "mission:tandem-x",
-    "region:Antarctica",
-    "project:mass-balance-and-ice-dynamics-of-antarctic-peninsula-glaciers-mit-ap"
+    "Digital Elevation/Terrain Model (DEM)"
   ]
 }

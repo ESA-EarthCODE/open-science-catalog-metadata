@@ -103,11 +103,6 @@
     "Glaciers/Ice Sheets",
     "Basal Melt",
     "Glacial Processes",
-    "Ice Sheets and Ice Shelves",
-    "theme:cryosphere",
-    "variable:basal-melt-rate",
-    "mission:sentinel-1",
-    "region:Greenland",
-    "project:4d-greenland"
+    "Ice Sheets and Ice Shelves"
   ]
 }

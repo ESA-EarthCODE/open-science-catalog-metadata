@@ -111,13 +111,6 @@
   "keywords": [
     "Snow/Ice",
     "Snow Cover",
-    "Cryospheric Indicators",
-    "theme:cryosphere",
-    "variable:snow-cover",
-    "mission:sentinel-1",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "region:Europe",
-    "project:development-of-pan-european-multi-sensor-snow-mapping-methods-exploiting-sentinel-1"
+    "Cryospheric Indicators"
   ]
 }

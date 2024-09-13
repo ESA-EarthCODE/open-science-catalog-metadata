@@ -95,11 +95,6 @@
   },
   "license": "proprietary",
   "keywords": [
-    "Atmospheric Water Vapor",
-    "theme:atmosphere",
-    "variable:water-vapor-profiles",
-    "mission:gosat",
-    "region:Global",
-    "project:water-cycle-changes-characterised-from-atmospheric-moisture-recycling-weather"
+    "Atmospheric Water Vapor"
   ]
 }

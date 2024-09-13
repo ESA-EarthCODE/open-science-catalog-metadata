@@ -96,11 +96,6 @@
   "license": "proprietary",
   "keywords": [
     "Aerosols",
-    "Aerosol Optical Depth/Thickness",
-    "theme:atmosphere",
-    "variable:aerosol-optical-depth-thickness",
-    "mission:aeolus",
-    "region:Global Oceans",
-    "project:aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails"
+    "Aerosol Optical Depth/Thickness"
   ]
 }

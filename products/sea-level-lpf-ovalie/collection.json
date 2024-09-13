@@ -100,10 +100,6 @@
   "license": "proprietary",
   "keywords": [
     "Sea Surface Topography",
-    "Sea Level",
-    "theme:oceans",
-    "variable:sea-level",
-    "region:Global",
-    "project:ovalie-oceanic-intrinsic-variability-versus-atmospheric-forced-variability-of-sea-level-change"
+    "Sea Level"
   ]
 }

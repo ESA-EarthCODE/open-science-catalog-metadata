@@ -128,15 +128,6 @@
   "license": "proprietary",
   "keywords": [
     "Climate Indicators",
-    "Carbon Flux",
-    "theme:land",
-    "variable:carbon-flux",
-    "mission:sentinel-5p",
-    "mission:smos",
-    "mission:meteosat",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "region:Global",
-    "project:vad3emecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress"
+    "Carbon Flux"
   ]
 }

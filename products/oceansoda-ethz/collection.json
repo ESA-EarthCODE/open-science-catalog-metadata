@@ -126,14 +126,6 @@
     "Alkalinity",
     "Water Quality/Water Chemistry",
     "Water Characteristics",
-    "Carbon Dioxide",
-    "theme:oceans",
-    "variable:alkalinity",
-    "variable:carbon-dioxide",
-    "variable:carbonate",
-    "mission:smos",
-    "mission:sentinel-3",
-    "region:Global",
-    "project:satellite-oceanographic-datasets-for-acidification-oceansoda"
+    "Carbon Dioxide"
   ]
 }

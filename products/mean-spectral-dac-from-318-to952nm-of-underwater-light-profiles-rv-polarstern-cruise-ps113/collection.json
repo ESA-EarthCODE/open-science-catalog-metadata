@@ -109,12 +109,6 @@
   "keywords": [
     "Ocean Optics",
     "Attenuation/Transmission",
-    "Diffuse Attenuation Coefficient (DAC)",
-    "theme:oceans",
-    "theme:atmosphere",
-    "variable:diffuse-attenuation-coefficient-dac",
-    "mission:sentinel-5p",
-    "region:South Atlantic Ocean",
-    "project:sentinel-5p-innovation-ocean-colour-s5p-i-oc"
+    "Diffuse Attenuation Coefficient (DAC)"
   ]
 }

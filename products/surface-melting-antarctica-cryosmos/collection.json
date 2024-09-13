@@ -105,11 +105,6 @@
     "Snow/Ice",
     "Ice Growth/Melt",
     "Cryospheric Indicators",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:ice-growth-melt",
-    "mission:smos",
-    "region:Antarctica",
-    "project:cryosmos"
+    "Sea Ice"
   ]
 }

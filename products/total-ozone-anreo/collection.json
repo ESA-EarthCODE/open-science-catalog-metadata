@@ -109,11 +109,6 @@
   "keywords": [
     "Atmospheric Chemistry",
     "Oxygen Compounds",
-    "Atmospheric Ozone",
-    "theme:atmosphere",
-    "variable:total-ozone",
-    "mission:sentinel-3",
-    "region:Antarctica",
-    "project:anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica"
+    "Atmospheric Ozone"
   ]
 }

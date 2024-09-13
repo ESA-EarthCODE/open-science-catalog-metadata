@@ -103,11 +103,6 @@
     "Clouds",
     "Cloud Microphysics",
     "Cloud Optical Depth/Thickness",
-    "Cloud Properties",
-    "theme:atmosphere",
-    "variable:cloud-optical-depth-thickness",
-    "mission:calipso",
-    "region:Global",
-    "project:lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas"
+    "Cloud Properties"
   ]
 }

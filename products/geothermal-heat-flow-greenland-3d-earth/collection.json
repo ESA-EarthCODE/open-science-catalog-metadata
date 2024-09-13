@@ -108,12 +108,6 @@
   "license": "proprietary",
   "keywords": [
     "Geothermal Dynamics",
-    "Geothermal Energy",
-    "theme:solid-earth",
-    "variable:geothermal-energy",
-    "mission:goce",
-    "mission:swarm",
-    "region:Arctic",
-    "project:3d-earth"
+    "Geothermal Energy"
   ]
 }

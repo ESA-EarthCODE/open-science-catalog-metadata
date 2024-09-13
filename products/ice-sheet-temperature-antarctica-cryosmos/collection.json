@@ -103,11 +103,6 @@
   "license": "proprietary",
   "keywords": [
     "Sea Ice",
-    "Ice Temperature",
-    "theme:cryosphere",
-    "variable:ice-temperature",
-    "mission:smos",
-    "region:Antarctica",
-    "project:cryosmos"
+    "Ice Temperature"
   ]
 }

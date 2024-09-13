@@ -104,12 +104,6 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Surface Height",
-    "Sea Surface Height Anomaly (SSHA)",
-    "theme:oceans",
-    "variable:sea-surface-height-anomaly-ssha",
-    "mission:grace",
-    "mission:grace-fo",
-    "region:Global",
-    "project:baltic-seal-sea-level"
+    "Sea Surface Height Anomaly (SSHA)"
   ]
 }

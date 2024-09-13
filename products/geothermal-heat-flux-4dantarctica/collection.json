@@ -94,10 +94,6 @@
   "keywords": [
     "Geothermal Dynamics",
     "Geothermal Energy",
-    "Geothermal Heat Flux",
-    "theme:cryosphere",
-    "variable:geothermal-heat-flux",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Geothermal Heat Flux"
   ]
 }

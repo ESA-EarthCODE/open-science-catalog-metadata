@@ -95,10 +95,6 @@
     "Surface Water",
     "Surface Water Processes/Measurements",
     "Runoff",
-    "Total Runoff",
-    "theme:cryosphere",
-    "variable:total-runoff",
-    "region:Greenland",
-    "project:4d-greenland"
+    "Total Runoff"
   ]
 }

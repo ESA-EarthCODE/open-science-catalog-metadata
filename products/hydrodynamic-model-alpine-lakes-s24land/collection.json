@@ -113,13 +113,6 @@
     "Surface Water Features",
     "Lakes/Reservoirs",
     "Terrestrial Hydrosphere",
-    "Montane Lake",
-    "theme:land",
-    "variable:lakes-reservoirs",
-    "variable:montane-lake",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "region:Western Europe",
-    "project:s2-for-land-and-water-coastal-and-inland-waters-theme"
+    "Montane Lake"
   ]
 }

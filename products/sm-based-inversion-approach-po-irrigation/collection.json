@@ -101,11 +101,6 @@
   "license": "proprietary",
   "keywords": [
     "Anthroposphere",
-    "Anthropogenic Water Use",
-    "theme:land",
-    "variable:anthropogenic-water-use",
-    "mission:sentinel-1",
-    "region:Po valley (Northern Italy)",
-    "project:irrigation"
+    "Anthropogenic Water Use"
   ]
 }

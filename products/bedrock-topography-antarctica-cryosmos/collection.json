@@ -97,11 +97,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glacier Thickness/Ice Sheet Thickness",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-thickness-ice-sheet-thickness",
-    "mission:smos",
-    "region:Antarctica",
-    "project:cryosmos"
+    "Sea Ice"
   ]
 }

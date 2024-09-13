@@ -94,11 +94,6 @@
   "keywords": [
     "Ocean Optics",
     "Attenuation/Transmission",
-    "Diffuse Attenuation Coefficient (DAC)",
-    "theme:oceans",
-    "variable:diffuse-attenuation-coefficient-dac",
-    "mission:aeolus",
-    "region:Global",
-    "project:aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color"
+    "Diffuse Attenuation Coefficient (DAC)"
   ]
 }

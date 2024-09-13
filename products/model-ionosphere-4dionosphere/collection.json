@@ -88,11 +88,6 @@
   "license": "proprietary",
   "keywords": [
     "Sun-Earth Interactions",
-    "Ionosphere/Magnetosphere Dynamics",
-    "theme:magnetosphere-ionosphere",
-    "variable:ionosphere-magnetosphere-dynamics",
-    "mission:swarm",
-    "region:Global",
-    "project:4dionosphere-swarm-vip"
+    "Ionosphere/Magnetosphere Dynamics"
   ]
 }

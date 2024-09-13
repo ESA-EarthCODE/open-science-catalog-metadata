@@ -109,11 +109,6 @@
   "keywords": [
     "Snow/Ice",
     "Ice Velocity",
-    "Terrestrial Hydrosphere",
-    "theme:cryosphere",
-    "variable:ice-velocity",
-    "mission:sentinel-1",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Terrestrial Hydrosphere"
   ]
 }

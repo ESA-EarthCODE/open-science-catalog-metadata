@@ -93,11 +93,6 @@
   "license": "proprietary",
   "keywords": [
     "Ocean Chemistry",
-    "Organic Matter",
-    "theme:oceans",
-    "variable:colored-dissolved-organic-matter",
-    "mission:aeolus",
-    "region:Global",
-    "project:aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color"
+    "Organic Matter"
   ]
 }

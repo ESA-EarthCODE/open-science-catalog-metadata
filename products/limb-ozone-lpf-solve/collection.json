@@ -102,12 +102,6 @@
   "keywords": [
     "Atmospheric Chemistry",
     "Oxygen Compounds",
-    "Atmospheric Ozone",
-    "theme:atmosphere",
-    "variable:total-ozone",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "region:Global",
-    "project:stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve"
+    "Atmospheric Ozone"
   ]
 }

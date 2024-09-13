@@ -132,15 +132,6 @@
     "Glacier Elevation/Ice Sheet Elevation",
     "Cryospheric Indicators",
     "Glacial Measurements",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-elevation-ice-sheet-elevation",
-    "mission:ers-1",
-    "mission:ers-2",
-    "mission:envisat",
-    "mission:cryosat-2",
-    "mission:sentinel-3",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Sea Ice"
   ]
 }

@@ -102,11 +102,6 @@
   "keywords": [
     "Atmospheric Water Vapor",
     "Water Vapor Indicators",
-    "Water Vapor",
-    "theme:atmosphere",
-    "variable:water-vapor",
-    "mission:sentinel-5p",
-    "region:Global",
-    "project:wift-water-vapour-isotopologues-from-tropomi"
+    "Water Vapor"
   ]
 }

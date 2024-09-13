@@ -107,12 +107,6 @@
     "Snow/Ice",
     "Land Surface",
     "Surface Radiative Properties",
-    "Terrestrial Hydrosphere",
-    "theme:cryosphere",
-    "theme:land",
-    "variable:albedo",
-    "mission:sentinel-3",
-    "region:Greenland",
-    "project:sentinel-3-for-science-land-study-1-snow"
+    "Terrestrial Hydrosphere"
   ]
 }

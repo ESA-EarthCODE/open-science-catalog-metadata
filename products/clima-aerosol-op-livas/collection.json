@@ -115,12 +115,6 @@
   "license": "proprietary",
   "keywords": [
     "Aerosols",
-    "Aerosol Optical Depth/Thickness",
-    "theme:atmosphere",
-    "variable:aerosol-optical-depth-thickness",
-    "mission:calipso",
-    "mission:earthcare",
-    "region:Global",
-    "project:lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas"
+    "Aerosol Optical Depth/Thickness"
   ]
 }

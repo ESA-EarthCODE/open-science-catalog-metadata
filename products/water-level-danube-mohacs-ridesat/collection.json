@@ -130,15 +130,6 @@
   "keywords": [
     "Terrestrial Hydrosphere",
     "Surface Water",
-    "Surface Water Processes/Measurements",
-    "theme:land",
-    "variable:surface-water-processes-measurements",
-    "mission:sentinel-3",
-    "mission:saral",
-    "mission:cryosat-2",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "region:Europe",
-    "project:ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data"
+    "Surface Water Processes/Measurements"
   ]
 }

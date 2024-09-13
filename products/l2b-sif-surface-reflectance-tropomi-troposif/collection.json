@@ -101,11 +101,6 @@
   "license": "proprietary",
   "keywords": [
     "Land Surface",
-    "Surface Radiative Properties",
-    "theme:atmosphere",
-    "variable:reflectance",
-    "mission:sentinel-5p",
-    "region:Global",
-    "project:sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif"
+    "Surface Radiative Properties"
   ]
 }

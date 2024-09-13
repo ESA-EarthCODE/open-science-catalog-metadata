@@ -118,13 +118,6 @@
   "keywords": [
     "Gravity/Gravitational Field",
     "Gravitational Field",
-    "Crustal Motion",
-    "theme:solid-earth",
-    "theme:cryosphere",
-    "variable:gravitational-field",
-    "variable:crustal-motion",
-    "mission:goce",
-    "region:Antarctica",
-    "project:goce-antarctica"
+    "Crustal Motion"
   ]
 }
