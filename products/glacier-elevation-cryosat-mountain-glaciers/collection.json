@@ -93,11 +93,6 @@
     "Glacier Elevation/Ice Sheet Elevation",
     "Cryospheric Indicators",
     "Glacial Measurements",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-elevation-ice-sheet-elevation",
-    "mission:cryosat-2",
-    "region:Global",
-    "project:cryosat-mountain-glaciers"
+    "Sea Ice"
   ]
 }

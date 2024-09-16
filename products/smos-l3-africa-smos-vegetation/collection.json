@@ -98,11 +98,6 @@
     "Climate Indicators",
     "Soils",
     "Soil Moisture/Water Content",
-    "Agriculture",
-    "theme:land",
-    "variable:soil-moisture",
-    "mission:smos",
-    "region:Africa",
-    "project:smos-vegetation"
+    "Agriculture"
   ]
 }

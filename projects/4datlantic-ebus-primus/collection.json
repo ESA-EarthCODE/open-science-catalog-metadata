@@ -56,13 +56,13 @@
       ]
     },
     {
-      "name": "FCiências.ID (U. Lisbon) – FC.ID (PT)",
+      "name": "FCi\u00eancias.ID (U. Lisbon) \u2013 FC.ID (PT)",
       "roles": [
         "consortium_member"
       ]
     },
     {
-      "name": "Instituto de Investigacións Mariñas – CSIC (ES)",
+      "name": "Instituto de Investigaci\u00f3ns Mari\u00f1as \u2013 CSIC (ES)",
       "roles": [
         "consortium_member"
       ]
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "name": "University of Las Palmas de Gran Canaria – ULPGC (ES)",
+      "name": "University of Las Palmas de Gran Canaria \u2013 ULPGC (ES)",
       "roles": [
         "consortium_member"
       ]
@@ -106,7 +106,5 @@
     }
   },
   "license": "proprietary",
-  "keywords": [
-    "theme:Cryosphere"
-  ]
+  "keywords": []
 }

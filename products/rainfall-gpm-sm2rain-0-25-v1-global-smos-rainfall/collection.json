@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall",
   "stac_version": "1.0.0",
-  "description": "Rainfall dataset based on the integration of IMERG Early Run of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT, SMOS and SMAP L3 soil moisture Rainfall dataset based on the integration of IMERG-LR of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT H113 H-SAF , SMOS L3 and SMAP L3 soil moisture products. The dataset is available +/-60° (2007-2018). More details on the grid and data can be found in the netCDF file. The quality flag provided with the dataset has been used to mask out low quality data, as well as the areas characterised by complex topographic, frozen soil, and presence of tropical forests.",
+  "description": "Rainfall dataset based on the integration of IMERG Early Run of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT, SMOS and SMAP L3 soil moisture Rainfall dataset based on the integration of IMERG-LR of the Global Precipitation Measurement Mission (GPM) with SM2RAIN-based rainfall estimates derived from ASCAT H113 H-SAF , SMOS L3 and SMAP L3 soil moisture products. The dataset is available +/-60\u00b0 (2007-2018). More details on the grid and data can be found in the netCDF file. The quality flag provided with the dataset has been used to mask out low quality data, as well as the areas characterised by complex topographic, frozen soil, and presence of tropical forests.",
   "links": [
     {
       "rel": "root",
@@ -123,13 +123,6 @@
   "license": "proprietary",
   "keywords": [
     "Precipitation",
-    "Precipitation Amount",
-    "theme:land",
-    "variable:precipitation-amount",
-    "mission:metop",
-    "mission:smos",
-    "mission:smap",
-    "region:Global",
-    "project:smos-rainfall-land"
+    "Precipitation Amount"
   ]
 }

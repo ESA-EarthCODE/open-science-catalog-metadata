@@ -90,9 +90,5 @@
     }
   },
   "license": "proprietary",
-  "keywords": [
-    "theme:Land",
-    "theme:Oceans",
-    "theme:Atmosphere"
-  ]
+  "keywords": []
 }

@@ -130,15 +130,6 @@
     "Snow/Ice",
     "Land Surface",
     "Surface Radiative Properties",
-    "Terrestrial Hydrosphere",
-    "theme:cryosphere",
-    "theme:atmosphere",
-    "theme:land",
-    "variable:albedo",
-    "mission:sentinel-2",
-    "mission:landsat-8",
-    "mission:terra",
-    "region:Europe",
-    "project:alpsnow"
+    "Terrestrial Hydrosphere"
   ]
 }

@@ -103,12 +103,6 @@
   "license": "proprietary",
   "keywords": [
     "Ocean",
-    "Ocean Heat Budget",
-    "theme:oceans",
-    "variable:ocean-heat-budget",
-    "mission:grace",
-    "mission:grace-fo",
-    "region:Global",
-    "project:baltic-seal-sea-level"
+    "Ocean Heat Budget"
   ]
 }

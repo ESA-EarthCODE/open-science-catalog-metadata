@@ -108,12 +108,6 @@
   "license": "proprietary",
   "keywords": [
     "Bathymetry/Seafloor Topography",
-    "Bathymetry",
-    "theme:oceans",
-    "theme:cryosphere",
-    "variable:bathymetry",
-    "mission:cryosat",
-    "region:Oceania",
-    "project:cryosat-plus-for-oceans-cp4o"
+    "Bathymetry"
   ]
 }

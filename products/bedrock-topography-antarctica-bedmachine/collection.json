@@ -120,12 +120,6 @@
     "Snow/Ice",
     "Glaciers/Ice Sheets",
     "Glacier Thickness/Ice Sheet Thickness",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:ice-depth-thickness",
-    "variable:glacier-thickness-ice-sheet-thickness",
-    "mission:numerical-models",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Sea Ice"
   ]
 }

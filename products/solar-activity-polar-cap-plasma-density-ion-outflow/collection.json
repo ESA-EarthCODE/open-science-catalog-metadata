@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "solar-activity-polar-cap-plasma-density-ion-outflow",
   "stac_version": "1.0.0",
-  "description": "Solar activity- and height-adjusted plasma density measurements in the polar cap (i.e., above 80° latitude in Modified Apex110 coordinates) from the Swarm and CHAMP satellites. covering the entire CHAMP mission period (2002-2009) and the Swarm mission period from launch through February 2020.",
+  "description": "Solar activity- and height-adjusted plasma density measurements in the polar cap (i.e., above 80\u00b0 latitude in Modified Apex110 coordinates) from the Swarm and CHAMP satellites. covering the entire CHAMP mission period (2002-2009) and the Swarm mission period from launch through February 2020.",
   "links": [
     {
       "rel": "root",
@@ -103,11 +103,6 @@
   "license": "proprietary",
   "keywords": [
     "Sun-Earth Interactions",
-    "Solar Activity",
-    "theme:magnetosphere-ionosphere",
-    "variable:solar-activity",
-    "mission:swarm",
-    "region:Global",
-    "project:swarm-coupling-high-low-atmosphere-interactions-ion-outflow"
+    "Solar Activity"
   ]
 }

@@ -143,17 +143,6 @@
     "Ionosphere/Magnetosphere Dynamics",
     "Magnetic Fields/Magnetic Currents",
     "Sun-Earth Interactions",
-    "Geomagnetic Indices",
-    "theme:solid-earth",
-    "theme:magnetosphere-ionosphere",
-    "variable:magnetic-fields-magnetic-currents",
-    "variable:geomagnetic-indices",
-    "mission:swarm",
-    "mission:cryosat-2",
-    "mission:champ",
-    "mission:sac-c",
-    "mission:oersted",
-    "region:Global",
-    "project:the-4d-earth-swarm-project"
+    "Geomagnetic Indices"
   ]
 }

@@ -152,19 +152,6 @@
   "license": "proprietary",
   "keywords": [
     "Sea Surface Topography",
-    "Sea Level",
-    "theme:oceans",
-    "variable:sea-level",
-    "mission:topex-poseidon",
-    "mission:ers-2",
-    "mission:jason-1",
-    "mission:jason-2",
-    "mission:jason-3",
-    "mission:envisat",
-    "mission:cryosat-2",
-    "mission:saral",
-    "mission:sentinel-3",
-    "region:Baltics",
-    "project:baltic-seal-sea-level"
+    "Sea Level"
   ]
 }

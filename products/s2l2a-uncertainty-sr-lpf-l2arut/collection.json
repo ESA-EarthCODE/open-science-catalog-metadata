@@ -89,11 +89,6 @@
   "license": "proprietary",
   "keywords": [
     "Land Surface",
-    "Surface Radiative Properties",
-    "theme:land",
-    "variable:reflectance",
-    "mission:sentinel-2",
-    "region:Global",
-    "project:l2a-rut"
+    "Surface Radiative Properties"
   ]
 }

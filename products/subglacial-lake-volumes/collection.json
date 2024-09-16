@@ -102,11 +102,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Subglacial Lake",
-    "theme:cryosphere",
-    "variable:subglacial-lake",
-    "mission:cryosat-2",
-    "region:Greenland",
-    "project:4d-greenland"
+    "Subglacial Lake"
   ]
 }

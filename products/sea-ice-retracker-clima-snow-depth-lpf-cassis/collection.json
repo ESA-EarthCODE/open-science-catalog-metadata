@@ -130,15 +130,6 @@
   "keywords": [
     "Sea Ice",
     "Ice Depth/Thickness",
-    "Freeboard",
-    "theme:cryosphere",
-    "variable:ice-depth-thickness",
-    "variable:freeboard",
-    "mission:envisat",
-    "mission:gcom-w1",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "region:Antarctica",
-    "project:cassis-climate-altimetric-studies-with-sea-ice-and-snow"
+    "Freeboard"
   ]
 }

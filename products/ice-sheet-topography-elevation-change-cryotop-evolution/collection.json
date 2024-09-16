@@ -104,11 +104,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glacier Topography/Ice Sheet Topography",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-topography-ice-sheet-topography",
-    "mission:cryosat-2",
-    "region:Greenland",
-    "project:stse-cryosat-cryotop-evolution"
+    "Sea Ice"
   ]
 }

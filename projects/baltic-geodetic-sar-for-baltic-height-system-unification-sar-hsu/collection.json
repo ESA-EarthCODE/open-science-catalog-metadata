@@ -54,13 +54,13 @@
       "rel": "child",
       "href": "../../products/ionospheric-delays-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
+      "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission"
     },
     {
       "rel": "child",
       "href": "../../products/s1-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
+      "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "name": "TALLINNA TEHNIKAÃ¢ËÅ¡ÃÂºLIKOOL (EE)",
+      "name": "TALLINNA TEHNIKA\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0083\u00c2\u00baLIKOOL (EE)",
       "roles": [
         "consortium_member"
       ]
@@ -202,7 +202,5 @@
     }
   },
   "license": "proprietary",
-  "keywords": [
-    "theme:Oceans"
-  ]
+  "keywords": []
 }

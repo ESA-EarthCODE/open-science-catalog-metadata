@@ -94,10 +94,6 @@
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents",
-    "Surface Currents",
-    "theme:oceans",
-    "variable:surface-currents",
-    "region:North Atlantic",
-    "project:world-ocean-circulation"
+    "Surface Currents"
   ]
 }

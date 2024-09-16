@@ -111,13 +111,6 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Surface Height",
-    "Sea Surface Height Anomaly (SSHA)",
-    "theme:oceans",
-    "variable:sea-surface-height-anomaly-ssha",
-    "mission:goce",
-    "mission:sentinel-1",
-    "mission:glonass",
-    "region:Baltics",
-    "project:baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu"
+    "Sea Surface Height Anomaly (SSHA)"
   ]
 }

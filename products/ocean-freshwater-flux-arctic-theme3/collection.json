@@ -194,24 +194,6 @@
   "license": "proprietary",
   "keywords": [
     "Atmospheric/Ocean Indicators",
-    "Fresh Water River Discharge",
-    "theme:oceans",
-    "theme:land",
-    "variable:fresh-water-river-discharge",
-    "mission:sentinel-1",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "mission:cryosat-2",
-    "mission:icesat",
-    "mission:grace",
-    "mission:smos",
-    "mission:envisat",
-    "mission:ers-1",
-    "mission:ers-2",
-    "mission:saral",
-    "mission:jason-1",
-    "mission:jason-2",
-    "region:Arctic",
-    "project:arctic-theme-3-fresh-water-fluxes"
+    "Fresh Water River Discharge"
   ]
 }

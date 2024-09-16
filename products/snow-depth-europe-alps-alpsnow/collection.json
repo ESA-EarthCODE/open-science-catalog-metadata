@@ -121,14 +121,6 @@
     "Snow/Ice",
     "Snow Depth",
     "Cryospheric Indicators",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:snow-depth",
-    "mission:sentinel-2",
-    "mission:landsat-8",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "region:Europe",
-    "project:alpsnow"
+    "Sea Ice"
   ]
 }

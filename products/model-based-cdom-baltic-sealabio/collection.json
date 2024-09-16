@@ -103,12 +103,6 @@
   "license": "proprietary",
   "keywords": [
     "Ocean Chemistry",
-    "Organic Matter",
-    "theme:oceans",
-    "theme:land",
-    "variable:colored-dissolved-organic-matter",
-    "mission:numerical-models",
-    "region:Baltics",
-    "project:baltic-sea-land-biogeochemical-linkages-sealabio"
+    "Organic Matter"
   ]
 }

@@ -87,10 +87,6 @@
   "license": "proprietary",
   "keywords": [
     "Ocean Circulation",
-    "Ocean Currents",
-    "theme:oceans",
-    "variable:ocean-currents",
-    "region:North Atlantic",
-    "project:world-ocean-circulation"
+    "Ocean Currents"
   ]
 }

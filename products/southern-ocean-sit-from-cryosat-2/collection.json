@@ -126,13 +126,6 @@
     "Cryospheric Indicators",
     "Sea Ice",
     "Freeboard",
-    "Ice Depth/Thickness",
-    "theme:cryosphere",
-    "variable:snow-depth",
-    "variable:freeboard",
-    "variable:ice-depth-thickness",
-    "mission:cryosat-2",
-    "region:Antarctica",
-    "project:cryosat-antarctic-ocean"
+    "Ice Depth/Thickness"
   ]
 }

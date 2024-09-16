@@ -111,12 +111,6 @@
     "Chlorophyll",
     "Chlorophyll Concentration",
     "Ocean Chemistry",
-    "Pigments",
-    "theme:oceans",
-    "theme:atmosphere",
-    "variable:chlorophyll-concentration",
-    "mission:sentinel-5p",
-    "region:South Atlantic Ocean",
-    "project:sentinel-5p-innovation-ocean-colour-s5p-i-oc"
+    "Pigments"
   ]
 }

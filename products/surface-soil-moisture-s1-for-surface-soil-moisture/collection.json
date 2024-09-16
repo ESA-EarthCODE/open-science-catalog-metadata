@@ -107,11 +107,6 @@
     "Climate Indicators",
     "Soils",
     "Soil Moisture/Water Content",
-    "Agriculture",
-    "theme:land",
-    "variable:soil-moisture",
-    "mission:sentinel-1",
-    "region:South Italy",
-    "project:sentinel-1-for-surface-soil-moisture"
+    "Agriculture"
   ]
 }

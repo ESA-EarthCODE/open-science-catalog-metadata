@@ -178,21 +178,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Glacial Lake Extent",
-    "theme:cryosphere",
-    "variable:glacial-lake-extent",
-    "mission:cryosat-2",
-    "mission:smos",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "mission:sentinel-1",
-    "mission:sentinel-2",
-    "mission:ers-1",
-    "mission:ers-2",
-    "mission:envisat",
-    "mission:tandem-x",
-    "mission:landsat-8",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Glacial Lake Extent"
   ]
 }

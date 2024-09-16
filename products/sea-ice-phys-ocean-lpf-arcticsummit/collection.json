@@ -114,11 +114,6 @@
   "license": "OGL-UK-3.0",
   "keywords": [
     "Sea Ice",
-    "Ice Depth/Thickness",
-    "theme:cryosphere",
-    "variable:ice-depth-thickness",
-    "mission:cryosat-2",
-    "region:Arctic",
-    "project:arcticsummit-arctic-summer-ice-thickness"
+    "Ice Depth/Thickness"
   ]
 }

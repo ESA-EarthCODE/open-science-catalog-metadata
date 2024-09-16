@@ -101,11 +101,6 @@
   "license": "proprietary",
   "keywords": [
     "Atmospheric Radiation",
-    "Earth Radiation Budget",
-    "theme:atmosphere",
-    "variable:earth-radiation-budget",
-    "mission:sentinel-3",
-    "region:Regional",
-    "project:consistent-retrieval-of-cloud-aerosol-surface"
+    "Earth Radiation Budget"
   ]
 }

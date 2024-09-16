@@ -66,7 +66,7 @@
     "tandem-x"
   ],
   "updated": "2024-09-12T20:32:06.216108Z",
-  "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X",
+  "title": "Geodetic glacier mass balances Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X",
   "extent": {
     "spatial": {
       "bbox": [
@@ -93,11 +93,6 @@
     "Glacier Mass Balance/Ice Sheet Mass Balance",
     "Cryospheric Indicators",
     "Glacial Measurements",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-mass-balance-ice-sheet-mass-balance",
-    "mission:tandem-x",
-    "region:Antarctica",
-    "project:mass-balance-and-ice-dynamics-of-antarctic-peninsula-glaciers-mit-ap"
+    "Sea Ice"
   ]
 }

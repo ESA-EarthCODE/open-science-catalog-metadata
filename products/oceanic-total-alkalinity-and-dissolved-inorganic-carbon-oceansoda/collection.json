@@ -117,13 +117,6 @@
     "Ocean Chemistry",
     "Alkalinity",
     "Organic Carbon",
-    "Dissolved Organic Carbon",
-    "theme:oceans",
-    "variable:dissolved-organic-carbon",
-    "variable:alkalinity",
-    "mission:smos",
-    "mission:sentinel-3",
-    "region:Global",
-    "project:satellite-oceanographic-datasets-for-acidification-oceansoda"
+    "Dissolved Organic Carbon"
   ]
 }

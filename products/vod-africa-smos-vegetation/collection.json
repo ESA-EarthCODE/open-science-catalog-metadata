@@ -95,11 +95,6 @@
   "keywords": [
     "Vegetation",
     "Biomass",
-    "Biosphere",
-    "theme:land",
-    "variable:biomass",
-    "mission:smos",
-    "region:Africa",
-    "project:smos-vegetation"
+    "Biosphere"
   ]
 }

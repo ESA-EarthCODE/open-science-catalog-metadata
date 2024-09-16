@@ -104,11 +104,6 @@
   "keywords": [
     "Snow/Ice",
     "Snow Cover",
-    "Cryospheric Indicators",
-    "theme:cryosphere",
-    "variable:snow-cover",
-    "mission:sentinel-3",
-    "region:Arctic",
-    "project:pre-operational-sentinel-3-snow-and-ice-products-sice"
+    "Cryospheric Indicators"
   ]
 }

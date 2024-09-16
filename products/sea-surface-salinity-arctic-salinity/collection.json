@@ -117,12 +117,6 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice",
-    "theme:oceans",
-    "theme:cryosphere",
-    "variable:sea-surface-salinity",
-    "mission:smos",
-    "region:Arctic",
-    "project:arctic-salinity"
+    "Sea Ice"
   ]
 }

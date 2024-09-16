@@ -104,12 +104,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Firn",
-    "Snow Grain Size",
-    "theme:cryosphere",
-    "theme:land",
-    "variable:snow-grain-size",
-    "mission:sentinel-3",
-    "region:Greenland",
-    "project:sentinel-3-for-science-land-study-1-snow"
+    "Snow Grain Size"
   ]
 }

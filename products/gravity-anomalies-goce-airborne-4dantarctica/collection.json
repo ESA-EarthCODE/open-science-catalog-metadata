@@ -119,13 +119,6 @@
   "license": "proprietary",
   "keywords": [
     "Gravity/Gravitational Field",
-    "Gravity Anomalies",
-    "theme:cryosphere",
-    "theme:solid-earth",
-    "variable:gravity-anomalies",
-    "mission:goce",
-    "mission:grace",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Gravity Anomalies"
   ]
 }

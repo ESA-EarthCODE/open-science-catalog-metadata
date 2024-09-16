@@ -106,12 +106,6 @@
     "Lightning",
     "Weather Events",
     "Upper Atmosphere",
-    "Physical Properties",
-    "theme:atmosphere",
-    "theme:magnetosphere-ionosphere",
-    "variable:lightning",
-    "mission:swarm",
-    "region:Global",
-    "project:investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew"
+    "Physical Properties"
   ]
 }

@@ -99,10 +99,6 @@
   "license": "proprietary",
   "keywords": [
     "Land Use/Land Cover",
-    "Land Use/Land Cover Classification",
-    "theme:land",
-    "variable:land-use-land-cover-classification",
-    "region:South America",
-    "project:earth-system-data-lab-esdl"
+    "Land Use/Land Cover Classification"
   ]
 }

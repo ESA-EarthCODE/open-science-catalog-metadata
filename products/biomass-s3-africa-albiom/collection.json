@@ -97,11 +97,6 @@
   "keywords": [
     "Vegetation",
     "Biomass",
-    "Biosphere",
-    "theme:land",
-    "variable:biomass",
-    "mission:sentinel-3",
-    "region:Africa",
-    "project:albiom-altimetry-for-biomass"
+    "Biosphere"
   ]
 }

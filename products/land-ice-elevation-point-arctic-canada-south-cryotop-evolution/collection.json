@@ -104,11 +104,6 @@
     "Glacier Elevation/Ice Sheet Elevation",
     "Cryospheric Indicators",
     "Glacial Measurements",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-elevation-ice-sheet-elevation",
-    "mission:cryosat",
-    "region:Arctic Canada South",
-    "project:cryotop-evolution"
+    "Sea Ice"
   ]
 }

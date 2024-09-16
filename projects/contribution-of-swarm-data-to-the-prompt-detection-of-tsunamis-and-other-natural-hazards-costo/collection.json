@@ -107,8 +107,5 @@
     }
   },
   "license": "proprietary",
-  "keywords": [
-    "theme:Solid Earth",
-    "theme:Magnetosphere_Ionosphere"
-  ]
+  "keywords": []
 }

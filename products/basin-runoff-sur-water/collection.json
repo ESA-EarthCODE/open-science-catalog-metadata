@@ -94,10 +94,6 @@
   "keywords": [
     "Surface Water",
     "Surface Water Processes/Measurements",
-    "Runoff",
-    "theme:cryosphere",
-    "variable:runoff",
-    "region:Greenland",
-    "project:4d-greenland"
+    "Runoff"
   ]
 }

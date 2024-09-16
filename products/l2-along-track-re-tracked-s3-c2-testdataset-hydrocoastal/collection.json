@@ -163,19 +163,6 @@
     "Ocean surface backscatter",
     "Dry Tropospheric Correction",
     "Wet Tropospheric Correction",
-    "Tidal Height",
-    "theme:oceans",
-    "theme:land",
-    "variable:significant-wave-height",
-    "variable:sea-level",
-    "variable:mean-sea-level",
-    "variable:ocean-surface-backscatter",
-    "variable:dry-tropospheric-correction",
-    "variable:wet-tropospheric-correction",
-    "variable:tidal-height",
-    "mission:cryosat-2",
-    "mission:sentinel-3",
-    "region:Global",
-    "project:hydrocoastal-coastal-ocean-and-inland-water-altimetry"
+    "Tidal Height"
   ]
 }

@@ -146,17 +146,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glaciers",
-    "Grounding Line",
-    "theme:cryosphere",
-    "variable:grounding-line",
-    "mission:alos",
-    "mission:cosmo-skymed",
-    "mission:ers-1",
-    "mission:ers-2",
-    "mission:radarsat-1",
-    "mission:radarsat-2",
-    "mission:sentinel-1",
-    "region:Antarctica",
-    "project:4d-antarctica"
+    "Grounding Line"
   ]
 }

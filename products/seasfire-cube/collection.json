@@ -102,10 +102,6 @@
     "Natural Hazards",
     "Wildfires",
     "Burned Area",
-    "Seasonal Fire",
-    "theme:land",
-    "variable:burned-area",
-    "region:Global",
-    "project:seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe"
+    "Seasonal Fire"
   ]
 }

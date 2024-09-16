@@ -132,16 +132,6 @@
   "keywords": [
     "Ocean Circulation",
     "Ocean Mixed Layer",
-    "Ocean Temperature",
-    "theme:oceans",
-    "variable:ocean-mixed-layer",
-    "mission:envisat",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "mission:suomi-npp",
-    "mission:orbview-2",
-    "mission:sentinel-3",
-    "region:Global",
-    "project:biological-pump-and-carbon-exchange-processes"
+    "Ocean Temperature"
   ]
 }

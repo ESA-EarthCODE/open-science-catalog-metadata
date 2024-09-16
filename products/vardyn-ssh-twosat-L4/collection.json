@@ -133,15 +133,6 @@
     "Sentinel-3A",
     "Sentinel-6A",
     "AMSR2",
-    "GMI",
-    "theme:oceans",
-    "variable:sea-surface-height",
-    "variable:sea-surface-temperature",
-    "mission:sentinel-3",
-    "mission:sentinel-6",
-    "mission:gcom-w1",
-    "mission:gpm-global-precipitation-measurement",
-    "region:North Atlantic",
-    "project:esa-science-hub-florian-le-guillou"
+    "GMI"
   ]
 }

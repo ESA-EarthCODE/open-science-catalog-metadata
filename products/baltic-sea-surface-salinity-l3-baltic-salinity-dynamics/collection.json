@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "baltic-sea-surface-salinity-l3-baltic-salinity-dynamics",
   "stac_version": "1.0.0",
-  "description": "To develop a novel Baltic L3 SSS (Sea Surface Salinity) product from the measurements provided by the SMOS (Soil Moisture and Ocean Salinity) mission and to study the potential benefit of incorporating this SSS product into oceanographic and environmental applications within the Baltic Sea. Data acquisition: Satellite ESA SMOS mission (Soil Moisture and Ocean Salinity). Time coverage 05 February 2011 - 27 December 2019. Time resolution: 9 days. Maps frequency generation: Daily. Spatial coverage: Latitude range: 53.5°N-68°N Longitude range: 8°E-30.5°E. Spatial resolution: 0.25 degrees. Spatial grid: WGS 84 / Regular longitude-latitude. Sensor Satellite SMOS / MIRAS. Format NetCDF. Climate and Forecast (CF) conventions version: 1.6. ",
+  "description": "To develop a novel Baltic L3 SSS (Sea Surface Salinity) product from the measurements provided by the SMOS (Soil Moisture and Ocean Salinity) mission and to study the potential benefit of incorporating this SSS product into oceanographic and environmental applications within the Baltic Sea. Data acquisition: Satellite ESA SMOS mission (Soil Moisture and Ocean Salinity). Time coverage 05 February 2011 - 27 December 2019. Time resolution: 9 days. Maps frequency generation: Daily. Spatial coverage: Latitude range: 53.5\u00b0N-68\u00b0N Longitude range: 8\u00b0E-30.5\u00b0E. Spatial resolution: 0.25 degrees. Spatial grid: WGS 84 / Regular longitude-latitude. Sensor Satellite SMOS / MIRAS. Format NetCDF. Climate and Forecast (CF) conventions version: 1.6. ",
   "links": [
     {
       "rel": "root",
@@ -112,12 +112,6 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice",
-    "theme:oceans",
-    "variable:sea-surface-salinity",
-    "mission:smos",
-    "mission:smap",
-    "region:Baltics",
-    "project:baltic-salinity-dynamics"
+    "Sea Ice"
   ]
 }

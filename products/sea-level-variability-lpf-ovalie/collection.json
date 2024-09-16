@@ -102,10 +102,6 @@
     "Land Surface",
     "Geomorphic/Landforms Processes",
     "Coastal Processes",
-    "Sea Level Changes",
-    "theme:oceans",
-    "variable:sea-level-changes",
-    "region:Global",
-    "project:ovalie-oceanic-intrinsic-variability-versus-atmospheric-forced-variability-of-sea-level-change"
+    "Sea Level Changes"
   ]
 }

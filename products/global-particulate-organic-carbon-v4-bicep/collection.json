@@ -132,16 +132,6 @@
   "keywords": [
     "Ocean Chemistry",
     "Organic Carbon",
-    "Particulate Organic Carbon",
-    "theme:oceans",
-    "variable:particulate-organic-carbon",
-    "mission:envisat",
-    "mission:terra",
-    "mission:aqua-eos-pm-1",
-    "mission:suomi-npp",
-    "mission:orbview-2",
-    "mission:sentinel-3",
-    "region:Global",
-    "project:biological-pump-and-carbon-exchange-processes"
+    "Particulate Organic Carbon"
   ]
 }

@@ -93,10 +93,6 @@
   "license": "proprietary",
   "keywords": [
     "Atmpospheric Wind",
-    "Wind Dynamics",
-    "theme:oceans",
-    "variable:wind-stress",
-    "region:Agulhas",
-    "project:world-ocean-circulation"
+    "Wind Dynamics"
   ]
 }

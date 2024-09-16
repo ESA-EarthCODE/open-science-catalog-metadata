@@ -102,10 +102,6 @@
     "Sea Ice",
     "Ice Shelf",
     "Ice Extent",
-    "Cryospheric Indicators",
-    "theme:cryosphere",
-    "variable:ice-extent",
-    "region:Antarctica",
-    "project:Polar+ Ice Shelf"
+    "Cryospheric Indicators"
   ]
 }

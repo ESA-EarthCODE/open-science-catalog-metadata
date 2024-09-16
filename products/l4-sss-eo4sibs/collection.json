@@ -98,7 +98,7 @@
     "cryosat-2"
   ],
   "updated": "2024-09-12T20:32:06.221108Z",
-  "title": "Level 4 product SSS, 0.05°*0.0505°",
+  "title": "Level 4 product SSS, 0.05\u00b0*0.0505\u00b0",
   "extent": {
     "spatial": {
       "bbox": [
@@ -123,14 +123,6 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice",
-    "theme:oceans",
-    "variable:sea-surface-salinity",
-    "mission:smos",
-    "mission:sentinel-2",
-    "mission:sentinel-3",
-    "mission:cryosat-2",
-    "region:Black Sea",
-    "project:earth-observation-data-for-science-and-innovation-in-the-black-sea"
+    "Sea Ice"
   ]
 }

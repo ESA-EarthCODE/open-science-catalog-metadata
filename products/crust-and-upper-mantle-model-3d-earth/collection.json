@@ -94,11 +94,6 @@
   "license": "proprietary",
   "keywords": [
     "Gravity/Gravitational Field",
-    "Gravitational Field",
-    "theme:solid-earth",
-    "variable:gravitational-field",
-    "mission:goce",
-    "region:Global",
-    "project:3d-earth"
+    "Gravitational Field"
   ]
 }

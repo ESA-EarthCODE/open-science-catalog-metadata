@@ -122,12 +122,6 @@
   "keywords": [
     "Sea Ice",
     "Ice Depth/Thickness",
-    "Freeboard",
-    "theme:cryosphere",
-    "variable:ice-depth-thickness",
-    "variable:freeboard",
-    "mission:cryosat-2",
-    "region:Arctic",
-    "project:arcticsummit-arctic-summer-ice-thickness"
+    "Freeboard"
   ]
 }

@@ -102,11 +102,6 @@
   "keywords": [
     "Glaciers/Ice Sheets",
     "Glacier Topography/Ice Sheet Topography",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:glacier-topography-ice-sheet-topography",
-    "mission:cryosat-2",
-    "region:Antarctica",
-    "project:sentinel-3-performance-improvement-for-ice-sheets-spice"
+    "Sea Ice"
   ]
 }

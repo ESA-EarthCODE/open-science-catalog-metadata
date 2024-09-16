@@ -103,11 +103,6 @@
     "Snow/Ice",
     "Ice Growth/Melt",
     "Cryospheric Indicators",
-    "Sea Ice",
-    "theme:cryosphere",
-    "variable:ice-growth-melt",
-    "mission:sentinel-1",
-    "region:Greenland - Watson basin",
-    "project:4d-greenland"
+    "Sea Ice"
   ]
 }

@@ -112,12 +112,6 @@
     "Sea Ice",
     "Sea Ice Volume",
     "Snow/Ice",
-    "Snow Cover",
-    "theme:cryosphere",
-    "variable:sea-ice-volume",
-    "variable:snow-cover",
-    "mission:cryosat-2",
-    "region:North Sea",
-    "project:stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp"
+    "Snow Cover"
   ]
 }

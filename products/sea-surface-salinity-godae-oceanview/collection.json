@@ -109,11 +109,6 @@
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
-    "Sea Ice",
-    "theme:oceans",
-    "variable:sea-surface-salinity",
-    "mission:smos",
-    "region:Global",
-    "project:godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15"
+    "Sea Ice"
   ]
 }

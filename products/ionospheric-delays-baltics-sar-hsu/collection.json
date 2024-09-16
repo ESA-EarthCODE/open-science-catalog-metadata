@@ -86,7 +86,7 @@
     "glonass"
   ],
   "updated": "2024-09-12T20:32:06.219108Z",
-  "title": "COR-ID: Ionospheric Delays_Baltics_Multimission",
+  "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -111,13 +111,6 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Surface Height",
-    "Sea Surface Height Anomaly (SSHA)",
-    "theme:oceans",
-    "variable:sea-surface-height-anomaly-ssha",
-    "mission:goce",
-    "mission:sentinel-1",
-    "mission:glonass",
-    "region:Baltics",
-    "project:baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu"
+    "Sea Surface Height Anomaly (SSHA)"
   ]
 }
