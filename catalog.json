@@ -30,12 +30,6 @@
     },
     {
       "rel": "child",
-      "href": "./processes/catalog.json",
-      "type": "application/json",
-      "title": "Processes"
-    },
-    {
-      "rel": "child",
       "href": "./eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
