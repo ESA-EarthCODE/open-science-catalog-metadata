@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,27 +17,32 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Project: WOC"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/ocean-currents/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-currents/catalog.json",
       "type": "application/json",
       "title": "Variable: Ocean Currents"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

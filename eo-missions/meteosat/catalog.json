@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,15 +18,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
       "type": "application/json",
       "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/meteosat/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",

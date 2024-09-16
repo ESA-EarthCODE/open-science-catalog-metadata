@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,27 +18,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/baltic-sea-level-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Level_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/hydrodynamic-model-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hydrodynamic-model-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ocean-freshwater-flux-arctic-theme3/collection.json",
       "type": "application/json",
       "title": "Ocean freshwater fluxes_Arctic_Multimission"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/jason-2/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/baltic-sea-level-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Level_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/earth-energy-imballance-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/earth-energy-imballance-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO"
     },
     {
       "rel": "child",
-      "href": "../../products/hydrodynamic-model-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hydrodynamic-model-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/ocean-heat-content-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ocean-heat-content-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Global Ocean Heat Content (GOHC)_GRACE/GRACE-FO"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/baltic-seal-sea-level/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

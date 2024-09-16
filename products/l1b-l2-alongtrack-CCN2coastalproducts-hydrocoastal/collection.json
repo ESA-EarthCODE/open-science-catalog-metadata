@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,75 +22,80 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/hydrocoastal-coastal-ocean-and-inland-water-altimetry/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/hydrocoastal-coastal-ocean-and-inland-water-altimetry/collection.json",
       "type": "application/json",
       "title": "Project: HydroCoastal"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "../../variables/significant-wave-height/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/significant-wave-height/catalog.json",
       "type": "application/json",
       "title": "Variable: Significant Wave Height"
     },
     {
       "rel": "related",
-      "href": "../../variables/sea-level/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-level/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Level"
     },
     {
       "rel": "related",
-      "href": "../../variables/mean-sea-level/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/mean-sea-level/catalog.json",
       "type": "application/json",
       "title": "Variable: Mean Sea Level"
     },
     {
       "rel": "related",
-      "href": "../../variables/ocean-surface-backscatter/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-surface-backscatter/catalog.json",
       "type": "application/json",
       "title": "Variable: Ocean surface backscatter"
     },
     {
       "rel": "related",
-      "href": "../../variables/dry-tropospheric-correction/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/dry-tropospheric-correction/catalog.json",
       "type": "application/json",
       "title": "Variable: Dry Tropospheric Correction"
     },
     {
       "rel": "related",
-      "href": "../../variables/wet-tropospheric-correction/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wet-tropospheric-correction/catalog.json",
       "type": "application/json",
       "title": "Variable: Wet Tropospheric Correction"
     },
     {
       "rel": "related",
-      "href": "../../variables/tidal-height/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/tidal-height/catalog.json",
       "type": "application/json",
       "title": "Variable: Tidal Height"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-6/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-6"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

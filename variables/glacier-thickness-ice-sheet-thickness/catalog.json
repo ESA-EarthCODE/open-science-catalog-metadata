@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -24,21 +24,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/bedrock-topography-antarctica-cryosmos/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/bedrock-topography-antarctica-cryosmos/collection.json",
       "type": "application/json",
       "title": "Bedrock topography and/or geothermal heat flux_Antarctica_GOCE"
     },
     {
       "rel": "child",
-      "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/bedrock-topography-antarctica-bedmachine/collection.json",
       "type": "application/json",
       "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/glacier-thickness-ice-sheet-thickness/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

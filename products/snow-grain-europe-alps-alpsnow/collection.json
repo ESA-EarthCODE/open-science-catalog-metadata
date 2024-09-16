@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,51 +22,56 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/alpsnow/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/alpsnow/collection.json",
       "type": "application/json",
       "title": "Project: AlpSnow"
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/snow-cover/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/snow-cover/catalog.json",
       "type": "application/json",
       "title": "Variable: Snow Cover"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-2"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/landsat-8/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/landsat-8/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Landsat-8"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/terra/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/terra/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Terra"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/aqua-eos-pm-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/snow-grain-europe-alps-alpsnow/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,9 +17,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/understand-and-mitigate-impacts-of-3d-clouds-on-uv-vis-no2-trace-gas-retrievals-by-ai-exploration-of-synthetic-and-real-data-mit3d/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

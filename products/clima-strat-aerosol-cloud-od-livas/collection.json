@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -27,45 +27,50 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/lidar-climatology-of-vertical-aerosol-structure-for-space-based-lidar-simulation-studies-livas/collection.json",
       "type": "application/json",
       "title": "Project: LIVAS"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/cloud-optical-depth-thickness/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/cloud-optical-depth-thickness/catalog.json",
       "type": "application/json",
       "title": "Variable: Cloud Optical Depth/Thickness"
     },
     {
       "rel": "related",
-      "href": "../../variables/aerosol-optical-depth-thickness/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/aerosol-optical-depth-thickness/catalog.json",
       "type": "application/json",
       "title": "Variable: Aerosol Optical Depth/Thickness"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/calipso/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/calipso/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CALIPSO"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/earthcare/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/earthcare/catalog.json",
       "type": "application/json",
       "title": "EO Mission: EarthCARE"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-strat-aerosol-cloud-od-livas/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

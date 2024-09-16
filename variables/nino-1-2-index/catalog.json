@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "nino-1-2-index",
   "stac_version": "1.0.0",
-  "description": "The Niño1+2 SST anomaly index is an indicator of far eastern tropical Pacific El Niño conditions, off the coasts of Peru and Chile. It is calculated with SSTs in the box 90°W - 80°W, 10°S - 0°.",
+  "description": "The Ni\u00f1o1+2 SST anomaly index is an indicator of far eastern tropical Pacific El Ni\u00f1o conditions, off the coasts of Peru and Chile. It is calculated with SSTs in the box 90\u00b0W - 80\u00b0W, 10\u00b0S - 0\u00b0.",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/nino-1-2-index/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

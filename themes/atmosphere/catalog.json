@@ -6,13 +6,13 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
     {
       "rel": "preview",
-      "href": "./EO_Atmosphere.webp",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/EO_Atmosphere.webp",
       "type": "image/webp",
       "title": "Image",
       "proj:epsg": null,
@@ -29,267 +29,272 @@
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-dust-mass-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-dust-mass-op-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol and Dust aerosol optical property profiles_Dust mass concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-dust-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-dust-od-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol (and dust aerosol) optical depth_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-pure-dust-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-pure-dust-op-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol (and dust aerosol) optical property profiles_Pure Dust concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/albedo-circas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/albedo-circas/collection.json",
       "type": "application/json",
       "title": "Albedo_Regional_S3A/SLSTR"
     },
     {
       "rel": "child",
-      "href": "../../products/cliima-cloud-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cliima-cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-od-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-od-all-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical depth, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental. Boundaries of dust layers_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical depth (AOD)_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-op-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-op-all-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical property profiles for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-op-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical property profiles_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-cloud-profile-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-cloud-profile-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of cloud optical property profiles_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-strat-aerosol-cloud-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-strat-aerosol-cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of stratospheric aerosol and cloud optical depth_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-strat-aerosol-cloud-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-strat-aerosol-cloud-op-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of stratospheric aerosol and cloud optical property profiles_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-aerosol-circas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-aerosol-circas/collection.json",
       "type": "application/json",
       "title": "Cloud and aerosol products_Regional_S3A/SLSTR"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-od-averaged-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-od-averaged-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical depth, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical depth_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-op-averaged-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-op-averaged-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical property profiles, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-op-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical property profiles_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/dust-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dust-od-livas/collection.json",
       "type": "application/json",
       "title": "Dust optical depth (DOD) of dust layers_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/hdo-total-column-tropomi-clear-sky-wift/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hdo-total-column-tropomi-clear-sky-wift/collection.json",
       "type": "application/json",
       "title": "Clear-sky HDO/H2O total column_TROPOMI"
     },
     {
       "rel": "child",
-      "href": "../../products/hdo-total-column-tropomi-extended-wift/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hdo-total-column-tropomi-extended-wift/collection.json",
       "type": "application/json",
       "title": "Extended scientific HDO/H2O total column_TROPOMI"
     },
     {
       "rel": "child",
-      "href": "../../products/high-res-phytoplankton-chl-a-data-at-discrete-light-stations-polarstern-cruise-ps113/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/high-res-phytoplankton-chl-a-data-at-discrete-light-stations-polarstern-cruise-ps113/collection.json",
       "type": "application/json",
       "title": "High resolution phytoplankton Chl-a data obtained at discrete light stations (POLARSTERN cruise PS113)"
     },
     {
       "rel": "child",
-      "href": "../../products/high-res-phytoplankton-chl-a-data-by-undulating-platform-behind-the-ship-polarstern-cruise-ps113/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/high-res-phytoplankton-chl-a-data-by-undulating-platform-behind-the-ship-polarstern-cruise-ps113/collection.json",
       "type": "application/json",
       "title": "High resolution phytoplankton Chl-a data obtained by undulating platform towed behind the ship (POLARSTERN cruise PS113)"
     },
     {
       "rel": "child",
-      "href": "../../products/l2b-sif-surface-reflectance-tropomi-troposif/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2b-sif-surface-reflectance-tropomi-troposif/collection.json",
       "type": "application/json",
       "title": "Daily ungridded (L2B) SIF and surface reflectance estimates derived from TROPOMI"
     },
     {
       "rel": "child",
-      "href": "../../products/lidar-aerosol-aeolus-swails/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lidar-aerosol-aeolus-swails/collection.json",
       "type": "application/json",
       "title": "AOD (Aerosol Optical Depth) estimates from LARISSA"
     },
     {
       "rel": "child",
-      "href": "../../products/lightning-whistler-ilgew/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lightning-whistler-ilgew/collection.json",
       "type": "application/json",
       "title": "Lightning-generated whistler events_Global_SWARM"
     },
     {
       "rel": "child",
-      "href": "../../products/limb-ozone-lpf-solve/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/limb-ozone-lpf-solve/collection.json",
       "type": "application/json",
       "title": "IUP-OMPS L2 and L3 limb ozone data sets_Global_S2/3"
     },
     {
       "rel": "child",
-      "href": "../../products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
       "type": "application/json",
       "title": "Mean spectral DAC avg for 320-338.5nm (UVAB) 356.5 - 390 nm (UVA) & 390 - 423 nm in the Atlantic Ocean from S5P (TROPOMI)"
     },
     {
       "rel": "child",
-      "href": "../../products/mean-spectral-dac-from-318-to952nm-of-underwater-light-profiles-rv-polarstern-cruise-ps113/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-from-318-to952nm-of-underwater-light-profiles-rv-polarstern-cruise-ps113/collection.json",
       "type": "application/json",
       "title": "Mean spectral DAC from 318-952nm of light profiles measured at discrete stations (RV Polarstern cruise PS113) "
     },
     {
       "rel": "child",
-      "href": "../../products/mean-spectral-dac-from-320-to917nm-from-radiometric-underwater-light-transmission-profiles/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-from-320-to917nm-from-radiometric-underwater-light-transmission-profiles/collection.json",
       "type": "application/json",
       "title": "Mean spectral DAC from 320-917nm from light transmission profiles by an undulating platform towed behind the ship"
     },
     {
       "rel": "child",
-      "href": "../../products/phytoplankton-group-chl-ll-using-the-mean-dac-over-the-first-optical-depth-kdmean-of-the-measured-radiometric-profile/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/phytoplankton-group-chl-ll-using-the-mean-dac-over-the-first-optical-depth-kdmean-of-the-measured-radiometric-profile/collection.json",
       "type": "application/json",
       "title": "Phytoplankton group Chl-a using mean DAC over kdmean of the radiometric profile (Polarstern cruise PS113)"
     },
     {
       "rel": "child",
-      "href": "../../products/phytoplankton-pigment-concentration-and-phytoplankton-groups-polarstern-cruise-ps113/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/phytoplankton-pigment-concentration-and-phytoplankton-groups-polarstern-cruise-ps113/collection.json",
       "type": "application/json",
       "title": "Phytoplankton pigment concentration and phytoplankton groups measured on water samples (POLARSTERN cruise PS113)"
     },
     {
       "rel": "child",
-      "href": "../../products/phytoplankton-pigment-concentrations-polarstern-cruise-ps121/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/phytoplankton-pigment-concentrations-polarstern-cruise-ps121/collection.json",
       "type": "application/json",
       "title": "Phytoplankton pigment concentrations during POLARSTERN cruise PS121 from North Sea to Fram in August to September 2019"
     },
     {
       "rel": "child",
-      "href": "../../products/radiation-budget-circas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/radiation-budget-circas/collection.json",
       "type": "application/json",
       "title": "Radiation budget_Regional_S3"
     },
     {
       "rel": "child",
-      "href": "../../products/snow-albedo-europe-alps-alpsnow/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/snow-albedo-europe-alps-alpsnow/collection.json",
       "type": "application/json",
       "title": "Snow albedo for European Alps_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/stratospheric-ozone-column-limb-sunlit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/stratospheric-ozone-column-limb-sunlit/collection.json",
       "type": "application/json",
       "title": "Stratospheric ozone column from limb satellites_Global"
     },
     {
       "rel": "child",
-      "href": "../../products/time-clima-aerosol-od-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/time-clima-aerosol-od-all-livas/collection.json",
       "type": "application/json",
       "title": "Time-Based Climatology of aerosol optical depth, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental. Boundaries of dust layers_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/time-clima-aerosol-op-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/time-clima-aerosol-op-all-livas/collection.json",
       "type": "application/json",
       "title": "Time-Based Climatology of aerosol optical property profiles, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/total-column-h2o-hdo-clear-sky-lpf-wift/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-column-h2o-hdo-clear-sky-lpf-wift/collection.json",
       "type": "application/json",
       "title": "HDO/H2O non-scattering product_S5p-TROPOMI"
     },
     {
       "rel": "child",
-      "href": "../../products/total-column-h2o-hdo-cloudy-lpf-wift/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-column-h2o-hdo-cloudy-lpf-wift/collection.json",
       "type": "application/json",
       "title": "HDO/H2O scattering product_S5p-TROPOMI"
     },
     {
       "rel": "child",
-      "href": "../../products/total-ozone-anreo/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-ozone-anreo/collection.json",
       "type": "application/json",
       "title": "Total ozone product from OLCI / S-3_Antarctica _S3"
     },
     {
       "rel": "child",
-      "href": "../../products/tropospheric-ozone-column-omi-sunlit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tropospheric-ozone-column-omi-sunlit/collection.json",
       "type": "application/json",
       "title": "Tropospheric ozone column (TrOC)_Global_OMI and limb satellites"
     },
     {
       "rel": "child",
-      "href": "../../products/tropospheric-ozone-column-tropomi-sunlit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tropospheric-ozone-column-tropomi-sunlit/collection.json",
       "type": "application/json",
       "title": "Tropospheric ozone column(TrOC)_2018-2020_Global_S5p-TROPOMI_Limb"
     },
     {
       "rel": "child",
-      "href": "../../products/water-vapour-isotopologues-lpf-weather/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-vapour-isotopologues-lpf-weather/collection.json",
       "type": "application/json",
       "title": "GOSAT PBL XH2O and Stable Water Vapour Isotopologues_Global"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/catalog.json",
       "type": "application/json",
       "title": "Themes"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",

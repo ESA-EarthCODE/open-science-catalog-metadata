@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "13-ch4-delta",
   "stac_version": "1.0.0",
-  "description": "3D field ofÂ Delta C-13 in CH4 (Methane) (isotopic signature).Â Isotopic ratio, expressed as deviations from an agreed-upon international reference measurement standard (which defines the corresponding isotope scales) using the delta notation: Î´ = (Rsample/Rreference â€“ 1), with R = [rare isotope]/[abundant isotope].",
+  "description": "3D field of\u00c2\u00a0Delta C-13 in CH4 (Methane) (isotopic signature).\u00c2\u00a0Isotopic ratio, expressed as deviations from an agreed-upon international reference measurement standard (which defines the corresponding isotope scales) using the delta notation: \u00ce\u00b4 = (Rsample/Rreference \u00e2\u20ac\u201c 1), with R = [rare isotope]/[abundant isotope].",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/13-ch4-delta/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

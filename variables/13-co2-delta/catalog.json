@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "13-co2-delta",
   "stac_version": "1.0.0",
-  "description": "3D field ofÂ Delta C-13 in CO2 (Carbon dioxide) (isotopic signature)",
+  "description": "3D field of\u00c2\u00a0Delta C-13 in CO2 (Carbon dioxide) (isotopic signature)",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/13-co2-delta/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

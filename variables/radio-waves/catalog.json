@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "radio-waves",
   "stac_version": "1.0.0",
-  "description": "Travelling radio-waves of solar, galactic and extragalactic origin, entering the Earthâ€™s environment.",
+  "description": "Travelling radio-waves of solar, galactic and extragalactic origin, entering the Earth\u00e2\u20ac\u2122s environment.",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/radio-waves/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

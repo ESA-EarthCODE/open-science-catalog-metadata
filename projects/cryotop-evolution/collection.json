@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,105 +22,110 @@
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-antarctica-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-antarctica-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Antarctica_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-arctic-canada-north-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-arctic-canada-north-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada North_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-arctic-canada-south-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-arctic-canada-south-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Arctic Canada South_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-greenland-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-greenland-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Greenland_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-iceland-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-iceland-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Iceland_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-russian-arctic-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-russian-arctic-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Russian Arctic_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-southern-andes-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-southern-andes-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Southern Andes_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-grid-svalbard-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-svalbard-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Gridded Product_Svalbard_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-antarctica-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-antarctica-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Antarctica_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-arctic-canada-north-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-arctic-canada-north-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada North_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-arctic-canada-south-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-arctic-canada-south-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada South_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-greenland-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-greenland-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Greenland_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-iceland-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-iceland-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Iceland_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-russian-arctic-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-russian-arctic-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Russian Arctic_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-southern-andes-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-southern-andes-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Southern Andes_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/land-ice-elevation-point-svalbard-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-point-svalbard-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Svalbard_Cryosat"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/cryotop-evolution/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

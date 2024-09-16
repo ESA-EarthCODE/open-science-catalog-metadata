@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -28,33 +28,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/4d-antarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4d-antarctica/collection.json",
       "type": "application/json",
       "title": "Project: 4D-ANTARCTICA"
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/ice-velocity/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ice-velocity/catalog.json",
       "type": "application/json",
       "title": "Variable: Ice Velocity"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-velocity-antarctic-2021/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,57 +22,62 @@
     },
     {
       "rel": "child",
-      "href": "../../products/basal-melt-monthly/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/basal-melt-monthly/collection.json",
       "type": "application/json",
       "title": "Basal Melt (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "child",
-      "href": "../../products/basin-runoff-sur-water/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/basin-runoff-sur-water/collection.json",
       "type": "application/json",
       "title": "Basin Run Off and Surface Water (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "child",
-      "href": "../../products/firn-retention/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/firn-retention/collection.json",
       "type": "application/json",
       "title": "Firn Retention (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "child",
-      "href": "../../products/subglacial-lake-volumes/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-lake-volumes/collection.json",
       "type": "application/json",
       "title": "Sublacial Lake Volumes (ESA POLAR+ 4D Greenland Experimantal Dataset"
     },
     {
       "rel": "child",
-      "href": "../../products/subglacial-melt-maps/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-melt-maps/collection.json",
       "type": "application/json",
       "title": "Subglacial Melt Maps"
     },
     {
       "rel": "child",
-      "href": "../../products/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/collection.json",
       "type": "application/json",
       "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1"
     },
     {
       "rel": "child",
-      "href": "../../products/surface-melt-detection-from-active-microwave-ascat-melt/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/surface-melt-detection-from-active-microwave-ascat-melt/collection.json",
       "type": "application/json",
       "title": "Surface Melt Detection from Active Microwave - ASCAT Melt Product"
     },
     {
       "rel": "child",
-      "href": "../../products/total-basin-runoff/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-basin-runoff/collection.json",
       "type": "application/json",
       "title": "Total Basin Run Off (ESA POLAR+ 4D Greenland Experimental Dataset)"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4d-greenland/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -24,21 +24,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
       "type": "application/json",
       "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data."
     },
     {
       "rel": "child",
-      "href": "../../products/oceansoda-ethz/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceansoda-ethz/collection.json",
       "type": "application/json",
       "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/alkalinity/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

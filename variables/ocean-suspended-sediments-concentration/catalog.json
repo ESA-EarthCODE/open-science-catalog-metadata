@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "ocean-suspended-sediments-concentration",
   "stac_version": "1.0.0",
-  "description": "Variable extracted from ocean colour observation. Indicative of river outflow, re-suspension or pollution of other-than-biological origin. Uncertainty expressed in g/m3Â at a specific concentration (e.g., 2 g/m3Â ).",
+  "description": "Variable extracted from ocean colour observation. Indicative of river outflow, re-suspension or pollution of other-than-biological origin. Uncertainty expressed in g/m3\u00c2\u00a0at a specific concentration (e.g., 2 g/m3\u00c2\u00a0).",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-suspended-sediments-concentration/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

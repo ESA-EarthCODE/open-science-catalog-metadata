@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,15 +22,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ocean-freshwater-flux-arctic-theme3/collection.json",
       "type": "application/json",
       "title": "Ocean freshwater fluxes_Arctic_Multimission"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arctic-theme-3-fresh-water-fluxes/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

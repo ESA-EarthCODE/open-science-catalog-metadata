@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,27 +18,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
       "type": "application/json",
       "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
     },
     {
       "rel": "child",
-      "href": "../../products/surface-melt-detection-from-active-microwave-ascat-melt/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/surface-melt-detection-from-active-microwave-ascat-melt/collection.json",
       "type": "application/json",
       "title": "Surface Melt Detection from Active Microwave - ASCAT Melt Product"
     },
     {
       "rel": "child",
-      "href": "../../products/melt-extent-stage-maps-daily-antarctic/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/melt-extent-stage-maps-daily-antarctic/collection.json",
       "type": "application/json",
       "title": "Antarctic daily melt extent/stage maps from 2007-2021 from the ASCAT"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/metop/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",

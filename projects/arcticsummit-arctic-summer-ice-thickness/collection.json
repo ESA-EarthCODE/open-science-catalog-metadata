@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,21 +22,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-phys-ocean-lpf-arcticsummit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-phys-ocean-lpf-arcticsummit/collection.json",
       "type": "application/json",
       "title": "Sea ice and physical oceanography_Arctic_CryoSat-2 Baseline-C Level 1b waveform observations"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-thickness-lpf-arcticsummit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-thickness-lpf-arcticsummit/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness_monthly_Oct 2010-July 2020Arctic_CryoSat-2 Baseline-D observations"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arcticsummit-arctic-summer-ice-thickness/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,63 +17,68 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/biological-pump-and-carbon-exchange-processes/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/biological-pump-and-carbon-exchange-processes/collection.json",
       "type": "application/json",
       "title": "Project: BICEP"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/nanophytoplankton-carbon/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/nanophytoplankton-carbon/catalog.json",
       "type": "application/json",
       "title": "Variable: Nanophytoplankton Carbon"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/envisat/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/envisat/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ENVISAT"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/terra/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/terra/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Terra"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/aqua-eos-pm-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: AQUA (EOS/PM-1)"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/suomi-npp/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/suomi-npp/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Suomi NPP"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/orbview-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/orbview-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: OrbView-2"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

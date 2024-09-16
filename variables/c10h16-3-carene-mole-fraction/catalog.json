@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "c10h16-3-carene-mole-fraction",
   "stac_version": "1.0.0",
-  "description": "3D field of amountÂ  ofÂ C10H16 (3-Carene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amount\u00c2\u00a0 of\u00c2\u00a0C10H16 (3-Carene, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/c10h16-3-carene-mole-fraction/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

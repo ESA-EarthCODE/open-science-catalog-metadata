@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,63 +22,68 @@
     },
     {
       "rel": "child",
-      "href": "../../products/daily-2d-ocean-currents-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Daily 2D ocean surface currents_North Atlantic"
     },
     {
       "rel": "child",
-      "href": "../../products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Daily 3D ocean currents_North Atlantic"
     },
     {
       "rel": "child",
-      "href": "../../products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Doppler derived surface current_Agulhas_S1"
     },
     {
       "rel": "child",
-      "href": "../../products/gridded-surface-current-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Gridded Surface Current_Oceans_Agulhas"
     },
     {
       "rel": "child",
-      "href": "../../products/oceanic-current-fronts-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Oceanic/current fronts_Gibraltar"
     },
     {
       "rel": "child",
-      "href": "../../products/stokes-drift-atlantic-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/stokes-drift-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Stokes drift estimation_Atlantic Ocean"
     },
     {
       "rel": "child",
-      "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Total surface current_North-Atlantic"
     },
     {
       "rel": "child",
-      "href": "../../products/total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Total surface current_Tropical Atlantic"
     },
     {
       "rel": "child",
-      "href": "../../products/wind-stress-vector-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Wind stress vector (& anomalies)_Hourly_ERA5"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/world-ocean-circulation/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

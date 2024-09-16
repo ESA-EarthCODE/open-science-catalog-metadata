@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,33 +17,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/smos-med-sea-surface-salinity-in-the-mediterranean/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/smos-med-sea-surface-salinity-in-the-mediterranean/collection.json",
       "type": "application/json",
       "title": "Project: SMOS+ Mediterranean"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/sea-surface-salinity/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-salinity/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Surface Salinity"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smos/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-surface-salinity-europe-smos-med/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

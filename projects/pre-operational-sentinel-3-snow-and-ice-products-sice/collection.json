@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "child",
-      "href": "../../products/broadband-albedo-arctic-sice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/broadband-albedo-arctic-sice/collection.json",
       "type": "application/json",
       "title": "Broadband albedo_Arctic_S3"
     },
     {
       "rel": "child",
-      "href": "../../products/nrt-sice-rasters-greenland-arctic-sice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/nrt-sice-rasters-greenland-arctic-sice/collection.json",
       "type": "application/json",
       "title": "NRT SICE rasters for Greenland_Arctic_S3"
     },
     {
       "rel": "child",
-      "href": "../../products/snow-grain-diameter-arctic-sice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/snow-grain-diameter-arctic-sice/collection.json",
       "type": "application/json",
       "title": "Snow grain diameter_Arctic_S3"
     },
     {
       "rel": "child",
-      "href": "../../products/spectral-albedo-arctic-sice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/spectral-albedo-arctic-sice/collection.json",
       "type": "application/json",
       "title": "Spectral albedo_Arctic_S3"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/pre-operational-sentinel-3-snow-and-ice-products-sice/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,39 +22,44 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/3d-earth/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/3d-earth/collection.json",
       "type": "application/json",
       "title": "Project: 3D-EARTH"
     },
     {
       "rel": "related",
-      "href": "../../themes/solid-earth/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
     },
     {
       "rel": "related",
-      "href": "../../variables/geothermal-energy/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/geothermal-energy/catalog.json",
       "type": "application/json",
       "title": "Variable: Geothermal Energy"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/goce/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/goce/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GOCE"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/swarm/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/swarm/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SWARM"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geothermal-heat-flow-greenland-3d-earth/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

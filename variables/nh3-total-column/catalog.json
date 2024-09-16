@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "nh3-total-column",
   "stac_version": "1.0.0",
-  "description": "2D field of total amount of NH3 molecules (Ammonia) per unit area in an atmospheric column extending from the Earthâ€™s surface to the upper edge of the atmosphere.",
+  "description": "2D field of total amount of NH3 molecules (Ammonia) per unit area in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the upper edge of the atmosphere.",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/nh3-total-column/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

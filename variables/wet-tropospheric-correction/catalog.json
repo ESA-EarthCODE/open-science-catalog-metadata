@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,27 +18,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
     },
     {
       "rel": "child",
-      "href": "../../products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l1b-l2-alongtrack-CCN2coastalproducts-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL CCN2 isardSAT coastal product"
     },
     {
       "rel": "child",
-      "href": "../../products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wet-tropospheric-correction/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,171 +18,176 @@
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/baltic-sea-level-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Level_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/dissolved-organic-carbon-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dissolved-organic-carbon-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Dissolved Organic Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/export-production-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/export-production-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Export Production based on Dunne et al 2005 dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/global-marine-phytoplankton-carbon-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/global-marine-phytoplankton-carbon-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v5)"
     },
     {
       "rel": "child",
-      "href": "../../products/global-marine-phytoplankton-primary-production-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/global-marine-phytoplankton-primary-production-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Phytoplankton Primary Production dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/global-particulate-organic-carbon-v4-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/global-particulate-organic-carbon-v4-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Particulate Organic Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/global-particulate-organic-carbon-v5-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/global-particulate-organic-carbon-v5-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Chlorophyll-a dataset (9 km, OC-CCI v5)"
     },
     {
       "rel": "child",
-      "href": "../../products/hydrodynamic-model-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hydrodynamic-model-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-chlorophyll-a-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-chlorophyll-a-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Chlorophyll-a dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-export-production-based-on-henson-et-al-2011-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-export-production-based-on-henson-et-al-2011-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Export Production based on Henson et al 2011 dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-export-production-based-on-li-et-al-2016-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-export-production-based-on-li-et-al-2016-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Export Production based on Li et al 2016 dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-microphytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-microphytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Microphytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-microphytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-microphytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
       "type": "application/json",
       "title": "Monthly Global Microphytoplankton Carbon dataset (9 km, OC-CCI v5)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v5/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-mixed-layer-depth-dataset-9-km-oc-cci-v5/collection.json",
       "type": "application/json",
       "title": "Monthly Global Mixed Layer Depth dataset (9 km, OC-CCI v5)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Nanophytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-nanophytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
       "type": "application/json",
       "title": "Monthly Global Nanophytoplankton Carbon dataset (9 km, OC-CCI v5)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-picophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-picophytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Picophytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-picophytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-picophytoplankton-carbon-dataset-9-km-oc-cci-v5/collection.json",
       "type": "application/json",
       "title": "Monthly Global Picophytoplankton Carbon dataset (9 km, OC-CCI v5)"
     },
     {
       "rel": "child",
-      "href": "../../products/monthly-global-total-phytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/monthly-global-total-phytoplankton-carbon-dataset-9-km-oc-cci-v42/collection.json",
       "type": "application/json",
       "title": "Monthly Global Total Phytoplankton Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ocean-freshwater-flux-arctic-theme3/collection.json",
       "type": "application/json",
       "title": "Ocean freshwater fluxes_Arctic_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/particulate-inorganic-carbon-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/particulate-inorganic-carbon-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Particulate Inorganic Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-retracker-clima-snow-depth-lpf-cassis/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-retracker-clima-snow-depth-lpf-cassis/collection.json",
       "type": "application/json",
       "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR climatology snow depth_Antarctic_Envisat"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-retracker-snow-depth-envisat-lpf-cassis/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-retracker-snow-depth-envisat-lpf-cassis/collection.json",
       "type": "application/json",
       "title": "Sea ice freeboard and thickness_heuristic retracker TFMRA50 and AMSR-2 snow depth_Antarctic_Envisat"
     },
     {
       "rel": "child",
-      "href": "../../products/secchi-disk-depth-lpf-physioglob/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/secchi-disk-depth-lpf-physioglob/collection.json",
       "type": "application/json",
       "title": "Secchi Disk depth_Global Oceans_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-lake-drainage-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/sec-antarctic-ice-sheet/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sec-antarctic-ice-sheet/collection.json",
       "type": "application/json",
       "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/envisat/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

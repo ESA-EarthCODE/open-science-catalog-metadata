@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/swarm-coupling-high-low-atmosphere-interactions-ion-outflow/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/swarm-coupling-high-low-atmosphere-interactions-ion-outflow/collection.json",
       "type": "application/json",
       "title": "Project: Swarm+ Outflow"
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Magnetosphere_Ionosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/solar-activity/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/solar-activity/catalog.json",
       "type": "application/json",
       "title": "Variable: Solar Activity"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/swarm/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/swarm/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SWARM"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/solar-activity-polar-cap-plasma-density-ion-outflow/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

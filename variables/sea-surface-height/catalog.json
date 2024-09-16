@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,21 +18,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/vardyn-ssh-twosat-L4/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/vardyn-ssh-twosat-L4/collection.json",
       "type": "application/json",
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products (Sentinel-3, Sentinel-6, GCOM-W1, GPM)"
     },
     {
       "rel": "child",
-      "href": "../../products/vardyn-ssh-allsat-L4/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/vardyn-ssh-allsat-L4/collection.json",
       "type": "application/json",
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-height/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

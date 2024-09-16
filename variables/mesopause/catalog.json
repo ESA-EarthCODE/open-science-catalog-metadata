@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "mesopause",
   "stac_version": "1.0.0",
-  "description": "The mesopause is usually located at heights of 85-95 km, and is the site of the coldest temperatures in the atmosphere. Temperatures as low as 100 K (- 173°C) have been measured at the mesopause by rockets.",
+  "description": "The mesopause is usually located at heights of 85-95 km, and is the site of the coldest temperatures in the atmosphere. Temperatures as low as 100 K (- 173\u00b0C) have been measured at the mesopause by rockets.",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/mesopause/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,69 +22,74 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/4d-antarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4d-antarctica/collection.json",
       "type": "application/json",
       "title": "Project: 4D-ANTARCTICA"
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/grounding-line/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/grounding-line/catalog.json",
       "type": "application/json",
       "title": "Variable: Grounding Line"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/alos/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/alos/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ALOS"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/cosmo-skymed/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/cosmo-skymed/catalog.json",
       "type": "application/json",
       "title": "EO Mission: COSMO-SkyMed"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/ers-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/ers-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ERS-1"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/ers-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/ers-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ERS-2"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/radarsat-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/radarsat-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: RADARSAT-1"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/radarsat-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/radarsat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: RADARSAT-2"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/grounding-line-position-antarctica/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

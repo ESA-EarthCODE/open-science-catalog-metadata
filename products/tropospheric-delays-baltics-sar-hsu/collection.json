@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,45 +17,50 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu/collection.json",
       "type": "application/json",
       "title": "Project: SAR-HSU"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/sea-surface-height-anomaly-ssha/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-height-anomaly-ssha/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Surface Height Anomaly (SSHA)"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/goce/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/goce/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GOCE"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-1"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/glonass/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/glonass/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GLONASS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tropospheric-delays-baltics-sar-hsu/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

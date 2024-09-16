@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,417 +18,422 @@
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/baltic-sea-level-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Level_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/chaos-field-model-4d-earth-swarm/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/chaos-field-model-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "CHAOS field model"
     },
     {
       "rel": "child",
-      "href": "../../products/chaos-field-model-core-4d-earth-swarm/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/chaos-field-model-core-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "CHAOS field model_Core"
     },
     {
       "rel": "child",
-      "href": "../../products/chaos-field-model-spline-4d-earth-swarm/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/chaos-field-model-spline-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "CHAOS field model_SplineCoefficients"
     },
     {
       "rel": "child",
-      "href": "../../products/eddy-census-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eddy-census-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Eddy census"
     },
     {
       "rel": "child",
-      "href": "../../products/elevation-and-elevation-change-antarctic-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/elevation-and-elevation-change-antarctic-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath-derived elevation and elevation change_Antarctic ice Sheet_2011-2016_CryoSat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/geodynamo-simulation-4d-earth-swarm/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geodynamo-simulation-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "Geodynamo simulation data_Earth core"
     },
     {
       "rel": "child",
-      "href": "../../products/glacier-elevation-cryosat-mountain-glaciers/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/glacier-elevation-cryosat-mountain-glaciers/collection.json",
       "type": "application/json",
       "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/ground-virtual-observatory-cryosat2-4d-earth-swarm/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-cryosat2-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "Ground Virtual Observatory Data CRYOSAT-2"
     },
     {
       "rel": "child",
-      "href": "../../products/hydrodynamic-model-baltic-seal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hydrodynamic-model-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-antarctica-l1b-spice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l1b-spice/collection.json",
       "type": "application/json",
       "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 1B"
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-antarctica-l3-spice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l3-spice/collection.json",
       "type": "application/json",
       "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 3"
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-topography-elevation-change-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-topography-elevation-change-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Ice Sheet_gridded topography_rates of surface elevation change_Greenland_Cryosat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/l2-smos-sss-daily-ascending-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2-smos-sss-daily-ascending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily"
+      "title": "Level 2 SMOS , Ascending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l2-smos-sss-daily-descending-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2-smos-sss-daily-descending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily"
+      "title": "Level 2 SMOS , Descending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l3-chla-daily-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-chla-daily-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Level 3 Chl-a, 300m daily and monthly"
     },
     {
       "rel": "child",
-      "href": "../../products/l3-cryosat2-sea-level-anomaly-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-cryosat2-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Level-3 Cryosat-2 [2011, 2019] along-track 5Hz product, sea level anomaly, ~1km resolution."
     },
     {
       "rel": "child",
-      "href": "../../products/l3-s3-sea-level-anomaly-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-s3-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Level-3 Sentinel-3A [mid 2016, 2018] along-track 5Hz product, sea level anomaly, ~1km resolution"
     },
     {
       "rel": "child",
-      "href": "../../products/l3-spm-daily-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-spm-daily-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Level 3 Suspended Particulate Matter, 300m, daily and monthly"
     },
     {
       "rel": "child",
-      "href": "../../products/l3-sss-9day-average-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-sss-9day-average-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
+      "title": "Level 3 SSS, 0.25\u00b0*0.25\u00b0, 9-day averaged produced daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l3-turbidity-daily-monthly-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-turbidity-daily-monthly-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Level 3 Turbidity, 300m, daily and monthly"
     },
     {
       "rel": "child",
-      "href": "../../products/l4-chla-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4-chla-eo4sibs/collection.json",
       "type": "application/json",
       "title": "Level 4 Ocean Colour products Chl-a, 300m, daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l4-dynamic-topography-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4-dynamic-topography-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l4-geostrophic-currents-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4-geostrophic-currents-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l4-sea-level-anomaly-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
     },
     {
       "rel": "child",
-      "href": "../../products/l4-sss-eo4sibs/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4-sss-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4 product SSS, 0.05°*0.0505°"
+      "title": "Level 4 product SSS, 0.05\u00b0*0.0505\u00b0"
     },
     {
       "rel": "child",
-      "href": "../../products/ocean-freshwater-flux-arctic-theme3/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ocean-freshwater-flux-arctic-theme3/collection.json",
       "type": "application/json",
       "title": "Ocean freshwater fluxes_Arctic_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/satellite-data-chaos-field-model-4d-earth-swarm/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-data-chaos-field-model-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "Vector and scalar satellite data files as used in the CHAOS field model"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp/collection.json",
       "type": "application/json",
       "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-clima-snow-depth-lpf-cassis/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-clima-snow-depth-lpf-cassis/collection.json",
       "type": "application/json",
       "title": "Sea ice freeboard and thickness_TFMRA50 and AMSR climatology snow depth_Antarctic_CryoSat-2/SARAL"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-phys-ocean-lpf-arcticsummit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-phys-ocean-lpf-arcticsummit/collection.json",
       "type": "application/json",
       "title": "Sea ice and physical oceanography_Arctic_CryoSat-2 Baseline-C Level 1b waveform observations"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-retracker-snow-depth-cryosat-lpf-cassis/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-retracker-snow-depth-cryosat-lpf-cassis/collection.json",
       "type": "application/json",
       "title": "Sea ice freeboard and thickness_TFMRA50 and AMSR-2 snow depth_Antarctic_CryoSat-2/SARAL"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-snow-depth-lpf-cassis/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-snow-depth-lpf-cassis/collection.json",
       "type": "application/json",
       "title": "Sea ice freeboard and thickness_TFMRA50 and ASD snow depth_Antarctic_CryoSat-2/SARAL"
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-thickness-lpf-arcticsummit/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-thickness-lpf-arcticsummit/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness_monthly_Oct 2010-July 2020Arctic_CryoSat-2 Baseline-D observations"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-amazon-itapeua-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-amazon-itapeua-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge_Amazon Itapeua_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-amazon-manacapuru-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-amazon-manacapuru-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge_Amazon Manacapuru_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-congo-brazaville-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-congo-brazaville-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge_Congo Brazaville_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-danube-baja-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-danube-baja-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge products_Danube Baja_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-danube-mohacs-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-danube-mohacs-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge products_Danube Mohacs_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge_Mississippi Chester_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-mississippi-memphis-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-mississippi-memphis-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge_Mississippi Memphis_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-po-borgoforte-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-po-borgoforte-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge products_Po Borgoforte_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-po-cremona-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-po-cremona-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge products_Po Cremona_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-po-pontelagoscuro-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-po-pontelagoscuro-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge products_Po Pontelagoscuro_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/simulated-river-discharge-po-sermide-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-po-sermide-ridesat/collection.json",
       "type": "application/json",
       "title": "Simulated River discharge products_Po Sermide_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-lake-drainage-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/subglacial-lake-volumes/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-lake-volumes/collection.json",
       "type": "application/json",
       "title": "Sublacial Lake Volumes (ESA POLAR+ 4D Greenland Experimantal Dataset"
     },
     {
       "rel": "child",
-      "href": "../../products/swath-elelvation-antarctic-ice-sheet-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/swath-elelvation-antarctic-ice-sheet-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath elevation_Antarctic ice Sheet_2011-2016_CryoSat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/swath-elelvation-greenland-ice-sheet-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/swath-elelvation-greenland-ice-sheet-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath elevation_Greenland Ice Sheet_2011-2016_CryoSat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-amazon-itapeua-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-amazon-itapeua-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-amazon-manacapuru-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-amazon-manacapuru-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Manacapuru_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-congo-brazaville-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-congo-brazaville-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Congo Brazaville_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-danube-baja-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-danube-baja-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Baja_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-danube-mohacs-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-danube-mohacs-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Danube Mohacs_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-mississippi-chester-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-mississippi-chester-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Chester_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-mississippi-memphis-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-mississippi-memphis-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Mississippi Memphis_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-po-borgoforte-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-po-borgoforte-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Borgoforte_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-po-cremona-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-po-cremona-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Cremona_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-po-pontelagoscuro-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-po-pontelagoscuro-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Pontelagoscuro_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/water-level-po-sermide-ridesat/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-level-po-sermide-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Sermide_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/antarctic-ice-shelf-melt-rates/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/antarctic-ice-shelf-melt-rates/collection.json",
       "type": "application/json",
       "title": "Antarctic ice shelf basal melt rates 1997-2021"
     },
     {
       "rel": "child",
-      "href": "../../products/sec-antarctic-ice-sheet/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sec-antarctic-ice-sheet/collection.json",
       "type": "application/json",
       "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
     },
     {
       "rel": "child",
-      "href": "../../products/southern-ocean-sit-from-cryosat-2/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/southern-ocean-sit-from-cryosat-2/collection.json",
       "type": "application/json",
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Final Product: L3 inland water level time series"
     },
     {
       "rel": "child",
-      "href": "../../products/l4_river-discharge-time-series-s3-final-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4_river-discharge-time-series-s3-final-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Final Product: L4 river discharge time series"
     },
     {
       "rel": "child",
-      "href": "../../products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2-along-track-re-tracked-s3-c2-testdataset-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Test Data Set: L2 along-track re-tracked product"
     },
     {
       "rel": "child",
-      "href": "../../products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2-along-track-re-tracked-s3-c2-final-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
     },
     {
       "rel": "child",
-      "href": "../../products/vardyn-ssh-allsat-L4/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/vardyn-ssh-allsat-L4/collection.json",
       "type": "application/json",
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/cryosat-2/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

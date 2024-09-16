@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,33 +17,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/collection.json",
       "type": "application/json",
       "title": "Project: SUNLIT"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/tropospheric-ozone/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/tropospheric-ozone/catalog.json",
       "type": "application/json",
       "title": "Variable: Tropospheric Ozone"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-5p/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tropospheric-ozone-column-tropomi-sunlit/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

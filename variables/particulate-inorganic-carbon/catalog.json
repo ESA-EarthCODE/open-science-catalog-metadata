@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,15 +18,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/particulate-inorganic-carbon-bicep/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/particulate-inorganic-carbon-bicep/collection.json",
       "type": "application/json",
       "title": "Monthly Global Particulate Inorganic Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/particulate-inorganic-carbon/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

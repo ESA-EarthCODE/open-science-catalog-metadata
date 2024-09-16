@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,33 +17,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sunlit-synergy-of-using-nadir-and-limb-instruments-for-tropospheric-ozone-monitoring/collection.json",
       "type": "application/json",
       "title": "Project: SUNLIT"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/total-ozone/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/total-ozone/catalog.json",
       "type": "application/json",
       "title": "Variable: Total Ozone"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/limb-viewing-instruments/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/limb-viewing-instruments/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Limb-Viewing Instruments"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/stratospheric-ozone-column-limb-sunlit/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

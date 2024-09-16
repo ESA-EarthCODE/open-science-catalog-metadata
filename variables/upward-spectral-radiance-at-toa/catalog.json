@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "upward-spectral-radiance-at-toa",
   "stac_version": "1.0.0",
-  "description": "Upward radiant power measured at the top of the atmosphere per area unit, per solid angle, and per wavelength interval. Spectral range 0.2-200 Âµm. Resolving power ?/??= 1000. Accuracy quoted as SNR (Signal-to-Noise-Ratio), actually SNR^-1 so that smaller figure means better performance, as usual.",
+  "description": "Upward radiant power measured at the top of the atmosphere per area unit, per solid angle, and per wavelength interval. Spectral range 0.2-200 \u00c2\u00b5m. Resolving power ?/??= 1000. Accuracy quoted as SNR (Signal-to-Noise-Ratio), actually SNR^-1 so that smaller figure means better performance, as usual.",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/upward-spectral-radiance-at-toa/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

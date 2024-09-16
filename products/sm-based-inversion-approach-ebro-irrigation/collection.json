@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/irrigation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/irrigation/collection.json",
       "type": "application/json",
       "title": "Project: Irrigation+"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "../../variables/anthropogenic-water-use/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/anthropogenic-water-use/catalog.json",
       "type": "application/json",
       "title": "Variable: Anthropogenic Water Use"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sm-based-inversion-approach-ebro-irrigation/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

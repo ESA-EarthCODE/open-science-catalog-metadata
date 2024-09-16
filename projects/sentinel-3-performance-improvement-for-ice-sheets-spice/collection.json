@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,21 +22,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-antarctica-l1b-spice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l1b-spice/collection.json",
       "type": "application/json",
       "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 1B"
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-antarctica-l3-spice/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-antarctica-l3-spice/collection.json",
       "type": "application/json",
       "title": "Ice Sheets_Antarctica_Sentinel-2 Performance Improvement_Level 3"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sentinel-3-performance-improvement-for-ice-sheets-spice/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "gravity-gradients",
   "stac_version": "1.0.0",
-  "description": "Gradient of the Earthâ€™s gravity field measured at the satellite orbital height - Physical unit: [ E ] , EÃ¶tvÃ¶s (1 E = 1 mGal / 10 km) - Accuracy unit: [ E ].",
+  "description": "Gradient of the Earth\u00e2\u20ac\u2122s gravity field measured at the satellite orbital height - Physical unit: [ E ] , E\u00c3\u00b6tv\u00c3\u00b6s (1 E = 1 mGal / 10 km) - Accuracy unit: [ E ].",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/gravity-gradients/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

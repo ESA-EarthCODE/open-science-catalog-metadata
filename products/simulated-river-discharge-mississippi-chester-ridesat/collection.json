@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,57 +22,62 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ridesat-river-flow-monitoring-and-discharge-estimation-by-integrating-multiple-satellite-data/collection.json",
       "type": "application/json",
       "title": "Project: RIDESAT"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "../../variables/fresh-water-river-discharge/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/fresh-water-river-discharge/catalog.json",
       "type": "application/json",
       "title": "Variable: Fresh Water River Discharge"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/saral/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/saral/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SARAL"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/cryosat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CryoSat-2"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/terra/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/terra/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Terra"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/aqua-eos-pm-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

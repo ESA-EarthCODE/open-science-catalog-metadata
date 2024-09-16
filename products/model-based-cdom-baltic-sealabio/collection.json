@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,39 +17,44 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/baltic-sea-land-biogeochemical-linkages-sealabio/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/baltic-sea-land-biogeochemical-linkages-sealabio/collection.json",
       "type": "application/json",
       "title": "Project: BALTIC+ Sea-Land"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "../../variables/colored-dissolved-organic-matter/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/colored-dissolved-organic-matter/catalog.json",
       "type": "application/json",
       "title": "Variable: Colored Dissolved Organic Matter"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/numerical-models/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/numerical-models/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/model-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

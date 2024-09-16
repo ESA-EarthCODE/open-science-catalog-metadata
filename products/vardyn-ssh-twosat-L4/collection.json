@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,57 +22,62 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/esa-science-hub-florian-le-guillou/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/esa-science-hub-florian-le-guillou/collection.json",
       "type": "application/json",
       "title": "Project: ESA Science Hub-Florian Le Guillou"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/sea-surface-height/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-height/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Surface Height"
     },
     {
       "rel": "related",
-      "href": "../../variables/sea-surface-temperature/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-temperature/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Surface Temperature"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-6/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-6"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/gcom-w1/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/gcom-w1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GCOM-W1"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/gpm-global-precipitation-measurement/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GPM (Global Precipitation Measurement)"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/vardyn-ssh-twosat-L4/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

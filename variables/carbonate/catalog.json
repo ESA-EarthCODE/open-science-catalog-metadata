@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,15 +18,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/oceansoda-ethz/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceansoda-ethz/collection.json",
       "type": "application/json",
       "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/carbonate/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

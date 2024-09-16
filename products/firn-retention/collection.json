@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,27 +22,32 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/4d-greenland/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4d-greenland/collection.json",
       "type": "application/json",
       "title": "Project: 4D-Greenland"
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/firn/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/firn/catalog.json",
       "type": "application/json",
       "title": "Variable: Firn"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/firn-retention/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

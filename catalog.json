@@ -6,39 +6,44 @@
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
     {
       "rel": "child",
-      "href": "./projects/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
     },
     {
       "rel": "child",
-      "href": "./themes/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/catalog.json",
       "type": "application/json",
       "title": "Themes"
     },
     {
       "rel": "child",
-      "href": "./variables/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
     },
     {
       "rel": "child",
-      "href": "./products/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-09-12T20:32:23.037110Z",

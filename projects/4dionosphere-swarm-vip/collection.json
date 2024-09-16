@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,15 +22,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/model-ionosphere-4dionosphere/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/model-ionosphere-4dionosphere/collection.json",
       "type": "application/json",
       "title": "Semi-empiric model of ionosphere processes_SWARM"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4dionosphere-swarm-vip/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

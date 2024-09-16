@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,21 +18,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-temperature-antarctica-cryosmos/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-temperature-antarctica-cryosmos/collection.json",
       "type": "application/json",
       "title": "Internal ice-sheet temperature_Antarctica_SMOS"
     },
     {
       "rel": "child",
-      "href": "../../products/ice-temperature-profiles-antarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-temperature-profiles-antarctica/collection.json",
       "type": "application/json",
       "title": "Ice temperature profiles"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ice-temperature/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

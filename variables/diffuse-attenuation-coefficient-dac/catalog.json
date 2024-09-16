@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -24,33 +24,38 @@
     },
     {
       "rel": "child",
-      "href": "../../products/diffuse-attenuation-aeolus-innovation-color/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/diffuse-attenuation-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Diffuse attenuation: Kd_Global_AEOLUS"
     },
     {
       "rel": "child",
-      "href": "../../products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
       "type": "application/json",
       "title": "Mean spectral DAC avg for 320-338.5nm (UVAB) 356.5 - 390 nm (UVA) & 390 - 423 nm in the Atlantic Ocean from S5P (TROPOMI)"
     },
     {
       "rel": "child",
-      "href": "../../products/mean-spectral-dac-from-318-to952nm-of-underwater-light-profiles-rv-polarstern-cruise-ps113/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-from-318-to952nm-of-underwater-light-profiles-rv-polarstern-cruise-ps113/collection.json",
       "type": "application/json",
       "title": "Mean spectral DAC from 318-952nm of light profiles measured at discrete stations (RV Polarstern cruise PS113) "
     },
     {
       "rel": "child",
-      "href": "../../products/mean-spectral-dac-from-320-to917nm-from-radiometric-underwater-light-transmission-profiles/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-from-320-to917nm-from-radiometric-underwater-light-transmission-profiles/collection.json",
       "type": "application/json",
       "title": "Mean spectral DAC from 320-917nm from light transmission profiles by an undulating platform towed behind the ship"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/diffuse-attenuation-coefficient-dac/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

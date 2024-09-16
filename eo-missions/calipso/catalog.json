@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,117 +18,122 @@
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-dust-mass-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-dust-mass-op-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol and Dust aerosol optical property profiles_Dust mass concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-dust-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-dust-od-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol (and dust aerosol) optical depth_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-pure-dust-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-pure-dust-op-livas/collection.json",
       "type": "application/json",
       "title": "Aerosol (and dust aerosol) optical property profiles_Pure Dust concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cliima-cloud-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cliima-cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-od-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-od-all-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical depth, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental. Boundaries of dust layers_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical depth (AOD)_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-op-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-op-all-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical property profiles for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-aerosol-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-aerosol-op-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical property profiles_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-cloud-profile-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-cloud-profile-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of cloud optical property profiles_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-strat-aerosol-cloud-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-strat-aerosol-cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of stratospheric aerosol and cloud optical depth_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/clima-strat-aerosol-cloud-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-strat-aerosol-cloud-op-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of stratospheric aerosol and cloud optical property profiles_Global_CALIPSO_EARTHCARE"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-od-averaged-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-od-averaged-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical depth, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical depth_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-op-averaged-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-op-averaged-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical property profiles, averaged per overpass along 1x1 degree grid_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-op-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-op-livas/collection.json",
       "type": "application/json",
       "title": "Cloud optical property profiles_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/dust-od-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dust-od-livas/collection.json",
       "type": "application/json",
       "title": "Dust optical depth (DOD) of dust layers_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/time-clima-aerosol-od-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/time-clima-aerosol-od-all-livas/collection.json",
       "type": "application/json",
       "title": "Time-Based Climatology of aerosol optical depth, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental. Boundaries of dust layers_Global_CALIPSO"
     },
     {
       "rel": "child",
-      "href": "../../products/time-clima-aerosol-op-all-livas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/time-clima-aerosol-op-all-livas/collection.json",
       "type": "application/json",
       "title": "Time-Based Climatology of aerosol optical property profiles, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental_Global_CALIPSO"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/calipso/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

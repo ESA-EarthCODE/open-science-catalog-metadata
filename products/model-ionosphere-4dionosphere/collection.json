@@ -6,39 +6,44 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/4dionosphere-swarm-vip/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4dionosphere-swarm-vip/collection.json",
       "type": "application/json",
       "title": "Project: SWARM VIP"
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Magnetosphere_Ionosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/ionosphere-magnetosphere-dynamics/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ionosphere-magnetosphere-dynamics/catalog.json",
       "type": "application/json",
       "title": "Variable: Ionosphere/Magnetosphere Dynamics"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/swarm/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/swarm/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SWARM"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/model-ionosphere-4dionosphere/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

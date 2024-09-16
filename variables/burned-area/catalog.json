@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,15 +18,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/seasfire-cube/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/seasfire-cube/collection.json",
       "type": "application/json",
       "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/burned-area/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,27 +18,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/crop-map-multitemporal-s24land/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/crop-map-multitemporal-s24land/collection.json",
       "type": "application/json",
       "title": "Multitemporal crop map - phenological parameters and phenological parameters_Italy_2017/2018_S2"
     },
     {
       "rel": "child",
-      "href": "../../products/land-cover-map-italy-s24land/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-cover-map-italy-s24land/collection.json",
       "type": "application/json",
       "title": "Land cover map_Italy_2018_S2"
     },
     {
       "rel": "child",
-      "href": "../../products/regional-esdl-south-america-esdl/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/regional-esdl-south-america-esdl/collection.json",
       "type": "application/json",
       "title": "Code for Regional Earth System Data Lab: Tropical South America"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/land-use-land-cover-classification/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

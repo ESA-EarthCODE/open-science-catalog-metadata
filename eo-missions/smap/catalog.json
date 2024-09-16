@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,27 +18,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-surface-salinity-l3-baltic-salinity-dynamics/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/baltic-sea-surface-salinity-l3-baltic-salinity-dynamics/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Surface Salinity L3 maps (V.2.0)_Baltics_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-surface-salinity-l4-baltic-salinity-dynamics/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/baltic-sea-surface-salinity-l4-baltic-salinity-dynamics/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Surface Salinity L4 maps (V.2.0)_Baltics_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
       "type": "application/json",
       "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smap/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

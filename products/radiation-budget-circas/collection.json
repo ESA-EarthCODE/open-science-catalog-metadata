@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/consistent-retrieval-of-cloud-aerosol-surface/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/consistent-retrieval-of-cloud-aerosol-surface/collection.json",
       "type": "application/json",
       "title": "Project: CIRCAS"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/earth-radiation-budget/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/earth-radiation-budget/catalog.json",
       "type": "application/json",
       "title": "Variable: Earth Radiation Budget"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/radiation-budget-circas/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

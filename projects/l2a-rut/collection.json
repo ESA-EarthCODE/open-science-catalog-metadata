@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,15 +22,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/s2l2a-uncertainty-sr-lpf-l2arut/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/s2l2a-uncertainty-sr-lpf-l2arut/collection.json",
       "type": "application/json",
       "title": "S2 L2A uncertainty_Surface reflectance estimates_S2"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/l2a-rut/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

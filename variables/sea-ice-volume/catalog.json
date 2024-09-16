@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -24,15 +24,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-and-snow-volume-north-sea-stse-arctic-yopp/collection.json",
       "type": "application/json",
       "title": "Sea ice volume and snow volume_Prior and posterior uncertainties_North Sea_Cryosat-2"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-ice-volume/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

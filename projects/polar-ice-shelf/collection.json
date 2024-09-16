@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,21 +22,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/antarctic-ice-shelf-calving-fronts/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/antarctic-ice-shelf-calving-fronts/collection.json",
       "type": "application/json",
       "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
     },
     {
       "rel": "child",
-      "href": "../../products/antarctic-ice-shelf-melt-rates/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/antarctic-ice-shelf-melt-rates/collection.json",
       "type": "application/json",
       "title": "Antarctic ice shelf basal melt rates 1997-2021"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/polar-ice-shelf/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

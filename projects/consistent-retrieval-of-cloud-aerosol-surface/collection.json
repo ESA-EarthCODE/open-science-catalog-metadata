@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,27 +22,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/albedo-circas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/albedo-circas/collection.json",
       "type": "application/json",
       "title": "Albedo_Regional_S3A/SLSTR"
     },
     {
       "rel": "child",
-      "href": "../../products/cloud-aerosol-circas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cloud-aerosol-circas/collection.json",
       "type": "application/json",
       "title": "Cloud and aerosol products_Regional_S3A/SLSTR"
     },
     {
       "rel": "child",
-      "href": "../../products/radiation-budget-circas/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/radiation-budget-circas/collection.json",
       "type": "application/json",
       "title": "Radiation budget_Regional_S3"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/consistent-retrieval-of-cloud-aerosol-surface/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

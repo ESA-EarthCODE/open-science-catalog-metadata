@@ -2,11 +2,11 @@
   "type": "Catalog",
   "id": "interplanetary-magnetic-field",
   "stac_version": "1.0.0",
-  "description": "Vector magnetic field (3D) in the solar wind.Â The reference frame is Cartesian or Cylindrical with many different axis orientations. Important in Space Weather to monitor magnetic disturbances of the near earth environment.",
+  "description": "Vector magnetic field (3D) in the solar wind.\u00c2\u00a0The reference frame is Cartesian or Cylindrical with many different axis orientations. Important in Space Weather to monitor magnetic disturbances of the near earth environment.",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,9 +18,14 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/interplanetary-magnetic-field/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

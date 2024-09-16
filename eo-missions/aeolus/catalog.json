@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,33 +18,38 @@
     },
     {
       "rel": "child",
-      "href": "../../products/cdom-aeolus-innovation-color/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/cdom-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Chromophoric Dissolved Organic Matter (CDOM) absorption_Global_AEOLUS"
     },
     {
       "rel": "child",
-      "href": "../../products/diffuse-attenuation-aeolus-innovation-color/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/diffuse-attenuation-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Diffuse attenuation: Kd_Global_AEOLUS"
     },
     {
       "rel": "child",
-      "href": "../../products/lidar-aerosol-aeolus-swails/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lidar-aerosol-aeolus-swails/collection.json",
       "type": "application/json",
       "title": "AOD (Aerosol Optical Depth) estimates from LARISSA"
     },
     {
       "rel": "child",
-      "href": "../../products/particulate-backscatter-aeolus-innovation-color/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/particulate-backscatter-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Particulate backscatter: bbp_Global_AEOLUS"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/aeolus/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.171831Z",

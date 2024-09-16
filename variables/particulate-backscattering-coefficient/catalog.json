@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,15 +18,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/particulate-backscatter-aeolus-innovation-color/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/particulate-backscatter-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Particulate backscatter: bbp_Global_AEOLUS"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/particulate-backscattering-coefficient/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

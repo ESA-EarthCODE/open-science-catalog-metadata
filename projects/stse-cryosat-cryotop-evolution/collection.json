@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "child",
-      "href": "../../products/elevation-and-elevation-change-antarctic-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/elevation-and-elevation-change-antarctic-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath-derived elevation and elevation change_Antarctic ice Sheet_2011-2016_CryoSat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/ice-sheet-topography-elevation-change-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-topography-elevation-change-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Ice Sheet_gridded topography_rates of surface elevation change_Greenland_Cryosat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/swath-elelvation-antarctic-ice-sheet-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/swath-elelvation-antarctic-ice-sheet-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath elevation_Antarctic ice Sheet_2011-2016_CryoSat-2"
     },
     {
       "rel": "child",
-      "href": "../../products/swath-elelvation-greenland-ice-sheet-cryotop-evolution/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/swath-elelvation-greenland-ice-sheet-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath elevation_Greenland Ice Sheet_2011-2016_CryoSat-2"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/stse-cryosat-cryotop-evolution/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

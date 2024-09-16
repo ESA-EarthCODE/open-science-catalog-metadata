@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,51 +22,56 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/earth-observation-data-for-science-and-innovation-in-the-black-sea/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/earth-observation-data-for-science-and-innovation-in-the-black-sea/collection.json",
       "type": "application/json",
       "title": "Project: EO4SIBS"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/surface-currents/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/surface-currents/catalog.json",
       "type": "application/json",
       "title": "Variable: Surface Currents"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smos/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SMOS"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-2"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/cryosat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eddy-census-eo4sibs/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

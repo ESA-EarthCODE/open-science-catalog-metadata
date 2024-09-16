@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,39 +22,44 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/sentinel-5p-innovation-ocean-colour-s5p-i-oc/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sentinel-5p-innovation-ocean-colour-s5p-i-oc/collection.json",
       "type": "application/json",
       "title": "Project: S5p Inno - S5p-I-OC"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/chlorophyll-concentration/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/chlorophyll-concentration/catalog.json",
       "type": "application/json",
       "title": "Variable: Chlorophyll Concentration"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-5p/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/high-res-phytoplankton-chl-a-data-by-undulating-platform-behind-the-ship-polarstern-cruise-ps113/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

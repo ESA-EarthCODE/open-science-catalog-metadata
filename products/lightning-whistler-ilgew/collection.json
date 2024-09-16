@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,39 +17,44 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/investigating-lightning-generated-elf-whistlers-to-improve-ionospheric-models-ilgew/collection.json",
       "type": "application/json",
       "title": "Project: ILGEW"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Magnetosphere_Ionosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/lightning/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/lightning/catalog.json",
       "type": "application/json",
       "title": "Variable: Lightning"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/swarm/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/swarm/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SWARM"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lightning-whistler-ilgew/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

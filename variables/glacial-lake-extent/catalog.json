@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,27 +18,32 @@
     },
     {
       "rel": "child",
-      "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-lake-drainage-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/supraglacial-lakes-west-4dantarctica/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/supraglacial-lakes-west-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
     },
     {
       "rel": "child",
-      "href": "../../products/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/supraglacial-storage-and-drainage-lake-features-mapped-by-sentinel1/collection.json",
       "type": "application/json",
       "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/glacial-lake-extent/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

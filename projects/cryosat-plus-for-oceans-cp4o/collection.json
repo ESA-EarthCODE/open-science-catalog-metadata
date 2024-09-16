@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,69 +22,74 @@
     },
     {
       "rel": "child",
-      "href": "../../products/bathymetry-arctic-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/bathymetry-arctic-cp4o/collection.json",
       "type": "application/json",
       "title": "Bathymetry_Arctic_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/hr-tidal-atlas-arctic-ocean-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hr-tidal-atlas-arctic-ocean-cp4o/collection.json",
       "type": "application/json",
       "title": "Arctide2017_High-resolution tidal atlas_Arctic Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/lr-satellite-altimeter-open-ocean-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lr-satellite-altimeter-open-ocean-cp4o/collection.json",
       "type": "application/json",
       "title": "Low Resolution Mode satellite altimeter product _Open Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/rdsar-satellite-sar-altimeter-open-ocean-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/rdsar-satellite-sar-altimeter-open-ocean-cp4o/collection.json",
       "type": "application/json",
       "title": "RDSAR Satellite SAR altimeter product_Open Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/satellite-altimeter-polar-ocean-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-altimeter-polar-ocean-cp4o/collection.json",
       "type": "application/json",
       "title": "Satellite LRM, SAR, SARIN polar altimeter product_Polar Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/satellite-sar-altimeter-coastal-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-sar-altimeter-coastal-cp4o/collection.json",
       "type": "application/json",
       "title": "Satellite SAR altimeter product_Coastal Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/satellite-sar-altimeter-open-ocean-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-sar-altimeter-open-ocean-cp4o/collection.json",
       "type": "application/json",
       "title": "Satellite SAR altimeter product_Open Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/satellite-sar-altimeter-sea-floor-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-sar-altimeter-sea-floor-cp4o/collection.json",
       "type": "application/json",
       "title": "Satellite SAR altimeter product_Sea Floor Mapping_Oceania_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/satellite-sarin-altimeter-coastal-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-sarin-altimeter-coastal-cp4o/collection.json",
       "type": "application/json",
       "title": "Satellite SARIN altimeter product_Coastal Ocean_Cryosat"
     },
     {
       "rel": "child",
-      "href": "../../products/wet-troposphere-correction-cryosat-cp4o/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/wet-troposphere-correction-cryosat-cp4o/collection.json",
       "type": "application/json",
       "title": "Wet Troposphere Correction_for Cryosat"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/cryosat-plus-for-oceans-cp4o/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

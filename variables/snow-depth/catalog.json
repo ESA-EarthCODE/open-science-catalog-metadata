@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -18,21 +18,26 @@
     },
     {
       "rel": "child",
-      "href": "../../products/snow-depth-europe-alps-alpsnow/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/snow-depth-europe-alps-alpsnow/collection.json",
       "type": "application/json",
       "title": "Snow depth for European Alps_Multimission"
     },
     {
       "rel": "child",
-      "href": "../../products/southern-ocean-sit-from-cryosat-2/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/southern-ocean-sit-from-cryosat-2/collection.json",
       "type": "application/json",
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/snow-depth/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

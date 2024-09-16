@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,45 +22,50 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
       "type": "application/json",
       "title": "Project: OceanSODA"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/dissolved-organic-carbon/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/dissolved-organic-carbon/catalog.json",
       "type": "application/json",
       "title": "Variable: Dissolved Organic Carbon"
     },
     {
       "rel": "related",
-      "href": "../../variables/alkalinity/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/alkalinity/catalog.json",
       "type": "application/json",
       "title": "Variable: Alkalinity"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smos/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SMOS"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,15 +22,20 @@
     },
     {
       "rel": "child",
-      "href": "../../products/sea-surface-salinity-godae-oceanview/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-surface-salinity-godae-oceanview/collection.json",
       "type": "application/json",
       "title": "Sea Surface Salinity Bias_Global_SMOS"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/godae-ocean-observing-system-evaluation-of-satellite-sea-surface-salinity-and-el-nino-2015-smos-nino15/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -17,33 +17,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
       "type": "application/json",
       "title": "Project: AEOLUS+inno - COLOR"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "../../variables/diffuse-attenuation-coefficient-dac/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/diffuse-attenuation-coefficient-dac/catalog.json",
       "type": "application/json",
       "title": "Variable: Diffuse Attenuation Coefficient (DAC)"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/aeolus/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/aeolus/catalog.json",
       "type": "application/json",
       "title": "EO Mission: AEOLUS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/diffuse-attenuation-aeolus-innovation-color/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

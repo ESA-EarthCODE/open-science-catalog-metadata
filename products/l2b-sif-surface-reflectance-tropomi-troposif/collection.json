@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
@@ -22,33 +22,38 @@
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json",
       "title": "Products"
     },
     {
       "rel": "related",
-      "href": "../../projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/collection.json",
       "type": "application/json",
       "title": "Project: S5p Inno - SIF"
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
-      "href": "../../variables/reflectance/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/reflectance/catalog.json",
       "type": "application/json",
       "title": "Variable: Reflectance"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-5p/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l2b-sif-surface-reflectance-tropomi-troposif/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
