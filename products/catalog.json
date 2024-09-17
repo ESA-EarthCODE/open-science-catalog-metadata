@@ -1679,6 +1679,12 @@
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
+      "rel": "child",
+      "href": "./extraim-daily-precipitation/collection.json",
+      "type": "application/json",
+      "title": "The extrAIM dataset: A merged satellite-based daily precipitation dataset for the Mediterranean region (including an ensemble of 20 synthetic realisations)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
