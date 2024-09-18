@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "clono2",
   "stac_version": "1.0.0",
-  "description": "3D field of amount of ClONO2Â (Chlorine nitrate, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) Â ",
+  "description": "3D field of amount of ClONO2\u00c2\u00a0(Chlorine nitrate, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles) \u00c2\u00a0",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/clono2/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

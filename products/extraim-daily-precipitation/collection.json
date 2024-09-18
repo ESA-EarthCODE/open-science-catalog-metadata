@@ -1,135 +1,140 @@
 {
-    "type": "Collection",
-    "id": "extraim-daily-precipitation",
-    "stac_version": "1.0.0",
-    "description": "extrAIM dataset is a new merged daily precipitation product (extraim_merged_data.nc) for the Mediterranean region with the following characteristics: 1) dataset format: NetCDF; 2) spatial resolution: 25x25km; 3) temporal resolution: 1 day; 4) spatial coverage: Longitude: from -6.25 to 38.25, Latitude: 27.75 to 49; 5) Temporal coverage: 01-01-2007 to 30-09-2021; 6) Merging approach: Two-step merging (classification and regression): a) Algorithm: Random Forest for both classification and regression; b) Training strategy: Full training strategy; 7) Merged precipitation products: SM2Rain-ASCAT and GPM Late Run; 8) Reference precipitation product: EMO5; 9) Static covariates: Longitude, Latitude and Elevation, in both classification and regression step: a) Classification step: probability dry and probability dry of the 5 neighboring points around the target locations; b) Regression step: mean, standard deviation and skewness of daily precipitation, of the entire series and non-zero amounts, as well as mean precipitation of the 5 neighboring points around the target locations. In addition, an ensemble of 20 synthetic realizations (equiprobable and bias-adjusted) of the merged dataset is provided (files named: extraim_realisation_XX.nc). The synthetic realisations were produced using the extrAIMs uncertainty-quantification approach and the associated conditional sampling method.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "child",
-        "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/extrAIM/catalog.json",
-        "type": "application/json",
-        "title": "The extrAIM dataset"
-      },
-      {
-        "rel": "via",
-        "href": "https://zenodo.org/records/12744389",
-        "title": "Access"
-      },
-      {
-        "rel": "via",
-        "href": "https://doi.org/10.1016/j.jhydrol.2024.131424",
-        "title": "Documentation"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Products"
-      },
-      {
-        "rel": "related",
-        "href": "../../projects/ai-enhanced-uncertainty-quantification-of-satellite-derived-hydroclimatic-extremes-extraim/collection.json",
-        "type": "application/json",
-        "title": "Project: extrAIM"
-      },
-      {
-        "rel": "related",
-        "href": "../../themes/land/catalog.json",
-        "type": "application/json",
-        "title": "Theme: Land"
-      },
-      {
-        "rel": "related",
-        "href": "../../themes/atmosphere/catalog.json",
-        "type": "application/json",
-        "title": "Theme: Artmosphere"
-      },
-      {
-        "rel": "related",
-        "href": "../../themes/oceans/catalog.json",
-        "type": "application/json",
-        "title": "Theme: Oceans"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/precipitation-amount/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Precipitation Amount"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/ascat/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: ASCAT"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: GPM (Global Precipitation Measurement)"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
-    ],
-    "osc:project": "AI-ENHANCED UNCERTAINTY QUANTIFICATION OF SATELLITE-DERIVED HYDROCLIMATIC EXTREMES (extrAIM)",
-    "osc:status": "completed",
-    "osc:region": "Mediterranean region",
-    "osc:type": "product",
-    "created": "2024-07-15T00:00:00Z",
-    "start_datetime": "2007-01-01T00:00:00Z",
-    "end_datetime": "2021-10-02T00:00:00Z",
-    "cf:parameter": [
-      {
-        "name": "daily-precipitation-amount"
-      }
-    ],
-    "osc:themes": [
-      "land",
-      "oceans",
-      "atmosphere"
-    ],
-    "osc:variables": [
-      "precipitation-amount"
-    ],
-    "osc:missions": [
-        "ascat",
-        "gpm-global-precipitation-measurement"
-    ],
-    "updated": "2024-09-17T20:32:22.973110Z",
-    "title": "The extrAIM dataset: A merged satellite-based daily precipitation dataset for the Mediterranean region (including an ensemble of 20 synthetic realisations)",
-    "extent": {
-      "spatial": {
-        "bbox": [
-          [
-            -6.25,
-            27.75,
-            38.25,
-            49.0
-          ]
-        ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2007-01-02T00:00:00Z",
-            "2021-10-02T00:00:00Z"
-          ]
-        ]
-      }
+  "type": "Collection",
+  "id": "extraim-daily-precipitation",
+  "stac_version": "1.0.0",
+  "description": "extrAIM dataset is a new merged daily precipitation product (extraim_merged_data.nc) for the Mediterranean region with the following characteristics: 1) dataset format: NetCDF; 2) spatial resolution: 25x25km; 3) temporal resolution: 1 day; 4) spatial coverage: Longitude: from -6.25 to 38.25, Latitude: 27.75 to 49; 5) Temporal coverage: 01-01-2007 to 30-09-2021; 6) Merging approach: Two-step merging (classification and regression): a) Algorithm: Random Forest for both classification and regression; b) Training strategy: Full training strategy; 7) Merged precipitation products: SM2Rain-ASCAT and GPM Late Run; 8) Reference precipitation product: EMO5; 9) Static covariates: Longitude, Latitude and Elevation, in both classification and regression step: a) Classification step: probability dry and probability dry of the 5 neighboring points around the target locations; b) Regression step: mean, standard deviation and skewness of daily precipitation, of the entire series and non-zero amounts, as well as mean precipitation of the 5 neighboring points around the target locations. In addition, an ensemble of 20 synthetic realizations (equiprobable and bias-adjusted) of the merged dataset is provided (files named: extraim_realisation_XX.nc). The synthetic realisations were produced using the extrAIMs uncertainty-quantification approach and the associated conditional sampling method.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
-    "license": "proprietary",
-    "keywords": [
-      "Precipitation Amount",
-      "Precipitation",
-      "Atmosphere",
-      "Extreme Precipitation"
-    ]
-  }
+    {
+      "rel": "child",
+      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/extrAIM/catalog.json",
+      "type": "application/json",
+      "title": "The extrAIM dataset"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/12744389",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.1016/j.jhydrol.2024.131424",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ai-enhanced-uncertainty-quantification-of-satellite-derived-hydroclimatic-extremes-extraim/collection.json",
+      "type": "application/json",
+      "title": "Project: extrAIM"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Artmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation-amount/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation Amount"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GPM (Global Precipitation Measurement)"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/extraim-daily-precipitation/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "AI-ENHANCED UNCERTAINTY QUANTIFICATION OF SATELLITE-DERIVED HYDROCLIMATIC EXTREMES (extrAIM)",
+  "osc:status": "completed",
+  "osc:region": "Mediterranean region",
+  "osc:type": "product",
+  "created": "2024-07-15T00:00:00Z",
+  "start_datetime": "2007-01-01T00:00:00Z",
+  "end_datetime": "2021-10-02T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "daily-precipitation-amount"
+    }
+  ],
+  "osc:themes": [
+    "land",
+    "oceans",
+    "atmosphere"
+  ],
+  "osc:variables": [
+    "precipitation-amount"
+  ],
+  "osc:missions": [
+    "ascat",
+    "gpm-global-precipitation-measurement"
+  ],
+  "updated": "2024-09-17T20:32:22.973110Z",
+  "title": "The extrAIM dataset: A merged satellite-based daily precipitation dataset for the Mediterranean region (including an ensemble of 20 synthetic realisations)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.25,
+          27.75,
+          38.25,
+          49.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-02T00:00:00Z",
+          "2021-10-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Precipitation Amount",
+    "Precipitation",
+    "Atmosphere",
+    "Extreme Precipitation"
+  ]
+}

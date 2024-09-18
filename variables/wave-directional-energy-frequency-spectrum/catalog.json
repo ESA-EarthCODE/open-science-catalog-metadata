@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "wave-directional-energy-frequency-spectrum",
   "stac_version": "1.0.0",
-  "description": "2D variable colloquially referred to as wave spectrum. Describes the wave energy travelling in each direction and frequency band (e.g., 24 distinct azimuth sectors each 15Â° wide, and 25 frequency bands)",
+  "description": "2D variable colloquially referred to as wave spectrum. Describes the wave energy travelling in each direction and frequency band (e.g., 24 distinct azimuth sectors each 15\u00c2\u00b0 wide, and 25 frequency bands)",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wave-directional-energy-frequency-spectrum/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

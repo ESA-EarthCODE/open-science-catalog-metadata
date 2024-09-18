@@ -44,6 +44,11 @@
       "href": "../../eo-missions/swarm/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SWARM"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sudden-stratospheric-warming-vera/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

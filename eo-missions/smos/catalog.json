@@ -62,13 +62,13 @@
       "rel": "child",
       "href": "../../products/l2-smos-sss-daily-ascending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily"
+      "title": "Level 2 SMOS , Ascending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily"
     },
     {
       "rel": "child",
       "href": "../../products/l2-smos-sss-daily-descending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily"
+      "title": "Level 2 SMOS , Descending orbit, 0.25\u00b0*0.25\u00b0, daily averaged produced daily"
     },
     {
       "rel": "child",
@@ -98,7 +98,7 @@
       "rel": "child",
       "href": "../../products/l3-sss-9day-average-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
+      "title": "Level 3 SSS, 0.25\u00b0*0.25\u00b0, 9-day averaged produced daily"
     },
     {
       "rel": "child",
@@ -116,25 +116,25 @@
       "rel": "child",
       "href": "../../products/l4-dynamic-topography-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
     },
     {
       "rel": "child",
       "href": "../../products/l4-geostrophic-currents-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
     },
     {
       "rel": "child",
       "href": "../../products/l4-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
+      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
     },
     {
       "rel": "child",
       "href": "../../products/l4-sss-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4 product SSS, 0.05°*0.0505°"
+      "title": "Level 4 product SSS, 0.05\u00b0*0.0505\u00b0"
     },
     {
       "rel": "child",
@@ -237,6 +237,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smos/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

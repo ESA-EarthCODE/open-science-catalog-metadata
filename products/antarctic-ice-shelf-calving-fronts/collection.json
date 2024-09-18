@@ -49,6 +49,11 @@
       "href": "../../variables/ice-extent/catalog.json",
       "type": "application/json",
       "title": "Variable: Ice Extent"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/antarctic-ice-shelf-calving-fronts/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

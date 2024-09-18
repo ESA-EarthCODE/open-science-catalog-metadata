@@ -61,6 +61,11 @@
       "href": "../../eo-missions/saral/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SARAL"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-retracker-snow-depth-cryosat-lpf-cassis/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

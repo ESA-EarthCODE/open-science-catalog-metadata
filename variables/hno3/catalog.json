@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "hno3",
   "stac_version": "1.0.0",
-  "description": "3D field of amount of HNO3Â (Nitric acid, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amount of HNO3\u00c2\u00a0(Nitric acid, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/hno3/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

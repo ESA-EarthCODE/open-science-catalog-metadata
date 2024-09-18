@@ -43,6 +43,11 @@
       "href": "../../variables/total-runoff/catalog.json",
       "type": "application/json",
       "title": "Variable: Total Runoff"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-basin-runoff/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

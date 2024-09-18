@@ -56,6 +56,11 @@
       "href": "../../eo-missions/champ/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CHAMP"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ground-virtual-observatory-champ-4d-earth-swarm/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

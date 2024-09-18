@@ -43,6 +43,11 @@
       "href": "../../variables/wind-stress/catalog.json",
       "type": "application/json",
       "title": "Variable: Wind Stress"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/wind-stress-vector-world-ocean-circulation/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

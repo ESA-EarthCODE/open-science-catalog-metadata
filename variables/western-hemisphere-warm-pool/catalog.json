@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "western-hemisphere-warm-pool",
   "stac_version": "1.0.0",
-  "description": "Monthly anomaly of the ocean surface area warmer than 28.5°C in the Atlantic and eastern North Pacific. Climatology is 1951-2000.",
+  "description": "Monthly anomaly of the ocean surface area warmer than 28.5\u00b0C in the Atlantic and eastern North Pacific. Climatology is 1951-2000.",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/western-hemisphere-warm-pool/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

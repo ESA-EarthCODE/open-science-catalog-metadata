@@ -20,19 +20,19 @@
       "rel": "child",
       "href": "../../products/dem-antarctica-2013-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
+      "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2013_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
       "href": "../../products/dem-antarctica-2017-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
+      "title": "Digital Elevation Model Antarctic Peninsula <70\u00b0S 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
       "href": "../../products/glacier-mass-balance-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Geodetic glacier mass balances Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
@@ -44,13 +44,18 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/tandem-x/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

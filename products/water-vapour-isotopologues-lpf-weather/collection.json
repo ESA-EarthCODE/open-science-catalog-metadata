@@ -44,6 +44,11 @@
       "href": "../../eo-missions/gosat/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GOSAT"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-vapour-isotopologues-lpf-weather/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

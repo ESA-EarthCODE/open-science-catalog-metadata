@@ -45,6 +45,11 @@
       "href": "../../eo-missions/tandem-x/catalog.json",
       "type": "application/json",
       "title": "EO Mission: TanDEM-X"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dem-antarctica-2013-lpf-mitap/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

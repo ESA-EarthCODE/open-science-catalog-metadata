@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "cloud-optical-depth",
   "stac_version": "1.0.0",
-  "description": "Effective depth of a cloud from the viewpoint of radiation extinction. OD = exp(-K.Î”z) where K is the extinction coefficient [km-1 ], Î”z the vertical path [km] between the base and the top of the cloud and the reference wavelength to be specified in the metadata.",
+  "description": "Effective depth of a cloud from the viewpoint of radiation extinction. OD = exp(-K.\u00ce\u201dz) where K is the extinction coefficient [km-1 ], \u00ce\u201dz the vertical path [km] between the base and the top of the cloud and the reference wavelength to be specified in the metadata.",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/cloud-optical-depth/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

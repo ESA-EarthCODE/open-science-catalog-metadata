@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "o3-total-column",
   "stac_version": "1.0.0",
-  "description": "2D field of total amountÂ of O3 molecules per unit area Â in an atmospheric column extending from the Earthâ€™s surface to the upper edge of the atmosphere (Dobson units).",
+  "description": "2D field of total amount\u00c2\u00a0of O3 molecules per unit area \u00c2\u00a0in an atmospheric column extending from the Earth\u00e2\u20ac\u2122s surface to the upper edge of the atmosphere (Dobson units).",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/o3-total-column/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

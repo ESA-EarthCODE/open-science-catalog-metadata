@@ -44,6 +44,11 @@
       "href": "../../eo-missions/aura/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Aura"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tropospheric-ozone-column-omi-sunlit/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
