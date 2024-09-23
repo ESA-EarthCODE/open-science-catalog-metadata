@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "l3-sss-9day-average-eo4sibs",
   "stac_version": "1.0.0",
-  "description": "Salinity retrievals from L2A and L2D over 9 days are used to produce daily values in a 0.25\u00b0*0.25\u00b0 by using the weighted average described in(Olmedo et al., 2021a). The resulting 9-day maps are generated daily.",
+  "description": "Salinity retrievals from L2A and L2D over 9 days are used to produce daily values in a 0.25°*0.25° by using the weighted average described in(Olmedo et al., 2021a). The resulting 9-day maps are generated daily.",
   "links": [
     {
       "rel": "root",
@@ -67,6 +67,11 @@
       "href": "../../eo-missions/cryosat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l3-sss-9day-average-eo4sibs/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -98,7 +103,7 @@
     "cryosat-2"
   ],
   "updated": "2024-09-12T20:32:06.220108Z",
-  "title": "Level 3 SSS, 0.25\u00b0*0.25\u00b0, 9-day averaged produced daily",
+  "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily",
   "extent": {
     "spatial": {
       "bbox": [

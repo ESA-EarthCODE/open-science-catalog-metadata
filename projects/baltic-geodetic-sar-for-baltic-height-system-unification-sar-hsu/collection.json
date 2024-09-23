@@ -54,13 +54,13 @@
       "rel": "child",
       "href": "../../products/ionospheric-delays-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission"
+      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
     },
     {
       "rel": "child",
       "href": "../../products/s1-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission"
+      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -109,6 +109,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -164,7 +169,7 @@
       ]
     },
     {
-      "name": "TALLINNA TEHNIKA\u00c3\u00a2\u00cb\u0086\u00c5\u00a1\u00c3\u0083\u00c2\u00baLIKOOL (EE)",
+      "name": "TALLINNA TEHNIKAÃ¢ËÅ¡ÃÂºLIKOOL (EE)",
       "roles": [
         "consortium_member"
       ]

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "phytoplankton-pigment-concentrations-polarstern-cruise-ps121",
   "stac_version": "1.0.0",
-  "description": "Phytoplankton pigments were determined in the water column of a transect from the North Sea to Fram Strait during RV Polarstern expedition PS121 from 11 Aug to 10 Sep 2019. Water samples were collected from CTD Niskin bottles at five to six different depths from the upper 100 m at CTD stations and from underway sampling. This were the same water samples as in Bracher et al. (https://doi.pangaea.de/10.1594/PANGAEA.938260). Between 0.2 to 3.5 L of each seawater sample was filtered through Whatman GF/Ffilters. The sample filters were then shock\u00e2\u0080\u0090frozen in liquid N2 and kept at 80\u00b0C until analysis. High Pressure Liquid Chromatography (HPLC) was performed to quantify various phytoplankton pigments (see Table 1 in Taylor et al. 2011) following the method of Barlow et al. (1997) that was adjusted to our temperature\u00e2\u0080\u0090controlled instruments as detailed in Alvarez et al. (2022).",
+  "description": "Phytoplankton pigments were determined in the water column of a transect from the North Sea to Fram Strait during RV Polarstern expedition PS121 from 11 Aug to 10 Sep 2019. Water samples were collected from CTD Niskin bottles at five to six different depths from the upper 100 m at CTD stations and from underway sampling. This were the same water samples as in Bracher et al. (https://doi.pangaea.de/10.1594/PANGAEA.938260). Between 0.2 to 3.5 L of each seawater sample was filtered through Whatman GF/Ffilters. The sample filters were then shockâfrozen in liquid N2 and kept at 80°C until analysis. High Pressure Liquid Chromatography (HPLC) was performed to quantify various phytoplankton pigments (see Table 1 in Taylor et al. 2011) following the method of Barlow et al. (1997) that was adjusted to our temperatureâcontrolled instruments as detailed in Alvarez et al. (2022).",
   "links": [
     {
       "rel": "root",
@@ -55,6 +55,11 @@
       "href": "../../eo-missions/sentinel-5p/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/phytoplankton-pigment-concentrations-polarstern-cruise-ps121/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

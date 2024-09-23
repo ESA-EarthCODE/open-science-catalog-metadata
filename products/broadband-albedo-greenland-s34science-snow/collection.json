@@ -50,6 +50,11 @@
       "href": "../../eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/broadband-albedo-greenland-s34science-snow/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

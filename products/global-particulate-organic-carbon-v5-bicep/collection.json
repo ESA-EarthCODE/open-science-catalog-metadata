@@ -79,6 +79,11 @@
       "href": "../../eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/global-particulate-organic-carbon-v5-bicep/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

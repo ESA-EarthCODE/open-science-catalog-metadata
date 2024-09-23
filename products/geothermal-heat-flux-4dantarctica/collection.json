@@ -43,6 +43,11 @@
       "href": "../../variables/geothermal-heat-flux/catalog.json",
       "type": "application/json",
       "title": "Variable: Geothermal Heat Flux"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geothermal-heat-flux-4dantarctica/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

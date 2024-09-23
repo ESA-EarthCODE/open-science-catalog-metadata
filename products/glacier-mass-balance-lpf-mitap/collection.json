@@ -39,6 +39,11 @@
       "href": "../../eo-missions/tandem-x/catalog.json",
       "type": "application/json",
       "title": "EO Mission: TanDEM-X"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/glacier-mass-balance-lpf-mitap/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -66,7 +71,7 @@
     "tandem-x"
   ],
   "updated": "2024-09-12T20:32:06.216108Z",
-  "title": "Geodetic glacier mass balances Antarctic Peninsula <70\u00b0S between 2013 and 2017_Antarctica_TanDEM-X",
+  "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X",
   "extent": {
     "spatial": {
       "bbox": [

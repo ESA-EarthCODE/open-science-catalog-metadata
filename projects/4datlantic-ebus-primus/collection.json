@@ -25,6 +25,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4datlantic-ebus-primus/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -56,13 +61,13 @@
       ]
     },
     {
-      "name": "FCi\u00eancias.ID (U. Lisbon) \u2013 FC.ID (PT)",
+      "name": "FCiências.ID (U. Lisbon) – FC.ID (PT)",
       "roles": [
         "consortium_member"
       ]
     },
     {
-      "name": "Instituto de Investigaci\u00f3ns Mari\u00f1as \u2013 CSIC (ES)",
+      "name": "Instituto de Investigacións Mariñas – CSIC (ES)",
       "roles": [
         "consortium_member"
       ]
@@ -74,7 +79,7 @@
       ]
     },
     {
-      "name": "University of Las Palmas de Gran Canaria \u2013 ULPGC (ES)",
+      "name": "University of Las Palmas de Gran Canaria – ULPGC (ES)",
       "roles": [
         "consortium_member"
       ]

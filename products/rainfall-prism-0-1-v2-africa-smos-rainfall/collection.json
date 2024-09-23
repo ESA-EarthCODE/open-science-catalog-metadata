@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "rainfall-prism-0-1-v2-africa-smos-rainfall",
   "stac_version": "1.0.0",
-  "description": "PrISM satellite rainfall product (2010-2021) based on SMOS soil moisture measurements in Africa (3h, 0.1\u00b0)",
+  "description": "PrISM satellite rainfall product (2010-2021) based on SMOS soil moisture measurements in Africa (3h, 0.1°)",
   "links": [
     {
       "rel": "root",
@@ -54,6 +54,11 @@
       "href": "../../eo-missions/smos/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/rainfall-prism-0-1-v2-africa-smos-rainfall/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

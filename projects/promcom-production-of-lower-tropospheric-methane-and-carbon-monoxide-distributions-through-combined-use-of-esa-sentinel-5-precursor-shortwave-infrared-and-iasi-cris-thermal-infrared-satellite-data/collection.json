@@ -25,6 +25,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

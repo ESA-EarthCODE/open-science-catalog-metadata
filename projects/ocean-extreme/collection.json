@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ocean-extreme",
   "stac_version": "1.0.0",
-  "description": "The general objectives of this activity is to foster the scientific exploitation of EO-based products to improve the observation, understanding and prediction of extreme wind events and their interaction with the ocean and the earth system. In particular, the required activities include (1) the development, implementation and validation of new methods allowing to fully exploit and optimally combine the wind information obtained in extreme wind conditions (>35 m/s) from different spaceborne sensors, mainly SMOS and S-1 but also other mission data (e.g., Radarsat-2, AMSR-2, Aquarius, SMAP, CYGNSS, radar altimeters\u0085) in order to build a long time series (at least 10 years) of global multi-mission synergy wind products in high to extreme wind conditions (>35 m/s), (2) the production of an atlas of extreme wind events collocated with measurements of the underlying ocean environment as measured from satellite sensors (Sea Surface Height, Sea Surface Temperature, Ocean Colour, Sea Surface Salinity, Wave height) or from auxiliary datasets from in-situ and/or models (ex. Mixed Layer Depth), (3) the exploitation of this reference database to foster new scientific results on how extreme wind events impact the ocean in term of ocean physics, ocean biology and air:sea fluxes, including feedback processes, and how this impacts major Earth System cycles from synoptic to interannual and decadal time scales and (4) the exploitation of this reference database to support the operational user community.",
+  "description": "The general objectives of this activity is to foster the scientific exploitation of EO-based products to improve the observation, understanding and prediction of extreme wind events and their interaction with the ocean and the earth system. In particular, the required activities include (1) the development, implementation and validation of new methods allowing to fully exploit and optimally combine the wind information obtained in extreme wind conditions (>35 m/s) from different spaceborne sensors, mainly SMOS and S-1 but also other mission data (e.g., Radarsat-2, AMSR-2, Aquarius, SMAP, CYGNSS, radar altimeters) in order to build a long time series (at least 10 years) of global multi-mission synergy wind products in high to extreme wind conditions (>35 m/s), (2) the production of an atlas of extreme wind events collocated with measurements of the underlying ocean environment as measured from satellite sensors (Sea Surface Height, Sea Surface Temperature, Ocean Colour, Sea Surface Salinity, Wave height) or from auxiliary datasets from in-situ and/or models (ex. Mixed Layer Depth), (3) the exploitation of this reference database to foster new scientific results on how extreme wind events impact the ocean in term of ocean physics, ocean biology and air:sea fluxes, including feedback processes, and how this impacts major Earth System cycles from synoptic to interannual and decadal time scales and (4) the exploitation of this reference database to support the operational user community.",
   "links": [
     {
       "rel": "root",
@@ -25,6 +25,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ocean-extreme/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

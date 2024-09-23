@@ -61,6 +61,11 @@
       "href": "../../eo-missions/goce/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GOCE"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lithosphere-density-temperature-viscosity-goce-antarctica/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

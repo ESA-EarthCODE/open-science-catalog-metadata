@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Southern-ocean-sea-surface-salinity-l3-SOFRESH",
   "stac_version": "1.0.0",
-  "description": "Dedicated regional Sea Surface Salinity (SSS) product in the Southern Ocean. Level 3 9-day maps. Data acquisition: Satellite ESA SMOS mission (Soil Moisture and Ocean Salinity). Time coverage 01 February 2011 - 31 December 2022. Time resolution: 9-day. Maps frequency generation: Daily. Spatial coverage: Latitude range: 30\u00baS-90\u00baS Longitude range: 180\u00baW-180\u00baE. Spatial resolution: 25 km (EASE-SL grid). Sensor Satellite SMOS / MIRAS. Format NetCDF. Climate and Forecast (CF) conventions version: 1.6.",
+  "description": "Dedicated regional Sea Surface Salinity (SSS) product in the Southern Ocean. Level 3 9-day maps. Data acquisition: Satellite ESA SMOS mission (Soil Moisture and Ocean Salinity). Time coverage 01 February 2011 - 31 December 2022. Time resolution: 9-day. Maps frequency generation: Daily. Spatial coverage: Latitude range: 30ºS-90ºS Longitude range: 180ºW-180ºE. Spatial resolution: 25 km (EASE-SL grid). Sensor Satellite SMOS / MIRAS. Format NetCDF. Climate and Forecast (CF) conventions version: 1.6.",
   "links": [
     {
       "rel": "root",
@@ -49,6 +49,11 @@
       "href": "../../eo-missions/smos/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sofresh-sea-surface-salinity/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

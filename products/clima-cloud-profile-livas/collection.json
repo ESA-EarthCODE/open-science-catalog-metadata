@@ -60,6 +60,11 @@
       "href": "../../eo-missions/earthcare/catalog.json",
       "type": "application/json",
       "title": "EO Mission: EarthCARE"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/clima-cloud-profile-livas/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

@@ -50,6 +50,11 @@
       "href": "../../eo-missions/numerical-models/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/model-based-cdom-baltic-sealabio/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

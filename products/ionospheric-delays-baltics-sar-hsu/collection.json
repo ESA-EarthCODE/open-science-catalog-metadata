@@ -56,6 +56,11 @@
       "href": "../../eo-missions/glonass/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GLONASS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ionospheric-delays-baltics-sar-hsu/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -86,7 +91,7 @@
     "glonass"
   ],
   "updated": "2024-09-12T20:32:06.219108Z",
-  "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission",
+  "title": "COR-ID: Ionospheric Delays_Baltics_Multimission",
   "extent": {
     "spatial": {
       "bbox": [

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean",
   "stac_version": "1.0.0",
-  "description": "This data set contains the mean diffuse attenuation coefficient of the downwelling plane irradiance over the first optical depth and over three different wavelength regions: 312.5 - 338 nm (Kd-UVAB), 356.5 - 390 nm (Kd-UVA), and 390 - 423 nm (KD-blue) as retrieved from the Sentinel-5P TROPOMI sensor from 11 May to 9 June 2018 in the Atlantic Ocean. The retrieval for the products is based on Differential Optical Absorption Spectroscopy (DOAS) extended to the ocean domain (PhytoDOAS). The spectral integrated Kd are derived from the Vibrational Raman Scattering (VRS) signal of the ocean which is retrieved by DOAS fits in three different fit windows. Kd-UVAB corresponds to DOAS VRS fits in the wavelength regions of 349.5 - 382 nm, Kd-UVA to 405 - 450 nm, and Kd-blue to 450 - 493 nm. VRS fit factors in the blue fit window (450 - 493 nm) were offset-corrected (an offset of 0.186 was added to the VRS fit factor of all processed S5P ground pixels). Derived Kd-blue are otherwise unrealistically high. The offset was determined with the help of Kd data at 490 nm from the Ocean and Land Color Instrument (OLCI) onboard Sentinel-3A. Fit results from the DOAS retrieval are converted into physical quantities using look-up-tables which were established with coupled atmosphere-ocean radiative transfer modeling using the software SCIATRAN version 4.0.8 (Rozanov et al. 2017, https://www.iup.uni-bremen.de/sciatran/). Only TROPOMI data with a cloud fraction smaller 0.01 were processed by the algorithm. Output data within the Atlantic Ocean (55\u00b0N-55\u00b0S, 70\u00b0W-10\u00b0E) were gridded daily into 0.083\u00b0 latitudinal/longitudinal bins. Details on the algorithm can be found in the related publication by Oelker et al. (2022).",
+  "description": "This data set contains the mean diffuse attenuation coefficient of the downwelling plane irradiance over the first optical depth and over three different wavelength regions: 312.5 - 338 nm (Kd-UVAB), 356.5 - 390 nm (Kd-UVA), and 390 - 423 nm (KD-blue) as retrieved from the Sentinel-5P TROPOMI sensor from 11 May to 9 June 2018 in the Atlantic Ocean. The retrieval for the products is based on Differential Optical Absorption Spectroscopy (DOAS) extended to the ocean domain (PhytoDOAS). The spectral integrated Kd are derived from the Vibrational Raman Scattering (VRS) signal of the ocean which is retrieved by DOAS fits in three different fit windows. Kd-UVAB corresponds to DOAS VRS fits in the wavelength regions of 349.5 - 382 nm, Kd-UVA to 405 - 450 nm, and Kd-blue to 450 - 493 nm. VRS fit factors in the blue fit window (450 - 493 nm) were offset-corrected (an offset of 0.186 was added to the VRS fit factor of all processed S5P ground pixels). Derived Kd-blue are otherwise unrealistically high. The offset was determined with the help of Kd data at 490 nm from the Ocean and Land Color Instrument (OLCI) onboard Sentinel-3A. Fit results from the DOAS retrieval are converted into physical quantities using look-up-tables which were established with coupled atmosphere-ocean radiative transfer modeling using the software SCIATRAN version 4.0.8 (Rozanov et al. 2017, https://www.iup.uni-bremen.de/sciatran/). Only TROPOMI data with a cloud fraction smaller 0.01 were processed by the algorithm. Output data within the Atlantic Ocean (55°N-55°S, 70°W-10°E) were gridded daily into 0.083° latitudinal/longitudinal bins. Details on the algorithm can be found in the related publication by Oelker et al. (2022).",
   "links": [
     {
       "rel": "root",
@@ -55,6 +55,11 @@
       "href": "../../eo-missions/sentinel-5p/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [

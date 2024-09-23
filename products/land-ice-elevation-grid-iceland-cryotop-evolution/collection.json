@@ -49,6 +49,11 @@
       "href": "../../eo-missions/cryosat/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CryoSat"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/land-ice-elevation-grid-iceland-cryotop-evolution/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
