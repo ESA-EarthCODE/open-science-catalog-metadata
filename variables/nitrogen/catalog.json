@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "nitrogen",
   "stac_version": "1.0.0",
-  "description": "Measure of any form of Nitrogen, a macronutrient, in the soil, such as biomass nitrogen, ammonium, nitrate, etc\u0085",
+  "description": "Measure of any form of Nitrogen, a macronutrient, in the soil, such as biomass nitrogen, ammonium, nitrate, etc",
   "links": [
     {
       "rel": "root",

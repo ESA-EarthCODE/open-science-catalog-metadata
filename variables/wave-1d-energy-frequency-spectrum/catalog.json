@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "wave-1d-energy-frequency-spectrum",
   "stac_version": "1.0.0",
-  "description": "1D variable colloquially referred to as \u00e2\u20ac\u0153wave spectrum\u00e2\u20ac\u009d. Describes the wave energy in each frequency band (e.g. 25 frequency bands) regardless of the direction of propagation",
+  "description": "1D variable colloquially referred to as â€œwave spectrumâ€. Describes the wave energy in each frequency band (e.g. 25 frequency bands) regardless of the direction of propagation",
   "links": [
     {
       "rel": "root",

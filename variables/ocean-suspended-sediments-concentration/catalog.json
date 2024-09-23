@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "ocean-suspended-sediments-concentration",
   "stac_version": "1.0.0",
-  "description": "Variable extracted from ocean colour observation. Indicative of river outflow, re-suspension or pollution of other-than-biological origin. Uncertainty expressed in g/m3\u00c2\u00a0at a specific concentration (e.g., 2 g/m3\u00c2\u00a0).",
+  "description": "Variable extracted from ocean colour observation. Indicative of river outflow, re-suspension or pollution of other-than-biological origin. Uncertainty expressed in g/m3Â at a specific concentration (e.g., 2 g/m3Â ).",
   "links": [
     {
       "rel": "root",

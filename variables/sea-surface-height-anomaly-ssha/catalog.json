@@ -62,7 +62,7 @@
       "rel": "child",
       "href": "../../products/ionospheric-delays-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-ID:\u00a0Ionospheric Delays_Baltics_Multimission"
+      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -80,7 +80,7 @@
       "rel": "child",
       "href": "../../products/s1-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-SC:\u00a0Sentinel-1 Systematic\u00a0Effects Corrections_Baltics_Multimission"
+      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
     },
     {
       "rel": "child",

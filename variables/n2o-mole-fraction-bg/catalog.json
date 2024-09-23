@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "n2o-mole-fraction-bg",
   "stac_version": "1.0.0",
-  "description": "3D field of amount of\u00c2\u00a0 background (BG) N2O (Nitrous Oxide, expressed in moles)\u00c2\u00a0divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amount ofÂ  background (BG) N2O (Nitrous Oxide, expressed in moles)Â divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",

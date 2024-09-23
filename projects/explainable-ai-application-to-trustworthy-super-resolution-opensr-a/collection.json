@@ -31,7 +31,7 @@
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "Explainable AI: application to trustworthy super-resolution (OpenSR)\u00c2\u00a0",
+  "osc:name": "Explainable AI: application to trustworthy super-resolution (OpenSR)Â ",
   "osc:status": "ongoing",
   "osc:themes": [
     "Land",

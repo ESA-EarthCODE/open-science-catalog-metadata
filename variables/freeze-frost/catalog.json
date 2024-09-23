@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "freeze-frost",
   "stac_version": "1.0.0",
-  "description": "The condition that exists when, over a widespread area, the surface temperature of the air remains below freezing 0\u00b0C (32 F) for a sufficient amount of time to constitute the characteristic feature of the weather. A freeze is a term used for the condition when vegetation is injured by these low air temperatures, regardless if frost were deposited.[Glossary of Weather and Climate, American Meteorological Society, 1996.]",
+  "description": "The condition that exists when, over a widespread area, the surface temperature of the air remains below freezing 0°C (32 F) for a sufficient amount of time to constitute the characteristic feature of the weather. A freeze is a term used for the condition when vegetation is injured by these low air temperatures, regardless if frost were deposited.[Glossary of Weather and Climate, American Meteorological Society, 1996.]",
   "links": [
     {
       "rel": "root",

@@ -20,7 +20,7 @@
       "rel": "child",
       "href": "../../products/l4-dynamic-topography-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625\u00b0*0.0625\u00b0, daily"
+      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "parent",

@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "ionospheric-vertical-total-electron-content-vtec",
   "stac_version": "1.0.0",
-  "description": "Number of electrons between two points.\u00c2\u00a0",
+  "description": "Number of electrons between two points.Â ",
   "links": [
     {
       "rel": "root",

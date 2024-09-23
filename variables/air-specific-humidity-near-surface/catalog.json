@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "air-specific-humidity-near-surface",
   "stac_version": "1.0.0",
-  "description": "Air specific humidity\u00c2\u00a0 at a known height\u00c2\u00a0 above surface, with the height specified in the metadata. Specific\u00c2\u00a0 humidity is the ratio of the mass of water vapour and the mass of moist air.",
+  "description": "Air specific humidityÂ  at a known heightÂ  above surface, with the height specified in the metadata. SpecificÂ  humidity is the ratio of the mass of water vapour and the mass of moist air.",
   "links": [
     {
       "rel": "root",

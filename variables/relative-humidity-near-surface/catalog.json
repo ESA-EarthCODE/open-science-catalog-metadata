@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "relative-humidity-near-surface",
   "stac_version": "1.0.0",
-  "description": "Relative\u00c2\u00a0 humidity\u00c2\u00a0 at a known height\u00c2\u00a0 above surface, with the height specified in the metadata.Relative humidity is the ratio of the amount of atmospheric moisture present relative to the amount that would be present if the air were saturated with respect to water or ice to be specified in the metadata",
+  "description": "RelativeÂ  humidityÂ  at a known heightÂ  above surface, with the height specified in the metadata.Relative humidity is the ratio of the amount of atmospheric moisture present relative to the amount that would be present if the air were saturated with respect to water or ice to be specified in the metadata",
   "links": [
     {
       "rel": "root",

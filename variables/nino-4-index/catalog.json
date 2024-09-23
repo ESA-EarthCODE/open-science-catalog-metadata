@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "nino-4-index",
   "stac_version": "1.0.0",
-  "description": "The Ni\u00f1o4 SST anomaly index is an indicator of western tropical Pacific El Ni\u00f1o conditions. It is calculated with SSTs in the box 160\u00b0E - 150\u00b0W, 5\u00b0S - 5\u00b0N.",
+  "description": "The Niño4 SST anomaly index is an indicator of western tropical Pacific El Niño conditions. It is calculated with SSTs in the box 160°E - 150°W, 5°S - 5°N.",
   "links": [
     {
       "rel": "root",

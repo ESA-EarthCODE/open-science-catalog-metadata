@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "basal-melt-rate",
   "stac_version": "1.0.0",
-  "description": "The basal melt rate of ice shelves has been of glaciological interest, as it represents a major component of the overall ice-shelf mass budget. From an oceanographic perspective, measurements of basal melt rate are direct measurements of buoyancy flux into the ocean at the ice base, and also give an indication of the heat flux from the ocean. Melt rates clearly depend on the ocean properties within the cavity, and the ocean circulation that carries heat and salt around the system. This means that basal melt rates are an excellent diagnostic for the performance of models in predicting both the water\u2019s circulation within a sub-ice-shelf cavity, and its interaction with the overlying ice.",
+  "description": "The basal melt rate of ice shelves has been of glaciological interest, as it represents a major component of the overall ice-shelf mass budget. From an oceanographic perspective, measurements of basal melt rate are direct measurements of buoyancy flux into the ocean at the ice base, and also give an indication of the heat flux from the ocean. Melt rates clearly depend on the ocean properties within the cavity, and the ocean circulation that carries heat and salt around the system. This means that basal melt rates are an excellent diagnostic for the performance of models in predicting both the water’s circulation within a sub-ice-shelf cavity, and its interaction with the overlying ice.",
   "links": [
     {
       "rel": "root",

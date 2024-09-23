@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "clo",
   "stac_version": "1.0.0",
-  "description": "3D field of amount\u00c2\u00a0 of ClO (Chlorine monoxide = Hypochlorite, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
+  "description": "3D field of amountÂ  of ClO (Chlorine monoxide = Hypochlorite, expressed in moles) divided by the total amount of all constituents in dry air (also expressed in moles)",
   "links": [
     {
       "rel": "root",

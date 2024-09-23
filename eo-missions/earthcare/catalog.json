@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "earthcare",
   "stac_version": "1.0.0",
-  "description": "EarthCARE (Earth Clouds, Aerosols and Radiation Explorer) is a satellite operated by JAXA and ESA. It will develop climate and weather forecasting models by understanding the role of cloud-aerosol-radiation interactions. To Improve the understanding of atmospheric cloud\u0096aerosol interactions and of the Earth's radiative balance towards enhancing climate and numerical weather prediction models. The 2 active and 2 passive instruments of EarthCARE make unique data product synergies possible.",
+  "description": "EarthCARE (Earth Clouds, Aerosols and Radiation Explorer) is a satellite operated by JAXA and ESA. It will develop climate and weather forecasting models by understanding the role of cloud-aerosol-radiation interactions. To Improve the understanding of atmospheric cloudaerosol interactions and of the Earth's radiative balance towards enhancing climate and numerical weather prediction models. The 2 active and 2 passive instruments of EarthCARE make unique data product synergies possible.",
   "links": [
     {
       "rel": "root",
