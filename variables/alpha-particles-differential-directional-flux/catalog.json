@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "alpha-particles-differential-directional-flux",
   "stac_version": "1.0.0",
-  "description": "",
+  "description": "The differential directional flux of alpha particles refers to the number of alpha particles passing through a unit area per unit time, per unit solid angle, and per unit energy interval. This measurement is often expressed in units such as particles per square centimeter per second per steradian per MeV (particles/cm²/s/sr/MeV). Flux is often expressed in 'integral form' as particles per unit area per unit time (e.g. electrons cm-2s-1) above a certain threshold energy. The directional flux is the differential with respect to solid angle (e.g. particles cm-2 steradian-1s-1) while the 'differential' flux is differential with respect to energy (e.g. particles cm-2 MeV-1s-1). In some cases fluxes are also treated as a differential with respect to Linear Energy Transfer. (source: https://ecss.nl/item/?glossary_id=1609)",
   "links": [
     {
       "rel": "root",
