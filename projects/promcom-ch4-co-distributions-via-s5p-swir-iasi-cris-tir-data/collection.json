@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data",
+  "id": "promcom-ch4-co-distributions-via-s5p-swir-iasi-cris-tir-data",
   "stac_version": "1.0.0",
   "description": "Production of lower tropospheric methane and carbon monoxide distributions through combined use of ESA Sentinel-5 Precursor shortwave infrared and IASI/CrIS thermal infrared satellite data",
   "links": [

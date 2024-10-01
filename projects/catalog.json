@@ -744,7 +744,7 @@
     },
     {
       "rel": "child",
-      "href": "./promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data/collection.json",
+      "href": "./promcom-ch4-co-distributions-via-s5p-swir-iasi-cris-tir-data/collection.json",
       "type": "application/json",
       "title": "PROMCOM"
     },
