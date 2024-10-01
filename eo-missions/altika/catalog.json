@@ -1,14 +1,20 @@
 {
   "type": "Catalog",
-  "id": "gps",
+  "id": "altika",
   "stac_version": "1.0.0",
-  "description": "GPS",
+  "description": "ALtiKa",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=931",
+      "type": "text/html",
+      "title": "Description"
     },
     {
       "rel": "parent",
@@ -18,11 +24,11 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/gps/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/altika/catalog.json",
       "type": "application/json"
     }
   ],
-  "updated": "2024-08-27T17:27:42.173831Z",
+  "updated": "2024-08-27T17:27:42.174831Z",
   "keywords": [],
-  "title": "GPS"
+  "title": "ALtiKa"
 }

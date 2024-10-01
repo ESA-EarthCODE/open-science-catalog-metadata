@@ -1026,12 +1026,6 @@
     },
     {
       "rel": "child",
-      "href": "./chlorophyll-a/catalog.json",
-      "type": "application/json",
-      "title": "Chlorophyll-a"
-    },
-    {
-      "rel": "child",
       "href": "./chlorophyll-concentration/catalog.json",
       "type": "application/json",
       "title": "Chlorophyll Concentration"
@@ -3693,12 +3687,6 @@
       "href": "./minor-elements/catalog.json",
       "type": "application/json",
       "title": "Minor Elements"
-    },
-    {
-      "rel": "child",
-      "href": "./mixed-layer-depth/catalog.json",
-      "type": "application/json",
-      "title": "Mixed Layer Depth"
     },
     {
       "rel": "child",

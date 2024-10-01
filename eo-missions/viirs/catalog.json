@@ -11,6 +11,12 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=412",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
