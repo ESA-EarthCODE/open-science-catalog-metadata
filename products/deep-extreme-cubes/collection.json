@@ -17,7 +17,7 @@
       },
       {
         "rel": "via",
-        "href": "https://data.rsc4earth.de/download/deep_extremes/deepextremes-minicubes/",
+        "href": "https://arxiv.org/abs/2406.18179",
         "title": "Documentation"
       },
       {
@@ -28,9 +28,9 @@
       },
       {
         "rel": "related",
-        "href": "../../projects/deep-extremes/collection.json/collection.json",
+        "href": "../../projects/deep-extremes/collection.json",
         "type": "application/json",
-        "title": "DEEP EXTREMES"
+        "title": "Project: DEEP EXTREMES"
       },
       {
         "rel": "related",
@@ -64,6 +64,36 @@
       },
       {
         "rel": "related",
+        "href": "../../variables/air-temperature/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Air Temperature"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/soil-moisture/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Soil Moisture"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/evapotranspiration/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Evapotranspiration"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/precipitation-liquid-or-solid/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Precipitation  (liquid or solid)"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/land-surface-topography/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Land surface topography"
+      },
+      {
+        "rel": "related",
         "href": "../../eo-missions/sentinel-2/catalog.json",
         "type": "application/json",
         "title": "EO Mission: Sentinel-2"
@@ -94,6 +124,13 @@
       "land"
     ],
     "osc:variables": [
+      "surface-reflectance",
+      "extreme-weather",
+      "air-temperature",
+      "soil-moisture",
+      "evapotranspiration",
+      "precipitation-liquid-or-solid",
+      "land-surface-topography",
       "land-cover",
       "digital-elevation-terrain-model-dem"
     ],
