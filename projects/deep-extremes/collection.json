@@ -43,7 +43,7 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "osc:name": "DEEP EXTREMES",
-  "osc:status": "ongoing",
+  "osc:status": "completed",
   "osc:themes": [
     "Land",
     "Oceans"
@@ -62,7 +62,13 @@
       ]
     },
     {
-      "name": "Leipzig University (DE)BROCKMANN CONSULT GMBH (DE)",
+      "name": "BROCKMANN CONSULT GMBH (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Leipzig University (DE)",
       "roles": [
         "consortium_member"
       ]
