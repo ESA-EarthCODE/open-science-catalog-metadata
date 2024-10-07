@@ -40,6 +40,18 @@
       },
       {
         "rel": "related",
+        "href": "../../variables/extreme-weather/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Extreme Weather"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/surface-reflectance/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Surface Reflectance"
+      },
+        {
+        "rel": "related",
         "href": "../../variables/land-cover/catalog.json",
         "type": "application/json",
         "title": "Variable: Land cover"
