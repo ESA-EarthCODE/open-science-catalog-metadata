@@ -27,6 +27,12 @@
       "title": "Projects"
     },
     {
+      "rel": "child",
+      "href": "../../products/deep-extreme-cubes/collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deep-extremes/collection.json",
       "type": "application/json"
