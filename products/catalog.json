@@ -1685,6 +1685,12 @@
       "title": "The extrAIM dataset: A merged satellite-based daily precipitation dataset for the Mediterranean region (including an ensemble of 20 synthetic realisations)"
     },
     {
+      "rel": "child",
+      "href": "./deep-extreme-cubes/collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
