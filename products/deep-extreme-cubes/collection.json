@@ -50,7 +50,7 @@
         "type": "application/json",
         "title": "Variable: Surface Reflectance"
       },
-        {
+      {
         "rel": "related",
         "href": "../../variables/land-cover/catalog.json",
         "type": "application/json",
