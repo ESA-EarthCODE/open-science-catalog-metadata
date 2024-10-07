@@ -6941,6 +6941,18 @@
       "title": "Zooplankton"
     },
     {
+      "rel": "child",
+      "href": "./surface-reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Surface Reflectance"
+    },
+    {
+      "rel": "child",
+      "href": "./extreme-weather/catalog.json",
+      "type": "application/json",
+      "title": "Extreme Weather"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
