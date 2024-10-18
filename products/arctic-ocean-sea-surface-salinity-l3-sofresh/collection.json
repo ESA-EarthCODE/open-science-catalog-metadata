@@ -1,0 +1,125 @@
+{
+    "type": "Collection",
+    "id": "arctic-ocean-sea-surface-salinity-l3-sofresh",
+    "stac_version": "1.0.0",
+    "description": "Dedicated regional Sea Surface Salinity (SSS) product in the Arctic Ocean. Level 3 9-day maps. Data acquisition: Satellite ESA SMOS mission (Soil Moisture and Ocean Salinity). Time coverage 01 February 2011 - 31 December 2022. Time resolution: 9-day. Maps frequency generation: Daily. Spatial coverage: Latitude range: 45ºN-90ºN Longitude range: 180ºW-180ºE. Spatial resolution: 25 km (EASE-NL grid). Sensor Satellite SMOS / MIRAS. Format NetCDF. Climate and Forecast (CF) conventions version: 1.6.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://digital.csic.es/handle/10261/355042",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://doi.org/10.20350/digitalCSIC/16251",
+        "title": "Documentation"
+      },
+      {
+        "rel": "cite-as",
+        "href": "https://doi.org/10.20350/digitalCSIC/16251",
+        "title": "DOI"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/arctic-salinity/collection.json",
+        "type": "application/json",
+        "title": "Project: Arctic + Salinity"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/cryosphere/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Cryosphere"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-surface-salinity/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Surface Salinity"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/smos/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: SMOS"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/arctic-ocean-sea-surface-salinity-l3-sofresh/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "arctic-salinity",
+    "osc:status": "ongoing",
+    "osc:region": "Arctic",
+    "osc:type": "product",
+    "created": "2024-02-27T00:00:00Z",
+    "start_datetime": "2011-02-01T00:00:00Z",
+    "end_datetime": "2022-12-31T23:59:59Z",
+    "version": "1",
+    "sci:doi": "10.20350/digitalCSIC/16251",
+    "cf:parameter": [
+      {
+        "name": "sea_surface_salinity"
+      }
+    ],
+    "osc:themes": [
+      "oceans"
+    ],
+    "osc:variables": [
+      "sea-surface-salinity"
+    ],
+    "osc:missions": [
+      "smos"
+    ],
+    "updated": "2024-10-18T20:32:06.229108Z",
+    "title": "Arctic Ocean Sea Surface Salinity Level 3 maps (V.4.0)",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -180,
+            45,
+            180,
+            90
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2011-02-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Salinity/Density",
+      "Sea Surface Salinity"
+    ]
+  }
