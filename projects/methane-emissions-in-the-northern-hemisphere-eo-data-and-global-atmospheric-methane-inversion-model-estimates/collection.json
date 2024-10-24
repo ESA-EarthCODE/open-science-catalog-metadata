@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "methane-emissions-in-the-northern-hemisphere-by-applying-both-data-from-earth-observing-eo-satellites-and-global-atmospheric-methane-inversion-model-estimates",
+  "id": "methane-emissions-in-the-northern-hemisphere-eo-data-and-global-atmospheric-methane-inversion-model-estimates",
   "stac_version": "1.0.0",
   "description": "Methane emissions in the Northern Hemisphere by applying both data from Earth Observing (EO) satellites and global atmospheric methane inversion model estimates",
   "links": [
