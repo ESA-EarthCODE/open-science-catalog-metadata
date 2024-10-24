@@ -612,7 +612,7 @@
     },
     {
       "rel": "child",
-      "href": "./methane-emissions-in-the-northern-hemisphere-by-applying-both-data-from-earth-observing-eo-satellites-and-global-atmospheric-methane-inversion-model-estimates/collection.json",
+      "href": "./methane-emissions-in-the-northern-hemisphere-eo-data-and-global-atmospheric-methane-inversion-model-estimates/collection.json",
       "type": "application/json",
       "title": "MethEO"
     },
