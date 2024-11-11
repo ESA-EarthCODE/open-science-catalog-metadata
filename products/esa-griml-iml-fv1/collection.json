@@ -89,7 +89,9 @@
       "landsat-8",
       "landsat-9",
       "sentinel-1"
+    "sentinel-2"
     ],
+
     "updated": "2024-11-08T20:32:06.214108Z",
     "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1",
     "extent": {
