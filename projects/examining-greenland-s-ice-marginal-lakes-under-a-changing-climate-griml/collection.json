@@ -23,7 +23,7 @@
     },
     {
       "rel": "child",
-      "href": "../../esa-griml-iml-fv1/collection.json",
+      "href": "../../products/esa-griml-iml-fv1/collection.json",
       "type": "application/json",
       "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
     },
