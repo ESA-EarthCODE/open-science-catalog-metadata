@@ -258,18 +258,6 @@
     },
     {
       "rel": "child",
-      "href": "./dem-antarctica-2013-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "./dem-antarctica-2017-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
       "href": "./diffuse-attenuation-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Diffuse attenuation: Kd_Global_AEOLUS"
@@ -375,13 +363,7 @@
       "href": "./glacier-elevation-cryosat-mountain-glaciers/collection.json",
       "type": "application/json",
       "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2"
-    },
-    {
-      "rel": "child",
-      "href": "./glacier-mass-balance-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
-    },
+    }
     {
       "rel": "child",
       "href": "./glacier-surface-flow-velocity-alpglacier/collection.json",
@@ -1358,7 +1340,7 @@
       "rel": "child",
       "href": "./surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",

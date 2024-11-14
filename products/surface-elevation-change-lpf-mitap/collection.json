@@ -2,13 +2,23 @@
   "type": "Collection",
   "id": "surface-elevation-change-lpf-mitap",
   "stac_version": "1.0.0",
-  "description": "Surface elevation changes derived from Digital Elevation Model differentiating using data from TanDEM-X acquisitions from austral winters 2013 and 2017",
+  "description": "Surface elevation changes derived from Digital Elevation Model differentiating using data from TanDEM-X acquisitions from austral winters 2013 and 2017. Some of the highest specific mass change rates in Antarctica are reported for the Antarctic Peninsula. However, the existing estimates for the northern Antarctic Peninsula (<70°S) are either spatially limited or are affected by considerable uncertainties. The complex topography, frequent cloud cover, limitations in ice thickness information, boundary effects, and uncertain glacial-isostatic adjustment estimates affect the ice sheet mass change estimates using altimetry, gravimetry, or the input-output method. Within this study, the first assessment of the geodetic mass balance throughout the ice sheet of the northern Antarctic Peninsula is carried out employing bi-static SAR data from the TanDEM-X satellite mission. Repeat coverages from austral-winters 2013 and 2017 are employed. Overall coverage of 96.4% of the study area by surface elevation change measurements and a total mass budget of -24.1±2.8 Gt/a is revealed. The spatial distribution of the surface elevation and mass changes points out, that the former ice shelf tributary glaciers of the Prince-Gustav-Channel, Larsen-A&B, and Wordie ice shelves are the hotpots of ice loss in the study area, and highlights the long-lasting dynamic glacier adjustments after the ice shelf break-up events. The highest mass change rate is revealed for the Airy-Seller-Fleming glacier system of -4.9±0.6 Gt/a and the highest average surface elevation change rate of -2.30±0.03 m/a is observed at Drygalski Glacier. The obtained results provide information on ice surface elevation and mass changes for the entire northern Antarctic Peninsula on unprecedented spatially detailed scales and high precision, and will be beneficial for subsequent analysis and modeling.",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.pangaea.de/10.1594/PANGAEA.964536",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.1016/j.gloplacha.2019.103079",
+      "title": "Documentation"
     },
     {
       "rel": "parent",
@@ -42,6 +52,12 @@
     },
     {
       "rel": "related",
+      "href": "../../variables/glacier-elevation-ice-sheet-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Elevation/Ice Sheet Elevation"
+    },
+    {
+      "rel": "related",
       "href": "../../eo-missions/tandem-x/catalog.json",
       "type": "application/json",
       "title": "EO Mission: TanDEM-X"
@@ -64,7 +80,7 @@
   "end_datetime": "2017-12-31T23:59:59Z",
   "cf:parameter": [
     {
-      "name": "surface_elevation_change and temporal coverage information"
+      "name": "surface_elevation_change_and_temporal_coverage_information"
     }
   ],
   "osc:themes": [
@@ -72,13 +88,14 @@
     "land"
   ],
   "osc:variables": [
-    "digital-elevation-terrain-model-dem"
+    "digital-elevation-terrain-model-dem",
+    "glacier-elevation-ice-sheet-elevation"
   ],
   "osc:missions": [
     "tandem-x"
   ],
   "updated": "2024-11-13T20:32:06.232108Z",
-  "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X",
+  "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X",
   "extent": {
     "spatial": {
       "bbox": [
@@ -102,7 +119,9 @@
   "license": "proprietary",
   "keywords": [
     "Topography",
-    "Terrain Elevation",
-    "Digital Elevation/Terrain Model (DEM)"
+    "Surface Elevation Change",
+    "Digital Elevation/Terrain Model (DEM)",
+    "Geodetic Mass Balance",
+    "TanDEM-X"
   ]
 }
