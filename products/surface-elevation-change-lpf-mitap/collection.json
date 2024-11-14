@@ -64,7 +64,7 @@
   "end_datetime": "2017-12-31T23:59:59Z",
   "cf:parameter": [
     {
-      "name": "surface_elevation_change"
+      "name": "surface_elevation_change and temporal coverage information"
     }
   ],
   "osc:themes": [
@@ -77,16 +77,16 @@
   "osc:missions": [
     "tandem-x"
   ],
-  "updated": "2024-09-12T20:32:06.232108Z",
+  "updated": "2024-11-13T20:32:06.232108Z",
   "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -80.0,
-          180.0,
-          -61.0
+          -69.0,
+          -70.0,
+          -56.0,
+          -63.0
         ]
       ]
     },
