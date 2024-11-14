@@ -363,7 +363,7 @@
       "href": "./glacier-elevation-cryosat-mountain-glaciers/collection.json",
       "type": "application/json",
       "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2"
-    }
+    },
     {
       "rel": "child",
       "href": "./glacier-surface-flow-velocity-alpglacier/collection.json",
