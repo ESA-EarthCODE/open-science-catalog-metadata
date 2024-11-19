@@ -1684,6 +1684,12 @@
       "type": "application/json",
       "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
     },
+     {
+      "rel": "child",
+      "href": "./hydrology-4D/collection.json",
+      "type": "application/json",
+      "title": "Hydrology-4D"
+    },
     {
       "rel": "parent",
       "href": "../catalog.json",
