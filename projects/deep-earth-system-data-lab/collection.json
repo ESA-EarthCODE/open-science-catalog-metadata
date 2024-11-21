@@ -22,9 +22,9 @@
     },
     {
       "rel": "child",
-      "href": "../../products/hydrology-/collection.json",
+      "href": "../../products/hydrology-4D/collection.json",
       "type": "application/json",
-      "title": "Code for Regional Earth System Data Lab: Tropical South America"
+      "title": "Hydrology-4D-cube: High-Resolution observations of precipitation, evaporation, soil moisture, snow water equivalent for the Mediterranean Basin."
     },
     {
       "rel": "parent",
