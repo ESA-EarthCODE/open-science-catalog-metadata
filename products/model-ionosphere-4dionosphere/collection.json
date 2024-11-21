@@ -11,6 +11,11 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "via",
+      "href": "https://placeholder-for-validation.org",
+      "title": "Documentation"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
