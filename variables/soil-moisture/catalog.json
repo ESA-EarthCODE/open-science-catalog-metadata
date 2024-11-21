@@ -41,6 +41,12 @@
       "title": "Surface soil moisture time series_1 km resolution_Southern Italy_S1"
     },
     {
+      "rel": "child",
+      "href": "../../products/hydrology-4D/collection.json",
+      "type": "application/json",
+      "title": "Hydrology-4D"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
