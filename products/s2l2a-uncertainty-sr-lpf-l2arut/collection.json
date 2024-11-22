@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "s2l2a-uncertainty-sr-lpf-l2arut",
   "stac_version": "1.0.0",
-  "description": "Surface reflectance estimates for the Sentinel 2 mission",
+  "description": "Uncertainty estimates and spectral error correlation associated with the S2 L2A data products (i.e., surface reflectance).",
   "links": [
     {
       "rel": "root",
@@ -12,8 +12,13 @@
     },
     {
       "rel": "via",
-      "href": "https://placeholder-for-validation.org",
+      "href": "https://github.com/gorronyo/S2-L2A-RUT/tree/v1.1.0",
       "title": "Documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/11971517",
+      "title": "Access"
     },
     {
       "rel": "parent",
