@@ -12,8 +12,13 @@
     },
     {
       "rel": "via",
-      "href": "https://placeholder-for-validation.org",
+      "href": "https://www.mn.uio.no/fysikk/english/research/projects/swarm-vip/documentation/",
       "title": "Documentation"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.mn.uio.no/fysikk/english/research/projects/swarm-vip/results/",
+      "title": "Access"
     },
     {
       "rel": "parent",
