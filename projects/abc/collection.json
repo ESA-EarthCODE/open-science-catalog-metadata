@@ -3,18 +3,18 @@
   "stac_extensions": [],
   "id": "",
   "type": "Collection",
-  "title": "",
-  "description": "",
+  "title": "ABC",
+  "description": "# Hello ABC\nThis is markdown",
   "keywords": [],
   "license": "various",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          "",
-          "",
-          "",
-          ""
+          0,
+          0,
+          0,
+          0
         ]
       ]
     },
@@ -32,9 +32,9 @@
   "assets": {},
   "links": [],
   "osc:type": "project",
-  "osc:name": "",
+  "osc:name": "OSC",
   "osc:status": "planned",
-  "osc:region": "",
+  "osc:region": "World",
   "osc:missions": [],
   "osc:themes": [],
   "contacts": [
