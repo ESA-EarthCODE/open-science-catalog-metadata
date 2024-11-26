@@ -1,0 +1,60 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "",
+  "type": "Collection",
+  "title": "",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [],
+  "osc:type": "project",
+  "osc:name": "",
+  "osc:status": "planned",
+  "osc:region": "",
+  "osc:missions": [],
+  "osc:themes": [],
+  "contacts": [
+    {
+      "identifier": "",
+      "name": "",
+      "positionName": "",
+      "organization": "",
+      "logo": {
+        "href": "",
+        "title": "",
+        "type": "image/gif",
+        "rel": "icon"
+      },
+      "phones": [],
+      "emails": [],
+      "addresses": [],
+      "links": [],
+      "contactInstructions": [],
+      "roles": []
+    }
+  ]
+}
