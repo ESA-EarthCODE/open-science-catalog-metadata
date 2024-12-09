@@ -35,6 +35,12 @@
       "title": "Supraglacial Storage and Drainage - Lake Features Mapped by Sentinel-1"
     },
     {
+      "rel": "child",
+      "href": "../../products/esa-griml-iml-fv1/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
