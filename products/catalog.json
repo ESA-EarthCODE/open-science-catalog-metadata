@@ -1684,11 +1684,17 @@
       "type": "application/json",
       "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
     },
-     {
+    {
       "rel": "child",
       "href": "./hydrology-4D/collection.json",
       "type": "application/json",
       "title": "Hydrology-4D"
+    },
+    {
+      "rel": "child",
+      "href": "./gpp-sen4gpp-2020/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
     },
     {
       "rel": "parent",
