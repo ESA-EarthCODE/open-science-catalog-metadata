@@ -46,6 +46,12 @@
       },
       {
         "rel": "related",
+        "href": "../../variables/glacial-lake-extent/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Glacial Lake Extent"
+      },
+      {
+        "rel": "related",
         "href": "../../eo-missions/landsat-8/catalog.json",
         "type": "application/json",
         "title": "EO Mission: Landsat-8"
@@ -89,7 +95,8 @@
       "cryosphere"
     ],
     "osc:variables": [
-      "lake-surface-temperature"
+      "lake-surface-temperature",
+      "glacial-lake-extent"
     ],
     "osc:missions": [
       "landsat-8",
