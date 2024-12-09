@@ -6953,6 +6953,12 @@
       "title": "Extreme Weather"
     },
     {
+      "rel": "child",
+      "href": "./gross-primary-productivity/catalog.json",
+      "type": "application/json",
+      "title": "Gross Primary Productivity (GPP)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
