@@ -75,7 +75,11 @@
     "end_datetime": "2020-12-31T23:59:59Z",
     "version": "v1",
     "sci:doi": "10.5281/zenodo.12606321",
-    "cf:parameter": "gross_primary_productivity",
+    "cf:parameter": [
+      {
+        "name": "gross_primary_productivity"
+      }
+    ],
     "osc:themes": [
       "land"
     ],
