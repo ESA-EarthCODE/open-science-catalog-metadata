@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "examining-greenland-s-ice-marginal-lakes-under-a-changing-climate-griml",
   "stac_version": "1.0.0",
-  "description": "Living Planet Fellowship research project carried out by Penelope How. Sea level is predicted to rise drastically by 2100, with significant contribution from the melting of the Greenland Ice Sheet. In these predictions, melt runoff is assumed to contribute directly to sea level change, with little consideration for meltwater storage at the terrestrial margin of the ice sheet. In 2017, 3347 ice marginal lakes were identified in Greenland along the ice margin. Globally, these ice marginal lakes hold up to 0.43 mm of sea level equivalent, which could have a marked impact on future predictions. Therefore, they need to be monitored to understand how changes in ice marginal lake water storage affect melt contribution, and how their dynamics evolve under a changing climate.Currently, there are large challenges in using remote sensing techniques to classify and monitor ice marginal lakes over large regions. Reliance on a single sensor/product (e.g. SAR imagery, optical imagery, DEM products) or detection method (e.g. backscatter classification, spectral indices classification, sink detection)  has proven to reduce the accuracy of lake classification, leading to underestimations and false trends. This emphasises the importance of using compound approaches, which is now achievable with the ever-growing use of online cloud processing.GrIML proposes to examine ice marginal lake changes across Greenland using a multi-sensor and multi-method remote sensing approach to better address their influence on sea level contribution forecasting. Firstly, Greenland-wide inventories of ice marginal lakes will be generated for selected years during the satellite era, building upon established classification methods in a unified cloud processing workflow. Secondly, detailed time-series analysis will be conducted on chosen ice marginal lakes to assess changes in their flooding dynamics; focusing on lakes with societal and scientific importance. The findings from this work will be validated againstin-situ observations, namely discharge peaks from downstream outlets, surface turbidity measurements, and terrestrial time-lapse images, to evaluate whether the remote sensing workflow adequately captures ice marginal lake dynamics.",
+  "description": "Living Planet Fellowship research project carried out by Penelope How. Sea level is predicted to rise drastically by 2100, with significant contribution from the melting of the Greenland Ice Sheet. In these predictions, melt runoff is assumed to contribute directly to sea level change, with little consideration for meltwater storage at the terrestrial margin of the ice sheet. In 2017, 3347 ice marginal lakes were identified in Greenland along the ice margin. Globally, these ice marginal lakes hold up to 0.43 mm of sea level equivalent, which could have a marked impact on future predictions. Therefore, they need to be monitored to understand how changes in ice marginal lake water storage affect melt contribution, and how their dynamics evolve under a changing climate. GrIML proposes to examine ice marginal lake changes across Greenland using a multi-sensor and multi-method remote sensing approach to better address their influence on future sea level contribution. The Greenland-wide inventory series of ice marginal lakes will be generated annually across the Sentinel satellite era, building upon established classification methods in a unified cloud processing workflow. Detailed case studies on selected lakes will also be conducted to closely assess lake processes; focusing on lakes with societal and scientific importance.",
   "links": [
     {
       "rel": "root",
@@ -20,6 +20,12 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-griml-iml-fv1/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
     },
     {
       "rel": "self",
@@ -57,26 +63,26 @@
     }
   ],
   "start_datetime": "2021-10-11T00:00:00Z",
-  "end_datetime": "2023-11-30T23:59:59Z",
+  "end_datetime": "2025-01-06T23:59:59Z",
   "osc:missions": [],
-  "updated": "2024-09-12T20:32:23.034110Z",
+  "updated": "2024-11-08T09:45:00Z",
   "title": "(LPF) GRIML",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -75.0,
+          58.0,
+          -6.0,
+          84.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-10-11T00:00:00Z",
-          "2023-11-30T23:59:59Z"
+          "2016-07-01T00:00:00Z",
+          "2023-08-31T00:00:00Z"
         ]
       ]
     }

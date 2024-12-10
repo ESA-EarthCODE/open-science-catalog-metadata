@@ -1,0 +1,123 @@
+{
+    "type": "Collection",
+    "id": "gpp-sen4gpp-2020",
+    "stac_version": "1.0.0",
+    "description": "Global 8-day composite GPP data for the year 2020, produced by a Consortium led by NOVELTIS in the framework of the ESA Contract No. 4000134598/21/I-NB. GPP products have been saved as int16 encoded files with an internal factor of 100 to optimise the required storage volume. The file structure within the GPP files contain a subdirectory with the datum of the first day of the corresponding eight-day period. The filename for each tile is constructed as follows: QISCARF_GPP_<datum>_<tile>_m<mfac>_b<bval>_pc<pcval>_qi<qival>_v<version>.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://zenodo.org/records/12606322",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.sciencedirect.com/science/article/pii/S0048969718307149",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp/collection.json",
+        "type": "application/json",
+        "title": "Project: SENSE4GPP"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/gross-primary-productivity/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Gross Primary Productivity (GPP)"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/sentinel-2/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Sentinel-2"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/sentinel-3/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Sentinel-3"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gpp-sen4gpp-2020/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp",
+    "osc:status": "ongoing",
+    "osc:region": "Global",
+    "osc:type": "product",
+    "created": "2024-12-09T00:00:00Z",
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2020-12-31T23:59:59Z",
+    "version": "v1",
+    "sci:doi": "10.5281/zenodo.12606321",
+    "cf:parameter": [
+      {
+        "name": "gross_primary_productivity"
+      }
+    ],
+    "osc:themes": [
+      "land"
+    ],
+    "osc:variables": [
+      "gross-primary-productivity"
+    ],
+    "osc:missions": [
+      "sentinel-2",
+      "sentinel-3"
+    ],
+    "updated": "2024-07-02T13:04:27.009360Z",
+    "title": "Global Gross Primary Productivity (GPP) Dataset 2020",
+    "extent": {
+      "spatial": {
+        "bbox": [
+        [
+          90,
+          180,
+          -90,
+         -180
+        ]
+      ]
+    },
+      "temporal": {
+        "interval": [
+          [
+            "2020-01-01T00:00:00Z",
+            "2020-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-NC-4.0",
+    "keywords": [
+      "Gross Primary Productivity",
+      "C3/C4 Vegetation",
+      "Quantum Yield",
+      "Sentinel-3",
+      "Sentinel-2"
+    ]
+  }

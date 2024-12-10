@@ -24,11 +24,11 @@
       "rel": "child",
       "href": "../../products/sea-surface-salinity-arctic-salinity/collection.json",
       "type": "application/json",
-      "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS"
+      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
     },
     {
       "rel": "child",
-      "href": "../../products/arctic-ocean-sea-surface-salinity-l3-sofresh/collection.json",
+      "href": "../../products/arctic-ocean-sea-surface-salinity-l3/collection.json",
       "type": "application/json",
       "title": "Arctic Ocean Sea Surface Salinity Level 3 maps (V.4.0)"
     },

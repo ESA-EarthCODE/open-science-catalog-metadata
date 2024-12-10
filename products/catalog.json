@@ -258,18 +258,6 @@
     },
     {
       "rel": "child",
-      "href": "./dem-antarctica-2013-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "./dem-antarctica-2017-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
       "href": "./diffuse-attenuation-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Diffuse attenuation: Kd_Global_AEOLUS"
@@ -375,12 +363,6 @@
       "href": "./glacier-elevation-cryosat-mountain-glaciers/collection.json",
       "type": "application/json",
       "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2"
-    },
-    {
-      "rel": "child",
-      "href": "./glacier-mass-balance-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
@@ -1118,7 +1100,7 @@
       "rel": "child",
       "href": "./sea-surface-salinity-arctic-salinity/collection.json",
       "type": "application/json",
-      "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS"
+      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
     },
     {
       "rel": "child",
@@ -1358,7 +1340,7 @@
       "rel": "child",
       "href": "./surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",
@@ -1692,9 +1674,27 @@
     },
     {
       "rel": "child",
-      "href": "./arctic-ocean-sea-surface-salinity-l3-sofresh/collection.json",
+      "href": "./arctic-ocean-sea-surface-salinity-l3/collection.json",
       "type": "application/json",
       "title": "Arctic Ocean Sea Surface Salinity Level 3 maps (V.4.0)"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-griml-iml-fv1/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
+    },
+    {
+      "rel": "child",
+      "href": "./hydrology-4D/collection.json",
+      "type": "application/json",
+      "title": "Hydrology-4D"
+    },
+    {
+      "rel": "child",
+      "href": "./gpp-sen4gpp-2020/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
     },
     {
       "rel": "parent",

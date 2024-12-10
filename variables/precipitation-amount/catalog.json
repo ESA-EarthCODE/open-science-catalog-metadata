@@ -47,6 +47,12 @@
       "title": "PrISM SMOS Rainfall product_v4.0_3h_0.25_Africa"
     },
     {
+      "rel": "child",
+      "href": "../../products/hydrology-4D/collection.json",
+      "type": "application/json",
+      "title": "Hydrology-4D"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

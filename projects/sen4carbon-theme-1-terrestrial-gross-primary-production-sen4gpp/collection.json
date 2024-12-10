@@ -27,6 +27,12 @@
       "title": "Projects"
     },
     {
+      "rel": "child",
+      "href": "../../products/gpp-sen4gpp-2020/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp/collection.json",
       "type": "application/json"
