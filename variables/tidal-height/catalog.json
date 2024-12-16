@@ -41,6 +41,30 @@
       "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
     },
     {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-cryosat2-2019/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-tide-gauge-kerguelen/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at tide gauges in the Kerguelen Islands"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-GPS-FilchnerRonne-2009/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at the GPS station Filchner Ronne E5 during the year 2009"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-GPS-Brunt-Halley/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at the GPS station Brunt Halley from 2019 to 2022"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
