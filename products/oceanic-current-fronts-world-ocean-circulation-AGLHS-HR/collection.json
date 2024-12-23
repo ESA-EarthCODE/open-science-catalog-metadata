@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "oceanic-current-fronts-world-ocean-circulation-AGHLS-HR",
+    "id": "oceanic-current-fronts-world-ocean-circulation-AGLHS-HR",
     "stac_version": "1.0.0",
     "description": "Fronts derived from high resolution remote sensing SST observations by SEVIRI L3C from OSISAF over Agulhas region. The spatial resolution of the product is 0.05 deg, the temporal resolution is 1 hour and it it projected in WGS 84 (EPSG:4326)",
     "links": [

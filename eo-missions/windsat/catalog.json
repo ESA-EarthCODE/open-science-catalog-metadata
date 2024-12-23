@@ -1,0 +1,47 @@
+{
+    "type": "Catalog",
+    "id": "windsat",
+    "stac_version": "1.0.0",
+    "description": "Coriolis is a US DoD satellite technology demonstration mission within the US Air Force STP (Space Test Program), sponsored by SPAWAR (Space and Naval Warfare Systems Command) of the US Navy and by NPOESS/IPO, managed by NRL, and implemented by AFRL (Air Force Research Laboratory) and NRL (Naval Research Laboratory). The overall objective is to conduct an operational verification of new instrument technology, aimed at validating spaceborne multichannel polarimetric radiometry as a reliable and cost effective means for achieving wind vector measurements (speed and direction) that meet NPOESS (National Polar-orbiting Operational Environmental Satellite System) requirements. A further objective of the Air Force is to monitor solar activity for better predictive models of solar storms.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=502&utm_source=eoportal&utm_content=coriolis",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+        "type": "application/json",
+        "title": "Oceanic LR Fronts Agulhas"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+        "type": "application/json",
+        "title": "Oceanic Fronts North Atlantic"
+      },
+
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/windsat/catalog.json",
+        "type": "application/json"
+      }
+    ],
+    "updated": "2024-12-23T16:34:42.174831Z",
+    "keywords": [],
+    "title": "WindSat"
+  }

@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "oceanic-current-fronts-world-ocean-circulation-AGHLS",
+    "id": "oceanic-current-fronts-world-ocean-circulation-AGLHS-LR",
     "stac_version": "1.0.0",
     "description": "Fronts derived from derived from low resolution optimally interpolated remote sensing microwave SST L4 from REMSS over Agulhas region. The spatial resolution of the product is 0.25 deg, the temporal resolution is 1 day and it it projected in WGS 84 (EPSG:4326)",
     "links": [
