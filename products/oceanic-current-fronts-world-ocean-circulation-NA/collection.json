@@ -74,8 +74,8 @@
     ],
     "osc:missions": [
       "gcom-w1",
-      "WindSat",
-      "TRMM"
+      "windsat",
+      "trmm"
     ],
     "updated": "2024-09-12T20:32:22.963110Z",
     "title": "Oceanic Fronts North Atlantic",
