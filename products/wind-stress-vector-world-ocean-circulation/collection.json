@@ -74,7 +74,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.968110Z",
-  "title": "Wind stress vector (& anomalies)_Hourly_ERA5",
+  "title": "Wind stress vector (& anomalies) Hourly ERA5",
   "extent": {
     "spatial": {
       "bbox": [
