@@ -870,9 +870,27 @@
     },
     {
       "rel": "child",
-      "href": "./oceanic-current-fronts-world-ocean-circulation/collection.json",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic/current fronts_Gibraltar"
+      "title": "Oceanic HR Currents Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+      "type": "application/json",
+      "title": "Oceanic HR Currents Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Currents North Atlantic"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Currents Western Europe"
     },
     {
       "rel": "child",
@@ -1215,6 +1233,18 @@
       "href": "./smos-l3-africa-smos-vegetation/collection.json",
       "type": "application/json",
       "title": "Gridded_Africa_SMOS level 3 products CATDS"
+    },
+    {
+      "rel": "child",
+      "href": "./sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
+    },
+    {
+      "rel": "child",
+      "href": "./sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 2"
     },
     {
       "rel": "child",
