@@ -1320,9 +1320,9 @@
     },
     {
       "rel": "child",
-      "href": "./stokes-drift-atlantic-world-ocean-circulation/collection.json",
+      "href": "./stokes-drift-global-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Stokes drift estimation_Atlantic Ocean"
+      "title": "Stokes drift estimation Global Ocean"
     },
     {
       "rel": "child",

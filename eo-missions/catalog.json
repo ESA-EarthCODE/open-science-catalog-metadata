@@ -434,7 +434,7 @@
       "rel": "child",
       "href": "./windsat/catalog.json",
       "type": "application/json",
-      "title": "Coriolis-WindSat"
+      "title": "WindSat"
     },
     {
       "rel": "parent",
