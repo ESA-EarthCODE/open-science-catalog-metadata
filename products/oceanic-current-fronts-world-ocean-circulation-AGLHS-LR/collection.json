@@ -73,7 +73,7 @@
       "fronts"
     ],
     "osc:missions": [
-      "GCOM-W1",
+      "gcom-w1",
       "WindSat",
       "TRMM"
     ],
