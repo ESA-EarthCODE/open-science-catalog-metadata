@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "oceanic-current-fronts-world-ocean-circulation-GBLTR",
+  "id": "oceanic-current-fronts-world-ocean-circulation-WE",
   "stac_version": "1.0.0",
   "description": "Fronts derived from high resolution remote sensing SST observations by SEVIRI L3C from OSISAF over Western Europe region. The product has a spatial resolution of 0.05 deg, a temporal resolution of 1 hour and it is projected in WGS 84 (EPSG:4326)",
   "links": [
