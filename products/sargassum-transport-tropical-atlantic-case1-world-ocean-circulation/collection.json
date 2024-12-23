@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "sargassum-transport-case1",
+    "id": "sargassum-transport-tropical-atlantic-case1-world-ocean-circulation",
     "stac_version": "1.0.0",
     "description": "This dataset provides Lagrangian drift data simulated for the Sargassum drift scenario: Miron et al (2020). The Sargassum particles' locations (lon, lat) are produced hourly over the time period of the simulation. The product has a spatial resolution of 0.125 deg, a temporal resolution of 1 hour and it is projected in WGS 84 (EPSG:4326)",
     "links": [

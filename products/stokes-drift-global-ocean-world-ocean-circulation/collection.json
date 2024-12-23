@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "stokes-drift-atlantic-world-ocean-circulation",
+  "id": "stokes-drift-global-ocean-world-ocean-circulation",
   "stac_version": "1.0.0",
   "description": "Stokes drift estimation over the Global Ocean as retrieved from the wave energy spectrum computed by the spectral wave model WAVEWATCH-III (r). It has a temporal resolution of 3 hours, a spatial resolution of 0.5 deg and it is progected in WGS 84 (EPSG:4326)",
   "links": [

@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "oceanic-current-fronts-world-ocean-circulation-AGHLS",
+    "id": "oceanic-current-fronts-world-ocean-circulation-NA",
     "stac_version": "1.0.0",
     "description": "This dataset provides detections of fronts derived from low resolution optimally interpolated remote sensing microwave SST L4 from REMSS over the North Atlantic region. The spatial resolution of the product is 0.25 deg, the temporal resolution is 1 day and it it projected in WGS 84 (EPSG:4326)",
     "links": [
@@ -56,7 +56,7 @@
     ],
     "osc:project": "world-ocean-circulation",
     "osc:status": "completed",
-    "osc:region": "Agulhas",
+    "osc:region": "North Atlantic",
     "osc:type": "product",
     "created": "2021-11-30T00:00:00Z",
     "start_datetime": "2010-01-01T00:00:00Z",
@@ -72,9 +72,13 @@
     "osc:variables": [
       "fronts"
     ],
-    "osc:missions": [],
+    "osc:missions": [
+      "GCOM-W1",
+      "WindSat",
+      "TRMM"
+    ],
     "updated": "2024-09-12T20:32:22.963110Z",
-    "title": "Oceanic fronts North Atlantic",
+    "title": "Oceanic Fronts North Atlantic",
     "extent": {
       "spatial": {
         "bbox": [
