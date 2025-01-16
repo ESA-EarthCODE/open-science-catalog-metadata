@@ -872,25 +872,25 @@
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic HR Currents Agulhas"
+      "title": "Oceanic HR Fronts Agulhas"
     },
     {
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
       "type": "application/json",
-      "title": "Oceanic HR Currents Agulhas"
+      "title": "Oceanic HR Fronts Agulhas"
     },
     {
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
       "type": "application/json",
-      "title": "Oceanic Currents North Atlantic"
+      "title": "Oceanic Fronts North Atlantic"
     },
     {
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
-      "title": "Oceanic Currents Western Europe"
+      "title": "Oceanic Fronts Western Europe"
     },
     {
       "rel": "child",
@@ -1460,13 +1460,13 @@
       "rel": "child",
       "href": "./total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current_North-Atlantic"
+      "title": "Total surface current North Atlantic"
     },
     {
       "rel": "child",
       "href": "./total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current_Tropical Atlantic"
+      "title": "Total surface current Tropical Atlantic"
     },
     {
       "rel": "child",
