@@ -873,8 +873,11 @@
       "href": "./oceanic-current-fronts-world-ocean-circulation/collection.json",
       "type": "application/json",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "title": "Oceanic/current fronts_Gibraltar"
 =======
+=======
+>>>>>>> Stashed changes
       "title": "Oceanic HR Fronts Agulhas"
     },
     {
@@ -894,6 +897,9 @@
       "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
       "title": "Oceanic Fronts Western Europe"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     },
     {
