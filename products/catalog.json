@@ -872,7 +872,29 @@
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation/collection.json",
       "type": "application/json",
+<<<<<<< Updated upstream
       "title": "Oceanic/current fronts_Gibraltar"
+=======
+      "title": "Oceanic HR Fronts Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+      "type": "application/json",
+      "title": "Oceanic LR Fronts Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts North Atlantic"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts Western Europe"
+>>>>>>> Stashed changes
     },
     {
       "rel": "child",
