@@ -49,11 +49,11 @@
         "name": "GeoTIFF"
       }
     ],
-    "license": "CC-BY-4.0",
+    "license": "CC-BY-SA-4.0",
     "osc:project": "demo",
     "osc:status": "ongoing",
     "osc:region": "Europe",
-    "osc:type": "process",
+    "osc:type": "workflow",
     "version": "2",
     "osc:themes": [
       "land"
