@@ -63,38 +63,38 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/processes/catalog.json",
       "type": "application/json",
       "title": "Processes"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "data",
-      "href": "URL",
+      "href": "https://demo.com",
       "type": "application/octet-stream",
       "title": "Raw data download"
     },
     {
       "rel": "items",
       "channel": "channel",
-      "href": "URL",
+      "href": "https://demo.com",
       "type": "application/geo+json",
       "title": "Data notifications"
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/processes/demo-workflow/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/processes/demo-workflow/item.json",
       "type": "application/json"
     }
   ]
