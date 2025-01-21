@@ -41,11 +41,17 @@
       "title": "Products"
     },
     {
+      "rel": "child",
+      "href": "./processes/catalog.json",
+      "type": "application/json",
+      "title": "Processes"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json"
     }
   ],
-  "updated": "2024-09-12T20:32:23.037110Z",
+  "updated": "2025-01-21T18:00:00.000000Z",
   "title": "Open Science Catalog"
 }
