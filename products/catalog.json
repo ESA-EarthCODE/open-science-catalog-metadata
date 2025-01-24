@@ -1727,6 +1727,18 @@
       "title": "Tidal elevation at the GPS station Brunt Halley from 2019 to 2022"
     },
     {
+      "rel": "child",
+      "href": "./gmc-training-europe-dsgsd-landslide-subsidence-uplift/collection.json",
+      "type": "application/json",
+      "title": "Training dataset of the feature-based GMC algorithm"
+    },
+    {
+      "rel": "child",
+      "href": "./european-ground-motion-classification-eugmc/collection.json",
+      "type": "application/json",
+      "title": "European Ground Motion Classification dataset (EuGMC)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
