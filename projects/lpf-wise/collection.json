@@ -27,6 +27,18 @@
         "title": "Projects"
       },
       {
+        "rel": "child",
+        "href": "../../products/gmc-training-europe-dsgsd-landslide-subsidence-uplift/collection.json",
+        "type": "application/json",
+        "title": "Training dataset of the feature-based GMC algorithm"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/european-ground-motion-classification-eugmc/collection.json",
+        "type": "application/json",
+        "title": "European Ground Motion Classification dataset (EuGMC)"
+      },
+      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/lpf-wise/collection.json",
         "type": "application/json"
