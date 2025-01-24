@@ -1073,6 +1073,12 @@
       "title": "DeepESDL"
     },
     {
+      "rel": "child",
+      "href": "./lpf-wise/collection.json",
+      "type": "application/json",
+      "title": "(LPF) WISE"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
