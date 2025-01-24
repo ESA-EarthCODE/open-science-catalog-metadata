@@ -4968,6 +4968,12 @@
     },
     {
       "rel": "child",
+      "href": "./sargassum/catalog.json",
+      "type": "application/json",
+      "title": "Sargassum"
+    },
+    {
+      "rel": "child",
       "href": "./satellite-orbits-revolution/catalog.json",
       "type": "application/json",
       "title": "Satellite Orbits/Revolution"

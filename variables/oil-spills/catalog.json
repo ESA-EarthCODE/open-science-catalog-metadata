@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",
+      "type": "application/json",
+      "title": "Oceanic/Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "type": "application/json",
+      "title": "Oceanic/Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -36,7 +48,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "oceans"
         }
       ]
     }
