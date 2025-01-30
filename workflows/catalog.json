@@ -12,7 +12,7 @@
     },
     {
       "rel": "child",
-      "href": "./demo-workflow/item.json",
+      "href": "./demo-workflow/record.json",
       "type": "application/json",
       "title": "Demo workflow"
     },

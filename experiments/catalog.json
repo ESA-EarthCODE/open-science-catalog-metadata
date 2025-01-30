@@ -12,7 +12,7 @@
     },
     {
       "rel": "child",
-      "href": "./demo-experiment/item.json",
+      "href": "./demo-experiment/record.json",
       "type": "application/json",
       "title": "Demo experiment"
     },
