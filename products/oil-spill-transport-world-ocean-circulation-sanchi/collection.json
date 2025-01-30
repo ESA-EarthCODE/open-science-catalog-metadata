@@ -1,0 +1,105 @@
+{
+    "type": "Collection",
+    "id": "oil-spill-transport-world-ocean-circulation-sanchi",
+    "stac_version": "1.0.0",
+    "description": "This dataset provides Lagrangian drift data simulated for the Sanchi (Kuroshio region) oil spill incident. The oil spill particles' locations (lon, lat) are produced hourly over the time period of the simulation. The product has a spatial resolution of 0.125 deg, a temporal resolution of 1 hour and it is projected in WGS 84 (EPSG:4326)",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.worldoceancirculation.org/Products#/metadata/50ac718a-87c2-4000-a4dc-ac81e4e75c94",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme3/oil_spill_drift/v2.0/pum.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/world-ocean-circulation/collection.json",
+        "type": "application/json",
+        "title": "Project: WOC"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/fronts/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Oil Spills"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "world-ocean-circulation",
+    "osc:status": "completed",
+    "osc:region": "Kuroshio",
+    "osc:type": "product",
+    "created": "2021-11-30T00:00:00Z",
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2020-12-31T23:59:59Z",
+    "sci:doi": "https://doi.org/10.12770/50ac718a-87c2-4000-a4dc-ac81e4e75c94",
+    "cf:parameter": [
+      {
+        "name": "oil_spill_transport"
+      }
+    ],
+    "osc:themes": [
+      "oceans"
+    ],
+    "osc:variables": [
+      "oil-spills"
+    ],
+    "osc:missions": [],
+    "updated": "2024-09-12T20:32:22.963110Z",
+    "title": "Sanchi Oil Spill transport based on Lagrangian drift data simulation",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            20,
+            120,
+            35,
+            140
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2018-01-14T00:00:00Z",
+            "2018-01-30T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Ocean Circulation",
+      "Oil Spills",
+      "simulation"
+    ]
+  }

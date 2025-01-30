@@ -12,12 +12,12 @@
     },
     {
       "rel": "via",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_twosat.nc",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_twosat.nc",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_twosat.nc",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ESA-Science-Hub-Le-Guillou/VarDyn_twosat.nc",
       "title": "Documentation"
     },
     {

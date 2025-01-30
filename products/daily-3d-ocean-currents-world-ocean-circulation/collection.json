@@ -68,7 +68,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.964110Z",
-  "title": "Daily 3D ocean currents_North Atlantic",
+  "title": "Daily 3D ocean currents North Atlantic",
   "extent": {
     "spatial": {
       "bbox": [
@@ -84,7 +84,7 @@
       "interval": [
         [
           "2010-01-01T00:00:00Z",
-          "2018-12-31T23:59:59Z"
+          "2019-12-31T23:59:59Z"
         ]
       ]
     }

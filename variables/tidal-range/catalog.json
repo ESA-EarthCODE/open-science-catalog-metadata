@@ -23,6 +23,12 @@
       "title": "Variables"
     },
     {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-amplitude-phase-tide-gauges/collection.json",
+      "type": "application/json",
+      "title": "Tidal amplitude and phase for K1, K2, M2, N2, O1, P1, Q1, S2 tidal constituents for 54 tide gauges from the Antarctic Tide Gauge Database"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/tidal-range/catalog.json",
       "type": "application/json"

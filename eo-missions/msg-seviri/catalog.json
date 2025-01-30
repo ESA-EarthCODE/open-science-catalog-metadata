@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "msg-seviri",
   "stac_version": "1.0.0",
-  "description": "MSG-SEVIRI",
+  "description": "Meteosat Second Generation (MSG) is a series of climate and forecasting missions developed by ESA and EUMETSAT.MSG satellites consist of the Spinning Enhanced Visible and Infra-red Imager (SEVIRI) which is a multi-spectral radiometer that is utilised for the monitoring of climate. The instrument monitors atmospheric humidity and temperature fields, atmospheric wind, cloud type, amount and temperature, precipitation rate, ozone, radiation budget and vegetation. he Spinning Enhanced Visible and Infra-red Imager (SEVIRI) contains 12 spectral channels inclusive of the High Resolution Visible (HRV). Depending on the channel, the Spectral Band Resolution (SBR) ranges from 0.4 to 14.40 um. The instrument has an imaging cycle of 15 minutes, with a swath width of 9km (east-to-west) and 42 active detectors. ",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,18 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
+      "type": "application/json",
+      "title": "Oceanic HR Fronts Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts Western Europe"
     },
     {
       "rel": "self",

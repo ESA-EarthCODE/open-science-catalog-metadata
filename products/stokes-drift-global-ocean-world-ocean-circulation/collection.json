@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "stokes-drift-atlantic-world-ocean-circulation",
+  "id": "stokes-drift-global-ocean-world-ocean-circulation",
   "stac_version": "1.0.0",
-  "description": "Stokes drift estimation for the Atlantic",
+  "description": "Stokes drift estimation over the Global Ocean as retrieved from the wave energy spectrum computed by the spectral wave model WAVEWATCH-III (r). It has a temporal resolution of 3 hours, a spatial resolution of 0.5 deg and it is progected in WGS 84 (EPSG:4326)",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,12 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/741af11e-52db-4d68-b56d-2f58871153ce",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1BKXPowKI8Tpnv2zUmbd3Iy4BEG8GDG0Q/view?usp=sharing",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme3/ocean_currents/woc-l4-curstk-glo_ww3_30m/pum.pdf",
       "title": "Documentation"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/stokes-drift-atlantic-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/stokes-drift-global-ocean-world-ocean-circulation/collection.json",
       "type": "application/json"
     }
   ],
@@ -55,7 +55,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
-  "osc:status": "planned",
+  "osc:status": "completed",
   "osc:region": "Atlantic Ocean",
   "osc:type": "product",
   "start_datetime": "2011-01-01T00:00:00Z",
@@ -73,28 +73,28 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.971110Z",
-  "title": "Stokes drift estimation_Atlantic Ocean",
+  "title": "Stokes drift estimation Global Ocean",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -89.4913889096,
-          -57.9204174532,
-          12.2761059784,
-          49.8937187295
+          -180.0,
+          -78,
+          180.0,
+          83
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2011-01-01T00:00:00Z",
-          "2018-12-31T23:59:59Z"
+          "2010-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents"

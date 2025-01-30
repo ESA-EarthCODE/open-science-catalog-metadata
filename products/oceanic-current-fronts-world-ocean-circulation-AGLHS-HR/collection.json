@@ -1,0 +1,113 @@
+{
+    "type": "Collection",
+    "id": "oceanic-current-fronts-world-ocean-circulation-AGLHS-HR",
+    "stac_version": "1.0.0",
+    "description": "Fronts derived from high resolution remote sensing SST observations by SEVIRI L3C from OSISAF over Agulhas region. The spatial resolution of the product is 0.05 deg, the temporal resolution is 1 hour and it it projected in WGS 84 (EPSG:4326)",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.worldoceancirculation.org/Products#/metadata/6c776c43-425b-4d29-9934-0822696f15d8",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme1/ocean_fronts/v2.0/pum.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/world-ocean-circulation/collection.json",
+        "type": "application/json",
+        "title": "Project: WOC"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/fronts/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Fronts"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/msg-seviri/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: MSG-SEVIRI"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "world-ocean-circulation",
+    "osc:status": "completed",
+    "osc:region": "Agulhas",
+    "osc:type": "product",
+    "created": "2021-11-30T00:00:00Z",
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2020-12-31T23:59:59Z",
+    "sci:doi": "10.12770/6c776c43-425b-4d29-9934-0822696f15d8",
+    "cf:parameter": [
+      {
+        "name": "oceanic_current_fronts"
+      }
+    ],
+    "osc:themes": [
+      "oceans"
+    ],
+    "osc:variables": [
+      "fronts"
+    ],
+    "osc:missions": [
+      "msg-seviri"
+    ],
+    "updated": "2024-09-12T20:32:22.963110Z",
+    "title": "Oceanic HR Fronts Agulhas",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            12,
+            -43,
+            32,
+            -28
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2011-08-01T00:00:00Z",
+            "2021-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Ocean Circulation",
+      "Ocean Currents",
+      "Fronts"
+    ]
+  }

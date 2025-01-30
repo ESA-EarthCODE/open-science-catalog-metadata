@@ -242,13 +242,13 @@
       "rel": "child",
       "href": "./daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 2D ocean surface currents_North Atlantic"
+      "title": "Daily 2D ocean surface currents North Atlantic"
     },
     {
       "rel": "child",
       "href": "./daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 3D ocean currents_North Atlantic"
+      "title": "Daily 3D ocean currents North Atlantic"
     },
     {
       "rel": "child",
@@ -272,7 +272,7 @@
       "rel": "child",
       "href": "./doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Doppler derived surface current_Agulhas_S1"
+      "title": "Doppler derived surface current Agulhas S1"
     },
     {
       "rel": "child",
@@ -410,7 +410,7 @@
       "rel": "child",
       "href": "./gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Gridded Surface Current_Oceans_Agulhas"
+      "title": "Gridded Surface Current Oceans Agulhas"
     },
     {
       "rel": "child",
@@ -870,9 +870,27 @@
     },
     {
       "rel": "child",
-      "href": "./oceanic-current-fronts-world-ocean-circulation/collection.json",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic/current fronts_Gibraltar"
+      "title": "Oceanic HR Fronts Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+      "type": "application/json",
+      "title": "Oceanic LR Fronts Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts North Atlantic"
+    },
+    {
+      "rel": "child",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts Western Europe"
     },
     {
       "rel": "child",
@@ -885,6 +903,18 @@
       "href": "./oceansoda-ethz/collection.json",
       "type": "application/json",
       "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
+    },
+    {
+      "rel": "child",
+      "href": "./oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "type": "application/json",
+      "title": "Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
+      "rel": "child",
+      "href": "./oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",
+      "type": "application/json",
+      "title": "Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
     },
     {
       "rel": "child",
@@ -1218,6 +1248,18 @@
     },
     {
       "rel": "child",
+      "href": "./sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
+    },
+    {
+      "rel": "child",
+      "href": "./sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 2"
+    },
+    {
+      "rel": "child",
       "href": "./snow-albedo-europe-alps-alpsnow/collection.json",
       "type": "application/json",
       "title": "Snow albedo for European Alps_Multimission"
@@ -1290,9 +1332,9 @@
     },
     {
       "rel": "child",
-      "href": "./stokes-drift-atlantic-world-ocean-circulation/collection.json",
+      "href": "./stokes-drift-global-ocean-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Stokes drift estimation_Atlantic Ocean"
+      "title": "Stokes drift estimation Global Ocean"
     },
     {
       "rel": "child",
@@ -1430,13 +1472,13 @@
       "rel": "child",
       "href": "./total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current_North-Atlantic"
+      "title": "Total surface current North Atlantic"
     },
     {
       "rel": "child",
       "href": "./total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current_Tropical Atlantic"
+      "title": "Total surface current Tropical Atlantic"
     },
     {
       "rel": "child",
@@ -1550,7 +1592,7 @@
       "rel": "child",
       "href": "./wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Wind stress vector (& anomalies)_Hourly_ERA5"
+      "title": "Wind stress vector (& anomalies) Hourly ERA5"
     },
     {
       "rel": "child",
@@ -1695,6 +1737,48 @@
       "href": "./gpp-sen4gpp-2020/collection.json",
       "type": "application/json",
       "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
+    },
+    {
+      "rel": "child",
+      "href": "./tidal-elevation-cryosat2-2019/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019"
+    },
+    {
+      "rel": "child",
+      "href": "./tidal-elevation-amplitude-phase-tide-gauges/collection.json",
+      "type": "application/json",
+      "title": "Tidal amplitude and phase for K1, K2, M2, N2, O1, P1, Q1, S2 tidal constituents for 54 tide gauges from the Antarctic Tide Gauge Database"
+    },
+    {
+      "rel": "child",
+      "href": "./tidal-elevation-tide-gauge-kerguelen/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at tide gauges in the Kerguelen Islands"
+    },
+    {
+      "rel": "child",
+      "href": "./tidal-elevation-GPS-FilchnerRonne-2009/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at the GPS station Filchner Ronne E5 during the year 2009"
+    },
+    {
+      "rel": "child",
+      "href": "./tidal-elevation-GPS-Brunt-Halley/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at the GPS station Brunt Halley from 2019 to 2022"
+    },
+    {
+      "rel": "child",
+      "href": "./gmc-training-europe-dsgsd-landslide-subsidence-uplift/collection.json",
+      "type": "application/json",
+      "title": "Training dataset of the feature-based GMC algorithm"
+    },
+    {
+      "rel": "child",
+      "href": "./european-ground-motion-classification-eugmc/collection.json",
+      "type": "application/json",
+      "title": "European Ground Motion Classification dataset (EuGMC)"
     },
     {
       "rel": "parent",

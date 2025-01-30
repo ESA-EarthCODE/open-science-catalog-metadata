@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "oceanic-current-fronts-world-ocean-circulation",
+  "id": "oceanic-current-fronts-world-ocean-circulation-WE",
   "stac_version": "1.0.0",
-  "description": "Fronts derived from remote sensing SST observations by SEVIRI L3C from OSISAF and microwave  OI L4 SST from REMSS, over Agulhas region, (Western only for SEVIRI) North Atlantic.",
+  "description": "Fronts derived from high resolution remote sensing SST observations by SEVIRI L3C from OSISAF over Western Europe region. The product has a spatial resolution of 0.05 deg, a temporal resolution of 1 hour and it is projected in WGS 84 (EPSG:4326)",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,12 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/a22d1f89-2690-4041-a16f-963923009f8b",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1GIxRA1xJ5I-ch7aXSqh9I_y-YGBe3xfM/view?usp=sharing",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme2/ocean_fronts/v2.0/pum.pdf",
       "title": "Documentation"
     },
     {
@@ -45,8 +45,14 @@
       "title": "Variable: Fronts"
     },
     {
+      "rel": "related",
+      "href": "../../eo-missions/msg-seviri/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MSG-SEVIRI"
+    },
+    {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json"
     }
   ],
@@ -55,12 +61,13 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
-  "osc:status": "ongoing",
+  "osc:status": "completed",
   "osc:region": "Gibraltar",
   "osc:type": "product",
   "created": "2021-11-30T00:00:00Z",
   "start_datetime": "2010-01-01T00:00:00Z",
   "end_datetime": "2020-12-31T23:59:59Z",
+  "sci:doi": "https://doi.org/10.12770/a22d1f89-2690-4041-a16f-963923009f8b",
   "cf:parameter": [
     {
       "name": "oceanic_current_fronts"
@@ -72,30 +79,32 @@
   "osc:variables": [
     "fronts"
   ],
-  "osc:missions": [],
+  "osc:missions": [
+    "msg-seviri"
+  ],
   "updated": "2024-09-12T20:32:22.963110Z",
-  "title": "Oceanic/current fronts_Gibraltar",
+  "title": "Oceanic Fronts Western Europe",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.4006553,
-          36.05875496,
-          -5.27666114,
-          36.15503755
+          -25,
+          30,
+          5,
+          50
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2010-01-01T00:00:00Z",
-          "2020-12-31T23:59:59Z"
+          "2011-08-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents",
