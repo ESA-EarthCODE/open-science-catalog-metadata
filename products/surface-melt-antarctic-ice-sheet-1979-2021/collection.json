@@ -12,9 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/Surface_Melting_Antarctica_1979_2021_v1/melting-1979-2021-v1/catalog.json",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/surface_melting_antarctica_1979_2021/catalog.json",
       "type": "application/json",
-      "title": "Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
+      "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)"
     },
     {
       "rel": "via",
