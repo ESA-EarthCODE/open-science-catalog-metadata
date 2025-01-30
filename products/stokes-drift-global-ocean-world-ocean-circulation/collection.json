@@ -17,7 +17,7 @@
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1BKXPowKI8Tpnv2zUmbd3Iy4BEG8GDG0Q/view?usp=sharing",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme3/ocean_currents/woc-l4-curstk-glo_ww3_30m/pum.pdf",
       "title": "Documentation"
     },
     {
@@ -94,7 +94,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents"

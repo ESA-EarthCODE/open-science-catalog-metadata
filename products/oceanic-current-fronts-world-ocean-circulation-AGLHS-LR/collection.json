@@ -17,7 +17,7 @@
       },
       {
         "rel": "via",
-        "href": "https://drive.google.com/file/d/1GIxRA1xJ5I-ch7aXSqh9I_y-YGBe3xfM/view?usp=sharing",
+        "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme1/ocean_fronts/v2.0/pum.pdf",
         "title": "Documentation"
       },
       {
@@ -45,6 +45,24 @@
         "title": "Variable: Fronts"
       },
       {
+        "rel": "related",
+        "href": "../../eo-missions/gcom-w1/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: GCOM-W1"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/windsat/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: WindSat"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/trmm/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: TRMM"
+      },
+      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
         "type": "application/json"
@@ -61,6 +79,7 @@
     "created": "2021-11-30T00:00:00Z",
     "start_datetime": "2010-01-01T00:00:00Z",
     "end_datetime": "2020-12-31T23:59:59Z",
+    "sci:doi":"10.12770/4940a94d-3295-4d81-9765-71d4444aac74",
     "cf:parameter": [
       {
         "name": "oceanic_current_fronts"
@@ -99,7 +118,7 @@
         ]
       }
     },
-    "license": "proprietary",
+    "license": "CC-BY-4.0",
     "keywords": [
       "Ocean Circulation",
       "Ocean Currents",
