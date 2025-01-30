@@ -425,6 +425,36 @@
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-cryosat2-2019/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-amplitude-phase-tide-gauges/collection.json",
+      "type": "application/json",
+      "title": "Tidal amplitude and phase for K1, K2, M2, N2, O1, P1, Q1, S2 tidal constituents for 54 tide gauges from the Antarctic Tide Gauge Database"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-tide-gauge-kerguelen/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at tide gauges in the Kerguelen Islands"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-GPS-FilchnerRonne-2009/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at the GPS station Filchner Ronne E5 during the year 2009"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tidal-elevation-GPS-Brunt-Halley/collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation at the GPS station Brunt Halley from 2019 to 2022"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

@@ -420,9 +420,21 @@
     },
     {
       "rel": "child",
+      "href": "./trmm/catalog.json",
+      "type": "application/json",
+      "title": "TRMM"
+    },
+    {
+      "rel": "child",
       "href": "./viirs/catalog.json",
       "type": "application/json",
       "title": "VIIRS"
+    },
+    {
+      "rel": "child",
+      "href": "./windsat/catalog.json",
+      "type": "application/json",
+      "title": "WindSat"
     },
     {
       "rel": "parent",

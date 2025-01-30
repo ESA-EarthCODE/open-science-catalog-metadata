@@ -1,0 +1,46 @@
+{
+    "type": "Catalog",
+    "id": "trmm",
+    "stac_version": "1.0.0",
+    "description": "Tropical Rainfall Measuring Mission (TRMM) hosted five instrument in total. The three primary sensors made up the 'rainfall' package. One of them being TMI, a passive multichannel, dual-polarised microwave radiometer that detected microwave energy from Earth's surface and atmosphere. It obtained measurements of sea surface temperature. " ,
+     "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=215&utm_source=eoportal&utm_content=trmm",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+        "type": "application/json",
+        "title": "Oceanic LR Fronts Agulhas"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+        "type": "application/json",
+        "title": "Oceanic Fronts North Atlantic"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "EO Missions"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/windsat/catalog.json",
+        "type": "application/json"
+      }
+    ],
+    "updated": "2024-12-23T16:34:42.174831Z",
+    "keywords": [],
+    "title": "TRMM"
+  }

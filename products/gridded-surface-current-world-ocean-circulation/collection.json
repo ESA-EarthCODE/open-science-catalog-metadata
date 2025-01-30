@@ -74,22 +74,22 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.959110Z",
-  "title": "Gridded Surface Current_Oceans_Agulhas",
+  "title": "Gridded Surface Current Oceans Agulhas",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          19.9931766896,
-          -34.845355958,
-          20.0417410996,
-          -34.8205312217
+          10,
+          -45,
+          40,
+          -25
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
+          "2010-01-01T00:00:00Z",
           "2019-12-31T23:59:59Z"
         ]
       ]
