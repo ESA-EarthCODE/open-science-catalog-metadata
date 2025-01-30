@@ -70,7 +70,7 @@
     },
     {
       "rel": "child",
-      "href": "../../products/products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
+      "href": "../../products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
     },
@@ -206,6 +206,6 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": []
 }
