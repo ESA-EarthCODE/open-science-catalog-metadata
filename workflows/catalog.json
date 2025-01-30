@@ -11,7 +11,7 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
+      "rel": "item",
       "href": "./demo-workflow/record.json",
       "type": "application/json",
       "title": "Demo workflow"

@@ -5,9 +5,6 @@
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "geometry": null,
-  "osc:project": "demo",
-  "osc:status": "ongoing",
-  "osc:type": "experiment",
   "properties": {
     "created": "2025-01-21T18:00:00Z",
     "updated": "2025-01-21T18:40:00Z",
@@ -53,6 +50,9 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
+    "osc:project": "demo",
+    "osc:status": "ongoing",
+    "osc:type": "experiment",
     "osc:region": "Europe",
     "version": "2",
     "osc:themes": [
