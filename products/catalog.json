@@ -410,7 +410,7 @@
       "rel": "child",
       "href": "./gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Gridded Surface Current Oceans Agulhas"
+      "title": "Gridded Geostrophic Surface Current Oceans Agulhas"
     },
     {
       "rel": "child",
@@ -1473,12 +1473,6 @@
       "href": "./total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Total surface current North Atlantic"
-    },
-    {
-      "rel": "child",
-      "href": "./total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
-      "type": "application/json",
-      "title": "Total surface current Tropical Atlantic"
     },
     {
       "rel": "child",

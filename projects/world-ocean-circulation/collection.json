@@ -42,7 +42,7 @@
       "rel": "child",
       "href": "../../products/gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Gridded Surface Current Oceans Agulhas"
+      "title": "Gridded Geostrophic Surface Current Oceans Agulhas"
     },
     {
       "rel": "child",
@@ -70,6 +70,18 @@
     },
     {
       "rel": "child",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",	
+      "type": "application/json",
+      "title": "Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "type": "application/json",
+      "title": "Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
+      "rel": "child",
       "href": "../../products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
@@ -91,12 +103,6 @@
       "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Total surface current North Atlantic"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
-      "type": "application/json",
-      "title": "Total surface current Tropical Atlantic"
     },
     {
       "rel": "child",

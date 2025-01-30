@@ -12,12 +12,12 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/eb10fc04-0d51-42b5-8788-f9b40130c2a1",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1X2RyNDp550pSnQik6tX0g2WwsWiS6ioz/view?usp=sharing",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme1/ocean_currents/woc-l2p-cureul-s1a-osc_rvl/v1.1/pum.pdf",
       "title": "Documentation"
     },
     {
@@ -55,7 +55,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
-  "osc:status": "ongoing",
+  "osc:status": "completed",
   "osc:region": "Agulhas",
   "osc:type": "product",
   "created": "2021-11-30T00:00:00Z",
@@ -80,9 +80,9 @@
       "bbox": [
         [
           10,
-          -25,
+          -45,
           40,
-          -45
+          -25
         ]
       ]
     },
