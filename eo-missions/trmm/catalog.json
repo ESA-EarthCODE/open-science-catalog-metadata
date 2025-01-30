@@ -28,7 +28,6 @@
         "type": "application/json",
         "title": "Oceanic Fronts North Atlantic"
       },
-
       {
         "rel": "parent",
         "href": "../catalog.json",

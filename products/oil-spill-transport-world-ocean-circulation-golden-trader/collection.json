@@ -17,7 +17,7 @@
       },
       {
         "rel": "via",
-        "href": "https://drive.google.com/file/d/1GIxRA1xJ5I-ch7aXSqh9I_y-YGBe3xfM/view?usp=sharing",
+        "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme3/oil_spill_drift/v2.0/pum.pdf",
         "title": "Documentation"
       },
       {
@@ -61,6 +61,7 @@
     "created": "2021-11-30T00:00:00Z",
     "start_datetime": "2010-01-01T00:00:00Z",
     "end_datetime": "2020-12-31T23:59:59Z",
+    "sci:doi": "10.12770/d06e06dc-b193-4aa1-b05a-7c541698aff0",
     "cf:parameter": [
       {
         "name": "oil_spill_transport"
@@ -95,7 +96,7 @@
         ]
       }
     },
-    "license": "proprietary",
+    "license": "CC-BY-4.0",
     "keywords": [
       "Ocean Circulation",
       "Oil Spills",

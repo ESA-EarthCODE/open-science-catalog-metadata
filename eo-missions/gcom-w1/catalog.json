@@ -35,6 +35,18 @@
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
+      "type": "application/json",
+      "title": "Oceanic LR Fronts Agulhas"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts North Atlantic"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
