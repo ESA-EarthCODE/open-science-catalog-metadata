@@ -40,12 +40,6 @@
       "title": "Variable: Glacier Thickness/Ice Sheet Thickness"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: SMOS"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/bedrock-topography-antarctica-cryosmos/collection.json",
       "type": "application/json"

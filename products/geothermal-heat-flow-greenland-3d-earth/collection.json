@@ -45,18 +45,6 @@
       "title": "Variable: Geothermal Energy"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/goce/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: GOCE"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/swarm/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: SWARM"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geothermal-heat-flow-greenland-3d-earth/collection.json",
       "type": "application/json"

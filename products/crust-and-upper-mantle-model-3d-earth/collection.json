@@ -40,12 +40,6 @@
       "title": "Variable: Gravitational Field"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/goce/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: GOCE"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/crust-and-upper-mantle-model-3d-earth/collection.json",
       "type": "application/json"

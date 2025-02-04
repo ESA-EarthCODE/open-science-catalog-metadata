@@ -51,12 +51,6 @@
         "title": "Variable: Land Subsidence"
       },
       {
-        "rel": "related",
-        "href": "../../eo-missions/sentinel-1/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Sentinel-1"
-      },
-      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/european-ground-motion-classification-eugmc/collection.json",
         "type": "application/json"

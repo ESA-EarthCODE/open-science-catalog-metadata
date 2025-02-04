@@ -40,12 +40,6 @@
       "title": "Variable: Particulate Backscattering Coefficient"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/aeolus/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: AEOLUS"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/particulate-backscatter-aeolus-innovation-color/collection.json",
       "type": "application/json"

@@ -45,12 +45,6 @@
         "title": "Variable: Fronts"
       },
       {
-        "rel": "related",
-        "href": "../../eo-missions/msg-seviri/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: MSG-SEVIRI"
-      },
-      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
         "type": "application/json"

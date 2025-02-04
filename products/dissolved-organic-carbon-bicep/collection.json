@@ -40,42 +40,6 @@
       "title": "Variable: Dissolved Organic Carbon"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/envisat/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: ENVISAT"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/terra/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Terra"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: AQUA (EOS/PM-1)"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/suomi-npp/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Suomi NPP"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/orbview-2/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: OrbView-2"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-3"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dissolved-organic-carbon-bicep/collection.json",
       "type": "application/json"

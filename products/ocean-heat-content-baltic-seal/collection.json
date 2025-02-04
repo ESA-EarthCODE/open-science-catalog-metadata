@@ -40,18 +40,6 @@
       "title": "Variable: Ocean Heat Budget"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/grace/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: GRACE"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/grace-fo/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: GRACE-FO"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ocean-heat-content-baltic-seal/collection.json",
       "type": "application/json"

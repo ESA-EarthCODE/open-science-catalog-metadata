@@ -45,12 +45,6 @@
         "title": "Variable: Tidal Height"
       },
       {
-        "rel": "related",
-        "href": "../../eo-missions/cryosat-2/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: CryoSat-2"
-      },
-      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tidal-elevation-GPS-Brunt-Halley/collection.json",
         "type": "application/json"

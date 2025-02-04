@@ -40,24 +40,6 @@
       "title": "Variable: Snow Cover"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-1"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-2/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-2"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-3"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/binary-wet-snow-s14science-snow/collection.json",
       "type": "application/json"

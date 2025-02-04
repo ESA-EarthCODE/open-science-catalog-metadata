@@ -40,12 +40,6 @@
       "title": "Variable: Water Vapor Profiles"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-5p/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-5p"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/total-column-h2o-hdo-cloudy-lpf-wift/collection.json",
       "type": "application/json"

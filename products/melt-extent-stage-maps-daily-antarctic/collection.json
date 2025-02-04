@@ -51,12 +51,6 @@
       "title": "Variable: Glacier Melt"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/metop/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: MetOp"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/melt-extent-stage-maps-daily-antarctic/collection.json",
       "type": "application/json"

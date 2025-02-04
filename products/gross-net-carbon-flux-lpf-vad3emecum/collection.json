@@ -45,36 +45,6 @@
       "title": "Variable: Carbon Flux"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-5p/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-5p"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: SMOS"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/meteosat/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Meteosat"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/terra/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Terra"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: AQUA (EOS/PM-1)"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
       "type": "application/json"

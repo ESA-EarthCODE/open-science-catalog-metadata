@@ -51,12 +51,6 @@
       "title": "Variable: Sea Surface Height Anomaly (SSHA)"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/cryosat/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: CryoSat"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/satellite-altimeter-polar-ocean-cp4o/collection.json",
       "type": "application/json"

@@ -93,12 +93,6 @@
         "title": "Variable: Land surface topography"
       },
       {
-        "rel": "related",
-        "href": "../../eo-missions/sentinel-2/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Sentinel-2"
-      },
-      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deep-extreme-cubes/collection.json",
         "type": "application/json"

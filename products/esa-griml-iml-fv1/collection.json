@@ -51,30 +51,6 @@
         "title": "Variable: Glacial Lake Extent"
       },
       {
-        "rel": "related",
-        "href": "../../eo-missions/landsat-8/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Landsat-8"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/landsat-9/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Landsat-9"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/sentinel-1/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Sentinel-1"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/sentinel-2/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Sentinel-2"
-      },
-      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/esa-griml-iml-fv1/collection.json",
         "type": "application/json"

@@ -40,12 +40,6 @@
       "title": "Variable: Soil Moisture"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: SMOS"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/smos-l3-africa-smos-vegetation/collection.json",
       "type": "application/json"

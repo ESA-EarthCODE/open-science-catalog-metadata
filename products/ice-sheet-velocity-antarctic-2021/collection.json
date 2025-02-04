@@ -51,12 +51,6 @@
       "title": "Variable: Ice Velocity"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-1"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-sheet-velocity-antarctic-2021/collection.json",
       "type": "application/json"

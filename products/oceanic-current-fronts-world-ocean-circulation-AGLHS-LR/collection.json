@@ -45,24 +45,6 @@
         "title": "Variable: Fronts"
       },
       {
-        "rel": "related",
-        "href": "../../eo-missions/gcom-w1/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: GCOM-W1"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/windsat/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: WindSat"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/trmm/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: TRMM"
-      },
-      {
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
         "type": "application/json"

@@ -46,18 +46,6 @@
       "title": "Variable: Montane Lake"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-2/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-2"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-3"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/hydrodynamic-model-alpine-lakes-s24land/collection.json",
       "type": "application/json"

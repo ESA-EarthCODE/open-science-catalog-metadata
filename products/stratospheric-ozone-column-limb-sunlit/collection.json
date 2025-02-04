@@ -40,12 +40,6 @@
       "title": "Variable: Total Ozone"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/limb-viewing-instruments/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Limb-Viewing Instruments"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/stratospheric-ozone-column-limb-sunlit/collection.json",
       "type": "application/json"

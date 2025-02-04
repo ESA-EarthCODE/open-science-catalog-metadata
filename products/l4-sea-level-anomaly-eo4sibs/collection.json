@@ -45,30 +45,6 @@
       "title": "Variable: Sea Level Anomaly"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/smos/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: SMOS"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-2/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-2"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-3"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/cryosat-2/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: CryoSat-2"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/l4-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json"

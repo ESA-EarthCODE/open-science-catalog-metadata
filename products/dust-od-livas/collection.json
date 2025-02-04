@@ -45,12 +45,6 @@
       "title": "Variable: Aerosol Optical Depth/Thickness"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/calipso/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: CALIPSO"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dust-od-livas/collection.json",
       "type": "application/json"
