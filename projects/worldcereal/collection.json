@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "worldcereal",
+  "stac_version": "1.0.0",
+  "description": "WorldCereal is an ESA initiative that provides global cropland and crop type maps at 10-meter resolution, offering seasonally updated data on temporary crops, croptypes (maize, winter cereals and spring cereals), and irrigation.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://esa-worldcereal.org/en",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/worldcereal-global-crop-monitoring-at-field-scale/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "Maize detection example in Belgium"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/worldcereal/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:name": "ESA WorldCereal",
+  "osc:status": "ongoing",
+  "osc:themes": [],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Zoltan Szantoi",
+      "emails": [
+        {
+          "value": "Zoltan.Szantoi@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "VITO Remote Sensing",
+      "urls": [
+        {
+          "value": "https://esa-worldcereal.org/en/contact"
+        }
+      ],
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "start_datetime": "2020-06-01T00:00:00Z",
+  "end_datetime": "2026-06-01T00:00:00Z",
+  "osc:missions": [],
+  "updated": "2025-02-04T09:40:00Z",
+  "title": "WorldCereal",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}
