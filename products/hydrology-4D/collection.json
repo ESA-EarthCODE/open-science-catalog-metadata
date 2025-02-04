@@ -1,119 +1,132 @@
 {
-    "type": "Collection",
-    "id": "hydrology-4D",
-    "stac_version": "1.0.0",
-    "description": "High-Resolution observations of precipitation, evaporation, soil moisture, snow water equivalent for the Mediterranean Basin.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "s3://deep-esdl-public/hydrology-1D-0.009deg-100x60x60-3.0.2.zarr",
-        "title": "Access"
-      },
-      {
-        "rel": "via",
-        "href": "https://deepesdl.readthedocs.io/en/latest/datasets/hydrology-1D-0-009deg-100x60x60-3-0-2-zarr/",
-        "title": "Documentation"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Products"
-      },
-      {
-        "rel": "related",
-        "href": "../../themes/ocean/catalog.json",
-        "type": "application/json",
-        "title": "Theme: Land"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/evaporation/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Evaportaion"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/soil-moisture/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Soil Moisture"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/snow-water-equivalent/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Snow Water Equivalent"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/precipitation-amount/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Precipitation Amount"
-      },
-      {
-        "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deepesdl/collection.json",
-        "type": "application/json"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
-    ],
-    "osc:project": "deep-earth-system-data-lab",
-    "osc:status": "ongoing",
-    "osc:region": "Mediterranean region",
-    "osc:type": "product",
-    "created": "2023-12-21T11:50:17Z",
-    "start_datetime": "2016-01-01T00:00:00Z",
-    "end_datetime": "2022-10-10T00:00:00Z",
-    "cf:parameter": [
-      {
-        "name": "hydrology-4D"
-      }
-    ],
-    "osc:themes": [
-      "land"
-    ],
-    "osc:variables": [
-      "precipitation-amount",
-      "snow-water-equivalent",
-      "soil-moisture",
-      "evaporation"
-    ],
-    "osc:missions": [
-    ],
-    "updated": "2023-12-21T11:50:17Z",
-    "title": "Hydrology-4D",
-    "extent": {
-      "spatial": {
-        "bbox": [
-          [
-            -5.70080003,
-            28.33979932,
-            37.76919997,
-            48.17579932
-          ]
-        ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2014-12-31T12:00:00.00Z",
-            "2022-10-06T12:00:00.00Z"
-          ]
-        ]
-      }
+  "type": "Collection",
+  "id": "hydrology-4D",
+  "stac_version": "1.0.0",
+  "description": "High-Resolution observations of precipitation, evaporation, soil moisture, snow water equivalent for the Mediterranean Basin.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
-    "license": "proprietary",
-    "keywords": [
-      "Hydrology",
-      "Remote Sensing"
-    ]
-  }
+    {
+      "rel": "via",
+      "href": "s3://deep-esdl-public/hydrology-1D-0.009deg-100x60x60-3.0.2.zarr",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://deepesdl.readthedocs.io/en/latest/datasets/hydrology-1D-0-009deg-100x60x60-3-0-2-zarr/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/ocean/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/evaporation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Evaportaion"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-water-equivalent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Water Equivalent"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation-amount/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation Amount"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deepesdl/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "deep-earth-system-data-lab",
+  "osc:status": "ongoing",
+  "osc:region": "Mediterranean region",
+  "osc:type": "product",
+  "created": "2023-12-21T11:50:17Z",
+  "start_datetime": "2016-01-01T00:00:00Z",
+  "end_datetime": "2022-10-10T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "hydrology-4D"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "precipitation-amount",
+    "snow-water-equivalent",
+    "soil-moisture",
+    "evaporation"
+  ],
+  "osc:missions": [],
+  "updated": "2023-12-21T11:50:17Z",
+  "title": "Hydrology-4D",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.70080003,
+          28.33979932,
+          37.76919997,
+          48.17579932
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-12-31T12:00:00.00Z",
+          "2022-10-06T12:00:00.00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Hydrology",
+    "Remote Sensing"
+  ]
+}

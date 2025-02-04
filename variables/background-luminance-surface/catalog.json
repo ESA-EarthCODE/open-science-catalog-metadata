@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "background-luminance-surface",
   "stac_version": "1.0.0",
-  "description": "Luminous flux received from the background, per unit solid angle and per unit area where the Luminous flux is a quantity derived from radiant flux by evaluating the radiation according to its action upon the International Commission on Illumination standard photometric observer. (symbol: L; unit: lm. m<sup>â€“2<sub>.</sub></sup>Â sr<sup>â€“1</sup> = cd . m<sup>â€“2</sup> )",
+  "description": "Luminous flux received from the background, per unit solid angle and per unit area where the Luminous flux is a quantity derived from radiant flux by evaluating the radiation according to its action upon the International Commission on Illumination standard photometric observer. (symbol: L; unit: lm. m<sup>â€“2<sub>.</sub></sup>Â sr<sup>-1</sup> = cd . m<sup>-2</sup> )",
   "links": [
     {
       "rel": "root",
@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/background-luminance-surface/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -36,7 +42,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }

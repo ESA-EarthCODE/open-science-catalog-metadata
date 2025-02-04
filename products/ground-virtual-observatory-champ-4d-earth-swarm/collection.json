@@ -37,7 +37,7 @@
       "rel": "related",
       "href": "../../themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
-      "title": "Theme: Magnetosphere_Ionosphere"
+      "title": "Theme: Magnetosphere Ionosphere"
     },
     {
       "rel": "related",
@@ -65,6 +65,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "the-4d-earth-swarm-project",
@@ -77,9 +78,18 @@
       "name": "ground_virtual_observatory_charm"
     }
   ],
-  "osc:themes": [
-    "solid-earth",
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        },
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "magnetic-fields-magnetic-currents",

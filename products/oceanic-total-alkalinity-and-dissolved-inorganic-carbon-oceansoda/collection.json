@@ -70,6 +70,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "satellite-oceanographic-datasets-for-acidification-oceansoda",
@@ -84,8 +85,15 @@
       "name": "oceanic_total_alkalinity_and_dissolved_inorganic_carbon"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "dissolved-organic-carbon",
