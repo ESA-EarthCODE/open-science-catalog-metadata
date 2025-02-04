@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: 'lts'
+          node-version: '22.1.x'
       - name: Checkout
         uses: actions/checkout@v4
       - name: Prepare
