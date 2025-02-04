@@ -17,6 +17,12 @@
       "title": "Demo workflow"
     },
     {
+      "rel": "item",
+      "href": "./worldcereal-workflow/record.json",
+      "type": "application/json",
+      "title": "ESA worldcereal global maize detector"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

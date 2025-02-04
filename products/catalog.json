@@ -1781,6 +1781,12 @@
       "title": "European Ground Motion Classification dataset (EuGMC)"
     },
     {
+      "rel": "child",
+      "href": "./worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent - Belgium"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

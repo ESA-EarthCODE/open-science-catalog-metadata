@@ -17,6 +17,12 @@
       "title": "Demo experiment"
     },
     {
+      "rel": "item",
+      "href": "./worldcereal-experiment/record.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal Experiment"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

@@ -1079,6 +1079,12 @@
       "title": "(LPF) WISE"
     },
     {
+      "rel": "child",
+      "href": "./worldcereal/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
