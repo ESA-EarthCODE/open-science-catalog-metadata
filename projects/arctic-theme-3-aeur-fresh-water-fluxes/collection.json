@@ -30,6 +30,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arctic-theme-3-aeur-fresh-water-fluxes/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
     }
   ],
   "stac_extensions": [
@@ -37,7 +43,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "ARCTIC+ THEME 3 â€“ FRESH WATER FLUXES",
+  "osc:name": "ARCTIC+ THEME 3 — FRESH WATER FLUXES",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -59,13 +65,13 @@
       ]
     },
     {
-      "name": "CNRS â€“ DELEGATION REGIONALE MIDI-PYRENEE (FR)",
+      "name": "CNRS — DELEGATION REGIONALE MIDI-PYRENEE (FR)",
       "roles": [
         "consortium_member"
       ]
     },
     {
-      "name": "ENVEO â€“ ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
+      "name": "ENVEO — ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
       "roles": [
         "consortium_member"
       ]
@@ -76,7 +82,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Cryosphere"
+          "id": "cryosphere"
         }
       ]
     }
@@ -90,10 +96,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

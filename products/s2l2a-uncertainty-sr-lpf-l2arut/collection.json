@@ -58,6 +58,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "l2a-rut",
@@ -70,8 +71,15 @@
       "name": "s2l2a_uncertainty_surface_reflectance_estimates"
     }
   ],
-  "osc:themes": [
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "reflectance"

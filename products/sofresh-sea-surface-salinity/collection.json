@@ -59,7 +59,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
   "osc:project": "so-fresh",
   "osc:status": "ongoing",
@@ -75,8 +76,15 @@
   "end_datetime": "2023-03-31T23:59:59Z",
   "version": "1",
   "sci:doi": "10.20350/digitalCSIC/15493",
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sea-surface-salinity"

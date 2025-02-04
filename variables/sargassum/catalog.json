@@ -1,59 +1,65 @@
 {
-    "type": "Catalog",
-    "id": "sargassum",
-    "stac_version": "1.0.0",
-    "description": "Sargassum is a genus of large brown seaweed (a type of algae) that floats in island-like masses and never attaches to the seafloor.",
-    "links": [
+  "type": "Catalog",
+  "id": "sargassum",
+  "stac_version": "1.0.0",
+  "description": "Sargassum is a genus of large brown seaweed (a type of algae) that floats in island-like masses and never attaches to the seafloor.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://oceanexplorer.noaa.gov/facts/sargassum.html",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Oceanic/Sargassum transport based on Lagrangian drift data simulation - Case 1"
+    },
+    {
+      "rel": "child",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
+      "type": "application/json",
+      "title": "Oceanic/Sargassum transport based on Lagrangian drift data simulation - Case 2"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sargassum/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
         {
-            "rel": "root",
-            "href": "../../catalog.json",
-            "type": "application/json",
-            "title": "Open Science Catalog"
-          },
-          {
-            "rel": "via",
-            "href": "https://oceanexplorer.noaa.gov/facts/sargassum.html",
-            "type": "text/html",
-            "title": "Description"
-          },
-          {
-            "rel": "child",
-            "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
-            "type": "application/json",
-            "title": "Oceanic/Sargassum transport based on Lagrangian drift data simulation - Case 1"
-          },
-          {
-            "rel": "child",
-            "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
-            "type": "application/json",
-            "title": "Oceanic/Sargassum transport based on Lagrangian drift data simulation - Case 2"
-          },
-          {
-            "rel": "parent",
-            "href": "../catalog.json",
-            "type": "application/json",
-            "title": "Variables"
-          },
-          {
-            "rel": "self",
-            "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sargassum/catalog.json",
-            "type": "application/json"
-          }
-        ],
-        "stac_extensions": [
-          "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
-        ],
-        "themes": [
-          {
-            "scheme": "https://github.com/stac-extensions/osc#theme",
-            "concepts": [
-              {
-                "id": "oceans"
-              }
-            ]
-          }
-        ],
-        "updated": "2024-12-23T11:56:42.234832Z",
-        "keywords": [],
-        "title": "Sargassum"
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-12-23T11:56:42.234832Z",
+  "keywords": [],
+  "title": "Sargassum"
 }

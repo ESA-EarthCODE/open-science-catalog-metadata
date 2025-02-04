@@ -30,6 +30,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sentinel-5p-innovation-aeurs-water-vapour-isotopologues-h2o-iso/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -37,7 +43,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "SENTINEL-5P+ INNOVATION â€š WATER VAPOUR ISOTOPOLOGUES (H2O-ISO)",
+  "osc:name": "SENTINEL-5P+ INNOVATION – WATER VAPOUR ISOTOPOLOGUES (H2O-ISO)",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -76,7 +82,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }
@@ -90,10 +96,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

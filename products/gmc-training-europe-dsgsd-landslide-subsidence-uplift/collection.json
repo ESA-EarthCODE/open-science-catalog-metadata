@@ -64,6 +64,7 @@
     ],
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
       "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "osc:project": "lpf-wise",
@@ -73,8 +74,15 @@
     "created": "2024-11-06T00:00:00Z",
     "start_datetime": "2022-01-15T00:00:00Z",
     "end_datetime": "2025-02-28T00:00:00Z",
-    "osc:themes": [
-      "solid-earth"
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "solid-earth"
+          }
+        ]
+      }
     ],
     "osc:variables": [
       "landslides",

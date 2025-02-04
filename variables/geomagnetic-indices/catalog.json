@@ -110,6 +110,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/geomagnetic-indices/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere Ionosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
     }
   ],
   "stac_extensions": [
@@ -120,10 +132,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Magnetosphere_Ionosphere"
+          "id": "magnetosphere-ionosphere"
         },
         {
-          "id": "Solid Earth"
+          "id": "solid-earth"
         }
       ]
     }
