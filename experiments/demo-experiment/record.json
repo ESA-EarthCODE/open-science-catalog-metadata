@@ -1,0 +1,106 @@
+{
+  "id": "demo-experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-01-21T18:00:00Z",
+    "updated": "2025-01-21T18:40:00Z",
+    "type": "experiment",
+    "title": "Demo experiment",
+    "description": "Demo experiment",
+    "keywords": [
+      "demo",
+      "experiment"
+    ],
+    "contacts": [
+      {
+        "name": "EarthCODE Demo",
+        "organization": "EarthCODE",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://opensciencedata.esa.int/"
+          }
+        ],
+        "contactInstructions": "Contact via EarthCODE",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "weather",
+            "title": "Weather",
+            "url": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
+          }
+        ],
+        "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+      },
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "license": "CC-BY-SA-4.0",
+    "osc:project": "demo",
+    "osc:status": "ongoing",
+    "osc:type": "experiment",
+    "osc:region": "Europe",
+    "version": "2"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "describes",
+      "href": "https://demo.com",
+      "type": "application/octet-stream",
+      "title": "Raw data download"
+    },
+    {
+      "rel": "monitor",
+      "channel": "channel",
+      "href": "https://demo.com",
+      "type": "application/geo+json",
+      "title": "Data notifications"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/demo-workflow/item.json",
+      "type": "application/json"
+    }
+  ]
+}

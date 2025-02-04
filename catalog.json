@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "osc",
   "stac_version": "1.0.0",
-  "description": "A catalog of publicly available geoscience products, datasets and resources developed in the frame of scientific research Projects funded by ESA EO (Earth Observation)",
+  "description": "A catalog of publicly available geoscience products, datasets, workflows, experiments, and resources developed in the frame of scientific research Projects funded by ESA EO (Earth Observation)",
   "links": [
     {
       "rel": "root",
@@ -41,11 +41,23 @@
       "title": "Products"
     },
     {
+      "rel": "child",
+      "href": "./workflows/catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "child",
+      "href": "./experiments/catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json"
     }
   ],
-  "updated": "2024-09-12T20:32:23.037110Z",
+  "updated": "2025-01-29T18:00:00.000000Z",
   "title": "Open Science Catalog"
 }
