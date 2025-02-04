@@ -82,6 +82,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "AI-ENHANCED UNCERTAINTY QUANTIFICATION OF SATELLITE-DERIVED HYDROCLIMATIC EXTREMES (extrAIM)",
@@ -96,10 +97,21 @@
       "name": "daily-precipitation-amount"
     }
   ],
-  "osc:themes": [
-    "land",
-    "oceans",
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "precipitation-amount"

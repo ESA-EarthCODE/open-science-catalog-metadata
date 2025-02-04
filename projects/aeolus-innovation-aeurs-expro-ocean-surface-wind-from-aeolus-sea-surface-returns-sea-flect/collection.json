@@ -30,6 +30,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -37,7 +49,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "AEOLUS+ INNOVATION â€š EXPRO+ OCEAN SURFACE WIND FROM AEOLUS SEA SURFACE RETURNS (SEA-FLECT)",
+  "osc:name": "AEOLUS+ INNOVATION – EXPRO+ OCEAN SURFACE WIND FROM AEOLUS SEA SURFACE RETURNS (SEA-FLECT)",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -70,10 +82,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }
@@ -87,10 +99,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

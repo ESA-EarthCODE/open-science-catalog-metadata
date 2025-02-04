@@ -1,53 +1,59 @@
 {
-    "type": "Catalog",
-    "id": "gross-primary-productivity",
-    "stac_version": "1.0.0",
-    "description": "The NEE of CO2 with the atmosphere is a fundamental measure of the balance between carbon uptake by the vegetation, GPP and carbon losses through autotrophic and heterotrophic respiration.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/283df7dc-58e0-41c5-80b1-e9cdeae9e79e?gtm_keyword=GROSS%20PRIMARY%20PRODUCTION%20(GPP)&gtm_scheme=Earth%20Science",
-        "type": "text/html",
-        "title": "Description"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Variables"
-      },
-      {
-        "rel": "child",
-        "href": "../../products/gpp-sen4gpp-2020/collection.json",
-        "type": "application/json",
-        "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
-      },
-      {
-        "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/gross-primary-productivity/catalog.json",
-        "type": "application/json"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
-    ],
-    "themes": [
-      {
-        "scheme": "https://github.com/stac-extensions/osc#theme",
-        "concepts": [
-          {
-            "id": "Land"
-          }
-        ]
-      }
-    ],
-    "updated": "2024-12-09T17:27:42.203831Z",
-    "keywords": [],
-    "title": "Gross Primary Productivity (GPP)"
-  }
+  "type": "Catalog",
+  "id": "gross-primary-productivity",
+  "stac_version": "1.0.0",
+  "description": "The NEE of CO2 with the atmosphere is a fundamental measure of the balance between carbon uptake by the vegetation, GPP and carbon losses through autotrophic and heterotrophic respiration.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/283df7dc-58e0-41c5-80b1-e9cdeae9e79e?gtm_keyword=GROSS%20PRIMARY%20PRODUCTION%20(GPP)&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gpp-sen4gpp-2020/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/gross-primary-productivity/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-12-09T17:27:42.203831Z",
+  "keywords": [],
+  "title": "Gross Primary Productivity (GPP)"
+}

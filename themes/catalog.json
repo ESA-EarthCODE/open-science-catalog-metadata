@@ -32,7 +32,7 @@
       "rel": "child",
       "href": "./magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
-      "title": "Magnetosphere_Ionosphere"
+      "title": "Magnetosphere Ionosphere"
     },
     {
       "rel": "child",

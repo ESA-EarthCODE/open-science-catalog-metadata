@@ -31,7 +31,7 @@
       "rel": "related",
       "href": "../../themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
-      "title": "Theme: Magnetosphere_Ionosphere"
+      "title": "Theme: Magnetosphere Ionosphere"
     },
     {
       "rel": "related",
@@ -53,6 +53,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera",
@@ -67,8 +68,15 @@
       "name": "sudden_stratospheric_warming"
     }
   ],
-  "osc:themes": [
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sudden-stratospheric-warming-ssw"

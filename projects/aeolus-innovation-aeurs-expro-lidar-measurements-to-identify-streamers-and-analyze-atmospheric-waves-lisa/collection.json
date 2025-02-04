@@ -30,6 +30,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/aeolus-innovation-aeurs-expro-lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -37,7 +43,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "AEOLUS+ INNOVATION â€š EXPRO+ LIDAR MEASUREMENTS TO IDENTIFY STREAMERS AND ANALYZE ATMOSPHERIC WAVES (LISA)",
+  "osc:name": "AEOLUS+ INNOVATION – EXPRO+ LIDAR MEASUREMENTS TO IDENTIFY STREAMERS AND ANALYZE ATMOSPHERIC WAVES (LISA)",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -70,7 +76,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }
@@ -84,10 +90,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
