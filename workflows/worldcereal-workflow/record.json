@@ -1,5 +1,5 @@
 {
-  "id": "worldcereal-experiment",
+  "id": "worldcereal-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
@@ -63,6 +63,14 @@
           }
         ],
         "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+      },
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
       }
     ],
     "formats": [
@@ -75,24 +83,21 @@
     "osc:status": "ongoing",
     "osc:type": "workflow",
     "osc:region": "Europe",
-    "version": "2",
-    "osc:themes": [
-      "land"
-    ]
+    "version": "2"
   },
   "linkTemplates": [],
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
       "type": "application/json",
-      "title": "Experiments"
+      "title": "Workflows"
     },
     {
       "rel": "openeo-process",
@@ -118,7 +123,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/worldcereal-experiment/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/worldcereal-workflow/record.json",
       "type": "application/json"
     }
   ]

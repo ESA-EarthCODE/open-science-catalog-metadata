@@ -6,13 +6,24 @@
   "title": "WorldCereal Crop Extent - Belgium",
   "license": "proprietary",
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
   "osc:type": "product",
   "osc:status": "completed",
   "osc:project": "worldcereal",
   "osc:variables": [],
   "osc:missions": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
   "extent": {
     "spatial": {
       "bbox": [
@@ -2672,6 +2683,12 @@
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "assets": {
