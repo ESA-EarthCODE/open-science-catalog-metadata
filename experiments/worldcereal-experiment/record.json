@@ -63,6 +63,14 @@
           }
         ],
         "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+      },
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
       }
     ],
     "formats": [
@@ -75,10 +83,7 @@
     "osc:status": "ongoing",
     "osc:type": "experiment",
     "osc:region": "Europe",
-    "version": "2",
-    "osc:themes": [
-      "land"
-    ]
+    "version": "2"
   },
   "linkTemplates": [],
   "links": [
