@@ -48,7 +48,7 @@
       "rel": "related",
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
-      "title": "Theme: Artmosphere"
+      "title": "Theme: Atmosphere"
     },
     {
       "rel": "related",
@@ -85,7 +85,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "AI-ENHANCED UNCERTAINTY QUANTIFICATION OF SATELLITE-DERIVED HYDROCLIMATIC EXTREMES (extrAIM)",
+  "osc:project": "ai-enhanced-uncertainty-quantification-of-satellite-derived-hydroclimatic-extremes-extraim",
   "osc:status": "completed",
   "osc:region": "Mediterranean region",
   "osc:type": "product",

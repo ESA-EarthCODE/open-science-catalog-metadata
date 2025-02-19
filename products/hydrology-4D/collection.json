@@ -28,6 +28,12 @@
     },
     {
       "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "related",
       "href": "../../themes/ocean/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
@@ -36,7 +42,7 @@
       "rel": "related",
       "href": "../../variables/evaporation/catalog.json",
       "type": "application/json",
-      "title": "Variable: Evaportaion"
+      "title": "Variable: Evaporation"
     },
     {
       "rel": "related",

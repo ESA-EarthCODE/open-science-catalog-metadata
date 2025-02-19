@@ -40,7 +40,7 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/fronts/catalog.json",
+        "href": "../../variables/oil-spills/catalog.json",
         "type": "application/json",
         "title": "Variable: Oil Spills"
       },
