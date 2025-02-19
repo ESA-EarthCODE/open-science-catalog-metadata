@@ -40,7 +40,7 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/fronts/catalog.json",
+        "href": "../../variables/sargassum/catalog.json",
         "type": "application/json",
         "title": "Variable: Sargassum"
       },

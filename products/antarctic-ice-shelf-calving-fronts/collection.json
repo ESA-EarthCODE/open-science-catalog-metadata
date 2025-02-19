@@ -61,7 +61,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "Polar+ Ice Shelf",
+  "osc:project": "polar-ice-shelf",
   "osc:status": "ongoing",
   "osc:region": "Antarctica",
   "osc:type": "product",
