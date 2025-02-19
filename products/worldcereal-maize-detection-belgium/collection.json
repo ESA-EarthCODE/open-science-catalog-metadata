@@ -2686,6 +2686,12 @@
     },
     {
       "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal"
+    },
+    {
+      "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
