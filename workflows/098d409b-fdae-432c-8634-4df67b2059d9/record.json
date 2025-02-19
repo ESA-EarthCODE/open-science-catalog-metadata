@@ -1,19 +1,19 @@
 {
-  "id": "demo-experiment",
+  "id": "098d409b-fdae-432c-8634-4df67b2059d9",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "geometry": null,
   "properties": {
-    "created": "2025-01-21T18:00:00Z",
-    "updated": "2025-01-21T18:40:00Z",
-    "type": "experiment",
-    "title": "Demo experiment",
-    "description": "Demo experiment",
+    "created": "2025-02-19T23:00:00Z",
+    "updated": "2025-02-19T23:00:00Z",
+    "type": "workflow",
+    "title": "POLARIS",
+    "description": "Polar Operational Limit Assessment Risk Index System (POLARIS) algorithm.",
     "keywords": [
-      "demo",
-      "experiment"
+      "sea ice",
+      "polar"
     ],
     "contacts": [
       {
@@ -34,20 +34,10 @@
     ],
     "themes": [
       {
-        "concepts": [
-          {
-            "id": "weather",
-            "title": "Weather",
-            "url": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
-          }
-        ],
-        "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
-      },
-      {
         "scheme": "https://github.com/stac-extensions/osc#theme",
         "concepts": [
           {
-            "id": "land"
+            "id": "oceans"
           }
         ]
       }
@@ -58,10 +48,8 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
-    "osc:project": "demo",
-    "osc:status": "ongoing",
-    "osc:type": "experiment",
-    "osc:region": "Europe",
+    "osc:project": "POLARIS",
+    "osc:type": "workflow",
     "version": "2"
   },
   "linkTemplates": [],
@@ -76,30 +64,35 @@
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Experiments"
+      "title": "Workflows"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "../../projects/polaris/collection.json",
       "type": "application/json",
-      "title": "Theme: Land"
+      "title": "POLARIS"
     },
     {
-      "rel": "describes",
-      "href": "https://demo.com",
-      "type": "application/octet-stream",
-      "title": "Raw data download"
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Oceans"
     },
     {
-      "rel": "monitor",
-      "channel": "channel",
-      "href": "https://demo.com",
-      "type": "application/geo+json",
-      "title": "Data notifications"
+      "rel": "application",
+      "type": "application/json",
+      "title": "OGC Application Package",
+      "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
+    },
+    {
+      "rel": "git",
+      "type": "application/json",
+      "title": "Git source repository",
+      "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/demo-workflow/item.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/098d409b-fdae-432c-8634-4df67b2059d9/record.json",
       "type": "application/json"
     }
   ]

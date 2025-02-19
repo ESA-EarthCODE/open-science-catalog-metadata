@@ -100,6 +100,18 @@
       "title": "Workflows"
     },
     {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
       "rel": "openeo-process",
       "type": "application/json",
       "title": "openEO Process Definition",

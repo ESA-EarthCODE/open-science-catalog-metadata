@@ -12,9 +12,9 @@
     },
     {
       "rel": "item",
-      "href": "./demo-workflow/record.json",
+      "href": "./098d409b-fdae-432c-8634-4df67b2059d9/record.json",
       "type": "application/json",
-      "title": "Demo workflow"
+      "title": "POLARIS"
     },
     {
       "rel": "item",
@@ -34,6 +34,6 @@
       "type": "application/json"
     }
   ],
-  "updated": "2025-01-29T18:00:00.000000Z",
+  "updated": "2025-02-19T23:00:00.000000Z",
   "title": "Workflows"
 }

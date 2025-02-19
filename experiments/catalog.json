@@ -12,9 +12,9 @@
     },
     {
       "rel": "item",
-      "href": "./demo-experiment/record.json",
+      "href": "./e59e411c-20ed-4dc7-ba85-e2df001e9f0b/record.json",
       "type": "application/json",
-      "title": "Demo experiment"
+      "title": "POLARIS"
     },
     {
       "rel": "item",

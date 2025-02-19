@@ -79,10 +79,9 @@
       }
     ],
     "license": "others",
-    "osc:project": "WorldCereal",
-    "osc:status": "ongoing",
-    "osc:type": "experiment",
-    "osc:region": "Europe",
+    "osc:project": "worldcereal",
+    "osc:workflow": "worldcereal-workflow",
+    "osc:product": "worldcereal-maize-detection-belgium",
     "version": "2"
   },
   "linkTemplates": [],
