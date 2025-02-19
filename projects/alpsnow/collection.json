@@ -79,7 +79,6 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "AlpSnow",
   "osc:status": "ongoing",
   "themes": [
     {

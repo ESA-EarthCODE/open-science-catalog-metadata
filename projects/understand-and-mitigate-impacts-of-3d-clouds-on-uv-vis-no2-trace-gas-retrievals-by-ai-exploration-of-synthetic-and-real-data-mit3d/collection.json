@@ -38,7 +38,6 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "Understand and mitigate impacts of 3D clouds on UV-VIS NO2 trace gas retrievals by AI exploration of synthetic and real data (MIT3D)",
   "osc:status": "ongoing",
   "themes": [
     {

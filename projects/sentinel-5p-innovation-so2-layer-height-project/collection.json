@@ -43,7 +43,6 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "SENTINEL-5P+ INNOVATION - SO2 Layer Height Project",
   "osc:status": "completed",
   "themes": [
     {

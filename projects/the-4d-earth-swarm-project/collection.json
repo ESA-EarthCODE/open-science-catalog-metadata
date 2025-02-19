@@ -115,7 +115,6 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "The 4D-Earth Swarm project",
   "osc:status": "completed",
   "themes": [
     {

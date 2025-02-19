@@ -38,7 +38,6 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "NOvel cOmputational methoDs for reLiablE SAteLlite-based Air quality Data (NOODLESALAD)",
   "osc:status": "ongoing",
   "themes": [
     {

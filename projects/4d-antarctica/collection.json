@@ -109,7 +109,6 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "4D-ANTARCTICA",
   "osc:status": "ongoing",
   "themes": [
     {
