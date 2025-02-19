@@ -96,8 +96,6 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2021-12-21T00:00:00Z",
-  "start_datetime": "1998-01-01T00:00:00Z",
-  "end_datetime": "2020-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "mass_concentration_of_chlorophyll_a_in_sea_water"

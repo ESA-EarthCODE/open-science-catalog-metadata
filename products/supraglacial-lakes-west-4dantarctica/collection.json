@@ -72,8 +72,6 @@
   "osc:region": "West Antarctica and the Antarctic Peninsula",
   "osc:type": "product",
   "created": "2021-11-03T00:00:00Z",
-  "start_datetime": "2017-01-01T00:00:00Z",
-  "end_datetime": "2017-02-10T23:59:59Z",
   "cf:parameter": [
     {
       "name": "suprgaglacial_lakes"

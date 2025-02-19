@@ -90,8 +90,6 @@
   "osc:region": "South America",
   "osc:type": "product",
   "created": "2020-03-02T00:00:00Z",
-  "start_datetime": "2016-01-01T00:00:00Z",
-  "end_datetime": "2019-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "water_level"

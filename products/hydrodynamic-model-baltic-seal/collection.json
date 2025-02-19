@@ -109,8 +109,6 @@
   "osc:region": "Baltics",
   "osc:type": "product",
   "created": "2021-05-28T00:00:00Z",
-  "start_datetime": "2017-01-01T00:00:00Z",
-  "end_datetime": "2017-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "hydrodynamic_model_sea_level_mean"

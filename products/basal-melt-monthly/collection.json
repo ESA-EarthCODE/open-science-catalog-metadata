@@ -66,8 +66,6 @@
   "osc:region": "Greenland",
   "osc:type": "product",
   "created": "2022-07-06T00:00:00Z",
-  "start_datetime": "2001-01-01T00:00:00Z",
-  "end_datetime": "2019-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "basal_melt_rate"

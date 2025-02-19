@@ -72,8 +72,6 @@
   "osc:region": "Greenland - Watson basin",
   "osc:type": "product",
   "created": "2023-01-25T00:00:00Z",
-  "start_datetime": "2017-05-01T00:00:00Z",
-  "end_datetime": "2019-09-30T23:59:59Z",
   "cf:parameter": [
     {
       "name": "supraglacial_storage_and_drainage_lake"

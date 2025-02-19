@@ -54,8 +54,6 @@
   "osc:status": "planned",
   "osc:region": "Tropical Atlantic",
   "osc:type": "product",
-  "start_datetime": "2018-01-01T00:00:00Z",
-  "end_datetime": "2018-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "total_surface_current"

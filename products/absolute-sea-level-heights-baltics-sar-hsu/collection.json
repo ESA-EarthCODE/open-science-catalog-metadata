@@ -73,8 +73,6 @@
   "osc:region": "Baltics",
   "osc:type": "product",
   "created": "2021-07-07T00:00:00Z",
-  "start_datetime": "2020-01-01T00:00:00Z",
-  "end_datetime": "2020-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "absolute_sea_level_heights"

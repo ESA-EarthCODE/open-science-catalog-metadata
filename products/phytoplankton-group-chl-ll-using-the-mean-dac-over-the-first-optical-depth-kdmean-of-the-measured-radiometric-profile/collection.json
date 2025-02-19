@@ -72,8 +72,6 @@
   "osc:region": "South Atlantic Ocean",
   "osc:type": "product",
   "created": "2020-04-21T00:00:00Z",
-  "start_datetime": "2018-05-10T00:00:00Z",
-  "end_datetime": "2018-06-05T23:59:59Z",
   "cf:parameter": [
     {
       "name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water"

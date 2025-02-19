@@ -91,8 +91,6 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2023-03-29T00:00:00Z",
-  "start_datetime": "1997-09-01T00:00:00Z",
-  "end_datetime": "2020-11-30T23:59:59Z",
   "cf:parameter": [
     {
       "name": "mixed_layer_depth"

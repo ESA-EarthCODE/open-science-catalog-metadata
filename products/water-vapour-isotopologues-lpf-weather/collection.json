@@ -61,8 +61,6 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2020-09-30T00:00:00Z",
-  "start_datetime": "2009-01-01T00:00:00Z",
-  "end_datetime": "2020-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "water_vapour"

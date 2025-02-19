@@ -66,8 +66,6 @@
     "osc:region": "Antarctica",
     "osc:type": "product",
     "created": "2023-05-25T04:43:46Z",
-    "start_datetime": "2019-01-26T14:37:30Z",
-    "end_datetime": "2019-12-08T21:16:52Z",
     "cf:parameter": [
       {
         "name": "tidal_amplitude_and_phase"
