@@ -64,7 +64,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
@@ -73,8 +73,6 @@
   "osc:region": "Western Europe",
   "osc:type": "product",
   "created": "2016-01-01T00:00:00Z",
-  "start_datetime": "2008-01-01T00:00:00Z",
-  "end_datetime": "2021-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "alpine_lakes"

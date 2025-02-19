@@ -62,7 +62,7 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
@@ -72,8 +72,6 @@
   "osc:region": "Africa",
   "osc:type": "product",
   "created": "2018-07-30T00:00:00Z",
-  "start_datetime": "2010-01-01T00:00:00Z",
-  "end_datetime": "2017-12-31T23:59:59Z",
   "version": "4",
   "sci:doi": "10.5281/zenodo.3565610",
   "cf:parameter": [

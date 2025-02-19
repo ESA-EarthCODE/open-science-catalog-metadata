@@ -39,11 +39,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "AI4DROUGHT",
   "osc:status": "ongoing",
   "themes": [
     {
@@ -87,8 +86,6 @@
       ]
     }
   ],
-  "start_datetime": "2021-12-14T00:00:00Z",
-  "end_datetime": "2023-10-01T23:59:59Z",
   "updated": "2024-09-12T20:32:23.020110Z",
   "title": "AI4DROUGHT",
   "extent": {

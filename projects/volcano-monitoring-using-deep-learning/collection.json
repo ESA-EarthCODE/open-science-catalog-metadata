@@ -51,11 +51,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "Volcano Monitoring using Deep Learning",
   "osc:status": "completed",
   "themes": [
     {
@@ -96,8 +95,6 @@
       ]
     }
   ],
-  "start_datetime": "2020-06-23T00:00:00Z",
-  "end_datetime": "2022-01-07T23:59:59Z",
   "updated": "2024-09-12T20:32:23.008110Z",
   "title": "(LPF) VMDL",
   "extent": {

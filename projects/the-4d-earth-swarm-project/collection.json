@@ -111,11 +111,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "The 4D-Earth Swarm project",
   "osc:status": "completed",
   "themes": [
     {
@@ -180,8 +179,6 @@
       ]
     }
   ],
-  "start_datetime": "2019-04-16T00:00:00Z",
-  "end_datetime": "2022-04-30T23:59:59Z",
   "updated": "2024-09-12T20:32:22.984110Z",
   "title": "4D-Earth SWARM",
   "extent": {

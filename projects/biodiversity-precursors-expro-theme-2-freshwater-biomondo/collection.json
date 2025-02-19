@@ -39,11 +39,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "BIODIVERSITY+ PRECURSORS EXPRO+ THEME 2 - FRESHWATER  (BIOMONDO)",
   "osc:status": "ongoing",
   "themes": [
     {
@@ -93,8 +92,6 @@
       ]
     }
   ],
-  "start_datetime": "2022-07-21T00:00:00Z",
-  "end_datetime": "2023-01-09T23:59:59Z",
   "updated": "2024-09-12T20:32:23.006110Z",
   "title": "BIOMONDO",
   "extent": {

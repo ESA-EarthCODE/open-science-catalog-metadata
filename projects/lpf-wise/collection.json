@@ -51,11 +51,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "Wide-area Sentinel-1 Deformation Classification for Advanced Data Exploitation (WISE)",
   "osc:status": "completed",
   "themes": [
     {
@@ -87,8 +86,6 @@
       ]
     }
   ],
-  "start_datetime": "2022-12-15T00:00:00Z",
-  "end_datetime": "2025-02-28T00:00:00Z",
   "updated": "2025-24-01T09:45:00Z",
   "title": "(LPF) WISE",
   "extent": {

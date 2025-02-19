@@ -45,11 +45,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "S2 for Land and Water, Coastal and Inland Waters Theme",
   "osc:status": "completed",
   "themes": [
     {
@@ -93,8 +92,6 @@
       ]
     }
   ],
-  "start_datetime": "2015-02-12T00:00:00Z",
-  "end_datetime": "2018-01-03T23:59:59Z",
   "updated": "2024-09-12T20:32:23.025110Z",
   "title": "Meteolakes",
   "extent": {

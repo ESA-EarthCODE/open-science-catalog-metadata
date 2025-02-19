@@ -45,11 +45,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "GODAE OCEAN OBSERVING SYSTEM EVALUATION OF SATELLITE SEA SURFACE SALINITY AND EL NINO 2015 (SMOS-NINO15)",
   "osc:status": "completed",
   "themes": [
     {
@@ -93,8 +92,6 @@
       ]
     }
   ],
-  "start_datetime": "2016-07-27T00:00:00Z",
-  "end_datetime": "2019-05-15T23:59:59Z",
   "updated": "2024-09-12T20:32:23.027110Z",
   "title": "SMOS-NINO 2015",
   "extent": {

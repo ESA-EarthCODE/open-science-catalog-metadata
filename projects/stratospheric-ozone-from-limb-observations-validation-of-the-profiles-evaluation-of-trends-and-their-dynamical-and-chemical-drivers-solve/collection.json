@@ -45,11 +45,10 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "Stratospheric ozone from limb observations: validation of the profiles, evaluation of trends and their dynamical and chemical drivers (SOLVE)",
   "osc:status": "ongoing",
   "themes": [
     {
@@ -81,8 +80,6 @@
       ]
     }
   ],
-  "start_datetime": "2020-11-09T00:00:00Z",
-  "end_datetime": "2023-01-11T23:59:59Z",
   "updated": "2024-09-12T20:32:23.036110Z",
   "title": "(LPF) SOLVE",
   "extent": {
