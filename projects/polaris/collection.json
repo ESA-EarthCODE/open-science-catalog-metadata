@@ -36,7 +36,7 @@
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Oceans"
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [

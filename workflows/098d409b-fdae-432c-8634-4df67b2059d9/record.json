@@ -70,13 +70,13 @@
       "rel": "related",
       "href": "../../projects/polaris/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Project: POLARIS"
     },
     {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Oceans"
+      "title": "Theme: Oceans"
     },
     {
       "rel": "application",

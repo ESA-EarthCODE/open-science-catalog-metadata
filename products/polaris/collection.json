@@ -25,19 +25,19 @@
       "rel": "related",
       "href": "../../projects/polaris/collection.json",
       "type": "application/json",
-      "title": "Polaris"
+      "title": "Project: POLARIS"
     },
     {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Oceans"
+      "title": "Theme: Oceans"
     },
     {
       "rel": "related",
       "href": "../../variables/sea-ice/catalog.json",
       "type": "application/json",
-      "title": "Sea Ice"
+      "title": "Variable: Sea Ice"
     },
     {
       "rel": "self",
