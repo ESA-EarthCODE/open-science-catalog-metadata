@@ -23,6 +23,8 @@
       ]
     }
   ],
+  "osc:variables": [],
+  "osc:missions": [],
   "extent": {
     "spatial": {
       "bbox": [
