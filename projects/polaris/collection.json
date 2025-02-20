@@ -37,6 +37,18 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/098d409b-fdae-432c-8634-4df67b2059d9/record.json",
+      "type": "application/json",
+      "title": "Workflow: POLARIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/polaris/collection.json",
+      "type": "application/json",
+      "title": "Product: POLARIS"
     }
   ],
   "stac_extensions": [
@@ -45,6 +57,12 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "osc:status": "completed",
+  "osc:workflows": [
+    "098d409b-fdae-432c-8634-4df67b2059d9"
+  ],
+  "osc:products": [
+    "polaris"
+  ],
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

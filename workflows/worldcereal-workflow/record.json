@@ -80,9 +80,9 @@
     ],
     "license": "others",
     "osc:project": "WorldCereal",
-    "osc:status": "ongoing",
-    "osc:type": "workflow",
-    "osc:region": "Europe",
+    "osc:experiments": [
+      "worldcereal-experiment"
+    ],
     "version": "2"
   },
   "linkTemplates": [],
@@ -110,6 +110,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiment/worldcereal-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: ESA WorldCereal Experiment"
     },
     {
       "rel": "openeo-process",

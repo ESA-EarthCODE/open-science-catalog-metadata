@@ -79,7 +79,6 @@
       }
     ],
     "license": "others",
-    "osc:project": "worldcereal",
     "osc:workflow": "worldcereal-workflow",
     "osc:product": "worldcereal-maize-detection-belgium",
     "version": "2"
@@ -109,6 +108,30 @@
       "type": "application/json",
       "title": "CDSE openEO federation",
       "href": "https://openeofed.dataspace.copernicus.eu"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/worldcereal-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: ESA worldcereal global maize detector"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "Product: WorldCereal Crop Extent - Belgium"
     },
     {
       "rel": "self",

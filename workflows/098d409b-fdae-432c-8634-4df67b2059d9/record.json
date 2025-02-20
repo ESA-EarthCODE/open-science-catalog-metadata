@@ -49,7 +49,9 @@
     ],
     "license": "CC-BY-SA-4.0",
     "osc:project": "POLARIS",
-    "osc:type": "workflow",
+    "osc:experiments": [
+      "e59e411c-20ed-4dc7-ba85-e2df001e9f0b"
+    ],
     "version": "2"
   },
   "linkTemplates": [],
@@ -77,6 +79,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiment/e59e411c-20ed-4dc7-ba85-e2df001e9f0b/record.json",
+      "type": "application/json",
+      "title": "Experiment: POLARIS"
     },
     {
       "rel": "application",

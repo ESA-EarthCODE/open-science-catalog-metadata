@@ -12,8 +12,7 @@
   "osc:type": "product",
   "osc:status": "completed",
   "osc:project": "worldcereal",
-  "osc:variables": [],
-  "osc:missions": [],
+  "osc:experiment": "worldcereal-experiment",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -2695,6 +2694,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/worldcereal-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: ESA WorldCereal Experiment"
     }
   ],
   "assets": {

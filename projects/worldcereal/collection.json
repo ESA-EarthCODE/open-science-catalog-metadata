@@ -42,6 +42,18 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/worldcereal-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: ESA worldcereal global maize detector"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "Product: WorldCereal Crop Extent - Belgium"
     }
   ],
   "stac_extensions": [
@@ -50,6 +62,12 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "osc:status": "ongoing",
+  "osc:workflows": [
+    "worldcereal-workflow"
+  ],
+  "osc:products": [
+    "worldcereal-maize-detection-belgium"
+  ],
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
