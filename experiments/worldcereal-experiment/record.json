@@ -98,6 +98,30 @@
       "title": "Experiments"
     },
     {
+      "rel": "related",
+      "href": "../../project/worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "Product: WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "related",
+      "href": "../../project/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
       "rel": "openeo-process-graph",
       "type": "application/json",
       "title": "openEO Processing Graph",

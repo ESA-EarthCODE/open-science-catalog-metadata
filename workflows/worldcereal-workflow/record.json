@@ -79,7 +79,7 @@
       }
     ],
     "license": "others",
-    "osc:project": "WorldCereal",
+    "osc:project": "worldcereal",
     "osc:experiments": [
       "worldcereal-experiment"
     ],
@@ -113,7 +113,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiment/worldcereal-experiment/record.json",
+      "href": "../../experiments/worldcereal-experiment/record.json",
       "type": "application/json",
       "title": "Experiment: ESA WorldCereal Experiment"
     },

@@ -60,9 +60,6 @@
   "osc:workflows": [
     "098d409b-fdae-432c-8634-4df67b2059d9"
   ],
-  "osc:products": [
-    "polaris"
-  ],
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

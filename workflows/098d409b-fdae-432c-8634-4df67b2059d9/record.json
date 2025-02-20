@@ -48,7 +48,7 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
-    "osc:project": "POLARIS",
+    "osc:project": "polaris",
     "osc:experiments": [
       "e59e411c-20ed-4dc7-ba85-e2df001e9f0b"
     ],
@@ -82,7 +82,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiment/e59e411c-20ed-4dc7-ba85-e2df001e9f0b/record.json",
+      "href": "../../experiments/e59e411c-20ed-4dc7-ba85-e2df001e9f0b/record.json",
       "type": "application/json",
       "title": "Experiment: POLARIS"
     },
