@@ -141,12 +141,6 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/worldcereal/collection.json",
-      "type": "application/json",
-      "title": "Project: WorldCereal"
-    },
-    {
-      "rel": "related",
       "href": "../../workflows/worldcereal-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: ESA worldcereal global maize detector"
