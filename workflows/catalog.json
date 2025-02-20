@@ -1,0 +1,39 @@
+{
+  "type": "Catalog",
+  "id": "workflows",
+  "stac_version": "1.0.0",
+  "description": "Geoscience workflows for experiments",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./098d409b-fdae-432c-8634-4df67b2059d9/record.json",
+      "type": "application/json",
+      "title": "POLARIS"
+    },
+    {
+      "rel": "item",
+      "href": "./worldcereal-workflow/record.json",
+      "type": "application/json",
+      "title": "ESA worldcereal global maize detector"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2025-02-19T23:00:00.000000Z",
+  "title": "Workflows"
+}
