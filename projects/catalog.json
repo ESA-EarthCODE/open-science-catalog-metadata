@@ -1079,6 +1079,12 @@
       "title": "(LPF) WISE"
     },
     {
+      "rel": "child",
+      "href": "./yipeeo/collection.json",
+      "type": "application/json",
+      "title": "YIPEEO: Yield Prediction and Estimation from Earth Observation"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
