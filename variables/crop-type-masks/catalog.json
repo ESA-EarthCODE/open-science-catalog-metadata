@@ -1,0 +1,53 @@
+{
+    "type": "Catalog",
+    "id": "crop-type-masks",
+    "stac_version": "1.0.0",
+    "description": "A spatially-explicit determination of identified types of non-perennial crops, types of perennial crops, managed grasslands, and/or of mixed-crop mosaics, as identified within the Cropland Mask. Types can be grouped into categories and/or hierarchies (for example, aggregation levels following JECAM description). Where categorical or hierarchical classification systems are in use, product should include documentation and definitions.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://agvariables.org/eav/crop-type-masks",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/crop-type-masks/catalog.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "updated": "2025-02-21T17:27:42.214831Z",
+    "keywords": [],
+    "title": "Crop Type Masks"
+  }

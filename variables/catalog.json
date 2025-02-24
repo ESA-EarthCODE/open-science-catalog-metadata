@@ -4862,7 +4862,7 @@
       "rel": "child",
       "href": "./relative-humidity/catalog.json",
       "type": "application/json",
-      "title": "Relative humidity"
+      "title": "Relative Humidity"
     },
     {
       "rel": "child",
@@ -6963,6 +6963,186 @@
       "href": "./gross-primary-productivity/catalog.json",
       "type": "application/json",
       "title": "Gross Primary Productivity (GPP)"
+    },
+    {
+      "rel": "child",
+      "href": "./above-ground-agricultural-biomass/catalog.json",
+      "type": "application/json",
+      "title": "Above Ground Agricultural Biomass"
+    },
+    {
+      "rel": "child",
+      "href": "./actual-evapotranspiration/catalog.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-residue-cover-percentage/catalog.json",
+      "type": "application/json",
+      "title": "Crop Residue Cover Percentage"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-rotation-sequence/catalog.json",
+      "type": "application/json",
+      "title": "Crop Rotation Sequence"
+    },
+    {
+      "rel": "child",
+      "href": "./surface-soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Surface Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-type-area-estimate/catalog.json",
+      "type": "application/json",
+      "title": "Crop Type Area Estimate"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-type-masks/catalog.json",
+      "type": "application/json",
+      "title": "Crop Type Masks"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-yield-estimation/catalog.json",
+      "type": "application/json",
+      "title": "Crop Yield Estimation"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-yield-forecast/catalog.json",
+      "type": "application/json",
+      "title": "Crop Yield Forecast"
+    },
+    {
+      "rel": "child",
+      "href": "./current-crop-stage/catalog.json",
+      "type": "application/json",
+      "title": "Current Crop Stage"
+    },
+    {
+      "rel": "child",
+      "href": "./degree-growing-days/catalog.json",
+      "type": "application/json",
+      "title": "Degree Growing Days"
+    },
+    {
+      "rel": "child",
+      "href": "./field-boundaries/catalog.json",
+      "type": "application/json",
+      "title": "Field Boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./fractional-cover/catalog.json",
+      "type": "application/json",
+      "title": "Fractional Cover"
+    },
+    {
+      "rel": "child",
+      "href": "./irrigated-cropland-map/catalog.json",
+      "type": "application/json",
+      "title": "Irrigated Cropland Map"
+    },
+    {
+      "rel": "child",
+      "href": "./managed-grasslands-mask/catalog.json",
+      "type": "application/json",
+      "title": "Managed Grasslands Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./non-perennial-cover-crop-utilization-mask/catalog.json",
+      "type": "application/json",
+      "title": "Non-Perennial Cover Crop Utilization Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./reference-crop-calendars/catalog.json",
+      "type": "application/json",
+      "title": "Reference Crop Calendars"
+    },
+    {
+      "rel": "child",
+      "href": "./reference-evapotranspiration/catalog.json",
+      "type": "application/json",
+      "title": "Reference Evapotranspiration"
+    },
+    {
+      "rel": "child",
+      "href": "./seasonal-dynamics-surface-water-availability/catalog.json",
+      "type": "application/json",
+      "title": "Seasonal Dynamics of Surface Water Availability"
+    },
+    {
+      "rel": "child",
+      "href": "./root-zone-soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Root Zone Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation/catalog.json",
+      "type": "application/json",
+      "title": "Precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./water-productivity/catalog.json",
+      "type": "application/json",
+      "title": "Water Productivity"
+    },
+    {
+      "rel": "child",
+      "href": "./seasonal-fallow-mask/catalog.json",
+      "type": "application/json",
+      "title": "Seasonal Fallow Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./rangelands-mask/catalog.json",
+      "type": "application/json",
+      "title": "Rangelands Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./rangeland-condition-assessment/catalog.json",
+      "type": "application/json",
+      "title": "Rangeland Condition Assessment"
+    },
+    {
+      "rel": "child",
+      "href": "./perennial-cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Perennial Cropland Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./non-perennial-cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Non-Perennial Cropland Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Cropland Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-condition-assessment/catalog.json",
+      "type": "application/json",
+      "title": "Crop Condition Assessment"
+    },
+    {
+      "rel": "child",
+      "href": "./agriculture-mask/catalog.json",
+      "type": "application/json",
+      "title": "Agriculture Mask"
     },
     {
       "rel": "parent",

@@ -1,0 +1,53 @@
+{
+    "type": "Catalog",
+    "id": "actual-evapotranspiration",
+    "stac_version": "1.0.0",
+    "description": "ETa estimates the actual water evaporated from the soil and transpired by the vegetation at all stages of crop development and all levels of crop stress. (FAO 1998)",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://agvariables.org/eav/actual-evapotranspiration",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/actual-evapotranspiration/catalog.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "updated": "2025-02-21T17:27:42.214831Z",
+    "keywords": [],
+    "title": "Actual Evapotranspiration"
+  }

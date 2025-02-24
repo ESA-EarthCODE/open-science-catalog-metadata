@@ -1,0 +1,53 @@
+{
+    "type": "Catalog",
+    "id": "seasonal-fallow-mask",
+    "stac_version": "1.0.0",
+    "description": "A binary determination of cultivable cropland that is not seeded (for harvestable crop or seasonal cover crop) for at least one or more cropping cycle(s) in a year. If left uncultivated for more than 1 cultivable cycle, it is eliminated from the Agriculture Mask.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://agvariables.org/eav/seasonal-fallow-mask",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/seasonal-fallow-mask/catalog.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "updated": "2025-02-21T17:27:42.214831Z",
+    "keywords": [],
+    "title": "Seasonal Fallow Mask"
+  }
