@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "fraction-of-absorbed-photosynthetically-active-radiation-fapar",
   "stac_version": "1.0.0",
-  "description": "The fraction of the incoming solar radiation in the Photosynthetically Active Radiation spectral region that is absorbed by a photosynthetic organism, typically describing the light absorption across an integrated plant canopy.[FAO]",
+  "description": "The fraction of the incoming solar radiation in the Photosynthetically Active Radiation spectral region that is absorbed by a photosynthetic organism, typically describing the light absorption across an integrated plant canopy.[FAO] Fraction of photosynthetically active radiation (ie the radiation in the spectral range of 400 to 700 nm) absorbed by vegetation (GCOS)",
   "links": [
     {
       "rel": "root",
