@@ -102,6 +102,12 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../experiment/worldcereal_crop_extent/record.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent"
     }
   ],
   "stac_extensions": [
