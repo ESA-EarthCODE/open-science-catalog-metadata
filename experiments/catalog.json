@@ -32,6 +32,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./worldcereal_crop_extent/record.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent"
     }
   ],
   "updated": "2025-01-29T18:00:00.000000Z",
