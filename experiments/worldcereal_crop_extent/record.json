@@ -1,0 +1,45 @@
+{
+  "id": "worldcereal_crop_extent",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-02-26T09:19:03.391Z",
+    "updated": "2025-02-26T09:19:03.391Z",
+    "type": "experiment",
+    "title": "WorldCereal Crop Extent - Experiment",
+    "description": "Experiment of WorldCereal Crop Extent",
+    "license": "",
+    "osc:workflow": "worldcereal_crop_extent",
+    "osc:product": "worldcereal_crop_extent",
+    "version": "2"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/worldcereal_crop_extent/record.json",
+      "type": "application/json",
+      "title": "Workflow: worldcereal_crop_extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/worldcereal_crop_extent/collection.json",
+      "type": "application/json",
+      "title": "Product: worldcereal_crop_extent"
+    }
+  ]
+}
