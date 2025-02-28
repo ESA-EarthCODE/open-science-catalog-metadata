@@ -16,6 +16,11 @@
         "title": "Access"
       },
       {
+        "rel": "via",
+        "href": "https://yipeeo.czechglobe.cz/documents/deliverables/D4.2_ExperimentalDatasetDescription.pdf",
+        "title": "Documentation"
+      },
+      {
         "rel": "parent",
         "href": "../catalog.json",
         "type": "application/json",
@@ -25,7 +30,7 @@
         "rel": "related",
         "href": "../../projects/yipeeo/collection.json",
         "type": "application/json",
-        "title": "Project: YIPPEO"
+        "title": "Project: YIPEEO"
       },
       {
         "rel": "related",
@@ -38,6 +43,12 @@
         "href": "../../variables/crop-yield-estimation/catalog.json",
         "type": "application/json",
         "title": "Variable: Crop Yield Estimation"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/in-situ-observations/catalog.json",
+        "type": "application/json",
+        "title": "In-situ observations"
       },
       {
         "rel": "self",
@@ -67,7 +78,9 @@
     "osc:variables": [
       "crop-yield-estimation"
     ],
-    "osc:missions": [],
+    "osc:missions": [
+      "in-situ-observations"
+    ],
     "updated": "2025-02-27T14:31:22.968110Z",
     "title": "Yield Data at Field Level",
     "extent": {
