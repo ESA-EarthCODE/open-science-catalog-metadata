@@ -18,15 +18,15 @@
     },
     {
       "rel": "child",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
+      "href": "../../products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Sargassum transport based on Lagrangian drift data simulation - Case 1"
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
     },
     {
       "rel": "child",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
+      "href": "../../products/sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Sargassum transport based on Lagrangian drift data simulation - Case 2"
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 2"
     },
     {
       "rel": "parent",

@@ -20,13 +20,13 @@
       "rel": "child",
       "href": "../../products/daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 2D ocean surface currents_North Atlantic"
+      "title": "Daily 2D ocean surface currents North Atlantic"
     },
     {
       "rel": "child",
       "href": "../../products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Doppler derived surface current_Agulhas_S1"
+      "title": "Doppler derived surface current Agulhas S1"
     },
     {
       "rel": "child",
@@ -38,7 +38,7 @@
       "rel": "child",
       "href": "../../products/gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Gridded Surface Current_Oceans_Agulhas"
+      "title": "Gridded Surface Current Oceans Agulhas"
     },
     {
       "rel": "child",
@@ -50,13 +50,13 @@
       "rel": "child",
       "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current_North-Atlantic"
+      "title": "Total surface current North Atlantic"
     },
     {
       "rel": "child",
       "href": "../../products/total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current_Tropical Atlantic"
+      "title": "Total surface current Tropical Atlantic"
     },
     {
       "rel": "parent",
