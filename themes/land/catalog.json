@@ -53,18 +53,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/dem-antarctica-2013-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/dem-antarctica-2017-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
       "href": "../../products/eo-based-cdom-baltic-sealabio/collection.json",
       "type": "application/json",
       "title": "EO based Color Disolved Organic Matter_Baltics_S3"
@@ -259,7 +247,7 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",

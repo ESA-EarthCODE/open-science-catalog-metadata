@@ -26,7 +26,7 @@
       "rel": "child",
       "href": "../../products/wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Wind stress vector (& anomalies)_Hourly_ERA5"
+      "title": "Wind stress vector (& anomalies) Hourly ERA5"
     },
     {
       "rel": "parent",

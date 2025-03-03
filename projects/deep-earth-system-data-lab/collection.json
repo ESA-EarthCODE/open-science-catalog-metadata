@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "../../products/hydrology-4D/collection.json",
       "type": "application/json",
-      "title": "Hydrology-4D-cube: High-Resolution observations of precipitation, evaporation, soil moisture, snow water equivalent for the Mediterranean Basin."
+      "title": "Hydrology-4D"
     },
     {
       "rel": "parent",
