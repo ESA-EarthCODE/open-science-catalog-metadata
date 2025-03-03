@@ -25,4 +25,4 @@ jobs:
           npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.9
       - name: Validate
         run: |
-          npx open-science-catalog-validation .
+          npx open-science-catalog-validation ./catalog.json ./eo-missions ./products ./projects ./themes ./variables ./workflows ./experiments
