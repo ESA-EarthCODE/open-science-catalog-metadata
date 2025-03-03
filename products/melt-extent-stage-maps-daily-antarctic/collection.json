@@ -12,9 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/melt-extent-stage-maps-daily-antarctica/2007/catalog.json",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/melt-extent-stage-maps-daily-antarctica/2007/catalog.json",
       "type": "application/json",
-      "title": "Daily melt extent/stage maps: 2007-01"
+      "title": "Daily melt extent/stage maps: 2007"
     },
     {
       "rel": "via",
