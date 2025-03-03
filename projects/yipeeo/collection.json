@@ -1,0 +1,132 @@
+{
+    "type": "Collection",
+    "id": "yipeeo",
+    "stac_version": "1.0.0",
+    "description": "Crop yield forecasting is a vital tool to support stakeholders and decision-makers in preparing for potential yield deficiencies. Most crop yield forecasts so far have been implemented on a regional to national scale. Field-scale forecasts can add vital information for farmers and insurers but still have much potential to improve. Especially the increasing availability of high-resolution climate data from sources such as Copernicus Sentinel-1, Sentinel-2, Sentinel-3 data, and Proba-V can significantly improve such forecasts. The goal of the YIPEEO project is to improve field-scale crop yield forecasts by using these datasets in combination with novel machine-learning techniques or crop growth models. For this purpose, we are working with various field datasets distributed over Europe (Ukraine, Finland, Netherlands, Denmark, Italy, and several in central Europe). In addition, we will explore the impact of droughts on crop yields, assess the impact of the war on Ukraine’s crop production, and develop an irrigation timing and fertilizer advisory tool.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://yipeeo.czechglobe.cz/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/yipeeo/",
+        "title": "EO4Society Link"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Projects"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/yield-data-field-level/collection.json",
+        "type": "application/json",
+        "title": "Yield Data at Field Level"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/yield-data-nuts2-level/collection.json",
+        "type": "application/json",
+        "title": "Yield Data at NUTS2 Level"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/yipeeo/collection.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+    ],
+    "osc:status": "ongoing",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "osc:type": "project",
+    "contacts": [
+      {
+        "name": "Espen Volden",
+        "emails": [
+          {
+            "value": "espen.volden@esa.int"
+          }
+        ],
+        "roles": [
+          "technical_officer"
+        ]
+      },
+      {
+        "name": "UNIVERSITY OF EDINBURGH (GB)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "TECHNISCHE UNIVERSITAT WIEN (TU WIEN) (AT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "EODC EARTH OBSERVATION DATA CENTRE FOR WATER RESOURCES MONITORING (AT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "GLOBAL CHANGE RESEARCH INSTITUTE CA (CZ)",
+        "roles": [
+          "consortium_member"
+        ]
+      }
+    ],
+    "updated": "2025-02-21T13:32:23.006110Z",
+    "title": "YIPEEO: Yield Prediction and Estimation from Earth Observation",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -25.0, 
+            34.0, 
+            45.0, 
+            72.0
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2023-04-05T00:00:00Z",
+            "2025-03-03T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": []
+  }
+  

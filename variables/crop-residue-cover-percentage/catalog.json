@@ -1,0 +1,53 @@
+{
+    "type": "Catalog",
+    "id": "crop-residue-cover-percentage",
+    "stac_version": "1.0.0",
+    "description": "On a cultivable and cultivated cropland, the percentage of soil covered by non-photosynthetically active vegetation that remains on a field after the harvest of a cash crop or the termination of a seasonal cover crop.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://agvariables.org/eav/crop-residue-cover-percentage",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/crop-residue-cover-percentage/catalog.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "updated": "2025-02-21T17:27:42.214831Z",
+    "keywords": [],
+    "title": "Crop Residue Cover Percentage"
+  }

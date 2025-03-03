@@ -1,0 +1,112 @@
+{
+    "type": "Collection",
+    "id": "yield-data-field-level",
+    "stac_version": "1.0.0",
+    "description": "In-situ crop yield data at field level obtained through a network of collaborating farms and research contacts across Europe.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://features.services.eodc.eu/collections/pub_yipeeo_yield_fl",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://yipeeo.czechglobe.cz/documents/deliverables/D4.2_ExperimentalDatasetDescription.pdf",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/yipeeo/collection.json",
+        "type": "application/json",
+        "title": "Project: YIPEEO"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/crop-yield-estimation/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Crop Yield Estimation"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/in-situ-observations/catalog.json",
+        "type": "application/json",
+        "title": "In-situ observations"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/yield-data-field-level/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "osc:project": "yipeeo",
+    "osc:status": "completed",
+    "osc:region": "Europe",
+    "osc:type": "product",
+    "created": "2025-02-27T00:00:00Z",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "crop-yield-estimation"
+    ],
+    "osc:missions": [
+      "in-situ-observations"
+    ],
+    "updated": "2025-02-27T14:31:22.968110Z",
+    "title": "Yield Data at Field Level",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            [
+                -10,
+                35,
+                20,
+                58
+            ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2017-01-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+        "Field level",
+        "Yield data"
+    ]
+  }
+  

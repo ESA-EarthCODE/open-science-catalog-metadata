@@ -370,6 +370,18 @@
       "title": "HYDROCOASTAL Final Product: L2 along-track re-tracked product"
     },
     {
+      "rel": "child",
+      "href": "../../products/yield-data-field-level/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at Field Level"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/yield-data-nuts2-level/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at NUTS2 Level"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
