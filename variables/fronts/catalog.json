@@ -20,25 +20,25 @@
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Oceanic Fronts Western Europe"
+      "title": "Oceanic Fronts Western Europe"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Oceanic Fronts North Atlantic"
+      "title": "Oceanic Fronts North Atlantic"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Oceanic HR Fronts Agulhas"
+      "title": "Oceanic HR Fronts Agulhas"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Oceanic LR Fronts Agulhas"
+      "title": "Oceanic LR Fronts Agulhas"
     },
     {
       "rel": "parent",

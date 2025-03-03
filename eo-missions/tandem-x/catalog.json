@@ -18,24 +18,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/dem-antarctica-2013-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/dem-antarctica-2017-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/glacier-mass-balance-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
       "href": "../../products/subglacial-lake-drainage-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Subglacial Lake Drainage and Filling Antarctica Multimission"
@@ -44,7 +26,7 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "parent",

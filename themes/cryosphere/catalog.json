@@ -77,18 +77,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/dem-antarctica-2013-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/dem-antarctica-2017-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
       "href": "../../products/dynamics-of-glacier-lakes-alpglacier/collection.json",
       "type": "application/json",
       "title": "Dynamics of glacier lakes_SwissAlps_S1/2"
@@ -116,12 +104,6 @@
       "href": "../../products/glacier-elevation-cryosat-mountain-glaciers/collection.json",
       "type": "application/json",
       "title": "Mountain glacier elevation and elevation change_Global_Cryosat-2"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/glacier-mass-balance-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Geodetic glacier mass balances Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
     },
     {
       "rel": "child",
@@ -373,7 +355,7 @@
       "rel": "child",
       "href": "../../products/sea-surface-salinity-arctic-salinity/collection.json",
       "type": "application/json",
-      "title": "Sea Surface Salinity L2 orbits and L3 maps (V.3.1) _Arctic_SMOS"
+      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
     },
     {
       "rel": "child",
@@ -481,7 +463,7 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",
