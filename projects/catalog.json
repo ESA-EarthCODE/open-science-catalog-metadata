@@ -1085,6 +1085,18 @@
       "title": "YIPEEO: Yield Prediction and Estimation from Earth Observation"
     },
     {
+      "rel": "child",
+      "href": "./worldcereal/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal"
+    },
+    {
+      "rel": "child",
+      "href": "./polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

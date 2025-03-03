@@ -1,0 +1,39 @@
+{
+  "type": "Catalog",
+  "id": "experiments",
+  "stac_version": "1.0.0",
+  "description": "Geoscience experiments",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./polaris-experiment/record.json",
+      "type": "application/json",
+      "title": "POLARIS"
+    },
+    {
+      "rel": "item",
+      "href": "./worldcereal-experiment/record.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal Experiment"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2025-01-29T18:00:00.000000Z",
+  "title": "Experiments"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "worldcereal",
+  "stac_version": "1.0.0",
+  "description": "WorldCereal is an ESA initiative that provides global cropland and crop type maps at 10-meter resolution, offering seasonally updated data on temporary crops, croptypes (maize, winter cereals and spring cereals), and irrigation.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://esa-worldcereal.org/en",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/worldcereal-global-crop-monitoring-at-field-scale/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/worldcereal/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/worldcereal-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: ESA worldcereal global maize detector"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
+      "type": "application/json",
+      "title": "Product: WorldCereal Crop Extent - Belgium"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:type": "project",
+  "osc:status": "ongoing",
+  "osc:workflows": [
+    "worldcereal-workflow"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Zoltan Szantoi",
+      "emails": [
+        {
+          "value": "Zoltan.Szantoi@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "VITO Remote Sensing",
+      "urls": [
+        {
+          "value": "https://esa-worldcereal.org/en/contact"
+        }
+      ],
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2025-02-04T09:40:00Z",
+  "title": "WorldCereal",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}
