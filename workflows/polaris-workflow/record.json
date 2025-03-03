@@ -1,5 +1,5 @@
 {
-  "id": "e59e411c-20ed-4dc7-ba85-e2df001e9f0b",
+  "id": "polaris-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
@@ -7,10 +7,10 @@
   "geometry": null,
   "properties": {
     "created": "2025-02-19T23:00:00Z",
-    "updated": "2025-02-19T23:00:00Z",
-    "type": "experiment",
+    "updated": "2025-03-03T22:00:00Z",
+    "type": "workflow",
     "title": "POLARIS",
-    "description": "Polar Operational Limit Assessment Risk Index System (POLARIS)",
+    "description": "Polar Operational Limit Assessment Risk Index System (POLARIS) algorithm.",
     "keywords": [
       "sea ice",
       "polar"
@@ -48,7 +48,7 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
-    "osc:workflow": "098d409b-fdae-432c-8634-4df67b2059d9",
+    "osc:project": "polaris",
     "version": "2"
   },
   "linkTemplates": [],
@@ -63,13 +63,13 @@
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Experiments"
+      "title": "Workflows"
     },
     {
-      "rel": "child",
-      "href": "../../products/polaris/collection.json",
+      "rel": "related",
+      "href": "../../projects/polaris/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Project: POLARIS"
     },
     {
       "rel": "related",
@@ -78,26 +78,26 @@
       "title": "Theme: Oceans"
     },
     {
-      "rel": "related",
-      "href": "../../workflows/098d409b-fdae-432c-8634-4df67b2059d9/record.json",
+      "rel": "child",
+      "href": "../../experiments/polaris-experiment/record.json",
       "type": "application/json",
-      "title": "Workflow: POLARIS"
+      "title": "POLARIS"
     },
     {
-      "rel": "input",
-      "href": "./input.yaml",
-      "type": "application/yaml",
-      "title": "Input parameters"
+      "rel": "application",
+      "type": "application/json",
+      "title": "OGC Application Package",
+      "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
     },
     {
-      "rel": "environment",
-      "href": "./environment.yaml",
-      "type": "application/yaml",
-      "title": "Execution environment"
+      "rel": "git",
+      "type": "application/json",
+      "title": "Git source repository",
+      "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/e59e411c-20ed-4dc7-ba85-e2df001e9f0b/item.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polaris-workflow/record.json",
       "type": "application/json"
     }
   ]

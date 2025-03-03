@@ -40,7 +40,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/098d409b-fdae-432c-8634-4df67b2059d9/record.json",
+      "href": "../../workflows/polaris-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: POLARIS"
     },
@@ -58,7 +58,7 @@
   ],
   "osc:status": "completed",
   "osc:workflows": [
-    "098d409b-fdae-432c-8634-4df67b2059d9"
+    "polaris-workflow"
   ],
   "themes": [
     {
