@@ -80,9 +80,6 @@
     ],
     "license": "others",
     "osc:project": "worldcereal",
-    "osc:experiments": [
-      "worldcereal-experiment"
-    ],
     "version": "2"
   },
   "linkTemplates": [],
@@ -112,10 +109,10 @@
       "title": "Theme: Land"
     },
     {
-      "rel": "related",
+      "rel": "child",
       "href": "../../experiments/worldcereal-experiment/record.json",
       "type": "application/json",
-      "title": "Experiment: ESA WorldCereal Experiment"
+      "title": "ESA WorldCereal Experiment"
     },
     {
       "rel": "openeo-process",
