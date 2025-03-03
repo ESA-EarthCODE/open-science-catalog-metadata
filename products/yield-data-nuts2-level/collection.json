@@ -30,7 +30,7 @@
         "rel": "related",
         "href": "../../projects/yipeeo/collection.json",
         "type": "application/json",
-        "title": "Project: YIPEEO"
+        "title": "Project: YIPEEO: Yield Prediction and Estimation from Earth Observation"
       },
       {
         "rel": "related",
@@ -48,7 +48,7 @@
         "rel": "related",
         "href": "../../eo-missions/in-situ-observations/catalog.json",
         "type": "application/json",
-        "title": "In-situ observations"
+        "title": "EO Mission: In-situ observations"
       },
       {
         "rel": "self",
