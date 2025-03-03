@@ -2796,13 +2796,13 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json"
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
   ],
   "stac_version": "1.0.0",
   "title": "WorldCereal Crop Extent - Product",
   "type": "Collection",
   "osc:missions": [],
-  "osc:project": "",
+  "osc:project": "4d-antarctica",
   "osc:status": "completed",
   "osc:type": "product",
   "osc:variables": []

@@ -87,6 +87,12 @@
       "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)"
     },
     {
+      "rel": "child",
+      "href": "../../products/worldcereal_crop_extent/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent - Product"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -102,12 +108,6 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
-    },
-    {
-      "rel": "child",
-      "href": "../experiment/worldcereal_crop_extent/record.json",
-      "type": "application/json",
-      "title": "WorldCereal Crop Extent"
     }
   ],
   "stac_extensions": [

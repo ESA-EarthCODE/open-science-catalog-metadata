@@ -33,13 +33,25 @@
       "rel": "related",
       "href": "../../workflows/worldcereal_crop_extent/record.json",
       "type": "application/json",
-      "title": "Workflow: worldcereal_crop_extent"
+      "title": "Workflow: WorldCereal Crop Extent - Workflow"
     },
     {
       "rel": "related",
       "href": "../../products/worldcereal_crop_extent/collection.json",
       "type": "application/json",
       "title": "Product: worldcereal_crop_extent"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
     }
   ]
 }
