@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
       "type": "application/json",
-      "title": "Maize detection example in Belgium"
+      "title": "WorldCereal Crop Extent - Belgium"
     },
     {
       "rel": "parent",
