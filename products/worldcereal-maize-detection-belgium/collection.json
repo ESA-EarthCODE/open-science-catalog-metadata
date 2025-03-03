@@ -2659,8 +2659,13 @@
       "type": "application/geo+json"
     },
     {
-      "href": "https://openeofed.dataspace.copernicus.eu/openeo/1.2/jobs/cdse-j-25020410530548a7aef81c62faebd127/results",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/worldcereal-maize-detection-belgium/collection.json",
       "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/1.2/jobs/cdse-j-25020410530548a7aef81c62faebd127/results",
+      "rel": "canonical",
       "type": "application/json"
     },
     {

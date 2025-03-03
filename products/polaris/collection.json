@@ -41,7 +41,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/e59e411c-20ed-4dc7-ba85-e2df001e9f0b/record.json",
+      "href": "../../experiments/polaris-experiment/record.json",
       "type": "application/json",
       "title": "Experiment: POLARIS"
     },
@@ -57,7 +57,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "polaris",
-  "osc:experiment": "e59e411c-20ed-4dc7-ba85-e2df001e9f0b",
+  "osc:experiment": "polaris-experiment",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",

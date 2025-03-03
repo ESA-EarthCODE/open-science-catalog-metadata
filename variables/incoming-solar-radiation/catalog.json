@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "incoming-solar-radiation",
   "stac_version": "1.0.0",
-  "description": "In general, solar radiation received at the earth's surface. The amount of direct solar radiation incident upon a unit horizontal surface at a specific level on or above the surface of the earth. Incoming solar radiation is solar radition that has not been scattered or absorbed.",
+  "description": "Incoming radiation represents the amount of energy radiating from the sun to the land surface, including direct radiation and diffuse radiation. In general, solar radiation received at the earth's surface. The amount of direct solar radiation incident upon a unit horizontal surface at a specific level on or above the surface of the earth. Incoming solar radiation is solar radition that has not been scattered or absorbed.",
   "links": [
     {
       "rel": "root",
@@ -13,6 +13,12 @@
     {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/6b3be650-6625-40b5-9b40-9e7c8a9fd336?gtm_keyword=INCOMING%20SOLAR%20RADIATION&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://agvariables.org/eav/incoming-radiation",
       "type": "text/html",
       "title": "Description"
     },
@@ -32,6 +38,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -43,6 +55,14 @@
       "concepts": [
         {
           "id": "atmosphere"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
         }
       ]
     }

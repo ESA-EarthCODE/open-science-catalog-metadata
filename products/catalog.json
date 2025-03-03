@@ -1782,6 +1782,18 @@
     },
     {
       "rel": "child",
+      "href": "./yield-data-field-level/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at Field Level"
+    },
+    {
+      "rel": "child",
+      "href": "./yield-data-nuts2-level/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at NUTS2 Level"
+    },
+    {
+      "rel": "child",
       "href": "./worldcereal-maize-detection-belgium/collection.json",
       "type": "application/json",
       "title": "WorldCereal Crop Extent - Belgium"
