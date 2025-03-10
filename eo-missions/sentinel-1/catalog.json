@@ -66,12 +66,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/glacier-surface-flow-velocity-alpglacier/collection.json",
-      "type": "application/json",
-      "title": "Glacier surface flow velocity_SwissAlps_S1/2"
-    },
-    {
-      "rel": "child",
       "href": "../../products/gnss-positioning-solution-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
