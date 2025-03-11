@@ -492,7 +492,7 @@
     },
     {
       "rel": "child",
-      "href": "./ground-deformation-from-meteorological-seismic-and-anthropogenic-changes/collection.json",
+      "href": "./germane-lpf/collection.json",
       "type": "application/json",
       "title": "(LPF) GERMANE"
     },
