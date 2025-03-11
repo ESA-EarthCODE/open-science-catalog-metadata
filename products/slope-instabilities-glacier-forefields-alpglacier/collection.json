@@ -12,8 +12,13 @@
     },
     {
       "rel": "via",
-      "href": "https://onlinelibrary.wiley.com/doi/10.1002/esp.5196",
+      "href": "https://hal.science/hal-04381062v1/file/Jones2023JSTAR_Surface_Instability_Mapping_in_Alpine_Paraglacial_Environments_Using_Senti...niques.pdf",
       "title": "Documentation"
+    },
+    {
+      "rel": "cite-as",
+      "href": "10.1109/JSTARS.2023.3287285",
+      "title": "DOI"
     },
     {
       "rel": "parent",
@@ -66,6 +71,7 @@
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
+  "sci:doi": "10.1109/JSTARS.2023.3287285",
   "cf:parameter": [
     {
       "name": "glacier_forefields"
