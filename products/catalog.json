@@ -1794,7 +1794,7 @@
     },
     {
       "rel": "child",
-      "href": "./worldcereal-maize-detection-belgium/collection.json",
+      "href": "./worldcereal-crop-extent-belgium/collection.json",
       "type": "application/json",
       "title": "WorldCereal Crop Extent - Belgium"
     },
