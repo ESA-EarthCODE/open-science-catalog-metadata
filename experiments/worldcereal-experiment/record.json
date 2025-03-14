@@ -10,7 +10,7 @@
     "updated": "2025-01-21T18:40:00Z",
     "type": "experiment",
     "title": "ESA WorldCereal Experiment",
-    "description": "A maize detection algorithm experiment",
+    "description": "Experiment using the worldcereal crop extent workflow.",
     "keywords": [
       "agriculture",
       "crops"
@@ -98,7 +98,7 @@
     },
     {
       "rel": "child",
-      "href": "../../products/worldcereal-maize-detection-belgium/collection.json",
+      "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
       "type": "application/json",
       "title": "WorldCereal Crop Extent - Belgium"
     },
@@ -113,12 +113,6 @@
       "href": "./environment.yaml",
       "type": "application/yaml",
       "title": "Execution environment"
-    },
-    {
-      "rel": "openeo-process-graph",
-      "type": "application/json",
-      "title": "openEO Processing Graph",
-      "href": "https://openeofed.dataspace.copernicus.eu/openeo/1.2/jobs/cdse-j-25020410530548a7aef81c62faebd127"
     },
     {
       "rel": "service",
@@ -136,7 +130,7 @@
       "rel": "related",
       "href": "../../workflows/worldcereal-workflow/record.json",
       "type": "application/json",
-      "title": "Workflow: ESA worldcereal global maize detector"
+      "title": "Workflow: ESA worldcereal global crop extent detector"
     },
     {
       "rel": "self",

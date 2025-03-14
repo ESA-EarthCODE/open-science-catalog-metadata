@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "worldcereal-maize-detection-belgium",
+  "id": "worldcereal-crop-extent-belgium",
   "stac_version": "1.0.0",
   "description": "Results for batch job cdse-j-25020410530548a7aef81c62faebd127",
   "title": "WorldCereal Crop Extent - Belgium",

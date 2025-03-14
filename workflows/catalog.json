@@ -20,7 +20,7 @@
       "rel": "item",
       "href": "./worldcereal-workflow/record.json",
       "type": "application/json",
-      "title": "ESA worldcereal global maize detector"
+      "title": "ESA worldcereal global crop extent detector"
     },
     {
       "rel": "parent",
