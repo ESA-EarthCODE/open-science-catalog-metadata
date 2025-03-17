@@ -9,8 +9,8 @@
     "created": "2025-01-21T18:00:00Z",
     "updated": "2025-01-21T18:40:00Z",
     "type": "workflow",
-    "title": "ESA worldcereal global maize detector",
-    "description": "A maize detection algorithm.",
+    "title": "ESA worldcereal global crop extent detector",
+    "description": "Detects crop land at 10m resolution, trained for global use. Based on Sentinel-1 and 2 data, this algorithm can be used from 2016 onwards. The maximum area for a single job is 20x20km.",
     "keywords": [
       "agriculture",
       "crops"
@@ -38,10 +38,11 @@
         ]
       },
       {
-        "name": "VITO",
+        "name": "Copernicus Dataspace Ecosystem",
         "links": [
           {
-            "href": "https://www.vito.be/",
+            "href": "https://dataspace.copernicus.eu/",
+            "title": "CDSE Platform Website",
             "rel": "about",
             "type": "text/html"
           }
@@ -118,7 +119,7 @@
       "rel": "openeo-process",
       "type": "application/json",
       "title": "openEO Process Definition",
-      "href": "https://raw.githubusercontent.com/ESA-APEx/apex_algorithms/refs/heads/main/openeo_udp/worldcereal_crop_extent.json"
+      "href": "https://raw.githubusercontent.com/WorldCereal/worldcereal-classification/refs/tags/worldcereal_crop_extent_v1.0.1/src/worldcereal/udp/worldcereal_crop_extent.json"
     },
     {
       "rel": "git",
@@ -131,10 +132,6 @@
       "type": "application/json",
       "title": "CDSE openEO federation",
       "href": "https://openeofed.dataspace.copernicus.eu"
-    },
-    {
-      "rel": "license",
-      "href": "https://apex.esa.int/license"
     },
     {
       "rel": "self",
