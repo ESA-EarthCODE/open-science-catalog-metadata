@@ -7151,6 +7151,24 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "child",
+      "href": "./surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./permafrost-area-fraction/catalog.json",
+      "type": "application/json",
+      "title": "Permafrost Area Fraction"
+    },
+    {
+      "rel": "child",
+      "href": "./solid-earth-subsurface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Solid Earth Subsurface Temperature"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json"
