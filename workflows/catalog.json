@@ -29,6 +29,12 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "item",
+      "href": "./esa-cci-permafrost/record.json",
+      "type": "application/json",
+      "title": "ESA CCI permafrost"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
       "type": "application/json"
