@@ -43,12 +43,6 @@
       "href": "../../workflows/polaris-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: POLARIS"
-    },
-    {
-      "rel": "related",
-      "href": "../../products/polaris/collection.json",
-      "type": "application/json",
-      "title": "Product: POLARIS"
     }
   ],
   "stac_extensions": [

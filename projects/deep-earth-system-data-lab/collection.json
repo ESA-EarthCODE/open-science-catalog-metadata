@@ -40,6 +40,12 @@
     },
     {
       "rel": "related",
+      "href": "../../workflows/esa-cci-permafrost/record.json",
+      "type": "application/json",
+      "title": "Workflow: ESA CCI permafrost"
+    },
+    {
+      "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
