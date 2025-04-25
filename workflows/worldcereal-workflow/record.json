@@ -79,7 +79,7 @@
         "name": "GeoTIFF"
       }
     ],
-    "license": "proprietary",
+    "license": "others",
     "osc:project": "worldcereal",
     "version": "2"
   },
