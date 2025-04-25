@@ -1,18 +1,29 @@
 {
   "id": "esa-cci-permafrost",
   "type": "Feature",
-  "title": "ESA CCI permafrost",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/workflow-types"
+  ],
   "geometry": null,
   "properties": {
     "created": "2025-03-17T14:30:23.650003+00:00",
-    "updated": "2025-03-17T14:30:23.650003+00:00",
+    "updated": "2025-04-25T14:00:00Z",
     "type": "workflow",
     "title": "ESA CCI permafrost",
     "description": "cube generation workflow for esa-cci-permafrost",
-    "jupyter_kernel_info": {
-      "name": "deepesdl-xcube-1.8.3",
-      "python_version": 3.11,
-      "env_file": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
+    "workflow": {
+      "type": "jupyter-notebook",
+      "gitUrl": "https://github.com/deepesdl/cube-gen.git",
+      "gitBranch": "main",
+      "path": "Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
+      "platformUrl": "https://deep.earthsystemdatalab.net/",
+      "platformApplication": "JupyterLab",
+      "kernel": {
+        "name": "deepesdl-xcube-1.8.3",
+        "pythonVersion": 3.11,
+        "envFile": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
+      }
     },
     "keywords": [
       "Earth Science"
@@ -50,12 +61,6 @@
     "osc:project": "deep-earth-system-data-lab"
   },
   "linkTemplates": [],
-  "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
-  ],
-  "themes": [
-    "cryosphere"
-  ],
   "links": [
     {
       "rel": "root",
@@ -70,16 +75,9 @@
       "title": "Workflows"
     },
     {
-      "rel": "child",
-      "href": "../../experiments/esa-cci-permafrost/record.json",
-      "type": "application/json",
-      "title": "ESA CCI permafrost"
-    },
-    {
-      "rel": "jupyter-notebook",
-      "type": "application/json",
-      "title": "Jupyter Notebook",
-      "href": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb"
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/esa-cci-permafrost/record.json",
+      "type": "application/json"
     },
     {
       "rel": "related",
@@ -88,15 +86,33 @@
       "title": "Project: DeepESDL"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/esa-cci-permafrost/record.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "type": "application/json",
+      "title": "ESA CCI permafrost"
     },
     {
       "rel": "related",
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/deepesdl/cube-gen.git",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "href": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
+      "type": "application/x-ipynb+json",
+      "title": "Jupyter Notebook: Create CCI Permafrost cube"
+    },
+    {
+      "rel": "related",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fcube-gen&urlpath=lab%2Ftree%2Fcube-gen%2FPermafrost%2FCreate-CCI-Permafrost-cube-EarthCODE.ipynb&branch=main",
+      "title": "Open notebook on the DeepESDL platform"
     }
   ]
 }
+
