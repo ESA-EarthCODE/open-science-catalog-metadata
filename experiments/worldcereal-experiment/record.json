@@ -78,7 +78,7 @@
         "name": "GeoTIFF"
       }
     ],
-    "license": "others",
+    "license": "proprietary",
     "osc:workflow": "worldcereal-workflow",
     "version": "2"
   },
