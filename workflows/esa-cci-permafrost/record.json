@@ -3,7 +3,8 @@
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
-    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/workflow-types"
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
   ],
   "geometry": null,
   "properties": {
@@ -104,11 +105,12 @@
       }
     },
     {
-      "rel": "application-platform",
+      "rel": "application-originating-platform",
       "title": "DeepESDL platform",
       "href": "https://deep.earthsystemdatalab.net/",
       "type": "text/html",
-      "application:platform_supports": ["jupyter-notebook"]
+      "application:platform_supports": ["jupyter-notebook"],
+      "application:preferred_app": "JupyterLab"
     },
     {
       "rel": "related",
