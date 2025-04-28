@@ -12,27 +12,14 @@
     "type": "workflow",
     "title": "ESA CCI permafrost",
     "description": "cube generation workflow for esa-cci-permafrost",
-    "workflow": {
-      "type": "jupyter-notebook",
-      "gitUrl": "https://github.com/deepesdl/cube-gen.git",
-      "gitBranch": "main",
-      "path": "Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
-      "platformUrl": "https://deep.earthsystemdatalab.net/",
-      "platformApplication": "JupyterLab",
-      "kernel": {
-        "name": "deepesdl-xcube-1.8.3",
-        "pythonVersion": 3.11,
-        "envFile": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
-      }
-    },
-    "keywords": [
-      "Earth Science"
-    ],
+    "application:type": "jupyter-notebook",
+    "application:container": true,
+    "application:language": "Python",
+    "keywords": ["Earth Science"],
     "contacts": [
       {
         "name": "Tejas Morbagal Harish",
         "organization": "Brockmann Consult GmbH",
-        "position": "",
         "links": [
           {
             "rel": "about",
@@ -40,10 +27,7 @@
             "href": "https://www.brockmann-consult.de/"
           }
         ],
-        "contactInstructions": "",
-        "roles": [
-          "principal investigator"
-        ]
+        "roles": ["principal investigator"]
       }
     ],
     "themes": [
@@ -98,15 +82,33 @@
       "title": "Theme: Cryosphere"
     },
     {
-      "rel": "git",
+      "rel": "vcs",
+      "title": "Git source repository",
       "href": "https://github.com/deepesdl/cube-gen.git",
-      "title": "Git source repository"
+      "vcs:type": "git",
+      "vcs:branch": "main"
     },
     {
-      "rel": "jupyter-notebook",
+      "rel": "application",
+      "title": "Jupyter Notebook: Create CCI Permafrost cube",
       "href": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
+      "file:local_path": "Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
       "type": "application/x-ipynb+json",
-      "title": "Jupyter Notebook: Create CCI Permafrost cube"
+      "application:type": "jupyter-notebook",
+      "application:container": true,
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "deepesdl-xcube-1.8.3",
+        "pythonVersion": 3.11,
+        "envFile": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
+      }
+    },
+    {
+      "rel": "application-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": ["jupyter-notebook"]
     },
     {
       "rel": "related",
@@ -115,4 +117,3 @@
     }
   ]
 }
-
