@@ -1097,6 +1097,12 @@
       "title": "POLARIS"
     },
     {
+      "rel": "child",
+      "href": "./sral/collection.json",
+      "type": "application/json",
+      "title": "SRAL Processing over Land Ice"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
