@@ -1098,7 +1098,7 @@
     },
     {
       "rel": "child",
-      "href": "./sral/collection.json",
+      "href": "./sral-processing-landice/collection.json",
       "type": "application/json",
       "title": "SRAL Processing over Land Ice"
     },
