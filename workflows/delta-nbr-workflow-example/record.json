@@ -1,5 +1,5 @@
 {
-  "id": "delta-nbr",
+  "id": "delta-nbr-workflow-example",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
