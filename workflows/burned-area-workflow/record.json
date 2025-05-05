@@ -1,0 +1,120 @@
+{
+  "id": "delta-nbr",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
+  ],
+  "title": "DNBR Workflow Example",
+  "geometry": null,
+  "properties": {
+    "created": "2025-05-05T10:50:07.411224+00:00",
+    "updated": "2025-05-05T10:50:07.411224+00:00",
+    "type": "workflow",
+    "title": "DNBR Workflow Example",
+    "description": "Demonstrate how to fetch satellite Sentinel-2 data to generate burn severity maps for the assessment of the areas affected by wildfires.",
+    "jupyter_kernel_info": {
+      "name": "Pange-Test-Notebook",
+      "python_version": 3.11,
+      "env_file": "https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml"
+    },
+    "application:type": "jupyter-notebook",
+    "application:container": true,
+    "application:language": "Python",
+    "keywords": ["Earth Science"],
+    "contacts": [
+      {
+        "name": "Dean Summers",
+        "organization": "Lampata",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.lampata.eu/"
+          }
+        ],
+        "roles": ["principal investigator"]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "proprietary",
+    "osc:project": "deep-earth-system-data-lab"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/burned-area-workflow/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Jupyter Notebook",
+      "href": "https://github.com/pangeo-data/pangeo-openeo-BiDS-2023/blob/main/tutorial/examples/dask/wildfires_daskgateway.ipynb"
+    },
+    {
+      "rel": "application",
+      "title": "Jupyter Notebook: DNBR Workflow Example",
+      "href": "https://github.com/pangeo-data/pangeo-openeo-BiDS-2023/blob/main/tutorial/examples/dask/wildfires_daskgateway.ipynb",
+      "file:local_path": "tutorial/examples/dask/wildfires_daskgateway.ipynb",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:container": true,
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "Pangeo-Notebook",
+        "pythonVersion": 3.11,
+        "envFile": "https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml"
+      }
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "Pangeo",
+      "href": "https://pangeo.io",
+      "type": "text/html",
+      "application:platform_supports": ["jupyter-notebook"],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "related",
+      "href": "https://workspace.edcv2-demo.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Fbids2025-tutorial&urlpath=lab%2Ftree%2Fbids2025-tutorial%2Fwildfires_daskgateway.ipynb&branch=main",
+      "title": "Open notebook on the EDC platform"
+    }
+  ]
+}
