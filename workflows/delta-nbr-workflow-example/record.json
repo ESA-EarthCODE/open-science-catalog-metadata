@@ -77,22 +77,23 @@
       "title": "Project: DeepESDL"
     },
     {
+      "rel": "vcs",
+      "title": "Git source repository",
+      "href": "https://github.com/ESA-EarthCODE/bids2025-tutorial.git",
+      "vcs:type": "git",
+      "vcs:branch": "main"
+    },
+    {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
-      "rel": "jupyter-notebook",
-      "type": "application/json",
-      "title": "Jupyter Notebook",
-      "href": "https://github.com/pangeo-data/pangeo-openeo-BiDS-2023/blob/main/tutorial/examples/dask/wildfires_daskgateway.ipynb"
-    },
-    {
       "rel": "application",
       "title": "Jupyter Notebook: DNBR Workflow Example",
-      "href": "https://github.com/pangeo-data/pangeo-openeo-BiDS-2023/blob/main/tutorial/examples/dask/wildfires_daskgateway.ipynb",
-      "file:local_path": "tutorial/examples/dask/wildfires_daskgateway.ipynb",
+      "href": "https://github.com/ESA-EarthCODE/bids2025-tutorial/wildfires_daskgateway.ipynb",
+      "file:local_path": "wildfires_daskgateway.ipynb",
       "type": "application/x-ipynb+json",
       "application:type": "jupyter-notebook",
       "application:container": true,
@@ -104,7 +105,7 @@
       }
     },
     {
-      "rel": "application-originating-platform",
+      "rel": "application-platform",
       "title": "Pangeo",
       "href": "https://pangeo.io",
       "type": "text/html",
