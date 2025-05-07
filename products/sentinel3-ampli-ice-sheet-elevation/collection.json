@@ -12,13 +12,24 @@
       },
       {
         "rel": "via",
-        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAccess/SRAL/S3AMPLI_ICE/",
+        "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation",
         "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1323/",
+        "title": "Documentation"
       },
       {
         "rel": "cite-as",
         "href": "https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1323/",
         "title": "DOI"
+      },
+      {
+        "rel": "child",
+        "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation",
+        "type": "application/json",
+        "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
       },
       {
         "rel": "parent",
@@ -88,7 +99,7 @@
     "osc:missions": [
         "sentinel-3"
     ],
-    "updated": "2025-04-29T20:32:22.960110Z",
+    "updated": "2025-05-07T20:32:22.960110Z",
     "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
     "extent": {
       "spatial": {
