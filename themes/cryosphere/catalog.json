@@ -562,6 +562,12 @@
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
     },
     {
+      "rel": "child",
+      "href": "../../products/sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

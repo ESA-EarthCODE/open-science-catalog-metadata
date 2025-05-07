@@ -1,0 +1,122 @@
+{
+    "type": "Collection",
+    "id": "sentinel3-ampli-ice-sheet-elevation",
+    "stac_version": "1.0.0",
+    "description": "Ice sheet elevation estimated along the Sentinel-3 satellite track, as retrieved with the Altimeter data Modelling and Processing for Land Ice (AMPLI). The products cover Antarctica and Greenland.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAccess/SRAL/S3AMPLI_ICE/",
+        "title": "Access"
+      },
+      {
+        "rel": "cite-as",
+        "href": "https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1323/",
+        "title": "DOI"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/sral-processing-landice/collection.json",
+        "type": "application/json",
+        "title": "Project: SRAL Processing over Land Ice"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/cryosphere/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Cryosphere"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/ice-sheet-topography/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Ice sheet topography"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/sentinel-3/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Sentinel-3"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sentinel3-ampli-ice-sheet-elevation/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "sral-processing-landice",
+    "osc:status": "completed",
+    "osc:region": "Antarctica and Greenland",
+    "osc:type": "product",
+    "created": "2025-04-04T00:00:00Z",
+    "version": "1",
+    "cf:parameter": [
+      {
+        "name": "ice_sheet_topography"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "ice-sheet-topography"
+    ],
+    "osc:missions": [
+        "sentinel-3"
+    ],
+    "updated": "2025-04-29T20:32:22.960110Z",
+    "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -180.0,
+            -90.0,
+            180.0,
+            90.0
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-06-01T00:00:00Z",
+            "2024-05-09T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+        "Topography",
+        "Glaciers/Ice Sheets",
+        "Glacier Elevation/Ice Sheet Elevation",
+        "Cryospheric Indicators",
+        "Glacial Measurements"
+    ]
+  }
+  

@@ -1817,6 +1817,12 @@
       "title": "esa-cci-permafrost"
     },
     {
+      "rel": "child",
+      "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"

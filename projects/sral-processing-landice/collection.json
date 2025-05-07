@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "sral",
+    "id": "sral-processing-landice",
     "stac_version": "1.0.0",
     "description": "The project aimed at improving Sentinel-3 altimetry performances over land ice. In particular, an innovative level-2 processing chain was developed in the frame of the project: the Altimeter data Modelling and Processing for Land Ice (AMPLI). The processing chain aims at retrieving ice sheet topography along the satellite track, by proposing an innovative and performant approach for the echo relocation. The surface elevation is not estimated at nadir, but relocated at the “point of first radar return”, in the cross-track direction to the satellite path.",
     "links": [
@@ -27,8 +27,14 @@
         "title": "Projects"
       },
       {
+        "rel": "child",
+        "href": "../../products/sentinel3-ampli-ice-sheet-elevation/collection.json",
+        "type": "application/json",
+        "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
+      },
+      {
         "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sral/collection.json",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/sral-processing-landice/collection.json",
         "type": "application/json"
       },
       {
