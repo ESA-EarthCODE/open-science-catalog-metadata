@@ -12,6 +12,12 @@
     },
     {
       "rel": "child",
+      "href": "./4dmed-2d-sss/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "child",
       "href": "./absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"

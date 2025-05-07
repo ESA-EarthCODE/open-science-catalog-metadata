@@ -23,9 +23,9 @@
       // HERE is where I put all the products when i will create them in the product section
       {
         "rel": "child",
-        "href": "../../products/hydrology-4D/collection.json",
+        "href": "../../products/4dmed-2d-sss/collection.json",
         "type": "application/json",
-        "title": "Hydrology-4D"
+        "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
       },
       {
         "rel": "parent",
