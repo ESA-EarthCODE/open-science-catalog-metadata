@@ -115,6 +115,7 @@
     {
       "rel": "related",
       "href": "https://workspace.edcv2-demo.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Fbids2025-tutorial&urlpath=lab%2Ftree%2Fbids2025-tutorial%2Fwildfires_daskgateway.ipynb&branch=main",
+      "type": "text/html",
       "title": "Open notebook on the EDC platform"
     }
   ]
