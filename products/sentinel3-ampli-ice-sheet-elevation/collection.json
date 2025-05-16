@@ -21,11 +21,6 @@
         "title": "Documentation"
       },
       {
-        "rel": "cite-as",
-        "href": "https://doi.org/10.5194/egusphere-2024-1323",
-        "title": "DOI"
-      },
-      {
         "rel": "child",
         "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation",
         "type": "application/json",
@@ -78,6 +73,7 @@
     "osc:type": "product",
     "created": "2025-04-04T00:00:00Z",
     "version": "1",
+    "sci:doi": "https://doi.org/10.57780/s3d-83ad619",
     "cf:parameter": [
       {
         "name": "ice_sheet_topography"
