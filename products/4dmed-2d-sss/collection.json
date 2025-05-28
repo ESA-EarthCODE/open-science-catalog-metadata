@@ -93,9 +93,8 @@
       "density"
     ],
     "osc:missions": [
-      "goce",
-      "sentinel-1",
-      "glonass"
+      "smos",
+      "smap"
     ],
     "updated": "2025-05-07T20:32:06.209108Z",
     "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields",

@@ -22,6 +22,12 @@
       "type": "application/json",
       "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
+        {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-alt/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
     {
       "rel": "parent",
       "href": "../catalog.json",

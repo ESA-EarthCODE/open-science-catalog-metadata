@@ -30,6 +30,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4dmed-sea-sss/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "child",
       "href": "../../products/rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall/collection.json",
       "type": "application/json",
       "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
