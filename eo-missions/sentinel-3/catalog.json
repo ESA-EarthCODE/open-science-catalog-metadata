@@ -30,6 +30,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4dmed-2d-alt-varnet-8/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
       "href": "../../products/binary-wet-snow-s14science-snow/collection.json",
       "type": "application/json",
       "title": "Binary wet snow extent products"
