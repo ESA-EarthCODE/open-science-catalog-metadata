@@ -48,7 +48,8 @@
       }
     ],
     "formats": [],
-    "license": "proprietary"
+    "license": "proprietary",
+    "osc:project": "deep-earth-system-data-lab"
   },
   "linkTemplates": [],
   "links": [
@@ -68,6 +69,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/burned-area-workflow/record.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
     },
     {
       "rel": "vcs",
