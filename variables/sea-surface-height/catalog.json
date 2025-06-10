@@ -41,6 +41,12 @@
       "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
     },
     {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-alt-varnet-20/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
