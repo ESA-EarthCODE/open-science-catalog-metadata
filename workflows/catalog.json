@@ -18,6 +18,12 @@
     },
     {
       "rel": "item",
+      "href": "./delta-nbr-workflow-example/record.json",
+      "type": "application/json",
+      "title": "DNBR Workflow Example"
+    },
+    {
+      "rel": "item",
       "href": "./worldcereal-workflow/record.json",
       "type": "application/json",
       "title": "ESA worldcereal global crop extent detector"
