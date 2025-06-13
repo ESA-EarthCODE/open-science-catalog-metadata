@@ -18,6 +18,12 @@
     },
     {
       "rel": "item",
+      "href": "./delta-nbr-workflow-example/record.json",
+      "type": "application/json",
+      "title": "Workshop Training Wildfires Workflow"
+    },
+    {
+      "rel": "item",
       "href": "./worldcereal-workflow/record.json",
       "type": "application/json",
       "title": "ESA worldcereal global crop extent detector"
