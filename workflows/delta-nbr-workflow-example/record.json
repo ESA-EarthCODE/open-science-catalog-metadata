@@ -49,7 +49,7 @@
     ],
     "formats": [],
     "license": "proprietary",
-    "osc:project": "deep-earth-system-data-lab"
+    "osc:project": "earthcode-tutorial-examples"
   },
   "linkTemplates": [],
   "links": [
@@ -72,9 +72,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "href": "../../projects/earthcode-tutorial-examples/collection.json",
       "type": "application/json",
-      "title": "Project: DeepESDL"
+      "title": "EarthCODE Tutorial Workshops"
     },
     {
       "rel": "vcs",

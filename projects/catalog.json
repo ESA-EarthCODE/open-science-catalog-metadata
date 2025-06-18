@@ -1074,6 +1074,12 @@
     },
     {
       "rel": "child",
+      "href": "./earthcode-tutorial-examples/collection.json",
+      "type": "application/json",
+      "title": "EarthCODE Tutorial Workshops"
+    },
+    {
+      "rel": "child",
       "href": "./lpf-wise/collection.json",
       "type": "application/json",
       "title": "(LPF) WISE"

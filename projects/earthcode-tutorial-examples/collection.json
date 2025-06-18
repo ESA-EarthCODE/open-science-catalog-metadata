@@ -1,0 +1,143 @@
+{
+  "type": "Collection",
+  "id": "earthcode-tutorial-examples",
+  "stac_version": "1.0.0",
+  "description": "EarthCODE is a strategic initiative by the European Space Agency (ESA) designed to empower researchers in Earth System Science with FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/earth-code/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/delta-nbr-workflow-example/record.json",
+      "type": "application/json",
+      "title": "Workshop Training Wildfires Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deepesdl/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Anca Anghelea",
+      "emails": [
+        {
+          "value": "anca.anghelea@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "Lampata",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "EOX IT SERVICES GMBH (AT)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:22.996110Z",
+  "title": "EarthCODE Tutorial Workshops",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2001-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Examples",
+    "Training",
+    "Earth System",
+    "Deep Learning",
+    "Remote Sensing"
+  ]
+}
