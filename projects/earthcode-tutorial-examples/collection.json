@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "earthcode-tutorial-examples",
   "stac_version": "1.0.0",
-  "description": "EarthCODE is a strategic initiative by the European Space Agency (ESA) designed to empower researchers in Earth System Science with FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.",
+  "description": "Curated, runnable tutorials for ESA EarthCODE workshops, combining open Earth-observation data with executable notebooks that showcase FAIR, Open-Science workflows across atmosphere, land, ocean and cryosphere themes. Each project is ready to launch in the EarthCODE cloud environment, so researchers can reproduce, adapt and cite analyses with minimal setup.",
   "links": [
     {
       "rel": "root",
