@@ -74,7 +74,7 @@
       "rel": "related",
       "href": "../../projects/earthcode-tutorial-examples/collection.json",
       "type": "application/json",
-      "title": "EarthCODE Tutorial Workshops"
+      "title": "Project: EarthCODE Tutorial Workshops"
     },
     {
       "rel": "vcs",
