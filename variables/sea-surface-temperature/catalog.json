@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "sea-surface-temperature",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Sea Surface temperature (SST) is a vital component of the climate system as it exerts a major influence on the exchanges of energy, momentum and gases between the ocean and atmosphere. SST largely controls the atmospheric response to the ocean at both weather and climate time scales.  Daily variations in SST can exceed 3 degrees Celsius and could alter the surface energy budget by more than 10 Wm-2 over the tropics and subtropics. Therefore, the SST and horizontal gradients in SST are also important for coupling with the atmosphere for sub-seasonal to seasonal prediction timescales. The spatial patterns of SST reveal the structure of the underlying ocean dynamics, such as, ocean fronts, eddies, coastal upwelling and exchanges between the coastal shelf and open ocean.",
   "links": [
     {
@@ -41,15 +41,27 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-temperature/catalog.json",
-      "type": "application/json"
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cmems-sst/collection.json",
+      "type": "application/json",
+      "title": "cmems-sst"
     },
     {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-temperature/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -65,7 +77,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:23:29.839131Z",
+  "updated": "2025-06-20T13:39:04.548448+00:00",
   "keywords": [],
   "title": "Sea Surface Temperature"
 }
