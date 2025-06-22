@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "variables",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience, climate and environmental variables",
   "links": [
     {
@@ -7167,6 +7167,12 @@
       "href": "./solid-earth-subsurface-temperature/catalog.json",
       "type": "application/json",
       "title": "Solid Earth Subsurface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Sea Surface Temperature"
     },
     {
       "rel": "self",

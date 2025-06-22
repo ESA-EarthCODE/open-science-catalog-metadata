@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "workflows",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience workflows for experiments",
   "links": [
     {
@@ -39,6 +39,12 @@
       "href": "./esa-cci-permafrost/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
+    },
+    {
+      "rel": "item",
+      "href": "./lps-demo-cmems-sst-workflow/record.json",
+      "type": "application/json",
+      "title": "LPS Demo CMEMS SST"
     },
     {
       "rel": "self",
