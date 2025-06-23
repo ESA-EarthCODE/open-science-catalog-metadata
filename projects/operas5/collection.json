@@ -1,0 +1,48 @@
+{
+  "id": "operas5",
+  "title": "operas5",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "test",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -16.028001237623766,
+          29.24610179281744,
+          35.61339727722771,
+          56.13383225198888
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-11T00:00:00Z",
+          "2025-06-18T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ]
+}
