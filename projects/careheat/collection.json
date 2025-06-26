@@ -1,0 +1,132 @@
+{
+    "type": "Collection",
+    "id": "careheat",
+    "stac_version": "1.0.0",
+    "description": "CAREHeat aims to improve current marine heat wave (MHW) detection and characterization methodology and to advance the understanding of the physical processes involved in MHW development.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://careheat.org/",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/careheat/",
+        "title": "EO4Society Link"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Projects"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/care-heat/collection.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+    ],
+    "osc:status": "ongoing",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:type": "project",
+    "contacts": [
+      {
+        "name": "Marie-Helene Rio",
+        "emails": [
+          {
+            "value": "marie-helene.rio@esa.int"
+          }
+        ],
+        "roles": [
+          "technical_officer"
+        ]
+      },
+      {
+        "name": "CNR-INSTITUTE OF MARINE SCIENCES-ISMAR (IT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "+ATLANTIC – Association for an Atla (PT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "CLS COLLECTE LOCALISATION SATELLITES (FR)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "IFREMER (FR)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "ITALIAN NATIONAL AGENCY FOR NEW TECHNOLOGIES, ENERGY AND SUSTAINABLE ECONOMIC DEVELOPMENT (ENEA) (IT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "Mercator Ocean International (FR)",
+        "roles": [
+          "consortium_member"
+        ]
+      }
+    ],
+    "updated": "2025-06-26T10:32:22.991110Z",
+    "title": "deteCtion and threAts of maRinE Heat waves (CAREHeat)",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -180,
+            -90,
+            180,
+            90
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2022-02-01T00:00:00Z",
+            "2026-31-01T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": []
+  }
+  
