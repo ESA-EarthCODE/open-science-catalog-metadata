@@ -24,13 +24,13 @@
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Sea-Ice and Snow Thickness datasets in a harmonised format"
+      "title": "SIN'XS sea-ice-thickness"
     },
     {
       "rel": "related",
       "href": "../../projects/sinxs-sea-ice-thickness/collection.json",
       "type": "application/json",
-      "title": "Sea-Ice and Snow Thickness datasets in a harmonised format"
+      "title": "SIN'XS sea-ice thickness"
     },
     {
       "rel": "related",

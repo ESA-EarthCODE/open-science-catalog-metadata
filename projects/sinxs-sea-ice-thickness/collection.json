@@ -27,10 +27,10 @@
         "title": "Projects"
       },
       {
-        "rel": "child",
+        "rel": "related",
         "href": "../../products/sinxs-sea-ice-thickness/collection.json",
         "type": "application/json",
-        "title": "SIN'XS sea-ice-thickness"
+        "title": "SIN'XS sea-ice thickness"
       },
       {
         "rel": "self",
