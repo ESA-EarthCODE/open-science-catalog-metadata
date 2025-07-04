@@ -24,9 +24,9 @@
       },
       {
         "rel": "child",
-        "href": "../../products/sinxs_sea_ice_thickness/collection.json",
+        "href": "../../catalog.json",
         "type": "application/json",
-        "title": "SIN'XS sea-ice thickness, snow thickness and freeboard fields"
+        "title": "Parent Collection"
       },
       {
         "rel": "self",
@@ -56,7 +56,7 @@
         ]
       }
     ],
-    "osc:type": "project",
+    "osc:type": "product",
     "contacts": [
       {
         "name": "Alessandro Di Bella",
