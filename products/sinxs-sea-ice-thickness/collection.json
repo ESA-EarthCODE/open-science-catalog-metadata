@@ -210,7 +210,7 @@
     "amsr-e","amsr2","cryosat-2","envisat","ers-1","ers-2","gcom-w1","icesat","icesat-2","sentinel-3","smos","smap"
   ],
   "updated": "2025-04-28T10:32:22.991110Z",
-  "title": "Sea-Ice Thickness Product Intercomparison Exercise (SIN'XS)",
+  "title": "SIN'XS sea-ice thickness",
   "extent": {
     "spatial": {
       "bbox": [
