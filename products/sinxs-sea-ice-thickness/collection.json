@@ -24,7 +24,7 @@
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "SIN'XS sea-ice-thickness"
+      "title": "SIN'XS sea-ice thickness"
     },
     {
       "rel": "related",
