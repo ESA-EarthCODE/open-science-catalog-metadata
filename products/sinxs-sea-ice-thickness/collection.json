@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "sin-xs-sea-ice-thickness",
+  "id": "sinxs-sea-ice-thickness",
   "stac_version": "1.0.0",
   "description": "The dataset comprises monthly averaged sea-ice and, to a lesser extent, snow thickness fields on a common grid (EASE2 and with a common grid spacing (12.5 or 25 km). Data stem from models, reanalyses, satellite observations (radar/lidar altimetry, passive microwave and thermal infrared), airborne and ULS measurements. A consistent set of netCDF metadata facilitates comparison. The dataset has been produced within the ESA-funded SIN'XS project",
   "links": [
@@ -42,7 +42,7 @@
       "rel": "related",
       "href": "../../variables/sea-ice-thickness/catalog.json",
       "type": "application/json",
-      "title": "Variable: Sea-Ice Thickness"
+      "title": "Variable: Sea-ice thickness"
     },
     {
       "rel": "related",
@@ -108,7 +108,7 @@
       "rel": "related",
       "href": "../../eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: Sentinel-3A"
+      "title": "EO Mission: Sentinel-3"
     },
     {
       "rel": "related",
@@ -124,7 +124,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-ice-thickness/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sinxs-sea-ice-thickness/collection.json",
       "type": "application/json"
     }
   ],
@@ -204,10 +204,10 @@
     }
   ],
   "osc:variables": [
-    "sea-ice-thickness", "snow-thickness","radar-freeboard", "snow-freeboard", "total-freeboard"
+    "sea-ice-thickness"
   ],
   "osc:missions": [
-    "amsr-e","amsr2","avhrr","bgep","cryosat-2","embird","envisat","ers-1","ers-2","gcom-w1","hycom","icesat","icesat-2","naosim","nesosim","nextsim-opa","oib","oras5","piomas","sentinel-3","smos","smap","topaz"
+    "amsr-e","amsr2","cryosat-2","envisat","ers-1","ers-2","gcom-w1","icesat","icesat-2","sentinel-3","smos","smap"
   ],
   "updated": "2025-04-28T10:32:22.991110Z",
   "title": "Sea-Ice Thickness Product Intercomparison Exercise (SIN'XS)",
@@ -232,6 +232,6 @@
     "Sea Ice",
     "Snow",
     "Cryospheric Indicators",
-    "Sea Ice"
+    "Essential Climate Variable"
   ]
 }
