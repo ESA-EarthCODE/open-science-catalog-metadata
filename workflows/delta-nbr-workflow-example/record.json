@@ -17,7 +17,7 @@
     "jupyter_kernel_info": {
       "name": "edc_pangeo_env",
       "python_version": 3.11,
-      "env_file": "https://github.com/sunnydean/LPS25_Pangeo_x_EarthCODE_Workshop/blob/main/environment.yml"
+      "env_file": "https://github.com/ESA-EarthCODE/foss4g-2025/blob/main/environment.yml"
     },
     "application:type": "jupyter-notebook",
     "application:container": true,
@@ -79,7 +79,7 @@
     {
       "rel": "vcs",
       "title": "Git source repository",
-      "href": "https://github.com/sunnydean/LPS25_Pangeo_x_EarthCODE_Workshop",
+      "href": "https://github.com/ESA-EarthCODE/foss4g-2025",
       "vcs:type": "git",
       "vcs:branch": "main"
     },
@@ -92,7 +92,7 @@
     {
       "rel": "application",
       "title": "Jupyter Notebook: Workshop Training Wildfires Workflow",
-      "href": "https://github.com/sunnydean/LPS25_Pangeo_x_EarthCODE_Workshop/blob/main/burnt-area-example/pangeo_on_EarthCODE.ipynb",
+      "href": "https://github.com/ESA-EarthCODE/foss4g-2025/blob/main/burnt-area-example/pangeo_on_EarthCODE.ipynb",
       "file:local_path": "pangeo_on_EarthCODE.ipynb",
       "type": "application/x-ipynb+json",
       "application:type": "jupyter-notebook",
@@ -101,7 +101,7 @@
       "jupyter:kernel": {
         "name": "edc_pangeo_env",
         "pythonVersion": 3.11,
-        "envFile": "https://github.com/sunnydean/LPS25_Pangeo_x_EarthCODE_Workshop/blob/main/environment.yml"
+        "envFile": "https://github.com/ESA-EarthCODE/foss4g-2025/blob/main/environment.yml"
       }
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "rel": "related",
-      "href": "https://workspace.edc-lps25.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fsunnydean%2FLPS25_Pangeo_x_EarthCODE_Workshop&urlpath=lab%2Ftree%2FLPS25_Pangeo_x_EarthCODE_Workshop%2Fburnt-area-example%2Fpangeo_on_EarthCODE.ipynb&branch=main",
+      "href": "https://workspace.edc-lps25.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/foss4g-2025&urlpath=lab%2Ftree%2Ffoss4g-2025%2Fburnt-area-example%2Fpangeo_on_EarthCODE.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the EDC platform"
     }
