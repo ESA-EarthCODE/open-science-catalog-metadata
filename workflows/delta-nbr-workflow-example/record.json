@@ -6,13 +6,12 @@
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
     "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
   ],
-  "title": "Workshop Training Wildfires Workflow",
   "geometry": null,
   "properties": {
     "created": "2025-05-05T10:50:07.411224+00:00",
     "updated": "2025-05-05T10:50:07.411224+00:00",
     "type": "workflow",
-    "title": "DNBR Workflow Example",
+    "title": "Workshop Training Wildfires Workflow",
     "description": "Demonstrate how to fetch satellite Sentinel-2 data to generate burn severity maps for the assessment of the areas affected by wildfires.",
     "jupyter_kernel_info": {
       "name": "Pange-Test-Notebook",
