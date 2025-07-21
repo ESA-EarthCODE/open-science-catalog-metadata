@@ -1128,12 +1128,6 @@
     },
     {
       "rel": "child",
-      "href": "./sea-surface-salinity-arctic-salinity/collection.json",
-      "type": "application/json",
-      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
-    },
-    {
-      "rel": "child",
       "href": "./sea-surface-salinity-europe-smos-med/collection.json",
       "type": "application/json",
       "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS"
@@ -1815,6 +1809,12 @@
       "href": "./esa-cci-permafrost/collection.json",
       "type": "application/json",
       "title": "esa-cci-permafrost"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     },
     {
       "rel": "self",

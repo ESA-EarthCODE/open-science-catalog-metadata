@@ -54,12 +54,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/sea-surface-salinity-arctic-salinity/collection.json",
-      "type": "application/json",
-      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
-    },
-    {
-      "rel": "child",
       "href": "../../products/sea-surface-salinity-europe-smos-med/collection.json",
       "type": "application/json",
       "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS"

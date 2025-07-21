@@ -6,7 +6,7 @@
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
     "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
   ],
-  "title": "DNBR Workflow Example",
+  "title": "Workshop Training Wildfires Workflow",
   "geometry": null,
   "properties": {
     "created": "2025-05-05T10:50:07.411224+00:00",

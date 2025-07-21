@@ -6,6 +6,7 @@
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
     "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
   ],
+  "title": "ESA CCI permafrost",
   "geometry": null,
   "properties": {
     "created": "2025-03-17T14:30:23.650003+00:00",
@@ -76,6 +77,13 @@
       "type": "application/json",
       "title": "ESA CCI permafrost"
     },
+     {
+      "rel": "vcs",
+      "title": "Git source repository",
+      "href": "https://github.com/deepesdl/cube-gen.git",
+      "vcs:type": "git",
+      "vcs:branch": "main"
+    },
     {
       "rel": "related",
       "href": "../../themes/cryosphere/catalog.json",
@@ -99,7 +107,7 @@
       "application:container": true,
       "application:language": "Python",
       "jupyter:kernel": {
-        "name": "deepesdl-xcube-1.8.3",
+        "name": "deepesdl-xcube-1.9.1",
         "pythonVersion": 3.11,
         "envFile": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
       }

@@ -1074,6 +1074,12 @@
     },
     {
       "rel": "child",
+      "href": "./earthcode-tutorial-examples/collection.json",
+      "type": "application/json",
+      "title": "EarthCODE Tutorial Workshops"
+    },
+    {
+      "rel": "child",
       "href": "./lpf-wise/collection.json",
       "type": "application/json",
       "title": "(LPF) WISE"
@@ -1095,6 +1101,18 @@
       "href": "./polaris/collection.json",
       "type": "application/json",
       "title": "POLARIS"
+    },
+    {
+      "rel": "child",
+      "href": "./sral-processing-landice/collection.json",
+      "type": "application/json",
+      "title": "SRAL Processing over Land Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./careheat/collection.json",
+      "type": "application/json",
+      "title": "deteCtion and threAts of maRinE Heat waves (CAREHeat)"
     },
     {
       "rel": "parent",

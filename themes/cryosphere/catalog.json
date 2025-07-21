@@ -353,12 +353,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/sea-surface-salinity-arctic-salinity/collection.json",
-      "type": "application/json",
-      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
-    },
-    {
-      "rel": "child",
       "href": "../../products/slope-instabilities-glacier-forefields-alpglacier/collection.json",
       "type": "application/json",
       "title": "Slope instabilities in glacier forefields_SwissAlps_S1/2"
@@ -560,6 +554,12 @@
       "href": "../../products/southern-ocean-sit-from-cryosat-2/collection.json",
       "type": "application/json",
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     },
     {
       "rel": "parent",
