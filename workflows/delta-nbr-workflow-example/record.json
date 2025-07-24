@@ -6,25 +6,26 @@
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
     "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
   ],
+  "title": "Workshop Training Wildfires Workflow",
   "geometry": null,
   "properties": {
     "created": "2025-05-05T10:50:07.411224+00:00",
     "updated": "2025-05-05T10:50:07.411224+00:00",
     "type": "workflow",
     "title": "Workshop Training Wildfires Workflow",
-    "description": "Demonstrate how to fetch satellite Sentinel-2 data to generate burn severity maps for the assessment of the areas affected by wildfires.",
+    "description": "This workflow demonstrates a simple example of how to fetch Sentinel-2 satellite data and generate burn severity maps for wildfire-affected areas using the Pangeo open-source software stack. It highlights the use of EarthCODE, FAIR principles, and reproducible experiments with practical examples on Euro Data Cube and Pangeo.",
     "jupyter_kernel_info": {
-      "name": "Pange-Test-Notebook",
+      "name": "edc_pangeo_env",
       "python_version": 3.11,
-      "env_file": "https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml"
+      "env_file": "https://github.com/ESA-EarthCODE/foss4g-2025/blob/main/environment.yml"
     },
     "application:type": "jupyter-notebook",
     "application:container": true,
     "application:language": "Python",
-    "keywords": ["Earth Science"],
+    "keywords": ["Earth Science", "Burnt Areas", "Sentinel-2", "DNBR"],
     "contacts": [
       {
-        "name": "Dean Summers",
+        "name": "Deyan Samardzhiev",
         "organization": "Lampata",
         "links": [
           {
@@ -48,7 +49,7 @@
     ],
     "formats": [],
     "license": "proprietary",
-    "osc:project": "deep-earth-system-data-lab"
+    "osc:project": "earthcode-tutorial-examples"
   },
   "linkTemplates": [],
   "links": [
@@ -71,14 +72,14 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "href": "../../projects/earthcode-tutorial-examples/collection.json",
       "type": "application/json",
-      "title": "Project: DeepESDL"
+      "title": "Project: EarthCODE Tutorial Workshops"
     },
     {
       "rel": "vcs",
       "title": "Git source repository",
-      "href": "https://github.com/ESA-EarthCODE/bids2025-tutorial.git",
+      "href": "https://github.com/ESA-EarthCODE/foss4g-2025",
       "vcs:type": "git",
       "vcs:branch": "main"
     },
@@ -90,17 +91,17 @@
     },
     {
       "rel": "application",
-      "title": "Jupyter Notebook: DNBR Workflow Example",
-      "href": "https://github.com/ESA-EarthCODE/bids2025-tutorial/wildfires_daskgateway.ipynb",
-      "file:local_path": "wildfires_daskgateway.ipynb",
+      "title": "Jupyter Notebook: Workshop Training Wildfires Workflow",
+      "href": "https://github.com/ESA-EarthCODE/foss4g-2025/blob/main/burnt-area-example/pangeo_on_EarthCODE.ipynb",
+      "file:local_path": "pangeo_on_EarthCODE.ipynb",
       "type": "application/x-ipynb+json",
       "application:type": "jupyter-notebook",
       "application:container": true,
       "application:language": "Python",
       "jupyter:kernel": {
-        "name": "Pangeo-Notebook",
+        "name": "edc_pangeo_env",
         "pythonVersion": 3.11,
-        "envFile": "https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml"
+        "envFile": "https://github.com/ESA-EarthCODE/foss4g-2025/blob/main/environment.yml"
       }
     },
     {
@@ -113,7 +114,7 @@
     },
     {
       "rel": "related",
-      "href": "https://workspace.edcv2-demo.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Fbids2025-tutorial&urlpath=lab%2Ftree%2Fbids2025-tutorial%2Fwildfires_daskgateway.ipynb&branch=main",
+      "href": "https://workspace.edc-lps25.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/foss4g-2025&urlpath=lab%2Ftree%2Ffoss4g-2025%2Fburnt-area-example%2Fpangeo_on_EarthCODE.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the EDC platform"
     }
