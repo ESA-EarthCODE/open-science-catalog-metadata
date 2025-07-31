@@ -10,26 +10,18 @@
   "geometry": null,
   "properties": {
     "created": "2025-03-17T14:30:23.650003+00:00",
-    "updated": "2025-03-17T14:30:23.650003+00:00",
+    "updated": "2025-04-25T14:00:00Z",
     "type": "workflow",
     "title": "ESA CCI permafrost",
     "description": "cube generation workflow for esa-cci-permafrost",
-    "jupyter_kernel_info": {
-      "name": "deepesdl-xcube-1.9.1",
-      "python_version": 3.11,
-      "env_file": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
-    },
     "application:type": "jupyter-notebook",
     "application:container": true,
     "application:language": "Python",
-    "keywords": [
-      "Earth Science"
-    ],
+    "keywords": ["Earth Science"],
     "contacts": [
       {
         "name": "Tejas Morbagal Harish",
         "organization": "Brockmann Consult GmbH",
-        "position": "",
         "links": [
           {
             "rel": "about",
@@ -37,10 +29,7 @@
             "href": "https://www.brockmann-consult.de/"
           }
         ],
-        "contactInstructions": "",
-        "roles": [
-          "principal investigator"
-        ]
+        "roles": ["principal investigator"]
       }
     ],
     "themes": [
@@ -72,16 +61,9 @@
       "title": "Workflows"
     },
     {
-      "rel": "child",
-      "href": "../../experiments/esa-cci-permafrost/record.json",
-      "type": "application/json",
-      "title": "ESA CCI permafrost"
-    },
-    {
-      "rel": "jupyter-notebook",
-      "type": "application/json",
-      "title": "Jupyter Notebook",
-      "href": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb"
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/esa-cci-permafrost/record.json",
+      "type": "application/json"
     },
     {
       "rel": "related",
@@ -90,9 +72,10 @@
       "title": "Project: DeepESDL"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/esa-cci-permafrost/record.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "type": "application/json",
+      "title": "ESA CCI permafrost"
     },
      {
       "rel": "vcs",
@@ -106,6 +89,13 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "vcs",
+      "title": "Git source repository",
+      "href": "https://github.com/deepesdl/cube-gen.git",
+      "vcs:type": "git",
+      "vcs:branch": "main"
     },
     {
       "rel": "application",

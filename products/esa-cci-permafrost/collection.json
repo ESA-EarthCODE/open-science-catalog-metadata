@@ -57,6 +57,12 @@
     },
     {
       "rel": "related",
+      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "type": "application/json",
+      "title": "Experiment: ESA CCI permafrost"
+    },
+    {
+      "rel": "related",
       "href": "../../projects/deep-earth-system-data-lab/collection.json",
       "type": "application/json",
       "title": "Project: DeepESDL"
