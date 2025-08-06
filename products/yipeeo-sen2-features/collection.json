@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "id": "yipeeo-sen2-features",
+  "stac_version": "1.1.0",
+  "description": "\nThe Sentinel-2 L2A collection is used to compute a set of features based on the provided bands as well as various vegetation indices. The Sentinel-2 L2A data cube is dynamically created by utilising the STAC API. The datacube is pre-filter with scenes of a cloud cover less than 80%. The following features are extracted per field and timestamp:\n\u2022 Band Medians and Standard Deviations: B02, B03, B04, B05, B06, B07, B08, B8A, B11, B12\n\u2022 Vegetation indices based on median bands:\no NDVI\no EVI\no NDWI\no NMDI\nAn outlier removal was added on a field scale level utilising the SCL band and outlier removal based on 2 x inter quartile range (IQR). Finally, all the data is stored in NetCDF files for further use in the workflow. The results can also be converted to zarr files if this is required for publishing the datasets. \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/yipeeo/collection.json",
+      "type": "application/json",
+      "title": "Project: YIPEEO: Yield Prediction and Estimation from Earth Observation"
+    },
+    {
+      "rel": "related",
+      "href": "/Users/dean/Documents/various_repos/lps-25/lpscopy/LPS25_Pangeo_x_EarthCODE_Workshop/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "/Users/dean/Documents/various_repos/lps-25/lpscopy/LPS25_Pangeo_x_EarthCODE_Workshop/open-science-catalog-metadata/eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "/Users/dean/Documents/various_repos/lps-25/lpscopy/LPS25_Pangeo_x_EarthCODE_Workshop/open-science-catalog-metadata/variables/crop-yield-forecast/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Crop Yield Forecast"
+    },
+    {
+      "rel": "via",
+      "href": "https://objectstore.eodc.eu:2222/68e13833a1624f43ba2cac01376a18af:ASP_ZARR/S2_out.zarr",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://yipeeo.czechglobe.cz/documents/deliverables/D4.2_ExperimentalDatasetDescription.pdf",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "yipeeo",
+  "osc:status": "completed",
+  "osc:region": "Europe",
+  "osc:type": "product",
+  "created": "2025-08-06T17:15:20Z",
+  "updated": "2025-08-06T17:15:20Z",
+  "cf:parameter": [
+    {
+      "name": "crop-yield-forecast"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "crop-yield-forecast"
+  ],
+  "title": "Yield Data Sentinel-2 Features",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.844270319251073,
+          49.040729923617775,
+          31.01967739451807,
+          52.869947524440924
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Crops",
+    "Field level",
+    "Yield Data"
+  ]
+}
