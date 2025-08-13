@@ -438,6 +438,12 @@
     },
     {
       "rel": "child",
+      "href": "./grounded-eo/collection.json",
+      "type": "application/json",
+      "title": "Ground Reference Observations Underlying Novel Decametric Vegetation Data Products from Earth Observation - GROUNDED EO"
+    },
+    {
+      "rel": "child",
       "href": "./experimental-joint-inversion/collection.json",
       "type": "application/json",
       "title": "XORN"
