@@ -58,7 +58,7 @@
       },
       {
         "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sentinel3-ampli-ice-sheet-elevation/collection.json",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/grounded-eo-database/collection.json",
         "type": "application/json"
       }
     ],
@@ -102,10 +102,10 @@
       "spatial": {
         "bbox": [
           [
-            -180.0,
-            -90.0,
-            180.0,
-            90.0
+            -156.648849,
+            -43.095487,
+            153.08807,
+            71.30672
           ]
         ]
       },
@@ -122,6 +122,8 @@
     "keywords": [
         "Agriculture",
         "Crops and Yields",
-        "Ecosystems/Vegetation"
+        "Ecosystems/Vegetation",
+        "Forestry",
+        "Sentinel-2"
     ]
   }

@@ -39,7 +39,7 @@
       },
       {
         "rel": "related",
-        "href": "../../themes/cryosphere/catalog.json",
+        "href": "../../themes/land/catalog.json",
         "type": "application/json",
         "title": "Theme: Land"
       }
@@ -73,6 +73,19 @@
           "technical_officer"
         ]
       },
+
+      {
+        "name": "Luke Brown",
+        "emails": [
+          {
+            "value": "L.A.Brown4@salford.ac.uk"
+          }
+        ],
+        "roles": [
+          "consortium_member"
+        ]
+      },
+
       {
         "name": "University of Salford (GB)",
         "roles": [
@@ -86,23 +99,29 @@
       "spatial": {
         "bbox": [
           [
-            -180,
-            -90,
-            180,
-            90
+            -156.648849,
+            -43.095487,
+            153.08807,
+            71.30672
           ]
         ]
       },
       "temporal": {
         "interval": [
           [
-            "2024-01-01T00:00:00Z",
-            "2025-05-28T23:59:59Z"
+            "2023-01-01T00:00:00Z",
+            "2025-07-01T23:59:59Z"
           ]
         ]
       }
     },
     "license": "CC-BY-4.0",
-    "keywords": []
+    "keywords": [
+        "Agriculture",
+        "Crops and Yields",
+        "Ecosystems/Vegetation",
+        "Forestry",
+        "Sentinel-2"
+    ]
   }
   
