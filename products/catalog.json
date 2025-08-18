@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "products",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
   "links": [
     {
@@ -1815,6 +1815,12 @@
       "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
       "type": "application/json",
       "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems-sst/collection.json",
+      "type": "application/json",
+      "title": "cmems-sst"
     },
     {
       "rel": "self",
