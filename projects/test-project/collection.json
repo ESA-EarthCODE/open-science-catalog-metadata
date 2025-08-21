@@ -2,5 +2,86 @@
   "id": "test-project",
   "title": "Test project",
   "type": "Collection",
-  "osc:type": "project"
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "this is test project to check editor functionalities. ",
+  "license": "various open source",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.319693094629173,
+          -36.497811329000825,
+          59.38618925831198,
+          36.00323510570705
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-07-01T00:00:00Z",
+          "2026-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere Ionosphere"
+    },
+    {
+      "href": "../../themes/solid-earth/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "href": "https://digital.csic.es/handle/10261/355042",
+      "rel": "via",
+      "title": "Website",
+      "type": "text/html"
+    },
+    {
+      "href": "../../workflows/esa-cci-permafrost/record.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Workflow: ESA CCI permafrost"
+    }
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Anca Anghelea",
+      "roles": []
+    },
+    {
+      "name": "Brockmann Consult",
+      "roles": []
+    }
+  ],
+  "osc:workflows": [
+    "esa-cci-permafrost"
+  ]
 }
