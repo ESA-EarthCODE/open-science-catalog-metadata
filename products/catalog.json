@@ -1820,6 +1820,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./testing-product/collection.json",
+      "type": "application/json",
+      "title": "testing-product"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
