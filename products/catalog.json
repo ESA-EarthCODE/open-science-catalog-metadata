@@ -450,6 +450,12 @@
     },
     {
       "rel": "child",
+      "href": "./grounded-eo-database/collection.json",
+      "type": "application/json",
+      "title": "The GROUNDED EO database: Extensive fiducial reference measurements of vegetation biophysical variables"
+    },
+    {
+      "rel": "child",
       "href": "./hdo-total-column-tropomi-clear-sky-wift/collection.json",
       "type": "application/json",
       "title": "Clear-sky HDO/H2O total column_TROPOMI"
