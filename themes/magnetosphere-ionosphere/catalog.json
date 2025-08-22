@@ -151,6 +151,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/test-project/collection.json",
+      "type": "application/json",
+      "title": "Test project"
     }
   ],
   "updated": "2024-08-27T17:27:42.201831Z",
