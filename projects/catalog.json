@@ -1130,6 +1130,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./test45project/collection.json",
+      "type": "application/json",
+      "title": "test45project"
     }
   ],
   "updated": "2024-09-12T20:32:23.037110Z",
