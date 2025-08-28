@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "cdse_federation_-_variability_map_experiment",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/processes/u:6391851f-9042-4108-8b2a-3dd2e8a9dd0b/variability_map"
+    },
+    {
+      "rel": "related",
+      "href": "https://editor.openeo.org/?wizard=UDP&wizard~process=variability_map&wizard~processUrl=https://openeo.dataspace.copernicus.eu/openeo/1.1/processes/u:6391851f-9042-4108-8b2a-3dd2e8a9dd0b/variability_map&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    }
+  ],
+  "properties": {
+    "title": "CDSE Federation - Variability Map Experiment - Workflow",
+    "description": "Workflow of CDSE Federation - Variability Map Experiment",
+    "created": "2025-08-28T14:40:40.504Z",
+    "updated": "2025-08-28T14:40:40.504Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "worldcereal",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": "",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  }
+}
