@@ -114,7 +114,7 @@
     },
     {
       "rel": "related",
-      "href": "https://workspace.edc-lps25.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/foss4g-2025&urlpath=lab%2Ftree%2Ffoss4g-2025%2Fburnt-area-example%2Fpangeo_on_EarthCODE.ipynb&branch=main",
+      "href": "https://workspace.edcv2-demo.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/foss4g-2025&urlpath=lab%2Ftree%2Ffoss4g-2025%2Fburnt-area-example%2Fpangeo_on_EarthCODE.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the EDC platform"
     }
