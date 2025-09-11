@@ -9,49 +9,27 @@
   "description": "This dataset contains in situ measurements of carbon fractions—Dissolved Inorganic Carbon (DIC), Dissolved Organic Carbon (DOC), and Total Organic Carbon (TOC). In 2023 and 2024, we collected data from the coastal waters of the northern Baltic Sea in the frame of seasonal field campaigns. These campaigns were timed to capture a variety of biogeochemical and environmental conditions. The collected data provide insights into the distribution of organic and inorganic carbon in coastal waters, supporting applications such as marine carbon budget assessments, climate change research, and coastal ecosystem studies, as well as the validation of satellite-derived products and the improvement of coastal biogeochemical models in optically complex waters like the Baltic Sea. Water samples were collected from surface waters from various locations, and all carbon fraction analyses were conducted in accordance with EVS-EN 1484, and a Vario TOC analyser (Elementar GmbH, Germany) was used. DOC and DIC were measured from 0.45 µm filtered samples.",
   "license": "various",
   "extent": {
-    "spatial": {
-      "bbox": [
-        [
-          23.8436865212921,
-          58.06577584251707,
-          24.732331254605967,
-          58.42020326137171
-        ],
-        [
-          23.392448598151553,
-          58.71654584826621,
-          23.822042854791057,
-          58.79973646186164
-        ],
-        [
-          24.488378414681243,
-          59.41889041677646,
-          24.881010828454798,
-          59.52239210620161
-        ],
-        [
-          25.733049268342466,
-          59.55192684934991,
-          25.90367283353993,
-          59.66315972235813
-        ],
-        [
-          23.242921031427855,
-          59.03723178585102,
-          23.42449847773732,
-          59.30301631513643
-        ]
-      ]
-    },
-    "temporal": {
-      "interval": [
-        [
-          "2023-04-11T00:00:00Z",
-          "2024-09-30T23:59:59Z"
-        ]
-      ]
-    }
+  "spatial": {
+    "bbox": [
+      [25.934220, 59.593780, 25.967870, 59.640660],   // Käsmu Bay
+      [23.459260, 58.757880, 23.606560, 58.763100],   // Matsalu Bay
+      [23.267470, 59.324990, 23.267470, 59.324990],   // near Osmussaare (point)
+      [23.338870, 59.103810, 23.338870, 59.103810],   // near Vormsi (point)
+      [24.418800, 58.251383, 24.460817, 58.339600],   // Pärnu Bay
+      [24.602920, 59.457110, 24.795210, 59.464970]    // Tallinn Bay
+    ]
   },
+  "temporal": {
+    "interval": [
+      ["2023-04-12T06:27:00Z", "2024-09-19T08:07:00Z"], // Käsmu Bay
+      ["2023-04-11T06:13:00Z", "2024-09-18T08:17:00Z"], // Matsalu Bay
+      ["2024-07-10T09:51:00Z", "2024-07-10T09:51:00Z"], // near Osmussaare
+      ["2024-07-10T14:35:00Z", "2024-07-10T14:35:00Z"], // near Vormsi
+      ["2024-04-17T06:03:00Z", "2024-09-30T10:30:00Z"], // Pärnu Bay
+      ["2023-04-10T10:15:00Z", "2024-09-17T10:03:00Z"]  // Tallinn Bay
+    ]
+  }
+},
   "links": [
     {
       "href": "../../themes/oceans/catalog.json",
