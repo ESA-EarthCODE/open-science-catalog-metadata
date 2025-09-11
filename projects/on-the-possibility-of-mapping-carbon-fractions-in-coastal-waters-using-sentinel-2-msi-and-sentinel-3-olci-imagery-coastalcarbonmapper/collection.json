@@ -1,7 +1,72 @@
 {
   "id": "on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper",
   "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)",
-  "osc:status": "completed",
+  "osc:status": "ongoing",
   "type": "Collection",
-  "osc:type": "project"
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "A thorough understanding of the global carbon pools and cycle is essential to understand and predict the effects of climate change. Coastal waters play a key role in the global carbon cycle but remain poorly understood due to their optical complexity, high spatial variability, and sensitivity to climate change. Satellite remote sensing data can provide high spatial and temporal resolution for carbon monitoring at local, regional, and global scales. However, existing sensors are not optimised for dynamic coastal zones. Sentinel-2 MSI (S2) offers high spatial resolution, while Sentinel-3 OLCI (S3) provides better spectral band configuration, temporal resolution, and radiometric sensitivity, though its spatial resolution may be insufficient for highly heterogeneous coastal waters. \nIn the ESA CoastalCarbonMapper project, we tested the applicability of both S3 and S2 for mapping carbon fractions—Total Organic Carbon (TOC), Dissolved Organic Carbon (DOC), Particulate Organic Carbon (POC), and Dissolved Inorganic Carbon (DIC)—in coastal waters. We aimed to develop and validate algorithms using in situ data and S2 and S3 imagery, addressing: (1) What are the optical proxies for different carbon fractions in coastal waters? (2) Which algorithms are most suitable for coastal carbon mapping? \nBio-optical and physical water parameters were measured directly in the field, and water samples were collected to analyse carbon fractions and optically active water constituents in the laboratory. Measurements at the test sites were taken four times during the ice-free season of 2023–2024. Based on the collected data, potential optical proxies were identified, and retrieval algorithms for carbon fractions were developed and validated. \nThe study represents a step forward in the remote sensing of coastal waters and Earth observation science. If adopted, the proposed carbon fraction products could allow for significant progress in different fields, from research to monitoring and policy making.",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          23.8436865212921,
+          58.06577584251707,
+          24.732331254605967,
+          58.42020326137171
+        ],
+        [
+          23.392448598151553,
+          58.71654584826621,
+          23.822042854791057,
+          58.79973646186164
+        ],
+        [
+          24.488378414681243,
+          59.41889041677646,
+          24.881010828454798,
+          59.52239210620161
+        ],
+        [
+          25.733049268342466,
+          59.55192684934991,
+          25.90367283353993,
+          59.66315972235813
+        ],
+        [
+          23.242921031427855,
+          59.03723178585102,
+          23.42449847773732,
+          59.30301631513643
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-04-11T00:00:00Z",
+          "2024-09-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ]
 }
