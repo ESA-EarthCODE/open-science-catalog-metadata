@@ -4,5 +4,21 @@
   "created": "2025-09-11T07:29:39Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "This dataset contains in situ measurements of carbon fractions—Dissolved Inorganic Carbon (DIC), Dissolved Organic Carbon (DOC), and Total Organic Carbon (TOC). In 2023 and 2024, we collected data from the coastal waters of the northern Baltic Sea in the frame of seasonal field campaigns. These campaigns were timed to capture a variety of biogeochemical and environmental conditions. The collected data provide insights into the distribution of organic and inorganic carbon in coastal waters, supporting applications such as marine carbon budget assessments, climate change research, and coastal ecosystem studies, as well as the validation of satellite-derived products and the improvement of coastal biogeochemical models in optically complex waters like the Baltic Sea. Water samples were collected from surface waters from various locations, and all carbon fraction analyses were conducted in accordance with EVS-EN 1484, and a Vario TOC analyser (Elementar GmbH, Germany) was used. DOC and DIC were measured from 0.45 µm filtered samples.",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [],
+  "osc:project": "",
+  "themes": []
 }
