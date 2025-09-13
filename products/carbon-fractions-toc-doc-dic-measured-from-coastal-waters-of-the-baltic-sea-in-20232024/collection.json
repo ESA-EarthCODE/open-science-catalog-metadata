@@ -4,5 +4,65 @@
   "created": "2025-09-13T12:09:20Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "This dataset contains in situ measurements of carbon fractions—Dissolved Inorganic Carbon (DIC), Dissolved Organic Carbon (DOC), and Total Organic Carbon (TOC). In 2023 and 2024, we collected data from the coastal waters of the northern Baltic Sea in the frame of seasonal field campaigns. These campaigns were timed to capture a variety of biogeochemical and environmental conditions. The collected data provide insights into the distribution of organic and inorganic carbon in coastal waters, supporting applications such as marine carbon budget assessments, climate change research, and coastal ecosystem studies, as well as the validation of satellite-derived products and the improvement of coastal biogeochemical models in optically complex waters like the Baltic Sea. Water samples were collected from surface waters from various locations, and all carbon fraction analyses were conducted in accordance with EVS-EN 1484, and a Vario TOC analyser (Elementar GmbH, Germany) was used. DOC and DIC were measured from 0.45 µm filtered samples.",
+  "license": "CC-BY-NC-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          23.900000000000002,
+          57.98000000000002,
+          24.67,
+          58.46000000000001
+        ],
+        [
+          23.29,
+          58.639999999999986,
+          24.01,
+          58.879999999999995
+        ],
+        [
+          24.459999999999997,
+          59.420000000000016,
+          24.85,
+          59.610000000000014
+        ],
+        [
+          25.42,
+          59.440000000000026,
+          26.3,
+          59.72
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-04-10T00:00:00Z",
+          "2024-09-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "osc:project": "",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ]
 }
