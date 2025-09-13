@@ -1832,6 +1832,12 @@
       "href": "./carbon-fractions-toc-doc-dic-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
       "type": "application/json",
       "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023–2024"
+    },
+    {
+      "rel": "child",
+      "href": "./spectral-reflectance-and-associated-water-quality-parameters-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
+      "type": "application/json",
+      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
