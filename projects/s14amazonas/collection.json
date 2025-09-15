@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "s14amazonas",
+  "stac_version": "1.1.0",
+  "description": "The Sentinel-1 for Science Amazonas project demonstrates the use of Sentinel-1 SAR data to monitor deforestation in the Amazon basin. It employs a space-time data cube design (StatCubes) and AI with a U-net architecture to detect forest loss, processing over 450 TB of data from 2015 to 2021. The project developed user-friendly tools to access and process data, created dynamic deforestation maps, and aims to integrate carbon mapping using NFI, ESA CCI, and GEDI products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://sen4ama.gisat.cz/https://eo4society.esa.int/projects/sentinel-1-for-science-amazonas/",
+      "title": "Project Website"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "osc:type": "project",
+  "updated": "2025-09-15T12:14:29Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Dr. Anca Anghelea",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "anca.anghelea@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Gisat",
+      "roles": [
+        "prime_contractor"
+      ],
+      "emails": [
+        {
+          "value": "info@gisat.cz"
+        }
+      ]
+    },
+    {
+      "name": "Agresta",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "info@agresta.org"
+        }
+      ]
+    },
+    {
+      "name": "Norwegian University of Life Sciences",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Finnish Geospatial Research Institute",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "title": "Sentinel-1 for Science Amazonas",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.0,
+          -20.0,
+          -44.0,
+          5.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "cc-by-4"
+}
