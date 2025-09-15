@@ -1,0 +1,45 @@
+{
+  "id": "test45project",
+  "title": "test45project",
+  "osc:status": "completed",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "fffff",
+  "license": "AdaCore-doc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20.976288494345035,
+          32.59613411572856,
+          -3.791668967052516,
+          44.9594890812169
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ]
+}
