@@ -38,6 +38,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cdse_federation_-_variability_map_experiment/record.json",
+      "type": "application/json",
+      "title": "CDSE Federation - Variability Map Experiment - Experiment"
     }
   ],
   "updated": "2025-01-29T18:00:00.000000Z",
