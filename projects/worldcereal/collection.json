@@ -48,6 +48,12 @@
       "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
       "type": "application/json",
       "title": "Product: WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cdse_federation_-_variability_map_experiment/collection.json",
+      "type": "application/json",
+      "title": "CDSE Federation - Variability Map Experiment - Product"
     }
   ],
   "stac_extensions": [
@@ -100,10 +106,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
