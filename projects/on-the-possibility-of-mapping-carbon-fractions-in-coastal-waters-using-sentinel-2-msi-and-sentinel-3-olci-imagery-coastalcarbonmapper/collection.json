@@ -47,6 +47,46 @@
   },
   "links": [
     {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+      },
+      {
+      "rel": "via",
+      "href": "https://mereinstituut.ut.ee/en/projects/CoastalCarbonMapper", 
+      "title": "Website"
+      },
+      {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/............../", ### I will check why my project is not listed, as I submitted input last year.
+      "title": "EO4Society Link"
+      },
+      {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/coastal-carbon-mapper-carbon-fractions-data/collection.json",
+      "type": "application/json",
+      "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023–2024"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+      "type": "application/json",
+      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+      },
+      {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/coastal-carbon-mapper/collection.json", # link to the description of the project
+      "type": "application/json"
+      },
+
+    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
