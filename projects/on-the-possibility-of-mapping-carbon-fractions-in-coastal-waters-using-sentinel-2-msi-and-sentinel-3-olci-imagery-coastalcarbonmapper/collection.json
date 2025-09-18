@@ -92,6 +92,12 @@
       "type": "application/json",
       "title": "Theme: Oceans"
     }
+    "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+    ],
+  
   ],
   "themes": [
     {
