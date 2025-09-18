@@ -651,12 +651,6 @@
       "type": "application/json"
     },
     {
-      "rel": "related",
-      "href": "../../projects/on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper/collection.json",
-      "type": "application/json",
-      "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
-    },
-    {
       "rel": "child",
       "href": "../../products/carbon-fractions-toc-doc-dic-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
       "type": "application/json",
