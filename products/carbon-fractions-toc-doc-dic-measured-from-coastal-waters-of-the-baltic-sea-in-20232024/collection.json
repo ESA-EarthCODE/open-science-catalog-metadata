@@ -101,7 +101,7 @@
       "title": "Theme: Oceans"
     }
   ],
-  "osc:project": "",
+  "osc:project": "coastal-carbon-mapper",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
