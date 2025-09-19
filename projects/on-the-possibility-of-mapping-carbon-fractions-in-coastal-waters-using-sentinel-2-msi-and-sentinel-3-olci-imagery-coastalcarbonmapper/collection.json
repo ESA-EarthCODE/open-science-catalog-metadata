@@ -1,8 +1,8 @@
 {
+  "type": "Collection",
   "id": "on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper",
   "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)",
   "osc:status": "ongoing",
-  "type": "Collection",
   "osc:type": "project",
   "stac_version": "1.0.0",
   "description": "A thorough understanding of the global carbon pools and cycle is essential to understand and predict the effects of climate change. Coastal waters play a key role in the global carbon cycle but remain poorly understood due to their optical complexity, high spatial variability, and sensitivity to climate change. Satellite remote sensing data can provide high spatial and temporal resolution for carbon monitoring at local, regional, and global scales. However, existing sensors are not optimised for dynamic coastal zones. Sentinel-2 MSI (S2) offers high spatial resolution, while Sentinel-3 OLCI (S3) provides better spectral band configuration, temporal resolution, and radiometric sensitivity, though its spatial resolution may be insufficient for highly heterogeneous coastal waters. \nIn the ESA CoastalCarbonMapper project, we tested the applicability of both S3 and S2 for mapping carbon fractions—Total Organic Carbon (TOC), Dissolved Organic Carbon (DOC), Particulate Organic Carbon (POC), and Dissolved Inorganic Carbon (DIC)—in coastal waters. We aimed to develop and validate algorithms using in situ data and S2 and S3 imagery, addressing: (1) What are the optical proxies for different carbon fractions in coastal waters? (2) Which algorithms are most suitable for coastal carbon mapping? \nBio-optical and physical water parameters were measured directly in the field, and water samples were collected to analyse carbon fractions and optically active water constituents in the laboratory. Measurements at the test sites were taken four times during the ice-free season of 2023–2024. Based on the collected data, potential optical proxies were identified, and retrieval algorithms for carbon fractions were developed and validated. \nThe study represents a step forward in the remote sensing of coastal waters and Earth observation science. If adopted, the proposed carbon fraction products could allow for significant progress in different fields, from research to monitoring and policy making.",
@@ -46,58 +46,56 @@
     }
   },
   "links": [
-    {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
       },
       {
-      "rel": "via",
-      "href": "https://mereinstituut.ut.ee/en/projects/CoastalCarbonMapper", 
-      "title": "Website"
+        "rel": "via",
+        "href": "https://mereinstituut.ut.ee/en/projects/CoastalCarbonMapper", 
+        "title": "Website"
       },
       {
-      "rel": "via",
-      "href": "https://eo4society.esa.int",
-      "title": "EO4Society Link"
+        "rel": "via",
+        "href": "https://eo4society.esa.int",
+        "title": "EO4Society Link"
       },
       {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Projects"
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Projects"
       },
       {
-      "rel": "child",
-      "href": "../../products/coastal-carbon-mapper-carbon-fractions-data/collection.json",
-      "type": "application/json",
-      "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023–2024"
+        "rel": "child",
+        "href": "../../products/carbon-fractions-toc-doc-dic-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
+        "type": "application/json",
+        "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023–2024"
       },
       {
-      "rel": "child",
-      "href": "../../products/spectral-reflectance-and-associated-water-quality-parameters-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
-      "type": "application/json",
-      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+        "rel": "child",
+        "href": "../../products/spectral-reflectance-and-associated-water-quality-parameters-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
+        "type": "application/json",
+        "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
       },
       {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper/collection.json", # link to the description of the project
-      "type": "application/json"
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper/collection.json", # link to the description of the project
+        "type": "application/json"
       },
-
-    {
-      "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
-      "type": "application/json",
-      "title": "Theme: Oceans"
-    }
-    "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
-    ],
-  
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      }
+  ],
+  "stac_extensions": [
+  "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+  "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+  "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "themes": [
     {
@@ -108,5 +106,26 @@
         }
       ]
     }
+  ],
+  "contacts": [
+      {
+        "name": "Marie-Helen Rio",
+        "emails": [
+          {
+            "value": "marie-helen.rio@esa.int"
+          }
+        ],
+        "roles": [
+          "technical_officer"
+        ]
+      },
+      {
+        "name": "Estonian Marine Institute",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+  ]
+  "keywords": [
   ]
 }
