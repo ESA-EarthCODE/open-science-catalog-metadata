@@ -1,13 +1,71 @@
 {
-  "id": "coastal-carbon-mapper-reflectance-water-quality-data",
-  "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024",
-  "created": "2025-09-13T12:14:52Z",
-  "osc:status": "completed",
   "type": "Collection",
+  "id": "spectral-reflectance-and-associated-water-quality-parameters-measured-from-coastal-waters-of-the-baltic-sea-in-20232024",
+  "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024",
+  "updated": "2025-09-13T12:14:52Z",
+  "osc:status": "completed",
   "osc:type": "product",
   "stac_version": "1.0.0",
   "description": "The dataset contains in situ measurements of remote sensing reflectance (Rrs, sr⁻¹) and associated water quality parameters like coloured dissolved organic matter absorption (aCDOM), total suspended matter (TSM), suspended particulate inorganic matter (SPIM), suspended particulate organic matter (SPOM), and chlorophyll-a (Chl-a). In 2023 and 2024, we collected data from the coastal waters of the northern Baltic Sea in the frame of seasonal field campaigns. These campaigns were timed to capture a variety of environmental and optical conditions. This dataset can be used, for example, for the development and validation of satellite-based retrieval algorithms, improving our understanding of the optical properties of coastal waters, and studying biogeochemical processes in these complex environments. Water reflectance was measured with two (downwelling spectral irradiance, Ed; upwelling spectral radiance, Lu) Ramses (TriOS GmbH) spectrophotometers. \"Glint-free\" reflectance measurements were carried out, lowering the plastic tube, which surrounds the regular TriOS Ramses Lu sensor, just below the water surface. These glint-free reflectance values are brought out in the dataset. Water samples collected simultaneously with the optical measurements were analysed in the laboratory. TSM, SPIM, and SPOM were determined using the gravimetric method, in which a water suspension is filtered through a pre-weighed microfibre filter to determine the mass of particles retained on the filter. aCDOM spectra were measured from filtered (0.2 µm) water spectrophotometrically, using Milli-Q water as a reference. Chl-a concentration was determined using a spectrophotometric method based on pigment extraction with acetone and absorbance measurement in the visible range. Each water sample was analysed in two parallel replicates to improve reliability and enable quality control.",
   "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.pangaea.de/10.1594/PANGAEA.984586", 
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.pangaea.de/10.1594/PANGAEA.984586", 
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper/collection.json",
+      "type": "application/json",
+      "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery - CoastalCarbonMapper" 
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/colored-dissolved-organic-matter/catalog.json",  
+      "type": "application/json",
+      "title": "Colored Dissolved Organic Matter"
+    },
+    {
+    "rel": "related",
+    "href": "../../eo-missions/in-situ-observations/catalog.json",
+    "type": "application/json",
+    "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/products/spectral-reflectance-and-associated-water-quality-parameters-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
+      "type": "application/json"
+    },
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
   "extent": {
     "spatial": {
       "bbox": [
@@ -46,15 +104,21 @@
       ]
     }
   },
-  "links": [
+  "osc:project": "on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper",
+  "osc:region": "Baltic Sea",
+  "created": "2025-09-10T00:00:00Z",
+  "sci:doi": "10.1594/PANGAEA.984586",
+  "osc:variables": [
+    "colored-dissolved-organic-matter"
+  ],
+  "osc:missions": [
+    "in-situ-observations"
+  ],
+  "cf:parameter": [
     {
-      "href": "../../themes/oceans/catalog.json",
-      "rel": "related",
-      "type": "application/json",
-      "title": "Theme: Oceans"
+      "name": "water_spectral_reflectance"
     }
   ],
-  "osc:project": "",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
