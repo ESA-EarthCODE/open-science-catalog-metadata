@@ -1,5 +1,5 @@
 {
-  "id": "coastal-carbon-mapper",
+  "id": "on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper",
   "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)",
   "osc:status": "ongoing",
   "type": "Collection",
@@ -59,7 +59,7 @@
       },
       {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/............../", ### I will check why my project is not listed, as I submitted input last year.
+      "href": "https://eo4society.esa.int",
       "title": "EO4Society Link"
       },
       {
@@ -76,13 +76,13 @@
       },
       {
       "rel": "child",
-      "href": "../../products/coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+      "href": "../../products/spectral-reflectance-and-associated-water-quality-parameters-measured-from-coastal-waters-of-the-baltic-sea-in-20232024/collection.json",
       "type": "application/json",
       "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
       },
       {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/coastal-carbon-mapper/collection.json", # link to the description of the project
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper/collection.json", # link to the description of the project
       "type": "application/json"
       },
 
