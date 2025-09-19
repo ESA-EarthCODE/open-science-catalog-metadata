@@ -1,6 +1,6 @@
 { 
   "type": "Collection",
-  "id": "coastal-carbon-mapper-carbon-fractions-data",
+  "id": "carbon-fractions-toc-doc-dic-measured-from-coastal-waters-of-the-baltic-sea-in-20232024",
   "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023–2024",
   "updated": "2025-09-19T12:09:20Z",
   "osc:status": "completed",
@@ -33,15 +33,15 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/coastal-carbon-mapper/collection.json",
+      "href": "../../projects/on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper/collection.json",
       "type": "application/json",
       "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery - CoastalCarbonMapper" 
     },
     {
       "rel": "related",
-      "href": "../../variables/coastal-carbon-mapper-reflectance-water-quality-data/catalog.json",  
+      "href": "../../variables/dissolved-organic-carbon/catalog.json",  
       "type": "application/json",
-      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+      "title": "Dissolved Organic Carbon"
     },
     {
     "rel": "related",
@@ -66,13 +66,13 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "coastal-carbon-mapper",
+  "osc:project": "on-the-possibility-of-mapping-carbon-fractions-in-coastal-waters-using-sentinel-2-msi-and-sentinel-3-olci-imagery-coastalcarbonmapper",
   "osc:region": "Baltic Sea",
   "created": "2025-09-10T00:00:00Z",
   "sci:doi": "10.1594/PANGAEA.984586",
   "cf:parameter": [
     {
-      "name": "carbon_fractions"
+      "name": "dissolved_organic_carbon"
     }
   ],
   "themes": [
@@ -86,7 +86,7 @@
     }
   ],
   "osc:variables": [
-    "coastal-carbon-mapper-reflectance-water-quality-data"
+    "dissolved-organic-carbon"
   ],
   "osc:missions": [
     "in-situ-observations"
