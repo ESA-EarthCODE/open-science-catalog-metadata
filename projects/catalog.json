@@ -1122,7 +1122,7 @@
     },
     {
       "rel": "child",
-      "href": "./coasta-carbon-mapper/collection.json",
+      "href": "./coastal-carbon-mapper/collection.json",
       "type": "application/json",
       "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
     },
