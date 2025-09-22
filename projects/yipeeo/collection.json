@@ -28,6 +28,12 @@
       },
       {
         "rel": "child",
+        "href": "../../products/yipeeo-features/collection.json",
+        "type": "application/json",
+        "title": "Yield Data Sentinel-1 & Sentinel-2 Features"
+      },
+      {
+        "rel": "child",
         "href": "../../products/yield-data-field-level/collection.json",
         "type": "application/json",
         "title": "Yield Data at Field Level"
