@@ -1830,7 +1830,7 @@
     },
     {
         "rel": "child",
-        "href": "../../products/coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+        "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
         "type": "application/json",
         "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
     },
