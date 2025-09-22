@@ -640,6 +640,18 @@
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
+        "rel": "child",
+        "href": "../../products/coastal-carbon-mapper-carbon-fractions-data/collection.json",
+        "type": "application/json",
+        "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024"
+    },
+    {
+        "rel": "child",
+        "href": "../../products/coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+        "type": "application/json",
+        "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
