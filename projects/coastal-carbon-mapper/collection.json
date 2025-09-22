@@ -1,0 +1,115 @@
+{
+    "type": "Collection",
+    "id": "coastal-carbon-mapper",
+    "stac_version": "1.0.0",
+    "description": "A thorough understanding of the global carbon pools and cycle is essential to understand and predict the effects of climate change. Coastal waters play a key role in the global carbon cycle but remain poorly understood due to their optical complexity, high spatial variability, and sensitivity to climate change. Satellite remote sensing data can provide high spatial and temporal resolution for carbon monitoring at local, regional, and global scales. However, existing sensors are not optimised for dynamic coastal zones. Sentinel-2 MSI (S2) offers high spatial resolution, while Sentinel-3 OLCI (S3) provides better spectral band configuration, temporal resolution, and radiometric sensitivity, though its spatial resolution may be insufficient for highly heterogeneous coastal waters. \nIn the ESA CoastalCarbonMapper project, we tested the applicability of both S3 and S2 for mapping carbon fractions—Total Organic Carbon (TOC), Dissolved Organic Carbon (DOC), Particulate Organic Carbon (POC), and Dissolved Inorganic Carbon (DIC)—in coastal waters. We aimed to develop and validate algorithms using in situ data and S2 and S3 imagery, addressing: (1) What are the optical proxies for different carbon fractions in coastal waters? (2) Which algorithms are most suitable for coastal carbon mapping? \nBio-optical and physical water parameters were measured directly in the field, and water samples were collected to analyse carbon fractions and optically active water constituents in the laboratory. Measurements at the test sites were taken four times during the ice-free season of 2023–2024. Based on the collected data, potential optical proxies were identified, and retrieval algorithms for carbon fractions were developed and validated. \nThe study represents a step forward in the remote sensing of coastal waters and Earth observation science. If adopted, the proposed carbon fraction products could allow for significant progress in different fields, from research to monitoring and policy making.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://mereinstituut.ut.ee/en/projects/CoastalCarbonMapper",
+        "title": "Website"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Projects"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/coastal-carbon-mapper/collection.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+    ],
+    "osc:status": "ongoing",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:type": "project",
+    "contacts": [
+      {
+        "name": "Marie-Helen Rio",
+        "emails": [
+          {
+            "value": "marie-helene.rio@esa.int"
+          }
+        ],
+        "roles": [
+          "technical_officer"
+        ]
+      },
+      {
+        "name": "Estonian Marine Institute (EE)",
+        "roles": [
+          "consortium_member"
+        ]
+      }  
+    ],
+    "updated": "2025-09-22T13:32:23.006110Z",
+    "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)",
+    "extent": {
+      "spatial": {
+        "bbox": [
+        [
+          23.900000000000002,
+          57.98000000000002,
+          24.67,
+          58.46000000000001
+        ],
+        [
+          23.29,
+          58.639999999999986,
+          24.01,
+          58.879999999999995
+        ],
+        [
+          24.459999999999997,
+          59.420000000000016,
+          24.85,
+          59.610000000000014
+        ],
+        [
+          25.42,
+          59.440000000000026,
+          26.3,
+          59.72
+        ]
+          ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2024-05-01T00:00:00Z",
+            "2025-10-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": []
+  }
+  
