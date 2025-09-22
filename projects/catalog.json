@@ -1121,6 +1121,12 @@
       "title": "deteCtion and threAts of maRinE Heat waves (CAREHeat)"
     },
     {
+      "rel": "child",
+      "href": "./coasta-carbon-mapper/collection.json",
+      "type": "application/json",
+      "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -1132,6 +1138,6 @@
       "type": "application/json"
     }
   ],
-  "updated": "2024-09-12T20:32:23.037110Z",
+  "updated": "2025-09-22T20:32:23.037110Z",
   "title": "Projects"
 }
