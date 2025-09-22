@@ -18,15 +18,9 @@
     },
     {
       "rel": "child",
-      "href": "./yipeeo-sen1-features/collection.json",
+      "href": "./yipeeo-features/collection.json",
       "type": "application/json",
-      "title": "Yield Data Sentinel-1 Features"
-    },
-    {
-      "rel": "child",
-      "href": "./yipeeo-sen2-features/collection.json",
-      "type": "application/json",
-      "title": "Yield Data Sentinel-2 Features"
+      "title": "Yield Data Sentinel-1 & Sentinel-2 Features"
     },
     {
       "rel": "child",
