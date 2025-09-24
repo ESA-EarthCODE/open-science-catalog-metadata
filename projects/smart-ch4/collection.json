@@ -11,10 +11,10 @@
     "spatial": {
       "bbox": [
         [
-          -537.0751001510691,
-          -80.23163868385652,
-          -1,
-          85.00409112762446
+          -0.004824627711857281,
+          -0.0007207330729670502,
+          -0.000008983152841195214,
+          0.000763604742715529
         ]
       ]
     },
@@ -40,6 +40,10 @@
     {
       "href": "https://smart-ch4.lsce.ipsl.fr/",
       "rel": "Project home page"
+    },
+    {
+      "href": "https://eo4society.esa.int/projects/smart-ch4/",
+      "rel": "EO4Society"
     }
   ],
   "themes": [
