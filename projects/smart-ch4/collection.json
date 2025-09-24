@@ -42,12 +42,26 @@
     },
     {
       "href": "https://smart-ch4.lsce.ipsl.fr/",
-      "rel": "via"
+      "rel": "via",
+      "Title": "Project home page"
     },
     {
       "href": "https://eo4society.esa.int/projects/smart-ch4/",
-      "rel": "via"
-    }
+      "rel": "via",
+      "Title": "EO4Society"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
   ],
   "themes": [
     {
