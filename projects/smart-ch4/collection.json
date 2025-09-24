@@ -41,9 +41,20 @@
       "title": "Theme: Atmosphere"
     },
     {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
       "href": "https://smart-ch4.lsce.ipsl.fr/",
       "rel": "via",
       "title": "Project home page"
+    },
+    {
+      "href": "https://eo4society.esa.int/projects/smart-ch4/",
+      "rel": "via",
+      "title": "EO4Society"
     },
     {
       "rel": "root",
