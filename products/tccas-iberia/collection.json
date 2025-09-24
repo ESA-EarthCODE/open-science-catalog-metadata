@@ -1,0 +1,148 @@
+{
+  "type": "Collection",
+  "id": "tccas-iberia",
+  "stac_version": "1.1.0",
+  "description": "The Terrestrial Carbon Community Assimilation System (TCCAS) is built around the coupled D&B terrestrial biosphere model. D&B has been newly developed based on the well-established DALEC and BETHY models and builds on the strengths of each component model. In particular, D&B combines the dynamic simulation of the carbon pools and canopy phenology of DALEC with the dynamic simulation of water pools, and the canopy model of photosynthesis and energy balance of BETHY. D&B includes a set of observation operators for optical as well as active and passive microwave observations. The focus of TCCAS is the combination of this diverse array of observational data streams with the D&B model into a consistent picture of the terrestrial carbon, water, and energy cycles. TCCAS applies a variational assimilation approach that adjusts a combination of initial pool sizes and process parameters to match the observational data streams. This dataset includes Satelite, Field and model forcing data sets for the Iberian region, including Majadas del Tietar.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/tccas/collection.json",
+      "type": "application/json",
+      "title": "Project: Terrestrial Carbon Community Assimilation System"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/in-situ-observations/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/variables/fraction-of-absorbed-photosynthetically-active-radiation-fapar/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Fraction Of Absorbed Photosynthetically Active Radiation (FAPAR)"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/variables/solar-induced-chlorophyll-fluorescence-sif/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Solar-induced chlorophyll fluorescence (SIF)"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/tccas-iberia",
+      "title": "PRR link"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/tccas-iberia?.language=en",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "tccas",
+  "osc:status": "completed",
+  "osc:region": "iberia",
+  "osc:type": "product",
+  "created": "2025-09-24T17:43:56Z",
+  "updated": "2025-09-24T17:43:56Z",
+  "cf:parameter": [
+    {
+      "name": "fraction-of-absorbed-photosynthetically-active-radiation-fapar"
+    },
+    {
+      "name": "solar-induced-chlorophyll-fluorescence-sif"
+    },
+    {
+      "name": "soil-moisture"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "in-situ-observations",
+    "modis",
+    "ascat"
+  ],
+  "osc:variables": [
+    "fraction-of-absorbed-photosynthetically-active-radiation-fapar",
+    "solar-induced-chlorophyll-fluorescence-sif",
+    "soil-moisture"
+  ],
+  "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -8.496,
+          38.501,
+          -2.505,
+          42.997
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "various",
+  "keywords": [
+    "carbon",
+    "water cycle",
+    "energy cycle",
+    "carbon cycle"
+  ]
+}
