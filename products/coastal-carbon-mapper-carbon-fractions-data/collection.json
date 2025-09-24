@@ -52,6 +52,12 @@
       },
       {
         "rel": "related",
+        "href": "../../variables/particulate-organic-carbon/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Particulate Organic Carbon"
+      },
+      {
+        "rel": "related",
         "href": "../../eo-missions/in-situ-observations/catalog.json",
         "type": "application/json",
         "title": "EO Mission: In-situ observations"
@@ -71,11 +77,6 @@
     "osc:region": "Baltic Sea",
     "osc:type": "product",
     "created": "2025-09-13T12:09:20Z",
-    "cf:parameter": [
-    {
-      "name": "carbon_fractions"
-    }
-  ],
     "themes": [
       {
         "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -88,7 +89,8 @@
     ],
     "osc:variables": [
       "dissolved-inorganic-carbon-dic",
-      "dissolved-organic-carbon"
+      "dissolved-organic-carbon",
+      "particulate-organic-carbon"
     ],
     "osc:missions": [
       "in-situ-observations"
@@ -98,6 +100,12 @@
     "extent": {
       "spatial": {
         "bbox": [
+        [
+          23.3,
+          57.98,
+          26.3,
+          59.72
+        ],
         [
           23.900000000000002,
           57.98000000000002,
@@ -117,10 +125,10 @@
           59.610000000000014
         ],
         [
-          25.42,
-          59.440000000000026,
-          26.3,
-          59.72
+          25.9,
+          59.57,
+          25.98,
+          59.65
         ]
       ]
       },
@@ -139,7 +147,8 @@
         "Coastal waters",
         "dissolved organic matter (DOC)",
         "dissolved inorganic matter (DIC)",
-        "total organic carbon (TOC)"
+        "total organic carbon (TOC)",
+        "particulate organic carbon"
     ]
 }
   

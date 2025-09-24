@@ -23,6 +23,12 @@
       "title": "Monthly Global Particulate Organic Carbon dataset (9 km, OC-CCI v4.2)"
     },
     {
+        "rel": "child",
+        "href": "../../products/coastal-carbon-mapper-carbon-fractions-data/collection.json",
+        "type": "application/json",
+        "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
