@@ -67,66 +67,37 @@
       "name": "The Inversion Lab",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "https://inversion-lab.com"
-        }
       ]
+
     },
     {
       "name": "Lund University",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "https://www.lunduniversity.lu.se"
-        }
       ]
     },
     {
       "name": "Finnish Meteorological Institute",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "https://www.fmi.fi/en"
-        }
       ]
     },
     {
       "name": "University of Reading",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "https://www.reading.ac.uk"
-        }
       ]
     },
     {
       "name": "University of Edinburgh",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "https://www.ed.ac.uk"
-        }
       ]
     },
     {
       "name": "Max Planck Institute for Biogeochemistry",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "https://www.bgc-jena.mpg.de/index.php/Main/HomePage"
-        }
       ]
     }
   ],
