@@ -67,7 +67,6 @@
       ]
     }
   ],
-  
   "contacts": [
     {
       "name": "Edward Malina",
@@ -149,7 +148,7 @@
       "name": "Empa (CH)",
       "roles": [
         "consortium_member"
-      ],
+      ]
     },
     {
       "name": "GHGSat (CA)",
@@ -162,7 +161,6 @@
       "roles": [
         "consortium_member"
       ]
-    }
     }
   ]
 }
