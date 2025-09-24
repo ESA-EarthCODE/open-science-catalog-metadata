@@ -39,6 +39,23 @@
       "rel": "related",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "href": "https://smart-ch4.lsce.ipsl.fr/",
+      "rel": "via",
+      "title": "Project home page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
     }
   ],
   "themes": [
