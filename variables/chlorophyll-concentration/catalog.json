@@ -76,6 +76,12 @@
         "type": "application/json",
         "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"  
     },
+    { 
+        "rel": "child",
+        "href": "../../products/coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+        "type": "application/json",
+        "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+    },
     {
       "rel": "parent",
       "href": "../catalog.json",

@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "yipeeo-features",
+  "stac_version": "1.1.0",
+  "description": "This dataset contains the processed Sentinel 1 and Sentinel 2 features used for yield prediction in the Yield Prediction and Estimation from Earth Observation (YIPEEO) project. Sentinel-2 L2A data is used to compute a set of features based on the provided bands as well as various vegetation indices. Sentinel-1 data for the years 2016-2023 was pre-processed by TUW RS on the Vienna Scientific Cluster using the software SNAP8 and software packages developed by the TUW RS group.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/yipeeo/collection.json",
+      "type": "application/json",
+      "title": "Project: YIPEEO: Yield Prediction and Estimation from Earth Observation"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/crop-yield-forecast/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Crop Yield Forecast"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/YIPEEO-CROPYIELDS",
+      "type": "application/json",
+      "title": "Crop Yield Prediction and Estimation Features from Sentinel1 and Sentinel2 data"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/YIPEEO-CROPYIELDS",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://yipeeo.czechglobe.cz/documents/deliverables/D4.2_ExperimentalDatasetDescription.pdf",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "yipeeo",
+  "osc:status": "completed",
+  "osc:region": "Europe",
+  "osc:type": "product",
+  "created": "2025-08-06T17:15:20Z",
+  "updated": "2025-08-06T17:15:20Z",
+  "cf:parameter": [
+    {
+      "name": "crop-yield-forecast"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "crop-yield-forecast"
+  ],
+  "title": "Yield Data Sentinel-1 & Sentinel-2 Features",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.844270319251073,
+          49.040729923617775,
+          31.01967739451807,
+          52.869947524440924
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Crops",
+    "Field level",
+    "Yield Data"
+  ]
+}

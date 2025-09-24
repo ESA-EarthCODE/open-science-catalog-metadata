@@ -7,6 +7,8 @@ on:
   pull_request:
     branches:
       - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   check:
@@ -24,7 +26,7 @@ jobs:
           path: metadata
       - name: Prepare
         run: |
-          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.11
+          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.13
       - name: Validate
         run: |
           npx open-science-catalog-validation ./metadata

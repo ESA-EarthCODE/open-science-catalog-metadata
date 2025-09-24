@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "deep-earth-system-data-lab",
+  "id": "earthcode-tutorial-examples",
   "stac_version": "1.0.0",
-  "description": "The Deep Earth System Data Lab (DeepESDL) delivers a service to the Earth Science community. The lab provides convenient access to relevant data sets, many of them generated in ESA's science projects, in an analysis-ready format. Moreover, DeepESDL comprises a powerful data science environment with a focus on machine-learning and artificial intelligence workflows. Access the DeepESDL in github: https://github.com/deepesdl",
+  "description": "Curated, runnable tutorials for ESA EarthCODE workshops, combining open Earth-observation data with executable notebooks that showcase FAIR, Open-Science workflows across atmosphere, land, ocean and cryosphere themes. Each project is ready to launch in the EarthCODE cloud environment, so researchers can reproduce, adapt and cite analyses with minimal setup.",
   "links": [
     {
       "rel": "root",
@@ -12,19 +12,13 @@
     },
     {
       "rel": "via",
-      "href": "http://www.earthsystemdatalab.net",
+      "href": "https://earthcode.esa.int/",
       "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/deepesdl/",
+      "href": "https://eo4society.esa.int/projects/earth-code/",
       "title": "EO4Society Link"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/hydrology-4D/collection.json",
-      "type": "application/json",
-      "title": "Hydrology-4D"
     },
     {
       "rel": "parent",
@@ -40,9 +34,9 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/esa-cci-permafrost/record.json",
+      "href": "../../workflows/delta-nbr-workflow-example/record.json",
       "type": "application/json",
-      "title": "Workflow: ESA CCI permafrost"
+      "title": "Workshop Training Wildfires Workflow"
     },
     {
       "rel": "related",
@@ -55,12 +49,6 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/esa-cci-permafrost/collection.json",
-      "type": "application/json",
-      "title": "esa-cci-permafrost"
     },
     {
       "rel": "related",
@@ -110,7 +98,7 @@
       ]
     },
     {
-      "name": "BROCKMANN CONSULT GMBH (DE)",
+      "name": "Lampata",
       "roles": [
         "consortium_member"
       ]
@@ -120,28 +108,10 @@
       "roles": [
         "consortium_member"
       ]
-    },
-    {
-      "name": "Leipzig University (DE)",
-      "roles": [
-        "consortium_member"
-      ]
-    },
-    {
-      "name": "EARTHWAVE Ltd (GB)",
-      "roles": [
-        "consortium_member"
-      ]
-    },
-    {
-      "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
-      "roles": [
-        "consortium_member"
-      ]
     }
   ],
   "updated": "2024-09-12T20:32:22.996110Z",
-  "title": "DeepESDL",
+  "title": "EarthCODE Tutorial Workshops",
   "extent": {
     "spatial": {
       "bbox": [
@@ -156,7 +126,7 @@
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
+          "2001-01-01T00:00:00Z",
           "2024-12-31T23:59:59Z"
         ]
       ]
@@ -164,10 +134,9 @@
   },
   "license": "proprietary",
   "keywords": [
+    "Examples",
+    "Training",
     "Earth System",
-    "Climate Change",
-    "Climate Extremes",
-    "Machine Learning",
     "Deep Learning",
     "Remote Sensing"
   ]

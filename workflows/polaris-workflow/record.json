@@ -34,12 +34,12 @@
     ],
     "themes": [
       {
-        "scheme": "https://github.com/stac-extensions/osc#theme",
         "concepts": [
           {
             "id": "oceans"
           }
-        ]
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
       }
     ],
     "formats": [
@@ -48,8 +48,7 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
-    "osc:project": "polaris",
-    "version": "2"
+    "osc:project": "polaris"
   },
   "linkTemplates": [],
   "links": [
@@ -66,22 +65,27 @@
       "title": "Workflows"
     },
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polaris-workflow/record.json",
+      "type": "application/json"
+    },
+    {
       "rel": "related",
       "href": "../../projects/polaris/collection.json",
       "type": "application/json",
       "title": "Project: POLARIS"
     },
     {
-      "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
-      "type": "application/json",
-      "title": "Theme: Oceans"
-    },
-    {
       "rel": "child",
       "href": "../../experiments/polaris-experiment/record.json",
       "type": "application/json",
       "title": "POLARIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     },
     {
       "rel": "application",
@@ -94,11 +98,6 @@
       "type": "application/json",
       "title": "Git source repository",
       "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polaris-workflow/record.json",
-      "type": "application/json"
     }
   ]
 }
