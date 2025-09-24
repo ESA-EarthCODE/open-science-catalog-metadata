@@ -49,18 +49,6 @@
       "href": "https://eo4society.esa.int/projects/smart-ch4/",
       "rel": "via",
       "Title": "EO4Society"
-    },
-    {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Projects"
-    },
+    }
   ],
 }
