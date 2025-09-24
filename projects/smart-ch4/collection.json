@@ -42,11 +42,11 @@
     },
     {
       "href": "https://smart-ch4.lsce.ipsl.fr/",
-      "rel": "Project home page"
+      "rel": "via"
     },
     {
       "href": "https://eo4society.esa.int/projects/smart-ch4/",
-      "rel": "EO4Society"
+      "rel": "via"
     }
   ],
   "themes": [
