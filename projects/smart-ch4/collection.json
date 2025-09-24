@@ -26,5 +26,41 @@
         ]
       ]
     }
-  }
+  },
+  "links": [
+    {
+      "href": "../../themes/atmosphere/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "href": "https://smart-ch4.lsce.ipsl.fr/",
+      "rel": "via",
+      "Title": "Project home page"
+    },
+    {
+      "href": "https://eo4society.esa.int/projects/smart-ch4/",
+      "rel": "via",
+      "Title": "EO4Society"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+  ],
 }
