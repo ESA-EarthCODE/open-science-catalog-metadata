@@ -1,0 +1,106 @@
+{
+    "type": "Collection",
+    "id": "4dmed-4dvarnet20-le-72",
+    "stac_version": "1.0.0",
+    "description": "This product provides the Finite-size Lyapunov Exponents derived from surface geostrophic velocities result from the application of the 4DVARNET algorithm (Fablet et al., 2021; resolution of the dynamical model used for the learning/training (eNATL60-BLB02) downgraded to 1/20°) to altimetry L3-data (https://doi.org/10.5281/zenodo.10908416) at a resolution of 1/72° over the Mediterranean Sea and for the period from April 2016 to July 2022. Algorithm used to compute Finite-Size Lyapunov Exponents was developed by I. Hernandez-Carrasco (Hernandez-Carrasco et al, 2011, Ocean modelling. https://doi.org/10.1016/j.ocemod.2010.12.006).",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://zenodo.org/records/11610889",
+        "title": "Access"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/4dmed-sea/collection.json",
+        "type": "application/json",
+        "title": "Project: 4DMED-SEA"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/finite-size-lyapunov-exponent/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Finite-size Lyapunov Exponent"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/4dmed-4dvarnet20-le-72/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "4dmed-sea",
+    "osc:status": "done",
+    "osc:region": "Mediterranean",
+    "osc:type": "product",
+    "created": "2024-09-12T00:00:00Z",
+    "cf:parameter": [
+      {
+        "name": "4dmed-4dvarnet20-le-72"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "finite-size-lyapunov-exponent"    
+    ],
+    "osc:missions": [ 
+      
+    ],
+    "updated": "2025-05-07T20:32:06.209108Z",
+    "title": "ESA 4DMED-Sea - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            [
+                -10.0, 
+                25.0, 
+                40.0, 
+                48.0
+            ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-01-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Finite-size Lyapunov Exponent"
+    ]
+  }
+  

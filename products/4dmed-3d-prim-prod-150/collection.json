@@ -1,0 +1,110 @@
+{
+    "type": "Collection",
+    "id": "4dmed-3d-prim-prod-150",
+    "stac_version": "1.0.0",
+    "description": "-",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://4dmed.artov.ismar.cnr.it/thredds/catalog/4dmed/catalog_PP.html",
+        "title": "Access"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/4dmed-sea/collection.json",
+        "type": "application/json",
+        "title": "Project: 4DMED-SEA"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-surface-temperature/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Surface Temperature"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/chlorophyll-concentration/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Chlorophyll Concentration"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/4dmed-3d-prim-prod-150/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "4dmed-sea",
+    "osc:status": "done",
+    "osc:region": "Mediterranean",
+    "osc:type": "product",
+    "created": "2024-09-12T00:00:00Z",
+    "cf:parameter": [
+      {
+        "name": "4dmed-3d-prim-prod-150"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "sea-surface-temperature",
+      "chlorophyll-concentration"      
+    ],
+    "osc:missions": [
+    ],
+    "updated": "2025-05-07T20:32:06.209108Z",
+    "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            [
+
+            ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-01-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": [
+      "Chlorophyll Concentration",
+      "Sea Surface Temperature"
+    ]
+  }
+  

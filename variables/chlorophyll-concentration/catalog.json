@@ -71,6 +71,12 @@
         "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"  
     },
     {
+        "rel": "child",
+        "href": "../../products/4dmed-3d-prim-prod-150/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"  
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
