@@ -18,37 +18,37 @@
     },
     {
       "rel": "child",
-      "href": "./4dmed-2d-alt-miost-le-24/collection.json",
+      "href": "../../4dmed-2d-alt-miost-le-24/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24°)"
     },
     {
       "rel": "child",
-      "href": "./4dmed-2d-alt-miost-le-72/collection.json",
+      "href": "../../4dmed-2d-alt-miost-le-72/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)"
     },
     {
       "rel": "child",
-      "href": "./4dmed-4dvarnet8-le-24/collection.json",
+      "href": "../../4dmed-4dvarnet8-le-24/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24°)"
     },
     {
       "rel": "child",
-      "href": "./4dmed-4dvarnet8-le-72/collection.json",
+      "href": "../../4dmed-4dvarnet8-le-72/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72°)"
     },
     {
       "rel": "child",
-      "href": "./4dmed-4dvarnet20-le-24/collection.json",
+      "href": "../../4dmed-4dvarnet20-le-24/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24°)"
     },
     {
       "rel": "child",
-      "href": "./4dmed-4dvarnet20-le-72/collection.json",
+      "href": "../../4dmed-4dvarnet20-le-72/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)"
     },

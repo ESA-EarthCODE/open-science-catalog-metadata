@@ -24,7 +24,7 @@
     },
     {
       "rel": "child",
-      "href": "./4dmed-2d-pft-kd/collection.json",
+      "href": "../../4dmed-2d-pft-kd/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
     },

@@ -57,7 +57,7 @@
       "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "osc:project": "4dmed-sea",
-    "osc:status": "done",
+    "osc:status": "completed",
     "osc:region": "Mediterranean",
     "osc:type": "product",
     "created": "2024-09-12T00:00:00Z",
@@ -104,7 +104,7 @@
         ]
       }
     },
-    "license": "proprietary",
+    "license": "CC-BY-4.0",
     "keywords": [
       "Sea Surface Salinity",
       "Sea Surface Temperature"
