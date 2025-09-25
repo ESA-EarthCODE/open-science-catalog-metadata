@@ -30,6 +30,24 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4dmed-2d-alt/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-alt-varnet-8/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-alt-varnet-20/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
       "href": "../../products/chaos-field-model-core-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "CHAOS field model_Core"
