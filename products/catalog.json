@@ -1434,6 +1434,24 @@
     },
     {
       "rel": "child",
+      "href": "./tccas-sodankylae/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Lapland and Sodankyla region"
+    },
+    {
+      "rel": "child",
+      "href": "./tccas-iberia/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)"
+    },
+    {
+      "rel": "child",
+      "href": "./tccas-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for the Netherlands region (including Reusel)"
+    },
+    {
+      "rel": "child",
       "href": "./tide-gauge-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "TG-HGT: Tide Gauge Heights_Baltics_Multimission"
