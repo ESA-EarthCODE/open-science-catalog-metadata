@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "id": "gpp-uos-global-gpp",
+  "stac_version": "1.0.0",
+  "description": "Global 8-day composite GPP data from the year 2020 onwards, produced by the University of Southampton on the basis of the Sen4GPP project funded by the European Space Agency (ESA), which was a consortium led by NOVELTIS in the framework of the ESA Contract No. 4000134598/21/I-NB. GPP products have been saved as int16 encoded files with an internal factor of 100 to optimise the required storage volume. The file structure within the GPP files contain a subdirectory with the datum of the first day of the corresponding eight-day period. The filename for each tile is constructed as follows: QISCARF_GPP_<datum>_<tile>_m<mfac>_b<bval>_pc<pcval>_qi<qival>_v<version>.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "waiting-for-dataset",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "waiting-for-dataset",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/gpp-uos-global-gross-primary-productivity/collection.json",
+      "type": "application/json",
+      "title": "Project: UoS Global GPP"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/gross-primary-productivity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Gross Primary Productivity (GPP)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gpp-sen4gpp-2020/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "university-of-southampton-global-gross-primary-productivity",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2025-09-16T16:00:00Z",
+  "version": "v1",
+  "sci:doi": "waiting-for-dataset",
+  "cf:parameter": [
+    {
+      "name": "gross_primary_productivity"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "gross-primary-productivity"
+  ],
+  "osc:missions": [
+    "sentinel-2",
+    "sentinel-3"
+  ],
+  "updated": "2025-09-16T16:00:00Z",
+  "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          90,
+          180,
+          -90,
+          -180
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-09-16T16:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "Gross Primary Productivity",
+    "C3/C4 Vegetation",
+    "Quantum Yield",
+    "Sentinel-3",
+    "Sentinel-2"
+  ]
+}
