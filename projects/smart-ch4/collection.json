@@ -1,0 +1,175 @@
+{
+  "id": "smart-ch4",
+  "title": "SMART-CH4",
+  "osc:status": "ongoing",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "Methane (CH4) is a potent greenhouse gas contributing significantly to climate change.  Due to its relatively short lifetime mitigation efforts on CH4 emissions could rapidly and efficiently pay-off to limit climate change. Targetted mitigation efforts should rely on a solid understanding of sources and sink of CH4 at all scales, from the global scale to local scales. Dedicated monitoring and modelling efforts are on-going to improve our understanding of the methane budget, including satellite platforms. The main satellite instruments contributing to the current understanding of the methane budget are TANSO on-board GOSAT, TROPOMI on-board Sentinel 5P, and IASI on-board METOP-B and METOP-C. Another category of satellite has recently been added to the existing constellation of CH4-monitoring platforms. These satellites (e.g., GHGSat, PRISMA, MethaneSat) provide very high-resolution data focusing on specific areas.\n\nThe ESA initiative SMART-CH4 (Satellite Monitoring of Atmospheric Methane) builds upon previous experience and projects in satellite-based methane quantification, aiming to enhance emission products derived from satellites. The key objectives and tasks of SMART-CH4 include:\n1. Enhancing TROPOMI retrievals and multi-sensor products, incorporating SWIR/TIR data from IASI and TROPOMI.\n2. Advancing fine-scale emission detection using mid-resolution mappers like TROPOMI and high-resolution imagers such as GHGSat, MethaneSAT, EnMAP, or PRISMA. These improvements will lower detection thresholds, enabling the identification of smaller emitters like landfills, wetlands, and agricultural sources.\n3. Utilizing improved products to deepen our understanding of regional methane budgets, focusing on three key target regions: (i) Bucharest, Romania, for its landfill super-emitters; (ii) the Arctic, with its scientific interest in peatland and wetland emissions, alongside technical detection challenges arising from Arctic night and albedo effects (from snow and cloud cover); and (iii) South America, concerning tropical wetlands, forest fires, and anthropogenic emissions from landfills and agriculture.\n4. Contributing to the attribution of recent trends in CH4 concentrations to specific sectors on a global scale.",
+  "license": "proprietary",
+  "keywords": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2026-01-01T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "links": [
+    {
+      "href": "../../themes/atmosphere/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "href": "https://smart-ch4.lsce.ipsl.fr/",
+      "rel": "via",
+      "title": "Project home page"
+    },
+    {
+      "href": "https://eo4society.esa.int/projects/smart-ch4/",
+      "rel": "via",
+      "title": "EO4Society"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Edward Malina",
+      "emails": [
+        {
+          "value": "edward.malina@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "CEA (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "SRON (NE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "VUA (NE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Science Partners (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "SPASCIA (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "NILU (NO)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "IUP-UB (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "FMI (FI)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "RAL (UK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Empa (CH)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "GHGSat (CA)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UPV (ES)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ]
+}
