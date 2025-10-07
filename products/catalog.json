@@ -1764,6 +1764,12 @@
     },
     {
       "rel": "child",
+      "href": "./gpp-uos-global-gpp/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton"
+    },
+    {
+      "rel": "child",
       "href": "./tidal-elevation-cryosat2-2019/collection.json",
       "type": "application/json",
       "title": "Tidal elevation along CryoSat-2 track during the year 2019"
