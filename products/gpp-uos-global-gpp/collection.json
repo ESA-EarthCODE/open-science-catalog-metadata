@@ -67,7 +67,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "university-of-southampton-global-gross-primary-productivity",
+  "osc:project": "sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
