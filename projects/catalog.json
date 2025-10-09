@@ -1148,6 +1148,12 @@
       "href": "./smart-ch4/collection.json",
       "type": "application/json",
       "title": "SMART-CH4"
+    },
+    {
+      "rel": "child",
+      "href": "./waposal-test/collection.json",
+      "type": "application/json",
+      "title": "WAPOSAL-test"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
