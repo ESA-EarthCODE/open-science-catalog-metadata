@@ -93,6 +93,28 @@
       "rel": "related",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "href": "https://waposal.tecnico.ulisboa.pt/",
+      "rel": "via",
+      "title": "Website"
+    },
+    {
+      "href": "https://eo4society.esa.int/projects/waposal/",
+      "rel": "via",
+      "title": "EO4Society"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
     }
   ],
   "themes": [
@@ -102,6 +124,25 @@
         {
           "id": "oceans"
         }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Roberto Sabia",
+      "emails": [
+        {
+          "value": "roberto.sabia@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "INSTITUTO SUPERIOR TECNICO (PT)",
+      "roles": [
+        "consortium_member"
       ]
     }
   ]
