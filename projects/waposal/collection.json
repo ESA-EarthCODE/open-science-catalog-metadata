@@ -11,6 +11,12 @@
     "spatial": {
       "bbox": [
         [
+          -155, 
+          -27, 
+          41.8, 
+          72
+        ],
+        [
           -32,
           36.499999999999986,
           -24,
@@ -151,6 +157,12 @@
     },
     {
       "name": "INSTITUTO SUPERIOR TECNICO (PT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "CENTEC-INSTITUTO SUPERIOR TECNICO",
       "roles": [
         "consortium_member"
       ]
