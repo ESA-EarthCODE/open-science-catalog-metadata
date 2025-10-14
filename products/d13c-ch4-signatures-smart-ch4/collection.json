@@ -52,9 +52,9 @@
       {
         "href": "../../projects/smart-ch4/collection.json",
         "rel": "related",
-        "title": "SMART-CH4",
+        "title": "Project: SMART-CH4",
         "type": "application/json"
-      },
+      },  
       {
         "href": "../../themes/atmosphere/catalog.json",
         "rel": "related",
@@ -68,9 +68,10 @@
         "type": "application/json"
       },
       {
-        "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/smart_CH4_d13c_ch4",
-        "rel": "via",
-        "title": "Access (to be updated)"
+        "href": "../../eo-missions/numerical-models/catalog.json",
+        "rel": "related",
+        "title": "Mission: Numerical Models",
+        "type": "application/json"
       }
     ],
   
