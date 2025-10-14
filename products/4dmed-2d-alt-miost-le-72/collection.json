@@ -73,9 +73,7 @@
     "osc:variables": [
       "finite-size-lyapunov-exponent"    
     ],
-    "osc:missions": [ 
-      
-    ],
+    "osc:missions": [],
     "updated": "2025-05-07T20:32:06.209108Z",
     "title": "ESA 4DMED-Sea - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)",
     "extent": {
