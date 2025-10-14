@@ -69,10 +69,10 @@
       "title": "Projects"
     },
     {
-      "rel": "child",
+      "rel": "related",
       "href": "../../products/d13c-ch4-signatures-smart-ch4/collection.json",
       "type": "application/json",
-      "title": "Global δ13C(CH₄) Source Signatures"
+      "title": "Product: Global δ13C(CH4) Source Signatures"
     },
     {
       "rel": "self",

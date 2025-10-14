@@ -70,8 +70,13 @@
       {
         "href": "../../eo-missions/numerical-models/catalog.json",
         "rel": "related",
-        "title": "Mission: Numerical Models",
+        "title": "EO Mission: Numerical models",
         "type": "application/json"
+      },
+      {
+        "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/smart_CH4_d13c_ch4",
+        "rel": "via",
+        "title": "Access"
       }
     ],
   
