@@ -80,15 +80,17 @@
       "sea-surface-temperature",
       "chlorophyll-concentration"      
     ],
-    "osc:missions": [
-    ],
+    "osc:missions": [],
     "updated": "2025-05-07T20:32:06.209108Z",
     "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m",
     "extent": {
       "spatial": {
         "bbox": [
             [
-
+                -10.0, 
+                25.0, 
+                40.0, 
+                48.0
             ]
         ]
       },
