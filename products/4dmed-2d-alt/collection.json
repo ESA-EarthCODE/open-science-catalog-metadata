@@ -1,0 +1,157 @@
+{
+    "type": "Collection",
+    "id": "4dmed-2d-alt",
+    "stac_version": "1.0.0",
+    "description": "The gridded Sea Level Anomalies (SLA) presented here result from the application of the Multiscale Inversion of Ocean Surface Topography (MIOST) algorithm, as described by Ubelmann et al., 2019.  The algorithm takes as input Level-3 altimeter data distributed by the Copernicus Marine Service (https://doi.org/10.48670/moi-00139). This product provides additional variables such as Absolute Dynamic Topography and geostrophic currents (both absolute values and anomalies) at a resolution of 1/24° over the Mediterranean Sea and for the period from 2016 to 2022. It is intended for delayed-time applications.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://zenodo.org/records/10648981",
+        "title": "Access"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/4dmed-sea/collection.json",
+        "type": "application/json",
+        "title": "Project: 4DMED-SEA"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-level/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Level"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-level-anomaly/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Level Anomaly"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-surface-height/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Surface Height"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/absolute-dynamic-topography/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Absolute Dynamic Topography"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/sentinel-6/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Sentinel-6A"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/jason-3/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Jason-3"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/sentinel-3/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Senitnel-3"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/cryosat-2/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Cryosat-2"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/4dmed-2d-alt/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "4dmed-sea",
+    "osc:status": "completed",
+    "osc:region": "Mediterranean",
+    "osc:type": "product",
+    "created": "2024-11-26T00:00:00Z",
+    "cf:parameter": [
+      {
+        "name": "4dmed-2d-alt"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "sea-surface-height",
+      "sea-level",
+      "sea-level-anomaly",
+      "absolute-dynamic-topography"
+    ],
+    "osc:missions": [
+      "sentinel-3",
+      "sentinel-6",
+      "jason-3",
+      "cryosat-2"
+    ],
+    "updated": "2025-05-28T11:32:06.209108Z",
+    "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            [
+                -10.0, 
+                25.0, 
+                40.0, 
+                48.0
+            ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "1992-10-13T00:00:00Z",
+            "2024-11-20T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Sea Surface Height",
+      "Sea Level Anomaly",
+      "Absolute Dynamic Topography",
+      "Geostrophic Currents"
+    ]
+  }
+  

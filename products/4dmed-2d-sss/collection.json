@@ -1,0 +1,127 @@
+{
+    "type": "Collection",
+    "id": "4dmed-2d-sss",
+    "stac_version": "1.0.0",
+    "description": "Daily Mediterranean gap-free Level-4 (L4) analyses of the Sea Surface Salinity (SSS) and Sea Surface Density (SSD) at 1/24° of resolution from 2016 to 2022, obtained through a multivariate optimal interpolation algorithm that combines sea surface salinity images from multiple satellite sources as NASA’s Soil Moisture Active Passive (SMAP) and ESA’s Soil Moisture Ocean Salinity (SMOS) satellites with in situ salinity measurements and satellite UHR SST information.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://zenodo.org/records/13753090",
+        "title": "Access"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/4dmed-sea/collection.json",
+        "type": "application/json",
+        "title": "Project: 4DMED-SEA"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/density/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Density"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-surface-salinity/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Surface Salinity"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/smos/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: SMOS"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/smap/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: SMAP"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/4dmed-2d-sss/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "4dmed-sea",
+    "osc:status": "completed",
+    "osc:region": "Mediterranean",
+    "osc:type": "product",
+    "created": "2024-09-12T00:00:00Z",
+    "cf:parameter": [
+      {
+        "name": "4dmed-2d-sss"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "sea-surface-salinity",
+      "density"
+    ],
+    "osc:missions": [
+      "smos",
+      "smap"
+    ],
+    "updated": "2025-05-07T20:32:06.209108Z",
+    "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            [
+                -10.0, 
+                25.0, 
+                40.0, 
+                48.0
+            ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-01-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Sea Surface Salinity",
+      "Sea Surface Density"
+    ]
+  }
+  

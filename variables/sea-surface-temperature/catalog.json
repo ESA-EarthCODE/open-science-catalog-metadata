@@ -29,6 +29,24 @@
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products (Sentinel-3, Sentinel-6, GCOM-W1, GPM)"
     },
     {
+        "rel": "child",
+        "href": "../../products/4dmed-s-t-geo-150/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"  
+    },
+    {
+        "rel": "child",
+        "href": "../../products/4dmed-s-t-geo-a-150/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"  
+    },
+    {
+        "rel": "child",
+        "href": "../../products/4dmed-3d-prim-prod-150/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"  
+    },
+    {
       "rel": "child",
       "href": "../../products/vardyn-ssh-allsat-L4/collection.json",
       "type": "application/json",

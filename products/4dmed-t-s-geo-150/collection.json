@@ -1,0 +1,113 @@
+{
+    "type": "Collection",
+    "id": "4dmed-2d-sss",
+    "stac_version": "1.0.0",
+    "description": "Daily Mediterranean 3D fields of temperature, salinity and geostrophic current at 1/24° of resolution, up to 150m-depth and from 2016 to mid 2022, obtained through a 3 steps approach: (1) Temperature and salinity 3D fields have been first estimated by a machine learning approach by using mediterranean reanalysis outputs (https://doi.org/10.25423/CMCC/MEDSEA_MULTIYEAR_PHY_006_004_E3R) together with satellite observations, (2) a combination of this first step with in situ observations through an Optimal interpolation to remove part of large scale biases, (3) the computation of geostrophic currents using the thermal wind equation. This work has been funded by the European Space Agency through the 4DMED-SEA project [ESA contract No. 4000141547/23/I-DT].",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://zenodo.org/records/13969340",
+        "title": "Access"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/4dmed-sea/collection.json",
+        "type": "application/json",
+        "title": "Project: 4DMED-SEA"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/density/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Surface Temperature"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/sea-surface-salinity/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Sea Surface Salinity"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/4dmed-2d-sss/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "4dmed-sea",
+    "osc:status": "completed",
+    "osc:region": "Mediterranean",
+    "osc:type": "product",
+    "created": "2024-09-12T00:00:00Z",
+    "cf:parameter": [
+      {
+        "name": "4dmed-t-s-geo-150"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "sea-surface-salinity",
+      "sea-surface-temperature"      
+    ],
+    "osc:missions": [
+    ],
+    "updated": "2025-05-07T20:32:06.209108Z",
+    "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg",
+    "extent": {
+      "spatial": {
+        "bbox": [
+            [
+                -10.0, 
+                25.0, 
+                40.0, 
+                48.0
+            ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-01-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Sea Surface Salinity",
+      "Sea Surface Temperature"
+    ]
+  }
+  
