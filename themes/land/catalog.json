@@ -379,6 +379,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cdse_federation_-_variability_map_experiment/collection.json",
+      "type": "application/json",
+      "title": "CDSE Federation - Variability Map Experiment - Product"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
