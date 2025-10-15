@@ -1,0 +1,92 @@
+{
+  "id": "cdse_federation_-_variability_map_experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-10-15T08:46:11.924Z",
+    "updated": "2025-10-15T08:46:11.924Z",
+    "type": "experiment",
+    "title": "CDSE Federation - Variability Map Experiment - Experiment",
+    "description": "Experiment of CDSE Federation - Variability Map Experiment",
+    "license": "",
+    "osc:project": "4d-greenland",
+    "osc:workflow": "cdse_federation_-_variability_map_experiment",
+    "osc:product": "cdse_federation_-_variability_map_experiment",
+    "version": "2",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "process_graph",
+      "href": "https://raw.githubusercontent.com/ESA-EarthCODE/open-science-catalog-metadata/refs/heads/main/experiments/cdse_federation_-_variability_map_experiment/process_graph.json",
+      "type": "application/json",
+      "title": "openEO Process Graph"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/cdse_federation_-_variability_map_experiment/record.json",
+      "type": "application/json",
+      "title": "Workflow: CDSE Federation - Variability Map Experiment - Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/cdse_federation_-_variability_map_experiment/collection.json",
+      "type": "application/json",
+      "title": "Product: CDSE Federation - Variability Map Experiment - Product"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-Greenland"
+    },
+    {
+      "rel": "related",
+      "href": "https://editor.openeo.org/?process=https://raw.githubusercontent.com/ESA-EarthCODE/open-science-catalog-metadata/refs/heads/main/experiments/cdse_federation_-_variability_map_experiment/process_graph.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}
