@@ -50,7 +50,8 @@
       }
     ],
     "formats": [],
-    "license": "MIT"
+    "license": "MIT",
+    "osc:project": "fairsendd"
   },
   "linkTemplates": [],
   "links": [
