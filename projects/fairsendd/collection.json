@@ -3,5 +3,47 @@
   "title": "FAIRSenDD",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "project"
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "FAIRSenDD: FAIR workflow for Sentinel-1-based Deforestation Detection leverages Recurrence Quantification Analysis to effectively detect forest change in a given time series for each location individually, allowing robust and scalable classifications. This project from the Max-Planck-Institute for Biogeochemistry is part of the ESA Science Result Long-Term Availability & Reusability Demonstrator Initiative. We developed the workflow following FAIR principles and published it as OGC Best Practice for Earth Observation Application Package, as well as an openEO process.\nThis is the first project evaluating the feasibility of using Julia in openEO.",
+  "license": "MIT",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "https://earthyscience.github.io/FAIRSenDD/",
+      "rel": "via"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    "fair",
+    "deforestation",
+    "sentinel-1",
+    "julia"
+  ]
 }
