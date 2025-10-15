@@ -1154,6 +1154,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fairsendd/collection.json",
+      "type": "application/json",
+      "title": "FAIRSenDD"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
