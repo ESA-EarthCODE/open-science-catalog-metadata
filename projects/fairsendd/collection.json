@@ -28,6 +28,12 @@
     {
       "href": "https://earthyscience.github.io/FAIRSenDD/",
       "rel": "via"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "themes": [
