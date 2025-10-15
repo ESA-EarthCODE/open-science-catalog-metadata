@@ -1,0 +1,89 @@
+{
+  "description": "Product of CDSE Federation - Variability Map Experiment",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "cdse_federation_-_variability_map_experiment",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-Greenland"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw3-1.openeo.v1.dataspace.copernicus.eu/openeo-data-prod-waw4-1/batch_jobs/j-2508200653444a35b75d4028f94dab60/openEO.tif?X-Proxy-Head-As-Get=true&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cd65a180a7b34a509c65c44334ef5f01%2F20251015%2Fwaw4-1%2Fs3%2Faws4_request&X-Amz-Date=20251015T084522Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlX2FybiI6ImFybjpvcGVuZW93czppYW06Ojpyb2xlL29wZW5lby1kYXRhLXByb2Qtd2F3NC0xLXdvcmtzcGFjZSIsImluaXRpYWxfaXNzdWVyIjoib3BlbmVvLnByb2Qud2F3My0xLm9wZW5lby1pbnQudjEuZGF0YXNwYWNlLmNvcGVybmljdXMuZXUiLCJodHRwczovL2F3cy5hbWF6b24uY29tL3RhZ3MiOnsicHJpbmNpcGFsX3RhZ3MiOnsiam9iX2lkIjpbImotMjUwODIwMDY1MzQ0NGEzNWI3NWQ0MDI4Zjk0ZGFiNjAiXSwidXNlcl9pZCI6WyI2MzkxODUxZi05MDQyLTQxMDgtOGIyYS0zZGQyZThhOWRkMGIiXX0sInRyYW5zaXRpdmVfdGFnX2tleXMiOlsidXNlcl9pZCIsImpvYl9pZCJdfSwiaXNzIjoic3RzLndhdzMtMS5vcGVuZW8udjEuZGF0YXNwYWNlLmNvcGVybmljdXMuZXUiLCJzdWIiOiJvcGVuZW8tZHJpdmVyIiwiZXhwIjoxNzYwNTIxNTIyLCJuYmYiOjE3NjA1MTc5MjIsImlhdCI6MTc2MDUxNzkyMiwianRpIjoiMWY1ODA1NGQtYjA3Yi00OGNlLTk4YjMtMWFiZDQzYTcxYjE2IiwiYWNjZXNzX2tleV9pZCI6ImNkNjVhMTgwYTdiMzRhNTA5YzY1YzQ0MzM0ZWY1ZjAxIn0.Srsd7zNCOCT6PHy-OZPYpaYvxRUvUl_DMXuSXk_HUyVTTOAfoUxww_1X32UMSnWYSf2oeiFSkouJvbtbQX3eEH-uejfd5fM2SZNHlzipPWnJGS6qP-tn4v6tCqi0UuhP6H77dMG1ALO5EJY6enBUqXqhbMSWfOSy3GIjQDUo2sNdtbz9CwBFWmMV96gHOmiGnyg4-PUyVHpy-M4Cr3kKeGMJfJ85qg156XbZDPQ0LiM_gyzQDKt1FB2JGsk4AUaNMBnBw4pC3kwTnFSxyE1g-7h4WzxxVMocxfTwyYiFFuIbv9yMOhdV6n5HWPQRRI4qyysEnH1_vpY2AAh8-ACZ8w&X-Amz-Signature=b72608cf450c69c708f1e6dfe7bd0b842652dfb6429ba4c60ff9dac31eac0de1",
+      "title": "Access openEO.tif"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "CDSE Federation - Variability Map Experiment - Product",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "4d-greenland",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}
