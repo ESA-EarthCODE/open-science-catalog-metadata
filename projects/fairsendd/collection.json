@@ -32,6 +32,12 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
       "href": "https://earthyscience.github.io/FAIRSenDD/",
       "rel": "via"
     },
@@ -47,6 +53,8 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
+  "osc:type": "project",
+  "osc:status": "completed",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -57,6 +65,47 @@
       ]
     }
   ],
+  "contacts": [
+    {
+      "name": "Zaynab Guerraou",
+      "emails": [
+        {
+          "value": "Zaynab.Guerraou@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:32:23.030110Z",
+  "title": "3D-EARTH",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-10-22T00:00:00Z",
+          "2020-12-11T23:59:59Z"
+        ]
+      ]
+    }
+  },
   "keywords": [
     "fair",
     "deforestation",
