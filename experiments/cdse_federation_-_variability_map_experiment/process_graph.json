@@ -1,0 +1,58 @@
+{
+  "process_graph": {
+    "saveresult1": {
+      "arguments": {
+        "data": {
+          "from_node": "variabilitymap1"
+        },
+        "format": "GTiff",
+        "options": {}
+      },
+      "process_id": "save_result",
+      "result": true
+    },
+    "variabilitymap1": {
+      "arguments": {
+        "date": "2025-05-01",
+        "spatial_extent": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      5.170043941798298,
+                      51.25050990858725
+                    ],
+                    [
+                      5.171035037521989,
+                      51.24865722468999
+                    ],
+                    [
+                      5.178521828188366,
+                      51.24674578027137
+                    ],
+                    [
+                      5.179084341977159,
+                      51.24984764553983
+                    ],
+                    [
+                      5.170043941798298,
+                      51.25050990858725
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {},
+              "type": "Feature"
+            }
+          ],
+          "type": "FeatureCollection"
+        }
+      },
+      "namespace": "https://openeo.dataspace.copernicus.eu/openeo/1.1/processes/u:6391851f-9042-4108-8b2a-3dd2e8a9dd0b/variability_map",
+      "process_id": "variability_map"
+    }
+  }
+}
