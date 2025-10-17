@@ -28,15 +28,20 @@
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata-staging/themes/land/catalog.json",
+      "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata-staging/themes/atmosphere/catalog.json",
+      "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arceme/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -53,12 +58,7 @@
       "concepts": [
         {
           "id": "land"
-        }
-      ]
-    },
-    {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
-      "concepts": [
+        },
         {
           "id": "atmosphere"
         }
@@ -133,4 +133,5 @@
     }
   },
   "license": "CC-BY-4.0"
+
 }
