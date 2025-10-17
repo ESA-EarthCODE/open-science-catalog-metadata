@@ -1,0 +1,234 @@
+{
+    "type": "Collection",
+    "id": "4dmed-sea",
+    "stac_version": "1.0.0",
+    "description": "4DMED-Sea adresses key multi-disciplinary scientific question, by designing tools to reduce the knowledge gaps that concern the relation between the Mediterranean Sea dynamics and the most relevant biogeochemical/biological/ecological processes, targeting also the bio-physical interactions at the mesoscale and sub-mesoscale.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "http://ricerca.ismar.cnr.it/4DMED/index.html",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int/projects/4dmed-sea/",
+        "title": "EO4Society Link"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/4dmed-2d-sss/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/4dmed-2d-alt/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+      },
+      {
+        "rel": "child",
+        "href": "../../products/4dmed-2d-alt-varnet-8/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"  
+      },
+      {
+        "rel": "child",
+        "href": "../../products/4dmed-2d-alt-varnet-20/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"  
+      },
+      {
+        "rel": "child",
+        "href": "../../products/4dmed-s-t-geo-150/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"  
+      },
+      {
+        "rel": "child",
+        "href": "../../products/4dmed-s-t-geo-a-150/collection.json",
+        "type": "application/json",
+        "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"  
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-3d-prim-prod-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-alt-miost-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24°)"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-alt-miost-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-4dvarnet8-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24°)"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-4dvarnet8-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72°)"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-4dvarnet20-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24°)"
+      },
+      {
+      "rel": "child",
+      "href": "../../products/4dmed-4dvarnet20-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Projects"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/4dmed-sea/collection.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/ocean/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Ocean"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+    ],
+    "osc:status": "completed",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "ocean"
+          }
+        ]
+      }
+    ],
+    "osc:type": "project",
+    "contacts": [
+      {
+        "name": "Marie-Helene Rio",
+        "emails": [
+          {
+            "value": "Marie-Helene.RIO@esa.int"
+          }
+        ],
+        "roles": [
+          "technical_officer"
+        ]
+      },
+      {
+        "name": "CNR : INSTITUTE FOR ELECTROMAGNETIC SENSING OF THE ENVIRONMENT (IREA) (IT)CIMA RESEARCH FOUNDATION (IT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "ESTELLUS SAS (FR)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "EURAC RESEARCH : ACCADEMIA EUROPEA (IT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "GHENT UNIVERSITY (BE)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "INSTITUT DE RECHERCHE POUR LE DEVELOPPEMENT (IRD) (FR)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "KU. KATH. KATHOLIEKE UNIVERSITEIT T (BE)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "OBSERVATORI DE L EBRE (ES)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "TECHNISCHE UNIVERSITAT WIEN (TU WIEN) (AT)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "VANDERSAT B.V. (NL)",
+        "roles": [
+          "consortium_member"
+        ]
+      }
+    ],
+    "updated": "2025-04-17T20:32:22.986110Z",
+    "title": "4DMED-SEA",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -6,
+            30,
+            37,
+            46
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2016-04-01T00:00:00Z",
+            "2022-07-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "proprietary",
+    "keywords": []
+  }
+  
