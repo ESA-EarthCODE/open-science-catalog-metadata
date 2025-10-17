@@ -60,12 +60,6 @@
     },
     {
       "rel": "child",
-      "href": "./arceme/collection.json",
-      "type": "application/json",
-      "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
-    },
-    {
-      "rel": "child",
       "href": "./baltic-sea-level-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Level_Multimission"
