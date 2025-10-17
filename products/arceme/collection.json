@@ -1,0 +1,136 @@
+{
+  "type": "Collection",
+  "id": "arceme",
+  "stac_version": "1.1.0",
+  "description": "Extreme weather and climate hazard can cause dramatic impacts on both natural ecosystems and human wellbeing and/or infrastructure and thereby harm society as a whole. Of particular concern are compound weather and climate extreme events, where the hazardous conditions of various extreme events combine and may have more detrimental effects than individual extremes. Increasing the adaptation and resilience to multi-hazards means reducing either vulnerability, exposure, or enhancing response capacities. The science basis needed for achieving this comes through a better understanding of the impact cascades triggered by compound climate events.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://rsc4earth.de/project/arceme",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arceme/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata-staging/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata-staging/themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "updated": "2025-07-30T17:22:55Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Anca Anghelea",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "anca.anghelea@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Fabian Gans",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "fgans@bgc-jena.mpg.de"
+        }
+      ]
+    },
+    {
+      "name": "Khalil Teber",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "khalil.teber@uni-leipzig.de"
+        }
+      ]
+    },
+    {
+      "name": "Melanie Weynants",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "mweynants@bgc-jena.mpg.de"
+        }
+      ]
+    }
+  ],
+  "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-10T00:00:00Z",
+          "2026-06-09T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
