@@ -61,7 +61,7 @@
         "rel": "related",
         "href": "../../eo-missions/sentinel-6/catalog.json",
         "type": "application/json",
-        "title": "EO Mission: Sentinel-6A"
+        "title": "EO Mission: Sentinel-6"
       },
       {
         "rel": "related",
@@ -73,13 +73,13 @@
         "rel": "related",
         "href": "../../eo-missions/sentinel-3/catalog.json",
         "type": "application/json",
-        "title": "EO Mission: Senitnel-3"
+        "title": "EO Mission: Sentinel-3"
       },
       {
         "rel": "related",
         "href": "../../eo-missions/cryosat-2/catalog.json",
         "type": "application/json",
-        "title": "EO Mission: Cryosat-2"
+        "title": "EO Mission: CryoSat-2"
       },
       {
         "rel": "self",

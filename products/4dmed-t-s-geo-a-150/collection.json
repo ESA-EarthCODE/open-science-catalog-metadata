@@ -85,7 +85,7 @@
     "osc:variables": [
       "sea-surface-salinity",
       "sea-surface-temperature",
-      "Chlorophyll-Concentration"      
+      "chlorophyll-concentration"      
     ],
     "osc:missions": [
     ],

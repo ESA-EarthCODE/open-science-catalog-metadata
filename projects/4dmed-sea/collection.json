@@ -46,13 +46,13 @@
       },
       {
         "rel": "child",
-        "href": "../../products/4dmed-s-t-geo-150/collection.json",
+        "href": "../../products/4dmed-t-s-geo-150/collection.json",
         "type": "application/json",
         "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"  
       },
       {
         "rel": "child",
-        "href": "../../products/4dmed-s-t-geo-a-150/collection.json",
+        "href": "../../products/4dmed-t-s-geo-a-150/collection.json",
         "type": "application/json",
         "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"  
       },
