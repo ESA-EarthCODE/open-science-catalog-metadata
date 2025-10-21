@@ -18,7 +18,7 @@
     },
     {
       "rel": "child",
-      "href": "../../products/4dmed-sea-sss/collection.json",
+      "href": "../../products/4dmed-2d-sss/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
     },

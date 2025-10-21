@@ -35,7 +35,7 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/density/catalog.json",
+        "href": "../../variables/sea-surface-temperature/catalog.json",
         "type": "application/json",
         "title": "Variable: Sea Surface Temperature"
       },

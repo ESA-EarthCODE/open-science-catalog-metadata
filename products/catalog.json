@@ -12,21 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "./4dmed-2d-sss/collection.json",
+      "href": "./4dmed-2d-alt/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
-    },
-    {
-      "rel": "child",
-      "href": "./4dmed-3d-prim-prod-150/collection.json",
-      "type": "application/json",
-      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
-    },
-    {
-      "rel": "child",
-      "href": "./4dmed-2d-pft-kd/collection.json",
-      "type": "application/json",
-      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
     },
     {
       "rel": "child",
@@ -39,6 +27,36 @@
       "href": "./4dmed-2d-alt-miost-le-72/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-varnet-8/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-varnet-20/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-sss/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-3d-prim-prod-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
     },
     {
       "rel": "child",
@@ -63,6 +81,18 @@
       "href": "./4dmed-4dvarnet20-le-72/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-t-s-geo-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"
+    },
+  {
+      "rel": "child",
+      "href": "./4dmed-t-s-geo-150-a/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"
     },
     {
       "rel": "child",

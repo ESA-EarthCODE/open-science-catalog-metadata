@@ -35,6 +35,12 @@
       },
       {
         "rel": "related",
+        "href": "../../eo-missions/sentinel-5p/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Sentinel-5p"
+      },
+      {
+        "rel": "related",
         "href": "../../variables/phytoplankton-primary-production/catalog.json",
         "type": "application/json",
         "title": "Variable: Phytoplankton Primary Production"
@@ -81,7 +87,7 @@
       "diffuse-attenuation-coefficient-dac"      
     ],
     "osc:missions": [ 
-      "Sentinel-5p"
+      "sentinel-5p"
     ],
     "updated": "2025-05-07T20:32:06.209108Z",
     "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)",
