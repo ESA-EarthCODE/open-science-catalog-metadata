@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "4dmed-2d-sss",
+    "id": "4dmed-t-s-geo-a-150",
     "stac_version": "1.0.0",
     "description": "Daily Mediterranean 3D fields of temperature, salinity and geostrophic current at 1/24° of resolution, up to 150m-depth and from 2016 to mid 2022, obtained through a 3 steps approach: (1) Temperature and salinity 3D fields have been first estimated by a machine learning approach by using mediterranean reanalysis outputs (https://doi.org/10.25423/CMCC/MEDSEA_MULTIYEAR_PHY_006_004_E3R) together with satellite observations, (2) a combination of this first step with in situ observations through an Optimal interpolation to remove part of large scale biases, (3) the computation of geostrophic currents using the thermal wind equation. This work has been funded by the European Space Agency through the 4DMED-SEA project [ESA contract No. 4000141547/23/I-DT].",
     "links": [
