@@ -48,6 +48,12 @@
     },
     {
       "rel": "child",
+      "href": "./4dmed-sea/collection.json",
+      "type": "application/json",
+      "title": "4DMED-SEA"
+    },
+    {
+      "rel": "child",
       "href": "./advancing-the-study-of-extreme-weather-events-with-data-deep-learning-methods-and-climate-analysis/collection.json",
       "type": "application/json",
       "title": "Advancing the Study of Extreme Weather Events with Data, Deep Learning Methods and Climate Analysis"
