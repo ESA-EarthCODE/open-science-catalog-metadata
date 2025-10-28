@@ -20,6 +20,14 @@
       "href": "waiting-for-dataset",
       "title": "Documentation"
     },
+
+    {
+      "rel": "child",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    },
+
     {
       "rel": "parent",
       "href": "../catalog.json",
