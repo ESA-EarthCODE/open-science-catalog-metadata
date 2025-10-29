@@ -53,18 +53,13 @@
       "title": "Variable: Wave Height"
     },
     {
-      "rel": "child",
-      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation",
-      "title": "PRR link"
-    },
-    {
       "rel": "via",
-      "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/waposal/waposal_data.zip",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://eoresults.esa.int/d/sentinel3-ampli-ice-sheet-elevation/2025/05/07/sentinel-3-ampli-user-handbook/S3_AMPLI_User_Handbook.pdf",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/waposal/WAPOSAL_product_handbook.pdf",
       "title": "Documentation"
     }
   ],
