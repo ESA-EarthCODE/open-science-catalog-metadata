@@ -23,6 +23,12 @@
       "title": "Variables"
     },
     {
+        "rel": "child",
+        "href": "../../products/waposal/collection.json",
+        "type": "application/json",
+        "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wave-period/catalog.json",
       "type": "application/json"
