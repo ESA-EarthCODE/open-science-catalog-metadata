@@ -24,31 +24,31 @@
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/themes/oceans/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
+      "href": ../../eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/cryosat-2/catalog.json",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CryoSat-2"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/variables/wave-period/catalog.json",
+      "href": "../../variables/wave-period/catalog.json",
       "type": "application/json",
       "title": "Variable: Wave Period"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/variables/wave-height/catalog.json",
+      "href": "../../variables/wave-height/catalog.json",
       "type": "application/json",
       "title": "Variable: Wave Height"
     },
@@ -61,6 +61,11 @@
       "rel": "via",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/waposal/WAPOSAL_product_handbook.pdf",
       "title": "Documentation"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/waposal-waves/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
