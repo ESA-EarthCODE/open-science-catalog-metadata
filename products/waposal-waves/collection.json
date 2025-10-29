@@ -1,0 +1,204 @@
+{
+  "type": "Collection",
+  "id": "waposal-waves",
+  "stac_version": "1.1.0",
+  "description": "Wave power density, zero-crossing wave period, and significant wave height product obtained along track based on Sentinel-3 A/B and Cryosat-2 altimeter data processed by SAMOSA+ retracker. The products cover the Atlantic coast of Europe, Madeira, the French Polynesian archipelagos, the Azores, the Canary Islands, the Mediterranean and Baltic Seas, and the coastal zone of French Guiana.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/waposal/collection.json",
+      "type": "application/json",
+      "title": "Project: WAPOSAL"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wave-period/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Period"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wave-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Height"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/waposal/waposal_data.zip",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/waposal/WAPOSAL_product_handbook.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/waposal-waves/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "waposal",
+  "osc:status": "completed",
+  "osc:region": "severeal",
+  "osc:type": "product",
+  "created": "2025-10-29T11:40:41Z",
+  "updated": "2025-10-29T11:40:41Z",
+  "sci:doi": "https://doi.org/10.57780/s3d-83ad619",
+  "cf:parameter": [
+    {
+      "name": "wave-period"
+    },
+    {
+      "name": "wave-height"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-3",
+    "cryosat-2"
+  ],
+  "osc:variables": [
+    "wave-period",
+    "wave-height"
+  ],
+  "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -155,
+          -27,
+          41.8,
+          72
+        ],
+        [
+          -32,
+          36.499999999999986,
+          -24,
+          40
+        ],
+        [
+          -10,
+          42.00000000000003,
+          -1,
+          45
+        ],
+        [
+          -10,
+          43,
+          -0.5,
+          49
+        ],
+        [
+          3,
+          53,
+          30.35,
+          72
+        ],
+        [
+          -11,
+          47.5,
+          10,
+          60.00000000000003
+        ],
+        [
+          -155,
+          -27,
+          -134,
+          -6.999999999999986
+        ],
+        [
+          -54,
+          4.1000000000000085,
+          -51.5,
+          6
+        ],
+        [
+          -19,
+          26,
+          -10,
+          31
+        ],
+        [
+          -6,
+          30.09999999999998,
+          41.79999999999999,
+          47.400000000000006
+        ],
+        [
+          -19,
+          27,
+          -5,
+          39
+        ],
+        [
+          -13.000000000000002,
+          34,
+          -5.5,
+          44.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "altimeter data",
+    "wave energy",
+    "wave power",
+    "wave frequency",
+    "wave"
+  ]
+}

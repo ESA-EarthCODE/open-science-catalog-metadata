@@ -24,43 +24,43 @@
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/themes/land/catalog.json",
+      "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/in-situ-observations/catalog.json",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
       "type": "application/json",
       "title": "EO Mission: In-situ observations"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/modis/catalog.json",
+      "href": "../../eo-missions/modis/catalog.json",
       "type": "application/json",
       "title": "EO Mission: MODIS"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/ascat/catalog.json",
+      "href": "../../eo-missions/ascat/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ASCAT"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/variables/fraction-of-absorbed-photosynthetically-active-radiation-fapar/catalog.json",
+      "href": "../../variables/fraction-of-absorbed-photosynthetically-active-radiation-fapar/catalog.json",
       "type": "application/json",
       "title": "Variable: Fraction Of Absorbed Photosynthetically Active Radiation (FAPAR)"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/variables/solar-induced-chlorophyll-fluorescence-sif/catalog.json",
+      "href": "../../variables/solar-induced-chlorophyll-fluorescence-sif/catalog.json",
       "type": "application/json",
       "title": "Variable: Solar-induced chlorophyll fluorescence (SIF)"
     },
     {
       "rel": "related",
-      "href": "/home/krasen/open-science-catalog-metadata/variables/soil-moisture/catalog.json",
+      "href": "../../variables/soil-moisture/catalog.json",
       "type": "application/json",
       "title": "Variable: Soil Moisture"
     },

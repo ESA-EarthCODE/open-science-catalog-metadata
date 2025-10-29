@@ -1896,6 +1896,12 @@
     },
     {
       "rel": "child",
+      "href": "./waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
+      "rel": "child",
       "href": "./yield-data-nuts2-level/collection.json",
       "type": "application/json",
       "title": "Yield Data at NUTS2 Level"
