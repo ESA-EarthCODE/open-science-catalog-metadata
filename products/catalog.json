@@ -1896,6 +1896,12 @@
     },
     {
       "rel": "child",
+      "href": "./waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at Field Level"
+    },
+    {
+      "rel": "child",
       "href": "./yield-data-nuts2-level/collection.json",
       "type": "application/json",
       "title": "Yield Data at NUTS2 Level"
