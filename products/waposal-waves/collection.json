@@ -30,7 +30,7 @@
     },
     {
       "rel": "related",
-      "href": ../../eo-missions/sentinel-3/catalog.json",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-3"
     },
