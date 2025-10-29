@@ -5,7 +5,7 @@
   "title": "WAPOSAL",
   "osc:status": "completed",
   "osc:type": "project",
-  "description": "Wave energy conversion technology offers significant benefits to society by providing an additional sustainable energy source that can enhance the renewable energy mix.  Assessments of wave energy resources in coastal zones are vital for identifying optimal locations for wave energy converters and for their effective design. Satellite data provide a valuable real-world source of information about sea state globally, with broad spatial coverage. The global coverage of the altimetry constellation and the provision of significant wave height measurements, together with the capability of estimating wave periods, demonstrate that satellite altimeters are useful systems for assessing the site-specific wave energy potential.\n\nThe WAPOSAL project has developed an innovative approach to using Earth Observation data. It uses high-resolution satellite altimeter data (every 300 m along-track) to estimate significant wave height, wave period, and wave power density. The database covers the period from 2011-2022 (CryoSat-2) and 2016-2022 (Sentinel-3 A/B). Additionally, the WAPOSAL project implemented and validated a new method for calculating wave period. WAPOSAL has created a state-of-the-art database of wave renewable energy in European coastal regions, marginal areas like archipelagos, Africa, and the Mediterranean Sea to support the EU Green Transition.",
+  "description": "Wave energy conversion technology offers significant benefits to society by providing an additional sustainable energy source that can enhance the renewable energy mix.  Assessments of wave energy resources in coastal zones are vital for identifying optimal locations for wave energy converters and for their effective design. Satellite data provide a valuable real-world source of information about sea state globally, with broad spatial coverage. The global coverage of the altimetry constellation and the provision of significant wave height measurements, together with the capability of estimating wave periods, demonstrate that satellite altimeters are useful systems for assessing the site-specific wave energy potential.\n\nThe WAPOSAL project has developed an innovative approach to using Earth Observation data. It uses high-resolution satellite altimeter data (every 300 m along-track) to estimate significant wave height, wave period, and wave power density. The database covers the period from 2011-2022 (CryoSat-2) and 2016-2022 (Sentinel-3 A/B). Additionally, the WAPOSAL project implemented and validated a new method for calculating wave period. WAPOSAL has created a state-of-the-art database of wave renewable energy in European coastal regions, marginal areas like archipelagos, Africa, and the Mediterranean Sea to support the EU Green Transition. References: https://www.mdpi.com/2077-1312/11/10/1970; https://doi.org/10.1016/j.energy.2024.131712; https://doi.org/10.1016/j.apor.2024.104184",
   "license": "CC-BY-SA-4.0",
   "extent": {
     "spatial": {
@@ -129,7 +129,7 @@
     },
     {
         "rel": "child",
-        "href": "../../products/waposal/collection.json",
+        "href": "../../products/waposal-waves/collection.json",
         "type": "application/json",
         "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
     }
