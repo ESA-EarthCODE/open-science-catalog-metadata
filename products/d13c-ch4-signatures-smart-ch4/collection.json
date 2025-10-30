@@ -45,6 +45,12 @@
         "type": "application/json"
       },
       {
+        "rel": "child",
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/smart-ch4-d13c/collection.json",
+        "type": "application/json",
+        "title": "Smart CH4 D13 zarr store"
+      },
+      {
         "href": "../../projects/smart-ch4/collection.json",
         "rel": "related",
         "title": "Project: SMART-CH4",
