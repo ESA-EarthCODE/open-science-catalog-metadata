@@ -1949,6 +1949,12 @@
         "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
     },
     {
+        "rel": "child",
+        "href": "./d13c-ch4-signatures-smart-ch4/collection.json",
+        "type": "application/json",
+        "title": "Global δ13C(CH4) Source Signatures"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"

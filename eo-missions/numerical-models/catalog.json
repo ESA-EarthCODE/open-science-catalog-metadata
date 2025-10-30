@@ -29,6 +29,12 @@
       "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
     },
     {
+      "rel": "child",
+      "href": "../../products/d13c-ch4-signatures-smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "Global δ13C(CH4) Source Signatures"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

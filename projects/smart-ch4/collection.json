@@ -69,6 +69,12 @@
       "title": "Projects"
     },
     {
+      "rel": "related",
+      "href": "../../products/d13c-ch4-signatures-smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "Product: Global δ13C(CH4) Source Signatures"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/smart-ch4/collection.json",
       "type": "application/json"
