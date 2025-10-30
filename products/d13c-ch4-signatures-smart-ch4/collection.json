@@ -69,7 +69,7 @@
         "type": "application/json"
       },
       {
-        "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/smart_CH4_d13c_ch4",
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/smart-ch4/smart_ch4_d13c.zarr",
         "rel": "via",
         "title": "Access"
       }
