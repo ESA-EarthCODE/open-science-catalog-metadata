@@ -39,7 +39,8 @@
     },
     {
       "href": "https://earthyscience.github.io/FAIRSenDD/",
-      "rel": "via"
+      "rel": "via",
+      "title": "Website"
     },
     {
       "rel": "related",
