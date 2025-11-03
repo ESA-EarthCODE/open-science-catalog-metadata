@@ -1896,6 +1896,12 @@
     },
     {
       "rel": "child",
+      "href": "./waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
+      "rel": "child",
       "href": "./yield-data-nuts2-level/collection.json",
       "type": "application/json",
       "title": "Yield Data at NUTS2 Level"
@@ -1941,6 +1947,12 @@
         "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
         "type": "application/json",
         "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+    },
+    {
+        "rel": "child",
+        "href": "./d13c-ch4-signatures-smart-ch4/collection.json",
+        "type": "application/json",
+        "title": "Global δ13C(CH4) Source Signatures"
     },
     {
       "rel": "self",
