@@ -1,0 +1,115 @@
+{
+  "type": "Collection",
+  "id": "sentinel1-amazonas-forest-loss",
+  "stac_version": "1.1.0",
+  "description": "20x20m Deforestation datacube with a time frequency of 14 days. The dataset spans 2015 to 2021.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/s14amazonas/collection.json",
+      "type": "application/json",
+      "title": "Project: Sentinel-1 for Science Amazonas"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "/home/krasen/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "child",
+      "href": "prr_link",
+      "title": "PRR link"
+    },
+    {
+      "rel": "via",
+      "href": "prr_link",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://docs.google.com/document/d/1FluiEkQvOZGTBdCqaEHgbSz9qc0bOyAs/edit?rtpof=true&sd=true&tab=t.0",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "s14amazonas",
+  "osc:status": "completed",
+  "osc:region": "Amazon Basin",
+  "osc:type": "product",
+  "created": "2025-09-15T12:16:35Z",
+  "updated": "2025-09-15T12:16:35Z",
+  "cf:parameter": [
+    {
+      "name": "deforestation-detection"
+    },
+    {
+      "name": "carbon-assessment"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.0,
+          -20.0,
+          -44.0,
+          5.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Forests",
+    "Deforestation",
+    "SAR",
+    "Amazon",
+    "Sentinel-1",
+    "Carbon mapping"
+  ]
+}
