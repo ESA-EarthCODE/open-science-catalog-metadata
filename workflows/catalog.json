@@ -46,6 +46,7 @@
       "type": "application/json",
       "title": "Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
     },
+    {
       "rel": "item",
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
