@@ -1,0 +1,24 @@
+{
+  "id": "aod",
+  "title": "AOD",
+  "created": "2025-06-23T12:48:24Z",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [],
+  "osc:status": "ongoing",
+  "osc:project": "",
+  "themes": []
+}
