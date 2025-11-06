@@ -1157,6 +1157,12 @@
       "title": "WAPOSAL"
     },
     {
+      "rel": "child",
+      "href": "./lakes4antarctica/collection.json",
+      "type": "application/json",
+      "title": "Lakes4Antarctica"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
