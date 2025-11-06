@@ -1,0 +1,102 @@
+{
+  "type": "Collection",
+  "id": "lakes4antarctica",
+  "stac_version": "1.0.0",
+  "description": "The PolarLakes dataset provides bi-weekly observations of supraglacial lakes on Antarctic ice shelves, utilizing imagery from Sentinel-2 and Sentinel-1 to address time series gaps caused by frequent cloud cover. These observations detect the extents of supraglacial lakes with a U-Net model for every two weeks from November to March, with each sensor operating independently before the data is merged. The resulting bi-weekly product reflects the maximum lake extents for the first and second halves of each month. When combined for an entire season, the dataset consolidates all bi-weekly records over these five months, allowing for analysis of the maximum lake extent per season and the frequency of lake formation, which can occur up to ten times (5 months - two weeks). The aggregation of all annual datasets creates a recurrence layer that illustrates the frequency of lake presence throughout the entire observation period, which spans from 2014 to 2024, depending on satellite data availability for each ice shelf. The PolarLakes dataset provides valuable insights into the dynamics of supraglacial lakes and serves as a crucial resource for hydrological and climate modeling.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://lakes4antarctica.eoc.dlr.de/",
+      "title": "Website"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/lakes4antarctica/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Marcus Engdahl",
+      "emails": [
+        {
+          "value": "marcus.engdahl@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "DLR – GERMAN AEROSPACE CENTER (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "TU DELFT (NL)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "updated": "2025-11-06T20:32:23.028110Z",
+  "title": "Lakes4Antarctica",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          -60
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-11-01T00:00:00Z",
+          "2025-06-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-by-4.0",
+  "keywords": ["supraglacial lake", "Antarctica", "surface hydrology", "surface melt", "Sentinel-1", "Sentinel-2", "U-Net"]
+}
