@@ -7181,6 +7181,12 @@
       "title": "Total Suspended Matter (TSM)"
     },
     {
+      "rel": "child",
+      "href": "./supraglacial-lakes/catalog.json",
+      "type": "application/json",
+      "title": "Supraglacial Lakes"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json"

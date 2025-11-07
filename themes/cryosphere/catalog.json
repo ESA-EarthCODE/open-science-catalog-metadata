@@ -562,6 +562,12 @@
       "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     },
     {
+      "rel": "child",
+      "href": "../../products/polar-lakes-s1-s2-antarctica/collection.json",
+      "type": "application/json",
+      "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

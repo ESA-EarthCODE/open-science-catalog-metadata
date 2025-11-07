@@ -22,6 +22,12 @@
       "title": "Projects"
     },
     {
+      "rel": "child",
+      "href": "../../products/polar-lakes-s1-s2-antarctica/collection.json",
+      "type": "application/json",
+      "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/lakes4antarctica/collection.json",
       "type": "application/json"
