@@ -4,5 +4,50 @@
   "created": "2025-11-07T10:26:56Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "vsdfs",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.18887785271042,
+          45.10687731517973,
+          -112.59198972233872,
+          56.23447268253378
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/iceflow-short-term-movements-in-the-cryosphere/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: (LPF) ICEFLOW"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "osc:project": "iceflow-short-term-movements-in-the-cryosphere",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ]
 }
