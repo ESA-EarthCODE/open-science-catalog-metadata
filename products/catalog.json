@@ -1956,7 +1956,7 @@
     },
     {
         "rel": "child",
-        "href": "./polar-lakes-s1-s2-antarctica.json",
+        "href": "./polar-lakes-s1-s2-antarctica/collection.json",
         "type": "application/json",
         "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
