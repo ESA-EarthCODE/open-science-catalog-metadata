@@ -40,9 +40,27 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/tidal-range/catalog.json",
+        "href": "../../themes/cryosphere/catalog.json",
         "type": "application/json",
-        "title": "Variable: Tidal Range"
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/ocean-currents/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Ocean Currents"
+      },
+      {
+       "rel": "related ",
+       "href": "../../eddies/catalog.json",
+       "type": "application/json",
+        "title": "Variable: Eddies"
+      },
+      {
+       "rel": "related ",
+       "href": "../../sea-surface-height/catalog.json",
+       "type": "application/json",
+        "title": "Variable: Sea Surface Height"
       },
       {
         "rel": "related",
@@ -77,12 +95,17 @@
         "concepts": [
           {
             "id": "cryosphere"
+          },
+          {           
+             "id": "oceans"
           }
         ]
       }
     ],
     "osc:variables": [
-      "currents"
+      "ocean-currents", 
+      "eddies", 
+      "sea-surface-height"
     ],
     "osc:missions": [
       "swot"
@@ -93,9 +116,9 @@
       "spatial": {
         "bbox": [
           [
-            64.5,
-            -12,
-            78,
+            65,
+            -30,
+            80,
             1
           ]
         ]
@@ -103,8 +126,8 @@
       "temporal": {
         "interval": [
           [
-            "2023-06-17T14:37:30Z",
-            "2024-10-26T21:16:52Z"
+            "2023-07-01T14:37:30Z",
+            "2024-10-01T21:16:52Z"
           ]
         ]
       }

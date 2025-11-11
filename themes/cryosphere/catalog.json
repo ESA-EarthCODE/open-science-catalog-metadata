@@ -29,6 +29,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
+      "rel": "child",
       "href": "../../products/basal-melt-monthly/collection.json",
       "type": "application/json",
       "title": "Basal Melt (ESA POLAR+ 4D Greenland Experimental Dataset)"

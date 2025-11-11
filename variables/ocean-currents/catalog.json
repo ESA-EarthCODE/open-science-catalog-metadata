@@ -24,6 +24,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
+      "rel": "child",
       "href": "../../products/stokes-drift-global-ocean-world-ocean-circulation/collection.json",
       "type": "application/json",
       "title": "Stokes drift estimation Global Ocean"

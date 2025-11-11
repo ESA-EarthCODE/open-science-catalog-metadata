@@ -396,6 +396,12 @@
     },
     {
       "rel": "child",
+      "href": "./swot/catalog.json",
+      "type": "application/json",
+      "title": "SWOT"
+    },
+    {
+      "rel": "child",
       "href": "./tandem-x/catalog.json",
       "type": "application/json",
       "title": "TanDEM-X"

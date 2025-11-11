@@ -35,6 +35,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
+      "rel": "child",
       "href": "../../products/albedo-circas/collection.json",
       "type": "application/json",
       "title": "Albedo_Regional_S3A/SLSTR"
