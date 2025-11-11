@@ -52,12 +52,6 @@
       },
       {
        "rel": "related ",
-       "href": "../../variables/eddies/catalog.json",
-       "type": "application/json",
-       "title": "Variable: Eddies"
-      },
-      {
-       "rel": "related ",
        "href": "../../variables/sea-surface-height/catalog.json",
        "type": "application/json",
        "title": "Variable: Sea Surface Height"
