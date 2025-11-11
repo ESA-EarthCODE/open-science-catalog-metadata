@@ -1758,9 +1758,9 @@
     },
     {
       "rel": "child",
-      "href": "./gpp-sen4gpp-2020/collection.json",
+      "href": "./gpp-sen4gpp/collection.json",
       "type": "application/json",
-      "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
+      "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton"
     },
     {
       "rel": "child",
