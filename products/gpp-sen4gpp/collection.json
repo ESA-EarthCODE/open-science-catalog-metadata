@@ -11,14 +11,8 @@
         "title": "Open Science Catalog"
       },
       {
-        "rel": "child",
-        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
-        "type": "application/json",
-        "title": "Items"
-      },
-      {
         "rel": "via",
-        "href": " https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/sen4gpp",
+        "href": "https://eoresults.esa.int/browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
         "title": "Access"
       },
       {
@@ -66,6 +60,12 @@
         "rel": "self",
         "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gpp-sen4gpp-2020/collection.json",
         "type": "application/json"
+      },
+      {
+        "rel": "child",
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
+        "type": "application/json",
+        "title": "Items"
       }
     ],
     "stac_extensions": [
