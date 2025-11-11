@@ -11,8 +11,14 @@
         "title": "Open Science Catalog"
       },
       {
+        "rel": "child",
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
+        "type": "application/json",
+        "title": "Items"
+      },
+      {
         "rel": "via",
-        "href": "https://zenodo.org/records/12606322",
+        "href": " https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/sen4gpp/",
         "title": "Access"
       },
       {
