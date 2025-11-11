@@ -1,4 +1,4 @@
-{
+  {
     "type": "Collection",
     "id": "swot-east-greenland-current",
     "stac_version": "1.0.0",
@@ -87,9 +87,6 @@
       {
         "scheme": "https://github.com/stac-extensions/osc#theme",
         "concepts": [
-          {
-            "id": "cryosphere"
-          },
           {           
              "id": "oceans"
           }
