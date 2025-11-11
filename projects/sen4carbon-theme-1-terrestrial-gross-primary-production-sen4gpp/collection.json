@@ -34,9 +34,9 @@
     },
     {
       "rel": "child",
-      "href": "../../products/gpp-uos-global-gpp/collection.json",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
       "type": "application/json",
-      "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton"
+      "title": "Items"
     },
     {
       "rel": "self",
