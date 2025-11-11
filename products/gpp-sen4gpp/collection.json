@@ -12,7 +12,7 @@
       },
       {
         "rel": "via",
-        "href": "https://eoresults.esa.int/browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
+        "href": "https://opensciencedata.esa.int/stac-browser/#/external/s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/sen4gpp/catalog.json",
         "title": "Access"
       },
       {
