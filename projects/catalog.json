@@ -48,6 +48,12 @@
     },
     {
       "rel": "child",
+      "href": "./4dmed-sea/collection.json",
+      "type": "application/json",
+      "title": "4DMED-SEA"
+    },
+    {
+      "rel": "child",
       "href": "./advancing-the-study-of-extreme-weather-events-with-data-deep-learning-methods-and-climate-analysis/collection.json",
       "type": "application/json",
       "title": "Advancing the Study of Extreme Weather Events with Data, Deep Learning Methods and Climate Analysis"
@@ -171,6 +177,12 @@
       "href": "./anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica/collection.json",
       "type": "application/json",
       "title": "AnREO"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme/collection.json",
+      "type": "application/json",
+      "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
     },
     {
       "rel": "child",
@@ -800,7 +812,7 @@
       "rel": "child",
       "href": "./sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp/collection.json",
       "type": "application/json",
-      "title": "SENSE4GPP"
+      "title": "SEN4GPP"
     },
     {
       "rel": "child",
@@ -1131,6 +1143,24 @@
       "href": "./coastal-carbon-mapper/collection.json",
       "type": "application/json",
       "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
+    },
+    {
+      "rel": "child",
+      "href": "./smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "SMART-CH4"
+    },
+    {
+      "rel": "child",
+      "href": "./waposal/collection.json",
+      "type": "application/json",
+      "title": "WAPOSAL"
+    },
+    {
+      "rel": "child",
+      "href": "./lakes4antarctica/collection.json",
+      "type": "application/json",
+      "title": "Lakes4Antarctica"
     },
     {
       "rel": "parent",

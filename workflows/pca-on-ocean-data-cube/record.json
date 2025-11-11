@@ -1,0 +1,133 @@
+{
+  "id": "pca-on-ocean-data-cube",
+  "type": "Feature",
+  "title": "Ocean Data Cube for Principal Component Analysis on Time Variability",
+  "geometry": null,
+  "properties": {
+    "created": "2025-10-29T11:25:18.669032+00:00",
+    "updated": "2025-10-29T11:25:18.669032+00:00",
+    "type": "workflow",
+    "title": "Ocean Data Cube for Principal Component Analysis on Time Variability",
+    "description": "Understanding the complex dynamics of oceanographic variables is essential for assessing ecological patterns, climate change impacts, and biogeochemical cycles. This exploratory data analysis (EDA) aims to examine a dataset of oceanographic variables across a specified region in the Pacific Ocean, focusing on the period from 2018 to 2020, by leveraging statistical analysis, visualization techniques, and machine learning approaches.",
+    "jupyter_kernel_info": {
+      "name": "users-deepesdl-xcube-1.11.0",
+      "python_version": 3.11,
+      "env_file": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_ocean_carbon_cycle.yaml"
+    },
+    "keywords": [
+      "Earth Science",
+      "DeepESDL",
+      "Ocean Carbon Cycle"
+    ],
+    "contacts": [
+      {
+        "name": "Julia Klima",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Jannes Kruse",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Jonas Neumann",
+        "organization": "University of Leipzig"
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "ocean"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "Apache-2.0",
+    "osc:project": "deep-earth-system-data-lab",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json"
+  ],
+  "themes": [
+    "ocean"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Jupyter Notebook",
+      "href": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/Ocean_Carbon_Cycle.ipynb"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/pca-on-ocean-data-cube/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/ocean/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Ocean"
+    },
+    {
+      "rel": "application",
+      "title": "Jupyter Notebook: Ocean Data Cube for Principal Component Analysis on Time Variability",
+      "href": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/Ocean_Carbon_Cycle.ipynb",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:container": "true",
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "users-deepesdl-xcube-1.11.0",
+        "pythonVersion": 3.11,
+        "envFile": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_ocean_carbon_cycle.yaml"
+      }
+    },
+    {
+      "rel": "related",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fdeepesdl-doc&urlpath=lab%2Ftree%2Fdeepesdl-doc%2Fnotebooks%2Fscience-cases%2FOcean_Carbon_Cycle.ipynb&branch=main",
+      "type": "text/html",
+      "title": "Open notebook on the DeepESDL platform"
+    }
+  ]
+}

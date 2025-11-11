@@ -12,6 +12,90 @@
     },
     {
       "rel": "child",
+      "href": "./4dmed-2d-alt/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-miost-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-miost-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-varnet-8/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-varnet-20/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-sss/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-3d-prim-prod-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet8-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet8-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet20-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet20-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-t-s-geo-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"
+    },
+  {
+      "rel": "child",
+      "href": "./4dmed-t-s-geo-a-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"
+    },
+    {
+      "rel": "child",
       "href": "./absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
@@ -1818,6 +1902,12 @@
     },
     {
       "rel": "child",
+      "href": "./waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
+      "rel": "child",
       "href": "./yield-data-nuts2-level/collection.json",
       "type": "application/json",
       "title": "Yield Data at NUTS2 Level"
@@ -1863,6 +1953,18 @@
         "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
         "type": "application/json",
         "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+    },
+    {
+        "rel": "child",
+        "href": "./d13c-ch4-signatures-smart-ch4/collection.json",
+        "type": "application/json",
+        "title": "Global δ13C(CH4) Source Signatures"
+    },
+    {
+        "rel": "child",
+        "href": "./polar-lakes-s1-s2-antarctica/collection.json",
+        "type": "application/json",
+        "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
     {
       "rel": "self",

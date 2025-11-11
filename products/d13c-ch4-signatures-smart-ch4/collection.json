@@ -1,0 +1,99 @@
+{
+    "type": "Collection",
+    "id": "d13c-ch4-signatures-smart-ch4",
+    "stac_version": "1.0.0",
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "created": "2025-09-29T12:00:00Z",
+    "updated": "2025-09-29T12:00:00Z",
+    "title": "Global δ13C(CH4) Source Signatures",
+    "description": "This dataset provides monthly gridded δ13C(CH₄) isotopic signatures (‰ vs V-PDB) for five methane emission sectors: Agricultural & Waste (AGW), Fossil Fuel & Geological (FFG), Biomass Burning (BB), Natural non-wetland (NAT), and Wetlands (WET), and their subsequent sub-sectors, at 1°×1° spatial resolution for the period 1998–2022. Each sector file contains monthly flux-weighted δ13C(CH₄) signatures computed from prior CH₄ emissions used in the Global Methane Budget inversion protocol (Martinez et al., 2024), EDGARv8 (Crippa et al., 2023), and GFED4s (van Wees et al., 2022). Sub-sector δ13C-CH₄ source values are derived from recent literature (Lan et al., 2021; Menoud et al., 2022; Oh et al., 2022; Thompson et al., 2018; Etiope et al., 2019; Sansone et al., 2001). The dataset also includes uncertainty components: propagated (σprop), aggregation (σagg), and total (σtotal), expressed in ‰ vs V-PDB. Data are suitable for use in atmospheric inversion and isotope modeling frameworks. Authors: Emeline Tapin¹*, Antoine Berchet¹, Adrien Martinez¹, Malika Menoud¹†, Joël Thanwerdas³, Xin Lan⁴˒⁵, Edward Malina⁶, Daniele Gasbarra⁶, and Marielle Saunois¹. ¹ Laboratoire des Sciences du Climat et de l’Environnement (LSCE), CEA, CNRS, UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France; ³ Empa, Swiss Federal Laboratories for Materials Science and Technology, Dübendorf, Switzerland; ⁴ CIRES, University of Colorado Boulder, CO, USA; ⁵ NOAA Global Monitoring Laboratory, Boulder, CO, USA; ⁶ European Space Agency (ESA), ESRIN, Frascati, Italy; † Now at: UNEP, International Methane Emissions Observatory (IMEO), Paris, France; *Correspondence: emeline.tapin@lsce.ipsl.fr",
+    "extent": {
+      "spatial": {
+        "bbox": [[-180.0, -90.0, 180.0, 90.0]]
+      },
+      "temporal": {
+        "interval": [["1998-01-01T00:00:00Z", "2022-12-31T23:59:59Z"]]
+      }
+    },
+    "keywords": [
+      "Methane",
+      "Isotopes",
+      "d13C",
+      "Atmospheric inversion",
+      "CH4 emissions",
+      "Global Methane Budget"
+    ],
+    "osc:project": "smart-ch4",
+    "osc:region": "Global",
+    "osc:status": "completed",
+    "osc:type": "product",
+    "links": [
+      {
+        "href": "../../catalog.json",
+        "rel": "root",
+        "title": "Open Science Catalog",
+        "type": "application/json"
+      },
+      {
+        "href": "../catalog.json",
+        "rel": "parent",
+        "title": "Products",
+        "type": "application/json"
+      },
+      {
+        "rel": "child",
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/smart-ch4-d13c/collection.json",
+        "type": "application/json",
+        "title": "Smart CH4 D13 zarr store"
+      },
+      {
+        "href": "../../projects/smart-ch4/collection.json",
+        "rel": "related",
+        "title": "Project: SMART-CH4",
+        "type": "application/json"
+      },  
+      {
+        "href": "../../themes/atmosphere/catalog.json",
+        "rel": "related",
+        "title": "Theme: Atmosphere",
+        "type": "application/json"
+      },
+      {
+        "href": "../../variables/13-ch4-delta/catalog.json",
+        "rel": "related",
+        "title": "Variable: (13)CH4 delta",
+        "type": "application/json"
+      },
+      {
+        "href": "../../eo-missions/numerical-models/catalog.json",
+        "rel": "related",
+        "title": "EO Mission: Numerical models",
+        "type": "application/json"
+      },
+      {
+        "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/smart-ch4/smart_ch4_d13c.zarr",
+        "rel": "via",
+        "title": "Access"
+      }
+    ],
+    "osc:missions": ["numerical-models"],
+    "osc:variables": ["13-ch4-delta"],
+    "cf:parameter": [
+      {
+        "name": "isotopic-signature",
+        "standard_name": "isotopic_ratio_of_methane_13C",
+        "units": "permil (‰) vs V-PDB"
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [{ "id": "atmosphere" }],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "license": "CC-BY-4.0"
+}

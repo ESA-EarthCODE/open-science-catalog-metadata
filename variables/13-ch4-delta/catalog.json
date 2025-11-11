@@ -32,6 +32,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/d13c-ch4-signatures-smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "Global δ13C(CH4) Source Signatures"
     }
   ],
   "stac_extensions": [

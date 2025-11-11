@@ -2118,6 +2118,12 @@
     },
     {
       "rel": "child",
+      "href": "./finite-size-lyapunov-exponent/catalog.json",
+      "type": "application/json",
+      "title": "Finite-size Lyapunov Exponent"
+    },
+    {
+      "rel": "child",
       "href": "./fire-fractional-cover/catalog.json",
       "type": "application/json",
       "title": "Fire fractional cover"
@@ -7173,6 +7179,12 @@
       "href": "./total-suspended-matter/catalog.json",
       "type": "application/json",
       "title": "Total Suspended Matter (TSM)"
+    },
+    {
+      "rel": "child",
+      "href": "./supraglacial-lakes/catalog.json",
+      "type": "application/json",
+      "title": "Supraglacial Lakes"
     },
     {
       "rel": "self",

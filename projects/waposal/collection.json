@@ -1,0 +1,171 @@
+{
+  "type": "Collection",
+  "id": "waposal",
+  "stac_version": "1.0.0",
+  "title": "WAPOSAL",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "description": "Wave energy conversion technology offers significant benefits to society by providing an additional sustainable energy source that can enhance the renewable energy mix.  Assessments of wave energy resources in coastal zones are vital for identifying optimal locations for wave energy converters and for their effective design. Satellite data provide a valuable real-world source of information about sea state globally, with broad spatial coverage. The global coverage of the altimetry constellation and the provision of significant wave height measurements, together with the capability of estimating wave periods, demonstrate that satellite altimeters are useful systems for assessing the site-specific wave energy potential.\n\nThe WAPOSAL project has developed an innovative approach to using Earth Observation data. It uses high-resolution satellite altimeter data (every 300 m along-track) to estimate significant wave height, wave period, and wave power density. The database covers the period from 2011-2022 (CryoSat-2) and 2016-2022 (Sentinel-3 A/B). Additionally, the WAPOSAL project implemented and validated a new method for calculating wave period. WAPOSAL has created a state-of-the-art database of wave renewable energy in European coastal regions, marginal areas like archipelagos, Africa, and the Mediterranean Sea to support the EU Green Transition. References: https://www.mdpi.com/2077-1312/11/10/1970; https://doi.org/10.1016/j.energy.2024.131712; https://doi.org/10.1016/j.apor.2024.104184",
+  "license": "CC-BY-SA-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -155, 
+          -27, 
+          41.8, 
+          72
+        ],
+        [
+          -32,
+          36.499999999999986,
+          -24,
+          40
+        ],
+        [
+          -10,
+          42.00000000000003,
+          -1,
+          45
+        ],
+        [
+          -10,
+          43,
+          -0.5,
+          49
+        ],
+        [
+          3,
+          53,
+          30.35,
+          72
+        ],
+        [
+          -11,
+          47.5,
+          10,
+          60.00000000000003
+        ],
+        [
+          -155,
+          -27,
+          -134,
+          -6.999999999999986
+        ],
+        [
+          -54,
+          4.1000000000000085,
+          -51.5,
+          6
+        ],
+        [
+          -19,
+          26,
+          -10,
+          31
+        ],
+        [
+          -6,
+          30.09999999999998,
+          41.79999999999999,
+          47.400000000000006
+        ],
+        [
+          -19,
+          27,
+          -5,
+          39
+        ],
+        [
+          -13.000000000000002,
+          34,
+          -5.5,
+          44.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+     {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "href": "https://waposal.tecnico.ulisboa.pt/",
+      "rel": "via",
+      "title": "Website"
+    },
+    {
+      "href": "https://eo4society.esa.int/projects/waposal/",
+      "rel": "via",
+      "title": "EO4Society"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/waposal/collection.json",
+      "type": "application/json"
+    },
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+        "rel": "child",
+        "href": "../../products/waposal-waves/collection.json",
+        "type": "application/json",
+        "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    }
+  ],
+  "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Roberto Sabia",
+      "emails": [
+        {
+          "value": "roberto.sabia@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "CENTEC-INSTITUTO SUPERIOR TECNICO (PT)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ]
+}

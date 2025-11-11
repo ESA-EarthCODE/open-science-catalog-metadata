@@ -90,6 +90,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+    },
+    {
+      "rel": "child",
       "href": "../../products/total-column-h2o-hdo-clear-sky-lpf-wift/collection.json",
       "type": "application/json",
       "title": "HDO/H2O non-scattering product_S5p-TROPOMI"
