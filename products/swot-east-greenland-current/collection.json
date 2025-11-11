@@ -34,12 +34,6 @@
       },
       {
         "rel": "related",
-        "href": "../../themes/cryosphere/catalog.json",
-        "type": "application/json",
-        "title": "Theme: Cryosphere"
-      },
-      {
-        "rel": "related",
         "href": "../../themes/oceans/catalog.json",
         "type": "application/json",
         "title": "Theme: Oceans"
@@ -49,6 +43,12 @@
         "href": "../../variables/ocean-currents/catalog.json",
         "type": "application/json",
         "title": "Variable: Ocean Currents"
+      },
+      {
+       "rel": "related ",
+       "href": "../../variables/eddies/catalog.json",
+       "type": "application/json",
+       "title": "Variable: Eddies"
       },
       {
        "rel": "related ",
