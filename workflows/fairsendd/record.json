@@ -37,6 +37,20 @@
         "roles": [
           "maintainer"
         ]
+      },
+      {
+        "name": "Felix Cremer",
+        "organization": "Max Planck Institute for Biogeochemistry",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.bgc-jena.mpg.de/person/121306/2200"
+          }
+        ],
+        "roles": [
+          "maintainer"
+        ]
       }
     ],
     "themes": [
