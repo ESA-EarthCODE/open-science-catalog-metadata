@@ -83,12 +83,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/fresh4bio/collection.json",
-      "type": "application/json",
-      "title": "Fresh4Bio"
-    },
-    {
-      "rel": "child",
       "href": "../../products/dynamics-of-glacier-lakes-alpglacier/collection.json",
       "type": "application/json",
       "title": "Dynamics of glacier lakes_SwissAlps_S1/2"
