@@ -33,12 +33,7 @@
       "type": "application/json",
       "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
     },
-    {
-      "rel": "child",
-      "href": "../../products/swot-east-greenland-current/collection.json",
-      "type": "application/json",
-      "title": "SWOT-BFNQG East Greenland Current"
-    },
+
     {
       "rel": "child",
       "href": "../../products/albedo-circas/collection.json",

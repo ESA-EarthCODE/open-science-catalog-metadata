@@ -41,6 +41,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
+      "rel": "child",
       "href": "../../products/basin-runoff-sur-water/collection.json",
       "type": "application/json",
       "title": "Basin Run Off and Surface Water (ESA POLAR+ 4D Greenland Experimental Dataset)"
