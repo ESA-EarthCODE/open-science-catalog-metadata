@@ -23,6 +23,12 @@
       "title": "Variables"
     },
     {
+      "rel": "child",
+      "href": "../../products/swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/eddies/catalog.json",
       "type": "application/json"
