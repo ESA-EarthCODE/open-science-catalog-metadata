@@ -34,7 +34,7 @@
       },
       {
         "rel": "related",
-        "href": "../../themes/oceans/catalog.json",
+        "href": "../../themes/cryosphere/catalog.json",
         "type": "application/json",
         "title": "Theme: Cryosphere"
       },
@@ -45,13 +45,13 @@
         "title": "Variable: Ocean Currents"
       },
       {
-       "rel": "related ",
+       "rel": "related",
        "href": "../../variables/eddies/catalog.json",
        "type": "application/json",
        "title": "Variable: Eddies"
       },
       {
-       "rel": "related ",
+       "rel": "related",
        "href": "../../variables/sea-surface-height/catalog.json",
        "type": "application/json",
        "title": "Variable: Sea Surface Height"
