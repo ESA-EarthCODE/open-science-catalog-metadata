@@ -2,7 +2,8 @@
     "type": "Collection",
     "id": "gpp-sen4gpp",
     "stac_version": "1.0.0",
-    "description": "The QY_GPP product is a Global 8-day composite Gross Primary Productivity (GPP) product provided at 500m spatial resolution based on Sentinel 3 Ocean and Land Colour Image (OLCI) L2 data. The QY_GPP product is derived using the Quantum Yield (QY) Model, which is based on the light use efficiency concept, and generates GPP as a product of photosynthetic pathway (i.e., C3 and C4) quantum yield (α mol mol -1) and time averaged fraction of photosynthetically active radiation absorbed by chlorophyll (FAPARchl; µmol m -2 s -1). The QY_GPP product is provided in tiles, following the MODIS tilling system, and is presented in sinusoidal coordinate reference system which is embedded in each individual file. The directory names are in ISO-date notation, i.e. of the form YYYY-MM-DD. The data is stored using 16 bits (with a shift factor of 1000) in two bands, with the first band representing the GPP value in gCm-2day-1 and the second band containing a series of bit-quality flags for each pixel. The development and production of the QY_GPP product by the University of Southampton, UK, was originally supported by European Space Agency (ESA) funding through the Sen4GPP project (ESA Contract No. 4000134598/21/I-NB). The filename for each tile is constructed as follows: QISCARF_GPP_<datum>_<tile>_m<mfac>_b<bval>_pc<pcval>_qi<qival>_v<version>.",
+    "description": "The QY_GPP product is a Global 8-day composite Gross Primary Productivity (GPP) product provided at 500m spatial resolution based on Sentinel 3 Ocean and Land Colour Image (OLCI) L2 data. The QY_GPP product is derived using the Quantum Yield (QY) Model, which is based on the light use efficiency concept, and generates GPP as a product of photosynthetic pathway (i.e., C3 and C4) quantum yield (α mol mol -1) and time averaged fraction of photosynthetically active radiation absorbed by chlorophyll (FAPARchl; µmol m -2 s -1). The QY_GPP product is provided in tiles, following the MODIS tilling system, and is presented in sinusoidal coordinate reference system which is embedded in each individual file. The directory names are in ISO-date notation, i.e. of the form YYYY-MM-DD. The data is stored using 16 bits (with a shift factor of 1000) in two bands, with the first band representing the GPP value in gCm-2day-1 and the second band containing a series of bit-quality flags for each pixel. The development and production of the QY_GPP product by the University of Southampton, UK, was originally supported by European Space Agency (ESA) funding through the Sen4GPP project (ESA Contract No. 4000134598/21/I-NB). The root directory for the files is : https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/sen4gpp/, and has subdirectories with the datum of the first day of the corresponding eight-day period. The filename for each tile within these subdirectories is constructed as follows: QISCARF_GPP_<datum>_<tile>_m<mfac>_b<bval>_pc<pcval>_qi<qival>_v<version>.",
+
     "links": [
       {
         "rel": "root",
@@ -78,7 +79,7 @@
     "osc:region": "Global",
     "osc:type": "product",
     "created": "2024-12-09T00:00:00Z",
-    "version": "v1",
+    "version": "v2",
     "sci:doi": "10.5281/zenodo.12606321",
     "cf:parameter": [
       {
@@ -119,7 +120,7 @@
         "interval": [
           [
             "2020-01-01T00:00:00Z",
-            "2020-12-31T23:59:59Z"
+            "2024-12-31T23:59:59Z"
           ]
         ]
       }
