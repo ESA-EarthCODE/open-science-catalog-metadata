@@ -1,0 +1,105 @@
+{
+  "id": "testing-product",
+  "title": "Test product ",
+  "created": "2025-08-21T07:54:47Z",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "this is a testing product for checking the current status of the editor ",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.153241985271645,
+          40.259214567012776,
+          54.31648697465485,
+          58.16315946137868
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2025-08-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: VERA"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "href": "https://digital.csic.es/handle/10261/355042",
+      "rel": "via",
+      "title": "Access",
+      "type": "text/html"
+    },
+    {
+      "href": "../../variables/aerosol-dust-concentration/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Variable: Aerosol dust concentration"
+    },
+    {
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Eo-mission: AEOLUS"
+    },
+    {
+      "href": "../../eo-missions/altika/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Eo-mission: ALtiKa"
+    },
+    {
+      "href": "../../eo-missions/ascat/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Eo-mission: ASCAT"
+    },
+    {
+      "href": "../../experiments/worldcereal-experiment/record.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Experiment: undefined"
+    }
+  ],
+  "osc:status": "completed",
+  "osc:project": "swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earth-s-atmosphere-at-mid-and-high-latitudes-vera",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "aerosol-dust-concentration"
+  ],
+  "cf:parameter": [
+    {
+      "name": "aerosol_dust"
+    }
+  ],
+  "osc:missions": [
+    "aeolus",
+    "altika",
+    "ascat"
+  ]
+}

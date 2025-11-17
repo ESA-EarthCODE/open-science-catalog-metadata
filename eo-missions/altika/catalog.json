@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/altika/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/testing-product/collection.json",
+      "type": "application/json",
+      "title": "Test product "
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
