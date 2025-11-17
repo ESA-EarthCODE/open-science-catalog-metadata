@@ -1172,6 +1172,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./carbon-coastal-mapper/collection.json",
+      "type": "application/json",
+      "title": "carbon-coastal-mapper"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
