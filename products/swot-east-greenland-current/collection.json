@@ -1,0 +1,138 @@
+  {
+    "type": "Collection",
+    "id": "swot-east-greenland-current",
+    "stac_version": "1.0.0",
+    "description": "The dataset contains gridded maps at 2 km resolution of ocean topography (ADT), geostrophic currents, and relative vorticity in the Western Nordic Seas from June 2023 to October 2024. The fields are generated at 3 hour temporal resolution, but provided here daily. The product covers the ice-free ocean and the marginal sea ice zone (sea ice concentration 5%-75%). Areas with sea ice concentration >75% are masked out",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://data.dtu.dk/articles/dataset/SWOT_East_Greenland_Current_2023-2024/29664665",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://data.dtu.dk/articles/dataset/SWOT_East_Greenland_Current_2023-2024/29664665?file=56682200",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/fresh4bio/collection.json",
+        "type": "application/json",
+        "title": "Project: Fresh4Bio"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/cryosphere/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Cryosphere"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/ocean-currents/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Ocean Currents"
+      },
+      {
+       "rel": "related",
+       "href": "../../variables/eddies/catalog.json",
+       "type": "application/json",
+       "title": "Variable: Eddies"
+      },
+      {
+       "rel": "related",
+       "href": "../../variables/sea-surface-height/catalog.json",
+       "type": "application/json",
+       "title": "Variable: Sea Surface Height"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/swot/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: SWOT"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/swot-east-greenland-current/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "fresh4bio",
+    "osc:status": "ongoing",
+    "osc:region": "Greenland",
+    "osc:type": "product",
+    "created": "2025-11-10T10:27:46Z",
+    "cf:parameter": [
+      {
+        "name": "swot_currents"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {           
+             "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "ocean-currents", 
+      "eddies", 
+      "sea-surface-height"
+    ],
+    "osc:missions": [
+      "swot"
+    ],
+    "updated": "2025-11-10T10:28:06.210108Z",
+    "title": "SWOT-BFNQG East Greenland Current",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            65,
+            -30,
+            80,
+            1
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2023-07-01T14:37:30Z",
+            "2024-10-01T21:16:52Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-NC-4.0",
+    "keywords": [
+            "SSH",
+            "Geostrophic current",
+            "Relative vorticity",
+            "Nordic Seas",
+            "East Greenland Shelf", 
+            "East Greenland Current",
+            "Mesoscale",
+            "Eddies",
+            "Arctic"
+    ]
+  }
