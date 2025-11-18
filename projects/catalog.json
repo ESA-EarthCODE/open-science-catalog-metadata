@@ -1178,6 +1178,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fairsendd/collection.json",
+      "type": "application/json",
+      "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

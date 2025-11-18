@@ -36,6 +36,12 @@
     },
     {
       "rel": "item",
+      "href": "./fairsendd/record.json",
+      "type": "application/json",
+      "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection"
+    },
+    {
+      "rel": "item",
       "href": "./esa-cci-permafrost/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
