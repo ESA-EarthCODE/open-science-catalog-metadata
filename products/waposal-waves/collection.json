@@ -53,6 +53,12 @@
       "title": "Variable: Wave Height"
     },
     {
+      "rel": "child",
+      "href": "s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/waposal/collection.json",
+      "type": "application/json",
+      "title": "Variable: Wave Height"
+    },
+    {
       "rel": "via",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/waposal/waposal_data.zip",
       "title": "Access"
