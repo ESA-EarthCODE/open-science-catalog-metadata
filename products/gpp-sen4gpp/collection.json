@@ -17,11 +17,6 @@
         "title": "Access"
       },
       {
-        "rel": "via",
-        "href": "https://www.sciencedirect.com/science/article/pii/S0048969718307149",
-        "title": "Documentation"
-      },
-      {
         "rel": "parent",
         "href": "../catalog.json",
         "type": "application/json",
@@ -80,7 +75,6 @@
     "osc:type": "product",
     "created": "2024-12-09T00:00:00Z",
     "version": "v2",
-    "sci:doi": "10.5281/zenodo.12606321",
     "cf:parameter": [
       {
         "name": "gross_primary_productivity"
@@ -103,7 +97,7 @@
       "sentinel-2",
       "sentinel-3"
     ],
-    "updated": "2024-07-02T13:04:27.009360Z",
+    "updated": "2025-11-19T13:04:27.009360Z",
     "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton",
     "extent": {
       "spatial": {
@@ -134,3 +128,4 @@
       "Sentinel-2"
     ]
   }
+
