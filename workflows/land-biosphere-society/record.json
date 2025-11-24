@@ -10,9 +10,9 @@
     "title": "Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
     "description": "This workflow is a technological summary on the computations used for the scientific Use Case 1 of the DeepESDL project. The goal of the use case is to detect syndromes of change by analyzing both earth observation data from biosphere and atmosphere together with a list of indicators describing socioeconomic development of certain regions.",
     "jupyter_kernel_info": {
-      "name": "users-deepesdl-xcube-1.11.0",
+      "name": "users-science-case-phi",
       "python_version": 3.11,
-      "env_file": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_ocean_carbon_cycle.yaml"
+      "env_file": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_land_biosphere_society.yaml"
     },
     "keywords": [
       "Earth Science",
