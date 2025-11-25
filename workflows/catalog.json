@@ -48,6 +48,12 @@
     },
     {
       "rel": "item",
+      "href": "./land-biosphere-society/record.json",
+      "type": "application/json",
+      "title": "Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
+    },
+    {
+      "rel": "item",
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
       "title": "Ocean Data Cube for Principal Component Analysis on Time Variability"

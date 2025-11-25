@@ -1,0 +1,175 @@
+{
+  "id": "land-biosphere-society",
+  "type": "Feature",
+  "title": "Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
+  "geometry": null,
+  "properties": {
+    "created": "2025-10-29T11:30:41.963521+00:00",
+    "updated": "2025-10-29T11:30:41.963521+00:00",
+    "type": "workflow",
+    "title": "Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
+    "description": "This workflow is a technological summary on the computations used for the scientific Use Case 1 of the DeepESDL project. The goal of the use case is to detect syndromes of change by analyzing both earth observation data from biosphere and atmosphere together with a list of indicators describing socioeconomic development of certain regions.",
+    "jupyter_kernel_info": {
+      "name": "users-science-case-phi",
+      "python_version": 3.11,
+      "env_file": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_land_biosphere_society.yaml"
+    },
+    "keywords": [
+      "Earth Science",
+      "DeepESDL",
+      "Land Biosphere"
+    ],
+    "contacts": [
+      {
+        "name": "Wanton Li",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Gregory Duveiller",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Fabian Gans",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Jeroen Smits",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Guido Kraemer",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Dorothea Frank",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Miguel Mahecha",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Ulrich Weber",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Mirco Migliavacca",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Andrey Ceglar",
+        "organization": "University of Leipzig"
+      },
+      {
+        "name": "Markus Reichstein",
+        "organization": "University of Leipzig"
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          },
+          {
+            "id": "atmosphere"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "Apache-2.0",
+    "osc:project": "deep-earth-system-data-lab",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json"
+  ],
+  "themes": [
+    "land",
+    "atmosphere"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Jupyter Notebook",
+      "href": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/Land_Biosphere_Society.ipynb"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/land-biosphere-society/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "application",
+      "title": "Jupyter Notebook: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
+      "href": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/Land_Biosphere_Society.ipynb",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:container": "true",
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "users-deepesdl-xcube-1.11.0",
+        "pythonVersion": 3.11,
+        "envFile": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_ocean_carbon_cycle.yaml"
+      }
+    },
+    {
+      "rel": "related",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fdeepesdl-doc&urlpath=lab%2Ftree%2Fdeepesdl-doc%2Fnotebooks%2Fscience-cases%2FLand_Biosphere_Society.ipynb&branch=main",
+      "type": "text/html",
+      "title": "Open notebook on the DeepESDL platform"
+    }
+  ]
+}
