@@ -1,0 +1,192 @@
+{
+  "type": "Collection",
+  "id": "fuelity",
+  "stac_version": "1.1.0",
+  "description": "Fuelity is an ESA initiative that provides global fire fuel biomass data, offering seasonally updated information on fire fuel characteristics.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/fuelity/collection.json",
+      "type": "application/json",
+      "title": "Project: Fuelity"
+    },
+    {
+      "rel": "related",
+      "href": "../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../eo-missions/amsr2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AMSR2"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/dead-foliage/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dead Foliage"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/dead-wood/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dead Wood"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/live-wood/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Live Wood"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/live-leaf/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Live Leaf"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/live-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Live Fuel Moisture Content"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/dead-foliage-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dead Foliage Fuel Moisture Content"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/dead-wood-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dead Wood Fuel Moisture Content"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/high-live-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: High Live Fuel Moisture Content"
+    },
+    {
+      "rel": "related",
+      "href": "../variables/low-live-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Low Live Fuel Moisture Content"
+    },
+    {
+      "rel": "child",
+      "href": "https://xds-preprod.ecmwf.int/datasets/derived-fire-fuel-biomass",
+      "title": "PRR link"
+    },
+    {
+      "rel": "via",
+      "href": "https://xds-preprod.ecmwf.int/datasets/derived-fire-fuel-biomass?tab=documentation",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "fuelity",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2025-11-26T17:05:23Z",
+  "updated": "2025-11-26T17:05:23Z",
+  "sci:doi": "10.24381/378d1497",
+  "cf:parameter": [
+    {
+      "name": "dead-foliage"
+    },
+    {
+      "name": "dead-wood"
+    },
+    {
+      "name": "live-wood"
+    },
+    {
+      "name": "live-leaf"
+    },
+    {
+      "name": "live-fuel-moisture-content"
+    },
+    {
+      "name": "dead-foliage-fuel-moisture-content"
+    },
+    {
+      "name": "dead-wood-fuel-moisture-content"
+    },
+    {
+      "name": "high-live-fuel-moisture-content"
+    },
+    {
+      "name": "low-live-fuel-moisture-content"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "amsr2"
+  ],
+  "osc:variables": [
+    "dead-foliage",
+    "dead-wood",
+    "live-wood",
+    "live-leaf",
+    "live-fuel-moisture-content",
+    "dead-foliage-fuel-moisture-content",
+    "dead-wood-fuel-moisture-content",
+    "high-live-fuel-moisture-content",
+    "low-live-fuel-moisture-content"
+  ],
+  "title": "Fuelity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1999-01-01T00:00:00Z",
+          "2025-09-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "land"
+  ]
+}
