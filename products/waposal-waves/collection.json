@@ -56,7 +56,7 @@
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/waposal/collection.json",
       "type": "application/json",
-      "title": "Variable: Wave Height"
+      "title": "Waposal Analysis-ready Data"
     },
     {
       "rel": "via",
