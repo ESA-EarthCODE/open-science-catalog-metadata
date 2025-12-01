@@ -18,7 +18,7 @@
     },
     {
       "rel": "via",
-      "href": "https://xds-preprod.ecmwf.int/datasets/derived-fire-fuel-biomass",
+      "href": "https://doi.org/10.24381/378d1497",
       "title": "Cross Data Store (ECMWF)"
     },
     {
@@ -35,7 +35,7 @@
   ],
   "osc:status": "completed",
   "osc:type": "project",
-  "updated": "2025-11-26T17:05:22Z",
+  "updated": "2025-12-01T11:34:08Z",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -48,24 +48,13 @@
   ],
   "contacts": [
     {
-      "name": "Dr Francesca Di Giuseppe",
+      "name": "Claudia Vitolo",
       "roles": [
         "technical_officer"
       ],
       "emails": [
         {
-          "value": "Francesca.DiGiuseppe@ecmwf.int"
-        }
-      ]
-    },
-    {
-      "name": "Dr Joe McNorton",
-      "roles": [
-        "technical_officer"
-      ],
-      "emails": [
-        {
-          "value": "joe.mcnorton@ecmwf.int"
+          "value": "Claudia.Vitolo@esa.int"
         }
       ]
     }
