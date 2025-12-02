@@ -4,5 +4,53 @@
   "created": "2025-12-02T09:39:40Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "description",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.19899122372808,
+          50.95476010307172,
+          6.454179020891469,
+          51.10657357132385
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-19T00:00:00Z",
+          "2021-10-27T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "href": "../../projects/ai4drought/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: AI4DROUGHT"
+    }
+  ],
+  "osc:project": "ai4drought",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
 }
