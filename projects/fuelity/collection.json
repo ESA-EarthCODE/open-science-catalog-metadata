@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "fuelity",
   "stac_version": "1.1.0",
-  "description": "Fuelity is an ESA initiative that provides global fire fuel biomass data, offering seasonally updated information on fire fuel characteristics.",
+  "description": "Fuelity was an ESA project that delivered an updated version of the live fuel moisture content (LFMC) produced by the ECMWF SPARKY fire model. The new LFMC product is enhanced using VOD and SIF observations.",
   "links": [
     {
       "rel": "root",
@@ -35,7 +35,7 @@
   ],
   "osc:status": "completed",
   "osc:type": "project",
-  "updated": "2025-12-01T11:34:08Z",
+  "updated": "2025-12-02T11:23:10Z",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -56,6 +56,12 @@
         {
           "value": "Claudia.Vitolo@esa.int"
         }
+      ]
+    },
+    {
+      "name": "ECMWF",
+      "roles": [
+        "consortium_member"
       ]
     }
   ],
