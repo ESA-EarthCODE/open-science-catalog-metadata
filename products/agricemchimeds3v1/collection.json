@@ -34,15 +34,9 @@
       "rel": "related",
       "type": "application/json",
       "title": "Theme: Land"
-    },
-    {
-      "href": "../../projects/ai4drought/collection.json",
-      "rel": "related",
-      "type": "application/json",
-      "title": "Project: AI4DROUGHT"
     }
   ],
-  "osc:project": "ai4drought",
+  "osc:project": "aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
