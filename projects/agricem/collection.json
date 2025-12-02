@@ -1,7 +1,48 @@
 {
   "id": "agricem",
   "title": "AgriCEM",
-  "osc:status": "completed",
+  "osc:status": "ongoing",
   "type": "Collection",
-  "osc:type": "project"
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "Lorem ipsum",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.409281746689257,
+          51.31805336713293,
+          6.706689592164285,
+          51.44180533129432
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-19T00:00:00Z",
+          "2021-10-27T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
 }
