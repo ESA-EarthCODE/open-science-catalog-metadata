@@ -23,7 +23,7 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/atmosphere/catalog.json",
+      "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
     }
