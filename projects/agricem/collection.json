@@ -44,5 +44,25 @@
         }
       ]
     }
+  ],
+  "contacts": [
+    {
+      "name": "Espen Volden",
+      "roles": [],
+      "emails": [
+        {
+          "value": "espen.volden@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Marco Spagnolli",
+      "roles": [],
+      "emails": [
+        {
+          "value": "marco.spagnolli@ohb.de"
+        }
+      ]
+    }
   ]
 }
