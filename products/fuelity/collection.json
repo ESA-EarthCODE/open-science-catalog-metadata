@@ -164,7 +164,7 @@
     "high-live-fuel-moisture-content",
     "low-live-fuel-moisture-content"
   ],
-  "title": "Fuelity",
+  "title": "Fuelity Fuel Moisture Content Dataset",
   "extent": {
     "spatial": {
       "bbox": [
