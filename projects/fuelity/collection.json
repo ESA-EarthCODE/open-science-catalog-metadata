@@ -18,8 +18,13 @@
     },
     {
       "rel": "via",
-      "href": "https://doi.org/10.24381/378d1497",
-      "title": "Cross Data Store (ECMWF)"
+      "href": "https://www.ecmwf.int/en/research/projects/fuelity",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/fuelity/",
+      "title": "EO4Society Link"
     },
     {
       "rel": "related",
@@ -32,6 +37,11 @@
       "href": "../../products/fuelity/collection.json",
       "type": "application/json",
       "title": "Fuelity Fuel Moisture Content Dataset"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/fuelity/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -71,7 +81,7 @@
       ]
     }
   ],
-  "title": "Fuelity",
+  "title": "Fuelity - Fuel Initialization Study",
   "extent": {
     "spatial": {
       "bbox": [
@@ -86,7 +96,7 @@
     "temporal": {
       "interval": [
         [
-          "1999-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z",
           "2025-09-30T23:59:59Z"
         ]
       ]
