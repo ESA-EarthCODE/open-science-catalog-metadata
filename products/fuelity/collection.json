@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "fuelity",
   "stac_version": "1.1.0",
-  "description": "Fuelity is an ESA initiative that provides global fire fuel biomass data, offering seasonally updated information on fire fuel characteristics.",
+  "description": "Fuelity is an ESA initiative that provides global fire fuel biomass data, offering seasonally updated information on fire fuel characteristics. This dataset provides a record of fuel characteristics at high spatiotemporal resolution: ~9km, daily. The two main variable groups are fuel load and fuel moisture, both of which are further divided by live/dead and wood/foliage fractions. The dataset combines state-of-the-art model data (ERA5-Land) with observations from multiple satellites and in-situ variables into a globally complete and consistent dataset. The data provides high spatiotemporal resolution data of fuel load, which is essential for modelling wildfire activity, which contributes directly to the derivation of multiple Essential Climate Variables (ECVs). The data is relevant not only for the wildfire community but also for studying various biogeochemical processes related to land-atmosphere interactions. Dead fuel moisture content is based on existing modelling principles which have not been scaled up to the global scale nor have they used the high accuracy mapping and output data available within the Integrated Forecast System (IFS) or the the fifth generation of reanalysis data produced by the European Centre for Medium-Range Weather Forecasts (ERA5). The live fuel moisture model was trained on a global insitu dataset which is based on sampling and does not provide a global product, this is the first attempt to achieve such a product using modelling. All variables were validated using independent observations when available. This is a first version of the dataset which will be updated to provide improved accuracy and expanded through time.",
   "links": [
     {
       "rel": "root",
@@ -21,6 +21,16 @@
       "href": "../../projects/fuelity/collection.json",
       "type": "application/json",
       "title": "Project: Fuelity"
+    },
+    {
+      "rel": "child",
+      "href": "https://doi.org/10.24381/378d1497",
+      "title": "Access"
+    },
+     {
+      "rel": "via",
+      "href": "https://xds-preprod.ecmwf.int/datasets/derived-fire-fuel-biomass?tab=documentation",
+      "title": "Documentation"
     },
     {
       "rel": "related",
@@ -89,14 +99,9 @@
       "title": "Variable: Low Live Fuel Moisture Content"
     },
     {
-      "rel": "child",
-      "href": "https://doi.org/10.24381/378d1497",
-      "title": "PRR link"
-    },
-    {
-      "rel": "via",
-      "href": "https://xds-preprod.ecmwf.int/datasets/derived-fire-fuel-biomass?tab=documentation",
-      "title": "Documentation"
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/fuelity/collection.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -113,31 +118,31 @@
   "sci:doi": "10.24381/378d1497",
   "cf:parameter": [
     {
-      "name": "dead-foliage"
+      "name": "dead_foliage"
     },
     {
-      "name": "dead-wood"
+      "name": "dead_wood"
     },
     {
-      "name": "live-wood"
+      "name": "live_wood"
     },
     {
-      "name": "live-leaf"
+      "name": "live_leaf"
     },
     {
-      "name": "live-fuel-moisture-content"
+      "name": "live_fuel_moisture_content"
     },
     {
-      "name": "dead-foliage-fuel-moisture-content"
+      "name": "dead_foliage_fuel_moisture_content"
     },
     {
-      "name": "dead-wood-fuel-moisture-content"
+      "name": "dead_wood_fuel_moisture_content"
     },
     {
-      "name": "high-live-fuel-moisture-content"
+      "name": "high_live_fuel_moisture_content"
     },
     {
-      "name": "low-live-fuel-moisture-content"
+      "name": "low_live_fuel_moisture_content"
     }
   ],
   "themes": [
@@ -187,6 +192,6 @@
   },
   "license": "proprietary",
   "keywords": [
-    "land"
+    "Land"
   ]
 }
