@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp",
   "stac_version": "1.0.0",
-  "description": "Assess time-space variability of terrestrial gross primary production  (GPP) of terrestrial ecosystems by a synergistic exploitation of the complementary information provided by  the Sentinel missions (Sentinel-2, Sentinel-3 and Sentinel-5P) at multiple spatial and temporal resolutions, as well as other Earth Observation and in situ data.",
+  "description": "The SEN4GPP project aimed to improve our knowledge on the spatio-temporal variations of GPP associated with terrestrial ecosystems through synergistic exploitation of the complementary information provided by the Sentinel missions (Sentinel-2, Sentinel-3 and Sentinel-5P) at multiple spatial and temporal resolutions. It adopted three estimation approaches to generate GPP datasets: a Light Use Efficiency (LUE) model, a Machine Learning (ML) approach (data-driven), and an approach which relied on the scaling of estimates of solar-induced fluorescence (SIF) by terrestrial ecosystems into GPP. The global GPP dataset derived using the LUE approach are provided here.",
   "links": [
     {
       "rel": "root",
