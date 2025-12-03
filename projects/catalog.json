@@ -498,6 +498,12 @@
     },
     {
       "rel": "child",
+      "href": "./fuelity/collection.json",
+      "type": "application/json",
+      "title": "Fuelity - Fuel Initialization Study"
+    },
+    {
+      "rel": "child",
       "href": "./glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
       "type": "application/json",
       "title": "GLAMBIE"

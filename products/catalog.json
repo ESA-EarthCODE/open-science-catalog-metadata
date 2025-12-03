@@ -426,6 +426,12 @@
     },
     {
       "rel": "child",
+      "href": "./fuelity/collection.json",
+      "type": "application/json",
+      "title": "Fuelity Fuel Moisture Content Dataset"
+    },
+    {
+      "rel": "child",
       "href": "./geodynamic-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
