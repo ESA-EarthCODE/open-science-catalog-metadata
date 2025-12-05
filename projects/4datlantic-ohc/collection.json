@@ -31,6 +31,12 @@
       "href": "/home/rofrau/dev/moheacan/open-science-catalog-metadata/themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "./4datlantic-ohc/collection.json",
+      "type": "application/json",
+      "title": "4DAtlantic-OHC"
     }
   ],
   "stac_extensions": [
@@ -90,11 +96,11 @@
     "temporal": {
       "interval": [
         [
-          "2002-04-15T00:00:00Z",
-          "2023-09-23T00:00:00Z"
+          "2021-07-06T00:00:00Z",
+          "2025-06-12T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "AVISO"
+  "proprietary": "AVISO"
 }
