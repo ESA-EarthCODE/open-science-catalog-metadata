@@ -1,176 +1,176 @@
 {
-    "type": "Collection",
-    "id": "deep-extreme-cubes",
-    "stac_version": "1.0.0",
-    "description": "This dataset is tailored to map around these extremes, focusing on persistent natural vegetation, and facilitate biosphere dynamics forecasting in response to the compound heatwave and drought extremes. It comprises over 40,000 globally sampled small data cubes (i.e. minicubes) in zarr format, with a spatial coverage of 2.5 by 2.5 km. Each minicube includes (i) Sentinel-2 L2A images, (ii) ERA5-Land variables and generated extreme event cube covering 2016 to 2022, and (iii) ancillary land cover and topography maps.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://zenodo.org/records/13904460",
-        "title": "Access"
-      },
-      {
-        "rel": "via",
-        "href": "https://arxiv.org/abs/2406.18179",
-        "title": "Documentation"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Products"
-      },
-      {
-        "rel": "related",
-        "href": "../../projects/deep-extremes/collection.json",
-        "type": "application/json",
-        "title": "Project: DEEP EXTREMES"
-      },
-      {
-        "rel": "related",
-        "href": "../../themes/land/catalog.json",
-        "type": "application/json",
-        "title": "Theme: Land"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/extreme-weather/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Extreme Weather"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/surface-reflectance/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Surface Reflectance"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/land-cover/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Land cover"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/digital-elevation-terrain-model-dem/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Digital Elevation/Terrain Model (DEM)"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/air-temperature/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Air Temperature"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/soil-moisture/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Soil Moisture"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/evapotranspiration/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Evapotranspiration"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/precipitation-liquid-or-solid/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Precipitation  (liquid or solid)"
-      },
-      {
-        "rel": "related",
-        "href": "../../variables/land-surface-topography/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Land surface topography"
-      },
-      {
-        "rel": "related",
-        "href": "../../eo-missions/sentinel-2/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: Sentinel-2"
-      },
-      {
-        "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deep-extreme-cubes/collection.json",
-        "type": "application/json"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
-    ],
-    "osc:project": "deep-extremes",
-    "osc:status": "completed",
-    "osc:region": "Global",
-    "osc:type": "product",
-    "created": "2023-10-30T00:00:00Z",
-    "cf:parameter": [
-      {
-        "name": "deepextremecubes-minicubes"
-      }
-    ],
-    "themes": [
-      {
-        "scheme": "https://github.com/stac-extensions/osc#theme",
-        "concepts": [
-          {
-            "id": "land"
-          }
-        ]
-      }
-    ],
-    "osc:variables": [
-      "surface-reflectance",
-      "extreme-weather",
-      "air-temperature",
-      "soil-moisture",
-      "evapotranspiration",
-      "precipitation-liquid-or-solid",
-      "land-surface-topography",
-      "land-cover",
-      "digital-elevation-terrain-model-dem"
-    ],
-    "osc:missions": [
-      "sentinel-2"
-    ],
-    "updated": "2024-10-07T20:32:06.234108Z",
-    "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts",
-    "extent": {
-      "spatial": {
-        "bbox": [
-          [
-            -180.0,
-            -90.0,
-            180.0,
-            90.0
-          ]
-        ]
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2016-01-01T00:00:00Z",
-            "2022-10-10T00:00:00Z"
-          ]
-        ]
-      }
+  "type": "Collection",
+  "id": "deep-extreme-cubes",
+  "stac_version": "1.0.0",
+  "description": "This dataset is tailored to map around these extremes, focusing on persistent natural vegetation, and facilitate biosphere dynamics forecasting in response to the compound heatwave and drought extremes. It comprises over 40,000 globally sampled small data cubes (i.e. minicubes) in zarr format, with a spatial coverage of 2.5 by 2.5 km. Each minicube includes (i) Sentinel-2 L2A images, (ii) ERA5-Land variables and generated extreme event cube covering 2016 to 2022, and (iii) ancillary land cover and topography maps.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
-    "license": "proprietary",
-    "keywords": [
-      "Climate Extremes",
-      "Ecology",
-      "Remote Sensing",
-      "Machine Learning",
-      "Sentinel-2"
-    ]
-  }
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/13904460",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://arxiv.org/abs/2406.18179",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-extremes/collection.json",
+      "type": "application/json",
+      "title": "Project: DEEP EXTREMES"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-weather/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Weather"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/digital-elevation-terrain-model-dem/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Digital Elevation/Terrain Model (DEM)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/air-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Air Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/evapotranspiration/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Evapotranspiration"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation-liquid-or-solid/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation  (liquid or solid)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-surface-topography/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land surface topography"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deep-extreme-cubes/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "deep-extremes",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2023-10-30T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "deepextremecubes-minicubes"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "surface-reflectance",
+    "extreme-weather",
+    "air-temperature",
+    "soil-moisture",
+    "evapotranspiration",
+    "precipitation-liquid-or-solid",
+    "land-surface-topography",
+    "land-cover",
+    "digital-elevation-terrain-model-dem"
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "updated": "2025-12-05T06:12:15Z",
+  "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2022-10-10T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Climate Extremes",
+    "Ecology",
+    "Remote Sensing",
+    "Machine Learning",
+    "Sentinel-2"
+  ]
+}
