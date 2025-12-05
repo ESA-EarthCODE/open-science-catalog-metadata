@@ -143,7 +143,7 @@
   "osc:missions": [
     "sentinel-2"
   ],
-  "updated": "2025-12-05T06:12:15Z",
+  "updated": "2025-12-05T06:16:34Z",
   "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts",
   "extent": {
     "spatial": {
