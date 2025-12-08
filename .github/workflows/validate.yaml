@@ -26,7 +26,7 @@ jobs:
           path: metadata
       - name: Prepare
         run: |
-          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.13
+          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.15
       - name: Validate
         run: |
           npx open-science-catalog-validation ./metadata

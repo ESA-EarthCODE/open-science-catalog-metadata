@@ -21,8 +21,8 @@
       "title": "DOI"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/seasfire/seasfire-cube_v0.4/catalog.json",
+      "rel": "item",
+      "href": "./item.json",
       "type": "application/json",
       "title": "SeasFire Cube v.0.4"
     },
@@ -49,6 +49,16 @@
       "href": "../../variables/burned-area/catalog.json",
       "type": "application/json",
       "title": "Variable: Burned Area"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/blob/main/Python-Tutorials/Seasfire_datacube_tutorial_Python.ipynb",
+      "title": "Tutorial: Access the SeasFire DataCube",
+      "description": "A Python notebook demonstrating how to access the SeasFire DataCube.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     },
     {
       "rel": "self",
