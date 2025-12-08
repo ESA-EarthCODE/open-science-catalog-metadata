@@ -51,6 +51,16 @@
       "title": "Variable: Burned Area"
     },
     {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/blob/main/Python-Tutorials/Seasfire_datacube_tutorial_Python.ipynb",
+      "title": "Tutorial: Access the SeasFire DataCube",
+      "description": "A Python notebook demonstrating how to access the SeasFire DataCube.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/seasfire-cube/collection.json",
       "type": "application/json"
