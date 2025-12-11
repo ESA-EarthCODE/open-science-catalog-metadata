@@ -48,6 +48,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemchimeds3v1/collection.json",
+      "type": "application/json",
+      "title": "AGRICEM_CHIME_DS3_v1"
     }
   ],
   "stac_extensions": [
