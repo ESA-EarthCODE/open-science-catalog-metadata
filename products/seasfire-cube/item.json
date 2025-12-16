@@ -1608,6 +1608,13 @@
       "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System"
     },
     {
+      "rel": "vcs",
+      "title": "Git repository for tutorials",
+      "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/",
+      "vcs:type": "git",
+      "vcs:branch": "main"
+    },
+    {
       "rel": "example",
       "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/blob/main/Python-Tutorials/Seasfire_datacube_tutorial_Python.ipynb",
       "title": "Tutorial: Access the SeasFire DataCube",
@@ -1616,6 +1623,12 @@
       "application:type": "jupyter-notebook",
       "application:embedded": true,
       "application:language": "Python"
+    },
+    {
+      "rel": "example",
+      "href": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube&urlpath=lab%2Ftree%2Ftutorial_seasfire-datacube%2FPython-Tutorials%2FSeasfire_datacube_tutorial_Python.ipynb&branch=main",
+      "type": "text/html",
+      "title": "Open tutorial notebook on the EarthCODE Portal Workspace"
     }
   ],
   "assets": {
