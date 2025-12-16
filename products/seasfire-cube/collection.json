@@ -68,7 +68,7 @@
       "application:language": "Python"
     },
     {
-      "rel": "related",
+      "rel": "example",
       "href": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube&urlpath=lab%2Ftree%2Ftutorial_seasfire-datacube%2FPython-Tutorials%2FSeasfire_datacube_tutorial_Python.ipynb&branch=main",
       "type": "text/html",
       "title": "Open tutorial notebook on the EarthCODE Portal Workspace"
