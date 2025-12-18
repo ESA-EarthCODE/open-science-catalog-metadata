@@ -18,6 +18,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4d-atlantantic-ohc-global/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "child",
       "href": "../../products/earth-energy-imballance-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO"

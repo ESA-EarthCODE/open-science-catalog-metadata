@@ -22,21 +22,16 @@
       "title": "Website"
     },
     {
-      "rel": "via",
-      "href": "https://eo4society.esa.int/projects/4datlantic-ohc/",
-      "title": "EO4Society Link"
-    },
-    {
       "rel": "related",
-      "href": "/home/rofrau/dev/moheacan/open-science-catalog-metadata/themes/oceans/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
       "rel": "child",
-      "href": "./4datlantic-ohc/collection.json",
+      "href": "../../products/4d-atlantic-ohc-global/collection.json",
       "type": "application/json",
-      "title": "4DAtlantic-OHC"
+      "title": "Global Ocean Heat Content"
     }
   ],
   "stac_extensions": [
@@ -46,7 +41,7 @@
   ],
   "osc:status": "completed",
   "osc:type": "project",
-  "updated": "2025-12-02T09:46:10Z",
+  "updated": "2025-12-18T16:34:51Z",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -70,13 +65,13 @@
       ]
     },
     {
-      "name": "Robin Fraudeau",
+      "name": "Magellium",
       "roles": [
-        "project_manager"
+        "consoritum_member"
       ],
       "emails": [
         {
-          "value": "robin.fraudeau@magellium.fr"
+          "value": "contact@magellium.fr"
         }
       ]
     }
@@ -102,5 +97,5 @@
       ]
     }
   },
-  "proprietary": "AVISO"
+  "license": "proprietary"
 }
