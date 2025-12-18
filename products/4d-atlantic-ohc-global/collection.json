@@ -32,13 +32,13 @@
       "rel": "related",
       "href": "../../eo-missions/in-situ-observations/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: In-situ-observations"
+      "title": "EO Mission: In-situ observations"
     },
     {
       "rel": "related",
       "href": "../../eo-missions/grace/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: Grace"
+      "title": "EO Mission: GRACE"
     },
     {
       "rel": "related",
