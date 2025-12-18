@@ -12,7 +12,7 @@
     },
     {
       "rel": "child",
-      "href": "./4d-atlantantic-ohc-global/collection.json",
+      "href": "./4d-atlantic-ohc-global/collection.json",
       "type": "application/json",
       "title": "Global Ocean Heat Content"
     },
