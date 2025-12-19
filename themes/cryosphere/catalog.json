@@ -583,6 +583,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/test/collection.json",
+      "type": "application/json",
+      "title": "test"
     }
   ],
   "updated": "2024-08-27T17:27:42.199831Z",
