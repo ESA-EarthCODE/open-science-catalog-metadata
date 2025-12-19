@@ -42,6 +42,24 @@
     },
     {
       "rel": "related",
+      "href": "../../eo-missions/grace-fo/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE-FO"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-3"
+    },
+    {
+      "rel": "related",
       "href": "../../variables/ocean-heat-budget/catalog.json",
       "type": "application/json",
       "title": "Variable: Ocean Heat Budget"
@@ -85,7 +103,9 @@
   ],
   "osc:missions": [
     "in-situ-observations",
-    "grace"
+    "grace-fo",
+    "sentinel-6",
+    "jason-3"
   ],
   "osc:variables": [
     "ocean-heat-budget"
