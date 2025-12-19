@@ -54,6 +54,12 @@
     },
     {
       "rel": "child",
+      "href": "./4datlantic-ohc/collection.json",
+      "type": "application/json",
+      "title": "4DAtlantic-OHC"
+    },
+    {
+      "rel": "child",
       "href": "./advancing-the-study-of-extreme-weather-events-with-data-deep-learning-methods-and-climate-analysis/collection.json",
       "type": "application/json",
       "title": "Advancing the Study of Extreme Weather Events with Data, Deep Learning Methods and Climate Analysis"
