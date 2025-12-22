@@ -834,7 +834,7 @@
     },
     {
       "rel": "child",
-      "href": "./sentinel-1-for-science-amazonas/collection.json",
+      "href": "./s14scienceamazonas/collection.json",
       "type": "application/json",
       "title": "S14SCIENCE AMAZONAS"
     },
