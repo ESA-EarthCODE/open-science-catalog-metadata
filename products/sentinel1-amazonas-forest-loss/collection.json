@@ -27,7 +27,7 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
-    }
+    },
     {
       "rel": "related",
       "href": "../../eo-missions/sentinel-1/catalog.json",
