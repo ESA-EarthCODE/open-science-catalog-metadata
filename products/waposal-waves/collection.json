@@ -85,7 +85,6 @@
   "osc:type": "product",
   "created": "2025-10-29T11:40:41Z",
   "updated": "2025-10-29T11:40:41Z",
-  "sci:doi": "https://doi.org/10.57780/s3d-83ad619",
   "cf:parameter": [
     {
       "name": "wave-period"
