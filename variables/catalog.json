@@ -7241,6 +7241,12 @@
       "title": "Supraglacial Lakes"
     },
     {
+      "rel": "child",
+      "href": "./tree-cover-change/catalog.json",
+      "type": "application/json",
+      "title": "Tree Cover Change"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json"

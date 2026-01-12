@@ -1973,6 +1973,12 @@
         "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
     {
+        "rel": "child",
+        "href": "./sentinel1-amazonas-forest-loss/collection.json",
+        "type": "application/json",
+        "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
