@@ -39,6 +39,11 @@
         "type": "application/json"
       },
       {
+        "rel": "cite-as",
+        "href": "https://doi.org/10.57780/ESA-6D202E9",
+        "title": "DOI"
+      },
+      {
         "href": "../catalog.json",
         "rel": "parent",
         "title": "Products",
@@ -78,10 +83,11 @@
         "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/smart-ch4/smart_ch4_d13c.zarr",
         "rel": "via",
         "title": "Access"
-      }
+      },
     ],
     "osc:missions": ["numerical-models"],
     "osc:variables": ["13-ch4-delta"],
+    "sci:doi": "10.57780/esa-6d202e9",
     "cf:parameter": [
       {
         "name": "isotopic-signature",
