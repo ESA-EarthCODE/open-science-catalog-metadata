@@ -83,7 +83,7 @@
         "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/smart-ch4/smart_ch4_d13c.zarr",
         "rel": "via",
         "title": "Access"
-      },
+      }
     ],
     "osc:missions": ["numerical-models"],
     "osc:variables": ["13-ch4-delta"],
