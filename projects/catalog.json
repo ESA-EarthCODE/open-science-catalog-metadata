@@ -1190,6 +1190,12 @@
       "href": "./fairsendd/collection.json",
       "type": "application/json",
       "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection"
+    },
+    {
+      "rel": "child",
+      "href": "./agricem/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

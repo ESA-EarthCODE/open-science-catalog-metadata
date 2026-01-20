@@ -379,6 +379,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/agricem/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemchimeds3v1/collection.json",
+      "type": "application/json",
+      "title": "AGRICEM_CHIME_DS3_v1"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
