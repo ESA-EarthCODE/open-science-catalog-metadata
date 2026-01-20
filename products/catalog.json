@@ -1949,28 +1949,28 @@
       "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     },
     {
-        "rel": "child",
-        "href": "./coastal-carbon-mapper-carbon-fractions-data/collection.json",
-        "type": "application/json",
-        "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024"
+      "rel": "child",
+      "href": "./coastal-carbon-mapper-carbon-fractions-data/collection.json",
+      "type": "application/json",
+      "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024"
     },
     {
-        "rel": "child",
-        "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
-        "type": "application/json",
-        "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+      "rel": "child",
+      "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+      "type": "application/json",
+      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
     },
     {
-        "rel": "child",
-        "href": "./d13c-ch4-signatures-smart-ch4/collection.json",
-        "type": "application/json",
-        "title": "Global δ13C(CH4) Source Signatures"
+      "rel": "child",
+      "href": "./d13c-ch4-signatures-smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "Global δ13C(CH4) Source Signatures"
     },
     {
-        "rel": "child",
-        "href": "./polar-lakes-s1-s2-antarctica/collection.json",
-        "type": "application/json",
-        "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
+      "rel": "child",
+      "href": "./polar-lakes-s1-s2-antarctica/collection.json",
+      "type": "application/json",
+      "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
     {
         "rel": "child",
@@ -1982,6 +1982,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./test/collection.json",
+      "type": "application/json",
+      "title": "test"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
