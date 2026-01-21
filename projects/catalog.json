@@ -636,7 +636,7 @@
     },
     {
       "rel": "child",
-      "href": "./methane/collection.json",
+      "href": "./methane-project/collection.json",
       "type": "application/json",
       "title": "Methane+"
     },
