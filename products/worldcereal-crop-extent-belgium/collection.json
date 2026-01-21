@@ -1439,12 +1439,6 @@
       "type": "application/json"
     },
     {
-      "href": "/eodata/Sentinel-2/MSI/L2A_N0500/2020/10/17/S2A_MSIL2A_20201017T105041_N0500_R051_T31UFS_20230412T045749.SAFE",
-      "rel": "derived_from",
-      "title": "Derived from /eodata/Sentinel-2/MSI/L2A_N0500/2020/10/17/S2A_MSIL2A_20201017T105041_N0500_R051_T31UFS_20230412T045749.SAFE",
-      "type": "application/json"
-    },
-    {
       "href": "/eodata/Sentinel-2/MSI/L2A_N0500/2020/10/19/S2B_MSIL2A_20201019T103959_N0500_R008_T31UFS_20230411T024752.SAFE",
       "rel": "derived_from",
       "title": "Derived from /eodata/Sentinel-2/MSI/L2A_N0500/2020/10/19/S2B_MSIL2A_20201019T103959_N0500_R008_T31UFS_20230411T024752.SAFE",
