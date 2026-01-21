@@ -42,7 +42,7 @@
     },
     {
       "rel": "item",
-      "href": "./esa-cci-permafrost/record.json",
+      "href": "./esa-cci-permafrost-workflow/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
     },

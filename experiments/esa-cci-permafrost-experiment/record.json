@@ -50,7 +50,7 @@
     ],
     "formats": [],
     "license": "proprietary",
-    "osc:workflow": "esa-cci-permafrost"
+    "osc:workflow": "esa-cci-permafrost-workflow"
   },
   "linkTemplates": [],
   "links": [
@@ -68,7 +68,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/esa-cci-permafrost/record.json",
+      "href": "../../workflows/esa-cci-permafrost-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: ESA CCI permafrost"
     },

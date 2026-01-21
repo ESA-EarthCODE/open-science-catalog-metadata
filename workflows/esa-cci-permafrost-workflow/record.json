@@ -1,5 +1,5 @@
 {
-  "id": "esa-cci-permafrost",
+  "id": "esa-cci-permafrost-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",

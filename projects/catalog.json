@@ -1134,7 +1134,7 @@
     },
     {
       "rel": "child",
-      "href": "./polaris/collection.json",
+      "href": "./polaris-project/collection.json",
       "type": "application/json",
       "title": "POLARIS"
     },

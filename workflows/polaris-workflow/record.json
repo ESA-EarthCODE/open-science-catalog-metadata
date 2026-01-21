@@ -48,7 +48,7 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
-    "osc:project": "polaris"
+    "osc:project": "polaris-project"
   },
   "linkTemplates": [],
   "links": [
@@ -71,7 +71,7 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/polaris/collection.json",
+      "href": "../../projects/polaris-project/collection.json",
       "type": "application/json",
       "title": "Project: POLARIS"
     },
