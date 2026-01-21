@@ -166,7 +166,7 @@
       }
     },
     {
-      "rel": "related",
+      "rel": "application-run",
       "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fdeepesdl-doc&urlpath=lab%2Ftree%2Fdeepesdl-doc%2Fnotebooks%2Fscience-cases%2FLand_Biosphere_Society.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the DeepESDL platform"
