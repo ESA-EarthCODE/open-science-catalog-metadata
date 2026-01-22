@@ -32,6 +32,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-griml-iml-fv1/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Marginal Lake Inventory annual time-series Edition 1"
     }
   ],
   "stac_extensions": [

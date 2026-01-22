@@ -32,6 +32,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/fuelity-product/collection.json",
+      "type": "application/json",
+      "title": "Fuelity Fuel Moisture Content Dataset"
     }
   ],
   "stac_extensions": [

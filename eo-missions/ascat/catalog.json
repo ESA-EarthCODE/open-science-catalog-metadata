@@ -26,6 +26,30 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/ascat/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/extraim-daily-precipitation/collection.json",
+      "type": "application/json",
+      "title": "The extrAIM dataset: A merged satellite-based daily precipitation dataset for the Mediterranean region (including an ensemble of 20 synthetic realisations)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for the Netherlands region (including Reusel)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-sodankylae/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Lapland and Sodankyla region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-iberia/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

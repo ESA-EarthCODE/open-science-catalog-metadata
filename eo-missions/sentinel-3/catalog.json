@@ -533,10 +533,10 @@
       "title": "VarDyn North Atlantic Sea Surface Height and Temperature L4 products"
     },
     {
-        "rel": "child",
-        "href": "../../products/waposal-waves/collection.json",
-        "type": "application/json",
-        "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+      "rel": "child",
+      "href": "../../products/waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
     },
     {
       "rel": "child",
@@ -554,6 +554,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-3/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gpp-sen4gpp/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

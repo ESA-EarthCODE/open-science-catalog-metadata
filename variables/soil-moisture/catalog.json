@@ -68,6 +68,30 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/deep-extreme-cubes/collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for the Netherlands region (including Reusel)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-sodankylae/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Lapland and Sodankyla region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-iberia/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)"
     }
   ],
   "stac_extensions": [

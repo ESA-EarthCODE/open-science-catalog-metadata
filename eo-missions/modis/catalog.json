@@ -26,6 +26,24 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/modis/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for the Netherlands region (including Reusel)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-sodankylae/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Lapland and Sodankyla region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-iberia/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",
