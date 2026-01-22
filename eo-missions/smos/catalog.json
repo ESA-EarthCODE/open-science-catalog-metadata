@@ -242,6 +242,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smos/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arctic-ocean-sea-surface-salinity-l3/collection.json",
+      "type": "application/json",
+      "title": "Arctic Ocean Sea Surface Salinity Level 3 maps (V.4.0)"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

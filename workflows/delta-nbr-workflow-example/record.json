@@ -113,7 +113,7 @@
       "application:preferred_app": "JupyterLab"
     },
     {
-      "rel": "related",
+      "rel": "application-run",
       "href": "https://workspace.earthcode-bids.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/bids2025-tutorial&urlpath=lab%2Ftree%2Fbids2025-tutorial%2Fburnt-area-example%2Fpangeo_on_EarthCODE.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the EDC platform"

@@ -32,6 +32,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/grounded-eo-database/collection.json",
+      "type": "application/json",
+      "title": "The GROUNDED EO database: Extensive fiducial reference measurements of vegetation biophysical variables"
     }
   ],
   "stac_extensions": [

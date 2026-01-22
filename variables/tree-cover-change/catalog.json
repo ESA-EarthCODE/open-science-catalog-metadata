@@ -32,6 +32,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sentinel1-amazonas-forest-loss/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps"
     }
   ],
   "stac_extensions": [

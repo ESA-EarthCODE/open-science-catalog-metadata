@@ -426,7 +426,7 @@
     },
     {
       "rel": "child",
-      "href": "./fuelity/collection.json",
+      "href": "./fuelity-product/collection.json",
       "type": "application/json",
       "title": "Fuelity Fuel Moisture Content Dataset"
     },

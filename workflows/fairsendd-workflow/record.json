@@ -1,5 +1,5 @@
 {
-  "id": "fairsendd",
+  "id": "fairsendd-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"

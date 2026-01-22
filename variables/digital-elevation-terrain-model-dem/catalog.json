@@ -56,6 +56,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/deep-extreme-cubes/collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
     }
   ],
   "stac_extensions": [

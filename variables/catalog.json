@@ -7212,12 +7212,6 @@
     },
     {
       "rel": "child",
-      "href": "./surface-temperature/catalog.json",
-      "type": "application/json",
-      "title": "Surface Temperature"
-    },
-    {
-      "rel": "child",
       "href": "./permafrost-area-fraction/catalog.json",
       "type": "application/json",
       "title": "Permafrost Area Fraction"

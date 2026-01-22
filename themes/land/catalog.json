@@ -379,6 +379,78 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/deep-extreme-cubes/collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/extraim-daily-precipitation/collection.json",
+      "type": "application/json",
+      "title": "The extrAIM dataset: A merged satellite-based daily precipitation dataset for the Mediterranean region (including an ensemble of 20 synthetic realisations)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sentinel1-amazonas-forest-loss/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for the Netherlands region (including Reusel)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/fuelity-product/collection.json",
+      "type": "application/json",
+      "title": "Fuelity Fuel Moisture Content Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/grounded-eo-database/collection.json",
+      "type": "application/json",
+      "title": "The GROUNDED EO database: Extensive fiducial reference measurements of vegetation biophysical variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/yipeeo-features/collection.json",
+      "type": "application/json",
+      "title": "Yield Data Sentinel-1 & Sentinel-2 Features"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-sodankylae/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Lapland and Sodankyla region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/gpp-sen4gpp/collection.json",
+      "type": "application/json",
+      "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tccas-iberia/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hydrology-4D/collection.json",
+      "type": "application/json",
+      "title": "Hydrology-4D"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

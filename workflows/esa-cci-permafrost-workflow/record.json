@@ -1,5 +1,5 @@
 {
-  "id": "esa-cci-permafrost",
+  "id": "esa-cci-permafrost-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
@@ -73,16 +73,9 @@
     },
     {
       "rel": "child",
-      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "href": "../../experiments/esa-cci-permafrost-experiment/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
-    },
-     {
-      "rel": "vcs",
-      "title": "Git source repository",
-      "href": "https://github.com/deepesdl/cube-gen.git",
-      "vcs:type": "git",
-      "vcs:branch": "main"
     },
     {
       "rel": "related",
@@ -121,7 +114,7 @@
       "application:preferred_app": "JupyterLab"
     },
     {
-      "rel": "related",
+      "rel": "application-run",
       "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fcube-gen&urlpath=lab%2Ftree%2Fcube-gen%2FPermafrost%2FCreate-CCI-Permafrost-cube-EarthCODE.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the DeepESDL platform"

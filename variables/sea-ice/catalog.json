@@ -38,6 +38,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS"
     }
   ],
   "stac_extensions": [

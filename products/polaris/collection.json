@@ -23,7 +23,7 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/polaris/collection.json",
+      "href": "../../projects/polaris-project/collection.json",
       "type": "application/json",
       "title": "Project: POLARIS"
     },
@@ -56,7 +56,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "polaris",
+  "osc:project": "polaris-project",
   "osc:experiment": "polaris-experiment",
   "osc:status": "ongoing",
   "osc:region": "Global",
