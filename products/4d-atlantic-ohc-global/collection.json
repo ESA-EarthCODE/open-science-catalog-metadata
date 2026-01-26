@@ -77,7 +77,7 @@
     {
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/collection.json",
-      "title": "Data collection"
+      "title": "Global Ocean Heat Content"
     }
   ],
   "stac_extensions": [
@@ -131,7 +131,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "Aviso License",
   "keywords": [
     "ocean",
     "heat",
