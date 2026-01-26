@@ -1,0 +1,59 @@
+{
+  "type": "Catalog",
+  "id": "tree-cover-change",
+  "stac_version": "1.0.0",
+  "description": "Tree cover change: changes in the presence/extent of tree canopy over time (e.g., forest loss from clearing, fire, storms; forest gain from regeneration, afforestation/reforestation), typically measured from remote sensing as canopy cover or land cover change.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/2f72ebfd-bbbd-4cda-bfc1-0d650272b51d?gtm_keyword=LAND%20USE/LAND%20COVER%20CHANGE&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "GCMD Keyword: Land Use/Land Cover Change"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/tree-cover-change/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-12-22T00:00:00Z",
+  "keywords": [
+    "tree cover",
+    "forest cover",
+    "forest loss",
+    "forest gain",
+    "land cover change"
+  ],
+  "title": "Tree Cover Change"
+}

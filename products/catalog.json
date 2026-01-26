@@ -432,6 +432,12 @@
     },
     {
       "rel": "child",
+      "href": "./fuelity/collection.json",
+      "type": "application/json",
+      "title": "Fuelity Fuel Moisture Content Dataset"
+    },
+    {
+      "rel": "child",
       "href": "./geodynamic-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
@@ -1971,6 +1977,12 @@
         "href": "./polar-lakes-s1-s2-antarctica/collection.json",
         "type": "application/json",
         "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
+    },
+    {
+        "rel": "child",
+        "href": "./sentinel1-amazonas-forest-loss/collection.json",
+        "type": "application/json",
+        "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps"
     },
     {
       "rel": "self",
