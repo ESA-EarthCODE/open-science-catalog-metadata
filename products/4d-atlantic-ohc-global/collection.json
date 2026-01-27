@@ -78,6 +78,12 @@
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/collection.json",
       "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
+      "type": "application/pdf",
+      "title": "Aviso License"
     }
   ],
   "stac_extensions": [
@@ -131,7 +137,7 @@
       ]
     }
   },
-  "license": "Aviso",
+  "license": "other",
   "keywords": [
     "ocean",
     "heat",

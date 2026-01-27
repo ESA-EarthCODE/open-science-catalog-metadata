@@ -32,6 +32,12 @@
       "href": "../../products/4d-atlantic-ohc-global/collection.json",
       "type": "application/json",
       "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
+      "type": "application/pdf",
+      "title": "Aviso License"
     }
   ],
   "stac_extensions": [
@@ -97,5 +103,5 @@
       ]
     }
   },
-  "license": "Aviso"
+  "license": "other"
 }
