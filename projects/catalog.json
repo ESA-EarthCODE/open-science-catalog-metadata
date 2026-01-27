@@ -506,7 +506,7 @@
       "rel": "child",
       "href": "./glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
       "type": "application/json",
-      "title": "GLAMBIE"
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
     },
     {
       "rel": "child",
