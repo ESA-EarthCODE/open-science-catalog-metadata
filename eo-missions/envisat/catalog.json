@@ -5,6 +5,11 @@
   "description": "EnviSat was a satellite mission monitoring Earth's environment. EnviSat application areas included meteorology, climatology, environment, atmospheric chemistry, vegetation, hydrology, land use, and ocean and ice processes. EnviSat was a research mission that carried ten instruments and provided a wealth of data related to Earth's health and climate change. EnviSat carried the Medium Resolution Imaging Spectrometer( MERIS), Michelson Interferometer for Passive Atmospheric Sounding (MIPAS), Radar Altimeter-2 (RA-2), Laser Retro-Reflector (LRR), Microwave Radiometer (MWR), Advanced SAR (ASAR), Global Ozone Monitoring by Occultation of Stars (GOMOS), Scanning Imaging Absorption Spectrometer for Atmospheric Cartography (SCIAMACHY), Advanced Along Track Scanning Radiometer, provided by the UK and Australia (AATSR), and Doppler Orbitography and Radiopositioning Integrated by Satellite (DORIS).",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/envisat/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -185,9 +190,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/envisat/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

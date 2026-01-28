@@ -1,0 +1,97 @@
+{
+  "id": "glambie-v1.0.190-experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-01-28T18:18:18Z",
+    "updated": "2026-01-28T18:18:18Z",
+    "type": "experiment",
+    "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190",
+    "description": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190. The code associated to results published under GlaMBIE project. The code is available via GitHub or zenodo./n/nThis is an automatically generated build release. Please obtain the packaged version of this release from the python artifact repo at: https://console.cloud.google.com/artifacts/python/earthwave-sys-0/europe-west1/ewpr. Instructions on how to install packages from this repo are included in the README.md. Please view CHANGELOG.md for additional details.",
+    "keywords": [
+      "glacier mass balance"
+    ],
+    "contacts": [
+      {
+        "name": "EarthCODE Demo",
+        "organization": "EarthCODE",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://opensciencedata.esa.int/"
+          }
+        ],
+        "contactInstructions": "Contact via EarthCODE",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "csv"
+      }
+    ],
+    "license": "MIT",
+    "osc:workflow": "glambie-workflow-v1.0.190"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/glambie-workflow-v1.0.190/record.json",
+      "type": "application/json",
+      "title": "Workflow: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
+    },
+    {
+      "rel": "input",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "https://github.com/ESA-EarthCODE/glambie.git",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ]
+}
