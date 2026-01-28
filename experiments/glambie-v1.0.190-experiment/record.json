@@ -47,7 +47,7 @@
       }
     ],
     "license": "MIT",
-    "osc:workflow": "'glambie-workflow-v1.0.190"
+    "osc:workflow": "glambie-workflow-v1.0.190"
   },
   "linkTemplates": [],
   "links": [
