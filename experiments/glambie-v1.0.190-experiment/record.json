@@ -71,7 +71,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/'glambie-workflow-v1.0.190/record.json",
+      "href": "../../workflows/glambie-workflow-v1.0.190/record.json",
       "type": "application/json",
       "title": "Workflow: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
     },

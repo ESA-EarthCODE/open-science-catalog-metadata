@@ -41,7 +41,21 @@
     "description": "Dataset contents: The GlaMBIE dataset contains both the input data and the results to the exercise./n/nThe datasets are organised in the two main data folders, each with a more detailed data information file, and with subfolders containing the data in csv files./n/nCitation: The GlaMBIE Team (2024): Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset 1.0.0. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-glambie-2024-07",
     "datetime": "2024-07-16T00:00:00Z"
   },
-  "links": [],
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    }
+
+  ],
   "assets": {
     "data": {
       "href": "https://wgms.ch/downloads/GlaMBIE_Data_DOI_10.5904_wgms-glambie-2024-07.zip",
