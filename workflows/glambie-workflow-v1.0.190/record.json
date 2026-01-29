@@ -17,7 +17,7 @@
       }
     ],
     "updated": "2026-01-28T18:18:18Z",
-    "created": "2026-01-28T18:18:18Z",
+    "created": "2026-01-21T18:18:18Z",
     "keywords": [
       "glacier mass balance",
       "Python"
@@ -61,6 +61,12 @@
       "href": "https://github.com/ESA-EarthCODE/glambie.git",
       "type": "application/json",
       "title": "Git source repository"
+    },
+    {
+      "rel": "download",
+      "href": https://zenodo.org/records/18329043/files/earthwave/glambie-v1.0.190.zip?download=1",
+      "type": "application/zip",
+      "title": "Automatically generated build release of the glambie v.1.0.190 code."
     },
     {
       "rel": "related",

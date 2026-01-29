@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "glambie-dataset",
   "stac_version": "1.0.0",
-  "description": "This dataset contains the input data and results of GlaMBIE. The input data represents the original data submitted to GlaMBIE, edited to fit the monthly grid and format of GlaMBIE. The results contain the final combined estimates amongst observation methods (DEM differencing & glaciological method, altimetry, gravimetry) and the results for each observation method individually. \n\nThe datasets\u2019 time resolution is annual. Results exist for the hydrological year as well as for the calendar year. Within GlaMBIE, the solutions per observation method are combined into one regional solution and then converted to calendar years for global aggregation.\n\nThe GlaMBIE dataset contains both the input data and the results to the exercise. The datasets are organised in the two main data folders, each with a more detailed data information file, and with subfolders containing the data in csv files.\n\n2.1. GlaMBIE Input, final version 2024-07-16 folder with input datasets for all 19 glacier regions.\n\n2.2. GlaMBIE Results, final version 2024-07-16, folder with results for calendar years and for hydrological years, for all 19 glacier regions.\n\nThe GlaMBIE Team (2025, Nature) provides more information about the approach and results.\n\nHow to cite: GlaMBIE (2024): Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset 1.0.0. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-glambie-2024-07",
+  "description": "This dataset contains the input data and results of GlaMBIE. The input data represents the original data submitted to GlaMBIE, edited to fit the monthly grid and format of GlaMBIE. The results contain the final combined estimates amongst observation methods (DEM differencing & glaciological method, altimetry, gravimetry) and the results for each observation method individually. \n\nThe datasets time resolution is annual. Results exist for the hydrological year as well as for the calendar year. Within GlaMBIE, the solutions per observation method are combined into one regional solution and then converted to calendar years for global aggregation.\n\nGlaMBIE dataset archive (ZIP) contains both the input data and the results to the exercise. The datasets are organised in the two main data folders, each with a more detailed data information file, and with subfolders containing the data in csv files.\n\n2.1. GlaMBIE Input, final version 2024-07-16 folder with input datasets for all 19 glacier regions.\n\n2.2. GlaMBIE Results, final version 2024-07-16, folder with results for calendar years and for hydrological years, for all 19 glacier regions.\n\nThe GlaMBIE Team (2025, Nature) provides more information about the approach and results.\n\nRelated publication: The GlaMBIE Team (2025): Community estimate of global glacier mass changes from 2000 to 2023. Nature. https://doi.org/10.1038/s41586-024-08545-z. \n\nHow to cite: GlaMBIE (2024): Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset 1.0.0. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-glambie-2024-07.",
   "links": [
     {
       "rel": "root",
@@ -111,6 +111,26 @@
       "title": "Documentation"
     },
     {
+      "rel": "example",
+      "href": "https://colab.research.google.com/github/earthwave/glambie_demo_notebooks/blob/main/glambie_regional_plots.ipynb",
+      "title": "Working with the Data - Demonstration Notebook: Regional Results",
+      "description": "Jupyter notebooks that can be used to investigate the GlaMBIE results. They are hosted on Google Colab, and simply require a Google account to be run interactively.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "example",
+      "href": "https://colab.research.google.com/github/earthwave/glambie_demo_notebooks/blob/main/glambie_global_plots.ipynb",
+      "title": "Working with the Data - Demonstration Notebook: Global Results",
+      "description": "Jupyter notebooks that can be used to investigate the GlaMBIE results. They are hosted on Google Colab, and simply require a Google account to be run interactively.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
       "rel": "item",
       "href": "./glambie-dataset-zip_folder.json",
       "type": "application/json",
@@ -158,12 +178,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
         [
           -180.0,
           -90.0,
