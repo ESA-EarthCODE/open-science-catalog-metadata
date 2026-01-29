@@ -1,0 +1,107 @@
+{
+  "type": "Collection",
+  "id": "4datlantic-ohc",
+  "stac_version": "1.1.0",
+  "description": "Given the major role of the ocean in the climate system, it is essential to characterize the temporal and spatial variations of its heat content. The OHC product results from the space geodetic approach also called altimetry-gravimetry approach.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.4datlantic-ohc.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/4d-atlantic-ohc-global/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
+      "type": "application/pdf",
+      "title": "Aviso License"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "osc:type": "project",
+  "updated": "2025-12-18T16:34:51Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Roberto Sabia",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "roberto.sabia@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Magellium",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "robin.fraudeau@magellium.fr"
+        }
+      ]
+    }
+  ],
+  "title": "4DAtlantic-OHC",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-06T00:00:00Z",
+          "2025-06-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
