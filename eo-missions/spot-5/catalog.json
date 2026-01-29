@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "spot-5",
+  "stac_version": "1.0.0",
+  "description": "Launched in May 2002, SPOT-5 (Satellite pour l'Observation de la Terre) is the fifth satellite in the SPOT series. Operated by the French National Centre for Space Studies (CNES), it aimed to provide continuity for SPOT-1 to -4 missions, and improve its existing products for global users. The mission was designed to image land processes and vegetation for monitoring, mapping and planning purposes. Upon the mission concluding in March 2015, the satellite was repurposed for an experimental commercial mission at a lower orbit, with this mission concluding in August 2015.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=253&utm_source=eoportal&utm_content=spot-5",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/spot-5/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2026-01-29T17:27:42.171831Z",
+  "keywords": [],
+  "title": "SPOT-5 (Satellite pour l'Observation de la Terre)"
+}
