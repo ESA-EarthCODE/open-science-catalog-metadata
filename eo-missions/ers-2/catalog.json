@@ -5,6 +5,11 @@
   "description": "ERS-2 (European Remote Sensing Satellite -2) was launched in April 1995, the ERS-2 was an enhancement of the previous ERS-1 mission. ERS-2 provided microwave spectrum environmental monitoring across a range of disciplines (oceans, polar ice, forestry).",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/ers-2/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -59,9 +64,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/ers-2/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",
