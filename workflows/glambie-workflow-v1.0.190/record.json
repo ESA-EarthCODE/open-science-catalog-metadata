@@ -64,7 +64,7 @@
     },
     {
       "rel": "download",
-      "href": https://zenodo.org/records/18329043/files/earthwave/glambie-v1.0.190.zip?download=1",
+      "href": "https://zenodo.org/records/18329043/files/earthwave/glambie-v1.0.190.zip?download=1",
       "type": "application/zip",
       "title": "Automatically generated build release of the glambie v.1.0.190 code."
     },
