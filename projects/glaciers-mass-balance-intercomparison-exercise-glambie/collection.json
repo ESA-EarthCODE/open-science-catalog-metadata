@@ -33,6 +33,12 @@
       "title": "Theme: Cryosphere"
     },
     {
+      "rel": "related",
+      "href": "../../worklfows/glambie-workflow-v1.0.190/record.json",
+      "type": "application/json",
+      "title": "Workflow: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
+    },
+    {
       "rel": "child",
       "href": "../../products/glambie-dataset/collection.json",
       "type": "application/json",
@@ -45,6 +51,9 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "osc:status": "ongoing",
+  "osc:workflows": [
+    "glambie-workflow-v1.0.190"
+  ],
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
