@@ -30,7 +30,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/glambie-v1.0.190-experiment/catalog.json",
+      "href": "../../experiments/glambie-v1.0.190-experiment/record.json",
       "type": "application/json",
       "title": "Experiment: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
     },
