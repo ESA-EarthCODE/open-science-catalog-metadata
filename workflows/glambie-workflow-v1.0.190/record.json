@@ -76,7 +76,7 @@
     },
     {
       "rel": "related",
-      "href": "../../cryosphere/land/catalog.json",
+      "href": "../../cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     }
