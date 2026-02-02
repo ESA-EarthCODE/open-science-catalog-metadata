@@ -96,6 +96,48 @@
     },
     {
       "rel": "related",
+      "href": "../../eo-missions/geoeye-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GeoEye-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/pleiades/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Pleiades-HR (High-Resolution Optical Imaging Constellation of CNES)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/worldview-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: WorldView-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/worldview-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: WorldView-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/spot-5/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SPOT-5 (Satellite pour l'Observation de la Terre)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/spot-6-7/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SPOT-6 and SPOT-7 (Azersky)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/srtm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SRTM (Shuttle Radar Topography Mission)"
+    },
+    {
+      "rel": "related",
       "href": "../../variables/glacier-mass-balance-ice-sheet-mass-balance/catalog.json",
       "type": "application/json",
       "title": "Variable: Glacier Mass Balance/Ice Sheet Mass Balance"
@@ -169,7 +211,14 @@
     "cryosat-2",
     "ers-1",
     "ers-2",
-    "envisat"
+    "envisat", 
+    "geoeye-1",
+    "pleiades", 
+    "worldview-1",
+    "worldview-2",
+    "spot-5",
+    "spot-6-7",
+    "srtm"   
   ],
   "osc:variables": [
     "glacier-mass-balance-ice-sheet-mass-balance"

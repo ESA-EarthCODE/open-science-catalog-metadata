@@ -443,6 +443,48 @@
       "title": "WindSat"
     },
     {
+      "rel": "child",
+      "href": "./geoeye-1/catalog.json",
+      "type": "application/json",
+      "title": "GeoEye-1"
+    },
+    {
+      "rel": "child",
+      "href": "./pleiades/catalog.json",
+      "type": "application/json",
+      "title": "Pleiades-HR (High-Resolution Optical Imaging Constellation of CNES)"
+    },
+    {
+      "rel": "child",
+      "href": "./worldview-1/catalog.json",
+      "type": "application/json",
+      "title": "WorldView-1"
+    },
+    {
+      "rel": "child",
+      "href": "./worldview-2/catalog.json",
+      "type": "application/json",
+      "title": "WorldView-2"
+    },
+    {
+      "rel": "child",
+      "href": "./spot-5/catalog.json",
+      "type": "application/json",
+      "title": "SPOT-5 (Satellite pour l'Observation de la Terre)"
+    },
+    {
+      "rel": "child",
+      "href": "./spot-6-7/catalog.json",
+      "type": "application/json",
+      "title": "SPOT-6 and SPOT-7 (Azersky)"
+    },
+    {
+      "rel": "child",
+      "href": "./srtm/catalog.json",
+      "type": "application/json",
+      "title": "SRTM (Shuttle Radar Topography Mission)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

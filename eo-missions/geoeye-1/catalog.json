@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "geoeye-1",
+  "stac_version": "1.0.0",
+  "description": "GeoEye-1 is an Earth-imaging satellite operated by Maxar of the United States which launched 6 September 2008 and remains operational. The satellite is included in the WorldView constellation, which consists of the four WorldView satellites and GeoEye-1. The satellite imagery is used for a variety of purposes, including but not limited to defence, disaster response, air and marine transportation, oil and gas exploration, mining production and exploration, mapping of remote regions, location-based services, insurance and risk management, agricultural crop management and more. GeoEye-1 can revisit any point on Earth once every three days, or even sooner depending on latitude and elevation angle.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=989",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/geoeye-1/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2026-01-29T17:27:42.171831Z",
+  "keywords": [],
+  "title": "GeoEye-1"
+}
