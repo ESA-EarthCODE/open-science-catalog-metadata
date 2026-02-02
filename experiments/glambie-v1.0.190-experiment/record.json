@@ -76,6 +76,11 @@
       "title": "Workflow: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
     },
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/glambie-v1.0.190-experiment/record.json",
+      "type": "application/json"
+    },
+    {
       "rel": "input",
       "href": "../../products/glambie-dataset/collection.json",
       "type": "application/yaml",
