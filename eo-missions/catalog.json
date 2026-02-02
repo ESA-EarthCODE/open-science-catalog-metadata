@@ -444,43 +444,43 @@
     },
     {
       "rel": "child",
-      "href": "./eo-missions/geoeye-1/catalog.json",
+      "href": "./geoeye-1/catalog.json",
       "type": "application/json",
       "title": "GeoEye-1"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/pleiades/catalog.json",
+      "href": "./pleiades/catalog.json",
       "type": "application/json",
       "title": "Pleiades-HR (High-Resolution Optical Imaging Constellation of CNES)"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/worldview-1/catalog.json",
+      "href": "./worldview-1/catalog.json",
       "type": "application/json",
       "title": "WorldView-1"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/worldview-2/catalog.json",
+      "href": "./worldview-2/catalog.json",
       "type": "application/json",
       "title": "WorldView-2"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/spot-5/catalog.json",
+      "href": "./spot-5/catalog.json",
       "type": "application/json",
       "title": "SPOT-5 (Satellite pour l'Observation de la Terre)"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/spot-6-7/catalog.json",
+      "href": "./spot-6-7/catalog.json",
       "type": "application/json",
       "title": "SPOT-6 and SPOT-7 (Azersky)"
     },
     {
       "rel": "child",
-      "href": "./eo-missions/srtm/catalog.json",
+      "href": "./srtm/catalog.json",
       "type": "application/json",
       "title": "SRTM (Shuttle Radar Topography Mission)"
     },
