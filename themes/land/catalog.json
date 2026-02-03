@@ -379,6 +379,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

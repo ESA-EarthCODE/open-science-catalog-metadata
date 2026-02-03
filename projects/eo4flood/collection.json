@@ -1,0 +1,98 @@
+{
+  "id": "eo4flood",
+  "title": "EO4FLOOD",
+  "osc:status": "ongoing",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "The EO4FLOOD Project (Earth Observation data for Advancing Flood Forecasting) funded by ESA aims at demonstrating the maturity and effectiveness of cutting-edge satellite data in enhancing flood forecasting systems. The project focuses on leveraging advanced satellite technologies and algorithms to improve the accuracy and timeliness of existing hydrological and hydraulic models, resulting in more reliable and precise flood predictions.",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -143.5150449108604,
+          -58.370182795172255,
+          165.99885304053927,
+          82.65641324823292
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "https://eo4flood.org/",
+      "rel": "Project website"
+    },
+    {
+      "href": "../../themes/hydrology/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Hydrology"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Espen Volden",
+      "roles": []
+    },
+    {
+      "name": "CNR-IRPI",
+      "roles": []
+    },
+    {
+      "name": "DHI",
+      "roles": []
+    },
+    {
+      "name": "DTU",
+      "roles": []
+    },
+    {
+      "name": "RSS-Hydro",
+      "roles": []
+    },
+    {
+      "name": "TUM",
+      "roles": []
+    },
+    {
+      "name": "GIS",
+      "roles": []
+    },
+    {
+      "name": "GMV",
+      "roles": []
+    },
+    {
+      "name": "Hydromatters",
+      "roles": []
+    },
+    {
+      "name": "Magellium",
+      "roles": []
+    },
+    {
+      "name": "SMHI",
+      "roles": []
+    }
+  ]
+}
