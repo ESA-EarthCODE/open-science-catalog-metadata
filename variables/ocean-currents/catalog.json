@@ -20,13 +20,13 @@
       "rel": "child",
       "href": "../../products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 3D ocean currents_North Atlantic"
+      "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity"
     },
     {
       "rel": "child",
       "href": "../../products/stokes-drift-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Stokes drift estimation_Atlantic Ocean"
+      "title": "WOC Estimation of Stokes Drift Components from WaveWatch3 Model over Global Ocean"
     },
     {
       "rel": "parent",
