@@ -18,15 +18,15 @@
     },
     {
       "rel": "child",
-      "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",	
       "type": "application/json",
-      "title": "Oceanic/Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
+      "title": "WOC Predicted Oil Spill Transport for the Golden Trader Incident"
     },
     {
       "rel": "child",
-      "href": "../../products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "href": "../../products/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
       "type": "application/json",
-      "title": "Oceanic/Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+      "title": "WOC Predicted Oil Spill Transport for the Sanchi Incident"
     },
     {
       "rel": "parent",

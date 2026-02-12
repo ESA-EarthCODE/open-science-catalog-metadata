@@ -74,7 +74,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.959110Z",
-  "title": "Gridded Geostrophic Surface Current Oceans Agulhas", 
+  "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region", 
   "extent": {
     "spatial": {
       "bbox": [

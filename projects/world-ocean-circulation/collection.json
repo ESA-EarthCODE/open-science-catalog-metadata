@@ -24,91 +24,97 @@
       "rel": "child",
       "href": "../../products/daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 2D ocean surface currents North Atlantic"
+      "title": "WOC North Atlantic 2-D Merged SSH/SST currents"
     },
     {
       "rel": "child",
       "href": "../../products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 3D ocean currents North Atlantic"
+      "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity"
     },
     {
       "rel": "child",
       "href": "../../products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Doppler derived surface current Agulhas S1"
+      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region"
     },
     {
       "rel": "child",
       "href": "../../products/gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Gridded Geostrophic Surface Current Oceans Agulhas"
+      "title": "WOC Geostrophic Surface Current Estimated by the BFN-QG over Agulhas Region"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic HR Fronts Agulhas"
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Agulhas Region"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
       "type": "application/json",
-      "title": "Oceanic LR Fronts Agulhas"
+      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over Agulhas Region"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
       "type": "application/json",
-      "title": "Oceanic Fronts North Atlantic"
+      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over North Atlantic Region"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
-      "title": "Oceanic Fronts Western Europe"
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region"
     },
     {
       "rel": "child",
       "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",	
       "type": "application/json",
-      "title": "Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
+      "title": "WOC Predicted Oil Spill Transport for the Golden Trader Incident"
     },
     {
       "rel": "child",
       "href": "../../products/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
       "type": "application/json",
-      "title": "Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+      "title": "WOC Predicted Oil Spill Transport for the Sanchi Incident"
     },
     {
       "rel": "child",
       "href": "../../products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
+      "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 1 (Miron et al, 2020)"
     },
     {
       "rel": "child",
       "href": "../../products/sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 2"
+      "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 2"
     },
     {
       "rel": "child",
       "href": "../../products/stokes-drift-global-ocean-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Stokes drift estimation Global Ocean"
+      "title": "WOC Estimation of Stokes Drift Components from WaveWatch3 Model over Global Ocean"
     },
     {
       "rel": "child",
       "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current North Atlantic"
+      "title": "WOC North Atlantic Total Surface Current"
     },
     {
       "rel": "child",
       "href": "../../products/wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Wind stress vector (& anomalies) Hourly ERA5"
+      "title": "WOC ERA* Hourly Global Stress Equivalent Wind and Wind Stress"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/total-surface-current-15/collection.json",
+      "type": "application/json",
+      "title": "WOC Total Surface Current at 15m"
     },
     {
       "rel": "parent",

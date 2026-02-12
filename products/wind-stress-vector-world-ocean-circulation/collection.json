@@ -74,7 +74,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.968110Z",
-  "title": "Wind stress vector (& anomalies) Hourly ERA5",
+  "title": "WOC ERA* Hourly Global Stress Equivalent Wind and Wind Stress",
   "extent": {
     "spatial": {
       "bbox": [

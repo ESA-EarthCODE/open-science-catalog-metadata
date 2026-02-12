@@ -75,7 +75,7 @@
     ],
     "osc:missions": [],
     "updated": "2024-09-12T20:32:22.963110Z",
-    "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1",
+    "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 1 (Miron et al, 2020)",
     "extent": {
       "spatial": {
         "bbox": [
@@ -100,7 +100,6 @@
     "keywords": [
       "Ocean Circulation",
       "Sargassum",
-      "simulation",
-      "Ocean Currents"
+      "simulation"
     ]
   }
