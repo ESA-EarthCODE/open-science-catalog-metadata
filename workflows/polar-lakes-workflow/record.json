@@ -1,0 +1,92 @@
+{
+  "id": "polar-lakes-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data",
+    "description": This repository contains the code and weights required to generate the PolarLakes dataset. The workflow involves detecting supraglacial lakes in Antarctica using Sentinel-1 and Sentinel-2 data, and then merging the predictions to create a bi-weekly dataset. This Zenodo repository includes: \n\npolarlakes-main.zip: Zipped version of the GitHub repository used to create the dataset. It also includes extensive example notebooks for training the model with your own data or running inference on pre-trained weights.\n\ncheckpoints-polarlakes.zip: Pre-trained weights for Sentinel-1 and Sentinel-2 data, used to run the inference for the PolarLakes dataset.",
+    "type": "workflow",
+    "osc:project": "lakes4antarctica",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "python"
+      }
+    ],
+    "updated": "2026-02-17T11:45:46Z",
+    "created": "2025-11-03T11:45:46Z",
+    "keywords": [
+      "supraglacial lakes",
+      "u-net",
+      "Sentinel-2",
+      "Sentinel-1",
+      "antarctica",
+      "deep learning",
+      "remote sensing",
+      "earth observation"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/lakes4antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: Lakes4Antarctica"
+    },
+    {
+      "rel": "Download",
+      "href": "https://zenodo.org/records/17467230",
+      "type": "application/json",
+      "title": "The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data"
+    },
+    {
+      "rel": "Related publication",
+      "href": "https://doi.org/10.3390/rs13020197",
+      "title": "A Novel Method for Automated Supraglacial Lake Mapping in Antarctica Using Sentinel-1 SAR Imagery and Deep Learning"
+    },
+    {
+      "rel": "Preprint",
+      "href": "https://doi.org/10.33774/coe-2025-6svt4",
+      "title": "Advancing Supraglacial Lake Mapping in Antarctica: A Deep Learning Approach Using Sentinel-2 Imagery- Preprint"
+    },
+    {
+      "rel": "Additional required dataset",
+      "href": "https://zenodo.org/records/15723722",
+      "title": "Training, testing and intercomparison data for the segmentation of supraglacial lakes in Antarctica"
+    },
+    {
+      "rel": "related",
+      "href": "../../cryosphere/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ]
+}
