@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "eradiate-radiative-transfer-model",
   "stac_version": "1.0.0",
-  "description": "Eradiate is a 3D radiative transfer model designed to support calibration/validation activities in the field of remote sensing. For that purpose, it aims at achieving an accuracy better than 1% on the simulation of satellite images. This requires aggregating modelling advances done by multiple scientific communities, and Eradiate is therefore designed to facilitate the integration of new models and algorithms. High accuracy also requires embracing the full complexity of the world: Eradiate therefore uses the Monte Carlo ray tracing method and utilizes the Mitsuba 3 rendering system as its radiometric kernel. Eradiate is also free software. We want to provide the scientific community with comprehensive, high-quality software, designed as a common platform to share modelling advances",
+  "description": "Eradiate is a 3D radiative transfer model designed to support calibration/validation activities in the field of remote sensing. For that purpose, it aims at achieving an accuracy better than 1% on the simulation of satellite images. This requires aggregating modelling advances done by multiple scientific communities, and Eradiate is therefore designed to facilitate the integration of new models and algorithms. High accuracy also requires embracing the full complexity of the world: Eradiate therefore uses the Monte Carlo ray tracing method and utilizes the Mitsuba 3 rendering system as its radiometric kernel. Eradiate is also free software. We want to provide the scientific community with comprehensive, high-quality software, designed as a common platform to share modelling advances.\n\nThe development of Eradiate is funded by the Copernicus programme through a project managed by the European Space Agency (contract no 40000127201/19/I‑BG). The design phase was funded by the MetEOC-3 project (EMPIR grant 16ENV03).",
   "links": [
     {
       "rel": "root",
@@ -100,7 +100,7 @@
       "interval": [
         [
           "2025-10-14T00:00:00Z",
-          null
+          "2027-04-30T00:00:00Z"
         ]
       ]
     }
