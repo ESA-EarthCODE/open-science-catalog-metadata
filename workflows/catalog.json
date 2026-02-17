@@ -74,6 +74,12 @@
       "href": "./eradiate-radiative-transfer-workflow/record.json",
       "type": "application/json",
       "title": "Eradiate Radiative Transfer Model - software package"
+    },
+    {
+      "rel": "item",
+      "href": "./polar-lakes-workflow/record.json",
+      "type": "application/json",
+      "title": "The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
