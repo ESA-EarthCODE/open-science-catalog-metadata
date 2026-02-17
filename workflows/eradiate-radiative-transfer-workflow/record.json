@@ -1,16 +1,16 @@
 {
-  "id": "eradiate-radiative-transfer-workflow",
+  "id": "eradiate-radiative-transfer-software-package",
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "properties": {
-    "title": "Eradiate radiative transfer model workflow",
-    "description": "Eradiate software workflow for reproducible radiative transfer simulations in Earth observation use cases.",
+    "title": "Eradiate radiative transfer model - software package",
+    "description": "Eradiate is a modern radiative transfer simulation software package for Earth observation applications. Its main focus is accuracy, and for that purpose, it uses the Monte Carlo ray tracing method to solve the radiative transfer equation. /n/nEradiate uses the Mitsuba 3 renderer, developed by the Realistic Graphics Lab, taking advantage of its Python interface and proven architecture, and extends it with components implementing numerical methods and models used in radiative transfer for Earth observation. The Eradiate team acknowledges Mitsuba creators and contributors for their work. /n/nEradiate is developed by a core team consisting of Vincent Leroy, Claudia Emde, Nicolae Marton, Nicolas Misk and Yves Govaerts. For more information about the Eradiate team, visit Project website.",
     "type": "workflow",
     "osc:project": "eradiate-radiative-transfer-model",
-    "osc:status": "completed",
+    "osc:status": "ongoing",
     "formats": [
       {
         "name": "python"
@@ -66,6 +66,12 @@
       "href": "https://github.com/eradiate/eradiate",
       "type": "application/json",
       "title": "Git source repository"
+    },
+    {
+      "rel": "Documentation",
+      "href": "https://eradiate.readthedocs.org/",
+      "type": "application/json",
+      "title": "Documentation"
     },
     {
       "rel": "related",
