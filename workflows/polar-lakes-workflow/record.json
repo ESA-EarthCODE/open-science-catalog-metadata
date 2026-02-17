@@ -7,7 +7,7 @@
   ],
   "properties": {
     "title": "The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data",
-    "description": This repository contains the code and weights required to generate the PolarLakes dataset. The workflow involves detecting supraglacial lakes in Antarctica using Sentinel-1 and Sentinel-2 data, and then merging the predictions to create a bi-weekly dataset. This Zenodo repository includes: \n\npolarlakes-main.zip: Zipped version of the GitHub repository used to create the dataset. It also includes extensive example notebooks for training the model with your own data or running inference on pre-trained weights.\n\ncheckpoints-polarlakes.zip: Pre-trained weights for Sentinel-1 and Sentinel-2 data, used to run the inference for the PolarLakes dataset.",
+    "description": "This repository contains the code and weights required to generate the PolarLakes dataset. The workflow involves detecting supraglacial lakes in Antarctica using Sentinel-1 and Sentinel-2 data, and then merging the predictions to create a bi-weekly dataset. This Zenodo repository includes: \n\npolarlakes-main.zip: Zipped version of the GitHub repository used to create the dataset. It also includes extensive example notebooks for training the model with your own data or running inference on pre-trained weights.\n\ncheckpoints-polarlakes.zip: Pre-trained weights for Sentinel-1 and Sentinel-2 data, used to run the inference for the PolarLakes dataset.",
     "type": "workflow",
     "osc:project": "lakes4antarctica",
     "osc:status": "completed",
