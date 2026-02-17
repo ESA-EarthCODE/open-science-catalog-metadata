@@ -5,6 +5,11 @@
   "description": "Activities funded by ESA",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
@@ -1181,15 +1186,16 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "child",
       "href": "./fairsendd/collection.json",
       "type": "application/json",
       "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection"
+    },
+    {
+      "rel": "child",
+      "href": "./eradiate-radiative-transfer-model/collection.json",
+      "type": "application/json",
+      "title": "Eradiate radiative transfer model"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

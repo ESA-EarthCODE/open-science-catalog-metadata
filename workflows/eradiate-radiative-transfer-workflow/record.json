@@ -1,0 +1,83 @@
+{
+  "id": "eradiate-radiative-transfer-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Eradiate radiative transfer model workflow",
+    "description": "Eradiate software workflow for reproducible radiative transfer simulations in Earth observation use cases.",
+    "type": "workflow",
+    "osc:project": "eradiate-radiative-transfer-model",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "python"
+      }
+    ],
+    "updated": "2026-02-17T11:23:58Z",
+    "created": "2026-02-17T11:23:58Z",
+    "keywords": [
+      "radiative-transfer",
+      "earth-observation",
+      "python",
+      "simulation"
+    ],
+    "license": "LGPL-3.0-only",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          },
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.5281/zenodo.7224314"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eradiate-radiative-transfer-model/collection.json",
+      "type": "application/json",
+      "title": "Project: Eradiate radiative transfer model"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/eradiate/eradiate",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../atmosphere/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../land/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}

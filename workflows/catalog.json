@@ -68,6 +68,12 @@
       "href": "./glambie-workflow-v1.0.190/record.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
+    },
+    {
+      "rel": "item",
+      "href": "./eradiate-radiative-transfer-workflow/record.json",
+      "type": "application/json",
+      "title": "Eradiate radiative transfer model workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

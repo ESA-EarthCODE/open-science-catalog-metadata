@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "eradiate-radiative-transfer-model",
+  "stac_version": "1.0.0",
+  "description": "Eradiate is a 3D radiative transfer model designed to support calibration/validation activities in the field of remote sensing. For that purpose, it aims at achieving an accuracy better than 1% on the simulation of satellite images. This requires aggregating modelling advances done by multiple scientific communities, and Eradiate is therefore designed to facilitate the integration of new models and algorithms. High accuracy also requires embracing the full complexity of the world: Eradiate therefore uses the Monte Carlo ray tracing method and utilizes the Mitsuba 3 rendering system as its radiometric kernel. Eradiate is also free software. We want to provide the scientific community with comprehensive, high-quality software, designed as a common platform to share modelling advances",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.eradiate.eu",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "updated": "2026-02-17T11:22:32Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Ferran Gascon",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "ferran.gascon@esa.int."
+        }
+      ]
+    },
+    {
+      "name": "Eradiate Team",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "support@eradiate.eu"
+        }
+      ]
+    }
+  ],
+  "title": "Eradiate radiative transfer model",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-10-14T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "LGPL-3.0-only"
+}
