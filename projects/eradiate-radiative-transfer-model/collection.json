@@ -23,9 +23,9 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/eradiate-radiative-transfer-software/record.json",
+      "href": "../../workflows/eradiate-radiative-transfer-workflow/record.json",
       "type": "application/json",
-      "title": "Workflow: Eradiate Radiative Transfer - software package"
+      "title": "Workflow: Eradiate Radiative Transfer Model - software package"
     },
     {
       "rel": "related",
