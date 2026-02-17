@@ -23,6 +23,12 @@
     },
     {
       "rel": "related",
+      "href": "../../workflows/eradiate-radiative-transfer-software/record.json",
+      "type": "application/json",
+      "title": "Workflow: Eradiate Radiative Transfer - software package"
+    },
+    {
+      "rel": "related",
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
@@ -75,7 +81,7 @@
     {
       "name": "Eradiate Team",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ],
       "emails": [
         {
