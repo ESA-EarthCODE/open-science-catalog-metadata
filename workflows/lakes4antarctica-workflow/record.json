@@ -1,0 +1,82 @@
+{
+  "id": "lakes4antarctica-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "IceLines – A new data set of Antarctic ice shelf front positions - workflow",
+    "description": "The processing of IceLines has been carried out in the Calvalus system and GPU-cluster available at DLR’s Earth Observation Center by means of proprietary software and dedicated Python (v3.6 and v3.7) scripts. Given the use of proprietary tools, the implemented processing pipeline cannot be openly released to the public. However, all processing steps can be accessed and reproduced as follows: The pre-processing of the Sentinel-1 imagery can be replicated with the open source ESA SNAP Toolbox 8.0 and the processing steps described in Fig. 2. The code of the HED-Unet based on Pytorch (v1.7) is available at https://github.com/khdlr/HED-UNet and the final post-processing script (Python v3.7) is available at https://download.geoservice.dlr.de/icelines/files/icelines_auxiliary_v1.zip. Additionally, this folder includes data used for the accuracy assessment, a Python script for bulk download (bulk-download-icelines.py) and an exemplary script (‘display-icelines-gee.js’) to display IceLines data with the corresponding Sentinel-1 scenes in Google Earth Engine.",
+    "type": "workflow",
+    "osc:project": "lakes4antarctica",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "python"
+      }
+    ],
+    "updated": "2026-02-17T11:45:46Z",
+    "created": "2026-02-17T11:45:46Z",
+    "keywords": [
+      "supraglacial lake",
+      "Antarctica",
+      "surface hydrology",
+      "Sentinel-2",
+      "Sentinel-1",
+      "surface melt",
+      "ice shelf",
+      "neural networks"
+    ],
+    "license": "various",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/lakes4antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: Lakes4Antarctica"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/khdlr/HED-UNet",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "code",
+      "href": "https://download.geoservice.dlr.de/icelines/files/icelines_auxiliary_v1.zip",
+      "title": "Additional Code"
+    },
+    {
+      "rel": "related",
+      "href": "../../cryosphere/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ]
+}
