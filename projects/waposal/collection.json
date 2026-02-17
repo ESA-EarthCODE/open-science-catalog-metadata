@@ -111,6 +111,11 @@
       "title": "EO4Society"
     },
     {
+      "href": "https://doi.org/10.1016/j.egyr.2026.109133",
+      "rel": "publication",
+      "title": "High-resolution mapping of wave energy resources in the Mediterranean Sea using satellite altimetry"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
