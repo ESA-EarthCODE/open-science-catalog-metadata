@@ -20,27 +20,13 @@
       "rel": "child",
       "href": "../../products/daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity"
-=======
-      "title": "Daily 3D ocean currents North Atlantic"
->>>>>>> main
     },
     {
       "rel": "child",
       "href": "../../products/swot-east-greenland-current/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC Estimation of Stokes Drift Components from WaveWatch3 Model over Global Ocean"
-=======
-      "title": "SWOT-BFNQG East Greenland Current"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/stokes-drift-global-ocean-world-ocean-circulation/collection.json",
-      "type": "application/json",
-      "title": "Stokes drift estimation Global Ocean"
->>>>>>> main
     },
     {
       "rel": "parent",

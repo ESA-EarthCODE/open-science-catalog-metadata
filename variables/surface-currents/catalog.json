@@ -20,21 +20,13 @@
       "rel": "child",
       "href": "../../products/daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC North Atlantic 2-D Merged SSH/SST currents"
-=======
-      "title": "Daily 2D ocean surface currents North Atlantic"
->>>>>>> main
     },
     {
       "rel": "child",
       "href": "../../products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity product in Agulhas current"
-=======
-      "title": "Doppler derived surface current Agulhas S1"
->>>>>>> main
     },
     {
       "rel": "child",
@@ -46,11 +38,7 @@
       "rel": "child",
       "href": "../../products/gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region"
-=======
-      "title": "Gridded Surface Current Oceans Agulhas"
->>>>>>> main
     },
     {
       "rel": "child",
@@ -62,21 +50,13 @@
       "rel": "child",
       "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC North Atlantic Total Surface Current"
-=======
-      "title": "Total surface current North Atlantic"
->>>>>>> main
     },
         {
       "rel": "child",
       "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-<<<<<<< HEAD
       "title": "WOC Total surface current 15m"
-=======
-      "title": "Total surface current Tropical Atlantic"
->>>>>>> main
     },
     {
       "rel": "parent",
