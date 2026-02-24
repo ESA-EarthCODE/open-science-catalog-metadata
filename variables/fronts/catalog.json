@@ -18,27 +18,27 @@
     },
     {
       "rel": "child",
-      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
-      "type": "application/json",
-      "title": "Oceanic Fronts Western Europe"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
-      "type": "application/json",
-      "title": "Oceanic Fronts North Atlantic"
-    },
-    {
-      "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic HR Fronts Agulhas"
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Agulhas Region"
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
       "type": "application/json",
-      "title": "Oceanic LR Fronts Agulhas"
+      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over Agulhas Region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over North Atlantic Region"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region"
     },
     {
       "rel": "parent",

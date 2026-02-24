@@ -12,8 +12,13 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/0aa7daac-43e6-42f3-9f95-ef7da46bc702",
       "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme2/ocean_currents/woc-l4-cur-natl2d_rep-1d/v2.0/pum.pdf",
+      "title": "Documentation"
     },
     {
       "rel": "parent",
@@ -74,7 +79,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.964110Z",
-  "title": "Daily 3D ocean currents North Atlantic",
+  "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity",
   "extent": {
     "spatial": {
       "bbox": [
