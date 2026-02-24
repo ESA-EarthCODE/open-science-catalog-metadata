@@ -105,7 +105,8 @@
       }
     ],
     "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
       "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "osc:project": "deep-extremes",
@@ -113,15 +114,20 @@
     "osc:region": "Global",
     "osc:type": "product",
     "created": "2023-10-30T00:00:00Z",
-    "start_datetime": "2016-01-01T00:00:00Z",
-    "end_datetime": "2022-10-10T00:00:00Z",
     "cf:parameter": [
       {
         "name": "deepextremecubes-minicubes"
       }
     ],
-    "osc:themes": [
-      "land"
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
     ],
     "osc:variables": [
       "surface-reflectance",

@@ -26,6 +26,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/13-ch4-delta/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/d13c-ch4-signatures-smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "Global δ13C(CH4) Source Signatures"
     }
   ],
   "stac_extensions": [
@@ -36,7 +48,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }

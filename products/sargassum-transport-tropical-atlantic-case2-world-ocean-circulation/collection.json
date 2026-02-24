@@ -40,7 +40,7 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/fronts/catalog.json",
+        "href": "../../variables/sargassum/catalog.json",
         "type": "application/json",
         "title": "Variable: Sargassum"
       },
@@ -51,7 +51,8 @@
       }
     ],
     "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
       "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "osc:project": "world-ocean-circulation",
@@ -59,16 +60,21 @@
     "osc:region": "Tropical Atlantic",
     "osc:type": "product",
     "created": "2021-11-30T00:00:00Z",
-    "start_datetime": "2010-01-01T00:00:00Z",
-    "end_datetime": "2020-12-31T23:59:59Z",
     "sci:doi": "https://doi.org/10.12770/d8390761-5045-4407-9f76-ddaf490b24ac",
     "cf:parameter": [
       {
         "name": "sargassum_transport"
       }
     ],
-    "osc:themes": [
-      "oceans"
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
     ],
     "osc:variables": [
       "sargassum"

@@ -1,48 +1,56 @@
 {
-    "type": "Catalog",
-    "id": "surface-reflectance",
-    "stac_version": "1.0.0",
-    "description": "The ratio of reflected radiation to that of the incident radiation on a surface.",
-    "links": [
-      {
-        "rel": "root",
-        "href": "../../catalog.json",
-        "type": "application/json",
-        "title": "Open Science Catalog"
-      },
-      {
-        "rel": "via",
-        "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/f043c0a8-9cee-4c51-bf64-a4aaa34ab75d?gtm_keyword=REFLECTANCE&gtm_scheme=Earth%20Science",
-        "type": "text/html",
-        "title": "Description"
-      },
-      {
-        "rel": "parent",
-        "href": "../catalog.json",
-        "type": "application/json",
-        "title": "Variables"
-      },
-      {
-        "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/surface-reflectance/catalog.json",
-        "type": "application/json"
-      }
-    ],
-    "stac_extensions": [
-      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
-    ],
-    "themes": [
-      {
-        "scheme": "https://github.com/stac-extensions/osc#theme",
-        "concepts": [
-          {
-            "id": "Land"
-          }
-        ]
-      }
-    ],
-    "updated": "2024-10-07T17:27:42.219831Z",
-    "keywords": ["Land Surface",
-                "Surface Radiative Properties"],
-    "title": "Surface Reflectance"
-  }
+  "type": "Catalog",
+  "id": "surface-reflectance",
+  "stac_version": "1.0.0",
+  "description": "The ratio of reflected radiation to that of the incident radiation on a surface.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/f043c0a8-9cee-4c51-bf64-a4aaa34ab75d?gtm_keyword=REFLECTANCE&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/surface-reflectance/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-10-07T17:27:42.219831Z",
+  "keywords": [
+    "Land Surface",
+    "Surface Radiative Properties"
+  ],
+  "title": "Surface Reflectance"
+}

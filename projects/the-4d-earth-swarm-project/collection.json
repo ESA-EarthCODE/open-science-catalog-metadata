@@ -96,17 +96,38 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/the-4d-earth-swarm-project/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere Ionosphere"
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "The 4D-Earth Swarm project",
   "osc:status": "completed",
-  "osc:themes": [
-    "Solid Earth",
-    "Magnetosphere_Ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        },
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [
@@ -158,19 +179,16 @@
       ]
     }
   ],
-  "start_datetime": "2019-04-16T00:00:00Z",
-  "end_datetime": "2022-04-30T23:59:59Z",
-  "osc:missions": [],
   "updated": "2024-09-12T20:32:22.984110Z",
   "title": "4D-Earth SWARM",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

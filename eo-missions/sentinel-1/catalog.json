@@ -66,12 +66,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/glacier-surface-flow-velocity-alpglacier/collection.json",
-      "type": "application/json",
-      "title": "Glacier surface flow velocity_SwissAlps_S1/2"
-    },
-    {
-      "rel": "child",
       "href": "../../products/gnss-positioning-solution-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
@@ -213,6 +207,12 @@
       "href": "../../products/european-ground-motion-classification-eugmc/collection.json",
       "type": "application/json",
       "title": "European Ground Motion Classification dataset (EuGMC)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/polar-lakes-s1-s2-antarctica/collection.json",
+      "type": "application/json",
+      "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
     {
       "rel": "parent",

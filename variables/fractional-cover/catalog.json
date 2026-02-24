@@ -1,0 +1,53 @@
+{
+    "type": "Catalog",
+    "id": "fractional-cover",
+    "stac_version": "1.0.0",
+    "description": "Fractions (of an area or the pixel) of photosynthetic (green) vegetation and non-photosynthetic (dry, litter) vegetation and the remaining fraction of bare soil, including stones and rock.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://agvariables.org/eav/fractional-cover",
+        "type": "text/html",
+        "title": "Description"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Variables"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/fractional-cover/catalog.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "updated": "2025-02-21T17:27:42.214831Z",
+    "keywords": [],
+    "title": "Fractional Cover"
+  }

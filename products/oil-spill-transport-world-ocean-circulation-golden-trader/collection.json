@@ -40,7 +40,7 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/fronts/catalog.json",
+        "href": "../../variables/oil-spills/catalog.json",
         "type": "application/json",
         "title": "Variable: Oil Spills"
       },
@@ -51,7 +51,8 @@
       }
     ],
     "stac_extensions": [
-      "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
       "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "osc:project": "world-ocean-circulation",
@@ -59,16 +60,21 @@
     "osc:region": "North Sea",
     "osc:type": "product",
     "created": "2021-11-30T00:00:00Z",
-    "start_datetime": "2010-01-01T00:00:00Z",
-    "end_datetime": "2020-12-31T23:59:59Z",
     "sci:doi": "10.12770/d06e06dc-b193-4aa1-b05a-7c541698aff0",
     "cf:parameter": [
       {
         "name": "oil_spill_transport"
       }
     ],
-    "osc:themes": [
-      "oceans"
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
     ],
     "osc:variables": [
       "oil-spills"

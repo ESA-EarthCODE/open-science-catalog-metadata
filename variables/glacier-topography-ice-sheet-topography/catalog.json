@@ -50,6 +50,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/glacier-topography-ice-sheet-topography/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
     }
   ],
   "stac_extensions": [
@@ -60,7 +66,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Cryosphere"
+          "id": "cryosphere"
         }
       ]
     }

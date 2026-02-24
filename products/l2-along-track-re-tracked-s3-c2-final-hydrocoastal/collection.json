@@ -11,18 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/Hydrocoastal/L2E/cs2_full/catalog.json",
-      "type": "application/json",
-      "title": "L2 Extended Product (Final Product)– for all regions (CS2_FULL)"
-    },
-    {
-      "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/Hydrocoastal/L2E/s3_full/catalog.json",
-      "type": "application/json",
-      "title": "L2 Extended Product (Final Product) for all regions (S3_FULL)"
-    },
-    {
       "rel": "via",
       "href": "https://avl-repo.earthconsole.eu/sarvatore/Hydrocoastal/L2E/",
       "title": "Access"
@@ -117,7 +105,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "hydrocoastal-coastal-ocean-and-inland-water-altimetry",
@@ -125,17 +114,24 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2023-09-23T00:00:00Z",
-  "start_datetime": "2010-09-06T00:00:00Z",
-  "end_datetime": "2022-09-30T23:59:59Z",
   "sci:doi": "10.5270/esa-hydrocoastal-sar_altimeter_L2E_2010_2022_v_1.0_2023_12",
   "cf:parameter": [
     {
       "name": "l2_along_track_re_tracked_s3_c2_final"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "significant-wave-height",

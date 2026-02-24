@@ -57,8 +57,9 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "stse-cryosat-cryotop-evolution",
@@ -66,16 +67,21 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "created": "2019-02-07T00:00:00Z",
-  "start_datetime": "2011-01-01T00:00:00Z",
-  "end_datetime": "2016-12-31T23:59:59Z",
   "sci:doi": "10.5285/926b5321-408f-4560-b72d-f38bbe97ac21",
   "cf:parameter": [
     {
       "name": "swath_elevation_ice_sheet"
     }
   ],
-  "osc:themes": [
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "digital-elevation-terrain-model-dem"

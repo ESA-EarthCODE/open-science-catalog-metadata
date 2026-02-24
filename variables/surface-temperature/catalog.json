@@ -23,6 +23,24 @@
       "title": "Variables"
     },
     {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "esa-cci-permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/surface-temperature/catalog.json",
       "type": "application/json"
@@ -36,12 +54,12 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }
   ],
-  "updated": "2024-08-27T17:27:42.248832Z",
+  "updated": "2025-03-17T14:30:23.263437+00:00",
   "keywords": [],
   "title": "Surface Temperature"
 }

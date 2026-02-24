@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/solar-x-ray-image/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere Ionosphere"
     }
   ],
   "stac_extensions": [
@@ -36,7 +42,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Magnetosphere_Ionosphere"
+          "id": "magnetosphere-ionosphere"
         }
       ]
     }

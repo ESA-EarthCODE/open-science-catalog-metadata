@@ -12,7 +12,7 @@
     },
     {
       "rel": "via",
-      "href": "http://balticseal.eu/data-access/",
+      "href": "https://zenodo.org/records/14710187",
       "title": "Access"
     },
     {
@@ -100,7 +100,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "baltic-seal-sea-level",
@@ -108,15 +109,20 @@
   "osc:region": "Europe",
   "osc:type": "product",
   "created": "2021-11-02T00:00:00Z",
-  "start_datetime": "1995-01-01T00:00:00Z",
-  "end_datetime": "2019-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "sea_level"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sea-level"

@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "worldview-2",
+  "stac_version": "1.0.0",
+  "description": "Launched October 2009, WorldView-2 (WV-2) is a commercial imaging satellite, owned and operated by Maxar Technologies Inc., formed by a merger between MDA (MacDonald Dettwiler and Associates) Holdings Company, and DigitalGlobe Inc., that provides high spatial resolution imagery of the Earth’s surface for commercial purposes. It is the successor to WorldView-1 (WV-1) and aims to meet the increasing demand for high spatial resolution imagery. WV-2 carries a single sensor, the WorldView-110 camera (WV110), a nine channel VIS/NIR (Visible/Near Infrared) radiometer and high resolution optical imager. The instrument aims to provide very high resolution panchromatic imagery and eight band multispectral imagery for alternative mapping and monitoring applications. The WV110 imager uses a pushbroom scanning technique.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=806&utm_source=eoportal&utm_content=worldview-2",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/worldview-2/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2026-01-29T17:27:42.171831Z",
+  "keywords": [],
+  "title": "WorldView-2"
+}

@@ -56,8 +56,9 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "ovalie-oceanic-intrinsic-variability-versus-atmospheric-forced-variability-of-sea-level-change",
@@ -65,16 +66,21 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2018-11-14T00:00:00Z",
-  "start_datetime": "1993-01-01T00:00:00Z",
-  "end_datetime": "2015-12-31T23:59:59Z",
   "sci:doi": "10.5281/zenodo.1487983",
   "cf:parameter": [
     {
       "name": "sea_level_trends"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sea-level"

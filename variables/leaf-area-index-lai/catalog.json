@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "leaf-area-index-lai",
   "stac_version": "1.0.0",
-  "description": "A general term for a wide variety of processes and landforms involving the downslope movement, under gravity, of masses of soil and rock material.[Dictionary of Geological Terms, American Geological Institute, 1984.]",
+  "description": "One half of the total green leaf area per unit horizontal ground surface area. (WMO/GCOS & Copernicus Land Services)",
   "links": [
     {
       "rel": "root",
@@ -12,7 +12,7 @@
     },
     {
       "rel": "via",
-      "href": "https://gcos.wmo.int/en/essential-climate-variables/lai/",
+      "href": "https://agvariables.org/eav/leaf-area-index",
       "type": "text/html",
       "title": "Description"
     },
@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/leaf-area-index-lai/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -36,7 +42,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "land"
         }
       ]
     }

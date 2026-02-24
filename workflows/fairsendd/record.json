@@ -1,0 +1,115 @@
+{
+  "id": "fairsendd",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection",
+  "geometry": null,
+  "properties": {
+    "created": "2025-05-05T10:50:07.411224+00:00",
+    "updated": "2025-05-05T10:50:07.411224+00:00",
+    "type": "workflow",
+    "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection",
+    "description": "FAIRSenDD: FAIR workflow for Sentinel-1-based Deforestation Detection leverages Recurrence Quantification Analysis to effectively detect forest change in a given time series for each location individually, allowing robust and scalable classifications. This project from the Max Planck Institute for Biogeochemistry is part of the ESA Science Result Long-Term Availability & Reusability Demonstrator Initiative. We developed the workflow following FAIR principles and published it as OGC Best Practice for Earth Observation Application Package, as well as an openEO process. This is the first project evaluating the feasibility of using Julia in openEO.",
+    "jupyter_kernel_info": {
+      "name": "base",
+      "python_version": 3.13,
+      "env_file": "https://raw.githubusercontent.com/EarthyScience/FAIRSenDD/refs/heads/main/website/envs/environment.yml"
+    },
+    "keywords": [
+      "fair",
+      "deforestation",
+      "sentinel-1",
+      "julia"
+    ],
+    "contacts": [
+      {
+        "name": "Daniel Loos",
+        "organization": "Max Planck Institute for Biogeochemistry",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.bgc-jena.mpg.de/person/127942/4988967"
+          }
+        ],
+        "roles": [
+          "maintainer"
+        ]
+      },
+      {
+        "name": "Felix Cremer",
+        "organization": "Max Planck Institute for Biogeochemistry",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.bgc-jena.mpg.de/person/121306/2200"
+          }
+        ],
+        "roles": [
+          "maintainer"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "MIT",
+    "osc:project": "fairsendd"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/fairsendd/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/fairsendd/collection.json",
+      "type": "application/json",
+      "title": "Project: FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection"
+    },
+    {
+      "rel": "vcs",
+      "title": "Git source repository",
+      "href": "https://github.com/EarthyScience/FAIRSenDD",
+      "vcs:type": "git",
+      "vcs:branch": "main"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "application",
+      "type": "application/cwl",
+      "title": "OGC Application Package",
+      "href": "https://raw.githubusercontent.com/EarthyScience/FAIRSenDD/refs/heads/main/ogc-app-cwl/fairsendd.cwl"
+    }
+  ]
+}

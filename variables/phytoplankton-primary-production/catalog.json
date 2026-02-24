@@ -23,6 +23,12 @@
       "title": "Monthly Global Phytoplankton Primary Production dataset (9 km, OC-CCI v4.2)"
     },
     {
+      "rel": "child",
+      "href": "../../products/4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -32,6 +38,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/phytoplankton-primary-production/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -42,7 +54,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }

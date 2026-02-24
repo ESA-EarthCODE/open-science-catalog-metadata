@@ -12,9 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/melt-extent-stage-maps-daily-antarctica/2007/catalog.json",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/melt-extent-stage-maps-daily-antarctica/2007/catalog.json",
       "type": "application/json",
-      "title": "Daily melt extent/stage maps: 2007-01"
+      "title": "Daily melt extent/stage maps: 2007"
     },
     {
       "rel": "via",
@@ -63,7 +63,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
@@ -71,15 +72,20 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "created": "2023-01-30T00:00:00Z",
-  "start_datetime": "2007-01-01T00:00:00Z",
-  "end_datetime": "2021-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "melt-extent-stage-maps-daily-antarctic"
     }
   ],
-  "osc:themes": [
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "glacier-melt"

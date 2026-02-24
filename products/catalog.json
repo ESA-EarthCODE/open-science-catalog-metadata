@@ -5,6 +5,11 @@
   "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
@@ -12,9 +17,105 @@
     },
     {
       "rel": "child",
+      "href": "./4dmed-2d-alt/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-miost-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-miost-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-varnet-8/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-alt-varnet-20/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-2d-sss/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-3d-prim-prod-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet8-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet8-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet20-le-24/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-4dvarnet20-le-72/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-t-s-geo-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed-t-s-geo-a-150/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"
+    },
+    {
+      "rel": "child",
+      "href": "./swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
+      "rel": "child",
       "href": "./absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./yipeeo-features/collection.json",
+      "type": "application/json",
+      "title": "Yield Data Sentinel-1 & Sentinel-2 Features"
     },
     {
       "rel": "child",
@@ -330,6 +431,12 @@
     },
     {
       "rel": "child",
+      "href": "./fuelity/collection.json",
+      "type": "application/json",
+      "title": "Fuelity Fuel Moisture Content Dataset"
+    },
+    {
+      "rel": "child",
       "href": "./geodynamic-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "COR-GC: Geodynamic Corrections_Baltics_Multimission"
@@ -368,7 +475,7 @@
       "rel": "child",
       "href": "./glacier-surface-flow-velocity-alpglacier/collection.json",
       "type": "application/json",
-      "title": "Glacier surface flow velocity_SwissAlps_S1/2"
+      "title": "Glacier surface flow velocity_SwissAlps_S2"
     },
     {
       "rel": "child",
@@ -447,6 +554,12 @@
       "href": "./ground-virtual-observatory-swarm-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "Ground Virtual Observatory Data SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "./grounded-eo-database/collection.json",
+      "type": "application/json",
+      "title": "The GROUNDED EO database: Extensive fiducial reference measurements of vegetation biophysical variables"
     },
     {
       "rel": "child",
@@ -1128,12 +1241,6 @@
     },
     {
       "rel": "child",
-      "href": "./sea-surface-salinity-arctic-salinity/collection.json",
-      "type": "application/json",
-      "title": "Arctic Ocean Sea Surface Salinity Level 2 orbits and Level 3 maps (V.3.1)"
-    },
-    {
-      "rel": "child",
       "href": "./sea-surface-salinity-europe-smos-med/collection.json",
       "type": "application/json",
       "title": "L4 Interpolated Sea Surface Salinity_Europe_SMOS"
@@ -1425,6 +1532,24 @@
       "href": "./target-locations-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "PTA-RES: Extracted Target Locations_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./tccas-sodankylae/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Lapland and Sodankyla region"
+    },
+    {
+      "rel": "child",
+      "href": "./tccas-iberia/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for Iberian region (including Majadas del Tietar)"
+    },
+    {
+      "rel": "child",
+      "href": "./tccas-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Terrestrial Carbon Community Assimilation System: Database for the Netherlands region (including Reusel)"
     },
     {
       "rel": "child",
@@ -1728,9 +1853,9 @@
     },
     {
       "rel": "child",
-      "href": "./gpp-sen4gpp-2020/collection.json",
+      "href": "./gpp-sen4gpp/collection.json",
       "type": "application/json",
-      "title": "Global Gross Primary Productivity (GPP) Dataset 2020"
+      "title": "Global Gross Primary Productivity (GPP) Dataset, University of Southampton"
     },
     {
       "rel": "child",
@@ -1775,15 +1900,88 @@
       "title": "European Ground Motion Classification dataset (EuGMC)"
     },
     {
+      "rel": "child",
+      "href": "./yield-data-field-level/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at Field Level"
+    },
+    {
+      "rel": "child",
+      "href": "./waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
+      "rel": "child",
+      "href": "./yield-data-nuts2-level/collection.json",
+      "type": "application/json",
+      "title": "Yield Data at NUTS2 Level"
+    },
+    {
+      "rel": "child",
+      "href": "./worldcereal-crop-extent-belgium/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "./polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "./esa-cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "esa-cci-permafrost"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal-carbon-mapper-carbon-fractions-data/collection.json",
+      "type": "application/json",
+      "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
+      "type": "application/json",
+      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
+    },
+    {
+      "rel": "child",
+      "href": "./d13c-ch4-signatures-smart-ch4/collection.json",
+      "type": "application/json",
+      "title": "Global δ13C(CH4) Source Signatures"
+    },
+    {
+      "rel": "child",
+      "href": "./polar-lakes-s1-s2-antarctica/collection.json",
+      "type": "application/json",
+      "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel1-amazonas-forest-loss/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps"
+    },
+    {
+      "rel": "child",
+      "href": "./glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

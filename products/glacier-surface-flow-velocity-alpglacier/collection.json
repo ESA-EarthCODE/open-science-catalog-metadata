@@ -12,7 +12,12 @@
     },
     {
       "rel": "via",
-      "href": "https://onlinelibrary.wiley.com/doi/10.1002/esp.5194",
+      "href": "https://doi.org/10.57745/XHQ7TL",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.mdpi.com/2306-5729/8/4/66",
       "title": "Documentation"
     },
     {
@@ -41,12 +46,6 @@
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-1"
-    },
-    {
-      "rel": "related",
       "href": "../../eo-missions/sentinel-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-2"
@@ -58,32 +57,37 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "alpglacier",
-  "osc:status": "planned",
+  "osc:status": "completed",
   "osc:region": "Switzerland",
   "osc:type": "product",
-  "start_datetime": "2016-01-01T00:00:00Z",
-  "end_datetime": "2016-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "glacier_surface_flow"
     }
   ],
-  "osc:themes": [
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "glacier-motion-ice-sheet-motion"
   ],
   "osc:missions": [
-    "sentinel-1",
     "sentinel-2"
   ],
-  "updated": "2024-09-12T20:32:06.216108Z",
-  "title": "Glacier surface flow velocity_SwissAlps_S1/2",
+  "updated": "2025-03-10T20:32:06.216108Z",
+  "title": "Glacier surface flow velocity_SwissAlps_S2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -98,8 +102,8 @@
     "temporal": {
       "interval": [
         [
-          "2016-01-01T00:00:00Z",
-          "2016-12-31T23:59:59Z"
+          "2015-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
         ]
       ]
     }

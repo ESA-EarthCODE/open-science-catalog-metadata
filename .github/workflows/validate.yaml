@@ -7,6 +7,8 @@ on:
   pull_request:
     branches:
       - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   check:
@@ -15,11 +17,16 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest]
     steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.1.x'
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          path: metadata
       - name: Prepare
         run: |
-          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.4
+          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.16
       - name: Validate
         run: |
-          npx open-science-catalog-validation ./eo-missions ./products ./projects ./themes ./variables
+          npx open-science-catalog-validation ./metadata

@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "fraction-of-absorbed-photosynthetically-active-radiation-fapar",
   "stac_version": "1.0.0",
-  "description": "The fraction of the incoming solar radiation in the Photosynthetically Active Radiation spectral region that is absorbed by a photosynthetic organism, typically describing the light absorption across an integrated plant canopy.[FAO]",
+  "description": "The fraction of the incoming solar radiation in the Photosynthetically Active Radiation spectral region that is absorbed by a photosynthetic organism, typically describing the light absorption across an integrated plant canopy.[FAO] Fraction of photosynthetically active radiation (ie the radiation in the spectral range of 400 to 700 nm) absorbed by vegetation (GCOS)",
   "links": [
     {
       "rel": "root",
@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/fraction-of-absorbed-photosynthetically-active-radiation-fapar/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -36,7 +42,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "land"
         }
       ]
     }

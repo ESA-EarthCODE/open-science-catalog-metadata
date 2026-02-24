@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "air-temperature",
   "stac_version": "1.0.0",
-  "description": "The temperature indicated by a thermometer exposed to the air in a place sheltered from direct solar radiation.",
+  "description": "Air temperature at a known height above surface (2 m or less)",
   "links": [
     {
       "rel": "root",
@@ -12,7 +12,7 @@
     },
     {
       "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/f634ab55-de40-4d0b-93bc-691bf5408ccb?gtm_keyword=AIR%20TEMPERATURE&gtm_scheme=Earth%20Science",
+      "href": "https://agvariables.org/eav/air-temperature",
       "type": "text/html",
       "title": "Description"
     },
@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/air-temperature/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -36,7 +42,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }

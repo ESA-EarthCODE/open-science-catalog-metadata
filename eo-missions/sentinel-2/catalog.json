@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "../../products/glacier-surface-flow-velocity-alpglacier/collection.json",
       "type": "application/json",
-      "title": "Glacier surface flow velocity_SwissAlps_S1/2"
+      "title": "Glacier surface flow velocity_SwissAlps_S2"
     },
     {
       "rel": "child",
@@ -213,6 +213,12 @@
       "href": "../../products/supraglacial-lakes-west-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/polar-lakes-s1-s2-antarctica/collection.json",
+      "type": "application/json",
+      "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
     {
       "rel": "parent",

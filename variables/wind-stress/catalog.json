@@ -26,7 +26,7 @@
       "rel": "child",
       "href": "../../products/wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Wind stress vector (& anomalies)_Hourly_ERA5"
+      "title": "Wind stress vector (& anomalies) Hourly ERA5"
     },
     {
       "rel": "parent",
@@ -38,6 +38,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wind-stress/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -48,10 +60,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }

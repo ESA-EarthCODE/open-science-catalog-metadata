@@ -32,6 +32,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/tectonic-processes/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -42,10 +54,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Solid Earth"
+          "id": "solid-earth"
         },
         {
-          "id": "Land"
+          "id": "land"
         }
       ]
     }

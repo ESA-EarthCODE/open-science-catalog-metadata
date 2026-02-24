@@ -18,18 +18,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/dem-antarctica-2013-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2013_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/dem-antarctica-2017-lpf-mitap/collection.json",
-      "type": "application/json",
-      "title": "Digital Elevation Model Antarctic Peninsula <70°S 2017_Antarctica_TanDEM-X"
-    },
-    {
-      "rel": "child",
       "href": "../../products/elevation-and-elevation-change-antarctic-cryotop-evolution/collection.json",
       "type": "application/json",
       "title": "Swath-derived elevation and elevation change_Antarctic ice Sheet_2011-2016_CryoSat-2"
@@ -38,7 +26,7 @@
       "rel": "child",
       "href": "../../products/surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017_Antarctica_TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",
@@ -62,6 +50,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/digital-elevation-terrain-model-dem/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -72,7 +66,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "land"
         }
       ]
     }

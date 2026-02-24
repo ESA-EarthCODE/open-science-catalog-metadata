@@ -76,7 +76,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "physioglob-assessing-the-inter-annual-physiological-response-of-phytoplankton-to-global-warming-using-long-term-satellite-observations",
@@ -84,15 +85,20 @@
   "osc:region": "Global Oceans",
   "osc:type": "product",
   "created": "2019-01-01T00:00:00Z",
-  "start_datetime": "1997-01-01T00:00:00Z",
-  "end_datetime": "2018-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "secchi_disk_depth"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "chlorophyll-concentration"

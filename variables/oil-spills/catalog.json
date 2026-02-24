@@ -20,13 +20,21 @@
       "rel": "child",
       "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",	
       "type": "application/json",
+<<<<<<< HEAD
       "title": "WOC Predicted Oil Spill Transport for the Golden Trader Incident"
+=======
+      "title": "Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
+>>>>>>> main
     },
     {
       "rel": "child",
       "href": "../../products/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
       "type": "application/json",
+<<<<<<< HEAD
       "title": "WOC Predicted Oil Spill Transport for the Sanchi Incident"
+=======
+      "title": "Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+>>>>>>> main
     },
     {
       "rel": "parent",
@@ -38,6 +46,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/oil-spills/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [

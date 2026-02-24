@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "fresh4bio",
+  "stac_version": "1.0.0",
+  "description": "The project aims to maximise the use of Earth observation data to understand the impact of the Arctic freshwater export and Greenland ice discharge on modulating the water column structure and phytoplankton dynamics on the East Greenland Shelf. This will include a dedicated effort in mapping and quantifying three important components of the Arctic marine primary production: Greenlandic and oceanic freshwater export, water column structure, and phytoplankton biomass.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://fresh4bio.dtu.dk/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/fresh4bio/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/swot-east-greenland-current/collection.json",
+      "type": "application/json",
+      "title": "SWOT-BFNQG East Greenland Current"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/fresh4bio/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [
+    {
+      "name": "Martin Wearing",
+      "emails": [
+        {
+          "value": "martin.wearing@esa.int"
+        }
+      ],
+      "roles": [
+        "technical_officer"
+      ]
+    },
+    {
+      "name": "Science & Technology Norway (NO)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+        "name": "Technical University of Denmark (DK)",
+        "roles": [
+          "consortium_member"
+        ]
+    },
+    {
+        "name": "ENVEO - Environmental Earth Observation GmbH (AT)",
+        "roles": [
+          "consortium_member"
+        ]
+    },
+    {
+        "name": "Norwegioan Polar Institute (NO)",
+        "roles": [
+          "consortium_member"
+        ]
+    }
+  ],
+  "updated": "2025-11-10T09:50:23.015110Z",
+  "title": "Fresh4Bio",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+            -40,
+            65,
+            1,
+            80
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2025-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+}

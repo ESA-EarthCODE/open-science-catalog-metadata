@@ -12,19 +12,19 @@
     },
     {
       "rel": "via",
-      "href": "https://zenodo.org/record/8055879",
+      "href": "https://zenodo.org/records/13834057",
       "title": "Access"
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.5281/zenodo.8055879",
+      "href": "https://doi.org/10.5281/zenodo.13834057",
       "title": "DOI"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/seasfire/seasfire-cube/catalog.json",
+      "rel": "item",
+      "href": "./item.json",
       "type": "application/json",
-      "title": "Items"
+      "title": "SeasFire Cube v.0.4"
     },
     {
       "rel": "parent",
@@ -51,36 +51,72 @@
       "title": "Variable: Burned Area"
     },
     {
+      "rel": "vcs",
+      "title": "Git repository for tutorials",
+      "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/",
+      "vcs:type": "git",
+      "vcs:branch": "main"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://viewer.earthsystemdatalab.net/?dataset=seasfire",
+      "title": "Dataset visualisation"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/blob/main/Python-Tutorials/Seasfire_datacube_tutorial_Python.ipynb",
+      "title": "Tutorial: Access the SeasFire DataCube",
+      "description": "A Python notebook demonstrating how to access the SeasFire DataCube.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "example",
+      "href": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube&urlpath=lab%2Ftree%2Ftutorial_seasfire-datacube%2FPython-Tutorials%2FSeasfire_datacube_tutorial_Python.ipynb&branch=main",
+      "type": "text/html",
+      "title": "Open tutorial notebook on the EarthCODE Portal Workspace"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/seasfire-cube/collection.json",
       "type": "application/json"
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
-  "created": "2023-06-19T00:00:00Z",
-  "version": "0.3",
-  "sci:doi": "10.5281/zenodo.8055879",
+  "created": "2024-09-26T00:00:00Z",
+  "version": "0.4",
+  "sci:doi": "10.5281/zenodo.13834057",
   "cf:parameter": [
     {
       "name": "seasonal_fire"
     }
   ],
-  "osc:themes": [
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "burned-area"
   ],
   "osc:missions": [],
-  "updated": "2024-09-12T20:32:22.960110Z",
+  "updated": "2025-01-30T20:32:22.960110Z",
   "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System",
   "extent": {
     "spatial": {

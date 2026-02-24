@@ -1,0 +1,103 @@
+{
+  "id": "polaris-workflow",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-02-19T23:00:00Z",
+    "updated": "2025-03-03T22:00:00Z",
+    "type": "workflow",
+    "title": "POLARIS",
+    "description": "Polar Operational Limit Assessment Risk Index System (POLARIS) algorithm.",
+    "keywords": [
+      "sea ice",
+      "polar"
+    ],
+    "contacts": [
+      {
+        "name": "EarthCODE Demo",
+        "organization": "EarthCODE",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://opensciencedata.esa.int/"
+          }
+        ],
+        "contactInstructions": "Contact via EarthCODE",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "license": "CC-BY-SA-4.0",
+    "osc:project": "polaris"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polaris-workflow/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/polaris/collection.json",
+      "type": "application/json",
+      "title": "Project: POLARIS"
+    },
+    {
+      "rel": "child",
+      "href": "../../experiments/polaris-experiment/record.json",
+      "type": "application/json",
+      "title": "POLARIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "application",
+      "type": "application/json",
+      "title": "OGC Application Package",
+      "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
+    },
+    {
+      "rel": "git",
+      "type": "application/json",
+      "title": "Git source repository",
+      "href": "https://github.com/gtif-cerulean/cerulean-catalog.git"
+    }
+  ]
+}

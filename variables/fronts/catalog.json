@@ -18,14 +18,33 @@
     },
     {
       "rel": "child",
+<<<<<<< HEAD
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
       "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Agulhas Region"
+=======
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts Western Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
+      "type": "application/json",
+      "title": "Oceanic Fronts North Atlantic"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
+      "type": "application/json",
+      "title": "Oceanic HR Fronts Agulhas"
+>>>>>>> main
     },
     {
       "rel": "child",
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
       "type": "application/json",
+<<<<<<< HEAD
       "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over Agulhas Region"
     },
     {
@@ -39,6 +58,9 @@
       "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
       "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region"
+=======
+      "title": "Oceanic LR Fronts Agulhas"
+>>>>>>> main
     },
     {
       "rel": "parent",
@@ -50,6 +72,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/fronts/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -60,7 +88,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }

@@ -12,7 +12,7 @@
     },
     {
       "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/4DANTARCTICA/gravity-anomalies-goce-airborne-4dantarctica/catalog.json",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/gravity-anomalies-goce-airborne-4dantarctica/catalog.json",
       "type": "application/json",
       "title": "Items"
     },
@@ -75,7 +75,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
@@ -88,9 +89,18 @@
       "name": "gravity_anomalies"
     }
   ],
-  "osc:themes": [
-    "cryosphere",
-    "solid-earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "gravity-anomalies"

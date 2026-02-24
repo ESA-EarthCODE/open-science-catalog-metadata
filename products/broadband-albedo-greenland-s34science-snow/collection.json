@@ -58,7 +58,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "sentinel-3-for-science-land-study-1-snow",
@@ -66,16 +67,23 @@
   "osc:region": "Greenland",
   "osc:type": "product",
   "created": "2019-01-01T00:00:00Z",
-  "start_datetime": "2017-01-01T00:00:00Z",
-  "end_datetime": "2018-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "broadband_albedo"
     }
   ],
-  "osc:themes": [
-    "cryosphere",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "albedo"

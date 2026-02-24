@@ -51,7 +51,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
@@ -59,15 +60,20 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "created": "2021-08-18T00:00:00Z",
-  "start_datetime": "2012-01-01T00:00:00Z",
-  "end_datetime": "2012-12-31T23:59:59Z",
   "cf:parameter": [
     {
       "name": "geothermal_heat_flux"
     }
   ],
-  "osc:themes": [
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "geothermal-heat-flux"

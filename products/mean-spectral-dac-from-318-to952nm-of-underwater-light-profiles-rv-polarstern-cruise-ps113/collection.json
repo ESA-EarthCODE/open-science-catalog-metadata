@@ -63,7 +63,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "sentinel-5p-innovation-ocean-colour-s5p-i-oc",
@@ -71,16 +72,23 @@
   "osc:region": "South Atlantic Ocean",
   "osc:type": "product",
   "created": "2022-03-17T00:00:00Z",
-  "start_datetime": "2018-05-10T00:00:00Z",
-  "end_datetime": "2018-06-05T23:59:59Z",
   "cf:parameter": [
     {
       "name": "mean_spectral_diffuse_attenuation_coefficient"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "diffuse-attenuation-coefficient-dac"

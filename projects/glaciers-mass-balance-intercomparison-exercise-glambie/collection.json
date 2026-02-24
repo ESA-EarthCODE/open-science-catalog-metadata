@@ -2,13 +2,18 @@
   "type": "Collection",
   "id": "glaciers-mass-balance-intercomparison-exercise-glambie",
   "stac_version": "1.0.0",
-  "description": "GlaMBIE project builds on nascent efforts within the IACS working group on Regional Assessments of Glacier Mass Change (RAGMAC, https://cryosphericsciences.org/activities/wg-ragmac/  ) to setup and coordinate an intercomparison exercise of regional glacier mass changes from glaciological in-situ measurements and various remote sensing sources, including geodetic DEM differencing, altimetry, and gravimetry. Under the guidance of Scientific Advisory Committee (staffed with the RAGMAC co-chairs), an assessment framework, algorithm, and environment will be developed to compile and analyse the regional glacier mass-change results from the active research groups to come up with new consensus estimates of regional and global glacier mass changes and related uncertainties.",
+  "description": "The Glacier Mass Balance Intercomparison Exercise (GlaMBIE) is an international, community-driven research project designed to reconcile and standardize estimates of glacier mass change from multiple observation methods – including in situ glaciological measurements, satellite-derived digital elevation models (DEM), altimetry, and gravimetry – to produce a consistent regional and global picture of glacier mass change and uncertainty.\n\nIt supports improved glacier change assessments for climate and sea-level rise research and informs major syntheses such as those used in IPCC reports.\n\nThe results of the first GlaMBIE phase (2022–24) are published in Nature in 2025: https://doi.org/10.1038/s41586-024-08545-z.\n\nGlaMBIE is coordinated by a core consortium that includes the University of Zurich (CH), the University of Edinburgh (UK), Earthwave Ltd (UK), and the Laboratoire d'Etudes en Géophysique et Océanographie Spatiales (FR), working in collaboration with the wider research community. The project originated under the European Space Agency’s Polar Science Cluster and is fully open to international participation.\n\nThe consortium organizes calls for data and community participation, and leads the analysis and integration of submitted glacier mass-balance data.\n\nThe Scientific Advisory Committee provides strategic scientific guidance for GlaMBIE. It is composed of leading scientists with expertise across the key measurement techniques and observation methods used in glacier mass balance assessment.\n\nThe Stakeholder Board offers feedback on GlaMBIE products and outcomes from the perspective of partner and user organizations. Members include representatives from potential partner groups and major users of glacier mass balance data – such as international scientific initiatives and climate assessment bodies – helping align GlaMBIE outputs with broader scientific and policy needs.\n\nResults of the project and code are open access under requirement of correct citation. \n\nCitation:The GlaMBIE Team (2024): Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset 1.0.0. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-glambie-2024-07",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://glambie.org/",
+      "title": "Website"
     },
     {
       "rel": "via",
@@ -22,19 +27,48 @@
       "title": "Projects"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
-      "type": "application/json"
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/glambie-workflow-v1.0.190/record.json",
+      "type": "application/json",
+      "title": "Workflow: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/glambie-v1.0.190-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "GLACIERS MASS BALANCE INTERCOMPARISON EXERCISE (GLAMBIE)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Cryosphere"
+  "osc:workflows": [
+    "glambie-workflow-v1.0.190"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [
@@ -56,31 +90,27 @@
       ]
     }
   ],
-  "start_datetime": "2022-01-14T00:00:00Z",
-  "end_datetime": "2024-12-02T23:59:59Z",
-  "osc:missions": [],
-  "updated": "2024-09-12T20:32:22.999110Z",
-  "title": "GLAMBIE",
+  "updated": "2026-01-27T16:47:22.999110Z",
+  "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-14T00:00:00Z",
-          "2024-12-02T23:59:59Z"
+          "2022-06-01T00:00:00Z",
+          "2027-05-31T23:59:59Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
-  "keywords": []
+  "license": "various"
 }

@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw2-1.cloudferro.com/swift/v1/AUTH_3f7e5dd853f54cebb046a29a69f1bba6/Catalogs/LPF-ArcticSummit-IT/sea-ice-phys-ocean-lpf-arcticsummit/2010/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "via",
       "href": "https://data.bas.ac.uk/full-record.php?id=GB/NERC/BAS/PDC/01257",
       "title": "Access"
@@ -68,8 +62,9 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "arcticsummit-arctic-summer-ice-thickness",
@@ -77,16 +72,21 @@
   "osc:region": "Arctic",
   "osc:type": "product",
   "created": "2019-11-14T00:00:00Z",
-  "start_datetime": "2021-01-01T00:00:00Z",
-  "end_datetime": "2021-12-31T23:59:59Z",
   "sci:doi": "10.5285/cbd2cf78-462a-4968-be20-05f9c125ad10",
   "cf:parameter": [
     {
       "name": "sea_ice_physical_oceanography"
     }
   ],
-  "osc:themes": [
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "ice-depth-thickness"

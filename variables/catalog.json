@@ -1548,6 +1548,30 @@
     },
     {
       "rel": "child",
+      "href": "./dead-foliage/catalog.json",
+      "type": "application/json",
+      "title": "Dead Foliage"
+    },
+    {
+      "rel": "child",
+      "href": "./dead-foliage-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Dead Foliage Fuel Moisture Content"
+    },
+    {
+      "rel": "child",
+      "href": "./dead-wood/catalog.json",
+      "type": "application/json",
+      "title": "Dead Wood"
+    },
+      {
+      "rel": "child",
+      "href": "./dead-wood-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Dead Wood Fuel Moisture Content"
+    },
+    {
+      "rel": "child",
       "href": "./deciduous-vegetation/catalog.json",
       "type": "application/json",
       "title": "Deciduous Vegetation"
@@ -2115,6 +2139,12 @@
       "href": "./fault-movement/catalog.json",
       "type": "application/json",
       "title": "Fault Movement"
+    },
+    {
+      "rel": "child",
+      "href": "./finite-size-lyapunov-exponent/catalog.json",
+      "type": "application/json",
+      "title": "Finite-size Lyapunov Exponent"
     },
     {
       "rel": "child",
@@ -2832,6 +2862,12 @@
     },
     {
       "rel": "child",
+      "href": "./high-live-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "High Live Fuel Moisture Content"
+    },
+    {
+      "rel": "child",
       "href": "./hmf2/catalog.json",
       "type": "application/json",
       "title": "hmF2"
@@ -3426,6 +3462,24 @@
     },
     {
       "rel": "child",
+      "href": "./live-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Live Fuel Moisture Content"
+    },
+    {
+      "rel": "child",
+      "href": "./live-leaf/catalog.json",
+      "type": "application/json",
+      "title": "Live Leaf"
+    },
+    {
+      "rel": "child",
+      "href": "./live-wood/catalog.json",
+      "type": "application/json",
+      "title": "Live Wood"
+    },
+    {
+      "rel": "child",
       "href": "./local-subsidence-trends/catalog.json",
       "type": "application/json",
       "title": "Local Subsidence Trends"
@@ -3447,6 +3501,12 @@
       "href": "./longwave-radiation/catalog.json",
       "type": "application/json",
       "title": "Longwave Radiation"
+    },
+    {
+      "rel": "child",
+      "href": "./low-live-fuel-moisture-content/catalog.json",
+      "type": "application/json",
+      "title": "Low Live Fuel Moisture Content"
     },
     {
       "rel": "child",
@@ -4862,7 +4922,7 @@
       "rel": "child",
       "href": "./relative-humidity/catalog.json",
       "type": "application/json",
-      "title": "Relative humidity"
+      "title": "Relative Humidity"
     },
     {
       "rel": "child",
@@ -6965,10 +7025,226 @@
       "title": "Gross Primary Productivity (GPP)"
     },
     {
+      "rel": "child",
+      "href": "./above-ground-agricultural-biomass/catalog.json",
+      "type": "application/json",
+      "title": "Above Ground Agricultural Biomass"
+    },
+    {
+      "rel": "child",
+      "href": "./actual-evapotranspiration/catalog.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-residue-cover-percentage/catalog.json",
+      "type": "application/json",
+      "title": "Crop Residue Cover Percentage"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-rotation-sequence/catalog.json",
+      "type": "application/json",
+      "title": "Crop Rotation Sequence"
+    },
+    {
+      "rel": "child",
+      "href": "./surface-soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Surface Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-type-area-estimate/catalog.json",
+      "type": "application/json",
+      "title": "Crop Type Area Estimate"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-type-masks/catalog.json",
+      "type": "application/json",
+      "title": "Crop Type Masks"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-yield-estimation/catalog.json",
+      "type": "application/json",
+      "title": "Crop Yield Estimation"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-yield-forecast/catalog.json",
+      "type": "application/json",
+      "title": "Crop Yield Forecast"
+    },
+    {
+      "rel": "child",
+      "href": "./current-crop-stage/catalog.json",
+      "type": "application/json",
+      "title": "Current Crop Stage"
+    },
+    {
+      "rel": "child",
+      "href": "./degree-growing-days/catalog.json",
+      "type": "application/json",
+      "title": "Degree Growing Days"
+    },
+    {
+      "rel": "child",
+      "href": "./field-boundaries/catalog.json",
+      "type": "application/json",
+      "title": "Field Boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./fractional-cover/catalog.json",
+      "type": "application/json",
+      "title": "Fractional Cover"
+    },
+    {
+      "rel": "child",
+      "href": "./irrigated-cropland-map/catalog.json",
+      "type": "application/json",
+      "title": "Irrigated Cropland Map"
+    },
+    {
+      "rel": "child",
+      "href": "./managed-grasslands-mask/catalog.json",
+      "type": "application/json",
+      "title": "Managed Grasslands Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./non-perennial-cover-crop-utilization-mask/catalog.json",
+      "type": "application/json",
+      "title": "Non-Perennial Cover Crop Utilization Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./reference-crop-calendars/catalog.json",
+      "type": "application/json",
+      "title": "Reference Crop Calendars"
+    },
+    {
+      "rel": "child",
+      "href": "./reference-evapotranspiration/catalog.json",
+      "type": "application/json",
+      "title": "Reference Evapotranspiration"
+    },
+    {
+      "rel": "child",
+      "href": "./seasonal-dynamics-surface-water-availability/catalog.json",
+      "type": "application/json",
+      "title": "Seasonal Dynamics of Surface Water Availability"
+    },
+    {
+      "rel": "child",
+      "href": "./root-zone-soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Root Zone Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation/catalog.json",
+      "type": "application/json",
+      "title": "Precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./water-productivity/catalog.json",
+      "type": "application/json",
+      "title": "Water Productivity"
+    },
+    {
+      "rel": "child",
+      "href": "./seasonal-fallow-mask/catalog.json",
+      "type": "application/json",
+      "title": "Seasonal Fallow Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./rangelands-mask/catalog.json",
+      "type": "application/json",
+      "title": "Rangelands Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./rangeland-condition-assessment/catalog.json",
+      "type": "application/json",
+      "title": "Rangeland Condition Assessment"
+    },
+    {
+      "rel": "child",
+      "href": "./perennial-cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Perennial Cropland Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./non-perennial-cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Non-Perennial Cropland Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Cropland Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./crop-condition-assessment/catalog.json",
+      "type": "application/json",
+      "title": "Crop Condition Assessment"
+    },
+    {
+      "rel": "child",
+      "href": "./agriculture-mask/catalog.json",
+      "type": "application/json",
+      "title": "Agriculture Mask"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./permafrost-area-fraction/catalog.json",
+      "type": "application/json",
+      "title": "Permafrost Area Fraction"
+    },
+    {
+      "rel": "child",
+      "href": "./solid-earth-subsurface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Solid Earth Subsurface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./total-suspended-matter/catalog.json",
+      "type": "application/json",
+      "title": "Total Suspended Matter (TSM)"
+    },
+    {
+      "rel": "child",
+      "href": "./supraglacial-lakes/catalog.json",
+      "type": "application/json",
+      "title": "Supraglacial Lakes"
+    },
+    {
+      "rel": "child",
+      "href": "./tree-cover-change/catalog.json",
+      "type": "application/json",
+      "title": "Tree Cover Change"
     },
     {
       "rel": "self",
@@ -6976,6 +7252,6 @@
       "type": "application/json"
     }
   ],
-  "updated": "2024-09-12T20:23:29.844131Z",
+  "updated": "2025-09-24T20:23:29.844131Z",
   "title": "Variables"
 }
