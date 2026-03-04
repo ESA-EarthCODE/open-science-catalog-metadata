@@ -16,16 +16,16 @@
     ],
     "contacts": [
       {
-        "name": "EarthCODE Demo",
-        "organization": "EarthCODE",
+        "name": "GLAMBIE website",
+        "organization": "GLAMBIE Project",
         "links": [
           {
             "rel": "about",
             "type": "text/html",
-            "href": "https://opensciencedata.esa.int/"
+            "href": "https://glambie.org/"
           }
         ],
-        "contactInstructions": "Contact via EarthCODE",
+        "contactInstructions": "Contact GLAMBIE team: info@glambie.org",
         "roles": [
           "host"
         ]
