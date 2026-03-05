@@ -1,0 +1,147 @@
+{
+  "type": "Collection",
+  "id": "4d-atlantic-ohc-global",
+  "stac_version": "1.1.0",
+  "description": "Given the major role of the ocean in the climate system, it is essential to characterize the temporal and spatial variations of its heat content. The OHC product results from the space geodetic approach also called altimetry-gravimetry approach. This dataset contains variables as 3D grids of ocean heat content anomalies at 1x1 resolution and monthly time step. Error variance-covariance matrices of OHC at regional scale and annual resolution are also provided. See Experimental Dataset Description for details: https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/OHC-EEI/OHCATL-DT-035-MAG_EDD_V3.0.pdf. Version V3-0 of Dataset published 2025 in ODATIS-AVISO portal. This dataset has been produced within the framework of the 4DAtlantic-Ocean heat content Project funded by ESA.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4datlantic-ohc/collection.json",
+      "type": "application/json",
+      "title": "Project: 4DAtlantic-OHC"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/grace/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/grace-fo/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE-FO"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-heat-budget/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Heat Budget"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/collection.json",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/OHC-EEI/OHCATL-DT-035-MAG_EDD_V3.0.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "child",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/collection.json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
+      "type": "application/pdf",
+      "title": "Aviso License"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "4datlantic-ohc",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2025-12-18T16:34:53Z",
+  "updated": "2025-12-18T16:34:53Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "in-situ-observations",
+    "grace-fo",
+    "sentinel-6",
+    "jason-3"
+  ],
+  "osc:variables": [
+    "ocean-heat-budget"
+  ],
+  "title": "Global Ocean Heat Content",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "keywords": [
+    "ocean",
+    "heat",
+    "content",
+    "altimetry"
+  ]
+}
