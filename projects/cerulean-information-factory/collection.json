@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "polaris",
+  "id": "cerulean-information-factory",
   "stac_version": "1.0.0",
-  "description": "Polar Operational Limit Assessment Risk Index System (POLARIS)",
+  "description": "Cerulean Information Factory (CIF) is an ESA project working on serveral workflows in the polar region like the Polarwarp or the Polar Operational Limit Assessment Risk Index System (POLARIS) ones.",
   "links": [
     {
       "rel": "root",
@@ -29,20 +29,38 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/polaris/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/cerulean-information-factory/collection.json",
       "type": "application/json"
     },
     {
       "rel": "related",
+      "href": "../../workflows/polaris/record.json",
+      "type": "application/json",
+      "title": "Workflow: POLARIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
       "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
       "type": "application/json",
       "title": "Theme: Oceans"
     },
     {
-      "rel": "related",
-      "href": "../../workflows/polaris-workflow/record.json",
+      "rel": "child",
+      "href": "../../products/polarwarp/collection.json",
       "type": "application/json",
-      "title": "Workflow: POLARIS"
+      "title": "Polarwarp"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/polarwarp/record.json",
+      "type": "application/json",
+      "title": "Workflow: Polarwarp"
     }
   ],
   "stac_extensions": [
@@ -50,11 +68,19 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:status": "completed",
+  "osc:status": "ongoing",
   "osc:workflows": [
-    "polaris-workflow"
+    "polaris"
   ],
   "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    },
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
@@ -67,19 +93,30 @@
   "osc:type": "project",
   "contacts": [
     {
-      "name": "David Arthurs",
+      "name": "Zaynab Guerraou",
       "emails": [
         {
-          "value": "david.arthurs@polarview.org"
+          "value": "zaynab.guerraou@esa.int"
         }
       ],
       "roles": [
         "technical_officer"
       ]
+    },
+    {
+      "name": "David Arthurs",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "david.arthurs@polarview.org"
+        }
+      ]
     }
   ],
-  "updated": "2025-02-19T23:00:00Z",
-  "title": "POLARIS",
+  "updated": "2025-09-30T11:16:38Z",
+  "title": "Cerulean Information Factory",
   "extent": {
     "spatial": {
       "bbox": [
@@ -95,7 +132,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2024-12-31T23:59:59Z"
+          "2025-09-30T23:59:59Z"
         ]
       ]
     }
