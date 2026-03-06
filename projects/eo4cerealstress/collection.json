@@ -53,7 +53,7 @@
   ],
   "contacts": [
     {
-      "name": "Espen Volved",
+      "name": "Espen Volden",
       "roles": [
         "technical_officer"
       ],
@@ -66,7 +66,7 @@
     {
       "name": "UNIVERSITY OF SOUTHAMPTON (GB)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ],
       "emails": [
         {
@@ -104,10 +104,10 @@
     "spatial": {
       "bbox": [
         [
-          36.8,
-          -99.4,
-          50.3,
-          16.95
+          -99.40, 
+          36.80, 
+          16.95, 
+          50.30
         ]
       ]
     },
