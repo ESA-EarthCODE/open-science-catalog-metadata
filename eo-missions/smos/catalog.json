@@ -42,6 +42,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4dmed-2d-sss/collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "child",
       "href": "../../products/gross-net-carbon-flux-lpf-vad3emecum/collection.json",
       "type": "application/json",
       "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon"

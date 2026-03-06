@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "worldview-1",
+  "stac_version": "1.0.0",
+  "description": "Launched in September 2007, WorldView-1 (WV-1) is a commercial mission owned and operated by Maxar Technologies Inc., which formed following a merger of MDA (MacDonald Dettwiler and Associates) Holdings Company, and DigitalGlobe Inc., the original developers of the WorldView series. WV-1 is the successor to QuickBird-2 and aims to provide high spatial resolution imagery of the Earth’s surface to defence, intelligence and commercial industries. The WorldView series consists of 4 high resolution commercial Earth imaging satellites owned by Maxar and distributed by European Space Imaging (EUSI). An environment-monitoring satellite and the world's first 50 cm resolution commercial imaging satellite. WV-1 carries a single sensor, the WorldView 60 camera (WV60), which is a high resolution optical imager. WV60 aims to provide very high resolution land imagery, which is used for precise map creation, in-depth image analysis and change detection. Imagery collected by WV-1 is also used for mapping and planning in commercial, intelligence and defence sectors internationally.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=993",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/worldview-1/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2026-01-29T17:27:42.171831Z",
+  "keywords": [],
+  "title": "WorldView-1"
+}

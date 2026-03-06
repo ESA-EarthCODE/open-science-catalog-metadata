@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "id": "sentinel1-amazonas-forest-loss",
+  "stac_version": "1.1.0",
+  "description": "20x20m Deforestation datacube with a time frequency of 12/24 days. The dataset spans 2017 to 2024.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/s14scienceamazonas/collection.json",
+      "type": "application/json",
+      "title": "Project: Sentinel-1 for Science Amazonas"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/tree-cover-change/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Tree Cover Change"
+    },
+    {
+      "rel": "child",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/s14science_amazonas/collection.json",
+      "title": "PRR link"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/s14science_amazonas/s14science_amazonas_tree_cover_change.zarr",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/s14science_amazonas/D8.3-TN-CQv2-Update_to_Technical_Note_on_Carbon_Loss_Quantification_v6.pdf",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "s14scienceamazonas",
+  "osc:status": "completed",
+  "osc:region": "Amazon Basin",
+  "osc:type": "product",
+  "created": "2025-12-22T20:31:58Z",
+  "updated": "2025-12-22T20:31:58Z",
+  "cf:parameter": [
+    {
+      "name": "deforestation-detection"
+    },
+    {
+      "name": "carbon-assessment"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "osc:variables": [
+    "tree-cover-change"
+  ],
+  "title": "Sentinel-1 for Science Amazonas - Forest Loss Maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -80.0,
+          -20.0,
+          -46.0,
+          11.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2024-11-29T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Forests",
+    "Deforestation",
+    "SAR",
+    "Amazon",
+    "Sentinel-1"
+  ]
+}

@@ -21,6 +21,11 @@
       "title": "Documentation"
     },
     {
+      "rel": "visualisation",
+      "href": "https://viewer.earthsystemdatalab.net/?dataset=permafrost",
+      "title": "Interactive Data Visualisation"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

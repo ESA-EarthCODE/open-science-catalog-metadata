@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "eo-missions",
   "stac_version": "1.0.0",
-  "description": "Earth Obeservation Satellite Missions by ESA",
+  "description": "Earth Observation Satellite Missions by ESA",
   "links": [
     {
       "rel": "root",
@@ -396,6 +396,12 @@
     },
     {
       "rel": "child",
+      "href": "./swot/catalog.json",
+      "type": "application/json",
+      "title": "SWOT"
+    },
+    {
+      "rel": "child",
       "href": "./tandem-x/catalog.json",
       "type": "application/json",
       "title": "TanDEM-X"
@@ -435,6 +441,48 @@
       "href": "./windsat/catalog.json",
       "type": "application/json",
       "title": "WindSat"
+    },
+    {
+      "rel": "child",
+      "href": "./geoeye-1/catalog.json",
+      "type": "application/json",
+      "title": "GeoEye-1"
+    },
+    {
+      "rel": "child",
+      "href": "./pleiades/catalog.json",
+      "type": "application/json",
+      "title": "Pleiades-HR (High-Resolution Optical Imaging Constellation of CNES)"
+    },
+    {
+      "rel": "child",
+      "href": "./worldview-1/catalog.json",
+      "type": "application/json",
+      "title": "WorldView-1"
+    },
+    {
+      "rel": "child",
+      "href": "./worldview-2/catalog.json",
+      "type": "application/json",
+      "title": "WorldView-2"
+    },
+    {
+      "rel": "child",
+      "href": "./spot-5/catalog.json",
+      "type": "application/json",
+      "title": "SPOT-5 (Satellite pour l'Observation de la Terre)"
+    },
+    {
+      "rel": "child",
+      "href": "./spot-6-7/catalog.json",
+      "type": "application/json",
+      "title": "SPOT-6 and SPOT-7 (Azersky)"
+    },
+    {
+      "rel": "child",
+      "href": "./srtm/catalog.json",
+      "type": "application/json",
+      "title": "SRTM (Shuttle Radar Topography Mission)"
     },
     {
       "rel": "parent",

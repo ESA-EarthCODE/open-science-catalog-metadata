@@ -1,0 +1,129 @@
+{
+    "type": "Collection",
+    "id": "grounded-eo-database",
+    "stac_version": "1.0.0",
+    "description": "The database contains over 16,000 fiducial reference measurements covering 81 National Ecological Observatory Network (NEON), Integrated Carbon Observation System (ICOS), and Terrestrial Ecosystem Research Network (TERN) sites between 2013 and 2022. The sites span cultivated crops, deciduous forest, evergreen forest, grasslands, mixed forest, pasture/hay, shrub/scrub and woody wetlands over the United States, Europe, and Australia. Fiducial reference measurements were generated from over 280,000 digital hemispherical photography (DHP) and digital cover photography (DCP) images. These were acquired in elementary sampling units (ESUs) of 20 m x 20 m (NEON), 30 m x 30 m (ICOS), and 100 m x 100 m (TERN), containing 9 (ICOS), 12 (NEON), and 36 (TERN) sampling points per ESU. DHP and DCP images were automatically processed using the HemiPy and CoverPy modules, respectively, which calculate estimates of gap fraction to derive plant area index (PAI), green area index (GAI), the fraction of vegetation cover (FCOVER), and for HemiPy, the fraction of intercepted photosynthetically active radiation (FIPAR). HemiPy and CoverPy adopt the recommendations of the Fiducial Reference Measurements for Vegetation (FRM4VEG) project, propagating uncertainties (due to variability in gap fraction) through the derivation of the considered variables, in line with the International Standards Organisation (ISO) Guide to the Expression of Uncertainty in Measurement (GUM). Each value, is, therefore, provided with an estimate of its standard uncertainty (delimited with +/-). Corrections for woody material, which is known to represent up to 35% of total plant area in forests, and may lead to errors of up to 61%, were applied, as were corrections for missing understory data at ICOS sites using previously published information. By applying these corrections and combining overstory and understory measurements, total leaf area index (LAI), fraction of absorbed photosynthetically active radiation (FAPAR), and FCOVER were derived from the values obtained from HemiPy and CoverPy. CSV files are provided containing i) all available fiducial reference measurements, and ii) only those fiducial reference measurements matched with contemporaneous Sentinel-2 L2A surface reflectance observations (i.e. those acquired within one day).",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://zenodo.org/records/14293472",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://www.sciencedirect.com/science/article/pii/S0034425725002019?via%3Dihub#da0005",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/grounded-eo/collection.json",
+        "type": "application/json",
+        "title": "Project: Ground Reference Observations Underlying Novel Decametric Vegetation Data Products from Earth Observation - GROUNDED EO"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/land/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Land"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/fraction-of-absorbed-photosynthetically-active-radiation-fapar/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Fraction Of Absorbed Photosynthetically Active Radiation (FAPAR)"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/leaf-area-index-lai/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Leaf Area Index (LAI)"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/sentinel-2/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: Sentinel-2"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/grounded-eo-database/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    ],
+    "osc:project": "grounded-eo",
+    "osc:status": "completed",
+    "osc:region": "Global",
+    "osc:type": "product",
+    "created": "2025-05-12T00:00:00Z",
+    "version": "1",
+    "sci:doi": "10.5281/zenodo.14293472",
+    "cf:parameter": [
+      {
+        "name": "leaf_area_index"
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+        "fraction-of-absorbed-photosynthetically-active-radiation-fapar",
+        "leaf-area-index-lai"
+    ],
+    "osc:missions": [
+        "sentinel-2"
+    ],
+    "updated": "2025-05-28T20:32:22.960110Z",
+    "title": "The GROUNDED EO database: Extensive fiducial reference measurements of vegetation biophysical variables",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          [
+            -156.648849,
+            -43.095487,
+            153.08807,
+            71.30672
+          ]
+        ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2013-01-01T00:00:00Z",
+            "2022-12-31T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-4.0",
+    "keywords": [
+        "Agriculture",
+        "Crops and Yields",
+        "Ecosystems/Vegetation",
+        "Forestry",
+        "Sentinel-2"
+    ]
+  }

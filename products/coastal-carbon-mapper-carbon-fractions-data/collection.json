@@ -1,0 +1,154 @@
+{
+    "type": "Collection",
+    "id": "coastal-carbon-mapper-carbon-fractions-data",
+    "stac_version": "1.0.0",
+    "description": "This dataset contains in situ measurements of carbon fractions—Dissolved Inorganic Carbon (DIC), Dissolved Organic Carbon (DOC), and Total Organic Carbon (TOC). In 2023 and 2024, we collected data from the coastal waters of the northern Baltic Sea in the frame of seasonal field campaigns. These campaigns were timed to capture a variety of biogeochemical and environmental conditions. The collected data provide insights into the distribution of organic and inorganic carbon in coastal waters, supporting applications such as marine carbon budget assessments, climate change research, and coastal ecosystem studies, as well as the validation of satellite-derived products and the improvement of coastal biogeochemical models in optically complex waters like the Baltic Sea. Water samples were collected from surface waters from various locations, and all carbon fraction analyses were conducted in accordance with EVS-EN 1484, and a Vario TOC analyser (Elementar GmbH, Germany) was used. DOC and DIC were measured from 0.45 µm filtered samples.",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://doi.pangaea.de/10.1594/PANGAEA.984586",
+        "title": "Access"
+      },
+      {
+        "rel": "via",
+        "href": "https://doi.pangaea.de/10.1594/PANGAEA.984586",
+        "title": "Documentation"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Products"
+      },
+      {
+        "rel": "related",
+        "href": "../../projects/coastal-carbon-mapper/collection.json",
+        "type": "application/json",
+        "title": "Project: On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/oceans/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Oceans"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/dissolved-inorganic-carbon-dic/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Dissolved inorganic carbon (DIC)"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/dissolved-organic-carbon/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Dissolved Organic Carbon"
+      },
+      {
+        "rel": "related",
+        "href": "../../variables/particulate-organic-carbon/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Particulate Organic Carbon"
+      },
+      {
+        "rel": "related",
+        "href": "../../eo-missions/in-situ-observations/catalog.json",
+        "type": "application/json",
+        "title": "EO Mission: In-situ observations"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/coastal-carbon-mapper-carbon-fractions-data/collection.json",
+        "type": "application/json"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    ],
+    "osc:project": "coastal-carbon-mapper",
+    "osc:status": "completed",
+    "osc:region": "Baltic Sea",
+    "osc:type": "product",
+    "created": "2025-09-13T12:09:20Z",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "dissolved-inorganic-carbon-dic",
+      "dissolved-organic-carbon",
+      "particulate-organic-carbon"
+    ],
+    "osc:missions": [
+      "in-situ-observations"
+    ],
+    "updated": "2025-09-22T16:31:22.968110Z",
+    "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024",
+    "extent": {
+      "spatial": {
+        "bbox": [
+        [
+          23.3,
+          57.98,
+          26.3,
+          59.72
+        ],
+        [
+          23.900000000000002,
+          57.98000000000002,
+          24.67,
+          58.46000000000001
+        ],
+        [
+          23.29,
+          58.639999999999986,
+          24.01,
+          58.879999999999995
+        ],
+        [
+          24.459999999999997,
+          59.420000000000016,
+          24.85,
+          59.610000000000014
+        ],
+        [
+          25.9,
+          59.57,
+          25.98,
+          59.65
+        ]
+      ]
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2023-04-10T00:00:00Z",
+            "2024-09-30T23:59:59Z"
+          ]
+        ]
+      }
+    },
+    "license": "CC-BY-NC-4.0",
+    "keywords": [
+        "Baltic Sea",
+        "Coastal waters",
+        "dissolved organic matter (DOC)",
+        "dissolved inorganic matter (DIC)",
+        "total organic carbon (TOC)",
+        "particulate organic carbon"
+    ]
+}
+  
