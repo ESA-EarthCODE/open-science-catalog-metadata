@@ -58,7 +58,7 @@
       },
       {
         "rel": "self",
-        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sentinel3-ampli-ice-sheet-elevation/collection_v2.json",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sentinel3-ampli-ice-sheet-elevation/collection_v3.json",
         "type": "application/json"
       },
       {
@@ -133,4 +133,4 @@
         "Glacial Measurements"
     ]
   }
-  
+
