@@ -52,12 +52,6 @@
       "title": "Polarwarp"
     },
     {
-      "rel": "item",
-      "href": "./waterbodies-argo-eox/record.json",
-      "type": "application/json",
-      "title": "Water Bodies on EOx"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
