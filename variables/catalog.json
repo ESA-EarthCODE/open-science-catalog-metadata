@@ -7205,12 +7205,6 @@
       "title": "Agriculture Mask"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./surface-temperature/catalog.json",
       "type": "application/json",
@@ -7245,6 +7239,18 @@
       "href": "./tree-cover-change/catalog.json",
       "type": "application/json",
       "title": "Tree Cover Change"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Sea Surface Temperature"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
     {
       "rel": "self",

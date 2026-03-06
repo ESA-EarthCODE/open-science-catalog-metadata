@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "id": "water-bodies-argo-eox",
+  "stac_version": "1.0.0",
+  "description": "Water Bodies cross-platform experiment outputs",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ospd/collection.json",
+      "type": "application/json",
+      "title": "Project: OSPD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-water-processes-measurements/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Water Processes/Measurements"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples",
+      "type": "text/html",
+      "title": "Earth Observation Example Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-bodies-argo-eox/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/waterbodies-argo-eox/record.json",
+      "type": "application/json",
+      "title": "Experiment: Water Bodies on EOx"
+    },
+    {
+      "rel": "item",
+      "href": "./S2B_10TFK_20210713_0_L2A/S2B_10TFK_20210713_0_L2A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2A_10TFK_20220524_0_L2A/S2A_10TFK_20220524_0_L2A.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "osc:experiment": "waterbodies-argo-eox",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:project": "ospd",
+  "created": "2025-12-16T14:42:50Z",
+  "updated": "2025-12-16T14:42:50Z",
+  "version": "1.0",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "surface-water-processes-measurements"
+  ],
+  "title": "Water Bodies on EOx Experiment Outputs",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -121.39905410179915,
+          39.82336095080461,
+          -120.73995321724426,
+          40.482798837728375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-13T19:03:24Z",
+          "2022-05-24T19:03:29Z"
+        ]
+      ]
+    }
+  },
+
+  "osc-prov:type": ["Entity", "Artifact", "Dataset"],
+  "osc-prov:wasDerivedFrom": [
+    "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2B_10TFK_20210713_0_L2A",
+    "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A"
+  ],
+  "osc-prov:wasOutputFrom": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/waterbodies-argo-eox/record.json",
+  "osc-prov:describedByParameter": "stac_catalog"
+}

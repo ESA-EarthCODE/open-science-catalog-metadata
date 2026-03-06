@@ -1,46 +1,37 @@
 {
-  "id": "pca-on-ocean-data-cube",
+  "id": "demo-cmems-sst-workflow",
   "type": "Feature",
-  "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability",
+  "title": "Demo CMEMS SST",
   "geometry": null,
   "properties": {
-    "created": "2025-09-26T15:22:28.166261+00:00",
-    "updated": "2025-09-26T15:22:28.166261+00:00",
+    "created": "2025-08-19T14:32:23.431357+00:00",
+    "updated": "2025-08-19T14:32:23.431357+00:00",
     "type": "workflow",
-    "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability",
-    "description": "Understanding the complex dynamics of oceanographic variables is essential for assessing ecological patterns, climate change impacts, and biogeochemical cycles. This exploratory data analysis (EDA) aims to examine a dataset of oceanographic variables across a specified region in the Pacific Ocean, focusing on the period from 2018 to 2020, by leveraging statistical analysis, visualization techniques, and machine learning approaches.",
+    "title": "Demo CMEMS SST",
+    "description": "cube generation workflow for cmems sst data cube",
     "jupyter_kernel_info": {
-      "name": "users-deepesdl-xcube-1.11.0",
+      "name": "deepesdl-lps-demo",
       "python_version": 3.11,
-      "env_file": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_ocean_carbon_cycle.yaml"
+      "env_file": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
     },
     "keywords": [
-      "Earth Science",
-      "DeepESDL",
-      "Ocean Carbon Cycle"
+      "Earth Science"
     ],
     "contacts": [
       {
-        "name": "Julia Klima",
-        "organization": "University of Leipzig"
-      },
-      {
-        "name": "Jannes Kruse",
-        "organization": "University of Leipzig"
-      },
-      {
-        "name": "Jonas Neumann",
-        "organization": "University of Leipzig"
-      },
-      {
         "name": "Tejas Morbagal Harish",
         "organization": "Brockmann Consult GmbH",
+        "position": "",
         "links": [
           {
             "rel": "about",
             "type": "text/html",
             "href": "https://www.brockmann-consult.de/"
           }
+        ],
+        "contactInstructions": "",
+        "roles": [
+          "principal investigator"
         ]
       }
     ],
@@ -55,7 +46,7 @@
       }
     ],
     "formats": [],
-    "license": "Apache-2.0",
+    "license": "proprietary",
     "osc:project": "deep-earth-system-data-lab",
     "application:type": "jupyter-notebook",
     "application:container": [
@@ -88,10 +79,16 @@
       "title": "Workflows"
     },
     {
+      "rel": "child",
+      "href": "../../experiments/demo-cmems-sst-workflow/record.json",
+      "type": "application/json",
+      "title": "Demo CMEMS SST"
+    },
+    {
       "rel": "jupyter-notebook",
       "type": "application/json",
       "title": "Jupyter Notebook",
-      "href": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/Ocean_Carbon_Cycle.ipynb"
+      "href": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb"
     },
     {
       "rel": "application-originating-platform",
@@ -111,7 +108,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/pca-on-ocean-data-cube/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/demo-cmems-sst-workflow/record.json",
       "type": "application/json"
     },
     {
@@ -122,21 +119,21 @@
     },
     {
       "rel": "application",
-      "title": "Jupyter Notebook: DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability",
-      "href": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/Ocean_Carbon_Cycle.ipynb",
+      "title": "Jupyter Notebook: Demo CMEMS SST",
+      "href": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
       "type": "application/x-ipynb+json",
       "application:type": "jupyter-notebook",
       "application:container": "true",
       "application:language": "Python",
       "jupyter:kernel": {
-        "name": "users-deepesdl-xcube-1.11.0",
+        "name": "deepesdl-lps-demo",
         "pythonVersion": 3.11,
-        "envFile": "https://github.com/deepesdl/deepesdl-doc/blob/main/notebooks/science-cases/conda_env_for_ocean_carbon_cycle.yaml"
+        "envFile": "https://github.com/deepesdl/cube-gen/blob/main/Permafrost/environment.yml"
       }
     },
     {
       "rel": "related",
-      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fdeepesdl-doc&urlpath=lab%2Ftree%2Fdeepesdl-doc%2Fnotebooks%2Fscience-cases%2FOcean_Carbon_Cycle.ipynb&branch=main",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdeepesdl%2Fcube-gen&urlpath=lab%2Ftree%2Fcube-gen%2FPermafrost%2FCreate-CCI-Permafrost-cube-EarthCODE.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the DeepESDL platform"
     }

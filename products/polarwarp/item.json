@@ -1,0 +1,121 @@
+{
+    "type": "Feature",
+    "title": "Polarwarp S1A_EW_GRDM_20250225T080553",
+    "license": "various",
+    "description": "Results of Polarwarp algorithm for S1A_EW_GRDM_20250225T080553",
+    "stac_version": "1.0.0",
+    "id": "polarwarp_forecast_S1A_EW_GRDM_20250225T080553",
+    "collection": "polarwarp",
+    "properties": {
+        "datetime": "2025-02-25T08:05:53Z"
+    },
+    "bbox": [
+        -26.387285214757355,
+        66.89143764562068,
+        -22.79180276016988,
+        68.25650236696812
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -0.0018099989187332413,
+                    0.00043814539682784925,
+                    0.001347252506956414,
+                    0.0007574196581714432
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2025-02-25T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -26.387285214757355,
+                    66.89143764562068
+                ],
+                [
+                    -22.79180276016988,
+                    66.89143764562068
+                ],
+                [
+                    -22.79180276016988,
+                    68.25650236696812
+                ],
+                [
+                    -26.387285214757355,
+                    68.25650236696812
+                ],
+                [
+                    -26.387285214757355,
+                    66.89143764562068
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "collection",
+            "href": "./collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "./collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "forecast_06h": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/Polarwarp/S1A_EW_GRDM_1SDH_20250225T080553_20250225T080653_058050_072AC9_09B1.SAFE_roi_forecast_6_06_NEXTSIM.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        },
+        "forecast_05h": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/Polarwarp/S1A_EW_GRDM_1SDH_20250225T080553_20250225T080653_058050_072AC9_09B1.SAFE_roi_forecast_6_05_NEXTSIM.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        },
+        "forecast_04h": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/Polarwarp/S1A_EW_GRDM_1SDH_20250225T080553_20250225T080653_058050_072AC9_09B1.SAFE_roi_forecast_6_04_NEXTSIM.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        },
+        "forecast_03h": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/Polarwarp/S1A_EW_GRDM_1SDH_20250225T080553_20250225T080653_058050_072AC9_09B1.SAFE_roi_forecast_6_03_NEXTSIM.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        },
+        "forecast_02h": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/Polarwarp/S1A_EW_GRDM_1SDH_20250225T080553_20250225T080653_058050_072AC9_09B1.SAFE_roi_forecast_6_02_NEXTSIM.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        },
+        "forecast_01h": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/Polarwarp/S1A_EW_GRDM_1SDH_20250225T080553_20250225T080653_058050_072AC9_09B1.SAFE_roi_forecast_6_01_NEXTSIM.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        }
+    }
+}

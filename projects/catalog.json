@@ -1139,9 +1139,9 @@
     },
     {
       "rel": "child",
-      "href": "./polaris/collection.json",
+      "href": "./cerulean-information-factory/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Cerulean Information Factory"
     },
     {
       "rel": "child",
@@ -1180,12 +1180,6 @@
       "title": "Lakes4Antarctica"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./fairsendd/collection.json",
       "type": "application/json",
@@ -1196,6 +1190,23 @@
       "href": "./eradiate-radiative-transfer-model/collection.json",
       "type": "application/json",
       "title": "Eradiate radiative transfer model"
+    },
+    {
+      "rel": "child",
+      "href": "./ospd/collection.json",
+      "type": "application/json",
+      "title": "OSPD"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
+      "type": "application/json"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

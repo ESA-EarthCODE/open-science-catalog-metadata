@@ -59,15 +59,27 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-temperature/catalog.json",
-      "type": "application/json"
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cmems-sst/collection.json",
+      "type": "application/json",
+      "title": "cmems-sst"
     },
     {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea-surface-temperature/catalog.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -83,7 +95,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:23:29.839131Z",
+  "updated": "2025-08-19T14:32:23.124045+00:00",
   "keywords": [],
   "title": "Sea Surface Temperature"
 }

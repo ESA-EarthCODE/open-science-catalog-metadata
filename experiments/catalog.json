@@ -17,7 +17,7 @@
     },
     {
       "rel": "item",
-      "href": "./polaris-experiment/record.json",
+      "href": "./polaris/record.json",
       "type": "application/json",
       "title": "POLARIS"
     },
@@ -26,12 +26,6 @@
       "href": "./worldcereal-experiment/record.json",
       "type": "application/json",
       "title": "ESA WorldCereal Experiment"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
     },
     {
       "rel": "item",
@@ -44,8 +38,37 @@
       "href": "./glambie-v1.0.190-experiment/record.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
+    },
+    {
+      "rel": "item",
+      "href": "./demo-cmems-sst-workflow/record.json",
+      "type": "application/json",
+      "title": "Demo CMEMS SST"
+    },
+    {
+      "rel": "item",
+      "href": "./polarwarp/record.json",
+      "type": "application/json",
+      "title": "Polarwarp"
+    },
+    {
+      "rel": "item",
+      "href": "./waterbodies-argo-eox/record.json",
+      "type": "application/json",
+      "title": "Water Bodies on EOx"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
+      "type": "application/json"
     }
   ],
-  "updated": "2025-01-29T18:00:00.000000Z",
+  "updated": "2025-12-16T15:32:00.000000Z",
   "title": "Experiments"
 }

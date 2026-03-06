@@ -1,0 +1,136 @@
+{
+  "id": "waterbodies-argo-eox",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://ahaywardtvuk.github.io/osc-prov/v0.1.0/schema.json"
+  ],
+  "properties": {
+    "created": "2025-12-16T11:26:00Z",
+    "updated": "2025-12-16T11:26:00Z",
+    "type": "experiment",
+    "title": "Water Bodies on EOx",
+    "description": "Cross-platform execution experiment in which the Water Bodies workflow adapted to Argo Workflows has been run by Telespazio on EOx's platform",
+    "keywords": [
+      "OGC",
+      "OSPD",
+      "NDWI",
+      "otsu",
+      "EOX"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "license": "CC-BY-SA-4.0",
+    "osc:workflow": "waterbodies-argo",
+    "version": "2",
+    "osc-prov:type": [
+      "Activity",
+      "WorkflowRun"
+    ],
+    "osc-prov:generatedBy": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ospd/collection.json",
+    "osc-prov:startedAtTime": "2025-12-16T10:40:50Z",
+    "osc-prov:endedAtTime": "2025-12-16T10:44:56Z",
+    "osc-prov:generated": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-bodies-argo-eox/collection.json",
+    "osc-prov:describedByWorkflow": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies-argo/record.json",
+    "osc-prov:wasEnactedBy": {
+      "id": "eoxhub-workspaces",
+      "type": [
+        "WorkflowEngine",
+        "SoftwareAgent",
+        "Agent"
+      ],
+      "prov:label": "EOxHub Workspaces"
+    },
+    "osc-prov:usedInput": [
+      {
+        "type": "Artifact",
+        "hadMember": [
+          "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2B_10TFK_20210713_0_L2A",
+          "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A"
+        ],
+        "describedByParameter": "stac_items"
+      },
+      {
+        "type": "Artifact",
+        "data": "-121.399,39.834,-120.74,40.472",
+        "describedByParameter": "aoi"
+      },
+      {
+        "type": "Artifact",
+        "data": "EPSG:4326",
+        "describedByParameter": "epsg"
+      },
+      {
+        "type": "Artifact",
+        "data": [
+          "green",
+          "nir"
+        ],
+        "describedByParameter": "bands"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/water-bodies-argo-eox/collection.json",
+      "type": "application/json",
+      "title": "Water Bodies on EOx Experiment Outputs"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/waterbodies-argo/record.json",
+      "type": "application/json",
+      "title": "Workflow: Water bodies workflow adapted to Argo Workflows"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/waterbodies-argo-eox/record.json",
+      "type": "application/json"
+    }
+  ]
+}

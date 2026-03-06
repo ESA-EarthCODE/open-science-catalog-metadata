@@ -1,0 +1,171 @@
+{
+  "id": "waterbodies-argo",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "title": "Water bodies workflow adapted to Argo Workflows",
+    "created": "2025-12-16T11:18:12Z",
+    "osc:project": "ospd",
+    "description": "This workflow accepts STAC items referencing GeoTIF assets and determines areas of water in the data based on NDWI (Normalised Difference Water Index) and the Otsu Threshold. The workflow is defined as an OGC Application Package using Common Workflow Language (CWL) so the executing platform will need to support CWL execution. It generates a STAC Catalog as output, linking to the individual STAC items generated during the workflow execution. This version of the workflow is a cross-platform experiment for OSPD in which the original waterbodies workflow has been ported to Argo Workflows. As part of this, experimental provenance data has been added to this record.",
+    "keywords": [
+      "water",
+      "NDWI",
+      "water bodies",
+      "otsu",
+      "eoepca"
+    ],
+    "contacts": [
+      {
+        "name": "Tom Jellicoe",
+        "positionName": "Software Developer",
+        "organization": "Telespazio UK",
+        "emails": [
+          {
+            "value": "thomas.jellicoe@telespazio.com"
+          }
+        ]
+      }
+    ],
+    "type": "workflow",
+    "resourceLanguages": [],
+    "externalIds": [],
+    "formats": [],
+    "language": {
+      "code": "en-GB",
+      "name": "English (Great Britain)"
+    },
+    "languages": [],
+    "osc-prov:type": [
+      "Entity",
+      "Plan",
+      "Workflow",
+      "EOApplicationPackage"
+    ],
+    "osc-prov:generatedBy": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ospd/collection.json",
+    "osc-prov:hasInput": {
+      "aoi": {
+        "title": "area of interest",
+        "description": "area of interest as a bounding box",
+        "schema": {
+          "type": "string",
+          "default": "-121.399,39.834,-120.74,40.472",
+          "pattern": "^-?\\d+(\\.\\d+)?,-?\\d+(\\.\\d+)?, -?\\d+(\\.\\d+)?,-?\\d+(\\.\\d+)?$"
+        }
+      },
+      "epsg": {
+        "title": "EPSG code",
+        "description": "EPSG code",
+        "schema": {
+          "type": "string",
+          "default": "EPSG:4326"
+        }
+      },
+      "stac_items": {
+        "title": "Sentinel-2 STAC items",
+        "description": "list of Sentinel-2 COG STAC items",
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1
+        },
+        "default": [
+          "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2B_10TFK_20210713_0_L2A",
+          "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A"
+        ]
+      },
+      "bands": {
+        "title": "bands used for the NDWI",
+        "description": "bands used for the NDWI",
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "default": [
+            "green",
+            "nir"
+          ]
+        }
+      }
+    },
+    "osc-prov:hasOutput": {
+      "stac_catalog": {
+        "title": "STAC Catalog",
+        "description": "STAC Catalog containing the water bodies results",
+        "osc-prov:type": [
+          "Collection",
+          "Entity"
+        ],
+        "schema": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies-argo/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ospd/collection.json",
+      "type": "application/json",
+      "title": "Project: OSPD"
+    },
+    {
+      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples/raw/refs/heads/main/water-bodies/water-bodies-v2.yaml",
+      "rel": "application",
+      "type": "application/vnd.argoproj.workflow.v1alpha1+yaml ",
+      "title": "Argo Workflows Definition"
+    },
+    {
+      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples/raw/refs/heads/main/water-bodies/water-bodies-v2.yaml",
+      "rel": "osc-prov:WorkflowDefinition",
+      "type": "application/vnd.argoproj.workflow.v1alpha1+yaml ",
+      "title": "Argo Workflows Definition"
+    },
+    {
+      "rel": "application-platform",
+      "title": "EOxHub Workspaces",
+      "href": "https://workspace.deside.hub-ovh.eox.at/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "argo-workflow"
+      ],
+      "application:preferred_app": "argo"
+    },
+    {
+      "rel": "related",
+      "href": "https://workspace.deside.hub-ovh.eox.at/argo-workflows-server/processes/water-bodies",
+      "type": "text/html",
+      "title": "Trigger workflow via API provided by EOxHub Workspaces"
+    }
+  ],
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-ogc-application-package",
+    "https://ahaywardtvuk.github.io/osc-prov/v0.1.0/schema.json"
+  ],
+  "linkTemplates": []
+}
