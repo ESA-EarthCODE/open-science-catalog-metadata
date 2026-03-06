@@ -1192,6 +1192,12 @@
       "title": "Eradiate radiative transfer model"
     },
     {
+      "rel": "child",
+      "href": "./eo4cerealstress/collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
