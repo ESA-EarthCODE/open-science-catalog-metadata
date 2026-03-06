@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "eo4cerealstress",
+  "stac_version": "1.0.0",
+  "description": "Cereal crops form the backbone of global food systems, yet their productivity is increasingly threatened by multiple stressors, including salinity, nutrient deficiencies, heavy metal toxicity, and drought. Understanding where, when, and how these stresses impact crops is essential for improving agricultural resilience and ensuring long-term food security.The EO4CerealStress project has developed a multi\u2011sensor, multi\u2011scale EO approach to monitor cereal crop responses to these stressors. By providing high spatial, spectral, and temporal resolution information, the project enables the detection of both individual and combined stress factors with high accuracy. Its workflow integrates Sentinel\u20112, EnMAP, PRISMA, and hyperspectral drone data, combined with radiative transfer model (RTM) simulations, machine learning, deep learning, and extensive field validation campaigns conducted in 2023 and 2024. This synergistic use of data and modelling has significantly improved the detection and prediction of crop stress at field scale (10\u201330 m).The project has produced experimental EO\u2011based stressor products for drought, salinity, nutrient deficiency, heavy metal toxicity, and lodging across sites in Spain, Italy, and Austria. It has also developed new biophysical trait modelling frameworks leveraging Sentinel\u20112, EnMAP, and hyperspectral drone data in Spain and Italy. AI\u2011 and ML\u2011driven pipelines have been created to predict drought stress from gap-filled Sentinel\u20112 data in Austria and Canada, showcasing the scalability and transferability of the EO4CerealStress methodologies.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4cerealstress.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eo4cerealstress-theme-3-crop-response-to-multiple-stressors/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "osc:type": "project",
+  "updated": "2026-03-06T15:24:57Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Espen Volved",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "espen.volden@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF SOUTHAMPTON (GB)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "eo4cerealstress@soton.ac.uk"
+        }
+      ]
+    }
+  ],
+  "title": "EO4CerealStress: Crop Response to Multiple Stressors",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.8,
+          -99.4,
+          50.3,
+          16.95
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-01T00:00:00Z",
+          "2026-03-13T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0"
+}
