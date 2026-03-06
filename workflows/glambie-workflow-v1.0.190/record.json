@@ -57,6 +57,12 @@
       "title": "Project: Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
     },
     {
+      "rel": "related",
+      "href": "../../experiments/glambie-v1.0.190-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
+    },
+    {
       "rel": "git",
       "href": "https://github.com/ESA-EarthCODE/glambie.git",
       "type": "application/json",
@@ -70,7 +76,7 @@
     },
     {
       "rel": "related",
-      "href": "../../cryosphere/land/catalog.json",
+      "href": "../../cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     }

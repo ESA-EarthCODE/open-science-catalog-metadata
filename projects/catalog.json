@@ -5,6 +5,11 @@
   "description": "Activities funded by ESA",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
@@ -1179,11 +1184,6 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
-      "type": "application/json"
     },
     {
       "rel": "child",

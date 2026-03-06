@@ -28,6 +28,11 @@
         "title": "DOI"
     },
     {
+      "href": "https://doi.org/10.1016/j.egyr.2026.109133",
+      "rel": "Related publication",
+      "title": "High-resolution mapping of wave energy resources in the Mediterranean Sea using satellite altimetry"
+    },
+    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
