@@ -69,12 +69,6 @@
       "title": "Theme: Cryosphere"
     },
     {
-      "rel": "child",
-      "href": "../../products/cmems-sst/collection.json",
-      "type": "application/json",
-      "title": "cmems-sst"
-    },
-    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",

@@ -1192,12 +1192,6 @@
       "title": "Eradiate radiative transfer model"
     },
     {
-      "rel": "child",
-      "href": "./ospd/collection.json",
-      "type": "application/json",
-      "title": "OSPD"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

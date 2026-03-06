@@ -1985,12 +1985,6 @@
     },
     {
       "rel": "child",
-      "href": "./cmems-sst/collection.json",
-      "type": "application/json",
-      "title": "cmems-sst"
-    },
-    {
-      "rel": "child",
       "href": "./polarwarp/collection.json",
       "type": "application/json",
       "title": "Polarwarp"
