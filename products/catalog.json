@@ -1631,12 +1631,6 @@
     },
     {
       "rel": "child",
-      "href": "./water-bodies-argo-eox/collection.json",
-      "type": "application/json",
-      "title": "Water Bodies on EOx Experiment Outputs"
-    },
-    {
-      "rel": "child",
       "href": "./water-level-amazon-itapeua-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"

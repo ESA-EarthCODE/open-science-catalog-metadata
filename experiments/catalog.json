@@ -41,12 +41,6 @@
     },
     {
       "rel": "item",
-      "href": "./demo-cmems-sst-workflow/record.json",
-      "type": "application/json",
-      "title": "Demo CMEMS SST"
-    },
-    {
-      "rel": "item",
       "href": "./polarwarp/record.json",
       "type": "application/json",
       "title": "Polarwarp"
