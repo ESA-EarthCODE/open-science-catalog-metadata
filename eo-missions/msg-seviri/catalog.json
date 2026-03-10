@@ -24,15 +24,15 @@
     },
     {
       "rel": "child",
-      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "Oceanic HR Fronts Agulhas"
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Agulhas Region"
     },
     {
       "rel": "child",
-      "href": "../../products/oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
+      "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
-      "title": "Oceanic Fronts Western Europe"
+      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region"
     },
     {
       "rel": "self",

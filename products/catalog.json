@@ -343,13 +343,13 @@
       "rel": "child",
       "href": "./daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 2D ocean surface currents North Atlantic"
+      "title": "WOC North Atlantic 2-D Merged SSH/SST currents"
     },
     {
       "rel": "child",
       "href": "./daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Daily 3D ocean currents North Atlantic"
+      "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity"
     },
     {
       "rel": "child",
@@ -373,7 +373,7 @@
       "rel": "child",
       "href": "./doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Doppler derived surface current Agulhas S1"
+      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity product in Agulhas current"
     },
     {
       "rel": "child",
@@ -517,7 +517,7 @@
       "rel": "child",
       "href": "./gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Gridded Geostrophic Surface Current Oceans Agulhas"
+      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region"
     },
     {
       "rel": "child",
@@ -1441,7 +1441,7 @@
       "rel": "child",
       "href": "./stokes-drift-global-ocean-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Stokes drift estimation Global Ocean"
+      "title": "WOC Estimation of Stokes Drift Components from WaveWatch3 Model over Global Ocean"
     },
     {
       "rel": "child",
@@ -1597,7 +1597,13 @@
       "rel": "child",
       "href": "./total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Total surface current North Atlantic"
+      "title": "WOC North Atlantic Total Surface Current"
+    },
+    {
+      "rel": "child",
+      "href": "./total-surface-current-15/collection.json",
+      "type": "application/json",
+      "title": "WOC Total Surface Current at 15m"
     },
     {
       "rel": "child",
@@ -1711,7 +1717,7 @@
       "rel": "child",
       "href": "./wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Wind stress vector (& anomalies) Hourly ERA5"
+      "title": "WOC ERA* Hourly Global Stress Equivalent Wind and Wind Stress"
     },
     {
       "rel": "child",

@@ -36,13 +36,13 @@
       "rel": "child",
       "href": "../../products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region"
+      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity product in Agulhas current"
     },
     {
       "rel": "child",
       "href": "../../products/gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Geostrophic Surface Current Estimated by the BFN-QG over Agulhas Region"
+      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region"
     },
     {
       "rel": "child",
@@ -76,7 +76,7 @@
     },
     {
       "rel": "child",
-      "href": "../../products/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
       "type": "application/json",
       "title": "WOC Predicted Oil Spill Transport for the Sanchi Incident"
     },
