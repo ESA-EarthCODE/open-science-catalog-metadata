@@ -56,7 +56,7 @@
       "rel": "child",
       "href": "../../products/total-surface-current-15/collection.json",
       "type": "application/json",
-      "title": "WOC Total surface current 15m"
+      "title": "WOC Total Surface Current at 15m"
     },
     {
       "rel": "parent",
