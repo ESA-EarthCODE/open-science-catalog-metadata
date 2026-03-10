@@ -54,7 +54,7 @@
     },
         {
       "rel": "child",
-      "href": "../../products/total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
+      "href": "../../products/total-surface-current-15/collection.json",
       "type": "application/json",
       "title": "WOC Total surface current 15m"
     },
