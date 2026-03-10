@@ -24,7 +24,7 @@
     },
     {
       "rel": "child",
-      "href": "../../products/products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
       "type": "application/json",
       "title": "WOC Predicted Oil Spill Transport for the Sanchi Incident"
     },
