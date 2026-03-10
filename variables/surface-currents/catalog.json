@@ -52,7 +52,7 @@
       "type": "application/json",
       "title": "WOC North Atlantic Total Surface Current"
     },
-        {
+    {
       "rel": "child",
       "href": "../../products/total-surface-current-15/collection.json",
       "type": "application/json",
