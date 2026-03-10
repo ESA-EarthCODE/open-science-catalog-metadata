@@ -12,12 +12,12 @@
     },
     {
       "rel": "via",
-      "href": "https://www.worldoceancirculation.org/Products",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/cfa65be8-b200-4243-aba0-843c363001d9",
       "title": "Access"
     },
     {
       "rel": "via",
-      "href": "https://drive.google.com/file/d/1mZKXo2sbp5J80sk4dcRe8nLSYtmxzkAg/view?usp=sharing",
+      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme3/ocean_currents/woc-l4-cureul-natl-1h/v2.0/pum.pdf",
       "title": "Documentation"
     },
     {
@@ -56,7 +56,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
-  "osc:status": "ongoing",
+  "osc:status": "completed",
   "osc:region": "North Atlantic",
   "osc:type": "product",
   "created": "2021-11-30T00:00:00Z",
@@ -80,7 +80,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.962110Z",
-  "title": "Total surface current North Atlantic",
+  "title": "WOC North Atlantic Total Surface Current",
   "extent": {
     "spatial": {
       "bbox": [
