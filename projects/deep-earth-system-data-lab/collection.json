@@ -78,6 +78,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deepesdl/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
+      "type": "application/json",
+      "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
     }
   ],
   "stac_extensions": [

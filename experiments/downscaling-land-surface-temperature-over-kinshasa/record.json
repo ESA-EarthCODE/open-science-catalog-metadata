@@ -1,0 +1,139 @@
+{
+  "id": "downscaling-land-surface-temperature-over-kinshasa",
+  "title": "Urban LST Downscaling over Kinshasa",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-03-19T15:33:25.094294+00:00",
+    "updated": "2026-03-19T15:33:25.094294+00:00",
+    "type": "experiment",
+    "title": "Urban LST Downscaling over Kinshasa",
+    "description": "A proof-of-concept workflow for downscaling ESA CCI Land Surface Temperature from 1 km to 10 m resolution using XGBoost, trained on Sentinel-2 spectral indices, WSF3D building morphology, and terrain derivatives across 15 African cities. Applied to Kinshasa for 2016 and 2023 to assess urban-driven LST change.",
+    "jupyter_kernel_info": {
+      "name": "momo-ect",
+      "python_version": 3.13,
+      "env_file": "https://github.com/bcdev/earthcode-workflows/blob/main/momo-nbs/environment.yml"
+    },
+    "keywords": [
+      "Land Surface Temperature",
+      "Downscaling",
+      "Urban Heat Island",
+      "Sentinel-2",
+      "XGBoost",
+      "Sub-Saharan Africa"
+    ],
+    "contacts": [
+      {
+        "name": "Mark Hansen",
+        "organization": "Brockmann Consult GmbH",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de/"
+          }
+        ]
+      },
+      {
+        "name": "Tonio Fincke",
+        "organization": "Brockmann Consult GmbH",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de/"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "CC-BY-4.0",
+    "osc:workflow": "downscaling-land-surface-temperature-over-kinshasa",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "type": "application/json",
+      "title": "Workflow: Urban LST Downscaling over Kinshasa"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
+      "type": "application/json",
+      "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+    }
+  ]
+}

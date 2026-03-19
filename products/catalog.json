@@ -1999,6 +1999,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
+      "type": "application/json",
+      "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
