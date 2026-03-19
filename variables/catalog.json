@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "variables",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience, climate and environmental variables",
   "links": [
     {
@@ -1564,7 +1564,7 @@
       "type": "application/json",
       "title": "Dead Wood"
     },
-      {
+    {
       "rel": "child",
       "href": "./dead-wood-fuel-moisture-content/catalog.json",
       "type": "application/json",
@@ -7245,6 +7245,24 @@
       "href": "./tree-cover-change/catalog.json",
       "type": "application/json",
       "title": "Tree Cover Change"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly-diff/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly Diff"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-median/catalog.json",
+      "type": "application/json",
+      "title": "Lst Median"
     },
     {
       "rel": "self",

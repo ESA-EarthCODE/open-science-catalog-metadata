@@ -1,0 +1,146 @@
+{
+  "id": "downscaling-land-surface-temperature-over-kinshasa",
+  "type": "Feature",
+  "title": "Urban LST Downscaling over Kinshasa",
+  "geometry": null,
+  "properties": {
+    "created": "2026-03-19T10:34:00.015317+00:00",
+    "updated": "2026-03-19T10:34:00.015317+00:00",
+    "type": "workflow",
+    "title": "Urban LST Downscaling over Kinshasa",
+    "description": "A proof-of-concept workflow for downscaling ESA CCI Land Surface Temperature from 1 km to 10 m resolution using XGBoost, trained on Sentinel-2 spectral indices, WSF3D building morphology, and terrain derivatives across 15 African cities. Applied to Kinshasa for 2016 and 2023 to assess urban-driven LST change.",
+    "jupyter_kernel_info": {
+      "name": "momo-ect",
+      "python_version": 3.13,
+      "env_file": "https://github.com/bcdev/earthcode-workflows/blob/main/momo-nbs/environment.yml"
+    },
+    "keywords": [
+      "Land Surface Temperature",
+      "Downscaling",
+      "Urban Heat Island",
+      "Sentinel-2",
+      "XGBoost",
+      "Sub-Saharan Africa"
+    ],
+    "contacts": [
+      {
+        "name": "Mark Hansen",
+        "organization": "Brockmann Consult GmbH",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de/"
+          }
+        ]
+      },
+      {
+        "name": "Tonio Fincke",
+        "organization": "Brockmann Consult GmbH",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de/"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "CC-BY-4.0",
+    "osc:project": "deep-earth-system-data-lab",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json"
+  ],
+  "themes": [
+    "land"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Jupyter Notebook",
+      "href": "https://github.com/bcdev/earthcode-workflows/tree/main/momo-nbs"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "application",
+      "title": "Jupyter Notebook: Urban LST Downscaling over Kinshasa",
+      "href": "https://github.com/bcdev/earthcode-workflows/tree/main/momo-nbs",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:container": "true",
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "momo-ect",
+        "pythonVersion": 3.13,
+        "envFile": "https://github.com/bcdev/earthcode-workflows/blob/main/momo-nbs/environment.yml"
+      }
+    },
+    {
+      "rel": "related",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fbcdev%2Fearthcode-workflows&urlpath=lab%2Ftree%2Fearthcode-workflows%2Fmomo-nbs&branch=main",
+      "type": "text/html",
+      "title": "Open notebook on the DeepESDL platform"
+    }
+  ]
+}

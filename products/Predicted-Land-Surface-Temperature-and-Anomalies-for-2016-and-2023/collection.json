@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "id": "Predicted-Land-Surface-Temperature-and-Anomalies-for-2016-and-2023",
+  "stac_version": "1.1.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "s3://deep-esdl-public/lst.zarr",
+      "title": "Access"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/lst-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Lst Anomaly"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/lst-anomaly-diff/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Lst Anomaly Diff"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/lst-median/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Lst Median"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/Predicted-Land-Surface-Temperature-and-Anomalies-for-2016-and-2023/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/Downscaling Land Surface Temperature over Kinshasa/record.json",
+      "type": "application/json",
+      "title": "Experiment: Urban LST Downscaling over Kinshasa"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:project": "deep-earth-system-data-lab",
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:region": "Kinshasa",
+  "osc:variables": [
+    "lst-anomaly",
+    "lst-anomaly-diff",
+    "lst-median"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "lst_median",
+      "units": "kelvin"
+    },
+    {
+      "name": "lst_anomaly",
+      "units": "kelvin"
+    },
+    {
+      "name": "lst_anomaly_diff",
+      "units": "kelvin"
+    }
+  ],
+  "created": "2026-03-19T10:33:34.567615+00:00",
+  "updated": "2026-03-19T10:33:34.567615+00:00",
+  "themes": [
+    {
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ],
+      "scheme": "https://github.com/stac-extensions/osc#theme"
+    }
+  ],
+  "title": "Predicted-Land-Surface-Temperature-and-Anomalies-for-2016-and-2023",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          534394.9742795192,
+          9503685.690263443,
+          544354.9742795192,
+          9513645.690263443
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": null
+}
