@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-anomaly-diff",
   "stac_version": "1.1.0",
-  "description": null,
+  "description": "Difference between Land Surface Temperature Anomalies",
   "links": [
     {
       "rel": "root",
