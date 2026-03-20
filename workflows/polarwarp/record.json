@@ -1,0 +1,150 @@
+{
+  "id": "polarwarp",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-argo-workflow"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-09-30T13:00:00Z",
+    "updated": "2025-09-30T14:00:00Z",
+    "type": "workflow",
+    "title": "Polarwarp",
+    "description": "The polarwarp algorithm geolocates, aligns, and warps satellite SAR images using forecast drift and wind/tide fields in polar regions.",
+    "application:type": "argo-workflow",
+    "application:container": true,
+    "application:language": "Python",
+    "keywords": [
+      "sea ice",
+      "polar"
+    ],
+    "contacts": [
+      {
+        "name": "David Arthurs",
+        "roles": [
+          "consortium_member"
+        ],
+        "emails": [
+          {
+            "value": "david.arthurs@polarview.org"
+          }
+        ]
+      },
+      {
+        "name": "Týna Doležalová",
+        "roles": [
+          "consortium_member"
+        ],
+        "emails": [
+          {
+            "value": "tyna.dolezalova@eox.at"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      },
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "license": "CC-BY-SA-4.0",
+    "osc:project": "cerulean-information-factory"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polarwarp/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cerulean-information-factory/collection.json",
+      "type": "application/json",
+      "title": "Project: Cerulean Information Factory"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../experiments/polarwarp/record.json",
+      "type": "application/json",
+      "title": "Polarwarp"
+    },
+    {
+      "rel": "vcs",
+      "title": "Git source repository",
+      "href": "https://github.com/gtif-cerulean/polarwarp.git",
+      "vcs:type": "git",
+      "vcs:branch": "main"
+    },
+    {
+      "rel": "application",
+      "title": "Polarwarp workflow",
+      "href": "https://github.com/gtif-cerulean/polarwarp/blob/main/workflow.yml",
+      "type": "application/x-argo-workflow-yaml",
+      "application:type": "argo-workflow",
+      "application:container": true,
+      "application:language": "Python",
+      "argo-workflow:": {
+        "requirements": [
+          {
+            "temp_storage": "10GB"
+        }
+        ]
+      }
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "EOxHub Workspaces",
+      "href": "https://workspace.cif.hub-otc.eox.at/",
+      "type": "text/html",
+      "application:platform_supports": ["argo-workflow"],
+      "application:preferred_app": "argo"
+    },
+    {
+      "rel": "related",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp-gcps",
+      "type": "text/html",
+      "title": "Trigger workflow via API provided by pygeoapi"
+    }
+
+  ]
+}
