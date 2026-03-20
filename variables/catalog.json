@@ -1548,30 +1548,6 @@
     },
     {
       "rel": "child",
-      "href": "./dead-foliage/catalog.json",
-      "type": "application/json",
-      "title": "Dead Foliage"
-    },
-    {
-      "rel": "child",
-      "href": "./dead-foliage-fuel-moisture-content/catalog.json",
-      "type": "application/json",
-      "title": "Dead Foliage Fuel Moisture Content"
-    },
-    {
-      "rel": "child",
-      "href": "./dead-wood/catalog.json",
-      "type": "application/json",
-      "title": "Dead Wood"
-    },
-      {
-      "rel": "child",
-      "href": "./dead-wood-fuel-moisture-content/catalog.json",
-      "type": "application/json",
-      "title": "Dead Wood Fuel Moisture Content"
-    },
-    {
-      "rel": "child",
       "href": "./deciduous-vegetation/catalog.json",
       "type": "application/json",
       "title": "Deciduous Vegetation"
@@ -2862,12 +2838,6 @@
     },
     {
       "rel": "child",
-      "href": "./high-live-fuel-moisture-content/catalog.json",
-      "type": "application/json",
-      "title": "High Live Fuel Moisture Content"
-    },
-    {
-      "rel": "child",
       "href": "./hmf2/catalog.json",
       "type": "application/json",
       "title": "hmF2"
@@ -3462,24 +3432,6 @@
     },
     {
       "rel": "child",
-      "href": "./live-fuel-moisture-content/catalog.json",
-      "type": "application/json",
-      "title": "Live Fuel Moisture Content"
-    },
-    {
-      "rel": "child",
-      "href": "./live-leaf/catalog.json",
-      "type": "application/json",
-      "title": "Live Leaf"
-    },
-    {
-      "rel": "child",
-      "href": "./live-wood/catalog.json",
-      "type": "application/json",
-      "title": "Live Wood"
-    },
-    {
-      "rel": "child",
       "href": "./local-subsidence-trends/catalog.json",
       "type": "application/json",
       "title": "Local Subsidence Trends"
@@ -3501,12 +3453,6 @@
       "href": "./longwave-radiation/catalog.json",
       "type": "application/json",
       "title": "Longwave Radiation"
-    },
-    {
-      "rel": "child",
-      "href": "./low-live-fuel-moisture-content/catalog.json",
-      "type": "application/json",
-      "title": "Low Live Fuel Moisture Content"
     },
     {
       "rel": "child",
@@ -7235,21 +7181,27 @@
       "title": "Total Suspended Matter (TSM)"
     },
     {
-      "rel": "child",
-      "href": "./supraglacial-lakes/catalog.json",
-      "type": "application/json",
-      "title": "Supraglacial Lakes"
-    },
-    {
-      "rel": "child",
-      "href": "./tree-cover-change/catalog.json",
-      "type": "application/json",
-      "title": "Tree Cover Change"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly-diff/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly Diff"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-median/catalog.json",
+      "type": "application/json",
+      "title": "Lst Median"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",
