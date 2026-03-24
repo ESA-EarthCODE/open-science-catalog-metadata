@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-anomaly",
   "stac_version": "1.0.0",
-  "description": "Lst Anomaly",
+  "description": "Deviation of Land Surface Temperature from Regional Median",
   "links": [
     {
       "rel": "root",

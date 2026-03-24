@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-anomaly-diff",
   "stac_version": "1.0.0",
-  "description": "Lst Anomaly Diff",
+  "description": "Change of Land Surface Temperature Anomaly from 2016 to 2023",
   "links": [
     {
       "rel": "root",

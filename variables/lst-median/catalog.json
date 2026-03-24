@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-median",
   "stac_version": "1.0.0",
-  "description": "Lst Median",
+  "description": "Land Surface Temperature Median from July to September",
   "links": [
     {
       "rel": "root",

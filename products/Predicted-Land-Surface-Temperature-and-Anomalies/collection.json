@@ -11,11 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "s3://deep-esdl-public/lst.zarr",
-      "title": "Access"
-    },
-    {
       "rel": "visualisation",
       "href": "https://viewer.earthsystemdatalab.net/?dataset=lst",
       "title": "Dataset visualisation"
