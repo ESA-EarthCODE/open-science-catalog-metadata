@@ -48,15 +48,15 @@
     },
     {
       "rel": "child",
-      "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
       "type": "application/json",
       "title": "PRR Data Collection"
     },
     {
       "rel": "via",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
+      "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
       "type": "application/json",
-      "title": "Documentation"
+      "title": "Access"
     }
   ],
   "stac_extensions": [
