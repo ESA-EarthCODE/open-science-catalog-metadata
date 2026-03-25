@@ -1,0 +1,107 @@
+{
+  "type": "Collection",
+  "id": "esa-science-hub-blanka-piskala",
+  "stac_version": "1.1.0",
+  "description": "The project investigates the spatiotemporal relationship between geostationary satellite-observed lightning activity (MTG-LI and GOES-GLM) and EarthCARE observations. A framework is developed to collocate lightning detections with EarthCARE overpasses, generate along-track lightning statistics, and construct a catalogue of lightning clusters sampled by EarthCARE's active sensors. These datasets enable analysis of how lightning occurrence relates to the vertical structure and dynamical properties of clouds and their environment across different locations and stages of storm development.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://sciencehub.esa.int/projects/combined-earthcare-geostationary-lightning-observations-of-convective-storms/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://sciencehub.esa.int/projects/combined-earthcare-geostationary-lightning-observations-of-convective-storms/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/earthcare-frame-lightning/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE-frame lightning"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-03-25T15:35:05.257557Z",
+  "updated": "2026-03-25T15:35:05.257557Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Edward Malina",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Edward.Malina@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "European Space Agency (ESA-ESRIN)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "title": "ESA Science Hub-Blanka Piskala",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60.0,
+          -180.0,
+          60.0,
+          180.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-01T00:00:00Z",
+          "2027-08-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "projects",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Activities funded by ESA",
   "links": [
     {
@@ -1202,6 +1202,12 @@
       "href": "./eo4cerealstress/collection.json",
       "type": "application/json",
       "title": "EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-science-hub-blanka-piskala/collection.json",
+      "type": "application/json",
+      "title": "ESA Science Hub-Blanka Piskala"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

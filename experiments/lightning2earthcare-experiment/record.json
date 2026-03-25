@@ -1,0 +1,107 @@
+{
+  "id": "lightning2earthcare-experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-03-25T15:35:24Z",
+    "updated": "2026-03-25T15:35:24Z",
+    "type": "experiment",
+    "title": "Lightning2Earthcare experiment",
+    "description": "Lightning2EarthCARE is a workflow for collocating EarthCARE satellite observations with lightning detections from geostationary sensors. It queries EarthCARE MSI and CPR data, retrieves lightning observations from MTG-LI and GOES-GLM, and performs spatial–temporal matching between the datasets. The pipeline clusters lightning detections, generates collocated datasets, and produces a catalogue of lightning storms sampled along the EarthCARE nadir track.. This experiment links the workflow and product.",
+    "keywords": [
+      "EarthCARE",
+      "lightning",
+      "convective storms",
+      "collocation",
+      "clustering"
+    ],
+    "contacts": [
+      {
+        "name": "EarthCODE Demo",
+        "organization": "EarthCODE",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://opensciencedata.esa.int/"
+          }
+        ],
+        "contactInstructions": "Contact via EarthCODE",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "netcdf"
+      },
+      {
+        "name": "hdf5"
+      },
+      {
+        "name": "parquet"
+      }
+    ],
+    "license": "Apache-2.0",
+    "osc:workflow": "lightning2earthcare"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/earthcare-frame-lightning/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE-frame lightning"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/lightning2earthcare/record.json",
+      "type": "application/json",
+      "title": "Workflow: Lightning2EarthCARE"
+    },
+    {
+      "rel": "input",
+      "href": "https://github.com/piskalab/lightning2earthcare.git",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "https://github.com/piskalab/lightning2earthcare.git",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ]
+}
