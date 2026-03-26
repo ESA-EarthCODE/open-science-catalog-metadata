@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "esa-science-hub-blanka-piskala",
   "stac_version": "1.1.0",
-  "description": "The project investigates the spatiotemporal relationship between geostationary satellite-observed lightning activity (MTG-LI and GOES-GLM) and EarthCARE observations. A framework is developed to collocate lightning detections with EarthCARE overpasses, generate along-track lightning statistics, and construct a catalogue of lightning clusters sampled by EarthCARE's active sensors. These datasets enable analysis of how lightning occurrence relates to the vertical structure and dynamical properties of clouds and their environment across different locations and stages of storm development.",
+  "description": "The project investigates the spatiotemporal relationship between geostationary satellite-observed lightning activity (MTG-LI and GOES-GLM) and EarthCARE observations. It develops a framework to collocate lightning detections with EarthCARE overpasses and generate data products that enable analysis of how lightning occurrence relates to the vertical structure and dynamical properties of clouds and their environment across different locations and stages of storm development.",
   "links": [
     {
       "rel": "root",

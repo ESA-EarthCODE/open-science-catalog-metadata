@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "earthcare-frame-lightning",
   "stac_version": "1.1.0",
-  "description": "The Earthcare product contains three seperate data collections: The EarthCARE-frame lightning product, EarthCARE along-track lightning counts and the EarthCARE lightning storm catalogue. The EarthCARE-frame lightning product provides geostationary satellite-detected lightning groups collocated with individual EarthCARE MSI-like observation frames. It includes all lightning activity occurring within the frame and a surrounding 0.5° bounding box within ±1 hour of the EarthCARE overpass. The product is distributed as monthly Parquet files, with MTG-LI and GOES-GLM observations stored separately. The dataset contains lightning groups together with their time, location, radiance, and associated flash identifier. Additional variables describe the temporal difference from the EarthCARE overpass, parallax-corrected lightning positions for groups close to the overpass, and clustering information used to identify lightning structures within storms. \n The along-track lightning counts product provides lightning statistics collocated with EarthCARE CPR observations along the satellite nadir track. For each CPR sample, the dataset quantifies the number of lightning groups detected by geostationary satellites within defined spatial and temporal windows centred on the observation point. The dataset is distributed as Parquet files, with separate files for each lightning data source (MTG-LI and GOES-GLM) \n The lightning storm catalogue provides a set of lightning clusters sampled along the EarthCARE nadir track by its active sensors (CPR and ATLID). Each cluster represents an electrically active region within a convective system, such as an individual convective cell, anvil lightning, or a broader multicellular storm area. The dataset is distributed as Parquet files: one containing cluster-level descriptors (e.g., lightning counts, spatial extent) and another describing the temporal evolution of lightning activity within each cluster in a ±1 hour window around the EarthCARE overpass.",
+  "description": "The Lightning2EarthCARE product includes three related datasets describing geostationary satellite-observed lightning activity in the context of EarthCARE observations: (1) lightning groups collocated with EarthCARE MSI-like frames, (2) along-track lightning counts referenced to EarthCARE CPR samples, and (3) a catalogue of lightning storms sampled during EarthCARE overpasses.",
   "links": [
     {
       "rel": "root",
@@ -50,7 +50,7 @@
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
       "type": "application/json",
-      "title": "PRR Data Collection"
+      "title": "Lightning2EarthCARE datasets"
     },
     {
       "rel": "via",
