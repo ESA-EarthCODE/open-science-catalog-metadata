@@ -1991,9 +1991,9 @@
     },
     {
       "rel": "child",
-      "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
+      "href": "./sss-monthly-anomalies/collection.json",
       "type": "application/json",
-      "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+      "title": "sss-monthly-anomalies"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

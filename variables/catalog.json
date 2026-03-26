@@ -7253,21 +7253,9 @@
     },
     {
       "rel": "child",
-      "href": "./lst-anomaly/catalog.json",
+      "href": "./sea-surface-salinity-anomaly/catalog.json",
       "type": "application/json",
-      "title": "Lst Anomaly"
-    },
-    {
-      "rel": "child",
-      "href": "./lst-anomaly-diff/catalog.json",
-      "type": "application/json",
-      "title": "Lst Anomaly Diff"
-    },
-    {
-      "rel": "child",
-      "href": "./lst-median/catalog.json",
-      "type": "application/json",
-      "title": "Lst Median"
+      "title": "Sea Surface Salinity Anomaly"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",

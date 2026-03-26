@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "id": "sss-monthly-anomalies",
+  "stac_version": "1.1.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://catalogue.ceda.ac.uk/uuid/3339dec1fbd94599802aba7f1c665679/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://viewer.earthsystemdatalab.net/?dataset=sss_anom",
+      "title": "Dataset visualisation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-salinity-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Salinity Anomaly"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sss-monthly-anomalies/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/knowledge-exchange/collection.json",
+      "type": "application/json",
+      "title": "Project: Knowledge Exchange"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/sss-cci-global-anomalies/record.json",
+      "type": "application/json",
+      "title": "Experiment: Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/stac-browser/#/external/deep-esdl-public.s3.amazonaws.com/stac/sss-monthly-anomalies/catalog.json",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://deep-esdl-public.s3.amazonaws.com/stac/sss-monthly-anomalies/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:project": "knowledge-exchange",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:variables": [
+    "sea-surface-salinity-anomaly"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "sss_anom",
+      "units": "0.001"
+    }
+  ],
+  "created": "2026-03-26T15:58:25.603533+00:00",
+  "updated": "2026-03-26T15:58:25.603533+00:00",
+  "themes": [
+    {
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ],
+      "scheme": "https://github.com/stac-extensions/osc#theme"
+    }
+  ],
+  "title": "sss-monthly-anomalies",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.875,
+          -89.875,
+          179.875,
+          89.875
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-01T00:00:00Z",
+          "2023-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT"
+}
