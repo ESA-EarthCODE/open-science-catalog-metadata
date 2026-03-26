@@ -1202,6 +1202,12 @@
       "href": "./eo4cerealstress/collection.json",
       "type": "application/json",
       "title": "EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "child",
+      "href": "./knowledge-exchange/collection.json",
+      "type": "application/json",
+      "title": "Knowledge Exchange"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

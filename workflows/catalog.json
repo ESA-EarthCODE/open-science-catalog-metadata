@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "workflows",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience workflows for experiments",
   "links": [
     {
@@ -78,9 +78,9 @@
     },
     {
       "rel": "item",
-      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "href": "./sss-cci-global-anomalies/record.json",
       "type": "application/json",
-      "title": "Urban LST Downscaling over Kinshasa"
+      "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
     },
     {
       "rel": "self",
