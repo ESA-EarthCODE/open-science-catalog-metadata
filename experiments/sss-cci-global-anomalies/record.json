@@ -1,0 +1,128 @@
+{
+  "id": "sss-cci-global-anomalies",
+  "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-03-26T16:10:08.176884+00:00",
+    "updated": "2026-03-26T16:10:08.176884+00:00",
+    "type": "experiment",
+    "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset",
+    "description": "This workflow uses the ESA CCI Toolbox Python Package to show how to get to an estimate of monthly anomalies for Sea Surface Salinity Data. This involves temporal aggregation of the data and the build of a monthly climatology.",
+    "jupyter_kernel_info": {
+      "name": "ke-ec-demo",
+      "python_version": 3.14,
+      "env_file": "https://github.com/esa-cci/ect-demonstrators/blob/ect-demo/demonstrators/Earthcode/workflow/environment.yml"
+    },
+    "keywords": [
+      "anomalies",
+      "cci",
+      "ocean",
+      "salinity",
+      "toolbox",
+      "climatology"
+    ],
+    "contacts": [
+      {
+        "name": "Tonio Fincke",
+        "organization": "Brockmann Consult GmbH",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "ocean"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "MIT",
+    "osc:workflow": "sss-cci-global-anomalies",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/sss-cci-global-anomalies/record.json",
+      "type": "application/json",
+      "title": "Workflow: Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/sss-cci-global-anomalies/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/ocean/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Ocean"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sss-monthly-anomalies/collection.json",
+      "type": "application/json",
+      "title": "sss-monthly-anomalies"
+    }
+  ]
+}
