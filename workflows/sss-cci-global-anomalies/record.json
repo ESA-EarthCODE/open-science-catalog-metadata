@@ -1,0 +1,135 @@
+{
+  "id": "sss-cci-global-anomalies",
+  "type": "Feature",
+  "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset",
+  "geometry": null,
+  "properties": {
+    "created": "2026-03-26T16:12:34.839019+00:00",
+    "updated": "2026-03-26T16:12:34.839019+00:00",
+    "type": "workflow",
+    "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset",
+    "description": "This workflow uses the ESA CCI Toolbox Python Package to show how to get to an estimate of monthly anomalies for Sea Surface Salinity Data. This involves temporal aggregation of the data and the build of a monthly climatology.",
+    "jupyter_kernel_info": {
+      "name": "ke-ec-demo",
+      "python_version": 3.14,
+      "env_file": "https://github.com/esa-cci/ect-demonstrators/blob/ect-demo/demonstrators/Earthcode/workflow/environment.yml"
+    },
+    "keywords": [
+      "anomalies",
+      "cci",
+      "ocean",
+      "salinity",
+      "toolbox",
+      "climatology"
+    ],
+    "contacts": [
+      {
+        "name": "Tonio Fincke",
+        "organization": "Brockmann Consult GmbH",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "ocean"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "MIT",
+    "osc:project": "deep-earth-system-data-lab",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json"
+  ],
+  "themes": [
+    "ocean"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Jupyter Notebook",
+      "href": "https://github.com/esa-cci/ect-demonstrators/blob/ect-demo/demonstrators/Earthcode/workflow/sss-anomalies.ipynb"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/sss-cci-global-anomalies/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/ocean/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Ocean"
+    },
+    {
+      "rel": "application",
+      "title": "Jupyter Notebook: Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset",
+      "href": "https://github.com/esa-cci/ect-demonstrators/blob/ect-demo/demonstrators/Earthcode/workflow/sss-anomalies.ipynb",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:container": "true",
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "ke-ec-demo",
+        "pythonVersion": 3.14,
+        "envFile": "https://github.com/esa-cci/ect-demonstrators/blob/ect-demo/demonstrators/Earthcode/workflow/environment.yml"
+      }
+    },
+    {
+      "rel": "related",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fesa-cci%2Fect-demonstrators&urlpath=lab%2Ftree%2Fect-demonstrators%2Fdemonstrators%2FEarthcode%2Fworkflow%2Fsss-anomalies.ipynb&branch=ect-demo",
+      "type": "text/html",
+      "title": "Open notebook on the DeepESDL platform"
+    }
+  ]
+}
