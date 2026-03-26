@@ -10,7 +10,7 @@
     "updated": "2026-03-25T15:35:24Z",
     "type": "experiment",
     "title": "Lightning2Earthcare experiment",
-    "description": "Lightning2EarthCARE is a workflow for collocating EarthCARE satellite observations with lightning detections from geostationary sensors. It queries EarthCARE MSI and CPR data, retrieves lightning observations from MTG-LI and GOES-GLM, and performs spatial–temporal matching between the datasets. The pipeline clusters lightning detections, generates collocated datasets, and produces a catalogue of lightning storms sampled along the EarthCARE nadir track.. This experiment links the workflow and product.",
+    "description": "This experiment links the Lightning2EarthCARE workflow and product. The Lightning2EarthCARE collocats EarthCARE satellite observations with lightning detections from geostationary sensors. It queries EarthCARE MSI and CPR data, retrieves lightning observations from MTG-LI and GOES-GLM, and performs spatial–temporal matching between the datasets. The pipeline clusters lightning detections, generates collocated datasets, and produces a catalogue of lightning storms sampled along the EarthCARE nadir track. The Lightning2EarthCARE product includes three related datasets describing geostationary satellite-observed lightning activity in the context of EarthCARE observations: (1) lightning groups collocated with EarthCARE MSI-like frames, (2) along-track lightning counts referenced to EarthCARE CPR samples, and (3) a catalogue of lightning storms sampled during EarthCARE overpasses.",
     "keywords": [
       "EarthCARE",
       "lightning",
@@ -20,7 +20,7 @@
     ],
     "contacts": [
       {
-        "name": "EarthCODE Demo",
+        "name": "EarthCODE",
         "organization": "EarthCODE",
         "links": [
           {
@@ -57,7 +57,7 @@
       }
     ],
     "license": "Apache-2.0",
-    "osc:workflow": "lightning2earthcare"
+    "osc:workflow": "lightning2earthcare-workflow"
   },
   "linkTemplates": [],
   "links": [
@@ -81,9 +81,9 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/lightning2earthcare/record.json",
+      "href": "../../workflows/lightning2earthcare-workflow/record.json",
       "type": "application/json",
-      "title": "Workflow: Lightning2EarthCARE"
+      "title": "Workflow: Lightning2EarthCARE Workflow"
     },
     {
       "rel": "input",
