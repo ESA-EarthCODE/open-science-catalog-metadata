@@ -509,6 +509,12 @@
     },
     {
       "rel": "child",
+      "href": "./geohazards-tep/collection.json",
+      "type": "application/json",
+      "title": "Geohazards"
+    },
+    {
+      "rel": "child",
       "href": "./glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
