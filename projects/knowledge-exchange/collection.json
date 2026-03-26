@@ -34,7 +34,7 @@
   "created": "2026-03-26T16:10:07.748116+00:00",
   "updated": "2026-03-26T16:10:07.748116+00:00",
   "osc:type": "project",
-  "osc:status": "completed",
+  "osc:status": "ongoing",
   "themes": [
     {
       "concepts": [
@@ -45,7 +45,19 @@
       "scheme": "https://github.com/stac-extensions/osc#theme"
     }
   ],
-  "contacts": [],
+  "contacts": [
+    {
+      "name": "Tonio Fincke",
+      "organization": "Brockmann Consult GmbH",
+      "links": [
+        {
+          "rel": "about",
+          "type": "text/html",
+          "href": "https://www.brockmann-consult.de"
+        }
+      ]
+    }
+  ],
   "links": [
     {
       "rel": "self",
