@@ -48,6 +48,12 @@
     },
     {
       "rel": "item",
+      "href": "./ml4floods-v0-4-2/record.json",
+      "type": "application/json",
+      "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
+    },
+    {
+      "rel": "item",
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
       "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"

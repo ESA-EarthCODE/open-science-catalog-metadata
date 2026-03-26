@@ -1,0 +1,4 @@
+brightness-threshold: '3500'
+collection_uri: 'null'
+product_uri: https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513
+water-threshold: '0.7'

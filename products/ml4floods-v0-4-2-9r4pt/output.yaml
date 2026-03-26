@@ -1,0 +1,188 @@
+flood-delineation:
+  features:
+  - assets:
+      flood-delineation:
+        alternate:
+          https:
+            alternate:name: HTTPS
+            href: http://download.geohazards-tep.eu/collections/ml4floods-v0-4-2-9r4pt-gu5074/items/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation/assets/flood-delineation
+        auth:refs:
+        - signed_url_auth
+        file:size: 753023
+        href: s3://argo-wf-gep-7465727261647565/ml4floods-v0-4-2-9r4pt-gu5074/ml4floods-v0-4-2-9r4pt-gu5074/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation/flood-delineation.tif
+        roles:
+        - data
+        - visual
+        type: image/tiff; application=geotiff; profile=cloud-optimized
+    bbox:
+    - 22.80764239013029
+    - -7.322108246266586
+    - 23.805345056413618
+    - -6.324952906050957
+    collection: ml4floods-v0-4-2-9r4pt-gu5074
+    geometry:
+      coordinates:
+      - - - 22.8113718859473
+          - -7.322108246266586
+        - - 23.805345056413618
+          - -7.3170113848391525
+        - - 23.799574400888105
+          - -6.324952906050957
+        - - 22.80764239013029
+          - -6.329352866113741
+        - - 22.8113718859473
+          - -7.322108246266586
+      type: Polygon
+    id: S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation
+    links:
+    - href: s3://argo-wf-gep-7465727261647565/ml4floods-v0-4-2-9r4pt-gu5074/ml4floods-v0-4-2-9r4pt-gu5074/collection.json
+      rel: collection
+      title: ml4floods v0-4-2 processing results (ml4floods-v0-4-2-9r4pt)
+      type: application/json
+    - href: http://processing-gep.terradue.com/7465727261647565/7465727261647565/jobs/ml4floods-v0-4-2-9r4pt
+      rel: processing-execution
+      title: 'OGC API Processes job id: ml4floods-v0-4-2-9r4pt'
+      type: application/json
+    - href: s3://argo-wf-gep-7465727261647565/ml4floods-v0-4-2-9r4pt-gu5074/catalog.json
+      rel: root
+      title: Flood delineation result
+      type: application/json
+    - href: s3://argo-wf-gep-7465727261647565/ml4floods-v0-4-2-9r4pt-gu5074/ml4floods-v0-4-2-9r4pt-gu5074/collection.json
+      rel: parent
+      title: ml4floods v0-4-2 processing results (ml4floods-v0-4-2-9r4pt)
+      type: application/json
+    - href: https://view.geohazards-tep.eu/7465727261647565/collections/ml4floods-v0-4-2-9r4pt-gu5074/items/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?&assets=flood-delineation&nodata=0&colormap=%7B%220%22%3A%20%5B0%2C%200%2C%200%2C%20255%5D%2C%20%221%22%3A%20%5B0%2C%20128%2C%200%2C%20255%5D%2C%20%222%22%3A%20%5B0%2C%200%2C%20255%2C%20255%5D%2C%20%223%22%3A%20%5B255%2C%20255%2C%20255%2C%20255%5D%2C%20%225%22%3A%20%5B255%2C%200%2C%200%2C%20255%5D%7D
+      rel: xyz
+      render: default
+      title: Flood delineation visualized through a XYZ
+      type: image/png
+    - alternate:
+        internal:
+          href: http://gep-stac-catalog-7465727261647565-stac-fastapi-dbaas-istio-eso/collections/ml4floods-v0-4-2-9r4pt-gu5074/items/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation
+        s3:
+          href: s3://argo-wf-gep-7465727261647565/ml4floods-v0-4-2-9r4pt-gu5074/ml4floods-v0-4-2-9r4pt-gu5074/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation.json
+      href: https://results.geohazards-tep.eu/7465727261647565/collections/ml4floods-v0-4-2-9r4pt-gu5074/items/S2C_MSIL2A_20251029T084551_R021_T34MGT_20251029T120513-flood-delineation
+      rel: self
+      type: application/json
+    properties:
+      auth:schemes:
+        signed_url_auth:
+          description: Provides an authenticated download link for an asset URL in
+            the Location HTTP header
+          flows:
+            authorizationCode:
+              authorizationApi: http://download.geohazards-tep.eu/"7465727261647565"/collection/{collection_id}/items/{item_id}/assets/{asset_id}
+              method: GET
+              parameters:
+                Authorization:
+                  description: Authentication credentials
+                  in: header
+                  required: 'true'
+                  schema:
+                    examples: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhYmNkMTIzIiwiZXhwaXJ5IjoxNjQ2NjM1NjExMzAxfQ.3Thp81rDFrKXr3WrY1MyMnNK8kKoZBX9lg-JwFznR-M
+                    type: string
+                asset_id:
+                  in: path
+                  required: 'true'
+                  schema:
+                    examples: red
+                    type: string
+                collection_id:
+                  in: path
+                  required: 'true'
+                  schema:
+                    examples: sentinel-2
+                    type: string
+                config_key:
+                  in: path
+                  required: 'true'
+                  schema:
+                    examples: datalake
+                    type: string
+                item_id:
+                  in: path
+                  required: 'true'
+                  schema:
+                    examples: S2B_MSIL2A_20240910T094029_N0511_R036_T33TWF_20240910T130556
+                    type: string
+          type: signedUrl
+      datetime: '2026-03-24T09:11:11.525574Z'
+      processing:datetime: '2026-03-24T09:11:17Z'
+      processing:facility: gep
+      processing:version: 0.4.2
+      proj:bbox:
+      - 699960
+      - 9190240
+      - 809760
+      - 9300040
+      proj:code: EPSG:32734
+      proj:geometry:
+        coordinates:
+        - - - 699960
+            - 9190240
+          - - 809760
+            - 9190240
+          - - 809760
+            - 9300040
+          - - 699960
+            - 9300040
+          - - 699960
+            - 9190240
+        type: Polygon
+      proj:shape:
+      - 10980
+      - 10980
+      proj:transform:
+      - 10
+      - 0
+      - 699960
+      - 0
+      - -10
+      - 9300040
+      - 0
+      - 0
+      - 1
+      renders:
+        default:
+          assets:
+          - flood-delineation
+          colormap:
+            '0':
+            - 0
+            - 0
+            - 0
+            - 255
+            '1':
+            - 0
+            - 128
+            - 0
+            - 255
+            '2':
+            - 0
+            - 0
+            - 255
+            - 255
+            '3':
+            - 255
+            - 255
+            - 255
+            - 255
+            '5':
+            - 255
+            - 0
+            - 0
+            - 255
+          nodata: '0'
+          title: Flood delineation
+    stac_extensions:
+    - https://stac-extensions.github.io/projection/v2.0.0/schema.json
+    - https://stac-extensions.github.io/raster/v1.1.0/schema.json
+    - https://stac-extensions.github.io/render/v2.0.0/schema.json
+    - https://stac-extensions.github.io/file/v2.1.0/schema.json
+    - https://stac-extensions.github.io/processing/v1.2.0/schema.json
+    - https://stac-extensions.github.io/authentication/v1.0.0/schema.json
+    - https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json
+    - https://stac-extensions.github.io/web-map-links/v1.2.0/schema.json
+    stac_version: 1.1.0
+    type: Feature
+  type: FeatureCollection

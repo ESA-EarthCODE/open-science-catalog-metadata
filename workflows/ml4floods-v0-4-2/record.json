@@ -1,0 +1,146 @@
+{
+  "id": "ml4floods-v0-4-2",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "version": "1",
+    "created": "2025-10-29T00:00:00Z",
+    "updated": "2026-03-26T16:25:09.773691Z",
+    "type": "workflow",
+    "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
+    "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
+    "keywords": [
+      "CWL",
+      "CWL Workflow",
+      "Workflow",
+      "Earth Observation",
+      "Earth Observation application package"
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "EARTH SCIENCE",
+            "description": "EARTH SCIENCE",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+          },
+          {
+            "id": "TERRESTRIAL HYDROSPHERE",
+            "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+          },
+          {
+            "id": "SURFACE WATER",
+            "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+          },
+          {
+            "id": "SURFACE WATER FEATURES",
+            "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+          }
+        ],
+        "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+      }
+    ],
+    "language": {
+      "code": "en-US",
+      "name": "English (United States)",
+      "dir": "ltr"
+    },
+    "resourceLanguages": [
+      {
+        "code": "en-US",
+        "name": "English (United States)",
+        "dir": "ltr"
+      }
+    ],
+    "formats": [
+      {
+        "name": "CWL",
+        "mediaType": "application/cwl"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "https://orcid.org/0009-0000-1342-9736",
+        "name": "Brito, Fabrice",
+        "position": "Project Manager",
+        "organization": "Terradue",
+        "emails": [
+          {
+            "value": "fabrice.brito@terradue.com"
+          }
+        ]
+      },
+      {
+        "identifier": "https://orcid.org/0000-0001-7068-5533",
+        "name": "Re, Alice",
+        "position": "Researcher",
+        "organization": "Terradue",
+        "emails": [
+          {
+            "value": "alice.re@terradue.com"
+          }
+        ]
+      },
+      {
+        "identifier": "https://orcid.org/0009-0006-2063-618X",
+        "name": "Tripodi, Simone",
+        "position": "Project Leader",
+        "organization": "Terradue",
+        "emails": [
+          {
+            "value": "simone.tripodi@terradue.com"
+          }
+        ]
+      }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "osc:type": "workflow",
+    "osc:project": "geohazards-tep",
+    "osc:status": "completed"
+  },
+  "links": [
+    {
+      "rel": "help",
+      "hreflang": "en",
+      "title": "User Manual",
+      "created": "2025-10-29T00:00:00Z",
+      "updated": "2026-03-26T16:25:09.773667Z",
+      "href": "https://eoap.github.io/app-ml4floods/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Open Science Catalog",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Workflows",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "application",
+      "type": "application/cwl",
+      "hreflang": "en-US",
+      "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
+      "created": "2025-10-29T00:00:00Z",
+      "updated": "2025-10-29T00:00:00Z",
+      "href": "oci://ghcr.io/eoap/app-ml4floods/app-ml4floods:latest"
+    },
+    {
+      "rel": "application-platform",
+      "type": "text/html",
+      "hreflang": "en-US",
+      "title": "cwltool",
+      "href": "https://cwltool.readthedocs.io/en/latest/"
+    }
+  ]
+}

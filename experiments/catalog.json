@@ -41,6 +41,12 @@
       "title": "Polarwarp"
     },
     {
+      "rel": "item",
+      "href": "./ml4floods-v0-4-2-9r4pt/record.json",
+      "type": "application/json",
+      "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
