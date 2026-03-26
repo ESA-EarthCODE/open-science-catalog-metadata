@@ -86,7 +86,7 @@
       ]
     }
   ],
-  "title": "EarthCARE-frame lightning",
+  "title": "Lightning2EarthCARE",
   "extent": {
     "spatial": {
       "bbox": [
@@ -102,7 +102,7 @@
       "interval": [
         [
           "2024-08-01T00:00:00Z",
-          "2026-01-31T00:00:00Z"
+          "2026-02-01T00:00:00Z"
         ]
       ]
     }
