@@ -1999,7 +1999,7 @@
       "rel": "child",
       "href": "./earthcare-frame-lightning/collection.json",
       "type": "application/json",
-      "title": "EarthCARE-frame lightning"
+      "title": "Lightning2EarthCARE"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
