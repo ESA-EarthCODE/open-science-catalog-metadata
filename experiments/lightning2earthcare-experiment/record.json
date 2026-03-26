@@ -10,7 +10,7 @@
     "updated": "2026-03-25T15:35:24Z",
     "type": "experiment",
     "title": "Lightning2Earthcare experiment",
-    "description": "This experiment links the Lightning2EarthCARE workflow and product. The Lightning2EarthCARE collocats EarthCARE satellite observations with lightning detections from geostationary sensors. It queries EarthCARE MSI and CPR data, retrieves lightning observations from MTG-LI and GOES-GLM, and performs spatial–temporal matching between the datasets. The pipeline clusters lightning detections, generates collocated datasets, and produces a catalogue of lightning storms sampled along the EarthCARE nadir track. The Lightning2EarthCARE product includes three related datasets describing geostationary satellite-observed lightning activity in the context of EarthCARE observations: (1) lightning groups collocated with EarthCARE MSI-like frames, (2) along-track lightning counts referenced to EarthCARE CPR samples, and (3) a catalogue of lightning storms sampled during EarthCARE overpasses.",
+    "description": "This experiment links the Lightning2EarthCARE workflow and product. The Lightning2EarthCARE collocates EarthCARE satellite observations with lightning detections from geostationary sensors. It queries EarthCARE MSI and CPR data, retrieves lightning observations from MTG-LI and GOES-GLM, and performs spatial–temporal matching between the datasets. The pipeline clusters lightning detections, generates collocated datasets, and produces a catalogue of lightning storms sampled along the EarthCARE nadir track. The Lightning2EarthCARE product includes three related datasets describing geostationary satellite-observed lightning activity in the context of EarthCARE observations: (1) lightning groups collocated with EarthCARE MSI-like frames, (2) along-track lightning counts referenced to EarthCARE CPR samples, and (3) a catalogue of lightning storms sampled during EarthCARE overpasses.",
     "keywords": [
       "EarthCARE",
       "lightning",
@@ -77,7 +77,7 @@
       "rel": "related",
       "href": "../../products/earthcare-frame-lightning/collection.json",
       "type": "application/json",
-      "title": "EarthCARE-frame lightning"
+      "title": "Lightning2EarthCARE"
     },
     {
       "rel": "related",
