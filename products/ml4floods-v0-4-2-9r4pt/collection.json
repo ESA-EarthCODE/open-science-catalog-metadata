@@ -10,6 +10,12 @@
       "title": "User Manual"
     },
     {
+      "rel": "related",
+      "href": "../../projects/geohazards-tep/collection.json",
+      "type": "application/json",
+      "title": "Project: geohazards-tep"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -22,10 +28,10 @@
       "title": "Products"
     },
     {
-      "rel": "related",
-      "href": "../../projects/geohazards-tep/collection.json",
-      "type": "application/json",
-      "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
+      "rel": "output",
+      "href": "./output.yaml",
+      "type": "application/yaml",
+      "title": "Output parameter"
     }
   ],
   "stac_extensions": [
@@ -35,8 +41,8 @@
   "osc:experiment": "ml4floods-v0-4-2-9r4pt",
   "osc:type": "product",
   "osc:status": "completed",
-  "created": "2026-03-27T10:20:25Z",
-  "updated": "2026-03-27T10:20:25Z",
+  "created": "2026-03-27T11:05:09Z",
+  "updated": "2026-03-27T11:05:09Z",
   "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
   "extent": {
     "spatial": {
@@ -52,8 +58,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-10-29T00:00:00Z",
-          "2025-10-29T00:00:00Z"
+          "2026-03-24T08:41:47Z",
+          "2026-03-24T09:12:26Z"
         ]
       ]
     }
@@ -65,13 +71,5 @@
     "Workflow",
     "Earth Observation",
     "Earth Observation application package"
-  ],
-  "assets": {
-    "output": {
-      "href": "./output.yaml",
-      "type": "application/yaml",
-      "title": "Output parameter",
-      "description": "ml4floods-v0-4-2-9r4pt Outputs"
-    }
-  }
+  ]
 }

@@ -7,7 +7,7 @@
   "properties": {
     "version": "1",
     "created": "2025-10-29T00:00:00Z",
-    "updated": "2026-03-26T16:25:09.773691Z",
+    "updated": "2026-03-27T11:04:31.928250Z",
     "type": "workflow",
     "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
     "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
@@ -109,8 +109,15 @@
       "hreflang": "en",
       "title": "User Manual",
       "created": "2025-10-29T00:00:00Z",
-      "updated": "2026-03-26T16:25:09.773667Z",
+      "updated": "2026-03-27T11:04:31.928229Z",
       "href": "https://eoap.github.io/app-ml4floods/"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Project: geohazards-tep",
+      "href": "../../projects/geohazards-tep/collection.json"
     },
     {
       "rel": "root",

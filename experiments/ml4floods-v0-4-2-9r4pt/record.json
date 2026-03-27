@@ -7,7 +7,7 @@
   "properties": {
     "version": "1",
     "created": "2025-10-29T00:00:00Z",
-    "updated": "2026-03-26T16:25:23.243999Z",
+    "updated": "2026-03-27T11:04:45.180633Z",
     "type": "experiment",
     "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
     "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
@@ -99,11 +99,11 @@
       }
     ],
     "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "osc:project": "geohazards-tep",
     "osc:workflow": "ml4floods-v0-4-2",
     "osc-prov:generatedBy": "osc-client",
     "osc-prov:startedAtTime": "2026-03-24T08:41:47Z",
     "osc-prov:endedAtTime": "2026-03-24T09:12:26Z",
-    "osc-prov:generated": "TODO",
     "osc-prov:describedByWorkflow": "ml4floods-v0-4-2"
   },
   "links": [
@@ -112,8 +112,15 @@
       "hreflang": "en",
       "title": "User Manual",
       "created": "2025-10-29T00:00:00Z",
-      "updated": "2026-03-26T16:25:23.243977Z",
+      "updated": "2026-03-27T11:04:45.180613Z",
       "href": "https://eoap.github.io/app-ml4floods/"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Project: geohazards-tep",
+      "href": "../../projects/geohazards-tep/collection.json"
     },
     {
       "rel": "root",
@@ -130,21 +137,12 @@
       "href": "../catalog.json"
     },
     {
-      "rel": "related",
-      "type": "application/json",
-      "hreflang": "en-US",
-      "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
-      "created": "2025-10-29T00:00:00Z",
-      "updated": "2025-10-29T00:00:00Z",
-      "href": "../../workflows/ml4floods-v0-4-2/record.json"
-    },
-    {
       "rel": "input",
       "type": "application/yaml",
       "hreflang": "en-US",
       "title": "Input parameters",
-      "created": "2026-03-26T16:25:33.784226Z",
-      "updated": "2026-03-26T16:25:33.784232Z",
+      "created": "2026-03-24T08:41:47Z",
+      "updated": "2026-03-24T08:41:47Z",
       "href": "./input.yaml"
     }
   ]
