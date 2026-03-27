@@ -23,7 +23,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/ml4floods-v0-4-2-9r4pt/record.json",
+      "href": "../../projects/geohazards-tep/collection.json",
       "type": "application/json",
       "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
     }
@@ -31,9 +31,12 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
   ],
+  "osc:project": "geohazards-tep",
   "osc:experiment": "ml4floods-v0-4-2-9r4pt",
   "osc:type": "product",
   "osc:status": "completed",
+  "created": "2026-03-27T10:20:25Z",
+  "updated": "2026-03-27T10:20:25Z",
   "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
   "extent": {
     "spatial": {
