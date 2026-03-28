@@ -1202,6 +1202,12 @@
       "href": "./eo4cerealstress/collection.json",
       "type": "application/json",
       "title": "EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-meteor/collection.json",
+      "type": "application/json",
+      "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

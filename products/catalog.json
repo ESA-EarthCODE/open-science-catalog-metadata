@@ -1994,6 +1994,12 @@
       "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
       "type": "application/json",
       "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-meteor-datasets/collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

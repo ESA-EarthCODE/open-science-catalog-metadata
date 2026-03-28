@@ -1,0 +1,71 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "aw29b-agy92",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          80.0
+        ],
+        [
+          -180.0,
+          80.0
+        ],
+        [
+          -180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -80.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -80.0,
+    180.0,
+    80.0
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "A merged dataset of temeprature profiles in the middle atmosphere (METEOR-T) is  created from data by several limb-viewing satellite instruments: HALOE, GOMOS, MIPAS, ACE-FTS, MLS, SOFIE, OMPS-LP and OSIRIS. The dataset covers the period from 1991 to 2025 and provides deseasonalized anomalies and monthly zonal mean temperature profiles  in 10\u00b0 latitude bins between 80\u00b0S and 80\u00b0N, from approximately 10 km to 100 km. The dataset  has been created in the framework of European Space Agency project METEOR (MEsospheric TEmperature and Ozone climate data Records).  The METEOR-T dataset provides the global, long-term merged record suitable for detailed studies of temperature variability and trend evaluation in the whole middle atmosphere, thus providing valuable information for model validation and assessments of atmospheric temperature changes.",
+    "datetime": "2026-03-10T11:47:45Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://fmi.b2share.csc.fi/api/records/aw29b-agy92/files/ESA_METEOR-T-MERGED-19911001_20251201-fv0001.nc/content",
+      "type": "application/x-netcdf",
+      "title": "ESA_METEOR-T-MERGED-19911001_20251201-fv0001.nc",
+      "start_datetime": "1991-10-01T00:00:00Z",
+      "end_datetime": "2025-12-01T00:00:00Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "esa-meteor-datasets"
+}

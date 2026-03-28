@@ -1,0 +1,77 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "jxst3-8h654",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          80.0
+        ],
+        [
+          -180.0,
+          80.0
+        ],
+        [
+          -180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -80.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -80.0,
+    180.0,
+    80.0
+  ],
+  "properties": {
+    "license": "Creative Commons Attribution 4.0 International",
+    "description": "<p>A merged dataset of ozone profiles in the middle atmosphere (METEOR-O\u2083) is  created from data by several limb-viewing satellite instruments: HALOE, GOMOS, MIPAS, ACE-FTS, MLS, and SOFIE. The dataset covers the period from 1991 to 2023 and provides deseasonalized ozone anomalies and monthly zonal mean mixing ratio profiles  in 10\u00b0 latitude bins between 80\u00b0S and 80\u00b0N, from approximately 22 km to 100 km. The dataset  has been created in the framework of European Space Agency project METEOR (MEsospheric TEmperature and Ozone climate data Records).  The METEOR-O\u2083 dataset provides the first global, long-term merged record suitable for detailed studies of mesospheric/lower thermospheric ozone variability and trend evaluation, providing valuable information for model validation and assessments of upper atmospheric changes.</p>",
+    "datetime": "2026-02-12T09:50:42.615154Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://fmi.b2share.csc.fi/api/records/jxst3-8h654/files/ESA_METEOR-OZONE-MERGED-19911001_20231201-fv0001.nc/content",
+      "type": "application/x-netcdf",
+      "title": "ESA_METEOR-OZONE-MERGED-19911001_20231201-fv0001.nc",
+      "doi": "10.57707/fmi-b2share.jxst3-8h654",
+      "temporal_coverage_start": "1991-10-01",
+      "temporal_coverage_end": "2023-12-01",
+      "creators": [
+        "Szelag, Monika",
+        "Sofieva, Viktoria F."
+      ],
+      "publisher": "B2SHARE",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "esa-meteor-datasets"
+}
