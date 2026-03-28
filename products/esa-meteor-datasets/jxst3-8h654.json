@@ -37,7 +37,7 @@
     80.0
   ],
   "properties": {
-    "license": "Creative Commons Attribution 4.0 International",
+    "license": "CC-BY-4.0",
     "description": "<p>A merged dataset of ozone profiles in the middle atmosphere (METEOR-O\u2083) is  created from data by several limb-viewing satellite instruments: HALOE, GOMOS, MIPAS, ACE-FTS, MLS, and SOFIE. The dataset covers the period from 1991 to 2023 and provides deseasonalized ozone anomalies and monthly zonal mean mixing ratio profiles  in 10\u00b0 latitude bins between 80\u00b0S and 80\u00b0N, from approximately 22 km to 100 km. The dataset  has been created in the framework of European Space Agency project METEOR (MEsospheric TEmperature and Ozone climate data Records).  The METEOR-O\u2083 dataset provides the first global, long-term merged record suitable for detailed studies of mesospheric/lower thermospheric ozone variability and trend evaluation, providing valuable information for model validation and assessments of upper atmospheric changes.</p>",
     "datetime": "2026-02-12T09:50:42.615154Z"
   },
