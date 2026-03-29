@@ -1,0 +1,243 @@
+{
+  "type": "Collection",
+  "id": "e4cs-pilot",
+  "stac_version": "1.0.0",
+  "description": "EO4CS Biophysical Indicators and Soil Properties for Andalusia Rice Fields 2024, derived from Sentinel-2 and hyperspectral imagery using ML models.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4cerealstress/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/canopy-characteristics/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Canopy Characteristics"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chlorophyll-concentration/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chlorophyll Concentration"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/electrical-conductivity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Electrical Conductivity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-area-index-lai/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf Area Index (LAI)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-characteristics/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf Characteristics"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/nitrogen/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Nitrogen"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/pigments/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Pigments"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-fertility/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Fertility"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/vegetation-water-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Vegetation Water Content"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_SN_PR_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_SN_PR_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_CNC_S2_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_CNC_S2_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_CCC_S2_NN.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_CCC_S2_NN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_SEC_S2_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_SEC_S2_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_CAR_EM_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_CAR_EM_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_LNC_EM_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_LNC_EM_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_CNC_EM_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_CNC_EM_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_CAR_S2_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_CAR_S2_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_LCC_EM_SVR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_LCC_EM_SVR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_LAI_EM_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_LAI_EM_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_LWC_EM_NN.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_LWC_EM_NN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_LAI_S2_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_LAI_S2_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_SEC_EM_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_SEC_EM_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_ES_2024_CCC_EM_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_ES_2024_CCC_EM_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/e4cs-pilot/collection",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-03-29T11:02:23.046080Z",
+  "updated": "2026-03-29T11:02:23.046080Z",
+  "osc:project": "eo4cerealstress",
+  "osc:status": "completed",
+  "osc:region": "Andalusia",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "canopy-characteristics",
+    "chlorophyll-concentration",
+    "electrical-conductivity",
+    "leaf-area-index-lai",
+    "leaf-characteristics",
+    "nitrogen",
+    "pigments",
+    "soil-fertility",
+    "vegetation-water-content"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "title": "Eo4CerealStress - Andalusia Rice Fields",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          37.0131,
+          -6.3605,
+          37.2621,
+          -5.9391
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "rice fields",
+    "biophysical indicators",
+    "biophysical traits",
+    "soil properties"
+  ]
+}
