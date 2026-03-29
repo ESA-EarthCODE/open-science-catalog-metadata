@@ -22,11 +22,6 @@
       "title": "Website"
     },
     {
-      "rel": "via",
-      "href": "",
-      "title": "EO4Society Link"
-    },
-    {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
@@ -78,11 +73,6 @@
       "name": "Humboldt-Universitaet zu Berlin - Earth Observation Lab (EOL)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "patrick.hostert@geo.hu-berlin.de"
-        }
       ]
     },
     {
@@ -100,22 +90,12 @@
       "name": "Universita Cattolica del Sacro Cuore (UCSC)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "michele.croci@unicatt.it"
-        }
       ]
     },
     {
       "name": "International Centre of Insect Physiology and Ecology (ICIPE)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "tlandmann@icipe.org"
-        }
       ]
     }
   ],
