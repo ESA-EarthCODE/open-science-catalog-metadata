@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4CS_ES_2024_CCC_EM_GPR",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.929063869685321,
+          37.002908735829315
+        ],
+        [
+          -5.929063869685321,
+          37.27018152898475
+        ],
+        [
+          -6.27696426789401,
+          37.27018152898475
+        ],
+        [
+          -6.27696426789401,
+          37.002908735829315
+        ],
+        [
+          -5.929063869685321,
+          37.002908735829315
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.27696426789401,
+    37.002908735829315,
+    -5.929063869685321,
+    37.27018152898475
+  ],
+  "properties": {
+    "license": "CC-BY-SA-4.0",
+    "description": "",
+    "datetime": "2024-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Eo4CerealStress - Andalusia Rice Fields"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_CCC_EM_GPR.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4CS_ES_2024_CCC_EM_GPR cloud-optimized GeoTIFF",
+      "datetime": "2024-01-01T00:00:00Z",
+      "proj:epsg": 32629,
+      "platform": "EnMAP",
+      "instrument": "hsi",
+      "product_type": "CCC",
+      "ml_method": "GPR",
+      "processing:lineage": "Converted to COG with internal overviews from source GeoTIFF",
+      "processing:software": "GDAL COG driver",
+      "processing:created": "2026-03-09T19:31:00Z",
+      "eo4cs:platform_code": "EM",
+      "eo4cs:country_code": "ES",
+      "eo4cs:inferred_description": "Canopy chlorophyll content",
+      "raster:bands": [
+        {
+          "name": "ccc",
+          "data_type": "float32",
+          "nodata": 3.0,
+          "spatial_resolution": 30.0,
+          "unit": null
+        }
+      ],
+      "proj:shape": [
+        959,
+        1002
+      ],
+      "proj:transform": [
+        30.0,
+        0.0,
+        742275.0,
+        0.0,
+        -30.0,
+        4128345.0
+      ],
+      "proj:bbox": [
+        742275.0,
+        4099575.0,
+        772335.0,
+        4128345.0
+      ],
+      "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 29N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32629\"]]",
+      "file:compression": "lzw",
+      "file:overviews": [
+        2,
+        4,
+        8
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "e4cs-pilot"
+}
