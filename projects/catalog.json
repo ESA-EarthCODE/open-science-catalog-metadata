@@ -1205,6 +1205,12 @@
     },
     {
       "rel": "child",
+      "href": "./eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "child",
       "href": "./esa-meteor/collection.json",
       "type": "application/json",
       "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
