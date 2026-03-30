@@ -92,6 +92,9 @@
       "href": "./lightning2earthcare-workflow/record.json",
       "type": "application/json",
       "title": "Lightning2EarthCARE Workflow"
+      "href": "./arceme-datacube-workflow/record.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cube Pipeline"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
