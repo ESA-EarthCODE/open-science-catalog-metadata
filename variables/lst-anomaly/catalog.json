@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-anomaly",
   "stac_version": "1.0.0",
-  "description": "Lst Anomaly",
+  "description": "Deviation of Land Surface Temperature from Regional Median",
   "links": [
     {
       "rel": "root",
@@ -43,7 +43,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2026-03-19T15:33:24.063780+00:00",
+  "updated": "2026-03-20T16:12:27.459098+00:00",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

@@ -4,8 +4,8 @@
   "title": "Urban LST Downscaling over Kinshasa",
   "geometry": null,
   "properties": {
-    "created": "2026-03-19T15:33:25.094294+00:00",
-    "updated": "2026-03-19T15:33:25.094294+00:00",
+    "created": "2026-03-20T16:12:28.216266+00:00",
+    "updated": "2026-03-20T16:12:28.216266+00:00",
     "type": "workflow",
     "title": "Urban LST Downscaling over Kinshasa",
     "description": "A proof-of-concept workflow for downscaling ESA CCI Land Surface Temperature from 1 km to 10 m resolution using XGBoost, trained on Sentinel-2 spectral indices, WSF3D building morphology, and terrain derivatives across 15 African cities. Applied to Kinshasa for 2016 and 2023 to assess urban-driven LST change.",

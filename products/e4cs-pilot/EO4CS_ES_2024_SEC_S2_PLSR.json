@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4CS_ES_2024_SEC_S2_PLSR",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.9290093910801644,
+          37.003132325814946
+        ],
+        [
+          -5.9290093910801644,
+          37.272238058611386
+        ],
+        [
+          -6.369198384653252,
+          37.272238058611386
+        ],
+        [
+          -6.369198384653252,
+          37.003132325814946
+        ],
+        [
+          -5.9290093910801644,
+          37.003132325814946
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.369198384653252,
+    37.003132325814946,
+    -5.9290093910801644,
+    37.272238058611386
+  ],
+  "properties": {
+    "license": "CC-BY-SA-4.0",
+    "description": "",
+    "datetime": "2024-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Eo4CerealStress - Andalusia Rice Fields"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_SEC_S2_PLSR.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4CS_ES_2024_SEC_S2_PLSR cloud-optimized GeoTIFF",
+      "datetime": "2024-01-01T00:00:00Z",
+      "proj:epsg": 32629,
+      "platform": "Sentinel-2",
+      "instrument": "msi",
+      "product_type": "SEC",
+      "ml_method": "PLSR",
+      "processing:lineage": "Converted to COG with internal overviews from source GeoTIFF",
+      "processing:software": "GDAL COG driver",
+      "processing:created": "2026-03-09T19:31:00Z",
+      "eo4cs:platform_code": "S2",
+      "eo4cs:country_code": "ES",
+      "eo4cs:inferred_description": "Soil electrical conductivity",
+      "eo4cs:inferred_units": "mS cm-1",
+      "raster:bands": [
+        {
+          "name": "sec",
+          "data_type": "float32",
+          "nodata": 3.0,
+          "spatial_resolution": 20.0,
+          "unit": "mS cm-1"
+        }
+      ],
+      "proj:shape": [
+        1437,
+        1914
+      ],
+      "proj:transform": [
+        20.0,
+        0.0,
+        734060.0,
+        0.0,
+        -20.0,
+        4128340.0
+      ],
+      "proj:bbox": [
+        734060.0,
+        4099600.0,
+        772340.0,
+        4128340.0
+      ],
+      "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 29N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32629\"]]",
+      "file:compression": "lzw",
+      "file:overviews": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "e4cs-pilot"
+}

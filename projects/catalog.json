@@ -1204,9 +1204,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "./eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-meteor/collection.json",
+      "type": "application/json",
+      "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-science-hub-blanka-piskala/collection.json",
+      "type": "application/json",
+      "title": "ESA Science Hub-Blanka Piskala"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
