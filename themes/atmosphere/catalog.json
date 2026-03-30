@@ -307,6 +307,12 @@
       "href": "../../products/esa-meteor-datasets/collection.json",
       "type": "application/json",
       "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/earthcare-frame-lightning/collection.json",
+      "type": "application/json",
+      "title": "Lightning2EarthCARE"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",
