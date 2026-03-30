@@ -490,7 +490,7 @@
       "type": "application/json",
       "title": "EnMAP (Environmental Monitoring and Analysis Program)"
     },
-      {
+    {
       "rel": "child",
       "href": "./prisma/catalog.json",
       "type": "application/json",
