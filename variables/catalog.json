@@ -1564,7 +1564,7 @@
       "type": "application/json",
       "title": "Dead Wood"
     },
-      {
+    {
       "rel": "child",
       "href": "./dead-wood-fuel-moisture-content/catalog.json",
       "type": "application/json",
@@ -7250,6 +7250,24 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly-diff/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly Diff"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-median/catalog.json",
+      "type": "application/json",
+      "title": "Lst Median"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",

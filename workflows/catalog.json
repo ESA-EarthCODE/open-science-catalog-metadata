@@ -80,6 +80,24 @@
       "href": "./polar-lakes-workflow/record.json",
       "type": "application/json",
       "title": "The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data"
+    },
+    {
+      "rel": "item",
+      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "type": "application/json",
+      "title": "Urban LST Downscaling over Kinshasa"
+    },
+    {
+      "rel": "item",
+      "href": "./lightning2earthcare-workflow/record.json",
+      "type": "application/json",
+      "title": "Lightning2EarthCARE Workflow"
+    },
+    { 
+      "rel": "item",
+      "href": "./arceme-datacube-workflow/record.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cube Pipeline"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
