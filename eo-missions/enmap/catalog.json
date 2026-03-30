@@ -1,0 +1,34 @@
+{
+  "type": "Catalog",
+  "id": "enmap",
+  "stac_version": "1.0.0",
+  "description": "Environmental Mapping and Analysis Program (EnMAP) is a German satellite mission, seeking to capture hyperspectral image data of the Earth’s atmosphere and surface. Launched  in April 2022, the mission is managed by the German Aerospace Centre (DLR), with the German Research Centre for Geosciences (GFZ) leading the associated scientific research.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://database.eohandbook.com/database/missionsummary.aspx?missionID=600&utm_source=eoportal&utm_content=enmap",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/enmap/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "updated": "2026-03-30T17:27:42.171831Z",
+  "keywords": [],
+  "title": "EnMAP (Environmental Monitoring and Analysis Program)"
+}
