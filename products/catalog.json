@@ -1997,9 +1997,21 @@
     },
     {
       "rel": "child",
+<<<<<<< eo4cerealstress_product
       "href": "./e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
+=======
+      "href": "./esa-meteor-datasets/collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    },
+    {
+      "rel": "child",
+      "href": "./earthcare-frame-lightning/collection.json",
+      "type": "application/json",
+      "title": "Lightning2EarthCARE"
+>>>>>>> main
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
