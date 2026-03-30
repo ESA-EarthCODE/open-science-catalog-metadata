@@ -1205,6 +1205,12 @@
     },
     {
       "rel": "child",
+      "href": "./esa-meteor/collection.json",
+      "type": "application/json",
+      "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
+    },
+    {
+      "rel": "child",
       "href": "./esa-science-hub-blanka-piskala/collection.json",
       "type": "application/json",
       "title": "ESA Science Hub-Blanka Piskala"
