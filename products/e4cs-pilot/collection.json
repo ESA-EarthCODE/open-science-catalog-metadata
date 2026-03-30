@@ -30,6 +30,18 @@
     },
     {
       "rel": "related",
+      "href": "../../eo-missions/enmap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: EnMAP (Environmental Monitoring and Analysis Program)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/prisma/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: PRISMA"
+    },
+    {
+      "rel": "related",
       "href": "../../variables/canopy-characteristics/catalog.json",
       "type": "application/json",
       "title": "Variable: Canopy Characteristics"
@@ -189,7 +201,9 @@
   "osc:region": "Andalusia",
   "osc:type": "product",
   "osc:missions": [
-    "sentinel-2"
+    "sentinel-2",
+    "enmap",
+    "prisma"
   ],
   "osc:variables": [
     "canopy-characteristics",
