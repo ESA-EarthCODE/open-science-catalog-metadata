@@ -26,6 +26,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/enmap/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/e4cs-pilot/collection.json",
+      "type": "application/json",
+      "title": "Eo4CerealStress - Andalusia Rice Fields"
     }
   ],
   "updated": "2026-03-30T17:27:42.171831Z",
