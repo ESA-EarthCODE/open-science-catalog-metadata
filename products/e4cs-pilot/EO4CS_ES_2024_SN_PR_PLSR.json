@@ -57,7 +57,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_SN_PR_PLSR.tiff",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_SN_PR_PLSR.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "EO4CS_ES_2024_SN_PR_PLSR cloud-optimized GeoTIFF",
       "datetime": "2024-01-01T00:00:00Z",
