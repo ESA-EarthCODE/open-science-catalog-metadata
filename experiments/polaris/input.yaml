@@ -1,0 +1,7 @@
+$comment: >-
+  ICECHART_SHAPEFILE is the basename (without .zip) of the existing ice chart file in the storage.
+  ICECHART_PROVIDER is the provider name used by sigrid3-read-file.
+  # Optional: override S3 configuration (otherwise workflow defaults are used)
+parameters:
+  ICECHART_SHAPEFILE: icechart_20250225
+  ICECHART_PROVIDER: "DMI"
