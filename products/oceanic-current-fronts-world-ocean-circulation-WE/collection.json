@@ -89,7 +89,7 @@
     "msg-seviri"
   ],
   "updated": "2024-09-12T20:32:22.963110Z",
-  "title": "Oceanic Fronts Western Europe",
+  "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region",
   "extent": {
     "spatial": {
       "bbox": [
