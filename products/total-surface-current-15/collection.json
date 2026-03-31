@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "total-surface-current-15",
   "stac_version": "1.0.0",
-  "description": "The product contains the high-frequency total horizontal current at15m depth. It is composed by the addition of two components, the first is the Geostrophic current derived by Altimetry, from the DT-2018 CMEMS database, and the second is the unsteady-Ekman ageostrophic component forced by the wind. All the details about the algorithm and the physical content of this ageostrophy component are given in the ATBD. ",
+  "description": "The product contains the high-frequency total horizontal current at 15m depth. It is composed by the addition of two components, the first is the Geostrophic current derived by Altimetry, from the DT-2018 CMEMS database, and the second is the unsteady-Ekman ageostrophic component forced by the wind. All the details about the algorithm and the physical content of this ageostrophy component are given in the ATBD. ",
   "links": [
     {
       "rel": "root",
@@ -12,7 +12,7 @@
     },
     {
       "rel": "via",
-      "href": "https://data-cersat.ifremer.fr/projects/woc/products/theme1/ocean_currents/woc-l4-cureul-global-1h/",
+      "href": "https://www.worldoceancirculation.org/Products#/metadata/b72f4ac1-ffc6-4ba9-a729-670b6e879d52",
       "title": "Access"
     },
     {
@@ -103,7 +103,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Ocean Circulation",
     "Ocean Currents",
