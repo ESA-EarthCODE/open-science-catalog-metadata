@@ -64,7 +64,7 @@
   "osc:type": "project",
   "osc:status": "ongoing",
   "osc:workflows": [
-    "worldcereal-workflow"
+    "esa-world-cereal-extent-experiment-workflow"
   ],
   "themes": [
     {
