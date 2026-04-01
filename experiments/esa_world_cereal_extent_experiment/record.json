@@ -77,7 +77,7 @@
       "title": "Project: WorldCereal"
     },
     {
-      "rel": "related",
+      "rel": "via",
       "href": "https://editor.openeo.org/?process=https://s3.waw4-1.cloudferro.com/experiments/prod/esa_world_cereal_extent_experiment/process_graph.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
       "type": "text/html",
       "title": "openEO Web Editor execution URL for experiment"
