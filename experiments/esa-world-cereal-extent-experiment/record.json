@@ -1,0 +1,92 @@
+{
+  "id": "esa-world-cereal-extent-experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-04-01T07:16:41.638Z",
+    "updated": "2026-04-01T07:16:41.638Z",
+    "type": "experiment",
+    "title": "ESA WorldCereal - Crop Type Extent",
+    "description": "Experiment of the ESA WorldCereal Crop Type Extent workflow.",
+    "license": "MIT",
+    "osc:project": "worldcereal",
+    "osc:workflow": "esa-world-cereal-extent-experiment-workflow",
+    "osc:product": "esa-world-cereal-extent-product",
+    "version": "2",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "process_graph",
+      "href": "https://s3.waw4-1.cloudferro.com/experiments/prod/esa-world-cereal-extent-experiment/process_graph.json",
+      "type": "application/json",
+      "title": "openEO Process Graph"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/esa-world-cereal-extent-experiment-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: ESA WorldCereal - Crop Type Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/esa-world-cereal-extent-product/collection.json",
+      "type": "application/json",
+      "title": "Product: ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "related",
+      "href": "https://editor.openeo.org/?process=https://s3.waw4-1.cloudferro.com/experiments/prod/esa-world-cereal-extent-experiment/process_graph.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}
