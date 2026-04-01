@@ -39,15 +39,15 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/worldcereal-workflow/record.json",
+      "href": "../../experiments/cesa-world-cereal-extent-experiment/record.json",
       "type": "application/json",
-      "title": "Workflow: ESA worldcereal global crop extent detector"
+      "title": "Workflow: ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     },
     {
       "rel": "related",
-      "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
+      "href": "../../workflows/esa-world-cereal-extent-experiment-workflow/record.json",
       "type": "application/json",
-      "title": "Product: WorldCereal Crop Extent - Belgium"
+      "title": "Workflow: ESA WorldCereal - Crop Type Extent"
     },
     {
       "rel": "child",
