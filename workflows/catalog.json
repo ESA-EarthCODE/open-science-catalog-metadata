@@ -93,11 +93,17 @@
       "type": "application/json",
       "title": "Lightning2EarthCARE Workflow"
     },
-    { 
+    {
       "rel": "item",
       "href": "./arceme-datacube-workflow/record.json",
       "type": "application/json",
       "title": "ARCEME Data Cube Pipeline"
+    },
+    {
+      "rel": "item",
+      "href": "./ESA WorldCereal - Crop Type Extent/record.json",
+      "type": "application/json",
+      "title": "world_cereal_extent_benchmark - Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
