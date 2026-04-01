@@ -1925,12 +1925,6 @@
     },
     {
       "rel": "child",
-      "href": "./worldcereal-crop-extent-belgium/collection.json",
-      "type": "application/json",
-      "title": "WorldCereal Crop Extent - Belgium"
-    },
-    {
-      "rel": "child",
       "href": "./polaris/collection.json",
       "type": "application/json",
       "title": "POLARIS"
