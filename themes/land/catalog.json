@@ -385,6 +385,12 @@
       "href": "../../products/e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-world-cereal-extent-product/collection.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
