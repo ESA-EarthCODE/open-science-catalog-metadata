@@ -370,6 +370,18 @@
       "title": "Yield Data at NUTS2 Level"
     },
     {
+      "rel": "child",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-fe/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

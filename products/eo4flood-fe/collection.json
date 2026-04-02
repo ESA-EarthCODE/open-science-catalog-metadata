@@ -1,0 +1,174 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-fe",
+  "stac_version": "1.0.0",
+  "description": "Three Flood Extent products, each one of them based on different sensors. Sentinel-1 based identification of flood extent using SAR imagery and two methods 1) The deviation-based approach using both VV and VH channels. This method is suited for most situations and (2) a classification algorithm designed to detect water under canopy. This method is particularly suited in densely vegetated areas and wetlands. The Sentinel-2 based products is the output of FloodSENS-ML model using a UNet and Squeeze and Excitation Network (explanatory AI). It can map floods under partial cloud cover. During the project, flood mapping from FloodSENS will be done for each AOI. The third products is the VIIRS 5-day flood product. The VIIRS 375-m Flood Product, is a near real-time product derived from daytime VIIRS sensors mounted on the Suomi NPP and NOAA-21 satellites. The VIIRS Flood Map depicts the flood status at the time of the overpass, along with additional information on the weather and land conditions.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/floods/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Floods"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/viirs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: VIIRS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-fe/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-17=2T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "flood-extent"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "floods"
+  ],
+  "osc:missions": [
+    "sentinel-1", "sentinel-2", "viirs"
+  ],
+  "updated": "2026-04-02T15:16:06.215108Z",
+  "title": "EO4FLOOD Flood Extent Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+
+        [
+          96.95, 
+          24.73, 
+          88.18, 
+          30.05
+        ],
+        [
+          34, 
+          -10, 
+          12, 
+          10
+        ],
+        [
+          29.76, 
+          45.22, 
+          8.16, 
+          48.10
+        ],
+        [
+          0.86, 
+          40.72, 
+          -4.40, 
+          43.04
+        ],
+        [
+          -59.91, 
+          -3.13, 
+          -70.03, 
+          1.95
+        ],
+        [
+          6.47, 
+          5.32, 
+          -10.68, 
+          9.10
+        ],
+        [
+          12.43, 
+          44.70, 
+          7.09, 
+          44.95
+        ],
+        [
+          9.41, 
+          46.63, 
+          4.08, 
+          51.98
+        ],
+        [
+          24.15, 
+          65.83, 
+          19.10, 
+          68.37
+        ]
+
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "cc-by-4.0",
+  "keywords": [
+    "flood-extent",
+    "satellite-derived-flood-extent"
+  ]
+}
