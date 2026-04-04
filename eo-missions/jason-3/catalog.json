@@ -24,6 +24,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4d-atlantic-ohc-global/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "child",
       "href": "../../products/hydrodynamic-model-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Hydrodynamic model data (deviation from Sea Level Mean)_Multimission"

@@ -18,6 +18,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/4d-atlantic-ohc-global/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "child",
       "href": "../../products/ocean-heat-content-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Global Ocean Heat Content (GOHC)_GRACE/GRACE-FO"
