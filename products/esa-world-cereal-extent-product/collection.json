@@ -26,7 +26,8 @@
     {
       "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
       "rel": "card4l-document",
-      "type": "application/pdf"
+      "type": "application/pdf",
+      "title": "Related documentation - CARD4L Product Family Specification - Surface Reflectance v5.0"
     },
     {
       "rel": "related",
