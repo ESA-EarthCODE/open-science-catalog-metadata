@@ -10,7 +10,7 @@
     "updated": "2026-04-01T07:16:41.638Z",
     "type": "experiment",
     "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium",
-    "description": "Experiment of the ESA WorldCereal Crop Type Extent workflow.",
+    "description": "Experiment of the ESA WorldCereal Crop Type Extent workflow. This experiment is generated using the CDSE openEO Federation. You can find the link to the openEO Web Editor execution URL for this experiment in the links section of this record.",
     "license": "MIT",
     "osc:project": "worldcereal",
     "osc:workflow": "esa-world-cereal-extent-workflow",
