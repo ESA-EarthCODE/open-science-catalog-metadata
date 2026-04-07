@@ -1139,9 +1139,9 @@
     },
     {
       "rel": "child",
-      "href": "./polaris/collection.json",
+      "href": "./cerulean-information-factory/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Cerulean Information Factory"
     },
     {
       "rel": "child",
@@ -1180,12 +1180,6 @@
       "title": "Lakes4Antarctica"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./fairsendd/collection.json",
       "type": "application/json",
@@ -1202,6 +1196,12 @@
       "href": "./eo4cerealstress/collection.json",
       "type": "application/json",
       "title": "EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
     {
       "rel": "child",
