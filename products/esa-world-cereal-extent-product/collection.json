@@ -57,6 +57,11 @@
       "rel": "via",
       "href": "https://s3.waw4-1.cloudferro.com/products/prod/esa-world-cereal-extent-product/worldcereal_crop_extent_postprocessed.tif",
       "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://esa-worldcereal.org/en",
+      "title": "Documentation"
     }
   ],
   "stac_extensions": [
