@@ -1,0 +1,12 @@
+$comment: >-
+  This is the usual EarthCODE way of describing workflow inputs, but they are also described as part of the
+  provenance data in the OGC Record for the experiment.
+parameters:
+  stac_items:
+    - https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2B_10TFK_20210713_0_L2A
+    - https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A
+  aoi: -121.399,39.834,-120.74,40.472
+  epsg: EPSG:4326
+  bands:
+    - green
+    - nir

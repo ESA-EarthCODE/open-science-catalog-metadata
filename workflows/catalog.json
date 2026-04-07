@@ -98,6 +98,18 @@
       "href": "./arceme-datacube-workflow/record.json",
       "type": "application/json",
       "title": "ARCEME Data Cube Pipeline"
+    },
+    {
+      "rel": "item",
+      "href": "./waterbodies/record.json",
+      "type": "application/json",
+      "title": "Waterbodies"
+    },
+    {
+      "rel": "item",
+      "href": "./waterbodies-argo/record.json",
+      "type": "application/json",
+      "title": "Water bodies workflow adapted to Argo Workflows"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

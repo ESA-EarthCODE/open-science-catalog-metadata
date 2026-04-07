@@ -56,6 +56,12 @@
       "href": "./lightning2earthcare-experiment/record.json",
       "type": "application/json",
       "title": "Lightning2Earthcare experiment"
+    },
+    {
+      "rel": "item",
+      "href": "./waterbodies-argo-eox/record.json",
+      "type": "application/json",
+      "title": "Water Bodies on EOx"
     }
   ],
   "updated": "2025-01-29T18:00:00.000000Z",
