@@ -1,0 +1,232 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "S2A_10TFK_20220524_0_L2A",
+  "properties": {
+    "proj:epsg": 32610,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            636990.0,
+            4410550.0
+          ],
+          [
+            691590.0,
+            4410550.0
+          ],
+          [
+            691590.0,
+            4482600.0
+          ],
+          [
+            636990.0,
+            4482600.0
+          ],
+          [
+            636990.0,
+            4410550.0
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      636990.0,
+      4410550.0,
+      691590.0,
+      4482600.0
+    ],
+    "proj:shape": [
+      7205,
+      5460
+    ],
+    "proj:transform": [
+      10.0,
+      0.0,
+      636990.0,
+      0.0,
+      -10.0,
+      4482600.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:projjson": {
+      "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+      "type": "ProjectedCRS",
+      "name": "WGS 84 / UTM zone 10N",
+      "base_crs": {
+        "name": "WGS 84",
+        "datum": {
+          "type": "GeodeticReferenceFrame",
+          "name": "World Geodetic System 1984",
+          "ellipsoid": {
+            "name": "WGS 84",
+            "semi_major_axis": 6378137,
+            "inverse_flattening": 298.257223563
+          }
+        },
+        "coordinate_system": {
+          "subtype": "ellipsoidal",
+          "axis": [
+            {
+              "name": "Geodetic latitude",
+              "abbreviation": "Lat",
+              "direction": "north",
+              "unit": "degree"
+            },
+            {
+              "name": "Geodetic longitude",
+              "abbreviation": "Lon",
+              "direction": "east",
+              "unit": "degree"
+            }
+          ]
+        },
+        "id": {
+          "authority": "EPSG",
+          "code": 4326
+        }
+      },
+      "conversion": {
+        "name": "UTM zone 10N",
+        "method": {
+          "name": "Transverse Mercator",
+          "id": {
+            "authority": "EPSG",
+            "code": 9807
+          }
+        },
+        "parameters": [
+          {
+            "name": "Latitude of natural origin",
+            "value": 0,
+            "unit": "degree",
+            "id": {
+              "authority": "EPSG",
+              "code": 8801
+            }
+          },
+          {
+            "name": "Longitude of natural origin",
+            "value": -123,
+            "unit": "degree",
+            "id": {
+              "authority": "EPSG",
+              "code": 8802
+            }
+          },
+          {
+            "name": "Scale factor at natural origin",
+            "value": 0.9996,
+            "unit": "unity",
+            "id": {
+              "authority": "EPSG",
+              "code": 8805
+            }
+          },
+          {
+            "name": "False easting",
+            "value": 500000,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8806
+            }
+          },
+          {
+            "name": "False northing",
+            "value": 0,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8807
+            }
+          }
+        ]
+      },
+      "coordinate_system": {
+        "subtype": "Cartesian",
+        "axis": [
+          {
+            "name": "Easting",
+            "abbreviation": "",
+            "direction": "east",
+            "unit": "metre"
+          },
+          {
+            "name": "Northing",
+            "abbreviation": "",
+            "direction": "north",
+            "unit": "metre"
+          }
+        ]
+      },
+      "id": {
+        "authority": "EPSG",
+        "code": 32610
+      }
+    },
+    "datetime": "2022-05-24T19:03:29Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.39905410179915,
+          39.833916743259095
+        ],
+        [
+          -120.76135965075635,
+          39.82336095080461
+        ],
+        [
+          -120.73995321724426,
+          40.471999341669175
+        ],
+        [
+          -121.38373773482932,
+          40.482798837728375
+        ],
+        [
+          -121.39905410179915,
+          39.833916743259095
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples/raw/refs/heads/main/water-bodies/outputs/S2A_10TFK_20220524_0_L2A/otsu.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "bbox": [
+    -121.39905410179915,
+    39.82336095080461,
+    -120.73995321724426,
+    40.482798837728375
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "water-bodies",
+  "stac_version": "1.0.0",
+  "description": "Water Bodies Example Outputs",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://example.com/open-science-catalog-metadata/catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "https://example.com/open-science-catalog-metadata/products/catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "https://example.com/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "https://example.com/open-science-catalog-metadata/experiments/polaris/water-bodies-execution/record.json",
+      "type": "application/json",
+      "title": "Experiment: Water Bodies Execution"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-bodies/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2B_10TFK_20210713_0_L2A/S2B_10TFK_20210713_0_L2A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S2A_10TFK_20220524_0_L2A/S2A_10TFK_20220524_0_L2A.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "license": "none",
+  "osc:experiment": "water-bodies-execution",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:project": "ospd",
+  "created": "2025-01-21T17:59:50Z",
+  "version": "1.0",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [],
+  "updated": "2025-01-21T17:59:50Z",
+  "title": "Water Bodies",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -121.39905410179915,
+          39.82336095080461,
+          -120.73995321724426,
+          40.482798837728375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-13T19:03:24Z",
+          "2022-05-24T19:03:29Z"
+        ]
+      ]
+    }
+  },
+
+  "provType": ["prov:Entity", "wfprov:Artifact", "wf4ever:Dataset"],
+  "wasDerivedFrom": [
+    "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2B_10TFK_20210713_0_L2A",
+    "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A"
+  ],
+  "wfprov:wasOutputFrom": "https://example.com/open-science-catalog-metadata/experiments/water-bodies-execution/record.json",
+  "wfprov:describedByParameter": "stac_catalog"
+}

@@ -1220,6 +1220,12 @@
       "href": "./esa-science-hub-blanka-piskala/collection.json",
       "type": "application/json",
       "title": "ESA Science Hub-Blanka Piskala"
+    },
+    {
+      "rel": "child",
+      "href": "./ospd/collection.json",
+      "type": "application/json",
+      "title": "OSPD"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
