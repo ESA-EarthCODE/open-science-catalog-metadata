@@ -95,7 +95,7 @@
     },
     {
       "rel": "item",
-      "href": "./esa-world-cereal-extent-experiment-workflow/record.json",
+      "href": "./esa-world-cereal-extent-workflow/record.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent"
     }

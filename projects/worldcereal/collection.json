@@ -45,7 +45,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/esa-world-cereal-extent-experiment-workflow/record.json",
+      "href": "../../workflows/esa-world-cereal-extent-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: ESA WorldCereal - Crop Type Extent"
     },
@@ -64,7 +64,7 @@
   "osc:type": "project",
   "osc:status": "ongoing",
   "osc:workflows": [
-    "esa-world-cereal-extent-experiment-workflow"
+    "esa-world-cereal-extent-workflow"
   ],
   "themes": [
     {

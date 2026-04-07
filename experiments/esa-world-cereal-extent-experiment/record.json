@@ -13,7 +13,7 @@
     "description": "Experiment of the ESA WorldCereal Crop Type Extent workflow.",
     "license": "MIT",
     "osc:project": "worldcereal",
-    "osc:workflow": "esa-world-cereal-extent-experiment-workflow",
+    "osc:workflow": "esa-world-cereal-extent-workflow",
     "osc:product": "esa-world-cereal-extent-product",
     "version": "2",
     "themes": [
@@ -60,7 +60,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/esa-world-cereal-extent-experiment-workflow/record.json",
+      "href": "../../workflows/esa-world-cereal-extent-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: ESA WorldCereal - Crop Type Extent"
     },

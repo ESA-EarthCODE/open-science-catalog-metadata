@@ -4,7 +4,7 @@
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "geometry": null,
-  "id": "esa-world-cereal-extent-experiment-workflow",
+  "id": "esa-world-cereal-extent-workflow",
   "links": [
     {
       "rel": "root",
@@ -34,11 +34,11 @@
       "rel": "related",
       "type": "application/json",
       "title": "openEO Workflow",
-      "href": "https://s3.waw4-1.cloudferro.com/workflows/prod/esa-world-cereal-extent-experiment-workflow/worldcereal_crop_extent.json"
+      "href": "https://s3.waw4-1.cloudferro.com/workflows/prod/esa-world-cereal-extent-workflow/worldcereal_crop_extent.json"
     },
     {
       "rel": "related",
-      "href": "https://editor.openeo.org/?wizard=UDP&wizard~process=worldcereal_crop_extent&wizard~processUrl=https://s3.waw4-1.cloudferro.com/workflows/prod/esa-world-cereal-extent-experiment-workflow/worldcereal_crop_extent.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "href": "https://editor.openeo.org/?wizard=UDP&wizard~process=worldcereal_crop_extent&wizard~processUrl=https://s3.waw4-1.cloudferro.com/workflows/prod/esa-world-cereal-extent-workflow/worldcereal_crop_extent.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
       "type": "text/html",
       "title": "openEO Web Editor execution URL for experiment"
     },
