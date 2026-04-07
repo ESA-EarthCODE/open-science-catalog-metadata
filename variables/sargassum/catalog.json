@@ -20,13 +20,13 @@
       "rel": "child",
       "href": "../../products/sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
+      "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 1 (Miron et al, 2020)"
     },
     {
       "rel": "child",
       "href": "../../products/sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 2"
+      "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 2"
     },
     {
       "rel": "parent",

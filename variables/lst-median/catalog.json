@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-median",
   "stac_version": "1.0.0",
-  "description": "Lst Median",
+  "description": "Land Surface Temperature Median from July to September",
   "links": [
     {
       "rel": "root",
@@ -43,7 +43,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2026-03-19T15:33:24.246043+00:00",
+  "updated": "2026-03-20T16:12:27.628876+00:00",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

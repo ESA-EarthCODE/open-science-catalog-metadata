@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "earthcare-frame-lightning",
+  "stac_version": "1.1.0",
+  "description": "The Lightning2EarthCARE product includes three related datasets describing geostationary satellite-observed lightning activity in the context of EarthCARE observations: (1) lightning groups collocated with EarthCARE MSI-like frames, (2) along-track lightning counts referenced to EarthCARE CPR samples, and (3) a catalogue of lightning storms sampled during EarthCARE overpasses.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/esa-science-hub-blanka-piskala/collection.json",
+      "type": "application/json",
+      "title": "Project: ESA Science Hub-Blanka Piskala"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/earthcare/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: EarthCARE"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/meteosat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Meteosat"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/lightning/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Lightning"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
+      "type": "application/json",
+      "title": "Lightning2EarthCARE datasets"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
+      "type": "application/json",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-03-25T15:35:24.758939Z",
+  "updated": "2026-03-25T15:35:24.758939Z",
+  "osc:project": "esa-science-hub-blanka-piskala",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "earthcare",
+    "meteosat"
+  ],
+  "osc:variables": [
+    "lightning"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "Lightning2EarthCARE",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60.0,
+          -180.0,
+          60.0,
+          180.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-01T00:00:00Z",
+          "2026-02-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "EarthCARE",
+    "lightning",
+    "MTG-LI",
+    "GOES-GLM",
+    "convective storms"
+  ]
+}

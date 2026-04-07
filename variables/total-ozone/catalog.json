@@ -5,6 +5,11 @@
   "description": "The total amount of ozone present in a column of the earth's atmosphere, often expressed in Dobson units.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/total-ozone/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -41,15 +46,16 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/total-ozone/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-meteor-datasets/collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
     }
   ],
   "stac_extensions": [

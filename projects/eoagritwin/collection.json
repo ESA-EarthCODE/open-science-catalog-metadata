@@ -1,0 +1,124 @@
+{
+  "type": "Collection",
+  "id": "eoagritwin",
+  "stac_version": "1.0.0",
+  "description": "In the context of a rapidly growing global population, increasing crop production is essential to meet the rising food demand. However, abiotic stressors, such as droughts and heat waves, and biotic threats, including pests and diseases, which are becoming more frequent due to climate change, threaten crop productivity and necessitate the proactive adaptation of agricultural management. The EOAgriTwin project, an innovative component of the European Space Agency's Digital Twin Earth (ESA DTE) initiatives, aims to create a virtual replica of agricultural systems to monitor crop conditions and production under various stressors. The objectives of the project are to enhance the understanding of cropping systems under biotic and abiotic stresses and to derive actionable insights and information to support sustainable food production and global food security.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.eoagritwin.eu/",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "updated": "2026-03-18T14:29:00Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Espen Volden",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "espen.volden@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Leibniz Centre for Agricultural Landscape Research (ZALF)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "gohar.ghazaryan@zalf.de"
+        }
+      ]
+    },
+    {
+      "name": "Humboldt-Universitaet zu Berlin - Earth Observation Lab (EOL)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Remote Sensing Solutions GmbH (RSS)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "schwarz@rssgmbh.de"
+        }
+      ]
+    },
+    {
+      "name": "Universita Cattolica del Sacro Cuore (UCSC)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "International Centre of Insect Physiology and Ecology (ICIPE)",
+      "roles": [
+        "consoritum_member"
+      ]
+    }
+  ],
+  "title": "EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.0,
+          5.0,
+          56.0,
+          42.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-18T00:00:00Z",
+          "2026-11-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

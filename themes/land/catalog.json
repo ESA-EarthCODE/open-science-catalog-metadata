@@ -5,6 +5,11 @@
   "description": "A specified geographical tract of the Earth's surface including all its attributes, comprising its geology, superficial deposits, topography, hydrology, soils, flora and fauna, together with the results of past and present human activity, to the extent that these attributes exert a significant influence on the present and future land utilization. (source: https://www.eionet.europa.eu/gemet/en/concept/4599)",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -376,9 +381,10 @@
       "title": "Themes"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/e4cs-pilot/collection.json",
+      "type": "application/json",
+      "title": "Eo4CerealStress - Andalusia Rice Fields"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "lst-anomaly-diff",
   "stac_version": "1.0.0",
-  "description": "Lst Anomaly Diff",
+  "description": "Change of Land Surface Temperature Anomaly from 2016 to 2023",
   "links": [
     {
       "rel": "root",
@@ -43,7 +43,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2026-03-19T15:33:24.149170+00:00",
+  "updated": "2026-03-20T16:12:27.549195+00:00",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
