@@ -41,6 +41,12 @@
       "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
     },
     {
+      "rel": "child",
+      "href": "../../products/eo4flood-prec/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

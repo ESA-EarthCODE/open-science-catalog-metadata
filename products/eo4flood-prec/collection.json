@@ -1,0 +1,199 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-prec",
+  "stac_version": "1.0.0",
+  "description": "Satellite rainfall product in the project specific basins",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+        "rel": "related",
+        "href": "../../variables/precipitation/catalog.json",
+        "type": "application/json",
+        "title": "Variable: Precipitation"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+        "rel": "related",
+        "href": "../../eo-missions/modis/catalog.json", 
+        "type": "application/json",
+        "title": "EO Mission: MODIS"
+    },
+    {
+        "rel": "related",
+        "href": "../../eo-missions/ascat/catalog.json", 
+        "type": "application/json",
+        "title": "EO Mission: ASCAT"
+    },
+    {
+        "rel": "related",
+        "href": "../../eo-missions/smap/catalog.json", 
+        "type": "application/json",
+        "title": "EO Mission: SMAP"
+    },
+    {
+        "rel": "related",
+        "href": "../../eo-missions/smos/catalog.json", 
+        "type": "application/json",
+        "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/viirs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: VIIRS"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-fe/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-07=2T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "precipitation"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:missions": [
+    "sentinel-1", "sentinel-2", "viirs", "cryosat-2", "swot", "modis", "landsat", "ascat", "smap", "smos"
+  ],
+  "updated": "2026-04-02T15:16:06.215108Z",
+  "title": "EO4FLOOD Precipitation Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+
+        [
+          96.95, 
+          24.73, 
+          88.18, 
+          30.05
+        ],
+        [
+          34, 
+          -10, 
+          12, 
+          10
+        ],
+        [
+          29.76, 
+          45.22, 
+          8.16, 
+          48.10
+        ],
+        [
+          0.86, 
+          40.72, 
+          -4.40, 
+          43.04
+        ],
+        [
+          -59.91, 
+          -3.13, 
+          -70.03, 
+          1.95
+        ],
+        [
+          6.47, 
+          5.32, 
+          -10.68, 
+          9.10
+        ],
+        [
+          12.43, 
+          44.70, 
+          7.09, 
+          44.95
+        ],
+        [
+          9.41, 
+          46.63, 
+          4.08, 
+          51.98
+        ],
+        [
+          24.15, 
+          65.83, 
+          19.10, 
+          68.37
+        ]
+
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "cc-by-4.0",
+  "keywords": [
+    "precipitation",
+    "satellite-derived-precipitation",
+    "rainfall"
+  ]
+}

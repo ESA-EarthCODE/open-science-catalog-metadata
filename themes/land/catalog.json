@@ -382,6 +382,12 @@
       "title": "EO4FLOOD Flood Extent Products"
     },
     {
+      "rel": "child",
+      "href": "../../products/eo4flood-prec/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
