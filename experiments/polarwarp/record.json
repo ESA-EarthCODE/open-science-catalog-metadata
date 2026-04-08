@@ -1,43 +1,26 @@
 {
-  "id": "polaris-experiment",
+  "id": "polarwarp",
   "type": "Feature",
+  "geometry": null,
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
-  "geometry": null,
   "properties": {
-    "created": "2025-02-19T23:00:00Z",
-    "updated": "2025-02-19T23:00:00Z",
+    "created": "2025-10-12T23:00:00Z",
+    "updated": "2025-10-12T23:00:00Z",
     "type": "experiment",
-    "title": "POLARIS",
-    "description": "Polar Operational Limit Assessment Risk Index System (POLARIS)",
+    "title": "Polarwarp",
+    "description": "The polarwarp algorithm geolocates, aligns, and warps satellite SAR images using forecast drift and wind/tide fields in polar regions.",
     "keywords": [
       "sea ice",
       "polar"
-    ],
-    "contacts": [
-      {
-        "name": "EarthCODE Demo",
-        "organization": "EarthCODE",
-        "links": [
-          {
-            "rel": "about",
-            "type": "text/html",
-            "href": "https://opensciencedata.esa.int/"
-          }
-        ],
-        "contactInstructions": "Contact via EarthCODE",
-        "roles": [
-          "host"
-        ]
-      }
     ],
     "themes": [
       {
         "scheme": "https://github.com/stac-extensions/osc#theme",
         "concepts": [
           {
-            "id": "oceans"
+            "id": "cryosphere"
           }
         ]
       }
@@ -47,11 +30,10 @@
         "name": "GeoTIFF"
       }
     ],
-    "license": "CC-BY-SA-4.0",
-    "osc:workflow": "polaris-workflow",
+    "license": "various",
+    "osc:workflow": "polarwarp",
     "version": "2"
   },
-  "linkTemplates": [],
   "links": [
     {
       "rel": "root",
@@ -67,21 +49,21 @@
     },
     {
       "rel": "child",
-      "href": "../../products/polaris/collection.json",
+      "href": "../../products/polarwarp/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Polarwarp"
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
-      "title": "Theme: Oceans"
+      "title": "Theme: Cryosphere"
     },
     {
       "rel": "related",
-      "href": "../../workflows/polaris-workflow/record.json",
+      "href": "../../workflows/polarwarp/record.json",
       "type": "application/json",
-      "title": "Workflow: POLARIS"
+      "title": "Workflow: Polarwarp"
     },
     {
       "rel": "input",
@@ -97,7 +79,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/polaris-experiment/item.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/polarwarp/record.json",
       "type": "application/json"
     }
   ]
