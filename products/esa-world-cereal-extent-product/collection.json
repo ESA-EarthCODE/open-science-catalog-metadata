@@ -96,7 +96,9 @@
   "osc:project": "worldcereal",
   "osc:status": "completed",
   "osc:type": "product",
-  "osc:variables": [cropland-mask],
+  "osc:variables": [
+    "cropland-mask"
+  ],
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
