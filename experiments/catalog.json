@@ -18,12 +18,6 @@
     },
     {
       "rel": "item",
-      "href": "./worldcereal-experiment/record.json",
-      "type": "application/json",
-      "title": "ESA WorldCereal Experiment"
-    },
-    {
-      "rel": "item",
       "href": "./esa-cci-permafrost/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
@@ -62,6 +56,12 @@
       "href": "./lightning2earthcare-experiment/record.json",
       "type": "application/json",
       "title": "Lightning2Earthcare experiment"
+    },
+    {
+      "rel": "item",
+      "href": "./esa-world-cereal-extent-experiment/record.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     }
   ],
   "updated": "2025-12-16T15:32:00.000000Z",

@@ -1925,12 +1925,6 @@
     },
     {
       "rel": "child",
-      "href": "./worldcereal-crop-extent-belgium/collection.json",
-      "type": "application/json",
-      "title": "WorldCereal Crop Extent - Belgium"
-    },
-    {
-      "rel": "child",
       "href": "./polaris/collection.json",
       "type": "application/json",
       "title": "POLARIS"
@@ -2023,6 +2017,12 @@
       "href": "./earthcare-frame-lightning/collection.json",
       "type": "application/json",
       "title": "Lightning2EarthCARE"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-world-cereal-extent-product/collection.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
