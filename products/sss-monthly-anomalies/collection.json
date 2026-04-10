@@ -98,7 +98,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme"
     }
   ],
-  "title": "sss-monthly-anomalies",
+  "title": "Sea Surface Salinity - Monthly Anomalies",
   "extent": {
     "spatial": {
       "bbox": [
