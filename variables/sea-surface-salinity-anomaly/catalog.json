@@ -30,9 +30,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/ocean/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Theme: Ocean"
+      "title": "Theme: Oceans"
     },
     {
       "rel": "self",
