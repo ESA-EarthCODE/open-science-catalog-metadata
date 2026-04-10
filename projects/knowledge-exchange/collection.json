@@ -5,7 +5,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/contacts/v0.1.0/schema.json"
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "Climate Space Knowledge Exchange",
   "description": "Climate Space Knowledge Exchange",
