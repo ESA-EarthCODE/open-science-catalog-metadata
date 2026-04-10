@@ -1202,6 +1202,8 @@
       "href": "./knowledge-exchange/collection.json",
       "type": "application/json",
       "title": "Knowledge Exchange"
+    },
+    {      
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
