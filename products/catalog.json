@@ -2004,7 +2004,10 @@
       "rel": "child",
       "href": "./sss-monthly-anomalies/collection.json",
       "type": "application/json",
-      "title": "sss-monthly-anomalies"
+      "title": "Sea Surface Salinity - Monthly Anomalies"
+    },
+    {
+      "rel": "child",    
       "href": "./e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
