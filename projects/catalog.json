@@ -1139,9 +1139,9 @@
     },
     {
       "rel": "child",
-      "href": "./polaris/collection.json",
+      "href": "./cerulean-information-factory/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Cerulean Information Factory"
     },
     {
       "rel": "child",
@@ -1180,12 +1180,6 @@
       "title": "Lakes4Antarctica"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./fairsendd/collection.json",
       "type": "application/json",
@@ -1208,6 +1202,28 @@
       "href": "./knowledge-exchange/collection.json",
       "type": "application/json",
       "title": "Knowledge Exchange"
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-meteor/collection.json",
+      "type": "application/json",
+      "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-science-hub-blanka-piskala/collection.json",
+      "type": "application/json",
+      "title": "ESA Science Hub-Blanka Piskala"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

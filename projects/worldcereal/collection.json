@@ -39,15 +39,21 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/worldcereal-workflow/record.json",
+      "href": "../../experiments/cesa-world-cereal-extent-experiment/record.json",
       "type": "application/json",
-      "title": "Workflow: ESA worldcereal global crop extent detector"
+      "title": "Experiment: ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     },
     {
       "rel": "related",
-      "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
+      "href": "../../workflows/esa-world-cereal-extent-workflow/record.json",
       "type": "application/json",
-      "title": "Product: WorldCereal Crop Extent - Belgium"
+      "title": "Workflow: ESA WorldCereal - Crop Type Extent"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-world-cereal-extent-product/collection.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     }
   ],
   "stac_extensions": [
@@ -58,7 +64,7 @@
   "osc:type": "project",
   "osc:status": "ongoing",
   "osc:workflows": [
-    "worldcereal-workflow"
+    "esa-world-cereal-extent-workflow"
   ],
   "themes": [
     {
@@ -100,10 +106,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
@@ -116,6 +122,6 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "MIT",
   "keywords": []
 }

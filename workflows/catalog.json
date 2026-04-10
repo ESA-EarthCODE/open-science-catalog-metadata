@@ -12,27 +12,15 @@
     },
     {
       "rel": "item",
-      "href": "./polaris-workflow/record.json",
+      "href": "./polaris/record.json",
       "type": "application/json",
       "title": "POLARIS"
-    },
-    {
-      "rel": "item",
-      "href": "./worldcereal-workflow/record.json",
-      "type": "application/json",
-      "title": "ESA worldcereal global crop extent detector"
     },
     {
       "rel": "item",
       "href": "./delta-nbr-workflow-example/record.json",
       "type": "application/json",
       "title": "Workshop Training Wildfires Workflow"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
     },
     {
       "rel": "item",
@@ -50,13 +38,13 @@
       "rel": "item",
       "href": "./land-biosphere-society/record.json",
       "type": "application/json",
-      "title": "Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
+      "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
     },
     {
       "rel": "item",
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
-      "title": "Ocean Data Cube for Principal Component Analysis on Time Variability"
+      "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
     },
     {
       "rel": "item",
@@ -78,9 +66,15 @@
     },
     {
       "rel": "item",
-      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "href": "./polarwarp/record.json",
       "type": "application/json",
-      "title": "Urban LST Downscaling over Kinshasa"
+      "title": "Polarwarp"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
     {
       "rel": "item",
@@ -92,6 +86,30 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "type": "application/json",
+      "title": "Urban LST Downscaling over Kinshasa"
+    },
+    {
+      "rel": "item",
+      "href": "./lightning2earthcare-workflow/record.json",
+      "type": "application/json",
+      "title": "Lightning2EarthCARE Workflow"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacube-workflow/record.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cube Pipeline"
+    },
+    {
+      "rel": "item",
+      "href": "./esa-world-cereal-extent-workflow/record.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
