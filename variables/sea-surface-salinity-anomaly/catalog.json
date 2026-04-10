@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "../../products/sss-monthly-anomalies/collection.json",
       "type": "application/json",
-      "title": "sss-monthly-anomalies"
+      "title": "Sea Surface Salinity - Monthly Anomalies"
     },
     {
       "rel": "parent",
