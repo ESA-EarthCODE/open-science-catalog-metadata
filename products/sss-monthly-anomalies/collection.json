@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Sea Surface Salinity - Monthly Anomalies",
+  "id": "sss-monthly-anomalies",
   "stac_version": "1.1.0",
   "description": "No description available.",
   "links": [
