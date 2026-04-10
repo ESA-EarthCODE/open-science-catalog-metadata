@@ -39,7 +39,7 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "../../themes/ocean/catalog.json",
       "type": "application/json",
       "title": "Theme: Ocean"
     },
