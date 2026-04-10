@@ -7,8 +7,8 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.0/schema.json"
   ],
-  "title": "Knowledge Exchange",
-  "description": "Knowledge Exchange",
+  "title": "Climate Space Knowledge Exchange",
+  "description": "Climate Space Knowledge Exchange",
   "keywords": [],
   "license": "various",
   "extent": {
@@ -47,17 +47,77 @@
   ],
   "contacts": [
     {
-      "name": "Tonio Fincke",
-      "organization": "Brockmann Consult GmbH",
-      "links": [
+      "name": "Eduardo Pechorro",
+      "emails": [
         {
-          "rel": "about",
-          "type": "text/html",
-          "href": "https://www.brockmann-consult.de"
+          "value": "eduardo.pechorro@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
-    }
-  ],
+    },
+    {
+      "name": "BROCKMANN CONSULT GMBH (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "POWERS OF 10 (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "UBILABS (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "KLENK & HOURSCH (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DEUTSCHER WETTERDIENST (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },    
+    {
+      "name": "PLANETARY VISONS (UK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },     
+    {
+      "name": "IMPERATIVE SPACE (UK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },   
+    {
+      "name": "SCIENCE AND TECHNOLOGY FACILITIES COUNCIL (UK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },  
+    {
+      "name": "SCIENCE AND TECHNOLOGY FACILITIES COUNCIL (UK)",
+      "roles": [
+        "consortium_member"
+      ]
+    },   
+    {
+      "name": "BEYONDER (DE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },       
+  ]
   "links": [
     {
       "rel": "self",
@@ -80,7 +140,13 @@
       "rel": "via",
       "href": "www.climate.esa.int",
       "type": "text/html",
-      "title": "Knowledge Exchange"
-    }
+      "title": "Climate Space Knowledge Exchange"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }    
   ]
 }
