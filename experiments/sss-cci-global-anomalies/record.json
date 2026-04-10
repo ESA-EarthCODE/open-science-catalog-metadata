@@ -42,7 +42,7 @@
       {
         "concepts": [
           {
-            "id": "ocean"
+            "id": "oceans"
           }
         ],
         "scheme": "https://github.com/stac-extensions/osc#theme"
@@ -114,9 +114,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/ocean/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Theme: Ocean"
+      "title": "Theme: Oceans"
     },
     {
       "rel": "child",
