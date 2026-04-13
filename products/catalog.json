@@ -1325,6 +1325,12 @@
     },
     {
       "rel": "child",
+      "href": "./sinxs-sea-ice-thickness/collection.json",
+      "type": "application/json",
+      "title": "SIN'XS sea-ice thickness"
+    },
+    {
+      "rel": "child",
       "href": "./slope-instabilities-glacier-forefields-alpglacier/collection.json",
       "type": "application/json",
       "title": "Slope instabilities in glacier forefields_SwissAlps_S1/2"
