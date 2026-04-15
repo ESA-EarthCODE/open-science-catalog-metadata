@@ -5,7 +5,7 @@
   "type": "Collection",
   "osc:type": "project",
   "stac_version": "1.0.0",
-  "description": "Lorem ipsum",
+  "description": "The European Space Agency's upcoming Copernicus Expansion Missions (CEMs) present unprecedented opportunities to advance current Earth Observation, particularly for applications in food systems and agriculture. The Advanced Agricultural Monitoring with Copernicus Expansion Missions (AgriCEM) project leverages this potential by focusing on two primary missions, CHIME (Copernicus Hyperspectral Imaging Mission for the Environment) and LSTM (Land Surface Temperature Monitoring), and exploring their synergies to develop innovative Earth Observation products. By integrating hyperspectral reflectance data from CHIME with thermal data from LSTM, the project aims to provide precise and comprehensive assessments of crop traits for sugar beets, including structure, biochemical composition, and evapotranspiration, which in turn are used to derive crop stress indicators of increasing complexity.\n",
   "license": "various",
   "extent": {
     "spatial": {
