@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sss-monthly-anomalies",
   "stac_version": "1.1.0",
-  "description": "Estimate of monthly anomalies for Sea Surface Salinity Data",
+  "description": "This dataset contains estimates of monthly anomalies for Sea Surface Salinity (SSS) v5.5 Data at a spatial resolution of 50 km and time resolution of 1 month and spatially resampled on 0.25° rectangular grid",
   "links": [
     {
       "rel": "root",
@@ -79,7 +79,10 @@
   "osc:variables": [
     "sea-surface-salinity-anomaly"
   ],
-  "osc:missions": [],
+  "osc:missions": [
+    "SMOS",
+    "SMAP"
+  ],
   "cf:parameter": [
     {
       "name": "sss_anom",

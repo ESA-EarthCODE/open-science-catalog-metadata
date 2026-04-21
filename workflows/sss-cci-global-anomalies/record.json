@@ -45,9 +45,13 @@
         "scheme": "https://github.com/stac-extensions/osc#theme"
       }
     ],
-    "formats": [],
+    "formats": [
+      {
+        "name": "zarr"
+      }
+    ],
     "license": "MIT",
-    "osc:project": "deep-earth-system-data-lab",
+    "osc:project": "knowledge-exchange",
     "application:type": "jupyter-notebook",
     "application:container": [
       "true"

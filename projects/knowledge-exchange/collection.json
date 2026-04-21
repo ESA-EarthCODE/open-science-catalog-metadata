@@ -10,7 +10,7 @@
   "title": "Climate Space Knowledge Exchange",
   "description": "Climate Space Knowledge Exchange",
   "keywords": [],
-  "license": "various",
+  "license": "proprietary",
   "extent": {
     "spatial": {
       "bbox": [
@@ -25,8 +25,8 @@
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2024-10-01T00:00:00Z",
+          "2027-09-30T23:59:59Z"
         ]
       ]
     }
