@@ -41,6 +41,12 @@
       "title": "GPM+SM2RAIN Rainfall product_v1.0_daily_0.25_quasi-global"
     },
     {
+      "rel": "child",
+      "href": "../../products/sss-monthly-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity - Monthly Anomalies"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
