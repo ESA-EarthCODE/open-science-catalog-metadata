@@ -1,40 +1,24 @@
 {
-  "id": "agricem",
-  "title": "AgriCEM",
-  "osc:status": "ongoing",
   "type": "Collection",
-  "osc:type": "project",
+  "id": "agricem",
   "stac_version": "1.0.0",
   "description": "The European Space Agency's upcoming Copernicus Expansion Missions (CEMs) present unprecedented opportunities to advance current Earth Observation, particularly for applications in food systems and agriculture. The Advanced Agricultural Monitoring with Copernicus Expansion Missions (AgriCEM) project leverages this potential by focusing on two primary missions, CHIME (Copernicus Hyperspectral Imaging Mission for the Environment) and LSTM (Land Surface Temperature Monitoring), and exploring their synergies to develop innovative Earth Observation products. By integrating hyperspectral reflectance data from CHIME with thermal data from LSTM, the project aims to provide precise and comprehensive assessments of crop traits for sugar beets, including structure, biochemical composition, and evapotranspiration, which in turn are used to derive crop stress indicators of increasing complexity.\n",
-  "license": "various",
-  "extent": {
-    "spatial": {
-      "bbox": [
-        [
-          6.409281746689257,
-          51.31805336713293,
-          6.706689592164285,
-          51.44180533129432
-        ]
-      ]
-    },
-    "temporal": {
-      "interval": [
-        [
-          "2021-05-19T00:00:00Z",
-          "2021-10-27T23:59:59Z"
-        ]
-      ]
-    }
-  },
   "links": [
     {
-      "href": "../../themes/land/catalog.json",
       "rel": "related",
+      "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemchimeds3v1/collection.json",
+      "type": "application/json",
+      "title": "AGRICEM Simulated CHIME L2A data"
     }
   ],
+  "osc:status": "ongoing",
+  "osc:type": "project",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -64,5 +48,27 @@
         }
       ]
     }
-  ]
+  ],
+  "title": "AgriCEM",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.409281746689257,
+          51.31805336713293,
+          6.706689592164285,
+          51.44180533129432
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-19T00:00:00Z",
+          "2021-10-27T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "various"
 }
