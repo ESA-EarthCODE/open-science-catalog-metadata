@@ -8,9 +8,9 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "title": "Climate Space Knowledge Exchange",
-  "description": "Climate Space Knowledge Exchange",
-  "keywords": [],
-  "license": "proprietary",
+  "description": "The mission for Knowledge Exchange activities is to maximise awareness, access, use and understanding of satellite data for climate research with an emphasis on promoting the CCI Programme.",
+  "keywords": ["cci", "climate", "ecv", "knowledge", "ocean", "land", "atmosphere", "cryosphere"],
+  "license": "various",
   "extent": {
     "spatial": {
       "bbox": [
@@ -144,9 +144,27 @@
     },
     {
       "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
-    }    
+    }
   ]
 }
