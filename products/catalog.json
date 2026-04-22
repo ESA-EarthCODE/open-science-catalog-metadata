@@ -1996,6 +1996,7 @@
       "title": "AGRICEM_CHIME_DS3_v1"
     },
     {
+      "rel": "child",
       "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
       "type": "application/json",
       "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
