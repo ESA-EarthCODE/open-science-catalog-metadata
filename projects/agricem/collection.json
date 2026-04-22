@@ -11,16 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://www.ai4drought.com/",
-      "title": "Website"
-    },
-    {
-      "rel": "via",
-      "href": "https://eo4society.esa.int/projects/ai4drought/",
-      "title": "EO4Society Link"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -37,8 +27,7 @@
       "href": "../../products/agricemchimeds3v1/collection.json",
       "type": "application/json",
       "title": "AGRICEM Simulated CHIME L2A data"
-    },
-    
+    }
   ],
    "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
