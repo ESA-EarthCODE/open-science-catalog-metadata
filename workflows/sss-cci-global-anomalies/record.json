@@ -100,9 +100,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "href": "../../projects/knowledge-exchange/collection.json",
       "type": "application/json",
-      "title": "Project: DeepESDL"
+      "title": "Project: Climate Space Knowledge Exchange"
     },
     {
       "rel": "self",

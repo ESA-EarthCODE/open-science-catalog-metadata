@@ -92,8 +92,8 @@
     "sea-surface-salinity-anomaly"
   ],
   "osc:missions": [
-    "SMOS",
-    "SMAP"
+    "smos",
+    "smap"
   ],
   "cf:parameter": [
     {
