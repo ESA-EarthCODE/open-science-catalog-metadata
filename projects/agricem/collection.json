@@ -17,6 +17,12 @@
       "title": "Projects"
     },
     {
+      "rel": "via",
+      "href": "openscience.esa.int/projects/agricem/collection",
+      "type": "application/json",
+      "title": "Website"
+    },
+    {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",

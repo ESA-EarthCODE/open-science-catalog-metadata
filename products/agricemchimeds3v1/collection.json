@@ -39,6 +39,17 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "item",
+      "href": "./agricem-data.json",
+      "type": "application/json",
+      "title": "AGRICEM Data Store"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.services.earthcode.eox.at/agricem/main/datacube.zarr",
+      "title": "Access"
     }
   ],
   "stac_extensions": [
