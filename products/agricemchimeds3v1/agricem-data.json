@@ -39,7 +39,7 @@
   "properties": {
     "license": "CC-BY-4.0",
     "description": "This collection is part of the representative dataset of the Sentinel User Preparation project AgriCEM. The goal of AgriCEM is to develop stress indicators for sugar beet crops based on CHIME and LSTM data. This collection contains simulated CHIME L2A data showing an agricultural site containing sugar beet fields with different types of simulated stress. The dataset was generated using the SCOPE model for the bottom-of-atmosphere reference signal and the RISE simulator for the satellite data products. The spatial coverage is a 2x2 km patch close to Selhausen, Germany. The temporal coverage spans over the sugar beet growing season with weekly measurements for a total of 24 scenes from May to October 2021.",
-    "datetime": "NaT"
+    "datetime":  "2021-05-19T00:00:00Z"
   },
   "links": [
     {
