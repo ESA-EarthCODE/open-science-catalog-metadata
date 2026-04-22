@@ -39,6 +39,11 @@
         "type": "application/json"
       },
       {
+        "rel": "cite-as",
+        "href": "https://doi.org/10.57780/ESA-6D202E9",
+        "title": "DOI"
+      },
+      {
         "href": "../catalog.json",
         "rel": "parent",
         "title": "Products",
@@ -69,6 +74,11 @@
         "type": "application/json"
       },
       {
+      "href": "https://essd.copernicus.org/preprints/essd-2025-668/",
+      "rel": "Related publication (Preprint)",
+      "title": "A global dataset of d13C-CH4 source signatures and associated uncertainties (1998–2022), with a sensitivity analysis to support isotopic inversions"
+      },
+      {
         "href": "../../eo-missions/numerical-models/catalog.json",
         "rel": "related",
         "title": "EO Mission: Numerical models",
@@ -82,6 +92,7 @@
     ],
     "osc:missions": ["numerical-models"],
     "osc:variables": ["13-ch4-delta"],
+    "sci:doi": "10.57780/esa-6d202e9",
     "cf:parameter": [
       {
         "name": "isotopic-signature",

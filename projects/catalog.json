@@ -5,6 +5,11 @@
   "description": "Activities funded by ESA",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
@@ -498,9 +503,15 @@
     },
     {
       "rel": "child",
+      "href": "./fuelity/collection.json",
+      "type": "application/json",
+      "title": "Fuelity - Fuel Initialization Study"
+    },
+    {
+      "rel": "child",
       "href": "./glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
       "type": "application/json",
-      "title": "GLAMBIE"
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
     },
     {
       "rel": "child",
@@ -828,9 +839,9 @@
     },
     {
       "rel": "child",
-      "href": "./sentinel-1-for-science-amazonas/collection.json",
+      "href": "./s14scienceamazonas/collection.json",
       "type": "application/json",
-      "title": "S14SCIENCE AMAZONAS"
+      "title": "Sentinel-1 for Science Amazonas"
     },
     {
       "rel": "child",
@@ -1128,9 +1139,9 @@
     },
     {
       "rel": "child",
-      "href": "./polaris/collection.json",
+      "href": "./cerulean-information-factory/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Cerulean Information Factory"
     },
     {
       "rel": "child",
@@ -1169,17 +1180,6 @@
       "title": "Lakes4Antarctica"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "child",
       "href": "./fairsendd/collection.json",
       "type": "application/json",
@@ -1187,9 +1187,46 @@
     },
     {
       "rel": "child",
+      "href": "./eradiate-radiative-transfer-model/collection.json",
+      "type": "application/json",
+      "title": "Eradiate radiative transfer model"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4cerealstress/collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-meteor/collection.json",
+      "type": "application/json",
+      "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
+    },
+    {
+      "rel": "child",
       "href": "./agricem/collection.json",
       "type": "application/json",
       "title": "AgriCEM"
+      
+    },
+    {
+      "rel": "child",
+      "href": "./esa-science-hub-blanka-piskala/collection.json",
+      "type": "application/json",
+      "title": "ESA Science Hub-Blanka Piskala"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

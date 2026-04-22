@@ -1,0 +1,9 @@
+$comment: >-
+  Lat and Lon are actually not Latitude and Longitude but coordinates in arctic projection (EPSG:3413)
+parameters:
+  lon_min: 796454.0390764615
+  lat_min: -2364879.127844905
+  lon_max: 916915.4324799285
+  lat_max: -2245914.126716489
+  date: 2025-02-25
+  num_gcps: 4

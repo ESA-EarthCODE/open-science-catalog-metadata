@@ -5,6 +5,11 @@
   "description": "Launched in December 1999, Terra (formerly known as EOS/AM-1) is a joint mission within NASA's ESE (Earth Science Enterprise) program between the US, Japan and Canada. With an original design life of six years, the operation has been extended to continue to provide an extensive variety of valuable data on Earth's atmosphere, land surface, ocean and cryosphere.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/terra/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -335,9 +340,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/terra/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/glambie-dataset/collection.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

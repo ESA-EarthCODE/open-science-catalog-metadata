@@ -12,15 +12,27 @@
     },
     {
       "rel": "item",
-      "href": "./polaris-experiment/record.json",
+      "href": "./polaris/record.json",
       "type": "application/json",
       "title": "POLARIS"
     },
     {
       "rel": "item",
-      "href": "./worldcereal-experiment/record.json",
+      "href": "./esa-cci-permafrost/record.json",
       "type": "application/json",
-      "title": "ESA WorldCereal Experiment"
+      "title": "ESA CCI permafrost"
+    },
+    {
+      "rel": "item",
+      "href": "./glambie-v1.0.190-experiment/record.json",
+      "type": "application/json",
+      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
+    },
+    {
+      "rel": "item",
+      "href": "./polarwarp/record.json",
+      "type": "application/json",
+      "title": "Polarwarp"
     },
     {
       "rel": "parent",
@@ -30,16 +42,28 @@
     },
     {
       "rel": "item",
-      "href": "./esa-cci-permafrost/record.json",
+      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
       "type": "application/json",
-      "title": "ESA CCI permafrost"
+      "title": "Urban LST Downscaling over Kinshasa"
     },
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./lightning2earthcare-experiment/record.json",
+      "type": "application/json",
+      "title": "Lightning2Earthcare experiment"
+    },
+    {
+      "rel": "item",
+      "href": "./esa-world-cereal-extent-experiment/record.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
     }
   ],
-  "updated": "2025-01-29T18:00:00.000000Z",
+  "updated": "2025-12-16T15:32:00.000000Z",
   "title": "Experiments"
 }

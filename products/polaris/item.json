@@ -1,0 +1,86 @@
+{
+    "type": "Feature",
+    "title": "Polaris CentralWest RIC 20250101T1005",
+    "license": "various",
+    "description": "Results of Polaris processing for DMI Icechart CentralWest RIC 20250101T1005",
+    "stac_version": "1.0.0",
+    "id": "polaris_RIC_CentralWest_20250101T1005",
+    "collection": "polaris",
+    "properties": {
+        "datetime": "2025-01-01T10:05:00Z"
+    },
+    "bbox": [
+        -66.89062317460744,
+        66.9875115114256,
+        -49.52681235372664,
+        72.35262002723549
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -66.89062317460744,
+                    66.9875115114256,
+                    -49.52681235372664,
+                    72.35262002723549
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2025-01-01T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -66.89062317460744,
+                    66.9875115114256
+                ],
+                [
+                    -49.52681235372664,
+                    66.9875115114256
+                ],
+                [
+                    -49.52681235372664,
+                    72.35262002723549
+                ],
+                [
+                    -66.89062317460744,
+                    72.35262002723549
+                ],
+                [
+                    -66.89062317460744,
+                    66.9875115114256
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "collection",
+            "href": "./collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "./collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "ric_processed": {
+            "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/CIF/POLARIS/202501011005_CentralWest_RIC-processed.fgb",
+            "type": "application/x-flatgeobuf",
+            "roles": [
+                "data"
+            ]
+        }
+    }
+}

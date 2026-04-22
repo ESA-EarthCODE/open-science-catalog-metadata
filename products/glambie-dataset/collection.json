@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "glambie-dataset",
+  "stac_version": "1.0.0",
+  "description": "This dataset contains the input data and results of GlaMBIE. The input data represents the original data submitted to GlaMBIE, edited to fit the monthly grid and format of GlaMBIE. The results contain the final combined estimates amongst observation methods (DEM differencing & glaciological method, altimetry, gravimetry) and the results for each observation method individually. \n\nThe datasets time resolution is annual. Results exist for the hydrological year as well as for the calendar year. Within GlaMBIE, the solutions per observation method are combined into one regional solution and then converted to calendar years for global aggregation.\n\nGlaMBIE dataset archive (ZIP) contains both the input data and the results to the exercise. The datasets are organised in the two main data folders, each with a more detailed data information file, and with subfolders containing the data in csv files.\n\n2.1. GlaMBIE Input, final version 2024-07-16 folder with input datasets for all 19 glacier regions.\n\n2.2. GlaMBIE Results, final version 2024-07-16, folder with results for calendar years and for hydrological years, for all 19 glacier regions.\n\nThe GlaMBIE Team (2025, Nature) provides more information about the approach and results.\n\nRelated publication: The GlaMBIE Team (2025): Community estimate of global glacier mass changes from 2000 to 2023. Nature. https://doi.org/10.1038/s41586-024-08545-z. \n\nHow to cite: GlaMBIE (2024): Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset 1.0.0. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-glambie-2024-07.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
+      "type": "application/json",
+      "title": "Project: Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/glambie-v1.0.190-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/grace/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/grace-fo/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE-FO"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/tandem-x/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: TanDEM-X"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terrasar-x/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: TerraSAR-X"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/icesat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ICESat"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/icesat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ICESat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/geoeye-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GeoEye-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/pleiades/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Pleiades-HR (High-Resolution Optical Imaging Constellation of CNES)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/worldview-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: WorldView-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/worldview-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: WorldView-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/spot-5/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SPOT-5 (Satellite pour l'Observation de la Terre)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/spot-6-7/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SPOT-6 and SPOT-7 (Azersky)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/srtm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SRTM (Shuttle Radar Topography Mission)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-mass-balance-ice-sheet-mass-balance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Mass Balance/Ice Sheet Mass Balance"
+    },
+    {
+      "rel": "via",
+      "href": "https://wgms.ch/downloads/GlaMBIE_Data_DOI_10.5904_wgms-glambie-2024-07.zip",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://wgms.ch/data_glambie/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "example",
+      "href": "https://colab.research.google.com/github/earthwave/glambie_demo_notebooks/blob/main/glambie_regional_plots.ipynb",
+      "title": "Working with the Data - Demonstration Notebook: Regional Results",
+      "description": "Jupyter notebooks that can be used to investigate the GlaMBIE results. They are hosted on Google Colab, and simply require a Google account to be run interactively.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "example",
+      "href": "https://colab.research.google.com/github/earthwave/glambie_demo_notebooks/blob/main/glambie_global_plots.ipynb",
+      "title": "Working with the Data - Demonstration Notebook: Global Results",
+      "description": "Jupyter notebooks that can be used to investigate the GlaMBIE results. They are hosted on Google Colab, and simply require a Google account to be run interactively.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./glambie-dataset-zip_folder.json",
+      "type": "application/json",
+      "title": "GlaMBIE dataset archive (ZIP)"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "glaciers-mass-balance-intercomparison-exercise-glambie",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2026-01-28T18:18:17Z",
+  "updated": "2026-01-28T18:18:17Z",
+  "sci:doi": "https://doi.org/10.5904/wgms-glambie-2024-07",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "terra",
+    "grace",
+    "grace-fo",
+    "tandem-x",
+    "terrasar-x",
+    "icesat",
+    "icesat-2",
+    "cryosat-2",
+    "ers-1",
+    "ers-2",
+    "envisat", 
+    "geoeye-1",
+    "pleiades", 
+    "worldview-1",
+    "worldview-2",
+    "spot-5",
+    "spot-6-7",
+    "srtm"   
+  ],
+  "osc:variables": [
+    "glacier-mass-balance-ice-sheet-mass-balance"
+  ],
+  "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "glacier mass change",
+    "altimetry",
+    "DEM differencing",
+    "gravimetry",
+    "glaciological observations",
+    "ASTER",
+    "NASADEM"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "Catalog",
+  "id": "low-live-fuel-moisture-content",
+  "stac_version": "1.0.0",
+  "description": "The low live fuel moisture content as a percentage of dry mass for live low vegetation fuel. The live moisture content represents the low vegetation (e.g. shrubs) live above ground biomass. This is not material specific.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.24381/378d1497",
+      "type": "text/html",
+      "title": "Cross Data Store (ECMWF)"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/low-live-fuel-moisture-content/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-11-26T20:23:29.832131Z",
+  "keywords": [],
+  "title": "Low Live Fuel Moisture Content"
+}

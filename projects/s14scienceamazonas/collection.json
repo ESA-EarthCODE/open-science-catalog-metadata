@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "s14scienceamazonas",
+  "stac_version": "1.1.0",
+  "description": "The Sentinel-1 for Science Amazonas project demonstrates an operational approach for monitoring forest cover change and potential deforestation across the Amazon Basin using Sentinel-1 C-band SAR time-series. Building on ESA-funded work since 2020, the project first introduced a space-time data cube framework (StatCubes) that harmonises billions of Sentinel-1 GRD backscatter pixels from 2015\u20132021 into 12/24-day mosaics, enabling a multi-temporal change detection (MCD) product based on statistical indicators and decision-tree thresholds. A second, advanced version integrates an AI-based methodology using a U-Net convolutional neural network for semantic segmentation, trained on labelled backscatter stacks (VV, VH, VH/VV) derived from the StatCubes workflow. The AI model processes moving time-window stacks of 256\u00d7256 pixel patches to generate a probability-of-change surface, later thresholded and temporally harmonised with the MCD detections. \nBoth statistics-based and AI-based systems are now fully implemented on the openEO platform, enabling scalable cloud processing, on-the-fly computation of backscatter mosaics, and batch-based upscaling across large geographical extents. Post-processing merges detections from both methods, applies forest/non-forest masks, and filters out noise to produce clean, dynamic deforestation maps. The project also provides open-access scripts via GitHub and aims to extend the system toward carbon-related assessments using complementary datasets such as SRTM and JRC Forest Non-forest mask",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://sen4ama.gisat.cz/https://eo4society.esa.int/projects/s14science-amazonas/",
+      "title": "Project Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "completed",
+  "osc:type": "project",
+  "updated": "2025-12-21T16:50:20Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Dr. Anca Anghelea",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "anca.anghelea@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Gisat",
+      "roles": [
+        "prime_contractor"
+      ],
+      "emails": [
+        {
+          "value": "info@gisat.cz"
+        }
+      ]
+    },
+    {
+      "name": "Agresta",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "info@agresta.org"
+        }
+      ]
+    },
+    {
+      "name": "Norwegian University of Life Sciences",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Finnish Geospatial Research Institute",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "title": "Sentinel-1 for Science Amazonas",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -80.0,
+          -20.0,
+          -46.0,
+          11.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2024-11-29T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

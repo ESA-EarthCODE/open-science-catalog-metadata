@@ -28,6 +28,12 @@
       "title": "PolarLakes - Sentinel-1/2 - Antarctica, Bi-weekly/Annually"
     },
     {
+      "rel": "related",
+      "href": "../../workflows/polar-lakes-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/lakes4antarctica/collection.json",
       "type": "application/json"
@@ -106,4 +112,5 @@
   "license": "CC-BY-4.0",
   "keywords": ["supraglacial lake", "Antarctica", "surface hydrology", "surface melt", "Sentinel-1", "Sentinel-2", "U-Net"]
 }
+
 
