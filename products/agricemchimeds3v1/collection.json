@@ -50,6 +50,16 @@
       "rel": "via",
       "href": "https://s3.services.earthcode.eox.at/agricem/main/datacube.zarr",
       "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/agricem/access.ipynb",
+      "title": "Tutorial: Access to the DataCube",
+      "description": "A Python notebook demonstrating how to access the AGRICEM DataCube.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
