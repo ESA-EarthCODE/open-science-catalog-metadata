@@ -391,6 +391,12 @@
       "href": "../../products/esa-world-cereal-extent-product/collection.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/s14amazonas-s1-change-detection-product/collection.json",
+      "type": "application/json",
+      "title": "S14Amazonas - S1 Change Detection - Product"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
