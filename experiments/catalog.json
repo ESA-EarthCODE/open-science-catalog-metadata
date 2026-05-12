@@ -68,6 +68,12 @@
       "href": "./esa-world-cereal-extent-experiment/record.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "item",
+      "href": "./s14amazonas-s1-change-detection-experiment/record.json",
+      "type": "application/json",
+      "title": "S14Amazonas - S1 Change Detection - Experiment"
     }
   ],
   "updated": "2025-12-16T15:32:00.000000Z",
