@@ -1,0 +1,92 @@
+{
+  "id": "s14amazonas-s1-change-detection-experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-05-12T07:29:36.921Z",
+    "updated": "2026-05-12T07:29:36.921Z",
+    "type": "experiment",
+    "title": "S14Amazonas - S1 Change Detection - Experiment",
+    "description": "Small experiment of S14Amazonas - S1 Change Detection",
+    "license": "MIT",
+    "osc:project": "s14scienceamazonas",
+    "osc:workflow": "s14amazonas-s1-change-detection-workflow",
+    "osc:product": "s14amazonas-s1-change-detection-product",
+    "version": "2",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "process_graph",
+      "href": "https://s3.waw4-1.cloudferro.com/experiments/prod/s14amazonas-s1-change-detection-experiment/process_graph.json",
+      "type": "application/json",
+      "title": "openEO Process Graph"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/s14amazonas-s1-change-detection-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: S14Amazonas - S1 Change Detection - Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/s14amazonas-s1-change-detection-product/collection.json",
+      "type": "application/json",
+      "title": "Product: S14Amazonas - S1 Change Detection - Product"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/s14scienceamazonas/collection.json",
+      "type": "application/json",
+      "title": "Project: Sentinel-1 for Science Amazonas"
+    },
+    {
+      "rel": "via",
+      "href": "https://editor.openeo.org/?process=https://s3.waw4-1.cloudferro.com/experiments/prod/s14amazonas-s1-change-detection-experiment/process_graph.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}
