@@ -110,6 +110,12 @@
       "href": "./esa-world-cereal-extent-workflow/record.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent"
+    },
+    {
+      "rel": "item",
+      "href": "./s14amazonas-s1-change-detection-workflow/record.json",
+      "type": "application/json",
+      "title": "S14Amazonas - S1 Change Detection - Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
