@@ -1,0 +1,75 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "s14amazonas-s1-change-detection-workflow",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/s14scienceamazonas/collection.json",
+      "type": "application/json",
+      "title": "Project: Sentinel-1 for Science Amazonas"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "https://s3.waw4-1.cloudferro.com/workflows/prod/s14amazonas-s1-change-detection-workflow/sentinel1_changedetection.json"
+    },
+    {
+      "rel": "via",
+      "href": "https://editor.openeo.org/?wizard=UDP&wizard~process=sentinel1_mcd&wizard~processUrl=https://s3.waw4-1.cloudferro.com/workflows/prod/s14amazonas-s1-change-detection-workflow/sentinel1_changedetection.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/s14amazonas-s1-change-detection-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: s14amazonas-s1-change-detection-experiment"
+    }
+  ],
+  "properties": {
+    "title": "S14Amazonas - S1 Change Detection - Workflow",
+    "description": "This algorithm detects significant changes in Sentinel-1 backscatter observations and supports the identification of potential forest disturbance. For each analysis, a time series of 10 backscatter observations is used, with five acquisitions representing the past state and five acquisitions representing the future state.\n\nA set of statistical features is derived from these observations to characterize differences between the two periods. The method exploits Sentinel-1 VV and VH polarizations together with the VV/VH ratio, enabling detection of both absolute and relative changes in radar backscatter. These features are evaluated through a rule-based decision tree to determine whether a significant change has occurred. Processing is carried out separately for ascending and descending orbit data, after which the detections are combined into a consolidated change result. The workflow also includes an AI-based model that detects changed pixels independently from the rule-based statistical approach. These AI-derived detections are included in the output as an additional change layer.\n\nWhen combined with an existing forest mask, the detected changes can be interpreted as forest disturbance triggers and used as indicators of possible deforestation.",
+    "created": "2026-05-12T07:29:34.318Z",
+    "updated": "2026-05-12T07:29:34.319Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "s14scienceamazonas",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": "",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  }
+}
