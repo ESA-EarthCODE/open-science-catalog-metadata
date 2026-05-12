@@ -55,7 +55,7 @@
     {
       "rel": "via",
       "href": "https://s3.waw4-1.cloudferro.com/products/prod/s14amazonas-s1-change-detection-product/openEO_2020-03-11Z.tif",
-      "title": "Access openEO_2020-03-11Z.tif"
+      "title": "Access"
     }
   ],
   "stac_extensions": [
