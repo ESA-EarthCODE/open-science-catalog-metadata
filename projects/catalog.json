@@ -1203,7 +1203,7 @@
       "type": "application/json",
       "title": "Climate Space Knowledge Exchange"
     },
-    {      
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -1226,13 +1226,18 @@
       "href": "./agricem/collection.json",
       "type": "application/json",
       "title": "AgriCEM"
-      
     },
     {
       "rel": "child",
       "href": "./esa-science-hub-blanka-piskala/collection.json",
       "type": "application/json",
       "title": "ESA Science Hub-Blanka Piskala"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-science-hub-johanna-mayer/collection.json",
+      "type": "application/json",
+      "title": "ESA Science Hub-Johanna Mayer"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

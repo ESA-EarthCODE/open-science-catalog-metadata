@@ -2008,7 +2008,7 @@
       "title": "Sea Surface Salinity - Monthly Anomalies"
     },
     {
-      "rel": "child",    
+      "rel": "child",
       "href": "./e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
@@ -2030,6 +2030,12 @@
       "href": "./esa-world-cereal-extent-product/collection.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "./earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

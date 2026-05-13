@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "id": "earthcare-marine-stratocumulus-transitions",
+  "stac_version": "1.0.0",
+  "description": "The EarthCARE Marine Stratocumulus Organization and Transition Dataset includes related data products and model artifacts describing mesoscale cloud structure, microphysics, precipitation, and cloud evolution: (1) labelled EarthCARE MSI and GOES-19 image datasets for cloud-structure classification, (2) fine-tuned CNN model weights for MSI and GOES classification, (3) an EarthCARE stratocumulus scene catalogue linking cloud organization with active/passive microphysical and precipitation retrievals, and (4) GOES-19 and ERA5-trajectory-based datasets identifying and characterizing closed-to-open-cell transitions.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/esa-science-hub-johanna-mayer/collection.json",
+      "type": "application/json",
+      "title": "Project: ESA Science Hub-Johanna Mayer"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/earthcare/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: EarthCARE"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/cloud-type/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Cloud type"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/cloud-dynamics/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Cloud Dynamics"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/johanna-mayer/mesoscale_structure/tree/main",
+      "type": "application/json",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-05-13T15:12:47.740008Z",
+  "updated": "2026-05-13T15:12:47.740008Z",
+  "osc:project": "esa-science-hub-johanna-mayer",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "earthcare"
+  ],
+  "osc:variables": [
+    "cloud-type",
+    "cloud-dynamics"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "cloud_type"
+    }
+  ],
+  "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -136.51071548461914,
+          -24.56226685665589,
+          11.2279634475708,
+          44.67936992645264
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-02T00:00:00Z",
+          "2025-12-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "clouds",
+    "cloud organization",
+    "closed open cell transitions",
+    "EarthCARE"
+  ]
+}
