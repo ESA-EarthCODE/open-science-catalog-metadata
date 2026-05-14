@@ -18,12 +18,12 @@
     },
     {
       "rel": "via",
-      "href": "https://sciencehub.esa.int/sciencehub_team/johanna-mayer/",
+      "href": "https://sciencehub.esa.int/projects/earthcare-observations-of-marine-stratocumulus-clouds",
       "title": "Website"
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects/",
+      "href": "https://sciencehub.esa.int/projects/earthcare-observations-of-marine-stratocumulus-clouds",
       "title": "EO4Society Link"
     },
     {
@@ -31,6 +31,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/earthcare-marine-stratocumulus-transitions-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment"
     },
     {
       "rel": "child",

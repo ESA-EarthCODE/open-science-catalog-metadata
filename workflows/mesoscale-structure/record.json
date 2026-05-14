@@ -56,6 +56,12 @@
     },
     {
       "rel": "related",
+      "href": "../../experiments/earthcare-marine-stratocumulus-transitions-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment"
+    },
+    {
+      "rel": "related",
       "href": "../../projects/esa-science-hub-johanna-mayer/collection.json",
       "type": "application/json",
       "title": "Project: ESA Science Hub-Johanna Mayer"
