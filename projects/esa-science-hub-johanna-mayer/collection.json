@@ -36,7 +36,19 @@
       "rel": "related",
       "href": "../../experiments/earthcare-marine-stratocumulus-transitions-experiment/record.json",
       "type": "application/json",
-      "title": "Experiment"
+      "title": "Experiment: Mesoscale Structure Experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/mesoscale-structure/record.json",
+      "type": "application/json",
+      "title": "Workflow: Mesoscale Structure Workflow"
     },
     {
       "rel": "child",
