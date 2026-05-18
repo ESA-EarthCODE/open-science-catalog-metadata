@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "arceme",
-  "stac_version": "1.1.0",
+  "stac_version": "1.0.0",
   "description": "Extreme weather and climate hazard can cause dramatic impacts on both natural ecosystems and human wellbeing and/or infrastructure and thereby harm society as a whole. Of particular concern are compound weather and climate extreme events, where the hazardous conditions of various extreme events combine and may have more detrimental effects than individual extremes. Increasing the adaptation and resilience to multi-hazards means reducing either vulnerability, exposure, or enhancing response capacities. The science basis needed for achieving this comes through a better understanding of the impact cascades triggered by compound climate events.",
   "links": [
     {
@@ -39,9 +39,16 @@
       "title": "Theme: Atmosphere"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arceme/collection.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
     }
   ],
   "stac_extensions": [
@@ -144,5 +151,4 @@
     }
   },
   "license": "CC-BY-4.0"
-
 }

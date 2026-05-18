@@ -2036,6 +2036,18 @@
       "href": "./earthcare-marine-stratocumulus-transitions/collection.json",
       "type": "application/json",
       "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

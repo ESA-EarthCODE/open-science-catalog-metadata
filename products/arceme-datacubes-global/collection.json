@@ -1,0 +1,1495 @@
+{
+  "type": "Collection",
+  "id": "arceme-datacubes-global",
+  "stac_version": "1.0.0",
+  "description": "Multi-sensor Earth observation data cubes for globally distributed extreme weather event sites from the DHP (Disaster Hazard Points) database, generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the event location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). Two cube variants exist per event site — suffix \"_d\" (DHP-only) and \"_dhp\" (DHP+WOCAT). The temporal window spans ±12 months around the event date. Cloud masking is applied using SEnSeIv2/SegFormerB2.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arceme/collection.json",
+      "type": "application/json",
+      "title": "Project: CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/digital-elevation-terrain-model-dem/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Digital Elevation/Terrain Model (DEM)"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/swift/v1/ARCEME-DC-DHP-GLOBAL",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-10051-d.json",
+      "type": "application/json",
+      "title": "DC__10051_d__2015-01-11__2017-01-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-10051-dhp.json",
+      "type": "application/json",
+      "title": "DC__10051_dhp__2015-01-11__2017-01-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-101342-d.json",
+      "type": "application/json",
+      "title": "DC__101342_d__2022-11-12__2024-11-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-101342-dhp.json",
+      "type": "application/json",
+      "title": "DC__101342_dhp__2022-11-12__2024-11-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-10203-d.json",
+      "type": "application/json",
+      "title": "DC__10203_d__2015-01-16__2017-01-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-10203-dhp.json",
+      "type": "application/json",
+      "title": "DC__10203_dhp__2015-01-16__2017-01-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-11992-d.json",
+      "type": "application/json",
+      "title": "DC__11992_d__2015-03-11__2017-03-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-11992-dhp.json",
+      "type": "application/json",
+      "title": "DC__11992_dhp__2015-03-11__2017-03-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-16816-d.json",
+      "type": "application/json",
+      "title": "DC__16816_d__2015-11-18__2017-11-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-16816-dhp.json",
+      "type": "application/json",
+      "title": "DC__16816_dhp__2015-11-18__2017-11-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-17006-d.json",
+      "type": "application/json",
+      "title": "DC__17006_d__2015-11-24__2017-11-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-17006-dhp.json",
+      "type": "application/json",
+      "title": "DC__17006_dhp__2015-11-24__2017-11-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-17799-d.json",
+      "type": "application/json",
+      "title": "DC__17799_d__2016-01-23__2018-01-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-17799-dhp.json",
+      "type": "application/json",
+      "title": "DC__17799_dhp__2016-01-23__2018-01-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19270-d.json",
+      "type": "application/json",
+      "title": "DC__19270_d__2016-06-09__2018-06-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19270-dhp.json",
+      "type": "application/json",
+      "title": "DC__19270_dhp__2016-06-09__2018-06-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19343-d.json",
+      "type": "application/json",
+      "title": "DC__19343_d__2016-06-13__2018-06-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19343-dhp.json",
+      "type": "application/json",
+      "title": "DC__19343_dhp__2016-06-13__2018-06-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19390-d.json",
+      "type": "application/json",
+      "title": "DC__19390_d__2016-06-19__2018-06-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19390-dhp.json",
+      "type": "application/json",
+      "title": "DC__19390_dhp__2016-06-19__2018-06-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19743-d.json",
+      "type": "application/json",
+      "title": "DC__19743_d__2016-07-03__2018-07-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-19743-dhp.json",
+      "type": "application/json",
+      "title": "DC__19743_dhp__2016-07-03__2018-07-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-20344-d.json",
+      "type": "application/json",
+      "title": "DC__20344_d__2016-08-03__2018-08-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-20344-dhp.json",
+      "type": "application/json",
+      "title": "DC__20344_dhp__2016-08-03__2018-08-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-20678-d.json",
+      "type": "application/json",
+      "title": "DC__20678_d__2016-08-16__2018-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-20678-dhp.json",
+      "type": "application/json",
+      "title": "DC__20678_dhp__2016-08-16__2018-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-20750-d.json",
+      "type": "application/json",
+      "title": "DC__20750_d__2016-08-16__2018-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-20750-dhp.json",
+      "type": "application/json",
+      "title": "DC__20750_dhp__2016-08-16__2018-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-21039-d.json",
+      "type": "application/json",
+      "title": "DC__21039_d__2016-08-25__2018-08-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-21039-dhp.json",
+      "type": "application/json",
+      "title": "DC__21039_dhp__2016-08-25__2018-08-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-22144-d.json",
+      "type": "application/json",
+      "title": "DC__22144_d__2016-10-30__2018-10-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-22144-dhp.json",
+      "type": "application/json",
+      "title": "DC__22144_dhp__2016-10-30__2018-10-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-22148-d.json",
+      "type": "application/json",
+      "title": "DC__22148_d__2016-10-30__2018-10-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-22148-dhp.json",
+      "type": "application/json",
+      "title": "DC__22148_dhp__2016-10-30__2018-10-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-23356-d.json",
+      "type": "application/json",
+      "title": "DC__23356_d__2017-03-17__2019-03-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-23356-dhp.json",
+      "type": "application/json",
+      "title": "DC__23356_dhp__2017-03-17__2019-03-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-23586-d.json",
+      "type": "application/json",
+      "title": "DC__23586_d__2017-04-01__2019-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-23586-dhp.json",
+      "type": "application/json",
+      "title": "DC__23586_dhp__2017-04-01__2019-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-25288-d.json",
+      "type": "application/json",
+      "title": "DC__25288_d__2017-07-06__2019-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-25288-dhp.json",
+      "type": "application/json",
+      "title": "DC__25288_dhp__2017-07-06__2019-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-25524-d.json",
+      "type": "application/json",
+      "title": "DC__25524_d__2017-07-15__2019-07-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-25524-dhp.json",
+      "type": "application/json",
+      "title": "DC__25524_dhp__2017-07-15__2019-07-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-26934-d.json",
+      "type": "application/json",
+      "title": "DC__26934_d__2017-09-08__2019-09-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-26934-dhp.json",
+      "type": "application/json",
+      "title": "DC__26934_dhp__2017-09-08__2019-09-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-30711-d.json",
+      "type": "application/json",
+      "title": "DC__30711_d__2018-04-26__2020-04-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-30711-dhp.json",
+      "type": "application/json",
+      "title": "DC__30711_dhp__2018-04-26__2020-04-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-30765-d.json",
+      "type": "application/json",
+      "title": "DC__30765_d__2018-04-26__2020-04-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-30765-dhp.json",
+      "type": "application/json",
+      "title": "DC__30765_dhp__2018-04-26__2020-04-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-30770-d.json",
+      "type": "application/json",
+      "title": "DC__30770_d__2018-04-26__2020-04-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-30770-dhp.json",
+      "type": "application/json",
+      "title": "DC__30770_dhp__2018-04-26__2020-04-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-33681-d.json",
+      "type": "application/json",
+      "title": "DC__33681_d__2018-08-23__2020-08-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-33681-dhp.json",
+      "type": "application/json",
+      "title": "DC__33681_dhp__2018-08-23__2020-08-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-35636-d.json",
+      "type": "application/json",
+      "title": "DC__35636_d__2018-10-11__2020-10-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-35636-dhp.json",
+      "type": "application/json",
+      "title": "DC__35636_dhp__2018-10-11__2020-10-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37490-d.json",
+      "type": "application/json",
+      "title": "DC__37490_d__2019-01-09__2021-01-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37490-dhp.json",
+      "type": "application/json",
+      "title": "DC__37490_dhp__2019-01-09__2021-01-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37551-d.json",
+      "type": "application/json",
+      "title": "DC__37551_d__2019-01-09__2021-01-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37551-dhp.json",
+      "type": "application/json",
+      "title": "DC__37551_dhp__2019-01-09__2021-01-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37594-d.json",
+      "type": "application/json",
+      "title": "DC__37594_d__2019-01-11__2021-01-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37594-dhp.json",
+      "type": "application/json",
+      "title": "DC__37594_dhp__2019-01-11__2021-01-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37683-d.json",
+      "type": "application/json",
+      "title": "DC__37683_d__2019-01-16__2021-01-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-37683-dhp.json",
+      "type": "application/json",
+      "title": "DC__37683_dhp__2019-01-16__2021-01-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-38739-d.json",
+      "type": "application/json",
+      "title": "DC__38739_d__2019-03-15__2021-03-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-38739-dhp.json",
+      "type": "application/json",
+      "title": "DC__38739_dhp__2019-03-15__2021-03-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-40819-d.json",
+      "type": "application/json",
+      "title": "DC__40819_d__2019-05-13__2021-05-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-40819-dhp.json",
+      "type": "application/json",
+      "title": "DC__40819_dhp__2019-05-13__2021-05-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-41188-d.json",
+      "type": "application/json",
+      "title": "DC__41188_d__2019-05-20__2021-05-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-41188-dhp.json",
+      "type": "application/json",
+      "title": "DC__41188_dhp__2019-05-20__2021-05-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-42792-d.json",
+      "type": "application/json",
+      "title": "DC__42792_d__2019-06-25__2021-06-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-42792-dhp.json",
+      "type": "application/json",
+      "title": "DC__42792_dhp__2019-06-25__2021-06-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-42954-d.json",
+      "type": "application/json",
+      "title": "DC__42954_d__2019-06-28__2021-06-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-42954-dhp.json",
+      "type": "application/json",
+      "title": "DC__42954_dhp__2019-06-28__2021-06-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-45854-d.json",
+      "type": "application/json",
+      "title": "DC__45854_d__2019-09-02__2021-09-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-45854-dhp.json",
+      "type": "application/json",
+      "title": "DC__45854_dhp__2019-09-02__2021-09-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-47076-d.json",
+      "type": "application/json",
+      "title": "DC__47076_d__2019-09-29__2021-09-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-47076-dhp.json",
+      "type": "application/json",
+      "title": "DC__47076_dhp__2019-09-29__2021-09-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-51129-d.json",
+      "type": "application/json",
+      "title": "DC__51129_d__2019-12-25__2021-12-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-51129-dhp.json",
+      "type": "application/json",
+      "title": "DC__51129_dhp__2019-12-25__2021-12-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-54519-d.json",
+      "type": "application/json",
+      "title": "DC__54519_d__2020-04-23__2022-04-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-54519-dhp.json",
+      "type": "application/json",
+      "title": "DC__54519_dhp__2020-04-23__2022-04-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-56241-d.json",
+      "type": "application/json",
+      "title": "DC__56241_d__2020-06-08__2022-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-56241-dhp.json",
+      "type": "application/json",
+      "title": "DC__56241_dhp__2020-06-08__2022-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57632-d.json",
+      "type": "application/json",
+      "title": "DC__57632_d__2020-07-06__2022-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57632-dhp.json",
+      "type": "application/json",
+      "title": "DC__57632_dhp__2020-07-06__2022-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57695-d.json",
+      "type": "application/json",
+      "title": "DC__57695_d__2020-07-08__2022-07-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57695-dhp.json",
+      "type": "application/json",
+      "title": "DC__57695_dhp__2020-07-08__2022-07-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57707-d.json",
+      "type": "application/json",
+      "title": "DC__57707_d__2020-07-06__2022-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57707-dhp.json",
+      "type": "application/json",
+      "title": "DC__57707_dhp__2020-07-06__2022-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57979-d.json",
+      "type": "application/json",
+      "title": "DC__57979_d__2020-07-10__2022-07-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-57979-dhp.json",
+      "type": "application/json",
+      "title": "DC__57979_dhp__2020-07-10__2022-07-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-58472-d.json",
+      "type": "application/json",
+      "title": "DC__58472_d__2020-07-20__2022-07-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-58472-dhp.json",
+      "type": "application/json",
+      "title": "DC__58472_dhp__2020-07-20__2022-07-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-58685-d.json",
+      "type": "application/json",
+      "title": "DC__58685_d__2020-07-20__2022-07-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-58685-dhp.json",
+      "type": "application/json",
+      "title": "DC__58685_dhp__2020-07-20__2022-07-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-59434-d.json",
+      "type": "application/json",
+      "title": "DC__59434_d__2020-08-01__2022-08-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-59434-dhp.json",
+      "type": "application/json",
+      "title": "DC__59434_dhp__2020-08-01__2022-08-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60134-d.json",
+      "type": "application/json",
+      "title": "DC__60134_d__2020-08-14__2022-08-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60134-dhp.json",
+      "type": "application/json",
+      "title": "DC__60134_dhp__2020-08-14__2022-08-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60285-d.json",
+      "type": "application/json",
+      "title": "DC__60285_d__2020-08-16__2022-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60285-dhp.json",
+      "type": "application/json",
+      "title": "DC__60285_dhp__2020-08-16__2022-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60302-d.json",
+      "type": "application/json",
+      "title": "DC__60302_d__2020-08-17__2022-08-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60302-dhp.json",
+      "type": "application/json",
+      "title": "DC__60302_dhp__2020-08-17__2022-08-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60826-d.json",
+      "type": "application/json",
+      "title": "DC__60826_d__2020-08-28__2022-08-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-60826-dhp.json",
+      "type": "application/json",
+      "title": "DC__60826_dhp__2020-08-28__2022-08-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-61276-d.json",
+      "type": "application/json",
+      "title": "DC__61276_d__2020-09-05__2022-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-61276-dhp.json",
+      "type": "application/json",
+      "title": "DC__61276_dhp__2020-09-05__2022-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-62645-d.json",
+      "type": "application/json",
+      "title": "DC__62645_d__2020-10-09__2022-10-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-62645-dhp.json",
+      "type": "application/json",
+      "title": "DC__62645_dhp__2020-10-09__2022-10-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-62878-d.json",
+      "type": "application/json",
+      "title": "DC__62878_d__2020-10-13__2022-10-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-62878-dhp.json",
+      "type": "application/json",
+      "title": "DC__62878_dhp__2020-10-13__2022-10-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-62977-d.json",
+      "type": "application/json",
+      "title": "DC__62977_d__2020-10-20__2022-10-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-62977-dhp.json",
+      "type": "application/json",
+      "title": "DC__62977_dhp__2020-10-20__2022-10-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-64667-d.json",
+      "type": "application/json",
+      "title": "DC__64667_d__2020-11-29__2022-11-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-64667-dhp.json",
+      "type": "application/json",
+      "title": "DC__64667_dhp__2020-11-29__2022-11-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-65078-d.json",
+      "type": "application/json",
+      "title": "DC__65078_d__2020-12-11__2022-12-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-65078-dhp.json",
+      "type": "application/json",
+      "title": "DC__65078_dhp__2020-12-11__2022-12-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-66578-d.json",
+      "type": "application/json",
+      "title": "DC__66578_d__2021-01-18__2023-01-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-66578-dhp.json",
+      "type": "application/json",
+      "title": "DC__66578_dhp__2021-01-18__2023-01-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-66584-d.json",
+      "type": "application/json",
+      "title": "DC__66584_d__2021-01-17__2023-01-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-66584-dhp.json",
+      "type": "application/json",
+      "title": "DC__66584_dhp__2021-01-17__2023-01-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-66587-d.json",
+      "type": "application/json",
+      "title": "DC__66587_d__2021-01-18__2023-01-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-66587-dhp.json",
+      "type": "application/json",
+      "title": "DC__66587_dhp__2021-01-18__2023-01-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67022-d.json",
+      "type": "application/json",
+      "title": "DC__67022_d__2021-01-27__2023-01-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67022-dhp.json",
+      "type": "application/json",
+      "title": "DC__67022_dhp__2021-01-27__2023-01-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67058-d.json",
+      "type": "application/json",
+      "title": "DC__67058_d__2021-01-27__2023-01-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67058-dhp.json",
+      "type": "application/json",
+      "title": "DC__67058_dhp__2021-01-27__2023-01-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67335-d.json",
+      "type": "application/json",
+      "title": "DC__67335_d__2021-02-05__2023-02-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67335-dhp.json",
+      "type": "application/json",
+      "title": "DC__67335_dhp__2021-02-05__2023-02-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67505-d.json",
+      "type": "application/json",
+      "title": "DC__67505_d__2021-02-11__2023-02-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67505-dhp.json",
+      "type": "application/json",
+      "title": "DC__67505_dhp__2021-02-11__2023-02-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67673-d.json",
+      "type": "application/json",
+      "title": "DC__67673_d__2021-02-17__2023-02-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67673-dhp.json",
+      "type": "application/json",
+      "title": "DC__67673_dhp__2021-02-17__2023-02-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67884-d.json",
+      "type": "application/json",
+      "title": "DC__67884_d__2021-02-28__2023-02-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-67884-dhp.json",
+      "type": "application/json",
+      "title": "DC__67884_dhp__2021-02-28__2023-02-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-68162-d.json",
+      "type": "application/json",
+      "title": "DC__68162_d__2021-03-11__2023-03-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-68162-dhp.json",
+      "type": "application/json",
+      "title": "DC__68162_dhp__2021-03-11__2023-03-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-68164-d.json",
+      "type": "application/json",
+      "title": "DC__68164_d__2021-03-10__2023-03-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-68164-dhp.json",
+      "type": "application/json",
+      "title": "DC__68164_dhp__2021-03-10__2023-03-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69109-d.json",
+      "type": "application/json",
+      "title": "DC__69109_d__2021-04-08__2023-04-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69109-dhp.json",
+      "type": "application/json",
+      "title": "DC__69109_dhp__2021-04-08__2023-04-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69258-d.json",
+      "type": "application/json",
+      "title": "DC__69258_d__2021-04-12__2023-04-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69258-dhp.json",
+      "type": "application/json",
+      "title": "DC__69258_dhp__2021-04-12__2023-04-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69898-d.json",
+      "type": "application/json",
+      "title": "DC__69898_d__2021-04-20__2023-04-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69898-dhp.json",
+      "type": "application/json",
+      "title": "DC__69898_dhp__2021-04-20__2023-04-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69901-d.json",
+      "type": "application/json",
+      "title": "DC__69901_d__2021-04-21__2023-04-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-69901-dhp.json",
+      "type": "application/json",
+      "title": "DC__69901_dhp__2021-04-21__2023-04-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-70416-d.json",
+      "type": "application/json",
+      "title": "DC__70416_d__2021-04-29__2023-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-70416-dhp.json",
+      "type": "application/json",
+      "title": "DC__70416_dhp__2021-04-29__2023-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-71123-d.json",
+      "type": "application/json",
+      "title": "DC__71123_d__2021-05-23__2023-05-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-71123-dhp.json",
+      "type": "application/json",
+      "title": "DC__71123_dhp__2021-05-23__2023-05-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-71807-d.json",
+      "type": "application/json",
+      "title": "DC__71807_d__2021-06-08__2023-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-71807-dhp.json",
+      "type": "application/json",
+      "title": "DC__71807_dhp__2021-06-08__2023-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-71985-d.json",
+      "type": "application/json",
+      "title": "DC__71985_d__2021-06-11__2023-06-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-71985-dhp.json",
+      "type": "application/json",
+      "title": "DC__71985_dhp__2021-06-11__2023-06-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-72032-d.json",
+      "type": "application/json",
+      "title": "DC__72032_d__2021-06-11__2023-06-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-72032-dhp.json",
+      "type": "application/json",
+      "title": "DC__72032_dhp__2021-06-11__2023-06-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-72388-d.json",
+      "type": "application/json",
+      "title": "DC__72388_d__2021-06-18__2023-06-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-72388-dhp.json",
+      "type": "application/json",
+      "title": "DC__72388_dhp__2021-06-18__2023-06-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-73280-d.json",
+      "type": "application/json",
+      "title": "DC__73280_d__2021-07-07__2023-07-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-73280-dhp.json",
+      "type": "application/json",
+      "title": "DC__73280_dhp__2021-07-07__2023-07-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-73951-d.json",
+      "type": "application/json",
+      "title": "DC__73951_d__2021-07-16__2023-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-73951-dhp.json",
+      "type": "application/json",
+      "title": "DC__73951_dhp__2021-07-16__2023-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-74383-d.json",
+      "type": "application/json",
+      "title": "DC__74383_d__2021-07-25__2023-07-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-74383-dhp.json",
+      "type": "application/json",
+      "title": "DC__74383_dhp__2021-07-25__2023-07-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-74542-d.json",
+      "type": "application/json",
+      "title": "DC__74542_d__2021-07-30__2023-07-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-74542-dhp.json",
+      "type": "application/json",
+      "title": "DC__74542_dhp__2021-07-30__2023-07-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-75582-d.json",
+      "type": "application/json",
+      "title": "DC__75582_d__2021-08-15__2023-08-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-75582-dhp.json",
+      "type": "application/json",
+      "title": "DC__75582_dhp__2021-08-15__2023-08-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-77872-d.json",
+      "type": "application/json",
+      "title": "DC__77872_d__2021-09-26__2023-09-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-77872-dhp.json",
+      "type": "application/json",
+      "title": "DC__77872_dhp__2021-09-26__2023-09-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-79445-d.json",
+      "type": "application/json",
+      "title": "DC__79445_d__2021-10-25__2023-10-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-79445-dhp.json",
+      "type": "application/json",
+      "title": "DC__79445_dhp__2021-10-25__2023-10-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-79473-d.json",
+      "type": "application/json",
+      "title": "DC__79473_d__2021-10-30__2023-10-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-79473-dhp.json",
+      "type": "application/json",
+      "title": "DC__79473_dhp__2021-10-30__2023-10-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-80358-d.json",
+      "type": "application/json",
+      "title": "DC__80358_d__2021-11-14__2023-11-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-80358-dhp.json",
+      "type": "application/json",
+      "title": "DC__80358_dhp__2021-11-14__2023-11-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-80920-d.json",
+      "type": "application/json",
+      "title": "DC__80920_d__2021-11-30__2023-11-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-80920-dhp.json",
+      "type": "application/json",
+      "title": "DC__80920_dhp__2021-11-30__2023-11-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81379-d.json",
+      "type": "application/json",
+      "title": "DC__81379_d__2021-12-10__2023-12-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81379-dhp.json",
+      "type": "application/json",
+      "title": "DC__81379_dhp__2021-12-10__2023-12-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81701-d.json",
+      "type": "application/json",
+      "title": "DC__81701_d__2021-12-18__2023-12-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81701-dhp.json",
+      "type": "application/json",
+      "title": "DC__81701_dhp__2021-12-18__2023-12-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81874-d.json",
+      "type": "application/json",
+      "title": "DC__81874_d__2021-12-24__2023-12-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81874-dhp.json",
+      "type": "application/json",
+      "title": "DC__81874_dhp__2021-12-24__2023-12-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81877-d.json",
+      "type": "application/json",
+      "title": "DC__81877_d__2021-12-24__2023-12-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-81877-dhp.json",
+      "type": "application/json",
+      "title": "DC__81877_dhp__2021-12-24__2023-12-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-82863-d.json",
+      "type": "application/json",
+      "title": "DC__82863_d__2022-01-28__2024-01-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-82863-dhp.json",
+      "type": "application/json",
+      "title": "DC__82863_dhp__2022-01-28__2024-01-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-82955-d.json",
+      "type": "application/json",
+      "title": "DC__82955_d__2022-01-29__2024-01-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-82955-dhp.json",
+      "type": "application/json",
+      "title": "DC__82955_dhp__2022-01-29__2024-01-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-83004-d.json",
+      "type": "application/json",
+      "title": "DC__83004_d__2022-01-29__2024-01-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-83004-dhp.json",
+      "type": "application/json",
+      "title": "DC__83004_dhp__2022-01-29__2024-01-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-84892-d.json",
+      "type": "application/json",
+      "title": "DC__84892_d__2022-03-21__2024-03-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-84892-dhp.json",
+      "type": "application/json",
+      "title": "DC__84892_dhp__2022-03-21__2024-03-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-85482-d.json",
+      "type": "application/json",
+      "title": "DC__85482_d__2022-04-05__2024-04-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-85482-dhp.json",
+      "type": "application/json",
+      "title": "DC__85482_dhp__2022-04-05__2024-04-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-86198-d.json",
+      "type": "application/json",
+      "title": "DC__86198_d__2022-04-29__2024-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-86198-dhp.json",
+      "type": "application/json",
+      "title": "DC__86198_dhp__2022-04-29__2024-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-86640-d.json",
+      "type": "application/json",
+      "title": "DC__86640_d__2022-05-11__2024-05-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-86640-dhp.json",
+      "type": "application/json",
+      "title": "DC__86640_dhp__2022-05-11__2024-05-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-86806-d.json",
+      "type": "application/json",
+      "title": "DC__86806_d__2022-05-12__2024-05-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-86806-dhp.json",
+      "type": "application/json",
+      "title": "DC__86806_dhp__2022-05-12__2024-05-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-89755-d.json",
+      "type": "application/json",
+      "title": "DC__89755_d__2022-06-24__2024-06-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-89755-dhp.json",
+      "type": "application/json",
+      "title": "DC__89755_dhp__2022-06-24__2024-06-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-89757-d.json",
+      "type": "application/json",
+      "title": "DC__89757_d__2022-06-23__2024-06-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-89757-dhp.json",
+      "type": "application/json",
+      "title": "DC__89757_dhp__2022-06-23__2024-06-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-92271-d.json",
+      "type": "application/json",
+      "title": "DC__92271_d__2022-07-25__2024-07-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-92271-dhp.json",
+      "type": "application/json",
+      "title": "DC__92271_dhp__2022-07-25__2024-07-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-92963-d.json",
+      "type": "application/json",
+      "title": "DC__92963_d__2022-08-01__2024-08-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-92963-dhp.json",
+      "type": "application/json",
+      "title": "DC__92963_dhp__2022-08-01__2024-08-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-93165-d.json",
+      "type": "application/json",
+      "title": "DC__93165_d__2022-08-04__2024-08-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-93165-dhp.json",
+      "type": "application/json",
+      "title": "DC__93165_dhp__2022-08-04__2024-08-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-93324-d.json",
+      "type": "application/json",
+      "title": "DC__93324_d__2022-08-08__2024-08-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-93324-dhp.json",
+      "type": "application/json",
+      "title": "DC__93324_dhp__2022-08-08__2024-08-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96274-d.json",
+      "type": "application/json",
+      "title": "DC__96274_d__2022-09-11__2024-09-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96274-dhp.json",
+      "type": "application/json",
+      "title": "DC__96274_dhp__2022-09-11__2024-09-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96279-d.json",
+      "type": "application/json",
+      "title": "DC__96279_d__2022-09-10__2024-09-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96279-dhp.json",
+      "type": "application/json",
+      "title": "DC__96279_dhp__2022-09-10__2024-09-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96312-d.json",
+      "type": "application/json",
+      "title": "DC__96312_d__2022-09-09__2024-09-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96312-dhp.json",
+      "type": "application/json",
+      "title": "DC__96312_dhp__2022-09-09__2024-09-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96740-d.json",
+      "type": "application/json",
+      "title": "DC__96740_d__2022-09-16__2024-09-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-96740-dhp.json",
+      "type": "application/json",
+      "title": "DC__96740_dhp__2022-09-16__2024-09-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-99140-d.json",
+      "type": "application/json",
+      "title": "DC__99140_d__2022-10-16__2024-10-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-99140-dhp.json",
+      "type": "application/json",
+      "title": "DC__99140_dhp__2022-10-16__2024-10-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-99349-d.json",
+      "type": "application/json",
+      "title": "DC__99349_d__2022-10-19__2024-10-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-global-99349-dhp.json",
+      "type": "application/json",
+      "title": "DC__99349_dhp__2022-10-19__2024-10-19.zarr"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-05-18T10:44:45.634534Z",
+  "updated": "2026-05-18T10:44:45.634534Z",
+  "osc:project": "arceme",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "surface-reflectance",
+    "land-cover",
+    "digital-elevation-terrain-model-dem"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "ARCEME Data Cubes – DHP Global Sites",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -113.96814056492562,
+          -38.64594819653255,
+          149.64919494030772,
+          55.04566833095018
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-11T00:00:00Z",
+          "2024-11-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "earth observation",
+    "data cube",
+    "zarr",
+    "Sentinel-2",
+    "Sentinel-1"
+  ]
+}
