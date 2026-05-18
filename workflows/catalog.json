@@ -1,9 +1,14 @@
 {
   "type": "Catalog",
   "id": "workflows",
-  "stac_version": "1.1.0",
+  "stac_version": "1.0.0",
   "description": "Geoscience workflows for experiments",
   "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
+      "type": "application/json"
+    },
     {
       "rel": "root",
       "href": "../catalog.json",
@@ -83,11 +88,6 @@
       "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "item",
       "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
       "type": "application/json",
@@ -110,6 +110,12 @@
       "href": "./esa-world-cereal-extent-workflow/record.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent"
+    },
+    {
+      "rel": "item",
+      "href": "./mesoscale-structure/record.json",
+      "type": "application/json",
+      "title": "Mesoscale Structure Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

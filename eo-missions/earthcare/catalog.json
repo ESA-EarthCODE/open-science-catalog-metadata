@@ -68,6 +68,12 @@
       "href": "../../products/earthcare-frame-lightning/collection.json",
       "type": "application/json",
       "title": "Lightning2EarthCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",
