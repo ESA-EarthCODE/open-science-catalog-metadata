@@ -5088,6 +5088,12 @@
     },
     {
       "rel": "child",
+      "href": "./sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Wave Power"
+    },    
+    {
+      "rel": "child",
       "href": "./sea-ice-surface-characteristics/catalog.json",
       "type": "application/json",
       "title": "Sea-ice surface characteristics"
