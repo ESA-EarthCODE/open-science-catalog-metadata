@@ -109,6 +109,17 @@
           "value": "mweynants@bgc-jena.mpg.de"
         }
       ]
+    },
+    {
+      "name": "Marcin Kluczek",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "mkluczek@cloudferro.com"
+        }
+      ]
     }
   ],
   "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME",
