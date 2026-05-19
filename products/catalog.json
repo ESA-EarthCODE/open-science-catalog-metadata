@@ -2024,7 +2024,13 @@
       "href": "./eo4flood-sri/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Surface Reflectance Index Products"
-    } 
+    },
+    {
+      "rel": "child",
+      "href": "./eo4flood-water-level/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Water Level Products"
+    }  
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
   "title": "Products"
