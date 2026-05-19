@@ -418,6 +418,12 @@
       "title": "EO4FLOOD Water Level Products"
     },
     {
+      "rel": "child",
+      "href": "./eo4flood-river-width/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD River Width Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
