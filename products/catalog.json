@@ -25,31 +25,31 @@
       "rel": "child",
       "href": "./4dmed-2d-alt-miost-le-24/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24�)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24)"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-alt-miost-le-72/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72�)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72)"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-alt-varnet-8/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8�) Sea Surface Heights And Derived Variables"
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8) Sea Surface Heights And Derived Variables"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-alt-varnet-20/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20�) Sea Surface Heights And Derived Variables"
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20) Sea Surface Heights And Derived Variables"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-pft-kd/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019�2021)"
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019-2021)"
     },
     {
       "rel": "child",
@@ -61,31 +61,31 @@
       "rel": "child",
       "href": "./4dmed-3d-prim-prod-150/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24� from the surface down to 150 m"
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24 from the surface down to 150 m"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet8-le-24/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24�)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24)"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet8-le-72/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72�)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72)"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet20-le-24/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24�)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24)"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet20-le-72/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72�)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72)"
     },
     {
       "rel": "child",
@@ -2018,7 +2018,13 @@
       "href": "./eo4flood-sm/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Soil Moisture Products"
-    }
+    },
+    {
+      "rel": "child",
+      "href": "./eo4flood-sri/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    } 
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
   "title": "Products"

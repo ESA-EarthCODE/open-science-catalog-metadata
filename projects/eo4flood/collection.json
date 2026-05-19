@@ -67,7 +67,13 @@
       "href": "./eo4flood-sm/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Soil Moisture Products"
-    }
+    },
+    {
+      "rel": "child",
+      "href": "./eo4flood-sri/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    } 
   ],
   "themes": [
     {
