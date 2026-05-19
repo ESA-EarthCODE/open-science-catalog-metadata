@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "esa-world-cereal-extent-product",
+  "stac_version": "1.0.0",
+  "description": "Example product of the ESA WorldCereal Crop Type Extent workflow for a small region in Belgium",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-01T00:00:00Z",
+          "2019-04-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "links": [
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf",
+      "title": "Related documentation - CARD4L Product Family Specification - Surface Reflectance v5.0"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/cropland-mask/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Cropland Mask"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/products/prod/esa-world-cereal-extent-product/worldcereal_crop_extent_postprocessed.tif",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://esa-worldcereal.org/en",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium",
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "osc:project": "worldcereal",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [
+    "cropland-mask"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}

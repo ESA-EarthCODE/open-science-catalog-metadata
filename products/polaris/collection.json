@@ -23,9 +23,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/polaris/collection.json",
+      "href": "../../projects/cerulean-information-factory/collection.json",
       "type": "application/json",
-      "title": "Project: POLARIS"
+      "title": "Project: Cerulean Information Factory"
     },
     {
       "rel": "related",
@@ -41,7 +41,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/polaris-experiment/record.json",
+      "href": "../../experiments/polaris/record.json",
       "type": "application/json",
       "title": "Experiment: POLARIS"
     },
@@ -49,6 +49,17 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/polaris/collection.json",
       "type": "application/json"
+    },
+    {
+      "href": "./item.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Example Item"
+    },
+    {
+      "href": "https://github.com/gtif-cerulean/polaris",
+      "rel": "via",
+      "title": "POLARIS GitHub Repository"
     }
   ],
   "stac_extensions": [
@@ -56,8 +67,8 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "polaris",
-  "osc:experiment": "polaris-experiment",
+  "osc:project": "cerulean-information-factory",
+  "osc:experiment": "polaris",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -99,7 +110,7 @@
       ]
     }
   },
-    "license": "CC-BY-SA-4.0",
+  "license": "CC-BY-SA-4.0",
   "keywords": [
     "sea ice",
     "polar"

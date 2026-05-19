@@ -1,0 +1,17 @@
+name: momo-ect
+channels:
+  - conda-forge
+dependencies:
+  - esa-climate-toolbox>=1.6
+  - ipykernel
+  - jsonpickle
+  - pip
+  - pystac
+  - xcube
+  - xcube-cci>=0.13
+  - xcube-cds>=1.3.0
+  - xcube-stac
+  - xgboost
+  - xrlint
+  - pip:
+      - deep-code

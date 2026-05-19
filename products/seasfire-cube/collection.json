@@ -58,6 +58,11 @@
       "vcs:branch": "main"
     },
     {
+      "rel": "visualisation",
+      "href": "https://viewer.earthsystemdatalab.net/?dataset=seasfire",
+      "title": "Dataset visualisation"
+    },
+    {
       "rel": "example",
       "href": "https://github.com/ESA-EarthCODE/tutorial_seasfire-datacube/blob/main/Python-Tutorials/Seasfire_datacube_tutorial_Python.ipynb",
       "title": "Tutorial: Access the SeasFire DataCube",

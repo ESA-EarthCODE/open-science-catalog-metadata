@@ -5,6 +5,11 @@
   "description": "Suomi NPP (National Polar-orbiting Partnership) - Launched in October 2011, the Suomi National Polar-orbiting Partnership (Suomi NPP) is a weather satellite aimed at demonstrating sensor capabilities, as well as provide data continuity to previous Earth Observing System (EOS) missions initiated by the National Aeronautics and Space Administration (NASA). Suomi NPP is operated by NASA and the National Oceanic and Atmospheric Administration (NOAA), with the aim of monitoring the environment on Earth and the planet's climate.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/suomi-npp/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -143,9 +148,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/suomi-npp/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/esa-meteor-datasets/collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

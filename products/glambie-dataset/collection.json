@@ -196,6 +196,7 @@
   "osc:type": "product",
   "created": "2026-01-28T18:18:17Z",
   "updated": "2026-01-28T18:18:17Z",
+  "sci:doi": "https://doi.org/10.5904/wgms-glambie-2024-07",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
