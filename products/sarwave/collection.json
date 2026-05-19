@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "sarwave",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sarwave/collection.json",
+      "type": "application/json",
+      "title": "Project: SARWave"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/significant-wave-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Significant Wave Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/https%3A//doi.org/10.12770/1b05fc41-e06e-4285-ad7b-b97f6f847e00"
+    },
+    {
+      "rel": "item",
+      "href": "./l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11.json.json",
+      "type": "application/json",
+      "title": "S1A_IW_WAV__2SDV_20220216T041445_20220216T041512_041933_04FE4B_71DE_E11.SAFE/l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11.nc"
+    },
+    {
+      "rel": "item",
+      "href": "./l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11.json",
+      "type": "application/json",
+      "title": "S1A_IW_WAV__2SDV_20220216T041445_20220216T041512_041933_04FE4B_71DE_E11.SAFE/l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11.nc"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-05-19T14:33:08.974238Z",
+  "updated": "2026-05-19T14:33:08.974238Z",
+  "osc:project": "sarwave",
+  "osc:status": "Towards a better understanding of ocean from space",
+  "osc:region": "European seas",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "osc:variables": [
+    "significant-wave-height"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "https://doi.org/10.12770/1b05fc41-e06e-4285-ad7b-b97f6f847e00",
+  "cf:parameter": [
+    {
+      "name": "sea_surface_swell_wave_significant_height"
+    }
+  ],
+  "title": "SARWave",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -23.0,
+          29.0,
+          45.0,
+          82.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "ocean",
+    "sea-state",
+    "wave-height"
+  ]
+}

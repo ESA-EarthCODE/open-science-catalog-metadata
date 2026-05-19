@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.0,
+          38.0
+        ],
+        [
+          29.0,
+          41.0
+        ],
+        [
+          26.0,
+          41.0
+        ],
+        [
+          26.0,
+          38.0
+        ],
+        [
+          29.0,
+          38.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    26.0,
+    38.0,
+    29.0,
+    41.0
+  ],
+  "properties": {
+    "license": "CC-BY 4.0",
+    "description": "Sentinel-1 IW subswath with intraburst and interburst grids.",
+    "datetime": "2022-02-16T04:14:46Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "SARWave"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "SARWave"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://cerweb.ifremer.fr/datarmor/sarwave/diffusion/sar/iw/slc/l2/experimental_product_collection/v3.0/17.5km/uncompressed/2022/047/S1A_IW_WAV__2SDV_20220216T041445_20220216T041512_041933_04FE4B_71DE_E11.SAFE/l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11.nc",
+      "type": "application/x-netcdf",
+      "title": "S1A_IW_WAV__2SDV_20220216T041445_20220216T041512_041933_04FE4B_71DE_E11.SAFE/l2-s1a-iw2-wav-dv-20220216t041446-20220216t041512-041933-04fe4b-e11.nc",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "sarwave"
+}

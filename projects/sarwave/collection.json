@@ -1,0 +1,107 @@
+{
+  "type": "Collection",
+  "id": "sarwave",
+  "stac_version": "1.1.0",
+  "description": "Towards a better understanding of ocean from space",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.sarwave.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sarwave/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sarwave/collection.json",
+      "type": "application/json",
+      "title": "SARWave"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-05-19T14:19:29.004075Z",
+  "updated": "2026-05-19T14:19:29.004075Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Marcus Engdahl",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Marcus.Engdahl@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Ifremer",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "sismer@ifremer.fr"
+        }
+      ]
+    }
+  ],
+  "title": "SARWave",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -23.0,
+          29.0,
+          45.0,
+          82.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
