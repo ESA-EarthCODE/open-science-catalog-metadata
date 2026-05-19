@@ -2000,6 +2000,18 @@
       "href": "./eo4flood-prec/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Precipitation Products"
+    },
+        {
+      "rel": "child",
+      "href": "./eo4flood-river-discharge/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4flood-snow/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Snow Products"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

@@ -55,6 +55,12 @@
       "href": "../../products/eo4flood-river-discharge/collection.json",
       "type": "application/json",
       "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4flood-snow/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Snow Products"
     }
   ],
   "themes": [

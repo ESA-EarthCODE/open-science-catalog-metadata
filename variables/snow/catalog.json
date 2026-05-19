@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "./eo4flood-snow/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Snow Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
