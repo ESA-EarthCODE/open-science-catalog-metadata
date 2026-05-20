@@ -198,6 +198,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/sss-monthly-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity - Monthly Anomalies"
+    },
+    {
+      "rel": "child",
       "href": "../../products/smos-l3-africa-smos-vegetation/collection.json",
       "type": "application/json",
       "title": "Gridded_Africa_SMOS level 3 products CATDS"
@@ -243,6 +249,12 @@
       "href": "../../products/eo4flood-sm/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Soil Moisture Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sss-monthly-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity - Monthly Anomalies"
     },
     {
       "rel": "parent",

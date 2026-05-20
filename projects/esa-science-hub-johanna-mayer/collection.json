@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "esa-science-hub-johanna-mayer",
+  "stac_version": "1.0.0",
+  "description": "Marine stratocumulus clouds play a pivotal role in Earth’s climate system, reflecting much of the incoming solar radiation back to space. One important aspect of stratocumulus clouds is their mesoscale organization, e.g. closed or open cell structures. A transition from closed to open cells usually leads to a drop in cloud albedo and consequently the clouds’ cooling effect. It is therefore important to understand when and why transitions between these cloud structures happen. \n\nThe EarthCARE satellite enables for the first time simultaneous spaceborne measurement of cloud mesoscale structure, and detailed observations below cloud top. EarthCARE’s active and passive sensors (ATLID and CPR) can resolve the vertical profiles of marine stratocumulus, overcoming previous CloudSat limitations caused by ground clutter, and allow observations of microphysics, especially precipitation, with unprecedented detail. The multi-spectral imager (MSI) adds spatial context, capturing the mesoscale structure of clouds.\n\nWe use a convolutional neural network (CNN) with MSI data to identify cloud structures and analyze their microphysics using EarthCARE’s active sensors. We demonstrate that open and closed cells exhibit distinct microphysical differences. Open cells exhibit more variable liquid water path and effective radii, lower number concentrations, and heavier, more frequent rainfall compared to closed cells.\n\nTo understand the drivers for transitions from closed to open cells, we use data from the geostationary GOES-19 satellite and ERA5 wind trajectories to track the clouds measured by EarthCARE over time. This enables us to determine when clouds transition from one mesoscale structure to another. Combining this information with EarthCARE, we present how microphysics changes around transitions from closed to open cells. We find increased rain amounts and liquid water paths in closed cells up to 25 hours before transitioning. This is consistent with the precipitation-cold-pool hypothesis, whereby evaporating precipitation creates cold pools that, when interacting with neighboring cold pools, generate the open cell structure. Furthermore, we observe changes in cloud microphysics, such as a decrease in droplet number concentration, up to 20 hours prior to transition. These changes can be explained by aerosol scavenging due to rain, which increases rain further and promotes cloud structure transitions.\n\nThis study offers important insights into the cloud processes responsible for transitions between different cloud structures. A comprehensive understanding of these mechanisms is essential for assessing how the cooling effects of clouds may change in response to our changing climate.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://sciencehub.esa.int/projects/earthcare-observations-of-marine-stratocumulus-clouds",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://sciencehub.esa.int/projects/earthcare-observations-of-marine-stratocumulus-clouds",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/earthcare-marine-stratocumulus-transitions-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: Mesoscale Structure Experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/mesoscale-structure/record.json",
+      "type": "application/json",
+      "title": "Workflow: Mesoscale Structure Workflow"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-05-13T15:12:39.220290Z",
+  "updated": "2026-05-13T15:12:39.220290Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Edward Malina",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Edward.Malina@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "European Space Agency (ESA-ESRIN)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "contact@esrin.esa.int"
+        }
+      ]
+    }
+  ],
+  "title": "ESA Science Hub-Johanna Mayer",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -135,
+          -22.5,
+          15,
+          35
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-01T00:00:00Z",
+          "2025-11-18T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

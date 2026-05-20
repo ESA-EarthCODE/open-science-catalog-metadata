@@ -1,0 +1,82 @@
+{
+  "id": "arceme-datacube-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "ARCEME Data Cube Pipeline",
+    "description": "The pipeline orchestrator creates multi-source satellite datacubes for ARCEME project locations. It processes following datasets: Sentinel-2 L2A (CDSE or Planetary Computer),Sentinel-1 RTC (Planetary Computer),Copernicus DEM (CDSE), ESA WorldCover (Planetary Computer)",
+    "type": "workflow",
+    "osc:project": "arceme",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "netcdf64"
+      }
+    ],
+    "updated": "2026-03-28T16:27:23Z",
+    "created": "2026-03-28T16:27:23Z",
+    "keywords": [
+      "Sentinel",
+      "DEM",
+      "ESA WorldCover",
+      "Data Cubes"
+    ],
+    "license": "MIT",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          },
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arceme/collection.json",
+      "type": "application/json",
+      "title": "Project: CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/ARCEME/datacubes-processor",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}

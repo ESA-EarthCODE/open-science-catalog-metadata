@@ -194,6 +194,12 @@
       "href": "../../products/glambie-dataset/collection.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-meteor-datasets/collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

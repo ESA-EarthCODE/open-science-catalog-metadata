@@ -1,0 +1,82 @@
+{
+  "id": "mesoscale-structure",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Mesoscale Structure Workflow",
+    "description": "\nThis workflow contains the code used to build and analyze datasets for a research study on stratocumulus mesoscale organization, with a focus on closed and open cell structures and their transitions.\n\nThe workflow is split into five main stages:\n\n1. Find EarthCARE orbits that are relevant for the study (all orbits within four stratocumulus regions during Aug. 2024 to Nov. 2025) and prepare EarthCARE ACM-CAP data (step0_preprocess_EC_ACMCAP/)\n2. Fine-tune and apply the \"judge\" CNN to MSI in step1_judge_for_msi/. Fine-tune the \"judge\" CNN to GOES in step2_judge_for_goes/.\n3. Run trajectory calculations and apply the CNN along trajectories on GOES imagery in step3_backtrajectories/.\n4. Create datasets combining ACM-CAP data with CNN labels along EarthCARE tracks and along trajectories in step4_create_datasets_combining_EC_with_judge_results/.\n5. Perform final science analysis in the two main notebooks in step5_analysis_closed_open_cells/.\n",
+    "type": "workflow",
+    "osc:project": "esa-science-hub-johanna-mayer",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "MAAP"
+      },
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "updated": "2026-05-13T15:14:36Z",
+    "created": "2026-05-13T15:14:36Z",
+    "keywords": [
+      "mesoscale structure",
+      "marine stratocumulus",
+      "convolutional neural network",
+      "EarthCARE"
+    ],
+    "license": "CC-BY-4.0",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/earthcare-marine-stratocumulus-transitions-experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: Mesoscale Structure Experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/esa-science-hub-johanna-mayer/collection.json",
+      "type": "application/json",
+      "title": "Project: ESA Science Hub-Johanna Mayer"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/johanna-mayer/mesoscale_structure/tree/main",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ]
+}

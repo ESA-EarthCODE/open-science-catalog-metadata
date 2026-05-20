@@ -1564,7 +1564,7 @@
       "type": "application/json",
       "title": "Dead Wood"
     },
-      {
+    {
       "rel": "child",
       "href": "./dead-wood-fuel-moisture-content/catalog.json",
       "type": "application/json",
@@ -5088,6 +5088,12 @@
     },
     {
       "rel": "child",
+      "href": "./sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Wave Power"
+    },    
+    {
+      "rel": "child",
       "href": "./sea-ice-surface-characteristics/catalog.json",
       "type": "application/json",
       "title": "Sea-ice surface characteristics"
@@ -7205,12 +7211,6 @@
       "title": "Agriculture Mask"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "child",
       "href": "./surface-temperature/catalog.json",
       "type": "application/json",
@@ -7247,9 +7247,45 @@
       "title": "Tree Cover Change"
     },
     {
+      "rel": "child",
+      "href": "./sea-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Sea Surface Temperature"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-anomaly-diff/catalog.json",
+      "type": "application/json",
+      "title": "Lst Anomaly Diff"
+    },
+    {
+      "rel": "child",
+      "href": "./lst-median/catalog.json",
+      "type": "application/json",
+      "title": "Lst Median"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-surface-salinity-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity Anomaly"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",

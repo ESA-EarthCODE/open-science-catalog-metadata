@@ -1,0 +1,107 @@
+{
+  "type": "Collection",
+  "id": "esa-meteor",
+  "stac_version": "1.0.0",
+  "description": "The METEOR (MEsospheric TEmperature and Ozone climate data Record) project is dedicated to producing a high-quality, long-term time series of mesospheric ozone and temperature. This will be achieved by merging data from multiple satellite instruments into climate data records. Additional objective of the project is to assess trends in mesospheric temperature and ozone, with a particular focus on understanding the impact of solar particle precipitation on ozone levels in polar regions. By analyzing these trends, the project aims to enhance our understanding of the mesosphere’s role in Earth’s climate system.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/meteor/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/meteor/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-meteor-datasets/collection.json",
+      "type": "application/json",
+      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-03-28T17:45:23.427911Z",
+  "updated": "2026-03-28T17:45:23.427911Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Edward Malina",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Edward.Malina@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Finnish Meteorological Institute (FMI)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "viktoria.sofieva@fmi.fi"
+        }
+      ]
+    }
+  ],
+  "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -90.0,
+          -180.0,
+          90.0,
+          180.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2026-03-11T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

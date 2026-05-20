@@ -79,7 +79,7 @@
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.971110Z",
-  "title": "Stokes drift estimation Global Ocean",
+  "title": "WOC Estimation of Stokes Drift Components from WaveWatch3 Model over Global Ocean",
   "extent": {
     "spatial": {
       "bbox": [
