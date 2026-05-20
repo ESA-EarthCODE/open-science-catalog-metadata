@@ -93,6 +93,7 @@
   ],
   "osc:status": "ongoing",
   "osc:type": "project",
+  "updated": "2026-05-20T11:55:00Z",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -149,7 +150,6 @@
       "roles": ["consortium_member"]
     }
   ],
-  "updated": "2026-05-20T11:55:00Z",
   "title": "EO4FLOOD",
   "extent": {
     "spatial": {
@@ -171,7 +171,6 @@
       ]
     }
   },
-  "license": "CC-BY-4.0",
-  "keywords": []
+  "license": "CC-BY-4.0"
 }
 
