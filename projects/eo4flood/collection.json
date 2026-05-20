@@ -58,31 +58,31 @@
     },
     {
       "rel": "child",
-      "href": "./eo4flood-snow/collection.json",
+      "href": "../../products/eo4flood-snow/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Snow Products"
     },
     {
       "rel": "child",
-      "href": "./eo4flood-sm/collection.json",
+      "href": "../../products/eo4flood-sm/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Soil Moisture Products"
     },
     {
       "rel": "child",
-      "href": "./eo4flood-sri/collection.json",
+      "href": "../../products/eo4flood-sri/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Surface Reflectance Index Products"
     }, 
     {
       "rel": "child",
-      "href": "./eo4flood-water-level/collection.json",
+      "href": "../../products/eo4flood-water-level/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Water Level Products"
     },
     {
       "rel": "child",
-      "href": "./eo4flood-river-width/collection.json",
+      "href": "../../products/eo4flood-river-width/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD River Width Products"
     }
