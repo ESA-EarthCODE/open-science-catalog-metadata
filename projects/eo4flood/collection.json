@@ -84,7 +84,7 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
-    },
+    }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",

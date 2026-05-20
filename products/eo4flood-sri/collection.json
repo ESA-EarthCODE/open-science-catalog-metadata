@@ -66,7 +66,7 @@
   "osc:status": "completed",
   "osc:region": "global",
   "osc:type": "product",
-  "created": "2026-04-17=2T00:00:00Z",
+  "created": "2026-04-17T00:00:00Z",
   "cf:parameter": [
     {
       "name": "surface-reflectance-index"

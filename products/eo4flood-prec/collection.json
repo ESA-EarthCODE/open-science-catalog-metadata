@@ -83,7 +83,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-fe/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-prec/collection.json",
       "type": "application/json"
     }
   ],
@@ -96,7 +96,7 @@
   "osc:status": "completed",
   "osc:region": "global",
   "osc:type": "product",
-  "created": "2026-04-07=2T00:00:00Z",
+  "created": "2026-04-07T00:00:00Z",
   "cf:parameter": [
     {
       "name": "precipitation"
@@ -116,9 +116,9 @@
     "precipitation"
   ],
   "osc:missions": [
-    "sentinel-1", "sentinel-2", "viirs", "cryosat-2", "swot", "modis", "landsat", "ascat", "smap", "smos"
+    "sentinel-1", "sentinel-2", "viirs", "modis", "ascat", "smap", "smos"
   ],
-  "updated": "2026-04-02T15:16:06.215108Z",
+  "updated": "2026-04-02T15:16:00Z",
   "title": "EO4FLOOD Precipitation Products",
   "extent": {
     "spatial": {

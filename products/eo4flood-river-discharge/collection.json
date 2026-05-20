@@ -37,7 +37,7 @@
         "rel": "related",
         "href": "../../variables/river-discharge/catalog.json",
         "type": "application/json",
-        "title": "Variable: River Discharge"
+        "title": "Variable: River discharge"
     },
     {
       "rel": "related",
@@ -84,7 +84,7 @@
   "osc:status": "completed",
   "osc:region": "global",
   "osc:type": "product",
-  "created": "2026-04-07=2T00:00:00Z",
+  "created": "2026-04-07T00:00:00Z",
   "cf:parameter": [
     {
       "name": "river-discharge"
@@ -106,7 +106,7 @@
   "osc:missions": [
     "sentinel-3", "sentinel-6", "cryosat-2", "swot", "icesat-2"
   ],
-  "updated": "2026-04-02T15:16:06.215108Z",
+  "updated": "2026-04-02T15:16:06Z",
   "title": "EO4FLOOD River Discharge Products",
   "extent": {
     "spatial": {
