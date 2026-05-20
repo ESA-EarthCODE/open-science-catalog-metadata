@@ -92,6 +92,7 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "osc:status": "ongoing",
+  "osc:type": "project",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -105,47 +106,47 @@
   "contacts": [
     {
       "name": "Espen Volden",
-      "roles": ["Technical Officer"]
+      "roles": ["technical_officer"]
     },
     {
       "name": "CNR-IRPI",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "DHI",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "DTU",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "RSS-Hydro",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "TUM",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "GIS",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "GMV",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "Hydromatters",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "Magellium",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     },
     {
       "name": "SMHI",
-      "roles": ["Project Consortium Member"]
+      "roles": ["consortium_member"]
     }
   ],
   "updated": "2026-05-20T11:55:00Z",

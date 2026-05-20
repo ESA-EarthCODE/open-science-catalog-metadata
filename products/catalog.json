@@ -49,7 +49,7 @@
       "rel": "child",
       "href": "./4dmed-2d-pft-kd/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019-2021)"
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
     },
     {
       "rel": "child",
@@ -61,7 +61,7 @@
       "rel": "child",
       "href": "./4dmed-3d-prim-prod-150/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24 from the surface down to 150 m"
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
     },
     {
       "rel": "child",
