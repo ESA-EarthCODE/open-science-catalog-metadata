@@ -491,7 +491,7 @@
     },
     {
       "rel": "child",
-      "href": "./eo4flood-water-level/collection.json",
+      "href": "../../products/eo4flood-water-level/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Water Level Products"
     },

@@ -25,25 +25,25 @@
       "rel": "child",
       "href": "./4dmed-2d-alt-miost-le-24/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24°)"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-alt-miost-le-72/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/72°)"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-alt-varnet-8/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8) Sea Surface Heights And Derived Variables"
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
     },
     {
       "rel": "child",
       "href": "./4dmed-2d-alt-varnet-20/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20) Sea Surface Heights And Derived Variables"
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
     },
     {
       "rel": "child",
@@ -67,25 +67,25 @@
       "rel": "child",
       "href": "./4dmed-4dvarnet8-le-24/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/24°)"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet8-le-72/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET8 geostrophic velocities (1/72°)"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet20-le-24/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/24°)"
     },
     {
       "rel": "child",
       "href": "./4dmed-4dvarnet20-le-72/collection.json",
       "type": "application/json",
-      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72)"
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from 4DVARNET20 geostrophic velocities (1/72°)"
     },
     {
       "rel": "child",
@@ -643,19 +643,19 @@
       "rel": "child",
       "href": "./ionospheric-delays-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-ID:�Ionospheric Delays_Baltics_Multimission"
+      "title": "COR-ID: Ionospheric Delays_Baltics_Multimission"
     },
     {
       "rel": "child",
       "href": "./l2-smos-sss-daily-ascending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Ascending orbit, 0.25�*0.25�, daily averaged produced daily"
+      "title": "Level 2 SMOS , Ascending orbit, 0.25°*0.25°, daily averaged produced daily"
     },
     {
       "rel": "child",
       "href": "./l2-smos-sss-daily-descending-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 2 SMOS , Descending orbit, 0.25�*0.25�, daily averaged produced daily"
+      "title": "Level 2 SMOS , Descending orbit, 0.25°*0.25°, daily averaged produced daily"
     },
     {
       "rel": "child",
@@ -691,7 +691,7 @@
       "rel": "child",
       "href": "./l3-sss-9day-average-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 3 SSS, 0.25�*0.25�, 9-day averaged produced daily"
+      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
     },
     {
       "rel": "child",
@@ -709,25 +709,25 @@
       "rel": "child",
       "href": "./l4-dynamic-topography-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625�*0.0625�, daily"
+      "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "child",
       "href": "./l4-geostrophic-currents-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625�*0.0625�, daily"
+      "title": "Level 4, geostrophic currents, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "child",
       "href": "./l4-sea-level-anomaly-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625�*0.0625�, daily"
+      "title": "Level 4, sea level anomaly, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
     {
       "rel": "child",
       "href": "./l4-sss-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4 product SSS, 0.05�*0.0505�"
+      "title": "Level 4 product SSS, 0.05°*0.0505°"
     },
     {
       "rel": "child",
@@ -1105,7 +1105,7 @@
       "rel": "child",
       "href": "./s1-corrections-baltics-sar-hsu/collection.json",
       "type": "application/json",
-      "title": "COR-SC:�Sentinel-1 Systematic�Effects Corrections_Baltics_Multimission"
+      "title": "COR-SC: Sentinel-1 Systematic Effects Corrections_Baltics_Multimission"
     },
     {
       "rel": "child",
@@ -1489,7 +1489,7 @@
       "rel": "child",
       "href": "./surface-elevation-change-lpf-mitap/collection.json",
       "type": "application/json",
-      "title": "Surface elevation changes Antarctic Peninsula <70�S between 2013 and 2017 Antarctica TanDEM-X"
+      "title": "Surface elevation changes Antarctic Peninsula <70°S between 2013 and 2017 Antarctica TanDEM-X"
     },
     {
       "rel": "child",
@@ -1963,7 +1963,7 @@
       "rel": "child",
       "href": "./coastal-carbon-mapper-reflectance-water-quality-data/collection.json",
       "type": "application/json",
-      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023�2024"
+      "title": "Spectral reflectance and associated water quality parameters measured from coastal waters of the Baltic Sea in 2023–2024"
     },
     {
       "rel": "child",

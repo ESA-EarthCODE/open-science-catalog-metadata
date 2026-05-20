@@ -48,7 +48,7 @@
     },
         {
       "rel": "child",
-      "href": "./eo4flood-sm/collection.json",
+      "href": "../../products/eo4flood-sm/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Soil Moisture Products"
     },

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "eo4flood-soil-moisture",
+  "id": "eo4flood-sm",
   "stac_version": "1.0.0",
   "description": "Satellite-derived soil moisture product in the project specific basins.",
   "links": [
@@ -166,7 +166,7 @@
       ]
     }
   },
-  "license": "cc-by-4.0",
+  "license": "CC-BY-4.0",
   "keywords": [
     "soil-moisture"
   ]

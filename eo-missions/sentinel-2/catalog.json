@@ -234,13 +234,13 @@
     },
     {
       "rel": "child",
-      "href": "./eo4flood-sri/collection.json",
+      "href": "../../products/eo4flood-sri/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD Surface Reflectance Index Products"
     },
     {
       "rel": "child",
-      "href": "./eo4flood-river-width/collection.json",
+      "href": "../../products/eo4flood-river-width/collection.json",
       "type": "application/json", 
       "title": "EO4FLOOD River Width Products"
     },
