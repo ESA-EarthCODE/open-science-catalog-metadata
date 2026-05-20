@@ -172,12 +172,6 @@
     }
   },
   "license": "CC-BY-4.0",
-  "keywords": [
-    "flood-forecasting",
-    "hydrological-models",
-    "hydraulic-models",
-    "satellite-data",
-    "earth-observation"
-  ]
+  "keywords": []
 }
 
