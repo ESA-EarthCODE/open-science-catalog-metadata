@@ -102,7 +102,12 @@
   "contacts": [
     {
       "name": "Espen Volden",
-      "roles": ["technical_officer"]
+      "roles": ["technical_officer"],
+       "emails": [
+        {
+          "value": "espen.volden@esa.int"
+        }
+      ]
     },
     {
       "name": "CNR-IRPI",
