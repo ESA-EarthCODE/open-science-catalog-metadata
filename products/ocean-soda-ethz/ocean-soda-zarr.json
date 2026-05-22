@@ -1,0 +1,675 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ocean-soda-zarr",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "This dataset contains a global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2025). The full marine carbonate system is calculated from machine learning estimates of Total Alkalinity (TA) and the fugacity of carbon dioxide (fCO2). The surface-ocean fCO2 presented here is the ensemble mean of 16 two-step clustering-regression machine learning estimates. The ensemble is a combination of eight clustering instances and two regression methods. For the clustering, we use K-means clustering (21 clusters) repeated with different initiations, resulting in slightly different clusters. Two machine learning regression methods are applied to each of these clustering instances. These machine learning methods are feed-forward neural-network (FFNN), and gradient boosted machine using decision trees (GBDT). The average of the ensemble members is used as the final estimate. Further, the standard deviation of the ensemble members is an analog of the uncertainty. The same two-step clustering-regression approach is used to estimate TA. The final estimate is the mean of 16 ensemble members. Eight of the ensemble members estimate standard TA while the other half estimate salinity normalized TA (S0 \u2248 34.0). Each ensemble member has 12 clusters. Support vector regression (SVR) is used as the regression method. Again, the standard deviation of the ensemble members is an analog of the uncertainty. Total alkalinity and pCO2 are then used to solve for the remaining parameters of the marine carbonate system using the PyCO2SYS software. The temperature and salinity products used in this calculation are provided in the file. Phosphate and silicate from the interpolated World Ocean Atlas (2018) product were used. We use the following total scale for pH. The product extends from the start of 1982 to the end of 2024.",
+    "datetime": "1982-01-01T00:00:00Z",
+    "start_datetime": "1982-01-01T00:00:00Z",
+    "end_datetime": "2024-12-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/ocean-soda.zarr",
+      "type": "application/vnd+zarr",
+      "title": "OceanSODA-ETHZ - Global gridded dataset of surface ocean carbonate system",
+      "description": "talk and pco2 (more accurately fco2) are estimated with two step machine learning approaches, where data is first clustered into regions of similar variability and the regressed for each cluster. See talk and spco2 for machine learning details. The remaining parameters of the marine carbonate cycle are calculated from these two using PyCO2SYS. The following dissociation constants were used: K1K2 = Mehrbach refit by Dickson and Millero, KSO4 = Dickson 1990a, KF = Dickson & Riley 1979.",
+      "datetime": null,
+      "start_datetime": "1982-01-15T00:00:00Z",
+      "end_datetime": "2024-12-15T00:00:00Z",
+      "providers": [
+        {
+          "name": "ETH Zuerich",
+          "roles": [
+            "producer"
+          ],
+          "url": "https://ethz.ch"
+        }
+      ],
+      "contact": "gregorl@ethz.ch",
+      "authors": [
+        "Luke Gregor"
+      ],
+      "version": "v2025.OCADS",
+      "sci:doi": "10.25921/m5wx-ja34",
+      "sci:citation": "Gregor, L. and Gruber, N.: OceanSODA-ETHZ: A global gridded data set of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification, Earth Syst. Sci. Data Discuss., https://doi.org/10.5194/essd-13-777-2021, 2020.",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1982-01-15T00:00:00Z",
+            "2024-12-15T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.5,
+            179.5
+          ],
+          "step": 1.0,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.5,
+            89.5
+          ],
+          "step": 1.0,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "co2": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "umol/kg",
+          "attrs": {
+            "units": "umol/kg"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "co3": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "umol/kg",
+          "attrs": {
+            "units": "umol/kg"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "dic": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "umol/kg",
+          "attrs": {
+            "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water",
+            "model_name": "dissicos",
+            "units": "umol/kg"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "dic_uncert": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "hco3": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "umol/kg",
+          "attrs": {
+            "units": "umol/kg"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "omega_ar": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "units": "dimensionless",
+            "standard_name": "aragonite saturation state"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "omega_ar_uncert": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "omega_ca": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "units": "dimensionless",
+            "standard_name": "calcite saturation state"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "omega_ca_uncert": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "ph_free": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "ph_total": {
+          "type": "data",
+          "description": "surface ocean pH on the total scale",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "-log([H+])",
+          "attrs": {
+            "units": "-log([H+])",
+            "description": "surface ocean pH on the total scale"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "ph_total_uncert": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "revelle_factor": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "salinity": {
+          "type": "data",
+          "description": "salinity is stacked so that the first listed has highest priority: 1. ESA-CCI salinity (2010-2019), 2. SODAv3.4.2 salinity (1982-2019), 3. EN4.2.1 salinity (2020). ",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "ppt",
+          "attrs": {
+            "standard_name": "sea_surface_salinity",
+            "model_name": "sos",
+            "units": "ppt",
+            "description": "salinity is stacked so that the first listed has highest priority: 1. ESA-CCI salinity (2010-2019), 2. SODAv3.4.2 salinity (1982-2019), 3. EN4.2.1 salinity (2020). ",
+            "esa_cci_info": "https://climate.esa.int/en/projects/sea-surface-salinity/about/",
+            "soda_info": "https://journals.ametsoc.org/view/journals/clim/31/17/jcli-d-18-0149.1.xml",
+            "en4_info": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013JC009067"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "sfco2": {
+          "type": "data",
+          "description": "surface dfco2 predicted with a two-step cluster-regression approach",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "description": "surface dfco2 predicted with a two-step cluster-regression approach",
+            "author": "Luke Gregor",
+            "date": "2025-10-09",
+            "data_input_file": "../data/input/predictor_data_GCB2024_labels_adjusted.nc",
+            "cluster_input_file": "../models/v2025.OCADS_dfco2star/member_01/clusters.nc",
+            "model_file_names": "../models/v2025.OCADS_dfco2star/member_01/lightgbm/model_c**",
+            "cluster_vars": "['pco2_seaflux_filled' 'temp_oisst_clim' 'medsea' 'mld_soda_clim'\n 'chl_cci_avg']",
+            "n_clusters": 21,
+            "predictors": [
+              "xco2_noaa",
+              "temp_oisst",
+              "temp_clim_oisst_anom",
+              "salt_stacked",
+              "chl_cci_fill_log10",
+              "mld_press_soda_log10",
+              "icec_oisst_diff",
+              "u10_era5",
+              "v10_era5",
+              "ssh_detrend_duacs"
+            ],
+            "target": "y_dfco2_socat",
+            "source_file": "/net/sea/work/gregorl/projects/archive/OceanSODA-ETHZv1/data/output/v2025.OCADS_dfco2star/dfco2star_ensemble_train.nc"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "sfco2_uncert": {
+          "type": "data",
+          "description": "surface dfco2 predicted with a two-step cluster-regression approach",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "description": "surface dfco2 predicted with a two-step cluster-regression approach",
+            "author": "Luke Gregor",
+            "date": "2025-10-09",
+            "data_input_file": "../data/input/predictor_data_GCB2024_labels_adjusted.nc",
+            "cluster_input_file": "../models/v2025.OCADS_dfco2star/member_01/clusters.nc",
+            "model_file_names": "../models/v2025.OCADS_dfco2star/member_01/lightgbm/model_c**",
+            "cluster_vars": "['pco2_seaflux_filled' 'temp_oisst_clim' 'medsea' 'mld_soda_clim'\n 'chl_cci_avg']",
+            "n_clusters": 21,
+            "predictors": [
+              "xco2_noaa",
+              "temp_oisst",
+              "temp_clim_oisst_anom",
+              "salt_stacked",
+              "chl_cci_fill_log10",
+              "mld_press_soda_log10",
+              "icec_oisst_diff",
+              "u10_era5",
+              "v10_era5",
+              "ssh_detrend_duacs"
+            ],
+            "target": "y_dfco2_socat"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "spco2": {
+          "type": "data",
+          "description": "surface ocean pCO2",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "uatm",
+          "attrs": {
+            "standard_name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
+            "model_name": "spco2",
+            "units": "uatm",
+            "description": "surface ocean pCO2"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "spco2_uncert": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "talk": {
+          "type": "data",
+          "description": "Total alkalinity estimated with an ensemble of SVR models (scikit-learn)",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "umol/kg",
+          "attrs": {
+            "description": "Total alkalinity estimated with an ensemble of SVR models (scikit-learn)",
+            "author": "Luke Gregor",
+            "date": "2025-10-09",
+            "data_input_file": "../data/input/predictor_data_GCB2024_labels_adjusted.nc",
+            "cluster_input_file": "../models/v2025.OCADS_talk/member_01/clusters.nc",
+            "model_file_names": "../models/v2025.OCADS_talk/member_01/svr/model_c**",
+            "cluster_vars": "['talk_glodap' 'medsea' 'salt_stacked_clim' 'temp_oisst_clim' 'nstar_woa']",
+            "n_clusters": 12,
+            "predictors": [
+              "temp_oisst",
+              "salt_stacked",
+              "silicate_woa",
+              "nitrate_star_woa",
+              "ssh_detrend_duacs"
+            ],
+            "target": "talk_glodap (8 members) + talk_norm_glodap (8 members)",
+            "source_file": "/net/sea/work/gregorl/projects/archive/OceanSODA-ETHZv1/data/output/v2025.OCADS_talk/talk_ensemble_train.nc",
+            "standard_name": "total_alkalinity_in_sea_water",
+            "model_name": "talkos",
+            "units": "umol/kg",
+            "clustering_model": "K-means",
+            "regression_model": "Support Vector Regression"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "talk_uncert": {
+          "type": "data",
+          "description": "surface talk predicted with a two-step cluster-regression approach",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "description": "surface talk predicted with a two-step cluster-regression approach",
+            "author": "Luke Gregor",
+            "date": "2025-10-09",
+            "data_input_file": "../data/input/predictor_data_GCB2024_labels_adjusted.nc",
+            "cluster_input_file": "../models/v2025.OCADS_talk/member_01/clusters.nc",
+            "model_file_names": "../models/v2025.OCADS_talk/member_01/svr/model_c**",
+            "cluster_vars": "['talk_glodap' 'medsea' 'salt_stacked_clim' 'temp_oisst_clim' 'nstar_woa']",
+            "n_clusters": 12,
+            "predictors": [
+              "temp_oisst",
+              "salt_stacked",
+              "silicate_woa",
+              "nitrate_star_woa",
+              "ssh_detrend_duacs"
+            ],
+            "target": "y_talk_glodap_ms"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "temperature": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "degC",
+          "attrs": {
+            "standard_name": "sea_surface_temperature",
+            "model_name": "tos",
+            "units": "degC",
+            "reference": "Reynolds, R.W., N.A. Rayner, T.M. Smith, D.C. Stokes, and W. Wang, 2002: An improved in situ and satellite SST analysis for climate. J. Climate, 15, 1609-1625.",
+            "source": "ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2/sst.mnmean.nc"
+          },
+          "shape": [
+            516,
+            180,
+            360
+          ],
+          "chunks": [
+            516,
+            45,
+            45
+          ]
+        },
+        "year": {
+          "type": "auxiliary",
+          "dimensions": [
+            "time"
+          ],
+          "attrs": {},
+          "shape": [
+            516
+          ],
+          "chunks": [
+            516
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ocean-soda-ethz"
+}
