@@ -1,0 +1,90 @@
+{
+  "type": "Collection",
+  "id": "global-plant-trait-maps",
+  "stac_version": "1.1.0",
+  "title": "Global Plant Functional Trait Maps at 1 km Resolution",
+  "description": "Global plant functional trait maps (31 traits), 1 km resolution, global extent. Derived from GBIF, sPlot, TRY and Earth observation data. Dataset hosted on Zenodo (DOI: 10.5281/zenodo.14646322).",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Plant traits",
+    "Functional ecology",
+    "Global maps",
+    "1-km",
+    "Citizen science",
+    "Earth observation"
+  ],
+  "providers": [
+    {
+      "name": "Zenodo",
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "name": "Sensor-based Geoinformatics - University of Freiburg",
+      "roles": [
+        "producer",
+        "processor"
+      ]
+    }
+  ],
+  "trait_map:contacts": [
+    {
+      "name": "Daniel Lusk",
+      "role": "creator",
+      "email": "daniel.lusk@geosense.uni-freiburg.de",
+      "organization": "Chair of Sensor-based Geoinformatics, University of Freiburg"
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.14646322",
+  "sci:citation": "Nature Communications, 17(1203), 2026",
+  "published": "2026-01-30T00:00:00Z",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:project": "FORTRACK",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "describedby",
+      "href": "https://doi.org/10.5281/zenodo.14646322",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.14646322",
+      "type": "text/html",
+      "title": "Dataset DOI"
+    },
+    {
+      "rel": "child",
+      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_v1_3/catalog.json",
+      "type": "application/json",
+      "title": "Global Plant Trait Maps full STAC catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_v1_3/catalog.json",
+      "type": "application/json",
+      "title": "Access full STAC catalog"
+    }
+  ]
+}
