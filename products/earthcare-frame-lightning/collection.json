@@ -11,6 +11,11 @@
       "title": "Open Science Catalog"
     },
     {
+        "rel": "cite-as",
+        "href": "https://doi.org/10.57780/esa-7c530aa",
+        "title": "DOI"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -57,6 +62,16 @@
       "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/storm-data/catalog.json",
       "type": "application/json",
       "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/lightning2earthcare",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the Lightning2EarthCARE Data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
@@ -114,5 +129,7 @@
     "MTG-LI",
     "GOES-GLM",
     "convective storms"
-  ]
+  ],
+  "sci:doi": "https://doi.org/10.57780/esa-7c530aa",
+  "sci:citation": "Piskala Gvoždíková, B., Brose, S. M., Samardzhiev, K., and Nedělčev, O., 2026: Lightning2EarthCARE v0 [Dataset], European Space Agency."
 }

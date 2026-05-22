@@ -23,6 +23,11 @@
       "title": "Project: MEsospheric TEmperature and Ozone climate data Record (METEOR)"
     },
     {
+      "href": "https://egusphere.copernicus.org/preprints/2025/egusphere-2025-6236/",
+      "rel": "Related Publication (preprint)",
+      "title": "Evaluation of ozone trends in the mesosphere/lower thermosphere using a new merged dataset of ozone profiles"
+    },
+    {
       "rel": "related",
       "href": "../../eo-missions/envisat/catalog.json",
       "type": "application/json",
@@ -79,12 +84,12 @@
     {
       "rel": "via",
       "href": "https://fmi.b2share.csc.fi/records/jxst3-8h654",
-      "title": "Access"
+      "title": "Access: METEOR-O3"
     },
     {
       "rel": "via",
       "href": "https://fmi.b2share.csc.fi/records/aw29b-agy92",
-      "title": "Access"
+      "title": "Access: METEOR-T"
     }
   ],
   "stac_extensions": [

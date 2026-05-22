@@ -5088,6 +5088,12 @@
     },
     {
       "rel": "child",
+      "href": "./sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Wave Power"
+    },    
+    {
+      "rel": "child",
       "href": "./sea-ice-surface-characteristics/catalog.json",
       "type": "application/json",
       "title": "Sea-ice surface characteristics"
@@ -7274,6 +7280,12 @@
       "href": "./lst-median/catalog.json",
       "type": "application/json",
       "title": "Lst Median"
+    },
+    {
+      "rel": "child",
+      "href": "./sea-surface-salinity-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity Anomaly"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",

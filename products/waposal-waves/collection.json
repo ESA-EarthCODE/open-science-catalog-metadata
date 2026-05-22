@@ -63,6 +63,12 @@
       "title": "Variable: Wave Height"
     },
     {
+      "rel": "related",
+      "href": "../../variables/sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Power"
+    },
+    {
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/waposal/collection.json",
       "type": "application/json",
@@ -102,6 +108,9 @@
     },
     {
       "name": "wave-height"
+    },
+    {
+      "name": "sea-surface-wave-energy-flux"
     }
   ],
   "themes": [
@@ -120,7 +129,8 @@
   ],
   "osc:variables": [
     "wave-period",
-    "wave-height"
+    "wave-height",
+    "sea-surface-wave-energy-flux"
   ],
   "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker",
   "extent": {

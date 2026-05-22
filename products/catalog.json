@@ -1925,12 +1925,6 @@
     },
     {
       "rel": "child",
-      "href": "./worldcereal-crop-extent-belgium/collection.json",
-      "type": "application/json",
-      "title": "WorldCereal Crop Extent - Belgium"
-    },
-    {
-      "rel": "child",
       "href": "./polaris/collection.json",
       "type": "application/json",
       "title": "POLARIS"
@@ -1996,15 +1990,22 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "./agricemchimeds3v1/collection.json",
+      "type": "application/json",
+      "title": "AGRICEM Simulated CHIME L2A data"
     },
     {
       "rel": "child",
       "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
       "type": "application/json",
       "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "./sss-monthly-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Salinity - Monthly Anomalies"
     },
     {
       "rel": "child",
@@ -2023,6 +2024,18 @@
       "href": "./earthcare-frame-lightning/collection.json",
       "type": "application/json",
       "title": "Lightning2EarthCARE"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-world-cereal-extent-product/collection.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "./earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
