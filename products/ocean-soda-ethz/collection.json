@@ -42,7 +42,7 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/https%3A//doi.org/10.25921/m5wx-ja34"
+      "href": "https://doi.org/10.25921/m5wx-ja34"
     },
     {
       "rel": "item",
@@ -84,7 +84,7 @@
       ]
     }
   ],
-  "sci:doi": "https://doi.org/10.25921/m5wx-ja34",
+  "sci:doi": "10.25921/m5wx-ja34",
   "cf:parameter": [
     {
       "name": "ocean-salinity"

@@ -74,44 +74,24 @@
       "name": "UNIVERSITY OF EXETER (GB)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "EIDGENÖSSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "IFREMER (FR)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "NERC, PLYMOUTH MARINE LABORATORY (GB)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     }
   ],
