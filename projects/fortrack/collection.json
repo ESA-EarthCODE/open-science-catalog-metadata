@@ -10,14 +10,6 @@
   "title": "FORTRACK",
   "description": "FORTRACK is an ESA Climate Change Initiative project supporting Paris Agreement-related climate and biodiversity monitoring. It focuses on forest functional biodiversity, plant functional traits, climate extremes, and forest mortality using Earth observation and ecological datasets.",
   "license": "proprietary",
-  "providers": [
-    {
-      "name": "ESA",
-      "roles": [
-        "producer"
-      ]
-    }
-  ],  
   "contacts": [
     {
         "name": "Prof. Dr. Teja Kattenborn",
@@ -81,12 +73,17 @@
   ],
   "osc:type": "project",
   "osc:status": "ongoing",
-  "themes": [
-  {
-    "scheme": "https://github.com/stac-extensions/osc#theme",
-    "concepts": [{ "id": "land" }]
-  }
+   "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
+  "updated": "2026-05-26T00:00:00Z",
   "extent": {
     "spatial": {
       "bbox": [
