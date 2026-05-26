@@ -17,55 +17,67 @@
         "producer"
       ]
     }
-  ],
+  ],  
   "contacts": [
-  {
-    "name": "Prof. Dr. Teja Kattenborn",
-    "emails": [
-      {
-        "value": "Teja.Kattenborn@geosense.uni-freiburg.de"
-      }
-    ],
-    "roles": [
-      "creator"
-    ]
-  },
-  {
-    "name": "Prof. Dr. Miguel Mahecha",
-    "roles": [
-      "creator"
-    ]
-  },
-  {
-    "name": "Prof. Dr. René Orth",
-    "roles": [
-      "contributor"
-    ]
-  },
-  {
-    "name": "Prof. Dr. Ana Bastos",
-    "roles": [
-      "contributor"
-    ]
-  },
-  {
-    "name": "Dr Sophie Hebden",
-    "roles": [
-      "technical_officer"
-    ]
-  },
-  {
-    "name": "University of Freiburg",
-    "roles": [
-      "consortium_member"
-    ]
-  },
-  {
-    "name": "University of Leipzig",
-    "roles": [
-      "consortium_member"
-    ]
-  }
+    {
+        "name": "Prof. Dr. Teja Kattenborn",
+        "emails": [
+        {
+            "value": "Teja.Kattenborn@geosense.uni-freiburg.de"
+        }
+        ],
+        "roles": [
+        "creator"
+        ]
+    },
+    {
+        "name": "Prof. Dr. Miguel Mahecha",
+        "roles": [
+        "creator"
+        ]
+    },
+    {
+        "name": "Prof. Dr. René Orth",
+        "roles": [
+        "contributor"
+        ]
+    },
+    {
+        "name": "Prof. Dr. Ana Bastos",
+        "roles": [
+        "contributor"
+        ]
+    },
+    {
+        "name": "Dr Sophie Hebden",
+        "roles": [
+        "technical_officer"
+        ]
+    },
+    {
+        "name": "University of Freiburg",
+        "roles": [
+        "consortium_member"
+        ]
+    },
+    {
+        "name": "University of Leipzig",
+        "roles": [
+        "consortium_member"
+        ]
+    }
+  ],
+  "keywords": [
+  "forest mortality",
+  "functional biodiversity",
+  "plant traits",
+  "Earth observation",
+  "climate change",
+  "biodiversity",
+  "ESA Climate Change Initiative",
+  "Paris Agreement",
+  "remote sensing",
+  "ecosystem monitoring"
   ],
   "osc:type": "project",
   "osc:status": "ongoing",
