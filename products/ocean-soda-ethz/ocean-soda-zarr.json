@@ -62,7 +62,6 @@
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/ocean-soda.zarr",
       "type": "application/vnd+zarr",
       "title": "OceanSODA-ETHZ - Global gridded dataset of surface ocean carbonate system",
-      "description": "talk and pco2 (more accurately fco2) are estimated with two step machine learning approaches, where data is first clustered into regions of similar variability and the regressed for each cluster. See talk and spco2 for machine learning details. The remaining parameters of the marine carbonate cycle are calculated from these two using PyCO2SYS. The following dissociation constants were used: K1K2 = Mehrbach refit by Dickson and Millero, KSO4 = Dickson 1990a, KF = Dickson & Riley 1979.",
       "datetime": null,
       "start_datetime": "1982-01-15T00:00:00Z",
       "end_datetime": "2024-12-15T00:00:00Z",
