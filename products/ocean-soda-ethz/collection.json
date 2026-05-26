@@ -36,6 +36,31 @@
     },
     {
       "rel": "related",
+      "href": "../../variables/dissolved-inorganic-carbon-dic/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved inorganic carbon (DIC)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ph/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ph"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/total-alkalinity-at/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Total alkalinity (AT)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/water-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Water Temperature"
+    },
+
+    {
+      "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
@@ -72,7 +97,7 @@
     "smos"
   ],
   "osc:variables": [
-    "ocean-salinity"
+    "ocean-salinity", "dissolved-inorganic-carbon-dic", "ph", "total-alkalinity-at", "water-temperature"
   ],
   "themes": [
     {
@@ -85,6 +110,7 @@
     }
   ],
   "sci:doi": "10.25921/m5wx-ja34",
+  "sci:citation": " Gregor, Luke; Gruber, Nicolas (2020). OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2025) (NCEI Accession 0220059). [indicate subset used]. NOAA National Centers for Environmental Information. Dataset. https://doi.org/10.25921/m5wx-ja34. Accessed [date].",
   "cf:parameter": [
     {
       "name": "ocean-salinity"
@@ -111,7 +137,7 @@
       ]
     }
   },
-  "license": "CC-BY-4.0",
+  "license": "CC-BY-NC-SA-4.0",
   "keywords": [
     "carbon cycle",
     "climate",
