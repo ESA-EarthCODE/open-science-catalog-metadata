@@ -2,6 +2,12 @@
   "type": "Collection",
   "id": "global-plant-trait-maps",
   "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
   "title": "Global Plant Functional Trait Maps at 1 km Resolution",
   "description": "Global plant functional trait maps (31 traits), 1 km resolution, global extent. Derived from GBIF, sPlot, TRY and Earth observation data. Dataset hosted on Zenodo (DOI: 10.5281/zenodo.14646322).",
   "license": "CC-BY-4.0",
@@ -28,12 +34,24 @@
       ]
     }
   ],
-  "trait_map:contacts": [
+  "contacts": [
     {
       "name": "Daniel Lusk",
-      "role": "creator",
-      "email": "daniel.lusk@geosense.uni-freiburg.de",
-      "organization": "Chair of Sensor-based Geoinformatics, University of Freiburg"
+      "emails": [
+        {
+          "value": "daniel.lusk@geosense.uni-freiburg.de"
+        }
+      ],
+      "roles": [
+        "creator"
+      ]
+    },
+    {
+      "name": "Chair of Sensor-based Geoinformatics, University of Freiburg",
+      "roles": [
+        "producer",
+        "processor"
+      ]
     }
   ],
   "sci:doi": "10.5281/zenodo.14646322",
@@ -42,6 +60,16 @@
   "osc:type": "product",
   "osc:status": "completed",
   "osc:project": "FORTRACK",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
   "extent": {
     "spatial": {
       "bbox": [
@@ -64,6 +92,23 @@
   },
   "links": [
     {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/global-plant-trait-maps/collection.json",
+      "type": "application/json"
+    },
+    {
       "rel": "describedby",
       "href": "https://doi.org/10.5281/zenodo.14646322",
       "type": "text/html"
@@ -73,6 +118,18 @@
       "href": "https://doi.org/10.5281/zenodo.14646322",
       "type": "text/html",
       "title": "Dataset DOI"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/FORTRACK/collection.json",
+      "type": "application/json",
+      "title": "Project: FORTRACK"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     },
     {
       "rel": "child",
