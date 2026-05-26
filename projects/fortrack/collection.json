@@ -27,26 +27,25 @@
       }
     ],
     "roles": [
-      "science_leader",
-      "project_manager"
+      "creator"
     ]
   },
   {
     "name": "Prof. Dr. Miguel Mahecha",
     "roles": [
-      "science_leader"
+      "creator"
     ]
   },
   {
     "name": "Prof. Dr. René Orth",
     "roles": [
-      "co_science_leader"
+      "contributor"
     ]
   },
   {
     "name": "Prof. Dr. Ana Bastos",
     "roles": [
-      "co_science_leader"
+      "contributor"
     ]
   },
   {
@@ -111,7 +110,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/FORTRACK/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/fortrack/collection.json",
       "type": "application/json",
       "title": "FORTRACK"
     },
