@@ -59,7 +59,7 @@
   "published": "2026-01-30T00:00:00Z",
   "osc:type": "product",
   "osc:status": "completed",
-  "osc:project": "FORTRACK",
+  "osc:project": "fortrack",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

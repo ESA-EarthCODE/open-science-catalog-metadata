@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "FORTRACK",
+  "id": "fortrack",
   "stac_version": "1.1.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
