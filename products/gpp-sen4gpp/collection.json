@@ -22,6 +22,11 @@
         "title": "Products"
       },
       {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.57780/esa-564caf0",
+      "title": "DOI"
+      },
+      {
         "rel": "related",
         "href": "../../projects/sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp/collection.json",
         "type": "application/json",
@@ -118,15 +123,17 @@
         ]
       }
     },
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-4.0",
     "keywords": [
       "Gross Primary Productivity",
       "C3/C4 Vegetation",
       "Quantum Yield",
       "Sentinel-3",
       "Sentinel-2"
-    ]
-  }
+    ],
+    "sci:doi": "10.57780/esa-564caf0",
+    "sci:citation": "S. Berendsen, J. Dash, B. Oguntu et al, 2025, "Global Gross Primary Productivity (GPP) Dataset, University of Southampton", (version 2), https://doi.org/10.57780/esa-564caf0, European Space Agency"
+}
 
 
 
