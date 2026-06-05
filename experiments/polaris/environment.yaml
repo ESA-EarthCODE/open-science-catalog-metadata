@@ -1,0 +1,4 @@
+$comment: >-
+  This experiment used the POLARIS workflow defined as Argo workflow template
+  and ran it on the EOxHub Workspaces on the Open Telekom Cloud uploading the
+  results to object storage.

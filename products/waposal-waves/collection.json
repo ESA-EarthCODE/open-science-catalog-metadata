@@ -28,6 +28,17 @@
         "title": "DOI"
     },
     {
+      "href": "https://doi.org/10.1016/j.egyr.2026.109133",
+      "rel": "Related publication",
+      "title": "High-resolution mapping of wave energy resources in the Mediterranean Sea using satellite altimetry"
+    },
+    {
+      "href": "https://doi.org/10.1016/j.ecmx.2026.101971",
+      "rel": "Related publication",
+      "title": "Wave energy assessment using SWIM radar and high-resolution altimeter data"
+    },
+    
+    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
@@ -56,6 +67,12 @@
       "href": "../../variables/wave-height/catalog.json",
       "type": "application/json",
       "title": "Variable: Wave Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Power"
     },
     {
       "rel": "child",
@@ -97,6 +114,9 @@
     },
     {
       "name": "wave-height"
+    },
+    {
+      "name": "sea-surface-wave-energy-flux"
     }
   ],
   "themes": [
@@ -115,7 +135,8 @@
   ],
   "osc:variables": [
     "wave-period",
-    "wave-height"
+    "wave-height",
+    "sea-surface-wave-energy-flux"
   ],
   "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker",
   "extent": {

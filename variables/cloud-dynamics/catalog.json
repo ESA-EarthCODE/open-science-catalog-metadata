@@ -5,6 +5,11 @@
   "description": "Dynamics and physics that underlie clouds.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/cloud-dynamics/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -23,15 +28,16 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/cloud-dynamics/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
     }
   ],
   "stac_extensions": [

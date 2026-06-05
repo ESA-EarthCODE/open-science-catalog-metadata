@@ -1,0 +1,154 @@
+{
+  "type": "Collection",
+  "id": "esa-meteor-datasets",
+  "stac_version": "1.0.0",
+  "description": "The METEOR datasets provide the first comprehensive climate data records of mesospheric ozone and temperature spanning 1991 to 2023. 1) METEOR-T is  created from data by several limb-viewing satellite instruments: HALOE, GOMOS, MIPAS, ACE-FTS, MLS, SOFIE, OMPS-LP and OSIRIS. The dataset covers the period from 1991 to 2025 and provides deseasonalized anomalies and monthly zonal mean temperature profiles  in 10 latitude bins between 80S and 80N, from approximately 10 km to 100 km. The dataset  has been created in the framework of European Space Agency project METEOR (MEsospheric TEmperature and Ozone climate data Records).The METEOR-T dataset provides the global, long-term merged record suitable for detailed studies of temperature variability and trend evaluation in the whole middle atmosphere, thus providing valuable information for model validation and assessments of atmospheric temperature changes.  2)   (METEOR-O3) is created from data by several limb-viewing satellite instruments: HALOE, GOMOS, MIPAS, ACE-FTS, MLS, and SOFIE. The dataset covers the period from 1991 to 2023 and provides deseasonalized ozone anomalies and monthly zonal mean mixing ratio profiles  in 10 latitude bins between 80S and 80N, from approximately 22 km to 100 km. The dataset  has been created in the framework of European Space Agency project METEOR (MEsospheric TEmperature and Ozone climate data Records).  The METEOR-O3 dataset provides the first global, long-term merged record suitable for detailed studies of mesospheric/lower thermospheric ozone variability and trend evaluation, providing valuable information for model validation and assessments of upper atmospheric changes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/esa-meteor/collection.json",
+      "type": "application/json",
+      "title": "Project: MEsospheric TEmperature and Ozone climate data Record (METEOR)"
+    },
+    {
+      "href": "https://egusphere.copernicus.org/preprints/2025/egusphere-2025-6236/",
+      "rel": "Related Publication (preprint)",
+      "title": "Evaluation of ozone trends in the mesosphere/lower thermosphere using a new merged dataset of ozone profiles"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aura/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Aura"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/suomi-npp/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Suomi NPP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/limb-viewing-instruments/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Limb-Viewing Instruments"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/total-ozone/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Total Ozone"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/air-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Air Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "item",
+      "href": "./aw29b-agy92.json",
+      "type": "application/json",
+      "title": "ESA_METEOR-T-MERGED-19911001_20251201-fv0001.nc"
+    },
+    {
+      "rel": "item",
+      "href": "./jxst3-8h654.json",
+      "type": "application/json",
+      "title": "ESA_METEOR-OZONE-MERGED-19911001_20231201-fv0001.nc"
+    },
+    {
+      "rel": "via",
+      "href": "https://fmi.b2share.csc.fi/records/jxst3-8h654",
+      "title": "Access: METEOR-O3"
+    },
+    {
+      "rel": "via",
+      "href": "https://fmi.b2share.csc.fi/records/aw29b-agy92",
+      "title": "Access: METEOR-T"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-03-28T17:45:40.915728Z",
+  "updated": "2026-03-28T17:45:40.915728Z",
+  "osc:project": "esa-meteor",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "envisat",
+    "aura",
+    "suomi-npp",
+    "limb-viewing-instruments"
+  ],
+  "osc:variables": [
+    "total-ozone",
+    "air-temperature"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1991-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "mesosphere",
+    "ozone",
+    "temperature",
+    "climate data record",
+    "middle atmosphere"
+  ]
+}

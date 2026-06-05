@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "agricemchimeds3v1",
+  "stac_version": "1.0.0",
+  "description": "This collection is part of the representative dataset of the Sentinel User Preparation project AgriCEM. The goal of AgriCEM is to develop stress indicators for sugar beet crops based on CHIME and LSTM data. This collection contains simulated CHIME L2A data showing an agricultural site containing sugar beet fields with different types of simulated stress. The dataset was generated using the SCOPE model for the bottom-of-atmosphere reference signal and the RISE simulator for the satellite data products. The spatial coverage is a 2x2 km patch close to Selhausen, Germany. The temporal coverage spans over the sugar beet growing season with weekly measurements for a total of 24 scenes from May to October 2021.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/agricem/collection.json",
+      "type": "application/json",
+      "title": "Project: AgriCEM"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/field-boundaries/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Field Boundaries"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "item",
+      "href": "./agricem-data.json",
+      "type": "application/json",
+      "title": "AGRICEM Data Store"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.services.earthcode.eox.at/agricem/main/datacube.zarr",
+      "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/agricem/access.ipynb",
+      "title": "Tutorial: Access to the DataCube",
+      "description": "A Python notebook demonstrating how to access the AGRICEM DataCube.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-04-22T10:30:08.717213Z",
+  "updated": "2026-04-22T10:30:08.717213Z",
+  "osc:project": "agricem",
+  "osc:status": "ongoing",
+  "osc:region": "Selhausen",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "field-boundaries"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "title": "AGRICEM Simulated CHIME L2A data",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.409281746689257,
+          51.31805336713293,
+          6.706689592164285,
+          51.44180533129432
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-19T00:00:00Z",
+          "2021-10-27T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Agriculture",
+    "beet",
+    "simulation"
+  ]
+}
