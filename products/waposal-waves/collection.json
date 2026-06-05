@@ -33,6 +33,12 @@
       "title": "High-resolution mapping of wave energy resources in the Mediterranean Sea using satellite altimetry"
     },
     {
+      "href": "https://doi.org/10.1016/j.ecmx.2026.101971",
+      "rel": "Related publication",
+      "title": "Wave energy assessment using SWIM radar and high-resolution altimeter data"
+    },
+    
+    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
@@ -129,7 +135,8 @@
   ],
   "osc:variables": [
     "wave-period",
-    "wave-height"
+    "wave-height",
+    "sea-surface-wave-energy-flux"
   ],
   "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker",
   "extent": {
