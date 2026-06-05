@@ -85,47 +85,21 @@
       ]
     },
     {
-      "name": "Fabian Gans",
+      "name": " Leipzig University (DE)",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "fgans@bgc-jena.mpg.de"
-        }
       ]
     },
     {
-      "name": "Khalil Teber",
+      "name": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "khalil.teber@uni-leipzig.de"
-        }
       ]
     },
     {
-      "name": "Melanie Weynants",
+      "name": "CLOUDFERRO SP Z O. (PL)",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "mweynants@bgc-jena.mpg.de"
-        }
-      ]
-    },
-    {
-      "name": "Marcin Kluczek",
-      "roles": [
-        "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "mkluczek@cloudferro.com"
-        }
       ]
     }
   ],
