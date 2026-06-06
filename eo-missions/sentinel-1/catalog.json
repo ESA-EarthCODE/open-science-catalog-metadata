@@ -5,6 +5,11 @@
   "description": "Sentinel-1 is a constellation of two imaging radar satellites operated by ESA. Sentinel-1B experienced an anomaly which rendered it unable to deliver radar data in December 2021, and the launch of Sentinel-1C is planned for 2023.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -239,9 +244,16 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/sentinel-1/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

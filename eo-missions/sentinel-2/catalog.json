@@ -272,6 +272,18 @@
       "href": "../../products/agricemchimeds3v1/collection.json",
       "type": "application/json",
       "title": "AGRICEM Simulated CHIME L2A data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

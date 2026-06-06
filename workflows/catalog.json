@@ -103,7 +103,7 @@
       "rel": "item",
       "href": "./arceme-datacube-workflow/record.json",
       "type": "application/json",
-      "title": "ARCEME Data Cube Pipeline"
+      "title": "ARCEME Multi-Source Satellite Data Cube Pipeline"
     },
     {
       "rel": "item",

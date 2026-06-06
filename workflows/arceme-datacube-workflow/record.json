@@ -6,14 +6,14 @@
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "properties": {
-    "title": "ARCEME Data Cube Pipeline",
-    "description": "The pipeline orchestrator creates multi-source satellite datacubes for ARCEME project locations. It processes following datasets: Sentinel-2 L2A (CDSE or Planetary Computer),Sentinel-1 RTC (Planetary Computer),Copernicus DEM (CDSE), ESA WorldCover (Planetary Computer)",
+    "title": "ARCEME Multi-Source Satellite Data Cube Pipeline",
+    "description": "ARCEME Data Cube Pipeline is an end-to-end orchestrator for building spatiotemporal satellite datacubes around disaster event locations. It takes a CSV of coordinates and event dates, queries Sentinel-2 L2A, Sentinel-1 RTC, Copernicus DEM, and ESA WorldCover, applies deep-learning-based cloud masking via SEnSeIv2, and merges all sources into a single rechunked Zarr archive  analysis-ready out of the box. Designed for batch processing of large location sets, with built-in resume support, Docker compatibility, and a single YAML configuration file.",
     "type": "workflow",
     "osc:project": "arceme",
     "osc:status": "completed",
     "formats": [
       {
-        "name": "netcdf64"
+        "name": "application/vnd+zarr"
       }
     ],
     "updated": "2026-03-28T16:27:23Z",
