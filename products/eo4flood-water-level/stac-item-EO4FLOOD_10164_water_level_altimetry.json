@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_10164_water_level_altimetry",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.7715,
+          -9.5599
+        ],
+        [
+          22.7715,
+          -9.5599
+        ],
+        [
+          22.7715,
+          -9.5599
+        ],
+        [
+          22.7715,
+          -9.5599
+        ],
+        [
+          22.7715,
+          -9.5599
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    22.7715,
+    -9.5599,
+    22.7715,
+    -9.5599
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2008-07-24T04:11:29Z",
+    "end_datetime": "2008-07-24T04:11:29Z",
+    "datetime": "2008-07-24T04:11:29Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Congo_water_level_at_VS.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Parquet Data File",
+      "nc_attributes": {
+        "dahiti_id": "10164",
+        "dataset": "water-level-altimetry",
+        "target_name": "Lulua, River",
+        "location": "None",
+        "country": "Democratic Republic of the Congo",
+        "continent": "Africa",
+        "longitude": 22.7715,
+        "latitude": -9.5599,
+        "geoid": -0.8233,
+        "software": "8.0",
+        "institution": "DGFI-TUM",
+        "source": "DAHITI",
+        "url": "https://dahiti.dgfi.tum.de/10164/",
+        "creation_date": "2025-11-14 12:01:52"
+      },
+      "parquet_column_metadata": {
+        "datetime": {
+          "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+          "valid_min": "2008-07-24 04:11:29",
+          "valid_max": "2025-10-29 12:36:00"
+        },
+        "wse": {
+          "standard_name": "Water level derived from satellite altimetry",
+          "unit": "m",
+          "valid_min": 883.407,
+          "valid_max": 891.891
+        },
+        "wse_u": {
+          "standard_name": "Water level uncertainty",
+          "unit": "m",
+          "valid_min": 0.0,
+          "valid_max": 2.421
+        },
+        "mission": {
+          "standard_name": "Mission name"
+        },
+        "phase": {
+          "standard_name": "Mission phase"
+        },
+        "timeliness": {
+          "standard_name": "Timeliness of dataset"
+        }
+      },
+      "license": "cc-by-4.0",
+      "start_datetime": "2008-07-24T04:11:29Z",
+      "end_datetime": "2025-10-29T12:36:00Z",
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level"
+}

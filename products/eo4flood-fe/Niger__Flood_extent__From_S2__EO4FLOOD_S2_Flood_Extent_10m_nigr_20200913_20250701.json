@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Niger__Flood_extent__From_S2__EO4FLOOD_S2_Flood_Extent_10m_nigr_20200913_20250701",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.163487725408465,
+          14.368063589328662
+        ],
+        [
+          2.163487725408465,
+          16.279149643981388
+        ],
+        [
+          0.19311615446176766,
+          16.279149643981388
+        ],
+        [
+          0.19311615446176766,
+          14.368063589328662
+        ],
+        [
+          2.163487725408465,
+          14.368063589328662
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    0.19311615446176766,
+    14.368063589328662,
+    2.163487725408465,
+    16.279149643981388
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "EO4FLOOD flood extent for Niger from Sentinel-2 on 2020-09-13. Derived from From S2.",
+    "start_datetime": "2020-09-13T00:00:00Z",
+    "end_datetime": "2020-09-13T00:00:00Z",
+    "datetime": "2020-09-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Niger/Flood_extent/From_S2/EO4FLOOD_S2_Flood_Extent_10m_nigr_20200913_20250701.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4FLOOD flood extent for Niger from Sentinel-2 on 2020-09-13",
+      "description": "EO4FLOOD flood extent for Niger from Sentinel-2 on 2020-09-13. Derived from From S2.",
+      "license": "cc-by-4.0",
+      "created": "2025-07-01T00:00:00Z",
+      "start_datetime": "2020-09-13T00:00:00Z",
+      "end_datetime": "2020-09-13T00:00:00Z",
+      "platform": "Sentinel-2",
+      "instruments": [
+        "msi"
+      ],
+      "constellation": "sentinel-2",
+      "gsd": 10,
+      "proj:epsg": 4326,
+      "proj:shape": [
+        20824,
+        21470
+      ],
+      "proj:transform": [
+        9.177324503710747e-05,
+        0.0,
+        0.19311615446176766,
+        0.0,
+        -9.177324503710747e-05,
+        16.279149643981388
+      ],
+      "eo4flood:basin_name": "Niger",
+      "eo4flood:basin_code": "nigr",
+      "eo4flood:sensor": "S2",
+      "eo4flood:source_folder": "From S2",
+      "eo4flood:local_relative_path": "Niger/Flood_extent/From S2/EO4FLOOD_S2_Flood_Extent_10m_nigr_20200913_20250701.tif",
+      "eo4flood:processing_date": "2025-07-01",
+      "datetime": "2020-09-13T00:00:00Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-fe"
+}

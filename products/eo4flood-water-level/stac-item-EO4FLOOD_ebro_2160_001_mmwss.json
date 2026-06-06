@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_ebro_2160_001_mmwss",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4.970656277691887e-07,
+          -4.970656277691887e-07
+        ],
+        [
+          -4.970656277691887e-07,
+          42.2274284362793
+        ],
+        [
+          -1.8146132230758667,
+          42.2274284362793
+        ],
+        [
+          -1.8146132230758667,
+          -4.970656277691887e-07
+        ],
+        [
+          -4.970656277691887e-07,
+          -4.970656277691887e-07
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.8146132230758667,
+    -4.970656277691887e-07,
+    -4.970656277691887e-07,
+    42.2274284362793
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "datetime": "2026-05-28T16:27:10.140820Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Ebro_multi-mission_water_surface_slope.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Parquet Data File",
+      "nc_attributes": {},
+      "parquet_column_metadata": {
+        "chainage": {
+          "units": "m",
+          "long_name": "chainage"
+        },
+        "slope_grid": {
+          "units": "cm/km",
+          "long_name": "water surface slope grid"
+        },
+        "slopesd_grid": {
+          "units": "cm/km",
+          "long_name": "water surface slope std grid"
+        },
+        "slope_vs": {
+          "units": "cm/km",
+          "long_name": "water surface slope in VS"
+        },
+        "slopesd_vs": {
+          "units": "cm/km",
+          "long_name": "water surface slope std in VS"
+        },
+        "lon": {
+          "units": "m",
+          "long_name": "longitude_grid"
+        },
+        "lat": {
+          "units": "m",
+          "long_name": "latitude_grid"
+        }
+      },
+      "license": "cc-by-4.0",
+      "datetime": "2026-05-28T16:27:10.140820Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_cono_1321_001_mmwl",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.211315155029297,
+          -12.358681678771973
+        ],
+        [
+          31.211315155029297,
+          5.215066432952881
+        ],
+        [
+          14.997328758239746,
+          5.215066432952881
+        ],
+        [
+          14.997328758239746,
+          -12.358681678771973
+        ],
+        [
+          31.211315155029297,
+          -12.358681678771973
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    14.997328758239746,
+    -12.358681678771973,
+    31.211315155029297,
+    5.215066432952881
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "datetime": "2026-05-28T16:27:06.048632Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Congo_multi-mission_water_level.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Parquet Data File",
+      "nc_attributes": {
+        "title": "Multi-mission water level time series",
+        "producer": "DTU Space, Denmark",
+        "project": "EO4Flood",
+        "references": "TBC",
+        "contact": "K. Nielsen (karni@space.dtu.dk)",
+        "pdate": "Sun Jul  6 17:28:48 2025",
+        "VSlon": 15.33333302,
+        "VSlat": -4.136666775,
+        "VSchainage": 58532.2430241101,
+        "VSwidth": 379.5,
+        "VSReachID": "13217000081",
+        "VSgauge": "1147013_GRDC",
+        "reachLength": 98.4302148209587,
+        "meantime": 4.846091954023,
+        "Conventions": "ncdf4"
+      },
+      "parquet_column_metadata": {
+        "chainage": {
+          "units": "m",
+          "long_name": "chainage"
+        },
+        "wlgrid": {
+          "units": "m",
+          "long_name": "water level grid"
+        },
+        "wlsdgrid": {
+          "units": "m",
+          "long_name": "water level sd grid"
+        },
+        "wl": {
+          "units": "m",
+          "long_name": "water level in VS",
+          "description": "The water level time series for the VS of interest"
+        },
+        "wlsd": {
+          "units": "m",
+          "long_name": "water level sd in VS"
+        },
+        "lon": {
+          "units": "m",
+          "long_name": "longitude_grid"
+        },
+        "lat": {
+          "units": "m",
+          "long_name": "latitude_grid"
+        }
+      },
+      "license": "cc-by-4.0",
+      "datetime": "2026-05-28T16:27:06.048632Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level"
+}

@@ -34,27 +34,412 @@
       "title": "Theme: Land"
     },
     {
-        "rel": "related",
-        "href": "../../variables/snow/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Snow"
+      "rel": "related",
+      "href": "../../variables/snow/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow"
     },
     {
-        "rel": "related",
-        "href": "../../eo-missions/modis/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: MODIS"
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
     },
     {
-        "rel": "related",
-        "href": "../../eo-missions/metop/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: MetOp"
+      "rel": "related",
+      "href": "../../eo-missions/metop/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MetOp"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-snow/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_rhie_20160101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on METOP-A"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_tore_20160101_20240630.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_rhie_20180109_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Northern Hemisphere "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_tore_20180109_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Northern Hemisphere "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_dane_20160101_20240630.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_ebro_20160101_20240630.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_po___20160101_20240630.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_rhie_20160101_20240630.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_tore_20170301_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_braa_20180109_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Northern Hemisphere "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_dane_20180109_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Northern Hemisphere "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_ebro_20180109_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Northern Hemisphere "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_po___20180109_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Northern Hemisphere "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20240101_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_dane_20170301_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_ebro_20170301_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_po___20170301_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_rhie_20170301_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe "
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20190101_20191231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20200101_20201231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20210101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20220101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20230101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20230101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20240101_20241231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20160901_20161231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20170101_20171231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20180101_20181231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Gap-filled Fractional Snow Cover EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20180101_20181231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20190101_20191231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20200101_20201231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20210101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20220101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_po___20160101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_rhie_20160101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_tore_20160101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20160901_20161231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20170101_20171231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20210101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20220101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_braa_20160101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_dane_20160101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_ebro_20160101_20231231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_tore_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA19"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20160101_20161231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20170101_20171231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20180101_20181231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20190101_20191231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20200101_20201231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_tore_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA18"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_braa_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA19"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_dane_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA19"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_ebro_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA19"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_po___20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA19"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_rhie_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA19"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_tore_20160101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on METOP-A"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_braa_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA18"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_dane_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA18"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_ebro_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA18"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_po___20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA18"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_rhie_20160101_20221231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on NOAA18"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_braa_20160101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on METOP-A"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_dane_20160101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on METOP-A"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_ebro_20160101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on METOP-A"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_po___20160101_20211231.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from AVHRR on METOP-A"
     }
   ],
   "stac_extensions": [
@@ -86,69 +471,68 @@
     "snow"
   ],
   "osc:missions": [
-    "modis", "metop"
+    "modis",
+    "metop"
   ],
   "updated": "2026-04-02T15:16:06.215108Z",
   "title": "EO4FLOOD Snow Products",
   "extent": {
     "spatial": {
       "bbox": [
-
         [
-          96.95, 
-          24.73, 
-          88.18, 
+          96.95,
+          24.73,
+          88.18,
           30.05
         ],
         [
-          34, 
-          -10, 
-          12, 
+          34,
+          -10,
+          12,
           10
         ],
         [
-          29.76, 
-          45.22, 
-          8.16, 
-          48.10
+          29.76,
+          45.22,
+          8.16,
+          48.1
         ],
         [
-          0.86, 
-          40.72, 
-          -4.40, 
+          0.86,
+          40.72,
+          -4.4,
           43.04
         ],
         [
-          -59.91, 
-          -3.13, 
-          -70.03, 
+          -59.91,
+          -3.13,
+          -70.03,
           1.95
         ],
         [
-          6.47, 
-          5.32, 
-          -10.68, 
-          9.10
+          6.47,
+          5.32,
+          -10.68,
+          9.1
         ],
         [
-          12.43, 
-          44.70, 
-          7.09, 
+          12.43,
+          44.7,
+          7.09,
           44.95
         ],
         [
-          9.41, 
-          46.63, 
-          4.08, 
+          9.41,
+          46.63,
+          4.08,
           51.98
         ],
         [
-          24.15, 
-          65.83, 
-          19.10, 
+          24.15,
+          65.83,
+          19.1,
           68.37
         ]
-
       ]
     },
     "temporal": {

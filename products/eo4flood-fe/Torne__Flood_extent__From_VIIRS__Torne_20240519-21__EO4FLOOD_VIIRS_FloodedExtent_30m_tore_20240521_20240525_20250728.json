@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Torne__Flood_extent__From_VIIRS__Torne_20240519-21__EO4FLOOD_VIIRS_FloodedExtent_30m_tore_20240521_20240525_20250728",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.18611156289483,
+          65.81103779518865
+        ],
+        [
+          24.18611156289483,
+          67.18298223963309
+        ],
+        [
+          23.496667118450386,
+          67.18298223963309
+        ],
+        [
+          23.496667118450386,
+          65.81103779518865
+        ],
+        [
+          24.18611156289483,
+          65.81103779518865
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    23.496667118450386,
+    65.81103779518865,
+    24.18611156289483,
+    67.18298223963309
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "EO4FLOOD flood extent for Torne from VIIRS on 2024-05-21 to 2024-05-25. Derived from From VIIRS and event folder Torne_20240519-21.",
+    "start_datetime": "2024-05-21T00:00:00Z",
+    "end_datetime": "2024-05-21T00:00:00Z",
+    "datetime": "2024-05-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Torne/Flood_extent/From_VIIRS/Torne_20240519-21/EO4FLOOD_VIIRS_FloodedExtent_30m_tore_20240521_20240525_20250728.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4FLOOD flood extent for Torne from VIIRS on 2024-05-21 to 2024-05-25",
+      "description": "EO4FLOOD flood extent for Torne from VIIRS on 2024-05-21 to 2024-05-25. Derived from From VIIRS and event folder Torne_20240519-21.",
+      "license": "cc-by-4.0",
+      "created": "2025-07-28T00:00:00Z",
+      "start_datetime": "2024-05-21T00:00:00Z",
+      "end_datetime": "2024-05-25T00:00:00Z",
+      "platform": "VIIRS",
+      "instruments": [
+        "viirs"
+      ],
+      "gsd": 30,
+      "proj:epsg": 4326,
+      "proj:shape": [
+        4939,
+        2482
+      ],
+      "proj:transform": [
+        0.0002777777777777778,
+        0.0,
+        23.496667118450386,
+        0.0,
+        -0.0002777777777777778,
+        67.18298223963309
+      ],
+      "eo4flood:basin_name": "Torne",
+      "eo4flood:basin_code": "tore",
+      "eo4flood:sensor": "VIIRS",
+      "eo4flood:source_folder": "From VIIRS",
+      "eo4flood:event_name": "Torne_20240519-21",
+      "eo4flood:local_relative_path": "Torne/Flood_extent/From VIIRS/Torne_20240519-21/EO4FLOOD_VIIRS_FloodedExtent_30m_tore_20240521_20240525_20250728.tif",
+      "eo4flood:processing_date": "2025-07-28",
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-fe"
+}

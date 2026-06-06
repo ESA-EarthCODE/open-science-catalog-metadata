@@ -34,33 +34,190 @@
       "title": "Theme: Land"
     },
     {
-        "rel": "related",
-        "href": "../../variables/soil-moisture/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Soil Moisture"
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
     },
     {
-        "rel": "related",
-        "href": "../../eo-missions/smos/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: SMOS"
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
     },
     {
-        "rel": "related",
-        "href": "../../eo-missions/smap/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: SMAP"
+      "rel": "related",
+      "href": "../../eo-missions/smap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
     },
     {
-        "rel": "related",
-        "href": "../../eo-missions/ascat/catalog.json",
-        "type": "application/json",
-        "title": "EO Mission: ASCAT"
+      "rel": "related",
+      "href": "../../eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-sm/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_ebro.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_tore.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_po__.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_rhie.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_nego.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_nigr.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_cono.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_dane.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_ebro.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_braa.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_nego.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_nigr.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_po__.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_rhie.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_tore.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_braa.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_cono.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_dane.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_ebro.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_nego.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_nigr.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_po__.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_rhie.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_tore.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_braa.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_cono.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_dane.json",
+      "type": "application/json",
+      "title": "ESA EO4FLOOD project Soil Moisture input (ASCAT)"
     }
   ],
   "stac_extensions": [
@@ -92,69 +249,69 @@
     "soil-moisture"
   ],
   "osc:missions": [
-    "smos", "smap", "ascat"
+    "smos",
+    "smap",
+    "ascat"
   ],
   "updated": "2026-04-02T15:16:06.215108Z",
   "title": "EO4FLOOD Soil Moisture Products",
   "extent": {
     "spatial": {
       "bbox": [
-
         [
-          96.95, 
-          24.73, 
-          88.18, 
+          96.95,
+          24.73,
+          88.18,
           30.05
         ],
         [
-          34, 
-          -10, 
-          12, 
+          34,
+          -10,
+          12,
           10
         ],
         [
-          29.76, 
-          45.22, 
-          8.16, 
-          48.10
+          29.76,
+          45.22,
+          8.16,
+          48.1
         ],
         [
-          0.86, 
-          40.72, 
-          -4.40, 
+          0.86,
+          40.72,
+          -4.4,
           43.04
         ],
         [
-          -59.91, 
-          -3.13, 
-          -70.03, 
+          -59.91,
+          -3.13,
+          -70.03,
           1.95
         ],
         [
-          6.47, 
-          5.32, 
-          -10.68, 
-          9.10
+          6.47,
+          5.32,
+          -10.68,
+          9.1
         ],
         [
-          12.43, 
-          44.70, 
-          7.09, 
+          12.43,
+          44.7,
+          7.09,
           44.95
         ],
         [
-          9.41, 
-          46.63, 
-          4.08, 
+          9.41,
+          46.63,
+          4.08,
           51.98
         ],
         [
-          24.15, 
-          65.83, 
-          19.10, 
+          24.15,
+          65.83,
+          19.1,
           68.37
         ]
-
       ]
     },
     "temporal": {

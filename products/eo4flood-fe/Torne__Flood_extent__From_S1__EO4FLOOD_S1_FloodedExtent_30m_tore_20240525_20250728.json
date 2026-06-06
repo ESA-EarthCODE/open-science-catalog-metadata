@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Torne__Flood_extent__From_S1__EO4FLOOD_S1_FloodedExtent_30m_tore_20240525_20250728",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.18624888888889,
+          65.81097333333334
+        ],
+        [
+          24.18624888888889,
+          67.18319555555556
+        ],
+        [
+          23.496526666666668,
+          67.18319555555556
+        ],
+        [
+          23.496526666666668,
+          65.81097333333334
+        ],
+        [
+          24.18624888888889,
+          65.81097333333334
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    23.496526666666668,
+    65.81097333333334,
+    24.18624888888889,
+    67.18319555555556
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "EO4FLOOD flood extent for Torne from Sentinel-1 on 2024-05-25. Derived from From S1.",
+    "start_datetime": "2024-05-25T00:00:00Z",
+    "end_datetime": "2024-05-25T00:00:00Z",
+    "datetime": "2024-05-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Torne/Flood_extent/From_S1/EO4FLOOD_S1_FloodedExtent_30m_tore_20240525_20250728.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4FLOOD flood extent for Torne from Sentinel-1 on 2024-05-25",
+      "description": "EO4FLOOD flood extent for Torne from Sentinel-1 on 2024-05-25. Derived from From S1.",
+      "license": "cc-by-4.0",
+      "created": "2025-07-28T00:00:00Z",
+      "start_datetime": "2024-05-25T00:00:00Z",
+      "end_datetime": "2024-05-25T00:00:00Z",
+      "platform": "Sentinel-1",
+      "instruments": [
+        "c-sar"
+      ],
+      "constellation": "sentinel-1",
+      "gsd": 30,
+      "proj:epsg": 4326,
+      "proj:shape": [
+        4940,
+        2483
+      ],
+      "proj:transform": [
+        0.0002777777777777778,
+        0.0,
+        23.496526666666668,
+        0.0,
+        -0.0002777777777777778,
+        67.18319555555556
+      ],
+      "eo4flood:basin_name": "Torne",
+      "eo4flood:basin_code": "tore",
+      "eo4flood:sensor": "S1",
+      "eo4flood:source_folder": "From S1",
+      "eo4flood:local_relative_path": "Torne/Flood_extent/From S1/EO4FLOOD_S1_FloodedExtent_30m_tore_20240525_20250728.tif",
+      "eo4flood:processing_date": "2025-07-28",
+      "datetime": "2024-05-25T00:00:00Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-fe"
+}

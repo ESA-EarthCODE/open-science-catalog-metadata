@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Brahmaputra__Flood_extent__From_S1__Brahamaputra_20206030__EO4FLOOD_S1_FloodedExtent_30m_braa_20200703_20250728",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          89.87013777777779,
+          25.488195555555553
+        ],
+        [
+          89.87013777777779,
+          25.920695555555554
+        ],
+        [
+          89.59097111111112,
+          25.920695555555554
+        ],
+        [
+          89.59097111111112,
+          25.488195555555553
+        ],
+        [
+          89.87013777777779,
+          25.488195555555553
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    89.59097111111112,
+    25.488195555555553,
+    89.87013777777779,
+    25.920695555555554
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "EO4FLOOD flood extent for Brahmaputra from Sentinel-1 on 2020-07-03. Derived from From S1 and event folder Brahamaputra_20206030.",
+    "start_datetime": "2020-07-03T00:00:00Z",
+    "end_datetime": "2020-07-03T00:00:00Z",
+    "datetime": "2020-07-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Brahmaputra/Flood_extent/From_S1/Brahamaputra_20206030/EO4FLOOD_S1_FloodedExtent_30m_braa_20200703_20250728.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4FLOOD flood extent for Brahmaputra from Sentinel-1 on 2020-07-03",
+      "description": "EO4FLOOD flood extent for Brahmaputra from Sentinel-1 on 2020-07-03. Derived from From S1 and event folder Brahamaputra_20206030.",
+      "license": "cc-by-4.0",
+      "created": "2025-07-28T00:00:00Z",
+      "start_datetime": "2020-07-03T00:00:00Z",
+      "end_datetime": "2020-07-03T00:00:00Z",
+      "platform": "Sentinel-1",
+      "instruments": [
+        "c-sar"
+      ],
+      "constellation": "sentinel-1",
+      "gsd": 30,
+      "proj:epsg": 4326,
+      "proj:shape": [
+        1557,
+        1005
+      ],
+      "proj:transform": [
+        0.0002777777777777778,
+        0.0,
+        89.59097111111112,
+        0.0,
+        -0.0002777777777777778,
+        25.920695555555554
+      ],
+      "eo4flood:basin_name": "Brahmaputra",
+      "eo4flood:basin_code": "braa",
+      "eo4flood:sensor": "S1",
+      "eo4flood:source_folder": "From S1",
+      "eo4flood:event_name": "Brahamaputra_20206030",
+      "eo4flood:local_relative_path": "Brahmaputra/Flood_extent/From S1/Brahamaputra_20206030/EO4FLOOD_S1_FloodedExtent_30m_braa_20200703_20250728.tif",
+      "eo4flood:processing_date": "2025-07-28",
+      "datetime": "2020-07-03T00:00:00Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-fe"
+}

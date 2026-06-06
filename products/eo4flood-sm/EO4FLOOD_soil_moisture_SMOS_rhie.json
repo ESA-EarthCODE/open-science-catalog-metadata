@@ -1,0 +1,1052 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4FLOOD_soil_moisture_SMOS_rhie",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.801153182983398,
+          46.537532806396484
+        ],
+        [
+          11.801153182983398,
+          51.904212951660156
+        ],
+        [
+          4.279539108276367,
+          51.904212951660156
+        ],
+        [
+          4.279539108276367,
+          46.537532806396484
+        ],
+        [
+          11.801153182983398,
+          46.537532806396484
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.279539108276367,
+    46.537532806396484,
+    11.801153182983398,
+    51.904212951660156
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "ESA EO4FLOOD project Soil Moisture input",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2016-01-01T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Soil Moisture Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Soil Moisture Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/soil_moisture_zarr/EO4FLOOD_soil_moisture_SMOS_rhie.zarr",
+      "type": "application/vnd+zarr",
+      "title": "ESA EO4FLOOD project Soil Moisture input",
+      "description": "ESA EO4FLOOD project Soil Moisture input",
+      "license": "cc-by-4.0",
+      "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/soil_moisture_zarr/EO4FLOOD_soil_moisture_SMOS_rhie.zarr",
+      "zarr:attributes": {
+        "history": "none",
+        "institution": "National Research Council (CNR)",
+        "references": "To be filled with EO4FLOOD publication DOI or link",
+        "source": "CATDS L3 SM Filtrering Processor",
+        "title": "ESA EO4FLOOD project Soil Moisture input",
+        "ease_origin_lat": -83.51713562011719,
+        "ease_origin_lon": -179.8703155517578,
+        "ease_resolution": 25.0,
+        "ease_projection": "cylindrical",
+        "ease_global": "yes",
+        "conventions": "CF-1.4",
+        "creation_date": "2021-10-25T13:33:13",
+        "product_version": "1.0",
+        "netcdf_version_id": "3.6.2",
+        "grip_mapping": "projection",
+        "datum": "+ellps = WGS84",
+        "srid": "EPSG:6933",
+        "proj4text": "+proj=cea +lon_0=0 +lat_ts=30 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "creation_time": "2025-07-24 18:25:35 UTC",
+        "creator_institution_e-mail": "christian.massari@cnr.it",
+        "Temporal interval": "From 2016-01-01 to 2024-12-31",
+        "version": "1.0",
+        "Conventions": "CF-1.11-draft",
+        "DOI": "https://doi.org/xxx.xxxx",
+        "Acknowledgements": "ESA EO4FLOOD project reference"
+      },
+      "zarr:arrays": {
+        "Event_Flags": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f4",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ],
+          "attrs": {
+            "long_name": "Event detection Flags",
+            "units": "NA",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "M_Ava0": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f4",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ],
+          "attrs": {
+            "long_name": "Initial number of TB measurements avaliable in L1C",
+            "units": "NA",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Max_Soil_Moisture": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Maximum value of available SM",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Max_Soil_Moisture_Dqx": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Maximum DQX value of available SM",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Min_Soil_Moisture": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Minimum value of available SM",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Min_Soil_Moisture_Dqx": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Minimum DQX value of available SM",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "N_Rfi_X": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f4",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ],
+          "attrs": {
+            "long_name": "Count of deleted TBs due to suspected RFI",
+            "units": "NA",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "N_Rfi_Y": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f4",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ],
+          "attrs": {
+            "long_name": "Count of deleted TBs due to suspected RFI",
+            "units": "NA",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Science_Flags": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Table of flags",
+            "units": "NA",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Soil_Moisture": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Retrieved soil moisture value",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Soil_Moisture_Dqx": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "DQX of Retrieved soil moisture value",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Soil_Moisture_Init_Std": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Initial std for free parameter SM",
+            "units": "NA",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "Soil_Moisture_Init_Val": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f8",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ],
+          "attrs": {
+            "long_name": "Initial value for free parameter SM",
+            "units": "m3.m-3",
+            "_ARRAY_DIMENSIONS": [
+              "time",
+              "lat",
+              "lon"
+            ]
+          }
+        },
+        "lat": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f4",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "lat"
+          ],
+          "shape": [
+            19
+          ],
+          "chunks": [
+            19
+          ],
+          "attrs": {
+            "long_name": "latitude",
+            "units": "degrees_north",
+            "_ARRAY_DIMENSIONS": [
+              "lat"
+            ]
+          }
+        },
+        "lon": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<f4",
+          "fill_value": "NaN",
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "lon"
+          ],
+          "shape": [
+            30
+          ],
+          "chunks": [
+            30
+          ],
+          "attrs": {
+            "long_name": "longitude",
+            "units": "degrees_east",
+            "_ARRAY_DIMENSIONS": [
+              "lon"
+            ]
+          }
+        },
+        "time": {
+          "compressor": {
+            "id": "blosc",
+            "cname": "lz4",
+            "clevel": 5,
+            "shuffle": 1,
+            "blocksize": 0
+          },
+          "dimension_separator": ".",
+          "dtype": "<i8",
+          "fill_value": null,
+          "filters": null,
+          "order": "C",
+          "zarr_format": 2,
+          "dimensions": [
+            "time"
+          ],
+          "shape": [
+            12028
+          ],
+          "chunks": [
+            12028
+          ],
+          "attrs": {
+            "units": "days since 2016-01-01 00:00:00",
+            "calendar": "proleptic_gregorian",
+            "_ARRAY_DIMENSIONS": [
+              "time"
+            ]
+          }
+        }
+      },
+      "start_datetime": "2016-01-01T00:00:00Z",
+      "end_datetime": "2024-12-31T00:00:00Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-01-01T00:00:00Z",
+            "2024-12-31T00:00:00Z"
+          ],
+          "type": "temporal",
+          "size": 12028
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            4.279539108276367,
+            11.801153182983398
+          ],
+          "description": "longitude",
+          "reference_system": 4326,
+          "type": "spatial",
+          "size": 30
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            46.537532806396484,
+            51.904212951660156
+          ],
+          "description": "latitude",
+          "reference_system": 4326,
+          "type": "spatial",
+          "size": 19
+        }
+      },
+      "cube:variables": {
+        "Event_Flags": {
+          "type": "data",
+          "description": "Event detection Flags",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "NA",
+          "attrs": {
+            "long_name": "Event detection Flags",
+            "units": "NA"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ]
+        },
+        "M_Ava0": {
+          "type": "data",
+          "description": "Initial number of TB measurements avaliable in L1C",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "NA",
+          "attrs": {
+            "long_name": "Initial number of TB measurements avaliable in L1C",
+            "units": "NA"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ]
+        },
+        "Max_Soil_Moisture": {
+          "type": "data",
+          "description": "Maximum value of available SM",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "Maximum value of available SM",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Max_Soil_Moisture_Dqx": {
+          "type": "data",
+          "description": "Maximum DQX value of available SM",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "Maximum DQX value of available SM",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Min_Soil_Moisture": {
+          "type": "data",
+          "description": "Minimum value of available SM",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "Minimum value of available SM",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Min_Soil_Moisture_Dqx": {
+          "type": "data",
+          "description": "Minimum DQX value of available SM",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "Minimum DQX value of available SM",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "N_Rfi_X": {
+          "type": "data",
+          "description": "Count of deleted TBs due to suspected RFI",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "NA",
+          "attrs": {
+            "long_name": "Count of deleted TBs due to suspected RFI",
+            "units": "NA"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ]
+        },
+        "N_Rfi_Y": {
+          "type": "data",
+          "description": "Count of deleted TBs due to suspected RFI",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "NA",
+          "attrs": {
+            "long_name": "Count of deleted TBs due to suspected RFI",
+            "units": "NA"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            11848,
+            18,
+            29
+          ]
+        },
+        "Science_Flags": {
+          "type": "data",
+          "description": "Table of flags",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "NA",
+          "attrs": {
+            "long_name": "Table of flags",
+            "units": "NA"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Soil_Moisture": {
+          "type": "data",
+          "description": "Retrieved soil moisture value",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "Retrieved soil moisture value",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Soil_Moisture_Dqx": {
+          "type": "data",
+          "description": "DQX of Retrieved soil moisture value",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "DQX of Retrieved soil moisture value",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Soil_Moisture_Init_Std": {
+          "type": "data",
+          "description": "Initial std for free parameter SM",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "NA",
+          "attrs": {
+            "long_name": "Initial std for free parameter SM",
+            "units": "NA"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        },
+        "Soil_Moisture_Init_Val": {
+          "type": "data",
+          "description": "Initial value for free parameter SM",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m3.m-3",
+          "attrs": {
+            "long_name": "Initial value for free parameter SM",
+            "units": "m3.m-3"
+          },
+          "shape": [
+            12028,
+            19,
+            30
+          ],
+          "chunks": [
+            9404,
+            14,
+            23
+          ]
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-sm"
+}

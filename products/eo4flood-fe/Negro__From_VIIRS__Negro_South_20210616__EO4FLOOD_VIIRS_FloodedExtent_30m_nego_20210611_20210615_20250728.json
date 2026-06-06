@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Negro__From_VIIRS__Negro_South_20210616__EO4FLOOD_VIIRS_FloodedExtent_30m_nego_20210611_20210615_20250728",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59.50565200109293,
+          -3.3931806702756653
+        ],
+        [
+          -59.50565200109293,
+          -2.559291781386776
+        ],
+        [
+          -60.955652001092936,
+          -2.559291781386776
+        ],
+        [
+          -60.955652001092936,
+          -3.3931806702756653
+        ],
+        [
+          -59.50565200109293,
+          -3.3931806702756653
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -60.955652001092936,
+    -3.3931806702756653,
+    -59.50565200109293,
+    -2.559291781386776
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "EO4FLOOD flood extent for Negro from VIIRS on 2021-06-11 to 2021-06-15. Derived from From VIIRS and event folder Negro_South_20210616.",
+    "start_datetime": "2021-06-11T00:00:00Z",
+    "end_datetime": "2021-06-11T00:00:00Z",
+    "datetime": "2021-06-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Negro/From_VIIRS/Negro_South_20210616/EO4FLOOD_VIIRS_FloodedExtent_30m_nego_20210611_20210615_20250728.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4FLOOD flood extent for Negro from VIIRS on 2021-06-11 to 2021-06-15",
+      "description": "EO4FLOOD flood extent for Negro from VIIRS on 2021-06-11 to 2021-06-15. Derived from From VIIRS and event folder Negro_South_20210616.",
+      "license": "cc-by-4.0",
+      "created": "2025-07-28T00:00:00Z",
+      "start_datetime": "2021-06-11T00:00:00Z",
+      "end_datetime": "2021-06-15T00:00:00Z",
+      "platform": "VIIRS",
+      "instruments": [
+        "viirs"
+      ],
+      "gsd": 30,
+      "proj:epsg": 4326,
+      "proj:shape": [
+        3002,
+        5220
+      ],
+      "proj:transform": [
+        0.0002777777777777778,
+        0.0,
+        -60.955652001092936,
+        0.0,
+        -0.0002777777777777778,
+        -2.559291781386776
+      ],
+      "eo4flood:basin_name": "Negro",
+      "eo4flood:basin_code": "nego",
+      "eo4flood:sensor": "VIIRS",
+      "eo4flood:source_folder": "From VIIRS",
+      "eo4flood:event_name": "Negro_South_20210616",
+      "eo4flood:local_relative_path": "Negro/From VIIRS/Negro_South_20210616/EO4FLOOD_VIIRS_FloodedExtent_30m_nego_20210611_20210615_20250728.tif",
+      "eo4flood:processing_date": "2025-07-28",
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-fe"
+}

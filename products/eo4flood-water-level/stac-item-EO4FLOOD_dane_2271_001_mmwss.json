@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_dane_2271_001_mmwss",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.950464248657227,
+          43.62200927734375
+        ],
+        [
+          28.950464248657227,
+          48.877994537353516
+        ],
+        [
+          10.94533920288086,
+          48.877994537353516
+        ],
+        [
+          10.94533920288086,
+          43.62200927734375
+        ],
+        [
+          28.950464248657227,
+          43.62200927734375
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    10.94533920288086,
+    43.62200927734375,
+    28.950464248657227,
+    48.877994537353516
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "datetime": "2026-05-28T16:27:09.048336Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Danube_multi-mission_water_surface_slope.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Parquet Data File",
+      "nc_attributes": {
+        "title": "Multi-mission water surface time series",
+        "producer": "DTU Space, Denmark",
+        "project": "EO4Flood",
+        "references": "TBC",
+        "contact": "K. Nielsen (karni@space.dtu.dk)",
+        "pdate": "Fri Feb 13 14:59:49 2026",
+        "VSlon": 28.71665764,
+        "VSlat": 45.21666718,
+        "VSchainage": 43301.3745378263,
+        "VSwidth": 506.0,
+        "VSReachID": "22710500031",
+        "VSgauge": "6742900_GRDC",
+        "reachLength": 106.263718800033,
+        "meantime": 3.56182773109242,
+        "Conventions": "ncdf4"
+      },
+      "parquet_column_metadata": {
+        "chainage": {
+          "units": "m",
+          "long_name": "chainage"
+        },
+        "slope_grid": {
+          "units": "cm/km",
+          "long_name": "water surface slope grid"
+        },
+        "slopesd_grid": {
+          "units": "cm/km",
+          "long_name": "water surface slope std grid"
+        },
+        "slope_vs": {
+          "units": "cm/km",
+          "long_name": "water surface slope in VS",
+          "description": "The water surface slope time series for the VS of interest"
+        },
+        "slopesd_vs": {
+          "units": "cm/km",
+          "long_name": "water surface slope std in VS"
+        },
+        "lon": {
+          "units": "m",
+          "long_name": "longitude_grid"
+        },
+        "lat": {
+          "units": "m",
+          "long_name": "latitude_grid"
+        }
+      },
+      "license": "cc-by-4.0",
+      "datetime": "2026-05-28T16:27:09.048336Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level"
+}

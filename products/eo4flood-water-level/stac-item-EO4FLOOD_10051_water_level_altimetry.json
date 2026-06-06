@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_10051_water_level_altimetry",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          13.3656,
+          48.5992
+        ],
+        [
+          13.3656,
+          48.5992
+        ],
+        [
+          13.3656,
+          48.5992
+        ],
+        [
+          13.3656,
+          48.5992
+        ],
+        [
+          13.3656,
+          48.5992
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    13.3656,
+    48.5992,
+    13.3656,
+    48.5992
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2023-08-06T13:36:32Z",
+    "end_datetime": "2023-08-06T13:36:32Z",
+    "datetime": "2023-08-06T13:36:32Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Danube_water_level_at_VS.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Parquet Data File",
+      "nc_attributes": {
+        "dahiti_id": "10051",
+        "dataset": "water-level-altimetry",
+        "target_name": "Danube, River",
+        "location": "None",
+        "country": "Germany",
+        "continent": "Europe",
+        "longitude": 13.3656,
+        "latitude": 48.5992,
+        "geoid": "n.a.",
+        "software": "8.0",
+        "institution": "DGFI-TUM",
+        "source": "DAHITI",
+        "url": "https://dahiti.dgfi.tum.de/10051/",
+        "creation_date": "2025-11-14 12:03:16"
+      },
+      "parquet_column_metadata": {
+        "datetime": {
+          "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+          "valid_min": "2023-08-06 13:36:32",
+          "valid_max": "2025-04-23 12:08:55"
+        },
+        "wse": {
+          "standard_name": "Water level derived from satellite altimetry",
+          "unit": "m",
+          "valid_min": 299.96,
+          "valid_max": 300.06
+        },
+        "wse_u": {
+          "standard_name": "Water level uncertainty",
+          "unit": "m",
+          "valid_min": 0.04,
+          "valid_max": 0.23
+        },
+        "mission": {
+          "standard_name": "Mission name"
+        },
+        "phase": {
+          "standard_name": "Mission phase"
+        },
+        "timeliness": {
+          "standard_name": "Timeliness of dataset"
+        }
+      },
+      "license": "cc-by-4.0",
+      "start_datetime": "2023-08-06T13:36:32Z",
+      "end_datetime": "2025-04-23T12:08:55Z",
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level"
+}

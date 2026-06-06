@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_braa_beki_3506_discharge_multi-mission",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          95.2867,
+          26.0452
+        ],
+        [
+          95.2867,
+          28.1409
+        ],
+        [
+          89.4372,
+          28.1409
+        ],
+        [
+          89.4372,
+          26.0452
+        ],
+        [
+          95.2867,
+          26.0452
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    89.4372,
+    26.0452,
+    95.2867,
+    28.1409
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "datetime": "2026-05-28T16:26:51.187621Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Brahmaputra_River_Discharge_Ungauged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Parquet Data File",
+      "nc_attributes": {
+        "dataset": "multi-mission-river-discharge",
+        "name": "brama_beki_3506",
+        "longitude": 90.9517,
+        "latitude": 26.5442,
+        "institution": "DGFI-TUM",
+        "creation_date": "2025-12-05T14:52:50.976982",
+        "comment": "plausible",
+        "author": "Daniel Scherer",
+        "units": "discharge in m^3/s",
+        "datetime_format": "ISO8601 string"
+      },
+      "parquet_column_metadata": {
+        "q": {
+          "units": "m^3/s"
+        },
+        "q_u_lower": {
+          "units": "m^3/s"
+        },
+        "q_u_upper": {
+          "units": "m^3/s"
+        },
+        "lon": {},
+        "lat": {}
+      },
+      "license": "cc-by-4.0",
+      "datetime": "2026-05-28T16:26:51.187621Z",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge"
+}
