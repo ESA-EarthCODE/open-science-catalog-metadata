@@ -41,7 +41,35 @@
     "description": "EO4FLOOD flood extent for Negro from Sentinel-1 on 2022-05-26. Derived from From S1 and event folder Negro_South_2022_05_10-19.",
     "start_datetime": "2022-05-26T00:00:00Z",
     "end_datetime": "2022-05-26T00:00:00Z",
-    "datetime": "2022-05-26T00:00:00Z"
+    "datetime": "2022-05-26T00:00:00Z",
+    "title": "EO4FLOOD flood extent for Negro from Sentinel-1 on 2022-05-26",
+    "created": "2025-07-28T00:00:00Z",
+    "platform": "Sentinel-1",
+    "instruments": [
+      "c-sar"
+    ],
+    "constellation": "sentinel-1",
+    "gsd": 30,
+    "proj:epsg": 4326,
+    "proj:shape": [
+      2448,
+      3190
+    ],
+    "proj:transform": [
+      0.0002777777777777778,
+      0.0,
+      -60.955694444555554,
+      0.0,
+      -0.0002777777777777778,
+      -2.5590277776666666
+    ],
+    "eo4flood:basin_name": "Negro",
+    "eo4flood:basin_code": "nego",
+    "eo4flood:sensor": "S1",
+    "eo4flood:source_folder": "From S1",
+    "eo4flood:event_name": "Negro_South_2022_05_10-19",
+    "eo4flood:local_relative_path": "Negro/From S1/Negro_South_2022_05_10-19/EO4FLOOD_S1_FloodedExtent_30m_nego_20220526_20250728.tif",
+    "eo4flood:processing_date": "2025-07-28"
   },
   "links": [
     {
@@ -68,37 +96,5 @@
     }
   },
   "collection": "eo4flood-fe",
-  "title": "Negro - S1 Flooded Extent 30 m - Event South 2022 05 10-19 - 2022-05-26",
-  "description": "EO4FLOOD flood extent for Negro from Sentinel-1 on 2022-05-26. Derived from From S1 and event folder Negro_South_2022_05_10-19.",
-  "license": "cc-by-4.0",
-  "created": "2025-07-28T00:00:00Z",
-  "start_datetime": "2022-05-26T00:00:00Z",
-  "end_datetime": "2022-05-26T00:00:00Z",
-  "platform": "Sentinel-1",
-  "instruments": [
-    "c-sar"
-  ],
-  "constellation": "sentinel-1",
-  "gsd": 30,
-  "proj:epsg": 4326,
-  "proj:shape": [
-    2448,
-    3190
-  ],
-  "proj:transform": [
-    0.0002777777777777778,
-    0.0,
-    -60.955694444555554,
-    0.0,
-    -0.0002777777777777778,
-    -2.5590277776666666
-  ],
-  "eo4flood:basin_name": "Negro",
-  "eo4flood:basin_code": "nego",
-  "eo4flood:sensor": "S1",
-  "eo4flood:source_folder": "From S1",
-  "eo4flood:event_name": "Negro_South_2022_05_10-19",
-  "eo4flood:local_relative_path": "Negro/From S1/Negro_South_2022_05_10-19/EO4FLOOD_S1_FloodedExtent_30m_nego_20220526_20250728.tif",
-  "eo4flood:processing_date": "2025-07-28",
-  "datetime": "2022-05-26T00:00:00Z"
+  "title": "Negro - S1 Flooded Extent 30 m - Event South 2022 05 10-19 - 2022-05-26"
 }

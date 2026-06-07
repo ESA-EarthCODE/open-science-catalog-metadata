@@ -41,7 +41,34 @@
     "description": "EO4FLOOD flood extent for Niger from Sentinel-2 on 2019-01-27. Derived from From S2.",
     "start_datetime": "2019-01-27T00:00:00Z",
     "end_datetime": "2019-01-27T00:00:00Z",
-    "datetime": "2019-01-27T00:00:00Z"
+    "datetime": "2019-01-27T00:00:00Z",
+    "title": "EO4FLOOD flood extent for Niger from Sentinel-2 on 2019-01-27",
+    "created": "2025-07-01T00:00:00Z",
+    "platform": "Sentinel-2",
+    "instruments": [
+      "msi"
+    ],
+    "constellation": "sentinel-2",
+    "gsd": 10,
+    "proj:epsg": 4326,
+    "proj:shape": [
+      10915,
+      11272
+    ],
+    "proj:transform": [
+      9.18583905119462e-05,
+      0.0,
+      0.19311615446176766,
+      0.0,
+      -9.18583905119462e-05,
+      16.273346049089593
+    ],
+    "eo4flood:basin_name": "Niger",
+    "eo4flood:basin_code": "nigr",
+    "eo4flood:sensor": "S2",
+    "eo4flood:source_folder": "From S2",
+    "eo4flood:local_relative_path": "Niger/Flood_extent/From S2/EO4FLOOD_S2_Flood_Extent_10m_nigr_20190127_20250701.tif",
+    "eo4flood:processing_date": "2025-07-01"
   },
   "links": [
     {
@@ -68,36 +95,5 @@
     }
   },
   "collection": "eo4flood-fe",
-  "title": "Niger - S2 Flood Extent 10 m - 2019-01-27",
-  "description": "EO4FLOOD flood extent for Niger from Sentinel-2 on 2019-01-27. Derived from From S2.",
-  "license": "cc-by-4.0",
-  "created": "2025-07-01T00:00:00Z",
-  "start_datetime": "2019-01-27T00:00:00Z",
-  "end_datetime": "2019-01-27T00:00:00Z",
-  "platform": "Sentinel-2",
-  "instruments": [
-    "msi"
-  ],
-  "constellation": "sentinel-2",
-  "gsd": 10,
-  "proj:epsg": 4326,
-  "proj:shape": [
-    10915,
-    11272
-  ],
-  "proj:transform": [
-    9.18583905119462e-05,
-    0.0,
-    0.19311615446176766,
-    0.0,
-    -9.18583905119462e-05,
-    16.273346049089593
-  ],
-  "eo4flood:basin_name": "Niger",
-  "eo4flood:basin_code": "nigr",
-  "eo4flood:sensor": "S2",
-  "eo4flood:source_folder": "From S2",
-  "eo4flood:local_relative_path": "Niger/Flood_extent/From S2/EO4FLOOD_S2_Flood_Extent_10m_nigr_20190127_20250701.tif",
-  "eo4flood:processing_date": "2025-07-01",
-  "datetime": "2019-01-27T00:00:00Z"
+  "title": "Niger - S2 Flood Extent 10 m - 2019-01-27"
 }

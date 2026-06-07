@@ -41,7 +41,34 @@
     "description": "EO4FLOOD flood extent for Brahmaputra from Sentinel-2 on 2024-10-15. Derived from From S2.",
     "start_datetime": "2024-10-15T00:00:00Z",
     "end_datetime": "2024-10-15T00:00:00Z",
-    "datetime": "2024-10-15T00:00:00Z"
+    "datetime": "2024-10-15T00:00:00Z",
+    "title": "EO4FLOOD flood extent for Brahmaputra from Sentinel-2 on 2024-10-15",
+    "created": "2025-07-01T00:00:00Z",
+    "platform": "Sentinel-2",
+    "instruments": [
+      "msi"
+    ],
+    "constellation": "sentinel-2",
+    "gsd": 10,
+    "proj:epsg": 4326,
+    "proj:shape": [
+      10644,
+      11749
+    ],
+    "proj:transform": [
+      9.484656136566174e-05,
+      0.0,
+      88.98478836443486,
+      0.0,
+      -9.484656136566174e-05,
+      26.206000495237166
+    ],
+    "eo4flood:basin_name": "Brahmaputra",
+    "eo4flood:basin_code": "braa",
+    "eo4flood:sensor": "S2",
+    "eo4flood:source_folder": "From S2",
+    "eo4flood:local_relative_path": "Brahmaputra/Flood_extent/From S2/EO4FLOOD_S2_Flood_Extent_10m_braa_20241015_20250701.tif",
+    "eo4flood:processing_date": "2025-07-01"
   },
   "links": [
     {
@@ -68,36 +95,5 @@
     }
   },
   "collection": "eo4flood-fe",
-  "title": "Brahmaputra - S2 Flood Extent 10 m - 2024-10-15",
-  "description": "EO4FLOOD flood extent for Brahmaputra from Sentinel-2 on 2024-10-15. Derived from From S2.",
-  "license": "cc-by-4.0",
-  "created": "2025-07-01T00:00:00Z",
-  "start_datetime": "2024-10-15T00:00:00Z",
-  "end_datetime": "2024-10-15T00:00:00Z",
-  "platform": "Sentinel-2",
-  "instruments": [
-    "msi"
-  ],
-  "constellation": "sentinel-2",
-  "gsd": 10,
-  "proj:epsg": 4326,
-  "proj:shape": [
-    10644,
-    11749
-  ],
-  "proj:transform": [
-    9.484656136566174e-05,
-    0.0,
-    88.98478836443486,
-    0.0,
-    -9.484656136566174e-05,
-    26.206000495237166
-  ],
-  "eo4flood:basin_name": "Brahmaputra",
-  "eo4flood:basin_code": "braa",
-  "eo4flood:sensor": "S2",
-  "eo4flood:source_folder": "From S2",
-  "eo4flood:local_relative_path": "Brahmaputra/Flood_extent/From S2/EO4FLOOD_S2_Flood_Extent_10m_braa_20241015_20250701.tif",
-  "eo4flood:processing_date": "2025-07-01",
-  "datetime": "2024-10-15T00:00:00Z"
+  "title": "Brahmaputra - S2 Flood Extent 10 m - 2024-10-15"
 }

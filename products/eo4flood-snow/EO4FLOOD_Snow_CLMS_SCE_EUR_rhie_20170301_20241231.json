@@ -41,7 +41,254 @@
     "description": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe ",
     "start_datetime": "2017-03-01T00:00:00Z",
     "end_datetime": "2024-12-31T00:00:00Z",
-    "datetime": "2017-03-01T00:00:00Z"
+    "datetime": "2017-03-01T00:00:00Z",
+    "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe ",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CLMS_SCE_EUR_rhie_20170301_20241231.zarr",
+    "zarr:attributes": {
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe ",
+      "project": "EO4FLOOD",
+      "basin_name": "Rhine",
+      "pdate": "2025-10-30 11:21:07",
+      "producer": "Magellium",
+      "source": "Snow Cover Extent dataset (version 1.0.1) from the CLMS portfolio, derived from EO satellite imagery",
+      "references": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-europe-v1-0-500m",
+      "temporal_interval": "2017-03-01T00:00:00Z / 2024-12-31T235959Z",
+      "version": "V1.0",
+      "format": "netCDF",
+      "conventions": "CF-1.6",
+      "DOI": "https://doi.org/10.2909/e2dd658f-8835-4b17-bcd5-eeb921a79a61",
+      "acknowledgements": "ESA EO4FLOOD project"
+    },
+    "zarr:arrays": {
+      "crs": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i4",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [],
+        "shape": [],
+        "chunks": [],
+        "attrs": {
+          "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0,
+          "epsg_code": "EPSG:4326",
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "GeoTransform": "-180 0.05 0 90 0 -0.05",
+          "_ARRAY_DIMENSIONS": []
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          1340
+        ],
+        "chunks": [
+          1340
+        ],
+        "attrs": {
+          "units": "degrees_north",
+          "long_name": "WGS84 latitude coordinates, center of pixel",
+          "standard_name": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          1740
+        ],
+        "chunks": [
+          1740
+        ],
+        "attrs": {
+          "units": "degrees_east",
+          "long_name": "WGS84 longitude coordinates, center of pixel",
+          "standard_name": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "sce": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "zstd",
+          "clevel": 4,
+          "shuffle": 2,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2863,
+          1340,
+          1740
+        ],
+        "chunks": [
+          10,
+          670,
+          870
+        ],
+        "attrs": {
+          "units": "percent",
+          "long_name": "Snow Cover Extent",
+          "standard_name": "surface_snow area_fraction",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2863
+        ],
+        "chunks": [
+          2863
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "units": "hours since 1950-01-01",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2017-03-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ],
+        "description": "time",
+        "step": "P1DT0H0M0S",
+        "type": "temporal",
+        "size": 2863
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          3.702500000000001,
+          12.397499999999999
+        ],
+        "description": "WGS84 longitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 1740
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          45.8025,
+          52.4975
+        ],
+        "description": "WGS84 latitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 1340
+      }
+    },
+    "cube:variables": {
+      "sce": {
+        "type": "data",
+        "description": "Snow Cover Extent",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "percent",
+        "attrs": {
+          "units": "percent",
+          "long_name": "Snow Cover Extent",
+          "standard_name": "surface_snow area_fraction",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          2863,
+          1340,
+          1740
+        ],
+        "chunks": [
+          10,
+          670,
+          870
+        ]
+      }
+    }
   },
   "links": [
     {
@@ -68,256 +315,5 @@
     }
   },
   "collection": "eo4flood-snow",
-  "title": "Rhine - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31",
-  "description": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe ",
-  "license": "cc-by-4.0",
-  "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CLMS_SCE_EUR_rhie_20170301_20241231.zarr",
-  "zarr:attributes": {
-    "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Cover Extent,Continental Europe ",
-    "project": "EO4FLOOD",
-    "basin_name": "Rhine",
-    "pdate": "2025-10-30 11:21:07",
-    "producer": "Magellium",
-    "source": "Snow Cover Extent dataset (version 1.0.1) from the CLMS portfolio, derived from EO satellite imagery",
-    "references": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-europe-v1-0-500m",
-    "temporal_interval": "2017-03-01T00:00:00Z / 2024-12-31T235959Z",
-    "version": "V1.0",
-    "format": "netCDF",
-    "conventions": "CF-1.6",
-    "DOI": "https://doi.org/10.2909/e2dd658f-8835-4b17-bcd5-eeb921a79a61",
-    "acknowledgements": "ESA EO4FLOOD project"
-  },
-  "zarr:arrays": {
-    "crs": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<i4",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [],
-      "shape": [],
-      "chunks": [],
-      "attrs": {
-        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
-        "grid_mapping_name": "latitude_longitude",
-        "longitude_of_prime_meridian": 0,
-        "epsg_code": "EPSG:4326",
-        "semi_major_axis": 6378137.0,
-        "inverse_flattening": 298.257223563,
-        "GeoTransform": "-180 0.05 0 90 0 -0.05",
-        "_ARRAY_DIMENSIONS": []
-      }
-    },
-    "lat": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lat"
-      ],
-      "shape": [
-        1340
-      ],
-      "chunks": [
-        1340
-      ],
-      "attrs": {
-        "units": "degrees_north",
-        "long_name": "WGS84 latitude coordinates, center of pixel",
-        "standard_name": "latitude",
-        "_ARRAY_DIMENSIONS": [
-          "lat"
-        ]
-      }
-    },
-    "lon": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lon"
-      ],
-      "shape": [
-        1740
-      ],
-      "chunks": [
-        1740
-      ],
-      "attrs": {
-        "units": "degrees_east",
-        "long_name": "WGS84 longitude coordinates, center of pixel",
-        "standard_name": "longitude",
-        "_ARRAY_DIMENSIONS": [
-          "lon"
-        ]
-      }
-    },
-    "sce": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "zstd",
-        "clevel": 4,
-        "shuffle": 2,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "shape": [
-        2863,
-        1340,
-        1740
-      ],
-      "chunks": [
-        10,
-        670,
-        870
-      ],
-      "attrs": {
-        "units": "percent",
-        "long_name": "Snow Cover Extent",
-        "standard_name": "surface_snow area_fraction",
-        "grid_mapping": "crs",
-        "_ARRAY_DIMENSIONS": [
-          "time",
-          "lat",
-          "lon"
-        ]
-      }
-    },
-    "time": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f4",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time"
-      ],
-      "shape": [
-        2863
-      ],
-      "chunks": [
-        2863
-      ],
-      "attrs": {
-        "long_name": "time",
-        "standard_name": "time",
-        "units": "hours since 1950-01-01",
-        "calendar": "proleptic_gregorian",
-        "_ARRAY_DIMENSIONS": [
-          "time"
-        ]
-      }
-    }
-  },
-  "start_datetime": "2017-03-01T00:00:00Z",
-  "end_datetime": "2024-12-31T00:00:00Z",
-  "cube:dimensions": {
-    "time": {
-      "extent": [
-        "2017-03-01T00:00:00Z",
-        "2024-12-31T00:00:00Z"
-      ],
-      "description": "time",
-      "step": "P1DT0H0M0S",
-      "type": "temporal",
-      "size": 2863
-    },
-    "lon": {
-      "axis": "x",
-      "extent": [
-        3.702500000000001,
-        12.397499999999999
-      ],
-      "description": "WGS84 longitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 1740
-    },
-    "lat": {
-      "axis": "y",
-      "extent": [
-        45.8025,
-        52.4975
-      ],
-      "description": "WGS84 latitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 1340
-    }
-  },
-  "cube:variables": {
-    "sce": {
-      "type": "data",
-      "description": "Snow Cover Extent",
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "unit": "percent",
-      "attrs": {
-        "units": "percent",
-        "long_name": "Snow Cover Extent",
-        "standard_name": "surface_snow area_fraction",
-        "grid_mapping": "crs"
-      },
-      "shape": [
-        2863,
-        1340,
-        1740
-      ],
-      "chunks": [
-        10,
-        670,
-        870
-      ]
-    }
-  },
-  "datetime": null
+  "title": "Rhine - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31"
 }

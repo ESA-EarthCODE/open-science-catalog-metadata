@@ -41,7 +41,51 @@
     "description": "",
     "start_datetime": "2008-10-11T08:28:15Z",
     "end_datetime": "2025-10-29T09:04:31Z",
-    "datetime": "2008-10-11T08:28:15Z"
+    "datetime": "2008-10-11T08:28:15Z",
+    "nc_attributes": {
+      "dahiti_id": "10509",
+      "dataset": "water-level-altimetry",
+      "target_name": "Yarlung Tsangpo, River",
+      "location": "None",
+      "country": "China",
+      "continent": "Asia",
+      "longitude": 94.8552,
+      "latitude": 29.5175,
+      "geoid": -35.0219,
+      "software": "8.0",
+      "institution": "DGFI-TUM",
+      "source": "DAHITI",
+      "url": "https://dahiti.dgfi.tum.de/10509/",
+      "creation_date": "2025-11-14 12:06:19"
+    },
+    "parquet_column_metadata": {
+      "datetime": {
+        "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+        "valid_min": "2008-10-11 08:28:15",
+        "valid_max": "2025-10-29 09:04:31"
+      },
+      "wse": {
+        "standard_name": "Water level derived from satellite altimetry",
+        "unit": "m",
+        "valid_min": 2910.279,
+        "valid_max": 2920.11
+      },
+      "wse_u": {
+        "standard_name": "Water level uncertainty",
+        "unit": "m",
+        "valid_min": 0.0,
+        "valid_max": 0.097
+      },
+      "mission": {
+        "standard_name": "Mission name"
+      },
+      "phase": {
+        "standard_name": "Mission phase"
+      },
+      "timeliness": {
+        "standard_name": "Timeliness of dataset"
+      }
+    }
   },
   "links": [
     {
@@ -68,53 +112,5 @@
     }
   },
   "collection": "eo4flood-water-level",
-  "nc_attributes": {
-    "dahiti_id": "10509",
-    "dataset": "water-level-altimetry",
-    "target_name": "Yarlung Tsangpo, River",
-    "location": "None",
-    "country": "China",
-    "continent": "Asia",
-    "longitude": 94.8552,
-    "latitude": 29.5175,
-    "geoid": -35.0219,
-    "software": "8.0",
-    "institution": "DGFI-TUM",
-    "source": "DAHITI",
-    "url": "https://dahiti.dgfi.tum.de/10509/",
-    "creation_date": "2025-11-14 12:06:19"
-  },
-  "parquet_column_metadata": {
-    "datetime": {
-      "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
-      "valid_min": "2008-10-11 08:28:15",
-      "valid_max": "2025-10-29 09:04:31"
-    },
-    "wse": {
-      "standard_name": "Water level derived from satellite altimetry",
-      "unit": "m",
-      "valid_min": 2910.279,
-      "valid_max": 2920.11
-    },
-    "wse_u": {
-      "standard_name": "Water level uncertainty",
-      "unit": "m",
-      "valid_min": 0.0,
-      "valid_max": 0.097
-    },
-    "mission": {
-      "standard_name": "Mission name"
-    },
-    "phase": {
-      "standard_name": "Mission phase"
-    },
-    "timeliness": {
-      "standard_name": "Timeliness of dataset"
-    }
-  },
-  "license": "cc-by-4.0",
-  "start_datetime": "2008-10-11T08:28:15Z",
-  "end_datetime": "2025-10-29T09:04:31Z",
-  "datetime": null,
   "title": "Brahmaputra - Water Level Altimetry - DAHITI 10509 - Yarlung Tsangpo, River - 2008-10-11 to 2025-10-29"
 }

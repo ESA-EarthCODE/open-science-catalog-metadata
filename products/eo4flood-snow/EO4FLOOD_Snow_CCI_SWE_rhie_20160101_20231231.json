@@ -41,7 +41,255 @@
     "description": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent",
     "start_datetime": "2016-01-01T00:00:00Z",
     "end_datetime": "2023-12-31T00:00:00Z",
-    "datetime": "2016-01-01T00:00:00Z"
+    "datetime": "2016-01-01T00:00:00Z",
+    "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CCI_SWE_rhie_20160101_20231231.zarr",
+    "zarr:attributes": {
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent",
+      "project": "EO4FLOOD",
+      "basin_name": "Rhine",
+      "pdate": "2025-08-07 18:24:51",
+      "producer": "Magellium",
+      "contact": "ana.carmonabardella@magellium.fr",
+      "source": "Snow Water Equivalent dataset (version 4.0) from the ESA Climate Change Initiative snow project",
+      "references": "http://snow-cci.enveo.at/",
+      "temporal_interval": "2016-01-01T00:00:00Z / 2023-12-31T235959Z",
+      "version": "V1.0",
+      "format": "netCDF",
+      "conventions": "CF-1.9",
+      "DOI": "https://dx.doi.org/10.5285/edf8abd23f4a40aabd4d52e48dec06ea",
+      "acknowledgements": "ESA EO4FLOOD project"
+    },
+    "zarr:arrays": {
+      "crs": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i4",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [],
+        "shape": [],
+        "chunks": [],
+        "attrs": {
+          "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0,
+          "epsg_code": "EPSG:4326",
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "GeoTransform": "-180 0.05 0 90 0 -0.05",
+          "_ARRAY_DIMENSIONS": []
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          67
+        ],
+        "chunks": [
+          67
+        ],
+        "attrs": {
+          "units": "degrees_north",
+          "long_name": "WGS84 latitude coordinates, center of pixel",
+          "standard_name": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          87
+        ],
+        "chunks": [
+          87
+        ],
+        "attrs": {
+          "units": "degrees_east",
+          "long_name": "WGS84 longitude coordinates, center of pixel",
+          "standard_name": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "swe": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2922,
+          67,
+          87
+        ],
+        "chunks": [
+          1686,
+          38,
+          50
+        ],
+        "attrs": {
+          "units": "mm",
+          "long_name": "snow water equivalent",
+          "standard_name": "snow_water_equivalent",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i8",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2922
+        ],
+        "chunks": [
+          2922
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "units": "days since 2016-01-01 00:00:00",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2016-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ],
+        "description": "time",
+        "step": "P1DT0H0M0S",
+        "type": "temporal",
+        "size": 2922
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          3.75,
+          12.35
+        ],
+        "description": "WGS84 longitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 87
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          45.85,
+          52.45
+        ],
+        "description": "WGS84 latitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 67
+      }
+    },
+    "cube:variables": {
+      "swe": {
+        "type": "data",
+        "description": "snow water equivalent",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "mm",
+        "attrs": {
+          "units": "mm",
+          "long_name": "snow water equivalent",
+          "standard_name": "snow_water_equivalent",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          2922,
+          67,
+          87
+        ],
+        "chunks": [
+          1686,
+          38,
+          50
+        ]
+      }
+    }
   },
   "links": [
     {
@@ -68,257 +316,5 @@
     }
   },
   "collection": "eo4flood-snow",
-  "title": "Rhine - Snow CCI SWE - 2016-01-01 to 2023-12-31",
-  "description": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent",
-  "license": "cc-by-4.0",
-  "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CCI_SWE_rhie_20160101_20231231.zarr",
-  "zarr:attributes": {
-    "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent",
-    "project": "EO4FLOOD",
-    "basin_name": "Rhine",
-    "pdate": "2025-08-07 18:24:51",
-    "producer": "Magellium",
-    "contact": "ana.carmonabardella@magellium.fr",
-    "source": "Snow Water Equivalent dataset (version 4.0) from the ESA Climate Change Initiative snow project",
-    "references": "http://snow-cci.enveo.at/",
-    "temporal_interval": "2016-01-01T00:00:00Z / 2023-12-31T235959Z",
-    "version": "V1.0",
-    "format": "netCDF",
-    "conventions": "CF-1.9",
-    "DOI": "https://dx.doi.org/10.5285/edf8abd23f4a40aabd4d52e48dec06ea",
-    "acknowledgements": "ESA EO4FLOOD project"
-  },
-  "zarr:arrays": {
-    "crs": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<i4",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [],
-      "shape": [],
-      "chunks": [],
-      "attrs": {
-        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
-        "grid_mapping_name": "latitude_longitude",
-        "longitude_of_prime_meridian": 0,
-        "epsg_code": "EPSG:4326",
-        "semi_major_axis": 6378137.0,
-        "inverse_flattening": 298.257223563,
-        "GeoTransform": "-180 0.05 0 90 0 -0.05",
-        "_ARRAY_DIMENSIONS": []
-      }
-    },
-    "lat": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lat"
-      ],
-      "shape": [
-        67
-      ],
-      "chunks": [
-        67
-      ],
-      "attrs": {
-        "units": "degrees_north",
-        "long_name": "WGS84 latitude coordinates, center of pixel",
-        "standard_name": "latitude",
-        "_ARRAY_DIMENSIONS": [
-          "lat"
-        ]
-      }
-    },
-    "lon": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lon"
-      ],
-      "shape": [
-        87
-      ],
-      "chunks": [
-        87
-      ],
-      "attrs": {
-        "units": "degrees_east",
-        "long_name": "WGS84 longitude coordinates, center of pixel",
-        "standard_name": "longitude",
-        "_ARRAY_DIMENSIONS": [
-          "lon"
-        ]
-      }
-    },
-    "swe": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "shape": [
-        2922,
-        67,
-        87
-      ],
-      "chunks": [
-        1686,
-        38,
-        50
-      ],
-      "attrs": {
-        "units": "mm",
-        "long_name": "snow water equivalent",
-        "standard_name": "snow_water_equivalent",
-        "grid_mapping": "crs",
-        "_ARRAY_DIMENSIONS": [
-          "time",
-          "lat",
-          "lon"
-        ]
-      }
-    },
-    "time": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<i8",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time"
-      ],
-      "shape": [
-        2922
-      ],
-      "chunks": [
-        2922
-      ],
-      "attrs": {
-        "long_name": "time",
-        "standard_name": "time",
-        "units": "days since 2016-01-01 00:00:00",
-        "calendar": "proleptic_gregorian",
-        "_ARRAY_DIMENSIONS": [
-          "time"
-        ]
-      }
-    }
-  },
-  "start_datetime": "2016-01-01T00:00:00Z",
-  "end_datetime": "2023-12-31T00:00:00Z",
-  "cube:dimensions": {
-    "time": {
-      "extent": [
-        "2016-01-01T00:00:00Z",
-        "2023-12-31T00:00:00Z"
-      ],
-      "description": "time",
-      "step": "P1DT0H0M0S",
-      "type": "temporal",
-      "size": 2922
-    },
-    "lon": {
-      "axis": "x",
-      "extent": [
-        3.75,
-        12.35
-      ],
-      "description": "WGS84 longitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 87
-    },
-    "lat": {
-      "axis": "y",
-      "extent": [
-        45.85,
-        52.45
-      ],
-      "description": "WGS84 latitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 67
-    }
-  },
-  "cube:variables": {
-    "swe": {
-      "type": "data",
-      "description": "snow water equivalent",
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "unit": "mm",
-      "attrs": {
-        "units": "mm",
-        "long_name": "snow water equivalent",
-        "standard_name": "snow_water_equivalent",
-        "grid_mapping": "crs"
-      },
-      "shape": [
-        2922,
-        67,
-        87
-      ],
-      "chunks": [
-        1686,
-        38,
-        50
-      ]
-    }
-  },
-  "datetime": null
+  "title": "Rhine - Snow CCI SWE - 2016-01-01 to 2023-12-31"
 }

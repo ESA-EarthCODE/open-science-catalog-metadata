@@ -41,7 +41,34 @@
     "description": "EO4FLOOD flood extent for Negro from VIIRS on 2021-06-14 to 2021-06-18. Derived from From VIIRS and event folder Negro_North_20210616.",
     "start_datetime": "2021-06-14T00:00:00Z",
     "end_datetime": "2021-06-18T00:00:00Z",
-    "datetime": "2021-06-14T00:00:00Z"
+    "datetime": "2021-06-14T00:00:00Z",
+    "title": "EO4FLOOD flood extent for Negro from VIIRS on 2021-06-14 to 2021-06-18",
+    "created": "2025-07-28T00:00:00Z",
+    "platform": "VIIRS",
+    "instruments": [
+      "viirs"
+    ],
+    "gsd": 30,
+    "proj:epsg": 4326,
+    "proj:shape": [
+      1340,
+      1462
+    ],
+    "proj:transform": [
+      0.0002777777777777778,
+      0.0,
+      -63.094017917864484,
+      0.0,
+      -0.0002777777777777778,
+      -0.7344083119663861
+    ],
+    "eo4flood:basin_name": "Negro",
+    "eo4flood:basin_code": "nego",
+    "eo4flood:sensor": "VIIRS",
+    "eo4flood:source_folder": "From VIIRS",
+    "eo4flood:event_name": "Negro_North_20210616",
+    "eo4flood:local_relative_path": "Negro/From VIIRS/Negro_North_20210616/EO4FLOOD_VIIRS_FloodedExtent_30m_nego_20210614_20210618_20250728.tif",
+    "eo4flood:processing_date": "2025-07-28"
   },
   "links": [
     {
@@ -68,36 +95,5 @@
     }
   },
   "collection": "eo4flood-fe",
-  "title": "Negro - VIIRS Flooded Extent 30 m - Event North - 2021-06-16 - 2021-06-14 to 2021-06-18",
-  "description": "EO4FLOOD flood extent for Negro from VIIRS on 2021-06-14 to 2021-06-18. Derived from From VIIRS and event folder Negro_North_20210616.",
-  "license": "cc-by-4.0",
-  "created": "2025-07-28T00:00:00Z",
-  "start_datetime": "2021-06-14T00:00:00Z",
-  "end_datetime": "2021-06-18T00:00:00Z",
-  "platform": "VIIRS",
-  "instruments": [
-    "viirs"
-  ],
-  "gsd": 30,
-  "proj:epsg": 4326,
-  "proj:shape": [
-    1340,
-    1462
-  ],
-  "proj:transform": [
-    0.0002777777777777778,
-    0.0,
-    -63.094017917864484,
-    0.0,
-    -0.0002777777777777778,
-    -0.7344083119663861
-  ],
-  "eo4flood:basin_name": "Negro",
-  "eo4flood:basin_code": "nego",
-  "eo4flood:sensor": "VIIRS",
-  "eo4flood:source_folder": "From VIIRS",
-  "eo4flood:event_name": "Negro_North_20210616",
-  "eo4flood:local_relative_path": "Negro/From VIIRS/Negro_North_20210616/EO4FLOOD_VIIRS_FloodedExtent_30m_nego_20210614_20210618_20250728.tif",
-  "eo4flood:processing_date": "2025-07-28",
-  "datetime": null
+  "title": "Negro - VIIRS Flooded Extent 30 m - Event North - 2021-06-16 - 2021-06-14 to 2021-06-18"
 }

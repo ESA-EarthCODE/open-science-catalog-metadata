@@ -39,6 +39,54 @@
   "properties": {
     "license": "cc-by-4.0",
     "description": "",
+    "nc_attributes": {
+      "title": "Multi-mission water surface time series",
+      "producer": "DTU Space, Denmark",
+      "project": "EO4Flood",
+      "references": "TBC",
+      "contact": "K. Nielsen (karni@space.dtu.dk)",
+      "pdate": "Fri Feb 13 14:54:02 2026",
+      "VSlon": 15.33333302,
+      "VSlat": -4.136666775,
+      "VSchainage": 58532.2430241101,
+      "VSwidth": 379.5,
+      "VSReachID": "13217000081",
+      "VSgauge": "1147013_GRDC",
+      "reachLength": 98.4302148209587,
+      "meantime": 4.846091954023,
+      "Conventions": "ncdf4"
+    },
+    "parquet_column_metadata": {
+      "chainage": {
+        "units": "m",
+        "long_name": "chainage"
+      },
+      "slope_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope grid"
+      },
+      "slopesd_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope std grid"
+      },
+      "slope_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope in VS",
+        "description": "The water surface slope time series for the VS of interest"
+      },
+      "slopesd_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope std in VS"
+      },
+      "lon": {
+        "units": "m",
+        "long_name": "longitude_grid"
+      },
+      "lat": {
+        "units": "m",
+        "long_name": "latitude_grid"
+      }
+    },
     "datetime": "2026-05-28T16:27:06.153156Z"
   },
   "links": [
@@ -66,55 +114,5 @@
     }
   },
   "collection": "eo4flood-water-level",
-  "nc_attributes": {
-    "title": "Multi-mission water surface time series",
-    "producer": "DTU Space, Denmark",
-    "project": "EO4Flood",
-    "references": "TBC",
-    "contact": "K. Nielsen (karni@space.dtu.dk)",
-    "pdate": "Fri Feb 13 14:54:02 2026",
-    "VSlon": 15.33333302,
-    "VSlat": -4.136666775,
-    "VSchainage": 58532.2430241101,
-    "VSwidth": 379.5,
-    "VSReachID": "13217000081",
-    "VSgauge": "1147013_GRDC",
-    "reachLength": 98.4302148209587,
-    "meantime": 4.846091954023,
-    "Conventions": "ncdf4"
-  },
-  "parquet_column_metadata": {
-    "chainage": {
-      "units": "m",
-      "long_name": "chainage"
-    },
-    "slope_grid": {
-      "units": "cm/km",
-      "long_name": "water surface slope grid"
-    },
-    "slopesd_grid": {
-      "units": "cm/km",
-      "long_name": "water surface slope std grid"
-    },
-    "slope_vs": {
-      "units": "cm/km",
-      "long_name": "water surface slope in VS",
-      "description": "The water surface slope time series for the VS of interest"
-    },
-    "slopesd_vs": {
-      "units": "cm/km",
-      "long_name": "water surface slope std in VS"
-    },
-    "lon": {
-      "units": "m",
-      "long_name": "longitude_grid"
-    },
-    "lat": {
-      "units": "m",
-      "long_name": "latitude_grid"
-    }
-  },
-  "license": "cc-by-4.0",
-  "datetime": "2026-05-28T16:27:06.153156Z",
   "title": "Congo - Multi-mission water surface time series - VS 1321_001 - Gauge 1147013_GRDC"
 }

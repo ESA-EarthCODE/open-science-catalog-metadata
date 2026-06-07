@@ -41,7 +41,34 @@
     "description": "EO4FLOOD flood extent for Negro from Sentinel-2 on 2022-05-12. Derived from From S2.",
     "start_datetime": "2022-05-12T00:00:00Z",
     "end_datetime": "2022-05-12T00:00:00Z",
-    "datetime": "2022-05-12T00:00:00Z"
+    "datetime": "2022-05-12T00:00:00Z",
+    "title": "EO4FLOOD flood extent for Negro from Sentinel-2 on 2022-05-12",
+    "created": "2025-07-01T00:00:00Z",
+    "platform": "Sentinel-2",
+    "instruments": [
+      "msi"
+    ],
+    "constellation": "sentinel-2",
+    "gsd": 10,
+    "proj:epsg": 4326,
+    "proj:shape": [
+      11042,
+      10986
+    ],
+    "proj:transform": [
+      9.009655770867232e-05,
+      0.0,
+      -60.302154506360026,
+      0.0,
+      -9.009655770867232e-05,
+      -2.7085354176889473
+    ],
+    "eo4flood:basin_name": "Negro",
+    "eo4flood:basin_code": "nego",
+    "eo4flood:sensor": "S2",
+    "eo4flood:source_folder": "From S2",
+    "eo4flood:local_relative_path": "Negro/From S2/EO4FLOOD_S2_Flood_Extent_10m_nego_20220512_20250701.tif",
+    "eo4flood:processing_date": "2025-07-01"
   },
   "links": [
     {
@@ -68,36 +95,5 @@
     }
   },
   "collection": "eo4flood-fe",
-  "title": "Negro - S2 Flood Extent 10 m - 2022-05-12",
-  "description": "EO4FLOOD flood extent for Negro from Sentinel-2 on 2022-05-12. Derived from From S2.",
-  "license": "cc-by-4.0",
-  "created": "2025-07-01T00:00:00Z",
-  "start_datetime": "2022-05-12T00:00:00Z",
-  "end_datetime": "2022-05-12T00:00:00Z",
-  "platform": "Sentinel-2",
-  "instruments": [
-    "msi"
-  ],
-  "constellation": "sentinel-2",
-  "gsd": 10,
-  "proj:epsg": 4326,
-  "proj:shape": [
-    11042,
-    10986
-  ],
-  "proj:transform": [
-    9.009655770867232e-05,
-    0.0,
-    -60.302154506360026,
-    0.0,
-    -9.009655770867232e-05,
-    -2.7085354176889473
-  ],
-  "eo4flood:basin_name": "Negro",
-  "eo4flood:basin_code": "nego",
-  "eo4flood:sensor": "S2",
-  "eo4flood:source_folder": "From S2",
-  "eo4flood:local_relative_path": "Negro/From S2/EO4FLOOD_S2_Flood_Extent_10m_nego_20220512_20250701.tif",
-  "eo4flood:processing_date": "2025-07-01",
-  "datetime": "2022-05-12T00:00:00Z"
+  "title": "Negro - S2 Flood Extent 10 m - 2022-05-12"
 }

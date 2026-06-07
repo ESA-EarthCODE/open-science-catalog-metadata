@@ -39,6 +39,37 @@
   "properties": {
     "license": "cc-by-4.0",
     "description": "",
+    "nc_attributes": {},
+    "parquet_column_metadata": {
+      "chainage": {
+        "units": "m",
+        "long_name": "chainage"
+      },
+      "slope_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope grid"
+      },
+      "slopesd_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope std grid"
+      },
+      "slope_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope in VS"
+      },
+      "slopesd_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope std in VS"
+      },
+      "lon": {
+        "units": "m",
+        "long_name": "longitude_grid"
+      },
+      "lat": {
+        "units": "m",
+        "long_name": "latitude_grid"
+      }
+    },
     "datetime": "2026-05-28T16:27:10.140820Z"
   },
   "links": [
@@ -66,38 +97,5 @@
     }
   },
   "collection": "eo4flood-water-level",
-  "nc_attributes": {},
-  "parquet_column_metadata": {
-    "chainage": {
-      "units": "m",
-      "long_name": "chainage"
-    },
-    "slope_grid": {
-      "units": "cm/km",
-      "long_name": "water surface slope grid"
-    },
-    "slopesd_grid": {
-      "units": "cm/km",
-      "long_name": "water surface slope std grid"
-    },
-    "slope_vs": {
-      "units": "cm/km",
-      "long_name": "water surface slope in VS"
-    },
-    "slopesd_vs": {
-      "units": "cm/km",
-      "long_name": "water surface slope std in VS"
-    },
-    "lon": {
-      "units": "m",
-      "long_name": "longitude_grid"
-    },
-    "lat": {
-      "units": "m",
-      "long_name": "latitude_grid"
-    }
-  },
-  "license": "cc-by-4.0",
-  "datetime": "2026-05-28T16:27:10.140820Z",
   "title": "Ebro - Multi-mission Water Surface Slope - VS 2160_001"
 }

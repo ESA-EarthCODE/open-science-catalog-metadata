@@ -41,7 +41,255 @@
     "description": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS",
     "start_datetime": "2020-01-01T00:00:00Z",
     "end_datetime": "2020-12-31T00:00:00Z",
-    "datetime": "2020-01-01T00:00:00Z"
+    "datetime": "2020-01-01T00:00:00Z",
+    "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20200101_20201231.zarr",
+    "zarr:attributes": {
+      "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS",
+      "project": "EO4FLOOD",
+      "basin_name": "Torne",
+      "pdate": "2025-08-14 18:31:08",
+      "producer": "Magellium",
+      "contact": "ana.carmonabardella@magellium.fr",
+      "source": "Snow Cover Fraction Ground dataset (version 3.0) from the ESA Climate Change Initiative snow project",
+      "references": "http://snow-cci.enveo.at/",
+      "temporal_interval": "2020-01-01T00:00:00Z / 2020-12-31T235959Z",
+      "version": "V1.0",
+      "format": "netCDF",
+      "conventions": "CF-1.10",
+      "DOI": "https://dx.doi.org/10.5285/80567d38de3f4b038ee6e6e53ed1af8a",
+      "acknowledgements": "ESA EO4FLOOD project"
+    },
+    "zarr:arrays": {
+      "crs": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i4",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [],
+        "shape": [],
+        "chunks": [],
+        "attrs": {
+          "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0,
+          "epsg_code": "EPSG:4326",
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "GeoTransform": "-180 0.05 0 90 0 -0.05",
+          "_ARRAY_DIMENSIONS": []
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          440
+        ],
+        "chunks": [
+          440
+        ],
+        "attrs": {
+          "units": "degrees_north",
+          "long_name": "WGS84 latitude coordinates, center of pixel",
+          "standard_name": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          800
+        ],
+        "chunks": [
+          800
+        ],
+        "attrs": {
+          "units": "degrees_east",
+          "long_name": "WGS84 longitude coordinates, center of pixel",
+          "standard_name": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "scfg": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          366,
+          440,
+          800
+        ],
+        "chunks": [
+          107,
+          129,
+          235
+        ],
+        "attrs": {
+          "units": "percent",
+          "long_name": "Snow Cover Fraction on Ground",
+          "standard_name": "surface_snow_area_fraction",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i8",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          366
+        ],
+        "chunks": [
+          366
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "units": "days since 2020-01-01 00:00:00",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2020-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ],
+        "description": "time",
+        "step": "P1DT0H0M0S",
+        "type": "temporal",
+        "size": 366
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          17.505,
+          25.495000000000008
+        ],
+        "description": "WGS84 longitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 800
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          65.305,
+          69.69500000000001
+        ],
+        "description": "WGS84 latitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 440
+      }
+    },
+    "cube:variables": {
+      "scfg": {
+        "type": "data",
+        "description": "Snow Cover Fraction on Ground",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "percent",
+        "attrs": {
+          "units": "percent",
+          "long_name": "Snow Cover Fraction on Ground",
+          "standard_name": "surface_snow_area_fraction",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          366,
+          440,
+          800
+        ],
+        "chunks": [
+          107,
+          129,
+          235
+        ]
+      }
+    }
   },
   "links": [
     {
@@ -68,257 +316,5 @@
     }
   },
   "collection": "eo4flood-snow",
-  "title": "Torne - Snow CCI SCFG MODIS - 2020-01-01 to 2020-12-31",
-  "description": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS",
-  "license": "cc-by-4.0",
-  "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20200101_20201231.zarr",
-  "zarr:attributes": {
-    "title": "ESA EO4FLOOD project Snow dataset - CCI Snow Cover Fraction on Ground from MODIS",
-    "project": "EO4FLOOD",
-    "basin_name": "Torne",
-    "pdate": "2025-08-14 18:31:08",
-    "producer": "Magellium",
-    "contact": "ana.carmonabardella@magellium.fr",
-    "source": "Snow Cover Fraction Ground dataset (version 3.0) from the ESA Climate Change Initiative snow project",
-    "references": "http://snow-cci.enveo.at/",
-    "temporal_interval": "2020-01-01T00:00:00Z / 2020-12-31T235959Z",
-    "version": "V1.0",
-    "format": "netCDF",
-    "conventions": "CF-1.10",
-    "DOI": "https://dx.doi.org/10.5285/80567d38de3f4b038ee6e6e53ed1af8a",
-    "acknowledgements": "ESA EO4FLOOD project"
-  },
-  "zarr:arrays": {
-    "crs": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<i4",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [],
-      "shape": [],
-      "chunks": [],
-      "attrs": {
-        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
-        "grid_mapping_name": "latitude_longitude",
-        "longitude_of_prime_meridian": 0,
-        "epsg_code": "EPSG:4326",
-        "semi_major_axis": 6378137.0,
-        "inverse_flattening": 298.257223563,
-        "GeoTransform": "-180 0.05 0 90 0 -0.05",
-        "_ARRAY_DIMENSIONS": []
-      }
-    },
-    "lat": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lat"
-      ],
-      "shape": [
-        440
-      ],
-      "chunks": [
-        440
-      ],
-      "attrs": {
-        "units": "degrees_north",
-        "long_name": "WGS84 latitude coordinates, center of pixel",
-        "standard_name": "latitude",
-        "_ARRAY_DIMENSIONS": [
-          "lat"
-        ]
-      }
-    },
-    "lon": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lon"
-      ],
-      "shape": [
-        800
-      ],
-      "chunks": [
-        800
-      ],
-      "attrs": {
-        "units": "degrees_east",
-        "long_name": "WGS84 longitude coordinates, center of pixel",
-        "standard_name": "longitude",
-        "_ARRAY_DIMENSIONS": [
-          "lon"
-        ]
-      }
-    },
-    "scfg": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "shape": [
-        366,
-        440,
-        800
-      ],
-      "chunks": [
-        107,
-        129,
-        235
-      ],
-      "attrs": {
-        "units": "percent",
-        "long_name": "Snow Cover Fraction on Ground",
-        "standard_name": "surface_snow_area_fraction",
-        "grid_mapping": "crs",
-        "_ARRAY_DIMENSIONS": [
-          "time",
-          "lat",
-          "lon"
-        ]
-      }
-    },
-    "time": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<i8",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time"
-      ],
-      "shape": [
-        366
-      ],
-      "chunks": [
-        366
-      ],
-      "attrs": {
-        "long_name": "time",
-        "standard_name": "time",
-        "units": "days since 2020-01-01 00:00:00",
-        "calendar": "proleptic_gregorian",
-        "_ARRAY_DIMENSIONS": [
-          "time"
-        ]
-      }
-    }
-  },
-  "start_datetime": "2020-01-01T00:00:00Z",
-  "end_datetime": "2020-12-31T00:00:00Z",
-  "cube:dimensions": {
-    "time": {
-      "extent": [
-        "2020-01-01T00:00:00Z",
-        "2020-12-31T00:00:00Z"
-      ],
-      "description": "time",
-      "step": "P1DT0H0M0S",
-      "type": "temporal",
-      "size": 366
-    },
-    "lon": {
-      "axis": "x",
-      "extent": [
-        17.505,
-        25.495000000000008
-      ],
-      "description": "WGS84 longitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 800
-    },
-    "lat": {
-      "axis": "y",
-      "extent": [
-        65.305,
-        69.69500000000001
-      ],
-      "description": "WGS84 latitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 440
-    }
-  },
-  "cube:variables": {
-    "scfg": {
-      "type": "data",
-      "description": "Snow Cover Fraction on Ground",
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "unit": "percent",
-      "attrs": {
-        "units": "percent",
-        "long_name": "Snow Cover Fraction on Ground",
-        "standard_name": "surface_snow_area_fraction",
-        "grid_mapping": "crs"
-      },
-      "shape": [
-        366,
-        440,
-        800
-      ],
-      "chunks": [
-        107,
-        129,
-        235
-      ]
-    }
-  },
-  "datetime": null
+  "title": "Torne - Snow CCI SCFG MODIS - 2020-01-01 to 2020-12-31"
 }

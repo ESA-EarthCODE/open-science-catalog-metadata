@@ -41,7 +41,51 @@
     "description": "",
     "start_datetime": "2008-07-15T08:45:58Z",
     "end_datetime": "2025-10-30T15:09:00Z",
-    "datetime": "2008-07-15T08:45:58Z"
+    "datetime": "2008-07-15T08:45:58Z",
+    "nc_attributes": {
+      "dahiti_id": "10350",
+      "dataset": "water-level-altimetry",
+      "target_name": "Po, River",
+      "location": "None",
+      "country": "Italy",
+      "continent": "Europe",
+      "longitude": 11.5622,
+      "latitude": 44.9203,
+      "geoid": 42.4561,
+      "software": "8.0",
+      "institution": "DGFI-TUM",
+      "source": "DAHITI",
+      "url": "https://dahiti.dgfi.tum.de/10350/",
+      "creation_date": "2025-11-14 12:08:57"
+    },
+    "parquet_column_metadata": {
+      "datetime": {
+        "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+        "valid_min": "2008-07-15 08:45:58",
+        "valid_max": "2025-10-30 15:09:00"
+      },
+      "wse": {
+        "standard_name": "Water level derived from satellite altimetry",
+        "unit": "m",
+        "valid_min": 0.965,
+        "valid_max": 11.278
+      },
+      "wse_u": {
+        "standard_name": "Water level uncertainty",
+        "unit": "m",
+        "valid_min": 0.0,
+        "valid_max": 0.247
+      },
+      "mission": {
+        "standard_name": "Mission name"
+      },
+      "phase": {
+        "standard_name": "Mission phase"
+      },
+      "timeliness": {
+        "standard_name": "Timeliness of dataset"
+      }
+    }
   },
   "links": [
     {
@@ -68,53 +112,5 @@
     }
   },
   "collection": "eo4flood-water-level",
-  "nc_attributes": {
-    "dahiti_id": "10350",
-    "dataset": "water-level-altimetry",
-    "target_name": "Po, River",
-    "location": "None",
-    "country": "Italy",
-    "continent": "Europe",
-    "longitude": 11.5622,
-    "latitude": 44.9203,
-    "geoid": 42.4561,
-    "software": "8.0",
-    "institution": "DGFI-TUM",
-    "source": "DAHITI",
-    "url": "https://dahiti.dgfi.tum.de/10350/",
-    "creation_date": "2025-11-14 12:08:57"
-  },
-  "parquet_column_metadata": {
-    "datetime": {
-      "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
-      "valid_min": "2008-07-15 08:45:58",
-      "valid_max": "2025-10-30 15:09:00"
-    },
-    "wse": {
-      "standard_name": "Water level derived from satellite altimetry",
-      "unit": "m",
-      "valid_min": 0.965,
-      "valid_max": 11.278
-    },
-    "wse_u": {
-      "standard_name": "Water level uncertainty",
-      "unit": "m",
-      "valid_min": 0.0,
-      "valid_max": 0.247
-    },
-    "mission": {
-      "standard_name": "Mission name"
-    },
-    "phase": {
-      "standard_name": "Mission phase"
-    },
-    "timeliness": {
-      "standard_name": "Timeliness of dataset"
-    }
-  },
-  "license": "cc-by-4.0",
-  "start_datetime": "2008-07-15T08:45:58Z",
-  "end_datetime": "2025-10-30T15:09:00Z",
-  "datetime": null,
   "title": "Po - Water Level Altimetry - DAHITI 10350 - Po, River - 2008-07-15 to 2025-10-30"
 }

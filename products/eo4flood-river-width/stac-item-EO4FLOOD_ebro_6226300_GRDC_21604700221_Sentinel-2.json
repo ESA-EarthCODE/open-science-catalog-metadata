@@ -41,7 +41,48 @@
     "description": "",
     "start_datetime": "1984-03-01T00:00:00Z",
     "end_datetime": "2025-09-16T00:00:00Z",
-    "datetime": "1984-03-01T00:00:00Z"
+    "datetime": "1984-03-01T00:00:00Z",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river width",
+      "creation_time": "2025-09-22 15:14:53",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "Peyman.saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
+      "pdate": "2025-09-22",
+      "temporal interval": "30-Mar-2017 to 16-Sep-2025",
+      "version": "1.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "Will be added later on",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "time": {
+        "long_name": "Time since 1984-01-01 00:00"
+      },
+      "w": {
+        "long_name": "Estimated river width",
+        "units": "m"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "reach_ID": {
+        "long_name": "Reach ID from SWORD v17 dataset"
+      },
+      "satellite": {
+        "long_name": "Satellite mission name (e.g., Landsat, Sentinel-2, MODIS)"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    }
   },
   "links": [
     {
@@ -68,50 +109,5 @@
     }
   },
   "collection": "eo4flood-river-width",
-  "nc_attributes": {
-    "title": "ESA EO4FLOOD project river width",
-    "creation_time": "2025-09-22 15:14:53",
-    "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-    "contact": "Peyman.saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-    "pdate": "2025-09-22",
-    "temporal interval": "30-Mar-2017 to 16-Sep-2025",
-    "version": "1.0",
-    "Conventions": "CF-1.11-draft",
-    "DOI": "Will be added later on",
-    "Acknowledgements": "ESA EO4FLOOD project reference"
-  },
-  "parquet_column_metadata": {
-    "time": {
-      "long_name": "Time since 1984-01-01 00:00"
-    },
-    "w": {
-      "long_name": "Estimated river width",
-      "units": "m"
-    },
-    "basin": {
-      "long_name": "River basin name"
-    },
-    "gauge_name": {
-      "long_name": "Gauge station name"
-    },
-    "reach_ID": {
-      "long_name": "Reach ID from SWORD v17 dataset"
-    },
-    "satellite": {
-      "long_name": "Satellite mission name (e.g., Landsat, Sentinel-2, MODIS)"
-    },
-    "gauge_lat": {
-      "long_name": "Gauge latitude",
-      "units": "degrees_north"
-    },
-    "gauge_lon": {
-      "long_name": "Gauge longitude",
-      "units": "degrees_east"
-    }
-  },
-  "license": "cc-by-4.0",
-  "start_datetime": "1984-03-01T00:00:00Z",
-  "end_datetime": "2025-09-16T00:00:00Z",
-  "datetime": null,
   "title": "ebro - Ebro 6226300 Grdc 21604700221 Sentinel 2"
 }

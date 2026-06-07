@@ -39,6 +39,31 @@
   "properties": {
     "license": "cc-by-4.0",
     "description": "",
+    "nc_attributes": {
+      "dataset": "multi-mission-river-discharge",
+      "name": "ebro_cinca_47191",
+      "longitude": 0.3357,
+      "latitude": 41.5401,
+      "institution": "DGFI-TUM",
+      "creation_date": "2025-12-23T11:35:12.855585",
+      "comment": "plausible",
+      "author": "Daniel Scherer",
+      "units": "discharge in m^3/s",
+      "datetime_format": "ISO8601 string"
+    },
+    "parquet_column_metadata": {
+      "q": {
+        "units": "m^3/s"
+      },
+      "q_u_lower": {
+        "units": "m^3/s"
+      },
+      "q_u_upper": {
+        "units": "m^3/s"
+      },
+      "lon": {},
+      "lat": {}
+    },
     "datetime": "2026-05-28T16:26:52.442446Z"
   },
   "links": [
@@ -66,32 +91,5 @@
     }
   },
   "collection": "eo4flood-river-discharge",
-  "nc_attributes": {
-    "dataset": "multi-mission-river-discharge",
-    "name": "ebro_cinca_47191",
-    "longitude": 0.3357,
-    "latitude": 41.5401,
-    "institution": "DGFI-TUM",
-    "creation_date": "2025-12-23T11:35:12.855585",
-    "comment": "plausible",
-    "author": "Daniel Scherer",
-    "units": "discharge in m^3/s",
-    "datetime_format": "ISO8601 string"
-  },
-  "parquet_column_metadata": {
-    "q": {
-      "units": "m^3/s"
-    },
-    "q_u_lower": {
-      "units": "m^3/s"
-    },
-    "q_u_upper": {
-      "units": "m^3/s"
-    },
-    "lon": {},
-    "lat": {}
-  },
-  "license": "cc-by-4.0",
-  "datetime": "2026-05-28T16:26:52.442446Z",
   "title": "ebro - Ebro Cinca 47191 Discharge Multi Mission"
 }

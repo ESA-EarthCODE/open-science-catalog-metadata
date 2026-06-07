@@ -41,7 +41,321 @@
     "description": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR",
     "start_datetime": "2016-09-01T00:00:00Z",
     "end_datetime": "2016-12-31T00:00:00Z",
-    "datetime": "2016-09-01T00:00:00Z"
+    "datetime": "2016-09-01T00:00:00Z",
+    "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CLMS_FSC_tore_20160901_20161231.zarr",
+    "zarr:attributes": {
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR",
+      "project": "EO4FLOOD",
+      "basin_name": "Torne",
+      "pdate": "2025-11-24 11:49:54",
+      "producer": "Magellium",
+      "source": "Fractional Snow Cover dataset (version 1.0) from the CLMS portfolio",
+      "references": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
+      "temporal_interval": "2016-01-01T00:00:00Z / 2016-12-31T235959Z",
+      "version": "V1.0",
+      "format": "netCDF",
+      "conventions": "CF-1.10",
+      "DOI": " https://doi.org/10.2909/3e2b4b7b-a460-41dd-a373-962d032795f3",
+      "acknowledgements": "ESA EO4FLOOD project"
+    },
+    "zarr:arrays": {
+      "crs": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i4",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [],
+        "shape": [],
+        "chunks": [],
+        "attrs": {
+          "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0,
+          "epsg_code": "EPSG:4326",
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "GeoTransform": "-180 0.05 0 90 0 -0.05",
+          "_ARRAY_DIMENSIONS": []
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          14667
+        ],
+        "chunks": [
+          14667
+        ],
+        "attrs": {
+          "units": "degrees_north",
+          "long_name": "WGS84 latitude coordinates, center of pixel",
+          "standard_name": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          27333
+        ],
+        "chunks": [
+          27333
+        ],
+        "attrs": {
+          "units": "degrees_east",
+          "long_name": "WGS84 longitude coordinates, center of pixel",
+          "standard_name": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "nodata_mask": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "zstd",
+          "clevel": 4,
+          "shuffle": 2,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "|u1",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          122,
+          14667,
+          27333
+        ],
+        "chunks": [
+          10,
+          2934,
+          5467
+        ],
+        "attrs": {
+          "units": "1",
+          "long_name": "Binary mask indicating pixels where no information could be retrieved due to missing acquisition or cloud cover (value = 1). All other pixels (value = 0) may be snow-covered or snow-free",
+          "standard_name": "no-data mask",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "snow_mask": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "zstd",
+          "clevel": 4,
+          "shuffle": 2,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "|u1",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          122,
+          14667,
+          27333
+        ],
+        "chunks": [
+          10,
+          2934,
+          5467
+        ],
+        "attrs": {
+          "units": "1",
+          "long_name": "Binary mask indicating pixels covered by snow (value = 1). All other pixels (value = 0) are either snow-free or have no data (e.g., no acquisition, cloudy).",
+          "standard_name": "snow mask",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          122
+        ],
+        "chunks": [
+          122
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "units": "days since 1970-01-01",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2016-09-01T00:00:00Z",
+          "2016-12-31T00:00:00Z"
+        ],
+        "description": "time",
+        "step": "P1DT0H0M0S",
+        "type": "temporal",
+        "size": 122
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          17.50015000182929,
+          25.69984999817071
+        ],
+        "description": "WGS84 longitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 27333
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          65.30014999659099,
+          69.69985000340901
+        ],
+        "description": "WGS84 latitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 14667
+      }
+    },
+    "cube:variables": {
+      "nodata_mask": {
+        "type": "data",
+        "description": "Binary mask indicating pixels where no information could be retrieved due to missing acquisition or cloud cover (value = 1). All other pixels (value = 0) may be snow-covered or snow-free",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "1",
+        "attrs": {
+          "units": "1",
+          "long_name": "Binary mask indicating pixels where no information could be retrieved due to missing acquisition or cloud cover (value = 1). All other pixels (value = 0) may be snow-covered or snow-free",
+          "standard_name": "no-data mask",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          122,
+          14667,
+          27333
+        ],
+        "chunks": [
+          10,
+          2934,
+          5467
+        ]
+      },
+      "snow_mask": {
+        "type": "data",
+        "description": "Binary mask indicating pixels covered by snow (value = 1). All other pixels (value = 0) are either snow-free or have no data (e.g., no acquisition, cloudy).",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "1",
+        "attrs": {
+          "units": "1",
+          "long_name": "Binary mask indicating pixels covered by snow (value = 1). All other pixels (value = 0) are either snow-free or have no data (e.g., no acquisition, cloudy).",
+          "standard_name": "snow mask",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          122,
+          14667,
+          27333
+        ],
+        "chunks": [
+          10,
+          2934,
+          5467
+        ]
+      }
+    }
   },
   "links": [
     {
@@ -68,323 +382,5 @@
     }
   },
   "collection": "eo4flood-snow",
-  "title": "Torne - Snow CLMS FSC - 2016-09-01 to 2016-12-31",
-  "description": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR",
-  "license": "cc-by-4.0",
-  "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CLMS_FSC_tore_20160901_20161231.zarr",
-  "zarr:attributes": {
-    "title": "ESA EO4FLOOD project Snow dataset - CLMS Snow Cover Fraction EUR",
-    "project": "EO4FLOOD",
-    "basin_name": "Torne",
-    "pdate": "2025-11-24 11:49:54",
-    "producer": "Magellium",
-    "source": "Fractional Snow Cover dataset (version 1.0) from the CLMS portfolio",
-    "references": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
-    "temporal_interval": "2016-01-01T00:00:00Z / 2016-12-31T235959Z",
-    "version": "V1.0",
-    "format": "netCDF",
-    "conventions": "CF-1.10",
-    "DOI": " https://doi.org/10.2909/3e2b4b7b-a460-41dd-a373-962d032795f3",
-    "acknowledgements": "ESA EO4FLOOD project"
-  },
-  "zarr:arrays": {
-    "crs": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<i4",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [],
-      "shape": [],
-      "chunks": [],
-      "attrs": {
-        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
-        "grid_mapping_name": "latitude_longitude",
-        "longitude_of_prime_meridian": 0,
-        "epsg_code": "EPSG:4326",
-        "semi_major_axis": 6378137.0,
-        "inverse_flattening": 298.257223563,
-        "GeoTransform": "-180 0.05 0 90 0 -0.05",
-        "_ARRAY_DIMENSIONS": []
-      }
-    },
-    "lat": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lat"
-      ],
-      "shape": [
-        14667
-      ],
-      "chunks": [
-        14667
-      ],
-      "attrs": {
-        "units": "degrees_north",
-        "long_name": "WGS84 latitude coordinates, center of pixel",
-        "standard_name": "latitude",
-        "_ARRAY_DIMENSIONS": [
-          "lat"
-        ]
-      }
-    },
-    "lon": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f8",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "lon"
-      ],
-      "shape": [
-        27333
-      ],
-      "chunks": [
-        27333
-      ],
-      "attrs": {
-        "units": "degrees_east",
-        "long_name": "WGS84 longitude coordinates, center of pixel",
-        "standard_name": "longitude",
-        "_ARRAY_DIMENSIONS": [
-          "lon"
-        ]
-      }
-    },
-    "nodata_mask": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "zstd",
-        "clevel": 4,
-        "shuffle": 2,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "|u1",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "shape": [
-        122,
-        14667,
-        27333
-      ],
-      "chunks": [
-        10,
-        2934,
-        5467
-      ],
-      "attrs": {
-        "units": "1",
-        "long_name": "Binary mask indicating pixels where no information could be retrieved due to missing acquisition or cloud cover (value = 1). All other pixels (value = 0) may be snow-covered or snow-free",
-        "standard_name": "no-data mask",
-        "grid_mapping": "crs",
-        "_ARRAY_DIMENSIONS": [
-          "time",
-          "lat",
-          "lon"
-        ]
-      }
-    },
-    "snow_mask": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "zstd",
-        "clevel": 4,
-        "shuffle": 2,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "|u1",
-      "fill_value": null,
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "shape": [
-        122,
-        14667,
-        27333
-      ],
-      "chunks": [
-        10,
-        2934,
-        5467
-      ],
-      "attrs": {
-        "units": "1",
-        "long_name": "Binary mask indicating pixels covered by snow (value = 1). All other pixels (value = 0) are either snow-free or have no data (e.g., no acquisition, cloudy).",
-        "standard_name": "snow mask",
-        "grid_mapping": "crs",
-        "_ARRAY_DIMENSIONS": [
-          "time",
-          "lat",
-          "lon"
-        ]
-      }
-    },
-    "time": {
-      "compressor": {
-        "id": "blosc",
-        "cname": "lz4",
-        "clevel": 5,
-        "shuffle": 1,
-        "blocksize": 0
-      },
-      "dimension_separator": ".",
-      "dtype": "<f4",
-      "fill_value": "NaN",
-      "filters": null,
-      "order": "C",
-      "zarr_format": 2,
-      "dimensions": [
-        "time"
-      ],
-      "shape": [
-        122
-      ],
-      "chunks": [
-        122
-      ],
-      "attrs": {
-        "long_name": "time",
-        "standard_name": "time",
-        "units": "days since 1970-01-01",
-        "calendar": "proleptic_gregorian",
-        "_ARRAY_DIMENSIONS": [
-          "time"
-        ]
-      }
-    }
-  },
-  "start_datetime": "2016-09-01T00:00:00Z",
-  "end_datetime": "2016-12-31T00:00:00Z",
-  "cube:dimensions": {
-    "time": {
-      "extent": [
-        "2016-09-01T00:00:00Z",
-        "2016-12-31T00:00:00Z"
-      ],
-      "description": "time",
-      "step": "P1DT0H0M0S",
-      "type": "temporal",
-      "size": 122
-    },
-    "lon": {
-      "axis": "x",
-      "extent": [
-        17.50015000182929,
-        25.69984999817071
-      ],
-      "description": "WGS84 longitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 27333
-    },
-    "lat": {
-      "axis": "y",
-      "extent": [
-        65.30014999659099,
-        69.69985000340901
-      ],
-      "description": "WGS84 latitude coordinates, center of pixel",
-      "reference_system": 4326,
-      "type": "spatial",
-      "size": 14667
-    }
-  },
-  "cube:variables": {
-    "nodata_mask": {
-      "type": "data",
-      "description": "Binary mask indicating pixels where no information could be retrieved due to missing acquisition or cloud cover (value = 1). All other pixels (value = 0) may be snow-covered or snow-free",
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "unit": "1",
-      "attrs": {
-        "units": "1",
-        "long_name": "Binary mask indicating pixels where no information could be retrieved due to missing acquisition or cloud cover (value = 1). All other pixels (value = 0) may be snow-covered or snow-free",
-        "standard_name": "no-data mask",
-        "grid_mapping": "crs"
-      },
-      "shape": [
-        122,
-        14667,
-        27333
-      ],
-      "chunks": [
-        10,
-        2934,
-        5467
-      ]
-    },
-    "snow_mask": {
-      "type": "data",
-      "description": "Binary mask indicating pixels covered by snow (value = 1). All other pixels (value = 0) are either snow-free or have no data (e.g., no acquisition, cloudy).",
-      "dimensions": [
-        "time",
-        "lat",
-        "lon"
-      ],
-      "unit": "1",
-      "attrs": {
-        "units": "1",
-        "long_name": "Binary mask indicating pixels covered by snow (value = 1). All other pixels (value = 0) are either snow-free or have no data (e.g., no acquisition, cloudy).",
-        "standard_name": "snow mask",
-        "grid_mapping": "crs"
-      },
-      "shape": [
-        122,
-        14667,
-        27333
-      ],
-      "chunks": [
-        10,
-        2934,
-        5467
-      ]
-    }
-  },
-  "datetime": null
+  "title": "Torne - Snow CLMS FSC - 2016-09-01 to 2016-12-31"
 }
