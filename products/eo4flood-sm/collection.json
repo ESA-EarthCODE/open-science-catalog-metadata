@@ -56,6 +56,168 @@
       "href": "../../eo-missions/ascat/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_tore.json",
+      "type": "application/json",
+      "title": "Torne - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_po__.json",
+      "type": "application/json",
+      "title": "Po - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_nego.json",
+      "type": "application/json",
+      "title": "Negro - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_cono.json",
+      "type": "application/json",
+      "title": "Congo - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_dane.json",
+      "type": "application/json",
+      "title": "Danube - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_nego.json",
+      "type": "application/json",
+      "title": "Negro - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_po__.json",
+      "type": "application/json",
+      "title": "Po - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_tore.json",
+      "type": "application/json",
+      "title": "Torne - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_cono.json",
+      "type": "application/json",
+      "title": "Congo - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_dane.json",
+      "type": "application/json",
+      "title": "Danube - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_nego.json",
+      "type": "application/json",
+      "title": "Negro - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_po__.json",
+      "type": "application/json",
+      "title": "Po - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_tore.json",
+      "type": "application/json",
+      "title": "Torne - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_cono.json",
+      "type": "application/json",
+      "title": "Congo - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_dane.json",
+      "type": "application/json",
+      "title": "Danube - Soil Moisture ASCAT"
     }
   ],
   "stac_extensions": [

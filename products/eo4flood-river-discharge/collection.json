@@ -68,6 +68,264 @@
       "href": "../../eo-missions/icesat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ICESat-2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651100_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "braa - Braa 2651100 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_beki_3506_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "braa - Braa Beki 3506 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "braa - Braa 2651080 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "braa - Braa 2651080 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "braa - Braa 2651080 Grdc Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "cono - Cono 1147011 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_congo_21321_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "cono - Cono Congo 21321 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "cono - Cono 1147011 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "cono - Cono 1147011 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "cono - Cono 1147011 Grdc Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "dane - Dane 6144200 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_danube_13613_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "dane - Dane Danube 13613 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6242250_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "dane - Dane 6242250 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "dane - Dane 6144200 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "dane - Dane 6144200 Grdc Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226650_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "ebro - Ebro 6226650 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_cinca_47191_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "ebro - Ebro Cinca 47191 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226400_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "ebro - Ebro 6226400 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226400_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "ebro - Ebro 6226400 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14325000_ANA_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "nego - Nego 14325000 Ana Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14428000_ANA_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "nego - Nego 14428000 Ana Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14325000_ANA_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "nego - Nego 14325000 Ana Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14325000_ANA_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "nego - Nego 14325000 Ana Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "nigr - Nigr 1134030 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_alibori_23286_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "nigr - Nigr Alibori 23286 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "nigr - Nigr 1134030 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "nigr - Nigr 1134030 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "nigr - Nigr 1134030 Grdc Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "po - Po 6348200 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po___po_19865_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "po - Po Po 19865 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348400_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "po - Po 6348400 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "po - Po 6348200 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348800_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "po - Po 6348800 Grdc Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6135110_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "rhie - Rhie 6135110 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_rhine_13594_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "rhie - Rhie Rhine 13594 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6335050_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "rhie - Rhie 6335050 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6135110_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "rhie - Rhie 6135110 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6335020_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "rhie - Rhie 6335020 Grdc Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "tore - Tore 6232900 Grdc Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_torne_42400_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "tore - Tore Torne 42400 Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "tore - Tore 6232900 Grdc Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232100_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "tore - Tore 6232100 Grdc Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232100_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "tore - Tore 6232100 Grdc Discharge Mmwlbased"
     }
   ],
   "stac_extensions": [

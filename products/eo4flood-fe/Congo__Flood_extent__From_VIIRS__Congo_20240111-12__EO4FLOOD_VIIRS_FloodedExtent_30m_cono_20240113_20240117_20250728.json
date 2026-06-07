@@ -40,7 +40,7 @@
     "license": "cc-by-4.0",
     "description": "EO4FLOOD flood extent for Congo from VIIRS on 2024-01-13 to 2024-01-17. Derived from From VIIRS and event folder Congo_20240111-12.",
     "start_datetime": "2024-01-13T00:00:00Z",
-    "end_datetime": "2024-01-13T00:00:00Z",
+    "end_datetime": "2024-01-17T00:00:00Z",
     "datetime": "2024-01-13T00:00:00Z"
   },
   "links": [
@@ -61,42 +61,43 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Congo/Flood_extent/From_VIIRS/Congo_20240111-12/EO4FLOOD_VIIRS_FloodedExtent_30m_cono_20240113_20240117_20250728.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "EO4FLOOD flood extent for Congo from VIIRS on 2024-01-13 to 2024-01-17",
-      "description": "EO4FLOOD flood extent for Congo from VIIRS on 2024-01-13 to 2024-01-17. Derived from From VIIRS and event folder Congo_20240111-12.",
-      "license": "cc-by-4.0",
-      "created": "2025-07-28T00:00:00Z",
-      "start_datetime": "2024-01-13T00:00:00Z",
-      "end_datetime": "2024-01-17T00:00:00Z",
-      "platform": "VIIRS",
-      "instruments": [
-        "viirs"
-      ],
-      "gsd": 30,
-      "proj:epsg": 4326,
-      "proj:shape": [
-        1819,
-        1959
-      ],
-      "proj:transform": [
-        0.0002777777777777778,
-        0.0,
-        15.083947795851715,
-        0.0,
-        -0.0002777777777777778,
-        -3.9910908923020436
-      ],
-      "eo4flood:basin_name": "Congo",
-      "eo4flood:basin_code": "cono",
-      "eo4flood:sensor": "VIIRS",
-      "eo4flood:source_folder": "From VIIRS",
-      "eo4flood:event_name": "Congo_20240111-12",
-      "eo4flood:local_relative_path": "Congo/Flood_extent/From VIIRS/Congo_20240111-12/EO4FLOOD_VIIRS_FloodedExtent_30m_cono_20240113_20240117_20250728.tif",
-      "eo4flood:processing_date": "2025-07-28",
-      "datetime": null,
+      "title": "Congo - VIIRS Flooded Extent 30 m - Event 20240111-12 - 2024-01-13 to 2024-01-17",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-fe"
+  "collection": "eo4flood-fe",
+  "title": "Congo - VIIRS Flooded Extent 30 m - Event 20240111-12 - 2024-01-13 to 2024-01-17",
+  "description": "EO4FLOOD flood extent for Congo from VIIRS on 2024-01-13 to 2024-01-17. Derived from From VIIRS and event folder Congo_20240111-12.",
+  "license": "cc-by-4.0",
+  "created": "2025-07-28T00:00:00Z",
+  "start_datetime": "2024-01-13T00:00:00Z",
+  "end_datetime": "2024-01-17T00:00:00Z",
+  "platform": "VIIRS",
+  "instruments": [
+    "viirs"
+  ],
+  "gsd": 30,
+  "proj:epsg": 4326,
+  "proj:shape": [
+    1819,
+    1959
+  ],
+  "proj:transform": [
+    0.0002777777777777778,
+    0.0,
+    15.083947795851715,
+    0.0,
+    -0.0002777777777777778,
+    -3.9910908923020436
+  ],
+  "eo4flood:basin_name": "Congo",
+  "eo4flood:basin_code": "cono",
+  "eo4flood:sensor": "VIIRS",
+  "eo4flood:source_folder": "From VIIRS",
+  "eo4flood:event_name": "Congo_20240111-12",
+  "eo4flood:local_relative_path": "Congo/Flood_extent/From VIIRS/Congo_20240111-12/EO4FLOOD_VIIRS_FloodedExtent_30m_cono_20240113_20240117_20250728.tif",
+  "eo4flood:processing_date": "2025-07-28",
+  "datetime": null
 }

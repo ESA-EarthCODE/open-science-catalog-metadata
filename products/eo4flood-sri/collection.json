@@ -3,7 +3,7 @@
   "id": "eo4flood-sri",
   "stac_version": "1.0.0",
   "description": "Satellite derived surface reflectance index product in the project specific basins",
-    "links": [
+  "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
@@ -52,9 +52,58 @@
       "title": "EO Mission: MODIS"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo4flood-sri/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_cono.json",
+      "type": "application/json",
+      "title": "Congo - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_dane.json",
+      "type": "application/json",
+      "title": "Danube - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_nego.json",
+      "type": "application/json",
+      "title": "Negro - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_po__.json",
+      "type": "application/json",
+      "title": "Po - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Surface_Reflectance_Index_tore.json",
+      "type": "application/json",
+      "title": "Torne - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
     }
   ],
   "stac_extensions": [
@@ -86,69 +135,68 @@
     "reflectance"
   ],
   "osc:missions": [
-    "sentinel-2", "modis"
+    "sentinel-2",
+    "modis"
   ],
   "updated": "2026-04-02T15:16:06.215108Z",
   "title": "EO4FLOOD Surface Reflectance Index Products",
   "extent": {
     "spatial": {
       "bbox": [
-
         [
-          96.95, 
-          24.73, 
-          88.18, 
+          96.95,
+          24.73,
+          88.18,
           30.05
         ],
         [
-          34, 
-          -10, 
-          12, 
+          34,
+          -10,
+          12,
           10
         ],
         [
-          29.76, 
-          45.22, 
-          8.16, 
-          48.10
+          29.76,
+          45.22,
+          8.16,
+          48.1
         ],
         [
-          0.86, 
-          40.72, 
-          -4.40, 
+          0.86,
+          40.72,
+          -4.4,
           43.04
         ],
         [
-          -59.91, 
-          -3.13, 
-          -70.03, 
+          -59.91,
+          -3.13,
+          -70.03,
           1.95
         ],
         [
-          6.47, 
-          5.32, 
-          -10.68, 
-          9.10
+          6.47,
+          5.32,
+          -10.68,
+          9.1
         ],
         [
-          12.43, 
-          44.70, 
-          7.09, 
+          12.43,
+          44.7,
+          7.09,
           44.95
         ],
         [
-          9.41, 
-          46.63, 
-          4.08, 
+          9.41,
+          46.63,
+          4.08,
           51.98
         ],
         [
-          24.15, 
-          65.83, 
-          19.10, 
+          24.15,
+          65.83,
+          19.1,
           68.37
         ]
-
       ]
     },
     "temporal": {

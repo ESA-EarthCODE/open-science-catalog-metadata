@@ -59,38 +59,39 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Congo_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Parquet Data File",
-      "nc_attributes": {
-        "dataset": "multi-mission-river-discharge",
-        "name": "congo_congo_21321",
-        "longitude": 15.9588,
-        "latitude": -3.7927,
-        "institution": "DGFI-TUM",
-        "creation_date": "2025-12-05T14:52:51.596879",
-        "comment": "plausible, probably underestimated",
-        "author": "Daniel Scherer",
-        "units": "discharge in m^3/s",
-        "datetime_format": "ISO8601 string"
-      },
-      "parquet_column_metadata": {
-        "q": {
-          "units": "m^3/s"
-        },
-        "q_u_lower": {
-          "units": "m^3/s"
-        },
-        "q_u_upper": {
-          "units": "m^3/s"
-        },
-        "lon": {},
-        "lat": {}
-      },
-      "license": "cc-by-4.0",
-      "datetime": "2026-05-28T16:26:51.523618Z",
+      "title": "cono - Cono Congo 21321 Discharge Multi Mission",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-river-discharge"
+  "collection": "eo4flood-river-discharge",
+  "nc_attributes": {
+    "dataset": "multi-mission-river-discharge",
+    "name": "congo_congo_21321",
+    "longitude": 15.9588,
+    "latitude": -3.7927,
+    "institution": "DGFI-TUM",
+    "creation_date": "2025-12-05T14:52:51.596879",
+    "comment": "plausible, probably underestimated",
+    "author": "Daniel Scherer",
+    "units": "discharge in m^3/s",
+    "datetime_format": "ISO8601 string"
+  },
+  "parquet_column_metadata": {
+    "q": {
+      "units": "m^3/s"
+    },
+    "q_u_lower": {
+      "units": "m^3/s"
+    },
+    "q_u_upper": {
+      "units": "m^3/s"
+    },
+    "lon": {},
+    "lat": {}
+  },
+  "license": "cc-by-4.0",
+  "datetime": "2026-05-28T16:26:51.523618Z",
+  "title": "cono - Cono Congo 21321 Discharge Multi Mission"
 }

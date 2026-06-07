@@ -40,7 +40,7 @@
     "license": "cc-by-4.0",
     "description": "",
     "start_datetime": "2016-05-22T21:27:57Z",
-    "end_datetime": "2016-05-22T21:27:57Z",
+    "end_datetime": "2025-10-11T21:28:23Z",
     "datetime": "2016-05-22T21:27:57Z"
   },
   "links": [
@@ -61,59 +61,60 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Ebro_water_level_at_VS.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Parquet Data File",
-      "nc_attributes": {
-        "dahiti_id": "18470",
-        "dataset": "water-level-altimetry",
-        "target_name": "Ebro, River",
-        "location": "None",
-        "country": "Spain",
-        "continent": "Europe",
-        "longitude": 0.3671,
-        "latitude": 41.306,
-        "geoid": 50.518,
-        "software": "8.0",
-        "institution": "DGFI-TUM",
-        "source": "DAHITI",
-        "url": "https://dahiti.dgfi.tum.de/18470/",
-        "creation_date": "2025-11-14 12:05:02"
-      },
-      "parquet_column_metadata": {
-        "datetime": {
-          "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
-          "valid_min": "2016-05-22 21:27:57",
-          "valid_max": "2025-10-11 21:28:23"
-        },
-        "wse": {
-          "standard_name": "Water level derived from satellite altimetry",
-          "unit": "m",
-          "valid_min": 67.755,
-          "valid_max": 69.831
-        },
-        "wse_u": {
-          "standard_name": "Water level uncertainty",
-          "unit": "m",
-          "valid_min": 0.0,
-          "valid_max": 0.25
-        },
-        "mission": {
-          "standard_name": "Mission name"
-        },
-        "phase": {
-          "standard_name": "Mission phase"
-        },
-        "timeliness": {
-          "standard_name": "Timeliness of dataset"
-        }
-      },
-      "license": "cc-by-4.0",
-      "start_datetime": "2016-05-22T21:27:57Z",
-      "end_datetime": "2025-10-11T21:28:23Z",
-      "datetime": null,
+      "title": "Ebro - Water Level Altimetry - DAHITI 18470 - Ebro, River - 2016-05-22 to 2025-10-11",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-water-level"
+  "collection": "eo4flood-water-level",
+  "nc_attributes": {
+    "dahiti_id": "18470",
+    "dataset": "water-level-altimetry",
+    "target_name": "Ebro, River",
+    "location": "None",
+    "country": "Spain",
+    "continent": "Europe",
+    "longitude": 0.3671,
+    "latitude": 41.306,
+    "geoid": 50.518,
+    "software": "8.0",
+    "institution": "DGFI-TUM",
+    "source": "DAHITI",
+    "url": "https://dahiti.dgfi.tum.de/18470/",
+    "creation_date": "2025-11-14 12:05:02"
+  },
+  "parquet_column_metadata": {
+    "datetime": {
+      "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+      "valid_min": "2016-05-22 21:27:57",
+      "valid_max": "2025-10-11 21:28:23"
+    },
+    "wse": {
+      "standard_name": "Water level derived from satellite altimetry",
+      "unit": "m",
+      "valid_min": 67.755,
+      "valid_max": 69.831
+    },
+    "wse_u": {
+      "standard_name": "Water level uncertainty",
+      "unit": "m",
+      "valid_min": 0.0,
+      "valid_max": 0.25
+    },
+    "mission": {
+      "standard_name": "Mission name"
+    },
+    "phase": {
+      "standard_name": "Mission phase"
+    },
+    "timeliness": {
+      "standard_name": "Timeliness of dataset"
+    }
+  },
+  "license": "cc-by-4.0",
+  "start_datetime": "2016-05-22T21:27:57Z",
+  "end_datetime": "2025-10-11T21:28:23Z",
+  "datetime": null,
+  "title": "Ebro - Water Level Altimetry - DAHITI 18470 - Ebro, River - 2016-05-22 to 2025-10-11"
 }

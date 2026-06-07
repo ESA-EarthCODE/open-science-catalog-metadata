@@ -40,7 +40,7 @@
     "license": "cc-by-4.0",
     "description": "ESA EO4FLOOD project Precipitation input",
     "start_datetime": "2016-01-01T00:00:00Z",
-    "end_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2024-12-31T00:00:00Z",
     "datetime": "2016-01-01T00:00:00Z"
   },
   "links": [
@@ -61,235 +61,236 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Precipitation_zarr/EO4FLOOD_Precipitation_CHIRPS_nego.zarr",
       "type": "application/vnd+zarr",
-      "title": "ESA EO4FLOOD project Precipitation input",
-      "description": "ESA EO4FLOOD project Precipitation input",
-      "license": "cc-by-4.0",
-      "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Precipitation_zarr/EO4FLOOD_Precipitation_CHIRPS_nego.zarr",
-      "zarr:attributes": {
-        "title": "ESA EO4FLOOD project Precipitation input",
-        "product": "CHIRPS",
-        "basin": "negro",
-        "creation_time": "06-Feb-2026 15:47:02",
-        "institution": "National Research Council  - Research Institute for Geo-hydrological Protection (CNR-IRPI)",
-        "creator_institution_e-mail": "luca.ciabatta@cnr.it",
-        "references": "Tarpanelli et al., 2025. The Potential of EO Data for Enhanced Flood Forecasting: A Consortium Assessment",
-        "temporal_interval": "Jan-01-2016 to Dec-31-2024 23:00",
-        "version": "Version 1.1",
-        "Conventions": "CF-1.11-draft",
-        "DOI": "10.5281/zenodo.17787732",
-        "Acknowledgements": "European Space Agency EO4FLOOD project Contract N\u00b0 4000145540/24/I-EB"
-      },
-      "zarr:arrays": {
-        "Precipitation": {
-          "compressor": {
-            "id": "blosc",
-            "cname": "lz4",
-            "clevel": 5,
-            "shuffle": 1,
-            "blocksize": 0
-          },
-          "dimension_separator": ".",
-          "dtype": "<f4",
-          "fill_value": "NaN",
-          "filters": null,
-          "order": "C",
-          "zarr_format": 2,
-          "dimensions": [
-            "time",
-            "latitude",
-            "longitude"
-          ],
-          "shape": [
-            3288,
-            191,
-            299
-          ],
-          "chunks": [
-            1074,
-            62,
-            97
-          ],
-          "attrs": {
-            "standard_name": "rainfall_amount",
-            "long_name": "CHIRPS precipitation estimates in mm/day",
-            "units": "mm",
-            "_ARRAY_DIMENSIONS": [
-              "time",
-              "latitude",
-              "longitude"
-            ]
-          }
-        },
-        "lat": {
-          "compressor": {
-            "id": "blosc",
-            "cname": "lz4",
-            "clevel": 5,
-            "shuffle": 1,
-            "blocksize": 0
-          },
-          "dimension_separator": ".",
-          "dtype": "<f4",
-          "fill_value": "NaN",
-          "filters": null,
-          "order": "C",
-          "zarr_format": 2,
-          "dimensions": [
-            "latitude"
-          ],
-          "shape": [
-            191
-          ],
-          "chunks": [
-            191
-          ],
-          "attrs": {
-            "long_name": "latitude",
-            "standard_name": "latitude",
-            "axis": "Y",
-            "units": "degrees_north",
-            "_ARRAY_DIMENSIONS": [
-              "latitude"
-            ]
-          }
-        },
-        "lon": {
-          "compressor": {
-            "id": "blosc",
-            "cname": "lz4",
-            "clevel": 5,
-            "shuffle": 1,
-            "blocksize": 0
-          },
-          "dimension_separator": ".",
-          "dtype": "<f4",
-          "fill_value": "NaN",
-          "filters": null,
-          "order": "C",
-          "zarr_format": 2,
-          "dimensions": [
-            "longitude"
-          ],
-          "shape": [
-            299
-          ],
-          "chunks": [
-            299
-          ],
-          "attrs": {
-            "long_name": "longitude",
-            "standard_name": "longitude",
-            "axis": "X",
-            "units": "degrees_east",
-            "_ARRAY_DIMENSIONS": [
-              "longitude"
-            ]
-          }
-        },
-        "time": {
-          "compressor": {
-            "id": "blosc",
-            "cname": "lz4",
-            "clevel": 5,
-            "shuffle": 1,
-            "blocksize": 0
-          },
-          "dimension_separator": ".",
-          "dtype": "<i8",
-          "fill_value": null,
-          "filters": null,
-          "order": "C",
-          "zarr_format": 2,
-          "dimensions": [
-            "time"
-          ],
-          "shape": [
-            3288
-          ],
-          "chunks": [
-            3288
-          ],
-          "attrs": {
-            "long_name": "time",
-            "standard_name": "time",
-            "axit": "T",
-            "units": "days since 2016-01-01 00:00:00",
-            "calendar": "proleptic_gregorian",
-            "_ARRAY_DIMENSIONS": [
-              "time"
-            ]
-          }
-        }
-      },
-      "start_datetime": "2016-01-01T00:00:00Z",
-      "end_datetime": "2024-12-31T00:00:00Z",
-      "cube:dimensions": {
-        "time": {
-          "extent": [
-            "2016-01-01T00:00:00Z",
-            "2024-12-31T00:00:00Z"
-          ],
-          "description": "time",
-          "step": "P1DT0H0M0S",
-          "type": "temporal",
-          "size": 3288
-        },
-        "longitude": {
-          "axis": "x",
-          "extent": [
-            -73.67500305175781,
-            -58.775001525878906
-          ],
-          "description": "longitude",
-          "reference_system": 4326,
-          "type": "spatial",
-          "size": 299
-        },
-        "latitude": {
-          "axis": "y",
-          "extent": [
-            -3.7250022888183594,
-            5.774997711181641
-          ],
-          "description": "latitude",
-          "reference_system": 4326,
-          "type": "spatial",
-          "size": 191
-        }
-      },
-      "cube:variables": {
-        "Precipitation": {
-          "type": "data",
-          "description": "CHIRPS precipitation estimates in mm/day",
-          "dimensions": [
-            "time",
-            "latitude",
-            "longitude"
-          ],
-          "unit": "mm",
-          "attrs": {
-            "standard_name": "rainfall_amount",
-            "long_name": "CHIRPS precipitation estimates in mm/day",
-            "units": "mm"
-          },
-          "shape": [
-            3288,
-            191,
-            299
-          ],
-          "chunks": [
-            1074,
-            62,
-            97
-          ]
-        }
-      },
-      "created": "2026-02-06T15:47:02Z",
-      "datetime": null,
+      "title": "Negro - Precipitation CHIRPS",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-prec"
+  "collection": "eo4flood-prec",
+  "title": "Negro - Precipitation CHIRPS",
+  "description": "ESA EO4FLOOD project Precipitation input",
+  "license": "cc-by-4.0",
+  "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Precipitation_zarr/EO4FLOOD_Precipitation_CHIRPS_nego.zarr",
+  "zarr:attributes": {
+    "title": "ESA EO4FLOOD project Precipitation input",
+    "product": "CHIRPS",
+    "basin": "negro",
+    "creation_time": "06-Feb-2026 15:47:02",
+    "institution": "National Research Council  - Research Institute for Geo-hydrological Protection (CNR-IRPI)",
+    "creator_institution_e-mail": "luca.ciabatta@cnr.it",
+    "references": "Tarpanelli et al., 2025. The Potential of EO Data for Enhanced Flood Forecasting: A Consortium Assessment",
+    "temporal_interval": "Jan-01-2016 to Dec-31-2024 23:00",
+    "version": "Version 1.1",
+    "Conventions": "CF-1.11-draft",
+    "DOI": "10.5281/zenodo.17787732",
+    "Acknowledgements": "European Space Agency EO4FLOOD project Contract N\u00b0 4000145540/24/I-EB"
+  },
+  "zarr:arrays": {
+    "Precipitation": {
+      "compressor": {
+        "id": "blosc",
+        "cname": "lz4",
+        "clevel": 5,
+        "shuffle": 1,
+        "blocksize": 0
+      },
+      "dimension_separator": ".",
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "zarr_format": 2,
+      "dimensions": [
+        "time",
+        "latitude",
+        "longitude"
+      ],
+      "shape": [
+        3288,
+        191,
+        299
+      ],
+      "chunks": [
+        1074,
+        62,
+        97
+      ],
+      "attrs": {
+        "standard_name": "rainfall_amount",
+        "long_name": "CHIRPS precipitation estimates in mm/day",
+        "units": "mm",
+        "_ARRAY_DIMENSIONS": [
+          "time",
+          "latitude",
+          "longitude"
+        ]
+      }
+    },
+    "lat": {
+      "compressor": {
+        "id": "blosc",
+        "cname": "lz4",
+        "clevel": 5,
+        "shuffle": 1,
+        "blocksize": 0
+      },
+      "dimension_separator": ".",
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "zarr_format": 2,
+      "dimensions": [
+        "latitude"
+      ],
+      "shape": [
+        191
+      ],
+      "chunks": [
+        191
+      ],
+      "attrs": {
+        "long_name": "latitude",
+        "standard_name": "latitude",
+        "axis": "Y",
+        "units": "degrees_north",
+        "_ARRAY_DIMENSIONS": [
+          "latitude"
+        ]
+      }
+    },
+    "lon": {
+      "compressor": {
+        "id": "blosc",
+        "cname": "lz4",
+        "clevel": 5,
+        "shuffle": 1,
+        "blocksize": 0
+      },
+      "dimension_separator": ".",
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "zarr_format": 2,
+      "dimensions": [
+        "longitude"
+      ],
+      "shape": [
+        299
+      ],
+      "chunks": [
+        299
+      ],
+      "attrs": {
+        "long_name": "longitude",
+        "standard_name": "longitude",
+        "axis": "X",
+        "units": "degrees_east",
+        "_ARRAY_DIMENSIONS": [
+          "longitude"
+        ]
+      }
+    },
+    "time": {
+      "compressor": {
+        "id": "blosc",
+        "cname": "lz4",
+        "clevel": 5,
+        "shuffle": 1,
+        "blocksize": 0
+      },
+      "dimension_separator": ".",
+      "dtype": "<i8",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "zarr_format": 2,
+      "dimensions": [
+        "time"
+      ],
+      "shape": [
+        3288
+      ],
+      "chunks": [
+        3288
+      ],
+      "attrs": {
+        "long_name": "time",
+        "standard_name": "time",
+        "axit": "T",
+        "units": "days since 2016-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "_ARRAY_DIMENSIONS": [
+          "time"
+        ]
+      }
+    }
+  },
+  "start_datetime": "2016-01-01T00:00:00Z",
+  "end_datetime": "2024-12-31T00:00:00Z",
+  "cube:dimensions": {
+    "time": {
+      "extent": [
+        "2016-01-01T00:00:00Z",
+        "2024-12-31T00:00:00Z"
+      ],
+      "description": "time",
+      "step": "P1DT0H0M0S",
+      "type": "temporal",
+      "size": 3288
+    },
+    "longitude": {
+      "axis": "x",
+      "extent": [
+        -73.67500305175781,
+        -58.775001525878906
+      ],
+      "description": "longitude",
+      "reference_system": 4326,
+      "type": "spatial",
+      "size": 299
+    },
+    "latitude": {
+      "axis": "y",
+      "extent": [
+        -3.7250022888183594,
+        5.774997711181641
+      ],
+      "description": "latitude",
+      "reference_system": 4326,
+      "type": "spatial",
+      "size": 191
+    }
+  },
+  "cube:variables": {
+    "Precipitation": {
+      "type": "data",
+      "description": "CHIRPS precipitation estimates in mm/day",
+      "dimensions": [
+        "time",
+        "latitude",
+        "longitude"
+      ],
+      "unit": "mm",
+      "attrs": {
+        "standard_name": "rainfall_amount",
+        "long_name": "CHIRPS precipitation estimates in mm/day",
+        "units": "mm"
+      },
+      "shape": [
+        3288,
+        191,
+        299
+      ],
+      "chunks": [
+        1074,
+        62,
+        97
+      ]
+    }
+  },
+  "created": "2026-02-06T15:47:02Z",
+  "datetime": null
 }

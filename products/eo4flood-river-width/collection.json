@@ -56,6 +56,60 @@
       "href": "../../eo-missions/modis/catalog.json",
       "type": "application/json",
       "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_45253000391_Landsat.json",
+      "type": "application/json",
+      "title": "braa - Braa 2651080 Grdc 45253000391 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1150200_GRDC_13225100011_Sentinel-2.json",
+      "type": "application/json",
+      "title": "cono - Cono 1150200 Grdc 13225100011 Sentinel 2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6242700_GRDC_22797000011_Landsat.json",
+      "type": "application/json",
+      "title": "dane - Dane 6242700 Grdc 22797000011 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226300_GRDC_21604700221_Sentinel-2.json",
+      "type": "application/json",
+      "title": "ebro - Ebro 6226300 Grdc 21604700221 Sentinel 2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14526000_ANA_62284800341_Landsat.json",
+      "type": "application/json",
+      "title": "nego - Nego 14526000 Ana 62284800341 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_14297000041_Landsat.json",
+      "type": "application/json",
+      "title": "nigr - Nigr 1134030 Grdc 14297000041 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_21406800011_Sentinel-2.json",
+      "type": "application/json",
+      "title": "po - Po 6348200 Grdc 21406800011 Sentinel 2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6335180_GRDC_23265000051_Landsat.json",
+      "type": "application/json",
+      "title": "rhie - Rhie 6335180 Grdc 23265000051 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_24420500011_Sentinel-2.json",
+      "type": "application/json",
+      "title": "tore - Tore 6232900 Grdc 24420500011 Sentinel 2"
     }
   ],
   "stac_extensions": [

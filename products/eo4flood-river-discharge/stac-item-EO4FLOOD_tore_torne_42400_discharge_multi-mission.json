@@ -59,38 +59,39 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Torne_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Parquet Data File",
-      "nc_attributes": {
-        "dataset": "multi-mission-river-discharge",
-        "name": "torne_torne_42400",
-        "longitude": 23.65146,
-        "latitude": 66.30716,
-        "institution": "DGFI-TUM",
-        "creation_date": "2025-12-05T14:52:51.694750",
-        "comment": "plausible, strongly limited by ice",
-        "author": "Daniel Scherer",
-        "units": "discharge in m^3/s",
-        "datetime_format": "ISO8601 string"
-      },
-      "parquet_column_metadata": {
-        "q": {
-          "units": "m^3/s"
-        },
-        "q_u_lower": {
-          "units": "m^3/s"
-        },
-        "q_u_upper": {
-          "units": "m^3/s"
-        },
-        "lon": {},
-        "lat": {}
-      },
-      "license": "cc-by-4.0",
-      "datetime": "2026-05-28T16:26:54.337731Z",
+      "title": "tore - Tore Torne 42400 Discharge Multi Mission",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-river-discharge"
+  "collection": "eo4flood-river-discharge",
+  "nc_attributes": {
+    "dataset": "multi-mission-river-discharge",
+    "name": "torne_torne_42400",
+    "longitude": 23.65146,
+    "latitude": 66.30716,
+    "institution": "DGFI-TUM",
+    "creation_date": "2025-12-05T14:52:51.694750",
+    "comment": "plausible, strongly limited by ice",
+    "author": "Daniel Scherer",
+    "units": "discharge in m^3/s",
+    "datetime_format": "ISO8601 string"
+  },
+  "parquet_column_metadata": {
+    "q": {
+      "units": "m^3/s"
+    },
+    "q_u_lower": {
+      "units": "m^3/s"
+    },
+    "q_u_upper": {
+      "units": "m^3/s"
+    },
+    "lon": {},
+    "lat": {}
+  },
+  "license": "cc-by-4.0",
+  "datetime": "2026-05-28T16:26:54.337731Z",
+  "title": "tore - Tore Torne 42400 Discharge Multi Mission"
 }

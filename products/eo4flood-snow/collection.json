@@ -50,6 +50,396 @@
       "href": "../../eo-missions/metop/catalog.json",
       "type": "application/json",
       "title": "EO Mission: MetOp"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_rhie_20160101_20211231.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CCI SCFG AVHRR METOPA - 2016-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_tore_20160101_20240630.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS SWE - 2016-01-01 to 2024-06-30"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_rhie_20180109_20241231.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CLMS SCE NH - 2018-01-09 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_tore_20180109_20241231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS SCE NH - 2018-01-09 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_dane_20160101_20240630.json",
+      "type": "application/json",
+      "title": "Danube - Snow CLMS SWE - 2016-01-01 to 2024-06-30"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_ebro_20160101_20240630.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CLMS SWE - 2016-01-01 to 2024-06-30"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_po___20160101_20240630.json",
+      "type": "application/json",
+      "title": "Po - Snow CLMS SWE - 2016-01-01 to 2024-06-30"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SWE_rhie_20160101_20240630.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CLMS SWE - 2016-01-01 to 2024-06-30"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_tore_20170301_20241231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_braa_20180109_20241231.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Snow CLMS SCE NH - 2018-01-09 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_dane_20180109_20241231.json",
+      "type": "application/json",
+      "title": "Danube - Snow CLMS SCE NH - 2018-01-09 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_ebro_20180109_20241231.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CLMS SCE NH - 2018-01-09 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_NH_po___20180109_20241231.json",
+      "type": "application/json",
+      "title": "Po - Snow CLMS SCE NH - 2018-01-09 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20240101_20241231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2024-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_dane_20170301_20241231.json",
+      "type": "application/json",
+      "title": "Danube - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_ebro_20170301_20241231.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_po___20170301_20241231.json",
+      "type": "application/json",
+      "title": "Po - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_SCE_EUR_rhie_20170301_20241231.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CLMS SCE EUR - 2017-03-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20190101_20191231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2019-01-01 to 2019-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20200101_20201231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2020-01-01 to 2020-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20210101_20211231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2021-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20220101_20221231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2022-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20230101_20231231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2023-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20230101_20231231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2023-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20240101_20241231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2024-01-01 to 2024-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20160901_20161231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2016-09-01 to 2016-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20170101_20171231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2017-01-01 to 2017-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_GFSC_tore_20180101_20181231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS GFSC - 2018-01-01 to 2018-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20180101_20181231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2018-01-01 to 2018-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20190101_20191231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2019-01-01 to 2019-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20200101_20201231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2020-01-01 to 2020-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20210101_20211231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2021-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20220101_20221231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2022-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_po___20160101_20231231.json",
+      "type": "application/json",
+      "title": "Po - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_rhie_20160101_20231231.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_tore_20160101_20231231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20160901_20161231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2016-09-01 to 2016-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CLMS_FSC_tore_20170101_20171231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CLMS FSC - 2017-01-01 to 2017-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20210101_20211231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2021-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20220101_20221231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2022-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_braa_20160101_20231231.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_dane_20160101_20231231.json",
+      "type": "application/json",
+      "title": "Danube - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SWE_ebro_20160101_20231231.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_tore_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG AVHRR NOAA19 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20160101_20161231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2016-01-01 to 2016-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20170101_20171231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2017-01-01 to 2017-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20180101_20181231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2018-01-01 to 2018-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20190101_20191231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2019-01-01 to 2019-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_MODIS_tore_20200101_20201231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG MODIS - 2020-01-01 to 2020-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_tore_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG AVHRR NOAA18 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_braa_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Snow CCI SCFG AVHRR NOAA19 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_dane_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Danube - Snow CCI SCFG AVHRR NOAA19 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_ebro_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CCI SCFG AVHRR NOAA19 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_po___20160101_20221231.json",
+      "type": "application/json",
+      "title": "Po - Snow CCI SCFG AVHRR NOAA19 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA19_rhie_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CCI SCFG AVHRR NOAA19 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_tore_20160101_20211231.json",
+      "type": "application/json",
+      "title": "Torne - Snow CCI SCFG AVHRR METOPA - 2016-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_braa_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Snow CCI SCFG AVHRR NOAA18 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_dane_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Danube - Snow CCI SCFG AVHRR NOAA18 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_ebro_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CCI SCFG AVHRR NOAA18 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_po___20160101_20221231.json",
+      "type": "application/json",
+      "title": "Po - Snow CCI SCFG AVHRR NOAA18 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_NOAA18_rhie_20160101_20221231.json",
+      "type": "application/json",
+      "title": "Rhine - Snow CCI SCFG AVHRR NOAA18 - 2016-01-01 to 2022-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_braa_20160101_20211231.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Snow CCI SCFG AVHRR METOPA - 2016-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_dane_20160101_20211231.json",
+      "type": "application/json",
+      "title": "Danube - Snow CCI SCFG AVHRR METOPA - 2016-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_ebro_20160101_20211231.json",
+      "type": "application/json",
+      "title": "Ebro - Snow CCI SCFG AVHRR METOPA - 2016-01-01 to 2021-12-31"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Snow_CCI_SCFG_AVHRR_METOPA_po___20160101_20211231.json",
+      "type": "application/json",
+      "title": "Po - Snow CCI SCFG AVHRR METOPA - 2016-01-01 to 2021-12-31"
     }
   ],
   "stac_extensions": [

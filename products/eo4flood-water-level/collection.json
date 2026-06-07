@@ -68,6 +68,168 @@
       "href": "../../eo-missions/icesat-2/catalog.json",
       "type": "application/json",
       "title": "EO Mission: ICESat-2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_4525_001_mmwl.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Multi-mission water level time series - VS 4525_001 - Gauge 2651100_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_4525_001_mmwss.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Multi-mission water surface time series - VS 4525_001 - Gauge 2651100_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10509_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Water Level Altimetry - DAHITI 10509 - Yarlung Tsangpo, River - 2008-10-11 to 2025-10-29"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1321_001_mmwl.json",
+      "type": "application/json",
+      "title": "Congo - Multi-mission water level time series - VS 1321_001 - Gauge 1147013_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1321_001_mmwss.json",
+      "type": "application/json",
+      "title": "Congo - Multi-mission water surface time series - VS 1321_001 - Gauge 1147013_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10164_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Congo - Water Level Altimetry - DAHITI 10164 - Lulua, River - 2008-07-24 to 2025-10-29"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_2271_001_mmwl.json",
+      "type": "application/json",
+      "title": "Danube - Multi-mission water level time series - VS 2271_001 - Gauge 6742900_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_2271_001_mmwss.json",
+      "type": "application/json",
+      "title": "Danube - Multi-mission water surface time series - VS 2271_001 - Gauge 6742900_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10051_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Danube - Water Level Altimetry - DAHITI 10051 - Danube, River - 2023-08-06 to 2025-04-23"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_2160_001_mmwl.json",
+      "type": "application/json",
+      "title": "Ebro - Multi-mission water level time series - VS 2160_001 - Gauge 9027_AFD"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_2160_001_mmwss.json",
+      "type": "application/json",
+      "title": "Ebro - Multi-mission Water Surface Slope - VS 2160_001"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_18470_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Ebro - Water Level Altimetry - DAHITI 18470 - Ebro, River - 2016-05-22 to 2025-10-11"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_6228_001_mmwl.json",
+      "type": "application/json",
+      "title": "Negro - Multi-mission water level time series - VS 6228_001 - Gauge 3618052_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_6228_001_mmwss.json",
+      "type": "application/json",
+      "title": "Negro - Multi-mission water surface time series - VS 6228_001 - Gauge 3618052_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10152_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Negro - Water Level Altimetry - DAHITI 10152 - Negro, River - 2008-07-25 to 2025-10-30"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1422_001_mmwl.json",
+      "type": "application/json",
+      "title": "Niger - Multi-mission water level time series - VS 1422_001 - Gauge 1834101_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1422_001_mmwss.json",
+      "type": "application/json",
+      "title": "Niger - Multi-mission water surface time series - VS 1422_001 - Gauge 1834101_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10555_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Niger - Water Level Altimetry - DAHITI 10555 - Niger, River - 2016-04-21 to 2025-11-03"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po___2140_001_mmwl.json",
+      "type": "application/json",
+      "title": "Po - Multi-mission water level time series - VS 2140_001 - Gauge 6348800_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po___2140_001_mmwss.json",
+      "type": "application/json",
+      "title": "Po - Multi-mission water surface time series - VS 2140_001 - Gauge 6348800_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10350_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Po - Water Level Altimetry - DAHITI 10350 - Po, River - 2008-07-15 to 2025-10-30"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_2326_001_mmwl.json",
+      "type": "application/json",
+      "title": "Rhine - Multi-mission water level time series - VS 2326_001 - Gauge 6335020_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_2326_001_mmwss.json",
+      "type": "application/json",
+      "title": "Rhine - Multi-mission water surface time series - VS 2326_001 - Gauge 6335020_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_1321_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Rhine - Water Level Altimetry - DAHITI 1321 - Rhine, River - 2002-06-26 to 2025-04-25"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_2442_001_mmwl.json",
+      "type": "application/json",
+      "title": "Torne - Multi-mission water level time series - VS 2442_001 - Gauge 6232910_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_2442_001_mmwss.json",
+      "type": "application/json",
+      "title": "Torne - Multi-mission water surface time series - VS 2442_001 - Gauge 6232910_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_22414_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Torne - Water Level Altimetry - DAHITI 22414 - Tarendoalven, River - 2016-06-26 to 2025-07-30"
     }
   ],
   "stac_extensions": [

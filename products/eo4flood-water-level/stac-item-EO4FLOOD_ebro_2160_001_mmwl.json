@@ -59,61 +59,62 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Ebro_multi-mission_water_level.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Parquet Data File",
-      "nc_attributes": {
-        "title": "Multi-mission water level time series",
-        "producer": "DTU Space, Denmark",
-        "project": "EO4Flood",
-        "references": "TBC",
-        "contact": "K. Nielsen (karni@space.dtu.dk)",
-        "pdate": "Sun Aug  3 11:49:47 2025",
-        "VSlon": 0.521063149,
-        "VSlat": 40.81405258,
-        "VSchainage": 41742.2634601304,
-        "VSwidth": 104.5,
-        "VSReachID": "21604100041",
-        "VSgauge": "9027_AFD",
-        "reachLength": 57.126258666893,
-        "meantime": 11.9531272084805,
-        "Conventions": "ncdf4"
-      },
-      "parquet_column_metadata": {
-        "chainage": {
-          "units": "m",
-          "long_name": "chainage"
-        },
-        "wlgrid": {
-          "units": "m",
-          "long_name": "water level grid"
-        },
-        "wlsdgrid": {
-          "units": "m",
-          "long_name": "water level sd grid"
-        },
-        "wl": {
-          "units": "m",
-          "long_name": "water level in VS",
-          "description": "The water level time series for the VS of interest"
-        },
-        "wlsd": {
-          "units": "m",
-          "long_name": "water level sd in VS"
-        },
-        "lon": {
-          "units": "m",
-          "long_name": "longitude_grid"
-        },
-        "lat": {
-          "units": "m",
-          "long_name": "latitude_grid"
-        }
-      },
-      "license": "cc-by-4.0",
-      "datetime": "2026-05-28T16:27:10.099717Z",
+      "title": "Ebro - Multi-mission water level time series - VS 2160_001 - Gauge 9027_AFD",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-water-level"
+  "collection": "eo4flood-water-level",
+  "nc_attributes": {
+    "title": "Multi-mission water level time series",
+    "producer": "DTU Space, Denmark",
+    "project": "EO4Flood",
+    "references": "TBC",
+    "contact": "K. Nielsen (karni@space.dtu.dk)",
+    "pdate": "Sun Aug  3 11:49:47 2025",
+    "VSlon": 0.521063149,
+    "VSlat": 40.81405258,
+    "VSchainage": 41742.2634601304,
+    "VSwidth": 104.5,
+    "VSReachID": "21604100041",
+    "VSgauge": "9027_AFD",
+    "reachLength": 57.126258666893,
+    "meantime": 11.9531272084805,
+    "Conventions": "ncdf4"
+  },
+  "parquet_column_metadata": {
+    "chainage": {
+      "units": "m",
+      "long_name": "chainage"
+    },
+    "wlgrid": {
+      "units": "m",
+      "long_name": "water level grid"
+    },
+    "wlsdgrid": {
+      "units": "m",
+      "long_name": "water level sd grid"
+    },
+    "wl": {
+      "units": "m",
+      "long_name": "water level in VS",
+      "description": "The water level time series for the VS of interest"
+    },
+    "wlsd": {
+      "units": "m",
+      "long_name": "water level sd in VS"
+    },
+    "lon": {
+      "units": "m",
+      "long_name": "longitude_grid"
+    },
+    "lat": {
+      "units": "m",
+      "long_name": "latitude_grid"
+    }
+  },
+  "license": "cc-by-4.0",
+  "datetime": "2026-05-28T16:27:10.099717Z",
+  "title": "Ebro - Multi-mission water level time series - VS 2160_001 - Gauge 9027_AFD"
 }

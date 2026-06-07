@@ -40,7 +40,7 @@
     "license": "cc-by-4.0",
     "description": "EO4FLOOD flood extent for Niger from VIIRS on 2019-03-01 to 2019-03-05. Derived from From VIIRS and event folder Niger_2018-12-26_2019-03-05.",
     "start_datetime": "2019-03-01T00:00:00Z",
-    "end_datetime": "2019-03-01T00:00:00Z",
+    "end_datetime": "2019-03-05T00:00:00Z",
     "datetime": "2019-03-01T00:00:00Z"
   },
   "links": [
@@ -61,42 +61,43 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Niger/Flood_extent/From_VIIRS/Niger_2018-12-26_2019-03-05/EO4FLOOD_VIIRS_FloodedExtent_30m_nigr_20190301_20190305_20250728.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "EO4FLOOD flood extent for Niger from VIIRS on 2019-03-01 to 2019-03-05",
-      "description": "EO4FLOOD flood extent for Niger from VIIRS on 2019-03-01 to 2019-03-05. Derived from From VIIRS and event folder Niger_2018-12-26_2019-03-05.",
-      "license": "cc-by-4.0",
-      "created": "2025-07-28T00:00:00Z",
-      "start_datetime": "2019-03-01T00:00:00Z",
-      "end_datetime": "2019-03-05T00:00:00Z",
-      "platform": "VIIRS",
-      "instruments": [
-        "viirs"
-      ],
-      "gsd": 30,
-      "proj:epsg": 4326,
-      "proj:shape": [
-        15471,
-        11715
-      ],
-      "proj:transform": [
-        0.0002777777777777778,
-        0.0,
-        0.3441618878707973,
-        0.0,
-        -0.00027777777777777767,
-        15.883229848879818
-      ],
-      "eo4flood:basin_name": "Niger",
-      "eo4flood:basin_code": "nigr",
-      "eo4flood:sensor": "VIIRS",
-      "eo4flood:source_folder": "From VIIRS",
-      "eo4flood:event_name": "Niger_2018-12-26_2019-03-05",
-      "eo4flood:local_relative_path": "Niger/Flood_extent/From VIIRS/Niger_2018-12-26_2019-03-05/EO4FLOOD_VIIRS_FloodedExtent_30m_nigr_20190301_20190305_20250728.tif",
-      "eo4flood:processing_date": "2025-07-28",
-      "datetime": null,
+      "title": "Niger - VIIRS Flooded Extent 30 m - Event 2018-12-26 to 2019-03-05 - 2019-03-01 to 2019-03-05",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-fe"
+  "collection": "eo4flood-fe",
+  "title": "Niger - VIIRS Flooded Extent 30 m - Event 2018-12-26 to 2019-03-05 - 2019-03-01 to 2019-03-05",
+  "description": "EO4FLOOD flood extent for Niger from VIIRS on 2019-03-01 to 2019-03-05. Derived from From VIIRS and event folder Niger_2018-12-26_2019-03-05.",
+  "license": "cc-by-4.0",
+  "created": "2025-07-28T00:00:00Z",
+  "start_datetime": "2019-03-01T00:00:00Z",
+  "end_datetime": "2019-03-05T00:00:00Z",
+  "platform": "VIIRS",
+  "instruments": [
+    "viirs"
+  ],
+  "gsd": 30,
+  "proj:epsg": 4326,
+  "proj:shape": [
+    15471,
+    11715
+  ],
+  "proj:transform": [
+    0.0002777777777777778,
+    0.0,
+    0.3441618878707973,
+    0.0,
+    -0.00027777777777777767,
+    15.883229848879818
+  ],
+  "eo4flood:basin_name": "Niger",
+  "eo4flood:basin_code": "nigr",
+  "eo4flood:sensor": "VIIRS",
+  "eo4flood:source_folder": "From VIIRS",
+  "eo4flood:event_name": "Niger_2018-12-26_2019-03-05",
+  "eo4flood:local_relative_path": "Niger/Flood_extent/From VIIRS/Niger_2018-12-26_2019-03-05/EO4FLOOD_VIIRS_FloodedExtent_30m_nigr_20190301_20190305_20250728.tif",
+  "eo4flood:processing_date": "2025-07-28",
+  "datetime": null
 }

@@ -59,61 +59,62 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Torne_multi-mission_water_surface_slope.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Parquet Data File",
-      "nc_attributes": {
-        "title": "Multi-mission water surface time series",
-        "producer": "DTU Space, Denmark",
-        "project": "EO4Flood",
-        "references": "TBC",
-        "contact": "K. Nielsen (karni@space.dtu.dk)",
-        "pdate": "Fri Feb 13 15:44:19 2026",
-        "VSlon": 24.04999924,
-        "VSlat": 65.97000122,
-        "VSchainage": 418.728416077537,
-        "VSwidth": 602.0,
-        "VSReachID": "24420100041",
-        "VSgauge": "6232910_GRDC",
-        "reachLength": 21.8273750357178,
-        "meantime": 5.51022022838501,
-        "Conventions": "ncdf4"
-      },
-      "parquet_column_metadata": {
-        "chainage": {
-          "units": "m",
-          "long_name": "chainage"
-        },
-        "slope_grid": {
-          "units": "cm/km",
-          "long_name": "water surface slope grid"
-        },
-        "slopesd_grid": {
-          "units": "cm/km",
-          "long_name": "water surface slope std grid"
-        },
-        "slope_vs": {
-          "units": "cm/km",
-          "long_name": "water surface slope in VS",
-          "description": "The water surface slope time series for the VS of interest"
-        },
-        "slopesd_vs": {
-          "units": "cm/km",
-          "long_name": "water surface slope std in VS"
-        },
-        "lon": {
-          "units": "m",
-          "long_name": "longitude_grid"
-        },
-        "lat": {
-          "units": "m",
-          "long_name": "latitude_grid"
-        }
-      },
-      "license": "cc-by-4.0",
-      "datetime": "2026-05-28T16:27:14.048873Z",
+      "title": "Torne - Multi-mission water surface time series - VS 2442_001 - Gauge 6232910_GRDC",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-water-level"
+  "collection": "eo4flood-water-level",
+  "nc_attributes": {
+    "title": "Multi-mission water surface time series",
+    "producer": "DTU Space, Denmark",
+    "project": "EO4Flood",
+    "references": "TBC",
+    "contact": "K. Nielsen (karni@space.dtu.dk)",
+    "pdate": "Fri Feb 13 15:44:19 2026",
+    "VSlon": 24.04999924,
+    "VSlat": 65.97000122,
+    "VSchainage": 418.728416077537,
+    "VSwidth": 602.0,
+    "VSReachID": "24420100041",
+    "VSgauge": "6232910_GRDC",
+    "reachLength": 21.8273750357178,
+    "meantime": 5.51022022838501,
+    "Conventions": "ncdf4"
+  },
+  "parquet_column_metadata": {
+    "chainage": {
+      "units": "m",
+      "long_name": "chainage"
+    },
+    "slope_grid": {
+      "units": "cm/km",
+      "long_name": "water surface slope grid"
+    },
+    "slopesd_grid": {
+      "units": "cm/km",
+      "long_name": "water surface slope std grid"
+    },
+    "slope_vs": {
+      "units": "cm/km",
+      "long_name": "water surface slope in VS",
+      "description": "The water surface slope time series for the VS of interest"
+    },
+    "slopesd_vs": {
+      "units": "cm/km",
+      "long_name": "water surface slope std in VS"
+    },
+    "lon": {
+      "units": "m",
+      "long_name": "longitude_grid"
+    },
+    "lat": {
+      "units": "m",
+      "long_name": "latitude_grid"
+    }
+  },
+  "license": "cc-by-4.0",
+  "datetime": "2026-05-28T16:27:14.048873Z",
+  "title": "Torne - Multi-mission water surface time series - VS 2442_001 - Gauge 6232910_GRDC"
 }

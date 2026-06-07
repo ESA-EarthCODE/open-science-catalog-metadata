@@ -40,7 +40,7 @@
     "license": "cc-by-4.0",
     "description": "EO4FLOOD flood extent for Brahmaputra from VIIRS on 2024-10-12 to 2024-10-15. Derived from From VIIRS and event folder Brahamaputra_20241010.",
     "start_datetime": "2024-10-12T00:00:00Z",
-    "end_datetime": "2024-10-12T00:00:00Z",
+    "end_datetime": "2024-10-15T00:00:00Z",
     "datetime": "2024-10-12T00:00:00Z"
   },
   "links": [
@@ -61,42 +61,43 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Flood_extent/Brahmaputra/Flood_extent/From_VIIRS/Brahamaputra_20241010/EO4FLOOD_VIIRS_FloodedExtent_30m_braa_20241012_20241015_20250728.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "EO4FLOOD flood extent for Brahmaputra from VIIRS on 2024-10-12 to 2024-10-15",
-      "description": "EO4FLOOD flood extent for Brahmaputra from VIIRS on 2024-10-12 to 2024-10-15. Derived from From VIIRS and event folder Brahamaputra_20241010.",
-      "license": "cc-by-4.0",
-      "created": "2025-07-28T00:00:00Z",
-      "start_datetime": "2024-10-12T00:00:00Z",
-      "end_datetime": "2024-10-15T00:00:00Z",
-      "platform": "VIIRS",
-      "instruments": [
-        "viirs"
-      ],
-      "gsd": 30,
-      "proj:epsg": 4326,
-      "proj:shape": [
-        1555,
-        1005
-      ],
-      "proj:transform": [
-        0.0002777777777777778,
-        0.0,
-        89.59098295443265,
-        0.0,
-        -0.0002777777777777778,
-        25.920467061659107
-      ],
-      "eo4flood:basin_name": "Brahmaputra",
-      "eo4flood:basin_code": "braa",
-      "eo4flood:sensor": "VIIRS",
-      "eo4flood:source_folder": "From VIIRS",
-      "eo4flood:event_name": "Brahamaputra_20241010",
-      "eo4flood:local_relative_path": "Brahmaputra/Flood_extent/From VIIRS/Brahamaputra_20241010/EO4FLOOD_VIIRS_FloodedExtent_30m_braa_20241012_20241015_20250728.tif",
-      "eo4flood:processing_date": "2025-07-28",
-      "datetime": null,
+      "title": "Brahmaputra - VIIRS Flooded Extent 30 m - Event Brahamaputra - 2024-10-10 - 2024-10-12 to 2024-10-15",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "eo4flood-fe"
+  "collection": "eo4flood-fe",
+  "title": "Brahmaputra - VIIRS Flooded Extent 30 m - Event Brahamaputra - 2024-10-10 - 2024-10-12 to 2024-10-15",
+  "description": "EO4FLOOD flood extent for Brahmaputra from VIIRS on 2024-10-12 to 2024-10-15. Derived from From VIIRS and event folder Brahamaputra_20241010.",
+  "license": "cc-by-4.0",
+  "created": "2025-07-28T00:00:00Z",
+  "start_datetime": "2024-10-12T00:00:00Z",
+  "end_datetime": "2024-10-15T00:00:00Z",
+  "platform": "VIIRS",
+  "instruments": [
+    "viirs"
+  ],
+  "gsd": 30,
+  "proj:epsg": 4326,
+  "proj:shape": [
+    1555,
+    1005
+  ],
+  "proj:transform": [
+    0.0002777777777777778,
+    0.0,
+    89.59098295443265,
+    0.0,
+    -0.0002777777777777778,
+    25.920467061659107
+  ],
+  "eo4flood:basin_name": "Brahmaputra",
+  "eo4flood:basin_code": "braa",
+  "eo4flood:sensor": "VIIRS",
+  "eo4flood:source_folder": "From VIIRS",
+  "eo4flood:event_name": "Brahamaputra_20241010",
+  "eo4flood:local_relative_path": "Brahmaputra/Flood_extent/From VIIRS/Brahamaputra_20241010/EO4FLOOD_VIIRS_FloodedExtent_30m_braa_20241012_20241015_20250728.tif",
+  "eo4flood:processing_date": "2025-07-28",
+  "datetime": null
 }
