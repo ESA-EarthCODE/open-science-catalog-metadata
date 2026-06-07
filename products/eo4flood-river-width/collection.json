@@ -56,60 +56,6 @@
       "href": "../../eo-missions/modis/catalog.json",
       "type": "application/json",
       "title": "EO Mission: MODIS"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_45253000391_Landsat.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_cono_1150200_GRDC_13225100011_Sentinel-2.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_dane_6242700_GRDC_22797000011_Landsat.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_ebro_6226300_GRDC_21604700221_Sentinel-2.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_nego_14526000_ANA_62284800341_Landsat.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_14297000041_Landsat.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_21406800011_Sentinel-2.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_rhie_6335180_GRDC_23265000051_Landsat.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
-    },
-    {
-      "rel": "item",
-      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_24420500011_Sentinel-2.json",
-      "type": "application/json",
-      "title": "Parquet Data File"
     }
   ],
   "stac_extensions": [
