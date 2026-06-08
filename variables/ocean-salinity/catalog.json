@@ -5,6 +5,11 @@
   "description": "3D field of salinity of the ocean  Requested in upper and deep ocean - Physical unit: [ psu ], Practical Salinity Unit, close to 1",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-salinity/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -23,15 +28,16 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-salinity/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-soda-ethz/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
     }
   ],
   "stac_extensions": [

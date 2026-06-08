@@ -1,0 +1,149 @@
+{
+  "type": "Collection",
+  "id": "ocean-soda-ethz",
+  "stac_version": "1.0.0",
+  "description": "This dataset contains a global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2025). The full marine carbonate system is calculated from machine learning estimates of Total Alkalinity (TA) and the fugacity of carbon dioxide (fCO2). The surface-ocean fCO2 presented here is the ensemble mean of 16 two-step clustering-regression machine learning estimates. The ensemble is a combination of eight clustering instances and two regression methods. For the clustering, we use K-means clustering (21 clusters) repeated with different initiations, resulting in slightly different clusters. Two machine learning regression methods are applied to each of these clustering instances. These machine learning methods are feed-forward neural-network (FFNN), and gradient boosted machine using decision trees (GBDT). The average of the ensemble members is used as the final estimate. Further, the standard deviation of the ensemble members is an analog of the uncertainty. The same two-step clustering-regression approach is used to estimate TA. The final estimate is the mean of 16 ensemble members. Eight of the ensemble members estimate standard TA while the other half estimate salinity normalized TA (S0 ≈ 34.0). Each ensemble member has 12 clusters. Support vector regression (SVR) is used as the regression method. Again, the standard deviation of the ensemble members is an analog of the uncertainty. Total alkalinity and pCO2 are then used to solve for the remaining parameters of the marine carbonate system using the PyCO2SYS software. The temperature and salinity products used in this calculation are provided in the file. Phosphate and silicate from the interpolated World Ocean Atlas (2018) product were used. We use the following total scale for pH. The product extends from the start of 1982 to the end of 2024.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ocean-soda/collection.json",
+      "type": "application/json",
+      "title": "Project: Satellite Oceanographic Datasets for Acidification (OceanSODA)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-inorganic-carbon-dic/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved inorganic carbon (DIC)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ph/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ph"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/total-alkalinity-at/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Total alkalinity (AT)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/water-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Water Temperature"
+    },
+
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.25921/m5wx-ja34"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-zarr.json",
+      "type": "application/json",
+      "title": "Zarr store for OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "via",
+      "href": "./ocean-soda-zarr.json",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-05-22T10:46:55.644936Z",
+  "updated": "2026-05-22T10:46:55.644936Z",
+  "osc:project": "ocean-soda",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "smos"
+  ],
+  "osc:variables": [
+    "ocean-salinity", "dissolved-inorganic-carbon-dic", "ph", "total-alkalinity-at", "water-temperature"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.25921/m5wx-ja34",
+  "sci:citation": " Gregor, Luke; Gruber, Nicolas (2020). OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2025) (NCEI Accession 0220059). [indicate subset used]. NOAA National Centers for Environmental Information. Dataset. https://doi.org/10.25921/m5wx-ja34. Accessed [date].",
+  "cf:parameter": [
+    {
+      "name": "ocean-salinity"
+    }
+  ],
+  "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1982-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "carbon cycle",
+    "climate",
+    "ocean science",
+    "SMOS",
+    "SST",
+    "salinity"
+  ]
+}
