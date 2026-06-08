@@ -28,9 +28,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "href": "../../projects/ocean-soda/collection.json",
       "type": "application/json",
-      "title": "Project: OceanSODA"
+      "title": "Project: Satellite Oceanographic Datasets for Acidification (OceanSODA)"
     },
     {
       "rel": "related",
