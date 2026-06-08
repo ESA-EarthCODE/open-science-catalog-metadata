@@ -397,6 +397,18 @@
       "href": "../../products/esa-world-cereal-extent-product/collection.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

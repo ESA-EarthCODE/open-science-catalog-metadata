@@ -1,0 +1,313 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+  ],
+  "id": "arceme-datacubes-global-57632-dhp",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -101.03817532478772,
+          45.15389335781549
+        ],
+        [
+          -101.03817532478772,
+          45.246097229523734
+        ],
+        [
+          -101.16197773857432,
+          45.246097229523734
+        ],
+        [
+          -101.16197773857432,
+          45.15389335781549
+        ],
+        [
+          -101.03817532478772,
+          45.15389335781549
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -101.16197773857432,
+    45.15389335781549,
+    -101.03817532478772,
+    45.246097229523734
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "ARCEME - Adaptation and Resilience to Climate Extremes and Multi-hazard Events",
+    "title": "ARCEME Datacube \u2013 event 57632 (DHP)",
+    "datetime": "2020-07-06T00:00:00Z",
+    "start_datetime": "2020-07-06T00:00:00Z",
+    "end_datetime": "2022-07-06T00:00:00Z",
+    "platform": "sentinel-1, sentinel-2",
+    "instruments": [
+      "c-sar",
+      "msi"
+    ],
+    "created": "2026-05-05T11:25:48Z",
+    "epsg": 32614,
+    "Sentinel_2_SCL_description": "0: no_data, 1: saturated_or_defective, 2: dark_area_pixels, 3: cloud_shadows, 4: vegetation, 5: not_vegetated, 6: water, 7: unclassified, 8: cloud_medium_probability, 9: cloud_high_probability, 10: thin_cirrus, 11: snow",
+    "cloud_mask_algorithm": "SEnSeIv2/SegFormerB2",
+    "cloud_mask_citation": "https://www.doi.org/10.1109/TGRS.2024.3391625",
+    "cloud_mask_description": "0: Unoccluded, 1: Thick cloud, 2: Thin cloud, 3: Shadow",
+    "cloud_mask_stride_size": "512",
+    "cloud_mask_weights": "SEnSeIv2-SegFormerB2-alldata-ambiguous",
+    "collection": "sentinel-2-l2a",
+    "collections": "CDSE: sentinel-2-l2a, cop-dem-glo-30-dged-cog; Planetary Computer: sentinel-1-rtc, esa-worldcover",
+    "data_cubes_producer": "CloudFerrro S.A.",
+    "dtype_conversion": "uint16 for S2 bands, SCL, cloud_mask, ESA_LC",
+    "fill_value_policy": "float=NaN, int=32767",
+    "land_cover": "ESA World Cover 2020 map at 10 m resolution",
+    "land_cover_citation": "https://doi.org/10.5281/zenodo.5571936",
+    "land_cover_legend": "10 - Tree cover, 20 - Shrubland, 30 - Grassland, 40 - Cropland, 50 - Built-up, 60 - Bare / sparse vegetation, 70 - Snow and Ice, 80 - Permanent water bodies, 90 - Herbaceous wetland, 95 - Mangroves, 100 - Moss and lichen",
+    "location_source": "ARCEME-DC-DHP-GLOBAL",
+    "merge_chunking": "time=25, x=500, y=500",
+    "missing_datasets": "none",
+    "pixel_resolution_meters": "10",
+    "project": "ARCEME - Adaptation and Resilience to Climate Extremes and Multi-hazard Events",
+    "resampling_method": "nearest neighbor",
+    "resolution": 10,
+    "run_name": "arceme_dc_dhp_global_resume",
+    "stac_endpoints": "CDSE: https://stac.dataspace.copernicus.eu/v1/ Planetary Computer: https://planetarycomputer.microsoft.com/api/stac/v1",
+    "static_dates_copdem": "2010-01-01 to 2024-12-31",
+    "static_dates_esalc": "2019-01-01 to 2020-12-31",
+    "temporal_window": "event_date -12 months to +12 months",
+    "tile_edge_size_meters": "10000",
+    "tile_size_px": "1000x1000",
+    "time_axis": "time_sentinel_2_l2a, time_sentinel_1_rtc, time_cop_dem_glo_30_dged_cog, time_esa_worldcover",
+    "time_coverage_end": "2022-07-06",
+    "time_coverage_start": "2020-07-06",
+    "cube:dimensions": {
+      "x": {
+        "type": "spatial",
+        "axis": "x",
+        "extent": [
+          330060.0,
+          340050.0
+        ],
+        "reference_system": "EPSG:32614"
+      },
+      "y": {
+        "type": "spatial",
+        "axis": "y",
+        "extent": [
+          5002320.0,
+          5012310.0
+        ],
+        "reference_system": "EPSG:32614"
+      },
+      "time_sentinel_2_l2a": {
+        "type": "temporal",
+        "extent": [
+          "2020-07-07T00:00:00Z",
+          "2022-07-04T00:00:00Z"
+        ],
+        "description": "sentinel-2-l2a",
+        "step": "P2D"
+      },
+      "time_sentinel_1_rtc": {
+        "type": "temporal",
+        "extent": [
+          "2020-07-07T00:38:00Z",
+          "2022-07-03T00:39:00Z"
+        ],
+        "description": "sentinel-1-rtc",
+        "step": "P7D"
+      },
+      "time_cop_dem_glo_30_dged_cog": {
+        "type": "temporal",
+        "extent": [
+          "NaTZ",
+          "NaTZ"
+        ],
+        "description": "cop-dem-glo-30-dged-cog"
+      },
+      "time_esa_worldcover": {
+        "type": "temporal",
+        "extent": [
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ],
+        "description": "esa-worldcover"
+      }
+    },
+    "cube:variables": {
+      "B01": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B02": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B03": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B04": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B05": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B06": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B07": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B08": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B09": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B11": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B12": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "B8A": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "COP_DEM": {
+        "type": "data",
+        "dimensions": [
+          "time_cop_dem_glo_30_dged_cog",
+          "y",
+          "x"
+        ]
+      },
+      "ESA_LC": {
+        "type": "data",
+        "dimensions": [
+          "time_esa_worldcover",
+          "y",
+          "x"
+        ]
+      },
+      "SCL": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "cloud_mask": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_2_l2a",
+          "y",
+          "x"
+        ]
+      },
+      "vh": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_1_rtc",
+          "y",
+          "x"
+        ]
+      },
+      "vv": {
+        "type": "data",
+        "dimensions": [
+          "time_sentinel_1_rtc",
+          "y",
+          "x"
+        ]
+      }
+    },
+    "source:collection": "arceme-datacubes-global"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes \u2013 DHP Global Sites"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes \u2013 DHP Global Sites"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/swift/v1/ARCEME-DC-DHP-GLOBAL/DC__57632_dhp__2020-07-06__2022-07-06.zarr",
+      "type": "application/vnd+zarr",
+      "title": "DC__57632_dhp__2020-07-06__2022-07-06.zarr",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "arceme-datacubes-global"
+}
