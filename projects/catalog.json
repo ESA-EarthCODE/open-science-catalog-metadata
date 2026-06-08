@@ -821,12 +821,6 @@
     },
     {
       "rel": "child",
-      "href": "./satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
-      "type": "application/json",
-      "title": "OceanSODA"
-    },
-    {
-      "rel": "child",
       "href": "./seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe/collection.json",
       "type": "application/json",
       "title": "SeasFire"
