@@ -1,0 +1,120 @@
+{
+  "type": "Collection",
+  "id": "ocean-soda",
+  "stac_version": "1.0.0",
+  "description": "Since the beginning of the industrial revolution humans have released approximately 500 billion metric tons of carbon into the atmosphere from burning fossil fuels, cement production and land-use changes. About 30% of this carbon dioxide (CO2) has been taken up by the oceans, largely by the dissolution of this CO2 into seawater and subsequent reactions with the dissolved carbonate ions present in seawater. Anthropogenic emissions CO2 levelled out in 2016, but have since begun to increase again, rendering absolutely critical to monitor ocean carbon uptake. The long-term uptake of carbon dioxide by the oceans is reducing the ocean pH, a process commonly known as ocean acidification. The uptake is also altering the ocean chemistry and ecology, impacting marine ecosystems on which we rely. Recent work has begun to investigate the use of satellite Earth Observation, especially focusing on satellite sea surface salinity and sea surface temperature data, exploiting empirical methods to monitor surface-ocean carbonate chemistry. These techniques complement in situ approaches by enabling the first synoptic-scale observation-based assessments of the global oceans and are particularly well suited to monitoring large episodic events. The Satellite Oceanographic Datasets for Acidification (OceanSODA) project will further develop the use of satellite Earth Observation for studying and monitoring marine carbonate chemistry. Besides further developments of algorithms linking satellite variables with marine carbonate system parameters and the associated validation, a distinct focus will be on selected scientific studies and downstream impact assessment. This will include characterising and analysing how upwelling (of low pH waters) and compound events impact the carbonate system, and characterising the flow and impact on marine ecosystems of low pH waters from large river systems. The project will also work closely with the World Wide Fund for Nature (WWF), the U.S. National Oceanic and Atmospheric Administration (NOAA) and The Ocean Foundation, to support their work on coral reef conservation, the designation of marine protected areas and investigation of wild fisheries health and sustainable management.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/satellite-oceanographic-datasets-for-acidification-oceansoda/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/satellite-oceanographic-datasets-for-acidification-oceansoda/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ocean-soda-ethz/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-05-22T10:39:49.462093Z",
+  "updated": "2026-05-22T10:39:49.462093Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Roberto Sabia",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "roberto.sabia@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF EXETER (GB)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "EIDGENÖSSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "IFREMER (FR)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "NERC, PLYMOUTH MARINE LABORATORY (GB)",
+      "roles": [
+        "consoritum_member"
+      ]
+    }
+  ],
+  "title": "Satellite Oceanographic Datasets for Acidification (OceanSODA)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1982-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-4.0"
+}
