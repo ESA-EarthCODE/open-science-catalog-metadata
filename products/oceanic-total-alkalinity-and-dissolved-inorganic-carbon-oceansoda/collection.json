@@ -28,9 +28,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "href": "../../projects/ocean-soda/collection.json",
       "type": "application/json",
-      "title": "Project: OceanSODA"
+      "title": "Project: Satellite Oceanographic Datasets for Acidification (OceanSODA)"
     },
     {
       "rel": "related",
@@ -73,7 +73,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "satellite-oceanographic-datasets-for-acidification-oceansoda",
+  "osc:project": "ocean-soda",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -123,7 +123,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Ocean Chemistry",
     "Alkalinity",

@@ -28,9 +28,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "href": "../../projects/ocean-soda/collection.json",
       "type": "application/json",
-      "title": "Project: OceanSODA"
+      "title": "Project: Satellite Oceanographic Datasets for Acidification (OceanSODA)"
     },
     {
       "rel": "related",
@@ -79,7 +79,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "satellite-oceanographic-datasets-for-acidification-oceansoda",
+  "osc:project": "ocean-soda",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
@@ -89,6 +89,7 @@
       "name": "total_alkalinity_in_sea_water"
     }
   ],
+  "sci:citation": "Gregor, L.; Gruber, N. OceanSODA-ETHZ: A Global Gridded Data Set of the Surface Ocean Carbonate System for Seasonal to Decadal Studies of Ocean Acidification. Earth System Science Data 2021, 13 (2), 777–808. https://doi.org/10.5194/essd-13-777-2021.",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -108,8 +109,8 @@
     "smos",
     "sentinel-3"
   ],
-  "updated": "2024-09-12T20:32:06.226108Z",
-  "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)",
+  "updated": "2026-06-08T13:02:06.226108Z",
+  "title": "OceanSODA-ETHZ-v1: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -124,8 +125,8 @@
     "temporal": {
       "interval": [
         [
-          "1985-01-01T00:00:00Z",
-          "2020-12-31T23:59:59Z"
+          "1982-01-01T00:00:00Z",
+          "2022-12-31T23:59:59Z"
         ]
       ]
     }
