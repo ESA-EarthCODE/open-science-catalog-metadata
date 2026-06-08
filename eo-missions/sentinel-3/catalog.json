@@ -545,6 +545,18 @@
       "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     },
     {
+      "rel": "child",
+      "href": "../../products/eo4flood-river-discharge/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-water-level/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

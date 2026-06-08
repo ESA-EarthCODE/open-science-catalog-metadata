@@ -42,6 +42,18 @@
     },
     {
       "rel": "child",
+      "href": "../../products/eo4flood-prec/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-sm/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Soil Moisture Products"
+    },
+    {
+      "rel": "child",
       "href": "../../products/sss-monthly-anomalies/collection.json",
       "type": "application/json",
       "title": "Sea Surface Salinity - Monthly Anomalies"

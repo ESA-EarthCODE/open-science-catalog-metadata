@@ -1,0 +1,421 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4FLOOD_soil_moisture_SMAP_tore",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.028818130493164,
+          65.8438491821289
+        ],
+        [
+          25.028818130493164,
+          68.86640930175781
+        ],
+        [
+          18.285303115844727,
+          68.86640930175781
+        ],
+        [
+          18.285303115844727,
+          65.8438491821289
+        ],
+        [
+          25.028818130493164,
+          65.8438491821289
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    18.285303115844727,
+    65.8438491821289,
+    25.028818130493164,
+    68.86640930175781
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "ESA EO4FLOOD project Soil Moisture input",
+    "start_datetime": "2016-01-01T01:18:09.849000Z",
+    "end_datetime": "2024-12-31T01:47:53.145000Z",
+    "datetime": "2016-01-01T01:18:09.849000Z",
+    "title": "ESA EO4FLOOD project Soil Moisture input",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/soil_moisture_zarr/EO4FLOOD_soil_moisture_SMAP_tore.zarr",
+    "zarr:attributes": {
+      "title": "ESA EO4FLOOD project Soil Moisture input",
+      "creation_time": "2025-07-24 18:19:03 UTC",
+      "institution": "National Research Council (CNR)",
+      "creator_institution_e-mail": "christian.massari@cnr.it",
+      "references": "To be filled with EO4FLOOD publication DOI or link",
+      "Temporal interval": "From 2016-01-01 to NaT",
+      "version": "1.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "https://doi.org/xxx.xxxx",
+      "Acknowledgements": "ESA EO4FLOOD project reference",
+      "history": "Regridded SMAP file onto SMOS grid using xESMF (nearest_s2d)",
+      "source": "SMAP Level 3 product (regridded)",
+      "note": "SMOS-specific metadata removed; grid info retained"
+    },
+    "zarr:arrays": {
+      "error": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          6414,
+          7,
+          27
+        ],
+        "chunks": [
+          6414,
+          7,
+          27
+        ],
+        "attrs": {
+          "description": "Uncertainty of soil moisture estimate",
+          "units": "m3/m3",
+          "type": "single",
+          "dimension": "latitude, longitude, time",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          7
+        ],
+        "chunks": [
+          7
+        ],
+        "attrs": {
+          "description": "Latitude of the pixel centroid",
+          "units": "degree",
+          "type": "single",
+          "dimension": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          27
+        ],
+        "chunks": [
+          27
+        ],
+        "attrs": {
+          "description": "Longitude of the pixel centroid",
+          "units": "degree",
+          "type": "single",
+          "dimension": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "quality_flag": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          6414,
+          7,
+          27
+        ],
+        "chunks": [
+          6414,
+          7,
+          27
+        ],
+        "attrs": {
+          "description": "Data quality flags from SMAP L3",
+          "units": "1",
+          "type": "integer",
+          "dimension": "latitude, longitude, time",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "soil_moisture": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          6414,
+          7,
+          27
+        ],
+        "chunks": [
+          6414,
+          7,
+          27
+        ],
+        "attrs": {
+          "description": "Satellite soil moisture estimates",
+          "units": "m3/m3",
+          "type": "single",
+          "dimension": "latitude, longitude, time",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i8",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          6414
+        ],
+        "chunks": [
+          6414
+        ],
+        "attrs": {
+          "units": "nanoseconds since 2016-01-01T01:18:09.848999936",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          null,
+          null
+        ],
+        "type": "temporal",
+        "size": 6414
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          18.285303115844727,
+          25.028818130493164
+        ],
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 27
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          65.8438491821289,
+          68.86640930175781
+        ],
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 7
+      }
+    },
+    "cube:variables": {
+      "error": {
+        "type": "data",
+        "description": "Uncertainty of soil moisture estimate",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "m3/m3",
+        "attrs": {
+          "description": "Uncertainty of soil moisture estimate",
+          "units": "m3/m3",
+          "type": "single",
+          "dimension": "latitude, longitude, time"
+        },
+        "shape": [
+          6414,
+          7,
+          27
+        ],
+        "chunks": [
+          6414,
+          7,
+          27
+        ]
+      },
+      "quality_flag": {
+        "type": "data",
+        "description": "Data quality flags from SMAP L3",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "1",
+        "attrs": {
+          "description": "Data quality flags from SMAP L3",
+          "units": "1",
+          "type": "integer",
+          "dimension": "latitude, longitude, time"
+        },
+        "shape": [
+          6414,
+          7,
+          27
+        ],
+        "chunks": [
+          6414,
+          7,
+          27
+        ]
+      },
+      "soil_moisture": {
+        "type": "data",
+        "description": "Satellite soil moisture estimates",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "m3/m3",
+        "attrs": {
+          "description": "Satellite soil moisture estimates",
+          "units": "m3/m3",
+          "type": "single",
+          "dimension": "latitude, longitude, time"
+        },
+        "shape": [
+          6414,
+          7,
+          27
+        ],
+        "chunks": [
+          6414,
+          7,
+          27
+        ]
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Soil Moisture Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Soil Moisture Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/soil_moisture_zarr/EO4FLOOD_soil_moisture_SMAP_tore.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Torne - Soil Moisture SMAP",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-sm",
+  "title": "Torne - Soil Moisture SMAP"
+}

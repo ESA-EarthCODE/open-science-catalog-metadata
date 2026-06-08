@@ -1,0 +1,320 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4FLOOD_Snow_CLMS_SWE_ebro_20160101_20240630",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.6750000000000114,
+          39.825
+        ],
+        [
+          2.6750000000000114,
+          43.675
+        ],
+        [
+          -4.875,
+          43.675
+        ],
+        [
+          -4.875,
+          39.825
+        ],
+        [
+          2.6750000000000114,
+          39.825
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -4.875,
+    39.825,
+    2.6750000000000114,
+    43.675
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent ",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2024-06-30T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z",
+    "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent ",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CLMS_SWE_ebro_20160101_20240630.zarr",
+    "zarr:attributes": {
+      "title": "ESA EO4FLOOD project Snow dataset - CLMS Daily Snow Water Equivalent ",
+      "project": "EO4FLOOD",
+      "basin_name": "Ebro",
+      "pdate": "2025-10-31 10:30:39",
+      "producer": "Magellium",
+      "contact": "ana.carmonabardella@magellium.fr",
+      "source": "Snow Water Equivalent dataset (version 1.0.2) from the CLMS portfolio, derived from EO satellite imagery combined with weather station data",
+      "references": "http://land.copernicus.eu/global/products/swe",
+      "temporal_interval": "2016-01-01T00:00:00Z / 2024-06-30T235959Z",
+      "version": "V1.0.1",
+      "format": "netCDF",
+      "conventions": "CF-1.6",
+      "DOI": "https://doi.org/10.2909/58ca9f01-a526-418d-8862-b4be43ef4738",
+      "acknowledgements": "ESA EO4FLOOD project"
+    },
+    "zarr:arrays": {
+      "crs": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i4",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [],
+        "shape": [],
+        "chunks": [],
+        "attrs": {
+          "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0,
+          "epsg_code": "EPSG:4326",
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "GeoTransform": "-180 0.05 0 90 0 -0.05",
+          "_ARRAY_DIMENSIONS": []
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          78
+        ],
+        "chunks": [
+          78
+        ],
+        "attrs": {
+          "units": "degrees_north",
+          "long_name": "WGS84 latitude coordinates, center of pixel",
+          "standard_name": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          152
+        ],
+        "chunks": [
+          152
+        ],
+        "attrs": {
+          "units": "degrees_east",
+          "long_name": "WGS84 longitude coordinates, center of pixel",
+          "standard_name": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "swe": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3104,
+          78,
+          152
+        ],
+        "chunks": [
+          1,
+          78,
+          152
+        ],
+        "attrs": {
+          "units": "mm",
+          "long_name": "Snow Water Equivalent",
+          "standard_name": "Snow_Water_Equivalent",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          3104
+        ],
+        "chunks": [
+          3104
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "units": "days since 1970-01-01",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2016-01-01T00:00:00Z",
+          "2024-06-30T00:00:00Z"
+        ],
+        "description": "time",
+        "step": "P1DT0H0M0S",
+        "type": "temporal",
+        "size": 3104
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          -4.875,
+          2.6750000000000114
+        ],
+        "description": "WGS84 longitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 152
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          39.825,
+          43.675
+        ],
+        "description": "WGS84 latitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 78
+      }
+    },
+    "cube:variables": {
+      "swe": {
+        "type": "data",
+        "description": "Snow Water Equivalent",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "mm",
+        "attrs": {
+          "units": "mm",
+          "long_name": "Snow Water Equivalent",
+          "standard_name": "Snow_Water_Equivalent",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          3104,
+          78,
+          152
+        ],
+        "chunks": [
+          1,
+          78,
+          152
+        ]
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Snow Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Snow Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CLMS_SWE_ebro_20160101_20240630.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Ebro - Snow CLMS SWE - 2016-01-01 to 2024-06-30",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-snow",
+  "title": "Ebro - Snow CLMS SWE - 2016-01-01 to 2024-06-30"
+}
