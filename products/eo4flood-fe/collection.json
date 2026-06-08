@@ -16,6 +16,16 @@
       "title": "Access"
     },
     {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_tutorials/eo4flood/cog/access.ipynb",
+      "title": "Tutorial: Access the data",
+      "description": "A Python notebook demonstrating how to access the data from this collection.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
