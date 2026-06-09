@@ -58,12 +58,16 @@
       "type": "application/json",
       "title": "Variable: Water Temperature"
     },
-
     {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://oceanacidificationstripes.info/c/ph/basins/pacificocean/equatorial7sto7n",
+      "title": "Dataset visualisation"
     },
     {
       "rel": "cite-as",
