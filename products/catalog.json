@@ -515,6 +515,12 @@
     },
     {
       "rel": "child",
+      "href": "./global-plant-trait-maps/collection.json",
+      "type": "application/json",
+      "title": "Global Plant Functional Trait Maps at 1 km Resolution"
+    },
+    {
+      "rel": "child",
       "href": "./gravity-anomalies-goce-airborne-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Gravity anomalies from GOCE and airborne data"
