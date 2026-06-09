@@ -1244,6 +1244,12 @@
       "href": "./ocean-soda/collection.json",
       "type": "application/json",
       "title": "Satellite Oceanographic Datasets for Acidification (OceanSODA)"
+    }, 
+    {
+      "rel": "child",
+      "href": "./pathfinders-oceanacidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Support to Science Element - Pathfinders Ocean Acidification"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

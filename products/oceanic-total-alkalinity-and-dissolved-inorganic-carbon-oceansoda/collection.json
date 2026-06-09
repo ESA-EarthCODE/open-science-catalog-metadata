@@ -28,9 +28,9 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/ocean-soda/collection.json",
+      "href": "../../projects/pathfinders-oceanacidification/collection.json",
       "type": "application/json",
-      "title": "Project: Satellite Oceanographic Datasets for Acidification (OceanSODA)"
+      "title": "Project: ESA Support to Science Element - Pathfinders Ocean Acidification"
     },
     {
       "rel": "related",
@@ -73,7 +73,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "ocean-soda",
+  "osc:project": "pathfinders-oceanacidification",
   "osc:status": "completed",
   "osc:region": "Global",
   "osc:type": "product",
