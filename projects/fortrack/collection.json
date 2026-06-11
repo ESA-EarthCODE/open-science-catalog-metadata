@@ -13,11 +13,6 @@
   "contacts": [
     {
         "name": "Prof. Dr. Teja Kattenborn",
-        "emails": [
-        {
-            "value": "Teja.Kattenborn@geosense.uni-freiburg.de"
-        }
-        ],
         "roles": [
         "creator"
         ]
@@ -42,9 +37,15 @@
     },
     {
         "name": "Dr Sophie Hebden",
+        "emails": [
+        {
+            "value": "Sophie.Hebden@esa.int"
+        }
+        ],
         "roles": [
         "technical_officer"
         ]
+        
     },
     {
         "name": "University of Freiburg",
@@ -99,7 +100,7 @@
       "interval": [
         [
           "2026-03-05T00:00:00Z",
-          null
+          "2027-09-30T23:59:59Z"
         ]
       ]
     }
@@ -126,7 +127,6 @@
     {
       "rel": "via",
       "href": "https://climate.esa.int/en/supporting-the-paris-agreement/FORTRACK/",
-      "type": "text/html",
       "title": "FORTRACK project page (ESA Climate Office)"
     },
     {
