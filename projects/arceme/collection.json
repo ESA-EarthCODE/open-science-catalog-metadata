@@ -52,7 +52,7 @@
     },
     {
       "rel": "child",
-      "href": "./arceme-dhp/collection.json",
+      "href": "../../products/arceme-dhp/collection.json",
       "type": "application/json",
       "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
     }
