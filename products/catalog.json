@@ -2060,6 +2060,12 @@
       "href": "./arceme-datacubes-wocat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
