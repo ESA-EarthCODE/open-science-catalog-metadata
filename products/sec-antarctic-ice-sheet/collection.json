@@ -75,9 +75,10 @@
       "title": "EO Mission: Sentinel-3"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sec-antarctic-ice-sheet/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./ice-velocity-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
     }
   ],
   "stac_extensions": [
