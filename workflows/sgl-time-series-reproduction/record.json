@@ -1,0 +1,79 @@
+{
+  "id": "sgl-time-series-reproduction",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Subglacial Lake Time Series Visualization Workflow",
+    "description": "Workflow for reproducing ice surface elevation change figures from time series data.",
+    "type": "workflow",
+    "osc:project": "4d-antarctica",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "csv"
+      },
+      {
+        "name": "geoparquet"
+      },
+      {
+        "name": "png"
+      }
+    ],
+    "updated": "2026-06-13T16:35:59Z",
+    "created": "2026-06-13T16:35:59Z",
+    "keywords": [
+      "Subglacial lakes",
+      "Glaciers",
+      "Glacial Lake Extent",
+      "Antarctica"
+    ],
+    "license": "MIT",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-ANTARCTICA"
+    },
+    {
+      "rel": "git",
+      "href": "https://doi.org/10.5281/zenodo.16330564",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ]
+}
