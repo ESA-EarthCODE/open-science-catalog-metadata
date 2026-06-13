@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "subglacial-lakes-boundries-only",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          171.81277764628828,
+          -85.66263549598452
+        ],
+        [
+          171.81277764628828,
+          -66.71654059863512
+        ],
+        [
+          -154.86889769882507,
+          -66.71654059863512
+        ],
+        [
+          -154.86889769882507,
+          -85.66263549598452
+        ],
+        [
+          171.81277764628828,
+          -85.66263549598452
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -154.86889769882507,
+    -85.66263549598452,
+    171.81277764628828,
+    -66.71654059863512
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "datetime": "2010-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Subglacial lakes boundaries and elevation time series"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/subglacial_lakes/subglacial_lakes_boundries.parquet",
+      "type": "application/x-parquet",
+      "title": "Antarctic active subglacial lake boundaries",
+      "description": "GeoParquet table of Antarctic active subglacial lake boundary polygons derived from CryoSat-2 surface elevation change and post-processed from Wilson et al. (2025). Each row represents a delineated lake activity boundary for a specific lake, time period, and elevation-change contour threshold.",
+      "roles": [
+        "data"
+      ],
+      "table:columns": [
+        {
+          "name": "record_id",
+          "type": "string",
+          "description": "Unique identifier for a subglacial lake boundary record, encoding lake name, activity period, and contour threshold."
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "Name or inventory label of the Antarctic subglacial lake."
+        },
+        {
+          "name": "new_sgl_glake",
+          "type": "boolean",
+          "description": "Flag indicating whether the lake was newly identified in Wilson et al. (2025)."
+        },
+        {
+          "name": "start_date",
+          "type": "date",
+          "description": "Start date of the elevation-change period used for boundary delineation."
+        },
+        {
+          "name": "end_date",
+          "type": "date",
+          "description": "End date of the elevation-change period used for boundary delineation."
+        },
+        {
+          "name": "contour_m_yr",
+          "type": "float",
+          "description": "Elevation-change rate contour used to delineate the lake activity boundary.",
+          "unit": "m yr-1"
+        },
+        {
+          "name": "geometry",
+          "type": "geometry",
+          "description": "Polygon geometry representing the subglacial lake activity boundary."
+        }
+      ]
+    }
+  },
+  "collection": "subglacial-lakes-boundries",
+  "title": "Subglacial lakes boundaries data"
+}

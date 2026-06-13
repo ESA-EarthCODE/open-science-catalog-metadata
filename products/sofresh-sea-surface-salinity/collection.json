@@ -51,9 +51,10 @@
       "title": "EO Mission: SMOS"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sofresh-sea-surface-salinity/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./sofresh-sea-surface-salinity-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
     }
   ],
   "stac_extensions": [
@@ -112,7 +113,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Salinity/Density",
     "Sea Surface Salinity",
