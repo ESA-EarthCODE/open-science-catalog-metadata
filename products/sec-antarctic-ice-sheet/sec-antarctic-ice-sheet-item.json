@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "ice-velocity-item",
+  "id": "sec-antarctic-ice-sheet-item",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -13,11 +13,11 @@
         ],
         [
           180.0,
-          -56.21220293194665
+          -56.7587107166777
         ],
         [
           -180.0,
-          -56.21220293194665
+          -56.7587107166777
         ],
         [
           -180.0,
@@ -34,14 +34,14 @@
     -180.0,
     -90.0,
     180.0,
-    -56.21220293194665
+    -56.7587107166777
   ],
   "properties": {
-    "license": "cc-by-nc-4.0",
+    "license": "cc-by-4.0",
     "description": "",
-    "start_datetime": "2014-10-01T00:00:00Z",
-    "end_datetime": "2021-12-01T00:00:00Z",
-    "datetime": "2014-10-01T00:00:00Z"
+    "start_datetime": "1991-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": "1991-01-01T00:00:00Z"
   },
   "links": [
     {
@@ -59,29 +59,28 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/ice_velocity/ice_velocity.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/surface_elevation/ESACCI-AIS-L3C-SEC-MULTIMISSION-5KM-5YEAR-MEANS-1991-2021-fv1.zarr/",
       "type": "application/vnd+zarr",
-      "title": "Ice velocity data 2014-2021",
-      "start_datetime": "2014-10-01T00:00:00Z",
-      "end_datetime": "2021-12-01T00:00:00Z",
-      "license": "cc-by-nc-4.0",
-      "created": "2026-06-13T13:16:05.047217Z",
+      "title": "Surface elevation change Antarctica",
+      "start_datetime": "1991-01-01T00:00:00Z",
+      "end_datetime": "2022-12-31T00:00:00Z",
+      "license": "cc-by-4.0",
+      "created": "2021-06-03T11:07:35Z",
       "cube:dimensions": {
         "time": {
           "extent": [
-            "2014-10-01T00:00:00Z",
-            "2021-12-01T00:00:00Z"
+            "1993-12-01T00:00:00Z",
+            "2020-01-01T00:00:00Z"
           ],
-          "description": "time",
           "type": "temporal"
         },
         "x": {
           "axis": "x",
           "extent": [
-            -2867900.0,
-            2867900.0
+            -2817500.0,
+            2817500.0
           ],
-          "step": 200.0,
+          "step": 5000.0,
           "description": "x coordinate of projection",
           "reference_system": {
             "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
@@ -196,10 +195,10 @@
         "y": {
           "axis": "y",
           "extent": [
-            -2457900.0,
-            2457900.0
+            -2417500.0,
+            2417500.0
           ],
-          "step": -200.0,
+          "step": 5000.0,
           "description": "y coordinate of projection",
           "reference_system": {
             "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
@@ -313,195 +312,281 @@
         }
       },
       "cube:variables": {
-        "land_ice_surface_easting_stddev": {
+        "basin_id": {
           "type": "data",
-          "description": "standard deviation of easting ice velocity",
+          "description": "Glacialogical basin identification number",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "long_name": "Glacialogical basin identification number",
+            "comment": "IMBIE glacialogical basin id number (Zwally et al., 2012) associated with each measurement. Values are : 0 (outside mask), 1-27 (basin values for Antarctica)",
+            "source": "IMBIE http://imbie.org/imbie-2016/drainage-basins/",
+            "grid_mapping": "grid_projection"
+          },
+          "shape": [
+            968,
+            1128
+          ],
+          "chunks": [
+            968,
+            1128
+          ]
+        },
+        "cell_end_times": {
+          "type": "data",
+          "description": "last time in grid cell",
           "dimensions": [
             "time",
             "y",
             "x"
           ],
-          "unit": "m/day",
+          "unit": "years",
           "attrs": {
-            "units": "m/day",
-            "description": "standard deviation of easting ice velocity",
-            "grid_mapping": "crs"
+            "comment": "for each 5yr time slice, the time of the last datapoint in each grid cell period, in years since 1991.0",
+            "long_name": "last time in grid cell",
+            "units": "years",
+            "min_val": 3.736986301369863,
+            "max_val": 30.08781345909125,
+            "grid_mapping": "grid_projection"
           },
           "shape": [
-            87,
-            24580,
-            28680
+            27,
+            968,
+            1128
           ],
           "chunks": [
-            1,
-            1892,
-            2208
+            27,
+            968,
+            1128
           ]
         },
-        "land_ice_surface_easting_velocity": {
+        "cell_start_times": {
           "type": "data",
-          "description": "easting ice velocity",
+          "description": "first time in grid cell",
           "dimensions": [
             "time",
             "y",
             "x"
           ],
-          "unit": "m/day",
+          "unit": "years",
           "attrs": {
-            "units": "m/day",
-            "description": "easting ice velocity",
-            "grid_mapping": "crs"
+            "comment": "for each 5yr time slice, the time of the first datapoint in each grid cell period, in years since 1991.0",
+            "long_name": "first time in grid cell",
+            "units": "years",
+            "min_val": 0.6164383561643836,
+            "max_val": 27.02191780821918,
+            "grid_mapping": "grid_projection"
           },
           "shape": [
-            87,
-            24580,
-            28680
+            27,
+            968,
+            1128
           ],
           "chunks": [
-            1,
-            1892,
-            2208
+            27,
+            968,
+            1128
           ]
         },
-        "land_ice_surface_measurement_count": {
+        "cell_time_lengths": {
           "type": "data",
-          "description": "count of measurements",
+          "description": "period covered by grid cell",
           "dimensions": [
             "time",
             "y",
             "x"
           ],
-          "unit": "m/day",
+          "unit": "years",
           "attrs": {
-            "units": "m/day",
-            "description": "count of measurements",
-            "grid_mapping": "crs"
+            "comment": "for each time slice, the length of time (in years) between first and last datapoints in each grid cell, used for surface elevation change calculation",
+            "long_name": "period covered by grid cell",
+            "units": "years",
+            "min_val": 2.531851186466053,
+            "max_val": 4.9813721086907705,
+            "grid_mapping": "grid_projection"
           },
           "shape": [
-            87,
-            24580,
-            28680
+            27,
+            968,
+            1128
           ],
           "chunks": [
-            1,
-            1892,
-            2208
+            27,
+            968,
+            1128
           ]
         },
-        "land_ice_surface_northing_stddev": {
+        "grid_projection": {
           "type": "data",
-          "description": "standard deviation of northing ice velocity",
-          "dimensions": [
-            "time",
-            "y",
-            "x"
-          ],
-          "unit": "m/day",
-          "attrs": {
-            "units": "m/day",
-            "description": "standard deviation of northing ice velocity",
-            "grid_mapping": "crs"
-          },
-          "shape": [
-            87,
-            24580,
-            28680
-          ],
-          "chunks": [
-            1,
-            1892,
-            2208
-          ]
-        },
-        "land_ice_surface_northing_velocity": {
-          "type": "data",
-          "description": "northing ice velocity",
-          "dimensions": [
-            "time",
-            "y",
-            "x"
-          ],
-          "unit": "m/day",
-          "attrs": {
-            "units": "m/day",
-            "description": "northing ice velocity",
-            "grid_mapping": "crs"
-          },
-          "shape": [
-            87,
-            24580,
-            28680
-          ],
-          "chunks": [
-            1,
-            1892,
-            2208
-          ]
-        },
-        "land_ice_surface_velocity_magnitude": {
-          "type": "data",
-          "description": "magnitude of horizontal ice velocity",
-          "dimensions": [
-            "time",
-            "y",
-            "x"
-          ],
-          "unit": "m/day",
-          "attrs": {
-            "units": "m/day",
-            "description": "magnitude of horizontal ice velocity",
-            "grid_mapping": "crs"
-          },
-          "shape": [
-            87,
-            24580,
-            28680
-          ],
-          "chunks": [
-            1,
-            1892,
-            2208
-          ]
-        },
-        "land_ice_surface_vertical_velocity": {
-          "type": "data",
-          "description": "vertical ice velocity",
-          "dimensions": [
-            "time",
-            "y",
-            "x"
-          ],
-          "unit": "m/day",
-          "attrs": {
-            "units": "m/day",
-            "description": "vertical ice velocity",
-            "grid_mapping": "crs"
-          },
-          "shape": [
-            87,
-            24580,
-            28680
-          ],
-          "chunks": [
-            1,
-            1892,
-            2208
-          ]
-        },
-        "crs": {
-          "type": "auxiliary",
           "dimensions": [],
           "attrs": {
+            "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "projected_crs_name": "WGS 84 / Antarctic Polar Stereographic",
             "grid_mapping_name": "polar_stereographic",
             "standard_parallel": -71.0,
             "straight_vertical_longitude_from_pole": 0.0,
             "false_easting": 0.0,
             "false_northing": 0.0,
-            "unit": "metre",
-            "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",\n    GEOGCS[\"WGS 84\",\n        DATUM[\"WGS_1984\",\n            SPHEROID[\"WGS 84\",6378137,298.257223563,\n                AUTHORITY[\"EPSG\",\"7030\"]],\n            AUTHORITY[\"EPSG\",\"6326\"]],\n        PRIMEM[\"Greenwich\",0,\n            AUTHORITY[\"EPSG\",\"8901\"]],\n        UNIT[\"degree\",0.0174532925199433,\n            AUTHORITY[\"EPSG\",\"9122\"]],\n        AUTHORITY[\"EPSG\",\"4326\"]],\n    PROJECTION[\"Polar_Stereographic\"],\n    PARAMETER[\"latitude_of_origin\",-71],\n    PARAMETER[\"central_meridian\",0],\n    PARAMETER[\"false_easting\",0],\n    PARAMETER[\"false_northing\",0],\n    UNIT[\"metre\",1,\n        AUTHORITY[\"EPSG\",\"9001\"]],\n    AXIS[\"Easting\",NORTH],\n    AXIS[\"Northing\",NORTH],\n    AUTHORITY[\"EPSG\",\"3031\"]]",
-            "latitude_of_projection_origin": -90.0
+            "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]"
           },
           "shape": []
+        },
+        "sec": {
+          "type": "data",
+          "description": "surface elevation change",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/yr",
+          "attrs": {
+            "long_name": "surface elevation change",
+            "units": "m/yr",
+            "source": "multi-mission radar altimetry, ERS-1 REAPER v1,  ERS-2 REAPER v1, ENVISAT GDRv3, CryoSat-2 Baseline-D L2i, S3-A PB2.68, S3-B PB2.68",
+            "grid_mapping": "grid_projection"
+          },
+          "shape": [
+            27,
+            968,
+            1128
+          ],
+          "chunks": [
+            27,
+            968,
+            1128
+          ]
+        },
+        "sec_uncertainty": {
+          "type": "data",
+          "description": "uncertainty in surface elevation change",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/yr",
+          "attrs": {
+            "long_name": "uncertainty in surface elevation change",
+            "units": "m/yr",
+            "grid_mapping": "grid_projection"
+          },
+          "shape": [
+            27,
+            968,
+            1128
+          ],
+          "chunks": [
+            27,
+            968,
+            1128
+          ]
+        },
+        "surface_type": {
+          "type": "data",
+          "description": "surface type from mask",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "long_name": "surface type from mask",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "flag_meanings": "ocean ice_free_land grounded_ice floating_ice lake_vostok",
+            "source": "https://nsidc.org/data/nsidc-0756/versions/2",
+            "valid_min": 0,
+            "valid_max": 4,
+            "comment": "Surface type identifier, for use in discriminating different surfaces types within the SEC grid; derived from the BedMachine Antarctica version 2 (Morlighem, 2020) datasets.",
+            "grid_mapping": "grid_projection"
+          },
+          "shape": [
+            968,
+            1128
+          ],
+          "chunks": [
+            968,
+            1128
+          ]
+        },
+        "time_bounds": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "bounds"
+          ],
+          "attrs": {},
+          "shape": [
+            27,
+            2
+          ],
+          "chunks": [
+            27,
+            2
+          ]
+        },
+        "lat": {
+          "type": "auxiliary",
+          "description": "latitude coordinate",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "units": "degrees_north",
+            "standard_name": "latitude",
+            "long_name": "latitude coordinate",
+            "min_val": -89.96746015329428,
+            "max_val": -56.7587107166777
+          },
+          "shape": [
+            968,
+            1128
+          ],
+          "chunks": [
+            968,
+            1128
+          ]
+        },
+        "lon": {
+          "type": "auxiliary",
+          "description": "longitude coordinate",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "units": "degrees_east",
+            "standard_name": "longitude",
+            "long_name": "longitude coordinate",
+            "min_val": 0.059251043525063815,
+            "max_val": 359.9407489564749
+          },
+          "shape": [
+            968,
+            1128
+          ],
+          "chunks": [
+            968,
+            1128
+          ]
         }
       },
       "datetime": null,

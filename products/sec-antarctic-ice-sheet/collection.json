@@ -76,7 +76,7 @@
     },
     {
       "rel": "item",
-      "href": "./ice-velocity-item.json",
+      "href": "./sec-antarctic-ice-sheet-item.json",
       "type": "application/json",
       "title": "Zarr Store"
     }
