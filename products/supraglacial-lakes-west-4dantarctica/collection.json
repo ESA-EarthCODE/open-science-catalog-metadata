@@ -57,8 +57,8 @@
       "title": "EO Mission: Landsat-8"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/supraglacial-lakes-west-4dantarctica/collection.json",
+      "rel": "item",
+      "href": "./supraglacial-lakes-boundries-only.json",
       "type": "application/json"
     }
   ],
