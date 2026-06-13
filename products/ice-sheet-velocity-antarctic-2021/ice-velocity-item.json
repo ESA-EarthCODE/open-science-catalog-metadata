@@ -48,13 +48,13 @@
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+      "title": "Antarctic Ice Sheet monthly ice velocity"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+      "title": "Antarctic Ice Sheet monthly ice velocity"
     }
   ],
   "assets": {
