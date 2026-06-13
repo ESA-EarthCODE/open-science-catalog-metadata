@@ -1,0 +1,515 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ice-velocity-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.21220293194665
+        ],
+        [
+          -180.0,
+          -56.21220293194665
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.21220293194665
+  ],
+  "properties": {
+    "license": "cc-by-nc-4.0",
+    "description": "",
+    "start_datetime": "2014-10-01T00:00:00Z",
+    "end_datetime": "2021-12-01T00:00:00Z",
+    "datetime": "2014-10-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/ice_velocity/ice_velocity.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Ice velocity data 2014-2021",
+      "start_datetime": "2014-10-01T00:00:00Z",
+      "end_datetime": "2021-12-01T00:00:00Z",
+      "license": "cc-by-nc-4.0",
+      "created": "2026-06-13T13:16:05.047217Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2014-10-01T00:00:00Z",
+            "2021-12-01T00:00:00Z"
+          ],
+          "description": "time",
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            -2867900.0,
+            2867900.0
+          ],
+          "step": 200.0,
+          "description": "x coordinate of projection",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            -2457900.0,
+            2457900.0
+          ],
+          "step": -200.0,
+          "description": "y coordinate of projection",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "land_ice_surface_easting_stddev": {
+          "type": "data",
+          "description": "standard deviation of easting ice velocity",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "standard deviation of easting ice velocity",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "land_ice_surface_easting_velocity": {
+          "type": "data",
+          "description": "easting ice velocity",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "easting ice velocity",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "land_ice_surface_measurement_count": {
+          "type": "data",
+          "description": "count of measurements",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "count of measurements",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "land_ice_surface_northing_stddev": {
+          "type": "data",
+          "description": "standard deviation of northing ice velocity",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "standard deviation of northing ice velocity",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "land_ice_surface_northing_velocity": {
+          "type": "data",
+          "description": "northing ice velocity",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "northing ice velocity",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "land_ice_surface_velocity_magnitude": {
+          "type": "data",
+          "description": "magnitude of horizontal ice velocity",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "magnitude of horizontal ice velocity",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "land_ice_surface_vertical_velocity": {
+          "type": "data",
+          "description": "vertical ice velocity",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m/day",
+          "attrs": {
+            "units": "m/day",
+            "description": "vertical ice velocity",
+            "grid_mapping": "crs"
+          },
+          "shape": [
+            87,
+            24580,
+            28680
+          ],
+          "chunks": [
+            1,
+            1892,
+            2208
+          ]
+        },
+        "crs": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "grid_mapping_name": "polar_stereographic",
+            "standard_parallel": -71.0,
+            "straight_vertical_longitude_from_pole": 0.0,
+            "false_easting": 0.0,
+            "false_northing": 0.0,
+            "unit": "metre",
+            "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",\n    GEOGCS[\"WGS 84\",\n        DATUM[\"WGS_1984\",\n            SPHEROID[\"WGS 84\",6378137,298.257223563,\n                AUTHORITY[\"EPSG\",\"7030\"]],\n            AUTHORITY[\"EPSG\",\"6326\"]],\n        PRIMEM[\"Greenwich\",0,\n            AUTHORITY[\"EPSG\",\"8901\"]],\n        UNIT[\"degree\",0.0174532925199433,\n            AUTHORITY[\"EPSG\",\"9122\"]],\n        AUTHORITY[\"EPSG\",\"4326\"]],\n    PROJECTION[\"Polar_Stereographic\"],\n    PARAMETER[\"latitude_of_origin\",-71],\n    PARAMETER[\"central_meridian\",0],\n    PARAMETER[\"false_easting\",0],\n    PARAMETER[\"false_northing\",0],\n    UNIT[\"metre\",1,\n        AUTHORITY[\"EPSG\",\"9001\"]],\n    AXIS[\"Easting\",NORTH],\n    AXIS[\"Northing\",NORTH],\n    AUTHORITY[\"EPSG\",\"3031\"]]",
+            "latitude_of_projection_origin": -90.0
+          },
+          "shape": []
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ice-sheet-velocity-antarctic-2021",
+  "title": "Zarr Store"
+}
