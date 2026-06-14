@@ -99,7 +99,7 @@
       ]
     }
   ],
-  "sci:doi": "doi.org/10.5281/zenodo.16330564",
+  "sci:doi": "10.5281/zenodo.16330564",
   "cf:parameter": [
     {
       "name": "subglacial-lake-extent"
