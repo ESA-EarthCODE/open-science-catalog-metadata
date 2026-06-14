@@ -1,0 +1,367 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bedrock-topography-antarctica-bedmachine-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -57.62119325033221
+        ],
+        [
+          -180.0,
+          -57.62119325033221
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -57.62119325033221
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "",
+    "start_datetime": "1997-10-01T00:00:00Z",
+    "end_datetime": "2021-03-15T00:00:00Z",
+    "datetime": "1997-10-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/calving_fronts/Antarctic_coastlines_v2.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Antarctica calving fronts zarr cube",
+      "start_datetime": "1997-10-01T00:00:00Z",
+      "end_datetime": "2021-03-15T00:00:00Z",
+      "license": "CC-BY-4.0",
+      "created": "2026-06-14T16:27:27.697639Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1997-10-01T00:00:00Z",
+            "2021-03-15T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            -2678287,
+            2816512
+          ],
+          "description": "x coordinate of projection",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            -2154112,
+            2259727
+          ],
+          "description": "y coordinate of projection",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "ice": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "source": "data.mat",
+            "readme": "Adjusted ice grid created by ice_compiler.m"
+          },
+          "shape": [
+            24,
+            18392,
+            22896
+          ],
+          "chunks": [
+            1,
+            8192,
+            8192
+          ]
+        },
+        "spatial_ref": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "projected_crs_name": "WGS 84 / Antarctic Polar Stereographic",
+            "grid_mapping_name": "polar_stereographic",
+            "standard_parallel": -71.0,
+            "straight_vertical_longitude_from_pole": 0.0,
+            "false_easting": 0.0,
+            "false_northing": 0.0,
+            "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]"
+          },
+          "shape": []
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "antarctic-ice-shelf-calving-fronts",
+  "title": "Zarr Store"
+}
