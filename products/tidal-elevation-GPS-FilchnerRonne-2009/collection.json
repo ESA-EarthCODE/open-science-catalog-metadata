@@ -54,7 +54,7 @@
       "rel": "item",
       "href": "./tidal-elevation-gps-prediction.json",
       "type": "application/json",
-      "title": ""
+      "title": "Tidal elevation GPS predictions"
     }
   ],
   "stac_extensions": [

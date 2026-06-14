@@ -54,7 +54,7 @@
       "rel": "item",
       "href": "./tidal-elevation-gps-prediction-kerguelen.json",
       "type": "application/json",
-      "title": ""
+      "title": "Tidal elevation predictions around Kerguelen"
     }
   ],
   "stac_extensions": [

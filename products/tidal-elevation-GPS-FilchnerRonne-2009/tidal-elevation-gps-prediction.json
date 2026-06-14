@@ -41,7 +41,8 @@
     "description": "",
     "start_datetime": "2009-01-01T00:00:00Z",
     "end_datetime": "2022-12-31T00:00:00Z",
-    "datetime": "2009-01-01T00:00:00Z"
+    "datetime": "2009-01-01T00:00:00Z",
+    "title": "Tidal elevation GPS predictions"
   },
   "links": [
     {
@@ -61,7 +62,7 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/albatross/elevation_prediction_gps.parquet",
       "type": "application/x-parquet",
-      "title": "Tidal elevation predictions",
+      "title": "Tidal elevation GPS predictions",
       "proj:code": "EPSG:4326",
       "proj:wkt2": "GEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],USAGE[SCOPE[\"Horizontal component of 3D system.\"],AREA[\"World.\"],BBOX[-90,-180,90,180]],ID[\"EPSG\",4326]]",
       "proj:bbox": [

@@ -54,13 +54,13 @@
       "rel": "item",
       "href": "./tidal-elevation-cryosat2-2019-sar-a.json",
       "type": "application/json",
-      "title": ""
+       "title": "Tidal elevation along CryoSat-2 track during the year 2019 SAR A"
     },
     {
       "rel": "item",
       "href": "./tidal-elevation-cryosat2-2019-sin.json",
       "type": "application/json",
-      "title": ""
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019 SIN"
     }
   ],
   "stac_extensions": [
