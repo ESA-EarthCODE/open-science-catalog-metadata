@@ -61,6 +61,16 @@
       "href": "./ice-velocity-item.json",
       "type": "application/json",
       "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/ice_velocity/access.ipynb",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [

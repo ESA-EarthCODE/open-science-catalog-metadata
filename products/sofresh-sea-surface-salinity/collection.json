@@ -55,6 +55,16 @@
       "href": "./sofresh-sea-surface-salinity-item.json",
       "type": "application/json",
       "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/sofresh/access.ipynb",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
