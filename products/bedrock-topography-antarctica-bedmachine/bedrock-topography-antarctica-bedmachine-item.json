@@ -1,0 +1,605 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bedrock-topography-antarctica-bedmachine-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "license": "CC0-1.0",
+    "description": "",
+    "start_datetime": "1970-01-01T00:00:00Z",
+    "end_datetime": "2019-12-01T00:00:00Z",
+    "datetime": "1970-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/albatross/datacollection_ALBATROSS_tidal_amplitude_phase_tide_gauges.nc",
+      "type": "application/vnd+zarr",
+      "title": "Bedrock zarr cube",
+      "start_datetime": "1970-01-01T00:00:00Z",
+      "end_datetime": "2019-12-01T00:00:00Z",
+      "license": "CC0-1.0",
+      "created": "2025-12-12T07:42:10Z",
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "extent": [
+            -3333000,
+            3333000
+          ],
+          "step": 500,
+          "description": "Cartesian x-coordinate",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            -3333000,
+            3333000
+          ],
+          "step": -500,
+          "description": "Cartesian y-coordinate",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "bed": {
+          "type": "data",
+          "description": "bed topography",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "bed topography",
+            "standard_name": "bedrock_altitude",
+            "units": "m",
+            "source": "IBCSO v2 and Mathieu Morlighem"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "dataid": {
+          "type": "data",
+          "description": "data id",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "long_name": "data id",
+            "valid_range": [
+              1,
+              10
+            ],
+            "flag_values": [
+              1,
+              2,
+              7,
+              10
+            ],
+            "flag_meanings": "REMA Radar seismic multibeam",
+            "source": "Mathieu Morlighem"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "errbed": {
+          "type": "data",
+          "description": "bed topography/ice thickness error",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "bed topography/ice thickness error",
+            "units": "m",
+            "source": "Mathieu Morlighem"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "firn": {
+          "type": "data",
+          "description": "firn air content",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "firn air content",
+            "units": "m",
+            "source": "FAC model from Ligtenberg et al., 2011, forced by RACMO2.3p2 (van Wessem et al., 2018)"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "geoid": {
+          "type": "data",
+          "description": "EIGEN-6C4 Geoid - WGS84 Ellipsoid difference",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "EIGEN-6C4 Geoid - WGS84 Ellipsoid difference",
+            "standard_name": "geoid_height_above_reference_ellipsoid",
+            "units": "m",
+            "geoid": "eigen-6c4 (Forste et al 2014)"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "mapping": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "projected_crs_name": "WGS 84 / Antarctic Polar Stereographic",
+            "grid_mapping_name": "polar_stereographic",
+            "standard_parallel": -71.0,
+            "straight_vertical_longitude_from_pole": 0.0,
+            "false_easting": 0.0,
+            "false_northing": 0.0,
+            "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]"
+          },
+          "shape": []
+        },
+        "mask": {
+          "type": "data",
+          "description": "mask",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "long_name": "mask",
+            "valid_range": [
+              0,
+              4
+            ],
+            "flag_values": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "flag_meanings": "ocean ice_free_land grounded_ice floating_ice lake_vostok",
+            "source": "Antarctic Digital Database (rock outcrop) and Jeremie Mouginot (pers. comm., grounding lines)"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "rgi": {
+          "type": "data",
+          "description": "RGI_mask",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "long_name": "RGI_mask",
+            "valid_range": [
+              0,
+              1
+            ],
+            "flag_values": [
+              0,
+              1
+            ],
+            "flag_meanings": "out_RGI in_RGI",
+            "source": "RGI-v7.0 (https://www.glims.org/RGI/)",
+            "comment": "For each pixel, this field indicates whether this pixel is inside a glacier outline of RGI-v7.0 (1), or outside (0)"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "source": {
+          "type": "data",
+          "description": "data source",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "long_name": "data source",
+            "valid_range": [
+              1,
+              10
+            ],
+            "flag_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10
+            ],
+            "flag_meanings": "REMA_IBCSOv2 mass_conservation interpolation hydrostatic IFPA gravity seismic IceBoost multibeam",
+            "source": "Mathieu Morlighem"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "surface": {
+          "type": "data",
+          "description": "ice surface elevation",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "ice surface elevation",
+            "standard_name": "surface_altitude",
+            "units": "m",
+            "source": "REMA (Byrd Polar and Climate Research Center and the Polar Geospatial Center)"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        },
+        "thickness": {
+          "type": "data",
+          "description": "ice thickness",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "ice thickness",
+            "standard_name": "land_ice_thickness",
+            "units": "m",
+            "source": "Mathieu Morlighem"
+          },
+          "shape": [
+            13333,
+            13333
+          ],
+          "chunks": [
+            1024,
+            1024
+          ]
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "bedrock-topography-antarctica-bedmachine",
+  "title": "Zarr Store"
+}

@@ -63,9 +63,10 @@
       "title": "EO Mission: Numerical models"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/bedrock-topography-antarctica-bedmachine/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./bedrock-topography-antarctica-bedmachine-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
     }
   ],
   "stac_extensions": [
