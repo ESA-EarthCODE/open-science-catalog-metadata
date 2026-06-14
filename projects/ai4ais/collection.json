@@ -63,6 +63,11 @@
       "name": "Martin Wearing",
       "roles": [
         "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Martin.Wearing@esa.int"
+        }
       ]
     },
     {
