@@ -1,0 +1,177 @@
+{
+  "type": "Collection",
+  "id": "ai4ais-larsen-c-ice-shelf-cube",
+  "stac_version": "1.0.0",
+  "description": "AI4AIS data cube for the Larsen C ice shelf cube. In addition to wind speed, surface mass balance, and ice velocity, we incorporate surface elevation, surface melt, supraglacial lakes, and other currently available datasets. In later stages we will include novel datasets for ice shelf damage and strain rate developed as part of the project. A GRF representation of each monthly timestep for each dataset is generated. Using the R-INLA package values for an GRF fitting each input dataset are estimated at the vertices of a mesh covering the study area. These values are regressed to a uniform grid to create a datacube analogous to a pixel image",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ai4ais/collection.json",
+      "type": "application/json",
+      "title": "Project: ARTIFICIAL INTELLIGENCE FOR ICE SHELVES (AI4AIS)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-velocity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/supraglacial-lakes/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Supraglacial Lakes"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/strain/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Strain"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-sheets-and-ice-shelves/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Sheets and Ice Shelves"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-wind-speed-and-direction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Wind Speed And Direction"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-mass-balance-ice-sheet-mass-balance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Mass Balance/Ice Sheet Mass Balance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-elevation-ice-sheet-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Elevation/Ice Sheet Elevation"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-melt/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Melt"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "item",
+      "href": "./ai4ais-larsen-c-ice-shelf-cube-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
+    },
+    {
+      "rel": "item",
+      "href": "./ai4ais-larsen-c-ice-shelf-cube-pig-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
+    },
+    {
+      "rel": "via",
+      "href": "./ai4ais-larsen-c-ice-shelf-cube-item.json",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-06-14T10:18:44.243499Z",
+  "updated": "2026-06-14T10:18:44.243499Z",
+  "osc:project": "ai4ais",
+  "osc:status": "ongoing",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2",
+    "cryosat"
+  ],
+  "osc:variables": [
+    "ice-velocity",
+    "supraglacial-lakes",
+    "strain",
+    "ice-sheets-and-ice-shelves",
+    "surface-wind-speed-and-direction",
+    "glacier-mass-balance-ice-sheet-mass-balance",
+    "glacier-elevation-ice-sheet-elevation",
+    "snow-melt"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "title": "AI4AIS Larsen C ice shelf cube",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -56.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "Antarctica",
+    "Data cube",
+    "Larsen C"
+  ]
+}

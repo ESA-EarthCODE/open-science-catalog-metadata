@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "id": "ai4ais",
+  "stac_version": "1.0.0",
+  "description": "The instability of Antarctic ice shelves is one of the most critical open questions in polar science, due to its capacity to drive rapid sea level change at – and beyond – current high-end climate projections. Yet forecasting future instability is notoriously difficult because of the complex, non-linear forcing mechanisms controlling an ice shelf’s response, including calving at the ice margin. As a result, the timescales for ice shelf collapse forms one of the largest uncertainties in modelling future sea level scenarios. In AI4IS we aim to develop the first AI-based forecasting system for iceberg calving of Antarctic ice shelves. Our AI model, which will fundamentally be built to include Explainable AI (XAI) techniques, will consume a bespoke 4-D multivariate data cube of EO products, complemented with process-model simulations of key climate parameters. Our 4-D data cube will be assembled using a novel Gaussian random field representation approach that our team have recently developed, which is computationally efficient and preserves sub-grid scale information.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://ai4is.enveo.at/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/ai4is/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-06-14T10:18:41.732473Z",
+  "updated": "2026-06-14T10:18:41.732473Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Martin Wearing",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Martin.Wearing@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Science [&] Technology Norway (NO)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "ENVEO – ENVIRONMENTAL EARTH OBSERVATION GMBH (AT)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSITY OF LANCASTER ENVIROMENT CENTRE (GB)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "title": "ARTIFICIAL INTELLIGENCE FOR ICE SHELVES (AI4AIS)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -56.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2026-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-4.0"
+}

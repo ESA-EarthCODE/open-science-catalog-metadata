@@ -601,6 +601,12 @@
       "href": "../../products/subglacial-lakes-boundries/collection.json",
       "type": "application/json",
       "title": "Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
     }
   ],
   "updated": "2024-08-27T17:27:42.199831Z",
