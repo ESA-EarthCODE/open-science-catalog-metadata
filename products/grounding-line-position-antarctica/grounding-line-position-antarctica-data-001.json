@@ -1,0 +1,173 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "grounding-line-position-antarctica-data-001",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          170.53697204589844,
+          -85.47109985351562
+        ],
+        [
+          170.53697204589844,
+          -64.21733093261719
+        ],
+        [
+          -176.08023071289062,
+          -64.21733093261719
+        ],
+        [
+          -176.08023071289062,
+          -85.47109985351562
+        ],
+        [
+          170.53697204589844,
+          -85.47109985351562
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -176.08023071289062,
+    -85.47109985351562,
+    170.53697204589844,
+    -64.21733093261719
+  ],
+  "properties": {
+    "license": "CC0-1.0",
+    "description": "Satellites/Sensors used to generate this product this product include:\n    ERS: European Space Agency Earth Remote Sensing Satellites 1 and 2\n    RSAT: RADARSAT-1 \u2014 Canadian Space Agency Synthetic Aperture Radar\n    Satellite\n    R2: RADARSAT-2 \u2014 Canadian Space Agency Synthetic Aperture Radar\n    Satellite\n    PALSAR: Japan Aerospace Exploration Agency Advanced Land Observing\n    System (ALOS) Phased Array type L-band Synthetic Aperture Radar\n    COSMO SkyMed: Italian Space Agency Synthetic Aperture Radar\n    Constellation\n    Sentinel-1A: European Union and European Space Agency Copernicus\n    program Synthetic Aperture Radar Satellite",
+    "start_datetime": "1992-02-07T00:00:00Z",
+    "end_datetime": "2014-12-17T23:59:59Z",
+    "datetime": "1992-02-07T00:00:00Z",
+    "title": "Grounding line positions Parquet"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/groundlines/InSAR_GL_Antarctica.parquet",
+      "type": "application/x-parquet",
+      "title": "Grounding line positions Parquet",
+      "proj:code": "EPSG:4326",
+      "proj:wkt2": "GEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],USAGE[SCOPE[\"Horizontal component of 3D system.\"],AREA[\"World.\"],BBOX[-90,-180,90,180]],ID[\"EPSG\",4326]]",
+      "proj:bbox": [
+        -176.08023071289062,
+        -85.47109985351562,
+        170.53697204589844,
+        -64.21733093261719
+      ],
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              170.53697204589844,
+              -85.47109985351562
+            ],
+            [
+              170.53697204589844,
+              -64.21733093261719
+            ],
+            [
+              -176.08023071289062,
+              -64.21733093261719
+            ],
+            [
+              -176.08023071289062,
+              -85.47109985351562
+            ],
+            [
+              170.53697204589844,
+              -85.47109985351562
+            ]
+          ]
+        ]
+      },
+      "datetime": "1992-02-07T00:00:00Z",
+      "parquet:columns": [
+        {
+          "name": "SENSOR",
+          "type": "string",
+          "description": "Name of the satellite sensor used to generate the measurement.",
+          "unit": null
+        },
+        {
+          "name": "ORBIT1",
+          "type": "double",
+          "description": "Absolute orbit number for the first synthetic aperture radar (SAR) acquisition.",
+          "unit": "dimensionless"
+        },
+        {
+          "name": "DATE1",
+          "type": "timestamp",
+          "description": "Date of the first SAR acquisition.",
+          "unit": "UTC"
+        },
+        {
+          "name": "ORBIT2",
+          "type": "double",
+          "description": "Absolute orbit number for the second synthetic aperture radar (SAR) acquisition.",
+          "unit": "dimensionless"
+        },
+        {
+          "name": "DATE2",
+          "type": "timestamp",
+          "description": "Date of the second SAR acquisition.",
+          "unit": "UTC"
+        },
+        {
+          "name": "ORBIT3",
+          "type": "double",
+          "description": "Absolute orbit number for the third synthetic aperture radar (SAR) acquisition.",
+          "unit": "dimensionless"
+        },
+        {
+          "name": "DATE3",
+          "type": "timestamp",
+          "description": "Date of the third SAR acquisition.",
+          "unit": "UTC"
+        },
+        {
+          "name": "ORBIT4",
+          "type": "double",
+          "description": "Absolute orbit number for the fourth synthetic aperture radar (SAR) acquisition (if applicable).",
+          "unit": "dimensionless"
+        },
+        {
+          "name": "DATE4",
+          "type": "timestamp",
+          "description": "Date of the fourth SAR acquisition (if applicable).",
+          "unit": "UTC"
+        },
+        {
+          "name": "geometry",
+          "type": "geometry",
+          "description": "Spatial MultiLineString geometry mapping the grounding line position.",
+          "unit": "degrees"
+        }
+      ],
+      "license": "CC0-1.0",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "grounding-line-position-antarctica",
+  "title": "Grounding line positions Parquet",
+  "license": "CC0-1.0"
+}
