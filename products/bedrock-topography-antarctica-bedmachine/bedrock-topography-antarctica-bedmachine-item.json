@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/albatross/datacollection_ALBATROSS_tidal_amplitude_phase_tide_gauges.nc",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/bedrock_topography/NSIDC-0756_BedMachineAntarctica_19700101-20191001_V04.1.zarr/",
       "type": "application/vnd+zarr",
       "title": "Bedrock zarr cube",
       "start_datetime": "1970-01-01T00:00:00Z",
