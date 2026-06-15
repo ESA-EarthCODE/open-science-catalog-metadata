@@ -81,13 +81,14 @@
         ]
       ]
     },
-  "temporal": {
-    "interval": [
-      [
-        "2026-01-30T00:00:00Z",
-        "2026-01-30T23:59:59Z"
+    "temporal": {
+      "interval": [
+        [
+          "2026-01-30T00:00:00Z",
+          "2026-01-30T23:59:59Z"
+        ]
       ]
-    ]
+    }
   },
   "osc:missions": [
   "modis",
@@ -143,13 +144,13 @@
     },
     {
       "rel": "child",
-      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_v1/catalog.json",
+      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_/catalog.json",
       "type": "application/json",
       "title": "Global Plant Trait Maps full STAC catalog"
     },
     {
       "rel": "via",
-      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_v1/catalog.json",
+      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_v1_3/catalog.json",
       "type": "application/json",
       "title": "Access full STAC catalog"
     },
