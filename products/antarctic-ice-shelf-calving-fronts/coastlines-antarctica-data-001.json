@@ -38,11 +38,10 @@
   ],
   "properties": {
     "license": "CC-BY-4.0",
-    "description": "",
+    "description": "Calving fronts outlines in Parquet format",
     "title": "Calving fronts outlines Parquet",
     "start_datetime": "1997-01-01T00:00:00Z",
-    "end_datetime": "2021-12-17T23:59:59Z",
-    "datetime": "1997-10-01T00:00:00Z"
+    "end_datetime": "2021-12-17T23:59:59Z"
   },
   "links": [
     {
@@ -60,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "/Volumes/T7/4d-antarctic/cube_v3/calving_fronts//Antarctic_coastlines.parquet",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/calving_fronts/Antarctic_coastlines.parquet",
       "type": "application/x-parquet",
       "title": "Calving fronts outlines Parquet",
       "proj:code": "EPSG:3031",
@@ -98,7 +97,6 @@
           ]
         ]
       },
-      "datetime": "1997-10-01T00:00:00Z",
       "parquet:columns": [
         {
           "name": "index",
