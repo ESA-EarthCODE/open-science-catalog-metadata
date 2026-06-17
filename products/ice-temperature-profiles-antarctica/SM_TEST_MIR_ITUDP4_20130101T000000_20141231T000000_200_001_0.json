@@ -1,0 +1,75 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          0.0
+        ],
+        [
+          -180.0,
+          0.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    0.0
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2014-12-31T00:00:00Z",
+    "datetime": "2013-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/ice_sheet_temperature/SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Zarr Store",
+      "start_datetime": "2013-01-01T00:00:00Z",
+      "end_datetime": "2014-12-31T00:00:00Z",
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ice-temperature-profiles-antarctica",
+  "title": "Zarr Store"
+}

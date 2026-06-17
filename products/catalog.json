@@ -1753,7 +1753,7 @@
       "rel": "child",
       "href": "./ice-sheet-velocity-antarctic-2021/collection.json",
       "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+      "title": "Antarctic Ice Sheet monthly ice velocity"
     },
     {
       "rel": "child",
@@ -2060,6 +2060,18 @@
       "href": "./arceme-datacubes-wocat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+    },
+    {
+      "rel": "child",
+      "href": "./subglacial-lakes-boundries/collection.json",
+      "type": "application/json",
+      "title": "Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "child",
+      "href": "./ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

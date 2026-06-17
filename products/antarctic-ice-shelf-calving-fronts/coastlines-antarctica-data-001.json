@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "coastlines-antarctica-data-001",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2752793.0,
+          -2144153.0
+        ],
+        [
+          2752793.0,
+          2250488.0
+        ],
+        [
+          -2661368.0,
+          2250488.0
+        ],
+        [
+          -2661368.0,
+          -2144153.0
+        ],
+        [
+          2752793.0,
+          -2144153.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -2661368.0,
+    -2144153.0,
+    2752793.0,
+    2250488.0
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "Calving fronts outlines in Parquet format",
+    "title": "Calving fronts outlines Parquet",
+    "start_datetime": "1997-01-01T00:00:00Z",
+    "datetime": "1997-01-01T00:00:00Z",
+    "end_datetime": "2021-12-17T23:59:59Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/calving_fronts/Antarctic_coastlines.parquet",
+      "type": "application/x-parquet",
+      "title": "Calving fronts outlines Parquet",
+      "proj:code": "EPSG:3031",
+      "proj:wkt2": "PROJCRS[\"WGS 84 / Antarctic Polar Stereographic\",BASEGEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4326]],CONVERSION[\"Antarctic Polar Stereographic\",METHOD[\"Polar Stereographic (variant B)\",ID[\"EPSG\",9829]],PARAMETER[\"Latitude of standard parallel\",-71,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8832]],PARAMETER[\"Longitude of origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8833]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",north,MERIDIAN[90,ANGLEUNIT[\"degree\",0.0174532925199433]],ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,MERIDIAN[0,ANGLEUNIT[\"degree\",0.0174532925199433]],ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Antarctic Digital Database and small scale topographic mapping.\"],AREA[\"Antarctica.\"],BBOX[-90,-180,-60,180]],ID[\"EPSG\",3031]]",
+      "proj:bbox": [
+        -2661368.0,
+        -2144153.0,
+        2752793.0,
+        2250488.0
+      ],
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2752793.0,
+              -2144153.0
+            ],
+            [
+              2752793.0,
+              2250488.0
+            ],
+            [
+              -2661368.0,
+              2250488.0
+            ],
+            [
+              -2661368.0,
+              -2144153.0
+            ],
+            [
+              2752793.0,
+              -2144153.0
+            ]
+          ]
+        ]
+      },
+      "parquet:columns": [
+        {
+          "name": "index",
+          "type": "int64",
+          "description": "Unique identifier or row index for the observed coastline feature.",
+          "unit": "dimensionless"
+        },
+        {
+          "name": "time",
+          "type": "timestamp",
+          "description": "Date and time of the coastline observation.",
+          "unit": "UTC"
+        },
+        {
+          "name": "geometry",
+          "type": "geometry",
+          "description": "Spatial Polygon geometry delineating the Antarctic coastline.",
+          "unit": "metre"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "antarctic-ice-shelf-calving-fronts",
+  "title": "Calving fronts outlines Parquet",
+  "license": "CC-BY-4.0"
+}

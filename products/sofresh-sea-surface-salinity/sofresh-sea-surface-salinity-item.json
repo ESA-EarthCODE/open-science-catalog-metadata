@@ -1,0 +1,499 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "sofresh-sea-surface-salinity-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2011-02-01T00:00:00Z",
+    "end_datetime": "2023-03-30T23:00:00Z",
+    "datetime": "2011-02-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/so-fresh/sofresh.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Surface elevation change Antarctica",
+      "start_datetime": "2011-02-01T00:00:00Z",
+      "end_datetime": "2023-03-30T23:00:00Z",
+      "license": "cc-by-4.0",
+      "created": "2026-06-13T15:30:38.457431Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2011-02-01T00:00:00Z",
+            "2023-03-30T23:00:00Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            -8987500.0,
+            8987500.0
+          ],
+          "step": 25000.0,
+          "description": "x coordinate of projection",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "South_Pole_Lambert_Azimuthal_Equal_Area",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": {
+                      "type": "AngularUnit",
+                      "name": "Degree",
+                      "conversion_factor": 0.0174532925199433
+                    }
+                  },
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": {
+                      "type": "AngularUnit",
+                      "name": "Degree",
+                      "conversion_factor": 0.0174532925199433
+                    }
+                  }
+                ]
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Lambert Azimuthal Equal Area",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9820
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": -90,
+                  "unit": {
+                    "type": "AngularUnit",
+                    "name": "Degree",
+                    "conversion_factor": 0.0174532925199433
+                  },
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": {
+                    "type": "AngularUnit",
+                    "name": "Degree",
+                    "conversion_factor": 0.0174532925199433
+                  },
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "ESRI",
+              "code": 102020
+            }
+          },
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            -8987500.0,
+            8987500.0
+          ],
+          "step": -25000.0,
+          "description": "y coordinate of projection",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "South_Pole_Lambert_Azimuthal_Equal_Area",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": {
+                      "type": "AngularUnit",
+                      "name": "Degree",
+                      "conversion_factor": 0.0174532925199433
+                    }
+                  },
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": {
+                      "type": "AngularUnit",
+                      "name": "Degree",
+                      "conversion_factor": 0.0174532925199433
+                    }
+                  }
+                ]
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Lambert Azimuthal Equal Area",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9820
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": -90,
+                  "unit": {
+                    "type": "AngularUnit",
+                    "name": "Degree",
+                    "conversion_factor": 0.0174532925199433
+                  },
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": {
+                    "type": "AngularUnit",
+                    "name": "Degree",
+                    "conversion_factor": 0.0174532925199433
+                  },
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "ESRI",
+              "code": 102020
+            }
+          },
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "sss": {
+          "type": "data",
+          "description": "Sea Surface Salinity in Practical Salinity Units [psu]. Temporal correction is made by using Argo salinity as a reference.",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "1",
+          "attrs": {
+            "standard_name": "sea_surface_salinity",
+            "long_name": "Sea Surface Salinity",
+            "description": "Sea Surface Salinity in Practical Salinity Units [psu]. Temporal correction is made by using Argo salinity as a reference.",
+            "units": "1",
+            "valid_min": 0.0,
+            "valid_max": 40.0
+          },
+          "shape": [
+            4441,
+            720,
+            720
+          ],
+          "chunks": [
+            10,
+            720,
+            720
+          ]
+        },
+        "time_bnds": {
+          "type": "data",
+          "description": "time bounds",
+          "dimensions": [
+            "time",
+            "nv"
+          ],
+          "attrs": {
+            "long_name": "time bounds"
+          },
+          "shape": [
+            4441,
+            2
+          ],
+          "chunks": [
+            4441,
+            2
+          ]
+        },
+        "uncertainty_sss": {
+          "type": "data",
+          "description": "Uncertainty of the Sea Surface Salinity [psu]",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "1",
+          "attrs": {
+            "units": "1",
+            "standard_name": "uncertainty_sea_surface_salinity",
+            "long_name": "Sea Surface Salinity Uncertainty",
+            "valid_min": 0.0,
+            "valid_max": 10.0,
+            "description": "Uncertainty of the Sea Surface Salinity [psu]"
+          },
+          "shape": [
+            4441,
+            720,
+            720
+          ],
+          "chunks": [
+            10,
+            720,
+            720
+          ]
+        },
+        "lat": {
+          "type": "auxiliary",
+          "description": "latitude",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "units": "degrees_north",
+            "standard_name": "latitude",
+            "long_name": "latitude",
+            "axis": "Y",
+            "coordinate_defines": "center",
+            "_CoordinateAxisType": "Lat",
+            "valid_min": -90.0,
+            "valid_max": -30.0
+          },
+          "shape": [
+            720,
+            720
+          ],
+          "chunks": [
+            720,
+            720
+          ]
+        },
+        "lon": {
+          "type": "auxiliary",
+          "description": "longitude",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "units": "degrees_east",
+            "standard_name": "longitude",
+            "long_name": "longitude",
+            "axis": "X",
+            "coordinate_defines": "center",
+            "_CoordinateAxisType": "Lon"
+          },
+          "shape": [
+            720,
+            720
+          ],
+          "chunks": [
+            720,
+            720
+          ]
+        },
+        "crs": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "crs_wkt": "PROJCS[\"South_Pole_Lambert_Azimuthal_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"ESRI\",\"102020\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "projected_crs_name": "South_Pole_Lambert_Azimuthal_Equal_Area",
+            "grid_mapping_name": "lambert_azimuthal_equal_area",
+            "latitude_of_projection_origin": -90.0,
+            "longitude_of_projection_origin": 0.0,
+            "false_easting": 0.0,
+            "false_northing": 0.0,
+            "spatial_ref": "PROJCS[\"South_Pole_Lambert_Azimuthal_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"ESRI\",\"102020\"]]"
+          },
+          "shape": []
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "sofresh-sea-surface-salinity",
+  "title": "Zarr Store"
+}

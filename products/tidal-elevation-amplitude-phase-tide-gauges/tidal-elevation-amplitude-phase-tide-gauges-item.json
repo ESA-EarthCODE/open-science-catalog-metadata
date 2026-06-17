@@ -1,0 +1,214 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "tidal-elevation-amplitude-phase-tide-gauges-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "license": "cc-by-nc-4.0",
+    "description": "",
+    "start_datetime": "2014-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": "2014-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Tidal amplitude and phase for K1, K2, M2, N2, O1, P1, Q1, S2 tidal constituents for 54 tide gauges from the Antarctic Tide Gauge Database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Tidal amplitude and phase for K1, K2, M2, N2, O1, P1, Q1, S2 tidal constituents for 54 tide gauges from the Antarctic Tide Gauge Database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/albatross/datacollection_ALBATROSS_tidal_amplitude_phase_tide_gauges.nc",
+      "type": "application/netcdf4",
+      "title": "Tide gauges data",
+      "start_datetime": "2014-01-01T00:00:00Z",
+      "end_datetime": "2022-12-31T00:00:00Z",
+      "license": "cc-by-nc-4.0",
+      "created": "2026-06-14T11:54:47.774381Z",
+      "cube:dimensions": {},
+      "cube:variables": {
+        "LATITUDE": {
+          "type": "data",
+          "dimensions": [
+            "npoints"
+          ],
+          "attrs": {},
+          "shape": [
+            54
+          ]
+        },
+        "LONGITUDE": {
+          "type": "data",
+          "dimensions": [
+            "npoints"
+          ],
+          "attrs": {},
+          "shape": [
+            54
+          ]
+        },
+        "K1_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "K2_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "M2_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "N2_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "O1_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "P1_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "Q1_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "S2_tide": {
+          "type": "data",
+          "dimensions": [
+            "npoints",
+            "ndim"
+          ],
+          "attrs": {},
+          "shape": [
+            54,
+            2
+          ]
+        },
+        "spatial_ref": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "grid_mapping_name": "latitude_longitude",
+            "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
+          },
+          "shape": []
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "tidal-elevation-amplitude-phase-tide-gauges",
+  "title": "Netcdf file"
+}
