@@ -75,7 +75,7 @@
   "created": "2025-09-25T",
   "version": "2.1",
   "updated": "2026-06-12T",
-  "sci:doi": "10.5281/zenodo.15705049"
+  "sci:doi": "10.5281/zenodo.15705049",
   "sci:citation": "Melanie Weynants, Khalil Teber, Miguel D. Mahecha, Fabian Gans. 2025. ARCEME-DHP Databse of extreme dry events interrupted by heavy precipitation. https://doi.org/10.5281/zenodo.20667029",
   "cf:parameter": [
     {
