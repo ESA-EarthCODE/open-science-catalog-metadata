@@ -37,7 +37,7 @@
     -56.7587107166777
   ],
   "properties": {
-    "license": "cc-by-4.0",
+    "license": "CC-BY-NC-4.0",
     "description": "",
     "start_datetime": "2014-01-01T00:00:00Z",
     "end_datetime": "2022-12-31T00:00:00Z",
@@ -64,7 +64,7 @@
       "title": "Larsen C Data Cube",
       "start_datetime": "2014-01-01T00:00:00Z",
       "end_datetime": "2022-12-31T00:00:00Z",
-      "license": "cc-by-4.0",
+      "license": "CC-BY-NC-4.0",
       "created": "2026-06-14T10:18:47.429180Z",
       "cube:dimensions": {
         "time": {
