@@ -1,0 +1,138 @@
+{
+  "type": "Collection",
+  "id": "arceme-dhp",
+  "stac_version": "1.1.0",
+  "description": "ARCEME-DHP is database of dry events interrupted by heavy precipitation, based on extreme events detection in ERA5-Land time series of daily precipitation and evaporative balance from 2015 to 2023.\n\nWeynants, M., Teber, K., Mahecha, M., & Gans, F. (2025). ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17225457\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arceme/collection.json",
+      "type": "application/json",
+      "title": "Project: CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/droughts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Droughts"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-precipitation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Precipitation"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/20667029",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/20667029",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "arceme",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2025-09-25T00:00:00Z",
+  "version": "2.1",
+  "updated": "2026-06-17T00:00:00Z",
+  "sci:doi": "10.5281/zenodo.15705049",
+  "sci:citation": "Melanie Weynants, Khalil Teber, Miguel D. Mahecha, Fabian Gans. 2025. ARCEME-DHP Databse of extreme dry events interrupted by heavy precipitation. https://doi.org/10.5281/zenodo.20667029",
+  "cf:parameter": [
+    {
+      "name": "droughts"
+    },
+    {
+      "name": "extreme_precipitation"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "droughts",
+    "extreme-precipitation"
+  ],
+  "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "climate extremes"
+  ]
+}

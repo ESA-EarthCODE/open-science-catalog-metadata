@@ -2063,6 +2063,12 @@
     },
     {
       "rel": "child",
+      "href": "./arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
+    },
+    {
+      "rel": "child",
       "href": "./subglacial-lakes-boundries/collection.json",
       "type": "application/json",
       "title": "Subglacial lakes boundaries and elevation time series"
