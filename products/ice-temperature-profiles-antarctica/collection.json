@@ -57,9 +57,20 @@
       "title": "EO Mission: SMOS"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/ice-temperature-profiles-antarctica/collection.json",
-      "type": "application/json"
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/ice_temp/access.ipynb",
+      "type": "application/x-ipynb+json",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.json",
+      "type": "application/json",
+      "title": "Zarr Store"
     }
   ],
   "stac_extensions": [

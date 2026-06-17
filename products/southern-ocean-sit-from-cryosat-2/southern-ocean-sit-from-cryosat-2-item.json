@@ -1,0 +1,1597 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "southern-ocean-sit-from-cryosat-2-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "license": "cc-by-nc-4.0",
+    "description": "",
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2020-12-01T00:00:00Z",
+    "datetime": "2013-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/cs+ao/cs_plus.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Bedrock zarr cube",
+      "start_datetime": "2013-01-01T00:00:00Z",
+      "end_datetime": "2020-12-01T00:00:00Z",
+      "license": "cc-by-nc-4.0",
+      "created": "2026-06-14T12:16:26.591563Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2013-03-16T00:00:00Z",
+            "2020-12-16T00:00:00Z"
+          ],
+          "description": "reference time of product",
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            6250.0,
+            8893750.0
+          ],
+          "step": 12500.0,
+          "description": "y coordinate of projection (eastings)",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            6250.0,
+            8893750.0
+          ],
+          "step": -12500.0,
+          "description": "y coordinate of projection (northings)",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Antarctic Polar Stereographic",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Geodetic latitude",
+                    "abbreviation": "Lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Geodetic longitude",
+                    "abbreviation": "Lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Polar Stereographic (variant B)",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9829
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of standard parallel",
+                  "value": -71,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8832
+                  }
+                },
+                {
+                  "name": "Longitude of origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8833
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3031
+            }
+          },
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "dist_to_closest_lead": {
+          "type": "data",
+          "description": "dist_to_closest_lead_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Along-track distance to the closest lead",
+            "units": "m",
+            "long_name": "dist_to_closest_lead_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_nb_hight": 0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "dist_to_closest_lead_20hz_mean": {
+          "type": "data",
+          "description": "dist_to_closest_lead_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Along-track distance to the closest lead",
+            "units": "m",
+            "long_name": "dist_to_closest_lead_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 2464040.75,
+            "stat_raw_mean": 349430.0267704147,
+            "stat_raw_std": 441575.4831253984,
+            "stat_raw_median": 159004.2578125,
+            "stat_raw_mad": 158148.75115966797,
+            "stat_raw_nb_data": 926160,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 880291,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 324.7768845175677,
+            "stat_grid_max": 2441378.881868132,
+            "stat_grid_mean": 378248.9008236279,
+            "stat_grid_std": 413311.2812711955,
+            "stat_grid_median": 239355.59164915967,
+            "stat_grid_mad": 208412.09106008042,
+            "stat_grid_nbtrks": 425084.0,
+            "stat_grid_nbpts": 51484969.0,
+            "stat_grid_nbpxls": 105067,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "dist_to_closest_open_ocean": {
+          "type": "data",
+          "description": "dist_to_closest_open_ocean_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Along-track distance to the closest open ocean",
+            "units": "m",
+            "long_name": "dist_to_closest_open_ocean_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "dist_to_closest_open_ocean_20hz_mean": {
+          "type": "data",
+          "description": "dist_to_closest_open_ocean_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Along-track distance to the closest open ocean",
+            "units": "m",
+            "long_name": "dist_to_closest_open_ocean_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 2547842.75,
+            "stat_raw_mean": 115580.69174618281,
+            "stat_raw_std": 260602.92951597614,
+            "stat_raw_median": 0.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_data": 916200,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 377071,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 2529644.179661017,
+            "stat_grid_mean": 243156.21317764182,
+            "stat_grid_std": 380971.82400495536,
+            "stat_grid_median": 60569.083837743994,
+            "stat_grid_mad": 60569.083837743994,
+            "stat_grid_nbtrks": 323497.0,
+            "stat_grid_nbpts": 39222250.0,
+            "stat_grid_nbpxls": 101169,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "floes_density": {
+          "type": "data",
+          "description": "floes_true_density_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Floe true density ",
+            "long_name": "floes_true_density_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 1.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "floes_true_density_20hz_mean": {
+          "type": "data",
+          "description": "floes_true_density_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Floe true density ",
+            "long_name": "floes_true_density_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_mean": 0.2681700763314401,
+            "stat_raw_std": 0.36684755258076013,
+            "stat_raw_median": 0.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_data": 920077,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 1.0,
+            "stat_grid_mean": 0.29219673973674165,
+            "stat_grid_std": 0.3660873971129667,
+            "stat_grid_median": 0.0,
+            "stat_grid_mad": 0.0,
+            "stat_grid_nbtrks": 203230.0,
+            "stat_grid_nbpts": 23419102.0,
+            "stat_grid_nbpxls": 68352,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "floes_valid_density": {
+          "type": "data",
+          "description": "floes_valid_density_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Floe valid density ",
+            "long_name": "floes_valid_density_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_median": 0.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "floes_valid_density_20hz_mean": {
+          "type": "data",
+          "description": "floes_valid_density_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Floe valid density ",
+            "long_name": "floes_valid_density_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_mean": 0.06279134771060087,
+            "stat_raw_std": 0.1335109711924304,
+            "stat_raw_median": 0.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_data": 920077,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 1.0,
+            "stat_grid_mean": 0.08384124107829688,
+            "stat_grid_std": 0.14456686579416086,
+            "stat_grid_median": 0.0,
+            "stat_grid_mad": 0.0,
+            "stat_grid_nbtrks": 203230.0,
+            "stat_grid_nbpts": 23419102.0,
+            "stat_grid_nbpxls": 68352,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_20hz_mean": {
+          "type": "data",
+          "description": "radar_freeboard_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar (ku-band) freeboard computed from differences between the ila_smooth_20hz (12.5km smoothed) and the sla_smooth_20hz (12.5km)",
+            "units": "m",
+            "long_name": "radar_freeboard_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -1.2670626640319824,
+            "stat_raw_max": 0.6034783124923706,
+            "stat_raw_mean": -0.04240133104679518,
+            "stat_raw_std": 0.18250139638838456,
+            "stat_raw_median": 0.002495328662917018,
+            "stat_raw_mad": 0.08371833455748856,
+            "stat_raw_nb_data": 342287,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 10018,
+            "stat_grid_min": -2.32491797208786,
+            "stat_grid_max": 2.6096277236938477,
+            "stat_grid_mean": 0.027941572599281688,
+            "stat_grid_std": 0.2016153257444677,
+            "stat_grid_median": 0.03268154730212497,
+            "stat_grid_mad": 0.07613558847004095,
+            "stat_grid_nbtrks": 112021.0,
+            "stat_grid_nbpts": 11692696.0,
+            "stat_grid_nbpxls": 30494,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_20hz_median": {
+          "type": "data",
+          "description": "radar_freeboard_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar (ku-band) freeboard computed from differences between the ila_smooth_20hz (12.5km smoothed) and the sla_smooth_20hz (12.5km)",
+            "units": "m",
+            "long_name": "radar_freeboard_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -1.2670626640319824,
+            "stat_raw_max": 0.6034783124923706,
+            "stat_raw_mean": -0.04240133104679518,
+            "stat_raw_std": 0.18250139638838456,
+            "stat_raw_median": 0.002495328662917018,
+            "stat_raw_mad": 0.08371833455748856,
+            "stat_raw_nb_data": 342287,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 10018,
+            "stat_grid_min": -2.330755829811096,
+            "stat_grid_max": 2.6105144023895264,
+            "stat_grid_mean": 0.036515433084055804,
+            "stat_grid_std": 0.20756850839862379,
+            "stat_grid_median": 0.04133375268429518,
+            "stat_grid_mad": 0.07295894809067249,
+            "stat_grid_nbtrks": 112021.0,
+            "stat_grid_nbpts": 11692696.0,
+            "stat_grid_nbpxls": 30494,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_20hz_std": {
+          "type": "data",
+          "description": "radar_freeboard_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar (ku-band) freeboard computed from differences between the ila_smooth_20hz (12.5km smoothed) and the sla_smooth_20hz (12.5km)",
+            "units": "m",
+            "long_name": "radar_freeboard_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -1.2670626640319824,
+            "stat_raw_max": 0.6034783124923706,
+            "stat_raw_mean": -0.04240133104679518,
+            "stat_raw_std": 0.18250139638838456,
+            "stat_raw_median": 0.002495328662917018,
+            "stat_raw_mad": 0.08371833455748856,
+            "stat_raw_nb_data": 342287,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 10018,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 1.2954327938470969,
+            "stat_grid_mean": 0.09326646135472157,
+            "stat_grid_std": 0.10909008915518549,
+            "stat_grid_median": 0.060419904668241105,
+            "stat_grid_mad": 0.04252792690308893,
+            "stat_grid_nbtrks": 112021.0,
+            "stat_grid_nbpts": 11692696.0,
+            "stat_grid_nbpxls": 30494,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_mean": {
+          "type": "data",
+          "description": "radar_freeboard_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar (ku-band) freeboard computed from differences between the ila_smooth_20hz (12.5km smoothed) and the sla_smooth_20hz (12.5km)",
+            "units": "m",
+            "long_name": "radar_freeboard_20hz",
+            "scale_factor_to_unit": 1.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_median": {
+          "type": "data",
+          "description": "radar_freeboard_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar (ku-band) freeboard computed from differences between the ila_smooth_20hz (12.5km smoothed) and the sla_smooth_20hz (12.5km)",
+            "units": "m",
+            "long_name": "radar_freeboard_20hz",
+            "scale_factor_to_unit": 1.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_std": {
+          "type": "data",
+          "description": "radar_freeboard_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar (ku-band) freeboard computed from differences between the ila_smooth_20hz (12.5km smoothed) and the sla_smooth_20hz (12.5km)",
+            "units": "m",
+            "long_name": "radar_freeboard_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_grid_min": 0.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_unc": {
+          "type": "data",
+          "description": "radar_freeboard_unc_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar Freeboard uncertainty",
+            "units": "m",
+            "long_name": "radar_freeboard_unc_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_nb_hight": 0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "radar_freeboard_unc_20hz_mean": {
+          "type": "data",
+          "description": "radar_freeboard_unc_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Radar Freeboard uncertainty",
+            "units": "m",
+            "long_name": "radar_freeboard_unc_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 0.0,
+            "stat_raw_max": 0.9890658855438232,
+            "stat_raw_mean": 0.048395993816068586,
+            "stat_raw_std": 0.07268259068546969,
+            "stat_raw_median": 0.025489287450909615,
+            "stat_raw_mad": 0.01496933400630951,
+            "stat_raw_nb_data": 364247,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 2.6096277236938477,
+            "stat_grid_mean": 0.08749935218594043,
+            "stat_grid_std": 0.14627044320346486,
+            "stat_grid_median": 0.04469945074783431,
+            "stat_grid_mad": 0.02335647103914218,
+            "stat_grid_nbtrks": 116429.0,
+            "stat_grid_nbpts": 12370223.0,
+            "stat_grid_nbpxls": 31741,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "SAR_mode": {
+          "type": "data",
+          "description": "SAR_true_20hz_mean",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "expression": "fb_Z_s_0515ssb:radar_freeboard_20hz*0+1",
+            "units": "m",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 1.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_mean": 1.0,
+            "stat_raw_std": 0.0,
+            "stat_raw_median": 1.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 1.0,
+            "long_name": "SAR_true_20hz_mean"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "SAR_true_20hz_mean": {
+          "type": "data",
+          "description": "SAR_true_20hz_mean",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "expression": "fb_Z_s_0515ssb:radar_freeboard_20hz*0+1",
+            "units": "m",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 1.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_mean": 1.0,
+            "stat_raw_std": 0.0,
+            "stat_raw_median": 1.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_data": 342287,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 1.0,
+            "stat_grid_mean": 0.474804517483655,
+            "stat_grid_std": 0.471474849920222,
+            "stat_grid_median": 0.32251993362205045,
+            "stat_grid_mad": 0.32251993362205045,
+            "stat_grid_nbtrks": 112021.0,
+            "stat_grid_nbpts": 11692696.0,
+            "stat_grid_nbpxls": 30494,
+            "long_name": "SAR_true_20hz_mean",
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sea_ice_conc": {
+          "type": "data",
+          "description": "sea_ice_conc_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Ice concentration from the OSISAF product",
+            "long_name": "sea_ice_conc_20hz",
+            "scale_factor_to_unit": 1.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sea_ice_conc_20hz_mean": {
+          "type": "data",
+          "description": "sea_ice_conc_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Ice concentration from the OSISAF product",
+            "long_name": "sea_ice_conc_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -15.60854721069336,
+            "stat_raw_max": 100.75376892089844,
+            "stat_raw_mean": 17.513313263097523,
+            "stat_raw_std": 30.58026400439889,
+            "stat_raw_median": 0.9469992518424988,
+            "stat_raw_mad": 0.9469992518424988,
+            "stat_raw_nb_data": 1693180,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 833835,
+            "stat_raw_nb_hight": 27,
+            "stat_grid_min": -13.872726798057556,
+            "stat_grid_max": 101.6158218383789,
+            "stat_grid_mean": 19.40866869046796,
+            "stat_grid_std": 31.956290965719052,
+            "stat_grid_median": 0.9715911502569494,
+            "stat_grid_mad": 0.9715911502569494,
+            "stat_grid_nbtrks": 319309.0,
+            "stat_grid_nbpts": 36379097.0,
+            "stat_grid_nbpxls": 96531,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sea_ice_type": {
+          "type": "data",
+          "description": "sea_ice_type_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Ice type from the OSISAF product and extended\n                                        0 -> FYI (relatively young ice)\n                                        1 -> FYI or MYI -> ambiguous ice type\n                                        2 -> MYI (ice that survived a summer melt)",
+            "long_name": "sea_ice_type_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_std": 0.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_std": 0.0,
+            "stat_grid_mad": 0.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sea_ice_type_20hz_mean": {
+          "type": "data",
+          "description": "sea_ice_type_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "attrs": {
+            "comment": "Ice type from the OSISAF product and extended\n                                        0 -> FYI (relatively young ice)\n                                        1 -> FYI or MYI -> ambiguous ice type\n                                        2 -> MYI (ice that survived a summer melt)",
+            "long_name": "sea_ice_type_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": 1.0,
+            "stat_raw_max": 1.0,
+            "stat_raw_mean": 1.0,
+            "stat_raw_std": 0.0,
+            "stat_raw_median": 1.0,
+            "stat_raw_mad": 0.0,
+            "stat_raw_nb_data": 365433,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 1.0,
+            "stat_grid_max": 1.0,
+            "stat_grid_mean": 1.0,
+            "stat_grid_std": 0.0,
+            "stat_grid_median": 1.0,
+            "stat_grid_mad": 0.0,
+            "stat_grid_nbtrks": 116953.0,
+            "stat_grid_nbpts": 12084339.0,
+            "stat_grid_nbpxls": 31412,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "SIT_ASD_mean": {
+          "type": "data",
+          "description": "sea_ice_thickness",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "sea_ice_thickness",
+            "units": "m",
+            "comment": "Sea ice thickness from radar_freeboard where nsidc ice concentration is more than 50 percent unsing pyinterp.fill.gauss_seidel, snow_depth product : sd_ASD_sh"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "SIT_ASD_median": {
+          "type": "data",
+          "description": "sea_ice_thickness",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "sea_ice_thickness",
+            "units": "m",
+            "comment": "Sea ice thickness from radar_freeboard where nsidc ice concentration is more than 50 percent unsing pyinterp.fill.gauss_seidel, snow_depth product : sd_ASD_sh"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sit_sd_ASD_sh_radar_freeboard_20hz_mean": {
+          "type": "data",
+          "description": "sea_ice_thickness",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "ctoh_edit_date": "2023-04-02 13:50:46.475636",
+            "long_name": "sea_ice_thickness",
+            "units": "m",
+            "comment": "Sea ice thickness from radar_freeboard where nsidc ice concentration is more than 50 percent unsing pyinterp.fill.gauss_seidel, snow_depth product : sd_ASD_sh"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sit_sd_ASD_sh_radar_freeboard_20hz_median": {
+          "type": "data",
+          "description": "sea_ice_thickness",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "ctoh_edit_date": "2023-04-02 13:07:59.643435",
+            "long_name": "sea_ice_thickness",
+            "units": "m",
+            "comment": "Sea ice thickness from radar_freeboard where nsidc ice concentration is more than 50 percent unsing pyinterp.fill.gauss_seidel, snow_depth product : sd_ASD_sh"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sla_smooth": {
+          "type": "data",
+          "description": "sla_smooth_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Sea surface height anomaly over the ocean (open ocean and sea ice). Rolling mean of sla_interp_20hz on a window of 12.5 km",
+            "units": "m",
+            "long_name": "sla_smooth_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_nb_low": 0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sla_smooth_20hz_mean": {
+          "type": "data",
+          "description": "sla_smooth_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Sea surface height anomaly over the ocean (open ocean and sea ice). Rolling mean of sla_interp_20hz on a window of 12.5 km",
+            "units": "m",
+            "long_name": "sla_smooth_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -0.4066791534423828,
+            "stat_raw_max": 0.21910113096237183,
+            "stat_raw_mean": 0.018705531274073768,
+            "stat_raw_std": 0.05015063036730895,
+            "stat_raw_median": 0.023739855736494064,
+            "stat_raw_mad": 0.027126735309138894,
+            "stat_raw_nb_data": 923497,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": -1.96875,
+            "stat_grid_max": 1.4794433116912842,
+            "stat_grid_mean": -0.024783326558025072,
+            "stat_grid_std": 0.1758333845992157,
+            "stat_grid_median": 0.013164327741295417,
+            "stat_grid_mad": 0.04195538438420009,
+            "stat_grid_nbtrks": 202386.0,
+            "stat_grid_nbpts": 23363546.0,
+            "stat_grid_nbpxls": 68358,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sla_smooth_20hz_std": {
+          "type": "data",
+          "description": "sla_smooth_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Sea surface height anomaly over the ocean (open ocean and sea ice). Rolling mean of sla_interp_20hz on a window of 12.5 km",
+            "units": "m",
+            "long_name": "sla_smooth_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -0.4066791534423828,
+            "stat_raw_max": 0.21910113096237183,
+            "stat_raw_mean": 0.018705531274073768,
+            "stat_raw_std": 0.05015063036730895,
+            "stat_raw_median": 0.023739855736494064,
+            "stat_raw_mad": 0.027126735309138894,
+            "stat_raw_nb_data": 923497,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 0,
+            "stat_grid_min": 0.0,
+            "stat_grid_max": 0.9458511218556508,
+            "stat_grid_mean": 0.06236264998162972,
+            "stat_grid_std": 0.10999075556482424,
+            "stat_grid_median": 0.015758271724976562,
+            "stat_grid_mad": 0.014458574979167783,
+            "stat_grid_nbtrks": 202386.0,
+            "stat_grid_nbpts": 23363546.0,
+            "stat_grid_nbpxls": 68358,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sla_smooth_std": {
+          "type": "data",
+          "description": "sla_smooth_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Sea surface height anomaly over the ocean (open ocean and sea ice). Rolling mean of sla_interp_20hz on a window of 12.5 km",
+            "units": "m",
+            "long_name": "sla_smooth_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_nb_low": 0,
+            "stat_grid_min": 0.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sla_smooth_unc": {
+          "type": "data",
+          "description": "sla_unc_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Random uncertainty of the sea surface height anomaly (ssa_20hz) over sea-ice covered surfaces only",
+            "units": "m",
+            "long_name": "sla_unc_20hz",
+            "scale_factor_to_unit": 1.0
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "sla_unc_20hz_mean": {
+          "type": "data",
+          "description": "sla_unc_20hz",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "Random uncertainty of the sea surface height anomaly (ssa_20hz) over sea-ice covered surfaces only",
+            "units": "m",
+            "long_name": "sla_unc_20hz",
+            "scale_factor_to_unit": 1.0,
+            "stat_raw_min": -0.9890658855438232,
+            "stat_raw_max": 0.6034783124923706,
+            "stat_raw_mean": 0.002796497610047539,
+            "stat_raw_std": 0.08197222078780338,
+            "stat_raw_median": 0.007196472492069006,
+            "stat_raw_mad": 0.003341514151543379,
+            "stat_raw_nb_data": 364247,
+            "stat_raw_nb_tracks": 851,
+            "stat_raw_nb_low": 0,
+            "stat_raw_nb_hight": 1410,
+            "stat_grid_min": -2.2528425057729087,
+            "stat_grid_max": 2.6096277236938477,
+            "stat_grid_mean": 0.02312000049311663,
+            "stat_grid_std": 0.15594598572496693,
+            "stat_grid_median": 0.011710687296924855,
+            "stat_grid_mad": 0.018914303988359665,
+            "stat_grid_nbtrks": 116429.0,
+            "stat_grid_nbpts": 12370223.0,
+            "stat_grid_nbpxls": 31741,
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "snow_depth_ASD": {
+          "type": "data",
+          "description": "snow_depth",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "snow_depth",
+            "units": "m",
+            "comment": "Snow depth  sd_ASD_sh"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "snow_depth_sd_ASD_sh": {
+          "type": "data",
+          "description": "snow_depth",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "m",
+          "attrs": {
+            "ctoh_edit_date": "2023-04-02 13:07:59.655716",
+            "long_name": "snow_depth",
+            "units": "m",
+            "comment": "Snow depth  sd_ASD_sh"
+          },
+          "shape": [
+            94,
+            712,
+            712
+          ],
+          "chunks": [
+            1,
+            356,
+            356
+          ]
+        },
+        "time_bnds": {
+          "type": "data",
+          "description": "time_bnds",
+          "dimensions": [
+            "time",
+            "dim_time_bnds"
+          ],
+          "attrs": {
+            "long_name": "time_bnds",
+            "ctoh_edit_date": "2023-04-01 16:25"
+          },
+          "shape": [
+            94,
+            2
+          ],
+          "chunks": [
+            94,
+            2
+          ]
+        },
+        "lat": {
+          "type": "auxiliary",
+          "description": "latitude coordinate",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "units": "degrees_north",
+            "long_name": "latitude coordinate",
+            "standard_name": "latitude"
+          },
+          "shape": [
+            712,
+            712
+          ],
+          "chunks": [
+            356,
+            356
+          ]
+        },
+        "lon": {
+          "type": "auxiliary",
+          "description": "longitude coordinate",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "units": "degrees_east",
+            "long_name": "longitude coordinate",
+            "standard_name": "longitude"
+          },
+          "shape": [
+            712,
+            712
+          ],
+          "chunks": [
+            356,
+            356
+          ]
+        },
+        "sp2ease": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "projected_crs_name": "WGS 84 / Antarctic Polar Stereographic",
+            "grid_mapping_name": "polar_stereographic",
+            "standard_parallel": -71.0,
+            "straight_vertical_longitude_from_pole": 0.0,
+            "false_easting": 0.0,
+            "false_northing": 0.0,
+            "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]"
+          },
+          "shape": []
+        }
+      },
+      "datetime": null,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "southern-ocean-sit-from-cryosat-2",
+  "title": "Zarr Store"
+}

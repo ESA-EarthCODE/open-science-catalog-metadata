@@ -266,6 +266,12 @@
       "href": "../../products/arceme-dhp/collection.json",
       "type": "application/json",
       "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

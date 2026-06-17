@@ -44,6 +44,12 @@
       "href": "../../products/glambie-dataset/collection.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
     }
   ],
   "stac_extensions": [

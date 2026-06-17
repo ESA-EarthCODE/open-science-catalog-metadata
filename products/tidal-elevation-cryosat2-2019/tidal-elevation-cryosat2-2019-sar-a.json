@@ -1,0 +1,155 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "tidal-elevation-cryosat2-2019-sar-a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -87.99081420898438
+        ],
+        [
+          180.0,
+          -60.0
+        ],
+        [
+          -180.0,
+          -60.0
+        ],
+        [
+          -180.0,
+          -87.99081420898438
+        ],
+        [
+          180.0,
+          -87.99081420898438
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -87.99081420898438,
+    180.0,
+    -60.0
+  ],
+  "properties": {
+    "license": "cc-by-nc-4.0",
+    "description": "",
+    "start_datetime": "2019-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T00:00:00Z",
+    "datetime": "2019-01-01T00:00:00Z",
+    "title": "Tidal elevation along CryoSat-2 track during the year 2019 SAR A"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/albatross/elevation_prediction_cryosat2_SAR_A.parquet",
+      "type": "application/x-parquet",
+      "title": "Tidal elevation along CryoSat-2 track during the year 2019 SAR A",
+      "proj:code": "EPSG:4326",
+      "proj:wkt2": "GEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],USAGE[SCOPE[\"Horizontal component of 3D system.\"],AREA[\"World.\"],BBOX[-90,-180,90,180]],ID[\"EPSG\",4326]]",
+      "proj:bbox": [
+        -180.0,
+        -87.99081420898438,
+        180.0,
+        -60.0
+      ],
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              180.0,
+              -87.99081420898438
+            ],
+            [
+              180.0,
+              -60.0
+            ],
+            [
+              -180.0,
+              -60.0
+            ],
+            [
+              -180.0,
+              -87.99081420898438
+            ],
+            [
+              180.0,
+              -87.99081420898438
+            ]
+          ]
+        ]
+      },
+      "datetime": "2019-01-01T00:00:00Z",
+      "license": "cc-by-nc-4.0",
+      "parquet:columns": [
+        {
+          "name": "time",
+          "type": "timestamp",
+          "long_name": "Observation Time",
+          "description": "Timestamp of the observation, satellite pass, or prediction interval.",
+          "unit": null
+        },
+        {
+          "name": "tidal_elevation_prediction_m",
+          "type": "double",
+          "long_name": "Tidal Elevation Prediction",
+          "description": "Predicted tidal elevation measured at the specified location.",
+          "unit": "m"
+        },
+        {
+          "name": "latitude",
+          "type": "double",
+          "long_name": "Latitude",
+          "description": "Latitude coordinate of the observation point.",
+          "unit": "degrees"
+        },
+        {
+          "name": "longitude",
+          "type": "double",
+          "long_name": "Longitude",
+          "description": "Longitude coordinate of the observation point.",
+          "unit": "degrees"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "long_name": "Observation Type",
+          "description": "The sensor, source, or operational mode generating the data (e.g., cryosat2_SAR_A).",
+          "unit": null
+        },
+        {
+          "name": "geometry",
+          "type": "geometry",
+          "long_name": "Observation Point Geometry",
+          "description": "Point geometry representing the exact spatial location of the measurement. Stored as the GeoParquet geometry column.",
+          "unit": null
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "tidal-elevation-cryosat2-2019",
+  "title": "",
+  "license": "cc-by-nc-4.0"
+}
