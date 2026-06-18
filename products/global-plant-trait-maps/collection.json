@@ -439,7 +439,7 @@
       "rel": "related",
       "href": "../../eo-missions/dmsp/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: DMSP"
+      "title": "EO Mission: DMSP-Defense Meteorological Satellite Program Block 5D"
     },
     {
       "rel": "related",
@@ -469,7 +469,7 @@
       "rel": "related",
       "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: GPM"
+      "title": "EO Mission: GPM (Global Precipitation Measurement)"
     },
     {
       "rel": "related",
