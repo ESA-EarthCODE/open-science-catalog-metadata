@@ -1256,6 +1256,12 @@
       "href": "./ai4ais/collection.json",
       "type": "application/json",
       "title": "ARTIFICIAL INTELLIGENCE FOR ICE SHELVES (AI4AIS)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet/collection.json",
+      "type": "application/json",
+      "title": "EO‐Driven Insights  for Advancing Arctic Wetland  and Lake Methane Emissions  Monitoring (EOWetMet)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
