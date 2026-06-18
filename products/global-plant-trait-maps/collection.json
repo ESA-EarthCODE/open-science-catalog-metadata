@@ -91,13 +91,13 @@
     }
   },
   "osc:variables": [
-    "root-length-per-root-dry-mass",
-    "seed-number-per-reproduction-unit",
+    "specific-root-length",
+    "seed-number-reproduction-unit",
     "leaf-carbon-content-per-leaf-dry-mass",
     "leaf-length",
     "leaf-width",
     "leaf-carbon-nitrogen-ratio",
-    "leaf-nitrogen-content-per-leaf-dry-mass",
+    "leaf-nitrogen-content-mass",
     "leaf-phosphorus-content-per-leaf-dry-mass",
     "leaf-fresh-mass",
     "stem-conduit-density",
@@ -113,18 +113,18 @@
     "wood-rays-per-millimetre",
     "plant-height-vegetative",
     "plant-height-generative",
-    "leaf-area",
-    "leaf-area",
-    "leaf-area",
+    "leaf-area-leaf",
+    "leaf-area-leaflet",
+    "leaf-area-unspecified",
     "leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded",
     "leaf-water-content-per-leaf-dry-mass",
-    "seed-number-per-dispersal-unit",
+    "seed-number-dispersal-unit",
     "leaf-thickness",
     "leaf-dry-mass-per-leaf-fresh-mass",
     "stem-specific-density-or-wood-density",
-    "leaf-nitrogen-content-per-leaf-area",
+    "leaf-nitrogen-content-area",
     "leaf-dry-mass",
-    "fine-root-length-per-fine-root-dry-mass",
+    "specific-fine-root-length",
     "root-rooting-depth",
     "leaf-nitrogen-isotope-signature",
     "seed-germination-rate"
@@ -215,225 +215,449 @@
     },
     {
       "rel": "related",
-      "href": "../../variables/srl/catalog.json",
+      "href": "../../variables/specific-root-length/catalog.json",
       "type": "application/json",
-      "title": "Variable: SRL"
+      "title": "Variable: Specific Root Length"
     },
     {
       "rel": "related",
-      "href": "../../variables/seed-number/catalog.json",
+      "href": "../../variables/seed-number-reproduction-unit/catalog.json",
       "type": "application/json",
-      "title": "Variable: Seed number"
+      "title": "Variable: Seed Number (Reproduction Unit)"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-c/catalog.json",
+      "href": "../../variables/leaf-carbon-content-per-leaf-dry-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf C"
+      "title": "Variable: Leaf Carbon Content"
     },
     {
       "rel": "related",
       "href": "../../variables/leaf-length/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf length"
+      "title": "Variable: Leaf Length"
     },
     {
       "rel": "related",
       "href": "../../variables/leaf-width/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf width"
+      "title": "Variable: Leaf Width"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-c-n-ratio/catalog.json",
+      "href": "../../variables/leaf-carbon-nitrogen-ratio/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf C/N ratio"
+      "title": "Variable: Leaf C/N Ratio"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-n/catalog.json",
+      "href": "../../variables/leaf-nitrogen-content-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf N (mass)"
+      "title": "Variable: Leaf Nitrogen Content (Mass)"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-p/catalog.json",
+      "href": "../../variables/leaf-phosphorus-content-per-leaf-dry-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf P"
+      "title": "Variable: Leaf Phosphorus Content"
     },
     {
       "rel": "related",
       "href": "../../variables/leaf-fresh-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf fresh mass"
+      "title": "Variable: Leaf Fresh Mass"
     },
     {
       "rel": "related",
       "href": "../../variables/stem-conduit-density/catalog.json",
       "type": "application/json",
-      "title": "Variable: Stem conduit density"
+      "title": "Variable: Stem Conduit Density"
     },
     {
       "rel": "related",
       "href": "../../variables/stem-diameter/catalog.json",
       "type": "application/json",
-      "title": "Variable: Stem diameter"
+      "title": "Variable: Stem Diameter"
     },
     {
       "rel": "related",
-      "href": "../../variables/chromosome-number/catalog.json",
+      "href": "../../variables/species-genotype-chromosome-number/catalog.json",
       "type": "application/json",
-      "title": "Variable: Chromosome number"
+      "title": "Variable: Chromosome Number"
     },
     {
       "rel": "related",
-      "href": "../../variables/chromosome-cdna-content/catalog.json",
+      "href": "../../variables/species-genotype-chromosome-cdna-content/catalog.json",
       "type": "application/json",
-      "title": "Variable: Chromosome cDNA content"
+      "title": "Variable: Chromosome cDNA Content"
     },
     {
       "rel": "related",
       "href": "../../variables/dispersal-unit-length/catalog.json",
       "type": "application/json",
-      "title": "Variable: Dispersal unit length"
+      "title": "Variable: Dispersal Unit Length"
     },
     {
       "rel": "related",
-      "href": "../../variables/seed-mass/catalog.json",
+      "href": "../../variables/seed-dry-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Seed mass"
+      "title": "Variable: Seed Mass"
     },
     {
       "rel": "related",
       "href": "../../variables/seed-length/catalog.json",
       "type": "application/json",
-      "title": "Variable: Seed length"
+      "title": "Variable: Seed Length"
     },
     {
       "rel": "related",
       "href": "../../variables/stem-conduit-diameter/catalog.json",
       "type": "application/json",
-      "title": "Variable: Stem conduit diameter"
+      "title": "Variable: Stem Conduit Diameter"
     },
     {
       "rel": "related",
-      "href": "../../variables/conduit-element-length/catalog.json",
+      "href": "../../variables/wood-vessel-element-length-stem-conduit-element-length/catalog.json",
       "type": "application/json",
-      "title": "Variable: Conduit element length"
+      "title": "Variable: Conduit Element Length"
     },
     {
       "rel": "related",
       "href": "../../variables/wood-fiber-lengths/catalog.json",
       "type": "application/json",
-      "title": "Variable: Wood fiber lengths"
+      "title": "Variable: Wood Fiber Lengths"
     },
     {
       "rel": "related",
-      "href": "../../variables/wood-ray-density/catalog.json",
+      "href": "../../variables/wood-rays-per-millimetre/catalog.json",
       "type": "application/json",
-      "title": "Variable: Wood ray density"
+      "title": "Variable: Wood Ray Density"
     },
     {
       "rel": "related",
-      "href": "../../variables/plant-height/catalog.json",
+      "href": "../../variables/plant-height-vegetative/catalog.json",
       "type": "application/json",
-      "title": "Variable: Plant height"
+      "title": "Variable: Plant Height (Vegetative)"
     },
     {
       "rel": "related",
-      "href": "../../variables/plant-height/catalog.json",
+      "href": "../../variables/plant-height-generative/catalog.json",
       "type": "application/json",
-      "title": "Variable: Plant height (gen.)"
+      "title": "Variable: Plant Height (Generative)"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-area/catalog.json",
+      "href": "../../variables/leaf-area-leaf/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf area (3112)"
+      "title": "Variable: Leaf Area (Leaf)"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-area/catalog.json",
+      "href": "../../variables/leaf-area-leaflet/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf area"
+      "title": "Variable: Leaf Area (Leaflet)"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-area/catalog.json",
+      "href": "../../variables/leaf-area-unspecified/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf area (3114)"
+      "title": "Variable: Leaf Area (Unspecified)"
     },
     {
       "rel": "related",
-      "href": "../../variables/sla/catalog.json",
+      "href": "../../variables/leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded/catalog.json",
       "type": "application/json",
-      "title": "Variable: SLA"
+      "title": "Variable: Specific Leaf Area"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-water-content/catalog.json",
+      "href": "../../variables/leaf-water-content-per-leaf-dry-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf water content"
+      "title": "Variable: Leaf Water Content"
     },
     {
       "rel": "related",
-      "href": "../../variables/seed-number/catalog.json",
+      "href": "../../variables/seed-number-dispersal-unit/catalog.json",
       "type": "application/json",
-      "title": "Variable: Seed number (disp.)"
+      "title": "Variable: Seed Number (Dispersal Unit)"
     },
     {
       "rel": "related",
       "href": "../../variables/leaf-thickness/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf thickness"
+      "title": "Variable: Leaf Thickness"
     },
     {
       "rel": "related",
-      "href": "../../variables/ldmc/catalog.json",
+      "href": "../../variables/leaf-dry-mass-per-leaf-fresh-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: LDMC"
+      "title": "Variable: Leaf Dry Matter Content"
     },
     {
       "rel": "related",
-      "href": "../../variables/ssd/catalog.json",
+      "href": "../../variables/stem-specific-density-or-wood-density/catalog.json",
       "type": "application/json",
-      "title": "Variable: SSD"
+      "title": "Variable: Stem Specific Density"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-n/catalog.json",
+      "href": "../../variables/leaf-nitrogen-content-area/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf N (area)"
+      "title": "Variable: Leaf Nitrogen Content (Area)"
     },
     {
       "rel": "related",
       "href": "../../variables/leaf-dry-mass/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf dry mass"
+      "title": "Variable: Leaf Dry Mass"
     },
     {
       "rel": "related",
-      "href": "../../variables/srl/catalog.json",
+      "href": "../../variables/specific-fine-root-length/catalog.json",
       "type": "application/json",
-      "title": "Variable: SRL (fine)"
+      "title": "Variable: Specific Fine Root Length"
     },
     {
       "rel": "related",
-      "href": "../../variables/rooting-depth/catalog.json",
+      "href": "../../variables/root-rooting-depth/catalog.json",
       "type": "application/json",
-      "title": "Variable: Rooting depth"
+      "title": "Variable: Rooting Depth"
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-delta-15n/catalog.json",
+      "href": "../../variables/leaf-nitrogen-isotope-signature/catalog.json",
       "type": "application/json",
-      "title": "Variable: Leaf delta 15N"
+      "title": "Variable: Leaf Delta 15N"
     },
     {
       "rel": "related",
       "href": "../../variables/seed-germination-rate/catalog.json",
       "type": "application/json",
-      "title": "Variable: Seed germination rate"
+      "title": "Variable: Seed Germination Rate"
+    }
+  ],
+  "links_to_add_var_catalog": [
+    {
+      "rel": "child",
+      "href": "./species-genotype-chromosome-cdna-content/catalog.json",
+      "type": "application/json",
+      "title": "Chromosome cDNA Content"
+    },
+    {
+      "rel": "child",
+      "href": "./species-genotype-chromosome-number/catalog.json",
+      "type": "application/json",
+      "title": "Chromosome Number"
+    },
+    {
+      "rel": "child",
+      "href": "./wood-vessel-element-length-stem-conduit-element-length/catalog.json",
+      "type": "application/json",
+      "title": "Conduit Element Length"
+    },
+    {
+      "rel": "child",
+      "href": "./dispersal-unit-length/catalog.json",
+      "type": "application/json",
+      "title": "Dispersal Unit Length"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-area-leaf/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Area (Leaf)"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-area-leaflet/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Area (Leaflet)"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-area-unspecified/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Area (Unspecified)"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-carbon-nitrogen-ratio/catalog.json",
+      "type": "application/json",
+      "title": "Leaf C/N Ratio"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-carbon-content-per-leaf-dry-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Carbon Content"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-nitrogen-isotope-signature/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Delta 15N"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-dry-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Dry Mass"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-dry-mass-per-leaf-fresh-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Dry Matter Content"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-fresh-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Fresh Mass"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-length/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Length"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-nitrogen-content-area/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Nitrogen Content (Area)"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-nitrogen-content-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Nitrogen Content (Mass)"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-phosphorus-content-per-leaf-dry-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Phosphorus Content"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Thickness"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-water-content-per-leaf-dry-mass/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Water Content"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-width/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Width"
+    },
+    {
+      "rel": "child",
+      "href": "./plant-height-generative/catalog.json",
+      "type": "application/json",
+      "title": "Plant Height (Generative)"
+    },
+    {
+      "rel": "child",
+      "href": "./plant-height-vegetative/catalog.json",
+      "type": "application/json",
+      "title": "Plant Height (Vegetative)"
+    },
+    {
+      "rel": "child",
+      "href": "./root-rooting-depth/catalog.json",
+      "type": "application/json",
+      "title": "Rooting Depth"
+    },
+    {
+      "rel": "child",
+      "href": "./seed-germination-rate/catalog.json",
+      "type": "application/json",
+      "title": "Seed Germination Rate"
+    },
+    {
+      "rel": "child",
+      "href": "./seed-length/catalog.json",
+      "type": "application/json",
+      "title": "Seed Length"
+    },
+    {
+      "rel": "child",
+      "href": "./seed-dry-mass/catalog.json",
+      "type": "application/json",
+      "title": "Seed Mass"
+    },
+    {
+      "rel": "child",
+      "href": "./seed-number-dispersal-unit/catalog.json",
+      "type": "application/json",
+      "title": "Seed Number (Dispersal Unit)"
+    },
+    {
+      "rel": "child",
+      "href": "./seed-number-reproduction-unit/catalog.json",
+      "type": "application/json",
+      "title": "Seed Number (Reproduction Unit)"
+    },
+    {
+      "rel": "child",
+      "href": "./specific-fine-root-length/catalog.json",
+      "type": "application/json",
+      "title": "Specific Fine Root Length"
+    },
+    {
+      "rel": "child",
+      "href": "./leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded/catalog.json",
+      "type": "application/json",
+      "title": "Specific Leaf Area"
+    },
+    {
+      "rel": "child",
+      "href": "./specific-root-length/catalog.json",
+      "type": "application/json",
+      "title": "Specific Root Length"
+    },
+    {
+      "rel": "child",
+      "href": "./stem-conduit-density/catalog.json",
+      "type": "application/json",
+      "title": "Stem Conduit Density"
+    },
+    {
+      "rel": "child",
+      "href": "./stem-conduit-diameter/catalog.json",
+      "type": "application/json",
+      "title": "Stem Conduit Diameter"
+    },
+    {
+      "rel": "child",
+      "href": "./stem-diameter/catalog.json",
+      "type": "application/json",
+      "title": "Stem Diameter"
+    },
+    {
+      "rel": "child",
+      "href": "./stem-specific-density-or-wood-density/catalog.json",
+      "type": "application/json",
+      "title": "Stem Specific Density"
+    },
+    {
+      "rel": "child",
+      "href": "./wood-fiber-lengths/catalog.json",
+      "type": "application/json",
+      "title": "Wood Fiber Lengths"
+    },
+    {
+      "rel": "child",
+      "href": "./wood-rays-per-millimetre/catalog.json",
+      "type": "application/json",
+      "title": "Wood Ray Density"
     },
     {
       "rel": "related",

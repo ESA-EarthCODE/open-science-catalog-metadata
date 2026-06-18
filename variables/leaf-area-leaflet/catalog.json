@@ -1,12 +1,12 @@
 {
   "type": "Catalog",
-  "id": "seed-dry-mass",
+  "id": "leaf-area-leaflet",
   "stac_version": "1.0.0",
-  "description": "Seed dry mass. Unit: mg. TRY trait ID: 26.",
+  "description": "Leaf area (in case of compound leaves: leaflet, undefined if petiole is in- or excluded). Unit: mm². TRY trait ID: 3113.",
   "links": [
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/seed-dry-mass/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/leaf-area-leaflet/catalog.json",
       "type": "application/json"
     },
     {
@@ -64,8 +64,8 @@
     "plant traits",
     "functional traits",
     "TRY",
-    "Seed mass",
-    "TRY 26"
+    "Leaf area",
+    "TRY 3113"
   ],
-  "title": "Seed Mass"
+  "title": "Leaf Area (Leaflet)"
 }

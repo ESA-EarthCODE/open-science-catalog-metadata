@@ -1,12 +1,12 @@
 {
   "type": "Catalog",
-  "id": "seed-dry-mass",
+  "id": "wood-rays-per-millimetre",
   "stac_version": "1.0.0",
-  "description": "Seed dry mass. Unit: mg. TRY trait ID: 26.",
+  "description": "Wood rays per millimetre (wood ray density). Unit: mm⁻¹. TRY trait ID: 297.",
   "links": [
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/seed-dry-mass/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wood-rays-per-millimetre/catalog.json",
       "type": "application/json"
     },
     {
@@ -64,8 +64,8 @@
     "plant traits",
     "functional traits",
     "TRY",
-    "Seed mass",
-    "TRY 26"
+    "Wood ray density",
+    "TRY 297"
   ],
-  "title": "Seed Mass"
+  "title": "Wood Ray Density"
 }
