@@ -8,7 +8,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "created": "2026-06-05T00:00:00Z",
-  "updated": "2026-06-18T00:00:00Z",
+  "updated": "2026-06-16T00:00:00Z",
   "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)",
   "description": "The EOWetMet Pan-Arctic Daily 9 km Wetland Methane Flux Dataset provides daily methane flux estimates across northern and Arctic wetlands from 2015 to 2024. The dataset forms part of the EOWetMet Community Database and was developed through the integration of eddy covariance (EC) methane flux observations, Earth Observation datasets, and environmental reanalysis products within a machine-learning-based methane upscaling framework.",
   "extent": {
@@ -29,11 +29,10 @@
     {"href": "../catalog.json", "rel": "parent", "title": "Products", "type": "application/json"},
     {"href": "../../projects/eowetmet/collection.json", "rel": "related", "title": "Project: EOWetMet", "type": "application/json"},
     {"href": "../../themes/land/catalog.json", "rel": "related", "title": "Theme: Land", "type": "application/json"},
-    {"href": "../../eo-missions/sentinel-2/catalog.json", "rel": "related", "title": "EO Mission: Sentinel-2", "type": "application/json"},
     {"href": "../../variables/methane/catalog.json", "rel": "related", "title": "Variable: Methane", "type": "application/json"},
     {"href": "https://doi.org/10.5281/zenodo.20545657", "rel": "via", "title": "Access"}
   ],
-  "osc:missions": ["sentinel-2"],
+  "osc:missions": [],
   "osc:variables": ["methane"],
   "cf:parameter": [{"name": "methane"}],
   "sci:doi": "10.5281/zenodo.20545657",
