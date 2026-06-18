@@ -1261,7 +1261,7 @@
       "rel": "child",
       "href": "./eowetmet/collection.json",
       "type": "application/json",
-      "title": "EO‐Driven Insights  for Advancing Arctic Wetland  and Lake Methane Emissions  Monitoring (EOWetMet)"
+      "title": "EOWetMet"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
