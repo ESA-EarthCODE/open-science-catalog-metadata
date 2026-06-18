@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "eowetmet-annual-wetland-lake-classification-nwt-sweden",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-06-17T00:00:00Z",
+  "updated": "2026-06-18T00:00:00Z",
+  "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)",
+  "description": "The EOWetMet Annual Wetland and Lake Classification Dataset (2021-2025) provides annual land cover maps distinguishing six wetland and lake ecosystem classes across two Arctic 500 km x 500 km study areas in the Northwest Territories (NWT), Canada, and northern Sweden, for the period 2021 to 2025. The dataset forms part of the EOWetMet Community Product Database and was developed to capture the spatial and temporal characterisation of wetland and lake inundation at high resolution, in support of bottom-up methane emission modelling and a broad range of Arctic science applications, including hydrological monitoring, permafrost and thermokarst change detection, and biodiversity assessment. The classification was produced using an Object-Based Image Analysis Random Forest framework implemented in Google Earth Engine, integrating 35 input features from multiple data categories, including Sentinel-1, Sentinel-2, ALOS PALSAR-2, ArcticDEM, ERA5, MERIT Hydro, and annual inundation information derived from Sentinel-1. Products are delivered at 10 m spatial resolution.",
+  "extent": {
+    "spatial": {
+      "bbox": [[-180.0, 45.0, 180.0, 90.0]]
+    },
+    "temporal": {
+      "interval": [["2021-01-01T00:00:00Z", "2025-12-31T23:59:59Z"]]
+    }
+  },
+  "keywords": ["wetlands", "Arctic", "land cover", "wetland classification", "Northwest Territories", "Sweden", "Earth Observation", "remote sensing", "Sentinel-1", "Sentinel-2"],
+  "osc:project": "eowetmet",
+  "osc:region": "Northwest Territories, Canada; Northern Sweden",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "links": [
+    {"href": "../../catalog.json", "rel": "root", "title": "Open Science Catalog", "type": "application/json"},
+    {"href": "../catalog.json", "rel": "parent", "title": "Products", "type": "application/json"},
+    {"href": "../../projects/eowetmet/collection.json", "rel": "related", "title": "Project: EOWetMet", "type": "application/json"},
+    {"href": "../../themes/land/catalog.json", "rel": "related", "title": "Theme: Land", "type": "application/json"},
+    {"href": "../../eo-missions/sentinel-1/catalog.json", "rel": "related", "title": "EO Mission: Sentinel-1", "type": "application/json"},
+    {"href": "../../eo-missions/sentinel-2/catalog.json", "rel": "related", "title": "EO Mission: Sentinel-2", "type": "application/json"},
+    {"href": "../../variables/methane/catalog.json", "rel": "related", "title": "Variable: Methane", "type": "application/json"},
+    {"href": "https://doi.org/10.5281/zenodo.20707376", "rel": "via", "title": "Access"}
+  ],
+  "osc:missions": ["sentinel-1", "sentinel-2"],
+  "osc:variables": ["methane"],
+  "cf:parameter": [{"name": "methane"}],
+  "sci:doi": "10.5281/zenodo.20707376",
+  "themes": [{"concepts": [{"id": "land"}], "scheme": "https://github.com/stac-extensions/osc#theme"}],
+  "license": "CC-BY-4.0"
+}
