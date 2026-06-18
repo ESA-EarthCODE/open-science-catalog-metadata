@@ -1,32 +1,31 @@
 {
   "type": "Collection",
-  "stac_version": "1.1.0",
   "id": "eowetmet",
-  "title": "EOWetMet",
+  "stac_version": "1.0.0",
   "description": "Wetlands and lakes are the largest natural source of global methane emissions. Their magnitude remains poorly understood due to data availability, a limited understanding of environmental drivers, and accessibility, especially in the Arctic. Through collaboration with academic institutions, research organizations and government agencies, EOWetMet aims to advance and develop new methods and models to improve wetland and lake characterization and methane emission estimation to enhance the understanding of exchange processes in the Arctic.",
   "links": [
     {
-      "href": "../../catalog.json",
       "rel": "root",
-      "title": "Open Science Catalog",
-      "type": "application/json"
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
     {
-      "href": "../catalog.json",
-      "rel": "parent",
-      "title": "Projects",
-      "type": "application/json"
-    },
-    {
-      "href": "https://c-core.ca/projects/eo-driven-insights-for-advancing-arctic-wetland-and-lake-methane-emissions-monitoring-eowetmet/",
       "rel": "via",
+      "href": "https://c-core.ca/projects/eo-driven-insights-for-advancing-arctic-wetland-and-lake-methane-emissions-monitoring-eowetmet/",
       "title": "Website"
     },
     {
-      "href": "../../themes/land/catalog.json",
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
       "rel": "related",
-      "title": "Theme: Land",
-      "type": "application/json"
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -34,69 +33,87 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring",
   "osc:status": "ongoing",
   "osc:type": "project",
   "themes": [
     {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
           "id": "land"
         }
-      ],
-      "scheme": "https://github.com/stac-extensions/osc#theme"
+      ]
     }
   ],
   "contacts": [
     {
       "name": "Stephen Plummer",
-      "roles": ["technical_officer"],
       "emails": [
         {
           "value": "stephen.plummer@esa.int"
         }
+      ],
+      "roles": [
+        "technical_officer"
       ]
     },
     {
       "name": "C-CORE (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Aurora Research Institute (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Flux Lab (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Government of Northwest Territories (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Harvard University (USA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Memorial University of Newfoundland and Labrador (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "TerraMotion (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Université de Montréal (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     },
     {
       "name": "Wilfrid Laurier University (CA)",
-      "roles": ["consortium_member"]
+      "roles": [
+        "consortium_member"
+      ]
     }
   ],
   "updated": "2026-06-16T00:00:00Z",
-  "start_datetime": "2024-11-19T00:00:00Z",
-  "end_datetime": "2026-10-31T23:59:59Z",
+  "title": "EOWetMet",
   "extent": {
     "spatial": {
       "bbox": [
@@ -119,4 +136,3 @@
   },
   "license": "proprietary"
 }
-
