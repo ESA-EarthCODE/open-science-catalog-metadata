@@ -1,0 +1,71 @@
+{
+  "type": "Catalog",
+  "id": "plant-height-vegetative",
+  "stac_version": "1.0.0",
+  "description": "Plant height vegetative. Unit: m. TRY trait ID: 3106.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/plant-height-vegetative/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.try-db.org/de/TraitGloss.php",
+      "type": "text/html",
+      "title": "TRY Trait Glossary"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2011.02451.x",
+      "type": "text/html",
+      "title": "TRY Database reference"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-plant-trait-maps/collection.json",
+      "type": "application/json",
+      "title": "Global Plant Functional Trait Maps at 1 km Resolution"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-06-16T13:52:30.470366Z",
+  "keywords": [
+    "plant traits",
+    "functional traits",
+    "TRY",
+    "Plant height",
+    "TRY 3106"
+  ],
+  "title": "Plant height"
+}

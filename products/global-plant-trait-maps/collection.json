@@ -90,9 +90,56 @@
       ]
     }
   },
+  "osc:variables": [
+    "srl",
+    "seed-number",
+    "leaf-c",
+    "leaf-length",
+    "leaf-width",
+    "leaf-c-n-ratio",
+    "leaf-n",
+    "leaf-p",
+    "leaf-fresh-mass",
+    "stem-conduit-density",
+    "stem-diameter",
+    "chromosome-number",
+    "chromosome-cdna-content",
+    "dispersal-unit-length",
+    "seed-mass",
+    "seed-length",
+    "stem-conduit-diameter",
+    "conduit-element-length",
+    "wood-fiber-lengths",
+    "wood-ray-density",
+    "plant-height",
+    "plant-height",
+    "leaf-area",
+    "leaf-area",
+    "leaf-area",
+    "sla",
+    "leaf-water-content",
+    "seed-number",
+    "leaf-thickness",
+    "ldmc",
+    "ssd",
+    "leaf-n",
+    "leaf-dry-mass",
+    "srl",
+    "rooting-depth",
+    "leaf-delta-15n",
+    "seed-germination-rate"
+  ],
   "osc:missions": [
   "modis",
-  "in-situ-observations"
+  "in-situ-observations", 
+  "dmsp",
+  "trmm",
+  "amsr-e",
+  "amsr2",
+  "windsat",
+  "gpm-global-precipitation-measurement",
+  "smos",
+  "smap"
   ],
   "links": [
     {
@@ -116,7 +163,7 @@
       "rel": "describedby",
       "href": "https://doi.org/10.1101/2025.03.10.641660",
       "type": "text/html",
-      "title": "Associated publication"
+      "title": "Associated Publication"
     },
     {
       "rel": "cite-as",
@@ -128,7 +175,7 @@
       "rel": "via",
       "href": "https://planttraits.earth/",
       "type": "text/html",
-      "title": "Dataset documentation"
+      "title": "Dataset Documentation"
     },
     {
       "rel": "related",
@@ -144,13 +191,13 @@
     },
     {
       "rel": "child",
-      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_/catalog.json",
+      "href": "https://geosense-freiburg.github.io/trait-maps-esa/stac_catalogs/stac_catalog_v1/catalog.json",
       "type": "application/json",
       "title": "Global Plant Trait Maps full STAC catalog"
     },
     {
       "rel": "via",
-      "href": "https://geosense-freiburg.github.io/trait-maps-esa/outputs/stac_catalog_v1_3/catalog.json",
+      "href": "https://geosense-freiburg.github.io/trait-maps-esa/stac_catalogs/stac_catalog_v1/catalog.json",
       "type": "application/json",
       "title": "Access full STAC catalog"
     },
@@ -165,6 +212,276 @@
       "href": "../../eo-missions/in-situ-observations/catalog.json",
       "type": "application/json",
       "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/srl/catalog.json",
+      "type": "application/json",
+      "title": "Variable: SRL"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/seed-number/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Seed number"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-c/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf C"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-length/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf length"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-width/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf width"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-c-n-ratio/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf C/N ratio"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-n/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf N (mass)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-p/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf P"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-fresh-mass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf fresh mass"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/stem-conduit-density/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Stem conduit density"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/stem-diameter/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Stem diameter"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chromosome-number/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chromosome number"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chromosome-cdna-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chromosome cDNA content"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dispersal-unit-length/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dispersal unit length"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/seed-mass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Seed mass"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/seed-length/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Seed length"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/stem-conduit-diameter/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Stem conduit diameter"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/conduit-element-length/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Conduit element length"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wood-fiber-lengths/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wood fiber lengths"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wood-ray-density/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wood ray density"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/plant-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Plant height"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/plant-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Plant height (gen.)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-area/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf area (3112)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-area/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf area"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-area/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf area (3114)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sla/catalog.json",
+      "type": "application/json",
+      "title": "Variable: SLA"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-water-content/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf water content"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/seed-number/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Seed number (disp.)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ldmc/catalog.json",
+      "type": "application/json",
+      "title": "Variable: LDMC"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ssd/catalog.json",
+      "type": "application/json",
+      "title": "Variable: SSD"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-n/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf N (area)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-dry-mass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf dry mass"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/srl/catalog.json",
+      "type": "application/json",
+      "title": "Variable: SRL (fine)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/rooting-depth/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Rooting depth"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/leaf-delta-15n/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Leaf delta 15N"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/seed-germination-rate/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Seed germination rate"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/dmsp/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: DMSP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/trmm/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: TRMM"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/amsr-e/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AMSR-E"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/amsr2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AMSR2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/windsat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: WindSat"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GPM"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
     }
   ]
 }
