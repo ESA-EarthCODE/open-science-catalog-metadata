@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "arceme-datacubes-wocat",
   "stac_version": "1.0.0",
-  "description": "Multi-sensor Earth observation data cubes for European extreme weather event sites from the WOCAT (World Overview of Conservation Approaches and Technologies) and DHP (Disaster Hazard Points) databases, generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the event location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). The temporal window spans ±12 months around the event date. Cloud masking is applied using SEnSeIv2/SegFormerB2.",
+  "description": "Multi-sensor Earth observation data cubes for the analysis of extreme weather events from the ARCEME-DHP (Drought interrupted by Heavy Precipitation) database (see related resources) around WOCAT (World Overview of Conservation Approaches and Technologies) sites in countries member of the European Environment Agency, generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the WOCAT technology location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). The temporal window spans ±12 months around the heavy precipitation event date. Cloud masking is applied using SEnSeIv2/SegFormerB2. \nThe cubes are named \"DC__wocat_id_dhp_id__start__end.zarr\": the identifiers \"wocat_id\" refer to the WOCAT database (https://wocat.net/en/database/list/?type=technology). The identifiers \"dhp_id\" refer to the DHP events labels in ARCEME-DHP.",
   "links": [
     {
       "rel": "root",
@@ -15,6 +15,12 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "Product: ARCEME-DHP"
     },
     {
       "rel": "related",
