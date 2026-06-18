@@ -203,18 +203,6 @@
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/modis/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: MODIS"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/in-situ-observations/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: In-situ observations"
-    },
-    {
-      "rel": "related",
       "href": "../../variables/specific-root-length/catalog.json",
       "type": "application/json",
       "title": "Variable: Specific Root Length"
@@ -434,230 +422,18 @@
       "href": "../../variables/seed-germination-rate/catalog.json",
       "type": "application/json",
       "title": "Variable: Seed Germination Rate"
-    }
-  ],
-  "links_to_add_var_catalog": [
-    {
-      "rel": "child",
-      "href": "./species-genotype-chromosome-cdna-content/catalog.json",
-      "type": "application/json",
-      "title": "Chromosome cDNA Content"
     },
     {
-      "rel": "child",
-      "href": "./species-genotype-chromosome-number/catalog.json",
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
       "type": "application/json",
-      "title": "Chromosome Number"
+      "title": "EO Mission: MODIS"
     },
     {
-      "rel": "child",
-      "href": "./wood-vessel-element-length-stem-conduit-element-length/catalog.json",
+      "rel": "related",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
       "type": "application/json",
-      "title": "Conduit Element Length"
-    },
-    {
-      "rel": "child",
-      "href": "./dispersal-unit-length/catalog.json",
-      "type": "application/json",
-      "title": "Dispersal Unit Length"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-area-leaf/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Area (Leaf)"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-area-leaflet/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Area (Leaflet)"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-area-unspecified/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Area (Unspecified)"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-carbon-nitrogen-ratio/catalog.json",
-      "type": "application/json",
-      "title": "Leaf C/N Ratio"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-carbon-content-per-leaf-dry-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Carbon Content"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-nitrogen-isotope-signature/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Delta 15N"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-dry-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Dry Mass"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-dry-mass-per-leaf-fresh-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Dry Matter Content"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-fresh-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Fresh Mass"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-length/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Length"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-nitrogen-content-area/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Nitrogen Content (Area)"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-nitrogen-content-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Nitrogen Content (Mass)"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-phosphorus-content-per-leaf-dry-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Phosphorus Content"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-thickness/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Thickness"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-water-content-per-leaf-dry-mass/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Water Content"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-width/catalog.json",
-      "type": "application/json",
-      "title": "Leaf Width"
-    },
-    {
-      "rel": "child",
-      "href": "./plant-height-generative/catalog.json",
-      "type": "application/json",
-      "title": "Plant Height (Generative)"
-    },
-    {
-      "rel": "child",
-      "href": "./plant-height-vegetative/catalog.json",
-      "type": "application/json",
-      "title": "Plant Height (Vegetative)"
-    },
-    {
-      "rel": "child",
-      "href": "./root-rooting-depth/catalog.json",
-      "type": "application/json",
-      "title": "Rooting Depth"
-    },
-    {
-      "rel": "child",
-      "href": "./seed-germination-rate/catalog.json",
-      "type": "application/json",
-      "title": "Seed Germination Rate"
-    },
-    {
-      "rel": "child",
-      "href": "./seed-length/catalog.json",
-      "type": "application/json",
-      "title": "Seed Length"
-    },
-    {
-      "rel": "child",
-      "href": "./seed-dry-mass/catalog.json",
-      "type": "application/json",
-      "title": "Seed Mass"
-    },
-    {
-      "rel": "child",
-      "href": "./seed-number-dispersal-unit/catalog.json",
-      "type": "application/json",
-      "title": "Seed Number (Dispersal Unit)"
-    },
-    {
-      "rel": "child",
-      "href": "./seed-number-reproduction-unit/catalog.json",
-      "type": "application/json",
-      "title": "Seed Number (Reproduction Unit)"
-    },
-    {
-      "rel": "child",
-      "href": "./specific-fine-root-length/catalog.json",
-      "type": "application/json",
-      "title": "Specific Fine Root Length"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded/catalog.json",
-      "type": "application/json",
-      "title": "Specific Leaf Area"
-    },
-    {
-      "rel": "child",
-      "href": "./specific-root-length/catalog.json",
-      "type": "application/json",
-      "title": "Specific Root Length"
-    },
-    {
-      "rel": "child",
-      "href": "./stem-conduit-density/catalog.json",
-      "type": "application/json",
-      "title": "Stem Conduit Density"
-    },
-    {
-      "rel": "child",
-      "href": "./stem-conduit-diameter/catalog.json",
-      "type": "application/json",
-      "title": "Stem Conduit Diameter"
-    },
-    {
-      "rel": "child",
-      "href": "./stem-diameter/catalog.json",
-      "type": "application/json",
-      "title": "Stem Diameter"
-    },
-    {
-      "rel": "child",
-      "href": "./stem-specific-density-or-wood-density/catalog.json",
-      "type": "application/json",
-      "title": "Stem Specific Density"
-    },
-    {
-      "rel": "child",
-      "href": "./wood-fiber-lengths/catalog.json",
-      "type": "application/json",
-      "title": "Wood Fiber Lengths"
-    },
-    {
-      "rel": "child",
-      "href": "./wood-rays-per-millimetre/catalog.json",
-      "type": "application/json",
-      "title": "Wood Ray Density"
+      "title": "EO Mission: In-situ observations"
     },
     {
       "rel": "related",
