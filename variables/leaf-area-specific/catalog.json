@@ -1,12 +1,12 @@
 {
   "type": "Catalog",
-  "id": "fine-root-length-per-fine-root-dry-mass-specific-fine-root-length-srl",
+  "id": "leaf-area-specific",
   "stac_version": "1.0.0",
-  "description": "Fine root length per fine root dry mass (specific fine root length, SRL). Unit: cm g⁻¹. TRY trait ID: 614.",
+  "description": "Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): undefined if petiole is in- or excluded). Unit: m² kg⁻¹. TRY trait ID: 3117.",
   "links": [
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/fine-root-length-per-fine-root-dry-mass-specific-fine-root-length-srl/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded/catalog.json",
       "type": "application/json"
     },
     {
@@ -59,13 +59,13 @@
       ]
     }
   ],
-  "updated": "2026-06-18T14:28:04.959855Z",
+  "updated": "2026-06-18T17:03:04.476235Z",
   "keywords": [
     "plant traits",
     "functional traits",
     "TRY",
-    "SRL (fine)",
-    "TRY 614"
+    "SLA",
+    "TRY 3117"
   ],
-  "title": "Srl (Fine)"
+  "title": "Specific Leaf Area"
 }

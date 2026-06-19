@@ -3557,6 +3557,12 @@
     },
     {
       "rel": "child",
+      "href": "./leaf-area-index-lai/catalog.json",
+      "type": "application/json",
+      "title": "Leaf Area Index (LAI)"
+    },
+    {
+      "rel": "child",
       "href": "./leaf-area-leaf/catalog.json",
       "type": "application/json",
       "title": "Leaf Area (Leaf)"
@@ -3569,15 +3575,15 @@
     },
     {
       "rel": "child",
-      "href": "./leaf-area-unspecified/catalog.json",
+      "href": "./leaf-area-specific/catalog.json",
       "type": "application/json",
-      "title": "Leaf Area (Unspecified)"
+      "title": "Specific Leaf Area"
     },
     {
       "rel": "child",
-      "href": "./leaf-area-index-lai/catalog.json",
+      "href": "./leaf-area-unspecified/catalog.json",
       "type": "application/json",
-      "title": "Leaf Area Index (LAI)"
+      "title": "Leaf Area (Unspecified)"
     },
     {
       "rel": "child",
@@ -6320,12 +6326,6 @@
       "href": "./specific-humidity/catalog.json",
       "type": "application/json",
       "title": "Specific humidity"
-    },
-    {
-      "rel": "child",
-      "href": "./leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded/catalog.json",
-      "type": "application/json",
-      "title": "Specific Leaf Area"
     },
     {
       "rel": "child",
