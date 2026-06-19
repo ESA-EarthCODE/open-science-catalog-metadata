@@ -1063,7 +1063,7 @@
       "rel": "child",
       "href": "./species-genotype-chromosome-cdna-content/catalog.json",
       "type": "application/json",
-      "title": "Chromosome Cdna Content"
+      "title": "Chromosome cDNA Content"
     },
     {
       "rel": "child",
