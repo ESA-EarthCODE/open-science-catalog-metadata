@@ -91,8 +91,7 @@
     }
   },
   "osc:variables": [
-    "specific-root-length",
-    "seed-number-reproduction-unit",
+    "dispersal-unit-length",
     "leaf-carbon-content-per-leaf-dry-mass",
     "leaf-length",
     "leaf-width",
@@ -100,11 +99,12 @@
     "leaf-nitrogen-content-mass",
     "leaf-phosphorus-content-per-leaf-dry-mass",
     "leaf-fresh-mass",
+    "specific-root-length",
+    "seed-number-reproduction-unit",
     "stem-conduit-density",
     "stem-diameter",
     "species-genotype-chromosome-number",
     "species-genotype-chromosome-cdna-content",
-    "dispersal-unit-length",
     "seed-dry-mass",
     "seed-length",
     "stem-conduit-diameter",
@@ -116,7 +116,7 @@
     "leaf-area-leaf",
     "leaf-area-leaflet",
     "leaf-area-unspecified",
-    "leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded",
+    "leaf-area-specific",
     "leaf-water-content-per-leaf-dry-mass",
     "seed-number-dispersal-unit",
     "leaf-thickness",
@@ -353,7 +353,7 @@
     },
     {
       "rel": "related",
-      "href": "../../variables/leaf-area-per-leaf-dry-mass-undefined-if-petiole-is-in-or-excluded/catalog.json",
+      "href": "../../variables/leaf-area-specific/catalog.json",
       "type": "application/json",
       "title": "Variable: Specific Leaf Area"
     },
