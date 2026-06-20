@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.2.0/schema.json",
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
   ],
   "id": "basal_melt_map_racmo_firn_air_corrected",
@@ -52,9 +52,7 @@
         {
           "name": "basal_melt_rate",
           "data_type": "float32",
-          "nodata": null,
-          "spatial_resolution": 1000.0,
-          "unit": null
+          "spatial_resolution": 1000.0
         }
       ],
       "proj:transform": [
