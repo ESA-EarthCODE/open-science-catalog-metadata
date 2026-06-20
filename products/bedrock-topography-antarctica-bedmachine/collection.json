@@ -119,10 +119,10 @@
     "spatial": {
       "bbox": [
         [
-          180.0,
-          -53.0,
           -180.0,
-          -90.0
+          -90.0,
+          180.0,
+          -56.7587107166777
         ]
       ]
     },
@@ -135,7 +135,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "various",
   "keywords": [
     "Ice Depth/Thickness",
     "Cryospheric Indicators",
