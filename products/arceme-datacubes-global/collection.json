@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "arceme-datacubes-global",
   "stac_version": "1.0.0",
-  "description": "Multi-sensor Earth observation data cubes for globally distributed extreme weather event sites from the DHP (Disaster Hazard Points) database, generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the event location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). Two cube variants exist per event site — suffix \"_d\" (DHP-only) and \"_dhp\" (DHP+WOCAT). The temporal window spans ±12 months around the event date. Cloud masking is applied using SEnSeIv2/SegFormerB2.",
+  "description": "Multi-sensor Earth observation data cubes for the compared global analysis of single versus multi-hazard extreme weather events from the ARCEME-DHP (Drought interrupted by Heavy Precipitation) database (see related resources), generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the event's sampled location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). The temporal window spans ±12 months around the event date. Cloud masking is applied using SEnSeIv2/SegFormerB2. \nThe cubes are named \"DC__id_suffix__start__end.zarr\": the identifiers \"id\" refer to the DHP events labels in ARCEME-DHP. Two cube variants exist per event site — suffix \"_d\" (Drought-only) and \"_dhp\" (Drought interrupted by Heavy Precipitation). ",
   "links": [
     {
       "rel": "root",
@@ -15,6 +15,12 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "Product: ARCEME-DHP"
     },
     {
       "rel": "related",
