@@ -42,10 +42,10 @@
     "start_datetime": "2016-01-01T01:18:09.849000Z",
     "end_datetime": "2024-12-31T01:47:53.145000Z",
     "datetime": "2016-01-01T01:18:09.849000Z",
-    "title": "ESA EO4FLOOD project Soil Moisture input",
+    "title": "Congo - Soil Moisture SMAP",
     "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/soil_moisture_zarr/EO4FLOOD_soil_moisture_SMAP_cono.zarr",
     "zarr:attributes": {
-      "title": "ESA EO4FLOOD project Soil Moisture input",
+      "title": "Congo - Soil Moisture SMAP",
       "creation_time": "2025-07-24 18:19:02 UTC",
       "institution": "National Research Council (CNR)",
       "creator_institution_e-mail": "christian.massari@cnr.it",

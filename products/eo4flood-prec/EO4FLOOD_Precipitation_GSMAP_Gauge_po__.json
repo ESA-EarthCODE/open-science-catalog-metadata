@@ -42,10 +42,10 @@
     "start_datetime": "2016-01-01T00:00:00Z",
     "end_datetime": "2024-12-31T23:00:00Z",
     "datetime": "2016-01-01T00:00:00Z",
-    "title": "ESA EO4FLOOD project Precipitation input",
+    "title": "Po - Precipitation GSMAP Gauge",
     "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Precipitation_zarr/EO4FLOOD_Precipitation_GSMAP_Gauge_po__.zarr",
     "zarr:attributes": {
-      "title": "ESA EO4FLOOD project Precipitation input",
+      "title": "Po - Precipitation GSMAP Gauge",
       "product": "GMSAP Gauge",
       "basin": "po",
       "creation_time": "06-Feb-2026 12:20:56",
@@ -56,7 +56,7 @@
       "version": "Version 1.1",
       "Conventions": "CF-1.11-draft",
       "DOI": "10.5281/zenodo.17787732",
-      "Acknowledgements": "European Space Agency EO4FLOOD project Contract N\u00b0 4000145540/24/I-EB"
+      "Acknowledgements": "European Space Agency EO4FLOOD project Contract N° 4000145540/24/I-EB"
     },
     "zarr:arrays": {
       "Precipitation": {
