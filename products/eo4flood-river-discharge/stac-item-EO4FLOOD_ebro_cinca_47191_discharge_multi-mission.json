@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_ebro_cinca_47191_discharge_multi-mission",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.3357,
+          41.5401
+        ],
+        [
+          0.3357,
+          41.8545
+        ],
+        [
+          -1.2473,
+          41.8545
+        ],
+        [
+          -1.2473,
+          41.5401
+        ],
+        [
+          0.3357,
+          41.5401
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.2473,
+    41.5401,
+    0.3357,
+    41.8545
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "nc_attributes": {
+      "dataset": "multi-mission-river-discharge",
+      "name": "ebro_cinca_47191",
+      "longitude": 0.3357,
+      "latitude": 41.5401,
+      "institution": "DGFI-TUM",
+      "creation_date": "2025-12-23T11:35:12.855585",
+      "comment": "plausible",
+      "author": "Daniel Scherer",
+      "units": "discharge in m^3/s",
+      "datetime_format": "ISO8601 string"
+    },
+    "parquet_column_metadata": {
+      "q": {
+        "units": "m^3/s"
+      },
+      "q_u_lower": {
+        "units": "m^3/s"
+      },
+      "q_u_upper": {
+        "units": "m^3/s"
+      },
+      "lon": {},
+      "lat": {}
+    },
+    "datetime": "2026-05-28T16:26:52.442446Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Ebro_River_Discharge_Ungauged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "ebro - Ebro Cinca 47191 Discharge Multi Mission",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "ebro - Ebro Cinca 47191 Discharge Multi Mission"
+}

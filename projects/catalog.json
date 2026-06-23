@@ -1241,6 +1241,12 @@
     },
     {
       "rel": "child",
+      "href": "./eo4flood/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD"
+    },
+    {
+      "rel": "child",
       "href": "./ocean-soda/collection.json",
       "type": "application/json",
       "title": "Satellite Oceanographic Datasets for Acidification (OceanSODA)"

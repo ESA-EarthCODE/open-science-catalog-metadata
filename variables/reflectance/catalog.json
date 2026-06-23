@@ -28,6 +28,12 @@
       "type": "application/json",
       "title": "S2 L2A uncertainty_Surface reflectance estimates_S2"
     },
+        {
+      "rel": "child",
+      "href": "../../products/eo4flood-sri/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    },
     {
       "rel": "parent",
       "href": "../catalog.json",

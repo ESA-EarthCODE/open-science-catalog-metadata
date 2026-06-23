@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_dane_danube_13613_discharge_multi-mission",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.70181171,
+          44.30993327
+        ],
+        [
+          22.70181171,
+          48.12611081
+        ],
+        [
+          16.85613047,
+          48.12611081
+        ],
+        [
+          16.85613047,
+          44.30993327
+        ],
+        [
+          22.70181171,
+          44.30993327
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    16.85613047,
+    44.30993327,
+    22.70181171,
+    48.12611081
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "nc_attributes": {
+      "dataset": "multi-mission-river-discharge",
+      "name": "danube_danube_13613",
+      "longitude": 16.85613047,
+      "latitude": 48.12611081,
+      "institution": "DGFI-TUM",
+      "creation_date": "2025-12-23T11:35:12.137213",
+      "comment": "plausible",
+      "author": "Daniel Scherer",
+      "units": "discharge in m^3/s",
+      "datetime_format": "ISO8601 string"
+    },
+    "parquet_column_metadata": {
+      "q": {
+        "units": "m^3/s"
+      },
+      "q_u_lower": {
+        "units": "m^3/s"
+      },
+      "q_u_upper": {
+        "units": "m^3/s"
+      },
+      "lon": {},
+      "lat": {}
+    },
+    "datetime": "2026-05-28T16:26:51.947815Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Danube_River_Discharge_Ungauged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "dane - Dane Danube 13613 Discharge Multi Mission",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "dane - Dane Danube 13613 Discharge Multi Mission"
+}
