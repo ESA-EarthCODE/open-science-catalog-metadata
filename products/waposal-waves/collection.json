@@ -94,6 +94,16 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/waposal-waves/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/waposal/access.ipynb",
+      "title": "Tutorial: Access the WAPOSAL datasets",
+      "description": "A Python notebook demonstrating how to access the WAPOSAL datasets.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [

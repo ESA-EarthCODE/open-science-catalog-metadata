@@ -116,6 +116,12 @@
       "href": "./mesoscale-structure/record.json",
       "type": "application/json",
       "title": "Mesoscale Structure Workflow"
+    },
+    {
+      "rel": "item",
+      "href": "./sgl-time-series-reproduction/record.json",
+      "type": "application/json",
+      "title": "Subglacial Lake Time Series Visualization Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

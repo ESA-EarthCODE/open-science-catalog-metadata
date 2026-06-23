@@ -506,6 +506,12 @@
       "href": "../../products/glambie-dataset/collection.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/subglacial-lakes-boundries/collection.json",
+      "type": "application/json",
+      "title": "Subglacial lakes boundaries and elevation time series"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

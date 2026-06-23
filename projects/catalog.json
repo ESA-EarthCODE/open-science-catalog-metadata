@@ -821,12 +821,6 @@
     },
     {
       "rel": "child",
-      "href": "./satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
-      "type": "application/json",
-      "title": "OceanSODA"
-    },
-    {
-      "rel": "child",
       "href": "./seasfire-earth-system-deep-learning-for-seasonal-fire-forecasting-in-europe/collection.json",
       "type": "application/json",
       "title": "SeasFire"
@@ -1256,6 +1250,18 @@
       "href": "./ocean-soda/collection.json",
       "type": "application/json",
       "title": "Satellite Oceanographic Datasets for Acidification (OceanSODA)"
+    },
+    {
+      "rel": "child",
+      "href": "./pathfinders-oceanacidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Support to Science Element - Pathfinders Ocean Acidification"
+    },
+    {
+      "rel": "child",
+      "href": "./ai4ais/collection.json",
+      "type": "application/json",
+      "title": "ARTIFICIAL INTELLIGENCE FOR ICE SHELVES (AI4AIS)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
