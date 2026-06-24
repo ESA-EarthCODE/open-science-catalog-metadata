@@ -941,6 +941,12 @@
     },
     {
       "rel": "child",
+      "href": "./sinxs-sea-ice-thickness/collection.json",
+      "type": "application/json",
+      "title": "SIN'XS sea-ice thickness"
+    },
+    {
+      "rel": "child",
       "href": "./smos-med-sea-surface-salinity-in-the-mediterranean/collection.json",
       "type": "application/json",
       "title": "SMOS+ Mediterranean"
