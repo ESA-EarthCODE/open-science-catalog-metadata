@@ -1,0 +1,48 @@
+{
+  "id": "mitho",
+  "title": "MITHO (Multiple Threats on Ocean Health)",
+  "osc:status": "ongoing",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "MiTHo aims at developing innovative EO-based multistressor cumulative hazard indexes, by exploiting the latest EO-based products achieved within the ESA Ocean Science cluster projects. Combining multi-mission independent EO-based datasets, for the detection of extreme events in warming, ocean pH, winds and river inputs, and O2 data.",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -167.8718285042623,
+          -76.75312789730961,
+          186.21956292169406,
+          84.59361776187768
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1993-01-01T00:00:00Z",
+          "2022-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/17191460",
+      "type": "text/html",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ]
+}
