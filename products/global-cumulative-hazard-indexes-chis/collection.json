@@ -30,7 +30,7 @@
   },
   "links": [
     {
-      "href": "../../themes/oceans/catalog.json",
+      "href": "10.5281/zenodo.17191460",
       "rel": "related",
       "type": "application/json",
       "title": "Theme: Oceans"
