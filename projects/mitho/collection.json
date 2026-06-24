@@ -29,9 +29,9 @@
   },
   "links": [
     {
-      "rel": "related",
-      "href": "10.5281/zenodo.17191460",
-      "type": "application/json",
+      "rel": "via",
+      "href": "https://zenodo.org/records/17191460",
+      "type": "text/html",
       "title": "Theme: Oceans"
     }
   ],
