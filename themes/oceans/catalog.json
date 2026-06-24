@@ -805,6 +805,12 @@
       "href": "../../projects/mitho/collection.json",
       "type": "application/json",
       "title": "MITHO"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
     }
   ],
   "updated": "2024-08-27T17:27:42.202831Z",
