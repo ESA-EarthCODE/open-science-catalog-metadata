@@ -2078,6 +2078,12 @@
       "href": "./ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "./global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
