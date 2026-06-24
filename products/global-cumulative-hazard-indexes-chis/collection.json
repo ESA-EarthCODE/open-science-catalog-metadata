@@ -31,8 +31,8 @@
   "links": [
     {
       "href": "10.5281/zenodo.17191460",
-      "rel": "related",
-      "type": "application/json",
+      "rel": "via",
+      "type": "text/html",
       "title": "Theme: Oceans"
     }
   ],
