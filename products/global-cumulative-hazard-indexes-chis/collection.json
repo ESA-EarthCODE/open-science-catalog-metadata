@@ -4,5 +4,47 @@
   "created": "2026-06-24T09:10:35Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "This dataset provides monthly information on Cumulative Hazard Indexs (CHIs) at the sea surface (3D, lat, lon, time) at global scale. \nEach NetCDF file contains the estimated CHI (lat, lon, time) with the related stressors involved for its computation (lat, lon, time). The reference period used as a baseline for defining the climatology is variable according to the input dataset required to build the CHI.\n\nCHI1 is provided globally at 1°x1° of spatial resolution, covering the period from 1993 to 2022. \nThe monthly-averaged stressors involved in CHI1 are SST and H+ concentration from satellite observation.\n\nCHI2 is provided globally at 1°x1° of spatial resolution from 2004 to 2022. \nThe monthly-averaged stressors involved in CHI2 are SST, O2 and SSS from merged observation (satellite and models).\n\nCHI3 is provided globally at 1°x1° of spatial resolution from 1993 to 2022.\nThe monthly averaged stressors involved in CHI3 are SST, SSD, H+ concentration and Wind from satellite observation. Note that two version of CHI3 are released, CHI3L is made by considering low wind events (< 10th percentile) while CHI3H is made by considering high wind events (> 90th percentile). \n\nCHI4 is provided globally at 1°x1° of spatial resolution from 2012 to 2020.\nThe monthly-averaged stressors involved in CHI4 are SST and Fishing Effort (FE, hours spent on fishing) from satellite (SST) and in situ (FE) observation.",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -177.09955878786792,
+          -81.95768754993095,
+          173.06068610058182,
+          80.08571734113738
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1993-01-01T00:00:00Z",
+          "2022-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "osc:project": "",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ]
 }
