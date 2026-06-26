@@ -64,7 +64,7 @@
       "roles": [
         "data"
       ],
-      "table:columns": [
+      "parquet:columns": [
         {
           "name": "record_id",
           "type": "string",

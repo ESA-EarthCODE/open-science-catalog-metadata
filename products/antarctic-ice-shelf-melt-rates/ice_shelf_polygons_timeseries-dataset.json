@@ -60,7 +60,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/Polar_Ice_Shelves/antarctic-ice-shelf-melt-rates/ice_shelf_polygons_timeseries.parquet",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/basal_melt/ice_shelf_polygons_timeseries.parquet",
       "type": "application/x-parquet",
       "title": "Time series of Antarctic ice shelf polygons",
       "proj:code": "EPSG:3031",
@@ -100,9 +100,44 @@
       },
       "datetime": "1997-10-01T18:00:00Z",
       "license": "cc-by-4.0",
-      "roles": [
-        "data"
+      "parquet:columns": [
+        {
+          "name": "name",
+          "type": "string",
+          "long_name": "Feature Name",
+          "description": "Name of the geographical feature (e.g., ice shelf or glacier).",
+          "unit": null
+        },
+        {
+          "name": "trace_id",
+          "type": "integer",
+          "long_name": "Trace Identifier",
+          "description": "Unique identifier for the specific trace, boundary, or observation record.",
+          "unit": null
+        },
+        {
+          "name": "part_id",
+          "type": "integer",
+          "long_name": "Part Identifier",
+          "description": "Identifier for a specific part or segment of a multi-part feature or fragmented geometry.",
+          "unit": null
+        },
+        {
+          "name": "time",
+          "type": "timestamp",
+          "long_name": "Observation Time",
+          "description": "Timestamp of the specific trace, observation, or boundary delineation.",
+          "unit": null
+        },
+        {
+          "name": "geometry",
+          "type": "string",
+          "long_name": "Geometry",
+          "description": "The geometric boundary of the specific trace or feature part, represented as a WKT (Well-Known Text) Polygon.",
+          "unit": null
+        }
       ]
+      
     }
   },
   "collection": "antarctic-ice-shelf-melt-rates",
