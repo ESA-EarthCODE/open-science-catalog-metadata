@@ -98,13 +98,13 @@
       "rel": "item",
       "href": "./ai4ais-larsen-c-ice-shelf-cube-item.json",
       "type": "application/json",
-      "title": "Zarr Store"
+      "title": "Larsen C Zarr Store"
     },
     {
       "rel": "item",
       "href": "./ai4ais-larsen-c-ice-shelf-cube-pig-item.json",
       "type": "application/json",
-      "title": "Zarr Store"
+      "title": "PIG Zarr Store"
     },
     {
       "rel": "via",

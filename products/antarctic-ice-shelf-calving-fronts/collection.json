@@ -109,9 +109,9 @@
       "bbox": [
         [
           -180.0,
-          -83.0,
+          -90.0,
           180.0,
-          -60.0
+          -57.62119325033221
         ]
       ]
     },
@@ -124,7 +124,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "keywords": [
     "Glaciers/Ice Sheets",
     "Sea Ice",
