@@ -248,6 +248,24 @@
       "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-seasonal-inundation-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
