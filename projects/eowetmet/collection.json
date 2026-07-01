@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "eowetmet",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Wetlands and lakes are the largest natural source of global methane emissions. Their magnitude remains poorly understood due to data availability, a limited understanding of environmental drivers, and accessibility, especially in the Arctic. Through collaboration with academic institutions, research organizations and government agencies, EOWetMet aims to advance and develop new methods and models to improve wetland and lake characterization and methane emission estimation to enhance the understanding of exchange processes in the Arctic.",
   "links": [
     {
@@ -14,6 +14,11 @@
       "rel": "via",
       "href": "https://c-core.ca/projects/eo-driven-insights-for-advancing-arctic-wetland-and-lake-methane-emissions-monitoring-eowetmet/",
       "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eowetmet/",
+      "title": "EO4Society Link"
     },
     {
       "rel": "parent",
@@ -113,7 +118,7 @@
     }
   ],
   "updated": "2026-06-16T00:00:00Z",
-  "title": "EOWetMet",
+  "title": "EOWetMet: EO‐Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring",
   "extent": {
     "spatial": {
       "bbox": [
