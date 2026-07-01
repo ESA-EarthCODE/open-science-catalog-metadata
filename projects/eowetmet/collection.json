@@ -110,99 +110,54 @@
       "name": "C-CORE (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Aurora Research Institute (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Flux Lab (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Government of Northwest Territories (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Harvard University (USA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Memorial University of Newfoundland and Labrador (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "TerraMotion (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Université de Montréal (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     },
     {
       "name": "Wilfrid Laurier University (CA)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": ""
-        }
       ]
     }
   ],
