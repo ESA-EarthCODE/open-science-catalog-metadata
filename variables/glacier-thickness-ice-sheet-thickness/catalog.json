@@ -32,7 +32,7 @@
       "rel": "child",
       "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
       "type": "application/json",
-      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica"
     },
     {
       "rel": "parent",
