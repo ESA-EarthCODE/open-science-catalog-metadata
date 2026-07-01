@@ -1,0 +1,116 @@
+{
+  "type": "Collection",
+  "id": "eowetmet-seasonal-inundation-nwt-sweden",
+  "stac_version": "1.0.0",
+  "description": "The EOWetMet Seasonal Inundation Dataset (2021-2025) provides a seasonal record of surface water and inundation across two 500 km x 500 km Arctic study areas in the Northwest Territories, Canada, and northern Sweden, for the period 2021 to 2025. The dataset forms part of the EOWetMet Community Product Database and was developed to improve the spatial and temporal characterisation of wetlands and lakes at high resolution, in support of bottom-up methane emission modelling and a broad range of Arctic science applications. Inundation estimates were derived using a two-step classification framework applied to Sentinel-1 C-band SAR time series data processed within Google Earth Engine. The final value for each pixel and seasonal window represents the percentage of valid Sentinel-1 acquisitions during which that pixel was classified as inundated, expressed on a scale of 0 to 100. Four seasonal compositing windows are produced per year, yielding 20 seasonal inundation layers per study area. Products are delivered at 10 m spatial resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eowetmet/collection.json",
+      "type": "application/json",
+      "title": "Project: EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/methane/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Methane"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.20707622"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-07-01T13:12:52.766826Z",
+  "updated": "2026-07-01T13:12:52.766826Z",
+  "osc:project": "eowetmet",
+  "osc:status": "completed",
+  "osc:region": "Northwest Territories, Canada; Northern Sweden",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "osc:variables": [
+    "methane"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.20707622",
+  "cf:parameter": [
+    {
+      "name": "methane"
+    }
+  ],
+  "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          45.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "wetlands",
+    "Arctic",
+    "inundation",
+    "surface water",
+    "SAR",
+    "Northwest Territories",
+    "Sweden",
+    "Earth Observation",
+    "remote sensing",
+    "Sentinel-1"
+  ]
+}
