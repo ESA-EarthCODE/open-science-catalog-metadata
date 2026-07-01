@@ -53,6 +53,11 @@
       "title": "Theme: Land"
     },
     {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.20545323",
+      "title": "Access"
+    },
+    {
       "rel": "cite-as",
       "href": "https://doi.org/10.5281/zenodo.20545323"
     }
