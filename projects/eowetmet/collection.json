@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "eowetmet",
   "stac_version": "1.0.0",
-  "description": "EOWetMet aims to advance methods and models for wetland and lake characterization and methane emission estimation in the Arctic, improving understanding of methane exchange processes through Earth Observation and collaboration with research and government partners.",
+  "description": "Wetlands and lakes are the largest natural source of global methane emissions. Their magnitude remains poorly understood due to data availability, a limited understanding of environmental drivers, and accessibility, especially in the Arctic. Through collaboration with academic institutions, research organizations and government agencies, EOWetMet aims to advance and develop new methods and models to improve wetland and lake characterization and methane emission estimation to enhance the understanding of exchange processes in the Arctic.",
   "links": [
     {
       "rel": "root",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "name": "UniversitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© de MontrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©al (CA)",
+      "name": "Université de Montréal (CA)",
       "roles": [
         "consoritum_member"
       ],
