@@ -53,6 +53,12 @@
       "title": "CyclObs SAR-OVW STAC Catalog"
     },
     {
+      "rel": "child",
+      "href": "../../../cyclone_paths_atcf_stac/catalog.json",
+      "type": "application/json",
+      "title": "ATCF Cyclone Paths"
+    },
+    {
       "rel": "via",
       "href": "https://cyclobs.ifremer.fr/app/static/CyclObs_TCVA_product.pdf",
       "title": "Documentation"
