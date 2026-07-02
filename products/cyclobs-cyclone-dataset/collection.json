@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "cyclobs-cyclone-dataset",
+  "stac_version": "1.0.0",
+  "description": "\nLevel-2 CyclObs wind product main variable is the wind speed. A Level-2 CyclObs wind product can\nbe composed of several successive Level-1 SAR acquisitions. Each Level-1 acquisition is processed\ninto a Level-2 wind product. These products are then concatenated into a single Level-2 product. The\nwind can be processed at different resolutions from 1 to 50 km with a 1 km pixel spacing.\nThere are two versions of the product\n• SAR Ocean Surface Wind along track (or swath) Level-2 product based on Radarsat-2, Sentinel1A and Sentinel-1B measurements.\n• SAR Ocean Surface Wind gridded Level-2 product based on Radarsat-2, Sentinel-1A and Sentinel1B measurements\nThe TCVA processing chain relies on both the along-track and gridded Level-2 product at 3 km\nresolution\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/cyclobs-cyms-sentinel-1/collection.json",
+      "type": "application/json",
+      "title": "Project: CyclObs / CYMS (Cyclone Monitoring Service with Sentinel-1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-wind-speed-and-direction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Wind Speed And Direction"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/cyclones/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Cyclones"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+
+    {
+      "rel": "child",
+      "href": "../../../cyms_stac/catalog.json",
+      "type": "application/json",
+      "title": "CyclObs SAR-OVW STAC Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://cyclobs.ifremer.fr/app/static/CyclObs_TCVA_product.pdf",
+      "title": "Documentation"
+    },
+    {
+      "rel": "via",
+      "href": "../../../cyms_stac/catalog.json",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-07-02T10:13:37.809054Z",
+  "updated": "2026-07-02T10:13:37.809054Z",
+  "osc:project": "cyclobs-cyms-sentinel-1",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "osc:variables": [
+    "surface-wind-speed-and-direction",
+    "cyclones"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "wind_direction"
+    },
+    {
+      "name": "wind_speed"
+    }
+  ],
+  "title": "CyclObs",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Wind Speed",
+    "Wind Direction",
+    "Storm Diagnostics",
+    "Cyclone Wind Fields"
+  ]
+}
