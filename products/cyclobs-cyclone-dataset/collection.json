@@ -46,6 +46,7 @@
       "type": "application/json",
       "title": "Theme: Oceans"
     },
+
     {
       "rel": "child",
       "href": "../../../cyms_stac/catalog.json",
@@ -67,12 +68,6 @@
       "rel": "via",
       "href": "../../../cyms_stac/catalog.json",
       "title": "Access"
-    },
-    {
-      "rel": "item",
-      "href": "./cyclone-paths-atcf.json",
-      "type": "application/json",
-      "title": "ATCF cyclone paths Parquet"
     }
   ],
   "stac_extensions": [
