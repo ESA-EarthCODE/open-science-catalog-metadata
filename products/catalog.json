@@ -2084,6 +2084,48 @@
       "href": "./ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-seasonal-inundation-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-regional-30m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Regional High-Resolution 30 m Wetland Methane Flux Dataset (2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-pan-arctic-daily-9km-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-pan-arctic-average-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Average Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

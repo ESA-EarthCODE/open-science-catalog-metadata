@@ -5,6 +5,11 @@
   "description": "ALOS-2 features an imaging microwave radar, PALSAR-2 (Phased Array type L-band Synthetic Aperture Radar-2); and a multi-purpose imaging vis/IR (visual/infrared) radiometer, CIRC (Compact InfraRed Camera). PALSAR-2 monitors Japanese natural disasters, land and agriculture, and also explores natural resources in the ground and seabeds of Japan. The instrument also monitors forests to contribute to global warming issues on an international scale. CIRC measures land surface temperature, and therefore also acts as a detector of active fires.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/alos-2/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -23,9 +28,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/alos-2/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
     }
   ],
   "updated": "2024-08-27T17:27:42.171831Z",

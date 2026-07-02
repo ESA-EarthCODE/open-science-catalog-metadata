@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "eowetmet-pan-arctic-daily-9km-wetland-methane-flux",
+  "stac_version": "1.0.0",
+  "description": "The EOWetMet Pan-Arctic Daily 9 km Wetland Methane Flux Dataset provides daily methane flux estimates across northern and Arctic wetlands from 2015 to 2024. The dataset forms part of the EOWetMet Community Database and was developed through the integration of eddy covariance (EC) methane flux observations, Earth Observation datasets, and environmental reanalysis products within a machine-learning-based methane upscaling framework.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eowetmet/collection.json",
+      "type": "application/json",
+      "title": "Project: EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/methane/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Methane"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.20545657",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.20545657"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-07-01T13:14:21.517808Z",
+  "updated": "2026-07-01T13:14:21.517808Z",
+  "osc:project": "eowetmet",
+  "osc:status": "completed",
+  "osc:region": "Pan-Arctic",
+  "osc:type": "product",
+  "osc:missions": [
+    "in-situ-observations"
+  ],
+  "osc:variables": [
+    "methane"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.20545657",
+  "cf:parameter": [
+    {
+      "name": "methane"
+    }
+  ],
+  "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          45.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "wetlands",
+    "Arctic",
+    "methane",
+    "methane flux",
+    "Pan-Arctic",
+    "Earth Observation",
+    "greenhouse gases",
+    "remote sensing"
+  ]
+}
