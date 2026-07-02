@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "cyclone-paths-atcf",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.99166666666667,
+          -41.9
+        ],
+        [
+          179.99166666666667,
+          64.0
+        ],
+        [
+          -180.0,
+          64.0
+        ],
+        [
+          -180.0,
+          -41.9
+        ],
+        [
+          179.99166666666667,
+          -41.9
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -41.9,
+    179.99166666666667,
+    64.0
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "ATCF cyclone best-track point data used by the CyclObs cyclone dataset, including storm identifiers, timestamps, positions, and wind speeds.",
+    "datetime": "2013-06-26T18:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "CyclObs"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "CyclObs"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "../../../cyclone_paths_atcf.parquet",
+      "type": "application/x-parquet",
+      "title": "ATCF cyclone paths Parquet",
+      "proj:code": "EPSG:4326",
+      "proj:bbox": [
+        -180.0,
+        -41.9,
+        179.99166666666667,
+        64.0
+      ],
+      "parquet:columns": [
+        {
+          "name": "sid",
+          "type": "string",
+          "description": "ATCF storm identifier.",
+          "unit": null
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "Storm name.",
+          "unit": null
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "description": "Observation timestamp.",
+          "unit": "UTC"
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "description": "Track data source.",
+          "unit": null
+        },
+        {
+          "name": "wind_speed (m/s)",
+          "type": "int64",
+          "description": "Storm wind speed.",
+          "unit": "m s-1"
+        },
+        {
+          "name": "file",
+          "type": "string",
+          "description": "Source ATCF file name.",
+          "unit": null
+        },
+        {
+          "name": "lon",
+          "type": "double",
+          "description": "Longitude of the storm track point.",
+          "unit": "degree_east"
+        },
+        {
+          "name": "lat",
+          "type": "double",
+          "description": "Latitude of the storm track point.",
+          "unit": "degree_north"
+        },
+        {
+          "name": "geometry",
+          "type": "geometry",
+          "description": "Point geometry encoded as WKB.",
+          "unit": null
+        },
+        {
+          "name": "bbox",
+          "type": "struct",
+          "description": "Point-level bounding box with xmin, ymin, xmax, and ymax values.",
+          "unit": "degrees"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "cyclobs-cyclone-dataset"
+}
