@@ -9,32 +9,8 @@
   ],
   "title": "FORTRACK",
   "description": "FORTRACK is an ESA Climate Change Initiative project supporting Paris Agreement-related climate and biodiversity monitoring. It focuses on forest functional biodiversity, plant functional traits, climate extremes, and forest mortality using Earth observation and ecological datasets.",
-  "license": "proprietary",
+  "license": "CC-BY-4.0",
   "contacts": [
-    {
-        "name": "Prof. Dr. Teja Kattenborn",
-        "roles": [
-        "creator"
-        ]
-    },
-    {
-        "name": "Prof. Dr. Miguel Mahecha",
-        "roles": [
-        "creator"
-        ]
-    },
-    {
-        "name": "Prof. Dr. René Orth",
-        "roles": [
-        "contributor"
-        ]
-    },
-    {
-        "name": "Prof. Dr. Ana Bastos",
-        "roles": [
-        "contributor"
-        ]
-    },
     {
         "name": "Dr Sophie Hebden",
         "emails": [
@@ -45,7 +21,6 @@
         "roles": [
         "technical_officer"
         ]
-        
     },
     {
         "name": "University of Freiburg",
@@ -127,13 +102,19 @@
     {
       "rel": "via",
       "href": "https://climate.esa.int/en/supporting-the-paris-agreement/FORTRACK/",
-      "title": "FORTRACK project page (ESA Climate Office)"
+      "title": "Website"
     },
     {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-plant-trait-maps/collection.json",
+      "type": "application/json",
+      "title": "Global Plant Functional Trait Maps at 1 km Resolution"
     }
   ]
 }
