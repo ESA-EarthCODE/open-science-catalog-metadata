@@ -109,7 +109,7 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
-    }
+    },
     {
       "rel": "child",
       "href": "../../products/global-plant-trait-maps/collection.json",
