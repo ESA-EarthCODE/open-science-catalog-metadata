@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_10555_water_level_altimetry",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.0929,
+          16.8479
+        ],
+        [
+          -2.0929,
+          16.8479
+        ],
+        [
+          -2.0929,
+          16.8479
+        ],
+        [
+          -2.0929,
+          16.8479
+        ],
+        [
+          -2.0929,
+          16.8479
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -2.0929,
+    16.8479,
+    -2.0929,
+    16.8479
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-04-21T10:18:42Z",
+    "end_datetime": "2025-11-03T10:19:13Z",
+    "datetime": "2016-04-21T10:18:42Z",
+    "nc_attributes": {
+      "dahiti_id": "10555",
+      "dataset": "water-level-altimetry",
+      "target_name": "Niger, River",
+      "location": "None",
+      "country": "Mali",
+      "continent": "Africa",
+      "longitude": -2.0929,
+      "latitude": 16.8479,
+      "geoid": 28.8678,
+      "software": "8.0",
+      "institution": "DGFI-TUM",
+      "source": "DAHITI",
+      "url": "https://dahiti.dgfi.tum.de/10555/",
+      "creation_date": "2025-11-14 12:08:19"
+    },
+    "parquet_column_metadata": {
+      "datetime": {
+        "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+        "valid_min": "2016-04-21 10:18:42",
+        "valid_max": "2025-11-03 10:19:13"
+      },
+      "wse": {
+        "standard_name": "Water level derived from satellite altimetry",
+        "unit": "m",
+        "valid_min": 253.888,
+        "valid_max": 259.692
+      },
+      "wse_u": {
+        "standard_name": "Water level uncertainty",
+        "unit": "m",
+        "valid_min": 0.0,
+        "valid_max": 0.229
+      },
+      "mission": {
+        "standard_name": "Mission name"
+      },
+      "phase": {
+        "standard_name": "Mission phase"
+      },
+      "timeliness": {
+        "standard_name": "Timeliness of dataset"
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Niger_water_level_at_VS.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Niger - Water Level Altimetry - DAHITI 10555 - Niger, River - 2016-04-21 to 2025-11-03",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level",
+  "title": "Niger - Water Level Altimetry - DAHITI 10555 - Niger, River - 2016-04-21 to 2025-11-03"
+}

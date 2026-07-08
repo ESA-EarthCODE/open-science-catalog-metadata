@@ -1,0 +1,341 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-sm",
+  "stac_version": "1.0.0",
+  "description": "Satellite-derived soil moisture product in the project specific basins.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/zarr/access.ipynb",
+      "title": "Tutorial: Access the data",
+      "description": "A Python notebook demonstrating how to access the data from this collection.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_tore.json",
+      "type": "application/json",
+      "title": "Torne - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_po__.json",
+      "type": "application/json",
+      "title": "Po - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_nego.json",
+      "type": "application/json",
+      "title": "Negro - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_cono.json",
+      "type": "application/json",
+      "title": "Congo - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_dane.json",
+      "type": "application/json",
+      "title": "Danube - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMOS_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Soil Moisture SMOS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_nego.json",
+      "type": "application/json",
+      "title": "Negro - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_po__.json",
+      "type": "application/json",
+      "title": "Po - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_tore.json",
+      "type": "application/json",
+      "title": "Torne - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_cono.json",
+      "type": "application/json",
+      "title": "Congo - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_dane.json",
+      "type": "application/json",
+      "title": "Danube - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_SMAP_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Soil Moisture SMAP"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_nego.json",
+      "type": "application/json",
+      "title": "Negro - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_po__.json",
+      "type": "application/json",
+      "title": "Po - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_tore.json",
+      "type": "application/json",
+      "title": "Torne - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_cono.json",
+      "type": "application/json",
+      "title": "Congo - Soil Moisture ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_soil_moisture_ASCAT_dane.json",
+      "type": "application/json",
+      "title": "Danube - Soil Moisture ASCAT"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-07T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "soil-moisture"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "soil-moisture"
+  ],
+  "osc:missions": [
+    "smos",
+    "smap",
+    "ascat"
+  ],
+  "updated": "2026-04-02T15:16:06.215108Z",
+  "title": "EO4FLOOD Soil Moisture Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-70.03, -10, 96.95, 68.37],
+        [
+          96.95,
+          24.73,
+          88.18,
+          30.05
+        ],
+        [
+          34,
+          -10,
+          12,
+          10
+        ],
+        [
+          29.76,
+          45.22,
+          8.16,
+          48.1
+        ],
+        [
+          0.86,
+          40.72,
+          -4.4,
+          43.04
+        ],
+        [
+          -59.91,
+          -3.13,
+          -70.03,
+          1.95
+        ],
+        [
+          6.47,
+          5.32,
+          -10.68,
+          9.1
+        ],
+        [
+          12.43,
+          44.7,
+          7.09,
+          44.95
+        ],
+        [
+          9.41,
+          46.63,
+          4.08,
+          51.98
+        ],
+        [
+          24.15,
+          65.83,
+          19.1,
+          68.37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "soil-moisture"
+  ]
+}

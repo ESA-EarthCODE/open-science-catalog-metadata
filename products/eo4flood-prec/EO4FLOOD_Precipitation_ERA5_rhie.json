@@ -1,0 +1,292 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4FLOOD_Precipitation_ERA5_rhie",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.0,
+          45.900001525878906
+        ],
+        [
+          12.0,
+          52.5
+        ],
+        [
+          4.0,
+          52.5
+        ],
+        [
+          4.0,
+          45.900001525878906
+        ],
+        [
+          12.0,
+          45.900001525878906
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.0,
+    45.900001525878906,
+    12.0,
+    52.5
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "ESA EO4FLOOD project Precipitation input",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2024-12-31T23:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z",
+    "title": "Rhine - Precipitation ERA5",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Precipitation_zarr/EO4FLOOD_Precipitation_ERA5_rhie.zarr",
+    "zarr:attributes": {
+      "title": "Rhine - Precipitation ERA5",
+      "product": "ERA5-Land",
+      "basin": "rhine",
+      "creation_time": "06-Feb-2026 21:55:10",
+      "institution": "National Research Council  - Research Institute for Geo-hydrological Protection (CNR-IRPI)",
+      "creator_institution_e-mail": "luca.ciabatta@cnr.it",
+      "references": "Tarpanelli et al., 2025. The Potential of EO Data for Enhanced Flood Forecasting: A Consortium Assessment",
+      "temporal_interval": "Jan-01-2016 to Dec-31-2024 23:00",
+      "version": "Version 1.1",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.17787732",
+      "Acknowledgements": "European Space Agency EO4FLOOD project Contract N° 4000145540/24/I-EB"
+    },
+    "zarr:arrays": {
+      "Precipitation": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "shape": [
+          78912,
+          67,
+          81
+        ],
+        "chunks": [
+          19591,
+          16,
+          20
+        ],
+        "attrs": {
+          "standard_name": "rainfall_amount",
+          "long_name": "ERA5-Land precipitation estimates in mm/hour",
+          "units": "mm",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "latitude",
+            "longitude"
+          ]
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "latitude"
+        ],
+        "shape": [
+          67
+        ],
+        "chunks": [
+          67
+        ],
+        "attrs": {
+          "long_name": "latitude",
+          "standard_name": "latitude",
+          "axis": "Y",
+          "units": "degrees_north",
+          "_ARRAY_DIMENSIONS": [
+            "latitude"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "longitude"
+        ],
+        "shape": [
+          81
+        ],
+        "chunks": [
+          81
+        ],
+        "attrs": {
+          "long_name": "longitude",
+          "standard_name": "longitude",
+          "axis": "X",
+          "units": "degrees_east",
+          "_ARRAY_DIMENSIONS": [
+            "longitude"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i8",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          78912
+        ],
+        "chunks": [
+          78912
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "axit": "T",
+          "units": "hours since 2016-01-01 00:00:00",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:00:00Z"
+        ],
+        "description": "time",
+        "step": "P0DT1H0M0S",
+        "type": "temporal",
+        "size": 78912
+      },
+      "longitude": {
+        "axis": "x",
+        "extent": [
+          4.0,
+          12.0
+        ],
+        "description": "longitude",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 81
+      },
+      "latitude": {
+        "axis": "y",
+        "extent": [
+          45.900001525878906,
+          52.5
+        ],
+        "description": "latitude",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 67
+      }
+    },
+    "cube:variables": {
+      "Precipitation": {
+        "type": "data",
+        "description": "ERA5-Land precipitation estimates in mm/hour",
+        "dimensions": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "unit": "mm",
+        "attrs": {
+          "standard_name": "rainfall_amount",
+          "long_name": "ERA5-Land precipitation estimates in mm/hour",
+          "units": "mm"
+        },
+        "shape": [
+          78912,
+          67,
+          81
+        ],
+        "chunks": [
+          19591,
+          16,
+          20
+        ]
+      }
+    },
+    "created": "2026-02-06T21:55:10Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Precipitation_zarr/EO4FLOOD_Precipitation_ERA5_rhie.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Rhine - Precipitation ERA5",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-prec",
+  "title": "Rhine - Precipitation ERA5"
+}
