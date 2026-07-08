@@ -17,6 +17,9 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest]
     steps:
+      - name: Enable Git long paths (Windows only)
+        if: runner.os == 'Windows'
+        run: git config --global core.longpaths true
       - uses: actions/setup-node@v4
         with:
           node-version: '22.1.x'
