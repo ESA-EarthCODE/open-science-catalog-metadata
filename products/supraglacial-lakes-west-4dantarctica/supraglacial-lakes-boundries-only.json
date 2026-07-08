@@ -1,0 +1,227 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "supraglacial-lakes-boundries-only",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [146.0, -78.0], [146.0, -61.0], [-144.0, -61.0], [-144.0, -78.0], [146.0, -78.0]
+      ]
+    ]
+  },
+  "bbox": [
+          -144.0,
+          -78.0,
+          146.0,
+          -61.0
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/supraglacial_lakes/WAIS_Jan_2017_Polygons.parquet",
+      "type": "application/x-parquet",
+      "parquet:columns": [
+        {
+          "name": "POLY_AREA",
+          "type": "float",
+          "long_name": "Polygon area",
+          "description": "Area of the supraglacial lake polygon as provided in the source vector dataset. This may duplicate or closely correspond to Shape_Area or Area, depending on the source processing workflow.",
+          "unit": "m2"
+        },
+        {
+          "name": "CENTROID_X",
+          "type": "float",
+          "long_name": "Lake centroid longitude",
+          "description": "X coordinate of the supraglacial lake polygon centroid. For Antarctic geographic datasets this is typically longitude in decimal degrees, unless the source layer uses a projected coordinate reference system.",
+          "unit": "degree"
+        },
+        {
+          "name": "CENTROID_Y",
+          "type": "float",
+          "long_name": "Lake centroid latitude",
+          "description": "Y coordinate of the supraglacial lake polygon centroid. For Antarctic geographic datasets this is typically latitude in decimal degrees, unless the source layer uses a projected coordinate reference system.",
+          "unit": "degree"
+        },
+        {
+          "name": "Area",
+          "type": "float",
+          "long_name": "Supraglacial lake area",
+          "description": "Surface area of the mapped supraglacial lake feature. Used to describe lake size and to support derived metrics such as volume estimates and area-perimeter ratios.",
+          "unit": "m2"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "float",
+          "long_name": "Lake polygon perimeter",
+          "description": "Perimeter or boundary length of the supraglacial lake polygon geometry.",
+          "unit": "m"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "float",
+          "long_name": "Lake polygon shape area",
+          "description": "Area of the lake polygon geometry calculated by the source GIS software. This may duplicate or closely correspond to POLY_AREA or Area.",
+          "unit": "m2"
+        },
+        {
+          "name": "Bedrock",
+          "type": "float",
+          "long_name": "Distance to exposed bedrock",
+          "description": "Distance from the supraglacial lake feature to the nearest mapped exposed bedrock or rock outcrop, where available.",
+          "unit": "m"
+        },
+        {
+          "name": "Coast",
+          "type": "float",
+          "long_name": "Distance to coast",
+          "description": "Distance from the supraglacial lake feature to the Antarctic coastline or ice-shelf front used in the source analysis.",
+          "unit": "m"
+        },
+        {
+          "name": "GL_ON_IS",
+          "type": "boolean",
+          "long_name": "Grounding-line-on-ice-shelf flag",
+          "description": "Flag indicating whether the supraglacial lake is located on an ice shelf or in a grounding-line-related ice-shelf setting, according to the source classification.",
+          "unit": null
+        },
+        {
+          "name": "Location",
+          "type": "string",
+          "long_name": "Lake location class",
+          "description": "Textual location category or regional setting assigned to the supraglacial lake, such as ice sheet, ice shelf, grounding-zone, coastal, or named regional grouping, depending on the source classification.",
+          "unit": null
+        },
+        {
+          "name": "GL",
+          "type": "float",
+          "long_name": "Distance to grounding line",
+          "description": "Distance from the supraglacial lake feature to the Antarctic grounding line used in the source analysis.",
+          "unit": "m"
+        },
+        {
+          "name": "Volume",
+          "type": "float",
+          "long_name": "Estimated lake volume",
+          "description": "Estimated water volume of the supraglacial lake feature, typically derived from mapped lake area and an empirical or remotely sensed depth relationship.",
+          "unit": "m3"
+        },
+        {
+          "name": "A_P_Ratio",
+          "type": "float",
+          "long_name": "Area-perimeter ratio",
+          "description": "Ratio of lake polygon area to perimeter, used as a compactness or shape metric for the mapped supraglacial lake.",
+          "unit": "m"
+        },
+        {
+          "name": "REMA_Max",
+          "type": "float",
+          "long_name": "Maximum REMA elevation",
+          "description": "Maximum surface elevation from the Reference Elevation Model of Antarctica within or associated with the supraglacial lake polygon.",
+          "unit": "m"
+        },
+        {
+          "name": "REMA_Min",
+          "type": "float",
+          "long_name": "Minimum REMA elevation",
+          "description": "Minimum surface elevation from the Reference Elevation Model of Antarctica within or associated with the supraglacial lake polygon.",
+          "unit": "m"
+        },
+        {
+          "name": "PolsbyPopp",
+          "type": "float",
+          "long_name": "Polsby-Popper compactness",
+          "description": "Shape compactness metric for the lake polygon based on the ratio of polygon area to the area of a circle with the same perimeter. Values closer to 1 indicate a more compact, circular shape.",
+          "unit": "1"
+        },
+        {
+          "name": "Fractal",
+          "type": "float",
+          "long_name": "Fractal dimension shape index",
+          "description": "Shape-complexity metric describing the irregularity of the supraglacial lake polygon boundary. Higher values generally indicate a more complex or convoluted outline.",
+          "unit": "1"
+        },
+        {
+          "name": "Reock",
+          "type": "float",
+          "long_name": "Reock compactness",
+          "description": "Shape compactness metric comparing the polygon area with the area of its minimum bounding circle. Values closer to 1 indicate a more compact shape.",
+          "unit": "1"
+        },
+        {
+          "name": "Schwartzbe",
+          "type": "float",
+          "long_name": "Schwartzberg compactness",
+          "description": "Shape compactness metric comparing the polygon perimeter with the circumference of a circle of equal area. Values closer to 1 generally indicate a more compact, circular polygon.",
+          "unit": "1"
+        },
+        {
+          "name": "LW_Ratio",
+          "type": "float",
+          "long_name": "Length-width ratio",
+          "description": "Ratio of lake length to lake width, used to describe elongation of the supraglacial lake polygon.",
+          "unit": "1"
+        },
+        {
+          "name": "Feature_Cl",
+          "type": "string",
+          "long_name": "Feature class",
+          "description": "Classification assigned to the mapped feature in the source dataset. For this asset, features represent supraglacial lakes, but this field may preserve source-level feature class labels or quality classes.",
+          "unit": null
+        },
+        {
+          "name": "Elevation",
+          "type": "float",
+          "long_name": "Lake surface elevation",
+          "description": "Representative surface elevation associated with the supraglacial lake feature, likely derived from REMA or another Antarctic digital elevation model.",
+          "unit": "m"
+        },
+        {
+          "name": "Slope",
+          "type": "float",
+          "long_name": "Surface slope",
+          "description": "Representative ice-surface slope associated with the supraglacial lake feature.",
+          "unit": "degree"
+        },
+        {
+          "name": "Speed",
+          "type": "float",
+          "long_name": "Ice surface velocity",
+          "description": "Representative ice-flow speed at or near the supraglacial lake feature, derived from an Antarctic ice-velocity product used in the source analysis.",
+          "unit": "m yr-1"
+        },
+        {
+          "name": "geometry",
+          "type": "geometry",
+          "long_name": "Supraglacial lake polygon geometry",
+          "description": "Polygon geometry representing the mapped supraglacial lake surface extent. Stored as the GeoParquet geometry column.",
+          "unit": null
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "supraglacial-lakes-west-4dantarctica",
+  "title": "Subglacial lakes boundaries data"
+}

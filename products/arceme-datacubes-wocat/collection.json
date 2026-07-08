@@ -1,0 +1,271 @@
+{
+  "type": "Collection",
+  "id": "arceme-datacubes-wocat",
+  "stac_version": "1.0.0",
+  "description": "Multi-sensor Earth observation data cubes for the analysis of extreme weather events from the ARCEME-DHP (Drought interrupted by Heavy Precipitation) database (see related resources) around WOCAT (World Overview of Conservation Approaches and Technologies) sites in countries member of the European Environment Agency, generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the WOCAT technology location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). The temporal window spans ±12 months around the heavy precipitation event date. Cloud masking is applied using SEnSeIv2/SegFormerB2. \nThe cubes are named \"DC__wocat_id_dhp_id__start__end.zarr\": the identifiers \"wocat_id\" refer to the WOCAT database (https://wocat.net/en/database/list/?type=technology). The identifiers \"dhp_id\" refer to the DHP events labels in ARCEME-DHP.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "Product: ARCEME-DHP"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arceme/collection.json",
+      "type": "application/json",
+      "title": "Project: CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/digital-elevation-terrain-model-dem/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Digital Elevation/Terrain Model (DEM)"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/arceme/access_arceme.ipynb",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1007-dhp-28028.json",
+      "type": "application/json",
+      "title": "DC__wocat_1007_dhp_28028__2017-10-27__2019-10-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1015-dhp-55953.json",
+      "type": "application/json",
+      "title": "DC__wocat_1015_dhp_55953__2020-05-31__2022-05-31.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1018-dhp-75567.json",
+      "type": "application/json",
+      "title": "DC__wocat_1018_dhp_75567__2021-08-18__2023-08-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1136-dhp-32935.json",
+      "type": "application/json",
+      "title": "DC__wocat_1136_dhp_32935__2018-07-27__2020-07-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1225-dhp-79923.json",
+      "type": "application/json",
+      "title": "DC__wocat_1225_dhp_79923__2021-11-04__2023-11-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1248-dhp-76972.json",
+      "type": "application/json",
+      "title": "DC__wocat_1248_dhp_76972__2021-09-08__2023-09-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1261-dhp-82683.json",
+      "type": "application/json",
+      "title": "DC__wocat_1261_dhp_82683__2022-01-20__2024-01-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1286-dhp-90224.json",
+      "type": "application/json",
+      "title": "DC__wocat_1286_dhp_90224__2022-07-02__2024-07-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1582-dhp-77027.json",
+      "type": "application/json",
+      "title": "DC__wocat_1582_dhp_77027__2021-09-08__2023-09-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-1586-dhp-29780.json",
+      "type": "application/json",
+      "title": "DC__wocat_1586_dhp_29780__2018-03-31__2020-03-31.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-2690-dhp-86806.json",
+      "type": "application/json",
+      "title": "DC__wocat_2690_dhp_86806__2022-05-12__2024-05-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-2950-dhp-100770.json",
+      "type": "application/json",
+      "title": "DC__wocat_2950_dhp_100770__2022-11-04__2024-11-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-3164-dhp-75505.json",
+      "type": "application/json",
+      "title": "DC__wocat_3164_dhp_75505__2021-08-14__2023-08-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-4126-dhp-75508.json",
+      "type": "application/json",
+      "title": "DC__wocat_4126_dhp_75508__2021-08-13__2023-08-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-5681-dhp-34896.json",
+      "type": "application/json",
+      "title": "DC__wocat_5681_dhp_34896__2018-09-23__2020-09-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-5925-dhp-75678.json",
+      "type": "application/json",
+      "title": "DC__wocat_5925_dhp_75678__2021-08-16__2023-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-5933-dhp-68907.json",
+      "type": "application/json",
+      "title": "DC__wocat_5933_dhp_68907__2021-03-31__2023-03-31.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-6250-dhp-26585.json",
+      "type": "application/json",
+      "title": "DC__wocat_6250_dhp_26585__2017-08-24__2019-08-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-6820-dhp-76886.json",
+      "type": "application/json",
+      "title": "DC__wocat_6820_dhp_76886__2021-09-05__2023-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-966-dhp-41959.json",
+      "type": "application/json",
+      "title": "DC__wocat_966_dhp_41959__2019-06-05__2021-06-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-wocat-wocat-995-dhp-83259.json",
+      "type": "application/json",
+      "title": "DC__wocat_995_dhp_83259__2022-02-05__2024-02-05.zarr"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-05-18T10:44:46.601368Z",
+  "updated": "2026-05-18T10:44:46.601368Z",
+  "osc:project": "arceme",
+  "osc:status": "completed",
+  "osc:region": "Europe",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "surface-reflectance",
+    "land-cover",
+    "digital-elevation-terrain-model-dem"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "title": "ARCEME Data Cubes – WOCAT/DHP European Sites",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20.502846611896075,
+          37.56470410341124,
+          33.50018063443982,
+          63.87764807415107
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-08-24T00:00:00Z",
+          "2024-11-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "earth observation",
+    "data cube",
+    "zarr",
+    "Sentinel-2",
+    "Sentinel-1"
+  ]
+}

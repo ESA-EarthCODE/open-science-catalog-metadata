@@ -242,6 +242,48 @@
       "href": "../../products/e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemchimeds3v1/collection.json",
+      "type": "application/json",
+      "title": "AGRICEM Simulated CHIME L2A data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-regional-30m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Regional High-Resolution 30 m Wetland Methane Flux Dataset (2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

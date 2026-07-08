@@ -1,0 +1,103 @@
+{
+  "type": "Collection",
+  "id": "pathfinders-oceanacidification",
+  "stac_version": "1.0.0",
+  "description": "The Pathfinders Ocean Acidification project was a 18 month project, leaded by Dr Jamie Shutler (PML) and funded by the European Space Agency. The objective is to quantify parameters required for Ocean Acidification (OA) research. The work is to develop and validate new and innovative products combining field data, satellite observation, and models. This work is linked and communicated to the Global Ocean Acidification Observing Network (GOA-ON), international Surface Ocean and Lower Atmosphere Study (SOLAS) community and IMBER (both with the International Geosphere-Biosphere Programme IGBP), the World Climate Research Programme (WCRP) and International Ocean Carbon Coordination Project (IOCCP). This project aims to exploit Earth Observation data to quantify parameters required for OA research. It will implement algorithms in four geographical regions: global, Arctic seas, Bay of Bengal, Caribbean, The goal is to find which algorithms perform best in each region and validate the algorithms using in situ data and model output. The result will be a set of regional algorithms and monthly datasets of Earth Observation derived pH and aragonite saturation state (Ωar).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.pathfinders-oceanacidification.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceanic-total-alkalinity-and-dissolved-inorganic-carbon-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "Results and analysis of oceanic total alkalinity and dissolved inorganic carbon estimated from space borne, interpolated in situ, climatological and Earth system model data."
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-06-09T10:39:49.462093Z",
+  "updated": "2026-06-09T10:39:49.462093Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Diego Fernandez Prieto",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "diego.fernandez@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "IFREMER (FR)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "PML, PLYMOUTH MARINE LABORATORY (GB)",
+      "roles": [
+        "consoritum_member"
+      ]
+    }
+  ],
+  "title": "ESA Support to Science Element - Pathfinders Ocean Acidification",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-07-01T00:00:00Z",
+          "2017-01-08T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

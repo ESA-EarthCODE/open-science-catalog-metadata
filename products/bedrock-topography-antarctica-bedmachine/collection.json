@@ -63,9 +63,20 @@
       "title": "EO Mission: Numerical models"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/bedrock-topography-antarctica-bedmachine/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./bedrock-topography-antarctica-bedmachine-item.json",
+      "type": "application/json",
+      "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/bedrock_topography/access.ipynb",
+      "title": "Tutorial: Access the Data",
+      "description": "A Python notebook demonstrating how to access the data on the cloud storage.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
@@ -103,7 +114,7 @@
     "numerical-models"
   ],
   "updated": "2024-09-12T20:32:06.210108Z",
-  "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3",
+  "title": "Bedrock topography: MEaSUREs BedMachine Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -111,7 +122,7 @@
           -180.0,
           -90.0,
           180.0,
-          -53.0
+          -56.7587107166777
         ]
       ]
     },
@@ -124,7 +135,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "various",
   "keywords": [
     "Ice Depth/Thickness",
     "Cryospheric Indicators",

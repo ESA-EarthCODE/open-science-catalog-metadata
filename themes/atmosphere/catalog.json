@@ -313,6 +313,30 @@
       "href": "../../products/earthcare-frame-lightning/collection.json",
       "type": "application/json",
       "title": "Lightning2EarthCARE"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",

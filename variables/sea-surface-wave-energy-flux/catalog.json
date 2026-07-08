@@ -1,0 +1,59 @@
+{
+  "type": "Catalog",
+  "id": "sea-surface-wave-energy-flux",
+  "stac_version": "1.0.0",
+  "description": "Wave energy flux, or wave power, is the average rate of transfer of wave energy through a vertical plane of unit width perpendicular to the direction of wave propagation. It should be understood as omnidirectional, or as the sum of all wave power components regardless of direction. In deep water conditions, the wave energy flux can be obtained with the water density, the wave significant height and the energy period.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+        "rel": "child",
+        "href": "../../products/waposal-waves/collection.json",
+        "type": "application/json",
+        "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/wave-period/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-08-27T17:27:42.253832Z",
+  "keywords": [],
+  "title": "Wave Power"
+}

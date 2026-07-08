@@ -522,7 +522,7 @@
       "rel": "child",
       "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
       "type": "application/json",
-      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica"
     },
     {
       "rel": "child",
@@ -534,7 +534,7 @@
       "rel": "child",
       "href": "../../products/ice-sheet-velocity-antarctic-2021/collection.json",
       "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+      "title": "Antarctic Ice Sheet monthly ice velocity"
     },
     {
       "rel": "child",
@@ -597,9 +597,16 @@
       "title": "Themes"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/subglacial-lakes-boundries/collection.json",
+      "type": "application/json",
+      "title": "Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
     }
   ],
   "updated": "2024-08-27T17:27:42.199831Z",

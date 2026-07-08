@@ -33,6 +33,12 @@
       "title": "High-resolution mapping of wave energy resources in the Mediterranean Sea using satellite altimetry"
     },
     {
+      "href": "https://doi.org/10.1016/j.ecmx.2026.101971",
+      "rel": "Related publication",
+      "title": "Wave energy assessment using SWIM radar and high-resolution altimeter data"
+    },
+    
+    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
@@ -63,6 +69,12 @@
       "title": "Variable: Wave Height"
     },
     {
+      "rel": "related",
+      "href": "../../variables/sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Power"
+    },
+    {
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/waposal/collection.json",
       "type": "application/json",
@@ -82,6 +94,16 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/waposal-waves/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/waposal/access.ipynb",
+      "title": "Tutorial: Access the WAPOSAL datasets",
+      "description": "A Python notebook demonstrating how to access the WAPOSAL datasets.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
@@ -102,6 +124,9 @@
     },
     {
       "name": "wave-height"
+    },
+    {
+      "name": "sea-surface-wave-energy-flux"
     }
   ],
   "themes": [
@@ -120,7 +145,8 @@
   ],
   "osc:variables": [
     "wave-period",
-    "wave-height"
+    "wave-height",
+    "sea-surface-wave-energy-flux"
   ],
   "title": "High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker",
   "extent": {

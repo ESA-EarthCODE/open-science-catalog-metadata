@@ -59,6 +59,12 @@
     },
     {
       "rel": "child",
+      "href": "./4datlantic-ohc/collection.json",
+      "type": "application/json",
+      "title": "4DAtlantic-OHC"
+    },
+    {
+      "rel": "child",
       "href": "./advancing-the-study-of-extreme-weather-events-with-data-deep-learning-methods-and-climate-analysis/collection.json",
       "type": "application/json",
       "title": "Advancing the Study of Extreme Weather Events with Data, Deep Learning Methods and Climate Analysis"
@@ -497,6 +503,12 @@
     },
     {
       "rel": "child",
+      "href": "./fortrack/collection.json",
+      "type": "application/json",
+      "title": "FORTRACK"
+    },
+    {
+      "rel": "child",
       "href": "./fresh4bio/collection.json",
       "type": "application/json",
       "title": "Fresh4Bio"
@@ -812,12 +824,6 @@
       "href": "./satellite-based-run-off-evaluation-and-mapping-stream/collection.json",
       "type": "application/json",
       "title": "STREAM"
-    },
-    {
-      "rel": "child",
-      "href": "./satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
-      "type": "application/json",
-      "title": "OceanSODA"
     },
     {
       "rel": "child",
@@ -1203,7 +1209,7 @@
       "type": "application/json",
       "title": "Climate Space Knowledge Exchange"
     },
-    {      
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -1223,9 +1229,45 @@
     },
     {
       "rel": "child",
+      "href": "./agricem/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM"
+    },
+    {
+      "rel": "child",
       "href": "./esa-science-hub-blanka-piskala/collection.json",
       "type": "application/json",
       "title": "ESA Science Hub-Blanka Piskala"
+    },
+    {
+      "rel": "child",
+      "href": "./esa-science-hub-johanna-mayer/collection.json",
+      "type": "application/json",
+      "title": "ESA Science Hub-Johanna Mayer"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-soda/collection.json",
+      "type": "application/json",
+      "title": "Satellite Oceanographic Datasets for Acidification (OceanSODA)"
+    },
+    {
+      "rel": "child",
+      "href": "./pathfinders-oceanacidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Support to Science Element - Pathfinders Ocean Acidification"
+    },
+    {
+      "rel": "child",
+      "href": "./ai4ais/collection.json",
+      "type": "application/json",
+      "title": "ARTIFICIAL INTELLIGENCE FOR ICE SHELVES (AI4AIS)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

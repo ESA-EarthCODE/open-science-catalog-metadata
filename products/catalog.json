@@ -17,6 +17,12 @@
     },
     {
       "rel": "child",
+      "href": "./4d-atlantic-ohc-global/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "child",
       "href": "./4dmed-2d-alt/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
@@ -506,6 +512,12 @@
       "href": "./gnss-positioning-solution-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "GNSS-POS: GNSS positioning solution_Baltics_Multimission"
+    },
+    {
+      "rel": "child",
+      "href": "./global-plant-trait-maps/collection.json",
+      "type": "application/json",
+      "title": "Global Plant Functional Trait Maps at 1 km Resolution"
     },
     {
       "rel": "child",
@@ -1015,7 +1027,7 @@
       "rel": "child",
       "href": "./oceansoda-ethz/collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
+      "title": "OceanSODA-ETHZ-v1: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
     },
     {
       "rel": "child",
@@ -1735,7 +1747,7 @@
       "rel": "child",
       "href": "./bedrock-topography-antarctica-bedmachine/collection.json",
       "type": "application/json",
-      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica"
     },
     {
       "rel": "child",
@@ -1747,7 +1759,7 @@
       "rel": "child",
       "href": "./ice-sheet-velocity-antarctic-2021/collection.json",
       "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+      "title": "Antarctic Ice Sheet monthly ice velocity"
     },
     {
       "rel": "child",
@@ -1990,9 +2002,10 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "./agricemchimeds3v1/collection.json",
+      "type": "application/json",
+      "title": "AGRICEM Simulated CHIME L2A data"
     },
     {
       "rel": "child",
@@ -2007,7 +2020,7 @@
       "title": "Sea Surface Salinity - Monthly Anomalies"
     },
     {
-      "rel": "child",    
+      "rel": "child",
       "href": "./e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
@@ -2029,6 +2042,90 @@
       "href": "./esa-world-cereal-extent-product/collection.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "./earthcare-marine-stratocumulus-transitions/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-soda-ethz/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme-datacubes-global/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – DHP Global Sites"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme-datacubes-wocat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+    },
+    {
+      "rel": "child",
+      "href": "./arceme-dhp/collection.json",
+      "type": "application/json",
+      "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./subglacial-lakes-boundries/collection.json",
+      "type": "application/json",
+      "title": "Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "child",
+      "href": "./ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-seasonal-inundation-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-regional-30m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Regional High-Resolution 30 m Wetland Methane Flux Dataset (2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-pan-arctic-daily-9km-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-pan-arctic-average-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Average Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "basal_melt_map_racmo_firn_air_corrected",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [180.0, -90.0], 
+        [180.0, -50.69217369308933], 
+        [-180.0, -50.69217369308933], 
+        [-180.0, -90.0], 
+        [180.0, -90.0]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0, -90.0, 180.0, -50.69217369308933
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "1997-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T00:00:00Z",
+    "datetime": "2025-02-04T13:33:04.321944Z",
+    "title": "Basal melt map racmo firn air corrected COG"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/basal_melt/basal_melt_map_racmo_firn_air_corrected.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Basal melt map racmo firn air corrected COG",
+      "raster:bands": [
+        {
+          "name": "basal_melt_rate",
+          "data_type": "float32",
+          "spatial_resolution": 1000.0
+        }
+      ],
+      "proj:transform": [
+        1000.0,
+        0.0,
+        -3060277.25,
+        0.0,
+        -1000.0,
+        3217259.75
+      ],
+      "proj:shape": [
+        6435,
+        6120
+      ],
+      "datetime": "2025-02-04T13:33:04.321944Z",
+      "proj:code": "EPSG:3031",
+      "license": "cc-by-4.0",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "antarctic-ice-shelf-melt-rates"
+}
