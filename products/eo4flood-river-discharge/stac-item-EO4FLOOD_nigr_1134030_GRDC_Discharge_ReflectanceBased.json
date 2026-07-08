@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Niger_River_Discharge_ReflectanceBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "nigr - Nigr 1134030 Grdc Discharge Reflectancebased",
+      "title": "nigr - Nigr Discharge Reflectancebased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "nigr - Nigr 1134030 Grdc Discharge Reflectancebased"
+  "title": "nigr - Nigr Discharge Reflectancebased"
 }

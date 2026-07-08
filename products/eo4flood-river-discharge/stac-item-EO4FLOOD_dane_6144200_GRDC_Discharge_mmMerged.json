@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Danube_River_Discharge_mmMerged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "dane - Dane 6144200 Grdc Discharge Mmmerged",
+      "title": "dane - Dane Discharge Mmmerged",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "dane - Dane 6144200 Grdc Discharge Mmmerged"
+  "title": "dane - Dane Discharge Mmmerged"
 }

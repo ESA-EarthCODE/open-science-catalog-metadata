@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Congo_River_Discharge_ReflectanceBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "cono - Cono 1147011 Grdc Discharge Reflectancebased",
+      "title": "cono - Cono Discharge Reflectancebased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "cono - Cono 1147011 Grdc Discharge Reflectancebased"
+  "title": "cono - Cono Discharge Reflectancebased"
 }

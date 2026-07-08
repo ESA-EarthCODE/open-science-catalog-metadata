@@ -84,12 +84,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Torne_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "tore - Tore Torne 42400 Discharge Multi Mission",
+      "title": "tore - Tore Discharge Multi Mission",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "tore - Tore Torne 42400 Discharge Multi Mission"
+  "title": "tore - Tore  Discharge Multi Mission"
 }

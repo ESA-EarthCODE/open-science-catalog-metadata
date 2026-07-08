@@ -84,12 +84,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Congo_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "cono - Cono Congo 21321 Discharge Multi Mission",
+      "title": "cono - Cono Discharge Multi Mission",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "cono - Cono Congo 21321 Discharge Multi Mission"
+  "title": "cono - Cono Discharge Multi Mission"
 }

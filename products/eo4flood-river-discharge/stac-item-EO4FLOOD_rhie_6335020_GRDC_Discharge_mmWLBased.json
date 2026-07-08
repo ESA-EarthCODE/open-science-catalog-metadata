@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Rhine_River_Discharge_mmWLBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "rhie - Rhie 6335020 Grdc Discharge Mmwlbased",
+      "title": "rhie - Rhie Discharge Mmwlbased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "rhie - Rhie 6335020 Grdc Discharge Mmwlbased"
+  "title": "rhie - Rhie Discharge Mmwlbased"
 }

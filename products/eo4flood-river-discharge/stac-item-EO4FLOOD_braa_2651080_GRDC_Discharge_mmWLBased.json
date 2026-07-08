@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Brahmaputra_River_Discharge_mmWLBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "braa - Braa 2651080 Grdc Discharge Mmwlbased",
+      "title": "braa - Braa Discharge Mmwlbased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "braa - Braa 2651080 Grdc Discharge Mmwlbased"
+  "title": "braa - Braa Discharge Mmwlbased"
 }

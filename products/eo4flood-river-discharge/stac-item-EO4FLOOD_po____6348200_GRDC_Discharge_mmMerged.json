@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Po_River_Discharge_mmMerged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "po - Po 6348200 Grdc Discharge Mmmerged",
+      "title": "po - Po Discharge Mmmerged",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "po - Po 6348200 Grdc Discharge Mmmerged"
+  "title": "po - Po Discharge Mmmerged"
 }

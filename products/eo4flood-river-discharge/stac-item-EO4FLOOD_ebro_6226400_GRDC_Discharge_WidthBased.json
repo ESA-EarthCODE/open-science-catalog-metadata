@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Ebro_River_Discharge_WidthBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "ebro - Ebro 6226400 Grdc Discharge Widthbased",
+      "title": "ebro - Ebro Discharge Widthbased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "ebro - Ebro 6226400 Grdc Discharge Widthbased"
+  "title": "ebro - Ebro Discharge Widthbased"
 }

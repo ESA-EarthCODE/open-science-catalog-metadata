@@ -84,12 +84,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Po_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "po - Po Po 19865 Discharge Multi Mission",
+      "title": "po - Po Discharge Multi Mission",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "po - Po Po 19865 Discharge Multi Mission"
+  "title": "po - Po Discharge Multi Mission"
 }

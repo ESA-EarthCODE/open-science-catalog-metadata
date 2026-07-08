@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Torne_River_Discharge_ReflectanceBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "tore - Tore 6232900 Grdc Discharge Reflectancebased",
+      "title": "tore - Tore Discharge Reflectancebased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "tore - Tore 6232900 Grdc Discharge Reflectancebased"
+  "title": "tore - Tore Discharge Reflectancebased"
 }

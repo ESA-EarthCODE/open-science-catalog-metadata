@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Negro_River_Discharge_WidthBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "nego - Nego 14428000 Ana Discharge Widthbased",
+      "title": "nego - Nego Discharge Widthbased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "nego - Nego 14428000 Ana Discharge Widthbased"
+  "title": "nego - Nego Discharge Widthbased"
 }

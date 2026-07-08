@@ -95,12 +95,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Danube_River_Discharge_WidthBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "dane - Dane 6242250 Grdc Discharge Widthbased",
+      "title": "dane - Dane Discharge Widthbased",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "dane - Dane 6242250 Grdc Discharge Widthbased"
+  "title": "dane - Dane Discharge Widthbased"
 }
