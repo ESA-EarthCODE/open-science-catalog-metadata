@@ -66,7 +66,7 @@
     },
     {
       "rel": "via",
-      "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/earthcare-marine-stratocumulus-transitions/catalog.json",
+      "href": "https://opensciencedata.esa.int/projects/esa-science-hub-johanna-mayer/collection",
       "type": "application/json",
       "title": "Access"
     },
