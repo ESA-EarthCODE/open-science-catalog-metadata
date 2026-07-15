@@ -79,7 +79,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/polarwarp-workflow/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/polarwarp/record.json",
       "type": "application/json"
     }
   ]

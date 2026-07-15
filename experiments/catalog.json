@@ -17,13 +17,13 @@
     },
     {
       "rel": "item",
-      "href": "./polaris-workflow/record.json",
+      "href": "./polaris/record.json",
       "type": "application/json",
       "title": "POLARIS"
     },
     {
       "rel": "item",
-      "href": "./esa-cci-permafrost-workflow/record.json",
+      "href": "./esa-cci-permafrost/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
     },
@@ -35,7 +35,7 @@
     },
     {
       "rel": "item",
-      "href": "./polarwarp-workflow/record.json",
+      "href": "./polarwarp/record.json",
       "type": "application/json",
       "title": "Polarwarp"
     },
@@ -47,13 +47,13 @@
     },
     {
       "rel": "item",
-      "href": "./downscaling-land-surface-temperature-over-kinshasa-workflow/record.json",
+      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
       "type": "application/json",
       "title": "Urban LST Downscaling over Kinshasa"
     },
     {
       "rel": "item",
-      "href": "./sss-cci-global-anomalies-workflow/record.json",
+      "href": "./sss-cci-global-anomalies/record.json",
       "type": "application/json",
       "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
     },

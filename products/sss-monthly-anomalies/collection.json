@@ -63,7 +63,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/sss-cci-global-anomalies-workflow/record.json",
+      "href": "../../experiments/sss-cci-global-anomalies/record.json",
       "type": "application/json",
       "title": "Experiment: Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
     },

@@ -41,7 +41,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/polaris-workflow/record.json",
+      "href": "../../experiments/polaris/record.json",
       "type": "application/json",
       "title": "Experiment: POLARIS"
     },
@@ -68,7 +68,7 @@
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "cerulean-information-factory",
-  "osc:experiment": "polaris-workflow",
+  "osc:experiment": "polaris",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",

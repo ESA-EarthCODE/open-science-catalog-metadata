@@ -98,7 +98,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/esa-cci-permafrost-workflow/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/esa-cci-permafrost/record.json",
       "type": "application/json"
     },
     {

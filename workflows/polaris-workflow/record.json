@@ -89,7 +89,7 @@
     },
     {
       "rel": "child",
-      "href": "../../experiments/polaris-workflow/record.json",
+      "href": "../../experiments/polaris/record.json",
       "type": "application/json",
       "title": "POLARIS"
     },

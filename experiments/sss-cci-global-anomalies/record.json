@@ -109,7 +109,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/sss-cci-global-anomalies-workflow/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/sss-cci-global-anomalies/record.json",
       "type": "application/json"
     },
     {

@@ -55,7 +55,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/polarwarp-workflow/record.json",
+      "href": "../../experiments/polarwarp/record.json",
       "type": "application/json",
       "title": "Experiment: Polarwarp"
     },
