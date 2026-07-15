@@ -67,6 +67,12 @@
       "title": "Project: ESA Science Hub-Johanna Mayer"
     },
     {
+      "rel": "related",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/earthcare-marine-stratocumulus-transitions/use_finetuned_goes_model_example.ipynb",
+      "type": "application/json",
+      "title": "Example Inference with Finetuned GOES Model"
+    },
+    {
       "rel": "git",
       "href": "https://github.com/johanna-mayer/mesoscale_structure/tree/main",
       "type": "application/json",
