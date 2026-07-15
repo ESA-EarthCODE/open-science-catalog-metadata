@@ -48,7 +48,7 @@
       }
     ],
     "license": "CC-BY-SA-4.0",
-    "osc:workflow": "polaris",
+    "osc:workflow": "polaris-workflow",
     "version": "2"
   },
   "linkTemplates": [],
@@ -79,7 +79,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/polaris/record.json",
+      "href": "../../workflows/polaris-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: POLARIS"
     },
@@ -97,7 +97,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/polaris/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/polaris-workflow/record.json",
       "type": "application/json"
     }
   ]

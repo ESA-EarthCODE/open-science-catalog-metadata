@@ -62,7 +62,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "href": "../../experiments/esa-cci-permafrost-workflow/record.json",
       "type": "application/json",
       "title": "Experiment: ESA CCI permafrost"
     },

@@ -58,7 +58,7 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "href": "../../experiments/downscaling-land-surface-temperature-over-kinshasa-workflow/record.json",
       "type": "application/json",
       "title": "Experiment: Urban LST Downscaling over Kinshasa"
     },

@@ -1,5 +1,5 @@
 {
-  "id": "esa-cci-permafrost",
+  "id": "esa-cci-permafrost-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
@@ -62,7 +62,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/esa-cci-permafrost/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/esa-cci-permafrost-workflow/record.json",
       "type": "application/json"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "rel": "child",
-      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "href": "../../experiments/esa-cci-permafrost-workflow/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
     },
