@@ -1,5 +1,5 @@
 {
-  "id": "polarwarp",
+  "id": "polarwarp-workflow",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
@@ -81,7 +81,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polarwarp/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/polarwarp-workflow/record.json",
       "type": "application/json"
     },
     {

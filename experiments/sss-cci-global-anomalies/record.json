@@ -50,7 +50,7 @@
     ],
     "formats": [],
     "license": "MIT",
-    "osc:workflow": "sss-cci-global-anomalies",
+    "osc:workflow": "sss-cci-global-anomalies-workflow",
     "application:type": "jupyter-notebook",
     "application:container": [
       "true"
@@ -75,7 +75,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/sss-cci-global-anomalies/record.json",
+      "href": "../../workflows/sss-cci-global-anomalies-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
     },

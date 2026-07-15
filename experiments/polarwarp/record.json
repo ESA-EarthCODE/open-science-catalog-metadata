@@ -31,7 +31,7 @@
       }
     ],
     "license": "various",
-    "osc:workflow": "polarwarp",
+    "osc:workflow": "polarwarp-workflow",
     "version": "2"
   },
   "links": [
@@ -61,7 +61,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/polarwarp/record.json",
+      "href": "../../workflows/polarwarp-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: Polarwarp"
     },

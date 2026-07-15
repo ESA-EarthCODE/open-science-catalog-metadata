@@ -56,7 +56,7 @@
       }
     ],
     "license": "CC-BY-4.0",
-    "osc:workflow": "mesoscale-structure",
+    "osc:workflow": "mesoscale-structure-workflow",
     "start_datetime": "2024-08-01T00:00:00Z",
     "end_datetime": "2025-11-18T00:00:00Z"
   },
@@ -82,7 +82,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/mesoscale-structure/record.json",
+      "href": "../../workflows/mesoscale-structure-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: Mesoscale Structure Workflow"
     },
