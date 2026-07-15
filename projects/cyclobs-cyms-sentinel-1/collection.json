@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "cyclobs-cyms-sentinel-1",
+  "stac_version": "1.0.0",
+  "description": "CYMS is an ESA-funded project aiming at scaling up an operational service for Tropical Cyclone (TC) monitoring, in view of its potential integration as part of a Copernicus Service. The main scientific and technical objectives are to:\n\nDevelop a sustainable acquisition strategy dedicated to TC ;\nConsolidate S-1 end-to-end processing chains for ocean surface wind field with dedicated and up-to-date algorithms for extreme events ;\nBuild an archive center with homogeneous and consistent l2 products, for the TC product validation purpose and scientific applications ;\nBuild a single integrated portal easing dissemination and outreach activities.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.esa-cyms.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/cyms/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cyclobs-cyclone-dataset/collection.json",
+      "type": "application/json",
+      "title": "CyclObs"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-07-02T10:13:09.862454Z",
+  "updated": "2026-07-02T10:13:09.862454Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Muriel Pinheiro",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Muriel.Pinheiro@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "CLS",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "https://www.cls.fr/"
+        }
+      ]
+    },
+    {
+      "name": "Ifremer",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "https://www.ifremer.fr/"
+        }
+      ]
+    }
+  ],
+  "title": "CyclObs / CYMS (Cyclone Monitoring Service with Sentinel-1)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-10-01T00:00:00Z",
+          "2026-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various"
+}
