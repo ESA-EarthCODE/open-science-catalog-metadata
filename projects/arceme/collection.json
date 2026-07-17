@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "arceme",
   "stac_version": "1.0.0",
-  "description": "Extreme weather and climate hazard can cause dramatic impacts on both natural ecosystems and human wellbeing and/or infrastructure and thereby harm society as a whole. Of particular concern are compound weather and climate extreme events, where the hazardous conditions of various extreme events combine and may have more detrimental effects than individual extremes. Increasing the adaptation and resilience to multi-hazards means reducing either vulnerability, exposure, or enhancing response capacities. The science basis needed for achieving this comes through a better understanding of the impact cascades triggered by compound climate events.",
+  "description": "The project “Adaptation and Resilience to Climate Extremes and Multi-hazard events—ARCEME” aims to develop a framework to assess the biophysical and socio-economic impacts of cascading multi-hazard extreme events from a variety of angles and scales, relying on the power of EO. \n Extreme weather and climate hazards can cause dramatic impacts on both natural ecosystems and human wellbeing and/or infrastructure and thereby harm society as a whole. Of particular concern are compound weather and climate extreme events, where the hazardous conditions of various extreme events combine and may have more detrimental effects than individual extremes. Increasing the adaptation and resilience to multi-hazards means reducing either vulnerability, exposure, or enhancing response capacities. The science basis needed for achieving this comes through a better understanding of the impact cascades triggered by compound climate events.",
   "links": [
     {
       "rel": "root",
@@ -20,6 +20,11 @@
       "rel": "via",
       "href": "https://rsc4earth.de/project/arceme",
       "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/arceme",
+      "title": "GitHub"
     },
     {
       "rel": "via",
@@ -109,7 +114,7 @@
       ]
     }
   ],
-  "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME",
+  "title": "ARCEME",
   "extent": {
     "spatial": {
       "bbox": [
