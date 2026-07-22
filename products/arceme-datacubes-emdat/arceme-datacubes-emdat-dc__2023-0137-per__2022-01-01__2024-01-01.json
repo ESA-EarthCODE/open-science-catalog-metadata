@@ -1,0 +1,521 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "arceme-datacubes-emdat-dc__2023-0137-per__2022-01-01__2024-01-01",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -56.62045390680976,
+          84.62282174236374
+        ],
+        [
+          -56.62045390680976,
+          84.69217801163757
+        ],
+        [
+          -57.75699354997001,
+          84.69217801163757
+        ],
+        [
+          -57.75699354997001,
+          84.62282174236374
+        ],
+        [
+          -56.62045390680976,
+          84.62282174236374
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -57.75699354997001,
+    84.62282174236374,
+    -56.62045390680976,
+    84.69217801163757
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2022-01-01T00:00:00Z",
+    "end_datetime": "2024-01-01T00:00:00Z",
+    "datetime": "2022-01-01T00:00:00Z",
+    "title": "arceme-datacubes-emdat-dc__2023-0137-per__2022-01-01__2024-01-01"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes \u2013 EMDAT"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes \u2013 EMDAT"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "./arceme-datacubes-emdat/",
+      "type": "application/vnd+zarr",
+      "title": "arceme-datacubes-emdat-dc__2023-0137-per__2022-01-01__2024-01-01",
+      "Sentinel_2_SCL_description": "0: no_data, 1: saturated_or_defective, 2: dark_area_pixels, 3: cloud_shadows, 4: vegetation, 5: not_vegetated, 6: water, 7: unclassified, 8: cloud_medium_probability, 9: cloud_high_probability, 10: thin_cirrus, 11: snow",
+      "central_x": 621890.0,
+      "central_y": 9414070.0,
+      "cloud_mask_algorithm": "SEnSeIv2/SegFormerB2",
+      "cloud_mask_citation": "https://www.doi.org/10.1109/TGRS.2024.3391625",
+      "cloud_mask_description": "0: Unoccluded, 1: Thick cloud, 2: Thin cloud, 3: Shadow",
+      "cloud_mask_stride_size": "512",
+      "cloud_mask_weights": "SEnSeIv2-SegFormerB2-alldata-ambiguous",
+      "collection": "sentinel-2-l2a",
+      "collections": "CDSE: sentinel-2-l2a, cop-dem-glo-30-dged-cog; Planetary Computer: sentinel-1-rtc, esa-worldcover",
+      "config_file": "src/processor/arceme_dc_dhp_emdat_config.yaml",
+      "contact": "mkluczek@cloudferro.com",
+      "data_cubes_producer": "CloudFerrro S.A.",
+      "dtype_conversion": "uint16 for S2 bands, SCL, cloud_mask, ESA_LC",
+      "edge_size_m": 10000,
+      "edge_size_px": 1000,
+      "epsg": 32717,
+      "fill_value_policy": "float=NaN, int=32767",
+      "land_cover": "ESA World Cover 2020 map at 10 m resolution",
+      "land_cover_citation": "https://doi.org/10.5281/zenodo.5571936",
+      "land_cover_legend": "10 - Tree cover, 20 - Shrubland, 30 - Grassland, 40 - Cropland, 50 - Built-up, 60 - Bare / sparse vegetation, 70 - Snow and Ice, 80 - Permanent water bodies, 90 - Herbaceous wetland, 95 - Mangroves, 100 - Moss and lichen",
+      "location_source": "ARCEME-DC-DHP-EMDAT",
+      "merge_chunking": "time=25, x=500, y=500",
+      "missing_datasets": "none",
+      "output_base_dir": "/CUBE-STORAGE/ARCEME-DC-DHP-EMDAT",
+      "pixel_resolution_meters": "10",
+      "project": "ARCEME - Adaptation and Resilience to Climate Extremes and Multi-hazard Events",
+      "resampling_method": "nearest neighbor",
+      "resolution": 10,
+      "run_name": "arceme_dc_dhp_emdat",
+      "source_locations_csv": "/home/eouser/datacubes/data-cubes-arceme/data/ARCEME-DC-DHP-EMDAT.csv",
+      "stac": "https://stac.dataspace.copernicus.eu/v1/",
+      "stac_endpoints": "CDSE: https://stac.dataspace.copernicus.eu/v1/ Planetary Computer: https://planetarycomputer.microsoft.com/api/stac/v1",
+      "static_dates_copdem": "2010-01-01 to 2024-12-31",
+      "static_dates_esalc": "2019-01-01 to 2020-12-31",
+      "temporal_window": "event_date -12 months to +12 months",
+      "tile_edge_size_meters": "10000",
+      "tile_size_px": "1000x1000",
+      "time_axis": "time_sentinel_2_l2a, time_sentinel_1_rtc, time_cop_dem_glo_30_dged_cog, time_esa_worldcover",
+      "time_coverage_end": "2024-01-01",
+      "time_coverage_start": "2022-01-01",
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "extent": [
+            616890.0,
+            626880.0
+          ],
+          "step": 10.0,
+          "type": "spatial",
+          "reference_system": "epsg:32619"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            9409080.0,
+            9419070.0
+          ],
+          "step": -10.0,
+          "type": "spatial",
+          "reference_system": "epsg:32619"
+        },
+        "time_sentinel_2_l2a": {
+          "extent": [
+            "2022-01-01T00:00:00Z",
+            "2024-01-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "time_cop_dem_glo_30_dged_cog": {
+          "extent": [
+            NaN,
+            NaN
+          ],
+          "type": "temporal"
+        },
+        "time_sentinel_1_rtc": {
+          "extent": [
+            "2022-03-03T23:44:00Z",
+            "2023-12-23T23:44:00Z"
+          ],
+          "type": "temporal"
+        },
+        "time_esa_worldcover": {
+          "extent": [
+            "2020-01-01T00:00:00Z",
+            "2020-01-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        }
+      },
+      "cube:variables": {
+        "B01": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B02": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B03": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B04": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B05": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B06": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B07": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B08": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B09": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B11": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B12": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "B8A": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "COP_DEM": {
+          "type": "data",
+          "dimensions": [
+            "time_cop_dem_glo_30_dged_cog",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            1,
+            1000,
+            1000
+          ],
+          "chunks": [
+            1,
+            500,
+            500
+          ]
+        },
+        "ESA_LC": {
+          "type": "data",
+          "dimensions": [
+            "time_esa_worldcover",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            1,
+            1000,
+            1000
+          ],
+          "chunks": [
+            1,
+            500,
+            500
+          ]
+        },
+        "SCL": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "cloud_mask": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_2_l2a",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            144,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "vh": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_1_rtc",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            87,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "vv": {
+          "type": "data",
+          "dimensions": [
+            "time_sentinel_1_rtc",
+            "y",
+            "x"
+          ],
+          "attrs": {},
+          "shape": [
+            87,
+            1000,
+            1000
+          ],
+          "chunks": [
+            25,
+            500,
+            500
+          ]
+        },
+        "orbit_state": {
+          "type": "auxiliary",
+          "dimensions": [
+            "time_sentinel_1_rtc"
+          ],
+          "attrs": {},
+          "shape": [
+            87
+          ],
+          "chunks": [
+            25
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "arceme-datacubes-emdat",
+  "title": "arceme-datacubes-emdat-dc__2023-0137-per__2022-01-01__2024-01-01"
+}

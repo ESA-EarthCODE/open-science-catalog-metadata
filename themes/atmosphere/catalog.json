@@ -337,6 +337,12 @@
       "href": "../../products/arceme-dhp/collection.json",
       "type": "application/json",
       "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-emdat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – EMDAT"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",
