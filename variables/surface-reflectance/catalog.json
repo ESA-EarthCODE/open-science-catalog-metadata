@@ -44,6 +44,12 @@
       "href": "../../products/arceme-datacubes-wocat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-emdat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – EMDAT"
     }
   ],
   "stac_extensions": [

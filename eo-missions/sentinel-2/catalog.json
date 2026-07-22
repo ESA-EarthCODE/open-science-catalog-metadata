@@ -284,6 +284,12 @@
       "href": "../../products/eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/arceme-datacubes-emdat/collection.json",
+      "type": "application/json",
+      "title": "ARCEME Data Cubes – EMDAT"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
