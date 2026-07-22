@@ -135,8 +135,8 @@
         },
         "time_cop_dem_glo_30_dged_cog": {
           "extent": [
-            NaN,
-            NaN
+           nan,
+           nan
           ],
           "type": "temporal"
         },
