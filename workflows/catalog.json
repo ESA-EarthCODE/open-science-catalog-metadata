@@ -122,6 +122,12 @@
       "href": "./sgl-time-series-reproduction-workflow/record.json",
       "type": "application/json",
       "title": "Subglacial Lake Time Series Visualization Workflow"
+    },
+    {
+      "rel": "item",
+      "href": "./eutrophication-monitoring/record.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring for SDG engine"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
