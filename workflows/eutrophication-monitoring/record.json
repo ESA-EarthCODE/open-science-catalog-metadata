@@ -11,7 +11,7 @@
     "type": "workflow",
     "osc:project": "sdg-engine-eutrophication-monitoring-project",
     "osc:status": "completed",
-    "osc:region": "Tanzania, Albania, Italy"
+    "osc:region": "Tanzania, Albania, Italy",
     "formats": [
       {
         "name": "GeoTIFF"
@@ -27,7 +27,7 @@
       "eutrophication",
       "chlorophyll-a"
     ],
-    "license": "CC BY NC",
+    "license": "CC-BY-NC-4.0",
     "version": "1",
     "themes": [
       {
