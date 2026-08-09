@@ -1268,6 +1268,12 @@
       "href": "./eowetmet/collection.json",
       "type": "application/json",
       "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
+    },
+    {
+      "rel": "child",
+      "href": "./cyclobs-cyms-sentinel-1/collection.json",
+      "type": "application/json",
+      "title": "CyclObs / CYMS (Cyclone Monitoring Service with Sentinel-1)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

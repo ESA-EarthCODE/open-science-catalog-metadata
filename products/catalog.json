@@ -2126,6 +2126,12 @@
       "href": "./eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "./cyclobs-cyclone-dataset/collection.json",
+      "type": "application/json",
+      "title": "CyclObs"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

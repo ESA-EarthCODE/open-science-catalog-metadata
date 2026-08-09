@@ -38,6 +38,12 @@
       "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cyclobs-cyclone-dataset/collection.json",
+      "type": "application/json",
+      "title": "CyclObs"
     }
   ],
   "stac_extensions": [
