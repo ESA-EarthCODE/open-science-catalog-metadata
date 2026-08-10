@@ -523,7 +523,7 @@
       "rel": "child",
       "href": "./geohazards-tep/collection.json",
       "type": "application/json",
-      "title": "Geohazards"
+      "title": "Geohazards Exploitation Platform (GEP)"
     },
     {
       "rel": "child",
