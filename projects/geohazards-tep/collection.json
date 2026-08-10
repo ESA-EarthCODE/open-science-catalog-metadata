@@ -18,7 +18,7 @@
     },
     {
       "rel": "via",
-      "href": "https://geohazards-tep.eu/#!",
+      "href": "https://portal.geohazards-tep.eu/",
       "title": "Website"
     },
     {
@@ -101,7 +101,7 @@
       ]
     }
   ],
-  "title": "Geohazards",
+  "title": "Geohazards Exploitation Platform (GEP)",
   "extent": {
     "spatial": {
       "bbox": [
