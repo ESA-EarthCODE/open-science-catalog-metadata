@@ -1,5 +1,5 @@
 {
-  "id": "pca-on-ocean-data-cube",
+  "id": "pca-on-ocean-data-cube-workflow",
   "type": "Feature",
   "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability",
   "geometry": null,
@@ -111,7 +111,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/pca-on-ocean-data-cube/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/pca-on-ocean-data-cube-workflow/record.json",
       "type": "application/json"
     },
     {

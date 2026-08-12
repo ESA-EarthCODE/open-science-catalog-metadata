@@ -46,7 +46,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/mesoscale-structure/record.json",
+      "href": "../../workflows/mesoscale-structure-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: Mesoscale Structure Workflow"
     },

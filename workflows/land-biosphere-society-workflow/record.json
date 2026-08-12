@@ -1,5 +1,5 @@
 {
-  "id": "land-biosphere-society",
+  "id": "land-biosphere-society-workflow",
   "type": "Feature",
   "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
   "geometry": null,
@@ -147,7 +147,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/land-biosphere-society/record.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/land-biosphere-society-workflow/record.json",
       "type": "application/json"
     },
     {
