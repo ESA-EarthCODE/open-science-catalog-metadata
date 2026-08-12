@@ -59,10 +59,15 @@
       "title": "Theme: Atmosphere"
     },
     {
-      "rel": "related",
+      "rel": "example",
       "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/earthcare-marine-stratocumulus-transitions/use_finetuned_goes_model_example.ipynb",
-      "type": "application/json",
-      "title": "Example Inference with Finetuned GOES Model"
+      "title": "Example Inference with Finetuned GOES Model",
+      "description": "A Python notebook demonstrating inference with the finetuned GOES Model.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+      
     },
     {
       "rel": "via",

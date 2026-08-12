@@ -289,7 +289,7 @@
       "rel": "child",
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
-      "title": "ARCEME Data Cubes – EMDAT"
+      "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
