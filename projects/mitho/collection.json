@@ -18,7 +18,7 @@
     },
     {
       "rel": "via",
-      "href": "https://www.mitho.org/ ",
+      "href": "https://www.mitho.org/",
       "title": "Website"
     },
     {
@@ -74,88 +74,48 @@
       "name": "CNR-INSTITUTE OF MARINE SCIENCES-ISMAR (IT)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "+ATLANTIC – Association for an Atla (PT)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "CLS COLLECTE LOCALISATION SATELLITES (FR)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "INNUERE CONSULTING (IT)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "Mercator Ocean International (FR)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "Plymouth Marine Laboratory (GB)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "Technical University of Denmark (DK)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     },
     {
       "name": "UNIVERSITY OF LIEGE (BE)",
       "roles": [
         "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "consortium_member"
-        }
       ]
     }
   ],
