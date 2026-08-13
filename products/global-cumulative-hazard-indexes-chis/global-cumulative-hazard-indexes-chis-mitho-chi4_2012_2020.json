@@ -8,33 +8,33 @@
     "coordinates": [
       [
         [
-          180.0,
-          -90.0
+          179.5,
+          -78.5
         ],
         [
-          180.0,
-          -56.7587107166777
+          179.5,
+          81.5
         ],
         [
-          -180.0,
-          -56.7587107166777
+          -179.5,
+          81.5
         ],
         [
-          -180.0,
-          -90.0
+          -179.5,
+          -78.5
         ],
         [
-          180.0,
-          -90.0
+          179.5,
+          -78.5
         ]
       ]
     ]
   },
   "bbox": [
-    -180.0,
-    -90.0,
-    180.0,
-    -56.7587107166777
+    -179.5,
+    -78.5,
+    179.5,
+    81.5
   ],
   "properties": {
     "license": "cc-by-4.0",
@@ -61,8 +61,8 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/mitho-chi4_2012_2020.zarr",
       "type": "application/vnd+zarr",
-      "title": "Sea surface salinity zarr store",
-      "created": "2026-08-13T10:52:26.756937Z",
+      "title": "mitho-chi4_2012_2020 zarr store",
+      "created": "2026-08-13T11:13:48.481328Z",
       "cube:dimensions": {
         "time": {
           "extent": [
@@ -444,5 +444,5 @@
     }
   },
   "collection": "global-cumulative-hazard-indexes-chis",
-  "title": "Zarr Store"
+  "title": "mitho-chi4_2012_2020 zarr store"
 }

@@ -133,19 +133,19 @@
       "rel": "item",
       "href": "./global-cumulative-hazard-indexes-chis-mitho-ch13.json",
       "type": "application/json",
-      "title": "Zarr Store"
+      "title": "mitho-ch13 zarr store"
     },
     {
       "rel": "item",
       "href": "./global-cumulative-hazard-indexes-chis-mitho-chi2_2004_2022.json",
       "type": "application/json",
-      "title": "Zarr Store"
+      "title": "mitho-chi2_2004_2022 zarr store"
     },
     {
       "rel": "item",
       "href": "./global-cumulative-hazard-indexes-chis-mitho-chi4_2012_2020.json",
       "type": "application/json",
-      "title": "Zarr Store"
+      "title": "mitho-chi4_2012_2020 zarr store"
     }
   ],
   "stac_extensions": [
