@@ -1,0 +1,305 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "earthcare-msi-labeled-image-chips",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.2279634475708,
+          -21.953792572021484
+        ],
+        [
+          11.2279634475708,
+          44.67936992645264
+        ],
+        [
+          -136.51071548461914,
+          44.67936992645264
+        ],
+        [
+          -136.51071548461914,
+          -21.953792572021484
+        ],
+        [
+          11.2279634475708,
+          -21.953792572021484
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -136.51071548461914,
+    -21.953792572021484,
+    11.2279634475708,
+    44.67936992645264
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "Manual labels and normalized four-channel EarthCARE MSI-derived image chips for cloud morphology classification.",
+    "start_datetime": "2025-01-02T13:30:15Z",
+    "end_datetime": "2025-10-23T20:10:22Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/earthcare-marine-stratocumulus-transitions/labeled_msi_data/earthcode_labeled_msi_data.zarr",
+      "type": "application/vnd+zarr",
+      "title": "EarthCARE MSI labeled image chips for mesoscale cloud morphology classification",
+      "platform": "EarthCARE",
+      "instruments": [
+        "Multi-Spectral Imager (MSI)"
+      ],
+      "created": "2026-07-10T15:16:29.691812+00:00",
+      "cube:dimensions": {
+        "time_mid": {
+          "extent": [
+            "2025-01-02T13:30:15Z",
+            "2025-10-23T20:10:22Z"
+          ],
+          "description": "chip centre acquisition time",
+          "type": "temporal"
+        }
+      },
+      "cube:variables": {
+        "ice_flag": {
+          "type": "data",
+          "description": "fraction of chip pixels colder than 273 K in TIR2",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "fraction of chip pixels colder than 273 K in TIR2",
+            "units": "1",
+            "valid_min": 0.0,
+            "valid_max": 1.0
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "image_data": {
+          "type": "data",
+          "description": "normalized four-channel EarthCARE MSI image chip",
+          "dimensions": [
+            "sample",
+            "channel",
+            "y",
+            "x"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "normalized four-channel EarthCARE MSI image chip",
+            "units": "1",
+            "ancillary_variables": "label label_name ice_flag",
+            "comment": "Channels are per-chip normalized TIR3-TIR2, TIR2-TIR1, TIR2, and cloud optical thickness. TIR channels come from EarthCARE MSI_NOM_1B pixel_values bands TIR1/TIR2/TIR3; cloud optical thickness comes from EarthCARE MSI_COP_2A cloud_optical_thickness."
+          },
+          "shape": [
+            533,
+            4,
+            128,
+            128
+          ],
+          "chunks": [
+            64,
+            4,
+            128,
+            128
+          ]
+        },
+        "label": {
+          "type": "data",
+          "description": "manual mesoscale cloud morphology class",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "manual mesoscale cloud morphology class",
+            "units": "1",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "flag_meanings": "solid_stratus closed_mcc open_mcc disorganized_mcc clustered_cu suppressed_cu"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "label_name": {
+          "type": "data",
+          "description": "human-readable class name derived from label",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "human-readable class name derived from label"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            533
+          ]
+        },
+        "source_sample_index": {
+          "type": "data",
+          "description": "original non-unique sample coordinate from source file",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "original non-unique sample coordinate from source file",
+            "units": "1"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            533
+          ]
+        },
+        "unique_id": {
+          "type": "data",
+          "description": "stable MSI chip identifier",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "stable MSI chip identifier",
+            "comment": "Format is orbit_latitude_longitude using the chip-centre latitude and longitude rounded by the original labeling workflow."
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            533
+          ]
+        },
+        "lat_mid": {
+          "type": "auxiliary",
+          "description": "chip centre latitude",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "long_name": "chip centre latitude",
+            "standard_name": "latitude",
+            "units": "degrees_north"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "lon_mid": {
+          "type": "auxiliary",
+          "description": "chip centre longitude",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "long_name": "chip centre longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "orbit": {
+          "type": "auxiliary",
+          "description": "EarthCARE orbit and frame identifier",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "EarthCARE orbit and frame identifier",
+            "comment": "Example format: 03401E."
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            533
+          ]
+        },
+        "region": {
+          "type": "auxiliary",
+          "description": "stratocumulus region code",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "stratocumulus region code",
+            "comment": "{'SEA': 'South East Atlantic stratocumulus region', 'NEA': 'North East Atlantic stratocumulus region', 'SEP': 'South East Pacific stratocumulus region', 'NEP': 'North East Pacific stratocumulus region'}"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            533
+          ]
+        },
+        "time_mid": {
+          "type": "auxiliary",
+          "description": "chip centre acquisition time",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "chip centre acquisition time",
+            "standard_name": "time"
+          },
+          "shape": [
+            533
+          ],
+          "chunks": [
+            64
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "earthcare-marine-stratocumulus-transitions",
+  "title": "EarthCARE MSI labeled image chips for mesoscale cloud morphology classification"
+}

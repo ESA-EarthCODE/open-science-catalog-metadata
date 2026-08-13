@@ -61,7 +61,7 @@
     ],
     "formats": [],
     "license": "CC-BY-4.0",
-    "osc:workflow": "downscaling-land-surface-temperature-over-kinshasa",
+    "osc:workflow": "downscaling-land-surface-temperature-over-kinshasa-workflow",
     "application:type": "jupyter-notebook",
     "application:container": [
       "true"
@@ -86,7 +86,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "href": "../../workflows/downscaling-land-surface-temperature-over-kinshasa-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: Urban LST Downscaling over Kinshasa"
     },

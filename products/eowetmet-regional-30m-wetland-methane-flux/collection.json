@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "eowetmet-regional-30m-wetland-methane-flux",
+  "stac_version": "1.0.0",
+  "description": "The EOWetMet Regional High-Resolution 30 m Wetland Methane Flux Dataset provides summer-average methane flux maps for two Arctic case-study regions in 2025. The products were generated using a Geo Foundation Model (GFM)-based deep learning framework that extracts spatial and spectral representations from Harmonized Landsat-Sentinel (HLS) imagery and integrates complementary environmental variables through an attention-based parallel auxiliary module. The repository includes two 30 m GeoTIFF methane flux products representing summer-average conditions over approximately 500 km x 500 km case-study regions in Northwest Territories, Canada, and northern Sweden.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eowetmet/collection.json",
+      "type": "application/json",
+      "title": "Project: EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/methane/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Methane"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.20548779",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.20548779"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-07-01T13:12:59.584846Z",
+  "updated": "2026-07-01T13:12:59.584846Z",
+  "osc:project": "eowetmet",
+  "osc:status": "completed",
+  "osc:region": "Northwest Territories, Canada; Northern Sweden",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "methane"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.20548779",
+  "cf:parameter": [
+    {
+      "name": "methane"
+    }
+  ],
+  "title": "EOWetMet: Regional High-Resolution 30 m Wetland Methane Flux Dataset (2025)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          45.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "wetlands",
+    "Arctic",
+    "methane",
+    "methane flux",
+    "Earth Observation",
+    "remote sensing",
+    "HLS",
+    "Harmonized Landsat Sentinel",
+    "Geo Foundation Model",
+    "deep learning"
+  ]
+}

@@ -30,7 +30,7 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/mesoscale-structure/record.json",
+      "href": "../../workflows/mesoscale-structure-workflow/record.json",
       "type": "application/json",
       "title": "Workflow: Mesoscale Structure Workflow"
     },
@@ -59,10 +59,57 @@
       "title": "Theme: Atmosphere"
     },
     {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/earthcare-marine-stratocumulus-transitions/use_finetuned_goes_model_example.ipynb",
+      "title": "Example Inference with Finetuned GOES Model",
+      "description": "A Python notebook demonstrating inference with the finetuned GOES Model.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+      
+    },
+    {
       "rel": "via",
-      "href": "https://github.com/johanna-mayer/mesoscale_structure/tree/main",
+      "href": "https://opensciencedata.esa.int/projects/esa-science-hub-johanna-mayer/collection",
       "type": "application/json",
       "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./earthcare-acmcap-scene-properties.json",
+      "type": "application/json",
+      "title": "EarthCARE ACM-CAP scene properties joined to MSI neural-network cloud morphology labels"
+    },
+    {
+      "rel": "item",
+      "href": "./earthcare-goes-cloud-regime-classifier.json",
+      "type": "application/json",
+      "title": "GOES ABI Cloud Morphology Classifier weights (SafeTensors)"
+    },
+    {
+      "rel": "item",
+      "href": "./earthcare-goes-labeled-image-chips.json",
+      "type": "application/json",
+      "title": "GOES ABI labeled image chips for mesoscale cloud morphology classification"
+    },
+    {
+      "rel": "item",
+      "href": "./earthcare-msi-cloud-regime-classifier.json",
+      "type": "application/json",
+      "title": "EarthCARE MSI Cloud-Morphology Classifier weights (SafeTensors)"
+    },
+    {
+      "rel": "item",
+      "href": "./earthcare-msi-labeled-image-chips.json",
+      "type": "application/json",
+      "title": "EarthCARE MSI labeled image chips for mesoscale cloud morphology classification"
+    },
+    {
+      "rel": "item",
+      "href": "./earthcare-trajectories-co-transitions.json",
+      "type": "application/json",
+      "title": "Wind trajectories with GOES cloud morphology and EarthCARE microphysics for closed-to-open cell transitions"
     }
   ],
   "stac_extensions": [

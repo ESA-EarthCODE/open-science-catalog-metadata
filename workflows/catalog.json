@@ -17,7 +17,7 @@
     },
     {
       "rel": "item",
-      "href": "./polaris/record.json",
+      "href": "./polaris-workflow/record.json",
       "type": "application/json",
       "title": "POLARIS"
     },
@@ -29,25 +29,25 @@
     },
     {
       "rel": "item",
-      "href": "./fairsendd/record.json",
+      "href": "./fairsendd-workflow/record.json",
       "type": "application/json",
       "title": "FAIRSenDD: FAIR workflow for Sentinel-1 based Deforestation Detection"
     },
     {
       "rel": "item",
-      "href": "./esa-cci-permafrost/record.json",
+      "href": "./esa-cci-permafrost-workflow/record.json",
       "type": "application/json",
       "title": "ESA CCI permafrost"
     },
     {
       "rel": "item",
-      "href": "./land-biosphere-society/record.json",
+      "href": "./land-biosphere-society-workflow/record.json",
       "type": "application/json",
       "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
     },
     {
       "rel": "item",
-      "href": "./pca-on-ocean-data-cube/record.json",
+      "href": "./pca-on-ocean-data-cube-workflow/record.json",
       "type": "application/json",
       "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
     },
@@ -71,7 +71,7 @@
     },
     {
       "rel": "item",
-      "href": "./polarwarp/record.json",
+      "href": "./polarwarp-workflow/record.json",
       "type": "application/json",
       "title": "Polarwarp"
     },
@@ -83,13 +83,13 @@
     },
     {
       "rel": "item",
-      "href": "./sss-cci-global-anomalies/record.json",
+      "href": "./sss-cci-global-anomalies-workflow/record.json",
       "type": "application/json",
       "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
     },
     {
       "rel": "item",
-      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
+      "href": "./downscaling-land-surface-temperature-over-kinshasa-workflow/record.json",
       "type": "application/json",
       "title": "Urban LST Downscaling over Kinshasa"
     },
@@ -113,13 +113,13 @@
     },
     {
       "rel": "item",
-      "href": "./mesoscale-structure/record.json",
+      "href": "./mesoscale-structure-workflow/record.json",
       "type": "application/json",
       "title": "Mesoscale Structure Workflow"
     },
     {
       "rel": "item",
-      "href": "./sgl-time-series-reproduction/record.json",
+      "href": "./sgl-time-series-reproduction-workflow/record.json",
       "type": "application/json",
       "title": "Subglacial Lake Time Series Visualization Workflow"
     }

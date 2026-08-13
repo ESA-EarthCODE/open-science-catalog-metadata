@@ -1,254 +1,79 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
-  "id": "subglacial-lakes-boundries-timeseries-data",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "basal_melt_map_racmo_firn_air_corrected",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
-        [
-          171.81277764628828,
-          -85.66263549598452
-        ],
-        [
-          171.81277764628828,
-          -66.71654059863512
-        ],
-        [
-          -154.86889769882507,
-          -66.71654059863512
-        ],
-        [
-          -154.86889769882507,
-          -85.66263549598452
-        ],
-        [
-          171.81277764628828,
-          -85.66263549598452
-        ]
+        [180.0, -90.0], 
+        [180.0, -50.69217369308933], 
+        [-180.0, -50.69217369308933], 
+        [-180.0, -90.0], 
+        [180.0, -90.0]
       ]
     ]
   },
   "bbox": [
-    -154.86889769882507,
-    -85.66263549598452,
-    171.81277764628828,
-    -66.71654059863512
+    -180.0, -90.0, 180.0, -50.69217369308933
   ],
   "properties": {
-    "license": "CC-BY.4.0",
+    "license": "cc-by-4.0",
     "description": "",
-    "datetime": "2010-07-01T00:00:00Z"
+    "start_datetime": "1997-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T00:00:00Z",
+    "datetime": "2025-02-04T13:33:04.321944Z",
+    "title": "Basal melt map racmo firn air corrected COG"
   },
   "links": [
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Subglacial lakes boundaries and elevation time series"
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Subglacial lakes boundaries and elevation time series"
+      "title": "Antarctic ice shelf basal melt rates 1997-2021"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/subglacial_lakes/subglacial_lakes_boundries_with_timeseries.parquet",
-      "type": "application/x-parquet",
-      "title": "Subglacial lakes boundaries and elevation time series data",
-      "proj:code": "EPSG:4326",
-      "proj:wkt2": "GEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],USAGE[SCOPE[\"Horizontal component of 3D system.\"],AREA[\"World.\"],BBOX[-90,-180,90,180]],ID[\"EPSG\",4326]]",
-      "proj:bbox": [
-        -154.86889769882507,
-        -85.66263549598452,
-        171.81277764628828,
-        -66.71654059863512
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/basal_melt/basal_melt_map_racmo_firn_air_corrected.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Basal melt map racmo firn air corrected COG",
+      "raster:bands": [
+        {
+          "name": "basal_melt_rate",
+          "data_type": "float32",
+          "spatial_resolution": 1000.0
+        }
       ],
-      "proj:geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              171.81277764628828,
-              -85.66263549598452
-            ],
-            [
-              171.81277764628828,
-              -66.71654059863512
-            ],
-            [
-              -154.86889769882507,
-              -66.71654059863512
-            ],
-            [
-              -154.86889769882507,
-              -85.66263549598452
-            ],
-            [
-              171.81277764628828,
-              -85.66263549598452
-            ]
-          ]
-        ]
-      },
+      "proj:transform": [
+        1000.0,
+        0.0,
+        -3060277.25,
+        0.0,
+        -1000.0,
+        3217259.75
+      ],
+      "proj:shape": [
+        6435,
+        6120
+      ],
+      "datetime": "2025-02-04T13:33:04.321944Z",
+      "proj:code": "EPSG:3031",
+      "license": "cc-by-4.0",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "subglacial-lakes-boundries",
-  "title": "Subglacial lakes data",
-  "parquet:columns": [
-    {
-      "name": "lake_period_id",
-      "type": "string",
-      "long_name": "Subglacial lake activity period identifier",
-      "description": "Unique identifier for a subglacial lake activity event and boundary delineation period. Constructed from lake name, boundary delineation period, and elevation contour threshold, for example 'Academy_45_201312-201608_0.4'.",
-      "unit": null
-    },
-    {
-      "name": "lake_name",
-      "type": "string",
-      "long_name": "Subglacial lake name",
-      "description": "Name of the Antarctic subglacial lake or lake feature associated with the observation.",
-      "unit": null
-    },
-    {
-      "name": "new_sgl_glake",
-      "type": "string",
-      "long_name": "Subglacial lake classification",
-      "description": "Classification or inventory status of the lake, indicating whether the feature is a newly identified active subglacial lake, a previously known subglacial lake, or a related glacial lake inventory category where available.",
-      "unit": null
-    },
-    {
-      "name": "period_start_date",
-      "type": "date",
-      "long_name": "Boundary delineation period start date",
-      "description": "Start date of the elevation-change period used to delineate the subglacial lake activity boundary.",
-      "unit": null
-    },
-    {
-      "name": "period_end_date",
-      "type": "date",
-      "long_name": "Boundary delineation period end date",
-      "description": "End date of the elevation-change period used to delineate the subglacial lake activity boundary.",
-      "unit": null
-    },
-    {
-      "name": "contour_m_yr",
-      "type": "float",
-      "long_name": "Elevation-change contour used for boundary delineation",
-      "description": "Elevation-change rate contour threshold used to delineate the subglacial lake activity boundary for the specified lake period.",
-      "unit": "m yr-1"
-    },
-    {
-      "name": "geometry",
-      "type": "geometry",
-      "long_name": "Subglacial lake activity boundary geometry",
-      "description": "Geometry representing the spatial boundary of the subglacial lake activity area for the specified lake period. Stored as the GeoParquet geometry column.",
-      "unit": null
-    },
-    {
-      "name": "in_lake_mean_anom_m",
-      "type": "float",
-      "long_name": "Mean in-lake elevation anomaly",
-      "description": "Mean ice-surface elevation anomaly measured within the delineated subglacial lake boundary for the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "in_lake_n",
-      "type": "integer",
-      "long_name": "Number of in-lake elevation observations",
-      "description": "Number of elevation observations or grid cells contributing to the in-lake monthly summary.",
-      "unit": "count"
-    },
-    {
-      "name": "in_lake_std_m",
-      "type": "float",
-      "long_name": "Standard deviation of in-lake elevation anomaly",
-      "description": "Standard deviation of ice-surface elevation anomaly values within the delineated lake boundary for the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "in_lake_err_m",
-      "type": "float",
-      "long_name": "Uncertainty of in-lake elevation anomaly",
-      "description": "Estimated uncertainty for the in-lake mean elevation anomaly for the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "in_lake_cum_err_m",
-      "type": "float",
-      "long_name": "Cumulative uncertainty of in-lake elevation anomaly",
-      "description": "Cumulative uncertainty associated with the in-lake elevation anomaly time series up to the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "in_lake_detrended_mean_anom_m",
-      "type": "float",
-      "long_name": "Detrended mean in-lake elevation anomaly",
-      "description": "Mean ice-surface elevation anomaly within the lake boundary after removal of the background elevation trend. This is the primary in-lake anomaly variable for identifying filling and drainage behaviour.",
-      "unit": "m"
-    },
-    {
-      "name": "out_lake_mean_anom_m",
-      "type": "float",
-      "long_name": "Mean out-of-lake elevation anomaly",
-      "description": "Mean ice-surface elevation anomaly measured outside the delineated subglacial lake boundary, used as a local background or reference signal for the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "out_lake_n",
-      "type": "integer",
-      "long_name": "Number of out-of-lake elevation observations",
-      "description": "Number of elevation observations or grid cells contributing to the out-of-lake monthly summary.",
-      "unit": "count"
-    },
-    {
-      "name": "out_lake_std_m",
-      "type": "float",
-      "long_name": "Standard deviation of out-of-lake elevation anomaly",
-      "description": "Standard deviation of ice-surface elevation anomaly values outside the lake boundary for the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "out_lake_err_m",
-      "type": "float",
-      "long_name": "Uncertainty of out-of-lake elevation anomaly",
-      "description": "Estimated uncertainty for the out-of-lake mean elevation anomaly for the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "out_lake_cum_err_m",
-      "type": "float",
-      "long_name": "Cumulative uncertainty of out-of-lake elevation anomaly",
-      "description": "Cumulative uncertainty associated with the out-of-lake elevation anomaly time series up to the monthly observation.",
-      "unit": "m"
-    },
-    {
-      "name": "out_lake_detrended_mean_anom_m",
-      "type": "float",
-      "long_name": "Detrended mean out-of-lake elevation anomaly",
-      "description": "Mean ice-surface elevation anomaly outside the lake boundary after removal of the background elevation trend. Used as a reference signal for comparison with in-lake elevation change.",
-      "unit": "m"
-    },
-    {
-      "name": "elevation_date",
-      "type": "datetime",
-      "long_name": "Elevation observation date",
-      "description": "Timestamp of the monthly CryoSat-2-derived elevation observation represented by the row.",
-      "unit": null
-    },
-    {
-      "name": "name",
-      "type": "string",
-      "long_name": "Source lake name",
-      "description": "Lake name as used in the source data and in construction of the lake_period_id. This may duplicate or preserve a less-normalised version of lake_name.",
-      "unit": null
-    }
-  ]
+  "collection": "antarctic-ice-shelf-melt-rates"
 }

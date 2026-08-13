@@ -1,0 +1,2268 @@
+{
+  "type": "Collection",
+  "id": "arceme-datacubes-emdat",
+  "stac_version": "1.0.0",
+  "description": "Multi-sensor Earth observation data cubes centred on disaster events from the EM-DAT International Disaster Database, generated within the ARCEME project (Adaptation and Resilience to Climate Extremes and Multi-hazard Events). Each cube covers a 10 × 10 km area centred on the event location and integrates: Sentinel-2 L2A (13 bands + SCL, 10 m), Sentinel-1 RTC (VV + VH, 10 m), Copernicus DEM GLO-30 (10 m resampled), and ESA WorldCover 2020 (10 m). The temporal window spans ±12 months around the event date. Cloud masking is applied using SEnSeIv2/SegFormerB2.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arceme/collection.json",
+      "type": "application/json",
+      "title": "Project: Adaptation and Resilience to Climate Extremes and Multi-hazard events - ARCEME"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/digital-elevation-terrain-model-dem/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Digital Elevation/Terrain Model (DEM)"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/arceme-datacubes-emdat/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0496-tza.json",
+      "type": "application/json",
+      "title": "DC__2019-0496-TZA__2018-10-02__2020-10-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0440-tun.json",
+      "type": "application/json",
+      "title": "DC__2020-0440-TUN__2019-09-05__2021-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0413-esp.json",
+      "type": "application/json",
+      "title": "DC__2019-0413-ESP__2018-09-11__2020-09-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0187-eth.json",
+      "type": "application/json",
+      "title": "DC__2023-0187-ETH__2022-03-25__2024-03-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0375-hti.json",
+      "type": "application/json",
+      "title": "DC__2015-0375-HTI__2014-08-29__2016-08-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0161-ken.json",
+      "type": "application/json",
+      "title": "DC__2016-0161-KEN__2015-04-29__2017-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0521-nga-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0521-NGA-D__2020-07-01__2022-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0418-fra-p.json",
+      "type": "application/json",
+      "title": "DC__2020-0418-FRA-P__2019-10-02__2021-10-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0187-ken.json",
+      "type": "application/json",
+      "title": "DC__2023-0187-KEN__2022-03-25__2024-03-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0094-zwe-p.json",
+      "type": "application/json",
+      "title": "DC__2019-0094-ZWE-P__2018-02-11__2020-02-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0287-bfa-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0287-BFA-D__2015-06-21__2017-06-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0498-mex.json",
+      "type": "application/json",
+      "title": "DC__2017-0498-MEX__2016-09-26__2018-09-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0132-ken.json",
+      "type": "application/json",
+      "title": "DC__2018-0132-KEN__2017-03-14__2019-03-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0324-mng.json",
+      "type": "application/json",
+      "title": "DC__2020-0324-MNG__2019-07-02__2021-07-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0382-tcd.json",
+      "type": "application/json",
+      "title": "DC__2021-0382-TCD__2020-06-26__2022-06-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0654-mli-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0654-MLI-D__2021-07-01__2023-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0286-rou.json",
+      "type": "application/json",
+      "title": "DC__2020-0286-ROU__2019-06-10__2021-06-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0581-esp.json",
+      "type": "application/json",
+      "title": "DC__2023-0581-ESP__2022-09-02__2024-09-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0451-fra.json",
+      "type": "application/json",
+      "title": "DC__2015-0451-FRA__2014-10-03__2016-10-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0407-rus-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0407-RUS-D__2017-10-24__2019-10-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0459-fra.json",
+      "type": "application/json",
+      "title": "DC__2020-0459-FRA__2019-09-19__2021-09-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0272-mli-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0272-MLI-D__2015-07-11__2017-07-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0325-mex-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0325-MEX-P__2020-06-18__2022-06-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0602-mng-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0602-MNG-D__2019-07-08__2021-07-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0336-ner.json",
+      "type": "application/json",
+      "title": "DC__2020-0336-NER__2019-07-01__2021-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0569-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2017-0569-IND-D__2016-05-28__2018-05-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0496-tza-p.json",
+      "type": "application/json",
+      "title": "DC__2019-0496-TZA-P__2018-10-02__2020-10-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0456-yem.json",
+      "type": "application/json",
+      "title": "DC__2022-0456-YEM__2021-07-23__2023-07-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0783-bol.json",
+      "type": "application/json",
+      "title": "DC__2023-0783-BOL__2022-12-10__2024-12-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0257-ind.json",
+      "type": "application/json",
+      "title": "DC__2017-0257-IND__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0456-yem-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0456-YEM-D__2021-07-23__2023-07-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0270-bra.json",
+      "type": "application/json",
+      "title": "DC__2020-0270-BRA__2019-06-30__2021-06-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0570-tjk-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0570-TJK-D__2022-08-27__2024-08-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0305-sdn.json",
+      "type": "application/json",
+      "title": "DC__2020-0305-SDN__2019-06-01__2021-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0153-lka.json",
+      "type": "application/json",
+      "title": "DC__2016-0153-LKA__2015-05-14__2017-05-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0846-pak-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0846-PAK-D__2020-07-01__2022-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0132-ken-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0132-KEN-D__2017-03-14__2019-03-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0462-zaf.json",
+      "type": "application/json",
+      "title": "DC__2017-0462-ZAF__2016-10-09__2018-10-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0075-zaf.json",
+      "type": "application/json",
+      "title": "DC__2021-0075-ZAF__2020-02-01__2022-02-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0417-usa.json",
+      "type": "application/json",
+      "title": "DC__2019-0417-USA__2018-09-17__2020-09-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0252-chn.json",
+      "type": "application/json",
+      "title": "DC__2015-0252-CHN__2014-06-22__2016-06-22.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0427-ukr.json",
+      "type": "application/json",
+      "title": "DC__2016-0427-UKR__2015-10-12__2017-10-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0069-chl.json",
+      "type": "application/json",
+      "title": "DC__2021-0069-CHL__2020-01-29__2022-01-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0554-pak-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0554-PAK-D__2015-08-06__2017-08-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0126-ecu.json",
+      "type": "application/json",
+      "title": "DC__2023-0126-ECU__2022-01-01__2024-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0697-fra-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0697-FRA-D__2021-10-23__2023-10-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0065-bra.json",
+      "type": "application/json",
+      "title": "DC__2022-0065-BRA__2021-01-01__2023-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0092-arg-p.json",
+      "type": "application/json",
+      "title": "DC__2020-0092-ARG-P__2019-02-11__2021-02-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0258-irn.json",
+      "type": "application/json",
+      "title": "DC__2015-0258-IRN__2014-07-14__2016-07-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0569-ind.json",
+      "type": "application/json",
+      "title": "DC__2017-0569-IND__2016-05-28__2018-05-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0445-sdn.json",
+      "type": "application/json",
+      "title": "DC__2022-0445-SDN__2021-05-10__2023-05-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0030-zwe.json",
+      "type": "application/json",
+      "title": "DC__2015-0030-ZWE__2014-01-02__2016-01-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0386-pak.json",
+      "type": "application/json",
+      "title": "DC__2019-0386-PAK__2018-08-09__2020-08-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0447-esp.json",
+      "type": "application/json",
+      "title": "DC__2015-0447-ESP__2014-09-07__2016-09-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0700-dza-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0700-DZA-D__2020-10-23__2022-10-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0186-ner.json",
+      "type": "application/json",
+      "title": "DC__2017-0186-NER__2016-06-13__2018-06-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0413-esp-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0413-ESP-D__2018-09-11__2020-09-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0340-bgd.json",
+      "type": "application/json",
+      "title": "DC__2022-0340-BGD__2021-05-17__2023-05-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0579-mrt-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0579-MRT-D__2022-07-30__2024-07-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0140-arg.json",
+      "type": "application/json",
+      "title": "DC__2021-0140-ARG__2020-03-01__2022-03-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0294-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2017-0294-IND-D__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0287-bfa.json",
+      "type": "application/json",
+      "title": "DC__2016-0287-BFA__2015-06-21__2017-06-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0248-moz.json",
+      "type": "application/json",
+      "title": "DC__2016-0248-MOZ__2015-01-05__2017-01-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0261-chn.json",
+      "type": "application/json",
+      "title": "DC__2017-0261-CHN__2016-07-06__2018-07-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0333-mex.json",
+      "type": "application/json",
+      "title": "DC__2022-0333-MEX__2021-05-30__2023-05-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0465-ita.json",
+      "type": "application/json",
+      "title": "DC__2015-0465-ITA__2014-10-14__2016-10-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0175-bgd-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0175-BGD-P__2015-05-21__2017-05-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0269-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0269-NER-D__2015-06-01__2017-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0376-prt.json",
+      "type": "application/json",
+      "title": "DC__2018-0376-PRT__2017-10-14__2019-10-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0101-mdg.json",
+      "type": "application/json",
+      "title": "DC__2022-0101-MDG__2021-02-23__2023-02-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0011-mwi.json",
+      "type": "application/json",
+      "title": "DC__2015-0011-MWI__2014-01-01__2016-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0579-mex.json",
+      "type": "application/json",
+      "title": "DC__2022-0579-MEX__2021-09-03__2023-09-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0522-bol.json",
+      "type": "application/json",
+      "title": "DC__2016-0522-BOL__2015-11-26__2017-11-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0295-som.json",
+      "type": "application/json",
+      "title": "DC__2023-0295-SOM__2022-04-01__2024-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0168-cub-d.json",
+      "type": "application/json",
+      "title": "DC__2015-0168-CUB-D__2014-04-30__2016-04-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0602-mng.json",
+      "type": "application/json",
+      "title": "DC__2020-0602-MNG__2019-07-08__2021-07-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0554-pak.json",
+      "type": "application/json",
+      "title": "DC__2016-0554-PAK__2015-08-06__2017-08-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0417-usa-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0417-USA-D__2018-09-17__2020-09-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0365-gtm.json",
+      "type": "application/json",
+      "title": "DC__2023-0365-GTM__2022-05-01__2024-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0294-mmr.json",
+      "type": "application/json",
+      "title": "DC__2023-0294-MMR__2022-05-14__2024-05-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0249-mng.json",
+      "type": "application/json",
+      "title": "DC__2018-0249-MNG__2017-07-03__2019-07-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0292-sdn.json",
+      "type": "application/json",
+      "title": "DC__2018-0292-SDN__2017-07-23__2019-07-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0272-mli-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0272-MLI-P__2015-07-11__2017-07-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0285-ssd.json",
+      "type": "application/json",
+      "title": "DC__2019-0285-SSD__2018-06-05__2020-06-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0481-ssd-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0481-SSD-D__2020-05-01__2022-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0055-bol.json",
+      "type": "application/json",
+      "title": "DC__2023-0055-BOL__2022-01-01__2024-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0741-som.json",
+      "type": "application/json",
+      "title": "DC__2023-0741-SOM__2022-09-01__2024-09-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0609-ita.json",
+      "type": "application/json",
+      "title": "DC__2022-0609-ITA__2021-09-15__2023-09-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0243-pak.json",
+      "type": "application/json",
+      "title": "DC__2017-0243-PAK__2016-06-26__2018-06-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0218-hnd.json",
+      "type": "application/json",
+      "title": "DC__2020-0218-HND__2019-05-30__2021-05-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0149-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0149-IND__2017-05-13__2019-05-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0459-usa.json",
+      "type": "application/json",
+      "title": "DC__2015-0459-USA__2014-10-01__2016-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0461-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0461-NER-D__2020-06-15__2022-06-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0459-usa-p.json",
+      "type": "application/json",
+      "title": "DC__2015-0459-USA-P__2014-10-01__2016-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0790-bra-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0790-BRA-D__2020-11-15__2022-11-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0334-grc.json",
+      "type": "application/json",
+      "title": "DC__2016-0334-GRC__2015-09-05__2017-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0312-dom.json",
+      "type": "application/json",
+      "title": "DC__2020-0312-DOM__2019-07-31__2021-07-31.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0479-bhs.json",
+      "type": "application/json",
+      "title": "DC__2015-0479-BHS__2014-10-01__2016-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0273-pol.json",
+      "type": "application/json",
+      "title": "DC__2020-0273-POL__2019-06-29__2021-06-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0203-bgd.json",
+      "type": "application/json",
+      "title": "DC__2018-0203-BGD__2017-06-05__2019-06-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0465-hrv.json",
+      "type": "application/json",
+      "title": "DC__2015-0465-HRV__2014-10-14__2016-10-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0280-sdn-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0280-SDN-D__2018-06-08__2020-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0509-tcd-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0509-TCD-D__2021-06-06__2023-06-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0138-mmr.json",
+      "type": "application/json",
+      "title": "DC__2016-0138-MMR__2015-04-21__2017-04-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0186-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2017-0186-NER-D__2016-06-13__2018-06-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0457-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0457-NER-D__2022-07-01__2024-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0203-mmr.json",
+      "type": "application/json",
+      "title": "DC__2018-0203-MMR__2017-06-05__2019-06-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0214-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0214-IND__2017-05-28__2019-05-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0449-sen.json",
+      "type": "application/json",
+      "title": "DC__2016-0449-SEN__2015-07-01__2017-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0392-chl.json",
+      "type": "application/json",
+      "title": "DC__2021-0392-CHL__2020-06-01__2022-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0442-afg.json",
+      "type": "application/json",
+      "title": "DC__2022-0442-AFG__2021-06-30__2023-06-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0149-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0149-IND-D__2017-05-13__2019-05-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0264-gtm.json",
+      "type": "application/json",
+      "title": "DC__2020-0264-GTM__2019-06-17__2021-06-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0211-chn.json",
+      "type": "application/json",
+      "title": "DC__2018-0211-CHN__2017-05-07__2019-05-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0514-afg.json",
+      "type": "application/json",
+      "title": "DC__2022-0514-AFG__2021-08-16__2023-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0176-zaf-p.json",
+      "type": "application/json",
+      "title": "DC__2019-0176-ZAF-P__2018-04-21__2020-04-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0428-pak.json",
+      "type": "application/json",
+      "title": "DC__2023-0428-PAK__2022-06-25__2024-06-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0250-ven.json",
+      "type": "application/json",
+      "title": "DC__2022-0250-VEN__2021-04-25__2023-04-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0544-som-d.json",
+      "type": "application/json",
+      "title": "DC__2015-0544-SOM-D__2014-03-01__2016-03-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0053-aus.json",
+      "type": "application/json",
+      "title": "DC__2020-0053-AUS__2019-02-04__2021-02-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0071-col.json",
+      "type": "application/json",
+      "title": "DC__2020-0071-COL__2019-02-26__2021-02-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0316-mex-p.json",
+      "type": "application/json",
+      "title": "DC__2020-0316-MEX-P__2019-07-25__2021-07-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0451-fra-p.json",
+      "type": "application/json",
+      "title": "DC__2015-0451-FRA-P__2014-10-03__2016-10-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0248-ukr.json",
+      "type": "application/json",
+      "title": "DC__2018-0248-UKR__2017-06-28__2019-06-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0158-ken.json",
+      "type": "application/json",
+      "title": "DC__2015-0158-KEN__2014-04-04__2016-04-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0442-usa-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0442-USA-D__2020-07-16__2022-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0294-bgd.json",
+      "type": "application/json",
+      "title": "DC__2023-0294-BGD__2022-05-13__2024-05-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0455-nga-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0455-NGA-D__2019-06-24__2021-06-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0405-pak.json",
+      "type": "application/json",
+      "title": "DC__2022-0405-PAK__2021-06-14__2023-06-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0295-som-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0295-SOM-D__2022-04-01__2024-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0106-nam-d.json",
+      "type": "application/json",
+      "title": "DC__2017-0106-NAM-D__2016-01-01__2018-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0287-bfa-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0287-BFA-P__2015-06-21__2017-06-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0205-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0205-IND-D__2017-06-22__2019-06-22.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0449-yem.json",
+      "type": "application/json",
+      "title": "DC__2021-0449-YEM__2020-07-16__2022-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0562-usa.json",
+      "type": "application/json",
+      "title": "DC__2021-0562-USA__2020-07-30__2022-07-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0514-afg-p.json",
+      "type": "application/json",
+      "title": "DC__2022-0514-AFG-P__2021-08-16__2023-08-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0383-irn.json",
+      "type": "application/json",
+      "title": "DC__2018-0383-IRN__2017-10-05__2019-10-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0449-sen-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0449-SEN-D__2015-07-01__2017-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0633-moz.json",
+      "type": "application/json",
+      "title": "DC__2019-0633-MOZ__2018-12-27__2020-12-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0455-nga.json",
+      "type": "application/json",
+      "title": "DC__2020-0455-NGA__2019-06-24__2021-06-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0234-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0234-IND-D__2015-06-12__2017-06-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0462-zaf-p.json",
+      "type": "application/json",
+      "title": "DC__2017-0462-ZAF-P__2016-10-09__2018-10-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0152-mmr-p.json",
+      "type": "application/json",
+      "title": "DC__2017-0152-MMR-P__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0361-esp.json",
+      "type": "application/json",
+      "title": "DC__2018-0361-ESP__2017-10-09__2019-10-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0803-idn.json",
+      "type": "application/json",
+      "title": "DC__2023-0803-IDN__2022-11-24__2024-11-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0473-sdn.json",
+      "type": "application/json",
+      "title": "DC__2021-0473-SDN__2020-07-20__2022-07-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0199-ind-p.json",
+      "type": "application/json",
+      "title": "DC__2018-0199-IND-P__2017-06-01__2019-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0445-sdn-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0445-SDN-D__2021-05-10__2023-05-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0264-phl.json",
+      "type": "application/json",
+      "title": "DC__2019-0264-PHL__2018-06-03__2020-06-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0133-som-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0133-SOM-D__2017-04-01__2019-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0115-ury.json",
+      "type": "application/json",
+      "title": "DC__2016-0115-URY__2015-04-12__2017-04-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0172-som.json",
+      "type": "application/json",
+      "title": "DC__2023-0172-SOM__2022-03-12__2024-03-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0255-tha.json",
+      "type": "application/json",
+      "title": "DC__2023-0255-THA__2022-04-23__2024-04-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0227-ken-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0227-KEN-P__2020-04-07__2022-04-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0294-ind.json",
+      "type": "application/json",
+      "title": "DC__2023-0294-IND__2022-05-14__2024-05-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0533-fra.json",
+      "type": "application/json",
+      "title": "DC__2019-0533-FRA__2018-10-28__2020-10-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0199-tha.json",
+      "type": "application/json",
+      "title": "DC__2020-0199-THA__2019-04-29__2021-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0834-bol.json",
+      "type": "application/json",
+      "title": "DC__2021-0834-BOL__2020-12-18__2022-12-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0521-nga.json",
+      "type": "application/json",
+      "title": "DC__2021-0521-NGA__2020-07-01__2022-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0500-som-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0500-SOM-D__2018-10-01__2020-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0091-chl.json",
+      "type": "application/json",
+      "title": "DC__2019-0091-CHL__2018-02-01__2020-02-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0373-dom-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0373-DOM-P__2020-07-03__2022-07-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0267-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0267-IND__2017-07-26__2019-07-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0305-sdn-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0305-SDN-D__2019-06-01__2021-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0257-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2017-0257-IND-D__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0544-som.json",
+      "type": "application/json",
+      "title": "DC__2015-0544-SOM__2014-03-01__2016-03-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0248-moz-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0248-MOZ-P__2015-01-05__2017-01-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0295-ind.json",
+      "type": "application/json",
+      "title": "DC__2021-0295-IND__2020-05-25__2022-05-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0101-mdg-p.json",
+      "type": "application/json",
+      "title": "DC__2022-0101-MDG-P__2021-02-23__2023-02-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0359-mex.json",
+      "type": "application/json",
+      "title": "DC__2021-0359-MEX__2020-06-25__2022-06-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0106-nam.json",
+      "type": "application/json",
+      "title": "DC__2017-0106-NAM__2016-01-01__2018-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0011-moz.json",
+      "type": "application/json",
+      "title": "DC__2015-0011-MOZ__2014-01-01__2016-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0209-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0209-IND__2017-05-06__2019-05-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0172-som-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0172-SOM-D__2022-03-12__2024-03-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0232-mmr.json",
+      "type": "application/json",
+      "title": "DC__2016-0232-MMR__2015-06-01__2017-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0746-cod.json",
+      "type": "application/json",
+      "title": "DC__2022-0746-COD__2021-11-13__2023-11-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0428-pak-p.json",
+      "type": "application/json",
+      "title": "DC__2023-0428-PAK-P__2022-06-25__2024-06-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0544-som-p.json",
+      "type": "application/json",
+      "title": "DC__2015-0544-SOM-P__2014-03-01__2016-03-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0746-cod-p.json",
+      "type": "application/json",
+      "title": "DC__2022-0746-COD-P__2021-11-13__2023-11-13.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0280-sdn.json",
+      "type": "application/json",
+      "title": "DC__2019-0280-SDN__2018-06-08__2020-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0607-zaf.json",
+      "type": "application/json",
+      "title": "DC__2019-0607-ZAF__2018-12-02__2020-12-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0429-pak-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0429-PAK-D__2020-07-19__2022-07-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0579-mex-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0579-MEX-D__2021-09-03__2023-09-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0548-zaf.json",
+      "type": "application/json",
+      "title": "DC__2019-0548-ZAF__2018-11-11__2020-11-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0321-ind.json",
+      "type": "application/json",
+      "title": "DC__2019-0321-IND__2018-06-06__2020-06-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0325-mex.json",
+      "type": "application/json",
+      "title": "DC__2021-0325-MEX__2020-06-18__2022-06-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0219-ner.json",
+      "type": "application/json",
+      "title": "DC__2016-0219-NER__2015-06-20__2017-06-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0373-dom.json",
+      "type": "application/json",
+      "title": "DC__2021-0373-DOM__2020-07-03__2022-07-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0405-pak-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0405-PAK-D__2021-06-14__2023-06-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0488-usa.json",
+      "type": "application/json",
+      "title": "DC__2015-0488-USA__2014-10-29__2016-10-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0270-yem.json",
+      "type": "application/json",
+      "title": "DC__2021-0270-YEM__2020-05-01__2022-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0217-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0217-IND-D__2019-06-03__2021-06-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0218-gtm.json",
+      "type": "application/json",
+      "title": "DC__2020-0218-GTM__2019-05-30__2021-05-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0654-mli.json",
+      "type": "application/json",
+      "title": "DC__2022-0654-MLI__2021-07-01__2023-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0561-esp-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0561-ESP-D__2020-08-29__2022-08-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0137-per-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0137-PER-D__2022-01-01__2024-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0582-grc.json",
+      "type": "application/json",
+      "title": "DC__2023-0582-GRC__2022-09-04__2024-09-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0091-zwe.json",
+      "type": "application/json",
+      "title": "DC__2017-0091-ZWE__2016-01-01__2018-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0570-tjk.json",
+      "type": "application/json",
+      "title": "DC__2023-0570-TJK__2022-08-27__2024-08-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0392-sdn-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0392-SDN-D__2018-07-01__2020-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0429-pak.json",
+      "type": "application/json",
+      "title": "DC__2021-0429-PAK__2020-07-19__2022-07-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0255-tha-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0255-THA-D__2022-04-23__2024-04-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0168-mex.json",
+      "type": "application/json",
+      "title": "DC__2017-0168-MEX__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0461-ner.json",
+      "type": "application/json",
+      "title": "DC__2021-0461-NER__2020-06-15__2022-06-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0153-lka-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0153-LKA-P__2015-05-14__2017-05-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0375-fra.json",
+      "type": "application/json",
+      "title": "DC__2018-0375-FRA__2017-10-14__2019-10-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0234-ind.json",
+      "type": "application/json",
+      "title": "DC__2016-0234-IND__2015-06-12__2017-06-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0523-zwe.json",
+      "type": "application/json",
+      "title": "DC__2016-0523-ZWE__2015-12-09__2017-12-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0133-som.json",
+      "type": "application/json",
+      "title": "DC__2018-0133-SOM__2017-04-01__2019-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0202-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0202-IND__2017-06-08__2019-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0372-pak-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0372-PAK-D__2018-07-29__2020-07-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0748-cog-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0748-COG-D__2021-09-01__2023-09-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0376-hti.json",
+      "type": "application/json",
+      "title": "DC__2020-0376-HTI__2019-08-23__2021-08-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0561-esp.json",
+      "type": "application/json",
+      "title": "DC__2021-0561-ESP__2020-08-29__2022-08-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0199-tha-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0199-THA-D__2019-04-29__2021-04-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0697-fra.json",
+      "type": "application/json",
+      "title": "DC__2022-0697-FRA__2021-10-23__2023-10-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0525-ita-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0525-ITA-D__2021-08-14__2023-08-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0160-chn.json",
+      "type": "application/json",
+      "title": "DC__2015-0160-CHN__2014-04-04__2016-04-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0294-ind-p.json",
+      "type": "application/json",
+      "title": "DC__2023-0294-IND-P__2022-05-14__2024-05-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0807-tza.json",
+      "type": "application/json",
+      "title": "DC__2023-0807-TZA__2022-10-15__2024-10-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0582-grc-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0582-GRC-D__2022-09-04__2024-09-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0232-ner.json",
+      "type": "application/json",
+      "title": "DC__2018-0232-NER__2017-06-01__2019-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0581-esp-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0581-ESP-D__2022-09-02__2024-09-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0103-bwa-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0103-BWA-D__2017-02-23__2019-02-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0376-hti-p.json",
+      "type": "application/json",
+      "title": "DC__2020-0376-HTI-P__2019-08-23__2021-08-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0237-ind.json",
+      "type": "application/json",
+      "title": "DC__2016-0237-IND__2015-06-20__2017-06-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0500-som.json",
+      "type": "application/json",
+      "title": "DC__2019-0500-SOM__2018-10-01__2020-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0447-esp-d.json",
+      "type": "application/json",
+      "title": "DC__2015-0447-ESP-D__2014-09-07__2016-09-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0321-ind-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0321-IND-D__2018-06-06__2020-06-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0176-zaf.json",
+      "type": "application/json",
+      "title": "DC__2019-0176-ZAF__2018-04-21__2020-04-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0199-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0199-IND__2017-06-01__2019-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0748-cog.json",
+      "type": "application/json",
+      "title": "DC__2022-0748-COG__2021-09-01__2023-09-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0376-prt-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0376-PRT-D__2017-10-14__2019-10-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0446-ner.json",
+      "type": "application/json",
+      "title": "DC__2022-0446-NER__2021-06-01__2023-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0152-mmr.json",
+      "type": "application/json",
+      "title": "DC__2017-0152-MMR__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0365-gtm-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0365-GTM-D__2022-05-01__2024-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0272-mli.json",
+      "type": "application/json",
+      "title": "DC__2016-0272-MLI__2015-07-11__2017-07-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0065-bra-p.json",
+      "type": "application/json",
+      "title": "DC__2022-0065-BRA-P__2021-01-01__2023-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0203-phl.json",
+      "type": "application/json",
+      "title": "DC__2020-0203-PHL__2019-05-15__2021-05-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0609-ita-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0609-ITA-D__2021-09-15__2023-09-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0446-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0446-NER-D__2021-06-01__2023-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0324-mng-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0324-MNG-D__2019-07-02__2021-07-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0457-ner.json",
+      "type": "application/json",
+      "title": "DC__2023-0457-NER__2022-07-01__2024-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0407-rus.json",
+      "type": "application/json",
+      "title": "DC__2018-0407-RUS__2017-10-24__2019-10-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0137-per-p.json",
+      "type": "application/json",
+      "title": "DC__2023-0137-PER-P__2022-01-01__2024-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0075-zaf-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0075-ZAF-P__2020-02-01__2022-02-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0274-mex.json",
+      "type": "application/json",
+      "title": "DC__2021-0274-MEX__2020-05-16__2022-05-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0408-ita.json",
+      "type": "application/json",
+      "title": "DC__2017-0408-ITA__2016-09-09__2018-09-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0118-chl.json",
+      "type": "application/json",
+      "title": "DC__2016-0118-CHL__2015-04-15__2017-04-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0263-vnm.json",
+      "type": "application/json",
+      "title": "DC__2023-0263-VNM__2022-04-28__2024-04-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0168-cub.json",
+      "type": "application/json",
+      "title": "DC__2015-0168-CUB__2014-04-30__2016-04-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0372-pak.json",
+      "type": "application/json",
+      "title": "DC__2019-0372-PAK__2018-07-29__2020-07-29.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0459-fra-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0459-FRA-D__2019-09-19__2021-09-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0525-ita.json",
+      "type": "application/json",
+      "title": "DC__2022-0525-ITA__2021-08-14__2023-08-14.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0183-gtm.json",
+      "type": "application/json",
+      "title": "DC__2020-0183-GTM__2019-05-09__2021-05-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0336-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0336-NER-D__2019-07-01__2021-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0202-ind-p.json",
+      "type": "application/json",
+      "title": "DC__2018-0202-IND-P__2017-06-08__2019-06-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0611-chn.json",
+      "type": "application/json",
+      "title": "DC__2019-0611-CHN__2018-10-15__2020-10-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0392-sdn.json",
+      "type": "application/json",
+      "title": "DC__2019-0392-SDN__2018-07-01__2020-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0316-mex.json",
+      "type": "application/json",
+      "title": "DC__2020-0316-MEX__2019-07-25__2021-07-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0263-pol.json",
+      "type": "application/json",
+      "title": "DC__2015-0263-POL__2014-07-19__2016-07-19.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0217-ind.json",
+      "type": "application/json",
+      "title": "DC__2020-0217-IND__2019-06-03__2021-06-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0346-pak.json",
+      "type": "application/json",
+      "title": "DC__2019-0346-PAK__2018-07-16__2020-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0065-bra-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0065-BRA-D__2021-01-01__2023-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0205-ind.json",
+      "type": "application/json",
+      "title": "DC__2018-0205-IND__2017-06-22__2019-06-22.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0118-ind.json",
+      "type": "application/json",
+      "title": "DC__2015-0118-IND__2014-04-04__2016-04-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0426-rou.json",
+      "type": "application/json",
+      "title": "DC__2016-0426-ROU__2015-10-09__2017-10-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0288-ind.json",
+      "type": "application/json",
+      "title": "DC__2019-0288-IND__2018-06-28__2020-06-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0570-tjk-p.json",
+      "type": "application/json",
+      "title": "DC__2023-0570-TJK-P__2022-08-27__2024-08-27.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0219-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0219-NER-D__2015-06-20__2017-06-20.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0503-chn.json",
+      "type": "application/json",
+      "title": "DC__2023-0503-CHN__2022-08-01__2024-08-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0265-ind.json",
+      "type": "application/json",
+      "title": "DC__2017-0265-IND__2016-07-08__2018-07-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0846-pak.json",
+      "type": "application/json",
+      "title": "DC__2021-0846-PAK__2020-07-01__2022-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0288-pak.json",
+      "type": "application/json",
+      "title": "DC__2015-0288-PAK__2014-06-25__2016-06-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0790-bra.json",
+      "type": "application/json",
+      "title": "DC__2021-0790-BRA__2020-11-15__2022-11-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0473-rus.json",
+      "type": "application/json",
+      "title": "DC__2022-0473-RUS__2021-07-22__2023-07-22.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0198-slv-d.json",
+      "type": "application/json",
+      "title": "DC__2015-0198-SLV-D__2014-05-02__2016-05-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0292-sdn-p.json",
+      "type": "application/json",
+      "title": "DC__2018-0292-SDN-P__2017-07-23__2019-07-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0500-eth.json",
+      "type": "application/json",
+      "title": "DC__2019-0500-ETH__2018-10-01__2020-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0481-ssd.json",
+      "type": "application/json",
+      "title": "DC__2021-0481-SSD__2020-05-01__2022-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0741-som-p.json",
+      "type": "application/json",
+      "title": "DC__2023-0741-SOM-P__2022-09-01__2024-09-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0030-mwi.json",
+      "type": "application/json",
+      "title": "DC__2015-0030-MWI__2014-01-02__2016-01-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0106-chl.json",
+      "type": "application/json",
+      "title": "DC__2015-0106-CHL__2014-03-25__2016-03-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0392-sdn-p.json",
+      "type": "application/json",
+      "title": "DC__2019-0392-SDN-P__2018-07-01__2020-07-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0843-mwi.json",
+      "type": "application/json",
+      "title": "DC__2022-0843-MWI__2021-11-01__2023-11-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0449-yem-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0449-YEM-D__2020-07-16__2022-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0183-gtm-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0183-GTM-D__2019-05-09__2021-05-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0334-grc-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0334-GRC-D__2015-09-05__2017-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0519-mex.json",
+      "type": "application/json",
+      "title": "DC__2019-0519-MEX__2018-09-05__2020-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0219-mex.json",
+      "type": "application/json",
+      "title": "DC__2020-0219-MEX__2019-06-03__2021-06-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0601-mdg.json",
+      "type": "application/json",
+      "title": "DC__2019-0601-MDG__2018-12-09__2020-12-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0187-ken-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0187-KEN-D__2022-03-25__2024-03-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0562-usa-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0562-USA-D__2020-07-30__2022-07-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0700-dza.json",
+      "type": "application/json",
+      "title": "DC__2021-0700-DZA__2020-10-23__2022-10-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0442-usa.json",
+      "type": "application/json",
+      "title": "DC__2021-0442-USA__2020-07-16__2022-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0399-usa.json",
+      "type": "application/json",
+      "title": "DC__2015-0399-USA__2014-07-24__2016-07-24.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0286-rou-p.json",
+      "type": "application/json",
+      "title": "DC__2020-0286-ROU-P__2019-06-10__2021-06-10.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0500-eth-p.json",
+      "type": "application/json",
+      "title": "DC__2019-0500-ETH-P__2018-10-01__2020-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0295-bgd.json",
+      "type": "application/json",
+      "title": "DC__2021-0295-BGD__2020-05-25__2022-05-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0498-mex-p.json",
+      "type": "application/json",
+      "title": "DC__2017-0498-MEX-P__2016-09-26__2018-09-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0269-ner.json",
+      "type": "application/json",
+      "title": "DC__2016-0269-NER__2015-06-01__2017-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0382-tcd-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0382-TCD-D__2020-06-26__2022-06-26.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0067-pry.json",
+      "type": "application/json",
+      "title": "DC__2021-0067-PRY__2020-01-31__2022-01-31.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0140-arg-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0140-ARG-P__2020-03-01__2022-03-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0137-per.json",
+      "type": "application/json",
+      "title": "DC__2023-0137-PER__2022-01-01__2024-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0834-bol-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0834-BOL-P__2020-12-18__2022-12-18.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0013-nam.json",
+      "type": "application/json",
+      "title": "DC__2021-0013-NAM__2020-01-01__2022-01-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0205-ken.json",
+      "type": "application/json",
+      "title": "DC__2017-0205-KEN__2016-05-08__2018-05-08.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0509-tcd.json",
+      "type": "application/json",
+      "title": "DC__2022-0509-TCD__2021-06-06__2023-06-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0198-slv.json",
+      "type": "application/json",
+      "title": "DC__2015-0198-SLV__2014-05-02__2016-05-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0295-som-p.json",
+      "type": "application/json",
+      "title": "DC__2023-0295-SOM-P__2022-04-01__2024-04-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0239-som-p.json",
+      "type": "application/json",
+      "title": "DC__2021-0239-SOM-P__2020-05-01__2022-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0138-mmr-d.json",
+      "type": "application/json",
+      "title": "DC__2016-0138-MMR-D__2015-04-21__2017-04-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0239-som.json",
+      "type": "application/json",
+      "title": "DC__2021-0239-SOM__2020-05-01__2022-05-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0456-pak.json",
+      "type": "application/json",
+      "title": "DC__2021-0456-PAK__2020-07-28__2022-07-28.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0505-fra.json",
+      "type": "application/json",
+      "title": "DC__2019-0505-FRA__2018-10-21__2020-10-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0158-ken-p.json",
+      "type": "application/json",
+      "title": "DC__2015-0158-KEN-P__2014-04-04__2016-04-04.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0118-chl-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0118-CHL-P__2015-04-15__2017-04-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0249-mng-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0249-MNG-D__2017-07-03__2019-07-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0497-mng.json",
+      "type": "application/json",
+      "title": "DC__2022-0497-MNG__2021-06-01__2023-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0501-yem.json",
+      "type": "application/json",
+      "title": "DC__2022-0501-YEM__2021-08-03__2023-08-03.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0489-zaf.json",
+      "type": "application/json",
+      "title": "DC__2020-0489-ZAF__2019-11-17__2021-11-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0101-eth-p.json",
+      "type": "application/json",
+      "title": "DC__2016-0101-ETH-P__2015-04-02__2017-04-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0294-ind.json",
+      "type": "application/json",
+      "title": "DC__2017-0294-IND__2016-06-01__2018-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0357-pak.json",
+      "type": "application/json",
+      "title": "DC__2020-0357-PAK__2019-08-01__2021-08-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0103-bwa.json",
+      "type": "application/json",
+      "title": "DC__2018-0103-BWA__2017-02-23__2019-02-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0094-zwe.json",
+      "type": "application/json",
+      "title": "DC__2019-0094-ZWE__2018-02-11__2020-02-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0741-som-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0741-SOM-D__2022-09-01__2024-09-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0179-uga.json",
+      "type": "application/json",
+      "title": "DC__2019-0179-UGA__2018-04-22__2020-04-22.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0227-ken.json",
+      "type": "application/json",
+      "title": "DC__2021-0227-KEN__2020-04-07__2022-04-07.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0175-bgd.json",
+      "type": "application/json",
+      "title": "DC__2016-0175-BGD__2015-05-21__2017-05-21.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0274-mex-d.json",
+      "type": "application/json",
+      "title": "DC__2021-0274-MEX-D__2020-05-16__2022-05-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0807-tza-d.json",
+      "type": "application/json",
+      "title": "DC__2023-0807-TZA-D__2022-10-15__2024-10-15.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0843-mwi-d.json",
+      "type": "application/json",
+      "title": "DC__2022-0843-MWI-D__2021-11-01__2023-11-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0135-aus.json",
+      "type": "application/json",
+      "title": "DC__2015-0135-AUS__2014-03-12__2016-03-12.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0207-cub.json",
+      "type": "application/json",
+      "title": "DC__2020-0207-CUB__2019-05-25__2021-05-25.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2017-0376-mex.json",
+      "type": "application/json",
+      "title": "DC__2017-0376-MEX__2016-08-30__2018-08-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0101-eth.json",
+      "type": "application/json",
+      "title": "DC__2016-0101-ETH__2015-04-02__2017-04-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0092-arg.json",
+      "type": "application/json",
+      "title": "DC__2020-0092-ARG__2019-02-11__2021-02-11.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0232-ner-d.json",
+      "type": "application/json",
+      "title": "DC__2018-0232-NER-D__2017-06-01__2019-06-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2022-0366-cub.json",
+      "type": "application/json",
+      "title": "DC__2022-0366-CUB__2021-06-02__2023-06-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0479-bhs-d.json",
+      "type": "application/json",
+      "title": "DC__2015-0479-BHS-D__2014-10-01__2016-10-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0264-gtm-p.json",
+      "type": "application/json",
+      "title": "DC__2020-0264-GTM-P__2019-06-17__2021-06-17.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2016-0276-ind.json",
+      "type": "application/json",
+      "title": "DC__2016-0276-IND__2015-07-09__2017-07-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2023-0579-mrt.json",
+      "type": "application/json",
+      "title": "DC__2023-0579-MRT__2022-07-30__2024-07-30.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0440-tun-d.json",
+      "type": "application/json",
+      "title": "DC__2020-0440-TUN-D__2019-09-05__2021-09-05.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0091-chl-p.json",
+      "type": "application/json",
+      "title": "DC__2019-0091-CHL-P__2018-02-01__2020-02-01.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2018-0103-bwa-p.json",
+      "type": "application/json",
+      "title": "DC__2018-0103-BWA-P__2017-02-23__2019-02-23.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0388-fra.json",
+      "type": "application/json",
+      "title": "DC__2019-0388-FRA__2018-08-09__2020-08-09.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0434-fra.json",
+      "type": "application/json",
+      "title": "DC__2015-0434-FRA__2014-09-16__2016-09-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2019-0346-pak-d.json",
+      "type": "application/json",
+      "title": "DC__2019-0346-PAK-D__2018-07-16__2020-07-16.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2020-0418-fra.json",
+      "type": "application/json",
+      "title": "DC__2020-0418-FRA__2019-10-02__2021-10-02.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2021-0240-uga.json",
+      "type": "application/json",
+      "title": "DC__2021-0240-UGA__2020-05-06__2022-05-06.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./arceme-datacubes-emdat-2015-0375-dom.json",
+      "type": "application/json",
+      "title": "DC__2015-0375-DOM__2014-08-28__2016-08-28.zarr"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-07-22T11:38:08.803200Z",
+  "updated": "2026-07-22T11:38:08.803200Z",
+  "osc:project": "arceme",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "surface-reflectance",
+    "land-cover",
+    "digital-elevation-terrain-model-dem"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "surface-reflectance"
+    },
+    {
+      "name": "land-cover"
+    },
+    {
+      "name": "digital-elevation-terrain-model-dem"
+    }
+  ],
+  "title": "ARCEME Data Cubes - EM-DAT Disaster Sites",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.45001994311332,
+          -42.44636891993463,
+          150.6553406618362,
+          53.8448037911932
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-01T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "earth observation",
+    "data cube",
+    "zarr",
+    "Sentinel-2",
+    "Sentinel-1",
+    "DEM",
+    "land cover",
+    "extreme events",
+    "climate adaptation",
+    "ARCEME",
+    "EM-DAT",
+    "disasters"
+  ]
+}

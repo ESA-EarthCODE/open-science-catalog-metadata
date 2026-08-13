@@ -1,0 +1,310 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "earthcare-goes-labeled-image-chips",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.52995997704927,
+          -24.56226685665589
+        ],
+        [
+          -75.52995997704927,
+          -2.8786004721832694
+        ],
+        [
+          -96.4519286006581,
+          -2.8786004721832694
+        ],
+        [
+          -96.4519286006581,
+          -24.56226685665589
+        ],
+        [
+          -75.52995997704927,
+          -24.56226685665589
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.4519286006581,
+    -24.56226685665589,
+    -75.52995997704927,
+    -2.8786004721832694
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "Manual labels and normalized four-channel GOES image chips for cloud morphology classification.",
+    "start_datetime": "2025-01-02T16:00:00Z",
+    "end_datetime": "2025-12-30T14:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/earthcare-marine-stratocumulus-transitions/labeled_goes_data/earthcode_labeled_goes_data.zarr",
+      "type": "application/vnd+zarr",
+      "title": "GOES ABI labeled image chips for mesoscale cloud morphology classification",
+      "platform": "GOES-16 (until 7 Apr. 2025), and GOES-19 (from 8 Apr. 2025)",
+      "instruments": [
+        "GOES-East Advanced Baseline Imager (ABI)"
+      ],
+      "created": "2026-07-10T15:16:34.647921+00:00",
+      "cube:dimensions": {
+        "datetime": {
+          "extent": [
+            "2025-01-02T16:00:00Z",
+            "2025-12-30T14:00:00Z"
+          ],
+          "description": "GOES scene datetime",
+          "type": "temporal"
+        }
+      },
+      "cube:variables": {
+        "ice_flag": {
+          "type": "data",
+          "description": "fraction of chip pixels colder than 273 K",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "fraction of chip pixels colder than 273 K",
+            "units": "1",
+            "valid_min": 0.0,
+            "valid_max": 1.0
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "image_data": {
+          "type": "data",
+          "description": "normalized four-channel GOES image chip",
+          "dimensions": [
+            "sample",
+            "channel",
+            "y",
+            "x"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "normalized four-channel GOES image chip",
+            "units": "1",
+            "grid_mapping": "spatial_ref",
+            "ancillary_variables": "label label_name",
+            "comment": "Channels are BT15-BT14, BT14-BT11, BT14, and normalized cloud optical depth. Values are normalized for CNN input."
+          },
+          "shape": [
+            479,
+            4,
+            128,
+            128
+          ],
+          "chunks": [
+            64,
+            4,
+            128,
+            128
+          ]
+        },
+        "label": {
+          "type": "data",
+          "description": "manual mesoscale cloud morphology class",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "manual mesoscale cloud morphology class",
+            "units": "1",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "flag_meanings": "solid_stratus closed_mcc open_mcc disorganized_mcc clustered_cu suppressed_cu"
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "label_name": {
+          "type": "data",
+          "description": "human-readable class name derived from label",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "human-readable class name derived from label"
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            479
+          ]
+        },
+        "source_sample_index": {
+          "type": "data",
+          "description": "original non-unique sample coordinate from source file",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "original non-unique sample coordinate from source file",
+            "units": "1"
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            479
+          ]
+        },
+        "unique_id": {
+          "type": "data",
+          "description": "stable GOES chip identifier",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "stable GOES chip identifier",
+            "comment": "Format is YYYYMMDDHHMM_yindex_xindex."
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            479
+          ]
+        },
+        "x_idx": {
+          "type": "data",
+          "description": "GOES processing-grid x index at chip center",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "GOES processing-grid x index at chip center",
+            "units": "1",
+            "comment": "Chip-center index in the GOES processing grid used by the labeling workflow."
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "y_idx": {
+          "type": "data",
+          "description": "GOES processing-grid y index at chip center",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "GOES processing-grid y index at chip center",
+            "units": "1",
+            "comment": "Chip-center index in the GOES processing grid used by the labeling workflow."
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "datetime": {
+          "type": "auxiliary",
+          "description": "GOES scene datetime",
+          "dimensions": [
+            "sample"
+          ],
+          "attrs": {
+            "long_name": "GOES scene datetime",
+            "standard_name": "time"
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "lat_mid": {
+          "type": "auxiliary",
+          "description": "chip center latitude",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "long_name": "chip center latitude",
+            "standard_name": "latitude",
+            "units": "degrees_north"
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        },
+        "lon_mid": {
+          "type": "auxiliary",
+          "description": "chip center longitude",
+          "dimensions": [
+            "sample"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "long_name": "chip center longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east"
+          },
+          "shape": [
+            479
+          ],
+          "chunks": [
+            64
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "earthcare-marine-stratocumulus-transitions",
+  "title": "GOES ABI labeled image chips for mesoscale cloud morphology classification"
+}

@@ -1,0 +1,186 @@
+{
+  "type": "Collection",
+  "id": "eowetmet",
+  "stac_version": "1.0.0",
+  "description": "Wetlands and lakes are the largest natural source of global methane emissions. Their magnitude remains poorly understood due to data availability, a limited understanding of environmental drivers, and accessibility, especially in the Arctic. Through collaboration with academic institutions, research organizations and government agencies, EOWetMet aims to advance and develop new methods and models to improve wetland and lake characterization and methane emission estimation to enhance the understanding of exchange processes in the Arctic.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://c-core.ca/projects/eo-driven-insights-for-advancing-arctic-wetland-and-lake-methane-emissions-monitoring-eowetmet/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eowetmet/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-seasonal-inundation-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-regional-30m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Regional High-Resolution 30 m Wetland Methane Flux Dataset (2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-pan-arctic-daily-9km-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-pan-arctic-average-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Average Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-07-01T13:07:27.605901Z",
+  "updated": "2026-07-01T13:07:27.605901Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Stephen Plummer",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "stephen.plummer@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "C-CORE (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Aurora Research Institute (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Flux Lab (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Government of Northwest Territories (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Harvard University (USA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Memorial University of Newfoundland and Labrador (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "TerraMotion (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Université de Montréal (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Wilfrid Laurier University (CA)",
+      "roles": [
+        "consoritum_member"
+      ]
+    }
+  ],
+  "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          45.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-19T00:00:00Z",
+          "2026-10-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

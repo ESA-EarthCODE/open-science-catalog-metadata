@@ -60,7 +60,7 @@
       "rel": "item",
       "href": "./ice-velocity-item.json",
       "type": "application/json",
-      "title": "Zarr Store"
+      "title": "Ice Velocity 2014-2021 Zarr Store"
     },
     {
       "rel": "example",

@@ -193,7 +193,7 @@
       "rel": "child",
       "href": "./arceme/collection.json",
       "type": "application/json",
-      "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
+      "title": "Adaptation and Resilience to Climate Extremes and Multi-hazard events - ARCEME"
     },
     {
       "rel": "child",
@@ -500,6 +500,12 @@
       "href": "./forestscan/collection.json",
       "type": "application/json",
       "title": "ForestScan"
+    },
+    {
+      "rel": "child",
+      "href": "./fortrack/collection.json",
+      "type": "application/json",
+      "title": "FORTRACK"
     },
     {
       "rel": "child",
@@ -1262,6 +1268,12 @@
       "href": "./mitho/collection.json",
       "type": "application/json",
       "title": "MITHO (Multiple Threats on Ocean Health)"
+    },
+    {
+      "rel": "child",
+      "href": "./eowetmet/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

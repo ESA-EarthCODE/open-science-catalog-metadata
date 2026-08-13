@@ -7,34 +7,16 @@
     "type": "Polygon",
     "coordinates": [
       [
-        [
-          136.441956,
-          -50.692366
-        ],
-        [
-          136.441956,
-          -50.686379
-        ],
-        [
-          -136.436771,
-          -50.686379
-        ],
-        [
-          -136.436771,
-          -50.692366
-        ],
-        [
-          136.441956,
-          -50.692366
-        ]
+        [180.0, -90.0], 
+        [180.0, -50.69217369308933], 
+        [-180.0, -50.69217369308933], 
+        [-180.0, -90.0], 
+        [180.0, -90.0]
       ]
     ]
   },
   "bbox": [
-    -136.436771,
-    -50.692366,
-    136.441956,
-    -50.686379
+    -180.0, -90.0, 180.0, -50.69217369308933
   ],
   "properties": {
     "license": "cc-by-4.0",
@@ -60,9 +42,18 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/Polar_Ice_Shelves/antarctic-ice-shelf-melt-rates/basal_melt_map_racmo_firn_air_corrected.tif",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/basal_melt/basal_melt_map_racmo_firn_air_corrected.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Basal melt map racmo firn air corrected COG",
+      "raster:bands": [
+        {
+          "name": "basal_melt_rate",
+          "data_type": "float32",
+          "nodata": null,
+          "spatial_resolution": 1000.0,
+          "unit": null
+        }
+      ],
       "proj:transform": [
         1000.0,
         0.0,

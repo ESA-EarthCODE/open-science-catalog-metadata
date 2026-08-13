@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "eowetmet-pan-arctic-average-wetland-methane-flux",
+  "stac_version": "1.0.0",
+  "description": "The EOWetMet Pan-Arctic Average Wetland Methane Flux Dataset provides period-average methane flux maps for northern and Arctic wetlands derived from the EOWetMet Database. The dataset includes average methane flux products derived from the EOWetMet Random Forest methane upscaling framework using four wetland and land-cover map configurations: PAWM, BAWLD, WAD2M, and MODIS IGBP. The repository also includes benchmark average methane products derived from CarbonTracker and the WetCHARTs ensemble to facilitate comparison between EOWetMet methane flux estimates and widely used top-down and bottom-up methane emission datasets.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eowetmet/collection.json",
+      "type": "application/json",
+      "title": "Project: EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/methane/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Methane"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.20547980",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.20547980"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-07-01T13:14:24.230653Z",
+  "updated": "2026-07-01T13:14:24.230653Z",
+  "osc:project": "eowetmet",
+  "osc:status": "completed",
+  "osc:region": "Pan-Arctic",
+  "osc:type": "product",
+  "osc:missions": [
+    "numerical-models"
+  ],
+  "osc:variables": [
+    "methane"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.20547980",
+  "cf:parameter": [
+    {
+      "name": "methane"
+    }
+  ],
+  "title": "EOWetMet: Pan-Arctic Average Wetland Methane Flux Dataset (2015-2024)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          45.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "wetlands",
+    "Arctic",
+    "methane",
+    "methane flux",
+    "Pan-Arctic",
+    "Earth Observation",
+    "greenhouse gases",
+    "remote sensing"
+  ]
+}

@@ -5,6 +5,11 @@
   "description": "Launched in January 2015, the Soil Moisture Active Passive (SMAP) mission consists of an imaging radar satellite whose operations are led by the National Aeronautical and Space Administration (NASA), with assistance from the Canadian Space Agency (CSA). SMAP uses radio waves to map soil moisture and determine the freeze or thaw state of the same area.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smap/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -53,9 +58,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/smap/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
+      "type": "application/json",
+      "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

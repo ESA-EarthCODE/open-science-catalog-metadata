@@ -1,0 +1,2855 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "earthcare-acmcap-scene-properties",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.08668851852417,
+          -22.00470542907715
+        ],
+        [
+          15.08668851852417,
+          34.4427604675293
+        ],
+        [
+          -134.70673370361328,
+          34.4427604675293
+        ],
+        [
+          -134.70673370361328,
+          -22.00470542907715
+        ],
+        [
+          15.08668851852417,
+          -22.00470542907715
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -134.70673370361328,
+    -22.00470542907715,
+    15.08668851852417,
+    34.4427604675293
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "EarthCARE ACM-CAP profile variables joined to MSI neural-network scene labels and summarized to 128 km scene scale over four stratocumulus regions.",
+    "start_datetime": "2024-08-01T13:33:49Z",
+    "end_datetime": "2025-11-17T23:06:47Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/earthcare-marine-stratocumulus-transitions/acmcap_judge_stcu/earthcode_acmcap_judge_stcu.zarr",
+      "type": "application/vnd+zarr",
+      "title": "EarthCARE ACM-CAP scene properties joined to MSI neural-network cloud morphology labels",
+      "platform": "EarthCARE",
+      "processing:level": "scene_summary",
+      "created": "2026-07-10T15:16:40.025329+00:00",
+      "cube:dimensions": {
+        "time_mid": {
+          "extent": [
+            "2024-08-01T13:33:49Z",
+            "2025-11-17T23:06:47Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        }
+      },
+      "cube:variables": {
+        "acmcap_cloud_fraction": {
+          "type": "data",
+          "description": "ACM-CAP along-track cloud fraction of low clouds (CTH < 3km) in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "ACM-CAP cloud fraction",
+            "units": "1",
+            "description": "ACM-CAP along-track cloud fraction of low clouds (CTH < 3km) in the scene."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "along_track_mid": {
+          "type": "data",
+          "description": "midpoint along-track index",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "midpoint along-track index",
+            "units": "1"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cat_name": {
+          "type": "data",
+          "description": "CNN mesoscale cloud morphology class name",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "CNN mesoscale cloud morphology class name"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cats": {
+          "type": "data",
+          "description": "CNN mesoscale cloud morphology class",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "CNN mesoscale cloud morphology class",
+            "units": "1",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "flag_meanings": "solid_stratus closed_mcc open_mcc disorganized_mcc clustered_cu suppressed_cu"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh": {
+          "type": "data",
+          "description": "Cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "JSG_height",
+          "attrs": {
+            "long_name": "Cloud base height",
+            "units": "JSG_height",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m": {
+          "type": "data",
+          "description": "Cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m_median": {
+          "type": "data",
+          "description": "Median of cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Median of cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m_perc05": {
+          "type": "data",
+          "description": "5th percentile of cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "5th percentile of cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m_perc25": {
+          "type": "data",
+          "description": "25th percentile of cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "25th percentile of cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m_perc75": {
+          "type": "data",
+          "description": "75th percentile of cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "75th percentile of cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m_perc95": {
+          "type": "data",
+          "description": "95th percentile of cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "95th percentile of cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cbh_m_std": {
+          "type": "data",
+          "description": "Standard deviation of cloud base height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Standard deviation of cloud base height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cert": {
+          "type": "data",
+          "description": "CNN morphology classification confidence",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "CNN morphology classification confidence",
+            "units": "1"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cloud_cover": {
+          "type": "data",
+          "description": "MSI cloud cover",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "MSI cloud cover",
+            "units": "1",
+            "notes": "-",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "cloud_water_path",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D horizontal imager variable"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth": {
+          "type": "data",
+          "description": "Cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "JSG_height",
+          "attrs": {
+            "long_name": "Cloud top height",
+            "units": "JSG_height",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_all_clouds": {
+          "type": "data",
+          "description": "In contrast to all other ACM-CAP derived variables in this dataset, which are derived from low-level clouds (CTH < 3km), this variable is derived from all cloud layers, and represents the cloud top height of the highest cloud layer in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "JSG_height",
+          "attrs": {
+            "long_name": "Cloud top height of highest cloud layer",
+            "units": "JSG_height",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "In contrast to all other ACM-CAP derived variables in this dataset, which are derived from low-level clouds (CTH < 3km), this variable is derived from all cloud layers, and represents the cloud top height of the highest cloud layer in the scene."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m": {
+          "type": "data",
+          "description": "Cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m_median": {
+          "type": "data",
+          "description": "Median of cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Median of cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m_perc05": {
+          "type": "data",
+          "description": "5th percentile of cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "5th percentile of cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m_perc25": {
+          "type": "data",
+          "description": "25th percentile of cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "25th percentile of cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m_perc75": {
+          "type": "data",
+          "description": "75th percentile of cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "75th percentile of cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m_perc95": {
+          "type": "data",
+          "description": "95th percentile of cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "95th percentile of cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cth_m_std": {
+          "type": "data",
+          "description": "Standard deviation of cloud top height",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Standard deviation of cloud top height",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cwp_inhomogeneity": {
+          "type": "data",
+          "description": "std(cloud_water_path)/mean(cloud_water_path)",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "cloud water path inhomogeneity",
+            "units": "1",
+            "notes": "-",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "cloud_water_path",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "description": "std(cloud_water_path)/mean(cloud_water_path)",
+            "source_representation": "2D horizontal imager variable"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "cwp_skew": {
+          "type": "data",
+          "description": "cloud water path skewness",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "cloud water path skewness",
+            "units": "1",
+            "notes": "-",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "cloud_water_path",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D horizontal imager variable"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "daytime": {
+          "type": "data",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {},
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "doppler_velocity_mean": {
+          "type": "data",
+          "description": "Doppler velocity",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "long_name": "Doppler velocity",
+            "units": "m s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "CPR_doppler_velocity",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The mean of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The mean of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_median": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The median of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "median of Liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The median of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_passive_perspective": {
+          "type": "data",
+          "description": "Liquid effective radius computed as (3/2) * LWP / (density_liquid * optical_depth)",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Liquid effective radius computed as (3/2) * LWP / (density_liquid * optical_depth)",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_perc05": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 5th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "5th percentile of liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 5th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_perc25": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 25th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "25th percentile of liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 25th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_perc75": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 75th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "75th percentile of liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 75th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_perc95": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 95th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "95th percentile of liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 95th percentile of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ER_std": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The standard deviation of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Standard deviation of liquid effective radius",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_effective_radius",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The standard deviation of this 1D along-track ER is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ice_flag": {
+          "type": "data",
+          "description": "Relative frequency of pixels contaminated by ice clouds (defined as TIR2 < 273 K) in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "ice pixel fraction",
+            "units": "1",
+            "source_product": "MSI_NOM_1B",
+            "source_variable": "pixel_values",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "description": "Relative frequency of pixels contaminated by ice clouds (defined as TIR2 < 273 K) in the scene.",
+            "source_representation": "2D horizontal imager variable"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lat_max": {
+          "type": "data",
+          "description": "Maximum latitude of the scene along the nadir track.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "degree_north",
+          "attrs": {
+            "long_name": "Maximum latitude of the scene.",
+            "units": "degree_north",
+            "notes": "[-90:90]",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "latitude",
+            "description": "Maximum latitude of the scene along the nadir track."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lat_min": {
+          "type": "data",
+          "description": "Minimum latitude of the scene along the nadir track.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "degree_north",
+          "attrs": {
+            "long_name": "Minimum latitude of the scene.",
+            "units": "degree_north",
+            "notes": "[-90:90]",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "latitude",
+            "description": "Minimum latitude of the scene along the nadir track."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "liquid_classification_mean": {
+          "type": "data",
+          "description": "Liquid classification",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "Liquid classification",
+            "definition": "0: None\n1: Detected\n2: In rain\n3: In ice\n",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "liquid_optical_depth": {
+          "type": "data",
+          "description": "Liquid geometric optical depth",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "Liquid geometric optical depth",
+            "units": "1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_optical_depth",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The mean of this 1D along-track LWP is then taken over the scene. Profiles without low-level clouds are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The mean of this 1D along-track LWP is then taken over the scene. Profiles without low-level clouds are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_error": {
+          "type": "data",
+          "description": "One-sigma error in natural logarithm of liquid water content",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "One-sigma error in natural logarithm of liquid water content",
+            "units": "1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content_error",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_median": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The median of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "median of liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The median of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_perc05": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 5th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "5th percentile of liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 5th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_perc25": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 25th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "25th percentile of liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 25th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_perc75": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 75th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "75th percentile of liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 75th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_perc95": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 95th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "95th percentile of liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The 95th percentile of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lwp_std": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The standard deviation of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "Standard deviation of liquid water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_water_content",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track LWP is done by summing over liquid water content for each vertical profile. The standard deviation of this 1D along-track LWP is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "multilayer": {
+          "type": "data",
+          "description": "Relative frequency of pixels with overlying clouds (defined as cloud base height > 3km) in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Relative frequency of pixels with overlying clouds.",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Relative frequency of pixels with overlying clouds (defined as cloud base height > 3km) in the scene."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels": {
+          "type": "data",
+          "description": "Mean number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "Mean number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels_median": {
+          "type": "data",
+          "description": "Median number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "Median number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels_perc05": {
+          "type": "data",
+          "description": "5th percentile of number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "5th percentile of number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels_perc25": {
+          "type": "data",
+          "description": "25th percentile of number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "25th percentile of number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels_perc75": {
+          "type": "data",
+          "description": "75th percentile of number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "75th percentile of number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels_perc95": {
+          "type": "data",
+          "description": "95th percentile of number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "95th percentile of number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "N_cloudy_pixels_std": {
+          "type": "data",
+          "description": "Standard deviation of number of cloudy vertical gates in the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "Standard deviation of number of cloudy vertical gates in the scene.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_classification",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The mean of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "Liquid total number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The mean of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_error": {
+          "type": "data",
+          "description": "One-sigma error in natural logarithm of liquid total number concentration",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "One-sigma error in natural logarithm of liquid total number concentration",
+            "units": "1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration_error",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_median": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The median of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "median of Liquid total number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The median of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_perc05": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 5th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "5th percentile of liquid number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 5th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_perc25": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 25th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "25th percentile of liquid number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 25th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_perc75": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 75th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "75th percentile of liquid number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 75th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_perc95": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 95th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "95th percentile of liquid number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The 95th percentile of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "Nd_std": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The standard deviation of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-3",
+          "attrs": {
+            "long_name": "Standard deviation of liquid number concentration",
+            "units": "m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "liquid_number_concentration",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track variable is done by taking the mean over cloudy gates for each vertical profile. The standard deviation of this 1D along-track Nd is then taken over the scene. Non-cloudy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "ocean_flag": {
+          "type": "data",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {},
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_fraction": {
+          "type": "data",
+          "description": "Relative frequency of profiles with non-zero rain. Non-cloudy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "Relative frequency of rain given a cloud.",
+            "units": "1",
+            "description": "Relative frequency of profiles with non-zero rain. Non-cloudy profiles are ignored.",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_gini": {
+          "type": "data",
+          "description": "Gini coefficient of rain rate",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "Gini coefficient of rain rate",
+            "units": "1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_lcf": {
+          "type": "data",
+          "description": "largest contiguous rainy-cluster fraction",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "largest contiguous rainy-cluster fraction",
+            "units": "1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The mean of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The mean of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter_median": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The median of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "median of Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The median of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter_perc05": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 5th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "percentile_05 of Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 5th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter_perc25": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 25th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "percentile_25 of Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 25th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter_perc75": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 75th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "percentile_75 of Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 75th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter_perc95": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 95th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "percentile_95 of Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The 95th percentile of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_median_volume_diameter_std": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The standard deviation of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "standard_deviation of Rain median volume diameter",
+            "units": "m",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_median_volume_diameter",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain volume diameter is done by taking the mean over rainy gates for each vertical profile. The standard deviation of this 1D along-track rain volume diameter is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_n_clusters": {
+          "type": "data",
+          "description": "number of contiguous rainy clusters",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "number of contiguous rainy clusters",
+            "units": "1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "final_observation_unit": "128 km MSI neural-network scene"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_normalized_number_concentration": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain normalized number concentration is done by taking the mean over rainy gates for each vertical profile. The mean of this 1D along-track rain normalized number concentration is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "m-4",
+          "attrs": {
+            "long_name": "Rain normalized number concentration",
+            "units": "m-4",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_normalized_number_concentration",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track rain normalized number concentration is done by taking the mean over rainy gates for each vertical profile. The mean of this 1D along-track rain normalized number concentration is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The mean of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The mean of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh_median": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The median of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Median of rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The median of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh_perc05": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 5th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "5th percentile of rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 5th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh_perc25": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 25th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "25th percentile of rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 25th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh_perc75": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 75th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "75th percentile of rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 75th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh_perc95": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 95th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "95th percentile of rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The 95th percentile of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_cbh_std": {
+          "type": "data",
+          "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The standard deviation of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Standard deviation of rain rate at cloud base",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain rate at cloud base height is extracted from the ACM-CAP 2D rain_rate profiles. The standard deviation of this 1D along-track rain rate at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_max": {
+          "type": "data",
+          "description": "The maximum rain rate is extracted from the ACM-CAP 2D rain_rate profiles. The mean of this 1D along-track maximum rain rate is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Maximum rain rate",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The maximum rain rate is extracted from the ACM-CAP 2D rain_rate profiles. The mean of this 1D along-track maximum rain rate is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_mean": {
+          "type": "data",
+          "description": "The mean rain rate is computed per profile from the ACM-CAP 2D rain_rate variable. The mean of this 1D along-track mean rain rate is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Mean rain rate",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The mean rain rate is computed per profile from the ACM-CAP 2D rain_rate variable. The mean of this 1D along-track mean rain rate is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_subcloud": {
+          "type": "data",
+          "description": "The subcloud rain rate is extracted from the ACM-CAP 2D rain_rate profiles by averaging the rain rate below the cloud base height per profile. The mean of this 1D along-track subcloud rain rate is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Subcloud rain rate",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The subcloud rain rate is extracted from the ACM-CAP 2D rain_rate profiles by averaging the rain rate below the cloud base height per profile. The mean of this 1D along-track subcloud rain rate is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rain_rate_surface": {
+          "type": "data",
+          "description": "The surface rain rate is defined as the rain rate at JSG_height=235 from the ACM-CAP 2D rain_rate profiles. The mean of this 1D along-track surface rain rate is then taken over the scene. Non-rainy profiles are ignored. Warning: the rain rate is not very reliable close to the surface",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2 s-1",
+          "attrs": {
+            "long_name": "Surface rain rate",
+            "units": "kg m-2 s-1",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_rate",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The surface rain rate is defined as the rain rate at JSG_height=235 from the ACM-CAP 2D rain_rate profiles. The mean of this 1D along-track surface rain rate is then taken over the scene. Non-rainy profiles are ignored. Warning: the rain rate is not very reliable close to the surface"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The mean of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "Rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The mean of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh_median": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The median of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "Median of rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The median of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh_perc05": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 5th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "5th percentile of rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 5th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh_perc25": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 25th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "25th percentile of rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 25th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh_perc75": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 75th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "75th percentile of rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 75th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh_perc95": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 95th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "95th percentile of rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The 95th percentile of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwc_cbh_std": {
+          "type": "data",
+          "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The standard deviation of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "long_name": "Standard deviation of rain water content at cloud base",
+            "units": "kg m-3",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "The rain water content at cloud base height is extracted from the ACM-CAP 2D rain_water_content profiles. The standard deviation of this 1D along-track rain water content at cloud base is then taken over the scene. Non-rainy profiles are ignored."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The mean of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The mean of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_median": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The median of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "median of rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "median",
+            "cell_methods": "scene: median",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The median of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_perc05": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 5th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "5th percentile of rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_05",
+            "cell_methods": "scene: percentile_05",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 5th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_perc25": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 25th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "25th percentile of rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_25",
+            "cell_methods": "scene: percentile_25",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 25th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_perc75": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 75th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "75th percentile of rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_75",
+            "cell_methods": "scene: percentile_75",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 75th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_perc95": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 95th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "95th percentile of rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "percentile_95",
+            "cell_methods": "scene: percentile_95",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The 95th percentile of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_std": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The standard deviation of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "Standard deviation of rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "standard_deviation",
+            "cell_methods": "scene: standard_deviation",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track RWP is done by summing over rain water content for each vertical profile. The standard deviation of this 1D along-track RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "rwp_subcloud": {
+          "type": "data",
+          "description": "Reduction from ACM-CAP 2D profiles to 1D along-track subcloud RWP is done by summing over rain water content below the cloud base height for each vertical profile. The mean of this 1D along-track subcloud RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average).",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "kg m-2",
+          "attrs": {
+            "long_name": "sub-cloud rain water path",
+            "units": "kg m-2",
+            "source_product": "ACM_CAP_2B",
+            "source_variable": "rain_water_content",
+            "scene_summary": "mean",
+            "cell_methods": "scene: mean",
+            "source_representation": "2D vertical profile",
+            "intermediate_representation": "1D along satellite track",
+            "intermediate_resolution": "1 km",
+            "final_observation_unit": "128 km MSI neural-network scene",
+            "description": "Reduction from ACM-CAP 2D profiles to 1D along-track subcloud RWP is done by summing over rain water content below the cloud base height for each vertical profile. The mean of this 1D along-track subcloud RWP is then taken over the scene. Non-cloudy profiles are ignored (non-raining but cloudy profiles are taken into account for the average)."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lat_mid": {
+          "type": "auxiliary",
+          "description": "Latitude of the center of the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "degree_north",
+          "attrs": {
+            "long_name": "Latitude",
+            "units": "degree_north",
+            "notes": "[-90:90]",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "latitude",
+            "description": "Latitude of the center of the scene."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "lon_mid": {
+          "type": "auxiliary",
+          "description": "Longitude of the center of the scene.",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "degree_east",
+          "attrs": {
+            "long_name": "Longitude",
+            "units": "degree_east",
+            "notes": "[-180:180]",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "longitude",
+            "description": "Longitude of the center of the scene."
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "orbit": {
+          "type": "auxiliary",
+          "description": "EarthCARE orbit and frame identifier",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "EarthCARE orbit and frame identifier"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "region": {
+          "type": "auxiliary",
+          "description": "stratocumulus region code",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "stratocumulus region code",
+            "region_bounds": "{'SEA': {'lat': (-22.5, -2.5), 'lon': (-5, 15)}, 'NEA': {'lat': (10, 30), 'lon': (-40, -20)}, 'SEP': {'lat': (-22.5, -2.5), 'lon': (-95, -75)}, 'NEP': {'lat': (15, 35), 'lon': (-135, -115)}}"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "scene_id": {
+          "type": "auxiliary",
+          "description": "scene identifier",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "scene identifier",
+            "units": "1"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "stratus_region_index": {
+          "type": "auxiliary",
+          "description": "stratocumulus region index",
+          "dimensions": [
+            "scene"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "stratocumulus region index",
+            "units": "1",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "flag_meanings": "southeast_atlantic northeast_atlantic southeast_pacific northeast_pacific"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        },
+        "time_mid": {
+          "type": "auxiliary",
+          "description": "Time",
+          "dimensions": [
+            "scene"
+          ],
+          "attrs": {
+            "long_name": "Time",
+            "source_product": "MSI_COP_2A",
+            "source_variable": "time",
+            "source_units": "seconds since 2000-1-1 00:00:00.0 0:00"
+          },
+          "shape": [
+            51861
+          ],
+          "chunks": [
+            8192
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "earthcare-marine-stratocumulus-transitions",
+  "title": "EarthCARE ACM-CAP scene properties joined to MSI neural-network cloud morphology labels"
+}
