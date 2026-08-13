@@ -1,0 +1,979 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "global-cumulative-hazard-indexes-chis-mitho-chi2_2004_2022",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2004-01-15T00:00:00Z",
+    "end_datetime": "2022-11-15T00:00:00Z",
+    "datetime": "2004-01-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/mitho-chi2_2004_2022.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Sea surface salinity zarr store",
+      "created": "2026-08-13T10:52:26.697351Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2004-01-15T00:00:00Z",
+            "2022-11-15T00:00:00Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -179.5,
+            179.5
+          ],
+          "step": 1.0,
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -64.5,
+            79.5
+          ],
+          "step": 1.0,
+          "description": "Latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "CHI2": {
+          "type": "data",
+          "description": "CHI2 = S_MHW + S_CS + S_DEOX + S_LSSS + S_HSSS",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2 Index",
+            "units": "dimensionless",
+            "description": "CHI2 = S_MHW + S_CS + S_DEOX + S_LSSS + S_HSSS"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mav": {
+          "type": "data",
+          "description": "CHI2 = S_MHW_mav + S_CS_mav + S_DEOX_mav + S_LSSS_mav + S_HSSS_mav",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2 moving average",
+            "units": "dimensionless",
+            "description": "CHI2 = S_MHW_mav + S_CS_mav + S_DEOX_mav + S_LSSS_mav + S_HSSS_mav"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mav_mean": {
+          "type": "data",
+          "description": "Moving average mean over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2_mav mean",
+            "units": "dimensionless",
+            "description": "Moving average mean over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mav_norm": {
+          "type": "data",
+          "description": "Scaled by global max",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2_mav normalized (max)",
+            "units": "dimensionless",
+            "description": "Scaled by global max"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mav_norm_minmax": {
+          "type": "data",
+          "description": "Scaled to [0,1]",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2_mav normalized (min-max)",
+            "units": "dimensionless",
+            "description": "Scaled to [0,1]"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mav_PI": {
+          "type": "data",
+          "description": "CHI2 mav pixel-based counter of events",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2_PI",
+            "units": "dimensionless",
+            "description": "CHI2 mav pixel-based counter of events"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mav_std": {
+          "type": "data",
+          "description": "Moving average std over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2_mav std",
+            "units": "dimensionless",
+            "description": "Moving average std over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_mean": {
+          "type": "data",
+          "description": "Mean over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2 mean",
+            "units": "dimensionless",
+            "description": "Mean over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_norm": {
+          "type": "data",
+          "description": "Scaled by global max",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2 normalized (max scaling)",
+            "units": "dimensionless",
+            "description": "Scaled by global max"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_norm_minmax": {
+          "type": "data",
+          "description": "Scaled to [0,1] per timestep",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2 normalized (min-max)",
+            "units": "dimensionless",
+            "description": "Scaled to [0,1] per timestep"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_PI": {
+          "type": "data",
+          "description": "Pixel-based counter of CHI1 events",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2_PI",
+            "units": "dimensionless",
+            "description": "Pixel-based counter of CHI1 events"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "CHI2_std": {
+          "type": "data",
+          "description": "Std over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI2 std",
+            "units": "dimensionless",
+            "description": "Std over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_CS": {
+          "type": "data",
+          "description": "Cold Spell Stressor",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS",
+            "units": "dimensionless",
+            "description": "Cold Spell Stressor"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_CS_mav": {
+          "type": "data",
+          "description": "Cold Spell Stressor (mav)",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_mav",
+            "units": "dimensionless",
+            "description": "Cold Spell Stressor (mav)"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_CS_mav_mean": {
+          "type": "data",
+          "description": "Mean of S_CS (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_mav_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_CS (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_CS_mav_std": {
+          "type": "data",
+          "description": "Std of S_CS (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_mav_std",
+            "units": "dimensionless",
+            "description": "Std of S_CS (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_CS_mean": {
+          "type": "data",
+          "description": "Mean of S_CS over 1993-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_CS over 1993-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_CS_std": {
+          "type": "data",
+          "description": "Std of S_CS over 1993-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_std",
+            "units": "dimensionless",
+            "description": "Std of S_CS over 1993-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_DEOX": {
+          "type": "data",
+          "description": "Deoxygenation Stressor",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_O2",
+            "units": "dimensionless",
+            "description": "Deoxygenation Stressor"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_DEOX_mav": {
+          "type": "data",
+          "description": "Deoxygenation Stressor (mav)",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_O2_mav",
+            "units": "dimensionless",
+            "description": "Deoxygenation Stressor (mav)"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_DEOX_mav_mean": {
+          "type": "data",
+          "description": "Mean of S_DEOX (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_O2_mav_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_DEOX (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_DEOX_mav_std": {
+          "type": "data",
+          "description": "Std of S_DEOX (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_O2_mav_std",
+            "units": "dimensionless",
+            "description": "Std of S_DEOX (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_DEOX_mean": {
+          "type": "data",
+          "description": "Mean of S_DEOX",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_O2_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_DEOX"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_DEOX_std": {
+          "type": "data",
+          "description": "Std of S_DEOX",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_O2_std",
+            "units": "dimensionless",
+            "description": "Std of S_DEOX"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_HSSS": {
+          "type": "data",
+          "description": "High SSS Stressor",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_H_SSS",
+            "units": "dimensionless",
+            "description": "High SSS Stressor"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_HSSS_mav": {
+          "type": "data",
+          "description": "High SSS Stressor (mav)",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_H_SSS_mav",
+            "units": "dimensionless",
+            "description": "High SSS Stressor (mav)"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_HSSS_mav_mean": {
+          "type": "data",
+          "description": "Mean of S_HSSS (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_H_SSS_mav_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_HSSS (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_HSSS_mav_std": {
+          "type": "data",
+          "description": "Std of S_HSSS (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_H_SSS_mav_std",
+            "units": "dimensionless",
+            "description": "Std of S_HSSS (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_HSSS_mean": {
+          "type": "data",
+          "description": "Mean of S_HSSS",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_H_SSS_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_HSSS"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_HSSS_std": {
+          "type": "data",
+          "description": "Std of S_HSSS",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_H_SSS_std",
+            "units": "dimensionless",
+            "description": "Std of S_HSSS"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_LSSS": {
+          "type": "data",
+          "description": "Low SSS Stressor",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_L_SSS",
+            "units": "dimensionless",
+            "description": "Low SSS Stressor"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_LSSS_mav": {
+          "type": "data",
+          "description": "Low SSS Stressor (mav)",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_L_SSS_mav",
+            "units": "dimensionless",
+            "description": "Low SSS Stressor (mav)"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_LSSS_mav_mean": {
+          "type": "data",
+          "description": "Mean of S_LSSS (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_L_SSS_mav_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_LSSS (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_LSSS_mav_std": {
+          "type": "data",
+          "description": "Std of S_LSSS (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_L_SSS_mav_std",
+            "units": "dimensionless",
+            "description": "Std of S_LSSS (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_LSSS_mean": {
+          "type": "data",
+          "description": "Mean of S_LSSS",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_L_SSS_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_LSSS"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_LSSS_std": {
+          "type": "data",
+          "description": "Std of S_LSSS",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_L_SSS_std",
+            "units": "dimensionless",
+            "description": "Std of S_LSSS"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_MHW": {
+          "type": "data",
+          "description": "Marine Heatwave Stressor",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW",
+            "units": "dimensionless",
+            "description": "Marine Heatwave Stressor"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_MHW_mav": {
+          "type": "data",
+          "description": "Marine Heatwave Stressor (mav)",
+          "dimensions": [
+            "time",
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_mav",
+            "units": "dimensionless",
+            "description": "Marine Heatwave Stressor (mav)"
+          },
+          "shape": [
+            227,
+            2,
+            145,
+            360
+          ]
+        },
+        "S_MHW_mav_mean": {
+          "type": "data",
+          "description": "Mean of S_MHW (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_mav_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_MHW (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_MHW_mav_std": {
+          "type": "data",
+          "description": "Std of S_MHW (mav) over 2004-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_mav_std",
+            "units": "dimensionless",
+            "description": "Std of S_MHW (mav) over 2004-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_MHW_mean": {
+          "type": "data",
+          "description": "Mean of S_MHW over 1993-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_mean",
+            "units": "dimensionless",
+            "description": "Mean of S_MHW over 1993-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        },
+        "S_MHW_std": {
+          "type": "data",
+          "description": "Std of S_MHW over 1993-2022",
+          "dimensions": [
+            "level",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_std",
+            "units": "dimensionless",
+            "description": "Std of S_MHW over 1993-2022"
+          },
+          "shape": [
+            2,
+            145,
+            360
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "global-cumulative-hazard-indexes-chis",
+  "title": "Zarr Store"
+}

@@ -1,0 +1,947 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "global-cumulative-hazard-indexes-chis-mitho-ch13",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "1993-01-01T00:00:00Z",
+    "end_datetime": "2022-12-01T00:00:00Z",
+    "datetime": "1993-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/mitho-ch13.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Sea surface salinity zarr store",
+      "created": "2026-08-13T10:52:26.203055Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1993-01-01T00:00:00Z",
+            "2022-12-01T00:00:00Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -179.5,
+            179.5
+          ],
+          "step": 1.0,
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -89.5,
+            89.5
+          ],
+          "step": 1.0,
+          "description": "Latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "CH1_CHI1": {
+          "type": "data",
+          "description": "CHI1 = S_MHW + S_CS + S_PH",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1 Index",
+            "units": "dimensionless",
+            "description": "CHI1 = S_MHW + S_CS + S_PH"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_Cat": {
+          "type": "data",
+          "description": "CHI1 event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]",
+          "dimensions": [
+            "intensity_class",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "Number of CHI months per intensity category",
+            "units": "dimensionless",
+            "description": "CHI1 event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]"
+          },
+          "shape": [
+            3,
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mav": {
+          "type": "data",
+          "description": "CHI1 = S_MHW_mav + S_CS_mav + S_PH_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1 moving average",
+            "units": "dimensionless",
+            "description": "CHI1 = S_MHW_mav + S_CS_mav + S_PH_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mav_Cat": {
+          "type": "data",
+          "description": "CHI1 mav event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]",
+          "dimensions": [
+            "intensity_class",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "Number of CHI months per intensity category",
+            "units": "dimensionless",
+            "description": "CHI1 mav event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]"
+          },
+          "shape": [
+            3,
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mav_mean": {
+          "type": "data",
+          "description": "Moving average mean",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1_mav mean",
+            "units": "dimensionless",
+            "description": "Moving average mean"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mav_norm": {
+          "type": "data",
+          "description": "Scaled by global max",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1_mav normalized (max)",
+            "units": "dimensionless",
+            "description": "Scaled by global max"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mav_PI": {
+          "type": "data",
+          "description": "CHI1 mav pixel-based counter of events",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1_PI",
+            "units": "dimensionless",
+            "description": "CHI1 mav pixel-based counter of events"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mav_std": {
+          "type": "data",
+          "description": "Moving average std",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1_mav std",
+            "units": "dimensionless",
+            "description": "Moving average std"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_mean": {
+          "type": "data",
+          "description": "Mean over 1993\u20132022",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1 mean",
+            "units": "dimensionless",
+            "description": "Mean over 1993\u20132022"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_norm": {
+          "type": "data",
+          "description": "Scaled by global max",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1 normalized (max scaling)",
+            "units": "dimensionless",
+            "description": "Scaled by global max"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_PI": {
+          "type": "data",
+          "description": "Pixel-based counter of CHI1 events",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1_PI",
+            "units": "dimensionless",
+            "description": "Pixel-based counter of CHI1 events"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH1_CHI1_std": {
+          "type": "data",
+          "description": "Std over 1993\u20132022",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI1 std",
+            "units": "dimensionless",
+            "description": "Std over 1993\u20132022"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH1_S_CS": {
+          "type": "data",
+          "description": "Cold Spell Stressor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS",
+            "units": "dimensionless",
+            "description": "Cold Spell Stressor"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_S_CS_mav": {
+          "type": "data",
+          "description": "Cold Spell Stressor (mav)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_mav",
+            "units": "dimensionless",
+            "description": "Cold Spell Stressor (mav)"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_S_MHW": {
+          "type": "data",
+          "description": "Marine Heatwave Stressor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW",
+            "units": "dimensionless",
+            "description": "Marine Heatwave Stressor"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_S_MHW_mav": {
+          "type": "data",
+          "description": "Marine Heatwave Stressor (mav)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_mav",
+            "units": "dimensionless",
+            "description": "Marine Heatwave Stressor (mav)"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_S_PH": {
+          "type": "data",
+          "description": "Ocean Acidification Stressor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_PH",
+            "units": "dimensionless",
+            "description": "Ocean Acidification Stressor"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH1_S_PH_mav": {
+          "type": "data",
+          "description": "Ocean Acidification Stressor (mav)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_PH_mav",
+            "units": "dimensionless",
+            "description": "Ocean Acidification Stressor (mav)"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3": {
+          "type": "data",
+          "description": "CHI3",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_Cat": {
+          "type": "data",
+          "dimensions": [
+            "intensity_class",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {},
+          "shape": [
+            3,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mav": {
+          "type": "data",
+          "description": "CHI3_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mav_Cat": {
+          "type": "data",
+          "dimensions": [
+            "intensity_class",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {},
+          "shape": [
+            3,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mav_mean": {
+          "type": "data",
+          "description": "CHI3_mean",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_mean"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mav_norm": {
+          "type": "data",
+          "description": "CHI3_mav_norm",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_mav_norm"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mav_PI": {
+          "type": "data",
+          "description": "CHI3_mav_PI",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_mav_PI"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mav_std": {
+          "type": "data",
+          "description": "CHI3_std",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_std"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_mean": {
+          "type": "data",
+          "description": "CHI3_mean",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_mean"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_norm": {
+          "type": "data",
+          "description": "CHI3_norm",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_norm"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_PI": {
+          "type": "data",
+          "description": "CHI3_PI",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_PI"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH3_CHI3_std": {
+          "type": "data",
+          "description": "CHI3_std",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI3_std"
+          },
+          "shape": [
+            180,
+            360
+          ]
+        },
+        "CH3_S_CS": {
+          "type": "data",
+          "description": "S_CS",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_CS"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_CS_mav": {
+          "type": "data",
+          "description": "S_CS_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_CS_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_HSSD": {
+          "type": "data",
+          "description": "S_HSSD",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_HSSD"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_HSSD_mav": {
+          "type": "data",
+          "description": "S_HSSD_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_HSSD_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_HSSS": {
+          "type": "data",
+          "description": "S_HSSS",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_HSSS"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_HSSS_mav": {
+          "type": "data",
+          "description": "S_HSSS_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_HSSS_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_HWind": {
+          "type": "data",
+          "description": "S_HWind",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_HWind"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_HWind_mav": {
+          "type": "data",
+          "description": "S_HWind_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_HWind_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_LSSD": {
+          "type": "data",
+          "description": "S_LSSD",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_LSSD"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_LSSD_mav": {
+          "type": "data",
+          "description": "S_LSSD_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_LSSD_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_LSSS": {
+          "type": "data",
+          "description": "S_LSSS",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_LSSS"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_LSSS_mav": {
+          "type": "data",
+          "description": "S_LSSS_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_LSSS_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_LWind": {
+          "type": "data",
+          "description": "S_LWind",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_LWind"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_LWind_mav": {
+          "type": "data",
+          "description": "S_LWind_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_LWind_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_MHW": {
+          "type": "data",
+          "description": "S_MHW",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_MHW"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_MHW_mav": {
+          "type": "data",
+          "description": "S_MHW_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_MHW_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_PH": {
+          "type": "data",
+          "description": "S_PH",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_PH"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        },
+        "CH3_S_PH_mav": {
+          "type": "data",
+          "description": "S_PH_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "S_PH_mav"
+          },
+          "shape": [
+            360,
+            180,
+            360
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "global-cumulative-hazard-indexes-chis",
+  "title": "Zarr Store"
+}

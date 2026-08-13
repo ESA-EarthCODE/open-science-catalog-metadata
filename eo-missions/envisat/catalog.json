@@ -200,6 +200,12 @@
       "href": "../../products/esa-meteor-datasets/collection.json",
       "type": "application/json",
       "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",
