@@ -1273,7 +1273,7 @@
       "rel": "child",
       "href": "./sdg-engine-eutrophication-monitoring-project/collection.json",
       "type": "application/json",
-      "title": "SDGEngineEutrophicationMonitoring"
+      "title": "Eutrophication Monitoring for SDG Engine"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
