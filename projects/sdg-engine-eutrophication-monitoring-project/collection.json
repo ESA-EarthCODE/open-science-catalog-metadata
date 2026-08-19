@@ -23,7 +23,7 @@
     },
     {
       "rel": "via",
-      "href": "https://eo4society.esa.int/projects",
+      "href": "https://eo4society.esa.int/projects/eu-mon/",
       "title": "EO4Society Link"
     },
     {
@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "title": "SDGEngineEutrophicationMonitoring",
+  "title": "Eutrophication Monitoring for SDG Engine",
   "extent": {
     "spatial": {
       "bbox": [
