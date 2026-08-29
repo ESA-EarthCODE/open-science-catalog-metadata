@@ -1,0 +1,123 @@
+{
+    "type": "Collection",
+    "id": "sinxs-sea-ice-thickness",
+    "stac_version": "1.0.0",
+    "description": "The dataset comprises monthly averaged sea-ice and, to a lesser extent, snow thickness fields on a common grid (EASE2 and with a common grid spacing (12.5 or 25 km). Data stem from models, reanalyses, satellite observations (radar/lidar altimetry, passive microwave and thermal infrared), airborne and ULS measurements. A consistent set of netCDF metadata facilitates comparison. Dataset has been produced within the ESA-funded SIN'XS project",
+    "links": [
+      {
+        "rel": "root",
+        "href": "../../catalog.json",
+        "type": "application/json",
+        "title": "Open Science Catalog"
+      },
+      {
+        "rel": "via",
+        "href": "https://sinxs-tools.noveltis.fr/access-data",
+        "title": "Website"
+      },
+      {
+        "rel": "via",
+        "href": "https://eo4society.esa.int",
+        "title": "EO4Society Link"
+      },
+      {
+        "rel": "parent",
+        "href": "../catalog.json",
+        "type": "application/json",
+        "title": "Projects"
+      },
+      {
+        "rel": "related",
+        "href": "../../products/sinxs-sea-ice-thickness/collection.json",
+        "type": "application/json",
+        "title": "SIN'XS sea-ice thickness"
+      },
+      {
+        "rel": "self",
+        "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sinxs-sea-ice-thickness/collection.json",
+        "type": "application/json"
+      },
+      {
+        "rel": "related",
+        "href": "../../themes/cryosphere/catalog.json",
+        "type": "application/json",
+        "title": "Theme: Cryosphere"
+      }
+    ],
+    "stac_extensions": [
+      "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+    ],
+    "osc:status": "completed",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:type": "project",
+    "contacts": [
+      {
+        "name": "Alessandro Di Bella",
+        "emails": [
+          {
+            "value": "alessandro.dibella@esa.int"
+          }
+        ],
+        "roles": [
+          "technical_officer"
+        ]
+      },
+ 
+      {
+        "name": "NOVELTIS SAS (FR)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+      {
+        "name": "Alfred-Wegener Institute Helmholtz Center for Marine and Polar Research (AWI)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+          {
+        "name": "Laboratoire d'Ètudes en Géophysique et Océanographie Spatiales (LEGOS)",
+        "roles": [
+          "consortium_member"
+        ]
+      },
+          {
+        "name": "University College of London (UCL)",
+        "roles": [
+          "consortium_member"
+        ]
+      }
+    ],
+    "updated": "2025-04-28T10:32:22.991110Z",
+    "title": "SIN'XS sea-ice thickness",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-179.8, 31.1, 179.8, 89.8], 
+        [-179.8, -89.8, 179.8, -31.1]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1975-01-01T00:00:00Z",
+          "2024-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+    "license": "various",
+    "keywords": []
+  }
+  
