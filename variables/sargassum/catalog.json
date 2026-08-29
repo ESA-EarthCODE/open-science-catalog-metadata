@@ -53,13 +53,13 @@
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
-        {
-          "id": "oceans"
-        }
-      ]
-    }
-  ],
-  "updated": "2024-12-23T11:56:42.234832Z",
-  "keywords": [],
-  "title": "Sargassum"
+              {
+                "id": "oceans"
+              }
+            ]
+          }
+        ],    
+        "updated": "2026-02-12T11:56:42.234832Z",
+        "keywords": [],
+        "title": "Sargassum"
 }

@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_22414_water_level_altimetry",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.7584,
+          67.205
+        ],
+        [
+          22.7584,
+          67.205
+        ],
+        [
+          22.7584,
+          67.205
+        ],
+        [
+          22.7584,
+          67.205
+        ],
+        [
+          22.7584,
+          67.205
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    22.7584,
+    67.205,
+    22.7584,
+    67.205
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-06-26T09:53:04Z",
+    "end_datetime": "2025-07-30T09:53:30Z",
+    "datetime": "2016-06-26T09:53:04Z",
+    "nc_attributes": {
+      "dahiti_id": "22414",
+      "dataset": "water-level-altimetry",
+      "target_name": "Tarendoalven, River",
+      "location": "None",
+      "country": "Sweden",
+      "continent": "Europe",
+      "longitude": 22.7584,
+      "latitude": 67.205,
+      "geoid": 25.5471,
+      "software": "8.0",
+      "institution": "DGFI-TUM",
+      "source": "DAHITI",
+      "url": "https://dahiti.dgfi.tum.de/22414/",
+      "creation_date": "2025-11-14 12:06:27"
+    },
+    "parquet_column_metadata": {
+      "datetime": {
+        "standard_name": "UTC Datetime (YYYY-MM-DD HH:MM:SS)",
+        "valid_min": "2016-06-26 09:53:04",
+        "valid_max": "2025-07-30 09:53:30"
+      },
+      "wse": {
+        "standard_name": "Water level derived from satellite altimetry",
+        "unit": "m",
+        "valid_min": 167.276,
+        "valid_max": 171.079
+      },
+      "wse_u": {
+        "standard_name": "Water level uncertainty",
+        "unit": "m",
+        "valid_min": 0.0,
+        "valid_max": 0.401
+      },
+      "mission": {
+        "standard_name": "Mission name"
+      },
+      "phase": {
+        "standard_name": "Mission phase"
+      },
+      "timeliness": {
+        "standard_name": "Timeliness of dataset"
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Torne_water_level_at_VS.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Torne - Water Level Altimetry - DAHITI 22414 - Tarendoalven, River - 2016-06-26 to 2025-07-30",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level",
+  "title": "Torne - Water Level Altimetry - DAHITI 22414 - Tarendoalven, River - 2016-06-26 to 2025-07-30"
+}

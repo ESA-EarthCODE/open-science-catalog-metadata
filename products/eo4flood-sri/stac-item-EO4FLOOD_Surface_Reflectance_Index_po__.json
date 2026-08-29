@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_Surface_Reflectance_Index_po__",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.600000381469727,
+          44.119998931884766
+        ],
+        [
+          11.600000381469727,
+          46.39899826049805
+        ],
+        [
+          7.690899848937988,
+          46.39899826049805
+        ],
+        [
+          7.690899848937988,
+          44.119998931884766
+        ],
+        [
+          11.600000381469727,
+          44.119998931884766
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    7.690899848937988,
+    44.119998931884766,
+    11.600000381469727,
+    46.39899826049805
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2024-12-31T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project Surface Reflectance Index input",
+      "creation_time": "08-Feb-2026 21:19:16",
+      "institution": "National Research Council  - Research Institute for Geo-hydrological Protection (CNR-IRPI)",
+      "creator_institution_e-mail": "luca.ciabatta@cnr.it",
+      "references": "Tarpanelli et al., 2025. The Potential of EO Data for Enhanced Flood Forecasting: A Consortium Assessment",
+      "temporal_interval": "Jan-01-2016 to Dec-31-2024 23:00",
+      "version": "Version 1.1",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.17787732",
+      "Acknowledgements": "European Space Agency EO4FLOOD project Contract N\u00b0 4000145540/24/I-EB"
+    },
+    "parquet_column_metadata": {
+      "time": {
+        "long_name": "time",
+        "standard_name": "time",
+        "axit": "T"
+      },
+      "siteX": {
+        "long_name": "longitude",
+        "standard_name": "longitude",
+        "axis": "X",
+        "units": "degrees_east"
+      },
+      "siteY": {
+        "long_name": "latitude",
+        "standard_name": "latitude",
+        "axis": "Y",
+        "units": "degrees_north"
+      },
+      "surface_reflectance_index_MOD": {
+        "standard_name": "surface_reflectance",
+        "long_name": "Surface reflectance index extracted for the Po River through MODIS TERRA",
+        "units": "-"
+      },
+      "surface_reflectance_index_MYD": {
+        "standard_name": "surface_reflectance",
+        "long_name": "Surface reflectance index extracted for the Po River through MODIS AQUA",
+        "units": "-"
+      },
+      "surface_reflectance_index_S2": {
+        "standard_name": "surface_reflectance",
+        "long_name": "Surface reflectance index extracted for the Po River through Sentinel-2",
+        "units": "-"
+      },
+      "surface_reflectance_index_MOD_uncertainty_max": {
+        "standard_name": "surface_reflectance_uncertainty_max",
+        "long_name": "Max Uncertainty of surface reflectance index extracted for the Po River through MODIS TERRA",
+        "units": "-"
+      },
+      "surface_reflectance_index_MYD_uncertainty_max": {
+        "standard_name": "surface_reflectance_uncertainty_max",
+        "long_name": "Max Uncertainty of surface reflectance index extracted for the Po River through MODIS AQUA",
+        "units": "-"
+      },
+      "surface_reflectance_index_S2_uncertainty_max": {
+        "standard_name": "surface_reflectance_uncertainty_max",
+        "long_name": "Max Uncertainty of surface reflectance index extracted for the Po River through Sentinel-2",
+        "units": "-"
+      },
+      "surface_reflectance_index_MOD_uncertainty_min": {
+        "standard_name": "surface_reflectance_uncertainty_min",
+        "long_name": "Min Uncertainty of surface reflectance index extracted for the Po River through MODIS TERRA",
+        "units": "-"
+      },
+      "surface_reflectance_index_MYD_uncertainty_min": {
+        "standard_name": "surface_reflectance_uncertainty_min",
+        "long_name": "Min Uncertainty of surface reflectance index extracted for the Po River through MODIS AQUA",
+        "units": "-"
+      },
+      "surface_reflectance_index_S2_uncertainty_min": {
+        "standard_name": "surface_reflectance_uncertainty_min",
+        "long_name": "Min Uncertainty of surface reflectance index extracted for the Po River through Sentinel-2",
+        "units": "-"
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/surface_reflectance_index_series/Po_surface_reflectance_index.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Po - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-sri",
+  "title": "Po - Surface Reflectance Index - MODIS Terra / MODIS Aqua / Sentinel-2 - 2016-01-01 to 2024-12-31"
+}
