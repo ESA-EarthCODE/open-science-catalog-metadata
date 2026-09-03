@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ocean-soda-ethz-fgco2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "",
+    "start_datetime": "1982-01-05T00:00:00Z",
+    "end_datetime": "2022-10-28T00:00:00Z",
+    "datetime": "1982-01-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/fgco2.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "FGCO2 Zarr",
+      "created": "2026-09-03T13:13:58.909330Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1982-01-05T00:00:00Z",
+            "2022-10-28T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "fgco2": {
+          "type": "data",
+          "description": "sea-air CO2 fluxes for the global ocean calculated with kw * sol * dfco2 * (1 - ice). Positive = upward flux. dfco2 is from OceanCarbNN. kw = 0.271 * U^2 * (660 / Sc)^0.5 (U^2 = ERA^2 at native resolution); sol = solubility of CO2 in seawater using ESA-CCI temperature (or NOAA OISSTv2), and stacked salinity. ice fraction is from the SST product. More information about these variables can be found in their respective metadata.",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mmolC m-2 day-1",
+          "attrs": {
+            "units": "mmolC m-2 day-1",
+            "long_name": "Sea-air CO$_2$ flux",
+            "standard_name": "sea_to_air_co2_fluxes",
+            "description": "sea-air CO2 fluxes for the global ocean calculated with kw * sol * dfco2 * (1 - ice). Positive = upward flux. dfco2 is from OceanCarbNN. kw = 0.271 * U^2 * (660 / Sc)^0.5 (U^2 = ERA^2 at native resolution); sol = solubility of CO2 in seawater using ESA-CCI temperature (or NOAA OISSTv2), and stacked salinity. ice fraction is from the SST product. More information about these variables can be found in their respective metadata.",
+            "valid_min": -50,
+            "valid_max": 50,
+            "plot_units": "mmolC m$^{-2}$ day$^{-1}$",
+            "plot_vmin": -10,
+            "plot_vmax": 10,
+            "plot_cmap": "RdBu_r"
+          },
+          "shape": [
+            1878,
+            720,
+            1440
+          ],
+          "chunks": [
+            24,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ocean-soda-ethz",
+  "title": "FGCO2 Zarr"
+}

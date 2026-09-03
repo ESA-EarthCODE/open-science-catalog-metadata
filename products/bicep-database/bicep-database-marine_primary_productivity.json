@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bicep-database-marine_primary_productivity",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.95834350585938,
+          -89.95832824707031
+        ],
+        [
+          179.95834350585938,
+          89.95832824707031
+        ],
+        [
+          -179.95834350585938,
+          89.95832824707031
+        ],
+        [
+          -179.95834350585938,
+          -89.95832824707031
+        ],
+        [
+          179.95834350585938,
+          -89.95832824707031
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.95834350585938,
+    -89.95832824707031,
+    179.95834350585938,
+    89.95832824707031
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1998-01-01T00:00:00Z",
+    "end_datetime": "2020-12-01T00:00:00Z",
+    "datetime": "1998-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/marine_primary_productivity.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "MARINE PRIMARY PRODUCTIVITY Zarr",
+      "created": "2026-09-03T13:13:08.239396Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1998-01-01T00:00:00Z",
+            "2020-12-01T00:00:00Z"
+          ],
+          "description": "time",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.95834350585938,
+            179.95834350585938
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.95832824707031,
+            89.95832824707031
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "latitude": {
+          "type": "data",
+          "description": "latitude",
+          "dimensions": [
+            "time",
+            "lat"
+          ],
+          "unit": "degrees north",
+          "attrs": {
+            "units": "degrees north",
+            "long_name": "latitude",
+            "standard_name": "latitude"
+          },
+          "shape": [
+            276,
+            2160
+          ],
+          "chunks": [
+            12,
+            540
+          ]
+        },
+        "longitude": {
+          "type": "data",
+          "description": "longitude",
+          "dimensions": [
+            "time",
+            "lon"
+          ],
+          "unit": "degrees east",
+          "attrs": {
+            "units": "degrees east",
+            "long_name": "longitude",
+            "standard_name": "longitude"
+          },
+          "shape": [
+            276,
+            4320
+          ],
+          "chunks": [
+            12,
+            1080
+          ]
+        },
+        "pp": {
+          "type": "data",
+          "description": " Phytoplankton Primary Production",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg C m-2 d-1",
+          "attrs": {
+            "units": "mg C m-2 d-1",
+            "standard_name": "gross_primary_production_of_carbon",
+            "long_name": " Phytoplankton Primary Production"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            12,
+            540,
+            1080
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "bicep-database",
+  "title": "MARINE PRIMARY PRODUCTIVITY Zarr"
+}

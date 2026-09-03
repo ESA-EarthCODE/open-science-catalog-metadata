@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "booms-dataset-seascape-t2-biophysical",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.97916666666663,
+          -89.97916666666666
+        ],
+        [
+          179.97916666666663,
+          89.97916666666667
+        ],
+        [
+          -179.97916666666666,
+          89.97916666666667
+        ],
+        [
+          -179.97916666666666,
+          -89.97916666666666
+        ],
+        [
+          179.97916666666663,
+          -89.97916666666666
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.97916666666666,
+    -89.97916666666666,
+    179.97916666666663,
+    89.97916666666667
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1999-01-01T00:00:00Z",
+    "end_datetime": "2022-06-01T00:00:00Z",
+    "datetime": "1999-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/seascape-t2-biophysical.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "SEASCAPE T2 BIOPHYSICAL Zarr",
+      "created": "2026-09-03T13:13:22.104700Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1999-01-01T00:00:00Z",
+            "2022-06-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.97916666666666,
+            179.97916666666663
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.97916666666666,
+            89.97916666666667
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "smoothed_dominant_water_class": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {},
+          "shape": [
+            282,
+            4320,
+            8640
+          ],
+          "chunks": [
+            3,
+            2160,
+            4320
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "booms-dataset",
+  "title": "SEASCAPE T2 BIOPHYSICAL Zarr"
+}

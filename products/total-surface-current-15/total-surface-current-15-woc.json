@@ -1,0 +1,384 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "total-surface-current-15-woc",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.875,
+          30.375
+        ],
+        [
+          35.875,
+          45.875
+        ],
+        [
+          -5.875,
+          45.875
+        ],
+        [
+          -5.875,
+          30.375
+        ],
+        [
+          35.875,
+          30.375
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -5.875,
+    30.375,
+    35.875,
+    45.875
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "",
+    "start_datetime": "2014-12-30T00:00:00Z",
+    "end_datetime": "2019-12-30T23:00:00Z",
+    "datetime": "2014-12-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "WOC Total Surface Current at 15m"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "WOC Total Surface Current at 15m"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/woc.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "WOC Mediterranean Zarr",
+      "created": "2024-07-05T00:00:00Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2014-12-30T00:00:00Z",
+            "2019-12-30T23:00:00Z"
+          ],
+          "description": "time",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -5.875,
+            35.875
+          ],
+          "step": 0.25,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            30.375,
+            45.875
+          ],
+          "step": 0.25,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "depth": {
+          "extent": [
+            15.0,
+            15.0
+          ],
+          "description": "depth",
+          "type": "spatial",
+          "axis": "z"
+        }
+      },
+      "cube:variables": {
+        "ue_cmems": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "eastward velocity of ageostrophic current",
+            "standardname": "eastward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "ue_woc": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "eastward velocity of ageostrophic current",
+            "standardname": "eastward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "ug_cmems": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "eastward velocity of geostrophic current",
+            "standardname": "eastward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "ut_cmems": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "eastward velocity of total current",
+            "standardname": "eastward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "ut_woc": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "eastward velocity of total current",
+            "standardname": "eastward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "ve_cmems": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "northward velocity of ageostrophic current",
+            "standardname": "northward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "ve_woc": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "northward velocity of ageostrophic current",
+            "standardname": "northward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "vg_cmems": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "northward velocity of geostrophic current",
+            "standardname": "northward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "vt_cmems": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "northward velocity of total current",
+            "standardname": "northward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        },
+        "vt_woc": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "longname": "northward velocity of total current",
+            "standardname": "northward_sea_water_velocity"
+          },
+          "shape": [
+            43800,
+            1,
+            63,
+            168
+          ],
+          "chunks": [
+            720,
+            1,
+            63,
+            168
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "total-surface-current-15",
+  "title": "WOC Mediterranean Zarr"
+}

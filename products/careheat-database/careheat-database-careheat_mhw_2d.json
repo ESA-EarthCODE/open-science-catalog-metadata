@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "careheat-database-careheat_mhw_2d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1980-01-01T00:00:00Z",
+    "end_datetime": "2024-12-31T00:00:00Z",
+    "datetime": "1980-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/careheat_mhw_2d.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "CAREHEAT MHW 2D Zarr",
+      "created": "2026-09-03T13:13:33.969747Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1980-01-01T00:00:00Z",
+            "2024-12-31T00:00:00Z"
+          ],
+          "description": "time",
+          "step": "P1DT0H0M0S",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "category": {
+          "type": "data",
+          "description": "extreme_event_category",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "extreme_event_category",
+            "units": "1"
+          },
+          "shape": [
+            16437,
+            720,
+            1440
+          ],
+          "chunks": [
+            30,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "careheat-database",
+  "title": "CAREHEAT MHW 2D Zarr"
+}

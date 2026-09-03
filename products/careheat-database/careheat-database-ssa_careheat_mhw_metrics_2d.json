@@ -1,0 +1,299 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "careheat-database-ssa_careheat_mhw_metrics_2d",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1980-01-01T00:00:00Z",
+    "end_datetime": "2024-12-31T00:00:00Z",
+    "datetime": "1980-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/ssa_careheat_mhw_metrics_2d.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "SSA CAREHEAT MHW METRICS 2D Zarr",
+      "created": "2026-09-03T13:13:34.731168Z",
+      "cube:dimensions": {
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "nevent": {
+          "extent": [
+            0.0,
+            699.0
+          ],
+          "description": "nevent",
+          "type": "auxilary"
+        }
+      },
+      "cube:variables": {
+        "date_end": {
+          "type": "data",
+          "description": "date_end",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "YYYYMMDD",
+          "attrs": {
+            "long_name": "date_end",
+            "units": "YYYYMMDD"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "date_start": {
+          "type": "data",
+          "description": "date_start",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "YYYYMMDD",
+          "attrs": {
+            "long_name": "date_start",
+            "units": "YYYYMMDD"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "heterogeneity": {
+          "type": "data",
+          "description": "heterogeneity",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "K",
+          "attrs": {
+            "long_name": "heterogeneity",
+            "units": "K"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "intensity_cumulative": {
+          "type": "data",
+          "description": "intensity_cumulative",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "K day",
+          "attrs": {
+            "long_name": "intensity_cumulative",
+            "units": "K day"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "intensity_max": {
+          "type": "data",
+          "description": "intensity_max",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "K",
+          "attrs": {
+            "long_name": "intensity_max",
+            "units": "K"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "intensity_mean": {
+          "type": "data",
+          "description": "intensity_mean",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "K",
+          "attrs": {
+            "long_name": "intensity_mean",
+            "units": "K"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "intensity_mean_abs": {
+          "type": "data",
+          "description": "intensity_mean_abs",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "K",
+          "attrs": {
+            "long_name": "intensity_mean_abs",
+            "units": "K"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        },
+        "rate_onset": {
+          "type": "data",
+          "description": "rate_onset",
+          "dimensions": [
+            "nevent",
+            "lat",
+            "lon"
+          ],
+          "unit": "K day-1",
+          "attrs": {
+            "long_name": "rate_onset",
+            "units": "K day-1"
+          },
+          "shape": [
+            700,
+            720,
+            1440
+          ],
+          "chunks": [
+            50,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "careheat-database",
+  "title": "SSA CAREHEAT MHW METRICS 2D Zarr"
+}

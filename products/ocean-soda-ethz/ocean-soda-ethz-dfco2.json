@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ocean-soda-ethz-dfco2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "",
+    "start_datetime": "1982-01-04T00:00:00Z",
+    "end_datetime": "2022-12-30T00:00:00Z",
+    "datetime": "1982-01-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/dfco2.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "DFCO2 Zarr",
+      "created": "2026-09-03T13:13:58.606884Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1982-01-04T00:00:00Z",
+            "2022-12-30T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "dfco2": {
+          "type": "data",
+          "description": "sfco2 + fco2atm; fco2atm was calculated from NOAA xCO2 MBL (2022) + MSLP ERA5 + SST + SSS",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "uatm",
+          "attrs": {
+            "units": "uatm",
+            "long_name": "$\\Delta f\\mathrm{CO} _2$",
+            "standard_name": "surface_carbon_dioxide_fugacity_difference_between_sea_water_and_air",
+            "description": "sfco2 + fco2atm; fco2atm was calculated from NOAA xCO2 MBL (2022) + MSLP ERA5 + SST + SSS",
+            "ancillary_variables": "sfco2 sfco2_uncert spco2",
+            "valid_min": -500,
+            "valid_max": 500,
+            "plot_units": "$\\mu$atm",
+            "plot_vmin": -100,
+            "plot_vmax": 100,
+            "plot_cmap": "RdBu_r"
+          },
+          "shape": [
+            1886,
+            720,
+            1440
+          ],
+          "chunks": [
+            24,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ocean-soda-ethz",
+  "title": "DFCO2 Zarr"
+}

@@ -1,0 +1,234 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bicep-database-particulate_organic_carbon_geo",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.97916666666663,
+          -89.97916666666666
+        ],
+        [
+          179.97916666666663,
+          89.97916666666667
+        ],
+        [
+          -179.97916666666666,
+          89.97916666666667
+        ],
+        [
+          -179.97916666666666,
+          -89.97916666666666
+        ],
+        [
+          179.97916666666663,
+          -89.97916666666666
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.97916666666666,
+    -89.97916666666666,
+    179.97916666666663,
+    89.97916666666667
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1997-09-04T00:00:00Z",
+    "end_datetime": "2020-12-01T00:00:00Z",
+    "datetime": "1997-09-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/particulate_organic_carbon_geo.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "PARTICULATE ORGANIC CARBON GEO Zarr",
+      "created": "2026-09-03T13:13:09.638727Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1997-09-04T00:00:00Z",
+            "2020-12-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.97916666666666,
+            179.97916666666663
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.97916666666666,
+            89.97916666666667
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "POC": {
+          "type": "data",
+          "description": "Particulate Organic Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "long_name": "Particulate Organic Carbon",
+            "standard_name": "mass_concentration_of_particulate_organic_carbon_in_sea_water",
+            "units": "mg m^-3",
+            "reference(s)": "see https://bicep-project.org/Deliverables"
+          },
+          "shape": [
+            280,
+            4320,
+            8640
+          ],
+          "chunks": [
+            12,
+            1080,
+            2160
+          ]
+        },
+        "POC_bias": {
+          "type": "data",
+          "description": "Bias of log10 transformed Particulate Organic Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "long_name": "Bias of log10 transformed Particulate Organic Carbon",
+            "standard_name": "per_pixel_bias_of_log10_particulate_organic_carbon_in_sea_water",
+            "units": "mg m^-3",
+            "reference(s)": "see https://bicep-project.org/Deliverables"
+          },
+          "shape": [
+            280,
+            4320,
+            8640
+          ],
+          "chunks": [
+            12,
+            1080,
+            2160
+          ]
+        },
+        "POC_rmsd": {
+          "type": "data",
+          "description": "Root-mean-square-difference of log10 transformed Particulate Organic Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "long_name": "Root-mean-square-difference of log10 transformed Particulate Organic Carbon",
+            "standard_name": "per_pixel_root_mean_square_difference_of_log10_particulate_organic_carbon_in_sea_water",
+            "units": "mg m^-3",
+            "reference(s)": "see https://bicep-project.org/Deliverables"
+          },
+          "shape": [
+            280,
+            4320,
+            8640
+          ],
+          "chunks": [
+            12,
+            1080,
+            2160
+          ]
+        },
+        "Rrs_490": {
+          "type": "data",
+          "description": "Sea surface reflectance defined as the ratio of water-leaving radiance to surface irradiance at 490 nm.",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "sr-1",
+          "attrs": {
+            "long_name": "Sea surface reflectance defined as the ratio of water-leaving radiance to surface irradiance at 490 nm.",
+            "standard_name": "remote_sensing_reflectance_490nm_in_sea_water",
+            "units": "sr-1",
+            "reference(s)": "http://www.esa-oceancolour-cci.org/?q=webfm_send/581; https://www.oceancolour.org"
+          },
+          "shape": [
+            280,
+            4320,
+            8640
+          ],
+          "chunks": [
+            12,
+            1080,
+            2160
+          ]
+        },
+        "Rrs_560": {
+          "type": "data",
+          "description": "Sea surface reflectance defined as the ratio of water-leaving radiance to surface irradiance at 560 nm.",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "sr-1",
+          "attrs": {
+            "long_name": "Sea surface reflectance defined as the ratio of water-leaving radiance to surface irradiance at 560 nm.",
+            "standard_name": "remote_sensing_reflectance_560nm_in_sea_water",
+            "units": "sr-1",
+            "reference(s)": "http://www.esa-oceancolour-cci.org/?q=webfm_send/581; https://www.oceancolour.org"
+          },
+          "shape": [
+            280,
+            4320,
+            8640
+          ],
+          "chunks": [
+            12,
+            1080,
+            2160
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "bicep-database",
+  "title": "PARTICULATE ORGANIC CARBON GEO Zarr"
+}

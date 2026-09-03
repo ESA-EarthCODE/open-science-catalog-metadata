@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-2d-pft-kd-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.98198318481445,
+          30.036035537719727
+        ],
+        [
+          39.98198318481445,
+          50.0
+        ],
+        [
+          -9.963963508605957,
+          50.0
+        ],
+        [
+          -9.963963508605957,
+          30.036035537719727
+        ],
+        [
+          39.98198318481445,
+          30.036035537719727
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -9.963963508605957,
+    30.036035537719727,
+    39.98198318481445,
+    50.0
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2019-01-01T00:00:00Z",
+    "end_datetime": "2021-12-01T00:00:00Z",
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019\u20132021)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019\u20132021)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/4dmed-2d-kd.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "KD Zarr Store",
+      "created": "2026-09-03T13:12:00.493902Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2019-01-01T00:00:00Z",
+            "2021-12-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -9.963963508605957,
+            39.98198318481445
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            30.036035537719727,
+            50.0
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "Kd_blue": {
+          "type": "data",
+          "description": "Monthly mean diffuse attenuation coefficient",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m^-1",
+          "attrs": {
+            "units": "m^-1",
+            "long_name": "Monthly mean diffuse attenuation coefficient",
+            "standard_name": "diffuse_attenuation_coefficient_of_downwelling_radiative_flux_in_sea_water",
+            "spacing": "8.0km",
+            "registration": "center",
+            "valid_min": 0.0,
+            "valid_max": 1.0
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        },
+        "Kd_UVA": {
+          "type": "data",
+          "description": "Monthly mean diffuse attenuation coefficient",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m^-1",
+          "attrs": {
+            "units": "m^-1",
+            "long_name": "Monthly mean diffuse attenuation coefficient",
+            "standard_name": "diffuse_attenuation_coefficient_of_downwelling_radiative_flux_in_sea_water",
+            "spacing": "8.0km",
+            "registration": "center",
+            "valid_min": 0.0,
+            "valid_max": 1.0
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        },
+        "Kd_UVAB": {
+          "type": "data",
+          "description": "Monthly mean diffuse attenuation coefficient",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m^-1",
+          "attrs": {
+            "units": "m^-1",
+            "long_name": "Monthly mean diffuse attenuation coefficient",
+            "standard_name": "diffuse_attenuation_coefficient_of_downwelling_radiative_flux_in_sea_water",
+            "spacing": "8.0km",
+            "registration": "center",
+            "valid_min": 0.0,
+            "valid_max": 1.0
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-2d-pft-kd",
+  "title": "KD Zarr Store"
+}

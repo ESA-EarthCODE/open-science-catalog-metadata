@@ -344,6 +344,12 @@
       "href": "../../products/glambie-dataset/collection.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Dataset"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bicep-database/collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
