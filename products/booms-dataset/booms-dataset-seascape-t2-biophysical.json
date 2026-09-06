@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/seascape-t2-biophysical.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/booms/seascape-t2-biophysical.zarr/",
       "type": "application/vnd+zarr",
       "title": "SEASCAPE T2 BIOPHYSICAL Zarr",
       "created": "2026-09-03T13:13:22.104700Z",

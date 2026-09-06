@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/oceanic_export_production.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/bicep/bicep_oceanic_export_production.zarr/",
       "type": "application/vnd+zarr",
       "title": "OCEANIC EXPORT PRODUCTION Zarr",
       "created": "2026-09-03T13:13:08.654179Z",

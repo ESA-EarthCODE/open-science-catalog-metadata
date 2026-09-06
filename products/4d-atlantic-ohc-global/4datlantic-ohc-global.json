@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/EarthCODE/OSCAssets/ocean_datasets/ocean_heat.zarr",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/ocean_heat.zarr/",
       "type": "application/vnd+zarr",
       "title": "Zarr store",
       "history": "Creation: 2025-05-22",

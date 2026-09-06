@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/ice.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/ice.zarr/",
       "type": "application/vnd+zarr",
       "title": "ICE Zarr",
       "created": "2026-09-03T13:13:59.068381Z",

@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/seascape-t1-owt.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/booms/seascape-t1-owt.zarr/",
       "type": "application/vnd+zarr",
       "title": "SEASCAPE T1 OWT Zarr",
       "created": "2026-09-03T13:13:21.135618Z",

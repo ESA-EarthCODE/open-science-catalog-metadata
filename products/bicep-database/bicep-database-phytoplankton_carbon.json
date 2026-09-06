@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/phytoplankton_carbon.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/bicep/phytoplankton_carbon.zarr/",
       "type": "application/vnd+zarr",
       "title": "PHYTOPLANKTON CARBON Zarr",
       "created": "2026-09-03T13:13:13.077606Z",

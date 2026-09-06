@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/kw.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/kw.zarr/",
       "type": "application/vnd+zarr",
       "title": "KW Zarr",
       "created": "2026-09-03T13:13:59.142280Z",

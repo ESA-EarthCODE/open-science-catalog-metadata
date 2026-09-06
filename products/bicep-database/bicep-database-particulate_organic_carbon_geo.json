@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/particulate_organic_carbon_geo.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/bicep/particulate_organic_carbon_geo.zarr/",
       "type": "application/vnd+zarr",
       "title": "PARTICULATE ORGANIC CARBON GEO Zarr",
       "created": "2026-09-03T13:13:09.638727Z",
