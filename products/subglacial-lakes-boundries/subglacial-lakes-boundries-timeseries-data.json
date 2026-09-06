@@ -2,78 +2,227 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/projection/v1.2.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
   ],
-  "id": "basal_melt_map_racmo_firn_air_corrected",
+  "id": "subglacial-lakes-boundries-timeseries-data",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
-        [180.0, -90.0], 
-        [180.0, -50.69217369308933], 
-        [-180.0, -50.69217369308933], 
-        [-180.0, -90.0], 
-        [180.0, -90.0]
+        [
+          171.81277764628828,
+          -85.66263549598452
+        ],
+        [
+          171.81277764628828,
+          -66.71654059863512
+        ],
+        [
+          -154.86889769882507,
+          -66.71654059863512
+        ],
+        [
+          -154.86889769882507,
+          -85.66263549598452
+        ],
+        [
+          171.81277764628828,
+          -85.66263549598452
+        ]
       ]
     ]
   },
   "bbox": [
-    -180.0, -90.0, 180.0, -50.69217369308933
+    -154.86889769882507,
+    -85.66263549598452,
+    171.81277764628828,
+    -66.71654059863512
   ],
   "properties": {
-    "license": "cc-by-4.0",
-    "description": "",
-    "start_datetime": "1997-01-01T00:00:00Z",
-    "end_datetime": "2021-12-31T00:00:00Z",
-    "datetime": "2025-02-04T13:33:04.321944Z",
-    "title": "Basal melt map racmo firn air corrected COG"
+    "title": "Subglacial lakes boundaries and elevation time series data",
+    "description": "Antarctic subglacial lake boundaries joined to elevation time series. Contains 4,692 rows, 21 columns and 159 distinct lake-period identifiers. Rows contain boundary-period dates, a contour value, and inside/outside lake elevation anomalies, counts and uncertainty fields. 109 rows have no geometry; their dates are included in the temporal extent. The spatial extent encloses the non-null polygons. Temporal coverage includes both boundary periods and elevation observations.",
+    "license": "CC-BY-4.0",
+    "start_datetime": "2010-07-01T00:00:00Z",
+    "end_datetime": "2020-08-16T18:00:00Z",
+    "proj:code": "EPSG:4326",
+    "proj:wkt2": "GEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],USAGE[SCOPE[\"Horizontal component of 3D system.\"],AREA[\"World.\"],BBOX[-90,-180,90,180]],ID[\"EPSG\",4326]]",
+    "proj:bbox": [
+      -154.86889769882507,
+      -85.66263549598452,
+      171.81277764628828,
+      -66.71654059863512
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            171.81277764628828,
+            -85.66263549598452
+          ],
+          [
+            171.81277764628828,
+            -66.71654059863512
+          ],
+          [
+            -154.86889769882507,
+            -66.71654059863512
+          ],
+          [
+            -154.86889769882507,
+            -85.66263549598452
+          ],
+          [
+            171.81277764628828,
+            -85.66263549598452
+          ]
+        ]
+      ]
+    },
+    "datetime": "2010-07-01T00:00:00Z"
   },
   "links": [
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+      "title": "Subglacial lakes boundaries and elevation time series"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Antarctic ice shelf basal melt rates 1997-2021"
+      "title": "Subglacial lakes boundaries and elevation time series"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/basal_melt/basal_melt_map_racmo_firn_air_corrected.tif",
-      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "Basal melt map racmo firn air corrected COG",
-      "raster:bands": [
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/polar_cube_datasets/subglacial_lakes/subglacial_lakes_boundries_with_timeseries.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Subglacial lakes boundaries and elevation time series data",
+      "parquet:columns": [
         {
-          "name": "basal_melt_rate",
-          "data_type": "float32",
-          "spatial_resolution": 1000.0
+          "name": "lake_period_id",
+          "type": "string",
+          "description": "Identifier joining a lake boundary period to its time series."
+        },
+        {
+          "name": "lake_name",
+          "type": "string",
+          "description": "Lake name associated with the mapped boundary; may be null."
+        },
+        {
+          "name": "new_sgl_glake",
+          "type": "bool",
+          "description": "Source new-lake flag; classification criteria are not embedded in the file."
+        },
+        {
+          "name": "period_start_date",
+          "type": "timestamp[ns]",
+          "description": "Start date of the lake boundary period."
+        },
+        {
+          "name": "period_end_date",
+          "type": "timestamp[ns]",
+          "description": "End date of the lake boundary period."
+        },
+        {
+          "name": "contour_m_yr",
+          "type": "double",
+          "description": "Source boundary contour value in metres per year.",
+          "unit": "m yr-1"
+        },
+        {
+          "name": "geometry",
+          "type": "binary",
+          "description": "Lake boundary polygon encoded as WKB; null for unmatched time series."
+        },
+        {
+          "name": "in_lake_mean_anom_m",
+          "type": "double",
+          "description": "Inside the lake: mean elevation anomaly.",
+          "unit": "m"
+        },
+        {
+          "name": "in_lake_n",
+          "type": "double",
+          "description": "Inside the lake: sample count (stored as a floating-point value)."
+        },
+        {
+          "name": "in_lake_std_m",
+          "type": "double",
+          "description": "Inside the lake: elevation standard deviation.",
+          "unit": "m"
+        },
+        {
+          "name": "in_lake_err_m",
+          "type": "double",
+          "description": "Inside the lake: elevation error estimate (source formula unspecified).",
+          "unit": "m"
+        },
+        {
+          "name": "in_lake_cum_err_m",
+          "type": "double",
+          "description": "Inside the lake: cumulative elevation error (source formula unspecified).",
+          "unit": "m"
+        },
+        {
+          "name": "in_lake_detrended_mean_anom_m",
+          "type": "double",
+          "description": "Inside the lake: detrended mean elevation anomaly.",
+          "unit": "m"
+        },
+        {
+          "name": "out_lake_mean_anom_m",
+          "type": "double",
+          "description": "Outside the lake: mean elevation anomaly.",
+          "unit": "m"
+        },
+        {
+          "name": "out_lake_n",
+          "type": "double",
+          "description": "Outside the lake: sample count (stored as a floating-point value)."
+        },
+        {
+          "name": "out_lake_std_m",
+          "type": "double",
+          "description": "Outside the lake: elevation standard deviation.",
+          "unit": "m"
+        },
+        {
+          "name": "out_lake_err_m",
+          "type": "double",
+          "description": "Outside the lake: elevation error estimate (source formula unspecified).",
+          "unit": "m"
+        },
+        {
+          "name": "out_lake_cum_err_m",
+          "type": "double",
+          "description": "Outside the lake: cumulative elevation error (source formula unspecified).",
+          "unit": "m"
+        },
+        {
+          "name": "out_lake_detrended_mean_anom_m",
+          "type": "double",
+          "description": "Outside the lake: detrended mean elevation anomaly.",
+          "unit": "m"
+        },
+        {
+          "name": "elevation_date",
+          "type": "timestamp[ns]",
+          "description": "Timestamp of the elevation time-series observation."
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "Source name retained for unmatched time series; otherwise null."
         }
       ],
-      "proj:transform": [
-        1000.0,
-        0.0,
-        -3060277.25,
-        0.0,
-        -1000.0,
-        3217259.75
-      ],
-      "proj:shape": [
-        6435,
-        6120
-      ],
-      "datetime": "2025-02-04T13:33:04.321944Z",
-      "proj:code": "EPSG:3031",
-      "license": "cc-by-4.0",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "antarctic-ice-shelf-melt-rates"
+  "collection": "subglacial-lakes-boundries",
+  "title": "Subglacial lakes boundaries and elevation time series data"
 }
