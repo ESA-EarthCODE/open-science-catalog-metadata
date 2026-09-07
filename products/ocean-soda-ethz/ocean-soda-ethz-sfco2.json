@@ -1,0 +1,144 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ocean-soda-ethz-sfco2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "",
+    "start_datetime": "1982-01-04T00:00:00Z",
+    "end_datetime": "2022-12-30T00:00:00Z",
+    "datetime": "1982-01-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/sfco2.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "SFCO2 Zarr",
+      "created": "2026-09-03T13:13:59.215751Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1982-01-04T00:00:00Z",
+            "2022-12-30T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "sfco2": {
+          "type": "data",
+          "description": "fco2 was estimated from an ensemble of neural networks",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "uatm",
+          "attrs": {
+            "units": "uatm",
+            "long_name": "$f\\mathrm{CO} _2^{sea}$",
+            "standard_name": "fugacity_of_carbon_dioxide_in_sea_water",
+            "description": "fco2 was estimated from an ensemble of neural networks",
+            "ancillary_variables": "dfco2 spco2 sfco2_uncert",
+            "model_info": "An ensemble of 36 neural networks was used (tensorflow). All neural networks \nhave the following properties and training options:\nbatch_size = 2048;\nlearning_rate = 0.005;\nloss = rmse;\nlayers = [Normalisation, Dense64, Dense32, Dense1];\n",
+            "model_descriptor": "OceanCarbNN.SOCATv23.diff_xco2mbl_fCO2nonT",
+            "model_reqs": "tensorflow = 2.12.0;\nkeras = 2.12.0;\nnumpy = 1.22.3;\n",
+            "model_predictors": "xco2_anom = Mauna Loa xCO2 weekly anom since 19XX; \nsst_anom = sst - sst_clim; \nsss_anom = sss - sss_clim; \nchl_anom = chl - chl_clim (0 when missing), ESA OCCCI v6; \nssh_anom = SLA DUACS; \nsst_delta = sst_anom(t-1) previous time step;\nsss_delta = sss_anom(t-1) previous time step;\nchl_delta = chl_anom(t-1) previous time step;\nssh_delta = ssh_anom(t-1) previous time step;\ndfco2_clim = dfco2 8d with RF(pred+lat/lon/doy) <--> NN(pred+lat/lon/doy), see sup for details; \nsst_clim = sst[1990, 2019]; \nsss_clim = CMEMS[1993, 2019] + ESACCI[2011, 2019];\nchl_clim = ESA OCCCI v6 [1998, 2019]; \nssh_clim = DUACS ADT[1993, 2019]; \nmld_clim = SODA 3.4.2 mld[1990, 2019]; \nsst_seas = sst_clim - sst_ltm; \nsss_seas = sss_clim - sss_ltm; \nchl_seas = chl_clim - chl_ltm; \nmld_seas = mld_clim - mld_ltm\n",
+            "model_target": "SOCAT v2022 fugacity of CO2 with the atmospheric fCO2 removed as well as the \nexplainable thermal components -> diffxco2_fco2nonT = fco2socat - xco2mbl - (fco2clim * 0.0423 * deltaT).\nfco2atm was calculated from NOAA xCO2 MBL (2022) + MSLP ERA5 + SST + SSS; recent years.\nfor where the xCO2 MBL is missing regresses xCO2 MBL with xCO2 Mauna Loa data. \nFilter criteria: (diffxco2_fco2nonT > 200), (diffxco2_fco2nonT < -250), (ice < 0.85)\n",
+            "valid_min": 50,
+            "valid_max": 700,
+            "plot_units": "$\\mu$atm",
+            "plot_vmin": 280,
+            "plot_vmax": 480,
+            "plot_cmap": "viridis"
+          },
+          "shape": [
+            1886,
+            720,
+            1440
+          ],
+          "chunks": [
+            24,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ocean-soda-ethz",
+  "title": "SFCO2 Zarr"
+}

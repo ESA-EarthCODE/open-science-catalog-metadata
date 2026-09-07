@@ -521,6 +521,12 @@
     },
     {
       "rel": "child",
+      "href": "./geohazards-tep/collection.json",
+      "type": "application/json",
+      "title": "Geohazards Exploitation Platform (GEP)"
+    },
+    {
+      "rel": "child",
       "href": "./glaciers-mass-balance-intercomparison-exercise-glambie/collection.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
@@ -1274,6 +1280,12 @@
       "href": "./eowetmet/collection.json",
       "type": "application/json",
       "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
+    },
+    {
+      "rel": "child",
+      "href": "./sdg-engine-eutrophication-monitoring-project/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring for SDG Engine"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

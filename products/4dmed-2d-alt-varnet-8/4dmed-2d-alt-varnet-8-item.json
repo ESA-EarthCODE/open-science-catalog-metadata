@@ -1,0 +1,288 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-2d-alt-varnet-8-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.062503814697266,
+          30.270830154418945
+        ],
+        [
+          36.062503814697266,
+          45.979164123535156
+        ],
+        [
+          -6.062498092651367,
+          45.979164123535156
+        ],
+        [
+          -6.062498092651367,
+          30.270830154418945
+        ],
+        [
+          36.062503814697266,
+          30.270830154418945
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.062498092651367,
+    30.270830154418945,
+    36.062503814697266,
+    45.979164123535156
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2022-08-01T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8\u00b0) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8\u00b0) Sea Surface Heights And Derived Variables"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/4dvarnet.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Zarr Store",
+      "created": "2026-09-03T13:11:39.859309Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-01-01T00:00:00Z",
+            "2022-08-01T00:00:00Z"
+          ],
+          "description": "Time",
+          "step": "P1DT0H0M0S",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -6.062498092651367,
+            36.062503814697266
+          ],
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            30.270830154418945,
+            45.979164123535156
+          ],
+          "description": "Latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "adt": {
+          "type": "data",
+          "description": "Absolute dynamic topography",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m",
+          "attrs": {
+            "comment": "The absolute dynamic topography is the sea surface height above geoid; the adt is obtained as follows: adt=sla+mdt where mdt is the mean dynamic topography; see the product user manual for details",
+            "grid_mapping": "crs",
+            "long_name": "Absolute dynamic topography",
+            "standard_name": "sea_surface_height_above_geoid",
+            "units": "m"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        },
+        "relative_vorticity": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {},
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        },
+        "sla": {
+          "type": "data",
+          "description": "Sea level anomaly",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m",
+          "attrs": {
+            "ancillary_variables": "err_sla",
+            "comment": "The sea level anomaly is the sea surface height above mean sea surface; it is referenced to the [1993, 2012] period; see the product user manual for details",
+            "grid_mapping": "crs",
+            "long_name": "Sea level anomaly",
+            "standard_name": "sea_surface_height_above_sea_level",
+            "units": "m"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        },
+        "ugos": {
+          "type": "data",
+          "description": "Absolute geostrophic velocity: zonal component",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m/s",
+          "attrs": {
+            "grid_mapping": "crs",
+            "long_name": "Absolute geostrophic velocity: zonal component",
+            "standard_name": "surface_geostrophic_eastward_sea_water_velocity",
+            "units": "m/s"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        },
+        "ugosa": {
+          "type": "data",
+          "description": "Geostrophic velocity anomalies: zonal component",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m/s",
+          "attrs": {
+            "ancillary_variables": "err_ugosa",
+            "comment": "The geostrophic velocity anomalies are referenced to the [1993, 2012] period",
+            "grid_mapping": "crs",
+            "long_name": "Geostrophic velocity anomalies: zonal component",
+            "standard_name": "surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid",
+            "units": "m/s"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        },
+        "vgos": {
+          "type": "data",
+          "description": "Absolute geostrophic velocity: meridian component",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m/s",
+          "attrs": {
+            "grid_mapping": "crs",
+            "long_name": "Absolute geostrophic velocity: meridian component",
+            "standard_name": "surface_geostrophic_northward_sea_water_velocity",
+            "units": "m/s"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        },
+        "vgosa": {
+          "type": "data",
+          "description": "Geostrophic velocity anomalies: meridian component",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m/s",
+          "attrs": {
+            "ancillary_variables": "err_vgosa",
+            "comment": "The geostrophic velocity anomalies are referenced to the [1993, 2012] period",
+            "grid_mapping": "crs",
+            "long_name": "Geostrophic velocity anomalies: meridian component",
+            "standard_name": "surface_geostrophic_northward_sea_water_velocity_assuming_sea_level_for_geoid",
+            "units": "m/s"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            378,
+            1012
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-2d-alt-varnet-8",
+  "title": "Zarr Store"
+}

@@ -141,15 +141,16 @@
       "title": "Projects"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/biological-pump-and-carbon-exchange-processes/collection.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bicep-database/collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
     }
   ],
   "stac_extensions": [
@@ -246,6 +247,5 @@
       ]
     }
   },
-  "license": "proprietary",
-  "keywords": []
+  "license": "proprietary"
 }

@@ -59,7 +59,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/mitho-chi2_2004_2022.zarr",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/mitho/chi2_2004_2022.zarr",
       "type": "application/vnd+zarr",
       "title": "mitho-chi2_2004_2022 zarr store",
       "created": "2026-08-13T11:13:48.453642Z",

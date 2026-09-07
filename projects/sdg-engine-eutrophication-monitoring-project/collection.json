@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "sdg-engine-eutrophication-monitoring-project",
+  "stac_version": "1.0.0",
+  "description": "The primary objective of the project is to customise EO data processing and data analytics workflows on existing EO exploitation platforms and to develop and showcase an EO-enabling environment that enables a seamless and cost-effective integration of EO data flows into official statistics on SDGs, allowing an EO uptake in national processes and systems on SDGs in different domains of use. Three different workflows have been implemented during the project: chlorophyll-a deviations, chlorophyll-a anomalies and ICEP Indicators of Coastal Eutrophication Potential.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eu-mon/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eu-mon/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-07-30T14:44:28.027714Z",
+  "updated": "2026-07-30T14:44:28.027714Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Marie-Helene Rio",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Marie-Helene.RIO@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "CGI",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "alessandro.marin@cgi.com"
+        }
+      ]
+    },
+    {
+      "name": "Planetek",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "ceriola@planetek.it"
+        }
+      ]
+    }
+  ],
+  "title": "Eutrophication Monitoring for SDG Engine",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-4.0"
+}

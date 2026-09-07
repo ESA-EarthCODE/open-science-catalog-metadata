@@ -2138,6 +2138,24 @@
       "href": "./arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
+    },
+    {
+      "rel": "child",
+      "href": "./bicep-database/collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "child",
+      "href": "./booms-dataset/collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "child",
+      "href": "./careheat-database/collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

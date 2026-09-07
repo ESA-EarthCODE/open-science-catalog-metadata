@@ -1,0 +1,275 @@
+{
+  "type": "Collection",
+  "id": "bicep-database",
+  "stac_version": "1.0.0",
+  "description": "This collection contains the full database of the Bicep project in zarr format.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/biological-pump-and-carbon-exchange-processes/collection.json",
+      "type": "application/json",
+      "title": "Project: BICEP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/orbview-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: OrbView-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/suomi-npp/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Suomi NPP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/picophytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Picophytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/export-production/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Export Production"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-mixed-layer/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Mixed Layer"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chlorophyll-concentration/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chlorophyll Concentration"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/nanophytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Nanophytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/particulate-inorganic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Particulate Inorganic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/microphytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Microphytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/phytoplankton-primary-production/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Phytoplankton Primary Production"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/particulate-organic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Particulate Organic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-organic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved Organic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/phytoplankton/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Phytoplankton"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/bicep-database/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./bicep-database-marine_primary_productivity.json",
+      "type": "application/json",
+      "title": "MARINE PRIMARY PRODUCTIVITY Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./bicep-database-oceanic_export_production.json",
+      "type": "application/json",
+      "title": "OCEANIC EXPORT PRODUCTION Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./bicep-database-particulate_organic_carbon_geo.json",
+      "type": "application/json",
+      "title": "PARTICULATE ORGANIC CARBON GEO Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./bicep-database-phytoplankton_carbon.json",
+      "type": "application/json",
+      "title": "PHYTOPLANKTON CARBON Zarr"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-09-03T13:13:00.402877Z",
+  "updated": "2026-09-03T13:13:00.402877Z",
+  "osc:project": "biological-pump-and-carbon-exchange-processes",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "osc:missions": [
+    "orbview-2",
+    "terra",
+    "suomi-npp",
+    "aqua-eos-pm-1",
+    "sentinel-3",
+    "envisat"
+  ],
+  "osc:variables": [
+    "picophytoplankton-carbon",
+    "export-production",
+    "ocean-mixed-layer",
+    "chlorophyll-concentration",
+    "nanophytoplankton-carbon",
+    "particulate-inorganic-carbon",
+    "microphytoplankton-carbon",
+    "phytoplankton-primary-production",
+    "particulate-organic-carbon",
+    "dissolved-organic-carbon",
+    "phytoplankton"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "export_production_li"
+    },
+    {
+      "name": "export_production_henson"
+    },
+    {
+      "name": "mixed_layer_depth"
+    },
+    {
+      "name": "dissolved_organic_carbon"
+    },
+    {
+      "name": "mass_concentration_of_chlorophyll_a_in_sea_water"
+    },
+    {
+      "name": "particulate_inorganic_carbon"
+    },
+    {
+      "name": "export_production_dunne"
+    },
+    {
+      "name": "gross_primary_production_of_carbon"
+    },
+    {
+      "name": "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"
+    },
+    {
+      "name": "particulate_organic_carbon"
+    },
+    {
+      "name": "mass_concentration_of_microphytoplankton_expressed_as_carbon_in_sea_water"
+    },
+    {
+      "name": "mass_concentration_of_nanophytoplankton_expressed_as_carbon_in_sea_water"
+    },
+    {
+      "name": "mass_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water"
+    }
+  ],
+  "title": "Biological pump and carbon exchange processes (Bicep) database",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1998-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Ocean Optics",
+    "Chlorophyll",
+    "Chlorophyll Concentration",
+    "Ocean Chemistry",
+    "Pigments"
+  ]
+}

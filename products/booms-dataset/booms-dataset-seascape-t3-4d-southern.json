@@ -1,0 +1,137 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "booms-dataset-seascape-t3-4d-southern",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -82.125
+        ],
+        [
+          179.875,
+          -49.875
+        ],
+        [
+          -179.875,
+          -49.875
+        ],
+        [
+          -179.875,
+          -82.125
+        ],
+        [
+          179.875,
+          -82.125
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -82.125,
+    179.875,
+    -49.875
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1999-01-06T00:00:00Z",
+    "end_datetime": "2019-12-04T00:00:00Z",
+    "datetime": "1999-01-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/booms/seascape-t3-4d-southern.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "SEASCAPE T3 4D SOUTHERN Zarr",
+      "created": "2026-09-03T13:13:23.088405Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1999-01-06T00:00:00Z",
+            "2019-12-04T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -82.125,
+            -49.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "depth": {
+          "extent": [
+            0.0,
+            225.0
+          ],
+          "description": "depth",
+          "type": "spatial",
+          "axis": "z"
+        }
+      },
+      "cube:variables": {
+        "mode_seascape_4D": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "depth",
+            "longitude",
+            "latitude"
+          ],
+          "attrs": {},
+          "shape": [
+            252,
+            23,
+            1440,
+            130
+          ],
+          "chunks": [
+            6,
+            23,
+            1440,
+            130
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "booms-dataset",
+  "title": "SEASCAPE T3 4D SOUTHERN Zarr"
+}

@@ -1,0 +1,186 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bicep-database-oceanic_export_production",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.9583333333333,
+          -89.95833333333333
+        ],
+        [
+          179.9583333333333,
+          89.95833333333333
+        ],
+        [
+          -179.95833333333334,
+          89.95833333333333
+        ],
+        [
+          -179.95833333333334,
+          -89.95833333333333
+        ],
+        [
+          179.9583333333333,
+          -89.95833333333333
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.95833333333334,
+    -89.95833333333333,
+    179.9583333333333,
+    89.95833333333333
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1998-01-16T00:00:00Z",
+    "end_datetime": "2019-12-16T00:00:00Z",
+    "datetime": "1998-01-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/bicep/bicep_oceanic_export_production.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "OCEANIC EXPORT PRODUCTION Zarr",
+      "created": "2026-09-03T13:13:08.654179Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1998-01-16T00:00:00Z",
+            "2019-12-16T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.95833333333334,
+            179.9583333333333
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.95833333333333,
+            89.95833333333333
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "EP_Dunne": {
+          "type": "data",
+          "description": "Export Production based on Dunne et al 2005",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "description": "Export Production based on Dunne et al 2005",
+            "unit": "mg C m-2 d-1",
+            "Derived from": "SST, Chl, Primary Production, Z_eu",
+            "Algorithm description DOI": "10.1029/2004gb002390",
+            "data_bins": 3954469,
+            "data_minimum": 0.0,
+            "data_maximum": 0.0
+          },
+          "shape": [
+            264,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "EP_Henson": {
+          "type": "data",
+          "description": "Export Production based on Henson et al  2011",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "description": "Export Production based on Henson et al  2011",
+            "unit": "mg C m-2 d-1",
+            "Derived from": "SST, Primary Production",
+            "Algorithm description DOI": "10.1029/2011gl046735",
+            "data_bins": 3954469,
+            "data_minimum": 0.0,
+            "data_maximum": 0.0
+          },
+          "shape": [
+            264,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "EP_Li": {
+          "type": "data",
+          "description": "Export Production based on Li et al 2016",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "description": "Export Production based on Li et al 2016",
+            "unit": "mg C m-2 d-1",
+            "Derived from": "SST, Primary Production",
+            "Algorithm description DOI": "10.1002/2015gb005314",
+            "data_bins": 3954469,
+            "data_minimum": 0.0,
+            "data_maximum": 0.0
+          },
+          "shape": [
+            264,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "bicep-database",
+  "title": "OCEANIC EXPORT PRODUCTION Zarr"
+}

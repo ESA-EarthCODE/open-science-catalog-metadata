@@ -1,0 +1,85 @@
+{
+  "id": "eutrophication-monitoring",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Eutrophication Monitoring for SDG engine",
+    "description": "The workflow aims to implement three different indicators for eutrophication monitoring, in order to implement the SDG 14.1.1a monitoring Index of Coastal Eutrophication.",
+    "type": "workflow",
+    "osc:project": "sdg-engine-eutrophication-monitoring-project",
+    "osc:status": "completed",
+    "osc:region": "Tanzania, Albania, Italy",
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      },
+      {
+        "name": "tabular data"
+      }
+    ],
+    "updated": "2026-07-30T15:11:24Z",
+    "created": "2026-07-30T15:11:24Z",
+    "keywords": [
+      "SDG",
+      "eutrophication",
+      "chlorophyll-a"
+    ],
+    "license": "CC-BY-NC-4.0",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "DOI": "NA",
+    "start_datetime": "2023-01-01T00:00:00Z",
+    "end_datetime": "2023-12-31T23:59:59Z"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sdg-engine-eutrophication-monitoring-project/collection.json",
+      "type": "application/json",
+      "title": "Project: Eutrophication Monitoring for SDG Engine"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/cgi-italy-insula-processors/processor-eumon",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "https://insula.earth/intellect/run/standard/251",
+      "type": "text/html",
+      "title": "direct URL to the Insula platform for execution of the workflow "
+    }
+  ]
+}
