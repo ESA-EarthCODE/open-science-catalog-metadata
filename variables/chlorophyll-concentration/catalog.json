@@ -104,6 +104,12 @@
       "href": "../../products/e4cs-pilot/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bicep-database/collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
     }
   ],
   "stac_extensions": [

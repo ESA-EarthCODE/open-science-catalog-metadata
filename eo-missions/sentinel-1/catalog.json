@@ -272,6 +272,12 @@
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/careheat-database/collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

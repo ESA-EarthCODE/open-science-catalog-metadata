@@ -1,0 +1,298 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-t-s-geo-150-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.062503814697266,
+          30.27083396911621
+        ],
+        [
+          36.062503814697266,
+          45.9375
+        ],
+        [
+          -5.979164123535156,
+          45.9375
+        ],
+        [
+          -5.979164123535156,
+          30.27083396911621
+        ],
+        [
+          36.062503814697266,
+          30.27083396911621
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -5.979164123535156,
+    30.27083396911621,
+    36.062503814697266,
+    45.9375
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-01-01T12:00:00Z",
+    "end_datetime": "2022-07-31T12:00:00Z",
+    "datetime": "2016-01-01T12:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/tsgeo150.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Zarr store",
+      "created": "2026-09-03T13:12:49.372036Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-01-01T12:00:00Z",
+            "2022-07-31T12:00:00Z"
+          ],
+          "description": "time",
+          "step": "P1DT0H0M0S",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -5.979164123535156,
+            36.062503814697266
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            30.27083396911621,
+            45.9375
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "depth": {
+          "extent": [
+            1.0,
+            153.0
+          ],
+          "description": "depth",
+          "type": "spatial",
+          "axis": "z"
+        }
+      },
+      "cube:variables": {
+        "mlotst": {
+          "type": "data",
+          "description": "Mixed layer depth from min of temperature and density threshold equivalent to a 0.2C decrease",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m",
+          "attrs": {
+            "unit_long": "meter",
+            "long_name": "Mixed layer depth from min of temperature and density threshold equivalent to a 0.2C decrease",
+            "standard_name": "ocean_mixed_layer_thickness",
+            "units": "m"
+          },
+          "shape": [
+            2404,
+            377,
+            1010
+          ],
+          "chunks": [
+            7,
+            377,
+            1010
+          ]
+        },
+        "so": {
+          "type": "data",
+          "description": "salinity",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "0.001",
+          "attrs": {
+            "long_name": "salinity",
+            "standard_name": "sea_water_salinity",
+            "unit_long": "practical salinity unit",
+            "units": "0.001"
+          },
+          "shape": [
+            2404,
+            20,
+            377,
+            1010
+          ],
+          "chunks": [
+            7,
+            20,
+            377,
+            1010
+          ]
+        },
+        "to": {
+          "type": "data",
+          "description": "temperature",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "degrees_C",
+          "attrs": {
+            "long_name": "temperature",
+            "standard_name": "sea_water_temperature",
+            "unit_long": "degree Celsius",
+            "units": "degrees_C"
+          },
+          "shape": [
+            2404,
+            20,
+            377,
+            1010
+          ],
+          "chunks": [
+            7,
+            20,
+            377,
+            1010
+          ]
+        },
+        "ugo": {
+          "type": "data",
+          "description": "geostrophic zonal velocity from thermal wind equation",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "long_name": "geostrophic zonal velocity from thermal wind equation",
+            "standard_name": "geostrophic_eastward_sea_water_velocity",
+            "unit_long": "meter per second",
+            "units": "m s-1",
+            "valid_range": [
+              -4000,
+              4000
+            ]
+          },
+          "shape": [
+            2404,
+            20,
+            377,
+            1010
+          ],
+          "chunks": [
+            7,
+            20,
+            377,
+            1010
+          ]
+        },
+        "vgo": {
+          "type": "data",
+          "description": "geostrophic meridional velocity from thermal wind equation",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "long_name": "geostrophic meridional velocity from thermal wind equation",
+            "standard_name": "geostrophic_northward_sea_water_velocity",
+            "unit_long": "meter per second",
+            "units": "m s-1",
+            "valid_range": [
+              -4000,
+              4000
+            ]
+          },
+          "shape": [
+            2404,
+            20,
+            377,
+            1010
+          ],
+          "chunks": [
+            7,
+            20,
+            377,
+            1010
+          ]
+        },
+        "zo": {
+          "type": "data",
+          "description": "absolute height",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "absolute height",
+            "standard_name": "geopotential_height",
+            "unit_long": "meter",
+            "units": "m",
+            "valid_range": [
+              -20000,
+              20000
+            ]
+          },
+          "shape": [
+            2404,
+            20,
+            377,
+            1010
+          ],
+          "chunks": [
+            7,
+            20,
+            377,
+            1010
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-t-s-geo-150",
+  "title": "Zarr store"
+}

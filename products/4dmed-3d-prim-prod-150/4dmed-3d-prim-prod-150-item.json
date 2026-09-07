@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-3d-prim-prod-150-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.0625,
+          30.27083396911621
+        ],
+        [
+          36.0625,
+          45.97916793823242
+        ],
+        [
+          -6.062498092651367,
+          45.97916793823242
+        ],
+        [
+          -6.062498092651367,
+          30.27083396911621
+        ],
+        [
+          36.0625,
+          30.27083396911621
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.062498092651367,
+    30.27083396911621,
+    36.0625,
+    45.97916793823242
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2022-08-01T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24\u00b0 from the surface down to 150 m"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24\u00b0 from the surface down to 150 m"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/4dmed-pp.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Zarr store",
+      "created": "2026-09-03T13:12:27.307451Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-01-01T00:00:00Z",
+            "2022-08-01T00:00:00Z"
+          ],
+          "description": "time",
+          "step": "P1DT0H0M0S",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -6.062498092651367,
+            36.0625
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            30.27083396911621,
+            45.97916793823242
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "depth": {
+          "extent": [
+            -150.0,
+            -3.0
+          ],
+          "description": "depth",
+          "type": "spatial",
+          "axis": "z"
+        }
+      },
+      "cube:variables": {
+        "PP": {
+          "type": "data",
+          "description": "Primary Production field estimated from chlorophyll and temperature 3D fields [spatial resolution = 1/24 deg]",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "mg m-3 d-1",
+          "attrs": {
+            "units": "mg m-3 d-1",
+            "long_name": "Primary Production field estimated from chlorophyll and temperature 3D fields [spatial resolution = 1/24 deg]",
+            "standard_name": "net_primary_production_of_biomass_expressed_as_carbon_per_unit_volume_in_sea_water"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            378,
+            1012,
+            25
+          ]
+        },
+        "ZEU": {
+          "type": "data",
+          "description": "Euphotic Depth Estimaded by PP model",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m",
+          "attrs": {
+            "units": "m",
+            "long_name": "Euphotic Depth Estimaded by PP model",
+            "comments": "-1 means the bottom depth reached before euphotic depth"
+          },
+          "shape": [
+            2405,
+            378,
+            1012
+          ],
+          "chunks": [
+            7,
+            378,
+            1012
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-3d-prim-prod-150",
+  "title": "Zarr store"
+}

@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ocean-soda-ethz-fgco2CT",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "",
+    "start_datetime": "2000-01-04T00:00:00Z",
+    "end_datetime": "2019-12-30T00:00:00Z",
+    "datetime": "2000-01-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/fgco2CT.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "FGCO2CT Zarr",
+      "created": "2026-09-03T13:13:58.986168Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2000-01-04T00:00:00Z",
+            "2019-12-30T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "fgco2": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mmol m-2 day-1",
+          "attrs": {
+            "units": "mmol m-2 day-1"
+          },
+          "shape": [
+            920,
+            720,
+            1440
+          ],
+          "chunks": [
+            24,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ocean-soda-ethz",
+  "title": "FGCO2CT Zarr"
+}
