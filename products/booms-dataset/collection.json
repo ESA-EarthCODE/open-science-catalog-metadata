@@ -1,0 +1,218 @@
+{
+  "type": "Collection",
+  "id": "booms-dataset",
+  "stac_version": "1.0.0",
+  "description": "Satellite derived Seascapes generated as part of the ESA funded Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS)  project. “Seascapes” in this dataset are defined as the boundaries between ocean water masses with common categorical classifications derived from earth observation satellite imagery physical properties, such as optical reflectance spectra, ocean fronts, and in combination with Bio-argo float data. Species data are not used to determine seascapes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/ocean-health-open-ocean-biodiversity/collection.json",
+      "type": "application/json",
+      "title": "Project: BOOMS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/seawifs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SeaWiFS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/meris/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MERIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/viirs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: VIIRS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/suomi-npp/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Suomi NPP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/metop/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MetOp"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-color-ocean-colour/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Color / Ocean Colour"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/fronts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Fronts"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/booms-dataset/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./booms-dataset-seascape-t1-owt.json",
+      "type": "application/json",
+      "title": "SEASCAPE T1 OWT Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./booms-dataset-seascape-t2-biophysical.json",
+      "type": "application/json",
+      "title": "SEASCAPE T2 BIOPHYSICAL Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./booms-dataset-seascape-t3-4d-atlantic.json",
+      "type": "application/json",
+      "title": "SEASCAPE T3 4D ATLANTIC Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./booms-dataset-seascape-t3-4d-southern.json",
+      "type": "application/json",
+      "title": "SEASCAPE T3 4D SOUTHERN Zarr"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-09-03T13:13:19.965001Z",
+  "updated": "2026-09-03T13:13:19.965001Z",
+  "osc:project": "ocean-health-open-ocean-biodiversity",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "seawifs",
+    "modis",
+    "meris",
+    "viirs",
+    "sentinel-3",
+    "envisat",
+    "aqua-eos-pm-1",
+    "suomi-npp",
+    "ers-1",
+    "ers-2",
+    "metop",
+    "in-situ-observations"
+  ],
+  "osc:variables": [
+    "ocean-color-ocean-colour",
+    "reflectance",
+    "fronts"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1992-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "oceans",
+    "ocean-color-ocean-colour",
+    "Seascapes",
+    "ocean Biodiversity"
+  ]
+}

@@ -5,6 +5,11 @@
   "description": "Also called the surface zone. The ocean mixed layer is the upper layer of ocean in which temperature and salinity are relatively constant with depth. Depending on local conditions, the surface layer may reach to 1,000 meters (3,300 feet) or be absent entirely.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-mixed-layer/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -41,15 +46,16 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ocean-mixed-layer/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/bicep-database/collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
     }
   ],
   "stac_extensions": [

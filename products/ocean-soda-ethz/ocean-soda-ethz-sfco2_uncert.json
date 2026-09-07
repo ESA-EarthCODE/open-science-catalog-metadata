@@ -1,0 +1,137 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "ocean-soda-ethz-sfco2_uncert",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          89.875
+        ],
+        [
+          -179.875,
+          -89.875
+        ],
+        [
+          179.875,
+          -89.875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.875,
+    -89.875,
+    179.875,
+    89.875
+  ],
+  "properties": {
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "",
+    "start_datetime": "1982-01-04T00:00:00Z",
+    "end_datetime": "2022-12-30T00:00:00Z",
+    "datetime": "1982-01-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/sfco2_uncert.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "SFCO2 UNCERT Zarr",
+      "created": "2026-09-03T13:13:59.292628Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1982-01-04T00:00:00Z",
+            "2022-12-30T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "Longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "sfco2_uncert": {
+          "type": "data",
+          "description": "The standard deviation of the 35 ensemble members for dfco2 scaled to match RMSE distribution with SOCATv2023. This is achieved by simply multiplying the ensemble standard deviation by four (4 * sigma)",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "uatm",
+          "attrs": {
+            "units": "uatm",
+            "long_name": "standard_error_fugacity_of_carbon_dioxide_in_sea_water",
+            "description": "The standard deviation of the 35 ensemble members for dfco2 scaled to match RMSE distribution with SOCATv2023. This is achieved by simply multiplying the ensemble standard deviation by four (4 * sigma)",
+            "ancillary_variables": "spco2 dfco2 sfco2",
+            "valid_min": 0,
+            "valid_max": 200,
+            "plot_units": "$\\mu\\mathrm{mol\\ kg}^{-1}$",
+            "plot_vmin": 0,
+            "plot_vmax": 50
+          },
+          "shape": [
+            1886,
+            720,
+            1440
+          ],
+          "chunks": [
+            24,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ocean-soda-ethz",
+  "title": "SFCO2 UNCERT Zarr"
+}

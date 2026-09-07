@@ -83,6 +83,60 @@
       "rel": "via",
       "href": "./ocean-soda-zarr.json",
       "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-dfco2.json",
+      "type": "application/json",
+      "title": "DFCO2 Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-fgco2.json",
+      "type": "application/json",
+      "title": "FGCO2 Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-fgco2CT.json",
+      "type": "application/json",
+      "title": "FGCO2CT Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-ice.json",
+      "type": "application/json",
+      "title": "ICE Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-kw.json",
+      "type": "application/json",
+      "title": "KW Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-sfco2.json",
+      "type": "application/json",
+      "title": "SFCO2 Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-sfco2_uncert.json",
+      "type": "application/json",
+      "title": "SFCO2 UNCERT Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-sol.json",
+      "type": "application/json",
+      "title": "SOL Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean-soda-ethz-temperature.json",
+      "type": "application/json",
+      "title": "TEMPERATURE Zarr"
     }
   ],
   "stac_extensions": [

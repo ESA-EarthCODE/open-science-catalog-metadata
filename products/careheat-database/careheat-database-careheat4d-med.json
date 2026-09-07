@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "careheat-database-careheat4d-med",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.0625,
+          30.3125
+        ],
+        [
+          36.0625,
+          45.9375
+        ],
+        [
+          0.0625,
+          45.9375
+        ],
+        [
+          0.0625,
+          30.3125
+        ],
+        [
+          36.0625,
+          30.3125
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    0.0625,
+    30.3125,
+    36.0625,
+    45.9375
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1993-01-05T12:00:00Z",
+    "end_datetime": "2021-12-31T12:00:00Z",
+    "datetime": "1993-01-05T12:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/careheat4d-med.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "CAREHEAT4D MED Zarr",
+      "created": "2026-09-03T13:13:40.664950Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1993-01-05T12:00:00Z",
+            "2021-12-31T12:00:00Z"
+          ],
+          "description": "time",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            0.0625,
+            36.0625
+          ],
+          "step": 0.125,
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            30.3125,
+            45.9375
+          ],
+          "step": 0.125,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "depth": {
+          "extent": [
+            0.0,
+            300.0
+          ],
+          "description": "depth",
+          "type": "spatial",
+          "axis": "z"
+        }
+      },
+      "cube:variables": {
+        "mhw": {
+          "type": "data",
+          "description": "Marine Heat Wave Category",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "1",
+          "attrs": {
+            "units": "1",
+            "long_name": "Marine Heat Wave Category"
+          },
+          "shape": [
+            10587,
+            26,
+            126,
+            289
+          ],
+          "chunks": [
+            30,
+            13,
+            126,
+            289
+          ]
+        },
+        "temperature": {
+          "type": "data",
+          "description": "temperature",
+          "dimensions": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "degrees_C",
+          "attrs": {
+            "long_name": "temperature",
+            "standard_name": "sea_water_temperature",
+            "unit_long": "degree Celsius",
+            "units": "degrees_C"
+          },
+          "shape": [
+            10587,
+            26,
+            126,
+            289
+          ],
+          "chunks": [
+            30,
+            13,
+            126,
+            289
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "careheat-database",
+  "title": "CAREHEAT4D MED Zarr"
+}

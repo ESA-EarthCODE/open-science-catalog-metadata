@@ -5,6 +5,11 @@
   "description": "Ratio of the intensity of reflected radiation to that of the incident radiation on a surface. A general term referring to the radiation reflected from, or scattered back through, a given surface in response to radiation incident on the surface with the same wavelength or wavelength range. In Cryosphere domain: The reflectance properties of ice bodies. A smooth ice surface will act as a near-specular reflector. As surface roughness increases, the reflection becomes diffuse. It is the ratio of the intensity of reflected radiation to that of the incident radiation on a surface. The suffix (-ance) implies a property of that particular specimen surface.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/reflectance/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -35,11 +40,6 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/reflectance/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
@@ -62,6 +62,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/booms-dataset/collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
     }
   ],
   "stac_extensions": [

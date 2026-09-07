@@ -1640,6 +1640,7 @@
       "roles": [
         "data"
       ],
+      "type": "application/vnd+zarr",
       "alternate:name": "S3",
       "alternate": {
         "s3": {

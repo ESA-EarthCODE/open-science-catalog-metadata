@@ -32,6 +32,12 @@
       "href": "../../products/eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/booms-dataset/collection.json",
+      "type": "application/json",
+      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",

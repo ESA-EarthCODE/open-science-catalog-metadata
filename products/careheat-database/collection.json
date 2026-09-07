@@ -1,0 +1,139 @@
+{
+  "type": "Collection",
+  "id": "careheat-database",
+  "stac_version": "1.0.0",
+  "description": "This collection contains the full database of the Marine heatwaves and cold spells events (CAREHeat) project in zarr format.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/careheat/collection.json",
+      "type": "application/json",
+      "title": "Project: deteCtion and threAts of maRinE Heat waves (CAREHeat)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-weather/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Weather"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/careheat-database/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./careheat-database-careheat_mhw_2d.json",
+      "type": "application/json",
+      "title": "CAREHEAT MHW 2D Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./careheat-database-ssa_careheat_mhw_2d.json",
+      "type": "application/json",
+      "title": "SSA CAREHEAT MHW 2D Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./careheat-database-careheat_mhw_metrics_2d.json",
+      "type": "application/json",
+      "title": "CAREHEAT MHW METRICS 2D Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./careheat-database-ssa_careheat_mhw_metrics_2d.json",
+      "type": "application/json",
+      "title": "SSA CAREHEAT MHW METRICS 2D Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./careheat-database-careheat4d-med.json",
+      "type": "application/json",
+      "title": "CAREHEAT4D MED Zarr"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-09-03T13:13:31.924281Z",
+  "updated": "2026-09-03T13:13:31.924281Z",
+  "osc:project": "careheat",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "osc:variables": [
+    "extreme-weather"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "extreme-weather"
+    }
+  ],
+  "title": "Marine heatwaves and cold spells events (CAREHeat) database",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1982-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "oceans",
+    "extreme temperature",
+    "heatwaves",
+    "coldspells"
+  ]
+}

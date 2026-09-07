@@ -1,0 +1,283 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-t-s-geo-a-150-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.0625,
+          30.27083396911621
+        ],
+        [
+          36.0625,
+          45.97916793823242
+        ],
+        [
+          -6.062498092651367,
+          45.97916793823242
+        ],
+        [
+          -6.062498092651367,
+          30.27083396911621
+        ],
+        [
+          36.0625,
+          30.27083396911621
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.062498092651367,
+    30.27083396911621,
+    36.0625,
+    45.97916793823242
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2022-08-01T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/4dmed-bp.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Zarr store",
+      "created": "2026-09-03T13:12:38.708351Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-01-01T00:00:00Z",
+            "2022-08-01T00:00:00Z"
+          ],
+          "description": "time",
+          "step": "P1DT0H0M0S",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -6.062498092651367,
+            36.0625
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            30.27083396911621,
+            45.97916793823242
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "depth": {
+          "extent": [
+            -150.0,
+            -3.0
+          ],
+          "description": "depth",
+          "type": "spatial",
+          "axis": "z"
+        }
+      },
+      "cube:variables": {
+        "CHL3D": {
+          "type": "data",
+          "description": "Neural network reconstruction of 3D Mediterranean chlorophyll field from surface obs at 1/24 deg",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "mg m-3",
+          "attrs": {
+            "units": "mg m-3",
+            "long_name": "Neural network reconstruction of 3D Mediterranean chlorophyll field from surface obs at 1/24 deg",
+            "standard_name": "mass_concentration_of_chlorophyll_in_sea_water"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            63,
+            92,
+            25
+          ]
+        },
+        "DS3D": {
+          "type": "data",
+          "description": "Neural network reconstruction of 3D Mediterranean density field from surface obs at 1/24 deg",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "kg m-3",
+          "attrs": {
+            "units": "kg m-3",
+            "long_name": "Neural network reconstruction of 3D Mediterranean density field from surface obs at 1/24 deg",
+            "standard_name": "sea_water_density"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            63,
+            92,
+            25
+          ]
+        },
+        "SAL3D": {
+          "type": "data",
+          "description": "Neural network reconstruction of 3D Mediterranean salinity field from surface obs at 1/24 deg",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "0.001",
+          "attrs": {
+            "units": "0.001",
+            "long_name": "Neural network reconstruction of 3D Mediterranean salinity field from surface obs at 1/24 deg",
+            "standard_name": "sea_water_salinity"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            63,
+            92,
+            25
+          ]
+        },
+        "TEMP3D": {
+          "type": "data",
+          "description": "Neural network reconstruction of 3D Mediterranean temperature field from surface obs at 1/24 deg",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "degrees_C",
+          "attrs": {
+            "units": "degrees_C",
+            "long_name": "Neural network reconstruction of 3D Mediterranean temperature field from surface obs at 1/24 deg",
+            "standard_name": "sea_water_temperature"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            63,
+            92,
+            25
+          ]
+        },
+        "UO3D": {
+          "type": "data",
+          "description": "3D Mediterranean geostrophic eastward velocity",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "long_name": "3D Mediterranean geostrophic eastward velocity",
+            "standard_name": "geostrophic_eastward_sea_water_velocity"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            63,
+            92,
+            25
+          ]
+        },
+        "VO3D": {
+          "type": "data",
+          "description": "3D Mediterranean geostrophic northward velocity",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon",
+            "depth"
+          ],
+          "unit": "m s-1",
+          "attrs": {
+            "units": "m s-1",
+            "long_name": "3D Mediterranean geostrophic northward velocity",
+            "standard_name": "geostrophic_northward_sea_water_velocity"
+          },
+          "shape": [
+            2405,
+            378,
+            1012,
+            148
+          ],
+          "chunks": [
+            7,
+            63,
+            92,
+            25
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-t-s-geo-a-150",
+  "title": "Zarr store"
+}

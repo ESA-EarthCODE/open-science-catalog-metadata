@@ -1,0 +1,215 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-2d-sss-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.0625,
+          30.27083396911621
+        ],
+        [
+          36.0625,
+          45.97916793823242
+        ],
+        [
+          -6.062498092651367,
+          45.97916793823242
+        ],
+        [
+          -6.062498092651367,
+          30.27083396911621
+        ],
+        [
+          36.0625,
+          30.27083396911621
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.062498092651367,
+    30.27083396911621,
+    36.0625,
+    45.97916793823242
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-01-01T12:00:00Z",
+    "end_datetime": "2022-12-31T12:00:00Z",
+    "datetime": "2016-01-01T12:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/sssd.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Zarr store",
+      "created": "2026-09-03T13:11:22.630955Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-01-01T12:00:00Z",
+            "2022-12-31T12:00:00Z"
+          ],
+          "description": "time",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -6.062498092651367,
+            36.0625
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            30.27083396911621,
+            45.97916793823242
+          ],
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "dos": {
+          "type": "data",
+          "description": "sea surface density",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "kg/m3",
+          "attrs": {
+            "long_name": "sea surface density",
+            "standard_name": "sea_surface_density",
+            "units": "kg/m3"
+          },
+          "shape": [
+            2557,
+            1,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            1,
+            378,
+            1012
+          ]
+        },
+        "dos_error": {
+          "type": "data",
+          "description": "sea surface density error",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "percent",
+          "attrs": {
+            "long_name": "sea surface density error",
+            "standard_name": "sea_surface_density_error",
+            "units": "percent"
+          },
+          "shape": [
+            2557,
+            1,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            1,
+            378,
+            1012
+          ]
+        },
+        "sos": {
+          "type": "data",
+          "description": "sea surface salinity",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": ".0001",
+          "attrs": {
+            "long_name": "sea surface salinity",
+            "standard_name": "sea_surface_salinity",
+            "units": ".0001"
+          },
+          "shape": [
+            2557,
+            1,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            1,
+            378,
+            1012
+          ]
+        },
+        "sos_error": {
+          "type": "data",
+          "description": "sea surface salinity error",
+          "dimensions": [
+            "time",
+            "depth",
+            "lat",
+            "lon"
+          ],
+          "unit": "percent",
+          "attrs": {
+            "long_name": "sea surface salinity error",
+            "standard_name": "sea_surface_salinity_error",
+            "units": "percent"
+          },
+          "shape": [
+            2557,
+            1,
+            378,
+            1012
+          ],
+          "chunks": [
+            30,
+            1,
+            378,
+            1012
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-2d-sss",
+  "title": "Zarr store"
+}

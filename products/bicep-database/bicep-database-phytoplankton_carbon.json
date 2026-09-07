@@ -1,0 +1,343 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bicep-database-phytoplankton_carbon",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.9583282470703,
+          -89.95833587646484
+        ],
+        [
+          179.9583282470703,
+          89.95833587646484
+        ],
+        [
+          -179.9583282470703,
+          89.95833587646484
+        ],
+        [
+          -179.9583282470703,
+          -89.95833587646484
+        ],
+        [
+          179.9583282470703,
+          -89.95833587646484
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.9583282470703,
+    -89.95833587646484,
+    179.9583282470703,
+    89.95833587646484
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "start_datetime": "1998-01-01T00:00:00Z",
+    "end_datetime": "2020-12-01T00:00:00Z",
+    "datetime": "1998-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Biological pump and carbon exchange processes (Bicep) database"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/bicep/phytoplankton_carbon.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "PHYTOPLANKTON CARBON Zarr",
+      "created": "2026-09-03T13:13:13.077606Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1998-01-01T00:00:00Z",
+            "2020-12-01T00:00:00Z"
+          ],
+          "description": "time",
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.9583282470703,
+            179.9583282470703
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.95833587646484,
+            89.95833587646484
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "C_microphyto": {
+          "type": "data",
+          "description": "Microphytoplankton Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg C m-3",
+          "attrs": {
+            "units": "mg C m-3",
+            "standard_name": "mass_concentration_of_microphytoplankton_expressed_as_carbon_in_sea_water",
+            "long_name": "Microphytoplankton Carbon"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "C_nanophyto": {
+          "type": "data",
+          "description": "Nanophytoplankton Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg C m-3",
+          "attrs": {
+            "units": "mg C m-3",
+            "standard_name": "mass_concentration_of_nanophytoplankton_expressed_as_carbon_in_sea_water",
+            "long_name": "Nanophytoplankton Carbon"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "C_phyto": {
+          "type": "data",
+          "description": "Total Phytoplankton Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg C m-3",
+          "attrs": {
+            "units": "mg C m-3",
+            "standard_name": "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
+            "long_name": "Total Phytoplankton Carbon"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "C_picophyto": {
+          "type": "data",
+          "description": "Picophytoplankton Carbon",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg C m-3",
+          "attrs": {
+            "units": "mg C m-3",
+            "standard_name": "mass_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water",
+            "long_name": "Picophytoplankton Carbon"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "chl_a": {
+          "type": "data",
+          "description": "Chlorophyll-a",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg C m-3",
+          "attrs": {
+            "units": "mg C m-3",
+            "standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+            "long_name": "Chlorophyll-a"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "latitude": {
+          "type": "data",
+          "description": "latitude",
+          "dimensions": [
+            "lat"
+          ],
+          "unit": "degrees north",
+          "attrs": {
+            "units": "degrees north",
+            "long_name": "latitude",
+            "standard_name": "latitude"
+          },
+          "shape": [
+            2160
+          ],
+          "chunks": [
+            1080
+          ]
+        },
+        "longitude": {
+          "type": "data",
+          "description": "longitude",
+          "dimensions": [
+            "lon"
+          ],
+          "unit": "degrees east",
+          "attrs": {
+            "units": "degrees east",
+            "long_name": "longitude",
+            "standard_name": "longitude"
+          },
+          "shape": [
+            4320
+          ],
+          "chunks": [
+            2160
+          ]
+        },
+        "mean_spectral_i_star": {
+          "type": "data",
+          "description": "Mean Spectral Nondimensional Irradiance (I*)",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "non-dimensional",
+          "attrs": {
+            "standard_name": "mean_spectral_nondimensional_irradiance",
+            "long_name": "Mean Spectral Nondimensional Irradiance (I*)",
+            "units": "non-dimensional"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "mld": {
+          "type": "data",
+          "description": "Mixed Layer Depth",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "m",
+          "attrs": {
+            "units": "m",
+            "standard_name": "mixed_layer_depth",
+            "long_name": "Mixed Layer Depth"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        },
+        "par": {
+          "type": "data",
+          "description": "Photosynthetically Active Radiation",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mol photons m-2 d-1",
+          "attrs": {
+            "units": "mol photons m-2 d-1",
+            "standard_name": "surface_downwelling_photosynthetic_photon_flux_in_sea_water",
+            "long_name": "Photosynthetically Active Radiation"
+          },
+          "shape": [
+            276,
+            2160,
+            4320
+          ],
+          "chunks": [
+            8,
+            1080,
+            2160
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "bicep-database",
+  "title": "PHYTOPLANKTON CARBON Zarr"
+}
