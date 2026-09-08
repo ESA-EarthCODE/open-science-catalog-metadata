@@ -1,0 +1,238 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+  ],
+  "id": "4datlantic-ohc-global-netcdf",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.5,
+          -89.5
+        ],
+        [
+          179.5,
+          89.5
+        ],
+        [
+          -179.5,
+          89.5
+        ],
+        [
+          -179.5,
+          -89.5
+        ],
+        [
+          179.5,
+          -89.5
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.5,
+    -89.5,
+    179.5,
+    89.5
+  ],
+  "properties": {
+    "history": "Creation: 2025-05-22",
+    "source": "satellite observation",
+    "comment": "See technical documentation ATBD and EDD, and peer-review article Marti et al, 2022 https://doi.org/10.5194/essd-2021-220 for more information. ",
+    "references": "https://doi.org/10.24400/527896/A01-2022.012",
+    "version": "3.0",
+    "conventions": "CF-1.8",
+    "contact": "robin.fraudeau(at)magellium.fr",
+    "start_datetime": "2002-04-15T00:00:00Z",
+    "end_datetime": "2023-09-16T12:59:59.999998Z",
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2002-04-15T18:07:12.000001Z",
+          "2023-09-16T12:59:59.999998Z"
+        ],
+        "description": "time",
+        "type": "temporal"
+      },
+      "longitude": {
+        "axis": "x",
+        "extent": [
+          -179.5,
+          179.5
+        ],
+        "description": "longitude",
+        "type": "spatial"
+      },
+      "latitude": {
+        "axis": "y",
+        "extent": [
+          -89.5,
+          89.5
+        ],
+        "step": 1.0,
+        "description": "latitude",
+        "type": "spatial"
+      },
+      "time_covar": {
+        "type": "other",
+        "extent": [
+          0,
+          21
+        ],
+        "step": 1,
+        "description": "Zero-based array index; coordinate labels are not supplied in source STAC."
+      },
+      "time_covar_2": {
+        "type": "other",
+        "extent": [
+          0,
+          21
+        ],
+        "step": 1,
+        "description": "Zero-based array index; coordinate labels are not supplied in source STAC."
+      }
+    },
+    "cube:variables": {
+      "crs": {
+        "type": "data",
+        "description": "Coordinate Reference System",
+        "dimensions": [],
+        "attrs": {
+          "long_name": "Coordinate Reference System",
+          "grid_mapping": "crs",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0.0,
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "comment": "This is a container variable that describes the grid_mapping used by the data in this file. This variable does not contain any data;only information about the geographic coordinate system."
+        },
+        "shape": []
+      },
+      "cell_surface": {
+        "type": "data",
+        "description": "Informs on the surface of each grid cell",
+        "dimensions": [
+          "latitude",
+          "longitude"
+        ],
+        "unit": "m2",
+        "attrs": {
+          "standard_name": "cell_area",
+          "long_name": "cell surface of the grid",
+          "units": "m2",
+          "description": "Informs on the surface of each grid cell"
+        },
+        "shape": [
+          180,
+          360
+        ]
+      },
+      "ohc": {
+        "type": "data",
+        "description": "ocean heat content",
+        "dimensions": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "unit": "J m-2",
+        "attrs": {
+          "standard_name": "sea_water_potential_temperature_expressed_as_heat_content",
+          "units": "J m-2",
+          "unit_long": "joules per square meter",
+          "long_name": "ocean heat content",
+          "comment": "regional ocean heat content from the space geodetic approach - derived from the regional thermosteric sea level change using a regional expansion efficiency of heat coefficients",
+          "actual_range": [
+            -15889334257.101118,
+            211032010479.7541
+          ]
+        },
+        "shape": [
+          258,
+          180,
+          360
+        ]
+      },
+      "ohc_mask": {
+        "type": "data",
+        "description": "ocean_heat_content_mask",
+        "dimensions": [
+          "time"
+        ],
+        "unit": "1",
+        "attrs": {
+          "long_name": "ocean_heat_content_mask",
+          "units": "1",
+          "comment": "mask to apply on OHC data for masking interpolated data ( 1 for observed data and 0 for extrapolated data)"
+        },
+        "shape": [
+          258
+        ]
+      },
+      "ohc_var_covar_matrix_local": {
+        "type": "data",
+        "description": "variance covariance matrix of errors on regional ocean heat content",
+        "dimensions": [
+          "time_covar",
+          "time_covar_2",
+          "latitude",
+          "longitude"
+        ],
+        "unit": "J2 m-4",
+        "attrs": {
+          "units": "J2 m-4",
+          "unit_long": "square joules per meter to the power of 4",
+          "long_name": "variance covariance matrix of errors on regional ocean heat content",
+          "comment": "variance covariance matrix of errors on regional ocean heat content time-series",
+          "actual_range": [
+            -6.210476023720376e+19,
+            7.27752162935125e+19
+          ]
+        },
+        "shape": [
+          22,
+          22,
+          180,
+          360
+        ]
+      }
+    },
+    "datetime": null,
+    "title": "4datlantic-ohc-global",
+    "description": "Given the major role of the ocean in the climate system, it is essential to characterize the temporal and spatial variations of its heat content. The OHC product results from the space geodetic approach also called altimetry-gravimetry approach. This dataset contains variables as 3D grids of ocean heat content anomalies at 1x1 resolution and monthly time step. Error variance-covariance matrices of OHC at regional scale and annual resolution are also provided. See Experimental Dataset Description for details: https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/OHC-EEI/OHCATL-DT-035-MAG_EDD_V3.0.pdf. Version V3-0 of Dataset published 2025 in ODATIS-AVISO portal. This dataset has been produced within the framework of the 4DAtlantic-Ocean heat content Project funded by ESA.",
+    "license": "proprietary"
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/4datlantic-ohc-global/4datlantic-ohc-global.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/4datlantic-ohc/OHC_4DATLANTIC_200204_202309_V3-0.nc",
+      "type": "application/x-netcdf",
+      "title": "OHC 4D Atlantic",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4d-atlantic-ohc-global"
+}
