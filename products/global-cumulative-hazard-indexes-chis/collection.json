@@ -1,0 +1,220 @@
+{
+  "type": "Collection",
+  "id": "global-cumulative-hazard-indexes-chis",
+  "stac_version": "1.0.0",
+  "description": "This dataset provides monthly information on Cumulative Hazard Indexs (CHIs) at the sea surface (3D, lat, lon, time) at global scale.\nEach file contains the estimated CHI (lat, lon, time) with the related stressors involved for its computation (lat, lon, time). The reference period used as a baseline for defining the climatology is variable according to the input dataset required to build the CHI.\n\nCHI1 is provided globally at 1°x1° of spatial resolution, covering the period from 1993 to 2022.\nThe monthly-averaged stressors involved in CHI1 are SST and H+ concentration from satellite observation.\n\nCHI2 is provided globally at 1°x1° of spatial resolution from 2004 to 2022.\nThe monthly-averaged stressors involved in CHI2 are SST, O2 and SSS from merged observation (satellite and models).\n\nCHI3 is provided globally at 1°x1° of spatial resolution from 1993 to 2022.\nThe monthly averaged stressors involved in CHI3 are SST, SSD, H+ concentration and Wind from satellite observation. Note that two version of CHI3 are released, CHI3L is made by considering low wind events (< 10th percentile) while CHI3H is made by considering high wind events (> 90th percentile).\n\nCHI4 is provided globally at 1°x1° of spatial resolution from 2012 to 2020.\nThe monthly-averaged stressors involved in CHI4 are SST and Fishing Effort (FE, hours spent on fishing) from satellite (SST) and in situ (FE) observation.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/mitho/collection.json",
+      "type": "application/json",
+      "title": "Project: MITHO (Multiple Threats on Ocean Health)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/metop/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MetOp"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-oxygen/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved Oxygen"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ph/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ph"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/density/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Density"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wind-speed-near-surface/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wind speed (near surface)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/fisheries/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Fisheries"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/global-cumulative-hazard-indexes-chis/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./global-cumulative-hazard-indexes-chis-mitho-ch13.json",
+      "type": "application/json",
+      "title": "mitho-ch13 zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./global-cumulative-hazard-indexes-chis-mitho-chi2_2004_2022.json",
+      "type": "application/json",
+      "title": "mitho-chi2_2004_2022 zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./global-cumulative-hazard-indexes-chis-mitho-chi4_2012_2020.json",
+      "type": "application/json",
+      "title": "mitho-chi4_2012_2020 zarr store"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-08-13T10:30:53.305657Z",
+  "updated": "2026-08-13T10:30:53.305657Z",
+  "osc:project": "mitho",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "osc:missions": [
+    "ers-1",
+    "ers-2",
+    "envisat",
+    "sentinel-3",
+    "smos",
+    "ascat",
+    "metop",
+    "numerical-models",
+    "in-situ-observations"
+  ],
+  "osc:variables": [
+    "sea-surface-temperature",
+    "sea-surface-salinity",
+    "dissolved-oxygen",
+    "ph",
+    "density",
+    "wind-speed-near-surface",
+    "fisheries"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "title": "Global Cumulative Hazard Indexes (CHIs)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -177.09955878786792,
+          -81.95768754993095,
+          173.06068610058182,
+          80.08571734113738
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1993-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "cumulative hazard indexes",
+    "ocean health",
+    "sea surface temperature",
+    "ocean stressors",
+    "marine hazards"
+  ]
+}

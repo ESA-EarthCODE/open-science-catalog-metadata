@@ -2087,6 +2087,12 @@
     },
     {
       "rel": "child",
+      "href": "./global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "child",
       "href": "./eowetmet-seasonal-inundation-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)"
