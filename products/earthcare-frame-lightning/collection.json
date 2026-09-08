@@ -155,7 +155,7 @@
   "fair:Interoperable_has_documentation": false,
   "fair:Reusable_rich_descriptions": true,
   "fair:Reusable_has_license": true,
-  "fair:Reusable_workflow_exists": true,
+  "fair:Reusable_workflow_exists": false,
   "fair:Reusable_cloud_assets_rate": 1.0,
   "fair:Reusable_has_visualisation": true,
   "fair:Reusable_has_access_example": true
