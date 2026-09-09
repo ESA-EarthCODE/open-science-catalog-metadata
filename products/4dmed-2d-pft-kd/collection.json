@@ -56,6 +56,12 @@
       "href": "./4dmed-2d-pft-kd-item.json",
       "type": "application/json",
       "title": "KD Zarr Store"
+    },
+    {
+      "rel": "item",
+      "href": "./4dmed-2d-pft-kd-item-pft.json",
+      "type": "application/json",
+      "title": "PFT Zarr Store"
     }
   ],
   "stac_extensions": [
@@ -91,6 +97,26 @@
     "sentinel-5p"
   ],
   "updated": "2025-05-07T20:32:06.209108Z",
+  "fair:Findable_has_doi": false,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": false,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 1.0,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": false,
   "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)",
   "extent": {
     "spatial": {
@@ -116,25 +142,5 @@
   "keywords": [
     "Phytoplankton Functional Types",
     "Diffuse Attenuation Coefficient (DAC)"
-  ],
-  "fair:Findable_has_doi": false,
-  "fair:Findable_rich_metadata": true,
-  "fair:Findable_identifier": true,
-  "fair:Findable_stac_assets": true,
-  "fair:Findable_indexed": true,
-  "fair:Findable_indexed_approved_metadata": true,
-  "fair:Findable_indexed_approved_data": true,
-  "fair:Accessible_general": true,
-  "fair:Accessible_protocols": true,
-  "fair:Accessible_files": 1.0,
-  "fair:Interoperable_uses_formal_language": true,
-  "fair:Interoperable_controlled_vocabularies": true,
-  "fair:Interoperable_related_links": true,
-  "fair:Interoperable_has_documentation": false,
-  "fair:Reusable_rich_descriptions": true,
-  "fair:Reusable_has_license": true,
-  "fair:Reusable_workflow_exists": false,
-  "fair:Reusable_cloud_assets_rate": 1.0,
-  "fair:Reusable_has_visualisation": false,
-  "fair:Reusable_has_access_example": false
+  ]
 }
