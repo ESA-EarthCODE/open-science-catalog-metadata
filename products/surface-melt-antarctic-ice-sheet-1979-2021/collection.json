@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/surface_melting_antarctica_1979_2021/catalog.json",
-      "type": "application/json",
-      "title": "Surface melt on the Antarctic Ice Sheets (1979 - 2021)"
-    },
-    {
       "rel": "via",
       "href": "https://snow.univ-grenoble-alpes.fr/files/melting-1979-2021-v1.zip",
       "title": "Access"
@@ -60,6 +54,30 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/surface-melt-antarctic-ice-sheet-1979-2021/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CumJour-ssmi-1979-2021-H19.json",
+      "type": "application/json",
+      "title": "CumJour-ssmi-1979-2021-H19"
+    },
+    {
+      "rel": "item",
+      "href": "./CumJour-ssmi_extendedmask-1979-2021-H19.json",
+      "type": "application/json",
+      "title": "CumJour-ssmi_extendedmask-1979-2021-H19"
+    },
+    {
+      "rel": "item",
+      "href": "./CumJour_Raw-ssmi-1979-2021-H19.json",
+      "type": "application/json",
+      "title": "CumJour_Raw-ssmi-1979-2021-H19"
+    },
+    {
+      "rel": "item",
+      "href": "./CumJour_Raw-ssmi_extendedmask-1979-2021-H19.json",
+      "type": "application/json",
+      "title": "CumJour_Raw-ssmi_extendedmask-1979-2021-H19"
     }
   ],
   "stac_extensions": [
@@ -103,7 +121,7 @@
           -180.0,
           -90.0,
           180.0,
-          -60.0
+          -54.50895899401584
         ]
       ]
     },
