@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/cryosat-antarctic-ocean/southern-ocean-SIT-CryoSat-2/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "via",
       "href": "https://www.aviso.altimetry.fr/en/data/products/ice-products/altimetry-sea-ice-products-from-ctoh.html",
       "title": "Access"
@@ -83,6 +77,12 @@
       "application:type": "jupyter-notebook",
       "application:embedded": true,
       "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000.json",
+      "type": "application/json",
+      "title": "SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000"
     }
   ],
   "stac_extensions": [
@@ -128,7 +128,7 @@
           -180.0,
           -90.0,
           180.0,
-          -63.0
+          -56.7587107166777
         ]
       ]
     },
@@ -136,7 +136,7 @@
       "interval": [
         [
           "2002-10-15T00:00:00Z",
-          "2018-10-16T23:59:59Z"
+          "2020-12-16T00:00:00Z"
         ]
       ]
     }
