@@ -150,7 +150,7 @@
   "fair:Findable_stac_assets": true,
   "fair:Findable_indexed": true,
   "fair:Findable_indexed_approved_metadata": true,
-  "fair:Findable_indexed_approved_data": false,
+  "fair:Findable_indexed_approved_data": true,
   "fair:Accessible_general": true,
   "fair:Accessible_protocols": true,
   "fair:Accessible_files": 1.0,
