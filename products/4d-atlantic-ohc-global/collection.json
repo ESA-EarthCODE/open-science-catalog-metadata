@@ -75,11 +75,6 @@
       "title": "Documentation"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/collection.json",
-      "title": "Global Ocean Heat Content"
-    },
-    {
       "rel": "license",
       "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
       "type": "application/pdf",
@@ -90,6 +85,12 @@
       "href": "./4datlantic-ohc-global.json",
       "type": "application/json",
       "title": "Zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./4datlantic-ohc-global-netcdf.json",
+      "type": "application/json",
+      "title": "OHC 4D Atlantic"
     }
   ],
   "stac_extensions": [
@@ -137,8 +138,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-01-01T00:00:00Z",
-          "2021-12-31T00:00:00Z"
+          "2002-04-15T00:00:00Z",
+          "2023-09-16T12:59:59.999998Z"
         ]
       ]
     }

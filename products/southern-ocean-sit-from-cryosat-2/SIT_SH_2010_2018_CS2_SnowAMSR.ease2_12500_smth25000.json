@@ -1,0 +1,281 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+  ],
+  "id": "SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000",
+    "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -56.7587107166777
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -56.7587107166777
+  ],
+  "properties": {
+    "start_datetime": "2010-10-15T00:00:00Z",
+    "end_datetime": "2018-10-16T00:00:00Z",
+    "datetime": null,
+    "title": "SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000",
+    "description": "Sea ice thickness derived from CryoSat-2 estimates of radar freeboard combined with the Altimetric Snow Depth (ASD) snow solution. ASD utilises data from SARAL AltiKa and CryoSat-2 to estimate the depth of snow on sea ice floes. The source STAC does not supply a spatial footprint.",
+    "license": "various"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Southern Ocean sea ice thickness from CryoSat-2"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/cryosat-antarctic-ocean/southern-ocean-SIT-CryoSat-2/SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000.nc",
+      "type": "application/x-netcdf",
+      "title": "SIT_SH_2010_2018_CS2_SnowAMSR.ease2_12500_smth25000",
+      "cube:dimensions": {
+        "time": {
+          "type": "temporal",
+          "extent": [
+            "2010-10-15T00:00:00Z",
+            "2018-10-16T00:00:00Z"
+          ],
+          "step": null,
+          "values": [
+            "2010-10-15T00:00:00Z",
+            "2011-05-15T00:00:00Z",
+            "2011-06-15T00:00:00Z",
+            "2011-07-15T00:00:00Z",
+            "2011-08-15T00:00:00Z",
+            "2011-09-15T00:00:00Z",
+            "2011-10-15T00:00:00Z",
+            "2012-05-15T00:00:00Z",
+            "2012-06-15T00:00:00Z",
+            "2012-07-15T00:00:00Z",
+            "2012-08-15T00:00:00Z",
+            "2012-09-15T00:00:00Z",
+            "2012-10-15T00:00:00Z",
+            "2013-05-15T00:00:00Z",
+            "2013-06-15T00:00:00Z",
+            "2013-07-15T00:00:00Z",
+            "2013-08-15T00:00:00Z",
+            "2013-09-15T00:00:00Z",
+            "2013-10-15T00:00:00Z",
+            "2014-05-15T00:00:00Z",
+            "2014-06-15T00:00:00Z",
+            "2014-07-15T00:00:00Z",
+            "2014-08-15T00:00:00Z",
+            "2014-09-15T00:00:00Z",
+            "2014-10-15T00:00:00Z",
+            "2015-05-15T00:00:00Z",
+            "2015-06-15T00:00:00Z",
+            "2015-07-15T00:00:00Z",
+            "2015-08-15T00:00:00Z",
+            "2015-09-15T00:00:00Z",
+            "2015-10-15T00:00:00Z",
+            "2016-05-15T00:00:00Z",
+            "2016-06-15T00:00:00Z",
+            "2016-07-15T00:00:00Z",
+            "2016-08-15T00:00:00Z",
+            "2016-09-15T00:00:00Z",
+            "2016-10-15T00:00:00Z",
+            "2017-05-15T00:00:00Z",
+            "2017-06-15T00:00:00Z",
+            "2017-07-15T00:00:00Z",
+            "2017-08-15T00:00:00Z",
+            "2017-09-15T00:00:00Z",
+            "2017-10-15T00:00:00Z",
+            "2018-05-15T00:00:00Z",
+            "2018-06-15T00:00:00Z",
+            "2018-07-15T00:00:00Z",
+            "2018-08-15T00:00:00Z",
+            "2018-09-15T00:00:00Z",
+            "2018-10-15T00:00:00Z"
+          ]
+        },
+        "time_bounds": {
+          "type": "other",
+          "step": null,
+          "values": [
+            0.0,
+            1.0
+          ]
+        },
+        "u": {
+          "type": "other",
+          "extent": [
+            0.0,
+            849.0
+          ],
+          "step": 1.0
+        },
+        "v": {
+          "type": "other",
+          "extent": [
+            0.0,
+            849.0
+          ],
+          "step": 1.0
+        }
+      },
+      "cube:variables": {
+        "time": {
+          "type": "data",
+          "unit": "days since 2000-01-01 00:00:00",
+          "dimensions": [
+            "time"
+          ]
+        },
+        "time_bounds": {
+          "type": "data",
+          "unit": "days since 2000-01-01 00:00:00",
+          "dimensions": [
+            "time",
+            "time_bounds"
+          ]
+        },
+        "latitude": {
+          "type": "data",
+          "unit": "degree_north",
+          "dimensions": [
+            "u",
+            "v"
+          ]
+        },
+        "longitude": {
+          "type": "data",
+          "dimensions": [
+            "u",
+            "v"
+          ]
+        },
+        "snow_depth": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "snow_depth_unc": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "freeboard_radar": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "freeboard_radar_unc": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "freeboard_ice": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "freeboard_ice_unc": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "freeboard_tot": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "freeboard_tot_unc": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "SIT": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        },
+        "SIT_unc": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "time",
+            "u",
+            "v"
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "southern-ocean-sit-from-cryosat-2"
+}

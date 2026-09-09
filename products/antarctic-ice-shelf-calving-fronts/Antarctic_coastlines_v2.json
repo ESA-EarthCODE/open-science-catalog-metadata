@@ -1,0 +1,195 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "Antarctic_coastlines_v2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -57.62119325033221
+        ],
+        [
+          -180.0,
+          -57.62119325033221
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -57.62119325033221
+  ],
+  "properties": {
+    "start_datetime": "1997-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T01:00:00Z",
+    "datetime": null,
+    "title": "Antarctic_coastlines_v2",
+    "description": "Antarctic Coastlines, 1997-2021. Time-evolving Antarctic calving fronts from observations. Greene, Chad A., Gardner, Alex S., Schlegel, Nicole-Jeanne, & Fraser, Alexander D. (2022). ",
+    "license": "CC-BY-4.0",
+    "proj:code": "EPSG:3031",
+    "proj:bbox": [
+      -2678287.0,
+      -2154112.0,
+      2816512.0,
+      2259727.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            2816512.0,
+            -2154112.0
+          ],
+          [
+            2816512.0,
+            2259727.0
+          ],
+          [
+            -2678287.0,
+            2259727.0
+          ],
+          [
+            -2678287.0,
+            -2154112.0
+          ],
+          [
+            2816512.0,
+            -2154112.0
+          ]
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Shelf Calving Fronts 1997-2021"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/Polar_Ice_Shelves/antarctic-ice-shelf-calving-fronts/Antarctic_coastlines_v2.nc",
+      "type": "application/x-netcdf",
+      "title": "Antarctic_coastlines_v2",
+      "cube:dimensions": {
+        "X": {
+          "type": "spatial",
+          "extent": [
+            -2678287.0,
+            2816512.0
+          ],
+          "step": 250,
+          "unit": "m",
+          "axis": "x",
+          "reference_system": 3031
+        },
+        "Y": {
+          "type": "spatial",
+          "extent": [
+            -2154112.0,
+            2259727.0
+          ],
+          "step": 250,
+          "unit": "m",
+          "axis": "y",
+          "reference_system": 3031
+        },
+        "Year": {
+          "type": "other",
+          "step": null,
+          "unit": "Decimal year",
+          "values": [
+            1997.0,
+            2000.0,
+            2001.0,
+            2002.0,
+            2003.0,
+            2004.0,
+            2005.0,
+            2006.0,
+            2007.0,
+            2008.0,
+            2009.0,
+            2010.0,
+            2011.0,
+            2012.0,
+            2013.0,
+            2014.0,
+            2015.0,
+            2016.0,
+            2017.0,
+            2018.0,
+            2019.0,
+            2020.0,
+            2021.0
+          ]
+        }
+      },
+      "cube:variables": {
+        "X": {
+          "type": "data",
+          "unit": "Easting (m)",
+          "dimensions": [
+            "X"
+          ]
+        },
+        "Y": {
+          "type": "data",
+          "unit": "Northing (m)",
+          "dimensions": [
+            "Y"
+          ]
+        },
+        "Year": {
+          "type": "data",
+          "unit": "Decimal year",
+          "dimensions": [
+            "Year"
+          ]
+        },
+        "coastline": {
+          "type": "data",
+          "unit": "Binary map: ice/land=1, ocean=0",
+          "dimensions": [
+            "Year",
+            "X",
+            "Y"
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "antarctic-ice-shelf-calving-fronts"
+}

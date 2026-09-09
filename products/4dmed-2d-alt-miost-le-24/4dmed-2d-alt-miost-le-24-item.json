@@ -1,0 +1,174 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-2d-alt-miost-le-24-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.02161407470703,
+          30.312496185302734
+        ],
+        [
+          36.02161407470703,
+          45.936622619628906
+        ],
+        [
+          -6.020831108093262,
+          45.936622619628906
+        ],
+        [
+          -6.020831108093262,
+          30.312496185302734
+        ],
+        [
+          36.02161407470703,
+          30.312496185302734
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.020831108093262,
+    30.312496185302734,
+    36.02161407470703,
+    45.936622619628906
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2016-04-01T00:00:00Z",
+    "end_datetime": "2022-07-23T00:00:00Z",
+    "datetime": "2016-04-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24\u00b0)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24\u00b0)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/fsle.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Zarr store",
+      "created": "2026-09-09T15:40:49.698248Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2016-04-01T00:00:00Z",
+            "2022-07-23T00:00:00Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            0,
+            1009
+          ],
+          "step": 1,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            0,
+            375
+          ],
+          "step": 1,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "fsle": {
+          "type": "data",
+          "description": "backward Finite Size Lyapunov Exponents",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "1/days",
+          "attrs": {
+            "long_name": "backward Finite Size Lyapunov Exponents",
+            "units": "1/days",
+            "parameters1": "amplification factor: alpha = 30 (deltaf = alfa*delta0)",
+            "parameters2": "delta0 = 1/24 degrees",
+            "parameters3": "Fourth-Order Runge-Kutta time step: 1 hour"
+          },
+          "shape": [
+            2300,
+            376,
+            1010
+          ],
+          "chunks": [
+            30,
+            376,
+            376
+          ]
+        },
+        "lat": {
+          "type": "auxiliary",
+          "description": "Latitude",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "long_name": "Latitude",
+            "units": "degrees_north"
+          },
+          "shape": [
+            376,
+            1010
+          ],
+          "chunks": [
+            376,
+            376
+          ]
+        },
+        "lon": {
+          "type": "auxiliary",
+          "description": "Longitude",
+          "dimensions": [
+            "y",
+            "x"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "long_name": "Longitude",
+            "units": "degrees_east"
+          },
+          "shape": [
+            376,
+            1010
+          ],
+          "chunks": [
+            376,
+            376
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-2d-alt-miost-le-24",
+  "title": "Zarr store"
+}
