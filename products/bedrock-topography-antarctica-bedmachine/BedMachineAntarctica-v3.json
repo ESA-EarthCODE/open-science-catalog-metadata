@@ -83,11 +83,6 @@
   },
   "links": [
     {
-      "rel": "derived_from",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/bedrock-topography-antarctica-bedmachine/BedMachineAntarctica-v3/BedMachineAntarctica-v3.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",

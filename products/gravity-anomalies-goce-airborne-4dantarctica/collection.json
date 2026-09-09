@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/gravity-anomalies-goce-airborne-4dantarctica/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "via",
       "href": "https://doi.org/10.1594/PANGAEA.848168",
       "title": "Access"
@@ -72,6 +66,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/gravity-anomalies-goce-airborne-4dantarctica/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./antgg2015.json",
+      "type": "application/json",
+      "title": "antgg2015"
     }
   ],
   "stac_extensions": [
@@ -118,7 +118,7 @@
           -180.0,
           -90.0,
           180.0,
-          -60.0
+          -48.49868443587046
         ]
       ]
     },
