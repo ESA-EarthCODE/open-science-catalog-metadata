@@ -74,6 +74,12 @@
       "href": "./earthcare-marine-stratocumulus-transitions-experiment/record.json",
       "type": "application/json",
       "title": "Mesoscale Structure Experiment"
+    },
+    {
+      "rel": "item",
+      "href": "./eutrophication-monitoring-italy-20170314/record.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Italy, 2017-03-14)"
     }
   ],
   "updated": "2025-12-16T15:32:00.000000Z",
