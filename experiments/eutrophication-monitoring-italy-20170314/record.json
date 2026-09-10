@@ -1,0 +1,101 @@
+{
+  "id": "eutrophication-monitoring-italy-20170314",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-09-10T12:32:17Z",
+    "updated": "2026-09-10T12:32:17Z",
+    "type": "experiment",
+    "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Italy, 2017-03-14)",
+    "description": "Execution of the Eumon processor on a Sentinel-3 OLCI product over Italy, producing coastal water-quality indicators (chlorophyll-a, turbidity, suspended particulate matter, water type) for eutrophication monitoring, and downlading the results locally.",
+    "keywords": [
+      "SDG",
+      "eutrophication",
+      "chlorophyll-a"
+    ],
+    "contacts": [
+      {
+        "name": "CGI",
+        "organization": "CGI",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://insula.earth/"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "license": "CC-BY-NC-4.0",
+    "osc:workflow": "eutrophication-monitoring",
+    "start_datetime": "2017-03-14T00:00:00Z",
+    "end_datetime": "2017-03-14T23:59:59Z",
+    "application:type": "jupyter-notebook",
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/eutrophication-monitoring/record.json",
+      "type": "application/json",
+      "title": "Workflow: Eutrophication Monitoring for SDG engine"
+    },
+    {
+      "rel": "input",
+      "href": "input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/cgi-italy/notebooks/blob/main/EuMonExperiment.ipynb",
+      "type": "application/json",
+      "title": "Git source repository"
+    }
+  ]
+}

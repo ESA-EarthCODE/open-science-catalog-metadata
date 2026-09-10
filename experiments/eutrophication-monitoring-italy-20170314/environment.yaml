@@ -1,0 +1,4 @@
+$comment: >-
+  This experiment used the Eumon workflow defined as a processing service on the
+  Insula platform and ran it using the OGC API Processes interface, dowloading the
+  results from Insula object storage to the local workspace.
