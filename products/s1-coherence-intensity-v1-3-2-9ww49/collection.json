@@ -1,0 +1,110 @@
+{
+  "type": "Collection",
+  "id": "s1-coherence-intensity-v1-3-2-9ww49",
+  "stac_version": "1.1.0",
+  "description": "This service takes as input a pair of Sentinel-1 SLC datasets, it computes the coherence and backscatter from the interferometric pair and produces a band composite of coherence and backscatter average. It also generates a red-cyan composite of backscatter from reference and secondary.",
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://docs.copernicuslac.terradue.com/services/intro/",
+      "title": "User Manual"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/geohazards-tep/collection.json",
+      "type": "application/json",
+      "title": "Project: Geohazards Exploitation Platform (GEP)"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/s1-coherence-intensity-v1-3-2-9ww49/record.json",
+      "type": "application/json",
+      "title": "Experiment: Coherence and Intensity Composite"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://processing.geohazards-tep.eu/7465727261647565/jobs/s1-coherence-intensity-v1-3-2-9ww49/results",
+      "type": "application/json",
+      "title": "OGC API Processes - Job Results: s1-coherence-intensity-v1-3-2-9ww49"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://dashboards.geohazards-tep.eu/7465727261647565/jobs/s1-coherence-intensity-v1-3-2-9ww49/results",
+      "type": "text/html",
+      "title": "GEP Geobrowser - Job Results: s1-coherence-intensity-v1-3-2-9ww49"
+    },
+    {
+      "rel": "output",
+      "href": "./output.yaml",
+      "type": "application/yaml",
+      "title": "Output parameter"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:project": "geohazards-tep",
+  "osc:experiment": "s1-coherence-intensity-v1-3-2-9ww49",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "created": "2026-09-14T14:23:52Z",
+  "updated": "2026-09-14T14:23:52Z",
+  "title": "Coherence and Intensity Composite",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-09-08T09:20:26Z",
+          "2026-09-08T09:46:21Z"
+        ]
+      ]
+    }
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "CWL",
+    "CWL Workflow",
+    "Workflow",
+    "Earth Observation",
+    "Earth Observation application package"
+  ]
+}

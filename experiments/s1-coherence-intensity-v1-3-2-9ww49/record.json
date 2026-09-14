@@ -1,0 +1,200 @@
+{
+  "id": "s1-coherence-intensity-v1-3-2-9ww49",
+  "type": "Feature",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    ]
+  },
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "version": "1",
+    "created": "2026-08-06T00:00:00Z",
+    "updated": "2026-09-14T14:23:30.987196Z",
+    "type": "experiment",
+    "title": "Coherence and Intensity Composite",
+    "description": "This service takes as input a pair of Sentinel-1 SLC datasets, it computes the coherence and backscatter from the interferometric pair and produces a band composite of coherence and backscatter average. It also generates a red-cyan composite of backscatter from reference and secondary.",
+    "keywords": [
+      "CWL",
+      "CWL Workflow",
+      "Workflow",
+      "Earth Observation",
+      "Earth Observation application package"
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "EARTH SCIENCE",
+            "title": "EARTH SCIENCE",
+            "description": "EARTH SCIENCE",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/d3b7c3c0-e644-4f01-94da-dfebe854c0d1"
+          },
+          {
+            "id": "SPECTRAL/ENGINEERING",
+            "title": "SPECTRAL/ENGINEERING",
+            "description": "EARTH SCIENCE > SPECTRAL/ENGINEERING",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/d3b7c3c0-e644-4f01-94da-dfebe854c0d1"
+          },
+          {
+            "id": "RADAR",
+            "title": "RADAR",
+            "description": "EARTH SCIENCE > SPECTRAL/ENGINEERING > RADAR",
+            "url": "https://cmr.earthdata.nasa.gov/kms/concept/d3b7c3c0-e644-4f01-94da-dfebe854c0d1"
+          }
+        ],
+        "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+      }
+    ],
+    "language": {
+      "code": "en-US",
+      "name": "English (United States)",
+      "alternate": "English (United States)",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "en-US",
+        "name": "English (United States)",
+        "alternate": "English (United States)",
+        "dir": "ltr"
+      }
+    ],
+    "resourceLanguages": [
+      {
+        "code": "en-US",
+        "name": "English (United States)",
+        "alternate": "English (United States)",
+        "dir": "ltr"
+      }
+    ],
+    "formats": [
+      {
+        "name": "CWL",
+        "mediaType": "application/cwl"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "https://orcid.org/0009-0000-1342-9736",
+        "name": "Brito, Fabrice",
+        "position": "Project Manager",
+        "organization": "Terradue",
+        "emails": [
+          {
+            "value": "fabrice.brito@terradue.com"
+          }
+        ]
+      },
+      {
+        "identifier": "https://orcid.org/0000-0002-0752-9930",
+        "name": "Arcorace, Mauro",
+        "position": "Researcher",
+        "organization": "Terradue",
+        "emails": [
+          {
+            "value": "mauro.arcorace@terradue.com"
+          }
+        ]
+      },
+      {
+        "identifier": "https://orcid.org/0009-0008-1861-965X",
+        "name": "Longobardo, Michele",
+        "position": "Project Leader",
+        "organization": "Terradue",
+        "emails": [
+          {
+            "value": "michele.longobardo@terradue.com"
+          }
+        ]
+      }
+    ],
+    "license": "Apache-2.0",
+    "osc:project": "geohazards-tep",
+    "osc:workflow": "s1-coherence-intensity-v1-3-2",
+    "osc-prov:generatedBy": "osc-client",
+    "osc-prov:startedAtTime": "2026-09-08T09:20:26Z",
+    "osc-prov:endedAtTime": "2026-09-08T09:46:21Z",
+    "osc-prov:describedByWorkflow": "s1-coherence-intensity-v1-3-2"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "hreflang": "en",
+      "title": "User Manual",
+      "created": "2026-08-06T00:00:00Z",
+      "updated": "2026-09-14T14:23:30.987161Z",
+      "href": "https://docs.copernicuslac.terradue.com/services/intro/"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Project: Geohazards Exploitation Platform (GEP)",
+      "href": "../../projects/geohazards-tep/collection.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Open Science Catalog",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Experiments",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "via",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "OGC API Processes - Job: s1-coherence-intensity-v1-3-2-9ww49",
+      "href": "https://processing.geohazards-tep.eu/7465727261647565/jobs/s1-coherence-intensity-v1-3-2-9ww49"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "hreflang": "en-US",
+      "title": "GEP Geobrowser - Job: s1-coherence-intensity-v1-3-2-9ww49",
+      "href": "https://dashboards.geohazards-tep.eu/7465727261647565/jobs/s1-coherence-intensity-v1-3-2-9ww49"
+    },
+    {
+      "rel": "input",
+      "type": "application/yaml",
+      "hreflang": "en-US",
+      "title": "Input parameters",
+      "created": "2026-09-08T09:20:26Z",
+      "updated": "2026-09-08T09:20:26Z",
+      "href": "./input.yaml"
+    },
+    {
+      "rel": "environment",
+      "type": "application/yaml",
+      "hreflang": "en-US",
+      "title": "Execution environment",
+      "created": "2026-09-08T09:20:26Z",
+      "updated": "2026-09-08T09:20:26Z",
+      "href": "./environment.yaml"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "hreflang": "en-US",
+      "title": "Workflow: Coherence and Intensity Composite",
+      "created": "2026-09-08T09:20:26Z",
+      "updated": "2026-09-08T09:20:26Z",
+      "href": "../../workflows/s1-coherence-intensity-v1-3-2/record.json"
+    }
+  ]
+}
