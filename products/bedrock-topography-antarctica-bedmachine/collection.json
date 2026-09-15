@@ -21,12 +21,6 @@
       "title": "Documentation"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/bedrock-topography-antarctica-bedmachine/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -77,6 +71,12 @@
       "application:type": "jupyter-notebook",
       "application:embedded": true,
       "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./BedMachineAntarctica-v3.json",
+      "type": "application/json",
+      "title": "BedMachineAntarctica-v3"
     }
   ],
   "stac_extensions": [
@@ -122,7 +122,7 @@
           -180.0,
           -90.0,
           180.0,
-          -56.7587107166777
+          -48.4643831063986
         ]
       ]
     },
@@ -130,7 +130,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2019-10-01T23:59:59Z"
+          "2019-12-01T00:00:00Z"
         ]
       ]
     }
@@ -150,7 +150,7 @@
   "fair:Findable_stac_assets": true,
   "fair:Findable_indexed": true,
   "fair:Findable_indexed_approved_metadata": true,
-  "fair:Findable_indexed_approved_data": false,
+  "fair:Findable_indexed_approved_data": true,
   "fair:Accessible_general": true,
   "fair:Accessible_protocols": true,
   "fair:Accessible_files": 1.0,

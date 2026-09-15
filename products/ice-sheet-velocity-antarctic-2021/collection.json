@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/antarctic-ice-sheet-velocity-monthly-2021/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "via",
       "href": "https://cryoportal.enveo.at/data_files/2021-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.1_20220420.zip",
       "title": "Access"
@@ -71,6 +65,78 @@
       "application:type": "jupyter-notebook",
       "application:embedded": true,
       "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./20210101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210301-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210301-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210401-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210401-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210501-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210501-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210601-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210601-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210701-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210701-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210801-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210801-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210901-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210901-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20211001-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20211001-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20211101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20211101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20211201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20211201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
     }
   ],
   "stac_extensions": [
@@ -114,7 +180,7 @@
           -180.0,
           -90.0,
           180.0,
-          -63.0
+          -56.21220293194665
         ]
       ]
     },
@@ -139,7 +205,7 @@
   "fair:Findable_stac_assets": true,
   "fair:Findable_indexed": true,
   "fair:Findable_indexed_approved_metadata": true,
-  "fair:Findable_indexed_approved_data": false,
+  "fair:Findable_indexed_approved_data": true,
   "fair:Accessible_general": true,
   "fair:Accessible_protocols": true,
   "fair:Accessible_files": 1.0,

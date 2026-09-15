@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/ice-temperature-profiles-antarctica/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "via",
       "href": "https://data.catds.fr/cecsm/Cryo_products/IceSheet_InternalTemperature/SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.nc",
       "title": "Access"
@@ -71,6 +65,12 @@
       "href": "./SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.json",
       "type": "application/json",
       "title": "Zarr Store"
+    },
+    {
+      "rel": "item",
+      "href": "./SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0-netcdf.json",
+      "type": "application/json",
+      "title": "SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0"
     }
   ],
   "stac_extensions": [
@@ -113,9 +113,9 @@
       "bbox": [
         [
           -180.0,
-          -83.0,
+          -90.0,
           180.0,
-          -63.0
+          0.0
         ]
       ]
     },

@@ -1,0 +1,212 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "antgg2015",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -48.49868443587046
+        ],
+        [
+          -180.0,
+          -48.49868443587046
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -48.49868443587046
+  ],
+  "properties": {
+    "start_datetime": "2015-01-01T00:00:00Z",
+    "end_datetime": "2015-12-31T00:00:00Z",
+    "datetime": null,
+    "title": "antgg2015",
+    "description": "Gravity surveying is challenging in Antarctica because of its hostile environment and inaccessibility. Nevertheless, many ground-based, airborne, and shipborne gravity campaigns have been completed by the geophysical and geodetic communities since the 1980s. We present the first modern Antarctic-wide gravity data compilation derived from 13 million data points covering an area of 10 million km**2, which corresponds to 73% coverage of the continent. The remove-compute-restore technique was applied for gridding, which facilitated leveling of the different gravity data sets with respect to an Earth gravity model derived from satellite data alone. The resulting free-air and Bouguer gravity anomaly grids of 10 km resolution are publicly available. These grids will enable new high-resolution combined Earth gravity models to be derived and represent a major step forward toward solving the geodetic polar data gap problem. They provide a new tool to investigate continental-scale lithospheric structure and geological evolution of Antarctica. Products available also in different formats: Antarctic free-air and complete Bouguer gravity anomaly grid in formated ASCII format (9 MB, zipped): https://hs.pangaea.de/Maps/antgg2015/antgg2015.zip and in text file format: https://doi.pangaea.de/10.1594/PANGAEA.848168?format=textfile",
+    "license": "proprietary",
+    "proj:code": "EPSG:3031",
+    "proj:bbox": [
+      -3330000.0,
+      -3330000.0,
+      3330000.0,
+      3330000.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            3330000.0,
+            -3330000.0
+          ],
+          [
+            3330000.0,
+            3330000.0
+          ],
+          [
+            -3330000.0,
+            3330000.0
+          ],
+          [
+            -3330000.0,
+            -3330000.0
+          ],
+          [
+            3330000.0,
+            -3330000.0
+          ]
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Gravity anomalies from GOCE and airborne data"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Gravity anomalies from GOCE and airborne data"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/4DANTARCTICA/gravity-anomalies-goce-airborne-4dantarctica/antgg2015.nc",
+      "type": "application/x-netcdf",
+      "title": "antgg2015",
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x",
+          "extent": [
+            -3330.0,
+            3330.0
+          ],
+          "step": 10.0,
+          "unit": "km",
+          "reference_system": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Polar Stereographic (variant B)\",ID[\"EPSG\",9829]],PARAMETER[\"Latitude of standard parallel\",-71,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8832]],PARAMETER[\"Longitude of origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8833]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",north,MERIDIAN[90,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]],ORDER[1],LENGTHUNIT[\"kilometre\",1000,ID[\"EPSG\",9036]]],AXIS[\"(N)\",north,MERIDIAN[0,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]],ORDER[2],LENGTHUNIT[\"kilometre\",1000,ID[\"EPSG\",9036]]]]"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y",
+          "extent": [
+            -3330.0,
+            3330.0
+          ],
+          "step": -10.0,
+          "unit": "km",
+          "reference_system": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Polar Stereographic (variant B)\",ID[\"EPSG\",9829]],PARAMETER[\"Latitude of standard parallel\",-71,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8832]],PARAMETER[\"Longitude of origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8833]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",north,MERIDIAN[90,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]],ORDER[1],LENGTHUNIT[\"kilometre\",1000,ID[\"EPSG\",9036]]],AXIS[\"(N)\",north,MERIDIAN[0,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]],ORDER[2],LENGTHUNIT[\"kilometre\",1000,ID[\"EPSG\",9036]]]]"
+        },
+        "crs": {
+          "type": "other",
+          "step": null,
+          "values": [
+            0.0
+          ]
+        }
+      },
+      "cube:variables": {
+        "x": {
+          "type": "data",
+          "unit": "km",
+          "dimensions": [
+            "x"
+          ]
+        },
+        "y": {
+          "type": "data",
+          "unit": "km",
+          "dimensions": [
+            "y"
+          ]
+        },
+        "longitude": {
+          "type": "data",
+          "unit": "degrees_east",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        },
+        "latitude": {
+          "type": "data",
+          "unit": "degrees_north",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        },
+        "ellipsoidal_height": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        },
+        "orthometric_height": {
+          "type": "data",
+          "unit": "m",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        },
+        "free_air_anomaly": {
+          "type": "data",
+          "unit": "mGal",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        },
+        "accuracy_measure": {
+          "type": "data",
+          "unit": "mGal",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        },
+        "bouguer_anomaly": {
+          "type": "data",
+          "unit": "mGal",
+          "dimensions": [
+            "y",
+            "x"
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "gravity-anomalies-goce-airborne-4dantarctica"
+}

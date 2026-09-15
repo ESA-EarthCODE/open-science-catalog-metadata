@@ -11,12 +11,6 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/Polar_Ice_Shelves/antarctic-ice-shelf-calving-fronts/catalog.json",
-      "type": "application/json",
-      "title": "Items"
-    },
-    {
       "rel": "via",
       "href": "https://zenodo.org/record/5903643",
       "title": "Access"
@@ -71,6 +65,12 @@
       "application:type": "jupyter-notebook",
       "application:embedded": true,
       "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./Antarctic_coastlines_v2.json",
+      "type": "application/json",
+      "title": "Antarctic_coastlines_v2"
     }
   ],
   "stac_extensions": [

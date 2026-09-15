@@ -1,0 +1,224 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "4dmed-2d-pft-kd-item-pft",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.98198318481445,
+          30.036035537719727
+        ],
+        [
+          39.98198318481445,
+          50.0
+        ],
+        [
+          -9.963963508605957,
+          50.0
+        ],
+        [
+          -9.963963508605957,
+          30.036035537719727
+        ],
+        [
+          39.98198318481445,
+          30.036035537719727
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -9.963963508605957,
+    30.036035537719727,
+    39.98198318481445,
+    50.0
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2019-01-01T00:00:00Z",
+    "end_datetime": "2021-12-01T00:00:00Z",
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019\u20132021)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019\u20132021)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean_datasets/4dmed-2d-pft.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "PFT Zarr Store",
+      "created": "2026-09-09T15:39:54.381572Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2019-01-01T00:00:00Z",
+            "2021-12-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -9.963963508605957,
+            39.98198318481445
+          ],
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            30.036035537719727,
+            50.0
+          ],
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "DIATO": {
+          "type": "data",
+          "description": "Diatoms chlorophyll a",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "units": "mg m^-3",
+            "long_name": "Diatoms chlorophyll a"
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        },
+        "DINO": {
+          "type": "data",
+          "description": "Dinoflagellates chlorophyll a",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "units": "mg m^-3",
+            "long_name": "Dinoflagellates chlorophyll a"
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        },
+        "GREEN": {
+          "type": "data",
+          "description": "Chlorophytes (Green algae) chlorophyll a",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "units": "mg m^-3",
+            "long_name": "Chlorophytes (Green algae) chlorophyll a"
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        },
+        "HAPTO": {
+          "type": "data",
+          "description": "Haptophytes chlorophyll a",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "units": "mg m^-3",
+            "long_name": "Haptophytes chlorophyll a"
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        },
+        "PROKA": {
+          "type": "data",
+          "description": "Prokaryotic phytoplankton chlorophyll a",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mg m^-3",
+          "attrs": {
+            "units": "mg m^-3",
+            "long_name": "Prokaryotic phytoplankton chlorophyll a"
+          },
+          "shape": [
+            36,
+            278,
+            694
+          ],
+          "chunks": [
+            36,
+            278,
+            694
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "4dmed-2d-pft-kd",
+  "title": "PFT Zarr Store"
+}
