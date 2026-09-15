@@ -96,6 +96,16 @@
       "href": "https://github.com/cgi-italy/notebooks/blob/main/EuMonExperiment.ipynb",
       "type": "application/json",
       "title": "Git source repository"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "Insula",
+      "href": "https://code.insula.earth",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "Insula Experiment"
     }
   ]
 }
