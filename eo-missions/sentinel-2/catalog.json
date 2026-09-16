@@ -227,6 +227,30 @@
     },
     {
       "rel": "child",
+      "href": "../../products/eo4flood-fe/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-prec/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-sri/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-river-width/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD River Width Products"
+    },
+    {
+      "rel": "child",
       "href": "../../products/esa-world-cereal-extent-product/collection.json",
       "type": "application/json",
       "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"

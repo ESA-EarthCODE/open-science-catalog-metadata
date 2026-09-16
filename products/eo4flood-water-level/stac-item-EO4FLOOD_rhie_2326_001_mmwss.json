@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_rhie_2326_001_mmwss",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.661637306213379,
+          -4.970656277691887e-07
+        ],
+        [
+          9.661637306213379,
+          51.76726531982422
+        ],
+        [
+          -4.970656277691887e-07,
+          51.76726531982422
+        ],
+        [
+          -4.970656277691887e-07,
+          -4.970656277691887e-07
+        ],
+        [
+          9.661637306213379,
+          -4.970656277691887e-07
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -4.970656277691887e-07,
+    -4.970656277691887e-07,
+    9.661637306213379,
+    51.76726531982422
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "nc_attributes": {
+      "title": "Multi-mission water surface time series",
+      "producer": "DTU Space, Denmark",
+      "project": "EO4Flood",
+      "references": "TBC",
+      "contact": "K. Nielsen (karni@space.dtu.dk)",
+      "pdate": "Fri Feb 13 15:40:57 2026",
+      "VSlon": 6.395394802,
+      "VSlat": 51.756919859999996,
+      "VSchainage": 58016.0461733309,
+      "VSwidth": 321.470062255859,
+      "VSReachID": "23261000231",
+      "VSgauge": "6335020_GRDC",
+      "reachLength": 115.012582611667,
+      "meantime": 6.84689134808859,
+      "Conventions": "ncdf4"
+    },
+    "parquet_column_metadata": {
+      "chainage": {
+        "units": "m",
+        "long_name": "chainage"
+      },
+      "slope_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope grid"
+      },
+      "slopesd_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope std grid"
+      },
+      "slope_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope in VS",
+        "description": "The water surface slope time series for the VS of interest"
+      },
+      "slopesd_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope std in VS"
+      },
+      "lon": {
+        "units": "m",
+        "long_name": "longitude_grid"
+      },
+      "lat": {
+        "units": "m",
+        "long_name": "latitude_grid"
+      }
+    },
+    "datetime": "2026-05-28T16:27:13.214974Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Rhine_multi-mission_water_surface_slope.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Rhine - Multi-mission water surface time series - VS 2326_001 - Gauge 6335020_GRDC",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level",
+  "title": "Rhine - Multi-mission water surface time series - VS 2326_001 - Gauge 6335020_GRDC"
+}
