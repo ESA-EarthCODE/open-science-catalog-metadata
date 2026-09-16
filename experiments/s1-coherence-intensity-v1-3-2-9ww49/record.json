@@ -18,7 +18,7 @@
   "properties": {
     "version": "1",
     "created": "2026-08-06T00:00:00Z",
-    "updated": "2026-09-16T15:15:30.758867Z",
+    "updated": "2026-09-16T15:36:25.867144Z",
     "type": "experiment",
     "title": "Coherence and Intensity Composite",
     "description": "This service takes as input a pair of Sentinel-1 SLC datasets, it computes the coherence and backscatter from the interferometric pair and produces a band composite of coherence and backscatter average. It also generates a red-cyan composite of backscatter from reference and secondary.",
@@ -131,7 +131,7 @@
       "hreflang": "en",
       "title": "User Manual",
       "created": "2026-08-06T00:00:00Z",
-      "updated": "2026-09-16T15:15:30.758813Z",
+      "updated": "2026-09-16T15:36:25.867119Z",
       "href": "https://docs.copernicuslac.terradue.com/services/intro/"
     },
     {
