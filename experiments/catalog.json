@@ -74,6 +74,12 @@
       "href": "./earthcare-marine-stratocumulus-transitions-experiment/record.json",
       "type": "application/json",
       "title": "Mesoscale Structure Experiment"
+    },
+    {
+      "rel": "item",
+      "href": "./s1-coherence-intensity-v1-3-2-9ww49/record.json",
+      "type": "application/json",
+      "title": "Coherence and Intensity Composite"
     }
   ],
   "updated": "2025-12-16T15:32:00.000000Z",
