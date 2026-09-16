@@ -76,8 +76,8 @@
       ]
     }
   ],
-  "created": "2026-09-14T14:23:52Z",
-  "updated": "2026-09-14T14:23:52Z",
+  "created": "2026-09-16T07:34:37Z",
+  "updated": "2026-09-16T07:34:37Z",
   "title": "Coherence and Intensity Composite",
   "extent": {
     "spatial": {
@@ -99,7 +99,7 @@
       ]
     }
   },
-  "license": "CC-BY-SA-1.0",
+  "license": "Apache-2.0",
   "keywords": [
     "CWL",
     "CWL Workflow",
