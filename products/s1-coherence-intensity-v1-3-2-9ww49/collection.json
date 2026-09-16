@@ -52,10 +52,9 @@
       "title": "GEP Geobrowser - Job Results: s1-coherence-intensity-v1-3-2-9ww49"
     },
     {
-      "rel": "output",
-      "href": "./output.yaml",
-      "type": "application/yaml",
-      "title": "Output parameter"
+      "rel": "item",
+      "href": "./items/coherence-intensity-c-vv-20260816-20260828.json",
+      "type": "application/geo+json"
     }
   ],
   "stac_extensions": [
@@ -76,30 +75,30 @@
       ]
     }
   ],
-  "created": "2026-09-16T07:34:37Z",
-  "updated": "2026-09-16T07:34:37Z",
+  "created": "2026-09-16T15:13:03Z",
+  "updated": "2026-09-16T15:13:03Z",
   "title": "Coherence and Intensity Composite",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          84.9854558998149,
+          27.802935778885892,
+          85.24529743096132,
+          27.96514253504522
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-09-08T09:20:26Z",
-          "2026-09-08T09:46:21Z"
+          "2026-08-16T12:21:39.573377Z",
+          "2026-08-28T12:22:08.198022Z"
         ]
       ]
     }
   },
-  "license": "CC-BY-SA-1.0",
+  "license": "Apache-2.0",
   "keywords": [
     "CWL",
     "CWL Workflow",
