@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5194/acp-15-7127-2015"}
+  ,
+    {"doi": "10.83395/4mby-z280"}],
   "type": "Collection",
   "id": "cliima-cloud-od-livas",
   "stac_version": "1.0.0",
@@ -78,7 +82,7 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2014-01-01T00:00:00Z",
-  "sci:doi": "10.5194/acp-15-7127-2015",
+  "sci:doi": "10.83395/xc6g-9707",
   "cf:parameter": [
     {
       "name": "cloud_optical_properties_profiles"

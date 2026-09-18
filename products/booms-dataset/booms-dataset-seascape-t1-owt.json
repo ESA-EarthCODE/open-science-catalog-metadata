@@ -37,8 +37,8 @@
     89.97916666666667
   ],
   "properties": {
-    "license": "unknown",
-    "description": "",
+    "license": "CC-BY-NC-4.0",
+    "description": "Bio-optical seascapes. The baseline seascapes product is a simplification of the optical water type (OWT) variables provided by OC-CCI. For each pixel, the 14 floating point values of OWT membership are replaced by a single integer equal to the optical water type number that has the greatest membership value. This is known as the dominant water class and is produced for each day of data. Monthly composites are generated from these by taking the mode of valid pixel values within the specified month. Finally, a generalisation step is applied comprising a binary opening, followed by nearest neighbour interpolation, constrained to fill pixels within a 5 pixel radius (~20 km).",
     "start_datetime": "1998-01-01T00:00:00Z",
     "end_datetime": "2022-06-01T00:00:00Z",
     "datetime": "1998-01-01T00:00:00Z"

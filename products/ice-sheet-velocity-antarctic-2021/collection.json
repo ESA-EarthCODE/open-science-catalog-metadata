@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/xvyj-8n84"}
+  ],
+  "sci:doi": "10.83395/jkyd-hg26",
   "type": "Collection",
   "id": "ice-sheet-velocity-antarctic-2021",
   "stac_version": "1.0.0",
@@ -9,12 +13,6 @@
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
-    },
-    {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/antarctic-ice-sheet-velocity-monthly-2021/catalog.json",
-      "type": "application/json",
-      "title": "Items"
     },
     {
       "rel": "via",
@@ -71,12 +69,85 @@
       "application:type": "jupyter-notebook",
       "application:embedded": true,
       "application:language": "Python"
+    },
+    {
+      "rel": "item",
+      "href": "./20210101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210301-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210301-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210401-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210401-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210501-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210501-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210601-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210601-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210701-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210701-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210801-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210801-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20210901-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20210901-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20211001-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20211001-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20211101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20211101-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./20211201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0.json",
+      "type": "application/json",
+      "title": "20211201-ESACCI-L3C-AIS-IV-S1-1M_200m-fv1.0"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
   "osc:status": "completed",
@@ -114,7 +185,7 @@
           -180.0,
           -90.0,
           180.0,
-          -63.0
+          -56.21220293194665
         ]
       ]
     },
@@ -132,5 +203,25 @@
     "Snow/Ice",
     "Ice Velocity",
     "Terrestrial Hydrosphere"
-  ]
+  ],
+  "fair:Findable_has_doi": false,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 0.1,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
 }

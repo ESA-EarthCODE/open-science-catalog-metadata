@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5285/CDF7E028-0274-4DB7-A2EC-180220B1DD71"}
+  ,
+    {"doi": "10.83395/n7rm-z416"}],
   "type": "Collection",
   "id": "elevation-and-elevation-change-antarctic-cryotop-evolution",
   "stac_version": "1.0.0",
@@ -67,7 +71,7 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "created": "2019-12-20T00:00:00Z",
-  "sci:doi": "10.5285/CDF7E028-0274-4DB7-A2EC-180220B1DD71",
+  "sci:doi": "10.83395/7s4a-1h79",
   "cf:parameter": [
     {
       "name": "swath_elevation_change_ice_sheet"

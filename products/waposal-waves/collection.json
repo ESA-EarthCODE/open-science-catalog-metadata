@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.57780/esa-1ab8cf3"}
+  ,
+    {"doi": "10.83395/x6mr-7855"}],
   "type": "Collection",
   "id": "waposal-waves",
   "stac_version": "1.1.0",
@@ -23,9 +27,9 @@
       "title": "Project: WAPOSAL"
     },
     {
-        "rel": "cite-as",
-        "href": "https://doi.org/10.57780/ESA-1AB8CF3",
-        "title": "DOI"
+      "rel": "cite-as",
+      "href": "https://doi.org/10.57780/ESA-1AB8CF3",
+      "title": "DOI"
     },
     {
       "href": "https://doi.org/10.1016/j.egyr.2026.109133",
@@ -37,7 +41,6 @@
       "rel": "Related publication",
       "title": "Wave energy assessment using SWIM radar and high-resolution altimeter data"
     },
-    
     {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
@@ -109,7 +112,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "waposal",
   "osc:status": "completed",
@@ -117,7 +121,7 @@
   "osc:type": "product",
   "created": "2025-10-29T11:40:41Z",
   "updated": "2025-10-29T11:40:41Z",
-  "sci:doi": "10.57780/esa-1ab8cf3",
+  "sci:doi": "10.83395/vraf-vp33",
   "cf:parameter": [
     {
       "name": "wave-period"
@@ -242,5 +246,25 @@
     "wave power",
     "wave frequency",
     "wave"
-  ]
+  ],
+  "fair:Findable_has_doi": true,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 1.0,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
 }

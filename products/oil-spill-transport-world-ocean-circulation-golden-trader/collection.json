@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.12770/d06e06dc-b193-4aa1-b05a-7c541698aff0"}
+    ,
+        {"doi": "10.83395/sj43-f251"}],
     "type": "Collection",
     "id": "oil-spill-transport-world-ocean-circulation-golden-trader",
     "stac_version": "1.0.0",
@@ -53,14 +57,15 @@
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
       "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+      "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
     ],
     "osc:project": "world-ocean-circulation",
     "osc:status": "completed",
     "osc:region": "North Sea",
     "osc:type": "product",
     "created": "2021-11-30T00:00:00Z",
-    "sci:doi": "10.12770/d06e06dc-b193-4aa1-b05a-7c541698aff0",
+    "sci:doi": "10.83395/a1q4-3w71",
     "cf:parameter": [
       {
         "name": "oil_spill_transport"

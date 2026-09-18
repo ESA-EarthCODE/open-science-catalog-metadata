@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/d0f8-az92"}
+  ],
+  "sci:doi": "10.83395/demf-1127",
   "type": "Collection",
   "id": "global-marine-phytoplankton-carbon-bicep",
   "stac_version": "1.0.0",
@@ -89,7 +93,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "biological-pump-and-carbon-exchange-processes",
   "osc:status": "completed",

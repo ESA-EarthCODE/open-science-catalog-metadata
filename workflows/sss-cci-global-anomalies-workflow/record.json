@@ -4,6 +4,10 @@
   "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset",
   "geometry": null,
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/xtfy-7j72"}
+    ],
+    "sci:doi": "10.83395/fmv2-0c53",
     "created": "2026-03-26T16:10:08.176884+00:00",
     "updated": "2026-03-26T16:10:08.176884+00:00",
     "type": "workflow",
@@ -64,7 +68,8 @@
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
     "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
-    "https://stac-extensions.github.io/application/v0.1.0/schema.json"
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "themes": [
     "ocean"

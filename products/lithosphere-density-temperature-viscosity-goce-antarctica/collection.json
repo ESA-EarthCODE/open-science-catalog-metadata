@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1029/2019JB017997"}
+  ,
+    {"doi": "10.83395/rjja-0531"}],
   "type": "Collection",
   "id": "lithosphere-density-temperature-viscosity-goce-antarctica",
   "stac_version": "1.0.0",
@@ -79,7 +83,7 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "created": "2019-10-25T00:00:00Z",
-  "sci:doi": "10.1029/2019JB017997",
+  "sci:doi": "10.83395/ej4k-mj66",
   "cf:parameter": [
     {
       "name": "density_temperature_viscosity"

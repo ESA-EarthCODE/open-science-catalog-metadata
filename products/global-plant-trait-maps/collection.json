@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.14646322"}
+  ,
+    {"doi": "10.83395/nh0m-2f30"}],
   "type": "Collection",
   "id": "global-plant-trait-maps",
   "stac_version": "1.1.0",
@@ -54,7 +58,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.14646322",
+  "sci:doi": "10.83395/9q7h-fd54",
   "sci:citation": "Lusk, D., Wolf, S., Svidzinska, D., & Kattenborn, T. (2026). Global plant trait maps based on crowdsourced biodiversity monitoring and Earth observation - 1 km - All PFTs [Data set]. In Nature Communications (1.0.0, Vol. 17, Number 1203). Zenodo. https://doi.org/10.5281/zenodo.14646322",
   "published": "2026-01-30T00:00:00Z",
   "osc:type": "product",
@@ -130,16 +134,16 @@
     "seed-germination-rate"
   ],
   "osc:missions": [
-  "modis",
-  "in-situ-observations", 
-  "dmsp",
-  "trmm",
-  "amsr-e",
-  "amsr2",
-  "windsat",
-  "gpm-global-precipitation-measurement",
-  "smos",
-  "smap"
+    "modis",
+    "in-situ-observations",
+    "dmsp",
+    "trmm",
+    "amsr-e",
+    "amsr2",
+    "windsat",
+    "gpm-global-precipitation-measurement",
+    "smos",
+    "smap"
   ],
   "links": [
     {
@@ -483,5 +487,25 @@
       "type": "application/json",
       "title": "EO Mission: SMAP"
     }
-  ]
+  ],
+  "fair:Findable_has_doi": true,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": false,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 0.9,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": false,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 1.0,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": false
 }

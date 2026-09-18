@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.3813146"}
+  ,
+    {"doi": "10.83395/j80a-8h48"}],
   "type": "Collection",
   "id": "solar-activity-polar-cap-plasma-density-ion-outflow",
   "stac_version": "1.0.0",
@@ -67,7 +71,7 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2020-05-07T00:00:00Z",
-  "sci:doi": "10.5281/zenodo.3813146",
+  "sci:doi": "10.83395/twr4-vx47",
   "cf:parameter": [
     {
       "name": "solar_activity"

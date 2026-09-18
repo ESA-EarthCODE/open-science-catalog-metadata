@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/vy4h-qs40"}
+  ],
+  "sci:doi": "10.83395/8s14-4561",
   "type": "Collection",
   "id": "limb-ozone-lpf-solve",
   "stac_version": "1.0.0",
@@ -60,7 +64,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve",
   "osc:status": "ongoing",

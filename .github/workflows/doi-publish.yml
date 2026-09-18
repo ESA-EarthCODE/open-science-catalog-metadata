@@ -1,0 +1,44 @@
+name: DOI Publish
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'products/**/collection.json'
+      - 'workflows/**/record.json'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: github.repository_owner == 'esa-earthcode'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0 # v6.0.3
+        with:
+          fetch-depth: 0 # Need full history for tags
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Run DOI Publication
+        env:
+          DATACITE_API_URL: ${{ secrets.DATACITE_API_URL || 'https://api.test.datacite.org' }}
+          DATACITE_USER: ${{ secrets.DATACITE_USER }}
+          DATACITE_PASSWORD: ${{ secrets.DATACITE_PASSWORD }}
+          DATACITE_PREFIX: ${{ secrets.DATACITE_PREFIX }}
+          PORTAL_UI_BASE_URL: ${{ vars.PORTAL_UI_BASE_URL || 'https://opensciencedata.esa.int' }}
+        run: python .github/scripts/doi/publish_dois.py

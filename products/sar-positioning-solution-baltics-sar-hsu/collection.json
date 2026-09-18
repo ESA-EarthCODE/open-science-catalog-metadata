@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/7xez-9w30"}
+  ],
+  "sci:doi": "10.83395/rz7j-ft90",
   "type": "Collection",
   "id": "sar-positioning-solution-baltics-sar-hsu",
   "stac_version": "1.0.0",
@@ -66,7 +70,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "baltic-geodetic-sar-for-baltic-height-system-unification-sar-hsu",
   "osc:status": "ongoing",

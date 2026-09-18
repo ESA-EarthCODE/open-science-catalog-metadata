@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/hcsb-ya37"}
+  ],
+  "sci:doi": "10.83395/m8wx-2r19",
   "type": "Collection",
   "id": "4d-atlantic-ohc-global",
   "stac_version": "1.0.0",
@@ -75,11 +79,6 @@
       "title": "Documentation"
     },
     {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4datlantic-ohc/collection.json",
-      "title": "Global Ocean Heat Content"
-    },
-    {
       "rel": "license",
       "href": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
       "type": "application/pdf",
@@ -90,12 +89,19 @@
       "href": "./4datlantic-ohc-global.json",
       "type": "application/json",
       "title": "Zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./4datlantic-ohc-global-netcdf.json",
+      "type": "application/json",
+      "title": "OHC 4D Atlantic"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "4datlantic-ohc",
   "osc:status": "completed",
@@ -137,8 +143,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-01-01T00:00:00Z",
-          "2021-12-31T00:00:00Z"
+          "2002-04-15T00:00:00Z",
+          "2023-09-16T12:59:59.999998Z"
         ]
       ]
     }
@@ -149,5 +155,25 @@
     "heat",
     "content",
     "altimetry"
-  ]
+  ],
+  "fair:Findable_has_doi": false,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 0.5,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": false
 }

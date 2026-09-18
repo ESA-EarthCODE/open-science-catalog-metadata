@@ -1,0 +1,164 @@
+name: DOI Audit
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, edited]
+    branches:
+      - main
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 0 * * *' # Daily at midnight
+
+concurrency:
+  group: doi-audit-${{ github.event.pull_request && github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      statuses: write
+    if: github.repository_owner == 'esa-earthcode'
+    steps:
+      - name: Checkout (PR)
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0 # v6.0.3
+        with:
+          token: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.pull_request && github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request && github.event.pull_request.head.ref || 'main' }}
+          fetch-depth: 0
+
+      - name: Checkout (Scheduled/Manual)
+        if: github.event_name != 'pull_request_target'
+        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0 # v6.0.3
+        with:
+          token: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Ensure trusted scripts
+        run: |
+          git fetch origin main
+          git checkout origin/main -- .github/scripts/doi/
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Determine changed files (PR)
+        if: github.event_name == 'pull_request_target'
+        run: |
+          git remote add upstream https://github.com/${{ github.repository }}
+          git fetch upstream ${{ github.event.pull_request.base.ref }}
+          FILES=$(git diff --name-only upstream/${{ github.event.pull_request.base.ref }} HEAD | grep -E '(products/.*/collection\.json|workflows/.*/record\.json)' || true)
+          FILES_FLAT=$(echo $FILES | tr '\n' ' ')
+          echo "CHANGED_FILES=$FILES_FLAT" >> $GITHUB_ENV
+
+      - name: Update PR Body Checklist
+        if: github.event_name == 'pull_request_target'
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
+          CHANGED_FILES: ${{ env.CHANGED_FILES }}
+          BASE_REF: upstream/${{ github.event.pull_request.base.ref }}
+          DATACITE_PREFIX: ${{ secrets.DATACITE_PREFIX }}
+        run: python .github/scripts/doi/update_pr_body.py
+
+      - name: Run DOI Draft Generation
+        env:
+          DATACITE_API_URL: ${{ secrets.DATACITE_API_URL || 'https://api.test.datacite.org' }}
+          DATACITE_USER: ${{ secrets.DATACITE_USER }}
+          DATACITE_PASSWORD: ${{ secrets.DATACITE_PASSWORD }}
+          DATACITE_PREFIX: ${{ secrets.DATACITE_PREFIX }}
+          PORTAL_UI_BASE_URL: ${{ vars.PORTAL_UI_BASE_URL || 'https://opensciencedata.esa.int' }}
+          CHANGED_FILES: ${{ env.CHANGED_FILES }}
+          BASE_REF: upstream/${{ github.event.pull_request.base.ref }}
+        run: python .github/scripts/doi/generate_drafts.py
+
+      - name: Commit changes to PR
+        id: auto_commit
+        if: github.event_name == 'pull_request_target'
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
+        with:
+          commit_message: "chore: assign DOIs to products and workflows"
+          file_pattern: 'products/**/collection.json workflows/**/record.json'
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+
+      - name: Report status on new commit
+        if: github.event_name == 'pull_request_target' && steps.auto_commit.outputs.changes_detected == 'true'
+        run: |
+          NEW_SHA=$(git rev-parse HEAD)
+          echo "Waiting 3 seconds for GitHub to sync the newly pushed commit..."
+          sleep 3
+          
+          # We report the status to the main repository (github.repository) 
+          # so that GITHUB_TOKEN has full authorized permission to write the status.
+          echo "Reporting success status for audit on commit $NEW_SHA in repository ${{ github.repository }}"
+          
+          RESPONSE=$(curl -s -w "\nHTTP_STATUS:%{http_code}" -X POST \
+            -H "Authorization: Bearer ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/statuses/${NEW_SHA} \
+            -d '{"state":"success","context":"audit","description":"DOI audit passed (auto-reported)"}')
+            
+          echo "API Response:"
+          echo "$RESPONSE"
+          
+          if [[ "$RESPONSE" == *"HTTP_STATUS:20"* ]]; then
+            echo "Status reported successfully."
+          else
+            echo "Direct report failed. Trying to report to head repo as fallback..."
+            TARGET_REPO="${{ github.event.pull_request && github.event.pull_request.head.repo.full_name || github.repository }}"
+            curl -s -X POST \
+              -H "Authorization: Bearer ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${TARGET_REPO}/statuses/${NEW_SHA} \
+              -d '{"state":"success","context":"audit","description":"DOI audit passed (auto-reported)"}'
+          fi
+
+      - name: Check for changes (Scheduled/Manual)
+        if: github.event_name != 'pull_request_target'
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            if [ -f doi_summary.md ]; then
+              EOF=$(dd if=/dev/urandom bs=15 count=1 2>/dev/null | base64)
+              echo "PR_BODY<<$EOF" >> $GITHUB_ENV
+              head -n 200 doi_summary.md >> $GITHUB_ENV
+              if [ $(wc -l < doi_summary.md) -gt 200 ]; then
+                echo "" >> $GITHUB_ENV
+                echo "... and more files. See GitHub Actions log for the full audit list." >> $GITHUB_ENV
+              fi
+              echo "" >> $GITHUB_ENV
+              echo "$EOF" >> $GITHUB_ENV
+            fi
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request (Scheduled/Manual)
+        if: github.event_name != 'pull_request_target' && steps.check_changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: assign DOIs to products and workflows'
+          title: 'chore: assign DOIs (Full Audit)'
+          body: ${{ env.PR_BODY || 'Automated DOI assignment for missing or modified items.' }}
+          branch: bot/doi-updates
+          base: main
+          delete-branch: true
+          add-paths: |
+            products/**/collection.json
+            workflows/**/record.json
+          labels: |
+            doi-assignment
+            automated

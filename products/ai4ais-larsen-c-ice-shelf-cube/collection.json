@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/0zsa-ea30"}
+  ],
+  "sci:doi": "10.83395/5e1v-vp76",
   "type": "Collection",
   "id": "ai4ais-larsen-c-ice-shelf-cube",
   "stac_version": "1.0.0",
@@ -124,7 +128,8 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "created": "2026-06-14T10:18:44.243499Z",
   "updated": "2026-06-14T10:18:44.243499Z",
@@ -183,5 +188,25 @@
     "Antarctica",
     "Data cube",
     "Larsen C"
-  ]
+  ],
+  "fair:Findable_has_doi": false,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": false,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 1.0,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
 }

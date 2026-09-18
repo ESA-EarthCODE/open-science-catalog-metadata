@@ -1,0 +1,144 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+  ],
+  "id": "SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0-netcdf",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          0.0
+        ],
+        [
+          -180.0,
+          0.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    0.0
+  ],
+  "properties": {
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2014-12-31T00:00:00Z",
+    "datetime": null,
+    "title": "SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0",
+    "description": "The product \u201cinternal ice-sheet temperature\u201d is composed by maps of internal temperature for the regions in which the Robin model is valid D5-2 [RD.9] along with the relative uncertainty estimation and a map of the quality of the estimation. It is obtained by using the IFAC-processor whose algorithm is described in D5-2 [RD.9]. It should be noted here that the product is experimental and is intended for scientific reasons. It is worth to recall here that the uncertainty related to the ice-sheet internal temperature estimate is due to both surface temperature and ice thickness uncertainty. Since the error associated to the surface temperature data cannot be provided all over the continent due to the scarcity of ground measurements (see D2 [RD.4]), the uncertainty is the one related to the ice thickness measurements. The coverage is limited to Antarctica. The data contained in the product are georeferenced over the EASEGrid2 Southern Hemisphere Azimuthal. Overall the dimension of the map are 200x224 pixels. The spatial resolution is 25 km x 25 km.The product is on the EASEGrid2 grid in the Southern Hemisphere Azimuthal projection. Latitude and longitude coordinates are provided inside of the file. As pointed out in the ATBD (D5-2), the internal ice-sheet temperature product is static and is expected to change over centennial time scale. The product is build from the L3 SMOS brightness temperature in average over 2013-2014. Description of the L3 SMOS product is in Al Bitar et al. (2017).",
+    "license": "CC-BY-4.0"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Ice temperature profiles"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://data.catds.fr/cecsm/Cryo_products/IceSheet_InternalTemperature/SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.nc",
+      "type": "application/x-netcdf",
+      "title": "SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0",
+      "cube:dimensions": {
+        "x": {
+          "type": "other",
+          "extent": [
+            0.0,
+            199.0
+          ],
+          "step": 1.0
+        },
+        "y": {
+          "type": "other",
+          "extent": [
+            0.0,
+            223.0
+          ],
+          "step": 1.0
+        },
+        "depth": {
+          "type": "spatial",
+          "axis": "z",
+          "extent": [
+            0.0,
+            4500.0
+          ],
+          "step": 50.0,
+          "unit": "meter"
+        }
+      },
+      "cube:variables": {
+        "depth": {
+          "type": "data",
+          "unit": "meter",
+          "dimensions": [
+            "depth"
+          ]
+        },
+        "latitude": {
+          "type": "data",
+          "unit": "degrees_north",
+          "dimensions": [
+            "x",
+            "y"
+          ]
+        },
+        "longitude": {
+          "type": "data",
+          "unit": "degrees_east",
+          "dimensions": [
+            "x",
+            "y"
+          ]
+        },
+        "Tice": {
+          "type": "data",
+          "unit": "K",
+          "dimensions": [
+            "x",
+            "y",
+            "depth"
+          ]
+        },
+        "QualityFlag": {
+          "type": "data",
+          "unit": "0 to 3, 0 is the best quality.",
+          "dimensions": [
+            "x",
+            "y"
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ice-temperature-profiles-antarctica"
+}

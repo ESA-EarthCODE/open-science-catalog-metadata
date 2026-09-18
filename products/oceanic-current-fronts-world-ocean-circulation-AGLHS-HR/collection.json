@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.12770/6c776c43-425b-4d29-9934-0822696f15d8"}
+    ,
+        {"doi": "10.83395/4ggz-tp98"}],
     "type": "Collection",
     "id": "oceanic-current-fronts-world-ocean-circulation-AGLHS-HR",
     "stac_version": "1.0.0",
@@ -59,14 +63,15 @@
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
       "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+      "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
     ],
     "osc:project": "world-ocean-circulation",
     "osc:status": "completed",
     "osc:region": "Agulhas",
     "osc:type": "product",
     "created": "2021-11-30T00:00:00Z",
-    "sci:doi": "10.12770/6c776c43-425b-4d29-9934-0822696f15d8",
+    "sci:doi": "10.83395/vdwd-8b86",
     "cf:parameter": [
       {
         "name": "oceanic_current_fronts"

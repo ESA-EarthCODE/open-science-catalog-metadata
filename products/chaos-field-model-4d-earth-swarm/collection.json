@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1186/s40623-020-01252-9"}
+  ,
+    {"doi": "10.83395/ny99-vk40"}],
   "type": "Collection",
   "id": "chaos-field-model-4d-earth-swarm",
   "stac_version": "1.0.0",
@@ -104,7 +108,7 @@
   "osc:type": "product",
   "created": "2020-10-20T00:00:00Z",
   "version": "7,8",
-  "sci:doi": "10.1186/s40623-020-01252-9",
+  "sci:doi": "10.83395/aef5-b111",
   "cf:parameter": [
     {
       "name": "chaos_field_model"

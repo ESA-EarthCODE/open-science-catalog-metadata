@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.20350/digitalCSIC/15493"}
+  ,
+    {"doi": "10.83395/j3hb-9b40"}],
   "type": "Collection",
   "id": "sofresh-sea-surface-salinity",
   "stac_version": "1.0.0",
@@ -84,7 +88,7 @@
   "osc:region": "Southern Ocean",
   "created": "2023-07-31T00:00:00Z",
   "version": "1",
-  "sci:doi": "10.20350/digitalCSIC/15493",
+  "sci:doi": "10.83395/sb09-v171",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -128,5 +132,25 @@
     "Salinity/Density",
     "Sea Surface Salinity",
     "Sea Ice"
-  ]
+  ],
+  "fair:Findable_has_doi": true,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": false,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 1.0,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
 }

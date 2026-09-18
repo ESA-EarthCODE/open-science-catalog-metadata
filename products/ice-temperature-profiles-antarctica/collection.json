@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1016/j.rse.2019.111405"}
+  ,
+    {"doi": "10.83395/cqym-d768"}],
   "type": "Collection",
   "id": "ice-temperature-profiles-antarctica",
   "stac_version": "1.0.0",
@@ -9,12 +13,6 @@
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
-    },
-    {
-      "rel": "child",
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/4DANTARCTICA/ice-temperature-profiles-antarctica/catalog.json",
-      "type": "application/json",
-      "title": "Items"
     },
     {
       "rel": "via",
@@ -71,12 +69,19 @@
       "href": "./SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0.json",
       "type": "application/json",
       "title": "Zarr Store"
+    },
+    {
+      "rel": "item",
+      "href": "./SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0-netcdf.json",
+      "type": "application/json",
+      "title": "SM_TEST_MIR_ITUDP4_20130101T000000_20141231T000000_200_001_0"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
   "osc:status": "completed",
@@ -84,7 +89,7 @@
   "osc:type": "product",
   "created": "2019-10-15T00:00:00Z",
   "version": "2.0",
-  "sci:doi": "10.1016/j.rse.2019.111405",
+  "sci:doi": "10.83395/5snv-xx66",
   "cf:parameter": [
     {
       "name": "ice-temperature-profiles-antarctica"
@@ -113,9 +118,9 @@
       "bbox": [
         [
           -180.0,
-          -83.0,
+          -90.0,
           180.0,
-          -63.0
+          0.0
         ]
       ]
     },
@@ -132,5 +137,25 @@
   "keywords": [
     "Sea Ice",
     "Ice Temperature"
-  ]
+  ],
+  "fair:Findable_has_doi": true,
+  "fair:Findable_rich_metadata": true,
+  "fair:Findable_identifier": true,
+  "fair:Findable_stac_assets": true,
+  "fair:Findable_indexed": true,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": false,
+  "fair:Accessible_general": true,
+  "fair:Accessible_protocols": true,
+  "fair:Accessible_files": 1.0,
+  "fair:Interoperable_uses_formal_language": true,
+  "fair:Interoperable_controlled_vocabularies": true,
+  "fair:Interoperable_related_links": true,
+  "fair:Interoperable_has_documentation": true,
+  "fair:Reusable_rich_descriptions": true,
+  "fair:Reusable_has_license": true,
+  "fair:Reusable_workflow_exists": false,
+  "fair:Reusable_cloud_assets_rate": 0.5,
+  "fair:Reusable_has_visualisation": false,
+  "fair:Reusable_has_access_example": true
 }
