@@ -1,0 +1,448 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "global-cumulative-hazard-indexes-chis-mitho-chi4_2012_2020",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.5,
+          -78.5
+        ],
+        [
+          179.5,
+          81.5
+        ],
+        [
+          -179.5,
+          81.5
+        ],
+        [
+          -179.5,
+          -78.5
+        ],
+        [
+          179.5,
+          -78.5
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.5,
+    -78.5,
+    179.5,
+    81.5
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2012-01-01T00:00:00Z",
+    "end_datetime": "2020-12-01T00:00:00Z",
+    "datetime": "2012-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/mitho/chi4_2012_2020.zarr",
+      "type": "application/vnd+zarr",
+      "title": "mitho-chi4_2012_2020 zarr store",
+      "created": "2026-08-13T11:13:48.481328Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2012-01-01T00:00:00Z",
+            "2020-12-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -179.5,
+            179.5
+          ],
+          "step": 1.0,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -78.5,
+            81.5
+          ],
+          "step": 1.0,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "CHI4": {
+          "type": "data",
+          "description": "CHI4 = S_MHW + S_CS + S_FE",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4",
+            "units": "dimensionless",
+            "description": "CHI4 = S_MHW + S_CS + S_FE"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "CHI4_Cat": {
+          "type": "data",
+          "description": "CHI4 event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]",
+          "dimensions": [
+            "intensity_class",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI4 Category Count",
+            "description": "CHI4 event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]"
+          },
+          "shape": [
+            3,
+            161,
+            360
+          ]
+        },
+        "CHI4_mav": {
+          "type": "data",
+          "description": "CHI4_mav = S_MHW_mav + S_CS_mav + S_FE_mav",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_mav",
+            "units": "dimensionless",
+            "description": "CHI4_mav = S_MHW_mav + S_CS_mav + S_FE_mav"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "CHI4_mav_Cat": {
+          "type": "data",
+          "description": "CHI4_mav event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]",
+          "dimensions": [
+            "intensity_class",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "CHI4 Moving Average Category Count",
+            "description": "CHI4_mav event counts per pixel categorized by normalized intensity ranges: low (0,0.33], medium (0.33,0.66], high (0.66,1.0]"
+          },
+          "shape": [
+            3,
+            161,
+            360
+          ]
+        },
+        "CHI4_mav_mean": {
+          "type": "data",
+          "description": "CHI4_mav mean over 2012-2020",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_mean",
+            "units": "dimensionless",
+            "description": "CHI4_mav mean over 2012-2020"
+          },
+          "shape": [
+            161,
+            360
+          ]
+        },
+        "CHI4_mav_norm": {
+          "type": "data",
+          "description": "CHI4_mav scaled by global max",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_mav_norm",
+            "units": "dimensionless",
+            "description": "CHI4_mav scaled by global max"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "CHI4_mav_PI": {
+          "type": "data",
+          "description": "CHI4 mav pixel-based counter of events",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_mav_PI",
+            "units": "dimensionless",
+            "description": "CHI4 mav pixel-based counter of events"
+          },
+          "shape": [
+            161,
+            360
+          ]
+        },
+        "CHI4_mav_std": {
+          "type": "data",
+          "description": "CHI4_mav std over 2012-2020",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_std",
+            "units": "dimensionless",
+            "description": "CHI4_mav std over 2012-2020"
+          },
+          "shape": [
+            161,
+            360
+          ]
+        },
+        "CHI4_mean": {
+          "type": "data",
+          "description": "CHI4 mean over 2012\u20132020",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_mean",
+            "units": "dimensionless",
+            "description": "CHI4 mean over 2012\u20132020"
+          },
+          "shape": [
+            161,
+            360
+          ]
+        },
+        "CHI4_norm": {
+          "type": "data",
+          "description": "CHI4 scaled by global max",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_norm",
+            "units": "dimensionless",
+            "description": "CHI4 scaled by global max"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "CHI4_PI": {
+          "type": "data",
+          "description": "CHI4 pixel-based counter of events",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_PI",
+            "units": "dimensionless",
+            "description": "CHI4 pixel-based counter of events"
+          },
+          "shape": [
+            161,
+            360
+          ]
+        },
+        "CHI4_std": {
+          "type": "data",
+          "description": "CHI4 std over 2012\u20132020",
+          "dimensions": [
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "CHI4_std",
+            "units": "dimensionless",
+            "description": "CHI4 std over 2012\u20132020"
+          },
+          "shape": [
+            161,
+            360
+          ]
+        },
+        "S_CS": {
+          "type": "data",
+          "description": "Cold Spell Stressor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS",
+            "units": "dimensionless",
+            "description": "Cold Spell Stressor"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "S_CS_mav": {
+          "type": "data",
+          "description": "Cold Spell Stressor (mav)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_CS_mav",
+            "units": "dimensionless",
+            "description": "Cold Spell Stressor (mav)"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "S_FE": {
+          "type": "data",
+          "description": "Fishing Effort Stressor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_FE",
+            "units": "dimensionless",
+            "description": "Fishing Effort Stressor"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "S_FE_mav": {
+          "type": "data",
+          "description": "Fishing Effort Stressor (mav)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_FE_mav",
+            "units": "dimensionless",
+            "description": "Fishing Effort Stressor (mav)"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "S_MHW": {
+          "type": "data",
+          "description": "Marine Heatwave Stressor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW",
+            "units": "dimensionless",
+            "description": "Marine Heatwave Stressor"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        },
+        "S_MHW_mav": {
+          "type": "data",
+          "description": "Marine Heat Wave Stressor (mav)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "dimensionless",
+          "attrs": {
+            "long_name": "S_MHW_mav",
+            "units": "dimensionless",
+            "description": "Marine Heat Wave Stressor (mav)"
+          },
+          "shape": [
+            108,
+            161,
+            360
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "global-cumulative-hazard-indexes-chis",
+  "title": "mitho-chi4_2012_2020 zarr store"
+}

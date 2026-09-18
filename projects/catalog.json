@@ -1271,6 +1271,12 @@
     },
     {
       "rel": "child",
+      "href": "./mitho/collection.json",
+      "type": "application/json",
+      "title": "MITHO (Multiple Threats on Ocean Health)"
+    },
+    {
+      "rel": "child",
       "href": "./eowetmet/collection.json",
       "type": "application/json",
       "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
