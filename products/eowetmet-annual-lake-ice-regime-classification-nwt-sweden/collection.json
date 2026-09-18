@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.20708748"}
+  ,
+    {"doi": "10.83395/7679-fz38"}],
   "type": "Collection",
   "id": "eowetmet-annual-lake-ice-regime-classification-nwt-sweden",
   "stac_version": "1.0.0",
@@ -78,7 +82,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.20708748",
+  "sci:doi": "10.83395/3pas-st37",
   "cf:parameter": [
     {
       "name": "methane"

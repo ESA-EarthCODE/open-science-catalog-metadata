@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/dv3w-3t91"}
+  ],
+  "sci:doi": "10.83395/k4qd-j749",
   "type": "Collection",
   "id": "arceme-datacubes-emdat",
   "stac_version": "1.0.0",
@@ -2191,7 +2195,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "created": "2026-07-22T11:38:08.803200Z",
   "updated": "2026-07-22T11:38:08.803200Z",

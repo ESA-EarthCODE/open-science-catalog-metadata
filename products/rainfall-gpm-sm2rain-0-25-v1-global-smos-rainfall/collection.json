@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.3854817"}
+  ,
+    {"doi": "10.83395/xx5e-aq21"}],
   "type": "Collection",
   "id": "rainfall-gpm-sm2rain-0-25-v1-global-smos-rainfall",
   "stac_version": "1.0.0",
@@ -85,7 +89,7 @@
   "osc:type": "product",
   "created": "2020-05-26T00:00:00Z",
   "version": "1",
-  "sci:doi": "10.5281/zenodo.3854817",
+  "sci:doi": "10.83395/e16f-4d60",
   "cf:parameter": [
     {
       "name": "rainfall_gpm"

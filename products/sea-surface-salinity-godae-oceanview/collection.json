@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5194/os-15-543-2019"}
+  ,
+    {"doi": "10.83395/gvrd-ba43"}],
   "type": "Collection",
   "id": "sea-surface-salinity-godae-oceanview",
   "stac_version": "1.0.0",
@@ -72,7 +76,7 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2019-05-22T00:00:00Z",
-  "sci:doi": "10.5194/os-15-543-2019",
+  "sci:doi": "10.83395/5bdp-ve60",
   "cf:parameter": [
     {
       "name": "sea_surface_salinity"

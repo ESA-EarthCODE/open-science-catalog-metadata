@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5285/cbd2cf78-462a-4968-be20-05f9c125ad10"}
+  ,
+    {"doi": "10.83395/83vn-ft25"}],
   "type": "Collection",
   "id": "sea-ice-phys-ocean-lpf-arcticsummit",
   "stac_version": "1.0.0",
@@ -72,7 +76,7 @@
   "osc:region": "Arctic",
   "osc:type": "product",
   "created": "2019-11-14T00:00:00Z",
-  "sci:doi": "10.5285/cbd2cf78-462a-4968-be20-05f9c125ad10",
+  "sci:doi": "10.83395/0613-qn03",
   "cf:parameter": [
     {
       "name": "sea_ice_physical_oceanography"

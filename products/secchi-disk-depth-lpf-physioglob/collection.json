@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/gafj-vd30"}
+  ],
+  "sci:doi": "10.83395/a48r-7x42",
   "type": "Collection",
   "id": "secchi-disk-depth-lpf-physioglob",
   "stac_version": "1.0.0",
@@ -78,7 +82,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "physioglob-assessing-the-inter-annual-physiological-response-of-phytoplankton-to-global-warming-using-long-term-satellite-observations",
   "osc:status": "ongoing",

@@ -4,11 +4,16 @@
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
-    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "title": "Workshop Training Wildfires Workflow",
   "geometry": null,
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/tg3h-0m30"}
+    ],
+    "sci:doi": "10.83395/vs35-nr81",
     "created": "2025-05-05T10:50:07.411224+00:00",
     "updated": "2025-05-05T10:50:07.411224+00:00",
     "type": "workflow",
