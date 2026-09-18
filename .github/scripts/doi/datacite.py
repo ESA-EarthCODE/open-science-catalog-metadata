@@ -107,10 +107,12 @@ def map_stac_to_datacite(stac_item: Dict[str, Any], portal_ui_base_url: str, ext
     providers = properties.get("providers", stac_item.get("providers", []))
     creators = []
     contributors = []
-    publisher = "ESA EarthCODE"
+    publisher = "EarthCODE"
     
     for provider in providers:
         name = provider.get("name")
+        if name == "ESA EarthCODE":
+            name = "EarthCODE"
         roles = provider.get("roles", [])
         # DataCite roles mapping
         if "producer" in roles:
@@ -124,7 +126,7 @@ def map_stac_to_datacite(stac_item: Dict[str, Any], portal_ui_base_url: str, ext
             })
 
     if not creators:
-        creators = [{"name": "ESA EarthCODE", "nameType": "Organizational"}]
+        creators = [{"name": "EarthCODE", "nameType": "Organizational"}]
 
     # Determine type and URL structure
     # OGC records might have type in properties
