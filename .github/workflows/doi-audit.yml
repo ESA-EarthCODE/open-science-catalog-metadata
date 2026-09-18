@@ -40,8 +40,9 @@ jobs:
 
       - name: Ensure trusted scripts
         run: |
-          git fetch origin main
-          git checkout origin/main -- .github/scripts/doi/
+          git remote add upstream-trust https://github.com/${{ github.repository }} || true
+          git fetch upstream-trust main
+          git checkout upstream-trust/main -- .github/scripts/doi/
 
       - name: Set up Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
