@@ -1,0 +1,11 @@
+$comment: >-
+  This experiment has 3 configurable input parameters.
+"SENTINEL3" – the Sentinel-3 product to process. You can browse the Sentinel-3 catalogue at https://insula.earth/perception/discovery/platform_catalogue by selecting CATALOGUE="Open Data" and COLLECTION="Sentinel-3".
+"aoi" – the area-of-interest identifier. 1=Tanzania, 2=Albania, 3=Italy
+"processingDate" – the product date of the chosen Sentinel-3 product. When browsing the catalogue it is shown right under the product identifier.
+
+parameters: [
+  SENTINEL3: "S3A_OL_2_WFR____20170314T085213_20170314T085413_20210713T004418_0119_015_221______MAR_R_NT_003.SEN3"
+  AOI: "3"
+  PROCESSING_DATE: "2017-03-14T00:00:00.000Z"
+]
