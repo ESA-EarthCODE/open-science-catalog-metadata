@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5285/0c3a6698-1078-4465-a2c0-ca17ca0a0c39"}
+  ,
+    {"doi": "10.83395/ygxt-7358"}],
   "type": "Collection",
   "id": "ice-sheet-topography-elevation-change-cryotop-evolution",
   "stac_version": "1.0.0",
@@ -67,7 +71,7 @@
   "osc:region": "Greenland",
   "osc:type": "product",
   "created": "2018-04-24T00:00:00Z",
-  "sci:doi": "10.5285/0c3a6698-1078-4465-a2c0-ca17ca0a0c39",
+  "sci:doi": "10.83395/vce7-jz76",
   "cf:parameter": [
     {
       "name": "ice_sheet_topography_elevation_change"

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.57780/esa-564caf0"}
+  ,
+    {"doi": "10.83395/c48m-sc92"}],
   "type": "Collection",
   "id": "gpp-sen4gpp",
   "stac_version": "1.0.0",
@@ -71,7 +75,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp",
   "osc:status": "ongoing",
@@ -131,7 +136,7 @@
     "Sentinel-3",
     "Sentinel-2"
   ],
-  "sci:doi": "10.57780/esa-564caf0",
+  "sci:doi": "10.83395/pvek-g736",
   "sci:citation": "S. Berendsen, J. Dash, B. Oguntu et al, 2025, Global Gross Primary Productivity (GPP) Dataset, University of Southampton, (version 2), https://doi.org/10.57780/esa-564caf0, European Space Agency.",
   "fair:Findable_has_doi": true,
   "fair:Findable_rich_metadata": true,

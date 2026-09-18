@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5194/acp-15-7127-2015"}
+  ,
+    {"doi": "10.83395/1de3-j255"}],
   "type": "Collection",
   "id": "clima-aerosol-op-livas",
   "stac_version": "1.0.0",
@@ -78,7 +82,7 @@
   "osc:region": "Global",
   "osc:type": "product",
   "created": "2013-12-31T00:00:00Z",
-  "sci:doi": "10.5194/acp-15-7127-2015",
+  "sci:doi": "10.83395/wq2b-6g76",
   "cf:parameter": [
     {
       "name": "atmosphere_optical_thickness_due_to_aerosol"

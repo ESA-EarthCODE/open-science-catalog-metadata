@@ -3,9 +3,14 @@
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/6na1-0q65"}
+    ],
+    "sci:doi": "10.83395/vp1j-6s37",
     "title": "Mesoscale Structure Workflow",
     "description": "\nThis workflow contains the code used to build and analyze datasets for a research study on stratocumulus mesoscale organization, with a focus on closed and open cell structures and their transitions.\n\nThe workflow is split into five main stages:\n\n1. Find EarthCARE orbits that are relevant for the study (all orbits within four stratocumulus regions during Aug. 2024 to Nov. 2025) and prepare EarthCARE ACM-CAP data (step0_preprocess_EC_ACMCAP/)\n2. Fine-tune and apply the \"judge\" CNN to MSI in step1_judge_for_msi/. Fine-tune the \"judge\" CNN to GOES in step2_judge_for_goes/.\n3. Run trajectory calculations and apply the CNN along trajectories on GOES imagery in step3_backtrajectories/.\n4. Create datasets combining ACM-CAP data with CNN labels along EarthCARE tracks and along trajectories in step4_create_datasets_combining_EC_with_judge_results/.\n5. Perform final science analysis in the two main notebooks in step5_analysis_closed_open_cells/.\n",
     "type": "workflow",

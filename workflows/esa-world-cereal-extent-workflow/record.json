@@ -1,7 +1,8 @@
 {
   "type": "Feature",
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "geometry": null,
   "id": "esa-world-cereal-extent-workflow",
@@ -50,6 +51,10 @@
     }
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/jxmt-ar79"}
+    ],
+    "sci:doi": "10.83395/09w4-9y40",
     "title": "ESA WorldCereal - Crop Type Extent",
     "description": "Detects crop land at 10m resolution, trained for global use. Based on Sentinel-1 and 2 data, this algorithm can be used from 2016 onwards. The maximum area for a single job is 20x20km.\n\nLoad in Sentinel-1, Sentinel-2, METEO and Copernicus-30 data and apply a Presto + CatBoost model to map the extent of crops.",
     "created": "2026-04-01T07:16:38.850Z",

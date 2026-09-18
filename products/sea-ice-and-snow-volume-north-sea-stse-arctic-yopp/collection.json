@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.1308857"}
+  ,
+    {"doi": "10.83395/f3vf-qx68"}],
   "type": "Collection",
   "id": "sea-ice-and-snow-volume-north-sea-stse-arctic-yopp",
   "stac_version": "1.0.0",
@@ -73,7 +77,7 @@
   "osc:region": "North Sea",
   "osc:type": "product",
   "created": "2018-07-10T00:00:00Z",
-  "sci:doi": "10.5281/zenodo.1308857",
+  "sci:doi": "10.83395/b7mh-xn76",
   "cf:parameter": [
     {
       "name": "sea_ice_and_snow_volume"

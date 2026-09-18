@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.25921/m5wx-ja34"}
+  ,
+    {"doi": "10.83395/9ayy-ww71"}],
   "type": "Collection",
   "id": "ocean-soda-ethz",
   "stac_version": "1.0.0",
@@ -171,7 +175,7 @@
       ]
     }
   ],
-  "sci:doi": "10.25921/m5wx-ja34",
+  "sci:doi": "10.83395/vhvj-2h96",
   "sci:citation": " Gregor, Luke; Gruber, Nicolas (2020). OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2025) (NCEI Accession 0220059). [indicate subset used]. NOAA National Centers for Environmental Information. Dataset. https://doi.org/10.25921/m5wx-ja34. Accessed [date].",
   "cf:parameter": [
     {

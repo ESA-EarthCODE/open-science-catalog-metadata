@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1109/JSTARS.2023.3287285"}
+  ,
+    {"doi": "10.83395/vmay-6436"}],
   "type": "Collection",
   "id": "slope-instabilities-glacier-forefields-alpglacier",
   "stac_version": "1.0.0",
@@ -65,13 +69,14 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "alpglacier",
   "osc:status": "planned",
   "osc:region": "Switzerland",
   "osc:type": "product",
-  "sci:doi": "10.1109/JSTARS.2023.3287285",
+  "sci:doi": "10.83395/p4wv-x914",
   "cf:parameter": [
     {
       "name": "glacier_forefields"

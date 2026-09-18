@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/nn5b-va77"}
+  ],
+  "sci:doi": "10.83395/g9jz-dz73",
   "type": "Collection",
   "id": "cluster-swarm-b-conjunctions-ion-outflow",
   "stac_version": "1.0.0",
@@ -60,7 +64,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "swarm-coupling-high-low-atmosphere-interactions-ion-outflow",
   "osc:status": "ongoing",

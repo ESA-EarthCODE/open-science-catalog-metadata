@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.12770/50ac718a-87c2-4000-a4dc-ac81e4e75c94"}
+    ,
+        {"doi": "10.83395/57aw-6q17"}],
     "type": "Collection",
     "id": "oil-spill-transport-world-ocean-circulation-sanchi",
     "stac_version": "1.0.0",
@@ -53,14 +57,15 @@
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
       "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+      "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
     ],
     "osc:project": "world-ocean-circulation",
     "osc:status": "completed",
     "osc:region": "Kuroshio",
     "osc:type": "product",
     "created": "2021-11-30T00:00:00Z",
-    "sci:doi": "https://doi.org/10.12770/50ac718a-87c2-4000-a4dc-ac81e4e75c94",
+    "sci:doi": "10.83395/kwsc-e971",
     "cf:parameter": [
       {
         "name": "oil_spill_transport"

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5067/FPSU0V1MWUB6"}
+  ,
+    {"doi": "10.83395/j7s5-b728"}],
   "type": "Collection",
   "id": "bedrock-topography-antarctica-bedmachine",
   "stac_version": "1.0.0",
@@ -82,7 +86,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
   "osc:status": "ongoing",
@@ -90,7 +95,7 @@
   "osc:type": "product",
   "created": "2022-10-11T00:00:00Z",
   "version": "3.0",
-  "sci:doi": "10.5067/FPSU0V1MWUB6",
+  "sci:doi": "10.83395/3qxq-1k08",
   "cf:parameter": [
     {
       "name": "bedrock-topography-antarctica-bedmachine"
