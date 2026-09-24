@@ -5,6 +5,11 @@
   "description": "The mass per unit volume of a substance. Oceanographic shorthand for density, sigma-t, may be included as a Detailed Variable.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/density/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -29,15 +34,16 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/density/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
     }
   ],
   "stac_extensions": [

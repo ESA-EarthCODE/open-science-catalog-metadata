@@ -65,6 +65,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "child",
       "href": "../../products/eowetmet-pan-arctic-daily-9km-wetland-methane-flux/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)"
