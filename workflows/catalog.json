@@ -128,6 +128,12 @@
       "href": "./eutrophication-monitoring/record.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring for SDG engine"
+    },
+    {
+      "rel": "item",
+      "href": "./s1-coherence-intensity-v1-3-2/record.json",
+      "type": "application/json",
+      "title": "Coherence and Intensity Composite"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
