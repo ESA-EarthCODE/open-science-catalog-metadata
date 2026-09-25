@@ -566,6 +566,12 @@
       "href": "../../products/booms-dataset/collection.json",
       "type": "application/json",
       "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
