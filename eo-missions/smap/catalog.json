@@ -62,6 +62,12 @@
       "href": "../../products/eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceansoda-ethz-v2/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

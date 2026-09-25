@@ -566,6 +566,12 @@
       "href": "../../products/booms-dataset/collection.json",
       "type": "application/json",
       "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceansoda-ethz-v2/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
