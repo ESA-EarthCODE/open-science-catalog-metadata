@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "ocean-soda-ethz-fgco2",
+  "id": "oceansoda-ethz-v2-fgco2",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -37,7 +37,7 @@
     89.875
   ],
   "properties": {
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "CC-BY-4.0",
     "description": "",
     "start_datetime": "1982-01-05T00:00:00Z",
     "end_datetime": "2022-10-28T00:00:00Z",
@@ -48,13 +48,13 @@
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "assets": {
@@ -62,7 +62,7 @@
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/fgco2.zarr/",
       "type": "application/vnd+zarr",
       "title": "FGCO2 Zarr",
-      "created": "2026-09-03T13:13:58.909330Z",
+      "created": "2026-09-25T16:51:52.454606Z",
       "cube:dimensions": {
         "time": {
           "extent": [
@@ -133,6 +133,6 @@
       ]
     }
   },
-  "collection": "ocean-soda-ethz",
+  "collection": "oceansoda-ethz-v2",
   "title": "FGCO2 Zarr"
 }

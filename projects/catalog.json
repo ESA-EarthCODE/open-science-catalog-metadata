@@ -1280,6 +1280,12 @@
       "href": "./sdg-engine-eutrophication-monitoring-project/collection.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring for SDG Engine"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-health-acidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Ocean Health Ocean Acidification"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

@@ -2150,6 +2150,12 @@
       "href": "./careheat-database/collection.json",
       "type": "application/json",
       "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "child",
+      "href": "./oceansoda-ethz-v2/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

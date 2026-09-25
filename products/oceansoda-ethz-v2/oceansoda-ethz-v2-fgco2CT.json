@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "ocean-soda-ethz-temperature",
+  "id": "oceansoda-ethz-v2-fgco2CT",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -37,37 +37,37 @@
     89.875
   ],
   "properties": {
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "CC-BY-4.0",
     "description": "",
-    "start_datetime": "1982-01-04T00:00:00Z",
-    "end_datetime": "2022-12-30T00:00:00Z",
-    "datetime": "1982-01-04T00:00:00Z"
+    "start_datetime": "2000-01-04T00:00:00Z",
+    "end_datetime": "2019-12-30T00:00:00Z",
+    "datetime": "2000-01-04T00:00:00Z"
   },
   "links": [
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/temperature.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/fgco2CT.zarr/",
       "type": "application/vnd+zarr",
-      "title": "TEMPERATURE Zarr",
-      "created": "2026-09-03T13:13:59.454853Z",
+      "title": "FGCO2CT Zarr",
+      "created": "2026-09-25T16:51:52.756615Z",
       "cube:dimensions": {
         "time": {
           "extent": [
-            "1982-01-04T00:00:00Z",
-            "2022-12-30T00:00:00Z"
+            "2000-01-04T00:00:00Z",
+            "2019-12-30T00:00:00Z"
           ],
           "type": "temporal"
         },
@@ -78,7 +78,7 @@
             179.875
           ],
           "step": 0.25,
-          "description": "Longitude",
+          "description": "longitude",
           "reference_system": "epsg:4326",
           "type": "spatial"
         },
@@ -95,32 +95,19 @@
         }
       },
       "cube:variables": {
-        "temperature": {
+        "fgco2": {
           "type": "data",
-          "description": "SST",
           "dimensions": [
             "time",
             "lat",
             "lon"
           ],
-          "unit": "degree_C",
+          "unit": "mmol m-2 day-1",
           "attrs": {
-            "units": "degree_C",
-            "long_name": "SST",
-            "standard_name": "sea_surface_subskin_temperature",
-            "depth": "20cm",
-            "product": "ESA-CCI/C3S L4 > NOAA OISST (from 2023 onwards)",
-            "ancillary_variables": "temperature_uncert",
-            "citation_dataset": "https://dx.doi.org/10.5285/62c0f97b1eac4e0197a674870afe1ee6",
-            "citation_journal": "https://doi.org/10.1038/s41597-019-0236-x",
-            "valid_min": -2,
-            "valid_max": 40,
-            "plot_vmin": -2,
-            "plot_vmax": 30,
-            "plot_cmap": "cmo.thermal"
+            "units": "mmol m-2 day-1"
           },
           "shape": [
-            1886,
+            920,
             720,
             1440
           ],
@@ -136,6 +123,6 @@
       ]
     }
   },
-  "collection": "ocean-soda-ethz",
-  "title": "TEMPERATURE Zarr"
+  "collection": "oceansoda-ethz-v2",
+  "title": "FGCO2CT Zarr"
 }

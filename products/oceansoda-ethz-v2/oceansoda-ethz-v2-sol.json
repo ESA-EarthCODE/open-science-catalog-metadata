@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "ocean-soda-ethz-fgco2CT",
+  "id": "oceansoda-ethz-v2-sol",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -37,37 +37,37 @@
     89.875
   ],
   "properties": {
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "CC-BY-4.0",
     "description": "",
-    "start_datetime": "2000-01-04T00:00:00Z",
-    "end_datetime": "2019-12-30T00:00:00Z",
-    "datetime": "2000-01-04T00:00:00Z"
+    "start_datetime": "1982-01-05T00:00:00Z",
+    "end_datetime": "2022-10-20T00:00:00Z",
+    "datetime": "1982-01-05T00:00:00Z"
   },
   "links": [
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/fgco2CT.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/sol.zarr/",
       "type": "application/vnd+zarr",
-      "title": "FGCO2CT Zarr",
-      "created": "2026-09-03T13:13:58.986168Z",
+      "title": "SOL Zarr",
+      "created": "2026-09-25T16:51:54.313716Z",
       "cube:dimensions": {
         "time": {
           "extent": [
-            "2000-01-04T00:00:00Z",
-            "2019-12-30T00:00:00Z"
+            "1982-01-05T00:00:00Z",
+            "2022-10-20T00:00:00Z"
           ],
           "type": "temporal"
         },
@@ -78,7 +78,7 @@
             179.875
           ],
           "step": 0.25,
-          "description": "longitude",
+          "description": "Longitude",
           "reference_system": "epsg:4326",
           "type": "spatial"
         },
@@ -95,19 +95,23 @@
         }
       },
       "cube:variables": {
-        "fgco2": {
+        "sol": {
           "type": "data",
+          "description": "solubility of CO2 in seawater calculated using salinity = climatology of CMEMS-Multiobs; temperature = ESA-CCI v2.0; pressure = ERA5 msl.",
           "dimensions": [
             "time",
             "lat",
             "lon"
           ],
-          "unit": "mmol m-2 day-1",
+          "unit": "mol L-1 atm-1",
           "attrs": {
-            "units": "mmol m-2 day-1"
+            "long_name": "Solubility of CO$_2$ in seawater",
+            "standard_name": "co2_solubility_in_seawater",
+            "units": "mol L-1 atm-1",
+            "description": "solubility of CO2 in seawater calculated using salinity = climatology of CMEMS-Multiobs; temperature = ESA-CCI v2.0; pressure = ERA5 msl."
           },
           "shape": [
-            920,
+            1877,
             720,
             1440
           ],
@@ -123,6 +127,6 @@
       ]
     }
   },
-  "collection": "ocean-soda-ethz",
-  "title": "FGCO2CT Zarr"
+  "collection": "oceansoda-ethz-v2",
+  "title": "SOL Zarr"
 }
