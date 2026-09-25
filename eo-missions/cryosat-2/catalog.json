@@ -500,6 +500,12 @@
       "href": "../../products/subglacial-lakes-boundries/collection.json",
       "type": "application/json",
       "title": "Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",

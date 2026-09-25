@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "coastdyn",
+  "stac_version": "1.0.0",
+  "description": "Coasts are vital to humanity, with 40% of the global population living within 100 kilometers of the shore. These regions are hubs for transportation, industry, energy generation, tourism, and resource extraction. They also serve as critical habitats for over 90% of marine life, including fish, whose populations depend on physical factors like winds, waves, river inflows, and coastline shapes. Changes in these factors can significantly affect coastal ecosystems’ productivity and biodiversity. However, coasts face mounting challenges, including climate change (sea-level rise, warming, acidification, and shifting currents), coastal erosion, extreme weather, pollution, biodiversity loss, and socioeconomic pressures. Monitoring coastal dynamics is essential for sustainable management, disaster risk reduction, and protecting both ecosystems and human communities.Satellites are essential to observe coastal dynamics, providing global, frequent and medium-to-high-resolution data on parameters such as sea level, wind speed and direction, wave height and direction, current speed and direction, temperature and salinity. For over 30 years, satellite missions equipped with altimeters, radars, and spectrometers, such as those operated by the European Space Agency (ESA), have provided critical insights into coastal processes. However, coastal regions present specific challenges due to their smaller spatial scales, greater variability, and intricate features such as estuaries and lagoons. Recent and upcoming satellite missions are advancing coastal monitoring by offering enhanced spatial and temporal resolutions (e.g. Sentinel-1 and -2, and the SWOT mission), improved radar techniques (e.g. SAR and InSAR) and new sensors (e.g. hyperspectral imaging from PRISMA and PACE). These technologies are deepening our understanding of coastal processes and addressing long-standing challenges.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.coastdyn.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-09-25T14:32:28.049031Z",
+  "updated": "2026-09-25T14:32:28.049031Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Marie-Helene Rio",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Marie-Helene.RIO@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Collecte, Localisation, Satellites (CLS)",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "Nansen Environmental and Remote Sensing Center (NERSC), Bergen, Norway",
+      "roles": [
+        "consoritum_member"
+      ]
+    },
+    {
+      "name": "he Technical University of Munich (TUM)",
+      "roles": [
+        "consoritum_member"
+      ]
+    }
+  ],
+  "title": "COASTDYN",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -30.0,
+          20.0,
+          40.0,
+          78.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-17T00:00:00Z",
+          "2027-03-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
