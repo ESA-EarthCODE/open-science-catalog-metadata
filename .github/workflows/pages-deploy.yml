@@ -5,6 +5,9 @@ on:
     workflows: ["DOI Publish"]
     types:
       - completed
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 # Ensure only one deployment runs at a time.
@@ -20,11 +23,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Only run if the triggering workflow (DOI Publish) was successful, 
-    # OR if it was a manual trigger (event_name == 'workflow_dispatch').
-    if: >
-      github.event_name == 'workflow_dispatch' || 
-      (github.event.workflow_run.conclusion == 'success')
+    # Execute build only on valid conditions for each target repo:
+    if: >-
+      (github.repository == 'ESA-EarthCODE/open-science-catalog-metadata' && 
+       (github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'))) ||
+      (github.repository == 'ESA-EarthCODE/open-science-catalog-metadata-staging' && 
+       (github.event_name == 'workflow_dispatch' || github.event_name == 'push'))
     steps:
       - name: Checkout
         uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0 # v6.0.3

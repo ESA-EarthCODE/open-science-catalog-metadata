@@ -20,7 +20,7 @@ jobs:
       contents: write
       pull-requests: write
       statuses: write
-    if: github.repository_owner == 'esa-earthcode'
+    if: github.repository == 'ESA-EarthCODE/open-science-catalog-metadata'
     steps:
       - name: Checkout (PR)
         if: github.event_name == 'pull_request_target'
