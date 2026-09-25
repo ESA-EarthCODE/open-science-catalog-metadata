@@ -5,11 +5,6 @@
   "description": "Geoscience experiments",
   "links": [
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
@@ -17,9 +12,21 @@
     },
     {
       "rel": "item",
-      "href": "./polaris/record.json",
+      "href": "./polaris-experiment/record.json",
       "type": "application/json",
       "title": "POLARIS"
+    },
+    {
+      "rel": "item",
+      "href": "./worldcereal-experiment/record.json",
+      "type": "application/json",
+      "title": "ESA WorldCereal Experiment"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
     {
       "rel": "item",
@@ -35,47 +42,16 @@
     },
     {
       "rel": "item",
-      "href": "./polarwarp/record.json",
+      "href": "./pikart-atmospheric-river-catalog-workflow/record.json",
       "type": "application/json",
-      "title": "Polarwarp"
+      "title": "Building the PIKART atmospheric river datacube"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
-      "rel": "item",
-      "href": "./downscaling-land-surface-temperature-over-kinshasa/record.json",
-      "type": "application/json",
-      "title": "Urban LST Downscaling over Kinshasa"
-    },
-    {
-      "rel": "item",
-      "href": "./sss-cci-global-anomalies/record.json",
-      "type": "application/json",
-      "title": "Deriving Monthly Anomalies from a CCI Sea Surface Salinity Dataset"
-    },
-    {
-      "rel": "item",
-      "href": "./lightning2earthcare-experiment/record.json",
-      "type": "application/json",
-      "title": "Lightning2Earthcare experiment"
-    },
-    {
-      "rel": "item",
-      "href": "./esa-world-cereal-extent-experiment/record.json",
-      "type": "application/json",
-      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
-    },
-    {
-      "rel": "item",
-      "href": "./earthcare-marine-stratocumulus-transitions-experiment/record.json",
-      "type": "application/json",
-      "title": "Mesoscale Structure Experiment"
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
+      "type": "application/json"
     }
   ],
-  "updated": "2025-12-16T15:32:00.000000Z",
+  "updated": "2025-01-29T18:00:00.000000Z",
   "title": "Experiments"
 }

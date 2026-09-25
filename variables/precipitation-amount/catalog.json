@@ -68,6 +68,18 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/pikart-atmospheric-river-catalog-v1-1/collection.json",
+      "type": "application/json",
+      "title": "pikart-atmospheric-river-catalog-v1-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -83,7 +95,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:23:29.839131Z",
+  "updated": "2026-09-25T15:35:51.964222+00:00",
   "keywords": [],
   "title": "Precipitation Amount"
 }

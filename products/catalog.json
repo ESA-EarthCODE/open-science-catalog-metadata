@@ -17,12 +17,6 @@
     },
     {
       "rel": "child",
-      "href": "./4d-atlantic-ohc-global/collection.json",
-      "type": "application/json",
-      "title": "Global Ocean Heat Content"
-    },
-    {
-      "rel": "child",
       "href": "./4dmed-2d-alt/collection.json",
       "type": "application/json",
       "title": "ESA 4DMED-SEA - Mediterranean Sea Gridded MIOST L4 Sea Surface Heights And Derived Variables"
@@ -349,13 +343,13 @@
       "rel": "child",
       "href": "./daily-2d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC North Atlantic 2-D Merged SSH/SST currents"
+      "title": "Daily 2D ocean surface currents North Atlantic"
     },
     {
       "rel": "child",
       "href": "./daily-3d-ocean-currents-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC North Atlantic Data-Driven 3D Currents, Temperature and Salinity"
+      "title": "Daily 3D ocean currents North Atlantic"
     },
     {
       "rel": "child",
@@ -379,7 +373,7 @@
       "rel": "child",
       "href": "./doppler-derived-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity product in Agulhas current"
+      "title": "Doppler derived surface current Agulhas S1"
     },
     {
       "rel": "child",
@@ -515,12 +509,6 @@
     },
     {
       "rel": "child",
-      "href": "./global-plant-trait-maps/collection.json",
-      "type": "application/json",
-      "title": "Global Plant Functional Trait Maps at 1 km Resolution"
-    },
-    {
-      "rel": "child",
       "href": "./gravity-anomalies-goce-airborne-4dantarctica/collection.json",
       "type": "application/json",
       "title": "Gravity anomalies from GOCE and airborne data"
@@ -529,7 +517,7 @@
       "rel": "child",
       "href": "./gridded-surface-current-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Sentinel-1 IW Ocean Surface Current Radial Velocity over Agulhas Region"
+      "title": "Gridded Surface Current Oceans Agulhas"
     },
     {
       "rel": "child",
@@ -997,25 +985,25 @@
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-HR/collection.json",
       "type": "application/json",
-      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Agulhas Region"
+      "title": "Oceanic HR Fronts Agulhas"
     },
     {
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-AGLHS-LR/collection.json",
       "type": "application/json",
-      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over Agulhas Region"
+      "title": "Oceanic LR Fronts Agulhas"
     },
     {
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-NA/collection.json",
       "type": "application/json",
-      "title": "WOC Fronts Derived from Remote Sensing Microwave SST L4 over North Atlantic Region"
+      "title": "Oceanic Fronts North Atlantic"
     },
     {
       "rel": "child",
       "href": "./oceanic-current-fronts-world-ocean-circulation-WE/collection.json",
       "type": "application/json",
-      "title": "WOC Fronts Derived from Remote Sensing SST Observations by SEVIRI over Western Europe Region"
+      "title": "Oceanic Fronts Western Europe"
     },
     {
       "rel": "child",
@@ -1027,19 +1015,19 @@
       "rel": "child",
       "href": "./oceansoda-ethz/collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ-v1: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
+      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
     },
     {
       "rel": "child",
       "href": "./oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
       "type": "application/json",
-      "title": "WOC Predicted Oil Spill Transport for the Sanchi Incident"
+      "title": "Sanchi Oil Spill transport based on Lagrangian drift data simulation"
     },
     {
       "rel": "child",
       "href": "./oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",
       "type": "application/json",
-      "title": "WOC Predicted Oil Spill Transport for the Golden Trader Incident"
+      "title": "Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
     },
     {
       "rel": "child",
@@ -1369,13 +1357,13 @@
       "rel": "child",
       "href": "./sargassum-transport-tropical-atlantic-case1-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 1 (Miron et al, 2020)"
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 1"
     },
     {
       "rel": "child",
       "href": "./sargassum-transport-tropical-atlantic-case2-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Predicted Sargassum Transport in the Tropical Atlantic - Case 2"
+      "title": "Sargassum transport based on Lagrangian drift data simulation - Case 2"
     },
     {
       "rel": "child",
@@ -1453,7 +1441,7 @@
       "rel": "child",
       "href": "./stokes-drift-global-ocean-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Estimation of Stokes Drift Components from WaveWatch3 Model over Global Ocean"
+      "title": "Stokes drift estimation Global Ocean"
     },
     {
       "rel": "child",
@@ -1609,13 +1597,13 @@
       "rel": "child",
       "href": "./total-surface-current-north-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC North Atlantic Total Surface Current"
+      "title": "Total surface current North Atlantic"
     },
     {
       "rel": "child",
-      "href": "./total-surface-current-15/collection.json",
+      "href": "./total-surface-current-tropical-atlantic-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC Total Surface Current at 15m"
+      "title": "Total surface current Tropical Atlantic"
     },
     {
       "rel": "child",
@@ -1729,7 +1717,7 @@
       "rel": "child",
       "href": "./wind-stress-vector-world-ocean-circulation/collection.json",
       "type": "application/json",
-      "title": "WOC ERA* Hourly Global Stress Equivalent Wind and Wind Stress"
+      "title": "Wind stress vector (& anomalies) Hourly ERA5"
     },
     {
       "rel": "child",
@@ -1747,7 +1735,7 @@
       "rel": "child",
       "href": "./bedrock-topography-antarctica-bedmachine/collection.json",
       "type": "application/json",
-      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica"
+      "title": "Bedrock topography: MEaSUREs BedMachine Antarctica v.3"
     },
     {
       "rel": "child",
@@ -1759,7 +1747,7 @@
       "rel": "child",
       "href": "./ice-sheet-velocity-antarctic-2021/collection.json",
       "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity"
+      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
     },
     {
       "rel": "child",
@@ -1937,9 +1925,21 @@
     },
     {
       "rel": "child",
+      "href": "./worldcereal-crop-extent-belgium/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "child",
       "href": "./polaris/collection.json",
       "type": "application/json",
       "title": "POLARIS"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
     },
     {
       "rel": "child",
@@ -1991,165 +1991,9 @@
     },
     {
       "rel": "child",
-      "href": "./polarwarp/collection.json",
+      "href": "./pikart-atmospheric-river-catalog-v1-1/collection.json",
       "type": "application/json",
-      "title": "Polarwarp"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
-      "rel": "child",
-      "href": "./agricemchimeds3v1/collection.json",
-      "type": "application/json",
-      "title": "AGRICEM Simulated CHIME L2A data"
-    },
-    {
-      "rel": "child",
-      "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
-      "type": "application/json",
-      "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
-    },
-    {
-      "rel": "child",
-      "href": "./sss-monthly-anomalies/collection.json",
-      "type": "application/json",
-      "title": "Sea Surface Salinity - Monthly Anomalies"
-    },
-    {
-      "rel": "child",
-      "href": "./e4cs-pilot/collection.json",
-      "type": "application/json",
-      "title": "Eo4CerealStress - Andalusia Rice Fields"
-    },
-    {
-      "rel": "child",
-      "href": "./esa-meteor-datasets/collection.json",
-      "type": "application/json",
-      "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"
-    },
-    {
-      "rel": "child",
-      "href": "./earthcare-frame-lightning/collection.json",
-      "type": "application/json",
-      "title": "Lightning2EarthCARE"
-    },
-    {
-      "rel": "child",
-      "href": "./esa-world-cereal-extent-product/collection.json",
-      "type": "application/json",
-      "title": "ESA WorldCereal - Crop Type Extent - Small Region in Belgium"
-    },
-    {
-      "rel": "child",
-      "href": "./earthcare-marine-stratocumulus-transitions/collection.json",
-      "type": "application/json",
-      "title": "EarthCARE Marine Stratocumulus Organization and Transition Dataset"
-    },
-    {
-      "rel": "child",
-      "href": "./ocean-soda-ethz/collection.json",
-      "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
-    },
-    {
-      "rel": "child",
-      "href": "./arceme-datacubes-global/collection.json",
-      "type": "application/json",
-      "title": "ARCEME Data Cubes – DHP Global Sites"
-    },
-    {
-      "rel": "child",
-      "href": "./arceme-datacubes-wocat/collection.json",
-      "type": "application/json",
-      "title": "ARCEME Data Cubes – WOCAT/DHP European Sites"
-    },
-    {
-      "rel": "child",
-      "href": "./arceme-dhp/collection.json",
-      "type": "application/json",
-      "title": "ARCEME-DHP: Database of extreme dry events interrupted by heavy precipitation"
-    },
-    {
-      "rel": "child",
-      "href": "./subglacial-lakes-boundries/collection.json",
-      "type": "application/json",
-      "title": "Subglacial lakes boundaries and elevation time series"
-    },
-    {
-      "rel": "child",
-      "href": "./ai4ais-larsen-c-ice-shelf-cube/collection.json",
-      "type": "application/json",
-      "title": "AI4AIS Larsen C ice shelf cube"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-seasonal-inundation-nwt-sweden/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Seasonal Inundation Dataset for NWT and Sweden (2021-2025)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-regional-30m-wetland-methane-flux/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Regional High-Resolution 30 m Wetland Methane Flux Dataset (2025)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-pan-arctic-monthly-500m-wetland-methane-flux/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Pan-Arctic Monthly 500 m Wetland Methane Flux Dataset (2015-2024)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-pan-arctic-daily-9km-wetland-methane-flux/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Pan-Arctic Daily 9 km Wetland Methane Flux Dataset (2015-2024)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-pan-arctic-average-wetland-methane-flux/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Pan-Arctic Average Wetland Methane Flux Dataset (2015-2024)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
-    },
-    {
-      "rel": "child",
-      "href": "./arceme-datacubes-emdat/collection.json",
-      "type": "application/json",
-      "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
-    },
-    {
-      "rel": "child",
-      "href": "./bicep-database/collection.json",
-      "type": "application/json",
-      "title": "Biological pump and carbon exchange processes (Bicep) database"
-    },
-    {
-      "rel": "child",
-      "href": "./booms-dataset/collection.json",
-      "type": "application/json",
-      "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
-    },
-    {
-      "rel": "child",
-      "href": "./careheat-database/collection.json",
-      "type": "application/json",
-      "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+      "title": "pikart-atmospheric-river-catalog-v1-1"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

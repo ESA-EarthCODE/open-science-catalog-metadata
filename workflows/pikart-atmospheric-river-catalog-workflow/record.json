@@ -1,0 +1,193 @@
+{
+  "id": "pikart-atmospheric-river-catalog-workflow",
+  "type": "Feature",
+  "title": "Building the PIKART atmospheric river datacube",
+  "geometry": null,
+  "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/vwa1-dh96"}
+    ],
+    "sci:doi": "10.83395/p6ae-5w61",
+    "created": "2026-09-25T15:35:51.975460+00:00",
+    "updated": "2026-09-25T15:35:51.975460+00:00",
+    "type": "workflow",
+    "title": "Building the PIKART atmospheric river datacube",
+    "description": "Builds atmospheric_river_cube.zarr, the xcube-compliant version of the PIKART v1.1 Eulerian Atmospheric River Catalog with harmonised extreme precipitation masks, directly from the original PIK THREDDS source files. The output is a global, 0.5°, 6-hourly datacube spanning 1940–2023 with nine variables: atmospheric-river properties (ar_mask, duration, intensity, rank, ivt) and co-located (extreme) precipitation variables (tp, epe_p90, epe_p95, epe_p99). The build is interruption-safe: re-running resumes from the cube's last successful timestamp.\n",
+    "jupyter_kernel_info": {
+      "name": "users-deepesdl-xcube-1.11.1",
+      "python_version": 3.13,
+      "env_file": "environment.yaml"
+    },
+    "keywords": [
+      "Atmospheric Rivers",
+      "Extreme Precipitation",
+      "PIKART",
+      "ERA5",
+      "DeepESDL"
+    ],
+    "contacts": [
+      {
+        "name": "Tobias Braun",
+        "organization": "Potsdam Institute for Climate Impact Research (PIK)",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.pik-potsdam.de"
+          }
+        ],
+        "roles": [
+          "principal investigator"
+        ]
+      },
+      {
+        "name": "Sara M. Vallejo-Bernal",
+        "organization": "Potsdam Institute for Climate Impact Research (PIK)",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.pik-potsdam.de"
+          }
+        ],
+        "roles": [
+          "contributor"
+        ]
+      },
+      {
+        "name": "Norbert Marwan",
+        "organization": "Potsdam Institute for Climate Impact Research (PIK)",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.pik-potsdam.de"
+          }
+        ],
+        "roles": [
+          "contributor"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "atmosphere"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "CC-BY-4.0",
+    "osc:project": "arnetlab",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "themes": [
+    "atmosphere"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Jupyter Notebook",
+      "href": "https://github.com/ToBraun/atmospheric_river_datacube/blob/main/Build_atmospheric_river_cube.ipynb"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arnetlab/collection.json",
+      "type": "application/json",
+      "title": "Project: arnetlab"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/pikart-atmospheric-river-catalog-workflow/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "git",
+      "title": "Git source repository",
+      "href": "https://github.com/ToBraun/atmospheric_river_datacube"
+    },
+    {
+      "rel": "related",
+      "type": "text/html",
+      "title": "PIKART atmospheric river catalog",
+      "href": "https://ar.pik-potsdam.de"
+    },
+    {
+      "rel": "cite-as",
+      "type": "text/html",
+      "title": "Vallejo-Bernal, Braun, Marwan & Kurths (2025), PIKART: A comprehensive global catalog of atmospheric rivers, JGR Atmospheres",
+      "href": "https://doi.org/10.1029/2024JD041869"
+    },
+    {
+      "rel": "related",
+      "type": "text/html",
+      "title": "PIKART Version 1.1 Release Notes",
+      "href": "https://doi.org/10.31223/X5PB5Z"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "application",
+      "title": "Jupyter Notebook: Building the PIKART atmospheric river datacube",
+      "href": "https://github.com/ToBraun/atmospheric_river_datacube/blob/main/Build_atmospheric_river_cube.ipynb",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:container": "true",
+      "application:language": "Python",
+      "jupyter:kernel": {
+        "name": "users-deepesdl-xcube-1.11.1",
+        "pythonVersion": 3.13,
+        "envFile": "environment.yaml"
+      }
+    },
+    {
+      "rel": "related",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FToBraun%2Fatmospheric_river_datacube&urlpath=lab%2Ftree%2Fatmospheric_river_datacube%2FBuild_atmospheric_river_cube.ipynb&branch=main",
+      "type": "text/html",
+      "title": "Open notebook on the DeepESDL platform"
+    }
+  ]
+}

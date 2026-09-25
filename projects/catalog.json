@@ -59,12 +59,6 @@
     },
     {
       "rel": "child",
-      "href": "./4datlantic-ohc/collection.json",
-      "type": "application/json",
-      "title": "4DAtlantic-OHC"
-    },
-    {
-      "rel": "child",
       "href": "./advancing-the-study-of-extreme-weather-events-with-data-deep-learning-methods-and-climate-analysis/collection.json",
       "type": "application/json",
       "title": "Advancing the Study of Extreme Weather Events with Data, Deep Learning Methods and Climate Analysis"
@@ -193,7 +187,7 @@
       "rel": "child",
       "href": "./arceme/collection.json",
       "type": "application/json",
-      "title": "Adaptation and Resilience to Climate Extremes and Multi-hazard events - ARCEME"
+      "title": "CLIMATE ADAPTATION, EXTREMES, MULTI-HAZARDS AND GEO-HAZARDS SCIENCE - ARCEME"
     },
     {
       "rel": "child",
@@ -503,12 +497,6 @@
     },
     {
       "rel": "child",
-      "href": "./fortrack/collection.json",
-      "type": "application/json",
-      "title": "FORTRACK"
-    },
-    {
-      "rel": "child",
       "href": "./fresh4bio/collection.json",
       "type": "application/json",
       "title": "Fresh4Bio"
@@ -518,12 +506,6 @@
       "href": "./fuelity/collection.json",
       "type": "application/json",
       "title": "Fuelity - Fuel Initialization Study"
-    },
-    {
-      "rel": "child",
-      "href": "./geohazards-tep/collection.json",
-      "type": "application/json",
-      "title": "Geohazards Exploitation Platform (GEP)"
     },
     {
       "rel": "child",
@@ -830,6 +812,12 @@
       "href": "./satellite-based-run-off-evaluation-and-mapping-stream/collection.json",
       "type": "application/json",
       "title": "STREAM"
+    },
+    {
+      "rel": "child",
+      "href": "./satellite-oceanographic-datasets-for-acidification-oceansoda/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA"
     },
     {
       "rel": "child",
@@ -1151,9 +1139,9 @@
     },
     {
       "rel": "child",
-      "href": "./cerulean-information-factory/collection.json",
+      "href": "./polaris/collection.json",
       "type": "application/json",
-      "title": "Cerulean Information Factory"
+      "title": "POLARIS"
     },
     {
       "rel": "child",
@@ -1192,6 +1180,12 @@
       "title": "Lakes4Antarctica"
     },
     {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
       "rel": "child",
       "href": "./fairsendd/collection.json",
       "type": "application/json",
@@ -1211,75 +1205,9 @@
     },
     {
       "rel": "child",
-      "href": "./knowledge-exchange/collection.json",
+      "href": "./arnetlab/collection.json",
       "type": "application/json",
-      "title": "Climate Space Knowledge Exchange"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
-      "rel": "child",
-      "href": "./eoagritwin/collection.json",
-      "type": "application/json",
-      "title": "EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
-    },
-    {
-      "rel": "child",
-      "href": "./esa-meteor/collection.json",
-      "type": "application/json",
-      "title": "MEsospheric TEmperature and Ozone climate data Record (METEOR)"
-    },
-    {
-      "rel": "child",
-      "href": "./agricem/collection.json",
-      "type": "application/json",
-      "title": "AgriCEM"
-    },
-    {
-      "rel": "child",
-      "href": "./esa-science-hub-blanka-piskala/collection.json",
-      "type": "application/json",
-      "title": "ESA Science Hub-Blanka Piskala"
-    },
-    {
-      "rel": "child",
-      "href": "./esa-science-hub-johanna-mayer/collection.json",
-      "type": "application/json",
-      "title": "ESA Science Hub-Johanna Mayer"
-    },
-    {
-      "rel": "child",
-      "href": "./ocean-soda/collection.json",
-      "type": "application/json",
-      "title": "Satellite Oceanographic Datasets for Acidification (OceanSODA)"
-    },
-    {
-      "rel": "child",
-      "href": "./pathfinders-oceanacidification/collection.json",
-      "type": "application/json",
-      "title": "ESA Support to Science Element - Pathfinders Ocean Acidification"
-    },
-    {
-      "rel": "child",
-      "href": "./ai4ais/collection.json",
-      "type": "application/json",
-      "title": "ARTIFICIAL INTELLIGENCE FOR ICE SHELVES (AI4AIS)"
-    },
-    {
-      "rel": "child",
-      "href": "./eowetmet/collection.json",
-      "type": "application/json",
-      "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
-    },
-    {
-      "rel": "child",
-      "href": "./sdg-engine-eutrophication-monitoring-project/collection.json",
-      "type": "application/json",
-      "title": "Eutrophication Monitoring for SDG Engine"
+      "title": "Arnetlab"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
