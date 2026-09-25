@@ -1,0 +1,210 @@
+{
+  "type": "Collection",
+  "id": "pikart-atmospheric-river-catalog-v1-1",
+  "stac_version": "1.0.0",
+  "description": "Global catalog of atmospheric rivers (ARs) with co-located precipitation extremes, based on the global PIKART (PIK Atmospheric River Trajectories V1.1) catalog. It is from ERA5 reanalysis (1940–2024) at 0.5° spatial resolution and 6-hourly temporal resolution. At each grid cell, we provide the binary AR mask, integrated water vapor transport (IVT), AR event duration, AR event intensity and AR rank. Additionally, we integrated ERA5 precipitation with the same spatiotemporal resolution as the PIKART catalog. Precipitation is provided through a total of four variables, i.e., total precipitation and three binary extreme precipitation event masks (with respect to the 90th, 95th and 99th percentiles as thresholds). IVT is computed by integrating the product of specific humidity and wind components from 300 hPa to 1000 hPa. Companion to Vallejo-Bernal & Braun et al. (2025), JGR Atmospheres. A comprehensive description is provided in the paper and via https://ar.pik-potsdam.de/. \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://ar.pik-potsdam.de",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/atmospheric-river-binary-mask/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Atmospheric River Binary Mask"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/duration-of-atmospheric-river-conditions/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Duration Of Atmospheric River Conditions"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-precipitation-event-status-flag/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Precipitation Event Status Flag"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/intensity-of-atmospheric-river-conditions/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Intensity Of Atmospheric River Conditions"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/vertically-integrated-water-vapor-transport/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Vertically Integrated Water Vapor Transport"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/rank-of-atmospheric-river-conditions/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Rank Of Atmospheric River Conditions"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation-amount/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation Amount"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/pikart-atmospheric-river-catalog-v1-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/arnetlab/collection.json",
+      "type": "application/json",
+      "title": "Project: Earth Surface Impacts of Hydrological Extremes along Global Atmospheric River Networks (ARNETLAB)"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/pikart-atmospheric-river-catalog-workflow/record.json",
+      "type": "application/json",
+      "title": "Experiment: Building the PIKART atmospheric river datacube"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/pikart-atmospheric-river-catalog-v1-1",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/pikart-atmospheric-river-catalog-v1-1",
+      "type": "application/json",
+      "title": "pikart-atmospheric-river-catalog-v1-1"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:project": "arnetlab",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:variables": [
+    "atmospheric-river-binary-mask",
+    "duration-of-atmospheric-river-conditions",
+    "extreme-precipitation-event-status-flag",
+    "intensity-of-atmospheric-river-conditions",
+    "vertically-integrated-water-vapor-transport",
+    "rank-of-atmospheric-river-conditions",
+    "precipitation-amount"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "ar_mask",
+      "standard_name": "atmospheric_river_binary_mask",
+      "long_name": "Binary indicator equal to 1 for atmospheric river conditions present at a grid cell and 0 for their absence",
+      "units": "1"
+    },
+    {
+      "name": "duration",
+      "standard_name": "duration_of_atmospheric_river_conditions",
+      "long_name": "Duration of uninterrupted atmospheric river conditions (AR event)",
+      "units": "h"
+    },
+    {
+      "name": "intensity",
+      "standard_name": "intensity_of_atmospheric_river_conditions",
+      "long_name": "Maximum vertically integrated water vapor transport during uninterrupted atmospheric river conditions (AR event)",
+      "units": "kg m**-1 s**-1"
+    },
+    {
+      "name": "ivt",
+      "standard_name": "vertically_integrated_water_vapor_transport",
+      "long_name": "Magnitude of the vertically integrated water vapor transport during atmospheric river conditions",
+      "units": "kg m**-1 s**-1"
+    },
+    {
+      "name": "rank",
+      "standard_name": "rank_of_atmospheric_river_conditions",
+      "long_name": "AR rank (Ralph et al. 2019 classification)",
+      "units": "1"
+    },
+    {
+      "name": "tp",
+      "standard_name": "precipitation_amount",
+      "long_name": "Total precipitation (6-hour accumulation)",
+      "units": "m"
+    },
+    {
+      "name": "epe_p90",
+      "long_name": "Extreme precipitation event flag (>90th percentile)",
+      "description": "Binary indicator (1=True, 0=False) of precipitation exceeding the 90th percentile of precipitation intensity (1940-2024 baseline).",
+      "units": "1"
+    },
+    {
+      "name": "epe_p95",
+      "long_name": "Extreme precipitation event flag (>95th percentile)",
+      "description": "Binary indicator (1=True, 0=False) of precipitation exceeding the 95th percentile of precipitation intensity (1940-2024 baseline).",
+      "units": "1"
+    },
+    {
+      "name": "epe_p99",
+      "long_name": "Extreme precipitation event flag (>99th percentile)",
+      "description": "Binary indicator (1=True, 0=False) of precipitation exceeding the 99th percentile of precipitation intensity (1940-2024 baseline).",
+      "units": "1"
+    }
+  ],
+  "created": "2026-09-25T15:35:44.178576+00:00",
+  "updated": "2026-09-25T15:35:44.178576+00:00",
+  "themes": [
+    {
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ],
+      "scheme": "https://github.com/stac-extensions/osc#theme"
+    }
+  ],
+  "title": "pikart-atmospheric-river-catalog-v1-1",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.25,
+          -90.25,
+          179.75,
+          90.25
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1940-01-01T09:00:00Z",
+          "2023-12-31T21:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
