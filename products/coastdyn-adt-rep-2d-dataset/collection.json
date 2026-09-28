@@ -98,6 +98,16 @@
       "href": "./coastdyn-adt-rep-2d-dataset-coastdyn-miost-l4.json",
       "type": "application/json",
       "title": "COASTDYN-MIOST-L4 Zarr"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/coastdyn/access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the CoastDYN Data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
