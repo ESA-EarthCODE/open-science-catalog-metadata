@@ -74,6 +74,12 @@
       "href": "./earthcare-marine-stratocumulus-transitions-experiment/record.json",
       "type": "application/json",
       "title": "Mesoscale Structure Experiment"
+    },
+    {
+      "rel": "item",
+      "href": "./pikart-atmospheric-river-catalog-workflow/record.json",
+      "type": "application/json",
+      "title": "Building the PIKART atmospheric river datacube"
     }
   ],
   "updated": "2025-12-16T15:32:00.000000Z",

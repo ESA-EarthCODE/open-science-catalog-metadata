@@ -128,6 +128,12 @@
       "href": "./eutrophication-monitoring/record.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring for SDG engine"
+    },
+    {
+      "rel": "item",
+      "href": "./pikart-atmospheric-river-catalog-workflow/record.json",
+      "type": "application/json",
+      "title": "Building the PIKART atmospheric river datacube"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

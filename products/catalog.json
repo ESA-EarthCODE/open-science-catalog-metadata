@@ -2150,6 +2150,12 @@
       "href": "./careheat-database/collection.json",
       "type": "application/json",
       "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "child",
+      "href": "./pikart-atmospheric-river-catalog-v1-1/collection.json",
+      "type": "application/json",
+      "title": "pikart-atmospheric-river-catalog-v1-1"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
