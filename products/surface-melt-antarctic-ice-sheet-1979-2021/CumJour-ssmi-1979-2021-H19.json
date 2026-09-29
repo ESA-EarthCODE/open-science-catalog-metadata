@@ -62,8 +62,8 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/4DANTARCTICA/surface_melting_antarctica_1979_2021/CumJour-ssmi-1979-2021-H19.nc",
-      "type": "application/x-netcdf",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/4DANTARCTICA/surface_melting_antarctica_1979_2021/CumJour-ssmi-1979-2021-H19.zarr",
+      "type": "application/vnd+zarr",
       "title": "CumJour-ssmi-1979-2021-H19",
       "cube:dimensions": {
         "y": {
