@@ -1,0 +1,154 @@
+{
+  "type": "Collection",
+  "id": "mwd-lstm-sim",
+  "stac_version": "1.0.0",
+  "description": "## Overview\nThis collection contains EO project results from the **“Multisensor Water Discharges”** project, part of ESA’s Sentinel Users Preparation (SUP) initiative. The objective is to build representative, satellite-like datasets for future Copernicus Expansion mission **LSTM** to support the detection, monitoring and characterisation of water discharges in (a) inland freshwater near water treatment / sewage outlets and (b) coastal environments in the Adriatic and central Mediterranean. Data include simulated LSTM thermal stacks from Landsat/ASTER. Products are provided as STAC Items with assets in PRR Stagein S3 and are meant to be browsed via APEx / EarthCODE.\n\n## Data Sources\n- Landsat 8/9\n- ASTER\n\n## Spatial and Temporal Coverage\n- **Spatial coverage:** Italy\n- **Resolution:** 50 m\n- **Temporal coverage:** 2019–2025\n\n## Data Format\n- GeoTIFF\n- Coordinate reference system: EPSG:32633\n\n## Processing\nThese data are Top-of-Atmosphere TIR radiance.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/multisensor-water-discharges/collection.json",
+      "type": "application/json",
+      "title": "Project: Multisensor Water Discharges (MWD)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-8/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-8"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-9/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-9"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/discharge/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Discharge"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/temperature-anomalies/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Temperature Anomalies"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-water-chemistry/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Water Chemistry"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/stac/collections/mwd-lstm-sim",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/mwd-lstm-sim",
+      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-09-29T11:43:41.434878Z",
+  "updated": "2026-09-29T11:43:41.434878Z",
+  "osc:project": "multisensor-water-discharges",
+  "osc:status": "ongoing",
+  "osc:region": "Italy",
+  "osc:type": "product",
+  "osc:missions": [
+    "landsat-8",
+    "landsat-9",
+    "terra"
+  ],
+  "osc:variables": [
+    "discharge",
+    "temperature-anomalies",
+    "surface-water-chemistry"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "toa_outgoing_radiance_per_unit_wavelength"
+    }
+  ],
+  "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6,
+          36.6,
+          18.6,
+          47.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-17T00:00:00Z",
+          "2026-11-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "airborne-thermal",
+    "aster"
+  ]
+}
