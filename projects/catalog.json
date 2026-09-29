@@ -1283,6 +1283,12 @@
     },
     {
       "rel": "child",
+      "href": "./arnetlab/collection.json",
+      "type": "application/json",
+      "title": "Earth Surface Impacts of Hydrological Extremes along Global Atmospheric River Networks (ARNETLAB)"
+    },
+      {
+      "rel" : "child",
       "href": "./coastdyn/collection.json",
       "type": "application/json",
       "title": "COASTDYN"
