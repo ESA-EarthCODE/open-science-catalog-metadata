@@ -7496,6 +7496,42 @@
       "href": "./zooplankton/catalog.json",
       "type": "application/json",
       "title": "Zooplankton"
+    },
+    {
+      "rel": "child",
+      "href": "./atmospheric-river-binary-mask/catalog.json",
+      "type": "application/json",
+      "title": "Atmospheric River Binary Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./duration-of-atmospheric-river-conditions/catalog.json",
+      "type": "application/json",
+      "title": "Duration Of Atmospheric River Conditions"
+    },
+    {
+      "rel": "child",
+      "href": "./extreme-precipitation-event-status-flag/catalog.json",
+      "type": "application/json",
+      "title": "Extreme Precipitation Event Status Flag"
+    },
+    {
+      "rel": "child",
+      "href": "./intensity-of-atmospheric-river-conditions/catalog.json",
+      "type": "application/json",
+      "title": "Intensity Of Atmospheric River Conditions"
+    },
+    {
+      "rel": "child",
+      "href": "./vertically-integrated-water-vapor-transport/catalog.json",
+      "type": "application/json",
+      "title": "Vertically Integrated Water Vapor Transport"
+    },
+    {
+      "rel": "child",
+      "href": "./rank-of-atmospheric-river-conditions/catalog.json",
+      "type": "application/json",
+      "title": "Rank Of Atmospheric River Conditions"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",
