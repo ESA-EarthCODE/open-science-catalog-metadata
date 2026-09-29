@@ -93,7 +93,7 @@
     },
     {
       "rel": "git",
-      "href": "https://github.com/cgi-italy/notebooks/blob/main/EuMonExperiment.ipynb",
+      "href": "https://github.com/cgi-italy/earthcode-notebooks/blob/master/EuMonExperiment.ipynb",
       "type": "application/json",
       "title": "Git source repository"
     },
