@@ -68,19 +68,19 @@
     {
       "name": "Collecte, Localisation, Satellites (CLS)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "Nansen Environmental and Remote Sensing Center (NERSC), Bergen, Norway",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
-      "name": "he Technical University of Munich (TUM)",
+      "name": "Technical University of Munich (TUM)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     }
   ],
