@@ -4,11 +4,16 @@
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
-    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook"
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "title": "ESA CCI permafrost",
   "geometry": null,
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/2xms-qw49"}
+    ],
+    "sci:doi": "10.83395/g41y-kv07",
     "created": "2025-03-17T14:30:23.650003+00:00",
     "updated": "2025-04-25T14:00:00Z",
     "type": "workflow",

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/a41a-rw12"}
+  ],
+  "sci:doi": "10.83395/1a9f-4s43",
   "type": "Collection",
   "id": "sea-ice-clima-snow-depth-lpf-cassis",
   "stac_version": "1.0.0",
@@ -71,7 +75,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "cassis-climate-altimetric-studies-with-sea-ice-and-snow",
   "osc:status": "ongoing",

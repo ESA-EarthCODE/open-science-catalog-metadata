@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/gznw-2213"}
+  ],
+  "sci:doi": "10.83395/zfk4-9k53",
   "id": "polarwarp",
   "title": "Polarwarp",
   "created": "2025-10-13T16:54:34Z",
@@ -70,7 +74,8 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "cerulean-information-factory",
   "themes": [
@@ -86,10 +91,10 @@
   "fair:Findable_has_doi": false,
   "fair:Findable_rich_metadata": true,
   "fair:Findable_identifier": true,
-  "fair:Findable_stac_assets": false,
+  "fair:Findable_stac_assets": true,
   "fair:Findable_indexed": true,
-  "fair:Findable_indexed_approved_metadata": false,
-  "fair:Findable_indexed_approved_data": false,
+  "fair:Findable_indexed_approved_metadata": true,
+  "fair:Findable_indexed_approved_data": true,
   "fair:Accessible_general": true,
   "fair:Accessible_protocols": true,
   "fair:Accessible_files": 1.0,

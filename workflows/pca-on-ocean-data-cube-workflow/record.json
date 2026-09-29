@@ -4,6 +4,10 @@
   "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability",
   "geometry": null,
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/fd86-wd82"}
+    ],
+    "sci:doi": "10.83395/a7yf-vd83",
     "created": "2025-09-26T15:22:28.166261+00:00",
     "updated": "2025-09-26T15:22:28.166261+00:00",
     "type": "workflow",
@@ -69,7 +73,8 @@
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
     "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-jupyter-notebook",
-    "https://stac-extensions.github.io/application/v0.1.0/schema.json"
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "themes": [
     "ocean"

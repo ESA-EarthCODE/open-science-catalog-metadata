@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.83395/j865-fv92"}
+    ],
+    "sci:doi": "10.83395/mddg-mr79",
     "type": "Collection",
     "id": "4dmed-2d-alt-miost-le-72",
     "stac_version": "1.0.0",
@@ -48,7 +52,8 @@
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
       "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+      "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+      "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
     ],
     "osc:project": "4dmed-sea",
     "osc:status": "completed",

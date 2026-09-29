@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.16330564"}
+  ,
+    {"doi": "10.83395/460d-2w57"}],
   "type": "Collection",
   "id": "subglacial-lakes-boundries",
   "stac_version": "1.0.0",
@@ -99,7 +103,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.16330564",
+  "sci:doi": "10.83395/22vh-e732",
   "cf:parameter": [
     {
       "name": "subglacial-lake-extent"
@@ -136,9 +140,9 @@
   "fair:Findable_has_doi": true,
   "fair:Findable_rich_metadata": true,
   "fair:Findable_identifier": true,
-  "fair:Findable_stac_assets": false,
+  "fair:Findable_stac_assets": true,
   "fair:Findable_indexed": true,
-  "fair:Findable_indexed_approved_metadata": false,
+  "fair:Findable_indexed_approved_metadata": true,
   "fair:Findable_indexed_approved_data": true,
   "fair:Accessible_general": true,
   "fair:Accessible_protocols": true,

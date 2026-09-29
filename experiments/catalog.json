@@ -77,6 +77,12 @@
     },
     {
       "rel": "item",
+      "href": "./pikart-atmospheric-river-catalog-workflow/record.json",
+      "type": "application/json",
+      "title": "Building the PIKART atmospheric river datacube"
+    },
+    {
+      "rel": "item",
       "href": "./eutrophication-monitoring-italy-20170314/record.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Italy, 2017-03-14)"

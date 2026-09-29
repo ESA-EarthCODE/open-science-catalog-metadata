@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.3390/rs11161894"}
+  ,
+    {"doi": "10.83395/nj9y-ft22"}],
   "type": "Collection",
   "id": "addit-earthquake-tsunami-tool-costo",
   "stac_version": "1.0.0",
@@ -67,7 +71,7 @@
   "osc:region": "Japan",
   "osc:type": "product",
   "created": "2019-08-13T00:00:00Z",
-  "sci:doi": "10.3390/rs11161894",
+  "sci:doi": "10.83395/k34d-em65",
   "cf:parameter": [
     {
       "name": "earthquake_tsunami_tool"

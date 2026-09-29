@@ -3,9 +3,14 @@
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/9fh6-mc06"}
+    ],
+    "sci:doi": "10.83395/wtp4-nn05",
     "title": "Subglacial Lake Time Series Visualization Workflow",
     "description": "Workflow for reproducing ice surface elevation change figures from time series data.",
     "type": "workflow",

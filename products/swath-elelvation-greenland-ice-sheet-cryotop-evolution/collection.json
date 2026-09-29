@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5285/d762710b-562b-41a6-b9b4-adb26bfad4c6"}
+  ,
+    {"doi": "10.83395/b4br-xe83"}],
   "type": "Collection",
   "id": "swath-elelvation-greenland-ice-sheet-cryotop-evolution",
   "stac_version": "1.0.0",
@@ -67,7 +71,7 @@
   "osc:region": "Greenland",
   "osc:type": "product",
   "created": "2018-02-22T00:00:00Z",
-  "sci:doi": "10.5285/d762710b-562b-41a6-b9b4-adb26bfad4c6",
+  "sci:doi": "10.83395/tfwn-qv73",
   "cf:parameter": [
     {
       "name": "swath_elevation_ice_sheet_"

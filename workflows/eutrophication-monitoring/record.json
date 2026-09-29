@@ -3,9 +3,14 @@
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/4y6b-rd49"}
+    ],
+    "sci:doi": "10.83395/3xrz-br75",
     "title": "Eutrophication Monitoring for SDG engine",
     "description": "The workflow aims to implement three different indicators for eutrophication monitoring, in order to implement the SDG 14.1.1a monitoring Index of Coastal Eutrophication.",
     "type": "workflow",
