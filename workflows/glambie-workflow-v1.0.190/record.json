@@ -3,9 +3,14 @@
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/hqnn-a341"}
+    ],
+    "sci:doi": "10.83395/dxs3-nj97",
     "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190",
     "description": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190. The code associated to results published under GlaMBIE project. The code is available via GitHub or zenodo./n/nThis is an automatically generated build release. Please obtain the packaged version of this release from the python artifact repo at: https://console.cloud.google.com/artifacts/python/earthwave-sys-0/europe-west1/ewpr. Instructions on how to install packages from this repo are included in the README.md. Please view CHANGELOG.md for additional details.",
     "type": "workflow",

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1007/1345_2019_75"}
+  ,
+    {"doi": "10.83395/pads-4392"}],
   "type": "Collection",
   "id": "ocean-freshwater-flux-arctic-theme3",
   "stac_version": "1.0.0",
@@ -145,7 +149,7 @@
   "osc:region": "Arctic",
   "osc:type": "product",
   "created": "2019-07-17T00:00:00Z",
-  "sci:doi": "10.1007/1345_2019_75",
+  "sci:doi": "10.83395/mdbg-0y30",
   "cf:parameter": [
     {
       "name": "ocean_freshwater_flux"

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.14646322"}
+  ,
+    {"doi": "10.83395/nh0m-2f30"}],
   "type": "Collection",
   "id": "global-plant-trait-maps",
   "stac_version": "1.1.0",
@@ -54,7 +58,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.14646322",
+  "sci:doi": "10.83395/9q7h-fd54",
   "sci:citation": "Lusk, D., Wolf, S., Svidzinska, D., & Kattenborn, T. (2026). Global plant trait maps based on crowdsourced biodiversity monitoring and Earth observation - 1 km - All PFTs [Data set]. In Nature Communications (1.0.0, Vol. 17, Number 1203). Zenodo. https://doi.org/10.5281/zenodo.14646322",
   "published": "2026-01-30T00:00:00Z",
   "osc:type": "product",

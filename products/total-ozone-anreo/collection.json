@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1016/j.jqsrt.2021.107903"}
+  ,
+    {"doi": "10.83395/yw57-2076"}],
   "type": "Collection",
   "id": "total-ozone-anreo",
   "stac_version": "1.0.0",
@@ -72,7 +76,7 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "created": "2021-12-01T00:00:00Z",
-  "sci:doi": "10.1016/j.jqsrt.2021.107903",
+  "sci:doi": "10.83395/nztb-m763",
   "cf:parameter": [
     {
       "name": "total_ozone"

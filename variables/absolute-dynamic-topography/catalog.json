@@ -5,6 +5,11 @@
   "description": "The absolute dynamic topography, from which the ocean's currents can be derived by geostrophy, is obtained, either by subtracting the geoid height from the altimetric Mean Sea Surface height above the reference ellipsoid, or by estimating the ocean Mean Dynamic Topography and adding it to the altimetric sea level.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/absolute-dynamic-topography/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -22,7 +27,7 @@
       "type": "application/json",
       "title": "Level 4, absolute dynamic topography, multi-mission gridded merged products for a period of 1 year, 0.0625°*0.0625°, daily"
     },
-        {
+    {
       "rel": "child",
       "href": "../../products/4dmed-2d-alt/collection.json",
       "type": "application/json",
@@ -47,15 +52,16 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/absolute-dynamic-topography/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
     }
   ],
   "stac_extensions": [

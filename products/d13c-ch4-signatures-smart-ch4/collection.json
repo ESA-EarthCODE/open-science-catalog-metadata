@@ -1,11 +1,16 @@
 {
+  "sci:publications": [
+    {"doi": "10.57780/esa-6d202e9"}
+  ,
+    {"doi": "10.83395/1af7-kp38"}],
   "type": "Collection",
   "id": "d13c-ch4-signatures-smart-ch4",
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "created": "2025-09-29T12:00:00Z",
   "updated": "2025-09-29T12:00:00Z",
@@ -108,7 +113,7 @@
   "osc:variables": [
     "13-ch4-delta"
   ],
-  "sci:doi": "10.57780/esa-6d202e9",
+  "sci:doi": "10.83395/7fdd-fd91",
   "cf:parameter": [
     {
       "name": "isotopic-signature",

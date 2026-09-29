@@ -4,10 +4,15 @@
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
-    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-argo-workflow"
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-argo-workflow",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "geometry": null,
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/atj3-8y94"}
+    ],
+    "sci:doi": "10.83395/rxm1-kr03",
     "created": "2025-02-19T23:00:00Z",
     "updated": "2025-03-03T22:00:00Z",
     "type": "workflow",

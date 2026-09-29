@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/0zsa-ea30"}
+  ],
+  "sci:doi": "10.83395/5e1v-vp76",
   "type": "Collection",
   "id": "ai4ais-larsen-c-ice-shelf-cube",
   "stac_version": "1.0.0",
@@ -124,7 +128,8 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "created": "2026-06-14T10:18:44.243499Z",
   "updated": "2026-06-14T10:18:44.243499Z",

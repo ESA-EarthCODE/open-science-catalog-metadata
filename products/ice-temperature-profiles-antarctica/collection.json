@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.1016/j.rse.2019.111405"}
+  ,
+    {"doi": "10.83395/cqym-d768"}],
   "type": "Collection",
   "id": "ice-temperature-profiles-antarctica",
   "stac_version": "1.0.0",
@@ -76,7 +80,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "4d-antarctica",
   "osc:status": "completed",
@@ -84,7 +89,7 @@
   "osc:type": "product",
   "created": "2019-10-15T00:00:00Z",
   "version": "2.0",
-  "sci:doi": "10.1016/j.rse.2019.111405",
+  "sci:doi": "10.83395/5snv-xx66",
   "cf:parameter": [
     {
       "name": "ice-temperature-profiles-antarctica"

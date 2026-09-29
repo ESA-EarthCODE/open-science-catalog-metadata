@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.20350/digitalCSIC/15493"}
+  ,
+    {"doi": "10.83395/j3hb-9b40"}],
   "type": "Collection",
   "id": "sofresh-sea-surface-salinity",
   "stac_version": "1.0.0",
@@ -84,7 +88,7 @@
   "osc:region": "Southern Ocean",
   "created": "2023-07-31T00:00:00Z",
   "version": "1",
-  "sci:doi": "10.20350/digitalCSIC/15493",
+  "sci:doi": "10.83395/sb09-v171",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

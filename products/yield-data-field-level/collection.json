@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.83395/77nd-mx42"}
+    ],
+    "sci:doi": "10.83395/zc92-3t58",
     "type": "Collection",
     "id": "yield-data-field-level",
     "stac_version": "1.0.0",
@@ -58,7 +62,8 @@
     ],
     "stac_extensions": [
       "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-      "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+      "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
     ],
     "osc:project": "yipeeo",
     "osc:status": "completed",

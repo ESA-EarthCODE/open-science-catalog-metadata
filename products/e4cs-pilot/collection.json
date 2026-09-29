@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/ngdz-5665"}
+  ],
+  "sci:doi": "10.83395/6ehv-t041",
   "type": "Collection",
   "id": "e4cs-pilot",
   "stac_version": "1.0.0",
@@ -192,7 +196,8 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "created": "2026-03-29T11:02:23.046080Z",
   "updated": "2026-03-29T11:02:23.046080Z",

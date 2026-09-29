@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.13834057"}
+  ,
+    {"doi": "10.83395/f9ay-2752"}],
   "type": "Collection",
   "id": "seasfire-cube",
   "stac_version": "1.0.0",
@@ -96,7 +100,7 @@
   "osc:type": "product",
   "created": "2024-09-26T00:00:00Z",
   "version": "0.4",
-  "sci:doi": "10.5281/zenodo.13834057",
+  "sci:doi": "10.83395/nv5e-3t90",
   "cf:parameter": [
     {
       "name": "seasonal_fire"

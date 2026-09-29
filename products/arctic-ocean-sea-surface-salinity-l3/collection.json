@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.20350/digitalCSIC/16251"}
+    ,
+        {"doi": "10.83395/1py1-fp48"}],
     "type": "Collection",
     "id": "arctic-ocean-sea-surface-salinity-l3",
     "stac_version": "1.0.0",
@@ -79,7 +83,7 @@
     "osc:type": "product",
     "created": "2024-02-27T00:00:00Z",
     "version": "1",
-    "sci:doi": "10.20350/digitalCSIC/16251",
+    "sci:doi": "10.83395/y6w0-dc10",
     "cf:parameter": [
       {
         "name": "sea_surface_salinity"
