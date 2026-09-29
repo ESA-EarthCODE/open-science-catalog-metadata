@@ -6,7 +6,7 @@
   "type": "Collection",
   "id": "e4cs-pilot",
   "stac_version": "1.0.0",
-  "description": "EO4CS Biophysical Indicators and Soil Properties for Andalusia Rice Fields 2024, derived from Sentinel-2 and hyperspectral imagery using ML models.",
+  "description": "EO4CerealStress products for cereal-crop response to multiple stressors in pilot sites in Spain, Italy, Austria, and Canada.",
   "links": [
     {
       "rel": "root",
@@ -55,6 +55,12 @@
       "href": "../../variables/chlorophyll-concentration/catalog.json",
       "type": "application/json",
       "title": "Variable: Chlorophyll Concentration"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/droughts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Droughts"
     },
     {
       "rel": "related",
@@ -203,7 +209,7 @@
   "updated": "2026-03-29T11:02:23.046080Z",
   "osc:project": "eo4cerealstress",
   "osc:status": "completed",
-  "osc:region": "Andalusia",
+  "osc:region": "Spain, Italy, Austria and Canada",
   "osc:type": "product",
   "osc:missions": [
     "sentinel-2",
@@ -215,6 +221,7 @@
     "chlorophyll-concentration",
     "electrical-conductivity",
     "leaf-area-index-lai",
+    "droughts",
     "leaf-characteristics",
     "nitrogen",
     "pigments",
@@ -231,22 +238,22 @@
       ]
     }
   ],
-  "title": "Eo4CerealStress - Andalusia Rice Fields",
+  "title": "Eo4CerealStress Database",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          37.0131,
-          -6.3605,
-          37.2621,
-          -5.9391
+          -98.9645202425385,
+          36.980625807030314,
+          16.929931976921647,
+          50.276370832430906
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z",
           "2024-12-31T00:00:00Z"
         ]
       ]
@@ -254,7 +261,6 @@
   },
   "license": "CC-BY-SA-4.0",
   "keywords": [
-    "rice fields",
     "biophysical indicators",
     "biophysical traits",
     "soil properties"
