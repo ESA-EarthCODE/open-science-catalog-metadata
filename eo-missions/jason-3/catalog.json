@@ -5,6 +5,11 @@
   "description": "Launched in January 2016, Jason-3 is the follow-on altimetry mission of Jason-2/OSTM (Ocean Surface Topography Mission) developed and led collaboratively by NOAA (National Oceanic and Atmospheric Administration), EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites), CNES (Centre national d'etudes spatiales) and National Aeronautics and Space Administration (NASA). Its objective is to provide continuity to the Poseidon/TOPEX (Ocean Topography Experiment), Jason-1 and Jason-2 missions which support applications related to extreme weather events, operational oceanography, climate and forecasting. The mission has been extended past its three year nominal lifetime and is operational as of August 2022.",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/jason-3/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -65,9 +70,10 @@
       "title": "EO Missions"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/jason-3/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",
