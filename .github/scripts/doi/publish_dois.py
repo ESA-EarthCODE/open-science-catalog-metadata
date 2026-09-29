@@ -104,6 +104,7 @@ def main():
     print(f"Found {len(files)} modified files in this commit.")
     published_count = 0
     prefix = os.environ.get("DATACITE_PREFIX")
+    has_failures = False
 
     for file_path in files:
         is_product_file = file_path.endswith("collection.json") and "products/" in file_path
@@ -131,6 +132,7 @@ def main():
                     published_count += 1
             except Exception as e:
                 print(f"Failed to check or publish Canonical DOI {canonical_doi}: {e}")
+                has_failures = True
 
             # 2. Handle Versioned DOIs
             publications = properties.get("sci:publications", stac_item.get("sci:publications", []))
@@ -157,6 +159,7 @@ def main():
                         findable_versions.append(v_doi)
                 except Exception as e:
                     print(f"Failed to check or publish Version DOI {v_doi}: {e}")
+                    has_failures = True
 
             # 3. Update Canonical DOI with HasVersion relationships
             if findable_versions:
@@ -173,8 +176,13 @@ def main():
                     client.update_doi(canonical_doi, {"relatedIdentifiers": related_identifiers})
                 except Exception as e:
                     print(f"Failed to link versions to Canonical DOI {canonical_doi}: {e}")
+                    has_failures = True
 
     print(f"Finished. Published {published_count} DOIs.")
+
+    if has_failures:
+        print("\nError: One or more DOI actions failed during publication.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
