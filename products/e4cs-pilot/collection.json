@@ -194,6 +194,156 @@
       "type": "application/json",
       "title": "EO4CS_ES_2024_CCC_EM_GPR cloud-optimized GeoTIFF"
     },
+     {
+      "rel": "item",
+      "href": "./EO4CS_AU_2018_non_S2_DNN.json",
+      "type": "application/json",
+      "title": "EO4CS_AU_2018_non_S2_DNN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_AU_2019_non_S2_DNN.json",
+      "type": "application/json",
+      "title": "EO4CS_AU_2019_non_S2_DNN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_AU_2020_non_S2_DNN.json",
+      "type": "application/json",
+      "title": "EO4CS_AU_2020_non_S2_DNN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_AU_2021_non_S2_DNN.json",
+      "type": "application/json",
+      "title": "EO4CS_AU_2021_non_S2_DNN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_AU_2022_non_S2_DNN.json",
+      "type": "application/json",
+      "title": "EO4CS_AU_2022_non_S2_DNN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_AU_2023_non_S2_DNN.json",
+      "type": "application/json",
+      "title": "EO4CS_AU_2023_non_S2_DNN cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_CA_2018_Corn_S2_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_CA_2018_Corn_S2_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_CA_2019_Corn_S2_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_CA_2019_Corn_S2_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_CA_2020_Corn_S2_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_CA_2020_Corn_S2_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_CA_2021_Corn_S2_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_CA_2021_Corn_S2_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_CA_2023_Corn_S2_RF.json",
+      "type": "application/json",
+      "title": "EO4CS_CA_2023_Corn_S2_RF cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_GBR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_GBR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_MLP.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_MLP cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_MLR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_MLR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_RFR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_RFR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_SVR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_SVR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_GBR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_GBR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_MLP.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_MLP cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_MLR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_MLR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_RFR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_RFR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_SVR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_SVR cloud-optimized GeoTIFF"
+    },
     {
       "rel": "via",
       "href": "https://opensciencedata.esa.int/products/e4cs-pilot/collection",

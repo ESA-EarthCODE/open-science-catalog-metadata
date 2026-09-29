@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "EO4CS_CA_2023_Corn_S2_RF",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -98.9645202425385,
+          49.18312113165745
+        ],
+        [
+          -96.86327096145453,
+          49.18312113165745
+        ],
+        [
+          -96.86327096145453,
+          50.276370832430906
+        ],
+        [
+          -98.9645202425385,
+          50.276370832430906
+        ],
+        [
+          -98.9645202425385,
+          49.18312113165745
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -98.9645202425385,
+    49.18312113165745,
+    -96.86327096145453,
+    50.276370832430906
+  ],
+  "properties": {
+    "license": "CC-BY-SA-4.0",
+    "description": "EO4CerealStress drought prediction for Canada, generated with Sentinel-2 inputs and the RF model.",
+    "datetime": "2023-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_CA_2023_Corn_S2_RF.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4CS_CA_2023_Corn_S2_RF cloud-optimized GeoTIFF",
+      "proj:shape": [
+        12170,
+        23391
+      ],
+      "proj:transform": [
+        8.983152841195215e-05,
+        0.0,
+        -98.9645202425385,
+        0.0,
+        -8.983152841195215e-05,
+        50.276370832430906
+      ],
+      "proj:bbox": [
+        -98.9645202425385,
+        49.18312113165745,
+        -96.86327096145453,
+        50.276370832430906
+      ],
+      "proj:wkt2": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "raster:bands": [
+        {
+          "name": "drought_stress",
+          "data_type": "float32",
+          "spatial_resolution": 8.983152841195215e-05
+        }
+      ],
+      "file:size": 124974197,
+      "file:compression": "deflate",
+      "file:overviews": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "processing:lineage": "Converted from the supplied GeoTIFF with the GDAL COG driver.",
+      "processing:software": {
+        "GDAL": "3.12.1"
+      },
+      "proj:epsg": 4326,
+      "eo4cs:sensor": "Sentinel-2",
+      "eo4cs:model": "RF",
+      "eo4cs:country": "Canada",
+      "eo4cs:source_filename": "EO4CS_CA_2023_Corn_S2_RF.tif",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "e4cs-pilot",
+  "title": "EO4CS_CA_2023_Corn_S2_RF cloud-optimized GeoTIFF"
+}

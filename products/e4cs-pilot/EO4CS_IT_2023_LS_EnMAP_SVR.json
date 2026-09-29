@@ -1,0 +1,140 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "EO4CS_IT_2023_LS_EnMAP_SVR",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.906997139987753,
+          44.83830214763271
+        ],
+        [
+          12.006919009907524,
+          44.83830214763271
+        ],
+        [
+          12.006919009907524,
+          44.8888351324267
+        ],
+        [
+          11.906997139987753,
+          44.8888351324267
+        ],
+        [
+          11.906997139987753,
+          44.83830214763271
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    11.906997139987753,
+    44.83830214763271,
+    12.006919009907524,
+    44.8888351324267
+  ],
+  "properties": {
+    "license": "CC-BY-SA-4.0",
+    "description": "EO4CerealStress lodging prediction for Italy, generated with EnMAP inputs and the SVR model.",
+    "datetime": "2023-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_IT_2023_LS_EnMAP_SVR.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4CS_IT_2023_LS_EnMAP_SVR cloud-optimized GeoTIFF",
+      "proj:shape": [
+        178,
+        257
+      ],
+      "proj:transform": [
+        30.0,
+        0.0,
+        729750.0,
+        0.0,
+        -30.0,
+        4974720.0
+      ],
+      "proj:bbox": [
+        729750.0,
+        4969380.0,
+        737460.0,
+        4974720.0
+      ],
+      "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+      "raster:bands": [
+        {
+          "name": "lodging_score",
+          "data_type": "float32",
+          "spatial_resolution": 30.0
+        }
+      ],
+      "file:size": 32876,
+      "file:compression": "deflate",
+      "file:overviews": [],
+      "processing:lineage": "Converted from the supplied GeoTIFF with the GDAL COG driver.",
+      "processing:software": {
+        "GDAL": "3.12.1"
+      },
+      "proj:epsg": 32632,
+      "eo4cs:sensor": "EnMAP",
+      "eo4cs:model": "SVR",
+      "eo4cs:country": "Italy",
+      "eo4cs:source_filename": "EO4CS_IT_2023_LS_EnMAP_SVR.tif",
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              729558.9537134289,
+              4969099.669109014
+            ],
+            [
+              737657.5990001273,
+              4969099.669109014
+            ],
+            [
+              737657.5990001273,
+              4975000.799770644
+            ],
+            [
+              729558.9537134289,
+              4975000.799770644
+            ],
+            [
+              729558.9537134289,
+              4969099.669109014
+            ]
+          ]
+        ]
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "e4cs-pilot",
+  "title": "EO4CS_IT_2023_LS_EnMAP_SVR cloud-optimized GeoTIFF"
+}
