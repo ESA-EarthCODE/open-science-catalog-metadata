@@ -72,7 +72,7 @@ jobs:
         run: |
           git remote add upstream https://github.com/${{ github.repository }}
           git fetch upstream ${{ github.event.pull_request.base.ref }}
-          FILES=$(git diff --name-only upstream/${{ github.event.pull_request.base.ref }} HEAD | grep -E '(products/.*/collection\.json|workflows/.*/record\.json)' || true)
+          FILES=$(git diff --name-only upstream/${{ github.event.pull_request.base.ref }}...HEAD | grep -E '(products/.*/collection\.json|workflows/.*/record\.json)' || true)
           FILES_FLAT=$(echo $FILES | tr '\n' ' ')
           echo "CHANGED_FILES=$FILES_FLAT" >> $GITHUB_ENV
 
