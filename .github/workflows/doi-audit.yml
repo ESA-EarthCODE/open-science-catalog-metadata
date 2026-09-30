@@ -24,7 +24,10 @@ jobs:
     steps:
       - name: Generate GitHub App Token
         id: generate_app_token
-        if: github.event_name == 'pull_request_target' && secrets.OSC_EDITOR_APP_ID && secrets.OSC_EDITOR_APP_PRIVATE_KEY
+        env:
+          OSC_EDITOR_APP_ID: ${{ secrets.OSC_EDITOR_APP_ID }}
+          OSC_EDITOR_APP_PRIVATE_KEY: ${{ secrets.OSC_EDITOR_APP_PRIVATE_KEY }}
+        if: github.event_name == 'pull_request_target' && env.OSC_EDITOR_APP_ID != '' && env.OSC_EDITOR_APP_PRIVATE_KEY != ''
         uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         continue-on-error: true
         with:
