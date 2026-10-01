@@ -200,6 +200,7 @@ def main():
     summary = []
     requested_versions = check_pr_for_new_version_requests()
     prefix = os.environ.get("DATACITE_PREFIX")
+    has_failures = False
 
     for file_path in files:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -222,6 +223,7 @@ def main():
             except Exception as e:
                 print(f"Failed to create canonical DOI for {file_path}: {e}")
                 summary.append(f"- {file_path}: FAILED to create Canonical DOI ({e})")
+                has_failures = True
                 continue
         else:
             # Update existing Canonical DOI metadata
@@ -232,6 +234,8 @@ def main():
                 summary.append(f"- {file_path}: Updated Canonical DOI metadata ({canonical_doi})")
             except Exception as e:
                 print(f"Failed to update Canonical DOI {canonical_doi}: {e}")
+                summary.append(f"- {file_path}: FAILED to update Canonical DOI metadata ({e})")
+                has_failures = True
 
         # Determine if the canonical DOI is brand new in this PR
         is_new_canonical_in_pr = False
@@ -287,6 +291,7 @@ def main():
                 except Exception as e:
                     print(f"Failed to update existing Draft Version DOI {latest_v_doi}: {e}")
                     summary.append(f"- {file_path}: FAILED to update Draft Version DOI ({e})")
+                    has_failures = True
             else:
                 # Generate a brand new Draft Version DOI
                 print(f"{reason} for {file_path}. Generating Draft Version DOI.")
@@ -305,6 +310,7 @@ def main():
                 except Exception as e:
                     print(f"Failed to create version DOI for {file_path}: {e}")
                     summary.append(f"- {file_path}: FAILED to create Version DOI ({e})")
+                    has_failures = True
         else:
             # No version requested and it is not a new canonical.
             # If there is a draft version DOI in our publications, we must remove it (Unticked state)
@@ -317,6 +323,7 @@ def main():
                 except Exception as e:
                     print(f"Failed to delete/remove unticked Draft Version DOI {latest_v_doi}: {e}")
                     summary.append(f"- {file_path}: FAILED to delete/remove unticked Draft Version DOI ({e})")
+                    has_failures = True
             else:
                 # No draft exists, or latest version is already published.
                 if latest_v_doi:
@@ -331,6 +338,10 @@ def main():
             f.write("\n".join(summary))
     else:
         print("No DOI actions performed.")
+
+    if has_failures:
+        print("\nError: One or more DOI actions failed during audit.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

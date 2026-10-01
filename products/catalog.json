@@ -2159,6 +2159,12 @@
     },
     {
       "rel": "child",
+      "href": "./pikart-atmospheric-river-catalog-v1-1/collection.json",
+      "type": "application/json",
+      "title": "pikart-atmospheric-river-catalog-v1-1"
+    },
+    {
+       "rel": "child",
       "href": "./coastdyn-adt-rep-2d-dataset/collection.json",
       "type": "application/json",
       "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
