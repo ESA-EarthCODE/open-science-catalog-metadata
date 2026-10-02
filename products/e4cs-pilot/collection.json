@@ -4,9 +4,9 @@
   ],
   "sci:doi": "10.83395/6ehv-t041",
   "type": "Collection",
-  "id": "e4cs-pilot",
+  "id": "e4cs-soil-stress-rice-andalusia",
   "stac_version": "1.0.0",
-  "description": "EO4CerealStress products for cereal-crop response to multiple stressors in pilot sites in Spain, Italy, Austria, and Canada.",
+  "description": "EO4CS Biophysical Indicators and Soil Properties for Andalusia Rice Fields 2024, derived from Sentinel-2 and hyperspectral imagery using ML models.",
   "links": [
     {
       "rel": "root",
@@ -346,7 +346,7 @@
     },
     {
       "rel": "via",
-      "href": "https://opensciencedata.esa.int/products/e4cs-pilot/collection",
+      "href": "https://opensciencedata.esa.int/products/e4cs-soil-stress-rice-andalusia/collection",
       "title": "Access"
     }
   ],
@@ -359,7 +359,7 @@
   "updated": "2026-03-29T11:02:23.046080Z",
   "osc:project": "eo4cerealstress",
   "osc:status": "completed",
-  "osc:region": "Spain, Italy, Austria and Canada",
+  "osc:region": "Andalusia, Spain",
   "osc:type": "product",
   "osc:missions": [
     "sentinel-2",
@@ -388,22 +388,20 @@
       ]
     }
   ],
-  "title": "Eo4CerealStress Database",
+  "title": "EO4Cereal Strees Biophysical Indicators for Rice Fields - Andalusia,Spain",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -98.9645202425385,
-          36.980625807030314,
-          16.929931976921647,
-          50.276370832430906
-        ]
+          37.0131,
+          -6.3605,
+          37.2621,
+          -5.9391
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z",
           "2024-12-31T00:00:00Z"
         ]
       ]
