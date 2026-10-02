@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "multisensor-water-discharges",
+  "stac_version": "1.0.0",
+  "description": "The Multisensor Water Discharges project, part of ESA’s Sentinel Users Preparation (SUP) initiative, aims to improve the detection and characterization of water discharges in inland freshwater and coastal environments. These discharges, caused by both anthropogenic activities (e.g., industrial leaks, agricultural activities, sewage overflow, illegal dumping) or extreme weather events (e.g., heavy rainfall), pose significant challenges to environmental monitoring. Leveraging the upcoming Copernicus Expansion missions CHIME (hyperspectral) and LSTM (thermal), the project simulates representative datasets using a combination of airborne campaigns and existing satellite missions (PRISMA, EnMAP, Landsat, ASTER). Through advanced image processing and AI  echniques, the project develops and tests methodologies to support enhanced EO-based applications for discharge monitoring, supporting early warning, near real-time observations, and post-event assessment.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sup-fcp-multisensor-water-discharges/",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mwd-lstm-sim/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-09-29T11:43:20.480088Z",
+  "updated": "2026-09-29T11:43:20.480088Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Elisabetta Lamboglia",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "elisabetta.lamboglia@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "Planetek Italia",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "info@planetek.it"
+        }
+      ]
+    },
+    {
+      "name": "National Technical University of Athens",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "mkremezi@central.ntua.gr"
+        }
+      ]
+    }
+  ],
+  "title": "Multisensor Water Discharges (MWD)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6,
+          36.6,
+          18.6,
+          47.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-17T00:00:00Z",
+          "2026-11-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

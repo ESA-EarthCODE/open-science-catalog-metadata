@@ -350,6 +350,12 @@
       "href": "../../products/bicep-database/collection.json",
       "type": "application/json",
       "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mwd-lstm-sim/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
