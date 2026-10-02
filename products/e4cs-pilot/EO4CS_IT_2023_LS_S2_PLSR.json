@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+ 
+
+  ],
+  "id": "EO4CS_IT_2023_LS_S2_PLSR",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.90673988354864,
+          44.83820892275851
+        ],
+        [
+          12.007050151858238,
+          44.83820892275851
+        ],
+        [
+          12.007050151858238,
+          44.88893148626117
+        ],
+        [
+          11.90673988354864,
+          44.88893148626117
+        ],
+        [
+          11.90673988354864,
+          44.83820892275851
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    11.90673988354864,
+    44.83820892275851,
+    12.007050151858238,
+    44.88893148626117
+  ],
+  "properties": {
+    "license": "CC-BY-SA-4.0",
+    "description": "EO4CerealStress lodging prediction for Italy, generated with Sentinel-2 inputs and the PLSR model.",
+    "datetime": "2023-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_IT_2023_LS_S2_PLSR.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "EO4CS_IT_2023_LS_S2_PLSR cloud-optimized GeoTIFF",
+      "proj:shape": [
+        268,
+        387
+      ],
+      "proj:transform": [
+        20.0,
+        0.0,
+        729730.0,
+        0.0,
+        -20.0,
+        4974730.0
+      ],
+      "proj:bbox": [
+        729730.0,
+        4969370.0,
+        737470.0,
+        4974730.0
+      ],
+      "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+      "raster:bands": [
+        {
+          "name": "lodging_score",
+          "data_type": "float32",
+          "spatial_resolution": 20.0
+        }
+      ],
+      "file:size": 65447,
+      "file:compression": "deflate",
+      "file:overviews": [],
+      "processing:lineage": "Converted from the supplied GeoTIFF with the GDAL COG driver.",
+      "processing:software": {
+        "GDAL": "3.12.1"
+      },
+      "proj:epsg": 32632,
+      "eo4cs:sensor": "Sentinel-2",
+      "eo4cs:model": "PLSR",
+      "eo4cs:country": "Italy",
+      "eo4cs:source_filename": "EO4CS_IT_2023_LS_S2_PLSR.tif",
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              729558.9537134289,
+              4969099.669109014
+            ],
+            [
+              737657.5990001273,
+              4969099.669109014
+            ],
+            [
+              737657.5990001273,
+              4975000.799770644
+            ],
+            [
+              729558.9537134289,
+              4975000.799770644
+            ],
+            [
+              729558.9537134289,
+              4969099.669109014
+            ]
+          ]
+        ]
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "e4cs-pilot",
+  "title": "EO4CS_IT_2023_LS_S2_PLSR cloud-optimized GeoTIFF"
+}
