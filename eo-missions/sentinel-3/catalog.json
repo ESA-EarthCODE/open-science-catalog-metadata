@@ -557,6 +557,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+       "rel": "child",
       "href": "../../products/bicep-database/collection.json",
       "type": "application/json",
       "title": "Biological pump and carbon exchange processes (Bicep) database"
