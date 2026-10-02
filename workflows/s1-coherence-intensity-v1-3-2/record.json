@@ -13,9 +13,14 @@
     ]
   },
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/wfzm-dp26"}
+    ],
+    "sci:doi": "10.83395/6ryw-6j36",
     "version": "1",
     "created": "2026-08-06T00:00:00Z",
     "updated": "2026-09-16T16:43:43.440027Z",
