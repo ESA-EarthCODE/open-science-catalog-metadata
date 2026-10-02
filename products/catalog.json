@@ -2153,6 +2153,12 @@
     },
     {
       "rel": "child",
+      "href": "./s1-coherence-intensity-v1-3-2-9ww49/collection.json",
+      "type": "application/json",
+      "title": "Coherence and Intensity Composite"
+    },
+    {
+      "rel": "child",
       "href": "./pikart-atmospheric-river-catalog-v1-1/collection.json",
       "type": "application/json",
       "title": "pikart-atmospheric-river-catalog-v1-1"
