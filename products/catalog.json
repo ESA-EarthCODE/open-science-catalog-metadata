@@ -2027,6 +2027,18 @@
     },
     {
       "rel": "child",
+      "href": "./eo4cs-drought/collection.json",
+      "type": "application/json",
+      "title": "Agriculture Drought Stress in Maize - Australia & Canada"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4cs-lodging/collection.json",
+      "type": "application/json",
+      "title": "Crop Lodging Stress (LS) predictions in Wheat, Italy (EnMAP & Sentinel-2; multiple models)"
+    },
+    {
+      "rel": "child",
       "href": "./esa-meteor-datasets/collection.json",
       "type": "application/json",
       "title": "METEOR Merged Mesospheric Ozone and Temperature Climate Data Records"

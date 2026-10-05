@@ -259,6 +259,7 @@
     "biophysical traits",
     "soil properties"
   ],
+
   "fair:Findable_has_doi": false,
   "fair:Findable_rich_metadata": true,
   "fair:Findable_identifier": true,
@@ -278,5 +279,32 @@
   "fair:Reusable_workflow_exists": false,
   "fair:Reusable_cloud_assets_rate": 1.0,
   "fair:Reusable_has_visualisation": false,
-  "fair:Reusable_has_access_example": false
+  "fair:Reusable_has_access_example": false,
+
+  "providers": [
+    {
+      "name": "Prof. Victor Francisco Rodriguez Galiano",
+      "description": "Pilot site Manager (UoSev)",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0002-5422-8305"
+    },
+    {
+      "name": "Prof. Victor Francisco Rodriguez Galiano",
+      "description": "Contact person for the dataset (UoSev)",
+      "roles": [
+        "contributor"
+      ],
+      "url": "https://orcid.org/0000-0002-5422-8305"
+    },
+    {
+      "name": "Universidad de Sevilla",
+      "description": "Affiliation and processing organization",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://ror.org/03yxnpp24"
+    }
+  ]
 }
