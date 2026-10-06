@@ -457,6 +457,12 @@
       "href": "../../products/eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mwd-lstm-sim/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
