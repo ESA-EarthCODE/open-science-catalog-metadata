@@ -1,0 +1,24 @@
+aoi:
+  bbox:
+  - 84.9854
+  - 27.8066
+  - 85.2453
+  - 27.9615
+  coordinates:
+  - - - 84.9854
+      - 27.8066
+    - - 85.2453
+      - 27.8066
+    - - 85.2453
+      - 27.9615
+    - - 84.9854
+      - 27.9615
+    - - 84.9854
+      - 27.8066
+  type: Polygon
+cohWinAz: '10'
+cohWinRg: '40'
+reference:
+- https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-slc/items/S1D_IW_SLC__1SDV_20260816T122139_20260816T122207_004151_007980_0444
+secondary:
+- https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-slc/items/S1D_IW_SLC__1SDV_20260828T122140_20260828T122208_004326_007FA4_93F8
