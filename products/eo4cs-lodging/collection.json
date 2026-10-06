@@ -208,17 +208,9 @@
       "name": "Dr Furkan Celik",
       "description": "Contact person for the dataset (ITC-UTwente)",
       "roles": [
-        "contributor"
-      ],
-      "url": "https://orcid.org/0000-0001-7948-536X"
-    },
-    {
-      "name": "University of Twente",
-      "description": "Affiliation and processing organization",
-      "roles": [
         "processor"
       ],
-      "url": "https://ror.org/006hf6230"
+      "url": "https://orcid.org/0000-0001-7948-536X"
     }
   ]
 

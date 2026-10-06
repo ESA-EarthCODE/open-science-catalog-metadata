@@ -289,22 +289,6 @@
         "producer"
       ],
       "url": "https://orcid.org/0000-0002-5422-8305"
-    },
-    {
-      "name": "Prof. Victor Francisco Rodriguez Galiano",
-      "description": "Contact person for the dataset (UoSev)",
-      "roles": [
-        "contributor"
-      ],
-      "url": "https://orcid.org/0000-0002-5422-8305"
-    },
-    {
-      "name": "Universidad de Sevilla",
-      "description": "Affiliation and processing organization",
-      "roles": [
-        "processor"
-      ],
-      "url": "https://ror.org/03yxnpp24"
     }
   ]
 }

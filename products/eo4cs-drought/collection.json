@@ -188,22 +188,6 @@
         "producer"
       ],
       "url": "https://orcid.org/0000-0002-9664-8770"
-    },
-    {
-      "name": "Dr Omid Ghorbanzadeh",
-      "description": "Contact person for the dataset (BOKU)",
-      "roles": [
-        "contributor"
-      ],
-      "url": "https://orcid.org/0000-0002-9664-8770"
-    },
-    {
-      "name": "University of Natural Resources and Life Sciences- BOKU",
-      "description": "Affiliation and processing organization",
-      "roles": [
-        "processor"
-      ],
-      "url": "https://ror.org/057ff4y42"
     }
   ]
 }
