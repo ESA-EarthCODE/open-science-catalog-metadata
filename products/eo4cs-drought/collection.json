@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/vjtj-de44"}
+  ],
+  "sci:doi": "10.83395/enha-w779",
   "type": "Collection",
   "id": "eo4cs-drought",
   "stac_version": "1.0.0",

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/x49r-7782"}
+  ],
+  "sci:doi": "10.83395/h11s-1w80",
   "type": "Collection",
   "id": "eo4cs-lodging",
   "stac_version": "1.0.0",
