@@ -9,7 +9,7 @@
   ],
   "sci:doi": "10.83395/pqhn-2729",
   "id": "agricemdsscenariochimel2a",
-  "title": "AgriCEM_DS_Scenario_CHIME_L2A",
+  "title": "AgriCEM_DS_Scenario_LSTM_L1C",
   "created": "2026-10-08T15:29:17Z",
   "osc:status": "completed",
   "type": "Collection",
