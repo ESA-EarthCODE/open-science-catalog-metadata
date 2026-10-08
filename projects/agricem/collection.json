@@ -45,6 +45,12 @@
       "href": "../../products/agricemdsscenariochimel2a/collection.json",
       "type": "application/json",
       "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenariochimel2a/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
     }
   ],
   "stac_extensions": [
