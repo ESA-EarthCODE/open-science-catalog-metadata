@@ -2164,10 +2164,16 @@
       "title": "pikart-atmospheric-river-catalog-v1-1"
     },
     {
-       "rel": "child",
+      "rel": "child",
       "href": "./coastdyn-adt-rep-2d-dataset/collection.json",
       "type": "application/json",
       "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./agricemdsscenariochimel2a/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
