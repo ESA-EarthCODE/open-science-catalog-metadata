@@ -33,9 +33,15 @@
       "href": "../../products/agricemchimeds3v1/collection.json",
       "type": "application/json",
       "title": "AGRICEM Simulated CHIME L2A data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenariochimel2a/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
     }
   ],
-   "stac_extensions": [
+  "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
