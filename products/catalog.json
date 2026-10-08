@@ -2174,6 +2174,12 @@
       "href": "./agricemdsscenariochimel2a/collection.json",
       "type": "application/json",
       "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+    },
+    {
+      "rel": "child",
+      "href": "./agricemdsscenariochimel2a/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
