@@ -1,6 +1,8 @@
 {
   "sci:publications": [
-    {"doi": "10.83395/h66x-9p26"}
+    {
+      "doi": "10.83395/h66x-9p26"
+    }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11,5 +13,53 @@
   "created": "2026-10-08T15:29:17Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "blub",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.249592543358549,
+          50.167008917757244,
+          8.849209711895378,
+          51.89506335725193
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-19T00:00:00Z",
+          "2021-10-27T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/agricem/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: AgriCEM"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "osc:project": "agricem",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
 }
