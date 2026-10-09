@@ -2021,9 +2021,21 @@
     },
     {
       "rel": "child",
-      "href": "./e4cs-pilot/collection.json",
+      "href": "./eo4cs-soil-properties/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4cs-drought/collection.json",
+      "type": "application/json",
+      "title": "Agriculture Drought Stress in Maize - Australia & Canada"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4cs-lodging/collection.json",
+      "type": "application/json",
+      "title": "Crop Lodging Stress (LS) predictions in Wheat, Italy (EnMAP & Sentinel-2; multiple models)"
     },
     {
       "rel": "child",

@@ -2,39 +2,39 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "EO4CS_ES_2024_SN_PR_PLSR",
+  "id": "EO4CS_ES_2024_LCC_EM_SVR",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -5.9129756606559996,
-          36.980625807030314
+          -5.929063869685321,
+          37.002908735829315
         ],
         [
-          -5.9129756606559996,
-          37.27752237616496
+          -5.929063869685321,
+          37.27018152898475
         ],
         [
-          -6.37473150811376,
-          37.27752237616496
+          -6.27696426789401,
+          37.27018152898475
         ],
         [
-          -6.37473150811376,
-          36.980625807030314
+          -6.27696426789401,
+          37.002908735829315
         ],
         [
-          -5.9129756606559996,
-          36.980625807030314
+          -5.929063869685321,
+          37.002908735829315
         ]
       ]
     ]
   },
   "bbox": [
-    -6.37473150811376,
-    36.980625807030314,
-    -5.9129756606559996,
-    37.27752237616496
+    -6.27696426789401,
+    37.002908735829315,
+    -5.929063869685321,
+    37.27018152898475
   ],
   "properties": {
     "license": "CC-BY-SA-4.0",
@@ -57,61 +57,59 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_SN_PR_PLSR.tif",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_LCC_EM_SVR.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "EO4CS_ES_2024_SN_PR_PLSR cloud-optimized GeoTIFF",
+      "title": "EO4CS_ES_2024_LCC_EM_SVR cloud-optimized GeoTIFF",
       "datetime": "2024-01-01T00:00:00Z",
       "proj:epsg": 32629,
-      "platform": "PRISMA",
+      "platform": "EnMAP",
       "instrument": "hsi",
-      "product_type": "SN",
-      "ml_method": "PLSR",
+      "product_type": "LCC",
+      "ml_method": "SVR",
       "processing:lineage": "Converted to COG with internal overviews from source GeoTIFF",
       "processing:software": "GDAL COG driver",
       "processing:created": "2026-03-09T19:31:00Z",
-      "eo4cs:platform_code": "PR",
+      "eo4cs:platform_code": "EM",
       "eo4cs:country_code": "ES",
-      "eo4cs:inferred_description": "Soil nitrogen",
-      "eo4cs:inferred_units": "%",
+      "eo4cs:inferred_description": "Leaf chlorophyll content",
       "raster:bands": [
         {
-          "name": "sn",
+          "name": "lcc",
           "data_type": "float32",
           "nodata": 3.0,
           "spatial_resolution": 30.0,
-          "unit": "%"
+          "unit": null
         }
       ],
       "proj:shape": [
-        1059,
-        1337
+        959,
+        1002
       ],
       "proj:transform": [
         30.0,
         0.0,
-        733635.0,
+        742275.0,
         0.0,
         -30.0,
-        4128915.0
+        4128345.0
       ],
       "proj:bbox": [
-        733635.0,
-        4097145.0,
-        773745.0,
-        4128915.0
+        742275.0,
+        4099575.0,
+        772335.0,
+        4128345.0
       ],
       "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 29N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32629\"]]",
       "file:compression": "lzw",
       "file:overviews": [
         2,
         4,
-        8,
-        16
+        8
       ],
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "e4cs-pilot"
+  "collection": "eo4cs-soil-properties"
 }
