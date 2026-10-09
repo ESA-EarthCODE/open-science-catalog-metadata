@@ -2021,7 +2021,7 @@
     },
     {
       "rel": "child",
-      "href": "./e4cs-pilot/collection.json",
+      "href": "./eo4cs-soil-properties/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
     },

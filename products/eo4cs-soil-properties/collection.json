@@ -4,7 +4,7 @@
   ],
   "sci:doi": "10.83395/6ehv-t041",
   "type": "Collection",
-  "id": "e4cs-pilot",
+  "id": "eo4cs-soil-properties",
   "stac_version": "1.0.0",
   "description": "EO4CS Biophysical Indicators and Soil Properties for Andalusia Rice Fields 2024, derived from Sentinel-2 and hyperspectral imagery using ML models.",
   "links": [
@@ -190,7 +190,7 @@
     },
     {
       "rel": "via",
-      "href": "https://opensciencedata.esa.int/products/e4cs-pilot/collection",
+      "href": "https://opensciencedata.esa.int/products/eo4cs-soil-properties/collection",
       "title": "Access"
     }
   ],
