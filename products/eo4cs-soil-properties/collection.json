@@ -1,7 +1,8 @@
 {
   "sci:publications": [
     {"doi": "10.83395/ngdz-5665"}
-  ],
+  ,
+    {"doi": "10.83395/jt19-e482"}],
   "sci:doi": "10.83395/6ehv-t041",
   "type": "Collection",
   "id": "eo4cs-soil-properties",
