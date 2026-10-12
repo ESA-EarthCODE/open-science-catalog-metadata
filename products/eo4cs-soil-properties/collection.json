@@ -1,10 +1,11 @@
 {
   "sci:publications": [
     {"doi": "10.83395/ngdz-5665"}
-  ],
+  ,
+    {"doi": "10.83395/jt19-e482"}],
   "sci:doi": "10.83395/6ehv-t041",
   "type": "Collection",
-  "id": "e4cs-pilot",
+  "id": "eo4cs-soil-properties",
   "stac_version": "1.0.0",
   "description": "EO4CS Biophysical Indicators and Soil Properties for Andalusia Rice Fields 2024, derived from Sentinel-2 and hyperspectral imagery using ML models.",
   "links": [
@@ -190,7 +191,7 @@
     },
     {
       "rel": "via",
-      "href": "https://opensciencedata.esa.int/products/e4cs-pilot/collection",
+      "href": "https://opensciencedata.esa.int/products/eo4cs-soil-properties/collection",
       "title": "Access"
     }
   ],
@@ -259,6 +260,7 @@
     "biophysical traits",
     "soil properties"
   ],
+
   "fair:Findable_has_doi": false,
   "fair:Findable_rich_metadata": true,
   "fair:Findable_identifier": true,
@@ -278,5 +280,16 @@
   "fair:Reusable_workflow_exists": false,
   "fair:Reusable_cloud_assets_rate": 1.0,
   "fair:Reusable_has_visualisation": false,
-  "fair:Reusable_has_access_example": false
+  "fair:Reusable_has_access_example": false,
+
+  "providers": [
+    {
+      "name": "Prof. Victor Francisco Rodriguez Galiano",
+      "description": "Pilot site Manager (UoSev)",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0002-5422-8305"
+    }
+  ]
 }
