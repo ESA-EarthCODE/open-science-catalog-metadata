@@ -1,4 +1,11 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/jzh0-6s12"}
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "sci:doi": "10.83395/23zs-hq53",
   "id": "demo-product",
   "title": "Demo product",
   "created": "2026-10-13T11:02:53Z",
