@@ -1,0 +1,152 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/prc5-8a02"}
+  ],
+  "sci:doi": "10.83395/3z9w-1n05",
+  "type": "Collection",
+  "id": "mwd-chime-sim",
+  "stac_version": "1.0.0",
+  "description": "## Overview\nThis collection contains EO project results from the **“Multisensor Water Discharges”** project, part of ESA’s Sentinel Users Preparation (SUP) initiative. The objective is to build representative, satellite-like datasets for future Copernicus Expansion missions **CHIME** to support the detection, monitoring and characterisation of water discharges in (a) inland freshwater near water treatment / sewage outlets and (b) coastal environments in the Adriatic and central Mediterranean. Data include simulated CHIME hyperspectral cubes from PRISMA/EnMAP/airborne. Products are provided as STAC Items with assets in PRR Stagein S3 and are meant to be browsed via APEx / EarthCODE.\n\n## Data Sources\n\n- PRISMA \n- EnMAP\n- airborne campaigns\n\n\n## Spatial and Temporal Coverage\n\n- **Spatial coverage:** Italy\n- **Resolution:** 30 m\n- **Temporal coverage:** 2019–2025\n\n\n## Data Format\n- GeoTIFF\n- Coordinate reference system: EPSG:32633\n\n\n## Processing\nThese data are Top-of-Atmosphere radiance.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sup-fcp-multisensor-water-discharges/collection.json",
+      "type": "application/json",
+      "title": "Project: Multisensor Water Discharges (MWD)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/prisma/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: PRISMA"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/enmap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: EnMAP (Environmental Monitoring and Analysis Program)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/discharge/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Discharge"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/water-leaving-spectral-radiance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Water-leaving spectral radiance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-water-chemistry/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Water Chemistry"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/stac/collections/mwd-chime-sim",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/mwd-chime-sim",
+      "title": "Multisensor Water Discharges - CHIME-simulated hyperspectral data"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "created": "2026-10-14T14:17:13.666623Z",
+  "updated": "2026-10-14T14:17:13.666623Z",
+  "osc:project": "sup-fcp-multisensor-water-discharges",
+  "osc:status": "completed",
+  "osc:region": "Italy",
+  "osc:type": "product",
+  "osc:missions": [
+    "prisma",
+    "enmap"
+  ],
+  "osc:variables": [
+    "discharge",
+    "water-leaving-spectral-radiance",
+    "surface-water-chemistry"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "toa_outgoing_radiance_per_unit_wavelength"
+    }
+  ],
+  "title": "Multisensor Water Discharges - CHIME-simulated hyperspectral data",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6,
+          36.6,
+          18.6,
+          47.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-17T00:00:00Z",
+          "2026-11-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "CHIME",
+    "hyperspectral"
+  ]
+}
