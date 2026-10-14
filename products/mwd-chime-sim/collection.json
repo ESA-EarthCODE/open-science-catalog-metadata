@@ -80,8 +80,8 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "created": "2026-10-14T12:24:26.334473Z",
-  "updated": "2026-10-14T12:24:26.334473Z",
+  "created": "2026-10-14T14:17:13.666623Z",
+  "updated": "2026-10-14T14:17:13.666623Z",
   "osc:project": "sup-fcp-multisensor-water-discharges",
   "osc:status": "completed",
   "osc:region": "Italy",

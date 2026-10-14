@@ -51,8 +51,8 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "created": "2026-10-14T12:24:18.964431Z",
-  "updated": "2026-10-14T12:24:18.964431Z",
+  "created": "2026-10-14T14:17:08.807090Z",
+  "updated": "2026-10-14T14:17:08.807090Z",
   "osc:status": "ongoing",
   "osc:type": "project",
   "themes": [
@@ -94,6 +94,12 @@
         {
           "value": "info@planetek.it"
         }
+      ]
+    },
+    {
+      "name": "National Technical University of Athens",
+      "roles": [
+        "consoritum_member"
       ]
     }
   ],
