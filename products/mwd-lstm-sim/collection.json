@@ -18,7 +18,7 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/multisensor-water-discharges/collection.json",
+      "href": "../../projects/sup-fcp-multisensor-water-discharges/collection.json",
       "type": "application/json",
       "title": "Project: Multisensor Water Discharges (MWD)"
     },
@@ -48,9 +48,9 @@
     },
     {
       "rel": "related",
-      "href": "../../variables/temperature-anomalies/catalog.json",
+      "href": "../../variables/water-temperature/catalog.json",
       "type": "application/json",
-      "title": "Variable: Temperature Anomalies"
+      "title": "Variable: Water Temperature"
     },
     {
       "rel": "related",
@@ -86,10 +86,10 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "created": "2026-09-29T11:43:41.434878Z",
-  "updated": "2026-09-29T11:43:41.434878Z",
-  "osc:project": "multisensor-water-discharges",
-  "osc:status": "ongoing",
+  "created": "2026-10-14T10:48:19.294507Z",
+  "updated": "2026-10-14T10:48:19.294507Z",
+  "osc:project": "sup-fcp-multisensor-water-discharges",
+  "osc:status": "completed",
   "osc:region": "Italy",
   "osc:type": "product",
   "osc:missions": [
@@ -99,7 +99,7 @@
   ],
   "osc:variables": [
     "discharge",
-    "temperature-anomalies",
+    "water-temperature",
     "surface-water-chemistry"
   ],
   "themes": [

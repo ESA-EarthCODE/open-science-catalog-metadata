@@ -1298,6 +1298,12 @@
       "href": "./multisensor-water-discharges/collection.json",
       "type": "application/json",
       "title": "Multisensor Water Discharges (MWD)"
+    },
+    {
+      "rel": "child",
+      "href": "./sup-fcp-multisensor-water-discharges/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges (MWD)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

@@ -463,6 +463,12 @@
       "href": "../../products/mwd-lstm-sim/collection.json",
       "type": "application/json",
       "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mwd-chime-sim/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges - CHIME-simulated hyperspectral data"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
