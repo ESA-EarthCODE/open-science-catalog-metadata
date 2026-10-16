@@ -6,7 +6,7 @@
   "type": "Collection",
   "id": "pikart-atmospheric-river-catalog-v1-1",
   "stac_version": "1.0.0",
-  "description": "Global catalog of atmospheric rivers (ARs) with co-located precipitation extremes, based on the global PIKART (PIK Atmospheric River Trajectories V1.1) catalog. It is from ERA5 reanalysis (1940–2024) at 0.5° spatial resolution and 6-hourly temporal resolution. At each grid cell, we provide the binary AR mask, integrated water vapor transport (IVT), AR event duration, AR event intensity and AR rank. Additionally, we integrated ERA5 precipitation with the same spatiotemporal resolution as the PIKART catalog. Precipitation is provided through a total of four variables, i.e., total precipitation and three binary extreme precipitation event masks (with respect to the 90th, 95th and 99th percentiles as thresholds). IVT is computed by integrating the product of specific humidity and wind components from 300 hPa to 1000 hPa. Companion to Vallejo-Bernal & Braun et al. (2025), JGR Atmospheres. A comprehensive description is provided in the paper and via https://ar.pik-potsdam.de/. \n",
+  "description": "Global catalog of atmospheric rivers (ARs) with co-located precipitation extremes, based on the Eulerian version of the global PIKART (PIK Atmospheric River Trajectories) V1.1 catalog compiled from ERA5 reanalysis (1940–2024) at 0.5° spatial resolution and 6-hourly temporal resolution. At each grid cell, we provide a binary mask for AR conditions, integrated water vapor transport (IVT), and the duration, intensity, and rank of uninterrupted AR conditions according to the strength scale by Ralph et al., (2019). IVT is computed by integrating the product of specific humidity and wind components from 300 hPa to 1000 hPa. Additionally, we integrated ERA5 precipitation with the same spatiotemporal resolution as the PIKART V1.1 catalog. Precipitation is characterized by four variables, i.e., total precipitation and three binary extreme precipitation event masks. Extreme precipitation thresholds were computed for each individual grid cell as the 90th, 95th and 99th percentiles of 6-hourly total precipitation derived from wet days (≥ 1 mm) over the full 1940–2024 record; cells with fewer than 84 wet time steps have no threshold and are never flagged. The datacube is a companion to Vallejo-Bernal & Braun et al. (2025), JGR Atmospheres (doi: 10.1029/2024JD041869). A comprehensive description is provided in the publication and via https://ar.pik-potsdam.de/.",
   "links": [
     {
       "rel": "root",
@@ -18,6 +18,11 @@
       "rel": "via",
       "href": "https://ar.pik-potsdam.de",
       "title": "Documentation"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://viewer.earthsystemdatalab.net/?dataset=pikart-atmospheric-river",
+      "title": "Interactive Data Visualisation"
     },
     {
       "rel": "parent",
