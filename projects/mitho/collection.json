@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "mitho",
   "stac_version": "1.0.0",
-  "description": "MiTHo aims at developing innovative EO-based multistressor cumulative hazard indexes, by exploiting the latest EO-based products achieved within the ESA Ocean Science cluster projects. Combining multi-mission independent EO-based datasets, for the detection of extreme events in warming, ocean pH, winds and river inputs, and O2 data.",
+  "description": "MiTHo aims at developing innovative EO-based multistressor cumulative hazard indexes, by exploiting the latest EO-based products achieved within the ESA Ocean Science cluster projects. It combines multi-mission independent EO-based datasets, for the detection of extreme events in sea surface temperature, surface ocean pH, winds and river inputs, and O2 data.",
   "links": [
     {
       "rel": "root",
