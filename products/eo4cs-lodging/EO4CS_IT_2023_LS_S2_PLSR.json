@@ -49,13 +49,13 @@
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+      "title": "Crop Lodging Stress (LS) predictions in Wheat, Italy (EnMAP & Sentinel-2; multiple models)"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+      "title": "Crop Lodging Stress (LS) predictions in Wheat, Italy (EnMAP & Sentinel-2; multiple models)"
     }
   ],
   "assets": {
@@ -133,6 +133,6 @@
       ]
     }
   },
-  "collection": "eo4cs-soil-properties",
+  "collection": "eo4cs-lodging",
   "title": "EO4CS_IT_2023_LS_S2_PLSR cloud-optimized GeoTIFF"
 }

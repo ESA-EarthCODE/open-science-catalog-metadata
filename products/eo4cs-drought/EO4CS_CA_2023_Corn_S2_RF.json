@@ -49,13 +49,13 @@
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+      "title": "Agriculture Drought Stress in Maize - Austria & Canada"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "EO4CerealStress Pilot Products - Spain, Italy, Austria and Canada"
+      "title": "Agriculture Drought Stress in Maize - Austria & Canada"
     }
   ],
   "assets": {
