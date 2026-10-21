@@ -1,0 +1,5 @@
+$comment: >-
+  This experiment has no configurable input parameters.
+  The notebook builds the datacube from the PIKART V1.1 (Eulerian) atmospheric river catalog
+  and ERA5 6-hourly total precipitation (1940-2024, 0.5°) with fixed settings.
+parameters: []
