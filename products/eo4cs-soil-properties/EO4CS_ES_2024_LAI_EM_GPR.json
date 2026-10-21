@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "EO4CS_ES_2024_CNC_EM_RF",
+  "id": "EO4CS_ES_2024_LAI_EM_GPR",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -57,28 +57,29 @@
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_CNC_EM_RF.tif",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4cerealstress/EO4CS_ES_2024_LAI_EM_GPR.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "EO4CS_ES_2024_CNC_EM_RF cloud-optimized GeoTIFF",
+      "title": "EO4CS_ES_2024_LAI_EM_GPR cloud-optimized GeoTIFF",
       "datetime": "2024-01-01T00:00:00Z",
       "proj:epsg": 32629,
       "platform": "EnMAP",
       "instrument": "hsi",
-      "product_type": "CNC",
-      "ml_method": "RF",
+      "product_type": "LAI",
+      "ml_method": "GPR",
       "processing:lineage": "Converted to COG with internal overviews from source GeoTIFF",
       "processing:software": "GDAL COG driver",
       "processing:created": "2026-03-09T19:31:00Z",
       "eo4cs:platform_code": "EM",
       "eo4cs:country_code": "ES",
-      "eo4cs:inferred_description": "Canopy nitrogen content",
+      "eo4cs:inferred_description": "Leaf area index",
+      "eo4cs:inferred_units": "m2 m-2",
       "raster:bands": [
         {
-          "name": "cnc",
+          "name": "lai",
           "data_type": "float32",
           "nodata": 3.0,
           "spatial_resolution": 30.0,
-          "unit": null
+          "unit": "m2 m-2"
         }
       ],
       "proj:shape": [
@@ -111,5 +112,5 @@
       ]
     }
   },
-  "collection": "e4cs-pilot"
+  "collection": "eo4cs-soil-properties"
 }

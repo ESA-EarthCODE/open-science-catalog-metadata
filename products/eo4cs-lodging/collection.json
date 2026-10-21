@@ -1,0 +1,221 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/x49r-7782"}
+  ],
+  "sci:doi": "10.83395/h11s-1w80",
+  "type": "Collection",
+  "id": "eo4cs-lodging",
+  "stac_version": "1.0.0",
+  "description": "Analysis-ready products: Lodging Score (LS) maps, lodging severity classes, vegetation-index-based lodging indicators, Random Forest lodging products, and RTM-derived physiological parameter maps provided for 2023 in Bonifiche Ferraresi farm, Italy.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4cerealstress/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4CerealStress: Crop Response to Multiple Stressors"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/enmap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: EnMAP (Environmental Monitoring and Analysis Program)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/droughts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Droughts"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/eo4cs-lodging/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_GBR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_GBR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_MLP.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_MLP cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_MLR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_MLR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_RFR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_RFR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_EnMAP_SVR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_EnMAP_SVR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_GBR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_GBR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_GPR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_GPR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_MLP.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_MLP cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_MLR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_MLR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_PLSR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_PLSR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_RFR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_RFR cloud-optimized GeoTIFF"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4CS_IT_2023_LS_S2_SVR.json",
+      "type": "application/json",
+      "title": "EO4CS_IT_2023_LS_S2_SVR cloud-optimized GeoTIFF"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-10-02T14:34:36.103377Z",
+  "updated": "2026-10-02T14:34:36.103377Z",
+  "osc:project": "eo4cerealstress",
+  "osc:status": "completed",
+  "osc:region": "Italy",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2",
+    "enmap"
+  ],
+  "osc:variables": [
+    "droughts"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "drought_stress"
+    }
+  ],
+  "title": "Crop Lodging Stress (LS) predictions in Wheat, Italy (EnMAP & Sentinel-2; multiple models)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.906997139987753,
+          44.83830214763271,
+          12.006919009907524,
+          44.8888351324267
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-2.0",
+  "keywords": [
+    "machine learning",
+    "regression"
+  ],
+  "providers": [
+    {
+      "name": "Prof. Roshanak Darvishzadeh",
+      "description": "Pilot site Manager (ITC-UTwente)",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0001-7512-0574"
+    },
+    {
+      "name": "Dr Furkan Celik",
+      "description": "Contact person for the dataset (ITC-UTwente)",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0001-7948-536X"
+    }
+  ]
+
+}
