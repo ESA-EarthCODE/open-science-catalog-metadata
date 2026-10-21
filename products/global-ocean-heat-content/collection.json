@@ -1,4 +1,11 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/1b9j-0j41"}
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "sci:doi": "10.83395/arnz-je82",
   "id": "global-ocean-heat-content",
   "title": "Global Ocean Heat Content",
   "created": "2026-10-21T08:26:21Z",
