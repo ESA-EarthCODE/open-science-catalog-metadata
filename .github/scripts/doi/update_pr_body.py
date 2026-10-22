@@ -70,9 +70,11 @@ def main():
 
     version_files = []
     auto_v1_files = []
+    deleted_files = []
 
     for f in changed_files:
         if not os.path.exists(f):
+            deleted_files.append(f)
             continue
         has_base_doi = False
         if base_ref:
@@ -112,6 +114,12 @@ def main():
         checklist_lines.append("")
         checklist_lines.append("ℹ️ **New Datasets/Workflows (Initial v1 DOI automatically assigned):**")
         for f in auto_v1_files:
+            checklist_lines.append(f"- `{f}`")
+
+    if deleted_files:
+        checklist_lines.append("")
+        checklist_lines.append("🗑️ **Deleted Datasets/Workflows (DOIs will be cleaned up/tombstoned upon merge):**")
+        for f in deleted_files:
             checklist_lines.append(f"- `{f}`")
 
     checklist_lines.append("<!-- DOI_CHECKLIST_END -->")
