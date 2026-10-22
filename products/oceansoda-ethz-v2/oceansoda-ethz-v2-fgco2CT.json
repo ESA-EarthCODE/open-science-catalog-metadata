@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "ocean-soda-ethz-kw",
+  "id": "oceansoda-ethz-v2-fgco2CT",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -39,35 +39,35 @@
   "properties": {
     "license": "CC-BY-NC-SA-4.0",
     "description": "",
-    "start_datetime": "1982-01-05T00:00:00Z",
-    "end_datetime": "2022-10-20T00:00:00Z",
-    "datetime": "1982-01-05T00:00:00Z"
+    "start_datetime": "2000-01-04T00:00:00Z",
+    "end_datetime": "2019-12-30T00:00:00Z",
+    "datetime": "2000-01-04T00:00:00Z"
   },
   "links": [
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+      "title": "OceanSODA-ETHZv2"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/kw.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/fgco2CT.zarr/",
       "type": "application/vnd+zarr",
-      "title": "KW Zarr",
-      "created": "2026-09-03T13:13:59.142280Z",
+      "title": "FGCO2CT Zarr",
+      "created": "2026-09-25T16:51:52.756615Z",
       "cube:dimensions": {
         "time": {
           "extent": [
-            "1982-01-05T00:00:00Z",
-            "2022-10-20T00:00:00Z"
+            "2000-01-04T00:00:00Z",
+            "2019-12-30T00:00:00Z"
           ],
           "type": "temporal"
         },
@@ -78,7 +78,7 @@
             179.875
           ],
           "step": 0.25,
-          "description": "Longitude",
+          "description": "longitude",
           "reference_system": "epsg:4326",
           "type": "spatial"
         },
@@ -95,29 +95,19 @@
         }
       },
       "cube:variables": {
-        "kw": {
+        "fgco2": {
           "type": "data",
-          "description": "the gas transfer velocity is calculated with kw = a * U^2 * (660 / Sc)^0.5, where U^2 = second moment of the wind speed ERA5 at native resolution, temperature = ESA-CCI v2.0, a = coefficient_of_gas_transfer = 0.271 (Fay et a. 2021), Sc = schmidt_number",
           "dimensions": [
             "time",
             "lat",
             "lon"
           ],
-          "unit": "cm hr-1",
+          "unit": "mmol m-2 day-1",
           "attrs": {
-            "long_name": "Gas transfer velocity of CO$_2$",
-            "standard_name": "gas_transfer_velocity",
-            "units": "cm hr-1",
-            "description": "the gas transfer velocity is calculated with kw = a * U^2 * (660 / Sc)^0.5, where U^2 = second moment of the wind speed ERA5 at native resolution, temperature = ESA-CCI v2.0, a = coefficient_of_gas_transfer = 0.271 (Fay et a. 2021), Sc = schmidt_number",
-            "valid_min": 0,
-            "valid_max": 200,
-            "plot_units": "cm hr$^{-1}$",
-            "plot_vmin": 0,
-            "plot_vmax": 30,
-            "plot_cmap": "viridis"
+            "units": "mmol m-2 day-1"
           },
           "shape": [
-            1877,
+            920,
             720,
             1440
           ],
@@ -133,6 +123,6 @@
       ]
     }
   },
-  "collection": "ocean-soda-ethz",
-  "title": "KW Zarr"
+  "collection": "oceansoda-ethz-v2",
+  "title": "FGCO2CT Zarr"
 }
