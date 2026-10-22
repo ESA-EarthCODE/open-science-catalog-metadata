@@ -72,6 +72,8 @@ def main():
     auto_v1_files = []
 
     for f in changed_files:
+        if not os.path.exists(f):
+            continue
         has_base_doi = False
         if base_ref:
             try:
