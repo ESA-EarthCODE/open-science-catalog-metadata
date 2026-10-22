@@ -73,49 +73,49 @@
     {
       "name": "OceanDataLab (FR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "IFREMER (FR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "DATLAS (FR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "CLS (FR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "NERSC (NOR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "CNR (IT)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "GEOMAR (GER)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "FMI (FIN)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     }
   ],
