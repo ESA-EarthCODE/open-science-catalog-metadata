@@ -45,7 +45,7 @@
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
   "created": "2026-08-13T10:15:52.788574Z",
-  "updated": "2026-08-13T10:15:52.788574Z",
+  "updated": "2026-10-22T10:15:52.788574Z",
   "osc:status": "completed",
   "osc:type": "project",
   "themes": [
@@ -73,49 +73,49 @@
     {
       "name": "CNR-INSTITUTE OF MARINE SCIENCES-ISMAR (IT)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "+ATLANTIC – Associação para um Laboratório Colaborativo do Atlântico (PT)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "CLS COLLECTE LOCALISATION SATELLITES (FR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "INNUERE CONSULTING (IT)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "Mercator Ocean International (FR)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "Plymouth Marine Laboratory (GB)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "Technical University of Denmark (DK)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     },
     {
       "name": "UNIVERSITY OF LIEGE (BE)",
       "roles": [
-        "consoritum_member"
+        "consortium_member"
       ]
     }
   ],
@@ -134,8 +134,8 @@
     "temporal": {
       "interval": [
         [
-          "1993-01-01T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          "2023-10-01T00:00:00Z",
+          "2025-10-31T00:00:00Z"
         ]
       ]
     }
