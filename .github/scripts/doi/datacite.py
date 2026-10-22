@@ -90,6 +90,139 @@ class DataCiteClient:
         """Transitions a DOI from Draft to Findable state."""
         self.update_doi(doi, {"event": "publish", "url": target_url})
 
+def map_license_to_datacite_rights(license_str: Optional[str], links: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Maps STAC license strings and license links to standard DataCite rightsList objects."""
+    # Find any link with rel="license"
+    license_link = None
+    for link in links:
+        if link.get("rel") == "license" and link.get("href"):
+            license_link = link
+            break
+
+    # Standardize lookup for the license string
+    lic_key = license_str.strip().upper() if license_str else ""
+    
+    # Official SPDX definitions
+    spdx_mapping = {
+        "CC-BY-4.0": {
+            "rights": "Creative Commons Attribution 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "rightsIdentifier": "cc-by-4.0"
+        },
+        "CC-BY-SA-4.0": {
+            "rights": "Creative Commons Attribution-ShareAlike 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+            "rightsIdentifier": "cc-by-sa-4.0"
+        },
+        "CC-BY-NC-4.0": {
+            "rights": "Creative Commons Attribution-NonCommercial 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+            "rightsIdentifier": "cc-by-nc-4.0"
+        },
+        "CC-BY-NC-SA-4.0": {
+            "rights": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+            "rightsIdentifier": "cc-by-nc-sa-4.0"
+        },
+        "CC0-1.0": {
+            "rights": "Creative Commons Zero v1.0 Universal",
+            "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "rightsIdentifier": "cc0-1.0"
+        },
+        "MIT": {
+            "rights": "MIT License",
+            "rightsUri": "https://opensource.org/licenses/MIT",
+            "rightsIdentifier": "mit"
+        },
+        "APACHE-2.0": {
+            "rights": "Apache License 2.0",
+            "rightsUri": "https://www.apache.org/licenses/LICENSE-2.0",
+            "rightsIdentifier": "apache-2.0"
+        },
+        "LGPL-3.0-ONLY": {
+            "rights": "GNU Lesser General Public License v3.0 only",
+            "rightsUri": "https://www.gnu.org/licenses/lgpl-3.0.html",
+            "rightsIdentifier": "lgpl-3.0-only"
+        },
+        "OGL-UK-3.0": {
+            "rights": "Open Government Licence v3.0",
+            "rightsUri": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "rightsIdentifier": "ogl-uk-3.0"
+        },
+        "PROPRIETARY": {
+            "rights": "Proprietary",
+            "rightsUri": None,
+            "rightsIdentifier": "proprietary"
+        },
+        "VARIOUS": {
+            "rights": "Various",
+            "rightsUri": None,
+            "rightsIdentifier": "various"
+        }
+    }
+    
+    # 1. If we have a license link, try to map or use it directly
+    if license_link:
+        href = license_link.get("href")
+        title = license_link.get("title")
+        
+        # Check if the href points to one of our standard SPDX licenses
+        mapped = None
+        for spdx_info in spdx_mapping.values():
+            if spdx_info.get("rightsUri") and spdx_info["rightsUri"] in href:
+                mapped = spdx_info
+                break
+                
+        if mapped:
+            return [{
+                "rights": mapped["rights"],
+                "rightsUri": mapped["rightsUri"],
+                "rightsIdentifier": mapped["rightsIdentifier"],
+                "rightsIdentifierScheme": "SPDX",
+                "schemeUri": "https://spdx.org/licenses/"
+            }]
+        else:
+            # Custom/proprietary license with direct link (e.g. Aviso License)
+            rights_name = title or license_str or "License"
+            rights_id = license_str.lower() if license_str else "proprietary"
+            return [{
+                "rights": rights_name,
+                "rightsUri": href,
+                "rightsIdentifier": rights_id,
+                "rightsIdentifierScheme": "SPDX",
+                "schemeUri": "https://spdx.org/licenses/"
+            }]
+
+    # 2. No link found, map purely by license_str
+    if not license_str:
+        return []
+
+    mapped = spdx_mapping.get(lic_key)
+    if not mapped:
+        # Fallback to loose matching (without dashes, dots, or underscores)
+        clean_key = lic_key.replace("-", "").replace(".", "").replace("_", "")
+        clean_mapping = {k.replace("-", "").replace(".", "").replace("_", ""): v for k, v in spdx_mapping.items()}
+        mapped = clean_mapping.get(clean_key)
+        
+    if mapped:
+        rights_item = {
+            "rights": mapped["rights"],
+            "rightsIdentifier": mapped["rightsIdentifier"],
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/"
+        }
+        if mapped["rightsUri"]:
+            rights_item["rightsUri"] = mapped["rightsUri"]
+        return [rights_item]
+    else:
+        # Fallback for custom or unlisted licenses
+        return [{
+            "rights": license_str,
+            "rightsIdentifier": license_str.lower(),
+            "rightsIdentifierScheme": "SPDX",
+            "schemeUri": "https://spdx.org/licenses/"
+        }]
+
 def map_stac_to_datacite(stac_item: Dict[str, Any], portal_ui_base_url: str, extra_related_identifiers: Optional[List[Dict[str, Any]]] = None) -> Dict[str, Any]:
     """Maps STAC or OGC Record metadata to DataCite attributes including recommended properties."""
     # OGC Records (often used for workflows) nest attributes in 'properties'
@@ -102,6 +235,7 @@ def map_stac_to_datacite(stac_item: Dict[str, Any], portal_ui_base_url: str, ext
     created_at = properties.get("created", stac_item.get("created"))
     updated_at = properties.get("updated", stac_item.get("updated"))
     publication_year = created_at[:4] if created_at else "2026"
+    license_str = properties.get("license", stac_item.get("license"))
     
     # Extract creators/publishers/contributors from providers
     providers = properties.get("providers", stac_item.get("providers", []))
@@ -220,6 +354,7 @@ def map_stac_to_datacite(stac_item: Dict[str, Any], portal_ui_base_url: str, ext
         },
         "descriptions": [{"description": description, "descriptionType": "Abstract"}],
         "geoLocations": geolocations,
+        "rightsList": map_license_to_datacite_rights(license_str, links),
         "relatedIdentifiers": related_identifiers,
         "url": f"{portal_ui_base_url}/{path_segment}/{stac_id}{suffix}"
     }
