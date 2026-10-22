@@ -2021,9 +2021,21 @@
     },
     {
       "rel": "child",
-      "href": "./e4cs-pilot/collection.json",
+      "href": "./eo4cs-soil-properties/collection.json",
       "type": "application/json",
       "title": "Eo4CerealStress - Andalusia Rice Fields"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4cs-drought/collection.json",
+      "type": "application/json",
+      "title": "Agriculture Drought Stress in Maize - Austria & Canada"
+    },
+    {
+      "rel": "child",
+      "href": "./eo4cs-lodging/collection.json",
+      "type": "application/json",
+      "title": "Crop Lodging Stress (LS) predictions in Wheat, Italy (EnMAP & Sentinel-2; multiple models)"
     },
     {
       "rel": "child",
@@ -2156,6 +2168,24 @@
       "href": "./careheat-database/collection.json",
       "type": "application/json",
       "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "child",
+      "href": "./s1-coherence-intensity-v1-3-2-9ww49/collection.json",
+      "type": "application/json",
+      "title": "Coherence and Intensity Composite"
+    },
+    {
+      "rel": "child",
+      "href": "./pikart-atmospheric-river-catalog-v1-1/collection.json",
+      "type": "application/json",
+      "title": "pikart-atmospheric-river-catalog-v1-1"
+    },
+    {
+       "rel": "child",
+      "href": "./coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
