@@ -37,7 +37,7 @@
     90.0
   ],
   "properties": {
-    "license": "unknown",
+    "license": "CC-BY-NC-SA-4.0",
     "description": "OceanSODA release v2.2026_GCB. Global sea-air CO2 flux and supporting variables. Datacube metadata describes native group 0 at 0.25 degrees; groups 1 and 2 provide 0.5- and 1-degree overviews. Open the root store with group=\"0\" for native data. Source citation: Gregor, L., Shutler, J.& Gruber, N. (2024). OceanSODA-ETHZ-v2: Surface ocean sea-air CO2 fluxes from 1982 to 202X (8-day by 0.25\u00b0 x 0.25\u00b0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.11206365",
     "start_datetime": "1982-01-05T00:00:00Z",
     "end_datetime": "2025-12-29T00:00:00Z",

@@ -181,12 +181,36 @@
       ]
     }
   },
-  "license": "CC-BY-4.0",
+  "license": "CC-BY-NC-SA-4.0",
   "keywords": [
     "ocean carbon sink",
     "air-sea CO2 flux",
     "surface ocean fCO2",
     "machine learning",
     "ocean acidification"
+  ],
+  "providers": [
+    {
+      "name": "Luke Gregor",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0001-6071-1857"
+    },
+    {
+      "name": "Jamie Shutler",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0002-8018-123X"
+    },
+    {
+      "name": "Gruber, Nicolas",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0002-2085-2310"
+    }
   ]
+
 }
