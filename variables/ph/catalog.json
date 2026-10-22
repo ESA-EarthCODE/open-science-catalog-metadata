@@ -44,6 +44,12 @@
       "href": "../../products/oceansoda-ethz-v2/collection.json",
       "type": "application/json",
       "title": "OceanSODA-ETHZv2"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
     }
   ],
   "stac_extensions": [
