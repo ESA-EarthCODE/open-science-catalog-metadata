@@ -1,8 +1,4 @@
 {
-  "sci:publications": [
-    {"doi": "10.83395/7nzf-gd50"}
-  ],
-  "sci:doi": "10.83395/8myy-rx72",
   "type": "Collection",
   "id": "oceansoda-ethz-v2",
   "stac_version": "1.0.0",
@@ -120,6 +116,12 @@
       "href": "./oceansoda-ethz-v2-temperature.json",
       "type": "application/json",
       "title": "TEMPERATURE Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./OceanSODA_ETHZv2.r2026.GCB-fgco2-1982_2025-pyramid.json",
+      "type": "application/json",
+      "title": "OceanSODA GeoZarr v3 pyramid"
     }
   ],
   "stac_extensions": [
@@ -127,6 +129,12 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
+  "sci:publications": [
+    {
+      "doi": "10.83395/7nzf-gd50"
+    }
+  ],
+  "sci:doi": "10.83395/8myy-rx72",
   "created": "2026-09-25T16:51:44.979579Z",
   "updated": "2026-09-25T16:51:44.979579Z",
   "osc:project": "ocean-health-acidification",
