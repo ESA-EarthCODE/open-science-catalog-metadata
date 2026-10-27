@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/bdv7-cp06"}
+  ],
+  "sci:doi": "10.83395/t47n-ef37",
   "type": "Collection",
   "id": "eutrophication-monitoring-suspended-particulate-matter",
   "stac_version": "1.0.0",

@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/15hy-5e12"}
+  ],
+  "sci:doi": "10.83395/8y48-5b50",
   "type": "Collection",
   "id": "eutrophication-monitoring-water-transparency",
   "stac_version": "1.0.0",

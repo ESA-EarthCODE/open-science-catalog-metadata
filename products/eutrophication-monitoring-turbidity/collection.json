@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/syyq-8v51"}
+  ],
+  "sci:doi": "10.83395/hg2s-j062",
   "type": "Collection",
   "id": "eutrophication-monitoring-turbidity",
   "stac_version": "1.0.0",

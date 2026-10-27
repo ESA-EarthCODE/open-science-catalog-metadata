@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/n62n-zm91"}
+  ],
+  "sci:doi": "10.83395/dsjj-1402",
   "type": "Collection",
   "id": "eutrophication-monitoring-chlorophyll-a",
   "stac_version": "1.0.0",
