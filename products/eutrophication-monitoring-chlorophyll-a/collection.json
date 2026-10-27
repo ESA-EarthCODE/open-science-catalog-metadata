@@ -48,6 +48,12 @@
       "rel": "via",
       "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/eu-mon-chl",
       "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/eu-mon-chl",
+      "type": "application/json",
+      "title": "Eu-Mon Chlorophyll Products"
     }
   ],
   "stac_extensions": [
