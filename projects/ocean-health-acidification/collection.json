@@ -1,0 +1,151 @@
+{
+  "type": "Collection",
+  "id": "ocean-health-acidification",
+  "stac_version": "1.0.0",
+  "description": "Improving our ability to monitor ocean carbonate chemistry has become a priority as the ocean continues to absorb carbon dioxide from the atmosphere. \nThis long-term uptake is reducing the ocean pH and bicarbonate ions; a process commonly known as ocean acidification. The use of satellite Earth observation for observing the surface water carbonate system has been identified (Land et al., 2015), its critical contribution highlighted (Fine et al., 2016; Shutler et al., 2020; Green et al., 2021) and its performance evaluated (Land et al., 2019; Gregor and Gruber, 2021). Thanks to these efforts it is now possible to use satellite observations to characterise vertical water movement and its links to surface water carbonate conditions (Quilfen et al., 2021) and to determine global-scale observation-based data for the complete carbonate system (Gregor and Gruber, 2021).  \n\nSatellite observations are critical for addressing key priorities for ocean carbon research and monitoring, but their full potential remains untapped (Shutler et al., 2020; Green et al. 2021), and the important link between these new satellite observation-based approaches and potential end users is currently weak. \n\nThe European Space Agency funded Ocean Health-OA project will further develop the role that satellite observations play in expanding ocean acidification research and monitoring, and will demonstrate its use in partnership with four international non-scientific early-adopter groups.\n\nReferences\nFine, R. A., Willey, D.A., Millero, F.J. Global variability and changes in ocean total alkalinity from Aquarius satellite data,Geophys. Res. Lett., 44, pp. 261-267, 10.1002/2016GL071712, (2017).\n\nGreen HL, Findlay HS, Shutler JD, Land PE and Bellerby RGJ  Satellite Observations Are Needed to Understand Ocean Acidification and Multi-Stressor Impacts on Fish Stocks in a Changing Arctic Ocean. Front. Mar. Sci. 8:635797. doi: 10.3389/fmars.2021.635797, (2021).\n\nGregor, L., Gruber, N. OceanSODA-ETHZ, a global gridded data set of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification, Earth Syst. Sci. Data, 13, 777–808, doi:10.5194/essd-13-777-2021, (2021).\n\nLand P.E., Findlay H., Shutler J., Ashton I., Holding T., Grouazel A., GIrard-Ardhuin F., Reul N,. Piolle J.-F., Chapron B., et al., Optimum satellite remote sensing of the marine carbonate system using empirical algorithms in the Global Ocean, the Greater Caribbean, the Amazon Plume and the Bay of Bengal. Rem. Sens. Env., (2019).\n\nQuilfen Y., Shutler J., Piolle J.-F, Autret E., Recent trends in the wind-driven California current upwelling system. Rem. Sens. Env., 261, 112486-112486 (2021).\n\nShutler J.D., Wanninkhof R., Nightingale P.D., Woolf D.K., Bakker D.C.E., Watson A., Ashton I., Holding T., Chapron B., Quilfen Y., et al., Satellites will address critical science priorities for quantifying ocean carbon. Fron. in Ecol. Env., 18(1), 27-35, (2019).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://oceanhealth-acidification.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/ocean-health-ocean-acidification/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oceansoda-ethz-v2/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-09-25T16:51:43.481170Z",
+  "updated": "2026-09-25T16:51:43.481170Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Roberto Sabia",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "roberto.sabia@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "University of Exeter",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "J.D.Shutler@exeter.ac.uk"
+        }
+      ]
+    },
+    {
+      "name": "Eidgenossische Technische Hochschule Zurich (ETH Zurich)",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "nicolas.gruber@env.ethz.ch"
+        }
+      ]
+    },
+    {
+      "name": "IFREMER",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "Jean.Francois.Piolle@ifremer.fr"
+        }
+      ]
+    },
+    {
+      "name": "NERC, Plymouth Marine Laboratory",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "hefi@pml.ac.uk"
+        }
+      ]
+    },
+    {
+      "name": "Ocean Data Lab",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "lucile.gaultier@oceandatalab.com"
+        }
+      ]
+    }
+  ],
+  "title": "ESA Ocean Health Ocean Acidification",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2026-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

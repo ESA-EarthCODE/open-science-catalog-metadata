@@ -12,9 +12,6 @@ def main():
     event_path = os.environ.get("GITHUB_EVENT_PATH")
     changed_files_env = os.environ.get("CHANGED_FILES", "")
     changed_files = [f for f in changed_files_env.strip().split() if f]
-    
-    if not changed_files:
-        return
 
     if not event_path or not os.path.exists(event_path):
         print("GITHUB_EVENT_PATH not found.")
@@ -35,6 +32,31 @@ def main():
         print("No GITHUB_TOKEN available, skipping PR body update.")
         return
 
+    if not changed_files:
+        if "<!-- DOI_CHECKLIST_START -->" in pr_body and "<!-- DOI_CHECKLIST_END -->" in pr_body:
+            print("No relevant files modified, removing outdated checklist block from PR body.")
+            new_body = re.sub(
+                r"<!-- DOI_CHECKLIST_START -->.*<!-- DOI_CHECKLIST_END -->",
+                "",
+                pr_body,
+                flags=re.DOTALL
+            ).strip()
+            
+            if new_body != pr_body:
+                req = urllib.request.Request(pr_url, method="PATCH", data=json.dumps({"body": new_body}).encode("utf-8"), headers={
+                    "Authorization": f"Bearer {token}",
+                    "Accept": "application/vnd.github.v3+json",
+                    "Content-Type": "application/json"
+                })
+                try:
+                    with urllib.request.urlopen(req) as response:
+                        print("Successfully removed outdated checklist from PR body.")
+                except urllib.error.HTTPError as e:
+                    print(f"Failed to update PR body: {e.read().decode('utf-8')}")
+        else:
+            print("No relevant files modified and no checklist found. Nothing to do.")
+        return
+
     # Parse existing checkboxes to preserve state
     existing_states = {}
     for match in re.finditer(r"-\s*\[([ xX])\]\s*Request new DOI version for `([^`]+)`", pr_body):
@@ -48,8 +70,12 @@ def main():
 
     version_files = []
     auto_v1_files = []
+    deleted_files = []
 
     for f in changed_files:
+        if not os.path.exists(f):
+            deleted_files.append(f)
+            continue
         has_base_doi = False
         if base_ref:
             try:
@@ -88,6 +114,12 @@ def main():
         checklist_lines.append("")
         checklist_lines.append("ℹ️ **New Datasets/Workflows (Initial v1 DOI automatically assigned):**")
         for f in auto_v1_files:
+            checklist_lines.append(f"- `{f}`")
+
+    if deleted_files:
+        checklist_lines.append("")
+        checklist_lines.append("🗑️ **Deleted Datasets/Workflows (DOIs will be cleaned up/tombstoned upon merge):**")
+        for f in deleted_files:
             checklist_lines.append(f"- `{f}`")
 
     checklist_lines.append("<!-- DOI_CHECKLIST_END -->")

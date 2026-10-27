@@ -1,0 +1,144 @@
+{
+  "type": "Collection",
+  "id": "upperdyn",
+  "stac_version": "1.0.0",
+  "description": "The ESA Ocean Science Cluster Research Opportunity: \"Upper Ocean Dynamics\" project will deliver new capabilities for assessing variability and uncertainty in upper ocean dynamics. It will provide scientist a better characterisation of the Mixed Layer Depth (MLD) and upper ocean currents spatio-temporal variability. It will provide decision makers a means of quantifying the effects of local patterns of sea level rise, heat uptake, carbon storage and change of oxygen content and pH in the ocean. Its multimodal monitoring will enhance the scientific understanding of these complex questions but also to refine more direct applications, marine debris transport, tracking of oil spills and accumulation of plastic in the sea. The approach will account for transport on scales that are currently not always well represented in computer simulations, yet are observable by satellites, drifters and floats and expected to significantly contribute to the ESA Digital Twin Components for the Ocean. Upper ocean dynamics is influenced by many external factors. This includes variable atmospheric fluxes, rain, snow, sea ice, river runoff, surface and internal waves, Langmuir circulation, Ekman currents, eddies, mesoscale dynamics, mixing and biological processes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://upperdyn.odl.bzh/project",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/upperdyn/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/morlenn_mld/collection.json",
+      "type": "application/json",
+      "title": "Morlenn Mixed Layer Properties"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-10-22T12:00:01.276346Z",
+  "updated": "2026-10-22T12:00:01.276346Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Marie-Helene Rio",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "marie-helene.rio@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "OceanDataLab (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "IFREMER (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "DATLAS (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "CLS (FR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "NERSC (NOR)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "CNR (IT)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "GEOMAR (GER)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "FMI (FIN)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "title": "Upper Ocean Dynamics (UpperDyn)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-01T00:00:00Z",
+          "2027-10-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various"
+}

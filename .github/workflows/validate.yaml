@@ -22,7 +22,7 @@ jobs:
         run: git config --global core.longpaths true
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.1.x'
+          node-version: '22.x'
       - name: Checkout
         uses: actions/checkout@v4
         with:

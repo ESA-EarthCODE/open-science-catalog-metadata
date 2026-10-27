@@ -1271,6 +1271,12 @@
     },
     {
       "rel": "child",
+      "href": "./mitho/collection.json",
+      "type": "application/json",
+      "title": "MITHO (Multiple Threats on Ocean Health)"
+    },
+    {
+      "rel": "child",
       "href": "./eowetmet/collection.json",
       "type": "application/json",
       "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
@@ -1283,15 +1289,27 @@
     },
     {
       "rel": "child",
+      "href": "./ocean-health-acidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Ocean Health Ocean Acidification"
+    },
+    {
+      "rel": "child",
       "href": "./arnetlab/collection.json",
       "type": "application/json",
       "title": "Earth Surface Impacts of Hydrological Extremes along Global Atmospheric River Networks (ARNETLAB)"
     },
-      {
-      "rel" : "child",
+    {
+      "rel": "child",
       "href": "./coastdyn/collection.json",
       "type": "application/json",
       "title": "COASTDYN"
+    },
+    {
+      "rel": "child",
+      "href": "./upperdyn/collection.json",
+      "type": "application/json",
+      "title": "Upper Ocean Dynamics (UpperDyn)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
