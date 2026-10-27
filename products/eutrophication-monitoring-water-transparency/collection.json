@@ -48,6 +48,12 @@
       "rel": "via",
       "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/eu-mon-wt",
       "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/eu-mon-wt",
+      "type": "application/json",
+      "title": "Eu-Mon Water Transparency Products"
     }
   ],
   "stac_extensions": [
