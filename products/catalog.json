@@ -2158,10 +2158,34 @@
       "title": "pikart-atmospheric-river-catalog-v1-1"
     },
     {
-       "rel": "child",
+      "rel": "child",
       "href": "./coastdyn-adt-rep-2d-dataset/collection.json",
       "type": "application/json",
       "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-turbidity/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Turbidity"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-water-transparency/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Water Transparency"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-suspended-particulate-matter/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Suspended Particulate Matter"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-chlorophyll-a/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Chlorophyll-a"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

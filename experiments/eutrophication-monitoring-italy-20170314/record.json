@@ -1,20 +1,19 @@
 {
-  "id": "eutrophication-monitoring-italy-20170314",
+  "id": "eutrophication-monitoring-tanzania",
   "type": "Feature",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "geometry": null,
   "properties": {
-    "created": "2026-09-10T12:32:17Z",
-    "updated": "2026-09-10T12:32:17Z",
+    "created": "2026-10-27T12:13:42Z",
+    "updated": "2026-10-27T12:13:42Z",
     "type": "experiment",
-    "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Italy, 2017-03-14)",
-    "description": "Execution of the Eumon processor on a Sentinel-3 OLCI product over Italy, producing coastal water-quality indicators (chlorophyll-a, turbidity, suspended particulate matter, water type) for eutrophication monitoring, and downlading the results locally.",
+    "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Tanzania)",
+    "description": "Execution of the Eumon processor on a Sentinel-3 OLCI product over Tanzania, producing coastal water-quality indicators (chlorophyll-a, turbidity, suspended particulate matter, water transparency) for eutrophication monitoring. This Jupyter Notebook downloads the results from Insula object storage to the local workspace of the user. The associated linked products have been uploaded to the ESA Projects Results Repository (PRR) by following their guide https://eoresults.esa.int/data_provider_guide.html",
     "keywords": [
       "SDG",
       "eutrophication",
-      "chlorophyll-a"
     ],
     "contacts": [
       {
@@ -46,8 +45,8 @@
     ],
     "license": "CC-BY-NC-4.0",
     "osc:workflow": "eutrophication-monitoring",
-    "start_datetime": "2017-03-14T00:00:00Z",
-    "end_datetime": "2017-03-14T23:59:59Z",
+    "start_datetime": "2018-02-11T00:00:00Z",
+    "end_datetime": "2018-02-11T23:59:59Z",
     "application:type": "jupyter-notebook",
     "application:language": [
       "Python"
@@ -106,6 +105,30 @@
         "jupyter-notebook"
       ],
       "application:preferred_app": "Insula Experiment"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-chlorophyll-a/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Chlorophyll-a"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-suspended-particulate-matter/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Suspended Particulate Matter"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-turbidity/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Turbidity"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-water-transparency/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Water Transparency"
     }
   ]
 }
