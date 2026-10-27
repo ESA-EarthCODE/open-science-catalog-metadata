@@ -13,7 +13,7 @@
     "description": "Execution of the Eumon processor on a Sentinel-3 OLCI product over Tanzania, producing coastal water-quality indicators (chlorophyll-a, turbidity, suspended particulate matter, water transparency) for eutrophication monitoring. This Jupyter Notebook downloads the results from Insula object storage to the local workspace of the user. The associated linked products have been uploaded to the ESA Projects Results Repository (PRR) by following their guide https://eoresults.esa.int/data_provider_guide.html",
     "keywords": [
       "SDG",
-      "eutrophication",
+      "eutrophication"
     ],
     "contacts": [
       {
