@@ -263,6 +263,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/morlenn_mld/collection.json",
+      "type": "application/json",
+      "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "child",
       "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
       "type": "application/json",
       "title": "Global Cumulative Hazard Indexes (CHIs)"
