@@ -48,6 +48,12 @@
       "rel": "via",
       "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/eu-mon-spm",
       "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/eu-mon-spm",
+      "type": "application/json",
+      "title": "Eu-Mon Suspended Particulate Matter Products"
     }
   ],
   "stac_extensions": [
