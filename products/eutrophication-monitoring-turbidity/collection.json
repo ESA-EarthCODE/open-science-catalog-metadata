@@ -1,0 +1,119 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/syyq-8v51"}
+  ],
+  "sci:doi": "10.83395/hg2s-j062",
+  "type": "Collection",
+  "id": "eutrophication-monitoring-turbidity",
+  "stac_version": "1.0.0",
+  "description": "Earth Observation based monitoring of SDG 14.1.1a coastal eutrophication turbidity indicator using Sentinel‑3 derived water quality products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sdg-engine-eutrophication-monitoring-project/collection.json",
+      "type": "application/json",
+      "title": "Project: Eutrophication Monitoring for SDG Engine"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/turbidity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Turbidity"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/eu-mon-tur",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/eu-mon-tur",
+      "type": "application/json",
+      "title": "Eu-Mon Turbidity Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-10-26T15:22:16.419402Z",
+  "updated": "2026-10-26T15:22:16.419402Z",
+  "osc:project": "sdg-engine-eutrophication-monitoring-project",
+  "osc:status": "completed",
+  "osc:region": "Tanzania",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "osc:variables": [
+    "turbidity"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "sea_water_turbidity"
+    }
+  ],
+  "title": "Eutrophication Monitoring Turbidity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.37875,
+          -11.27875,
+          43.90875,
+          -3.95875
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-11-02T06:43:28Z",
+          "2023-09-12T06:26:26Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "SDG",
+    "eutrophication",
+    "turbidity"
+  ]
+}

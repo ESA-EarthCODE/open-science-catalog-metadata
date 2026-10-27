@@ -83,6 +83,12 @@
     },
     {
       "rel": "item",
+      "href": "./eutrophication-monitoring-tanzania/record.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Tanzania)"
+    },
+    {
+      "rel": "item",  
       "href": "./s1-coherence-intensity-v1-3-2-9ww49/record.json",
       "type": "application/json",
       "title": "Coherence and Intensity Composite"

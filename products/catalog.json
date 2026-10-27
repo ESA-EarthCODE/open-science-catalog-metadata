@@ -2189,6 +2189,30 @@
     },
     {
       "rel": "child",
+      "href": "./eutrophication-monitoring-turbidity/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Turbidity"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-water-transparency/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Water Transparency"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-suspended-particulate-matter/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Suspended Particulate Matter"
+    },
+    {
+      "rel": "child",
+      "href": "./eutrophication-monitoring-chlorophyll-a/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Chlorophyll-a"
+    },
+    {
+      "rel": "child",
       "href": "./morlenn_mld/collection.json",
       "type": "application/json",
       "title": "Morlenn Mixed Layer Properties"

@@ -1,0 +1,119 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/bdv7-cp06"}
+  ],
+  "sci:doi": "10.83395/t47n-ef37",
+  "type": "Collection",
+  "id": "eutrophication-monitoring-suspended-particulate-matter",
+  "stac_version": "1.0.0",
+  "description": "Earth Observation based monitoring of SDG 14.1.1a coastal eutrophication suspended-particulate-matter indicator using Sentinel‑3 derived water quality products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/sdg-engine-eutrophication-monitoring-project/collection.json",
+      "type": "application/json",
+      "title": "Project: Eutrophication Monitoring for SDG Engine"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/suspended-solids/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Suspended Solids"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/browser/#/external/eoresults.esa.int/stac/collections/eu-mon-spm",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/stac/collections/eu-mon-spm",
+      "type": "application/json",
+      "title": "Eu-Mon Suspended Particulate Matter Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-10-26T16:34:56.952169Z",
+  "updated": "2026-10-26T16:34:56.952169Z",
+  "osc:project": "sdg-engine-eutrophication-monitoring-project",
+  "osc:status": "completed",
+  "osc:region": "Tanzania",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "osc:variables": [
+    "suspended-solids"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "mass_concentration_of_suspended_matter_in_sea_water"
+    }
+  ],
+  "title": "Eutrophication Monitoring Suspended Particulate Matter",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.37875,
+          -11.27875,
+          43.90875,
+          -3.95875
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-11-02T06:43:28Z",
+          "2023-09-12T06:26:26Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "SDG",
+    "eutrophication",
+    "suspended particulate matter"
+  ]
+}
