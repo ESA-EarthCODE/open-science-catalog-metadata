@@ -1289,6 +1289,12 @@
     },
     {
       "rel": "child",
+      "href": "./ocean-health-acidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Ocean Health Ocean Acidification"
+    },
+    {
+      "rel": "child",
       "href": "./arnetlab/collection.json",
       "type": "application/json",
       "title": "Earth Surface Impacts of Hydrological Extremes along Global Atmospheric River Networks (ARNETLAB)"
