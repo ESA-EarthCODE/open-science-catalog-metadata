@@ -835,6 +835,24 @@
       "href": "../../products/morlenn_mld/collection.json",
       "type": "application/json",
       "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/so-simba-mms-of-snow-depth-on-sea-ice-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Merged Multi Sensor of Snow Depth on Sea Ice and Sea Ice Volume (Antarctic sea ice)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/so-simba-mms-of-sea-ice-thickness-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Merged Multi Sensor of Sea Ice Thickness and Sea Ice Volume (Antarctic sea ice)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
     }
   ],
   "updated": "2024-08-27T17:27:42.202831Z",
