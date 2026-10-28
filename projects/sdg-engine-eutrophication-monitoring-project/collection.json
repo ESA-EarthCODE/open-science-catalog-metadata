@@ -84,30 +84,20 @@
       ],
       "emails": [
         {
-          "value": "Marie-Helene.RIO@esa.int"
+          "value": "Marie-Helene.Rio@esa.int"
         }
       ]
     },
     {
       "name": "CGI",
       "roles": [
-        "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "alessandro.marin@cgi.com"
-        }
+        "consortium_member"
       ]
     },
     {
       "name": "Planetek",
       "roles": [
-        "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "ceriola@planetek.it"
-        }
+        "consortium_member"
       ]
     }
   ],
