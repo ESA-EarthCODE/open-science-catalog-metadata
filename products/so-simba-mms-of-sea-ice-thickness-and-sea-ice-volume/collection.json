@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.21343/q89n-ek43"}
+    ,
+        {"doi": "10.83395/nd19-0x51"}],
     "type": "Collection",
     "id": "so-simba-mms-of-sea-ice-thickness-and-sea-ice-volume",
     "stac_version": "1.1.0",
@@ -95,7 +99,7 @@
     "osc:status": "ongoing",
     "osc:region": "Antarctica",
     "osc:type": "product",
-    "sci:doi": "10.21343/q89n-ek43",
+    "sci:doi": "10.83395/ss4a-k450",
     "sci:citation": "Marion Bocquet and Robert Ricker (2026):SO-SIMBA Merged Multi Sensor of Sea Ice Thickness and Sea Ice Volume (Antarctic sea ice). Norwegian Meteorological Institute. https://doi.org/10.21343/q89n-ek43",
     "cf:parameter": [
         {

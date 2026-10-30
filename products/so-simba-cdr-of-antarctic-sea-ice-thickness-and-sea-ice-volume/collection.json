@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.21343/pf9r-6d17"}
+    ,
+        {"doi": "10.83395/aaeg-cx07"}],
     "type": "Collection",
     "id": "so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume",
     "stac_version": "1.1.0",
@@ -95,7 +99,7 @@
     "osc:status": "ongoing",
     "osc:region": "Antarctica",
     "osc:type": "product",
-    "sci:doi": "10.21343/pf9r-6d17",
+    "sci:doi": "10.83395/vdk7-0y22",
     "sci:citation": "Marion Bocquet and Robert Ricker (2026):SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume. Norwegian Meteorological Institute. https://doi.org/10.21343/pf9r-6d17",
     "cf:parameter": [
         {

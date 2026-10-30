@@ -1,4 +1,8 @@
 {
+    "sci:publications": [
+        {"doi": "10.21343/pp8v-f272"}
+    ,
+        {"doi": "10.83395/rsjq-h062"}],
     "type": "Collection",
     "id": "so-simba-mms-of-snow-depth-on-sea-ice-and-sea-ice-volume",
     "stac_version": "1.1.0",
@@ -89,7 +93,7 @@
     "osc:status": "ongoing",
     "osc:region": "Antarctica",
     "osc:type": "product",
-    "sci:doi": "10.21343/pp8v-f272",
+    "sci:doi": "10.83395/1k46-9179",
     "sci:citation": "Marion Bocquet and Robert Ricker (2026):SO-SIMBA Merged Multi Sensor of Snow Depth on Sea Ice and Sea Ice Volume (Antarctic sea ice). Norwegian Meteorological Institute. https://doi.org/10.21343/pp8v-f272",
     "cf:parameter": [
         {
