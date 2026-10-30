@@ -31,6 +31,30 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-turbidity/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Turbidity"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-water-transparency/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Water Transparency"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-suspended-particulate-matter/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Suspended Particulate Matter"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-chlorophyll-a/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Chlorophyll-a"
     }
   ],
   "stac_extensions": [
@@ -60,30 +84,20 @@
       ],
       "emails": [
         {
-          "value": "Marie-Helene.RIO@esa.int"
+          "value": "Marie-Helene.Rio@esa.int"
         }
       ]
     },
     {
       "name": "CGI",
       "roles": [
-        "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "alessandro.marin@cgi.com"
-        }
+        "consortium_member"
       ]
     },
     {
       "name": "Planetek",
       "roles": [
-        "consoritum_member"
-      ],
-      "emails": [
-        {
-          "value": "ceriola@planetek.it"
-        }
+        "consortium_member"
       ]
     }
   ],
