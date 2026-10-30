@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "osc",
   "stac_version": "1.0.0",
-  "description": "A catalog of publicly available geoscience products, datasets, workflows, experiments, and resources developed in the frame of scientific research Projects funded by ESA EO (Earth Observation)",
+  "description": "A catalogue of publicly available geoscience products, datasets, workflows, experiments, and resources developed in the frame of scientific research Projects funded by ESA EO (Earth Observation)",
   "links": [
     {
       "rel": "root",
