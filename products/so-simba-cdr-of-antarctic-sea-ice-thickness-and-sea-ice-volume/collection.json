@@ -111,7 +111,7 @@
             "scheme": "https://github.com/stac-extensions/osc#theme",
             "concepts": [
                 {
-                    "id": "crysophere"
+                    "id": "cryosphere"
                 },
                 {
                     "id": "oceans"

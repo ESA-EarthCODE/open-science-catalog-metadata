@@ -111,7 +111,7 @@
             "scheme": "https://github.com/stac-extensions/osc#theme",
             "concepts": [
                 {
-                    "id": "crysophere"
+                    "id": "cryosphere"
                 },
                 {
                     "id": "oceans"
@@ -126,7 +126,6 @@
     ],
     "osc:missions": [
         "cryosat-2",
-        "sentinel-3",
         "sentinel-3"
     ],
     "extent": {
