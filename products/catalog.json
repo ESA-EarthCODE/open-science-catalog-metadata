@@ -1805,6 +1805,12 @@
     },
     {
       "rel": "child",
+      "href": "./so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
+    },
+    {
+      "rel": "child",
       "href": "./l3_water-level-time-series-s3-c2-final-hydrocoastal/collection.json",
       "type": "application/json",
       "title": "HYDROCOASTAL Final Product: L3 inland water level time series"
