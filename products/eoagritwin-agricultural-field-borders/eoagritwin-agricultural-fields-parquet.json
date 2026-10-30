@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "eoagritwin-agricultural-fields-parquet",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4672516.3630416505,
+          2684599.6079648044
+        ],
+        [
+          4672516.3630416505,
+          3550609.6079648044
+        ],
+        [
+          4031326.3630416505,
+          3550609.6079648044
+        ],
+        [
+          4031326.3630416505,
+          2684599.6079648044
+        ],
+        [
+          4672516.3630416505,
+          2684599.6079648044
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4031326.3630416505,
+    2684599.6079648044,
+    4672516.3630416505,
+    3550609.6079648044
+  ],
+  "properties": {
+    "license": "unknown",
+    "description": "",
+    "datetime": "2018-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Agricultural Field Boundaries for Germany "
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Agricultural Field Boundaries for Germany "
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "/data/Aldhani/eoagritwin/fields/10_from_Gideon/v1/v1/segments/parquet_upload/Agricultural_Fields_2025.parquet/",
+      "type": "application/x-parquet",
+      "title": "Agricultural Fields Vector Layer",
+      "proj:code": "EPSG:3035",
+      "proj:wkt2": "PROJCRS[\"ETRS89-extended / LAEA Europe\",BASEGEOGCRS[\"ETRS89\",ENSEMBLE[\"European Terrestrial Reference System 1989 ensemble\",MEMBER[\"European Terrestrial Reference Frame 1989\"],MEMBER[\"European Terrestrial Reference Frame 1990\"],MEMBER[\"European Terrestrial Reference Frame 1991\"],MEMBER[\"European Terrestrial Reference Frame 1992\"],MEMBER[\"European Terrestrial Reference Frame 1993\"],MEMBER[\"European Terrestrial Reference Frame 1994\"],MEMBER[\"European Terrestrial Reference Frame 1996\"],MEMBER[\"European Terrestrial Reference Frame 1997\"],MEMBER[\"European Terrestrial Reference Frame 2000\"],MEMBER[\"European Terrestrial Reference Frame 2005\"],MEMBER[\"European Terrestrial Reference Frame 2014\"],MEMBER[\"European Terrestrial Reference Frame 2020\"],ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[0.1]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4258]],CONVERSION[\"Europe Equal Area 2001\",METHOD[\"Lambert Azimuthal Equal Area\",ID[\"EPSG\",9820]],PARAMETER[\"Latitude of natural origin\",52,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",10,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",4321000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",3210000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"northing (Y)\",north,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"easting (X)\",east,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Statistical analysis.\"],AREA[\"Europe - European Union (EU) countries and candidates. Europe - onshore and offshore: Albania; Andorra; Austria; Belgium; Bosnia and Herzegovina; Bulgaria; Croatia; Cyprus; Czechia; Denmark; Estonia; Faroe Islands; Finland; France; Germany; Gibraltar; Greece; Hungary; Iceland; Ireland; Italy; Kosovo; Latvia; Liechtenstein; Lithuania; Luxembourg; Malta; Monaco; Montenegro; Netherlands; North Macedonia; Norway including Svalbard and Jan Mayen; Poland; Portugal including Madeira and Azores; Romania; San Marino; Serbia; Slovakia; Slovenia; Spain including Canary Islands; Sweden; Switzerland; T\u00fcrkiye (Turkey); United Kingdom (UK) including Channel Islands and Isle of Man; Vatican City State.\"],BBOX[24.6,-35.58,84.73,44.83]],ID[\"EPSG\",3035]]",
+      "proj:bbox": [
+        4031326.3630416505,
+        2684599.6079648044,
+        4672516.3630416505,
+        3550609.6079648044
+      ],
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4672516.3630416505,
+              2684599.6079648044
+            ],
+            [
+              4672516.3630416505,
+              3550609.6079648044
+            ],
+            [
+              4031326.3630416505,
+              3550609.6079648044
+            ],
+            [
+              4031326.3630416505,
+              2684599.6079648044
+            ],
+            [
+              4672516.3630416505,
+              2684599.6079648044
+            ]
+          ]
+        ]
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eoagritwin-agricultural-field-borders",
+  "title": "Agricultural Fields Vector Layer"
+}

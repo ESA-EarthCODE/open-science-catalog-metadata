@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "eoagritwin-agricultural-field-borders",
+  "stac_version": "1.0.0",
+  "description": "This dataset contains the vector GeoParquet product for delineated field boundaries for Germany (Poetzschner et al., 2026, in preparation) for the years 2018 through 2025. The dataset was created from 10 m Sentinel-2 time series processed via a 3D Vision Transformer model. Model training, post-processing optimization, and validation leverage the full population of farmer declarations in the European Union's Integrated Administration and Control System (IACS). The dataset comprises 8.3–9.3 million fields per year, providing a consistent foundation for national-scale agricultural system analyses in the EOAgriTwin project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Project: EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/agriculture-mask/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Agriculture Mask"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/eoagritwin-agricultural-field-borders/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-10-30T16:45:01.031893Z",
+  "updated": "2026-10-30T16:45:01.031893Z",
+  "osc:project": "eoagritwin",
+  "osc:status": "ongoing",
+  "osc:region": "Germany",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "agriculture-mask"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "title": "Agricultural Field Boundaries for Germany ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.8662,
+          47.2707,
+          15.0418,
+          55.0565
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Agricultural Fields",
+    "Field Delineation",
+    "Sentinel-2",
+    "Germany"
+  ]
+}

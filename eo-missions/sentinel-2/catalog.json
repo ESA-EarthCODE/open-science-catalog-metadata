@@ -290,6 +290,12 @@
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eoagritwin-agricultural-field-borders/collection.json",
+      "type": "application/json",
+      "title": "Agricultural Field Boundaries for Germany "
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",
