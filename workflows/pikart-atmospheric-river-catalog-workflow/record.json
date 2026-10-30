@@ -117,7 +117,7 @@
       "rel": "jupyter-notebook",
       "type": "application/json",
       "title": "Jupyter Notebook",
-      "href": "https://github.com/ToBraun/atmospheric_river_datacube/blob/main/Build_atmospheric_river_cube.ipynb"
+      "href": "https://github.com/ESA-EarthCODE/atmospheric_river_datacube/blob/main/Build_atmospheric_river_cube.ipynb"
     },
     {
       "rel": "application-originating-platform",
@@ -143,7 +143,7 @@
     {
       "rel": "git",
       "title": "Git source repository",
-      "href": "https://github.com/ToBraun/atmospheric_river_datacube"
+      "href": "https://github.com/ESA-EarthCODE/atmospheric_river_datacube"
     },
     {
       "rel": "related",
@@ -172,7 +172,7 @@
     {
       "rel": "application",
       "title": "Jupyter Notebook: Building the PIKART atmospheric river datacube",
-      "href": "https://github.com/ToBraun/atmospheric_river_datacube/blob/main/Build_atmospheric_river_cube.ipynb",
+      "href": "https://github.com/ESA-EarthCODE/atmospheric_river_datacube/blob/main/Build_atmospheric_river_cube.ipynb",
       "type": "application/x-ipynb+json",
       "application:type": "jupyter-notebook",
       "application:container": "true",
@@ -185,7 +185,7 @@
     },
     {
       "rel": "related",
-      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FToBraun%2Fatmospheric_river_datacube&urlpath=lab%2Ftree%2Fatmospheric_river_datacube%2FBuild_atmospheric_river_cube.ipynb&branch=main",
+      "href": "https://deep.earthsystemdatalab.net/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Fatmospheric_river_datacube&urlpath=lab%2Ftree%2Fatmospheric_river_datacube%2FBuild_atmospheric_river_cube.ipynb&branch=main",
       "type": "text/html",
       "title": "Open notebook on the DeepESDL platform"
     }

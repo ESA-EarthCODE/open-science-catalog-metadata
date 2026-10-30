@@ -56,6 +56,12 @@
       "href": "../../products/bicep-database/collection.json",
       "type": "application/json",
       "title": "Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/morlenn_mld/collection.json",
+      "type": "application/json",
+      "title": "Morlenn Mixed Layer Properties"
     }
   ],
   "stac_extensions": [

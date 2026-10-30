@@ -520,12 +520,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/oceansoda-ethz/collection.json",
-      "type": "application/json",
-      "title": "OceanSODA-ETHZ-v1: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021)"
-    },
-    {
-      "rel": "child",
       "href": "../../products/particulate-backscatter-aeolus-innovation-color/collection.json",
       "type": "application/json",
       "title": "Particulate backscatter: bbp_Global_AEOLUS"
@@ -802,6 +796,12 @@
     },
     {
       "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "child",
       "href": "../../products/bicep-database/collection.json",
       "type": "application/json",
       "title": "Biological pump and carbon exchange processes (Bicep) database"
@@ -820,9 +820,45 @@
     },
     {
       "rel": "child",
+      "href": "../../products/oceansoda-ethz-v2/collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
+    },
+    {
+      "rel": "child",
       "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
       "type": "application/json",
       "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-turbidity/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Turbidity"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-water-transparency/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Water Transparency"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-suspended-particulate-matter/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Suspended Particulate Matter"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eutrophication-monitoring-chlorophyll-a/collection.json",
+      "type": "application/json",
+      "title": "Eutrophication Monitoring Chlorophyll-a"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/morlenn_mld/collection.json",
+      "type": "application/json",
+      "title": "Morlenn Mixed Layer Properties"
     }
   ],
   "updated": "2024-08-27T17:27:42.202831Z",

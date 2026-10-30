@@ -1,0 +1,371 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "morlenn_mld-morlenn_assim",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          42.0,
+          -6.0
+        ],
+        [
+          42.0,
+          90.0
+        ],
+        [
+          -100.0,
+          90.0
+        ],
+        [
+          -100.0,
+          -6.0
+        ],
+        [
+          42.0,
+          -6.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -100.0,
+    -6.0,
+    42.0,
+    90.0
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2011-01-01T00:00:00Z",
+    "end_datetime": "2023-12-31T21:00:00Z",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Morlenn Mixed Layer Properties"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/upperdyn-morlenn/morlenn_assim.zarr",
+      "type": "application/vnd+zarr",
+      "title": "morlenn_assim zarr store",
+      "created": "2026-10-22T12:03:44.094475Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2011-01-01T00:00:00Z",
+            "2023-12-31T21:00:00Z"
+          ],
+          "description": "time",
+          "step": "P0DT3H0M0S",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            -100.0,
+            42.0
+          ],
+          "step": 0.25,
+          "description": "longitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -6.0,
+            90.0
+          ],
+          "step": 0.25,
+          "description": "latitude",
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "assim_mask": {
+          "type": "data",
+          "description": "1 where a close recent neighbor is present (dist<=assim_km and age<=assim_days)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "1 where a close recent neighbor is present (dist<=assim_km and age<=assim_days)",
+            "flag_values": [
+              0,
+              1
+            ],
+            "flag_meanings": "no_close_recent_neighbour close_recent_neighbour",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "interp_fraction": {
+          "type": "data",
+          "description": "Fraction of dynamic inputs (feature x hour over the 720h history) that were temporally interpolated (0=perfect, higher=imperfect)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "1",
+          "attrs": {
+            "units": "1",
+            "long_name": "Fraction of dynamic inputs (feature x hour over the 720h history) that were temporally interpolated (0=perfect, higher=imperfect)",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "mld": {
+          "type": "data",
+          "description": "UpperDyn inferred mixed layer depth",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m",
+          "attrs": {
+            "units": "m",
+            "long_name": "UpperDyn inferred mixed layer depth",
+            "standard_name": "ocean_mixed_layer_thickness",
+            "ancillary_variables": "mld_std",
+            "comment": "Mixed layer depth on a 0.2 degC-equivalent criterion: the minimum of a temperature and a density threshold, referenced to 10 m. NOT the sigma-theta criterion used by GLORYS.",
+            "coverage_content_type": "modelResult"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "mld_std": {
+          "type": "data",
+          "description": "UpperDyn predictive standard deviation for MLD",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "m",
+          "attrs": {
+            "units": "m",
+            "long_name": "UpperDyn predictive standard deviation for MLD",
+            "standard_name": "ocean_mixed_layer_thickness standard_error",
+            "coverage_content_type": "qualityInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "n1_dist_km": {
+          "type": "data",
+          "description": "Great-circle distance to the nearest causal Argo neighbor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "km",
+          "attrs": {
+            "units": "km",
+            "long_name": "Great-circle distance to the nearest causal Argo neighbor",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "n1_dt_days": {
+          "type": "data",
+          "description": "Age in days of the nearest causal Argo neighbor",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "Age in days of the nearest causal Argo neighbor",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "N2": {
+          "type": "data",
+          "description": "UpperDyn inferred N2",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "s-2",
+          "attrs": {
+            "units": "s-2",
+            "long_name": "UpperDyn inferred N2",
+            "standard_name": "square_of_brunt_vaisala_frequency_in_sea_water",
+            "ancillary_variables": "N2_std",
+            "comment": "Vertical maximum over the water column of the square of the Brunt-Vaisala (buoyancy) frequency.",
+            "coverage_content_type": "modelResult"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "N2_quality_flag": {
+          "type": "data",
+          "description": "quality flag for N2",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "quality flag for N2",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "flag_meanings": "good low_salinity mld_clamped_to_bathymetry low_salinity_and_mld_clamped_to_bathymetry",
+            "coverage_content_type": "qualityInformation",
+            "comment": "Bit 0 (value 1): sea surface salinity below 25 in the run's own input maps, where the N2 estimate is least reliable. Bit 1 (value 2): the MLD was clamped to the local bathymetry, so N2 and N2_std were removed. Values 2 and 3 are the only ones that explain an N2 fill value; N2 fill elsewhere (land, no valid model input, sea ice) is not flagged here. Where salinity was unavailable, bit 0 is left clear."
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "N2_std": {
+          "type": "data",
+          "description": "UpperDyn predictive standard deviation for N2",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "s-2",
+          "attrs": {
+            "units": "s-2",
+            "long_name": "UpperDyn predictive standard deviation for N2",
+            "standard_name": "square_of_brunt_vaisala_frequency_in_sea_water standard_error",
+            "coverage_content_type": "qualityInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "n_neighbors": {
+          "type": "data",
+          "description": "Number of causal Argo neighbors fed to the model (0-5)",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "1",
+          "attrs": {
+            "units": "1",
+            "long_name": "Number of causal Argo neighbors fed to the model (0-5)",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "sea_ice_concentration": {
+          "type": "data",
+          "description": "sea ice area fraction",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "unit": "%",
+          "attrs": {
+            "standard_name": "sea_ice_area_fraction",
+            "long_name": "sea ice area fraction",
+            "units": "%",
+            "valid_min": 0.0,
+            "valid_max": 100.0,
+            "coverage_content_type": "auxiliaryInformation",
+            "source": "AMSR2 ASI n6250 v5.4, University of Bremen (data.seaice.uni-bremen.de)",
+            "comment": "Bilinearly interpolated from the 6.25 km EPSG:3411 AMSR2 grid and linearly interpolated in time between daily composites anchored at 12:00 UTC. Fill means AMSR2 made no observation (outside its grid, inside its coastal buffer, or before the mission), NOT open water."
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        },
+        "valid_input": {
+          "type": "data",
+          "description": "1 where all required model inputs were finite before normalization",
+          "dimensions": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "attrs": {
+            "long_name": "1 where all required model inputs were finite before normalization",
+            "flag_values": [
+              0,
+              1
+            ],
+            "flag_meanings": "input_incomplete input_complete",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            37984,
+            385,
+            569
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "morlenn_mld",
+  "title": "morlenn_assim zarr store"
+}
