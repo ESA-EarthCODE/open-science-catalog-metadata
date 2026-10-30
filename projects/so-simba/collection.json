@@ -22,21 +22,21 @@
     },
     {
       "rel": "child",
-      "href": "../../products/so-simba-mms-of-snow-depth-on-sea-ice-and-sea-ice-volume",
+      "href": "../../products/so-simba-mms-of-snow-depth-on-sea-ice-and-sea-ice-volume/collection.json",
       "type": "application/json",
-      "title": "Product: SO-SIMBA Merged Multi Sensor of Snow Depth on Sea Ice and Sea Ice Volume (Antarctic sea ice)"
+      "title": "SO-SIMBA Merged Multi Sensor of Snow Depth on Sea Ice and Sea Ice Volume (Antarctic sea ice)"
     },
     {
       "rel": "child",
-      "href": "../../products/so-simba-mms-of-sea-ice-thickness-and-sea-ice-volume",
+      "href": "../../products/so-simba-mms-of-sea-ice-thickness-and-sea-ice-volume/collection.json",
       "type": "application/json",
-      "title": "Product: SO-SIMBA Merged Multi Sensor of Sea Ice Thickness and Sea Ice Volume (Antarctic sea ice)"
+      "title": "SO-SIMBA Merged Multi Sensor of Sea Ice Thickness and Sea Ice Volume (Antarctic sea ice)"
     },
     {
       "rel": "child",
-      "href": "../../products/so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume",
+      "href": "../../products/so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume/collection.json",
       "type": "application/json",
-      "title": "Product: SO-SIMBA Merged Multi Sensor of Sea Ice Thickness and Sea Ice Volume (Antarctic sea ice)"
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
     },
     {
       "rel": "parent",
