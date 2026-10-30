@@ -224,6 +224,12 @@
       "href": "../../products/morlenn_mld/collection.json",
       "type": "application/json",
       "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
     }
   ],
   "updated": "2024-08-27T17:27:42.172831Z",
