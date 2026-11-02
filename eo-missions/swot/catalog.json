@@ -32,7 +32,13 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/swot/catalog.json",
       "type": "application/json"
-    }
+    },
+    {
+      "rel": "child",
+      "href": "../../products/wide-swath-altimetry-for-eddy-reconstruction/collection.json",
+      "type": "application/json",
+      "title": "WATER"
+    },
   ],
   "updated": "2025-11-11T11:27:42.174831Z",
   "keywords": [],
