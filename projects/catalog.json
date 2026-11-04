@@ -1316,6 +1316,12 @@
       "href": "./4datlantic-ohc-gitclerk-demo/collection.json",
       "type": "application/json",
       "title": "4DAtlantic-OHC"
+    },
+    {
+      "rel": "child",
+      "href": "./4datlantic-ohc-gitclerk-demo/collection.json",
+      "type": "application/json",
+      "title": "4DAtlantic-OHC"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
