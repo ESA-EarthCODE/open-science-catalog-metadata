@@ -7532,6 +7532,12 @@
       "href": "./rank-of-atmospheric-river-conditions/catalog.json",
       "type": "application/json",
       "title": "Rank Of Atmospheric River Conditions"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-heat-budget/catalog.json",
+      "type": "application/json",
+      "title": "Ocean Heat Budget"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",
