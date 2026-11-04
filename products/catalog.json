@@ -2222,6 +2222,12 @@
       "href": "./4d-atlantic-ohc-global-gitclerk-demo/collection.json",
       "type": "application/json",
       "title": "Global Ocean Heat Content"
+    },
+    {
+      "rel": "child",
+      "href": "./4d-atlantic-ohc-global-gitclerk-demo/collection.json",
+      "type": "application/json",
+      "title": "Global Ocean Heat Content"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
