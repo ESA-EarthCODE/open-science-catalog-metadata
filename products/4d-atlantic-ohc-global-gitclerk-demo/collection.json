@@ -1,6 +1,8 @@
 {
   "sci:publications": [
-    {"doi": "10.83395/d8y7-fj91"}
+    {
+      "doi": "10.83395/d8y7-fj91"
+    }
   ],
   "sci:doi": "10.83395/1h1t-c793",
   "type": "Collection",
