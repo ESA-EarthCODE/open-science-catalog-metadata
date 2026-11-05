@@ -8,7 +8,7 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalogue"
+      "title": "Open Science Catalog"
     },
     {
       "rel": "via",
@@ -47,7 +47,8 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
   ],
   "themes": [
     {
