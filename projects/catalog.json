@@ -881,6 +881,12 @@
     },
     {
       "rel": "child",
+      "href": "./so-simba/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA"
+    },
+    {
+      "rel": "child",
       "href": "./sentinel-3-performance-improvement-for-ice-sheets-spice/collection.json",
       "type": "application/json",
       "title": "SPICE"
