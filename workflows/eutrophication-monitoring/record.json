@@ -12,7 +12,7 @@
     ],
     "sci:doi": "10.83395/3xrz-br75",
     "title": "Eutrophication Monitoring for SDG engine",
-    "description": "The workflow aims to implement three different indicators for eutrophication monitoring, in order to implement the SDG 14.1.1a monitoring Index of Coastal Eutrophication.",
+    "description": "The workflow aims to implement three different indicators for eutrophication monitoring, in order to implement the SDG 14.1.1a monitoring Index of Coastal Eutrophication. To access and execute the workflow see the Links section. To be able to to execute the workflow on the Insula platform you need to have at least 'USER' role. If you role is 'GUEST', please write an email to insula-ops.it@cgi.com requesting that your account be elevated to 'USER' role.",
     "type": "workflow",
     "osc:project": "sdg-engine-eutrophication-monitoring-project",
     "osc:status": "completed",
@@ -72,7 +72,7 @@
       "rel": "git",
       "href": "https://github.com/cgi-italy-insula-processors/processor-eumon",
       "type": "application/json",
-      "title": "Git source repository"
+      "title": "Access: git source repository"
     },
     {
       "rel": "related",
@@ -84,7 +84,7 @@
       "rel": "related",
       "href": "https://insula.earth/intellect/run/standard/251",
       "type": "text/html",
-      "title": "direct URL to the Insula platform for execution of the workflow "
+      "title": "Execute: direct URL to the Insula platform for execution of the workflow "
     }
   ]
 }

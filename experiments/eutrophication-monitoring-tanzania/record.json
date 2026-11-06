@@ -10,7 +10,7 @@
     "updated": "2026-10-27T12:13:42Z",
     "type": "experiment",
     "title": "Eutrophication Monitoring – Sentinel-3 Coastal Water Quality (Tanzania)",
-    "description": "Execution of the Eumon processor on a Sentinel-3 OLCI product over Tanzania, producing coastal water-quality indicators (chlorophyll-a, turbidity, suspended particulate matter, water transparency) for eutrophication monitoring. This Jupyter Notebook downloads the results from Insula object storage to the local workspace of the user. The associated linked products have been uploaded to the ESA Projects Results Repository (PRR) by following their guide https://eoresults.esa.int/data_provider_guide.html",
+    "description": "Execution of the Eumon processor on a Sentinel-3 OLCI product over Tanzania, producing coastal water-quality indicators (chlorophyll-a, turbidity, suspended particulate matter, water transparency) for eutrophication monitoring. This Jupyter Notebook downloads the results from Insula object storage to the local workspace of the user. The associated linked products have been uploaded to the ESA Projects Results Repository (PRR) by following their guide https://eoresults.esa.int/data_provider_guide.html. To access and execute the experiment see the Links section. To be able to to execute the experiment on the Insula platform you need to have at least 'USER' role. If you role is 'GUEST', please write an email to insula-ops.it@cgi.com requesting that your account be elevated to 'USER' role.",
     "keywords": [
       "SDG",
       "eutrophication"
@@ -94,11 +94,11 @@
       "rel": "git",
       "href": "https://github.com/cgi-italy/earthcode-notebooks/blob/master/EuMonExperiment.ipynb",
       "type": "application/json",
-      "title": "Git source repository"
+      "title": "Access: git source repository"
     },
     {
       "rel": "application-originating-platform",
-      "title": "Notebook Access link on Insula",
+      "title": "Execution link on Insula",
       "href": "https://code.insula.earth/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcgi-italy%2Fearthcode-notebooks&urlpath=lab%2Ftree%2Fearthcode-notebooks%2FEuMonExperiment.ipynb&branch=master",
       "type": "text/html",
       "application:platform_supports": [
