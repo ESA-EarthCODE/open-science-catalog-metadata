@@ -2197,7 +2197,7 @@
       "rel": "child",
       "href": "./mwd-lstm-sim/collection.json",
       "type": "application/json",
-      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
+      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data",
       "href": "./eutrophication-monitoring-turbidity/collection.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring Turbidity"
