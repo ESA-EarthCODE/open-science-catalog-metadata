@@ -22,14 +22,14 @@ jobs:
         run: git config --global core.longpaths true
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.1.x'
+          node-version: '22.x'
       - name: Checkout
         uses: actions/checkout@v4
         with:
           path: metadata
       - name: Prepare
         run: |
-          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.16
+          npm install ESA-EarthCODE/open-science-catalog-validation#v1.0.0-rc.17
       - name: Validate
         run: |
           npx open-science-catalog-validation ./metadata

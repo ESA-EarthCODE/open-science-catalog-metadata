@@ -13,7 +13,7 @@
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "child",
@@ -1219,7 +1219,7 @@
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "child",
@@ -1271,6 +1271,12 @@
     },
     {
       "rel": "child",
+      "href": "./mitho/collection.json",
+      "type": "application/json",
+      "title": "MITHO (Multiple Threats on Ocean Health)"
+    },
+    {
+      "rel": "child",
       "href": "./eowetmet/collection.json",
       "type": "application/json",
       "title": "EOWetMet: EO-Driven Insights for Advancing Arctic Wetland and Lake Methane Emissions Monitoring"
@@ -1280,6 +1286,12 @@
       "href": "./sdg-engine-eutrophication-monitoring-project/collection.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring for SDG Engine"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean-health-acidification/collection.json",
+      "type": "application/json",
+      "title": "ESA Ocean Health Ocean Acidification"
     },
     {
       "rel": "child",
@@ -1298,6 +1310,9 @@
       "href": "./sup-fcp-multisensor-water-discharges/collection.json",
       "type": "application/json",
       "title": "Multisensor Water Discharges (MWD)"
+      "href": "./upperdyn/collection.json",
+      "type": "application/json",
+      "title": "Upper Ocean Dynamics (UpperDyn)"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
