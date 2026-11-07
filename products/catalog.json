@@ -2189,6 +2189,18 @@
     },
     {
       "rel": "child",
+      "href": "./mwd-chime-sim/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges - CHIME-simulated hyperspectral data"
+    },
+    {
+      "rel": "child",
+      "href": "./mwd-lstm-sim/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges - LSTM-simulated thermal infrared data"
+    },
+    {
+      "rel": "child",
       "href": "./eutrophication-monitoring-turbidity/collection.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring Turbidity"
