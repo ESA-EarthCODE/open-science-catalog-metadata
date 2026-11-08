@@ -1,0 +1,320 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EO4FLOOD_Snow_CCI_SWE_tore_20160101_20231231",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.45,
+          65.35
+        ],
+        [
+          25.45,
+          69.65
+        ],
+        [
+          17.55,
+          69.65
+        ],
+        [
+          17.55,
+          65.35
+        ],
+        [
+          25.45,
+          65.35
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    17.55,
+    65.35,
+    25.45,
+    69.65
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "ESA EO4FLOOD project Snow dataset - CCI Snow Water Equivalent",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2023-12-31T00:00:00Z",
+    "datetime": "2016-01-01T00:00:00Z",
+    "title": "Torne - Snow CCI SWE - 2016-01-01 to 2023-12-31",
+    "zarr:store": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CCI_SWE_tore_20160101_20231231.zarr",
+    "zarr:attributes": {
+      "title": "Torne - Snow CCI SWE - 2016-01-01 to 2023-12-31",
+      "project": "EO4FLOOD",
+      "basin_name": "Torne",
+      "pdate": "2025-08-07 18:27:03",
+      "producer": "Magellium",
+      "contact": "ana.carmonabardella@magellium.fr",
+      "source": "Snow Water Equivalent dataset (version 4.0) from the ESA Climate Change Initiative snow project",
+      "references": "http://snow-cci.enveo.at/",
+      "temporal_interval": "2016-01-01T00:00:00Z / 2023-12-31T235959Z",
+      "version": "V1.0",
+      "format": "netCDF",
+      "conventions": "CF-1.9",
+      "DOI": "https://dx.doi.org/10.5285/edf8abd23f4a40aabd4d52e48dec06ea",
+      "acknowledgements": "ESA EO4FLOOD project"
+    },
+    "zarr:arrays": {
+      "crs": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i4",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [],
+        "shape": [],
+        "chunks": [],
+        "attrs": {
+          "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+          "grid_mapping_name": "latitude_longitude",
+          "longitude_of_prime_meridian": 0,
+          "epsg_code": "EPSG:4326",
+          "semi_major_axis": 6378137.0,
+          "inverse_flattening": 298.257223563,
+          "GeoTransform": "-180 0.05 0 90 0 -0.05",
+          "_ARRAY_DIMENSIONS": []
+        }
+      },
+      "lat": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          44
+        ],
+        "chunks": [
+          44
+        ],
+        "attrs": {
+          "units": "degrees_north",
+          "long_name": "WGS84 latitude coordinates, center of pixel",
+          "standard_name": "latitude",
+          "_ARRAY_DIMENSIONS": [
+            "lat"
+          ]
+        }
+      },
+      "lon": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          80
+        ],
+        "chunks": [
+          80
+        ],
+        "attrs": {
+          "units": "degrees_east",
+          "long_name": "WGS84 longitude coordinates, center of pixel",
+          "standard_name": "longitude",
+          "_ARRAY_DIMENSIONS": [
+            "lon"
+          ]
+        }
+      },
+      "swe": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<f8",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2922,
+          44,
+          80
+        ],
+        "chunks": [
+          1995,
+          30,
+          54
+        ],
+        "attrs": {
+          "units": "mm",
+          "long_name": "snow water equivalent",
+          "standard_name": "snow_water_equivalent",
+          "grid_mapping": "crs",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      },
+      "time": {
+        "compressor": {
+          "id": "blosc",
+          "cname": "lz4",
+          "clevel": 5,
+          "shuffle": 1,
+          "blocksize": 0
+        },
+        "dimension_separator": ".",
+        "dtype": "<i8",
+        "fill_value": null,
+        "filters": null,
+        "order": "C",
+        "zarr_format": 2,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2922
+        ],
+        "chunks": [
+          2922
+        ],
+        "attrs": {
+          "long_name": "time",
+          "standard_name": "time",
+          "units": "days since 2016-01-01 00:00:00",
+          "calendar": "proleptic_gregorian",
+          "_ARRAY_DIMENSIONS": [
+            "time"
+          ]
+        }
+      }
+    },
+    "cube:dimensions": {
+      "time": {
+        "extent": [
+          "2016-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ],
+        "description": "time",
+        "step": "P1DT0H0M0S",
+        "type": "temporal",
+        "size": 2922
+      },
+      "lon": {
+        "axis": "x",
+        "extent": [
+          17.55,
+          25.45
+        ],
+        "description": "WGS84 longitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 80
+      },
+      "lat": {
+        "axis": "y",
+        "extent": [
+          65.35,
+          69.65
+        ],
+        "description": "WGS84 latitude coordinates, center of pixel",
+        "reference_system": 4326,
+        "type": "spatial",
+        "size": 44
+      }
+    },
+    "cube:variables": {
+      "swe": {
+        "type": "data",
+        "description": "snow water equivalent",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "unit": "mm",
+        "attrs": {
+          "units": "mm",
+          "long_name": "snow water equivalent",
+          "standard_name": "snow_water_equivalent",
+          "grid_mapping": "crs"
+        },
+        "shape": [
+          2922,
+          44,
+          80
+        ],
+        "chunks": [
+          1995,
+          30,
+          54
+        ]
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Snow Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Snow Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/Snow_zarr/EO4FLOOD_Snow_CCI_SWE_tore_20160101_20231231.zarr",
+      "type": "application/vnd+zarr",
+      "title": "Torne - Snow CCI SWE - 2016-01-01 to 2023-12-31",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-snow",
+  "title": "Torne - Snow CCI SWE - 2016-01-01 to 2023-12-31"
+}

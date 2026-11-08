@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_mmWLBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          94.56666564941406,
+          25.18000030517578
+        ],
+        [
+          94.56666564941406,
+          29.75
+        ],
+        [
+          87.68333435058594,
+          29.75
+        ],
+        [
+          87.68333435058594,
+          25.18000030517578
+        ],
+        [
+          94.56666564941406,
+          25.18000030517578
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    87.68333435058594,
+    25.18000030517578,
+    94.56666564941406,
+    29.75
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission water-level-based)",
+      "creation_time": "2025-11-10 17:00:43",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
+      "pdate": "2025-11-10",
+      "temporal interval": "13-Jan-2016 to 21-Apr-2025",
+      "version": "1.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "Will be added later on",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (multi-mission water-level-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:51.407638Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Brahmaputra_River_Discharge_mmWLBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "braa - Braa Discharge Mmwlbased",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "braa - Braa Discharge Mmwlbased"
+}

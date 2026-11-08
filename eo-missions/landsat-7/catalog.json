@@ -17,6 +17,12 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/eo4flood-river-width/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD River Width Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

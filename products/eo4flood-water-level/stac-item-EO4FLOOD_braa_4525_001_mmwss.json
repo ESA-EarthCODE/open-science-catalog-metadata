@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_braa_4525_001_mmwss",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          94.87742614746094,
+          24.734519958496094
+        ],
+        [
+          94.87742614746094,
+          30.015893936157227
+        ],
+        [
+          87.31095123291016,
+          30.015893936157227
+        ],
+        [
+          87.31095123291016,
+          24.734519958496094
+        ],
+        [
+          94.87742614746094,
+          24.734519958496094
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    87.31095123291016,
+    24.734519958496094,
+    94.87742614746094,
+    30.015893936157227
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "nc_attributes": {
+      "title": "Multi-mission water surface time series",
+      "producer": "DTU Space, Denmark",
+      "project": "EO4Flood",
+      "references": "TBC",
+      "contact": "K. Nielsen (karni@space.dtu.dk)",
+      "pdate": "Fri Feb 13 14:50:23 2026",
+      "VSlon": 89.66999817,
+      "VSlat": 25.18000031,
+      "VSchainage": 58093.3738437366,
+      "VSwidth": 5833.0,
+      "VSReachID": "45253000135",
+      "VSgauge": "2651100_GRDC",
+      "reachLength": 119.461257546937,
+      "meantime": 6.90004081632657,
+      "Conventions": "ncdf4"
+    },
+    "parquet_column_metadata": {
+      "chainage": {
+        "units": "m",
+        "long_name": "chainage"
+      },
+      "slope_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope grid"
+      },
+      "slopesd_grid": {
+        "units": "cm/km",
+        "long_name": "water surface slope std grid"
+      },
+      "slope_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope in VS",
+        "description": "The water surface slope time series for the VS of interest"
+      },
+      "slopesd_vs": {
+        "units": "cm/km",
+        "long_name": "water surface slope std in VS"
+      },
+      "lon": {
+        "units": "m",
+        "long_name": "longitude_grid"
+      },
+      "lat": {
+        "units": "m",
+        "long_name": "latitude_grid"
+      }
+    },
+    "datetime": "2026-05-28T16:27:04.850470Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Water Level Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Brahmaputra_multi-mission_water_surface_slope.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Brahmaputra - Multi-mission water surface time series - VS 4525_001 - Gauge 2651100_GRDC",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-water-level",
+  "title": "Brahmaputra - Multi-mission water surface time series - VS 4525_001 - Gauge 2651100_GRDC"
+}

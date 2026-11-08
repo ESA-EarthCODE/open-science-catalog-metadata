@@ -22,6 +22,30 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/eo4flood-prec/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-snow/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Snow Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-sri/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-river-width/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD River Width Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

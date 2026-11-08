@@ -1,0 +1,671 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-prec",
+  "stac_version": "1.0.0",
+  "description": "Satellite rainfall product in the project specific basins",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/zarr/access.ipynb",
+      "title": "Tutorial: Access the data",
+      "description": "A Python notebook demonstrating how to access the data from this collection.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/precipitation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Precipitation"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/viirs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: VIIRS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_tore.json",
+      "type": "application/json",
+      "title": "Torne - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_tore.json",
+      "type": "application/json",
+      "title": "Torne - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_SM2RAIN_ASCAT_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation SM2RAIN ASCAT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_tore.json",
+      "type": "application/json",
+      "title": "Torne - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_LR_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation IMERG LR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_tore.json",
+      "type": "application/json",
+      "title": "Torne - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_FR_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation IMERG FR"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_IMERG_ER_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation IMERG ER"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_NRT_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation GSMAP NRT"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_MVK_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation GSMAP MVK"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_GSMAP_Gauge_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation GSMAP Gauge"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_tore.json",
+      "type": "application/json",
+      "title": "Torne - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_nigr.json",
+      "type": "application/json",
+      "title": "Niger - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_po__.json",
+      "type": "application/json",
+      "title": "Po - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_rhie.json",
+      "type": "application/json",
+      "title": "Rhine - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_ERA5_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation ERA5"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_cono.json",
+      "type": "application/json",
+      "title": "Congo - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_dane.json",
+      "type": "application/json",
+      "title": "Danube - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_ebro.json",
+      "type": "application/json",
+      "title": "Ebro - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_nego.json",
+      "type": "application/json",
+      "title": "Negro - Precipitation CHIRPS"
+    },
+    {
+      "rel": "item",
+      "href": "./EO4FLOOD_Precipitation_CHIRPS_braa.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Precipitation CHIRPS"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-07T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "precipitation"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:missions": [
+    "sentinel-1",
+    "sentinel-2",
+    "viirs",
+    "modis",
+    "ascat",
+    "smap",
+    "smos"
+  ],
+  "updated": "2026-04-02T15:16:00Z",
+  "title": "EO4FLOOD Precipitation Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-70.03, -10, 96.95, 68.37],
+        [
+          96.95,
+          24.73,
+          88.18,
+          30.05
+        ],
+        [
+          34,
+          -10,
+          12,
+          10
+        ],
+        [
+          29.76,
+          45.22,
+          8.16,
+          48.1
+        ],
+        [
+          0.86,
+          40.72,
+          -4.4,
+          43.04
+        ],
+        [
+          -59.91,
+          -3.13,
+          -70.03,
+          1.95
+        ],
+        [
+          6.47,
+          5.32,
+          -10.68,
+          9.1
+        ],
+        [
+          12.43,
+          44.7,
+          7.09,
+          44.95
+        ],
+        [
+          9.41,
+          46.63,
+          4.08,
+          51.98
+        ],
+        [
+          24.15,
+          65.83,
+          19.1,
+          68.37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "precipitation",
+    "satellite-derived-precipitation",
+    "rainfall"
+  ]
+}

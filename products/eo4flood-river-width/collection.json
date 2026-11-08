@@ -1,0 +1,233 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-river-width",
+  "stac_version": "1.0.0",
+  "description": "Satellite derived river width product in the project specific basins",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/parquet/access.ipynb",
+      "title": "Tutorial: Access the data",
+      "description": "A Python notebook demonstrating how to access the data from this collection.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/rivers-streams/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Rivers/Streams"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-7/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-7"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_45253000391_Landsat.json",
+      "type": "application/json",
+      "title": "braa - Braa 2651080 Grdc 45253000391 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1150200_GRDC_13225100011_Sentinel-2.json",
+      "type": "application/json",
+      "title": "cono - Cono 1150200 Grdc 13225100011 Sentinel 2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6242700_GRDC_22797000011_Landsat.json",
+      "type": "application/json",
+      "title": "dane - Dane 6242700 Grdc 22797000011 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226300_GRDC_21604700221_Sentinel-2.json",
+      "type": "application/json",
+      "title": "ebro - Ebro 6226300 Grdc 21604700221 Sentinel 2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14526000_ANA_62284800341_Landsat.json",
+      "type": "application/json",
+      "title": "nego - Nego 14526000 Ana 62284800341 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_14297000041_Landsat.json",
+      "type": "application/json",
+      "title": "nigr - Nigr 1134030 Grdc 14297000041 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_21406800011_Sentinel-2.json",
+      "type": "application/json",
+      "title": "po - Po 6348200 Grdc 21406800011 Sentinel 2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6335180_GRDC_23265000051_Landsat.json",
+      "type": "application/json",
+      "title": "rhie - Rhie 6335180 Grdc 23265000051 Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_24420500011_Sentinel-2.json",
+      "type": "application/json",
+      "title": "tore - Tore 6232900 Grdc 24420500011 Sentinel 2"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-17T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "river-width"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "rivers-streams"
+  ],
+  "osc:missions": [
+    "sentinel-2",
+    "landsat-7",
+    "modis"
+  ],
+  "updated": "2026-05-19T15:16:06.215108Z",
+  "title": "EO4FLOOD River Width Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-70.03, -10, 96.95, 68.37],
+        [
+          96.95,
+          24.73,
+          88.18,
+          30.05
+        ],
+        [
+          34,
+          -10,
+          12,
+          10
+        ],
+        [
+          29.76,
+          45.22,
+          8.16,
+          48.1
+        ],
+        [
+          0.86,
+          40.72,
+          -4.4,
+          43.04
+        ],
+        [
+          -59.91,
+          -3.13,
+          -70.03,
+          1.95
+        ],
+        [
+          6.47,
+          5.32,
+          -10.68,
+          9.1
+        ],
+        [
+          12.43,
+          44.7,
+          7.09,
+          44.95
+        ],
+        [
+          9.41,
+          46.63,
+          4.08,
+          51.98
+        ],
+        [
+          24.15,
+          65.83,
+          19.1,
+          68.37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "river-width"
+  ]
+}

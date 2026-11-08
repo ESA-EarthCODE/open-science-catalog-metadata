@@ -1,0 +1,176 @@
+{
+  "type": "Collection",
+  "id": "eo4flood",
+  "stac_version": "1.0.0",
+  "description": "The EO4FLOOD Project (Earth Observation data for Advancing Flood Forecasting) funded by ESA aims at demonstrating the maturity and effectiveness of cutting-edge satellite data in enhancing flood forecasting systems. The project focuses on leveraging advanced satellite technologies and algorithms to improve the accuracy and timeliness of existing hydrological and hydraulic models, resulting in more reliable and precise flood predictions.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eo4flood/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4flood.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-fe/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Flood Extent Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-prec/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD Precipitation Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-river-discharge/collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-snow/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Snow Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-sm/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Soil Moisture Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-sri/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Surface Reflectance Index Products"
+    },
+    { 
+      "rel": "child",
+      "href": "../../products/eo4flood-water-level/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Water Level Products"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo4flood-river-width/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD River Width Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "updated": "2026-05-20T11:55:00Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Espen Volden",
+      "roles": ["technical_officer"],
+      "emails": [
+        {
+          "value": "espen.volden@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "CNR-IRPI",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "DHI",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "DTU",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "RSS-Hydro",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "TUM",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "GIS",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "GMV",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "Hydromatters",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "Magellium",
+      "roles": ["consortium_member"]
+    },
+    {
+      "name": "SMHI",
+      "roles": ["consortium_member"]
+    }
+  ],
+  "title": "EO4FLOOD",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -143.5150449108604,
+          -58.370182795172255,
+          165.99885304053927,
+          82.65641324823292
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
+
