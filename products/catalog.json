@@ -2216,6 +2216,12 @@
       "href": "./morlenn_mld/collection.json",
       "type": "application/json",
       "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "child",
+      "href": "./early-season-crop-type-maps-po-plain-eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Early-season crop-type maps of the Po Plain (northern Italy) from Sentinel-2, 2020 to 2025"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
