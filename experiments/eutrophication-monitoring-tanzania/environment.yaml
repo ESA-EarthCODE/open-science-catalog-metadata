@@ -1,5 +1,5 @@
 $comment: >-
-  This experiment uses the Eumon workflow deployed as a processing service on the
-  Insula platform and runs it using the OGC API Processes interface of Insula, dowloading the
-  results from Insula object storage to the local workspace.
-  It can be imported and executed on Insula-Experiment at https://code.insula.earth
+  This experiment uses the Eumon workflow deployed as a processing service on the Insula platform and runs it using the OGC API Processes interface of Insula,
+  dowloading the results from Insula object storage to the local workspace.
+  It can be imported and executed on Insula-Experiment at https://code.insula.earth.
+  To do that, log-in with your GitHub account, choose 'Minimal Environment', after the environment has loaded click on 'File' (in the upper tabs) and then on 'Open from URL'. A window will open, paste there the raw GitHub link to this notebook (https://raw.githubusercontent.com/cgi-italy/earthcode-notebooks/refs/heads/main/EuMonExperiment.ipynb).
