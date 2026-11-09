@@ -107,7 +107,7 @@
       "application:preferred_app": "Insula Experiment"
     },
     {
-      "rel": "related",
+      "rel": "via",
       "href": "https://code.insula.earth/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcgi-italy%2Fearthcode-notebooks&urlpath=lab%2Ftree%2Fearthcode-notebooks%2FEuMonExperiment.ipynb&branch=main",
       "type": "text/html",
       "title": "Execute: direct URL to the Insula Experiment platform for execution of the experiment."
