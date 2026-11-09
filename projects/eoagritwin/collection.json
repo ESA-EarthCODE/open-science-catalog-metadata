@@ -26,6 +26,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eoagritwin-lstsdd/collection.json",
+      "type": "application/json",
+      "title": "Crop-specific Land Surface Temperature Stress Degree Days for Germany (Sentinel-3 SLSTR)"
     }
   ],
   "stac_extensions": [

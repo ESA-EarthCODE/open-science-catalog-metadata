@@ -2216,6 +2216,12 @@
       "href": "./morlenn_mld/collection.json",
       "type": "application/json",
       "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "child",
+      "href": "./eoagritwin-lstsdd/collection.json",
+      "type": "application/json",
+      "title": "Crop-specific Land Surface Temperature Stress Degree Days for Germany (Sentinel-3 SLSTR)"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

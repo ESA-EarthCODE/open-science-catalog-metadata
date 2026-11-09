@@ -1,0 +1,145 @@
+{
+  "type": "Collection",
+  "id": "eoagritwin-lstsdd",
+  "stac_version": "1.0.0",
+  "description": "Annual crop-specific Land Surface Temperature Stress Degree Days (LSTSDDs; Schreier et al. 2026, in review) for maize, potato, sugar beet, winter rapeseed and winter wheat over Germany for the years 2017 to 2024, produced in the EOAgriTwin project. LSTSDDs quantify the cumulative heat exposure of a crop during its growing season: daily Sentinel-3 SLSTR land surface temperature is accumulated within crop-specific phenological phases derived from DWD phenological observations (DWD 2026) and restricted to the pixels of each crop according to the national crop type maps of Blickensdoerfer et al. (2022) and Schwieder et al. (2022). The product is provided as one Zarr data cube per crop (time x latitude x longitude, one layer per year) on a 0.01 degree grid (EPSG:4326), in degree Celsius days. Pixels without the respective crop are set to NaN.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Project: EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land Surface Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/eoagritwin-lstsdd/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.eoagritwin.eu/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-lstsdd-maize.json",
+      "type": "application/json",
+      "title": "LSTSDD maize Zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-lstsdd-potato.json",
+      "type": "application/json",
+      "title": "LSTSDD potato Zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-lstsdd-sugarbeet.json",
+      "type": "application/json",
+      "title": "LSTSDD sugar beet Zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-lstsdd-winter-rapeseed.json",
+      "type": "application/json",
+      "title": "LSTSDD winter rapeseed Zarr store"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-lstsdd-winter-wheat.json",
+      "type": "application/json",
+      "title": "LSTSDD winter wheat Zarr store"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-11-09T14:50:56.986532Z",
+  "updated": "2026-11-09T14:50:56.986532Z",
+  "osc:project": "eoagritwin",
+  "osc:status": "ongoing",
+  "osc:region": "Germany",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "osc:variables": [
+    "land-surface-temperature"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "surface_temperature"
+    }
+  ],
+  "title": "Crop-specific Land Surface Temperature Stress Degree Days for Germany (Sentinel-3 SLSTR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.86,
+          47.27,
+          15.05,
+          55.06
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Heat stress",
+    "Stress Degree Days",
+    "Land Surface Temperature",
+    "Crop specific",
+    "Agriculture"
+  ]
+}
