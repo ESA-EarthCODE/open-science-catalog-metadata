@@ -50,14 +50,62 @@
       "href": "./eoagritwin-agricultural-fields-parquet.json",
       "type": "application/json",
       "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2018.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2019.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2020.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2021.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2022.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2023.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2024.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
+    },
+    {
+      "rel": "item",
+      "href": "./eoagritwin-agricultural-fields-parquet-2025.json",
+      "type": "application/json",
+      "title": "Agricultural Fields Vector Layer"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "created": "2026-10-30T16:45:01.031893Z",
-  "updated": "2026-10-30T16:45:01.031893Z",
+  "created": "2026-11-10T00:11:13.112831Z",
+  "updated": "2026-11-10T00:11:13.112831Z",
   "osc:project": "eoagritwin",
   "osc:status": "ongoing",
   "osc:region": "Germany",
