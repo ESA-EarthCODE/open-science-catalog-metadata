@@ -49,7 +49,7 @@
     "contacts": [{"emails": [{"value": "Marie-Helene.RIO@esa.int"}],
                "name": "Marie-Helene Rio",
                "roles": ["technical_officer"]},
-              {"name": "CMCC", "roles": ["consortium_member"]},
+              {"name": "CMCC Foundation", "roles": ["consortium_member"]},
              {"name": "NERSC", "roles": ["consortium_member"]}
    ]
 }
