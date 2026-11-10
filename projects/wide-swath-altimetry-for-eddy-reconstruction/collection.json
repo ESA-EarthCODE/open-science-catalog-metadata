@@ -17,7 +17,7 @@
         {"href": "https://github.com/andcipollonecmcc/Eddy_Detection_Water/", # your dedicated project page
             "rel": "via",
             "title": "Website"},
-           {"href": "https://eo4society.esa.int/projects/wide-swath-altimetry-for-eddy-reconstruction/", #link to the project page on EO4Society website
+           {"href": "", #link to the project page on EO4Society website
             "rel": "via",
             "title": "EO4Society Link"},
         // The next link is a link to the themes specified in the themes field below. It is mandatory to have a link to all themes specified in the themes array
