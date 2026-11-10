@@ -2150,8 +2150,14 @@
       "href": "./careheat-database/collection.json",
       "type": "application/json",
       "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel":"child", 
+      "href": "./wide-swath-altimetry-for-eddy-reconstruction/collection.json",
+      "type": "application/json",
+      "title": "Wide Swath Altimetry for Eddy Reconstruction"
     }
   ],
-  "updated": "2024-09-12T20:32:22.975110Z",
+  "updated": "2026-11-10T10:32:22.975110Z",
   "title": "Products"
 }
