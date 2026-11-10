@@ -9,7 +9,7 @@
  ],
  "created": "2026-11-02T15:41:16Z", //initial creation date
  "updated": "2026-11-02T15:41:16Z’,  // date of the last update
- "title": ‘WATER’, // product title
+ "title": ‘wide-swath-altimetry-for-eddy-reconstruction’, // product title
  "description": ‘WATER is an ESA funded project that studies the population of active ’
 			  ‘eddies based on SWOT-enriched and conventional satellite altimetry. ’
 			  ‘Active eddies are surface SLA pattern that include a colocalized SST ’
