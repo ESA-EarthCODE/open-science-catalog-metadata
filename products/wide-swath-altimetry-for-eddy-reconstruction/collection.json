@@ -37,7 +37,7 @@
     "type": "application/json"},
     {"href": "../../projects/wide-swath-altimetry-for-eddy-reconstruction/collection.json", // link to parent project (associated project)
     "rel": "related",
-    "title": "Project: wide-swath-altimetry-for-eddy-reconstruction,
+    "title": "wide-swath-altimetry-for-eddy-reconstruction",
     "type": "application/json"},
 
     {"href": "../../themes/oceans/catalog.json", // link to the theme (scientific domain) this product is associated with.
