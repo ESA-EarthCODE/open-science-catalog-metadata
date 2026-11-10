@@ -47,12 +47,6 @@
     },
     {
       "rel": "item",
-      "href": "./eoagritwin-agricultural-fields-parquet.json",
-      "type": "application/json",
-      "title": "Agricultural Fields Vector Layer"
-    },
-    {
-      "rel": "item",
       "href": "./eoagritwin-agricultural-fields-parquet-2018.json",
       "type": "application/json",
       "title": "Agricultural Fields Vector Layer"
@@ -104,8 +98,8 @@
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "created": "2026-11-10T00:11:13.112831Z",
-  "updated": "2026-11-10T00:11:13.112831Z",
+  "created": "2026-11-10T10:54:52.755630Z",
+  "updated": "2026-11-10T10:54:52.755630Z",
   "osc:project": "eoagritwin",
   "osc:status": "ongoing",
   "osc:region": "Germany",
