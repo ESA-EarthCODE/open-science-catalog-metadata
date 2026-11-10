@@ -23,6 +23,12 @@
       "title": "SWOT-BFNQG East Greenland Current"
     },
     {
+      "rel": "child",
+      "href": "../../products/wide-swath-altimetry-for-eddy-reconstruction/collection.json",
+      "type": "application/json",
+      "title": "wide-swath-altimetry-for-eddy-reconstruction"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
