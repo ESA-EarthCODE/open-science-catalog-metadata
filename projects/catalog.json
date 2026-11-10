@@ -1282,10 +1282,10 @@
       "title": "Eutrophication Monitoring for SDG Engine"
     },
     {
-    'rel':'child', 
-    'target: './wide-swath-altimetry-for-eddy-reconstruction/collection.json', // use the collectionid of the project
-    'media_type': 'application/json',
-    'title': 'wide-swath-altimetry-for-eddy-reconstruction'   // title of th project as described in the collection.json file created before. 
+      "rel":"child", 
+      "href": "./wide-swath-altimetry-for-eddy-reconstruction/collection.json",
+      "type": "application/json",
+      "title": "wide-swath-altimetry-for-eddy-reconstruction"
     }
   ],
   "updated": "2026-11-1-T10:30:23.037110Z",
