@@ -1,0 +1,79 @@
+ {
+ 'type': 'Collection', // This is the STAC type specification. You dont need to change this
+ 'id': 'wide-swath-altimetry-for-eddy-reconstruction', // This is the unique id of the product. Typically contains the dataset title+project name (or acronym)
+ 'stac_version': '1.0.0', // This is the STAC version specification. You dont need to change this
+ 'stac_extensions': [  // which schemas is the product information validated against. Typically you would not change these.
+    'https://stac-extensions.github.io/osc/v1.0.0/schema.json',
+    'https://stac-extensions.github.io/themes/v1.0.0/schema.json',
+    'https://stac-extensions.github.io/cf/v0.2.0/schema.json'
+ ],
+ 'created': '2026-11-02T15:41:16Z', //initial creation date
+ 'updated': '2026-11-02T15:41:16Z’,  // date of the last update
+ 'title': ‘WATER’, // product title
+ 'description': ‘WATER is an ESA funded project that studies the population of active ’
+			  ‘eddies based on SWOT-enriched and conventional satellite altimetry. ’
+			  ‘Active eddies are surface SLA pattern that include a colocalized SST ’
+                ‘environmental anomaly that is typically the signal of the 3D ’
+                ‘physical/biological processes concurring in the same place.’,
+ 'extent': {'spatial': {'bbox': [[-180.0, -90.0, 180.0, 90.0]]}, // the temporal and spatial extent of the product
+            'temporal': {'interval': [['2023-07-27T00:00:00Z',
+                                       '2024-05-01T23:59:59Z']]}},
+ 'keywords': [‘eddy detection’, ‘Ocean’,’SWOT’,’Machine Learning’], // list of keywords associated with the product. These are expected to be inline with the description.
+
+ 'osc:project': 'wide-swath-altimetry-for-eddy-reconstruction', //unique id of the OSC project, this product is associated with. It must be the id provided in the ./project/(collectionid)
+ 'osc:region': ‘Global’, //text description of the study area
+ 'osc:status': 'ongoing', //product status
+ 'osc:type': 'product', // Type of OSC STAC collection, for products should always be product
+ 
+ 'links': [ // links to different elements of the catalog. The first two links should always be present and are always the same.
+    
+    {'href': '../../catalog.json',
+    'rel': 'root',
+    'title': 'Open Science Catalog',
+    'type': 'application/json'},
+    {'href': '../catalog.json',
+    'rel': 'parent',
+    'title': 'Products',
+    'type': 'application/json'},
+    {'href': '../../projects/wide-swath-altimetry-for-eddy-reconstruction/collection.json', // link to parent project (associated project)
+    'rel': 'related',
+    'title': 'Project: WATER’,
+    'type': 'application/json'},
+
+    {'href': '../../themes/oceans/catalog.json', // link to the theme (scientific domain) this product is associated with.
+    'rel': 'related',
+    'title': 'Theme: Ocean',
+    'type': 'application/json'},
+    {'href': '../../eo-missions/swot/catalog.json', // link to eo-missions used to produce the outcomes
+    'rel': 'related',
+    'title': 'EO Mission: swot',
+    'type': 'application/json'},
+    {'href': '../../variables/eddies/catalog.json', // link to variables specified below.
+    'rel': 'related',
+    'title': 'Variable: eddies',
+    'type': 'application/json'},
+
+    {'href': 'wide-swath-altimetry-for-eddy-reconstruction', // link to dataset hosted in ESA Project Results Repository (PRR). 
+    'rel': 'child',
+    'title': 'wide-swath-altimetry-for-eddy-reconstruction'},
+
+    {'href': 'https://zenodo.org/records/22917676',
+    'rel': 'via',
+    'title': 'Access'}, // external link to the actual data
+    {'href': 'https://github.com/andcipollonecmcc/Eddy_Detection_Water/',
+    'rel': 'via',
+    'title': 'Code'} // external link to data documentation
+],
+ 'osc:missions': ['swot'], // array of ESA missions related to the product. This array of values is mandatory and limited to missions already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
+ 'osc:variables': ['sea-level-anomaly'], // array of variables related to the product. This array of values is mandatory and limited to variables already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
+ 'cf:parameter': [{'name': 'sea-level-anomaly'}], // optional parameters following cf conventions
+ 
+ 'sci:doi': '', // DOI, if already assigned
+ 
+ 'themes': [ // this is an array of the ESA themes the project relates to. The fields are restricted to the themes available in the OCS. The format of the array is id:theme and having at least one theme is mandatory.
+    {'concepts': [{'id': 'Ocean'}],
+    'scheme': 'https://github.com/stac-extensions/osc#theme'}],
+ 
+ 'license': 'CC-BY-4.0', //  License of the product. Should be one of https://github.com/ESA-EarthCODE/open-science-catalog-validation/blob/main/schemas/license.json
+
+}
