@@ -65,15 +65,14 @@
     "title": "Code"} // external link to data documentation
 ],
  "osc:missions": ["swot"], // array of ESA missions related to the product. This array of values is mandatory and limited to missions already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
- "osc:variables": ["sea-level-anomaly"], // array of variables related to the product. This array of values is mandatory and limited to variables already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
- "cf:parameter": [{"name": "sea-level-anomaly"}], // optional parameters following cf conventions
+ "osc:variables": ["eddies"], // array of variables related to the product. This array of values is mandatory and limited to variables already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
+ "cf:parameter": [{"name": "eddies"}], // optional parameters following cf conventions
  
  "sci:doi": "", // DOI, if already assigned
  
  "themes": [ // this is an array of the ESA themes the project relates to. The fields are restricted to the themes available in the OCS. The format of the array is id:theme and having at least one theme is mandatory.
     {"concepts": [{"id": "Ocean"}],
     "scheme": "https://github.com/stac-extensions/osc#theme"}],
- 
  "license": "CC-BY-4.0", //  License of the product. Should be one of https://github.com/ESA-EarthCODE/open-science-catalog-validation/blob/main/schemas/license.json
 
 }
