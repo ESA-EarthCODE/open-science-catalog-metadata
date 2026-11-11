@@ -12,9 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "../../products/wide-swath-altimetry-for-eddy-reconstruction/catalog.json",
+      "href": "../../products/wide-swath-altimetry-for-eddy-reconstruction/collection.json",
       "type": "application/json",
-      "title": "Sea Surface Salinity - Monthly Anomalies"
+      "title": "wide-swath-altimetry-for-eddy-reconstruction"
     },
     {
       "rel": "parent",
