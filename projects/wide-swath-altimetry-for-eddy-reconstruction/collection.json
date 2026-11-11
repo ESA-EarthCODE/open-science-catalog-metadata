@@ -7,7 +7,7 @@
 			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
 			  "Active eddies are surface SLA pattern that include a colocalized SST "
            "environmental anomaly that is typically the signal of the 3D "
-           "physical/biological processes concurring in the same place. ", // A short, but meaningful description of your project.
+           "physical/biological processes concurring in the same place.", // A short, but meaningful description of your project.
     "links": [  // links to related elements of the catalog. The first two links should always be present and are always the same.
         {"href": "../../catalog.json",
         "rel": "root",
