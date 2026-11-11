@@ -3,7 +3,11 @@
 "stac_version": "1.1.0",  // This is the STAC version specification. You dont need to change this
    "id": "wide-swath-altimetry-for-eddy-reconstruction", // This is your project id. Please make sure to use unique id name for your project! The parent folder of the collection.json should have the same name as this id (not displayed in the browser).
     "title": "WATER", // Title of your project. Official acronym of the project may be used as well (this will be displayed to public)
-    "description": " ", // A short, but meaningful description of your project.
+    "description": "WATER is an ESA funded project that studies the population of active "
+			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
+			  "Active eddies are surface SLA pattern that include a colocalized SST "
+           "environmental anomaly that is typically the signal of the 3D "
+           "physical/biological processes concurring in the same place. ", // A short, but meaningful description of your project.
     "links": [  // links to related elements of the catalog. The first two links should always be present and are always the same.
         {"href": "../../catalog.json",
         "rel": "root",
