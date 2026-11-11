@@ -5525,6 +5525,12 @@
     },
     {
       "rel": "child",
+      "href": "./sea-surface-temperature-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Sea Surface Temperature Anomaly"
+    },
+    {
+      "rel": "child",
       "href": "./sea-ice-cover/catalog.json",
       "type": "application/json",
       "title": "Sea-ice cover"
