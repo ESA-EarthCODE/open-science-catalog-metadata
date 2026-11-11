@@ -70,7 +70,7 @@
 ],
  "osc:missions": ["swot"], // array of ESA missions related to the product. This array of values is mandatory and limited to missions already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
  "osc:variables": ["eddies","sea-surface-temperature-anomaly"], // array of variables related to the product. This array of values is mandatory and limited to variables already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
- "cf:parameter": [], // optional parameters following cf conventions
+ "cf:parameter": [""], // optional parameters following cf conventions
  
  "sci:doi": "", // DOI, if already assigned
  
