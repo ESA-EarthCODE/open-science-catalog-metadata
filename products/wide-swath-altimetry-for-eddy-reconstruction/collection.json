@@ -52,6 +52,10 @@
     "rel": "related",
     "title": "Variable: eddies",
     "type": "application/json"},
+    {"href": "../../variables/sea-surface-temperature-anomaly/catalog.json", // link to variables specified below.
+    "rel": "related",
+    "title": "Variable: sea-surface-temperature-anomaly",
+    "type": "application/json"},
 
     {"href": "wide-swath-altimetry-for-eddy-reconstruction", // link to dataset hosted in ESA Project Results Repository (PRR). 
     "rel": "child",
