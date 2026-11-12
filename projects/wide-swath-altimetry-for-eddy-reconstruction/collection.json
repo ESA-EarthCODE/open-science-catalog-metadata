@@ -3,11 +3,7 @@
 "stac_version": "1.1.0", 
 "id": "wide-swath-altimetry-for-eddy-reconstruction",
 "title": "WATER", 
-"description": "WATER is an ESA funded project that studies the population of active "
-			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
-			  "Active eddies are surface SLA pattern that include a colocalized SST "
-             "environmental anomaly that is typically the signal of the 3D "
-             "physical/biological processes concurring in the same place.", // 
+"description": "WATER is an ESA funded project that studies the population of active eddies based on SWOT-enriched and conventional satellite altimetry. Active eddies are surface SLA pattern that include a colocalized SST environmental anomaly ", 
 "links": [  
         {"href": "../../catalog.json",
         "rel": "root",
