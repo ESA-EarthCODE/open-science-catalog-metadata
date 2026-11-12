@@ -1,11 +1,15 @@
   {
+ "sci:publications": [
+  {"doi": "10.83395/ph9r-yp75"}
+ ],
  "type": "Collection", 
  "id": "wide-swath-altimetry-for-eddy-reconstruction", 
  "stac_version": "1.0.0", 
  "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
  ],
  "created": "2026-11-02T15:41:16Z",
  "updated": "2026-11-02T15:41:16Z", 

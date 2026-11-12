@@ -8,7 +8,7 @@ import re
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from datacite import DataCiteClient, map_stac_to_datacite
-from check_changes import check_doi_need, check_pr_for_new_version_requests
+from check_changes import check_doi_need, check_pr_for_new_version_requests, get_file_at_commit
 
 SCIENTIFIC_EXTENSION_URL = "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
 PORTAL_UI_BASE_URL = os.getenv("PORTAL_UI_BASE_URL", "https://opensciencedata.esa.int")
@@ -200,8 +200,44 @@ def main():
     summary = []
     requested_versions = check_pr_for_new_version_requests()
     prefix = os.environ.get("DATACITE_PREFIX")
+    has_failures = False
 
     for file_path in files:
+        if not os.path.exists(file_path):
+            print(f"File {file_path} was deleted in this PR.")
+            base_ref = os.environ.get("BASE_REF") or "HEAD~1"
+            historical_data = get_file_at_commit(file_path, base_ref)
+            if not historical_data:
+                print(f"Could not retrieve historical data for deleted file {file_path}")
+                continue
+
+            props_hist = historical_data.get("properties", historical_data)
+            canonical_doi = props_hist.get("sci:doi") or historical_data.get("sci:doi")
+            pubs_hist = props_hist.get("sci:publications", historical_data.get("sci:publications", []))
+            dois_to_clean = []
+            if canonical_doi and (not prefix or canonical_doi.startswith(prefix)):
+                dois_to_clean.append(canonical_doi)
+            for pub in pubs_hist:
+                v_doi = pub.get("doi")
+                if v_doi and (not prefix or v_doi.startswith(prefix)):
+                    dois_to_clean.append(v_doi)
+
+            for doi in set(dois_to_clean):
+                try:
+                    state = client.get_doi_state(doi)
+                    if state == "draft":
+                        print(f"Deleting Draft DOI {doi} for deleted file {file_path}")
+                        client.delete_doi(doi)
+                        summary.append(f"- {file_path}: Deleted Draft DOI ({doi}) for removed file")
+                    elif state in ["findable", "registered"]:
+                        print(f"Published DOI {doi} found for deleted file {file_path}; will be tombstoned upon merge.")
+                        summary.append(f"- {file_path}: Published DOI ({doi}) will be tombstoned upon merge")
+                except Exception as e:
+                    print(f"Failed to handle DOI {doi} for deleted file {file_path}: {e}")
+                    summary.append(f"- {file_path}: FAILED to handle DOI ({doi}) for removed file ({e})")
+                    has_failures = True
+            continue
+
         with open(file_path, 'r', encoding='utf-8') as f:
             stac_item = json.load(f)
         
@@ -222,6 +258,7 @@ def main():
             except Exception as e:
                 print(f"Failed to create canonical DOI for {file_path}: {e}")
                 summary.append(f"- {file_path}: FAILED to create Canonical DOI ({e})")
+                has_failures = True
                 continue
         else:
             # Update existing Canonical DOI metadata
@@ -232,6 +269,8 @@ def main():
                 summary.append(f"- {file_path}: Updated Canonical DOI metadata ({canonical_doi})")
             except Exception as e:
                 print(f"Failed to update Canonical DOI {canonical_doi}: {e}")
+                summary.append(f"- {file_path}: FAILED to update Canonical DOI metadata ({e})")
+                has_failures = True
 
         # Determine if the canonical DOI is brand new in this PR
         is_new_canonical_in_pr = False
@@ -287,6 +326,7 @@ def main():
                 except Exception as e:
                     print(f"Failed to update existing Draft Version DOI {latest_v_doi}: {e}")
                     summary.append(f"- {file_path}: FAILED to update Draft Version DOI ({e})")
+                    has_failures = True
             else:
                 # Generate a brand new Draft Version DOI
                 print(f"{reason} for {file_path}. Generating Draft Version DOI.")
@@ -305,6 +345,7 @@ def main():
                 except Exception as e:
                     print(f"Failed to create version DOI for {file_path}: {e}")
                     summary.append(f"- {file_path}: FAILED to create Version DOI ({e})")
+                    has_failures = True
         else:
             # No version requested and it is not a new canonical.
             # If there is a draft version DOI in our publications, we must remove it (Unticked state)
@@ -317,6 +358,7 @@ def main():
                 except Exception as e:
                     print(f"Failed to delete/remove unticked Draft Version DOI {latest_v_doi}: {e}")
                     summary.append(f"- {file_path}: FAILED to delete/remove unticked Draft Version DOI ({e})")
+                    has_failures = True
             else:
                 # No draft exists, or latest version is already published.
                 if latest_v_doi:
@@ -331,6 +373,10 @@ def main():
             f.write("\n".join(summary))
     else:
         print("No DOI actions performed.")
+
+    if has_failures:
+        print("\nError: One or more DOI actions failed during audit.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

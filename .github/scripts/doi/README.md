@@ -46,10 +46,10 @@ On every push to `main`, the system builds a versioned static site in the `dist/
 The system automatically extracts provider information from your STAC/OGC metadata to populate DataCite fields. This logic relies on the STAC Provider `roles` array:
 
 - **Creator (Mandatory, 1+):** Extracted from any provider with the `producer` role. 
-  - *Fallback:* If no producer is found, it defaults to `"ESA EarthCODE"` (mapped with `nameType: "Organizational"`).
+  - *Fallback:* If no producer is found, it defaults to `"EarthCODE"` (mapped with `nameType: "Organizational"`).
 - **Publisher (Mandatory, exactly 1):** Extracted from the provider with the `host` role. 
   - *Conflict Resolution:* If multiple providers have the `host` role, the **last** one listed in the file is used, as DataCite strictly requires a single publisher.
-  - *Fallback:* If no host is found, it defaults to `"ESA EarthCODE"`.
+  - *Fallback:* If no host is found, it defaults to `"EarthCODE"`.
 - **Contributor (Optional):** Extracted from providers with `licensor`, `processor`, or `contributor` roles.
   - *Note:* `processor` providers are mapped as `DataCollector`, while `licensor` or `contributor` providers are mapped as `Distributor`.
 
