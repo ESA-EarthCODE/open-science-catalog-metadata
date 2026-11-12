@@ -56,7 +56,7 @@
     "osc:project": "eoagritwin",
     "osc:status": "ongoing",
     "created": "2026-10-22T00:00:00Z",
-    "updated": "2026-11-09T00:00:00Z"
+    "updated": "2026-11-12T00:00:00Z"
   },
   "links": [
     {
@@ -96,9 +96,9 @@
     },
     {
       "rel": "git",
-      "href": "https://github.com/eoagritwin/early-season-crop-mapping.git",
+      "href": "https://github.com/eoagritwin/UseCase_Italy.git",
       "type": "text/html",
-      "title": "Git source repository"
+      "title": "Git source repository (code in the folder early_crop_mapping/)"
     }
   ]
 }
