@@ -7,9 +7,9 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
  ],
- "created": "2026-11-02T15:41:16Z", //initial creation date
- "updated": "2026-11-02T15:41:16Z",  // date of the last update
- "title": "WATER", // product title
+ "created": "2026-11-02T15:41:16Z",
+ "updated": "2026-11-02T15:41:16Z", 
+ "title": "WATER", 
  "description": "WATER is an ESA funded project that studies the population of active "
 			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
 			  "Active eddies are surface SLA pattern that include a colocalized SST "
