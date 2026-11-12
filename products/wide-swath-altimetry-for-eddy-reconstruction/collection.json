@@ -13,8 +13,8 @@
  "description": "WATER is an ESA funded project that studies the population of active "
 			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
 			  "Active eddies are surface SLA pattern that include a colocalized SST "
-                "environmental anomaly that is typically the signal of the 3D "
-                "physical/biological processes concurring in the same place.",
+              "environmental anomaly that is typically the signal of the 3D "
+              "physical/biological processes concurring in the same place.",
  "extent": {"spatial": {"bbox": [[-180.0, -90.0, 180.0, 90.0]]}, // the temporal and spatial extent of the product
             "temporal": {"interval": [["2023-07-27T00:00:00Z",
                                        "2024-05-01T23:59:59Z"]]}},
@@ -24,9 +24,7 @@
  "osc:region": "Global", //text description of the study area
  "osc:status": "ongoing", //product status
  "osc:type": "product", // Type of OSC STAC collection, for products should always be product
- 
  "links": [ // links to different elements of the catalog. The first two links should always be present and are always the same.
-    
     {"href": "../../catalog.json",
     "rel": "root",
     "title": "Open Science Catalog",
@@ -39,7 +37,6 @@
     "rel": "related",
     "title": "wide-swath-altimetry-for-eddy-reconstruction",
     "type": "application/json"},
-
     {"href": "../../themes/oceans/catalog.json", // link to the theme (scientific domain) this product is associated with.
     "rel": "related",
     "title": "Theme: Ocean",
@@ -56,11 +53,9 @@
     "rel": "related",
     "title": "Variable: sea-surface-temperature-anomaly",
     "type": "application/json"},
-
     {"href": "wide-swath-altimetry-for-eddy-reconstruction", // link to dataset hosted in ESA Project Results Repository (PRR). 
     "rel": "child",
     "title": "wide-swath-altimetry-for-eddy-reconstruction"},
-
     {"href": "https://zenodo.org/records/22917676",
     "rel": "via",
     "title": "Access"}, // external link to the actual data
@@ -70,13 +65,10 @@
 ],
  "osc:missions": ["swot"], // array of ESA missions related to the product. This array of values is mandatory and limited to missions already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
  "osc:variables": ["eddies","sea-surface-temperature-anomaly"], // array of variables related to the product. This array of values is mandatory and limited to variables already existing in the OSC. If you would like to associate your product to a mission that is not on the list, create eo-mission entry first. 
- "cf:parameter": [""], // optional parameters following cf conventions
- 
+ "cf:parameter": ["eddies"], // optional parameters following cf conventions
  "sci:doi": "", // DOI, if already assigned
- 
  "themes": [ // this is an array of the ESA themes the project relates to. The fields are restricted to the themes available in the OCS. The format of the array is id:theme and having at least one theme is mandatory.
     {"concepts": [{"id": "Ocean"}],
     "scheme": "https://github.com/stac-extensions/osc#theme"}],
  "license": "CC-BY-4.0", //  License of the product. Should be one of https://github.com/ESA-EarthCODE/open-science-catalog-validation/blob/main/schemas/license.json
-
 }
