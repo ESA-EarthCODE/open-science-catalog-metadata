@@ -8,7 +8,7 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "parent",
@@ -44,6 +44,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/early-season-crop-type-maps-po-plain-eoagritwin/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/early-season-crop-type-maps-po-plain-eoagritwin/collection",
+      "type": "text/html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.eoagritwin.eu/",
+      "type": "text/html",
+      "title": "Documentation"
     },
     {
       "rel": "related",
