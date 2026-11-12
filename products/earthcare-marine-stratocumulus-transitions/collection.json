@@ -84,6 +84,11 @@
       "title": "Access"
     },
     {
+      "rel": "via",
+      "href": "https://doi.org/10.5194/acp-26-14085-2026",
+      "title": "Documentation"
+    },
+    {
       "rel": "item",
       "href": "./earthcare-acmcap-scene-properties.json",
       "type": "application/json",
@@ -196,7 +201,7 @@
   "fair:Interoperable_uses_formal_language": true,
   "fair:Interoperable_controlled_vocabularies": true,
   "fair:Interoperable_related_links": true,
-  "fair:Interoperable_has_documentation": false,
+  "fair:Interoperable_has_documentation": true,
   "fair:Reusable_rich_descriptions": true,
   "fair:Reusable_has_license": true,
   "fair:Reusable_workflow_exists": true,
