@@ -1,14 +1,14 @@
 {
 "type": "Collection", // This is the STAC type specification. You dont need to change this
 "stac_version": "1.1.0",  // This is the STAC version specification. You dont need to change this
-   "id": "wide-swath-altimetry-for-eddy-reconstruction", // This is your project id. Please make sure to use unique id name for your project! The parent folder of the collection.json should have the same name as this id (not displayed in the browser).
-    "title": "WATER", // Title of your project. Official acronym of the project may be used as well (this will be displayed to public)
-    "description": "WATER is an ESA funded project that studies the population of active "
+"id": "wide-swath-altimetry-for-eddy-reconstruction", // This is your project id. Please make sure to use unique id name for your project! The parent folder of the collection.json should have the same name as this id (not displayed in the browser).
+"title": "WATER", // Title of your project. Official acronym of the project may be used as well (this will be displayed to public)
+"description": "WATER is an ESA funded project that studies the population of active "
 			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
 			  "Active eddies are surface SLA pattern that include a colocalized SST "
-           "environmental anomaly that is typically the signal of the 3D "
-           "physical/biological processes concurring in the same place.", // A short, but meaningful description of your project.
-    "links": [  // links to related elements of the catalog. The first two links should always be present and are always the same.
+             "environmental anomaly that is typically the signal of the 3D "
+             "physical/biological processes concurring in the same place.", // A short, but meaningful description of your project.
+"links": [  // links to related elements of the catalog. The first two links should always be present and are always the same.
         {"href": "../../catalog.json",
         "rel": "root",
         "title": "Open Science Catalog",
@@ -19,38 +19,35 @@
         "type": "application/json"},
         // The next two links are external links to project websites.  These are mandatory and you have to adapt them to your project.
         {"href": "https://github.com/andcipollonecmcc/Eddy_Detection_Water/", # your dedicated project page
-            "rel": "via",
-            "title": "Website"},
-           {"href": "", #link to the project page on EO4Society website
-            "rel": "via",
-            "title": "EO4Society Link"},
+         "rel": "via",
+         "title": "Website"},
+        {"href": "", #link to the project page on EO4Society website
+         "rel": "via",
+		 "title": "EO4Society Link"},
         // The next link is a link to the themes specified in the themes field below. It is mandatory to have a link to all themes specified in the themes array
         {"href": "../../themes/Oceans/catalog.json",  #related theme of the project
-            "rel": "related",
-            "title": "Theme: Oceans",
-            "type": "application/json"}
+         "rel": "related",
+         "title": "Theme: Oceans",
+         "type": "application/json"}
     ],
-
-    "themes": [ // this is an array of the ESA themes the project relates to. The fields are restricted to the themes available in the OCS. The format of the array is id:theme and having at least one theme is mandatory. Check available themes here: https://opensciencedata.esa.int/themes/catalog
-        {"concepts": [{"id": "Oceans"}], 
-        "scheme": "https://github.com/stac-extensions/osc#theme"}
-    ],
-
-    "stac_extensions": [ // which schemas is the project information validated against. Typically you would not change these.
+"stac_extensions": [ // which schemas is the project information validated against. Typically you would not change these.
         "https://stac-extensions.github.io/osc/v1.0.0/schema.json", 
         "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
         "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
-        ]
-    "osc:project": "wide-swath-altimetry-for-eddy-reconstruction",
-    "osc:status": "ongoing", // status of the project - Select from: completed, ongoing, scheduled
-    "osc:type": "product", // Type of OSC STAC collection, for projects should always be project
-    "updated": "2026-09-18T14:26:29Z", // when was last update made
-    "extent": {"spatial": {"bbox": [[-180.0, -90.0, 180.0, 90.0]]}, // The study area of the project and its planned duration.
+        ],
+"osc:project": "wide-swath-altimetry-for-eddy-reconstruction",
+"osc:status": "ongoing", // status of the project - Select from: completed, ongoing, scheduled
+"osc:type": "product", // Type of OSC STAC collection, for projects should always be project
+"updated": "2026-09-18T14:26:29Z", // when was last update made
+"extent": {"spatial": {"bbox": [[-180.0, -90.0, 180.0, 90.0]]}, // The study area of the project and its planned duration.
                 "temporal": {"interval": [["2025-03-01T00:00:00Z",
                                         "2026-09-01T23:59:59Z"]]}}
-    "license": "CC-BY-4.0",  Top level license of project outcomes. Should be one of https://github.com/ESA-EarthCODE/open-science-catalog-validation/blob/main/schemas/license.json
-    // list of consortium members working on the project and contact to ESA TO following the project. This field is required.
-    "contacts": [{"emails": [{"value": "Marie-Helene.RIO@esa.int"}],
+"license": "CC-BY-4.0",
+"themes": [
+	      {"concepts": [{"id": "Oceans"}], 
+          "scheme":"https://github.com/stac-extensions/osc#themes"}
+],	
+"contacts": [{"emails": [{"value": "Marie-Helene.RIO@esa.int"}],
                "name": "Marie-Helene Rio",
                "roles": ["technical_officer"]},
               {"name": "CMCC Foundation", "roles": ["consortium_member"]},
