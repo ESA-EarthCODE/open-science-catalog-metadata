@@ -10,11 +10,7 @@
  "created": "2026-11-02T15:41:16Z",
  "updated": "2026-11-02T15:41:16Z", 
  "title": "WATER", 
- "description": "WATER is an ESA funded project that studies the population of active "
-			  "eddies based on SWOT-enriched and conventional satellite altimetry. "
-			  "Active eddies are surface SLA pattern that include a colocalized SST "
-              "environmental anomaly that is typically the signal of the 3D "
-              "physical/biological processes concurring in the same place.",
+ "description": "WATER is an ESA funded project that studies the population of active eddies based on SWOT-enriched and conventional satellite altimetry. Active eddies are surface SLA pattern that include a colocalized SST environmental anomaly",
  "extent": {"spatial": {"bbox": [[-180.0, -90.0, 180.0, 90.0]]}, 
             "temporal": {"interval": [["2023-07-27T00:00:00Z",
                                        "2024-05-01T23:59:59Z"]]}},
