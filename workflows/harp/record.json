@@ -3,9 +3,14 @@
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/7x9e-e954"}
+    ],
+    "sci:doi": "10.83395/wc7x-mc79",
     "title": "HARP software",
     "description": "HARP is a toolkit for reading, processing, and inter-comparing satellite remote sensing data, model data, in-situ data, and ground based remote sensing data.\n",
     "type": "workflow",
