@@ -64,13 +64,19 @@
       "rel": "git",
       "href": "https://github.com/stcorp/harp/releases/tag/1.31",
       "type": "application/json",
-      "title": "Git source repository"
+      "title": "HARP v1.31"
     },
     {
       "rel": "related",
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
-    }
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/stcorp/harp",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
   ]
 }
