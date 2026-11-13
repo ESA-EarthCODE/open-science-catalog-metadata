@@ -1310,6 +1310,12 @@
       "href": "./upperdyn/collection.json",
       "type": "application/json",
       "title": "Upper Ocean Dynamics (UpperDyn)"
+    },
+    {
+      "rel": "child",
+      "href": "./atmosphere-virtual-lab/collection.json",
+      "type": "application/json",
+      "title": "Atmosphere Virtual Lab"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",
