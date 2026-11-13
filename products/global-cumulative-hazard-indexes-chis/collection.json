@@ -156,6 +156,16 @@
       "href": "./global-cumulative-hazard-indexes-chis-mitho-chi4_2012_2020.json",
       "type": "application/json",
       "title": "mitho-chi4_2012_2020 zarr store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/mitho/access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
@@ -227,5 +237,6 @@
     "sea surface temperature",
     "ocean stressors",
     "marine hazards"
-  ]
+  ],
+  "fair:Reusable_has_access_example": true
 }

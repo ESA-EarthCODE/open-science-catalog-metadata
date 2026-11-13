@@ -90,6 +90,16 @@
       "href": "./4dmed-2d-alt-varnet-8-item.json",
       "type": "application/json",
       "title": "Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/4dmed-4dvar-8/access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
@@ -178,5 +188,5 @@
   "fair:Reusable_workflow_exists": false,
   "fair:Reusable_cloud_assets_rate": 1.0,
   "fair:Reusable_has_visualisation": false,
-  "fair:Reusable_has_access_example": false
+  "fair:Reusable_has_access_example": true
 }
