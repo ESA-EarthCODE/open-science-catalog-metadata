@@ -115,6 +115,5 @@
   "license": "CC-BY-4.0",
   "keywords": [
     "Finite-size Lyapunov Exponent"
-  ],
-  "fair:Reusable_has_access_example": true
+  ]
 }
