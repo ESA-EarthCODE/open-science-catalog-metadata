@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "id": "atmosphere-virtual-lab",
+  "stac_version": "1.0.0",
+  "description": "The Atmosphere Virtual Lab is based on three main pillars. It adopts the concept of Exploitation Platforms and Cloud Based services. There is a strong focus on making sure that users can work with the vast amounts of satellite data without having to download all data locally. Providing analysis environments inside cloud-based environments close to the data is an essential part in making this work. The project will further develop tools that have been historically developed for users to handle and process atmospheric data (cf. https://atmospherictoolbox.org/). Use cases of a wide selection of atmospheric science scenarios will demonstrate the capability of the Atmosphere Virtual Lab and allow users to explore datasets in an interactive manner.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://atmospherevirtuallab.org",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/atmosphere-virtual-lab/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-11-13T18:20:46.525711Z",
+  "updated": "2026-11-13T18:20:46.525711Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Edward Malina",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "edward.malina@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "S&T Netherlands B.V.",
+      "roles": [
+        "consortium_member"
+      ],
+      "emails": [
+        {
+          "value": "info@atmospherevirtuallab.org"
+        }
+      ]
+    },
+    {
+      "name": "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE)",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "FINNISH METEOROLOGICAL INSTITUTE (FI)",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "title": "Atmosphere Virtual Lab",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-10-01T00:00:00Z",
+          "2026-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various"
+}

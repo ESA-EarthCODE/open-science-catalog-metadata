@@ -1,0 +1,87 @@
+{
+  "id": "harp",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/7x9e-e954"}
+    ],
+    "sci:doi": "10.83395/wc7x-mc79",
+    "title": "HARP software",
+    "description": "HARP is a toolkit for reading, processing, and inter-comparing satellite remote sensing data, model data, in-situ data, and ground based remote sensing data.\n",
+    "type": "workflow",
+    "osc:project": "atmosphere-virtual-lab",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "netCDF"
+      },
+      {
+        "name": "HDF5"
+      }
+    ],
+    "updated": "2026-11-13T18:20:55Z",
+    "created": "2026-11-13T18:20:55Z",
+    "keywords": [
+      "atmosphere",
+      "software",
+      "harmonisation",
+      "validation"
+    ],
+    "license": "BSD-3-Clause",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/atmosphere-virtual-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: Atmosphere Virtual Lab"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/stcorp/harp/releases/tag/1.31",
+      "type": "application/json",
+      "title": "HARP v1.31"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/stcorp/harp",
+      "type": "application/json",
+      "title": "Git source repository"
+    }
+  ]
+}
