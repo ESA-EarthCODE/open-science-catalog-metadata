@@ -48,6 +48,16 @@
       "href": "./4dmed-2d-alt-miost-le-24-item.json",
       "type": "application/json",
       "title": "Zarr store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/4dmed-fsle/access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
