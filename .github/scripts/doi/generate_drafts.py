@@ -8,7 +8,7 @@ import re
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from datacite import DataCiteClient, map_stac_to_datacite
-from check_changes import check_doi_need, check_pr_for_new_version_requests
+from check_changes import check_doi_need, check_pr_for_new_version_requests, get_file_at_commit
 
 SCIENTIFIC_EXTENSION_URL = "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
 PORTAL_UI_BASE_URL = os.getenv("PORTAL_UI_BASE_URL", "https://opensciencedata.esa.int")
@@ -203,6 +203,41 @@ def main():
     has_failures = False
 
     for file_path in files:
+        if not os.path.exists(file_path):
+            print(f"File {file_path} was deleted in this PR.")
+            base_ref = os.environ.get("BASE_REF") or "HEAD~1"
+            historical_data = get_file_at_commit(file_path, base_ref)
+            if not historical_data:
+                print(f"Could not retrieve historical data for deleted file {file_path}")
+                continue
+
+            props_hist = historical_data.get("properties", historical_data)
+            canonical_doi = props_hist.get("sci:doi") or historical_data.get("sci:doi")
+            pubs_hist = props_hist.get("sci:publications", historical_data.get("sci:publications", []))
+            dois_to_clean = []
+            if canonical_doi and (not prefix or canonical_doi.startswith(prefix)):
+                dois_to_clean.append(canonical_doi)
+            for pub in pubs_hist:
+                v_doi = pub.get("doi")
+                if v_doi and (not prefix or v_doi.startswith(prefix)):
+                    dois_to_clean.append(v_doi)
+
+            for doi in set(dois_to_clean):
+                try:
+                    state = client.get_doi_state(doi)
+                    if state == "draft":
+                        print(f"Deleting Draft DOI {doi} for deleted file {file_path}")
+                        client.delete_doi(doi)
+                        summary.append(f"- {file_path}: Deleted Draft DOI ({doi}) for removed file")
+                    elif state in ["findable", "registered"]:
+                        print(f"Published DOI {doi} found for deleted file {file_path}; will be tombstoned upon merge.")
+                        summary.append(f"- {file_path}: Published DOI ({doi}) will be tombstoned upon merge")
+                except Exception as e:
+                    print(f"Failed to handle DOI {doi} for deleted file {file_path}: {e}")
+                    summary.append(f"- {file_path}: FAILED to handle DOI ({doi}) for removed file ({e})")
+                    has_failures = True
+            continue
+
         with open(file_path, 'r', encoding='utf-8') as f:
             stac_item = json.load(f)
         
