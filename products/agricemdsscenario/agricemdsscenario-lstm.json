@@ -1,0 +1,75 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "agricemdsscenario-lstm",
+  "collection": "agricemdsscenario",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.4433892114255364,
+          50.85427289854394
+        ],
+        [
+          6.481963129244014,
+          50.85427289854394
+        ],
+        [
+          6.481963129244014,
+          50.871421684892226
+        ],
+        [
+          6.4433892114255364,
+          50.871421684892226
+        ],
+        [
+          6.4433892114255364,
+          50.85427289854394
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    6.4433892114255364,
+    50.85427289854394,
+    6.481963129244014,
+    50.871421684892226
+  ],
+  "properties": {
+    "title": "AgriCEM_DS_Scenario LSTM LSTM_L1C",
+    "description": "This collection is part of the representative dataset of the Sentinel User Preparation project AgriCEM. The goal of AgriCEM is to develop stress indicators for sugar beet crops based on CHIME and LSTM data. This collection contains simulated CHIME L2A and LSTM L1C data showing an agricultural site containing sugar beet fields with different types of simulated stress. The dataset was generated using the SCOPE model for the bottom-of-atmosphere reference signal and the RISE simulator for the satellite data products. The spatial coverage is a 2x2 km patch close to Selhausen, Germany. The temporal coverage spans over the sugar beet growing season with weekly measurements for a total of 24 scenes from May to October 2021.",
+    "datetime": null,
+    "start_datetime": "2021-05-19T00:00:00Z",
+    "end_datetime": "2021-10-27T00:00:00Z",
+    "gsd": 50
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "s3://agricem/20261016/DS_Scenario/LSTM/LSTM_L1C/datacube.zarr",
+      "type": "application/vnd+zarr",
+      "title": "LSTM datacube",
+      "roles": [
+        "data"
+      ],
+      "s3:endpoint_url": "https://s3.services.earthcode.eox.at",
+      "s3:anon": true,
+      "xarray:open_kwargs": {
+        "engine": "zarr"
+      }
+    }
+  }
+}

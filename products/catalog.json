@@ -2189,6 +2189,30 @@
     },
     {
       "rel": "child",
+      "href": "./agricemdsitaly/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Italy"
+    },
+    {
+      "rel": "child",
+      "href": "./agricemdspoland/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Poland"
+    },
+    {
+      "rel": "child",
+      "href": "./agricemdsscenario/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario"
+    },
+    {
+      "rel": "child",
+      "href": "./agricemdsscenariocloud/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_Cloud"
+    },
+    {
+      "rel": "child",
       "href": "./eutrophication-monitoring-turbidity/collection.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring Turbidity"

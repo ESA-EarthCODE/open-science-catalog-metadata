@@ -1,0 +1,97 @@
+{
+  "sci:publications": [
+    {"doi": "10.83395/dhm6-zt28"}
+  ],
+  "sci:doi": "10.83395/v19a-r684",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "id": "agricemdspoland",
+  "title": "AgriCEM_DS_Poland",
+  "created": "2026-10-08T15:29:17Z",
+  "osc:status": "completed",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "This collection is part of the representative dataset of the Sentinel User Preparation project AgriCEM. The goal of AgriCEM is to develop stress indicators for sugar beet crops based on CHIME and LSTM data. This collection contains simulated CHIME L2A and LSTM L1C data showing an agricultural site containing sugar beet fields with different types of simulated stress. The dataset was generated using the SCOPE model for the bottom-of-atmosphere reference signal and the RISE simulator for the satellite data products. The spatial coverage is a 2x2 km patch close to Glubczyce, Poland. The temporal coverage spans over the sugar beet growing season with weekly measurements from May to October 2025.",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          17.793939008879427,
+          50.14117830061596,
+          17.830359458363898,
+          50.16362278696079
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-05-01T00:00:00Z",
+          "2025-10-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/agricem/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: AgriCEM"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "item",
+      "href": "./agricemdspoland-chime.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./agricemdspoland-lstm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.services.earthcode.eox.at/agricem/20261016/DS_PL/CHIME/CHIM_L2A/datacube.zarr",
+      "title": "Access CHIME datacube"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.services.earthcode.eox.at/agricem/20261016/DS_PL/LSTM/LSTM_L1C/datacube.zarr",
+      "title": "Access LSTM datacube"
+    }
+  ],
+  "osc:project": "agricem",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}

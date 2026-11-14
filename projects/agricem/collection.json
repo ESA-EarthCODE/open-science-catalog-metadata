@@ -33,9 +33,33 @@
       "href": "../../products/agricemchimeds3v1/collection.json",
       "type": "application/json",
       "title": "AGRICEM Simulated CHIME L2A data"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsitaly/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Italy"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdspoland/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Poland"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenario/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenariocloud/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_Cloud"
     }
   ],
-   "stac_extensions": [
+  "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"

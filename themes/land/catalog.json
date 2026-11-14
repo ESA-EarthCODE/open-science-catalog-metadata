@@ -457,6 +457,30 @@
       "href": "../../products/eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsitaly/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Italy"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdspoland/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Poland"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenario/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenariocloud/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_Cloud"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
