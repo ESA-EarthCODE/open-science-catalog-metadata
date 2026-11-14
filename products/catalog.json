@@ -2212,6 +2212,7 @@
       "title": "AgriCEM_DS_Scenario_Cloud"
     },
     {
+      "rel": "child",
       "href": "./eutrophication-monitoring-turbidity/collection.json",
       "type": "application/json",
       "title": "Eutrophication Monitoring Turbidity"
