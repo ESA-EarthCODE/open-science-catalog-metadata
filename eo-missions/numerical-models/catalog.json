@@ -13,7 +13,7 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "via",
@@ -44,6 +44,12 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "EO Missions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Global Cumulative Hazard Indexes (CHIs)"
     },
     {
       "rel": "child",

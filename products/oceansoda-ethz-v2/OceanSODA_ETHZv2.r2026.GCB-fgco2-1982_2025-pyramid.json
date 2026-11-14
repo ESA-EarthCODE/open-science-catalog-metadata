@@ -1,0 +1,287 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "OceanSODA_ETHZv2.r2026.GCB-fgco2-1982_2025-pyramid",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "OceanSODA release v2.2026_GCB. Global sea-air CO2 flux and supporting variables. Datacube metadata describes native group 0 at 0.25 degrees; groups 1 and 2 provide 0.5- and 1-degree overviews. Open the root store with group=\"0\" for native data. Source citation: Gregor, L., Shutler, J.& Gruber, N. (2024). OceanSODA-ETHZ-v2: Surface ocean sea-air CO2 fluxes from 1982 to 202X (8-day by 0.25\u00b0 x 0.25\u00b0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.11206365",
+    "start_datetime": "1982-01-05T00:00:00Z",
+    "end_datetime": "2025-12-29T00:00:00Z",
+    "datetime": "1982-01-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "OceanSODA-ETHZv2"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/ocean-soda/OceanSODA_ETHZv2.r2026.GCB-fgco2-1982_2025-pyramid.zarr",
+      "type": "application/vnd+zarr",
+      "title": "OceanSODA-ETHZ v2 r2026 GCB: sea-air CO2 flux pyramid",
+      "created": "2026-10-22T11:06:42.622972Z",
+      "proj:code": "EPSG:4326",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "1982-01-05T00:00:00Z",
+            "2025-12-29T00:00:00Z"
+          ],
+          "type": "temporal",
+          "step": "PD8"
+        },
+        "lon": {
+          "axis": "x",
+          "extent": [
+            -179.875,
+            179.875
+          ],
+          "step": 0.25,
+          "description": "longitude",
+          "reference_system": 4326,
+          "type": "spatial"
+        },
+        "lat": {
+          "axis": "y",
+          "extent": [
+            -89.875,
+            89.875
+          ],
+          "step": -0.25,
+          "description": "latitude",
+          "reference_system": 4326,
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "alpha": {
+          "type": "data",
+          "description": "solubility based on Weiss (1974), with a correction for vapour pressure (Weiss, 1980)",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mol/L/atm",
+          "attrs": {
+            "description": "solubility based on Weiss (1974), with a correction for vapour pressure (Weiss, 1980)",
+            "units": "mol/L/atm",
+            "resampling_method": "average",
+            "visualization_range": [
+              0.02332237735390663,
+              0.061697520315647125
+            ]
+          },
+          "shape": [
+            2024,
+            720,
+            1440
+          ]
+        },
+        "area": {
+          "type": "data",
+          "description": "Area per pixel as calculated by pySeaFlux. The non-spherical shape of Earth is taken into account. Area calculated from the latitude and longitude coordinates of temperature",
+          "dimensions": [
+            "lat",
+            "lon"
+          ],
+          "unit": "m2",
+          "attrs": {
+            "description": "Area per pixel as calculated by pySeaFlux. The non-spherical shape of Earth is taken into account. Area calculated from the latitude and longitude coordinates of temperature",
+            "long_name": "Area per pixel",
+            "units": "m2",
+            "resampling_method": "average",
+            "visualization_range": [
+              30203488.0,
+              774133888.0
+            ]
+          },
+          "shape": [
+            720,
+            1440
+          ]
+        },
+        "fco2atm": {
+          "type": "data",
+          "description": "pressure = ERA5, xco2 = NOAA MBL. Water vapour pressure from Dickson 2007. fCO2 calculated using pyseaflux.pCO2_to_fCO2",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "uatm",
+          "attrs": {
+            "description": "pressure = ERA5, xco2 = NOAA MBL. Water vapour pressure from Dickson 2007. fCO2 calculated using pyseaflux.pCO2_to_fCO2",
+            "units": "uatm",
+            "resampling_method": "average",
+            "visualization_range": [
+              330.3306884765625,
+              418.385986328125
+            ]
+          },
+          "shape": [
+            2024,
+            720,
+            1440
+          ]
+        },
+        "fgco2": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "mol m-2 s-1",
+          "attrs": {
+            "units": "mol m-2 s-1",
+            "resampling_method": "average",
+            "visualization_range": [
+              -1.2925183057177492e-07,
+              7.025776639579805e-08
+            ]
+          },
+          "shape": [
+            2024,
+            720,
+            1440
+          ]
+        },
+        "kw": {
+          "type": "data",
+          "description": "wind^2 = ERA5, temperature = ESA-CCI v2.0, coefficient_of_gas_transfer = 0.274 for ERA5 at 8-daily by 0.25deg resolution, schmidt_number = (660 / Sc)**0.5. Should equal 16.5 cm hr-1 over the period 1990-2019 using the RECCAP2 ocean mask. ",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "cm hr-1",
+          "attrs": {
+            "description": "wind^2 = ERA5, temperature = ESA-CCI v2.0, coefficient_of_gas_transfer = 0.274 for ERA5 at 8-daily by 0.25deg resolution, schmidt_number = (660 / Sc)**0.5. Should equal 16.5 cm hr-1 over the period 1990-2019 using the RECCAP2 ocean mask. ",
+            "units": "cm hr-1",
+            "resampling_method": "average",
+            "visualization_range": [
+              2.400430202484131,
+              36.3367919921875
+            ]
+          },
+          "shape": [
+            2024,
+            720,
+            1440
+          ]
+        },
+        "mask_sfc": {
+          "type": "data",
+          "dimensions": [
+            "lat",
+            "lon"
+          ],
+          "attrs": {
+            "resampling_method": "mode",
+            "visualization_range": [
+              0.0,
+              1.0
+            ]
+          },
+          "shape": [
+            720,
+            1440
+          ]
+        },
+        "sfco2": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "uatm",
+          "attrs": {
+            "units": "uatm",
+            "resampling_method": "average",
+            "visualization_range": [
+              250.6164617919922,
+              440.57952880859375
+            ]
+          },
+          "shape": [
+            2024,
+            720,
+            1440
+          ]
+        },
+        "tos": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "unit": "degC",
+          "attrs": {
+            "units": "degC",
+            "resampling_method": "average",
+            "visualization_range": [
+              -1.8588409423828125,
+              29.882118225097656
+            ]
+          },
+          "shape": [
+            2024,
+            720,
+            1440
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "oceansoda-ethz-v2",
+  "title": "OceanSODA GeoZarr v3 pyramid"
+}
