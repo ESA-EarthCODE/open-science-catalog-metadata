@@ -2171,21 +2171,27 @@
     },
     {
       "rel": "child",
-      "href": "./agricemdsscenariochimel2a/collection.json",
+      "href": "./agricemdsitaly/collection.json",
       "type": "application/json",
-      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+      "title": "AgriCEM_DS_Italy"
     },
     {
       "rel": "child",
-      "href": "./agricemdsscenariochimel2a/collection.json",
+      "href": "./agricemdspoland/collection.json",
       "type": "application/json",
-      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+      "title": "AgriCEM_DS_Poland"
     },
     {
       "rel": "child",
-      "href": "./agricemdsscenariochimel2a/collection.json",
+      "href": "./agricemdsscenario/collection.json",
       "type": "application/json",
-      "title": "agricemdsscenariochimel2a"
+      "title": "AgriCEM_DS_Scenario"
+    },
+    {
+      "rel": "child",
+      "href": "./agricemdsscenariocloud/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_Cloud"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
