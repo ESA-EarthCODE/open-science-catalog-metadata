@@ -1,12 +1,10 @@
 {
-  "sci:publications": [
-    ""
-  ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "sci:doi": "",
-  "id": "agricemdsscenariochimel2a",
+  "id": "agricemdspoland",
   "title": "AgriCEM_DS_Poland",
   "created": "2026-10-08T15:29:17Z",
   "osc:status": "completed",
@@ -47,6 +45,38 @@
       "rel": "related",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "item",
+      "href": "./agricemdspoland-chime.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./agricemdspoland-lstm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.services.earthcode.eox.at/agricem/20261016/DS_PL/CHIME/CHIM_L2A/datacube.zarr",
+      "title": "Access CHIME datacube"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.services.earthcode.eox.at/agricem/20261016/DS_PL/LSTM/LSTM_L1C/datacube.zarr",
+      "title": "Access LSTM datacube"
     }
   ],
   "osc:project": "agricem",

@@ -1,0 +1,75 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "agricemdspoland-lstm",
+  "collection": "agricemdspoland",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          17.793939008879427,
+          50.14117830061596
+        ],
+        [
+          17.830359458363898,
+          50.14117830061596
+        ],
+        [
+          17.830359458363898,
+          50.16362278696079
+        ],
+        [
+          17.793939008879427,
+          50.16362278696079
+        ],
+        [
+          17.793939008879427,
+          50.14117830061596
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    17.793939008879427,
+    50.14117830061596,
+    17.830359458363898,
+    50.16362278696079
+  ],
+  "properties": {
+    "title": "AgriCEM_DS_Poland LSTM LSTM_L1C",
+    "description": "This collection is part of the representative dataset of the Sentinel User Preparation project AgriCEM. The goal of AgriCEM is to develop stress indicators for sugar beet crops based on CHIME and LSTM data. This collection contains simulated CHIME L2A and LSTM L1C data showing an agricultural site containing sugar beet fields with different types of simulated stress. The dataset was generated using the SCOPE model for the bottom-of-atmosphere reference signal and the RISE simulator for the satellite data products. The spatial coverage is a 2x2 km patch close to Glubczyce, Poland. The temporal coverage spans over the sugar beet growing season with weekly measurements from May to October 2025.",
+    "datetime": null,
+    "start_datetime": "2025-05-04T00:00:00Z",
+    "end_datetime": "2025-10-26T00:00:00Z",
+    "gsd": 50
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "s3://agricem/20261016/DS_PL/LSTM/LSTM_L1C/datacube.zarr",
+      "type": "application/vnd+zarr",
+      "title": "LSTM datacube",
+      "roles": [
+        "data"
+      ],
+      "s3:endpoint_url": "https://s3.services.earthcode.eox.at",
+      "s3:anon": true,
+      "xarray:open_kwargs": {
+        "engine": "zarr"
+      }
+    }
+  }
+}

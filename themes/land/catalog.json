@@ -460,21 +460,27 @@
     },
     {
       "rel": "child",
-      "href": "../../products/agricemdsscenariochimel2a/collection.json",
+      "href": "../../products/agricemdsitaly/collection.json",
       "type": "application/json",
-      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+      "title": "AgriCEM_DS_Italy"
     },
     {
       "rel": "child",
-      "href": "../../products/agricemdsscenariochimel2a/collection.json",
+      "href": "../../products/agricemdspoland/collection.json",
       "type": "application/json",
-      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+      "title": "AgriCEM_DS_Poland"
     },
     {
       "rel": "child",
-      "href": "../../products/agricemdsscenariochimel2a/collection.json",
+      "href": "../../products/agricemdsscenario/collection.json",
       "type": "application/json",
-      "title": "AgriCEM_DS_Scenario_CHIME_L2A"
+      "title": "AgriCEM_DS_Scenario"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/agricemdsscenariocloud/collection.json",
+      "type": "application/json",
+      "title": "AgriCEM_DS_Scenario_Cloud"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
