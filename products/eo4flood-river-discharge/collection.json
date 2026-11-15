@@ -1,0 +1,451 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-river-discharge",
+  "stac_version": "1.0.0",
+  "description": "Satellite-derived river discharge product in the project specific basins. The product is derived in five different ways, based on width, reflectance, water level, multi-mission altimetry (gauged) and multi-mission altimetry (ungauged).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/parquet/access.ipynb",
+      "title": "Tutorial: Access the data",
+      "description": "A Python notebook demonstrating how to access the data from this collection.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/river-discharge/catalog.json",
+      "type": "application/json",
+      "title": "Variable: River discharge"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swot/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWOT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/icesat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ICESat-2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651100_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "braa - Braa Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_beki_3506_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "braa - Braa Beki Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "braa - Braa  Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "braa - Braa  Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "braa - Braa  Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "cono - Cono  Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_congo_21321_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "cono - Cono Congo Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "cono - Cono Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "cono - Cono  Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "cono - Cono  Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "dane - Dane  Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_danube_13613_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "dane - Dane Danube Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6242250_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "dane - Dane  Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "dane - Dane Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "dane - Dane  Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226650_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "ebro - Ebro Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_cinca_47191_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "ebro - Ebro  Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226400_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "ebro - Ebro  Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_6226400_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "ebro - Ebro  Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14325000_ANA_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "nego - Nego  Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14428000_ANA_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "nego - Nego  Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14325000_ANA_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "nego - Nego  Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_14325000_ANA_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "nego - Nego  Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "nigr - Nigr Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_alibori_23286_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "nigr - Nigr Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "nigr - Nigr Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "nigr - Nigr Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "nigr - Nigr Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "po - Po Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po___po_19865_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "po - Po Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348400_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "po - Po  Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348200_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "po - Po Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po____6348800_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "po - Po Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6135110_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "rhie - Rhie Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_rhine_13594_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "rhie - Rhie Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6335050_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "rhie - Rhie Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6135110_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "rhie - Rhie Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_6335020_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "rhie - Rhie Discharge Mmwlbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_Discharge_ReflectanceBased.json",
+      "type": "application/json",
+      "title": "tore - Tore Discharge Reflectancebased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_torne_42400_discharge_multi-mission.json",
+      "type": "application/json",
+      "title": "tore - Tore Discharge Multi Mission"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232900_GRDC_Discharge_WidthBased.json",
+      "type": "application/json",
+      "title": "tore - Tore Discharge Widthbased"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232100_GRDC_Discharge_mmMerged.json",
+      "type": "application/json",
+      "title": "tore - Tore Discharge Mmmerged"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_6232100_GRDC_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "tore - Tore Discharge Mmwlbased"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-07T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "river-discharge"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "river-discharge"
+  ],
+  "osc:missions": [
+    "sentinel-3",
+    "sentinel-6",
+    "cryosat-2",
+    "swot",
+    "icesat-2"
+  ],
+  "updated": "2026-04-02T15:16:06Z",
+  "title": "EO4FLOOD River Discharge Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-70.03, -10, 96.95, 68.37],
+        [
+          96.95,
+          24.73,
+          88.18,
+          30.05
+        ],
+        [
+          34,
+          -10,
+          12,
+          10
+        ],
+        [
+          29.76,
+          45.22,
+          8.16,
+          48.1
+        ],
+        [
+          0.86,
+          40.72,
+          -4.4,
+          43.04
+        ],
+        [
+          -59.91,
+          -3.13,
+          -70.03,
+          1.95
+        ],
+        [
+          6.47,
+          5.32,
+          -10.68,
+          9.1
+        ],
+        [
+          12.43,
+          44.7,
+          7.09,
+          44.95
+        ],
+        [
+          9.41,
+          46.63,
+          4.08,
+          51.98
+        ],
+        [
+          24.15,
+          65.83,
+          19.1,
+          68.37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "river-discharge"
+  ]
+}

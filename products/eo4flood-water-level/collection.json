@@ -1,0 +1,355 @@
+{
+  "type": "Collection",
+  "id": "eo4flood-water-level",
+  "stac_version": "1.0.0",
+  "description": "Satellite derived water level product in the project specific basins",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.17787732",
+      "title": "Access"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/parquet/access.ipynb",
+      "title": "Tutorial: Access the data",
+      "description": "A Python notebook demonstrating how to access the data from this collection.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eo4flood/collection.json",
+      "type": "application/json",
+      "title": "Project: EO4FLOOD"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/rivers-streams/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Rivers/Streams"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swot/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWOT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/icesat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ICESat-2"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_4525_001_mmwl.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Multi-mission water level time series - VS 4525_001 - Gauge 2651100_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_braa_4525_001_mmwss.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Multi-mission water surface time series - VS 4525_001 - Gauge 2651100_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10509_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Brahmaputra - Water Level Altimetry - DAHITI 10509 - Yarlung Tsangpo, River - 2008-10-11 to 2025-10-29"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1321_001_mmwl.json",
+      "type": "application/json",
+      "title": "Congo - Multi-mission water level time series - VS 1321_001 - Gauge 1147013_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_cono_1321_001_mmwss.json",
+      "type": "application/json",
+      "title": "Congo - Multi-mission water surface time series - VS 1321_001 - Gauge 1147013_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10164_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Congo - Water Level Altimetry - DAHITI 10164 - Lulua, River - 2008-07-24 to 2025-10-29"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_2271_001_mmwl.json",
+      "type": "application/json",
+      "title": "Danube - Multi-mission water level time series - VS 2271_001 - Gauge 6742900_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_2271_001_mmwss.json",
+      "type": "application/json",
+      "title": "Danube - Multi-mission water surface time series - VS 2271_001 - Gauge 6742900_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10051_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Danube - Water Level Altimetry - DAHITI 10051 - Danube, River - 2023-08-06 to 2025-04-23"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_2160_001_mmwl.json",
+      "type": "application/json",
+      "title": "Ebro - Multi-mission water level time series - VS 2160_001 - Gauge 9027_AFD"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_ebro_2160_001_mmwss.json",
+      "type": "application/json",
+      "title": "Ebro - Multi-mission Water Surface Slope - VS 2160_001"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_18470_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Ebro - Water Level Altimetry - DAHITI 18470 - Ebro, River - 2016-05-22 to 2025-10-11"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_6228_001_mmwl.json",
+      "type": "application/json",
+      "title": "Negro - Multi-mission water level time series - VS 6228_001 - Gauge 3618052_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nego_6228_001_mmwss.json",
+      "type": "application/json",
+      "title": "Negro - Multi-mission water surface time series - VS 6228_001 - Gauge 3618052_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10152_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Negro - Water Level Altimetry - DAHITI 10152 - Negro, River - 2008-07-25 to 2025-10-30"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1422_001_mmwl.json",
+      "type": "application/json",
+      "title": "Niger - Multi-mission water level time series - VS 1422_001 - Gauge 1834101_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_nigr_1422_001_mmwss.json",
+      "type": "application/json",
+      "title": "Niger - Multi-mission water surface time series - VS 1422_001 - Gauge 1834101_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10555_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Niger - Water Level Altimetry - DAHITI 10555 - Niger, River - 2016-04-21 to 2025-11-03"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po___2140_001_mmwl.json",
+      "type": "application/json",
+      "title": "Po - Multi-mission water level time series - VS 2140_001 - Gauge 6348800_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_po___2140_001_mmwss.json",
+      "type": "application/json",
+      "title": "Po - Multi-mission water surface time series - VS 2140_001 - Gauge 6348800_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_10350_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Po - Water Level Altimetry - DAHITI 10350 - Po, River - 2008-07-15 to 2025-10-30"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_2326_001_mmwl.json",
+      "type": "application/json",
+      "title": "Rhine - Multi-mission water level time series - VS 2326_001 - Gauge 6335020_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_rhie_2326_001_mmwss.json",
+      "type": "application/json",
+      "title": "Rhine - Multi-mission water surface time series - VS 2326_001 - Gauge 6335020_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_1321_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Rhine - Water Level Altimetry - DAHITI 1321 - Rhine, River - 2002-06-26 to 2025-04-25"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_2442_001_mmwl.json",
+      "type": "application/json",
+      "title": "Torne - Multi-mission water level time series - VS 2442_001 - Gauge 6232910_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_tore_2442_001_mmwss.json",
+      "type": "application/json",
+      "title": "Torne - Multi-mission water surface time series - VS 2442_001 - Gauge 6232910_GRDC"
+    },
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_22414_water_level_altimetry.json",
+      "type": "application/json",
+      "title": "Torne - Water Level Altimetry - DAHITI 22414 - Tarendoalven, River - 2016-06-26 to 2025-07-30"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "eo4flood",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:type": "product",
+  "created": "2026-04-17T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "water-level"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "rivers-streams"
+  ],
+  "osc:missions": [
+    "sentinel-3",
+    "sentinel-6",
+    "cryosat-2",
+    "swot",
+    "icesat-2"
+  ],
+  "updated": "2026-05-19T15:16:06.215108Z",
+  "title": "EO4FLOOD Water Level Products",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-70.03, -10, 96.95, 68.37],
+        [
+          96.95,
+          24.73,
+          88.18,
+          30.05
+        ],
+        [
+          34,
+          -10,
+          12,
+          10
+        ],
+        [
+          29.76,
+          45.22,
+          8.16,
+          48.1
+        ],
+        [
+          0.86,
+          40.72,
+          -4.4,
+          43.04
+        ],
+        [
+          -59.91,
+          -3.13,
+          -70.03,
+          1.95
+        ],
+        [
+          6.47,
+          5.32,
+          -10.68,
+          9.1
+        ],
+        [
+          12.43,
+          44.7,
+          7.09,
+          44.95
+        ],
+        [
+          9.41,
+          46.63,
+          4.08,
+          51.98
+        ],
+        [
+          24.15,
+          65.83,
+          19.1,
+          68.37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "water-level"
+  ]
+}
