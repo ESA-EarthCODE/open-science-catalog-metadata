@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_rhie_6335180_GRDC_23265000051_Landsat",
   "geometry": {
     "type": "Polygon",
@@ -38,22 +41,10 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "Satellite-derived river width observations at 25 gauge stations in the Rhine river basin, combining Landsat and Sentinel-2 observations. The basin-wide Parquet file contains irregularly sampled time series identified by gauge name, SWORD v17 reach ID and satellite mission. The time column records observation timestamps, w is estimated river width in metres, and gauge_lon and gauge_lat locate the gauge stations in longitude and latitude. Produced by the Institute of Geodesy (GIS), University of Stuttgart, for the ESA EO4FLOOD project.",
     "start_datetime": "1984-04-01T00:00:00Z",
     "end_datetime": "2025-09-18T00:00:00Z",
     "datetime": "1984-04-01T00:00:00Z",
-    "nc_attributes": {
-      "title": "ESA EO4FLOOD project river width",
-      "creation_time": "2025-11-11 17:07:25",
-      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "Peyman.saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-11",
-      "temporal interval": "01-Aug-1984 to 18-Sep-2025",
-      "version": "1.0",
-      "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
-      "Acknowledgements": "ESA EO4FLOOD project reference"
-    },
     "parquet_column_metadata": {
       "time": {
         "long_name": "Time since 1984-01-01 00:00"
@@ -82,6 +73,76 @@
         "long_name": "Gauge longitude",
         "units": "degrees_east"
       }
+    },
+    "title": "EO4FLOOD Rhine river width time series",
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983",
+    "eo4flood:source_attributes": {
+      "title": "ESA EO4FLOOD project river width",
+      "creation_time": [
+        "2026-09-16 16:17:57",
+        "2026-09-16 16:17:58",
+        "2026-09-16 16:17:59",
+        "2026-09-16 16:18:00",
+        "2026-09-16 16:18:01",
+        "2026-09-16 16:18:02",
+        "2026-09-16 16:18:03",
+        "2026-09-16 16:18:04",
+        "2026-09-16 16:18:05",
+        "2026-09-16 16:18:06",
+        "2026-09-16 16:18:07",
+        "2026-09-16 16:18:08",
+        "2026-09-16 16:18:09",
+        "2026-09-16 16:18:10",
+        "2026-09-16 16:18:11",
+        "2026-09-16 16:18:12"
+      ],
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-09-16",
+      "temporal interval": [
+        "03-Nov-2018 to 18-Aug-2025",
+        "04-Dec-2016 to 12-Jun-2025",
+        "04-Dec-2016 to 29-Jun-2025",
+        "04-Sep-2017 to 18-Aug-2025",
+        "04-Sep-2017 to 21-Nov-2025",
+        "05-May-2016 to 31-Dec-2025",
+        "08-May-2016 to 28-Sep-2025",
+        "08-May-2016 to 29-Dec-2025",
+        "09-Mar-2016 to 21-Nov-2025",
+        "10-Apr-2016 to 30-Dec-2025",
+        "10-Jan-2016 to 01-Oct-2025",
+        "12-Sep-2016 to 26-Dec-2025",
+        "14-Jan-2016 to 15-Dec-2025",
+        "14-Jan-2016 to 21-Nov-2025",
+        "14-Jan-2016 to 22-Nov-2025",
+        "16-Feb-2017 to 31-Dec-2025",
+        "18-Mar-2016 to 22-Nov-2025",
+        "20-Apr-2017 to 16-Aug-2025",
+        "20-Apr-2017 to 18-Sep-2025",
+        "20-Apr-2017 to 27-Oct-2025",
+        "20-Jul-2016 to 01-Oct-2025",
+        "21-Jan-2016 to 31-Dec-2025",
+        "22-Jul-2016 to 30-Dec-2025",
+        "23-Aug-2016 to 07-Oct-2025",
+        "23-Aug-2016 to 08-Aug-2025",
+        "23-Aug-2016 to 16-Aug-2025",
+        "23-Aug-2016 to 17-Sep-2025",
+        "23-Aug-2016 to 29-Jun-2025",
+        "23-Aug-2016 to 29-Nov-2025",
+        "26-May-2016 to 02-Oct-2025",
+        "28-Jan-2016 to 30-Dec-2025",
+        "28-Mar-2017 to 06-Nov-2025",
+        "28-Mar-2017 to 21-Nov-2025",
+        "29-Feb-2016 to 02-Oct-2025",
+        "29-Feb-2016 to 30-Dec-2025",
+        "30-Jan-2016 to 26-Aug-2025",
+        "30-Jan-2016 to 29-Oct-2025"
+      ],
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
     }
   },
   "links": [
@@ -102,12 +163,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/width_series/Rhine_width_timeseries.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "rhie - Rhie 6335180 Grdc 23265000051 Landsat",
+      "title": "EO4FLOOD Rhine river width time series (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-width",
-  "title": "rhie - Rhie 6335180 Grdc 23265000051 Landsat"
+  "title": "EO4FLOOD Rhine river width time series"
 }
