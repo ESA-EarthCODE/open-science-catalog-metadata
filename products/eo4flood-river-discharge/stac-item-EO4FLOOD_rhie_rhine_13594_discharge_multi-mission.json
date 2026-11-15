@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_rhie_rhine_13594_discharge_multi-mission",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.628134,
+          50.279296
+        ],
+        [
+          7.628134,
+          50.5129
+        ],
+        [
+          7.3022,
+          50.5129
+        ],
+        [
+          7.3022,
+          50.279296
+        ],
+        [
+          7.628134,
+          50.279296
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    7.3022,
+    50.279296,
+    7.628134,
+    50.5129
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "nc_attributes": {
+      "dataset": "multi-mission-river-discharge",
+      "name": "rhine_rhine_13594",
+      "longitude": 7.3022,
+      "latitude": 50.5129,
+      "institution": "DGFI-TUM",
+      "creation_date": "2025-12-23T11:35:11.715053",
+      "comment": "",
+      "author": "Daniel Scherer",
+      "units": "discharge in m^3/s",
+      "datetime_format": "ISO8601 string"
+    },
+    "parquet_column_metadata": {
+      "q": {
+        "units": "m^3/s"
+      },
+      "q_u_lower": {
+        "units": "m^3/s"
+      },
+      "q_u_upper": {
+        "units": "m^3/s"
+      },
+      "lon": {},
+      "lat": {}
+    },
+    "datetime": "2026-05-28T16:26:54.039659Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Rhine_River_Discharge_Ungauged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "rhie - Rhie Discharge Multi Mission",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "rhie - Rhie Discharge Multi Mission"
+}
