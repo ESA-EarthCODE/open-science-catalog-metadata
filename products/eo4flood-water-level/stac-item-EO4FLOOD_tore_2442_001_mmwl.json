@@ -38,7 +38,7 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "Multi-mission water level time series across the Torne river basin, produced by DTU Space, Denmark, for EO4FLOOD. The basin-wide Parquet file contains multiple river reaches and virtual stations identified by VSReachID and VSgauge. wlgrid and wlsdgrid describe water level and its standard deviation along each reach; wl and wlsd give the corresponding values at a virtual station, in metres. chainage is distance along a reach in metres, time is encoded as decimal years, and lon and lat locate reach nodes in geographic degrees.",
     "nc_attributes": {
       "title": "Multi-mission water level time series",
       "producer": "DTU Space, Denmark",
@@ -87,7 +87,8 @@
         "long_name": "latitude_grid"
       }
     },
-    "datetime": "2026-05-28T16:27:13.942368Z"
+    "datetime": "2026-05-28T16:27:13.942368Z",
+    "title": "EO4FLOOD Torne multi-mission water level time series"
   },
   "links": [
     {
@@ -107,12 +108,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Torne_multi-mission_water_level.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Torne - Multi-mission water level time series - VS 2442_001 - Gauge 6232910_GRDC",
+      "title": "EO4FLOOD Torne multi-mission water level time series (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-water-level",
-  "title": "Torne - Multi-mission water level time series - VS 2442_001 - Gauge 6232910_GRDC"
+  "title": "EO4FLOOD Torne multi-mission water level time series"
 }

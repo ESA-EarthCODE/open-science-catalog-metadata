@@ -38,7 +38,7 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "Satellite-altimetry water level observations across the Ebro river basin, provided by DGFI-TUM through DAHITI for EO4FLOOD. The basin-wide Parquet file combines multiple virtual stations identified by dahiti_id and observations from multiple satellite missions. datetime records observation times, wse is water surface elevation in metres, and wse_u is its uncertainty in metres. longitude and latitude locate each station in geographic degrees; mission, phase and timeliness describe the observation source and processing.",
     "start_datetime": "2016-05-22T21:27:57Z",
     "end_datetime": "2025-10-11T21:28:23Z",
     "datetime": "2016-05-22T21:27:57Z",
@@ -85,7 +85,8 @@
       "timeliness": {
         "standard_name": "Timeliness of dataset"
       }
-    }
+    },
+    "title": "EO4FLOOD Ebro satellite altimetry at virtual stations"
   },
   "links": [
     {
@@ -105,12 +106,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Ebro_water_level_at_VS.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Ebro - Water Level Altimetry - DAHITI 18470 - Ebro, River - 2016-05-22 to 2025-10-11",
+      "title": "EO4FLOOD Ebro satellite altimetry at virtual stations (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-water-level",
-  "title": "Ebro - Water Level Altimetry - DAHITI 18470 - Ebro, River - 2016-05-22 to 2025-10-11"
+  "title": "EO4FLOOD Ebro satellite altimetry at virtual stations"
 }

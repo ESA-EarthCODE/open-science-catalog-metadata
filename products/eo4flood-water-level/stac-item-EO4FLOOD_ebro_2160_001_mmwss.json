@@ -38,7 +38,7 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "Multi-mission water-surface slope time series across the Ebro river basin, produced by DTU Space, Denmark, for EO4FLOOD. The basin-wide Parquet file contains multiple river reaches and virtual stations. slope_grid and slopesd_grid describe water-surface slope and its standard deviation along a reach; slope_vs and slopesd_vs give the corresponding values at a virtual station, in centimetres per kilometre. chainage is distance along a reach in metres, time is encoded as decimal years, and lon and lat locate reach nodes in geographic degrees.",
     "nc_attributes": {},
     "parquet_column_metadata": {
       "chainage": {
@@ -70,7 +70,8 @@
         "long_name": "latitude_grid"
       }
     },
-    "datetime": "2026-05-28T16:27:10.140820Z"
+    "datetime": "2026-05-28T16:27:10.140820Z",
+    "title": "EO4FLOOD Ebro water-surface slope time series"
   },
   "links": [
     {
@@ -90,12 +91,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Ebro_multi-mission_water_surface_slope.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Ebro - Multi-mission Water Surface Slope - VS 2160_001",
+      "title": "EO4FLOOD Ebro water-surface slope time series (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-water-level",
-  "title": "Ebro - Multi-mission Water Surface Slope - VS 2160_001"
+  "title": "EO4FLOOD Ebro water-surface slope time series"
 }

@@ -123,6 +123,12 @@
     },
     {
       "rel": "item",
+      "href": "./stac-item-EO4FLOOD_dane_2271_001_mmwl.json",
+      "type": "application/json",
+      "title": "stac-item-EO4FLOOD_water_level_NRT"
+    },
+    {
+      "rel": "item",
       "href": "./stac-item-EO4FLOOD_dane_2271_001_mmwss.json",
       "type": "application/json",
       "title": "Danube - Multi-mission water surface time series - VS 2271_001 - Gauge 6742900_GRDC"

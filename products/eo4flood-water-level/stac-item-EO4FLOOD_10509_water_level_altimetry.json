@@ -38,7 +38,7 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "Satellite-altimetry water level observations across the Brahmaputra river basin, provided by DGFI-TUM through DAHITI for EO4FLOOD. The basin-wide Parquet file combines multiple virtual stations identified by dahiti_id and observations from multiple satellite missions. datetime records observation times, wse is water surface elevation in metres, and wse_u is its uncertainty in metres. longitude and latitude locate each station in geographic degrees; mission, phase and timeliness describe the observation source and processing.",
     "start_datetime": "2008-10-11T08:28:15Z",
     "end_datetime": "2025-10-29T09:04:31Z",
     "datetime": "2008-10-11T08:28:15Z",
@@ -85,7 +85,8 @@
       "timeliness": {
         "standard_name": "Timeliness of dataset"
       }
-    }
+    },
+    "title": "EO4FLOOD Brahmaputra satellite altimetry at virtual stations"
   },
   "links": [
     {
@@ -105,12 +106,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/water_level_series/Brahmaputra_water_level_at_VS.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "Brahmaputra - Water Level Altimetry - DAHITI 10509 - Yarlung Tsangpo, River - 2008-10-11 to 2025-10-29",
+      "title": "EO4FLOOD Brahmaputra satellite altimetry at virtual stations (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-water-level",
-  "title": "Brahmaputra - Water Level Altimetry - DAHITI 10509 - Yarlung Tsangpo, River - 2008-10-11 to 2025-10-29"
+  "title": "EO4FLOOD Brahmaputra satellite altimetry at virtual stations"
 }
