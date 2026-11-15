@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_nigr_1134030_GRDC_Discharge_WidthBased",
   "geometry": {
     "type": "Polygon",
@@ -38,17 +41,16 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 38 gauge stations across the Niger river basin, containing estimates derived from river width produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
     "nc_attributes": {
       "title": "ESA EO4FLOOD project river discharge (width-based)",
-      "creation_time": "2025-11-10 16:41:42",
       "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-10",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
       "temporal interval": "01-Jan-2016 to 31-Dec-2025",
-      "version": "1.0",
+      "version": "2.0",
       "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
+      "DOI": "10.5281/zenodo.21699983",
       "Acknowledgements": "ESA EO4FLOOD project reference"
     },
     "parquet_column_metadata": {
@@ -75,7 +77,164 @@
         "units": "degrees_east"
       }
     },
-    "datetime": "2026-05-28T16:26:53.285747Z"
+    "datetime": "2026-05-28T16:26:53.285747Z",
+    "title": "EO4FLOOD Niger river discharge from river width",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "1134030_GRDC",
+        "creation_time": "2026-07-31 11:00:26"
+      },
+      {
+        "gauge_name": "1134040_GRDC",
+        "creation_time": "2026-07-31 11:00:24"
+      },
+      {
+        "gauge_name": "1134060_GRDC",
+        "creation_time": "2026-07-31 11:00:21"
+      },
+      {
+        "gauge_name": "1134080_GRDC",
+        "creation_time": "2026-07-31 11:00:21"
+      },
+      {
+        "gauge_name": "1134100_GRDC",
+        "creation_time": "2026-07-31 11:00:29"
+      },
+      {
+        "gauge_name": "1134200_GRDC",
+        "creation_time": "2026-07-31 11:00:22"
+      },
+      {
+        "gauge_name": "1134250_GRDC",
+        "creation_time": "2026-07-31 11:00:29"
+      },
+      {
+        "gauge_name": "1134300_GRDC",
+        "creation_time": "2026-07-31 11:00:25"
+      },
+      {
+        "gauge_name": "1134310_GRDC",
+        "creation_time": "2026-07-31 11:00:20"
+      },
+      {
+        "gauge_name": "1134400_GRDC",
+        "creation_time": "2026-07-31 11:00:29"
+      },
+      {
+        "gauge_name": "1134450_GRDC",
+        "creation_time": "2026-07-31 11:00:25"
+      },
+      {
+        "gauge_name": "1134460_GRDC",
+        "creation_time": "2026-07-31 11:00:27"
+      },
+      {
+        "gauge_name": "1134480_GRDC",
+        "creation_time": "2026-07-31 11:00:24"
+      },
+      {
+        "gauge_name": "1134500_GRDC",
+        "creation_time": "2026-07-31 11:00:28"
+      },
+      {
+        "gauge_name": "1134505_GRDC",
+        "creation_time": "2026-07-31 11:00:24"
+      },
+      {
+        "gauge_name": "1134600_GRDC",
+        "creation_time": "2026-07-31 11:00:25"
+      },
+      {
+        "gauge_name": "1134650_GRDC",
+        "creation_time": "2026-07-31 11:00:22"
+      },
+      {
+        "gauge_name": "1134700_GRDC",
+        "creation_time": "2026-07-31 11:00:28"
+      },
+      {
+        "gauge_name": "1134850_GRDC",
+        "creation_time": "2026-07-31 11:00:28"
+      },
+      {
+        "gauge_name": "1134900_GRDC",
+        "creation_time": "2026-07-31 11:00:27"
+      },
+      {
+        "gauge_name": "1234090_GRDC",
+        "creation_time": "2026-07-31 11:00:26"
+      },
+      {
+        "gauge_name": "1234130_GRDC",
+        "creation_time": "2026-07-31 11:00:20"
+      },
+      {
+        "gauge_name": "1234150_GRDC",
+        "creation_time": "2026-07-31 11:00:26"
+      },
+      {
+        "gauge_name": "1234180_GRDC",
+        "creation_time": "2026-07-31 11:00:19"
+      },
+      {
+        "gauge_name": "1234201_GRDC",
+        "creation_time": "2026-07-31 11:00:26"
+      },
+      {
+        "gauge_name": "1426340_GRDC",
+        "creation_time": "2026-07-31 11:00:21"
+      },
+      {
+        "gauge_name": "1434850_GRDC",
+        "creation_time": "2026-07-31 11:00:21"
+      },
+      {
+        "gauge_name": "1634400_GRDC",
+        "creation_time": "2026-07-31 11:00:23"
+      },
+      {
+        "gauge_name": "1634420_GRDC",
+        "creation_time": "2026-07-31 11:00:23"
+      },
+      {
+        "gauge_name": "1634500_GRDC",
+        "creation_time": "2026-07-31 11:00:22"
+      },
+      {
+        "gauge_name": "1634600_GRDC",
+        "creation_time": "2026-07-31 11:00:23"
+      },
+      {
+        "gauge_name": "1634650_GRDC",
+        "creation_time": "2026-07-31 11:00:29"
+      },
+      {
+        "gauge_name": "1634800_GRDC",
+        "creation_time": "2026-07-31 11:00:24"
+      },
+      {
+        "gauge_name": "1734450_GRDC",
+        "creation_time": "2026-07-31 11:00:20"
+      },
+      {
+        "gauge_name": "1734500_GRDC",
+        "creation_time": "2026-07-31 11:00:28"
+      },
+      {
+        "gauge_name": "1834101_GRDC",
+        "creation_time": "2026-07-31 11:00:30"
+      },
+      {
+        "gauge_name": "1834110_GRDC",
+        "creation_time": "2026-07-31 11:00:27"
+      },
+      {
+        "gauge_name": "1835900_GRDC",
+        "creation_time": "2026-07-31 11:00:30"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
   },
   "links": [
     {
@@ -95,12 +254,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Niger_River_Discharge_WidthBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "nigr - Nigr Discharge Widthbased",
+      "title": "EO4FLOOD Niger river discharge from river width (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "nigr - Nigr Discharge Widthbased"
+  "title": "EO4FLOOD Niger river discharge from river width"
 }

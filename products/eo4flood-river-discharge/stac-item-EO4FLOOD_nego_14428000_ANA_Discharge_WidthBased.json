@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_nego_14428000_ANA_Discharge_WidthBased",
   "geometry": {
     "type": "Polygon",
@@ -38,17 +41,16 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 25 gauge stations across the Negro river basin, containing estimates derived from river width produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
     "nc_attributes": {
       "title": "ESA EO4FLOOD project river discharge (width-based)",
-      "creation_time": "2025-11-10 16:41:29",
       "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-10",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
       "temporal interval": "01-Jan-2016 to 31-Dec-2025",
-      "version": "1.0",
+      "version": "2.0",
       "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
+      "DOI": "10.5281/zenodo.21699983",
       "Acknowledgements": "ESA EO4FLOOD project reference"
     },
     "parquet_column_metadata": {
@@ -75,7 +77,112 @@
         "units": "degrees_east"
       }
     },
-    "datetime": "2026-05-28T16:26:52.791030Z"
+    "datetime": "2026-05-28T16:26:52.791030Z",
+    "title": "EO4FLOOD Negro river discharge from river width",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "14325000_ANA",
+        "creation_time": "2026-07-31 11:00:17"
+      },
+      {
+        "gauge_name": "14420000_ANA",
+        "creation_time": "2026-07-31 11:00:19"
+      },
+      {
+        "gauge_name": "14428000_ANA",
+        "creation_time": "2026-07-31 11:00:14"
+      },
+      {
+        "gauge_name": "14500000_ANA",
+        "creation_time": "2026-07-31 11:00:17"
+      },
+      {
+        "gauge_name": "14526000_ANA",
+        "creation_time": "2026-07-31 11:00:15"
+      },
+      {
+        "gauge_name": "14526500_ANA",
+        "creation_time": "2026-07-31 11:00:15"
+      },
+      {
+        "gauge_name": "14740000_ANA",
+        "creation_time": "2026-07-31 11:00:15"
+      },
+      {
+        "gauge_name": "3218050_GRDC",
+        "creation_time": "2026-07-31 11:00:18"
+      },
+      {
+        "gauge_name": "3618051_GRDC",
+        "creation_time": "2026-07-31 11:00:19"
+      },
+      {
+        "gauge_name": "3618052_GRDC",
+        "creation_time": "2026-07-31 11:00:19"
+      },
+      {
+        "gauge_name": "3618110_GRDC",
+        "creation_time": "2026-07-31 11:00:18"
+      },
+      {
+        "gauge_name": "3618115_GRDC",
+        "creation_time": "2026-07-31 11:00:16"
+      },
+      {
+        "gauge_name": "3618121_GRDC",
+        "creation_time": "2026-07-31 11:00:13"
+      },
+      {
+        "gauge_name": "3618150_GRDC",
+        "creation_time": "2026-07-31 11:00:16"
+      },
+      {
+        "gauge_name": "3618200_GRDC",
+        "creation_time": "2026-07-31 11:00:14"
+      },
+      {
+        "gauge_name": "3618500_GRDC",
+        "creation_time": "2026-07-31 11:00:18"
+      },
+      {
+        "gauge_name": "3618600_GRDC",
+        "creation_time": "2026-07-31 11:00:15"
+      },
+      {
+        "gauge_name": "3618700_GRDC",
+        "creation_time": "2026-07-31 11:00:13"
+      },
+      {
+        "gauge_name": "3618711_GRDC",
+        "creation_time": "2026-07-31 11:00:14"
+      },
+      {
+        "gauge_name": "3618715_GRDC",
+        "creation_time": "2026-07-31 11:00:13"
+      },
+      {
+        "gauge_name": "3618720_GRDC",
+        "creation_time": "2026-07-31 11:00:17"
+      },
+      {
+        "gauge_name": "3618722_GRDC",
+        "creation_time": "2026-07-31 11:00:16"
+      },
+      {
+        "gauge_name": "3618731_GRDC",
+        "creation_time": "2026-07-31 11:00:16"
+      },
+      {
+        "gauge_name": "3618740_GRDC",
+        "creation_time": "2026-07-31 11:00:13"
+      },
+      {
+        "gauge_name": "3618950_GRDC",
+        "creation_time": "2026-07-31 11:00:18"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
   },
   "links": [
     {
@@ -95,12 +202,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Negro_River_Discharge_WidthBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "nego - Nego Discharge Widthbased",
+      "title": "EO4FLOOD Negro river discharge from river width (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "nego - Nego Discharge Widthbased"
+  "title": "EO4FLOOD Negro river discharge from river width"
 }

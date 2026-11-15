@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_mmMerged",
   "geometry": {
     "type": "Polygon",
@@ -38,17 +41,16 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 17 gauge stations across the Brahmaputra river basin, containing multi-mission merged estimates produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
     "nc_attributes": {
       "title": "ESA EO4FLOOD project river discharge (multi-mission merged)",
-      "creation_time": "2025-11-11 14:43:38",
       "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-11",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
       "temporal interval": "01-Jan-2016 to 31-Dec-2025",
-      "version": "1.0",
+      "version": "2.0",
       "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
+      "DOI": "10.5281/zenodo.21699983",
       "Acknowledgements": "ESA EO4FLOOD project reference"
     },
     "parquet_column_metadata": {
@@ -75,7 +77,80 @@
         "units": "degrees_east"
       }
     },
-    "datetime": "2026-05-28T16:26:51.362114Z"
+    "datetime": "2026-05-28T16:26:51.362114Z",
+    "title": "EO4FLOOD Brahmaputra multi-mission merged river discharge",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "2651080_GRDC",
+        "creation_time": "2026-07-31 10:52:18"
+      },
+      {
+        "gauge_name": "2651100_GRDC",
+        "creation_time": "2026-07-31 10:52:19"
+      },
+      {
+        "gauge_name": "301_CHP",
+        "creation_time": "2026-07-31 10:52:17"
+      },
+      {
+        "gauge_name": "305_CHP",
+        "creation_time": "2026-07-31 10:52:18"
+      },
+      {
+        "gauge_name": "307_CHP",
+        "creation_time": "2026-07-31 10:52:15"
+      },
+      {
+        "gauge_name": "310_CHP",
+        "creation_time": "2026-07-31 10:52:17"
+      },
+      {
+        "gauge_name": "312_CHP",
+        "creation_time": "2026-07-31 10:52:15"
+      },
+      {
+        "gauge_name": "314_CHP",
+        "creation_time": "2026-07-31 10:52:15"
+      },
+      {
+        "gauge_name": "315_CHP",
+        "creation_time": "2026-07-31 10:52:16"
+      },
+      {
+        "gauge_name": "317_CHP",
+        "creation_time": "2026-07-31 10:52:17"
+      },
+      {
+        "gauge_name": "325_CHP",
+        "creation_time": "2026-07-31 10:52:16"
+      },
+      {
+        "gauge_name": "327_CHP",
+        "creation_time": "2026-07-31 10:52:16"
+      },
+      {
+        "gauge_name": "328_CHP",
+        "creation_time": "2026-07-31 10:52:18"
+      },
+      {
+        "gauge_name": "339_CHP",
+        "creation_time": "2026-07-31 10:52:18"
+      },
+      {
+        "gauge_name": "341_CHP",
+        "creation_time": "2026-07-31 10:52:17"
+      },
+      {
+        "gauge_name": "342_CHP",
+        "creation_time": "2026-07-31 10:52:16"
+      },
+      {
+        "gauge_name": "440_CHP",
+        "creation_time": "2026-07-31 10:52:14"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
   },
   "links": [
     {
@@ -95,12 +170,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Brahmaputra_River_Discharge_mmMerged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "braa - Braa Discharge Mmmerged",
+      "title": "EO4FLOOD Brahmaputra multi-mission merged river discharge (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "braa - Braa Discharge Mmmerged"
+  "title": "EO4FLOOD Brahmaputra multi-mission merged river discharge"
 }

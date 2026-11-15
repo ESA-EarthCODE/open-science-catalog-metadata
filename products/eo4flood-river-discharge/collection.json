@@ -91,6 +91,14 @@
       "type": "application/json",
       "title": "braa - Braa Beki Discharge Multi Mission"
     },
+
+    {
+      "rel": "item",
+      "href": "./stac-item-EO4FLOOD_Ebro_River_Discharge_mmWLBased.json",
+      "type": "application/json",
+      "title": "Ebro River Dischard Multi Mission"
+    },
+    
     {
       "rel": "item",
       "href": "./stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_WidthBased.json",

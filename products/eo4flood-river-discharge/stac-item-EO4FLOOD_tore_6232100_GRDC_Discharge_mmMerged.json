@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_tore_6232100_GRDC_Discharge_mmMerged",
   "geometry": {
     "type": "Polygon",
@@ -38,17 +41,16 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 33 gauge stations across the Torne river basin, containing multi-mission merged estimates produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
     "nc_attributes": {
       "title": "ESA EO4FLOOD project river discharge (multi-mission merged)",
-      "creation_time": "2025-11-11 14:47:29",
       "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-11",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
       "temporal interval": "01-Jan-2016 to 31-Dec-2025",
-      "version": "1.0",
+      "version": "2.0",
       "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
+      "DOI": "10.5281/zenodo.21699983",
       "Acknowledgements": "ESA EO4FLOOD project reference"
     },
     "parquet_column_metadata": {
@@ -75,7 +77,144 @@
         "units": "degrees_east"
       }
     },
-    "datetime": "2026-05-28T16:26:54.461101Z"
+    "datetime": "2026-05-28T16:26:54.461101Z",
+    "title": "EO4FLOOD Torne multi-mission merged river discharge",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "10006_SMHI",
+        "creation_time": "2026-07-31 10:54:19"
+      },
+      {
+        "gauge_name": "11_SMHI",
+        "creation_time": "2026-07-31 10:54:20"
+      },
+      {
+        "gauge_name": "1456_SMHI",
+        "creation_time": "2026-07-31 10:54:16"
+      },
+      {
+        "gauge_name": "16722_SMHI",
+        "creation_time": "2026-07-31 10:54:21"
+      },
+      {
+        "gauge_name": "1740_SMHI",
+        "creation_time": "2026-07-31 10:54:17"
+      },
+      {
+        "gauge_name": "17_SMHI",
+        "creation_time": "2026-07-31 10:54:17"
+      },
+      {
+        "gauge_name": "2012_SMHI",
+        "creation_time": "2026-07-31 10:54:21"
+      },
+      {
+        "gauge_name": "2159_SMHI",
+        "creation_time": "2026-07-31 10:54:17"
+      },
+      {
+        "gauge_name": "2356_SMHI",
+        "creation_time": "2026-07-31 10:54:16"
+      },
+      {
+        "gauge_name": "2357_SMHI",
+        "creation_time": "2026-07-31 10:54:20"
+      },
+      {
+        "gauge_name": "2358_SMHI",
+        "creation_time": "2026-07-31 10:54:18"
+      },
+      {
+        "gauge_name": "2395_SMHI",
+        "creation_time": "2026-07-31 10:54:19"
+      },
+      {
+        "gauge_name": "4_SMHI",
+        "creation_time": "2026-07-31 10:54:21"
+      },
+      {
+        "gauge_name": "5_SMHI",
+        "creation_time": "2026-07-31 10:54:18"
+      },
+      {
+        "gauge_name": "6232100_GRDC",
+        "creation_time": "2026-07-31 10:54:10"
+      },
+      {
+        "gauge_name": "6232101_GRDC",
+        "creation_time": "2026-07-31 10:54:11"
+      },
+      {
+        "gauge_name": "6232900_GRDC",
+        "creation_time": "2026-07-31 10:54:13"
+      },
+      {
+        "gauge_name": "6232901_GRDC",
+        "creation_time": "2026-07-31 10:54:14"
+      },
+      {
+        "gauge_name": "6232905_GRDC",
+        "creation_time": "2026-07-31 10:54:12"
+      },
+      {
+        "gauge_name": "6232910_GRDC",
+        "creation_time": "2026-07-31 10:54:15"
+      },
+      {
+        "gauge_name": "6232913_GRDC",
+        "creation_time": "2026-07-31 10:54:13"
+      },
+      {
+        "gauge_name": "6232915_GRDC",
+        "creation_time": "2026-07-31 10:54:11"
+      },
+      {
+        "gauge_name": "6232916_GRDC",
+        "creation_time": "2026-07-31 10:54:09"
+      },
+      {
+        "gauge_name": "6232930_GRDC",
+        "creation_time": "2026-07-31 10:54:10"
+      },
+      {
+        "gauge_name": "6832750_GRDC",
+        "creation_time": "2026-07-31 10:54:13"
+      },
+      {
+        "gauge_name": "6832752_GRDC",
+        "creation_time": "2026-07-31 10:54:10"
+      },
+      {
+        "gauge_name": "6832753_GRDC",
+        "creation_time": "2026-07-31 10:54:09"
+      },
+      {
+        "gauge_name": "6832754_GRDC",
+        "creation_time": "2026-07-31 10:54:07"
+      },
+      {
+        "gauge_name": "6832907_GRDC",
+        "creation_time": "2026-07-31 10:54:12"
+      },
+      {
+        "gauge_name": "6832909_GRDC",
+        "creation_time": "2026-07-31 10:54:08"
+      },
+      {
+        "gauge_name": "6832917_GRDC",
+        "creation_time": "2026-07-31 10:54:14"
+      },
+      {
+        "gauge_name": "6832929_GRDC",
+        "creation_time": "2026-07-31 10:54:08"
+      },
+      {
+        "gauge_name": "957_SMHI",
+        "creation_time": "2026-07-31 10:54:15"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
   },
   "links": [
     {
@@ -95,12 +234,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Torne_River_Discharge_mmMerged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "tore - Tore Discharge Mmmerged",
+      "title": "EO4FLOOD Torne multi-mission merged river discharge (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "tore - Tore Discharge Mmmerged"
+  "title": "EO4FLOOD Torne multi-mission merged river discharge"
 }

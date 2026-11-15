@@ -1,0 +1,145 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_Ebro_River_Discharge_mmWLBased",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -1.6947400569915771,
+        42.18008041381836
+      ],
+      [
+        -1.6933956146240234,
+        42.18194580078125
+      ],
+      [
+        -0.881060004234314,
+        41.6585693359375
+      ],
+      [
+        -0.4747859537601471,
+        41.39998245239258
+      ],
+      [
+        0.5206599831581116,
+        40.81327819824219
+      ],
+      [
+        0.5210631489753723,
+        40.81405258178711
+      ]
+    ]
+  },
+  "bbox": [
+    -1.6947400569915771,
+    40.81327819824219,
+    0.5210631489753723,
+    42.18194580078125
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "datetime": null,
+    "start_datetime": "2016-03-30T00:00:00Z",
+    "end_datetime": "2025-04-22T00:00:00Z",
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge from multi-mission water level",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      },
+      "time": {
+        "long_name": "Observation timestamp",
+        "standard_name": "time"
+      }
+    },
+    "title": "EO4FLOOD Ebro river discharge from multi-mission water level",
+    "description": "River discharge time series at 6 gauge stations across the Ebro river basin, containing estimates derived from multi-mission water level produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission water-level-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6226300_GRDC",
+        "creation_time": "2026-07-31 10:49:40"
+      },
+      {
+        "gauge_name": "6226400_GRDC",
+        "creation_time": "2026-07-31 10:49:40"
+      },
+      {
+        "gauge_name": "6226800_GRDC",
+        "creation_time": "2026-07-31 10:49:41"
+      },
+      {
+        "gauge_name": "9002_AFD",
+        "creation_time": "2026-07-31 10:49:40"
+      },
+      {
+        "gauge_name": "9027_AFD",
+        "creation_time": "2026-07-31 10:49:41"
+      },
+      {
+        "gauge_name": "9263_AFD",
+        "creation_time": "2026-07-31 10:49:41"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Ebro_River_Discharge_mmWLBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ],
+      "title": "EO4FLOOD Ebro river discharge from multi-mission water level (Parquet)"
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Ebro river discharge from multi-mission water level"
+}

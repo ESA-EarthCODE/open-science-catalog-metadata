@@ -38,15 +38,10 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 6 ungauged locations in the Niger river basin, produced by DGFI-TUM for EO4FLOOD. The basin-wide Parquet file contains multi-mission discharge estimates identified by name. date records observation timestamps; q is estimated discharge in cubic metres per second, and q_u_lower and q_u_upper are the delivered lower and upper uncertainty bounds in the same units. lon and lat locate each site in geographic degrees. Observations are irregularly sampled. Source comments and per-site provenance are retained; inclusion of a site does not imply that its estimates passed a quality filter.",
     "nc_attributes": {
       "dataset": "multi-mission-river-discharge",
-      "name": "niger_alibori_23286",
-      "longitude": 3.08433,
-      "latitude": 11.99598,
       "institution": "DGFI-TUM",
-      "creation_date": "2025-12-05T14:52:52.315163",
-      "comment": "suspect, probably underestimated",
       "author": "Daniel Scherer",
       "units": "discharge in m^3/s",
       "datetime_format": "ISO8601 string"
@@ -64,7 +59,52 @@
       "lon": {},
       "lat": {}
     },
-    "datetime": "2026-05-28T16:26:53.155953Z"
+    "datetime": "2026-05-28T16:26:53.155953Z",
+    "title": "EO4FLOOD Niger discharge at ungauged locations",
+    "eo4flood:source_products": [
+      {
+        "name": "niger_alibori_23286",
+        "longitude": 3.08433,
+        "latitude": 11.99598,
+        "creation_date": "2025-12-05T14:52:52.315163",
+        "comment": "suspect, probably underestimated"
+      },
+      {
+        "name": "niger_mekrou_46961",
+        "longitude": 2.5165,
+        "latitude": 12.2906,
+        "creation_date": "2025-12-05T14:52:51.747470",
+        "comment": "plausible"
+      },
+      {
+        "name": "niger_milo_12048",
+        "longitude": -9.22459,
+        "latitude": 10.61825,
+        "creation_date": "2025-12-05T14:52:51.381653",
+        "comment": "plausible"
+      },
+      {
+        "name": "niger_niger_15248",
+        "longitude": 0.812,
+        "latitude": 14.91,
+        "creation_date": "2025-12-05T14:52:50.316072",
+        "comment": "plausible, probably overestimated"
+      },
+      {
+        "name": "niger_sokoto_18739",
+        "longitude": 4.17291,
+        "latitude": 11.61101,
+        "creation_date": "2025-12-05T14:52:51.283355",
+        "comment": "plausible"
+      },
+      {
+        "name": "niger_sokoto_23326",
+        "longitude": 4.9649,
+        "latitude": 13.0243,
+        "creation_date": "2025-12-05T14:52:50.200465",
+        "comment": "plausible, probably underestimated"
+      }
+    ]
   },
   "links": [
     {
@@ -84,12 +124,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Niger_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "nigr - Nigr Discharge Multi Mission",
+      "title": "EO4FLOOD Niger discharge at ungauged locations (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "nigr - Nigr Discharge Multi Mission"
+  "title": "EO4FLOOD Niger discharge at ungauged locations"
 }

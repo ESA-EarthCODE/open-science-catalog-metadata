@@ -38,15 +38,10 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 2 ungauged locations in the Ebro river basin, produced by DGFI-TUM for EO4FLOOD. The basin-wide Parquet file contains multi-mission discharge estimates identified by name. date records observation timestamps; q is estimated discharge in cubic metres per second, and q_u_lower and q_u_upper are the delivered lower and upper uncertainty bounds in the same units. lon and lat locate each site in geographic degrees. Observations are irregularly sampled. Source comments and per-site provenance are retained; inclusion of a site does not imply that its estimates passed a quality filter.",
     "nc_attributes": {
       "dataset": "multi-mission-river-discharge",
-      "name": "ebro_cinca_47191",
-      "longitude": 0.3357,
-      "latitude": 41.5401,
       "institution": "DGFI-TUM",
-      "creation_date": "2025-12-23T11:35:12.855585",
-      "comment": "plausible",
       "author": "Daniel Scherer",
       "units": "discharge in m^3/s",
       "datetime_format": "ISO8601 string"
@@ -64,7 +59,24 @@
       "lon": {},
       "lat": {}
     },
-    "datetime": "2026-05-28T16:26:52.442446Z"
+    "datetime": "2026-05-28T16:26:52.442446Z",
+    "title": "EO4FLOOD Ebro discharge at ungauged locations",
+    "eo4flood:source_products": [
+      {
+        "name": "ebro_cinca_47191",
+        "longitude": 0.3357,
+        "latitude": 41.5401,
+        "creation_date": "2025-12-23T11:35:12.855585",
+        "comment": "plausible"
+      },
+      {
+        "name": "ebro_ebro_42362",
+        "longitude": -1.2473,
+        "latitude": 41.8545,
+        "creation_date": "2025-12-23T11:35:13.648498",
+        "comment": "bad"
+      }
+    ]
   },
   "links": [
     {
@@ -84,12 +96,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Ebro_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "ebro - Ebro Discharge Multi Mission",
+      "title": "EO4FLOOD Ebro discharge at ungauged locations (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "ebro - Ebro Discharge Multi Mission"
+  "title": "EO4FLOOD Ebro discharge at ungauged locations"
 }

@@ -38,15 +38,10 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 6 ungauged locations in the Danube river basin, produced by DGFI-TUM for EO4FLOOD. The basin-wide Parquet file contains multi-mission discharge estimates identified by name. date records observation timestamps; q is estimated discharge in cubic metres per second, and q_u_lower and q_u_upper are the delivered lower and upper uncertainty bounds in the same units. lon and lat locate each site in geographic degrees. Observations are irregularly sampled. Source comments and per-site provenance are retained; inclusion of a site does not imply that its estimates passed a quality filter.",
     "nc_attributes": {
       "dataset": "multi-mission-river-discharge",
-      "name": "danube_danube_13613",
-      "longitude": 16.85613047,
-      "latitude": 48.12611081,
       "institution": "DGFI-TUM",
-      "creation_date": "2025-12-23T11:35:12.137213",
-      "comment": "plausible",
       "author": "Daniel Scherer",
       "units": "discharge in m^3/s",
       "datetime_format": "ISO8601 string"
@@ -64,7 +59,52 @@
       "lon": {},
       "lat": {}
     },
-    "datetime": "2026-05-28T16:26:51.947815Z"
+    "datetime": "2026-05-28T16:26:51.947815Z",
+    "title": "EO4FLOOD Danube discharge at ungauged locations",
+    "eo4flood:source_products": [
+      {
+        "name": "danube_danube_13613",
+        "longitude": 16.85613047,
+        "latitude": 48.12611081,
+        "creation_date": "2025-12-23T11:35:12.137213",
+        "comment": "plausible"
+      },
+      {
+        "name": "danube_danube_21582",
+        "longitude": 18.76080421,
+        "latitude": 46.07329192,
+        "creation_date": "2025-12-23T11:35:13.995766",
+        "comment": "plausible"
+      },
+      {
+        "name": "danube_mures_2705",
+        "longitude": 21.18411638,
+        "latitude": 46.13931827,
+        "creation_date": "2025-12-23T11:35:12.576370",
+        "comment": "plausible"
+      },
+      {
+        "name": "danube_somes_21647",
+        "longitude": 22.70181171,
+        "latitude": 47.8335294,
+        "creation_date": "2025-12-23T11:35:12.888362",
+        "comment": "plausible"
+      },
+      {
+        "name": "danube_tisa_17973",
+        "longitude": 20.8984,
+        "latitude": 47.6841,
+        "creation_date": "2025-12-23T11:35:14.462508",
+        "comment": "No Slope, backwater?"
+      },
+      {
+        "name": "danube_velika-morava_21658",
+        "longitude": 21.13030561,
+        "latitude": 44.30993327,
+        "creation_date": "2025-12-23T11:35:13.198082",
+        "comment": "plausible"
+      }
+    ]
   },
   "links": [
     {
@@ -84,12 +124,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Danube_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "dane - Dane Discharge Multi Mission",
+      "title": "EO4FLOOD Danube discharge at ungauged locations (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "dane - Dane  Discharge Multi Mission"
+  "title": "EO4FLOOD Danube discharge at ungauged locations"
 }

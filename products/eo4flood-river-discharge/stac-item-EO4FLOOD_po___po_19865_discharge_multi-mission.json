@@ -38,14 +38,10 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 3 ungauged locations in the Po river basin, produced by DGFI-TUM for EO4FLOOD. The basin-wide Parquet file contains multi-mission discharge estimates identified by name. date records observation timestamps; q is estimated discharge in cubic metres per second, and q_u_lower and q_u_upper are the delivered lower and upper uncertainty bounds in the same units. lon and lat locate each site in geographic degrees. Observations are irregularly sampled. Source comments and per-site provenance are retained; inclusion of a site does not imply that its estimates passed a quality filter.",
     "nc_attributes": {
       "dataset": "multi-mission-river-discharge",
-      "name": "po_po_19865",
-      "longitude": 9.28751,
-      "latitude": 45.12258,
       "institution": "DGFI-TUM",
-      "creation_date": "2025-12-23T11:35:12.656631",
       "comment": "",
       "author": "Daniel Scherer",
       "units": "discharge in m^3/s",
@@ -64,7 +60,28 @@
       "lon": {},
       "lat": {}
     },
-    "datetime": "2026-05-28T16:26:53.696141Z"
+    "datetime": "2026-05-28T16:26:53.696141Z",
+    "title": "EO4FLOOD Po discharge at ungauged locations",
+    "eo4flood:source_products": [
+      {
+        "name": "po_po_19865",
+        "longitude": 9.28751,
+        "latitude": 45.12258,
+        "creation_date": "2025-12-23T11:35:12.656631"
+      },
+      {
+        "name": "po_po_38575",
+        "longitude": 10.19840443,
+        "latitude": 45.03190064,
+        "creation_date": "2025-12-23T11:35:13.619523"
+      },
+      {
+        "name": "po_po_38576",
+        "longitude": 8.3112,
+        "latitude": 45.1504,
+        "creation_date": "2025-12-23T11:35:11.972722"
+      }
+    ]
   },
   "links": [
     {
@@ -84,12 +101,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Po_River_Discharge_Ungauged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "po - Po Discharge Multi Mission",
+      "title": "EO4FLOOD Po discharge at ungauged locations (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "po - Po Discharge Multi Mission"
+  "title": "EO4FLOOD Po discharge at ungauged locations"
 }

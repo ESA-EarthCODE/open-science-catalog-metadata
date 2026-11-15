@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_dane_6144200_GRDC_Discharge_mmMerged",
   "geometry": {
     "type": "Polygon",
@@ -38,17 +41,16 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 46 gauge stations across the Danube river basin, containing multi-mission merged estimates produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
     "nc_attributes": {
       "title": "ESA EO4FLOOD project river discharge (multi-mission merged)",
-      "creation_time": "2025-11-11 14:44:11",
       "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-11",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
       "temporal interval": "01-Jan-2016 to 31-Dec-2025",
-      "version": "1.0",
+      "version": "2.0",
       "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
+      "DOI": "10.5281/zenodo.21699983",
       "Acknowledgements": "ESA EO4FLOOD project reference"
     },
     "parquet_column_metadata": {
@@ -75,7 +77,196 @@
         "units": "degrees_east"
       }
     },
-    "datetime": "2026-05-28T16:26:52.224734Z"
+    "datetime": "2026-05-28T16:26:52.224734Z",
+    "title": "EO4FLOOD Danube multi-mission merged river discharge",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6142620_GRDC",
+        "creation_time": "2026-07-31 10:52:26"
+      },
+      {
+        "gauge_name": "6144200_GRDC",
+        "creation_time": "2026-07-31 10:52:24"
+      },
+      {
+        "gauge_name": "6242250_GRDC",
+        "creation_time": "2026-07-31 10:52:29"
+      },
+      {
+        "gauge_name": "6242400_GRDC",
+        "creation_time": "2026-07-31 10:52:38"
+      },
+      {
+        "gauge_name": "6242700_GRDC",
+        "creation_time": "2026-07-31 10:52:38"
+      },
+      {
+        "gauge_name": "6243030_GRDC",
+        "creation_time": "2026-07-31 10:52:27"
+      },
+      {
+        "gauge_name": "6243850_GRDC",
+        "creation_time": "2026-07-31 10:52:35"
+      },
+      {
+        "gauge_name": "6246600_GRDC",
+        "creation_time": "2026-07-31 10:52:26"
+      },
+      {
+        "gauge_name": "6246611_GRDC",
+        "creation_time": "2026-07-31 10:52:25"
+      },
+      {
+        "gauge_name": "6342500_GRDC",
+        "creation_time": "2026-07-31 10:52:32"
+      },
+      {
+        "gauge_name": "6342510_GRDC",
+        "creation_time": "2026-07-31 10:52:25"
+      },
+      {
+        "gauge_name": "6342800_GRDC",
+        "creation_time": "2026-07-31 10:52:35"
+      },
+      {
+        "gauge_name": "6342900_GRDC",
+        "creation_time": "2026-07-31 10:52:37"
+      },
+      {
+        "gauge_name": "6342920_GRDC",
+        "creation_time": "2026-07-31 10:52:33"
+      },
+      {
+        "gauge_name": "6342925_GRDC",
+        "creation_time": "2026-07-31 10:52:28"
+      },
+      {
+        "gauge_name": "6343100_GRDC",
+        "creation_time": "2026-07-31 10:52:33"
+      },
+      {
+        "gauge_name": "6343500_GRDC",
+        "creation_time": "2026-07-31 10:52:31"
+      },
+      {
+        "gauge_name": "6442450_GRDC",
+        "creation_time": "2026-07-31 10:52:39"
+      },
+      {
+        "gauge_name": "6442500_GRDC",
+        "creation_time": "2026-07-31 10:52:39"
+      },
+      {
+        "gauge_name": "6442600_GRDC",
+        "creation_time": "2026-07-31 10:52:39"
+      },
+      {
+        "gauge_name": "6444090_GRDC",
+        "creation_time": "2026-07-31 10:52:29"
+      },
+      {
+        "gauge_name": "6444100_GRDC",
+        "creation_time": "2026-07-31 10:52:36"
+      },
+      {
+        "gauge_name": "6444200_GRDC",
+        "creation_time": "2026-07-31 10:52:34"
+      },
+      {
+        "gauge_name": "6444310_GRDC",
+        "creation_time": "2026-07-31 10:52:34"
+      },
+      {
+        "gauge_name": "6444600_GRDC",
+        "creation_time": "2026-07-31 10:52:25"
+      },
+      {
+        "gauge_name": "6542200_GRDC",
+        "creation_time": "2026-07-31 10:52:40"
+      },
+      {
+        "gauge_name": "6544100_GRDC",
+        "creation_time": "2026-07-31 10:52:36"
+      },
+      {
+        "gauge_name": "6545050_GRDC",
+        "creation_time": "2026-07-31 10:52:32"
+      },
+      {
+        "gauge_name": "6545101_GRDC",
+        "creation_time": "2026-07-31 10:52:27"
+      },
+      {
+        "gauge_name": "6545150_GRDC",
+        "creation_time": "2026-07-31 10:52:30"
+      },
+      {
+        "gauge_name": "6545800_GRDC",
+        "creation_time": "2026-07-31 10:52:37"
+      },
+      {
+        "gauge_name": "6546801_GRDC",
+        "creation_time": "2026-07-31 10:52:32"
+      },
+      {
+        "gauge_name": "6546802_GRDC",
+        "creation_time": "2026-07-31 10:52:26"
+      },
+      {
+        "gauge_name": "6547500_GRDC",
+        "creation_time": "2026-07-31 10:52:30"
+      },
+      {
+        "gauge_name": "6742200_GRDC",
+        "creation_time": "2026-07-31 10:52:42"
+      },
+      {
+        "gauge_name": "6742201_GRDC",
+        "creation_time": "2026-07-31 10:52:40"
+      },
+      {
+        "gauge_name": "6742451_GRDC",
+        "creation_time": "2026-07-31 10:52:25"
+      },
+      {
+        "gauge_name": "6742500_GRDC",
+        "creation_time": "2026-07-31 10:52:43"
+      },
+      {
+        "gauge_name": "6742700_GRDC",
+        "creation_time": "2026-07-31 10:52:30"
+      },
+      {
+        "gauge_name": "6742900_GRDC",
+        "creation_time": "2026-07-31 10:52:44"
+      },
+      {
+        "gauge_name": "6744200_GRDC",
+        "creation_time": "2026-07-31 10:52:28"
+      },
+      {
+        "gauge_name": "6744500_GRDC",
+        "creation_time": "2026-07-31 10:52:26"
+      },
+      {
+        "gauge_name": "6842200_GRDC",
+        "creation_time": "2026-07-31 10:52:41"
+      },
+      {
+        "gauge_name": "6842400_GRDC",
+        "creation_time": "2026-07-31 10:52:41"
+      },
+      {
+        "gauge_name": "6842700_GRDC",
+        "creation_time": "2026-07-31 10:52:42"
+      },
+      {
+        "gauge_name": "6842900_GRDC",
+        "creation_time": "2026-07-31 10:52:43"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
   },
   "links": [
     {
@@ -95,12 +286,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Danube_River_Discharge_mmMerged.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "dane - Dane Discharge Mmmerged",
+      "title": "EO4FLOOD Danube multi-mission merged river discharge (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "dane - Dane Discharge Mmmerged"
+  "title": "EO4FLOOD Danube multi-mission merged river discharge"
 }

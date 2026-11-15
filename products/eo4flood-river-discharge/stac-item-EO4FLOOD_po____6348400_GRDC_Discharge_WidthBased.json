@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
   "id": "stac-item-EO4FLOOD_po____6348400_GRDC_Discharge_WidthBased",
   "geometry": {
     "type": "Polygon",
@@ -38,17 +41,16 @@
   ],
   "properties": {
     "license": "cc-by-4.0",
-    "description": "",
+    "description": "River discharge time series at 24 gauge stations across the Po river basin, containing estimates derived from river width produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
     "nc_attributes": {
       "title": "ESA EO4FLOOD project river discharge (width-based)",
-      "creation_time": "2025-11-10 16:42:11",
       "institution": "Institute of Geodesy (GIS), University of Stuttgart",
-      "contact": "saemian@gis.uni-stuttgart.de; Omid.elmi@gis.uni-stuttgart.de; Tourian@gis.uni-stuttgart.de",
-      "pdate": "2025-11-10",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
       "temporal interval": "01-Jan-2016 to 31-Dec-2025",
-      "version": "1.0",
+      "version": "2.0",
       "Conventions": "CF-1.11-draft",
-      "DOI": "Will be added later on",
+      "DOI": "10.5281/zenodo.21699983",
       "Acknowledgements": "ESA EO4FLOOD project reference"
     },
     "parquet_column_metadata": {
@@ -75,7 +77,108 @@
         "units": "degrees_east"
       }
     },
-    "datetime": "2026-05-28T16:26:53.749505Z"
+    "datetime": "2026-05-28T16:26:53.749505Z",
+    "title": "EO4FLOOD Po river discharge from river width",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6348200_GRDC",
+        "creation_time": "2026-07-31 11:00:32"
+      },
+      {
+        "gauge_name": "6348201_GRDC",
+        "creation_time": "2026-07-31 11:00:31"
+      },
+      {
+        "gauge_name": "6348300_GRDC",
+        "creation_time": "2026-07-31 11:00:31"
+      },
+      {
+        "gauge_name": "6348310_GRDC",
+        "creation_time": "2026-07-31 11:00:30"
+      },
+      {
+        "gauge_name": "6348350_GRDC",
+        "creation_time": "2026-07-31 11:00:32"
+      },
+      {
+        "gauge_name": "6348400_GRDC",
+        "creation_time": "2026-07-31 11:00:33"
+      },
+      {
+        "gauge_name": "6348500_GRDC",
+        "creation_time": "2026-07-31 11:00:33"
+      },
+      {
+        "gauge_name": "6348600_GRDC",
+        "creation_time": "2026-07-31 11:00:32"
+      },
+      {
+        "gauge_name": "6348610_GRDC",
+        "creation_time": "2026-07-31 11:00:32"
+      },
+      {
+        "gauge_name": "6348800_GRDC",
+        "creation_time": "2026-07-31 11:00:33"
+      },
+      {
+        "gauge_name": "6948100_GRDC",
+        "creation_time": "2026-07-31 11:00:31"
+      },
+      {
+        "gauge_name": "6948120_GRDC",
+        "creation_time": "2026-07-31 11:00:31"
+      },
+      {
+        "gauge_name": "Alba",
+        "creation_time": "2026-07-31 11:00:36"
+      },
+      {
+        "gauge_name": "Borgoforte",
+        "creation_time": "2026-07-31 11:00:35"
+      },
+      {
+        "gauge_name": "Carignano",
+        "creation_time": "2026-07-31 11:00:34"
+      },
+      {
+        "gauge_name": "Casale_Monferrato",
+        "creation_time": "2026-07-31 11:00:34"
+      },
+      {
+        "gauge_name": "CremonaSIAP",
+        "creation_time": "2026-07-31 11:00:35"
+      },
+      {
+        "gauge_name": "Farigliano",
+        "creation_time": "2026-07-31 11:00:36"
+      },
+      {
+        "gauge_name": "Piacenza",
+        "creation_time": "2026-07-31 11:00:34"
+      },
+      {
+        "gauge_name": "Quinto_Vercellese_Cervo",
+        "creation_time": "2026-07-31 11:00:37"
+      },
+      {
+        "gauge_name": "SSecondo",
+        "creation_time": "2026-07-31 11:00:36"
+      },
+      {
+        "gauge_name": "Sorbolo",
+        "creation_time": "2026-07-31 11:00:35"
+      },
+      {
+        "gauge_name": "SpessaPo",
+        "creation_time": "2026-07-31 11:00:34"
+      },
+      {
+        "gauge_name": "Tavagnasco",
+        "creation_time": "2026-07-31 11:00:37"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
   },
   "links": [
     {
@@ -95,12 +198,12 @@
     "data": {
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Po_River_Discharge_WidthBased.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "po - Po Discharge Widthbased",
+      "title": "EO4FLOOD Po river discharge from river width (Parquet)",
       "roles": [
         "data"
       ]
     }
   },
   "collection": "eo4flood-river-discharge",
-  "title": "po - Po Discharge Widthbased"
+  "title": "EO4FLOOD Po river discharge from river width"
 }
