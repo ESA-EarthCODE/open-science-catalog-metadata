@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "eoagritwin-lstsdd-winter-rapeseed",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.05,
+          47.27
+        ],
+        [
+          15.05,
+          55.06
+        ],
+        [
+          5.86,
+          55.06
+        ],
+        [
+          5.86,
+          47.27
+        ],
+        [
+          15.05,
+          47.27
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    5.86,
+    47.27,
+    15.05,
+    55.06
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "Annual crop-specific Land Surface Temperature Stress Degree Days for winter rapeseed over Germany, 2017-2024, derived from Sentinel-3 SLSTR. Zarr store with variable 'lstsdd_winter_rapeseed' (time, y, x) in degC day; NaN where no winter rapeseed is grown.",
+    "start_datetime": "2017-01-01T00:00:00Z",
+    "end_datetime": "2024-12-31T23:59:59Z",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Crop-specific Land Surface Temperature Stress Degree Days for Germany (Sentinel-3 SLSTR)"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Crop-specific Land Surface Temperature Stress Degree Days for Germany (Sentinel-3 SLSTR)"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "eoagritwin-lstsdd-winter-rapeseed.zarr",
+      "type": "application/vnd+zarr",
+      "title": "LSTSDD winter rapeseed 2017-2024 (Zarr)",
+      "created": "2026-11-09T14:48:18Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2017-01-01T00:00:00Z",
+            "2024-01-01T00:00:00Z"
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            5.865,
+            15.045
+          ],
+          "description": "longitude",
+          "reference_system": 4326,
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            47.275,
+            55.055
+          ],
+          "description": "latitude",
+          "reference_system": 4326,
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "lstsdd_winter_rapeseed": {
+          "type": "data",
+          "description": "Cumulative crop-specific land surface temperature stress degree days for winter rapeseed",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "degC day",
+          "attrs": {
+            "long_name": "Cumulative crop-specific land surface temperature stress degree days for winter rapeseed",
+            "units": "degC day",
+            "cell_methods": "time: sum",
+            "comment": "Annual cumulative heat exposure for winter rapeseed, derived from Sentinel-3 SLSTR land surface temperature, restricted to the crop-specific growing periods given by DWD phenological phase data and to winter rapeseed pixels given by the national crop type maps. NaN = no winter rapeseed pixel or no data."
+          },
+          "shape": [
+            8,
+            779,
+            919
+          ],
+          "chunks": [
+            1,
+            779,
+            919
+          ]
+        },
+        "spatial_ref": {
+          "type": "auxiliary",
+          "dimensions": [],
+          "attrs": {
+            "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "inverse_flattening": 298.257223563,
+            "reference_ellipsoid_name": "WGS 84",
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "geographic_crs_name": "WGS 84",
+            "horizontal_datum_name": "World Geodetic System 1984",
+            "grid_mapping_name": "latitude_longitude",
+            "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
+          },
+          "shape": []
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eoagritwin-lstsdd",
+  "title": "LSTSDD winter rapeseed Zarr store"
+}
