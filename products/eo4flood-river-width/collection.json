@@ -21,7 +21,7 @@
     },
     {
       "rel": "example",
-      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/parquet/access.ipynb",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/tree/main/eo4flood/EO4FLOOD_river_width_online_simplified.ipynb",
       "title": "Tutorial: Access the data",
       "description": "A Python notebook demonstrating how to access the data from this collection.",
       "type": "application/x-ipynb+json",
