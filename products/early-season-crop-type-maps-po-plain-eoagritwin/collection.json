@@ -1,0 +1,144 @@
+{
+  "type": "Collection",
+  "id": "early-season-crop-type-maps-po-plain-eoagritwin",
+  "stac_version": "1.0.0",
+  "description": "Parcel-level crop-type maps of the Po Plain (Piedmont, Lombardy, Veneto and Emilia-Romagna, northern Italy), produced in season from Sentinel-2 Level-2A time series alone at three dates of each campaign (15 May, 15 July and 15 September) for the campaign years 2020 to 2025, delivered as 10 m Cloud Optimized GeoTIFFs. For each date two rasters are provided: the crop-type class (16 classes) and its calibrated confidence. Each field parcel carries one class; pixels outside the mapped parcels are no-data. The classifier, an ensemble of Random Forest and XGBoost models trained on Land Parcel Identification System declarations of 13 provinces (308,716 parcels), is applied without any cropping history to about 1.26 million field parcels. Aggregated to province and crop, the 15 September maps agree with the ISTAT crop statistics over 33 provinces (Lin's concordance 0.92, area bias -16 %). Produced by Universita Cattolica del Sacro Cuore within the ESA EOAgriTwin project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Project: EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/crop-type-masks/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Crop Type Masks"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/early-season-crop-type-maps-po-plain-eoagritwin/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/early-season-crop-type-maps-po-plain-eoagritwin/collection",
+      "type": "text/html",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.eoagritwin.eu/",
+      "type": "text/html",
+      "title": "Documentation"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/early-season-crop-type-mapping-po-plain-eoagritwin-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: Early-season crop-type mapping of the Po Plain from Sentinel-2 (EOAgriTwin)"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:project": "eoagritwin",
+  "osc:status": "ongoing",
+  "osc:region": "Northern Italy (Po Plain)",
+  "osc:type": "product",
+  "created": "2026-10-20T00:00:00Z",
+  "updated": "2026-11-09T00:00:00Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "crop-type-masks"
+  ],
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "contacts": [
+    {
+      "name": "Michele Croci",
+      "emails": [
+        {
+          "value": "michele.croci@unicatt.it"
+        }
+      ],
+      "roles": [
+        "creator"
+      ]
+    },
+    {
+      "name": "Universita Cattolica del Sacro Cuore (UCSC)",
+      "roles": [
+        "producer",
+        "processor"
+      ]
+    }
+  ],
+  "title": "Early-season crop-type maps of the Po Plain (northern Italy) from Sentinel-2, 2020 to 2025",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.675,
+          43.731,
+          13.103,
+          46.686
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-10-01T00:00:00Z",
+          "2025-09-15T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Crop type",
+    "Early-season crop mapping",
+    "Sentinel-2",
+    "Cloud Optimized GeoTIFF",
+    "Po Plain",
+    "Italy"
+  ]
+}

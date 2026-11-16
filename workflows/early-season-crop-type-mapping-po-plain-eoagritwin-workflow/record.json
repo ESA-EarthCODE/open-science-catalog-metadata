@@ -1,0 +1,104 @@
+{
+  "id": "early-season-crop-type-mapping-po-plain-eoagritwin-workflow",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "type": "workflow",
+    "title": "Early-season crop-type mapping of the Po Plain from Sentinel-2 (EOAgriTwin)",
+    "description": "Code that produces the early-season crop-type maps of the Po Plain (Piedmont, Lombardy, Veneto and Emilia-Romagna, campaign years 2020 to 2025) and the analyses of the paper 'How accurate must a cropping record be to improve early-season Sentinel-2 crop mapping?'. Three stages: crop-rotation labels from the regional LPIS declarations (R); per-parcel Sentinel-2 Level-2A time series of seven bands and ten vegetation indices through openEO on the Copernicus Data Space Ecosystem (Python, R); classification at seven in-season cutoffs with a calibrated Random Forest and XGBoost ensemble, a crop-rotation prior, TempCNN and L-TAE backbones, label-degradation experiments, deployment on third-party field parcels, validation against ISTAT provincial statistics and the Copernicus CLMS crop-type layer, and export to Cloud Optimized GeoTIFF with STAC metadata (Python). The input data are not distributed.",
+    "keywords": [
+      "Crop type",
+      "Early-season crop mapping",
+      "Sentinel-2",
+      "Crop rotation",
+      "openEO",
+      "Python",
+      "R"
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "Michele Croci",
+        "emails": [
+          {
+            "value": "michele.croci@unicatt.it"
+          }
+        ],
+        "roles": [
+          "creator"
+        ]
+      },
+      {
+        "name": "Universita Cattolica del Sacro Cuore (UCSC)",
+        "roles": [
+          "producer"
+        ]
+      }
+    ],
+    "license": "Apache-2.0",
+    "osc:project": "eoagritwin",
+    "osc:status": "ongoing",
+    "created": "2026-10-22T00:00:00Z",
+    "updated": "2026-11-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/early-season-crop-type-mapping-po-plain-eoagritwin-workflow/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Project: EOAgriTwin - Earth Observation based Digital Twin for Resilient Agriculture under Multiple Stressors"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/early-season-crop-type-maps-po-plain-eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Product: Early-season crop-type maps of the Po Plain (northern Italy) from Sentinel-2, 2020 to 2025"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/eoagritwin/UseCase_Italy.git",
+      "type": "text/html",
+      "title": "Git source repository (code in the folder early_crop_mapping/)"
+    }
+  ]
+}

@@ -290,6 +290,12 @@
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/early-season-crop-type-maps-po-plain-eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Early-season crop-type maps of the Po Plain (northern Italy) from Sentinel-2, 2020 to 2025"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

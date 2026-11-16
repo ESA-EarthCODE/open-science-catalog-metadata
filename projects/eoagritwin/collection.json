@@ -26,6 +26,18 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/early-season-crop-type-maps-po-plain-eoagritwin/collection.json",
+      "type": "application/json",
+      "title": "Early-season crop-type maps of the Po Plain (northern Italy) from Sentinel-2, 2020 to 2025"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/early-season-crop-type-mapping-po-plain-eoagritwin-workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: Early-season crop-type mapping of the Po Plain from Sentinel-2 (EOAgriTwin)"
     }
   ],
   "stac_extensions": [
