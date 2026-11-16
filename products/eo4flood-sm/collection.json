@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.83395/2xc7-3r03"}
+  ],
+  "sci:doi": "10.83395/0sx8-2v33",
   "type": "Collection",
   "id": "eo4flood-sm",
   "stac_version": "1.0.0",
@@ -233,7 +237,8 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "osc:project": "eo4flood",
   "osc:status": "completed",
