@@ -47,6 +47,12 @@
       "title": "Hydrology-4D"
     },
     {
+      "rel": "child",
+      "href": "../../products/eo4flood-sm/collection.json",
+      "type": "application/json", 
+      "title": "EO4FLOOD Soil Moisture Products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

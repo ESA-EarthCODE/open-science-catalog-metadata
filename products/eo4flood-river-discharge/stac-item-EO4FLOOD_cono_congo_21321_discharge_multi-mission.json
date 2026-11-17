@@ -1,0 +1,163 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_cono_congo_21321_discharge_multi-mission",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.1129,
+          -5.9182
+        ],
+        [
+          24.1129,
+          2.6442
+        ],
+        [
+          15.9588,
+          2.6442
+        ],
+        [
+          15.9588,
+          -5.9182
+        ],
+        [
+          24.1129,
+          -5.9182
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    15.9588,
+    -5.9182,
+    24.1129,
+    2.6442
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 10 ungauged locations in the Congo river basin, produced by DGFI-TUM for EO4FLOOD. The basin-wide Parquet file contains multi-mission discharge estimates identified by name. date records observation timestamps; q is estimated discharge in cubic metres per second, and q_u_lower and q_u_upper are the delivered lower and upper uncertainty bounds in the same units. lon and lat locate each site in geographic degrees. Observations are irregularly sampled. Source comments and per-site provenance are retained; inclusion of a site does not imply that its estimates passed a quality filter.",
+    "nc_attributes": {
+      "dataset": "multi-mission-river-discharge",
+      "institution": "DGFI-TUM",
+      "author": "Daniel Scherer",
+      "units": "discharge in m^3/s",
+      "datetime_format": "ISO8601 string"
+    },
+    "parquet_column_metadata": {
+      "q": {
+        "units": "m^3/s"
+      },
+      "q_u_lower": {
+        "units": "m^3/s"
+      },
+      "q_u_upper": {
+        "units": "m^3/s"
+      },
+      "lon": {},
+      "lat": {}
+    },
+    "datetime": "2026-05-28T16:26:51.523618Z",
+    "title": "EO4FLOOD Congo discharge at ungauged locations",
+    "eo4flood:source_products": [
+      {
+        "name": "congo_congo_21321",
+        "longitude": 15.9588,
+        "latitude": -3.7927,
+        "creation_date": "2025-12-05T14:52:51.596879",
+        "comment": "plausible, probably underestimated"
+      },
+      {
+        "name": "congo_fimi_12307",
+        "longitude": 17.17335,
+        "latitude": -3.01771,
+        "creation_date": "2025-12-05T14:52:51.144478",
+        "comment": "plausible, probably underestimated"
+      },
+      {
+        "name": "congo_kasai_12112",
+        "longitude": 20.5974,
+        "latitude": -5.9182,
+        "creation_date": "2025-12-05T14:52:50.599777",
+        "comment": "plausible"
+      },
+      {
+        "name": "congo_kwango_11915",
+        "longitude": 17.2804,
+        "latitude": -3.4699,
+        "creation_date": "2025-12-05T14:52:52.076030",
+        "comment": "plausible"
+      },
+      {
+        "name": "congo_kwilu_12000",
+        "longitude": 17.62641,
+        "latitude": -3.52981,
+        "creation_date": "2025-12-05T14:52:50.059665",
+        "comment": "plausible"
+      },
+      {
+        "name": "congo_likouala_12054",
+        "longitude": 16.7031,
+        "latitude": -0.8216,
+        "creation_date": "2025-12-05T14:52:51.236555",
+        "comment": "suspect"
+      },
+      {
+        "name": "congo_lomami_47469",
+        "longitude": 24.1129,
+        "latitude": 0.2545,
+        "creation_date": "2025-12-05T14:52:50.472504",
+        "comment": "plausible"
+      },
+      {
+        "name": "congo_luluwa_11922",
+        "longitude": 21.47887,
+        "latitude": -5.31817,
+        "creation_date": "2025-12-05T14:52:49.980260",
+        "comment": "plausible"
+      },
+      {
+        "name": "congo_mongala_11645",
+        "longitude": 20.8658,
+        "latitude": 2.6442,
+        "creation_date": "2025-12-05T14:52:51.079387",
+        "comment": "plausible"
+      },
+      {
+        "name": "congo_sankuru_17415",
+        "longitude": 20.8175,
+        "latitude": -4.109,
+        "creation_date": "2025-12-05T14:52:52.283461",
+        "comment": "plausible"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Congo_River_Discharge_Ungauged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Congo discharge at ungauged locations (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Congo discharge at ungauged locations"
+}

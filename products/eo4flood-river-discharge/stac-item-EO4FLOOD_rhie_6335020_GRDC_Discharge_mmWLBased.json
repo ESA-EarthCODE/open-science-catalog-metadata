@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_rhie_6335020_GRDC_Discharge_mmWLBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.44871711730957,
+          47.57040023803711
+        ],
+        [
+          8.44871711730957,
+          51.756919860839844
+        ],
+        [
+          6.395394802093506,
+          51.756919860839844
+        ],
+        [
+          6.395394802093506,
+          47.57040023803711
+        ],
+        [
+          8.44871711730957,
+          47.57040023803711
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    6.395394802093506,
+    47.57040023803711,
+    8.44871711730957,
+    51.756919860839844
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 7 gauge stations across the Rhine river basin, containing estimates derived from multi-mission water level produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission water-level-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (multi-mission water-level-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:54.256550Z",
+    "title": "EO4FLOOD Rhine river discharge from multi-mission water level",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6335020_GRDC",
+        "creation_time": "2026-07-31 10:49:54"
+      },
+      {
+        "gauge_name": "6335070_GRDC",
+        "creation_time": "2026-07-31 10:49:54"
+      },
+      {
+        "gauge_name": "6335170_GRDC",
+        "creation_time": "2026-07-31 10:49:53"
+      },
+      {
+        "gauge_name": "6335304_GRDC",
+        "creation_time": "2026-07-31 10:49:53"
+      },
+      {
+        "gauge_name": "6335450_GRDC",
+        "creation_time": "2026-07-31 10:49:52"
+      },
+      {
+        "gauge_name": "6336050_GRDC",
+        "creation_time": "2026-07-31 10:49:53"
+      },
+      {
+        "gauge_name": "6935054_GRDC",
+        "creation_time": "2026-07-31 10:49:53"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Rhine_River_Discharge_mmWLBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Rhine river discharge from multi-mission water level (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Rhine river discharge from multi-mission water level"
+}

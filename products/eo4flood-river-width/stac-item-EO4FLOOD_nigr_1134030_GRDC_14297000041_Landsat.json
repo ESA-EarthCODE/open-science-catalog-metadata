@@ -1,0 +1,186 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_nigr_1134030_GRDC_14297000041_Landsat",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.73330020904541,
+          8.109999656677246
+        ],
+        [
+          9.73330020904541,
+          16.93000030517578
+        ],
+        [
+          -9.866700172424316,
+          16.93000030517578
+        ],
+        [
+          -9.866700172424316,
+          8.109999656677246
+        ],
+        [
+          9.73330020904541,
+          8.109999656677246
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -9.866700172424316,
+    8.109999656677246,
+    9.73330020904541,
+    16.93000030517578
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "Satellite-derived river width observations at 26 gauge stations in the Niger river basin, combining Landsat and Sentinel-2 observations. The basin-wide Parquet file contains irregularly sampled time series identified by gauge name, SWORD v17 reach ID and satellite mission. The time column records observation timestamps, w is estimated river width in metres, and gauge_lon and gauge_lat locate the gauge stations in longitude and latitude. Produced by the Institute of Geodesy (GIS), University of Stuttgart, for the ESA EO4FLOOD project.",
+    "start_datetime": "1984-03-01T00:00:00Z",
+    "end_datetime": "2025-09-18T00:00:00Z",
+    "datetime": "1984-03-01T00:00:00Z",
+    "parquet_column_metadata": {
+      "time": {
+        "long_name": "Time since 1984-01-01 00:00"
+      },
+      "w": {
+        "long_name": "Estimated river width",
+        "units": "m"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "reach_ID": {
+        "long_name": "Reach ID from SWORD v17 dataset"
+      },
+      "satellite": {
+        "long_name": "Satellite mission name (e.g., Landsat, Sentinel-2, MODIS)"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "title": "EO4FLOOD Niger river width time series",
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983",
+    "eo4flood:source_attributes": {
+      "title": "ESA EO4FLOOD project river width",
+      "creation_time": [
+        "2026-09-16 16:17:31",
+        "2026-09-16 16:17:32",
+        "2026-09-16 16:17:33",
+        "2026-09-16 16:17:34",
+        "2026-09-16 16:17:35",
+        "2026-09-16 16:17:36",
+        "2026-09-16 16:17:37",
+        "2026-09-16 16:17:38",
+        "2026-09-16 16:17:39",
+        "2026-09-16 16:17:40",
+        "2026-09-16 16:17:41",
+        "2026-09-16 16:17:42",
+        "2026-09-16 16:17:43",
+        "2026-09-16 16:17:44",
+        "2026-09-16 16:17:45",
+        "2026-09-16 16:17:46",
+        "2026-09-16 16:17:47"
+      ],
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-09-16",
+      "temporal interval": [
+        "01-Jan-2016 to 27-Dec-2025",
+        "01-Oct-2016 to 29-Dec-2025",
+        "03-Jan-2016 to 27-Nov-2025",
+        "03-Jan-2017 to 25-Jun-2025",
+        "04-Dec-2016 to 29-Dec-2025",
+        "04-Feb-2016 to 29-Dec-2025",
+        "04-Mar-2018 to 12-Dec-2025",
+        "07-Jan-2016 to 25-Dec-2025",
+        "07-Mar-2016 to 21-Dec-2025",
+        "07-Mar-2019 to 10-Nov-2025",
+        "07-Nov-2016 to 30-Dec-2025",
+        "08-Dec-2016 to 23-Nov-2025",
+        "08-Feb-2016 to 22-Dec-2025",
+        "08-Jan-2018 to 12-Jun-2025",
+        "08-Mar-2018 to 06-Nov-2025",
+        "09-Feb-2016 to 30-Dec-2025",
+        "09-Jan-2016 to 19-Dec-2025",
+        "10-Feb-2019 to 16-Oct-2025",
+        "10-Jan-2016 to 20-Dec-2025",
+        "11-Jan-2016 to 13-Dec-2025",
+        "12-Feb-2019 to 16-May-2024",
+        "12-Feb-2019 to 29-Dec-2025",
+        "12-Jan-2016 to 30-Dec-2025",
+        "13-Jan-2016 to 31-Dec-2025",
+        "13-May-2017 to 19-Nov-2025",
+        "14-Nov-2016 to 30-Dec-2025",
+        "16-Apr-2017 to 10-Dec-2025",
+        "17-Feb-2016 to 26-Dec-2025",
+        "17-Jan-2016 to 27-Dec-2025",
+        "18-Feb-2016 to 29-Dec-2025",
+        "19-Jan-2016 to 29-Dec-2025",
+        "21-Jan-2016 to 31-Dec-2025",
+        "21-Nov-2016 to 29-Dec-2025",
+        "22-Mar-2019 to 09-May-2025",
+        "23-Aug-2020 to 23-Aug-2020",
+        "23-Jan-2016 to 25-Dec-2025",
+        "23-Mar-2016 to 29-Dec-2025",
+        "24-Jan-2016 to 07-Oct-2025",
+        "24-Jan-2019 to 08-Nov-2025",
+        "25-Jan-2016 to 19-Jul-2021",
+        "27-Dec-2019 to 18-Jun-2025",
+        "27-Jul-2024 to 01-Dec-2024",
+        "29-Jan-2016 to 22-Dec-2025",
+        "29-Jan-2016 to 29-Dec-2025",
+        "30-Aug-2016 to 29-Dec-2025",
+        "30-Jan-2016 to 22-May-2025",
+        "30-Jan-2016 to 30-Dec-2025",
+        "30-Oct-2017 to 22-Dec-2024"
+      ],
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Width Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Width Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/width_series/Niger_width_timeseries.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Niger river width time series (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-width",
+  "title": "EO4FLOOD Niger river width time series"
+}

@@ -1,0 +1,137 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_po____6348800_GRDC_Discharge_mmWLBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.600000381469727,
+          44.88333511352539
+        ],
+        [
+          11.600000381469727,
+          45.10179901123047
+        ],
+        [
+          9.346099853515625,
+          45.10179901123047
+        ],
+        [
+          9.346099853515625,
+          44.88333511352539
+        ],
+        [
+          11.600000381469727,
+          44.88333511352539
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.346099853515625,
+    44.88333511352539,
+    11.600000381469727,
+    45.10179901123047
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 6 gauge stations across the Po river basin, containing estimates derived from multi-mission water level produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission water-level-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (multi-mission water-level-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:53.913904Z",
+    "title": "EO4FLOOD Po river discharge from multi-mission water level",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6348800_GRDC",
+        "creation_time": "2026-07-31 10:49:51"
+      },
+      {
+        "gauge_name": "6948100_GRDC",
+        "creation_time": "2026-07-31 10:49:51"
+      },
+      {
+        "gauge_name": "Borgoforte",
+        "creation_time": "2026-07-31 10:49:52"
+      },
+      {
+        "gauge_name": "CremonaSIAP",
+        "creation_time": "2026-07-31 10:49:52"
+      },
+      {
+        "gauge_name": "Piacenza",
+        "creation_time": "2026-07-31 10:49:52"
+      },
+      {
+        "gauge_name": "SpessaPo",
+        "creation_time": "2026-07-31 10:49:51"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Po_River_Discharge_mmWLBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Po river discharge from multi-mission water level (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Po river discharge from multi-mission water level"
+}

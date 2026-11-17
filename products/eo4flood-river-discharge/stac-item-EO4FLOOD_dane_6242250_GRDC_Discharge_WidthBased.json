@@ -1,0 +1,297 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_dane_6242250_GRDC_Discharge_WidthBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.512222290039062,
+          43.630001068115234
+        ],
+        [
+          27.512222290039062,
+          48.87975311279297
+        ],
+        [
+          12.693680763244629,
+          48.87975311279297
+        ],
+        [
+          12.693680763244629,
+          43.630001068115234
+        ],
+        [
+          27.512222290039062,
+          43.630001068115234
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    12.693680763244629,
+    43.630001068115234,
+    27.512222290039062,
+    48.87975311279297
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 46 gauge stations across the Danube river basin, containing estimates derived from river width produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (width-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (width-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:52.037219Z",
+    "title": "EO4FLOOD Danube river discharge from river width",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6142620_GRDC",
+        "creation_time": "2026-07-31 10:59:53"
+      },
+      {
+        "gauge_name": "6144200_GRDC",
+        "creation_time": "2026-07-31 10:59:51"
+      },
+      {
+        "gauge_name": "6242250_GRDC",
+        "creation_time": "2026-07-31 10:59:55"
+      },
+      {
+        "gauge_name": "6242400_GRDC",
+        "creation_time": "2026-07-31 11:00:00"
+      },
+      {
+        "gauge_name": "6242700_GRDC",
+        "creation_time": "2026-07-31 11:00:00"
+      },
+      {
+        "gauge_name": "6243030_GRDC",
+        "creation_time": "2026-07-31 10:59:54"
+      },
+      {
+        "gauge_name": "6243850_GRDC",
+        "creation_time": "2026-07-31 10:59:59"
+      },
+      {
+        "gauge_name": "6246600_GRDC",
+        "creation_time": "2026-07-31 10:59:53"
+      },
+      {
+        "gauge_name": "6246611_GRDC",
+        "creation_time": "2026-07-31 10:59:52"
+      },
+      {
+        "gauge_name": "6342500_GRDC",
+        "creation_time": "2026-07-31 10:59:57"
+      },
+      {
+        "gauge_name": "6342510_GRDC",
+        "creation_time": "2026-07-31 10:59:52"
+      },
+      {
+        "gauge_name": "6342800_GRDC",
+        "creation_time": "2026-07-31 10:59:58"
+      },
+      {
+        "gauge_name": "6342900_GRDC",
+        "creation_time": "2026-07-31 11:00:00"
+      },
+      {
+        "gauge_name": "6342920_GRDC",
+        "creation_time": "2026-07-31 10:59:58"
+      },
+      {
+        "gauge_name": "6342925_GRDC",
+        "creation_time": "2026-07-31 10:59:54"
+      },
+      {
+        "gauge_name": "6343100_GRDC",
+        "creation_time": "2026-07-31 10:59:57"
+      },
+      {
+        "gauge_name": "6343500_GRDC",
+        "creation_time": "2026-07-31 10:59:56"
+      },
+      {
+        "gauge_name": "6442450_GRDC",
+        "creation_time": "2026-07-31 11:00:01"
+      },
+      {
+        "gauge_name": "6442500_GRDC",
+        "creation_time": "2026-07-31 11:00:01"
+      },
+      {
+        "gauge_name": "6442600_GRDC",
+        "creation_time": "2026-07-31 11:00:01"
+      },
+      {
+        "gauge_name": "6444090_GRDC",
+        "creation_time": "2026-07-31 10:59:55"
+      },
+      {
+        "gauge_name": "6444100_GRDC",
+        "creation_time": "2026-07-31 10:59:59"
+      },
+      {
+        "gauge_name": "6444200_GRDC",
+        "creation_time": "2026-07-31 10:59:58"
+      },
+      {
+        "gauge_name": "6444310_GRDC",
+        "creation_time": "2026-07-31 10:59:58"
+      },
+      {
+        "gauge_name": "6444600_GRDC",
+        "creation_time": "2026-07-31 10:59:52"
+      },
+      {
+        "gauge_name": "6542200_GRDC",
+        "creation_time": "2026-07-31 11:00:02"
+      },
+      {
+        "gauge_name": "6544100_GRDC",
+        "creation_time": "2026-07-31 10:59:59"
+      },
+      {
+        "gauge_name": "6545050_GRDC",
+        "creation_time": "2026-07-31 10:59:57"
+      },
+      {
+        "gauge_name": "6545101_GRDC",
+        "creation_time": "2026-07-31 10:59:54"
+      },
+      {
+        "gauge_name": "6545150_GRDC",
+        "creation_time": "2026-07-31 10:59:56"
+      },
+      {
+        "gauge_name": "6545800_GRDC",
+        "creation_time": "2026-07-31 11:00:00"
+      },
+      {
+        "gauge_name": "6546801_GRDC",
+        "creation_time": "2026-07-31 10:59:57"
+      },
+      {
+        "gauge_name": "6546802_GRDC",
+        "creation_time": "2026-07-31 10:59:53"
+      },
+      {
+        "gauge_name": "6547500_GRDC",
+        "creation_time": "2026-07-31 10:59:56"
+      },
+      {
+        "gauge_name": "6742200_GRDC",
+        "creation_time": "2026-07-31 11:00:03"
+      },
+      {
+        "gauge_name": "6742201_GRDC",
+        "creation_time": "2026-07-31 11:00:02"
+      },
+      {
+        "gauge_name": "6742451_GRDC",
+        "creation_time": "2026-07-31 10:59:51"
+      },
+      {
+        "gauge_name": "6742500_GRDC",
+        "creation_time": "2026-07-31 11:00:03"
+      },
+      {
+        "gauge_name": "6742700_GRDC",
+        "creation_time": "2026-07-31 10:59:55"
+      },
+      {
+        "gauge_name": "6742900_GRDC",
+        "creation_time": "2026-07-31 11:00:04"
+      },
+      {
+        "gauge_name": "6744200_GRDC",
+        "creation_time": "2026-07-31 10:59:55"
+      },
+      {
+        "gauge_name": "6744500_GRDC",
+        "creation_time": "2026-07-31 10:59:53"
+      },
+      {
+        "gauge_name": "6842200_GRDC",
+        "creation_time": "2026-07-31 11:00:02"
+      },
+      {
+        "gauge_name": "6842400_GRDC",
+        "creation_time": "2026-07-31 11:00:02"
+      },
+      {
+        "gauge_name": "6842700_GRDC",
+        "creation_time": "2026-07-31 11:00:03"
+      },
+      {
+        "gauge_name": "6842900_GRDC",
+        "creation_time": "2026-07-31 11:00:03"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Danube_River_Discharge_WidthBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Danube river discharge from river width (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Danube river discharge from river width"
+}

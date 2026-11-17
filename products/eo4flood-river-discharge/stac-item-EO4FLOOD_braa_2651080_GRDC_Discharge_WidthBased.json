@@ -1,0 +1,181 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_braa_2651080_GRDC_Discharge_WidthBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          94.76667022705078,
+          25.18000030517578
+        ],
+        [
+          94.76667022705078,
+          30.299999237060547
+        ],
+        [
+          87.68333435058594,
+          30.299999237060547
+        ],
+        [
+          87.68333435058594,
+          25.18000030517578
+        ],
+        [
+          94.76667022705078,
+          25.18000030517578
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    87.68333435058594,
+    25.18000030517578,
+    94.76667022705078,
+    30.299999237060547
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 17 gauge stations across the Brahmaputra river basin, containing estimates derived from river width produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (width-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (width-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:51.283885Z",
+    "title": "EO4FLOOD Brahmaputra river discharge from river width",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "2651080_GRDC",
+        "creation_time": "2026-07-31 10:59:45"
+      },
+      {
+        "gauge_name": "2651100_GRDC",
+        "creation_time": "2026-07-31 10:59:46"
+      },
+      {
+        "gauge_name": "301_CHP",
+        "creation_time": "2026-07-31 10:59:44"
+      },
+      {
+        "gauge_name": "305_CHP",
+        "creation_time": "2026-07-31 10:59:46"
+      },
+      {
+        "gauge_name": "307_CHP",
+        "creation_time": "2026-07-31 10:59:42"
+      },
+      {
+        "gauge_name": "310_CHP",
+        "creation_time": "2026-07-31 10:59:44"
+      },
+      {
+        "gauge_name": "312_CHP",
+        "creation_time": "2026-07-31 10:59:42"
+      },
+      {
+        "gauge_name": "314_CHP",
+        "creation_time": "2026-07-31 10:59:42"
+      },
+      {
+        "gauge_name": "315_CHP",
+        "creation_time": "2026-07-31 10:59:43"
+      },
+      {
+        "gauge_name": "317_CHP",
+        "creation_time": "2026-07-31 10:59:45"
+      },
+      {
+        "gauge_name": "325_CHP",
+        "creation_time": "2026-07-31 10:59:44"
+      },
+      {
+        "gauge_name": "327_CHP",
+        "creation_time": "2026-07-31 10:59:43"
+      },
+      {
+        "gauge_name": "328_CHP",
+        "creation_time": "2026-07-31 10:59:45"
+      },
+      {
+        "gauge_name": "339_CHP",
+        "creation_time": "2026-07-31 10:59:46"
+      },
+      {
+        "gauge_name": "341_CHP",
+        "creation_time": "2026-07-31 10:59:44"
+      },
+      {
+        "gauge_name": "342_CHP",
+        "creation_time": "2026-07-31 10:59:43"
+      },
+      {
+        "gauge_name": "440_CHP",
+        "creation_time": "2026-07-31 10:59:41"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Brahmaputra_River_Discharge_WidthBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Brahmaputra river discharge from river width (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Brahmaputra river discharge from river width"
+}

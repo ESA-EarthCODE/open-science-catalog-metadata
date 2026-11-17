@@ -1,0 +1,281 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_rhie_6135110_GRDC_Discharge_mmMerged",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          10.22081470489502,
+          46.83769989013672
+        ],
+        [
+          10.22081470489502,
+          51.756919860839844
+        ],
+        [
+          6.395394802093506,
+          51.756919860839844
+        ],
+        [
+          6.395394802093506,
+          46.83769989013672
+        ],
+        [
+          10.22081470489502,
+          46.83769989013672
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    6.395394802093506,
+    46.83769989013672,
+    10.22081470489502,
+    51.756919860839844
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 42 gauge stations across the Rhine river basin, containing multi-mission merged estimates produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission merged)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (multi-mission merged)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:54.213108Z",
+    "title": "EO4FLOOD Rhine multi-mission merged river discharge",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6135110_GRDC",
+        "creation_time": "2026-07-31 10:53:48"
+      },
+      {
+        "gauge_name": "6136200_GRDC",
+        "creation_time": "2026-07-31 10:53:54"
+      },
+      {
+        "gauge_name": "6235535_GRDC",
+        "creation_time": "2026-07-31 10:54:00"
+      },
+      {
+        "gauge_name": "6335020_GRDC",
+        "creation_time": "2026-07-31 10:54:07"
+      },
+      {
+        "gauge_name": "6335031_GRDC",
+        "creation_time": "2026-07-31 10:53:52"
+      },
+      {
+        "gauge_name": "6335045_GRDC",
+        "creation_time": "2026-07-31 10:53:54"
+      },
+      {
+        "gauge_name": "6335050_GRDC",
+        "creation_time": "2026-07-31 10:54:06"
+      },
+      {
+        "gauge_name": "6335070_GRDC",
+        "creation_time": "2026-07-31 10:54:06"
+      },
+      {
+        "gauge_name": "6335083_GRDC",
+        "creation_time": "2026-07-31 10:53:53"
+      },
+      {
+        "gauge_name": "6335113_GRDC",
+        "creation_time": "2026-07-31 10:53:52"
+      },
+      {
+        "gauge_name": "6335116_GRDC",
+        "creation_time": "2026-07-31 10:53:51"
+      },
+      {
+        "gauge_name": "6335150_GRDC",
+        "creation_time": "2026-07-31 10:54:06"
+      },
+      {
+        "gauge_name": "6335170_GRDC",
+        "creation_time": "2026-07-31 10:54:04"
+      },
+      {
+        "gauge_name": "6335180_GRDC",
+        "creation_time": "2026-07-31 10:54:05"
+      },
+      {
+        "gauge_name": "6335240_GRDC",
+        "creation_time": "2026-07-31 10:54:00"
+      },
+      {
+        "gauge_name": "6335301_GRDC",
+        "creation_time": "2026-07-31 10:53:56"
+      },
+      {
+        "gauge_name": "6335302_GRDC",
+        "creation_time": "2026-07-31 10:53:59"
+      },
+      {
+        "gauge_name": "6335304_GRDC",
+        "creation_time": "2026-07-31 10:54:01"
+      },
+      {
+        "gauge_name": "6335450_GRDC",
+        "creation_time": "2026-07-31 10:53:51"
+      },
+      {
+        "gauge_name": "6335500_GRDC",
+        "creation_time": "2026-07-31 10:53:56"
+      },
+      {
+        "gauge_name": "6335530_GRDC",
+        "creation_time": "2026-07-31 10:53:55"
+      },
+      {
+        "gauge_name": "6335600_GRDC",
+        "creation_time": "2026-07-31 10:53:57"
+      },
+      {
+        "gauge_name": "6335601_GRDC",
+        "creation_time": "2026-07-31 10:53:56"
+      },
+      {
+        "gauge_name": "6335695_GRDC",
+        "creation_time": "2026-07-31 10:53:49"
+      },
+      {
+        "gauge_name": "6336050_GRDC",
+        "creation_time": "2026-07-31 10:54:02"
+      },
+      {
+        "gauge_name": "6336500_GRDC",
+        "creation_time": "2026-07-31 10:54:01"
+      },
+      {
+        "gauge_name": "6336800_GRDC",
+        "creation_time": "2026-07-31 10:53:59"
+      },
+      {
+        "gauge_name": "6336900_GRDC",
+        "creation_time": "2026-07-31 10:53:55"
+      },
+      {
+        "gauge_name": "6336920_GRDC",
+        "creation_time": "2026-07-31 10:53:50"
+      },
+      {
+        "gauge_name": "6935052_GRDC",
+        "creation_time": "2026-07-31 10:54:04"
+      },
+      {
+        "gauge_name": "6935054_GRDC",
+        "creation_time": "2026-07-31 10:54:03"
+      },
+      {
+        "gauge_name": "6935055_GRDC",
+        "creation_time": "2026-07-31 10:54:03"
+      },
+      {
+        "gauge_name": "6935065_GRDC",
+        "creation_time": "2026-07-31 10:53:49"
+      },
+      {
+        "gauge_name": "6935080_GRDC",
+        "creation_time": "2026-07-31 10:53:49"
+      },
+      {
+        "gauge_name": "6935120_GRDC",
+        "creation_time": "2026-07-31 10:53:47"
+      },
+      {
+        "gauge_name": "6935145_GRDC",
+        "creation_time": "2026-07-31 10:53:57"
+      },
+      {
+        "gauge_name": "6935302_GRDC",
+        "creation_time": "2026-07-31 10:54:02"
+      },
+      {
+        "gauge_name": "6935310_GRDC",
+        "creation_time": "2026-07-31 10:53:58"
+      },
+      {
+        "gauge_name": "6935314_GRDC",
+        "creation_time": "2026-07-31 10:53:50"
+      },
+      {
+        "gauge_name": "6935370_GRDC",
+        "creation_time": "2026-07-31 10:53:47"
+      },
+      {
+        "gauge_name": "6935401_GRDC",
+        "creation_time": "2026-07-31 10:53:53"
+      },
+      {
+        "gauge_name": "6935580_GRDC",
+        "creation_time": "2026-07-31 10:53:48"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Rhine_River_Discharge_mmMerged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Rhine multi-mission merged river discharge (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Rhine multi-mission merged river discharge"
+}
