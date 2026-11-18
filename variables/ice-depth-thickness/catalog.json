@@ -71,6 +71,18 @@
       "title": "Southern Ocean sea ice thickness from CryoSat-2"
     },
     {
+      "rel": "child",
+      "href": "../../products/so-simba-mms-of-sea-ice-thickness-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Merged Multi Sensor of Sea Ice Thickness and Sea Ice Volume (Antarctic sea ice)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume/collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
