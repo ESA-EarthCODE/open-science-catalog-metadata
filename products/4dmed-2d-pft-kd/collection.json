@@ -12,7 +12,7 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "via",
@@ -66,6 +66,16 @@
       "href": "./4dmed-2d-pft-kd-item-pft.json",
       "type": "application/json",
       "title": "PFT Zarr Store"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/4dmed-2d-pft-kd/access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
     }
   ],
   "stac_extensions": [
@@ -121,7 +131,7 @@
   "fair:Reusable_workflow_exists": false,
   "fair:Reusable_cloud_assets_rate": 1.0,
   "fair:Reusable_has_visualisation": false,
-  "fair:Reusable_has_access_example": false,
+  "fair:Reusable_has_access_example": true,
   "title": "ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)",
   "extent": {
     "spatial": {

@@ -51,7 +51,7 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalogue"
     },
     {
       "rel": "parent",
@@ -79,7 +79,7 @@
     },
     {
       "rel": "git",
-      "href": "https://github.com/johanna-mayer/mesoscale_structure/tree/main",
+      "href": "https://github.com/ESA-EarthCODE/mesoscale_structure_public/tree/main",
       "type": "application/json",
       "title": "Git source repository"
     },
