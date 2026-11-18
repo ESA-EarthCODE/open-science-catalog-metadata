@@ -1,0 +1,161 @@
+{
+  "type": "Collection",
+  "id": "5dais",
+  "stac_version": "1.0.0",
+  "description": "The dataset provides classifications of supraglacial hydrology, distinguishing open meltwater features, including lakes, channels, and water-filled crevasses, from non-open meltwater features such as saturated firn and slush. By resolving Antarctic surface hydrology at unprecedented spatial and temporal scales and enabling on-demand delineation of meltwater features through a publicly available application, this work supports the assessment of processes relevant to ice-shelf stability and provides constraints for climate and ice-sheet modelling. This capability is increasingly important for understanding the role of surface meltwater in Antarctic ice-shelf systems under future warming.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/5d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 5D Antarctica"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacial-lake-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacial Lake Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/5dais/collection",
+      "title": "Access"
+    },
+    {
+      "rel": "item",
+      "href": "./supraglacial-hydrology-item.json",
+      "type": "application/json",
+      "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning parquet file"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/5dais/access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-11-18T20:19:47.278135Z",
+  "updated": "2026-11-18T20:19:47.278135Z",
+  "osc:project": "5d-antarctica",
+  "osc:status": "completed",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "glacial-lake-extent"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "glacial-lake-extent"
+    }
+  ],
+  "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "supraglacial lakes",
+    "slush",
+    "hydrology"
+  ],
+  "providers": [
+    {
+      "name": "Emily Glen",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "Frank Donachie",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0009-0007-9808-7915"
+    },
+    {
+      "name": "Amber A. Leeson",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0001-8720-9808"
+    },
+    {
+      "name": "Katie E. Miles",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0003-2793-9766"
+    },
+    {
+      "name": "Malcolm McMillan",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://orcid.org/0000-0002-5113-0177"
+    }
+
+  ]
+}

@@ -607,6 +607,12 @@
       "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/5dais/collection.json",
+      "type": "application/json",
+      "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning"
     }
   ],
   "updated": "2024-08-27T17:27:42.199831Z",
