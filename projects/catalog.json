@@ -1307,6 +1307,12 @@
     },
     {
       "rel": "child",
+      "href": "./sup-fcp-multisensor-water-discharges/collection.json",
+      "type": "application/json",
+      "title": "Multisensor Water Discharges (MWD)"
+    },
+    {
+      "rel": "child",
       "href": "./upperdyn/collection.json",
       "type": "application/json",
       "title": "Upper Ocean Dynamics (UpperDyn)"
