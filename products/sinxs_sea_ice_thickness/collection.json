@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "sinxs",
+  "stac_version": "1.0.0",
+  "description": "The raster maps showing the subglacial melt for the Greenland ice sheet is based on the sum of different heat sources. The basal melt rates are spatially distributed and each grid cell represents a potential source of basal meltwater. These maps are produced for each timestamp associated with the surface velocity data maps and surface meltwater volumes. However, the time-varying friction heat component has a large uncertainty due to limitations in the numerical approximation. The \"Greenland Ice Sheet Basal Melt\" data set  (Karlsson, 2021) is available as rasters in NETCDF format: This dataset contains basal melt rates as published in Karlsson et al., (2021). The data can be accessed in three formats NetCDF, ascii and Matlab. The data contain basal melt rates in metres per year from three different heat sources: geothermal flux, friction heat and viscous heat from surface meltwater. The data also contain the total basal melt rates in metres per year (the sum of the three terms). Uncertainties for each term is named X_unc. Note that the geothermal flux has an asymetrical uncertainty. The uncertainty for the total melt rates are found by root squared sum of uncertainties. See README.txt for more information.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/PLNUEO#",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.1038/s41467-021-23739-z",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-Greenland"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-growth-melt/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Growth/Melt"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/subglacial-melt-maps/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "4d-greenland",
+  "osc:status": "completed",
+  "osc:region": "Greenland - Watson basin",
+  "osc:type": "product",
+  "created": "2021-04-13T00:00:00Z",
+  "cf:parameter": [
+    {
+      "name": "subglacial_melt"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "ice-growth-melt"
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "updated": "2024-09-12T20:32:06.232108Z",
+  "title": "Subglacial Melt Maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -90.0,
+          60.0,
+          -20.0,
+          82.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2001-01-01T00:00:00Z",
+          "2019-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Snow/Ice",
+    "Ice Growth/Melt",
+    "Cryospheric Indicators",
+    "Sea Ice"
+  ]
+}
