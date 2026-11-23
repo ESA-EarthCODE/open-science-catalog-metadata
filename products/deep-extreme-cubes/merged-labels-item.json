@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "event-cube-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[-179.75, -90.0], [-179.75, 90.0], [180.0, 90.0], [180.0, -90.0], [-179.75, -90.0]]]
+  },
+  "bbox": [-179.75, -90.0, 180.0, 90.0],
+  "properties": {
+    "license": "proprietary",
+    "description": "",
+    "start_datetime": "1950-01-01T00:00:00Z",
+    "end_datetime": "2023-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/dheed/mergedlabels_ranked_pot0.01_ne0.1_cmp_S1_T3_1950_2023.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Merged Labels Zarr",
+      "created": "2026-11-23T09:40:49.698248Z",
+      "cube:dimensions": {
+        "Ti": {
+          "extent": [
+            "1950-01-01T00:00:00Z",
+            "2023-12-31T00:00:00Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            0,
+            359.75
+          ],
+          "step": 1,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -90,
+            90
+          ],
+          "step": 1,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "labels": {
+          "type": "data",
+          "description": "Global data cube identifying connected extreme-event clusters (heatwaves and droughts) lasting at least three consecutive days.",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "1",
+          "shape": [27028, 721, 1440],
+          "chunks": [90, 120, 120]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    },
+  "event_statistics": {
+    "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/dheed/MergedEventStats_landonly_int.csv",
+    "type": "text/csv",
+    "title": "Merged Event Statistics",
+    "description": "Land-only statistics for labelled extreme heat and drought events.",
+    "roles": [
+      "metadata"
+    ]
+  }
+  },
+  "collection": "deep-extreme-cubes",
+  "title": "Merged Labels Zarr"
+}
