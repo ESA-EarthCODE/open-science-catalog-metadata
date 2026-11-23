@@ -1,0 +1,778 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume-envisat-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -16.62392670659191
+        ],
+        [
+          -180.0,
+          -16.62392670659191
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    -16.62392670659191
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "start_datetime": "2002-06-11T12:00:00Z",
+    "end_datetime": "2012-03-31T12:00:00Z",
+    "datetime": "2002-06-11T12:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "SO-SIMBA Climate Data record of Antarctic Sea Ice Thickness and Sea Ice Volume"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/so-simba/SOSIMBA_CDR_SIT_vf_envisat.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "SOSIMBA Antarctic Sea Ice Thickness Envisat",
+      "created": "2026-11-18T16:31:29.485330Z",
+      "cube:dimensions": {
+        "time": {
+          "extent": [
+            "2002-06-11T12:00:00Z",
+            "2012-03-31T12:00:00Z"
+          ],
+          "description": "time",
+          "step": "P1DT0H0M0S",
+          "type": "temporal"
+        },
+        "xc": {
+          "axis": "x",
+          "extent": [
+            -5387500.0,
+            5387500.0
+          ],
+          "step": 25000.0,
+          "description": "x coordinate of projection (eastings)",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "undefined",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "undefined",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "undefined",
+                "ellipsoid": {
+                  "name": "undefined",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  }
+                ]
+              }
+            },
+            "conversion": {
+              "name": "unknown",
+              "method": {
+                "name": "Lambert Azimuthal Equal Area",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9820
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": -90,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "E",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "N",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            }
+          },
+          "type": "spatial"
+        },
+        "yc": {
+          "axis": "y",
+          "extent": [
+            -5387500.0,
+            5387500.0
+          ],
+          "step": -25000.0,
+          "description": "y coordinate of projection (northings)",
+          "reference_system": {
+            "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "undefined",
+            "base_crs": {
+              "type": "GeographicCRS",
+              "name": "undefined",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "undefined",
+                "ellipsoid": {
+                  "name": "undefined",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  }
+                ]
+              }
+            },
+            "conversion": {
+              "name": "unknown",
+              "method": {
+                "name": "Lambert Azimuthal Equal Area",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 9820
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": -90,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "E",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "N",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            }
+          },
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "crs": {
+          "type": "data",
+          "dimensions": [],
+          "attrs": {
+            "grid_mapping_name": "lambert_azimuthal_equal_area",
+            "latitude_of_projection_origin": -90.0,
+            "longitude_of_projection_origin": 0.0,
+            "false_easting": 0.0,
+            "false_northing": 0.0,
+            "semi_major_axis": 6378137.0,
+            "inverse_flattening": 298.257223563
+          },
+          "shape": []
+        },
+        "dist_acquisition": {
+          "type": "data",
+          "description": "distance between target day and day of data acquisition location",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "km",
+          "attrs": {
+            "long_name": "distance between target day and day of data acquisition location",
+            "units": "km",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "region": {
+          "type": "data",
+          "description": "region identifier",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "1",
+          "attrs": {
+            "long_name": "region identifier",
+            "grid_mapping": "crs",
+            "flag_values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "flag_meanings": "ocean_no_region_specified east_weddell_sea indian_ocean south_pacific_ocean ross_sea amundsen_and_bellingshausen_seas coastal_amundsen_and_bellingshausen_seas west_weddell_sea",
+            "units": "1",
+            "comment": "modified from region mask NSIDC v2",
+            "coverage_content_type": "thematicClassification"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness": {
+          "type": "data",
+          "description": "thickness of the sea ice layer",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "thickness of the sea ice layer",
+            "standard_name": "sea_ice_thickness",
+            "units": "m",
+            "grid_mapping": "crs",
+            "comment": "weighted mean of the sea-ice thickness",
+            "coverage_content_type": "physicalMeasurement"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_change": {
+          "type": "data",
+          "description": "rate of change in sea ice thickness per day",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m d-1",
+          "attrs": {
+            "long_name": "rate of change in sea ice thickness per day",
+            "units": "m d-1",
+            "grid_mapping": "crs",
+            "comment": "sea-ice thickness change during +/- 15days ",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_change_interp": {
+          "type": "data",
+          "description": "interpolated sea ice thickness change",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m d-1",
+          "attrs": {
+            "long_name": "interpolated sea ice thickness change",
+            "units": "m d-1",
+            "grid_mapping": "crs",
+            "comment": "sea_ice_thickness_change smoothed and interpolated",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_change_unc": {
+          "type": "data",
+          "description": "sea ice thickness uncertainty associated with the sea ice thickness change per day",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m d-1",
+          "attrs": {
+            "long_name": "sea ice thickness uncertainty associated with the sea ice thickness change per day",
+            "units": "m d-1",
+            "grid_mapping": "crs",
+            "comment": "uncertainty of sea_ice_thickness_change",
+            "coverage_content_type": "qualityInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_drift_unc": {
+          "type": "data",
+          "description": "uncertainty of the sea-ice thickness due to the uncertainty of the sea-ice drift",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "uncertainty of the sea-ice thickness due to the uncertainty of the sea-ice drift",
+            "units": "m",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "qualityInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_l2_unc": {
+          "type": "data",
+          "description": "sea ice thickness uncertainty associated with the level2 product",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m",
+          "attrs": {
+            "standard_name": "sea_ice_thickness standard_error",
+            "long_name": "sea ice thickness uncertainty associated with the level2 product",
+            "units": "m",
+            "grid_mapping": "crs",
+            "comment": ""
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_std": {
+          "type": "data",
+          "description": "standard deviation of sea ice thickness estimates within parcel",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "standard deviation of sea ice thickness estimates within parcel",
+            "units": "m",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "physicalMeasurement"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_thickness_unc": {
+          "type": "data",
+          "description": "combined sea ice thickness uncertainty",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m",
+          "attrs": {
+            "long_name": "combined sea ice thickness uncertainty",
+            "standard_name": "sea_ice_thickness standard_error",
+            "units": "m",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "qualityInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_volume": {
+          "type": "data",
+          "description": "volume of the sea ice layer",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m3",
+          "attrs": {
+            "long_name": "volume of the sea ice layer",
+            "units": "m3",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "physicalMeasurement"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "sea_ice_volume_quality_flag": {
+          "type": "data",
+          "description": "sea ice volume quality flag if ice concentration is interpolated",
+          "dimensions": [
+            "time"
+          ],
+          "attrs": {
+            "standard_name": "quality_flag",
+            "long_name": "sea ice volume quality flag if ice concentration is interpolated",
+            "flag_values": [
+              0,
+              1
+            ],
+            "flag_meanings": "original interpolated_nearest",
+            "coverage_content_type": "qualityInformation",
+            "comment": "Quality of the sea ice volume, if the information of the sea ice concentration is not available then we take the nearest one available."
+          },
+          "shape": [
+            3582
+          ],
+          "chunks": [
+            150
+          ]
+        },
+        "sea_ice_volume_unc": {
+          "type": "data",
+          "description": "uncertainty of volume of the sea ice layer",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "m3",
+          "attrs": {
+            "long_name": "uncertainty of volume of the sea ice layer",
+            "units": "m3",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "qualityInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "time_bnds": {
+          "type": "data",
+          "dimensions": [
+            "time",
+            "nv"
+          ],
+          "attrs": {
+            "coverage_content_type": "coordinate"
+          },
+          "shape": [
+            3582,
+            2
+          ],
+          "chunks": [
+            150,
+            2
+          ]
+        },
+        "time_offset_acquisition": {
+          "type": "data",
+          "description": "time since data acquisition",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "attrs": {
+            "long_name": "time since data acquisition",
+            "grid_mapping": "crs",
+            "comment": "",
+            "coverage_content_type": "auxiliaryInformation"
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "latitude": {
+          "type": "auxiliary",
+          "description": "latitude coordinate",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "degrees_north",
+          "attrs": {
+            "standard_name": "latitude",
+            "long_name": "latitude coordinate",
+            "units": "degrees_north",
+            "coverage_content_type": "coordinate",
+            "comment": ""
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        },
+        "longitude": {
+          "type": "auxiliary",
+          "description": "longitude coordinate",
+          "dimensions": [
+            "time",
+            "yc",
+            "xc"
+          ],
+          "unit": "degrees_east",
+          "attrs": {
+            "standard_name": "longitude",
+            "long_name": "longitude coordinate",
+            "units": "degrees_east",
+            "coverage_content_type": "coordinate",
+            "comment": ""
+          },
+          "shape": [
+            3582,
+            432,
+            432
+          ],
+          "chunks": [
+            150,
+            432,
+            432
+          ]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "so-simba-cdr-of-antarctic-sea-ice-thickness-and-sea-ice-volume",
+  "title": "Zarr Store"
+}
