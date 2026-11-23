@@ -166,7 +166,7 @@
   "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts",
   "extent": {
     "spatial": {
-      "bbox": [-179.75, -90.0, 180.0, 90.0]
+      "bbox": [[-179.75, -90.0, 180.0, 90.0]]
     },
     "temporal": {
       "interval": [
