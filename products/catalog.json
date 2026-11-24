@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "products",
   "stac_version": "1.0.0",
-  "description": "Geoscience products representing the measured or inferred values of one or more variables over a given time range and spatial area",
+  "description": "Geoscience products representing measured, derived, or modelled values of one or more environmental variables across a defined spatial extent and time. Products are scientific outcomes generated through the application of documented workflows, methods, and observations.",
   "links": [
     {
       "rel": "self",

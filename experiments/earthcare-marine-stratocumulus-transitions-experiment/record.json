@@ -88,13 +88,13 @@
     },
     {
       "rel": "input",
-      "href": "https://github.com/johanna-mayer/mesoscale_structure.git",
+      "href": "https://github.com/ESA-EarthCODE/mesoscale_structure_public.git",
       "type": "application/yaml",
       "title": "Input parameters"
     },
     {
       "rel": "environment",
-      "href": "https://github.com/johanna-mayer/mesoscale_structure.git",
+      "href": "https://github.com/ESA-EarthCODE/mesoscale_structure_public.git",
       "type": "application/yaml",
       "title": "Execution environment"
     },
