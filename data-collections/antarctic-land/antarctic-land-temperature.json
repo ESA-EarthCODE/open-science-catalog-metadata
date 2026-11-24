@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "antarctic-land-temperature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[180, -90], [180, -60], [-180, -60], [-180, -90], [180, -90]]]
+  },
+  "bbox": [-180, -90, 180, -60],
+  "properties": {
+    "proj:epsg": 3031,
+    "proj:shape": [49158, 57358],
+    "datetime": null,
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2014-12-31T23:59:59Z",
+    "title": "Ice Temperature Profiles",
+    "description": "Antarctic ice-temperature profiles on a common 100 m grid.",
+    "license": "various",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "ice-temperature"
+    ],
+    "keywords": [
+      "Ice Temperature",
+      "Sea Ice"
+    ],
+    "osc:missions": [
+      "smos"
+    ],
+    "cf:parameter": [
+      {"name": "ice-temperature-profiles-antarctica"}
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-land/antarctic-land-temperature.json",
+      "type": "application/geo+json",
+      "title": "Ice Temperature Profiles"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/ice-temperature-profiles-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Ice temperature profiles"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/antarctica-cube",
+      "type": "text/html",
+      "title": "ESA Antarctica Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/polar_hackathon/blob/main/2_Datacube/1_remote_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://esa-earthcode.github.io/polar-science-cluster-dashboard/",
+      "type": "text/html",
+      "title": "Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/antarctica_cube/land-ice/ice-temp-cube.zarr",
+      "type": "application/vnd+zarr",
+      "title": "ice-temp-cube.zarr",
+      "roles": [
+        "data"
+      ],
+      "cf:parameter": [
+        {"name": "ice-temperature-profiles-antarctica"}
+      ]
+    }
+  },
+  "collection": "antarctic-land"
+}

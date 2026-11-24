@@ -1,0 +1,767 @@
+{
+  "type": "Collection",
+  "id": "mediterranean-sea",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:status": "completed",
+  "osc:region": "Mediterranean",
+  "osc:type": "product",
+  "title": "ESA Mediterranean Sea Datacube",
+  "description": "The ESA Mediterranean Sea Datacube brings selected marine datasets onto a common 1/24° latitude/longitude grid (EPSG:4326) for the Mediterranean Sea.\n\nThe data are available in four online GeoZarr stores: monthly fields, hourly currents, daily surface fields, and daily biophysics. The stores share the same horizontal grid and keep the time and depth coordinates each dataset needs.",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [[-7, 30, 37, 46]]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-12-30T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "absolute-dynamic-topography",
+    "chlorophyll-concentration",
+    "density",
+    "diffuse-attenuation-coefficient-dac",
+    "dissolved-inorganic-carbon-dic",
+    "dissolved-organic-carbon",
+    "dissolved-oxygen",
+    "export-production",
+    "extreme-weather",
+    "finite-size-lyapunov-exponent",
+    "fisheries",
+    "fronts",
+    "microphytoplankton-carbon",
+    "nanophytoplankton-carbon",
+    "ocean-color-ocean-colour",
+    "ocean-currents",
+    "ocean-heat-budget",
+    "ocean-mixed-layer",
+    "ocean-salinity",
+    "particulate-inorganic-carbon",
+    "particulate-organic-carbon",
+    "ph",
+    "phytoplankton",
+    "phytoplankton-primary-production",
+    "picophytoplankton-carbon",
+    "reflectance",
+    "sea-level",
+    "sea-level-anomaly",
+    "sea-surface-height",
+    "sea-surface-salinity",
+    "sea-surface-temperature",
+    "sea-surface-wave-energy-flux",
+    "surface-currents",
+    "total-alkalinity-at",
+    "water-temperature",
+    "wave-height",
+    "wave-period",
+    "wind-speed-near-surface"
+  ],
+  "keywords": [
+    "Absolute Dynamic Topography",
+    "Altimetry",
+    "Chlorophyll",
+    "Chlorophyll Concentration",
+    "Chlorophyll-a",
+    "Diffuse Attenuation Coefficient (DAC)",
+    "Finite-size Lyapunov Exponent",
+    "Geostrophic Currents",
+    "Mixed Layer Properties",
+    "Mixed layer depth",
+    "Mixed layer thickness",
+    "N2max",
+    "Ocean Chemistry",
+    "Ocean Circulation",
+    "Ocean Currents",
+    "Ocean Optics",
+    "Ocean Topography",
+    "Oceans",
+    "Phytoplankton Functional Types",
+    "Pigments",
+    "SMOS",
+    "SST",
+    "Sea Level Anomaly",
+    "Sea Surface Density",
+    "Sea Surface Height",
+    "Sea Surface Salinity",
+    "Sea Surface Temperature",
+    "Seascapes",
+    "Surface Currents",
+    "altimeter data",
+    "altimetry",
+    "carbon cycle",
+    "climate",
+    "coldspells",
+    "content",
+    "cumulative hazard indexes",
+    "extreme temperature",
+    "heat",
+    "heatwaves",
+    "marine hazards",
+    "ocean",
+    "ocean Biodiversity",
+    "ocean health",
+    "ocean science",
+    "ocean stressors",
+    "ocean-color-ocean-colour",
+    "oceans",
+    "salinity",
+    "sea surface temperature",
+    "wave",
+    "wave energy",
+    "wave frequency",
+    "wave power"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/mediterranean-sea/collection.json",
+      "type": "application/json",
+      "title": "ESA Mediterranean Sea Datacube"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Data Collections"
+    },
+    {
+      "rel": "item",
+      "href": "./mediterranean-sea-monthly.json",
+      "type": "application/geo+json",
+      "title": "Monthly fields"
+    },
+    {
+      "rel": "item",
+      "href": "./mediterranean-sea-daily-surface.json",
+      "type": "application/geo+json",
+      "title": "Daily surface fields"
+    },
+    {
+      "rel": "item",
+      "href": "./mediterranean-sea-daily-biophysics.json",
+      "type": "application/geo+json",
+      "title": "Daily biophysics"
+    },
+    {
+      "rel": "item",
+      "href": "./mediterranean-sea-hourly-currents.json",
+      "type": "application/geo+json",
+      "title": "Hourly currents"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4d-atlantic-ohc-global/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Global Ocean Heat Content"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-2d-pft-kd/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019–2021)"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/bicep-database/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Biological pump and carbon exchange processes (Bicep) database"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/global-cumulative-hazard-indexes-chis/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Global Cumulative Hazard Indexes (CHIs)"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/ocean-soda-ethz/collection.json",
+      "type": "application/json",
+      "title": "Source Product: OceanSODA-ETHZ: A global gridded dataset of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chlorophyll-concentration/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chlorophyll Concentration"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/density/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Density"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/diffuse-attenuation-coefficient-dac/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Diffuse Attenuation Coefficient (DAC)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-inorganic-carbon-dic/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved inorganic carbon (DIC)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-organic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved Organic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/dissolved-oxygen/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Dissolved Oxygen"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/export-production/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Export Production"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/fisheries/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Fisheries"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/microphytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Microphytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/nanophytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Nanophytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-heat-budget/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Heat Budget"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-mixed-layer/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Mixed Layer"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/particulate-inorganic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Particulate Inorganic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/particulate-organic-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Particulate Organic Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ph/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ph"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/phytoplankton/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Phytoplankton"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/phytoplankton-primary-production/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Phytoplankton Primary Production"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/picophytoplankton-carbon/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Picophytoplankton Carbon"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/total-alkalinity-at/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Total alkalinity (AT)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/water-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Water Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wind-speed-near-surface/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wind speed (near surface)"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/mediterranean-cube",
+      "type": "text/html",
+      "title": "ESA Mediterranean Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/ocean_hackathon/blob/main/2_Datacube/1_remote_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://sunnydean.github.io/ocean_cubes_vis/",
+      "type": "text/html",
+      "title": "Explore Data"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-2d-alt-miost-le-24/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Finite-size Lyapunov Exponents in the Mediterranean Sea derived from MIOST geostrophic velocities (1/24°)"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-2d-alt-varnet-20/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-2d-alt-varnet-8/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/8°) Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-2d-sss/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/careheat-database/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/absolute-dynamic-topography/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Absolute Dynamic Topography"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-weather/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Weather"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/finite-size-lyapunov-exponent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Finite-size Lyapunov Exponent"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Level"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-level-anomaly/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Level Anomaly"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-3d-prim-prod-150/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-t-s-geo-150/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Neural Network and objective analysis reconstruction of 3D Mediterranean physical fields from surface satellite and in situ observations at 1/24 deg"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/total-surface-current-15/collection.json",
+      "type": "application/json",
+      "title": "Source Product: WOC Total Surface Current at 15m"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Currents"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/4dmed-t-s-geo-a-150/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA 4DMED-SEA - Chlorophyll-a, Temperature, Salinity, Density, and Geostrophic Velocities from the surface down to 150 m"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/booms-dataset/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/coastdyn-adt-rep-2d-dataset/collection.json",
+      "type": "application/json",
+      "title": "Source Product: ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/morlenn_mld/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/waposal-waves/collection.json",
+      "type": "application/json",
+      "title": "Source Product: High-resolution WAPOSAL wave period and wave power density from Sentinel-3 A/B, CryoSat-2, and SAMOSA+ retracker"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/fronts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Fronts"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-color-ocean-colour/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Color / Ocean Colour"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-currents/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Currents"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-wave-energy-flux/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Power"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wave-height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Height"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/wave-period/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Wave Period"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/altika/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ALtiKa"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: AQUA (EOS/PM-1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ascat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ASCAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/grace-fo/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE-FO"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/hy-2b-haiyang-2b/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: HY-2B (Haiyang-2B)"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/in-situ-observations/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: In-situ observations"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/jason-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Jason-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/meris/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MERIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/metop/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MetOp"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/orbview-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: OrbView-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/seawifs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SeaWiFS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-5p/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-5p"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-6/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-6"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smap/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/suomi-npp/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Suomi NPP"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/swot/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SWOT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/terra/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/viirs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: VIIRS"
+    }
+  ],
+  "osc:missions": [
+    "altika",
+    "aqua-eos-pm-1",
+    "ascat",
+    "cryosat-2",
+    "envisat",
+    "ers-1",
+    "ers-2",
+    "grace-fo",
+    "hy-2b-haiyang-2b",
+    "in-situ-observations",
+    "jason-3",
+    "meris",
+    "metop",
+    "modis",
+    "numerical-models",
+    "orbview-2",
+    "seawifs",
+    "sentinel-1",
+    "sentinel-3",
+    "sentinel-5p",
+    "sentinel-6",
+    "smap",
+    "smos",
+    "suomi-npp",
+    "swot",
+    "terra",
+    "viirs"
+  ],
+  "cf:parameter": [
+    {"name": "4dmed-2d-alt-miost-le-24"},
+    {"name": "4dmed-2d-alt-varnet-20"},
+    {"name": "4dmed-2d-alt-varnet-8"},
+    {"name": "4dmed-2d-pft-kd"},
+    {"name": "4dmed-2d-sss"},
+    {"name": "4dmed-3d-prim-prod-150"},
+    {"name": "4dmed-t-s-geo-150"},
+    {"name": "4dmed-t-s-geo-a-150"},
+    {"name": "dissolved_organic_carbon"},
+    {"name": "export_production_dunne"},
+    {"name": "export_production_henson"},
+    {"name": "export_production_li"},
+    {"name": "extreme-weather"},
+    {"name": "gross_primary_production_of_carbon"},
+    {"name": "mass_concentration_of_chlorophyll_a_in_sea_water"},
+    {"name": "mass_concentration_of_microphytoplankton_expressed_as_carbon_in_sea_water"},
+    {"name": "mass_concentration_of_nanophytoplankton_expressed_as_carbon_in_sea_water"},
+    {"name": "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"},
+    {"name": "mass_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water"},
+    {"name": "mixed_layer_depth"},
+    {"name": "ocean-salinity"},
+    {"name": "particulate_inorganic_carbon"},
+    {"name": "particulate_organic_carbon"},
+    {"name": "sea-surface-wave-energy-flux"},
+    {"name": "sea_surface_height_above_geoid"},
+    {"name": "sea_surface_height_above_sea_level"},
+    {"name": "surface_geostrophic_eastward_sea_water_velocity"},
+    {"name": "surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid"},
+    {"name": "surface_geostrophic_northward_sea_water_velocity"},
+    {"name": "surface_geostrophic_northward_sea_water_velocity_assuming_sea_level_for_geoid"},
+    {"name": "total_surface_current"},
+    {"name": "wave-height"},
+    {"name": "wave-period"}
+  ]
+}

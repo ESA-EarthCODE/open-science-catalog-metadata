@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "antarctic-sea-ice-ocean",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[180, -90], [180, -30], [-180, -30], [-180, -90], [180, -90]]]
+  },
+  "bbox": [-180, -90, 180, -30],
+  "properties": {
+    "proj:epsg": 6932,
+    "proj:shape": [712, 712],
+    "datetime": null,
+    "start_datetime": "2011-02-01T00:00:00Z",
+    "end_datetime": "2023-03-01T00:00:00Z",
+    "title": "Sea Ice GeoZarr",
+    "description": "Monthly sea-ice observations on a common 12.5 km grid.",
+    "license": "various",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          },
+          {
+            "id": "oceans"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "freeboard",
+      "ice-depth-thickness",
+      "sea-surface-salinity",
+      "snow-depth"
+    ],
+    "keywords": [
+      "Cryospheric Indicators",
+      "Freeboard",
+      "Ice Depth/Thickness",
+      "Salinity/Density",
+      "Sea Ice",
+      "Sea Surface Salinity",
+      "Snow Depth",
+      "Snow/Ice"
+    ],
+    "osc:missions": [
+      "cryosat-2",
+      "smos"
+    ],
+    "cf:parameter": [
+      {"name": "ice-sheet-velocity-antarctic-2021"},
+      {"name": "sea_surface_salinity"}
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-sea/antarctic-sea-ice-ocean.json",
+      "type": "application/geo+json",
+      "title": "Sea Ice GeoZarr"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/sofresh-sea-surface-salinity/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Southern Ocean Sea Surface Salinity Level 3 maps (V.1.0)"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/southern-ocean-sit-from-cryosat-2/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Southern Ocean sea ice thickness from CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/freeboard/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Freeboard"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-surface-salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea Surface Salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-depth/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Depth"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/antarctica-cube",
+      "type": "text/html",
+      "title": "ESA Antarctica Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/polar_hackathon/blob/main/2_Datacube/1_remote_sea_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://esa-earthcode.github.io/polar-science-cluster-dashboard/",
+      "type": "text/html",
+      "title": "Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/antarctica_cube/sea-ice/sea-ice-cube.zarr",
+      "type": "application/vnd+zarr",
+      "title": "sea-ice-cube.zarr",
+      "roles": [
+        "data"
+      ],
+      "cf:parameter": [
+        {"name": "ice-sheet-velocity-antarctic-2021"},
+        {"name": "sea_surface_salinity"}
+      ]
+    }
+  },
+  "collection": "antarctic-sea"
+}

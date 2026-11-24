@@ -1,0 +1,432 @@
+{
+  "type": "Collection",
+  "id": "antarctic-land",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:status": "completed",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "title": "Antarctic Land-Ice Datacube",
+  "description": "Antarctic land-ice data on a common 100 m grid.",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [[-180, -90, 180, -60]]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "glacial-lake-extent",
+    "glacier-elevation-ice-sheet-elevation",
+    "glacier-mass-balance-ice-sheet-mass-balance",
+    "glacier-thickness-ice-sheet-thickness",
+    "grounding-line",
+    "ice-depth-thickness",
+    "ice-extent",
+    "ice-growth-melt",
+    "ice-sheets-and-ice-shelves",
+    "ice-temperature",
+    "ice-velocity",
+    "snow-melt",
+    "strain",
+    "subglacial-lake",
+    "supraglacial-lakes",
+    "surface-wind-speed-and-direction"
+  ],
+  "keywords": [
+    "Antarctica",
+    "Cryospheric Indicators",
+    "Data cube",
+    "Glacial Lake Extent",
+    "Glacial Measurements",
+    "Glacier Elevation/Ice Sheet Elevation",
+    "Glacier Thickness/Ice Sheet Thickness",
+    "Glaciers",
+    "Glaciers/Ice Sheets",
+    "Grounding Line",
+    "Ice Depth/Thickness",
+    "Ice Extent",
+    "Ice Shelf",
+    "Ice Temperature",
+    "Ice Velocity",
+    "Larsen C",
+    "Ocean Volume Budget",
+    "Sea Ice",
+    "Sea Ice Volume Budget",
+    "Snow/Ice",
+    "Subglacial lakes",
+    "Terrestrial Hydrosphere"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-land/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Data Collections"
+    },
+    {
+      "rel": "item",
+      "href": "./antarctic-land-combined.json",
+      "type": "application/geo+json",
+      "title": "antarctica-combined.zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./antarctic-land-temperature.json",
+      "type": "application/geo+json",
+      "title": "Ice Temperature Profiles"
+    },
+    {
+      "rel": "item",
+      "href": "./antarctic-land-elevation-change.json",
+      "type": "application/geo+json",
+      "title": "Surface Elevation Change"
+    },
+    {
+      "rel": "item",
+      "href": "./antarctic-land-calving-fronts.json",
+      "type": "application/geo+json",
+      "title": "Composite Antarctic Ice Mask"
+    },
+    {
+      "rel": "item",
+      "href": "./antarctic-land-velocity.json",
+      "type": "application/geo+json",
+      "title": "Antarctic Ice-Sheet Surface Velocity, 2014–2021"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/antarctic-ice-shelf-melt-rates/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Antarctic ice shelf basal melt rates 1997-2021"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Bedrock topography: MEaSUREs BedMachine Antarctica"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/grounding-line-position-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/subglacial-lakes-boundries/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/supraglacial-lakes-west-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacial-lake-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacial Lake Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-thickness-ice-sheet-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Thickness/Ice Sheet Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/grounding-line/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Grounding Line"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-growth-melt/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Growth/Melt"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/subglacial-lake/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Subglacial Lake"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/antarctica-cube",
+      "type": "text/html",
+      "title": "ESA Antarctica Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/polar_hackathon/blob/main/2_Datacube/1_remote_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://esa-earthcode.github.io/polar-science-cluster-dashboard/",
+      "type": "text/html",
+      "title": "Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/ice-temperature-profiles-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Ice temperature profiles"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/sec-antarctic-ice-sheet/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-elevation-ice-sheet-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Elevation/Ice Sheet Elevation"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/antarctic-ice-shelf-calving-fronts/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Antarctic Ice Shelf Calving Fronts 1997-2021"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/ice-sheet-velocity-antarctic-2021/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Antarctic Ice Sheet monthly ice velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-velocity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "type": "application/json",
+      "title": "Source Product: AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-mass-balance-ice-sheet-mass-balance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Mass Balance/Ice Sheet Mass Balance"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-sheets-and-ice-shelves/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Sheets and Ice Shelves"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/snow-melt/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Snow Melt"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/strain/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Strain"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/supraglacial-lakes/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Supraglacial Lakes"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/surface-wind-speed-and-direction/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Surface Wind Speed And Direction"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ALOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cosmo-skymed/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: COSMO-SkyMed"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-8/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-8"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/radarsat-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: RADARSAT-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/radarsat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: RADARSAT-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/smos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMOS"
+    }
+  ],
+  "osc:missions": [
+    "alos",
+    "cosmo-skymed",
+    "cryosat",
+    "cryosat-2",
+    "envisat",
+    "ers-1",
+    "ers-2",
+    "landsat-8",
+    "numerical-models",
+    "radarsat-1",
+    "radarsat-2",
+    "sentinel-1",
+    "sentinel-2",
+    "sentinel-3",
+    "smos"
+  ],
+  "cf:parameter": [
+    {"name": "antarctic_ice_shelf_calving_fronts"},
+    {"name": "antarctic_ice_shelf_melt_rates"},
+    {"name": "bedrock-topography-antarctica-bedmachine"},
+    {"name": "grounding-line-position"},
+    {"name": "ice-sheet-velocity-antarctic-2021"},
+    {"name": "ice-temperature-profiles-antarctica"},
+    {"name": "sec-antarctic-ice-sheet"},
+    {"name": "subglacial-lake-extent"},
+    {"name": "suprgaglacial_lakes"}
+  ]
+}

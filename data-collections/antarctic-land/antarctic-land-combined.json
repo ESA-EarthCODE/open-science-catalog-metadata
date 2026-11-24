@@ -1,0 +1,282 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "antarctic-land-combined",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[180, -90], [180, -60], [-180, -60], [-180, -90], [180, -90]]]
+  },
+  "bbox": [-180, -90, 180, -60],
+  "properties": {
+    "proj:epsg": 3031,
+    "proj:shape": [49158, 57358],
+    "datetime": null,
+    "start_datetime": "1970-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T23:59:59Z",
+    "title": "antarctica-combined.zarr",
+    "description": "Antarctic land-ice layers on a common 100 m grid.",
+    "license": "various",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "glacial-lake-extent",
+      "glacier-thickness-ice-sheet-thickness",
+      "grounding-line",
+      "ice-depth-thickness",
+      "ice-growth-melt",
+      "subglacial-lake"
+    ],
+    "keywords": [
+      "Antarctica",
+      "Cryospheric Indicators",
+      "Glacial Lake Extent",
+      "Glacier Thickness/Ice Sheet Thickness",
+      "Glaciers",
+      "Glaciers/Ice Sheets",
+      "Grounding Line",
+      "Ice Depth/Thickness",
+      "Ocean Volume Budget",
+      "Sea Ice",
+      "Sea Ice Volume Budget",
+      "Snow/Ice",
+      "Subglacial lakes"
+    ],
+    "osc:missions": [
+      "alos",
+      "cosmo-skymed",
+      "cryosat-2",
+      "ers-1",
+      "ers-2",
+      "landsat-8",
+      "numerical-models",
+      "radarsat-1",
+      "radarsat-2",
+      "sentinel-1",
+      "sentinel-2"
+    ],
+    "cf:parameter": [
+      {"name": "antarctic_ice_shelf_melt_rates"},
+      {"name": "bedrock-topography-antarctica-bedmachine"},
+      {"name": "grounding-line-position"},
+      {"name": "subglacial-lake-extent"},
+      {"name": "suprgaglacial_lakes"}
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-land/antarctic-land-combined.json",
+      "type": "application/geo+json",
+      "title": "antarctica-combined.zarr"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/antarctic-ice-shelf-melt-rates/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Antarctic ice shelf basal melt rates 1997-2021"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/bedrock-topography-antarctica-bedmachine/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Bedrock topography: MEaSUREs BedMachine Antarctica"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/grounding-line-position-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Grounding line position: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, v.2"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/subglacial-lakes-boundries/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Subglacial lakes boundaries and elevation time series"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/supraglacial-lakes-west-4dantarctica/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Supraglacial lakes and channels in West Antarctica and Antarctic Peninsula during January 2017 (v.1.1)"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacial-lake-extent/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacial Lake Extent"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-thickness-ice-sheet-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Thickness/Ice Sheet Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/grounding-line/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Grounding Line"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-depth-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Depth/Thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-growth-melt/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Growth/Melt"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/subglacial-lake/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Subglacial Lake"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/antarctica-cube",
+      "type": "text/html",
+      "title": "ESA Antarctica Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/polar_hackathon/blob/main/2_Datacube/1_remote_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://esa-earthcode.github.io/polar-science-cluster-dashboard/",
+      "type": "text/html",
+      "title": "Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ALOS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cosmo-skymed/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: COSMO-SkyMed"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/landsat-8/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Landsat-8"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/radarsat-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: RADARSAT-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/radarsat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: RADARSAT-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/antarctica_cube/land-ice/antarctica-combined.zarr",
+      "type": "application/vnd+zarr",
+      "title": "antarctica-combined.zarr",
+      "roles": [
+        "data"
+      ],
+      "cf:parameter": [
+        {"name": "antarctic_ice_shelf_melt_rates"},
+        {"name": "bedrock-topography-antarctica-bedmachine"},
+        {"name": "grounding-line-position"},
+        {"name": "subglacial-lake-extent"},
+        {"name": "suprgaglacial_lakes"}
+      ]
+    }
+  },
+  "collection": "antarctic-land"
+}
