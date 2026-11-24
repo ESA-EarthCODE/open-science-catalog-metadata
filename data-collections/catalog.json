@@ -1,13 +1,15 @@
 {
   "type": "Catalog",
-  "id": "products",
+  "id": "data-collections",
   "stac_version": "1.0.0",
-  "description": "Data Collections provide access to datacubes combining multiple related products of a domain.",
+  "title": "Data Collections",
+  "description": "The Earth Science Data Collections bring related Earth observation and Earth science datasets together by theme as analysis-ready data (ARD).",
   "links": [
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/catalog.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": "Data Collections"
     },
     {
       "rel": "root",
@@ -16,12 +18,34 @@
       "title": "Open Science Catalogue"
     },
     {
-      "rel": "child",
-      "href": "./polar-cluster-datacollections/catalog.json",
+      "rel": "parent",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "ESA Polar Cluster Data Collection"
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "child",
+      "href": "./antarctic-land/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "child",
+      "href": "./antarctic-sea/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+    },
+    {
+      "rel": "child",
+      "href": "./mediterranean-sea/collection.json",
+      "type": "application/json",
+      "title": "ESA Mediterranean Sea Datacube"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/",
+      "type": "text/html",
+      "title": "Earth Science Data Collections"
     }
-  ],
-  "updated": "2026-09-17T22:15:00.00Z",
-  "title": "Products"
+  ]
 }
