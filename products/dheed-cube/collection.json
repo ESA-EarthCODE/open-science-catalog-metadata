@@ -1,0 +1,145 @@
+{
+  "sci:publications": [
+    {
+      "doi": "10.83395/qywc-kt78"
+    }
+  ],
+  "sci:doi": "10.83395/yfyd-fr47",
+  "type": "Collection",
+  "id": "dheed-cube",
+  "stac_version": "1.0.0",
+  "description": "DHEED (Dry and Hot Extreme Events Database) provides a global inventory of compound dry and hot climate extremes from 1950–2023 derived from ERA5 reanalysis data. The collection includes an EventCube of discrete extreme occurrences and a LabelCube of connected spatiotemporal events in zarr format with a table of event statistics describing their extent, duration, intensity, and affected area.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/14884254",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://essd.copernicus.org/articles/17/6621/2025/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "item",
+      "href": "./event-cube-item.json",
+      "type": "application/json",
+      "title": "Event Cube Zarr"
+    },
+    {
+      "rel": "item",
+      "href": "./merged-labels-item.json",
+      "type": "application/json",
+      "title": "Merged Labels Zarr"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-extremes/collection.json",
+      "type": "application/json",
+      "title": "Project: DEEP EXTREMES"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-weather/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Weather"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/heat/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Heat"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/droughts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Droughts"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/extreme-drought/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Extreme Drought"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/numerical-models/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Numerical models"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/dheed-cube/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:project": "deep-extremes",
+  "osc:status": "completed",
+  "osc:region": "Global",
+  "osc:type": "product",
+  "created": "2024-03-23T00:00:00Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "extreme-weather",
+    "heat",
+    "droughts",
+    "extreme-drought"
+  ],
+  "osc:missions": [
+    "numerical-models"
+  ],
+  "updated": "2026-11-24T00:00:00.234108Z",
+  "title": "Dheed: a global database of dry and hot extreme events",
+  "extent": {
+    "spatial": {
+      "bbox": [[-179.75, -90.0, 180.0, 90.0]]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1950-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Climate Extremes",
+    "Remote Sensing",
+    "ERA5"
+  ]
+}

@@ -32,6 +32,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/dheed-cube/collection.json",
+      "type": "application/json",
+      "title": "Dheed: a global database of dry and hot extreme events"
     }
   ],
   "stac_extensions": [

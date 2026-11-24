@@ -9,8 +9,8 @@
   },
   "bbox": [-179.75, -90.0, 180.0, 90.0],
   "properties": {
-    "license": "proprietary",
-    "description": "",
+    "license": "CC-BY-4.0",
+    "description": "Global data cube identifying connected extreme-event clusters (heatwaves and droughts) lasting at least three consecutive days and event statistics describing them",
     "start_datetime": "1950-01-01T00:00:00Z",
     "end_datetime": "2023-12-31T00:00:00Z",
     "datetime": null
@@ -20,20 +20,20 @@
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+      "title": "Dheed: a global database of dry and hot extreme events"
     },
     {
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
+      "title": "Dheed: a global database of dry and hot extreme events"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/dheed/EventCube_ranked_pot0.01_ne0.1.zarr/",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/dheed/mergedlabels_ranked_pot0.01_ne0.1_cmp_S1_T3_1950_2023.zarr/",
       "type": "application/vnd+zarr",
-      "title": "Event Cube Zarr",
+      "title": "Merged Labels Zarr",
       "created": "2026-11-23T09:40:49.698248Z",
       "cube:dimensions": {
         "Ti": {
@@ -66,24 +66,33 @@
         }
       },
       "cube:variables": {
-        "layer": {
+        "labels": {
           "type": "data",
-          "description": "Vegetation Optical Depth (VOD) observations for monitoring vegetation dynamics and drought conditions.",
+          "description": "Global data cube identifying connected extreme-event clusters (heatwaves and droughts) lasting at least three consecutive days.",
           "dimensions": [
             "time",
             "y",
             "x"
           ],
           "unit": "1",
-          "shape": [721, 1440, 27028],
-          "chunks": [6, 120, 5844]
+          "shape": [27028, 721, 1440],
+          "chunks": [90, 120, 120]
         }
       },
       "roles": [
         "data"
       ]
-    }
+    },
+  "event_statistics": {
+    "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/dheed/MergedEventStats_landonly_int.csv",
+    "type": "text/csv",
+    "title": "Merged Event Statistics",
+    "description": "Land-only statistics for labelled extreme heat and drought events.",
+    "roles": [
+      "metadata"
+    ]
+  }
   },
   "collection": "deep-extreme-cubes",
-  "title": "Event Cube Zarr"
+  "title": "Merged Labels Zarr"
 }
