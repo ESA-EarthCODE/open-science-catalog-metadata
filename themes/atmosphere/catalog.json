@@ -343,12 +343,6 @@
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/dheed-cube/collection.json",
-      "type": "application/json",
-      "title": "Dheed: a global database of dry and hot extreme events"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",

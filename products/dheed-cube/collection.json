@@ -1,11 +1,5 @@
 {
-  "sci:publications": [
-    {
-      "doi": "10.83395/qywc-kt78"
-    }
-  ,
-    {"doi": "10.83395/eppj-ke72"}],
-  "sci:doi": "10.83395/yfyd-fr47",
+  "sci:doi": "10.5281/zenodo.14884254",
   "type": "Collection",
   "id": "dheed-cube",
   "stac_version": "1.0.0",
