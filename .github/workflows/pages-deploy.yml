@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+      - preview
   workflow_dispatch:
 
 # Ensure only one deployment runs at a time.
