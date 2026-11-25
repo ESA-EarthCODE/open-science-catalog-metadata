@@ -10,7 +10,7 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "title": "Antarctic Land-Ice Datacube",
-  "description": "Antarctic land-ice data on a common 100 m grid.",
+  "description": "The ESA Antarctica Datacube brings together selected land-ice datasets. All gridded variables share a common 100 m EPSG:3031 grid. Variables such as ice velocity, ice temperature and glacier elevation are represented across Antarctica.",
   "license": "various",
   "extent": {
     "spatial": {

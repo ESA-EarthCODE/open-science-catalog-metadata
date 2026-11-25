@@ -9,8 +9,8 @@
   "osc:status": "completed",
   "osc:region": "Mediterranean",
   "osc:type": "product",
-  "title": "ESA Mediterranean Sea Datacube",
-  "description": "The ESA Mediterranean Sea Datacube brings selected marine datasets onto a common 1/24° latitude/longitude grid (EPSG:4326) for the Mediterranean Sea.\n\nThe data are available in four online GeoZarr stores: monthly fields, hourly currents, daily surface fields, and daily biophysics. The stores share the same horizontal grid and keep the time and depth coordinates each dataset needs.",
+  "title": "Mediterranean Sea Datacube",
+  "description": "The ESA Mediterranean Sea Datacube brings together selected marine datasets. All gridded variables share a common 1/24° EPSG:4326 grid. Variables such as chlorophyll concentration, surface currents and sea-surface temperature are represented across the Mediterranean Sea data.",
   "license": "various",
   "extent": {
     "spatial": {
@@ -135,7 +135,7 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/mediterranean-sea/collection.json",
       "type": "application/json",
-      "title": "ESA Mediterranean Sea Datacube"
+      "title": "Mediterranean Sea Datacube"
     },
     {
       "rel": "root",
