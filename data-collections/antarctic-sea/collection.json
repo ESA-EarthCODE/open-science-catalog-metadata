@@ -9,7 +9,7 @@
   "osc:status": "completed",
   "osc:region": "Antarctica",
   "osc:type": "product",
-  "title": "Antarctic Sea-Ice and Ocean-Surface Datacube",
+  "title": "Antarctic Sea-Ice Datacube",
   "description": "Sea-ice observations on a common 12.5 km grid.",
   "license": "various",
   "extent": {

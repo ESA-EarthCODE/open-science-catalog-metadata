@@ -9,7 +9,7 @@
   "osc:status": "completed",
   "osc:region": "Mediterranean",
   "osc:type": "product",
-  "title": "ESA Mediterranean Sea Datacube",
+  "title": "Mediterranean Sea Datacube",
   "description": "The ESA Mediterranean Sea Datacube brings selected marine datasets onto a common 1/24° latitude/longitude grid (EPSG:4326) for the Mediterranean Sea.\n\nThe data are available in four online GeoZarr stores: monthly fields, hourly currents, daily surface fields, and daily biophysics. The stores share the same horizontal grid and keep the time and depth coordinates each dataset needs.",
   "license": "various",
   "extent": {
