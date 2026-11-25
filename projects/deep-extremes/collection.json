@@ -34,7 +34,7 @@
     },
     {
       "rel": "child",
-      "href": "../../products/dheed-cubes/collection.json",
+      "href": "../../products/dheed-cube/collection.json",
       "type": "application/json",
       "title": "Dheed: a global database of dry and hot extreme events"
     },
