@@ -1,0 +1,165 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "antarctic-land-elevation-change",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[180, -90], [180, -60], [-180, -60], [-180, -90], [180, -90]]]
+  },
+  "bbox": [-180, -90, 180, -60],
+  "properties": {
+    "proj:epsg": 3031,
+    "proj:shape": [49158, 57358],
+    "datetime": null,
+    "start_datetime": "1991-01-01T00:00:00Z",
+    "end_datetime": "2021-12-31T23:59:59Z",
+    "title": "Surface Elevation Change",
+    "description": "Antarctic surface-elevation change on a common 100 m grid.",
+    "license": "various",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "glacier-elevation-ice-sheet-elevation"
+    ],
+    "keywords": [
+      "Cryospheric Indicators",
+      "Glacial Measurements",
+      "Glacier Elevation/Ice Sheet Elevation",
+      "Glaciers/Ice Sheets",
+      "Sea Ice"
+    ],
+    "osc:missions": [
+      "cryosat-2",
+      "envisat",
+      "ers-1",
+      "ers-2",
+      "sentinel-3"
+    ],
+    "cf:parameter": [
+      {"name": "sec-antarctic-ice-sheet"}
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-land/antarctic-land-elevation-change.json",
+      "type": "application/geo+json",
+      "title": "Surface Elevation Change"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/sec-antarctic-ice-sheet/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Surface Elevation Change (SEC) of the Antarctic Ice Sheet"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/glacier-elevation-ice-sheet-elevation/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Glacier Elevation/Ice Sheet Elevation"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/antarctica-cube",
+      "type": "text/html",
+      "title": "ESA Antarctica Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/polar_hackathon/blob/main/2_Datacube/1_remote_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://esa-earthcode.github.io/polar-science-cluster-dashboard/",
+      "type": "text/html",
+      "title": "Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/envisat/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ENVISAT"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ers-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ERS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/antarctica_cube/land-ice/sec.zarr",
+      "type": "application/vnd+zarr",
+      "title": "sec.zarr",
+      "roles": [
+        "data"
+      ],
+      "cf:parameter": [
+        {"name": "sec-antarctic-ice-sheet"}
+      ]
+    }
+  },
+  "collection": "antarctic-land"
+}

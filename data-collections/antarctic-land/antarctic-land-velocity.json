@@ -1,0 +1,135 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "antarctic-land-velocity",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[180, -90], [180, -60], [-180, -60], [-180, -90], [180, -90]]]
+  },
+  "bbox": [-180, -90, 180, -60],
+  "properties": {
+    "proj:epsg": 3031,
+    "proj:shape": [49158, 57358],
+    "datetime": null,
+    "start_datetime": "2014-10-01T00:00:00Z",
+    "end_datetime": "2021-12-01T00:00:00Z",
+    "title": "Antarctic Ice-Sheet Surface Velocity, 2014–2021",
+    "description": "Monthly Antarctic ice velocity on a common 100 m grid.",
+    "license": "various",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ],
+    "osc:variables": [
+      "ice-velocity"
+    ],
+    "keywords": [
+      "Ice Velocity",
+      "Snow/Ice",
+      "Terrestrial Hydrosphere"
+    ],
+    "osc:missions": [
+      "sentinel-1"
+    ],
+    "cf:parameter": [
+      {"name": "ice-sheet-velocity-antarctic-2021"}
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-land/antarctic-land-velocity.json",
+      "type": "application/geo+json",
+      "title": "Antarctic Ice-Sheet Surface Velocity, 2014–2021"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Antarctic Land-Ice Datacube"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/ice-sheet-velocity-antarctic-2021/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Antarctic Ice Sheet monthly ice velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-velocity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/data-collections/antarctica-cube",
+      "type": "text/html",
+      "title": "ESA Antarctica Datacube"
+    },
+    {
+      "rel": "example",
+      "href": "https://github.com/ESA-EarthCODE/polar_hackathon/blob/main/2_Datacube/1_remote_cube_access.ipynb",
+      "title": "Tutorial: Access to the data & usage",
+      "description": "A Python notebook demonstrating how to access and use the data.",
+      "type": "application/x-ipynb+json",
+      "application:type": "jupyter-notebook",
+      "application:embedded": true,
+      "application:language": "Python"
+    },
+    {
+      "rel": "visualisation",
+      "href": "https://esa-earthcode.github.io/polar-science-cluster-dashboard/",
+      "type": "text/html",
+      "title": "Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/antarctica_cube/land-ice/ice_velocity.zarr",
+      "type": "application/vnd+zarr",
+      "title": "ice_velocity.zarr",
+      "roles": [
+        "data"
+      ],
+      "cf:parameter": [
+        {"name": "ice-sheet-velocity-antarctic-2021"}
+      ]
+    }
+  },
+  "collection": "antarctic-land"
+}
