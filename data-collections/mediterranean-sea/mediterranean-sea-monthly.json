@@ -135,13 +135,13 @@
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "ESA Mediterranean Sea Datacube"
+      "title": "Mediterranean Sea Datacube"
     },
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "ESA Mediterranean Sea Datacube"
+      "title": "Mediterranean Sea Datacube"
     },
     {
       "rel": "related",

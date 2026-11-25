@@ -76,13 +76,13 @@
       "rel": "parent",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+      "title": "Antarctic Sea-Ice Datacube"
     },
     {
       "rel": "collection",
       "href": "./collection.json",
       "type": "application/json",
-      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+      "title": "Antarctic Sea-Ice Datacube"
     },
     {
       "rel": "related",

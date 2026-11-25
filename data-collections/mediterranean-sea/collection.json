@@ -135,7 +135,7 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/mediterranean-sea/collection.json",
       "type": "application/json",
-      "title": "ESA Mediterranean Sea Datacube"
+      "title": "Mediterranean Sea Datacube"
     },
     {
       "rel": "root",

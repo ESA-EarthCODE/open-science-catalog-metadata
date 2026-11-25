@@ -33,13 +33,13 @@
       "rel": "child",
       "href": "./antarctic-sea/collection.json",
       "type": "application/json",
-      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+      "title": "Antarctic Sea-Ice Datacube"
     },
     {
       "rel": "child",
       "href": "./mediterranean-sea/collection.json",
       "type": "application/json",
-      "title": "ESA Mediterranean Sea Datacube"
+      "title": "Mediterranean Sea Datacube"
     },
     {
       "rel": "via",

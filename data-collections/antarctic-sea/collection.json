@@ -72,7 +72,7 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-sea/collection.json",
       "type": "application/json",
-      "title": "Antarctic Sea-Ice and Ocean-Surface Datacube"
+      "title": "Antarctic Sea-Ice Datacube"
     },
     {
       "rel": "root",
