@@ -10,7 +10,7 @@
   "osc:region": "Antarctica",
   "osc:type": "product",
   "title": "Antarctic Sea-Ice Datacube",
-  "description": "Sea-ice observations on a common 12.5 km grid.",
+  "description": "The ESA Antarctica Datacube brings together selected sea-ice datasets. All gridded variables share a common 12.5 km EPSG:6932 grid. Variables such as ice thickness and snow depth are represented across Antarctica.",
   "license": "various",
   "extent": {
     "spatial": {
