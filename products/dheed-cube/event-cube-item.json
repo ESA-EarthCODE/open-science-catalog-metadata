@@ -68,7 +68,7 @@
       "cube:variables": {
         "layer": {
           "type": "data",
-          "description": "Vegetation Optical Depth (VOD) observations for monitoring vegetation dynamics and drought conditions.",
+          "description": "A global data cube for 1950–2023 classifying extreme and non-extreme conditions. It identifies extreme maximum temperatures (above the 99th percentile) and extreme drought conditions (below the 1st percentile) based on 30-, 90- and 180-day drought indicators.",
           "dimensions": [
             "time",
             "y",

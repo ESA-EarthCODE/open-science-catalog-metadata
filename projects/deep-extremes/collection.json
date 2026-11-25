@@ -33,6 +33,12 @@
       "title": "DeepExtremeCubes: Earth system spatio-temporal data for assessing compound heatwave and drought impacts"
     },
     {
+      "rel": "child",
+      "href": "../../products/dheed-cubes/collection.json",
+      "type": "application/json",
+      "title": "Dheed: a global database of dry and hot extreme events"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deep-extremes/collection.json",
       "type": "application/json"
