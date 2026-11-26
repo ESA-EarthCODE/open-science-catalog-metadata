@@ -1,0 +1,161 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_cono_1147011_GRDC_Discharge_mmWLBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.06999969482422,
+          -11.96660041809082
+        ],
+        [
+          31.06999969482422,
+          5.0333333015441895
+        ],
+        [
+          15.333333015441895,
+          5.0333333015441895
+        ],
+        [
+          15.333333015441895,
+          -11.96660041809082
+        ],
+        [
+          31.06999969482422,
+          -11.96660041809082
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    15.333333015441895,
+    -11.96660041809082,
+    31.06999969482422,
+    5.0333333015441895
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 12 gauge stations across the Congo river basin, containing estimates derived from multi-mission water level produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission water-level-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (multi-mission water-level-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:51.734372Z",
+    "title": "EO4FLOOD Congo river discharge from multi-mission water level",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "1147011_GRDC",
+        "creation_time": "2026-07-31 10:49:32"
+      },
+      {
+        "gauge_name": "1147012_GRDC",
+        "creation_time": "2026-07-31 10:49:31"
+      },
+      {
+        "gauge_name": "1147013_GRDC",
+        "creation_time": "2026-07-31 10:49:32"
+      },
+      {
+        "gauge_name": "1150200_GRDC",
+        "creation_time": "2026-07-31 10:49:32"
+      },
+      {
+        "gauge_name": "1150201_GRDC",
+        "creation_time": "2026-07-31 10:49:31"
+      },
+      {
+        "gauge_name": "1547310_GRDC",
+        "creation_time": "2026-07-31 10:49:30"
+      },
+      {
+        "gauge_name": "1547400_GRDC",
+        "creation_time": "2026-07-31 10:49:30"
+      },
+      {
+        "gauge_name": "1748500_GRDC",
+        "creation_time": "2026-07-31 10:49:31"
+      },
+      {
+        "gauge_name": "1749050_GRDC",
+        "creation_time": "2026-07-31 10:49:30"
+      },
+      {
+        "gauge_name": "1749100_GRDC",
+        "creation_time": "2026-07-31 10:49:32"
+      },
+      {
+        "gauge_name": "1749500_GRDC",
+        "creation_time": "2026-07-31 10:49:31"
+      },
+      {
+        "gauge_name": "1749600_GRDC",
+        "creation_time": "2026-07-31 10:49:29"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Congo_River_Discharge_mmWLBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Congo river discharge from multi-mission water level (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Congo river discharge from multi-mission water level"
+}

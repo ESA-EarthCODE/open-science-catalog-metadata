@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_po____6348200_GRDC_21406800011_Sentinel-2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.600000381469727,
+          44.88333511352539
+        ],
+        [
+          11.600000381469727,
+          45.128299713134766
+        ],
+        [
+          8.685700416564941,
+          45.128299713134766
+        ],
+        [
+          8.685700416564941,
+          44.88333511352539
+        ],
+        [
+          11.600000381469727,
+          44.88333511352539
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    8.685700416564941,
+    44.88333511352539,
+    11.600000381469727,
+    45.128299713134766
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "Satellite-derived river width observations at 16 gauge stations in the Po river basin, combining Landsat and Sentinel-2 observations. The basin-wide Parquet file contains irregularly sampled time series identified by gauge name, SWORD v17 reach ID and satellite mission. The time column records observation timestamps, w is estimated river width in metres, and gauge_lon and gauge_lat locate the gauge stations in longitude and latitude. Produced by the Institute of Geodesy (GIS), University of Stuttgart, for the ESA EO4FLOOD project.",
+    "start_datetime": "1984-06-01T00:00:00Z",
+    "end_datetime": "2025-09-17T00:00:00Z",
+    "datetime": "1984-06-01T00:00:00Z",
+    "parquet_column_metadata": {
+      "time": {
+        "long_name": "Time since 1984-01-01 00:00"
+      },
+      "w": {
+        "long_name": "Estimated river width",
+        "units": "m"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "reach_ID": {
+        "long_name": "Reach ID from SWORD v17 dataset"
+      },
+      "satellite": {
+        "long_name": "Satellite mission name (e.g., Landsat, Sentinel-2, MODIS)"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "title": "EO4FLOOD Po river width time series",
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983",
+    "eo4flood:source_attributes": {
+      "title": "ESA EO4FLOOD project river width",
+      "creation_time": [
+        "2026-09-16 16:17:47",
+        "2026-09-16 16:17:48",
+        "2026-09-16 16:17:49",
+        "2026-09-16 16:17:50",
+        "2026-09-16 16:17:51",
+        "2026-09-16 16:17:52",
+        "2026-09-16 16:17:53",
+        "2026-09-16 16:17:54",
+        "2026-09-16 16:17:55",
+        "2026-09-16 16:17:56"
+      ],
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-09-16",
+      "temporal interval": [
+        "02-Mar-2016 to 22-Nov-2025",
+        "05-Jan-2016 to 31-Dec-2025",
+        "07-Jan-2017 to 29-Nov-2025",
+        "13-Jan-2016 to 28-Dec-2025",
+        "13-Jan-2016 to 31-Dec-2025",
+        "15-Aug-2018 to 18-Aug-2025",
+        "16-Jan-2016 to 26-Dec-2025",
+        "16-Jan-2016 to 29-Dec-2025",
+        "16-Jan-2016 to 31-Dec-2025",
+        "16-Nov-2017 to 05-Oct-2025",
+        "18-Jul-2016 to 28-Dec-2025",
+        "18-Jul-2016 to 31-Dec-2025",
+        "21-Jan-2016 to 31-Dec-2025",
+        "22-Apr-2017 to 18-Aug-2025",
+        "22-Apr-2017 to 23-Nov-2025",
+        "22-May-2016 to 31-Dec-2025",
+        "23-Aug-2016 to 31-Dec-2025",
+        "23-Jan-2016 to 08-Dec-2025",
+        "23-Jan-2016 to 09-Dec-2025",
+        "27-Aug-2016 to 26-Dec-2025",
+        "27-Aug-2016 to 29-Sep-2025",
+        "28-Mar-2017 to 29-Nov-2025",
+        "30-Mar-2017 to 05-Apr-2025",
+        "30-Mar-2017 to 08-Dec-2025",
+        "30-Mar-2017 to 14-Oct-2025"
+      ],
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Width Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Width Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/width_series/Po_width_timeseries.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Po river width time series (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-width",
+  "title": "EO4FLOOD Po river width time series"
+}

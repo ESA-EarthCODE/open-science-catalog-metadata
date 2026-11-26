@@ -1,0 +1,253 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_po____6348200_GRDC_Discharge_mmMerged",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.600000381469727,
+          44.5099983215332
+        ],
+        [
+          11.600000381469727,
+          46.2953987121582
+        ],
+        [
+          7.690899848937988,
+          46.2953987121582
+        ],
+        [
+          7.690899848937988,
+          44.5099983215332
+        ],
+        [
+          11.600000381469727,
+          44.5099983215332
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    7.690899848937988,
+    44.5099983215332,
+    11.600000381469727,
+    46.2953987121582
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 35 gauge stations across the Po river basin, containing multi-mission merged estimates produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (multi-mission merged)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (multi-mission merged)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:53.888775Z",
+    "title": "EO4FLOOD Po multi-mission merged river discharge",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6348200_GRDC",
+        "creation_time": "2026-07-31 10:53:35"
+      },
+      {
+        "gauge_name": "6348201_GRDC",
+        "creation_time": "2026-07-31 10:53:33"
+      },
+      {
+        "gauge_name": "6348202_GRDC",
+        "creation_time": "2026-07-31 10:53:32"
+      },
+      {
+        "gauge_name": "6348300_GRDC",
+        "creation_time": "2026-07-31 10:53:34"
+      },
+      {
+        "gauge_name": "6348310_GRDC",
+        "creation_time": "2026-07-31 10:53:33"
+      },
+      {
+        "gauge_name": "6348350_GRDC",
+        "creation_time": "2026-07-31 10:53:36"
+      },
+      {
+        "gauge_name": "6348400_GRDC",
+        "creation_time": "2026-07-31 10:53:37"
+      },
+      {
+        "gauge_name": "6348500_GRDC",
+        "creation_time": "2026-07-31 10:53:37"
+      },
+      {
+        "gauge_name": "6348600_GRDC",
+        "creation_time": "2026-07-31 10:53:35"
+      },
+      {
+        "gauge_name": "6348610_GRDC",
+        "creation_time": "2026-07-31 10:53:36"
+      },
+      {
+        "gauge_name": "6348800_GRDC",
+        "creation_time": "2026-07-31 10:53:37"
+      },
+      {
+        "gauge_name": "6948100_GRDC",
+        "creation_time": "2026-07-31 10:53:34"
+      },
+      {
+        "gauge_name": "6948110_GRDC",
+        "creation_time": "2026-07-31 10:53:32"
+      },
+      {
+        "gauge_name": "6948120_GRDC",
+        "creation_time": "2026-07-31 10:53:33"
+      },
+      {
+        "gauge_name": "6948150_GRDC",
+        "creation_time": "2026-07-31 10:53:31"
+      },
+      {
+        "gauge_name": "6948360_GRDC",
+        "creation_time": "2026-07-31 10:53:31"
+      },
+      {
+        "gauge_name": "6948520_GRDC",
+        "creation_time": "2026-07-31 10:53:30"
+      },
+      {
+        "gauge_name": "Alba",
+        "creation_time": "2026-07-31 10:53:45"
+      },
+      {
+        "gauge_name": "Bomporto",
+        "creation_time": "2026-07-31 10:53:42"
+      },
+      {
+        "gauge_name": "Borgoforte",
+        "creation_time": "2026-07-31 10:53:40"
+      },
+      {
+        "gauge_name": "Carignano",
+        "creation_time": "2026-07-31 10:53:38"
+      },
+      {
+        "gauge_name": "Casale_Monferrato",
+        "creation_time": "2026-07-31 10:53:38"
+      },
+      {
+        "gauge_name": "CremonaSIAP",
+        "creation_time": "2026-07-31 10:53:40"
+      },
+      {
+        "gauge_name": "Farigliano",
+        "creation_time": "2026-07-31 10:53:44"
+      },
+      {
+        "gauge_name": "Marzolara",
+        "creation_time": "2026-07-31 10:53:41"
+      },
+      {
+        "gauge_name": "Ostia_Parmense",
+        "creation_time": "2026-07-31 10:53:43"
+      },
+      {
+        "gauge_name": "Piacenza",
+        "creation_time": "2026-07-31 10:53:39"
+      },
+      {
+        "gauge_name": "PonteBacchello",
+        "creation_time": "2026-07-31 10:53:43"
+      },
+      {
+        "gauge_name": "Ponte_Verdi",
+        "creation_time": "2026-07-31 10:53:41"
+      },
+      {
+        "gauge_name": "Quinto_Vercellese_Cervo",
+        "creation_time": "2026-07-31 10:53:45"
+      },
+      {
+        "gauge_name": "SSecondo",
+        "creation_time": "2026-07-31 10:53:44"
+      },
+      {
+        "gauge_name": "Salsominore",
+        "creation_time": "2026-07-31 10:53:46"
+      },
+      {
+        "gauge_name": "Sorbolo",
+        "creation_time": "2026-07-31 10:53:41"
+      },
+      {
+        "gauge_name": "SpessaPo",
+        "creation_time": "2026-07-31 10:53:39"
+      },
+      {
+        "gauge_name": "Tavagnasco",
+        "creation_time": "2026-07-31 10:53:46"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Po_River_Discharge_mmMerged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Po multi-mission merged river discharge (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Po multi-mission merged river discharge"
+}

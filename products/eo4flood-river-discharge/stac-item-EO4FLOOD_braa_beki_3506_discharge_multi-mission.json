@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stac-item-EO4FLOOD_braa_beki_3506_discharge_multi-mission",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          95.2867,
+          26.0452
+        ],
+        [
+          95.2867,
+          28.1409
+        ],
+        [
+          89.4372,
+          28.1409
+        ],
+        [
+          89.4372,
+          26.0452
+        ],
+        [
+          95.2867,
+          26.0452
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    89.4372,
+    26.0452,
+    95.2867,
+    28.1409
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 5 ungauged locations in the Brahmaputra river basin, produced by DGFI-TUM for EO4FLOOD. The basin-wide Parquet file contains multi-mission discharge estimates identified by name. date records observation timestamps; q is estimated discharge in cubic metres per second, and q_u_lower and q_u_upper are the delivered lower and upper uncertainty bounds in the same units. lon and lat locate each site in geographic degrees. Observations are irregularly sampled. Source comments and per-site provenance are retained; inclusion of a site does not imply that its estimates passed a quality filter.",
+    "nc_attributes": {
+      "dataset": "multi-mission-river-discharge",
+      "institution": "DGFI-TUM",
+      "author": "Daniel Scherer",
+      "units": "discharge in m^3/s",
+      "datetime_format": "ISO8601 string"
+    },
+    "parquet_column_metadata": {
+      "q": {
+        "units": "m^3/s"
+      },
+      "q_u_lower": {
+        "units": "m^3/s"
+      },
+      "q_u_upper": {
+        "units": "m^3/s"
+      },
+      "lon": {},
+      "lat": {}
+    },
+    "datetime": "2026-05-28T16:26:51.187621Z",
+    "title": "EO4FLOOD Brahmaputra discharge at ungauged locations",
+    "eo4flood:source_products": [
+      {
+        "name": "brama_beki_3506",
+        "longitude": 90.9517,
+        "latitude": 26.5442,
+        "creation_date": "2025-12-05T14:52:50.976982",
+        "comment": "plausible"
+      },
+      {
+        "name": "brama_brahmaputra_10822",
+        "longitude": 95.2867,
+        "latitude": 28.1409,
+        "creation_date": "2025-12-05T14:52:50.159723",
+        "comment": "plausible, probably overestimated"
+      },
+      {
+        "name": "brama_brahmaputra_14872",
+        "longitude": 91.53805,
+        "latitude": 26.13596,
+        "creation_date": "2025-12-05T14:52:52.192755",
+        "comment": "plausible"
+      },
+      {
+        "name": "brama_jaldhaka_16837",
+        "longitude": 89.4372,
+        "latitude": 26.0452,
+        "creation_date": "2025-12-05T14:52:51.416401",
+        "comment": "plausible, probably underestimated"
+      },
+      {
+        "name": "brama_sankosh_14223",
+        "longitude": 89.8234,
+        "latitude": 26.39,
+        "creation_date": "2025-12-05T14:52:50.247765",
+        "comment": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Brahmaputra_River_Discharge_Ungauged.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Brahmaputra discharge at ungauged locations (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Brahmaputra discharge at ungauged locations"
+}

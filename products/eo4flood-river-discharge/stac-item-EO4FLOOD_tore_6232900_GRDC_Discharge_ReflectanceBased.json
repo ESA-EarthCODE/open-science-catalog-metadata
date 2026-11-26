@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "stac-item-EO4FLOOD_tore_6232900_GRDC_Discharge_ReflectanceBased",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.386554718017578,
+          65.97000122070312
+        ],
+        [
+          24.386554718017578,
+          68.93840026855469
+        ],
+        [
+          20.85219955444336,
+          68.93840026855469
+        ],
+        [
+          20.85219955444336,
+          65.97000122070312
+        ],
+        [
+          24.386554718017578,
+          65.97000122070312
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    20.85219955444336,
+    65.97000122070312,
+    24.386554718017578,
+    68.93840026855469
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "River discharge time series at 18 gauge stations across the Torne river basin, containing estimates derived from surface reflectance produced by the Institute of Geodesy (GIS), University of Stuttgart, for EO4FLOOD. The basin-wide Parquet file identifies stations by gauge_name. time records timestamps, Q is estimated discharge in cubic metres per second, and Q_unc is the delivered uncertainty in the same units. gauge_lon and gauge_lat locate each station in geographic degrees. Sampling depends on the product and station; missing values indicate unavailable estimates and must not be interpreted as zero discharge.",
+    "nc_attributes": {
+      "title": "ESA EO4FLOOD project river discharge (reflectance-based)",
+      "institution": "Institute of Geodesy (GIS), University of Stuttgart",
+      "contact": "saemian@gis.uni-stuttgart.de; omid.elmi@gis.uni-stuttgart.de; tourian@gis.uni-stuttgart.de",
+      "pdate": "2026-07-31",
+      "temporal interval": "01-Jan-2016 to 31-Dec-2025",
+      "version": "2.0",
+      "Conventions": "CF-1.11-draft",
+      "DOI": "10.5281/zenodo.21699983",
+      "Acknowledgements": "ESA EO4FLOOD project reference"
+    },
+    "parquet_column_metadata": {
+      "Q": {
+        "long_name": "Estimated river discharge (reflectance-based)",
+        "units": "m^3 s^-1"
+      },
+      "Q_unc": {
+        "long_name": "Uncertainty of estimated discharge",
+        "units": "m^3 s^-1"
+      },
+      "basin": {
+        "long_name": "River basin name"
+      },
+      "gauge_name": {
+        "long_name": "Gauge station name"
+      },
+      "gauge_lat": {
+        "long_name": "Gauge latitude",
+        "units": "degrees_north"
+      },
+      "gauge_lon": {
+        "long_name": "Gauge longitude",
+        "units": "degrees_east"
+      }
+    },
+    "datetime": "2026-05-28T16:26:54.319080Z",
+    "title": "EO4FLOOD Torne river discharge from surface reflectance",
+    "eo4flood:source_products": [
+      {
+        "gauge_name": "6232100_GRDC",
+        "creation_time": "2026-07-31 11:22:12"
+      },
+      {
+        "gauge_name": "6232101_GRDC",
+        "creation_time": "2026-07-31 11:22:13"
+      },
+      {
+        "gauge_name": "6232900_GRDC",
+        "creation_time": "2026-07-31 11:22:15"
+      },
+      {
+        "gauge_name": "6232901_GRDC",
+        "creation_time": "2026-07-31 11:22:15"
+      },
+      {
+        "gauge_name": "6232905_GRDC",
+        "creation_time": "2026-07-31 11:22:13"
+      },
+      {
+        "gauge_name": "6232910_GRDC",
+        "creation_time": "2026-07-31 11:22:16"
+      },
+      {
+        "gauge_name": "6232913_GRDC",
+        "creation_time": "2026-07-31 11:22:15"
+      },
+      {
+        "gauge_name": "6232915_GRDC",
+        "creation_time": "2026-07-31 11:22:13"
+      },
+      {
+        "gauge_name": "6232916_GRDC",
+        "creation_time": "2026-07-31 11:22:11"
+      },
+      {
+        "gauge_name": "6232930_GRDC",
+        "creation_time": "2026-07-31 11:22:12"
+      },
+      {
+        "gauge_name": "6832750_GRDC",
+        "creation_time": "2026-07-31 11:22:14"
+      },
+      {
+        "gauge_name": "6832752_GRDC",
+        "creation_time": "2026-07-31 11:22:11"
+      },
+      {
+        "gauge_name": "6832753_GRDC",
+        "creation_time": "2026-07-31 11:22:11"
+      },
+      {
+        "gauge_name": "6832754_GRDC",
+        "creation_time": "2026-07-31 11:22:10"
+      },
+      {
+        "gauge_name": "6832907_GRDC",
+        "creation_time": "2026-07-31 11:22:14"
+      },
+      {
+        "gauge_name": "6832909_GRDC",
+        "creation_time": "2026-07-31 11:22:10"
+      },
+      {
+        "gauge_name": "6832917_GRDC",
+        "creation_time": "2026-07-31 11:22:16"
+      },
+      {
+        "gauge_name": "6832929_GRDC",
+        "creation_time": "2026-07-31 11:22:10"
+      }
+    ],
+    "version": "2.0",
+    "sci:doi": "10.5281/zenodo.21699983"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "EO4FLOOD River Discharge Products"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/eo4flood/River_Discharge_series/Torne_River_Discharge_ReflectanceBased.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "EO4FLOOD Torne river discharge from surface reflectance (Parquet)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "eo4flood-river-discharge",
+  "title": "EO4FLOOD Torne river discharge from surface reflectance"
+}
