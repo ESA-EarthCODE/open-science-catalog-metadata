@@ -1,0 +1,132 @@
+{
+  "type": "Collection",
+  "id": "5d-antarctica",
+  "stac_version": "1.0.0",
+  "description": "The European Space Agency (ESA) Dynamic 5D Antarctica project will produce a suite of Earth Observation datasets to characterise how the coastal ice sheet and ice shelves in Antarctica have changed over the past decades, and make use of these data sets to investigate the physical processes driving this evolution. Despite the important role that the Antarctic Ice Sheet margins and ice shelves play in the glaciological system, there is currently a lack of satellite-derived geophysical datasets over this critical zone that are continuous in time and have widespread coverage. These observations are required to address important science questions about the rate of change and physical mechanisms responsible for driving the evolution of Antarctic Ice Sheet’s coastal margin and ice shelves. This ESA Dynamic 5D Antarctica (5DAIS) project will address this major science gap by generating new measurements of at least 13 important glaciological parameters, all of which can be observed from Space. This will deliver a step-change in the spatial resolution and temporal frequency with which the Antarctic coastal margin can been observed, advancing our understanding of ice dynamic behaviour in Antarctica, and improving the accuracy with which we can predict its future evolution. ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://5dantarctica.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/5d-antarctica/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/5dais/collection.json",
+      "type": "application/json",
+      "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-11-18T20:19:42.713556Z",
+  "updated": "2026-11-18T20:19:42.713556Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Martin Wearing",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Martin.Wearing@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "University of Leeds",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Lancaster University",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ENVEO",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "EarthWave",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "University of Grenoble Alpes",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "University of Edinburgh",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "title": "5D Antarctica",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -50.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-01T00:00:00Z",
+          "2027-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various"
+}

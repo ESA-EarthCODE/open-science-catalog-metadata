@@ -1,0 +1,198 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "supraglacial-hydrology-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          171.81277764628828,
+          -85.66263549598452
+        ],
+        [
+          171.81277764628828,
+          -66.71654059863512
+        ],
+        [
+          -154.86889769882507,
+          -66.71654059863512
+        ],
+        [
+          -154.86889769882507,
+          -85.66263549598452
+        ],
+        [
+          171.81277764628828,
+          -85.66263549598452
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -154.86889769882507,
+    -85.66263549598452,
+    171.81277764628828,
+    -66.71654059863512
+  ],
+  "properties": {
+    "license": "cc-by-4.0",
+    "description": "",
+    "datetime": "2016-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/5dais/5DAIS_ALL_polygons.parquet",
+      "type": "application/x-parquet",
+      "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning parquet file",
+      "proj:code": "EPSG:4326",
+      "proj:wkt2": "GEOGCRS[\"WGS 84\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4326]]",
+      "proj:bbox": [
+        -180.00,
+        -82.85341528491172,
+        170.23433960178582,
+        -64.90956748462426
+      ],
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              170.23433960178582,
+              -82.85341528491172
+            ],
+            [
+              170.23433960178582,
+              -64.90956748462426
+            ],
+            [
+              -180.00,
+              -64.90956748462426
+            ],
+            [
+              -180.00,
+              -82.85341528491172
+            ],
+            [
+              170.23433960178582,
+              -82.85341528491172
+            ]
+          ]
+        ]
+      },
+      "roles": [
+        "data"
+      ],
+      "parquet:columns":[
+    {
+      "name": "geometry",
+      "type": "geometry | null",
+      "long_name": "Class polygon geometry",
+      "description": "Polygon delineating a region assigned to the raster class identified by class_id, such as open meltwater or slush. Coordinates in the supplied example are WGS 84 longitude and latitude. Geometry may be null for records representing periods with no mapped open meltwater or slush.",
+      "unit": "degree"
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "long_name": "Source raster filename",
+      "description": "Filename or filename stem of the source classification raster. The naming pattern encodes the region, Antarctic melt season and month. For example, SGH_Abbot_20162017_Dec identifies supraglacial hydrology for the Abbot region in December 2016, within the 2016–2017 melt season.",
+      "unit": "1"
+    },
+    {
+      "name": "source_path",
+      "type": "string",
+      "long_name": "Source raster path",
+      "description": "Path locating the source classification raster within the input directory structure or dataset archive. Preserves the connection between each output record and its original raster.",
+      "unit": "1"
+    },
+    {
+      "name": "raster_width",
+      "type": "int",
+      "long_name": "Source raster width",
+      "description": "Number of pixel columns in the source raster from which the record was generated.",
+      "unit": "pixel"
+    },
+    {
+      "name": "raster_height",
+      "type": "int",
+      "long_name": "Source raster height",
+      "description": "Number of pixel rows in the source raster from which the record was generated.",
+      "unit": "pixel"
+    },
+    {
+      "name": "raster_transform",
+      "type": "list[float]",
+      "long_name": "Raster affine transformation",
+      "description": "Affine transformation coefficients mapping raster column and row coordinates to spatial coordinates in raster_crs. Translation terms use CRS coordinate units, while scale and rotation terms use CRS coordinate units per pixel.",
+      "unit": "mixed"
+    },
+    {
+      "name": "raster_crs",
+      "type": "string",
+      "long_name": "Source raster coordinate reference system",
+      "description": "Coordinate reference system of the source raster, represented as Well-Known Text.",
+      "unit": "1"
+    },
+    {
+      "name": "raster_dtype",
+      "type": "string",
+      "long_name": "Source raster pixel data type",
+      "description": "Numeric storage type of the source raster pixel values. ",
+      "unit": "1"
+    },
+    {
+      "name": "raster_nodata",
+      "type": "number | null",
+      "long_name": "Declared raster NoData value",
+      "description": "Pixel value explicitly designated as NoData in the source raster metadata. A null value indicates that no NoData value was declared; it does not establish whether every raster cell contains valid data.",
+      "unit": "1"
+    },
+    {
+      "name": "raster_fill_value",
+      "type": "int",
+      "long_name": "Raster fill value",
+      "description": "The value used to fill masked or otherwise unassigned cells during raster processing or export. The supplied value is 0, which matches the background classification code.",
+      "unit": "1"
+    },
+    {
+      "name": "class_id",
+      "type": "int",
+      "long_name": "Supraglacial hydrology class code",
+      "description": "Classification code associated with the polygonrecord: 0 = background; 1 = open meltwater, including lakes, streams and other open-water features; 2 = slush.",
+      "unit": "1"
+    },
+    {
+      "name": "class_label",
+      "type": "string",
+      "long_name": "Supraglacial hydrology class label",
+      "description": "Text label corresponding to class_id. In the supplied naming scheme, class_0 represents background, class_1 represents open meltwater, and class_2 represents slush.",
+      "unit": "1"
+    },
+    {
+      "name": "has_observation",
+      "type": "bool",
+      "long_name": "Mapped meltwater or slush presence",
+      "description": "Indicates whether open meltwater or slush was mapped for the source region and period. True means that class 1 and/or class 2 is present. False means that neither class 1 nor class 2 is present during that period.",
+      "unit": "1"
+    }
+      ]
+    }
+  },
+  "collection": "5dais",
+  "title": "Continental-scale mapping of Antarctic supraglacial hydrology using machine learning parquet file"
+}
