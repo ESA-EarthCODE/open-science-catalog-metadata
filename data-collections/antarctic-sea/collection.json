@@ -90,7 +90,7 @@
       "rel": "item",
       "href": "./antarctic-sea-ice-ocean.json",
       "type": "application/geo+json",
-      "title": "Sea Ice GeoZarr"
+      "title": "Antarctic Sea-Ice - Monthly Observations"
     },
     {
       "rel": "related",

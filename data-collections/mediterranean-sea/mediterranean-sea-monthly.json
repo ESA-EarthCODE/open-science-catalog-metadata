@@ -18,7 +18,7 @@
     "datetime": null,
     "start_datetime": "2016-01-01T00:00:00Z",
     "end_datetime": "2022-12-01T00:00:00Z",
-    "title": "Monthly fields",
+    "title": "Mediterranean Sea - Monthly Fields",
     "description": "Monthly ocean data for the Mediterranean Sea on a common 1/24° grid.",
     "license": "various",
     "themes": [
@@ -40,8 +40,10 @@
       "dissolved-oxygen",
       "export-production",
       "fisheries",
+      "fronts",
       "microphytoplankton-carbon",
       "nanophytoplankton-carbon",
+      "ocean-color-ocean-colour",
       "ocean-heat-budget",
       "ocean-mixed-layer",
       "ocean-salinity",
@@ -51,6 +53,7 @@
       "phytoplankton",
       "phytoplankton-primary-production",
       "picophytoplankton-carbon",
+      "reflectance",
       "sea-surface-salinity",
       "sea-surface-temperature",
       "total-alkalinity-at",
@@ -67,6 +70,7 @@
       "Pigments",
       "SMOS",
       "SST",
+      "Seascapes",
       "altimetry",
       "carbon cycle",
       "climate",
@@ -75,9 +79,12 @@
       "heat",
       "marine hazards",
       "ocean",
+      "ocean Biodiversity",
       "ocean health",
       "ocean science",
       "ocean stressors",
+      "ocean-color-ocean-colour",
+      "oceans",
       "salinity",
       "sea surface temperature"
     ],
@@ -90,15 +97,19 @@
       "grace-fo",
       "in-situ-observations",
       "jason-3",
+      "meris",
       "metop",
+      "modis",
       "numerical-models",
       "orbview-2",
+      "seawifs",
       "sentinel-3",
       "sentinel-5p",
       "sentinel-6",
       "smos",
       "suomi-npp",
-      "terra"
+      "terra",
+      "viirs"
     ],
     "cf:parameter": [
       {"name": "4dmed-2d-pft-kd"},
@@ -123,7 +134,7 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/mediterranean-sea/mediterranean-sea-monthly.json",
       "type": "application/geo+json",
-      "title": "Monthly fields"
+      "title": "Mediterranean Sea - Monthly Fields"
     },
     {
       "rel": "root",
@@ -446,6 +457,54 @@
       "href": "../../eo-missions/terra/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Terra"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/booms-dataset/collection.json",
+      "type": "application/json",
+      "title": "Source Product: Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/fronts/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Fronts"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ocean-color-ocean-colour/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Color / Ocean Colour"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/reflectance/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/meris/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MERIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/modis/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: MODIS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/seawifs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SeaWiFS"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/viirs/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: VIIRS"
     }
   ],
   "assets": {
