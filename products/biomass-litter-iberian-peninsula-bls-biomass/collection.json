@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.24347321"}
+  ,
+    {"doi": "10.83395/4am4-8b58"}],
   "type": "Collection",
   "id": "biomass-litter-iberian-peninsula-bls-biomass",
   "stac_version": "1.0.0",
@@ -92,7 +96,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.24347321",
+  "sci:doi": "10.83395/n8x8-qa52",
   "cf:parameter": [
     {
       "name": "litter_biomass_density_map_coefficient_of_variation"

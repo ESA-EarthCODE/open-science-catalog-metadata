@@ -3,9 +3,14 @@
   "type": "Feature",
   "geometry": null,
   "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "properties": {
+    "sci:publications": [
+        {"doi": "10.83395/7zbk-sr58"}
+    ],
+    "sci:doi": "10.83395/swr5-wn98",
     "title": "Jupyter Notebooks with the workflow to produce Biomass Density maps and their uncertainty analysis",
     "description": "This repository contains the Jupyter source code used to preprocess data from Sentinel-1, Sentinel-2, and ALOS-2, and to produce and analyze density maps for four biomass pools: aboveground, belowground, litter, and shrub biomass. The methodology is based on XGBoost machine learning regression models, which use data derived from the three satellite missions as input features. For each biomass pool, individual raster maps are generated in GeoTIFF format at 25 m spatial resolution for all extracted parameters. In addition, a GeoPackage vector dataset is produced, containing the same parameters represented as a point cloud. The following statistical metrics are provided for each parameter: coefficient of variation, interquartile range, kurtosis, mean, median, relative standard error, skewness, and standard error.",
     "type": "workflow",

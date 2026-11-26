@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.24347392"}
+  ,
+    {"doi": "10.83395/2vj5-ee49"}],
   "type": "Collection",
   "id": "biomass-shrub-iberian-peninsula-bls-biomass",
   "stac_version": "1.0.0",
@@ -92,7 +96,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.24347392",
+  "sci:doi": "10.83395/r4r6-7c77",
   "cf:parameter": [
     {
       "name": "shrub_biomass_density_map_coefficient_of_variation"

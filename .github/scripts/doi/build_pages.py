@@ -313,7 +313,7 @@ def main():
         shutil.copy("catalog.json", os.path.join(dist_dir, "catalog.json"))
 
     # 2. Copy supplementary directories
-    for d in ["eo-missions", "experiments", "projects", "themes", "variables"]:
+    for d in ["eo-missions", "experiments", "projects", "themes", "variables", "data-collections"]:
         copy_directory(d, dist_dir)
         
     # 3. Copy intermediate catalog files for products and workflows

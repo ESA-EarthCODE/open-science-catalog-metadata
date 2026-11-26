@@ -8,6 +8,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from datacite import DataCiteClient
+from check_changes import get_file_at_commit
 
 PORTAL_UI_BASE_URL = os.getenv("PORTAL_UI_BASE_URL", "https://opensciencedata.esa.int")
 
@@ -111,6 +112,44 @@ def main():
         is_workflow_file = file_path.endswith("record.json") and "workflows/" in file_path
         
         if is_product_file or is_workflow_file:
+            if not os.path.exists(file_path):
+                print(f"File {file_path} was deleted in this commit.")
+                historical_data = get_file_at_commit(file_path, "HEAD~1")
+                if not historical_data:
+                    print(f"Could not retrieve historical data for deleted file {file_path}")
+                    continue
+
+                props_hist = historical_data.get("properties", historical_data)
+                canonical_doi = props_hist.get("sci:doi") or historical_data.get("sci:doi")
+                stac_id = historical_data.get("id")
+                raw_type = props_hist.get("osc:type", historical_data.get("osc:type", props_hist.get("type", "product")))
+                stac_type = "workflow" if raw_type == "workflow" else "product"
+                suffix = "/collection" if stac_type == "product" else "/record"
+
+                pubs_hist = props_hist.get("sci:publications", historical_data.get("sci:publications", []))
+                dois_to_process = []
+                if canonical_doi and (not prefix or canonical_doi.startswith(prefix)):
+                    dois_to_process.append(canonical_doi)
+                for pub in pubs_hist:
+                    v_doi = pub.get("doi")
+                    if v_doi and (not prefix or v_doi.startswith(prefix)):
+                        dois_to_process.append(v_doi)
+
+                for doi in set(dois_to_process):
+                    try:
+                        state = client.get_doi_state(doi)
+                        if state == "draft":
+                            print(f"Deleting Draft DOI {doi} for deleted file {file_path}")
+                            client.delete_doi(doi)
+                        elif state in ["findable", "registered"]:
+                            print(f"Tombstoning published DOI {doi} for deleted file {file_path}")
+                            target_url = f"{PORTAL_UI_BASE_URL}/{stac_type}s/{stac_id}{suffix}"
+                            client.update_doi(doi, {"event": "register", "url": target_url})
+                    except Exception as e:
+                        print(f"Failed to tombstone/delete DOI {doi} for deleted file {file_path}: {e}")
+                        has_failures = True
+                continue
+
             canonical_doi, stac_item = extract_doi_from_file(file_path)
             if not canonical_doi:
                 print(f"Skipping {file_path}: No canonical DOI found.")

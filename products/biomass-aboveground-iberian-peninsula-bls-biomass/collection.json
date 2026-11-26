@@ -1,4 +1,8 @@
 {
+  "sci:publications": [
+    {"doi": "10.5281/zenodo.24346310"}
+  ,
+    {"doi": "10.83395/9nq7-6955"}],
   "type": "Collection",
   "id": "biomass-aboveground-iberian-peninsula-bls-biomass",
   "stac_version": "1.0.0",
@@ -92,7 +96,7 @@
       ]
     }
   ],
-  "sci:doi": "10.5281/zenodo.24346310",
+  "sci:doi": "10.83395/scew-q349",
   "cf:parameter": [
     {
       "name": "aboveground_biomass_density_map_coefficient_of_variation"
