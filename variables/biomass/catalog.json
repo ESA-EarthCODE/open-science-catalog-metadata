@@ -5,6 +5,11 @@
   "description": "Mass of biological material. Usually the total mass of a particular group or category; for example, the biomass of producer organisms.[Nebel, Bernard J and Wright, Richard T. Environmental Science. 1998. Prentice Hall.]",
   "links": [
     {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/biomass/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
@@ -35,15 +40,34 @@
       "title": "Variables"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/biomass/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-aboveground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "AboveGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-belowground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "BelowGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-litter-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Litter Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-shrub-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Shrub Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
     }
   ],
   "stac_extensions": [

@@ -1,0 +1,132 @@
+{
+  "type": "Collection",
+  "id": "bls-biomass",
+  "stac_version": "1.0.0",
+  "description": "Accurate quantification of terrestrial biomass is essential for assessing carbon stocks and supporting climate change mitigation efforts. While Aboveground Biomass Density (AGBD) is commonly used as a proxy for ecosystem carbon storage, neglecting Belowground Biomass Density (BGBD), Litter Biomass Density (LBD), and Shrub Biomass Density (SBD) can lead to substantial underestimation of total biomass stocks. The BLS-BIOMASS project (Below, Litter & Shrub BIOMASS density mapping), funded by the European Space Agency under FutureEO-1 Segment 2, aimed to develop a comprehensive framework for producing spatially explicit, wall-to-wall maps of AGBD, BGBD, LBD, and SBD, together with associated uncertainty estimates. The methodology integrated National Forest Inventory (NFI) field measurements with multi-source Earth Observation data, including Synthetic Aperture Radar (SAR) observations from ALOS-2 and Sentinel-1, multispectral imagery from Sentinel-2, and ancillary land cover and topographic information. Dedicated Extreme Gradient Boosting (XGBoost) models were developed for each biomass pool to capture complex relationships between field observations and remote sensing predictors. By combining optical, SAR, and environmental data sources, the project advances the mapping and monitoring of terrestrial biomass components beyond traditional aboveground assessments, contributing to more complete estimates of carbon storage and supporting future large-scale ecosystem monitoring applications.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.isa.ulisboa.pt/cef/en/projects/?_page=2",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/bls-biomass/",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-aboveground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "AboveGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-belowground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "BelowGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-litter-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Litter Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-shrub-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Shrub Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-11-19T16:34:40.999697Z",
+  "updated": "2026-11-19T16:34:40.999697Z",
+  "osc:status": "completed",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Stephen Plummer",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "Stephen.Plummer@esa.int"
+        }
+      ]
+    },
+    {
+      "name": "UNINOVA",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ISA-CEF",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "NMBU",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+  "title": "Below, Litter & Shrub BIOMASS density mapping combining optical, LiDAR and SAR Earth Observation data",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.56,
+          -36.0,
+          3.35,
+          43.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-01T00:00:00Z",
+          "2026-06-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

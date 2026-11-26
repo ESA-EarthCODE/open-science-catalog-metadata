@@ -1,0 +1,204 @@
+{
+  "type": "Collection",
+  "id": "biomass-belowground-iberian-peninsula-bls-biomass",
+  "stac_version": "1.0.0",
+  "description": "This product provides the belowground biomass for forest areas in several areas of Portugal and Spain, together with their corresponding uncertainty assessments. The areas in Portugal are Mafra, Monsanto, Pombal, Serra Lousã, Sintra-Cascais and Vila Pouca de Aguiar; and in Spain are Extremadura, Huesca-Zaragoza, Leon and Teruel. For each area the dataset includes individual raster maps in Cloud Optimized GeoTIFF (COG) format, with 25m resolution, for all extracted parameters, as well as a Parquet vector dataset containing the same parameters represented as a point cloud. The following statistical parameters are included: Coefficient of Variation, Interquartile Range, Kurtosis, Mean, Median, Relative Standard Error, Skewness, and Standard Error.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Project: Below, Litter & Shrub BIOMASS density mapping combining optical, LiDAR and SAR Earth Observation data"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ALOS-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ALOS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.24347014"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/biomass-belowground-iberian-peninsula-bls-biomass/collection",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-11-19T16:34:58.070010Z",
+  "updated": "2026-11-19T16:34:58.070010Z",
+  "osc:project": "bls-biomass",
+  "osc:status": "completed",
+  "osc:region": "Iberian Peninsula",
+  "osc:type": "product",
+  "osc:missions": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "ALOS-2"
+  ],
+  "osc:variables": [
+    "biomass"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.24347014",
+  "cf:parameter": [
+    {
+      "name": "belowground_biomass_density_map_coefficient_of_variation"
+    },
+    {
+      "name": "belowground_biomass_density_map_interquartile_range"
+    },
+    {
+      "name": "belowground_biomass_density_map_kurtosis"
+    },
+    {
+      "name": "belowground_biomass_density_map_mean"
+    },
+    {
+      "name": "belowground_biomass_density_map_median"
+    },
+    {
+      "name": "belowground_biomass_density_map_relative_standard_error"
+    },
+    {
+      "name": "belowground_biomass_density_map_skewness"
+    },
+    {
+      "name": "belowground_biomass_density_map_standard_error"
+    }
+  ],
+  "title": "BelowGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.342050927449515,
+          38.92667728689056,
+          -9.244066008338452,
+          38.99450966033266
+        ],
+        [
+          -9.226834140998479,
+          38.69653636055149,
+          -9.171234841206507,
+          38.74432165081844
+        ],
+        [
+          -8.656582241940114,
+          39.766266952093666,
+          -8.508471428041265,
+          39.86860803939959
+        ],
+        [
+          -8.299683019493898,
+          40.04201827638524,
+          -8.056938819014045,
+          40.177903392770624
+        ],
+        [
+          -9.492063370447148,
+          38.714718351229884,
+          -9.363519407543091,
+          38.84197317798542
+        ],
+        [
+          -7.772361273287379,
+          41.51777678544967,
+          -7.611662455807074,
+          41.65164065051754
+        ],
+        [
+          -7.5943722270907905,
+          37.90111317957376,
+          -4.62056915062936,
+          40.51915823898631
+        ],
+        [
+          -2.1726980254680934,
+          40.91100474095033,
+          0.798482603898369,
+          42.9427684111963
+        ],
+        [
+          -7.114901177561257,
+          42.01454448300999,
+          -4.789794511744933,
+          43.239379710810816
+        ],
+        [
+          -1.8149381017320187,
+          39.822029076416214,
+          0.30851066745784705,
+          41.37492582775765
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "biomass",
+    "carbon",
+    "forest",
+    "shrub"
+  ]
+}

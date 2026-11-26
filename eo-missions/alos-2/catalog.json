@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/alos-2/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/ALOS-2/catalog.json",
       "type": "application/json"
     },
     {
@@ -32,6 +32,30 @@
       "href": "../../products/eowetmet-annual-wetland-lake-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Wetland and Lake Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-aboveground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "AboveGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-belowground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "BelowGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-litter-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Litter Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/biomass-shrub-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Shrub Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
     }
   ],
   "updated": "2024-08-27T17:27:42.171831Z",

@@ -134,6 +134,12 @@
       "href": "./pikart-atmospheric-river-catalog-workflow/record.json",
       "type": "application/json",
       "title": "Building the PIKART atmospheric river datacube"
+    },
+    {
+      "rel": "item",
+      "href": "./bls-biomass-workflow/record.json",
+      "type": "application/json",
+      "title": "Jupyter Notebooks with the workflow to produce Biomass Density maps and their uncertainty analysis"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

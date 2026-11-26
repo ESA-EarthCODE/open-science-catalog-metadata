@@ -2158,10 +2158,34 @@
       "title": "pikart-atmospheric-river-catalog-v1-1"
     },
     {
-       "rel": "child",
+      "rel": "child",
       "href": "./coastdyn-adt-rep-2d-dataset/collection.json",
       "type": "application/json",
       "title": "ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./biomass-aboveground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "AboveGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "./biomass-belowground-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "BelowGround Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "./biomass-litter-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Litter Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
+    },
+    {
+      "rel": "child",
+      "href": "./biomass-shrub-iberian-peninsula-bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Shrub Biomass Density Map and uncertainty maps for several areas of Portugal and Spain"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

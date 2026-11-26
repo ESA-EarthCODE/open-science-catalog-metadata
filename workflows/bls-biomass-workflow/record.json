@@ -1,0 +1,76 @@
+{
+  "id": "bls-biomass-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Jupyter Notebooks with the workflow to produce Biomass Density maps and their uncertainty analysis",
+    "description": "This repository contains the Jupyter source code used to preprocess data from Sentinel-1, Sentinel-2, and ALOS-2, and to produce and analyze density maps for four biomass pools: aboveground, belowground, litter, and shrub biomass. The methodology is based on XGBoost machine learning regression models, which use data derived from the three satellite missions as input features. For each biomass pool, individual raster maps are generated in GeoTIFF format at 25 m spatial resolution for all extracted parameters. In addition, a GeoPackage vector dataset is produced, containing the same parameters represented as a point cloud. The following statistical metrics are provided for each parameter: coefficient of variation, interquartile range, kurtosis, mean, median, relative standard error, skewness, and standard error.",
+    "type": "workflow",
+    "osc:project": "bls-biomass",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      },
+      {
+        "name": "GeoPackage"
+      }
+    ],
+    "updated": "2026-11-19T16:37:42Z",
+    "created": "2026-11-19T16:37:42Z",
+    "keywords": [
+      "jupyter",
+      "biomass",
+      "machine learning",
+      "uncertainty"
+    ],
+    "license": "MIT",
+    "version": "1",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Project: Below, Litter & Shrub BIOMASS density mapping combining optical, LiDAR and SAR Earth Observation data"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/AndreMora-FCTNOVA/BLS-BIOMASS-workflows",
+      "type": "application/json",
+      "title": "Git source repository"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}

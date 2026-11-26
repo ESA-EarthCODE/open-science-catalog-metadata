@@ -1,0 +1,204 @@
+{
+  "type": "Collection",
+  "id": "biomass-shrub-iberian-peninsula-bls-biomass",
+  "stac_version": "1.0.0",
+  "description": "This product provides the shrub biomass for forest areas in several areas of Portugal and Spain, together with their corresponding uncertainty assessments. The areas in Portugal are Mafra, Monsanto, Pombal, Serra Lousã, Sintra-Cascais and Vila Pouca de Aguiar; and in Spain are Extremadura, Huesca-Zaragoza, Leon and Teruel. For each area the dataset includes individual raster maps in Cloud Optimized GeoTIFF (COG) format, with 25m resolution, for all extracted parameters, as well as a Parquet vector dataset containing the same parameters represented as a point cloud. The following statistical parameters are included: Coefficient of Variation, Interquartile Range, Kurtosis, Mean, Median, Relative Standard Error, Skewness, and Standard Error.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/bls-biomass/collection.json",
+      "type": "application/json",
+      "title": "Project: Below, Litter & Shrub BIOMASS density mapping combining optical, LiDAR and SAR Earth Observation data"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/ALOS-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: ALOS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.24347392"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/products/biomass-shrub-iberian-peninsula-bls-biomass/collection",
+      "title": "Access"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "created": "2026-11-19T16:34:58.477671Z",
+  "updated": "2026-11-19T16:34:58.477671Z",
+  "osc:project": "bls-biomass",
+  "osc:status": "completed",
+  "osc:region": "Iberian Peninsula",
+  "osc:type": "product",
+  "osc:missions": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "ALOS-2"
+  ],
+  "osc:variables": [
+    "biomass"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.24347392",
+  "cf:parameter": [
+    {
+      "name": "shrub_biomass_density_map_coefficient_of_variation"
+    },
+    {
+      "name": "shrub_biomass_density_map_interquartile_range"
+    },
+    {
+      "name": "shrub_biomass_density_map_kurtosis"
+    },
+    {
+      "name": "shrub_biomass_density_map_mean"
+    },
+    {
+      "name": "shrub_biomass_density_map_median"
+    },
+    {
+      "name": "shrub_biomass_density_map_relative_standard_error"
+    },
+    {
+      "name": "shrub_biomass_density_map_skewness"
+    },
+    {
+      "name": "shrub_biomass_density_map_standard_error"
+    }
+  ],
+  "title": "Shrub Biomass Density Map and uncertainty maps for several areas of Portugal and Spain",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.342828277451948,
+          38.926443189574556,
+          -9.24377424910507,
+          38.98933392226124
+        ],
+        [
+          -9.23733011882073,
+          38.69171077603765,
+          -9.162834545561445,
+          38.75385246984405
+        ],
+        [
+          -8.656879565865344,
+          39.76626563779678,
+          -8.507887898259295,
+          39.86928539757944
+        ],
+        [
+          -8.299690727813491,
+          40.04201827638524,
+          -8.056935294219311,
+          40.18105546446014
+        ],
+        [
+          -9.501850900241656,
+          38.71460456660754,
+          -9.362944639336128,
+          38.84197925294065
+        ],
+        [
+          -7.772361273287379,
+          41.51777678544967,
+          -7.611662455807074,
+          41.65164065051754
+        ],
+        [
+          -7.594109028142956,
+          37.90067457318163,
+          -4.620559244596781,
+          40.519608494455994
+        ],
+        [
+          -2.1777587231735467,
+          40.88628290955363,
+          0.798482603898369,
+          42.94280484995746
+        ],
+        [
+          -7.114901177561257,
+          42.01364605974739,
+          -4.789467158447465,
+          43.23938461796911
+        ],
+        [
+          -1.8149381017320187,
+          39.822029076416214,
+          0.30848789181523706,
+          41.37447554619808
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "biomass",
+    "carbon",
+    "forest",
+    "shrub"
+  ]
+}
