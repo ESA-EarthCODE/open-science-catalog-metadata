@@ -3,6 +3,7 @@
     {"doi": "10.83395/hcsb-ya37"}
   ],
   "sci:doi": "10.83395/m8wx-2r19",
+  "sci:citation": "Original Dataset: Magellium/LEGOS, 2025: 4DAtlantic-OHC, version 3.0 [Dataset], AVISO+/CNES. https://doi.org/10.24400/527896/a01-2022.012",
   "type": "Collection",
   "id": "4d-atlantic-ohc-global",
   "stac_version": "1.0.0",

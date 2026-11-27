@@ -3,6 +3,7 @@
     {"doi": "10.83395/g5zk-fk16"}
   ],
   "sci:doi": "10.83395/te3y-h268",
+  "sci:citation": "Original Dataset: Ballarotta, M., 2025: ESA COASTDyn - European Seas Gridded MIOST L4 Sea Surface Heights And Derived Variables [Dataset], Zenodo. https://doi.org/10.5281/zenodo.16793036",
   "type": "Collection",
   "id": "coastdyn-adt-rep-2d-dataset",
   "stac_version": "1.0.0",

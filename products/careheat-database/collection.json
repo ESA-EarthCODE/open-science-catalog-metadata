@@ -3,6 +3,7 @@
     {"doi": "10.83395/hg0k-dh94"}
   ],
   "sci:doi": "10.83395/df3b-j050",
+  "sci:citation": "Original Dataset: Verbrugge, N., 2024: 4-Dimensional Weekly Temperature and Marine Heatwaves Categories from ESA/CAREHeat project [Dataset], Ifremer/CERSAT. https://doi.org/10.12770/87a33c31-5930-4379-8cfa-0b29ceee9756",
   "type": "Collection",
   "id": "careheat-database",
   "stac_version": "1.0.0",

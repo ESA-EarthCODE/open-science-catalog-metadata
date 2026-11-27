@@ -3,6 +3,7 @@
     {"doi": "10.83395/xvyj-8n84"}
   ],
   "sci:doi": "10.83395/jkyd-hg26",
+  "sci:citation": "Original Dataset: https://climate.esa.int/en/projects/ice-sheets-antarctic/",
   "type": "Collection",
   "id": "ice-sheet-velocity-antarctic-2021",
   "stac_version": "1.0.0",

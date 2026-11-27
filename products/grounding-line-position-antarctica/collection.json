@@ -110,6 +110,7 @@
   "created": "2019-02-25T00:00:00Z",
   "version": "2.0",
   "sci:doi": "10.83395/6xpj-pn74",
+  "sci:citation": "Original Dataset: Rignot, E., Mouginot, J., and Scheuchl, B., 2016: MEaSUREs Antarctic Grounding Line from Differential Satellite Radar Interferometry, version 2 (NSIDC-0498) [Dataset], NASA NSIDC DAAC. https://doi.org/10.5067/IKBWW4RYHF1Q",
   "cf:parameter": [
     {
       "name": "grounding-line-position"

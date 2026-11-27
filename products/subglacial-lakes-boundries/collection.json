@@ -104,6 +104,7 @@
     }
   ],
   "sci:doi": "10.83395/22vh-e732",
+  "sci:citation": "Original Dataset: Wilson, S. F., Hogg, A. E., Rigby, R., Gourmelen, N., Slater, T., and Nias, I., 2025: Data for Detection of 85 new active subglacial lakes in Antarctica from a decade of CryoSat-2 data [Dataset], Zenodo. https://doi.org/10.5281/zenodo.16330565",
   "cf:parameter": [
     {
       "name": "subglacial-lake-extent"

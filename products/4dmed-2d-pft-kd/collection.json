@@ -3,6 +3,7 @@
     {"doi": "10.83395/s7ej-rb87"}
   ],
   "sci:doi": "10.83395/535c-wq08",
+  "sci:citation": "Original Dataset: Xi, H., and Bellido Rosas, A., 2025: 4DMED-2D Phytoplankton Functional Types (PFT) and Diffuse Attenuation Coefficients (Kd) (L3, 8 km, monthly, 2019\u20132021) [Dataset], Zenodo. https://doi.org/10.5281/zenodo.17077475",
   "type": "Collection",
   "id": "4dmed-2d-pft-kd",
   "stac_version": "1.0.0",

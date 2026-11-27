@@ -96,6 +96,7 @@
   "created": "2022-10-11T00:00:00Z",
   "version": "3.0",
   "sci:doi": "10.83395/3qxq-1k08",
+  "sci:citation": "Original Dataset: Morlighem, M., 2022: MEaSUREs BedMachine Antarctica, version 3 (NSIDC-0756) [Dataset], NASA NSIDC DAAC. https://doi.org/10.5067/FPSU0V1MWUB6",
   "cf:parameter": [
     {
       "name": "bedrock-topography-antarctica-bedmachine"

@@ -3,6 +3,7 @@
     {"doi": "10.83395/r16b-zb25"}
   ],
   "sci:doi": "10.83395/t1x0-8g16",
+  "sci:citation": "Original Dataset: Ubelmann, C. (Datlas) 2025. High-Frequency Total Horizontal Current at 15m Depth over Global Ocean Version 2 from ESA WOC project. Ver. 2.0. Obtained from CERSAT / Ifremer, Plouzane, France.",
   "type": "Collection",
   "id": "total-surface-current-15",
   "stac_version": "1.0.0",

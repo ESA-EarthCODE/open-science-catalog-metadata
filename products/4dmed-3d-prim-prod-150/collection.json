@@ -3,6 +3,7 @@
     {"doi": "10.83395/k8bf-rd60"}
   ],
   "sci:doi": "10.83395/5p0s-2049",
+  "sci:citation": "Original Dataset: - 4DMED-3D (L4) (1/24°) Primary Production Primary Production estimated from chlorophyll and temperature 3D fields at 1/24° from the surface down to 150 m https://4dmed.artov.ismar.cnr.it/thredds/catalog/4dmed/catalog_PP.html",
   "type": "Collection",
   "id": "4dmed-3d-prim-prod-150",
   "stac_version": "1.0.0",
