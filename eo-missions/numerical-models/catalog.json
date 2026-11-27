@@ -62,6 +62,12 @@
       "href": "../../products/eowetmet-pan-arctic-average-wetland-methane-flux/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Pan-Arctic Average Wetland Methane Flux Dataset (2015-2024)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/dheed-cube/collection.json",
+      "type": "application/json",
+      "title": "Dheed: a global database of dry and hot extreme events"
     }
   ],
   "updated": "2024-08-27T17:27:42.173831Z",

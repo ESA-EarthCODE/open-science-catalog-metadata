@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "event-cube-item",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[-179.75, -90.0], [-179.75, 90.0], [180.0, 90.0], [180.0, -90.0], [-179.75, -90.0]]]
+  },
+  "bbox": [-179.75, -90.0, 180.0, 90.0],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "description": "Vegetation Optical Depth (VOD) observations for monitoring vegetation dynamics and drought conditions.",
+    "start_datetime": "1950-01-01T00:00:00Z",
+    "end_datetime": "2023-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Dheed: a global database of dry and hot extreme events"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "Dheed: a global database of dry and hot extreme events"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/dheed/EventCube_ranked_pot0.01_ne0.1.zarr/",
+      "type": "application/vnd+zarr",
+      "title": "Event Cube Zarr",
+      "created": "2026-11-23T09:40:49.698248Z",
+      "cube:dimensions": {
+        "Ti": {
+          "extent": [
+            "1950-01-01T00:00:00Z",
+            "2023-12-31T00:00:00Z"
+          ],
+          "description": "Time",
+          "type": "temporal"
+        },
+        "longitude": {
+          "axis": "x",
+          "extent": [
+            0,
+            359.75
+          ],
+          "step": 1,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        },
+        "latitude": {
+          "axis": "y",
+          "extent": [
+            -90,
+            90
+          ],
+          "step": 1,
+          "reference_system": "epsg:4326",
+          "type": "spatial"
+        }
+      },
+      "cube:variables": {
+        "layer": {
+          "type": "data",
+          "description": "A global data cube for 1950–2023 classifying extreme and non-extreme conditions. It identifies extreme maximum temperatures (above the 99th percentile) and extreme drought conditions (below the 1st percentile) based on 30-, 90- and 180-day drought indicators.",
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "unit": "1",
+          "shape": [721, 1440, 27028],
+          "chunks": [6, 120, 5844]
+        }
+      },
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "deep-extreme-cubes",
+  "title": "Event Cube Zarr"
+}
