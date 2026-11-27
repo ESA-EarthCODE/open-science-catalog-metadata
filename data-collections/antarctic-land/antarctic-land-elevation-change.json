@@ -18,7 +18,7 @@
     "datetime": null,
     "start_datetime": "1991-01-01T00:00:00Z",
     "end_datetime": "2021-12-31T23:59:59Z",
-    "title": "Surface Elevation Change",
+    "title": "Antarctic Land-Ice - Surface Elevation Change",
     "description": "Antarctic surface-elevation change on a common 100 m grid.",
     "license": "various",
     "themes": [
@@ -57,7 +57,7 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/data-collections/antarctic-land/antarctic-land-elevation-change.json",
       "type": "application/geo+json",
-      "title": "Surface Elevation Change"
+      "title": "Antarctic Land-Ice - Surface Elevation Change"
     },
     {
       "rel": "root",

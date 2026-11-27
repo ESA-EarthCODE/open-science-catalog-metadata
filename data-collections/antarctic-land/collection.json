@@ -100,31 +100,31 @@
       "rel": "item",
       "href": "./antarctic-land-combined.json",
       "type": "application/geo+json",
-      "title": "antarctica-combined.zarr"
+      "title": "Antarctic Land-Ice - Combined Layers"
     },
     {
       "rel": "item",
       "href": "./antarctic-land-temperature.json",
       "type": "application/geo+json",
-      "title": "Ice Temperature Profiles"
+      "title": "Antarctic Land-Ice - Ice Temperature Profiles"
     },
     {
       "rel": "item",
       "href": "./antarctic-land-elevation-change.json",
       "type": "application/geo+json",
-      "title": "Surface Elevation Change"
+      "title": "Antarctic Land-Ice - Surface Elevation Change"
     },
     {
       "rel": "item",
       "href": "./antarctic-land-calving-fronts.json",
       "type": "application/geo+json",
-      "title": "Composite Antarctic Ice Mask"
+      "title": "Antarctic Land-Ice - Composite Ice Mask"
     },
     {
       "rel": "item",
       "href": "./antarctic-land-velocity.json",
       "type": "application/geo+json",
-      "title": "Antarctic Ice-Sheet Surface Velocity, 2014–2021"
+      "title": "Antarctic Land-Ice - Surface Velocity"
     },
     {
       "rel": "related",

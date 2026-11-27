@@ -153,25 +153,25 @@
       "rel": "item",
       "href": "./mediterranean-sea-monthly.json",
       "type": "application/geo+json",
-      "title": "Monthly fields"
+      "title": "Mediterranean Sea - Monthly Fields"
     },
     {
       "rel": "item",
       "href": "./mediterranean-sea-daily-surface.json",
       "type": "application/geo+json",
-      "title": "Daily surface fields"
+      "title": "Mediterranean Sea - Daily Surface Fields"
     },
     {
       "rel": "item",
       "href": "./mediterranean-sea-daily-biophysics.json",
       "type": "application/geo+json",
-      "title": "Daily biophysics"
+      "title": "Mediterranean Sea - Daily Biophysics"
     },
     {
       "rel": "item",
       "href": "./mediterranean-sea-hourly-currents.json",
       "type": "application/geo+json",
-      "title": "Hourly currents"
+      "title": "Mediterranean Sea - Hourly Currents"
     },
     {
       "rel": "related",
