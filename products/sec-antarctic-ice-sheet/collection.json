@@ -3,6 +3,7 @@
     {"doi": "10.83395/ypjn-s484"}
   ],
   "sci:doi": "10.83395/j49f-wn95",
+  "sci:citation": "Original Dataset: https://climate.esa.int/en/projects/ice-sheets-antarctic/",
   "type": "Collection",
   "id": "sec-antarctic-ice-sheet",
   "stac_version": "1.0.0",

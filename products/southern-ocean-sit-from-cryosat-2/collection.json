@@ -3,6 +3,7 @@
     {"doi": "10.83395/64qf-qr86"}
   ],
   "sci:doi": "10.83395/h0zb-sd78",
+  "sci:citation": "Original Dataset: https://cryosat.mssl.ucl.ac.uk/csao/public-docs.html",
   "type": "Collection",
   "id": "southern-ocean-sit-from-cryosat-2",
   "stac_version": "1.0.0",

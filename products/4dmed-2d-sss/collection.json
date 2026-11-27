@@ -3,6 +3,7 @@
     {"doi": "10.83395/7brg-dv33"}
   ],
   "sci:doi": "10.83395/e9dy-em84",
+  "sci:citation": "Original Dataset: Sammartino, M., and Buongiorno Nardelli, B., 2024: ESA 4DMED-SEA - Mediterranean Multivariate Optimal Interpolated Salinity and Density fields [Dataset], Zenodo. https://doi.org/10.5281/zenodo.13753090",
   "type": "Collection",
   "id": "4dmed-2d-sss",
   "stac_version": "1.0.0",

@@ -3,6 +3,7 @@
     {"doi": "10.83395/z10j-fh30"}
   ],
   "sci:doi": "10.83395/r1nj-ah50",
+  "sci:citation": "Original Dataset: Meda, G., and Ballarotta, M., 2024: ESA 4DMED-SEA - Mediterranean Sea Gridded L4 4DvarNET (1/20\u00b0) Sea Surface Heights And Derived Variables [Dataset], Zenodo. https://doi.org/10.5281/zenodo.10912777",
   "type": "Collection",
   "id": "4dmed-2d-alt-varnet-20",
   "stac_version": "1.0.0",

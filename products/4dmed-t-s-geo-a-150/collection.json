@@ -3,6 +3,7 @@
     {"doi": "10.83395/f4vx-8z89"}
   ],
   "sci:doi": "10.83395/hzbx-y806",
+  "sci:citation": "Original Dataset: Sammartino, M., and Buongiorno Nardelli, B., 2024: ESA 4DMED-Sea - Neural network reconstruction of 3D Mediterranean bio-physical fields from surface observations at 1/24 deg [Dataset], Istituto di Scienze Marine, Consiglio Nazionale delle Ricerche (ISMAR-CNR). https://doi.org/10.25423/cmcc/4dmedsea_biophys_rep_3d",
   "type": "Collection",
   "id": "4dmed-t-s-geo-a-150",
   "stac_version": "1.0.0",

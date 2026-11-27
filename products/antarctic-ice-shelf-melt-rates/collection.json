@@ -106,6 +106,7 @@
   "osc:type": "product",
   "created": "2023-06-18T00:00:00Z",
   "sci:doi": "10.83395/hvt3-4g06",
+  "sci:citation": "Original Dataset: Davison, B., 2023: Data and code for: \"Annual mass budget of Antarctic ice shelves from 1997 to 2021\" [Dataset], Zenodo. https://doi.org/10.5281/zenodo.8052519",
   "cf:parameter": [
     {
       "name": "antarctic_ice_shelf_melt_rates"
